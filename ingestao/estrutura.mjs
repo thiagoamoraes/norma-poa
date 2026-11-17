@@ -96,8 +96,9 @@ function fichaDoRotulo(rotulo) {
 /**
  * texto: texto extraído da norma. registro: registro do catálogo (normalizarRegistroSapl)
  * — usado como conferência independente de número, data e tipo.
+ * opcoes.ocr: o texto veio de reconhecimento óptico (vira aviso, não reprova).
  */
-export function estruturarNorma(texto, registro) {
+export function estruturarNorma(texto, registro, opcoes = {}) {
   const motivos = [];
   const avisos = [];
   const blocos = detectNRCandidates(texto);
@@ -191,6 +192,7 @@ export function estruturarNorma(texto, registro) {
   if (cons.rotulosDivergentes.length) motivos.push('rotulo_nao_confere_com_a_origem');
   if (proximoBloco !== blocos.length) motivos.push('bloco_de_alteracao_sem_dono');
 
+  if (opcoes.ocr) avisos.push('texto_de_ocr'); // lido de imagem: pode ter troca de caracteres
   if (/^\s*ANEXO\b/m.test(texto)) avisos.push('tem_anexo');
   const maior = dispositivos.reduce((m, d) => Math.max(m, (d.texto || '').length), 0);
   if (maior > 4000) avisos.push('dispositivo_muito_longo');

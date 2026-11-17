@@ -1281,3 +1281,23 @@ conferência, não como gabarito.
   relatório, cabeçalho pelo catálogo, OCR, atos da Câmara pelo DOPA, busca no
   texto, busca por sentido, extensões da minuta), pendências que dependem de
   decisão, manutenção da rotina e mapa do código.
+
+# Rodada 18 — OCR e documento repetido em PDF (17/11/2026)
+
+Nenhuma mudança no `norma-core.js`.
+
+- **`ingestao/ocr.mjs`**: `pdftoppm` (300 dpi, cinza) + `tesseract` em
+  português, página a página; limite de 60 páginas por arquivo. Roda dentro do
+  `baixar-textos.mjs`, na hora do download.
+- **Achado com dado real:** as digitalizações dos anos 1980 da fonte JÁ trazem
+  camada de texto, mas ruim e incompleta — a LC 51/1980 tem 853 caracteres na
+  camada do arquivo e 2.174 no OCR daqui. Por isso o critério não é só "sem
+  texto": `pdfDigitalizado` reconhece a digitalização pela imagem de página
+  (≥ 80% das páginas com imagem cobrindo mais de um terço da folha; brasão e
+  selo de assinatura não contam) e fica a leitura que trouxer mais texto.
+- Medido: ~3 s por página datilografada; LC 193/1988 (19 páginas), 108 s.
+- **`removerRepeticaoDeTexto`**: PDF que traz o documento inteiro repetido
+  (LC 692/2012, 3 cópias) fica com uma cópia; a contagem vai para o índice.
+- Estruturação: aviso `texto_de_ocr`; a página avisa o leitor.
+- Testes: `teste_ocr.mjs` (7, com a LC 51/1980 real; pula se não houver
+  tesseract) e `teste_textos_sapl.mjs` 21 → 24.

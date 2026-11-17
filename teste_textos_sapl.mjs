@@ -6,7 +6,7 @@
 // Sem rede. Uso: node teste_textos_sapl.mjs
 
 import { readFile } from 'node:fs/promises';
-import { htmlSirelParaTexto, removerRepeticaoIntegral, contarAlfanumericos, extensaoDaUrl } from './ingestao/extracao-texto.mjs';
+import { htmlSirelParaTexto, removerRepeticaoIntegral, removerRepeticaoDeTexto, contarAlfanumericos, extensaoDaUrl } from './ingestao/extracao-texto.mjs';
 import { filaDeDownload, normalizarRegistroSapl, normalizarVinculoSapl } from './ingestao/sapl-comum.mjs';
 
 let passou = 0, falhou = 0;
@@ -28,6 +28,16 @@ ok('Lei 9.113/2003: o arquivo traz o documento 3 vezes; fica uma cópia e a cont
 ok('(sintético) repetição parcial não é mexida', removerRepeticaoIntegral(['a', 'b', 'c', 'a', 'b', 'x']).repeticoes === 1);
 ok('(sintético) bloco curto demais (menos de 3 linhas) não é tratado como repetição', removerRepeticaoIntegral(['a', 'a', 'a', 'a']).repeticoes === 1);
 ok('contarAlfanumericos ignora pontuação e espaço ("º" conta como letra)', contarAlfanumericos('Art. 1º – a b') === 7);
+
+// --- documento repetido em texto de PDF (real: LC 692/2012) -----------------
+{
+  const bruto = await readFile('./fixtures/lc320/lc692.txt', 'utf8');
+  const r = removerRepeticaoDeTexto(bruto);
+  ok('LC 692/2012 (PDF com a lei 3 vezes): fica uma cópia, com a contagem', r.repeticoes === 3 && (r.texto.match(/LEI COMPLEMENTAR Nº 692/g) || []).length === 1 && (bruto.match(/LEI COMPLEMENTAR Nº 692/g) || []).length === 3);
+  ok('LC 692/2012: a cópia que fica vai até o fim do fecho e mantém a formatação das linhas', /Registre-se e publique-se/.test(r.texto) === /Registre-se e publique-se/.test(bruto) && bruto.startsWith(r.texto.slice(0, 200)));
+  const lc514 = await readFile('./fixtures/lc320/lc514.txt', 'utf8');
+  ok('texto sem repetição não é tocado (LC 514/2004)', removerRepeticaoDeTexto(lc514).repeticoes === 1 && removerRepeticaoDeTexto(lc514).texto === lc514);
+}
 
 // --- extensaoDaUrl -------------------------------------------------------
 ok('extensaoDaUrl: PDF com %20 no nome', extensaoDaUrl('https://legislacao.portoalegre.rs.gov.br/media/sapl/public/normajuridica/sirel/LC%20135.pdf') === 'pdf');

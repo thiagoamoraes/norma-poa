@@ -118,3 +118,19 @@ export function docxParaTexto(bytes) {
   }
   return linhas.join('\n') + '\n';
 }
+
+/**
+ * Texto extraído (de PDF, por exemplo) que traz o documento inteiro repetido —
+ * caso real: PDF da LC 692/2012, que é a impressão de uma página com a lei 3
+ * vezes. Devolve { texto, repeticoes }: só a 1ª cópia, com a formatação dela.
+ * Mesma regra de removerRepeticaoIntegral: só igualdade exata, linha a linha.
+ */
+export function removerRepeticaoDeTexto(texto) {
+  const linhas = String(texto).replace(/\f/g, '\n').split('\n');
+  const cheias = [];
+  linhas.forEach((l, i) => { if (l.trim()) cheias.push(i); });
+  const { repeticoes } = removerRepeticaoIntegral(cheias.map((i) => linhas[i].trim()));
+  if (repeticoes === 1) return { texto, repeticoes: 1 };
+  const ultima = cheias[cheias.length / repeticoes - 1];
+  return { texto: linhas.slice(0, ultima + 1).join('\n') + '\n', repeticoes };
+}

@@ -21,12 +21,15 @@ import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { filaDeDownload } from './sapl-comum.mjs';
 import { requisitar, prazoEsgotado, lerJsonl, agora, ErroDefinitivo } from './sapl-io.mjs';
-import { htmlSirelParaTexto, docxParaTexto, contarAlfanumericos, extensaoDaUrl, MINIMO_ALFANUMERICOS } from './extracao-texto.mjs';
+import { ocrDisponivel, ocrDoPdf, pdfDigitalizado } from './ocr.mjs';
+import { htmlSirelParaTexto, docxParaTexto, removerRepeticaoDeTexto, contarAlfanumericos, extensaoDaUrl, MINIMO_ALFANUMERICOS } from './extracao-texto.mjs';
 
 const DIR_CATALOGO = './dados/catalogo/sapl';
 const DIR_BRUTO = './dados/_bruto/sapl';
 const DIR_TEXTO = './dados/textos/sapl';
 const ARQ_INDICE = path.join(DIR_TEXTO, '_indice.jsonl');
+
+const TEM_OCR = ocrDisponivel();
 
 function extrair(ext, caminhoBruto, bytes) {
   if (ext === 'pdf') {
@@ -34,8 +37,26 @@ function extrair(ext, caminhoBruto, bytes) {
     let texto;
     try { texto = execFileSync('pdftotext', ['-layout', caminhoBruto, '-'], { encoding: 'utf8', maxBuffer: 256 * 1024 * 1024, stdio: ['ignore', 'pipe', 'ignore'] }); }
     catch (e) { return { metodo: 'pdftotext', situacao: 'falha_na_extracao', texto: null }; }
-    if (contarAlfanumericos(texto) < MINIMO_ALFANUMERICOS) return { metodo: 'pdftotext', situacao: 'sem_camada_de_texto', texto: null };
-    return { metodo: 'pdftotext', situacao: 'ok', texto };
+    if (contarAlfanumericos(texto) < MINIMO_ALFANUMERICOS) {
+      // PDF que é só imagem: lê por OCR na hora, enquanto o arquivo está na máquina
+      // (depois ele só existe dentro do pacote da Release). Sem OCR instalado, ou
+      // arquivo grande demais, fica marcado para depois — nunca some.
+      if (!TEM_OCR) return { metodo: 'pdftotext', situacao: 'sem_camada_de_texto', texto: null };
+      const o = ocrDoPdf(caminhoBruto);
+      if (!o.texto) return { metodo: 'ocr', situacao: o.motivo, texto: null, paginas: o.paginas };
+      if (contarAlfanumericos(o.texto) < MINIMO_ALFANUMERICOS) return { metodo: 'ocr', situacao: 'ocr_sem_texto', texto: null, paginas: o.paginas };
+      return { metodo: 'ocr', situacao: 'ok', texto: o.texto, paginas: o.paginas };
+    }
+    // Digitalização que já traz camada de texto: essa camada costuma ser ruim e
+    // incompleta. Lê de novo por OCR e fica com a leitura que trouxer mais texto
+    // (com folga de 30%, para não trocar uma camada boa por um OCR equivalente).
+    if (TEM_OCR && pdfDigitalizado(caminhoBruto)) {
+      const o = ocrDoPdf(caminhoBruto);
+      const daCamada = contarAlfanumericos(texto);
+      if (o.texto && contarAlfanumericos(o.texto) > 1.3 * daCamada) return { metodo: 'ocr', situacao: 'ok', texto: o.texto, paginas: o.paginas, camadaOriginal: daCamada };
+    }
+    const unico = removerRepeticaoDeTexto(texto);
+    return { metodo: 'pdftotext', situacao: 'ok', texto: unico.texto, repeticoes: unico.repeticoes };
   }
   if (ext === 'html' || ext === 'htm') {
     const { texto, repeticoes } = htmlSirelParaTexto(bytes);
@@ -61,7 +82,7 @@ async function main() {
   }
   const resolvidos = new Set((await lerJsonl(ARQ_INDICE)).filter((l) => l.situacao === 'baixado' || l.situacao === 'erro_definitivo').map((l) => l.idSapl));
   const fila = filaDeDownload(catalogo, resolvidos);
-  console.log(`${agora()} fila: ${fila.length} arquivo(s) a baixar; ${resolvidos.size} já resolvido(s).`);
+  console.log(`${agora()} fila: ${fila.length} arquivo(s) a baixar; ${resolvidos.size} já resolvido(s). OCR ${TEM_OCR ? 'disponível' : 'NÃO instalado (PDF digitalizado ficará sem texto)'}.`);
 
   let feitos = 0;
   for (const r of fila) {
@@ -79,7 +100,7 @@ async function main() {
       await appendFile(ARQ_INDICE, JSON.stringify({
         ...base, em: agora(), situacao: 'baixado', formato: ext, contentType, bytes: bytes.length,
         sha256: createHash('sha256').update(bytes).digest('hex'),
-        extracao: { metodo: ex.metodo, situacao: ex.situacao, alfanumericos: ex.texto ? contarAlfanumericos(ex.texto) : 0, ...(ex.repeticoes > 1 ? { repeticoesRemovidas: ex.repeticoes } : {}) },
+        extracao: { metodo: ex.metodo, situacao: ex.situacao, alfanumericos: ex.texto ? contarAlfanumericos(ex.texto) : 0, ...(ex.repeticoes > 1 ? { repeticoesRemovidas: ex.repeticoes } : {}), ...(ex.paginas ? { paginas: ex.paginas } : {}), ...(ex.camadaOriginal !== undefined ? { alfanumericosDaCamadaOriginal: ex.camadaOriginal } : {}) },
       }) + '\n');
       console.log(`${agora()} ${r.rotulo} → ${ext}, ${bytes.length} bytes, extração: ${ex.situacao}`);
     } catch (e) {

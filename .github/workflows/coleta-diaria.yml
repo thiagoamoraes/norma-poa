@@ -47,12 +47,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Instalar pdftotext
-        run: sudo apt-get install -y --no-install-recommends poppler-utils
+      - name: Instalar pdftotext e OCR
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends poppler-utils tesseract-ocr tesseract-ocr-por
       - name: Dependências (pdfjs-dist, usado na leitura dos cadernos do DOPA)
         run: npm ci --no-audit --no-fund
       - name: Testes da ingestão (sem rede)
-        run: node teste_catalogo_sapl.mjs && node teste_textos_sapl.mjs && node teste_estrutura.mjs && node teste_versionamento.mjs && node teste_historico.mjs && node teste_minuta.mjs
+        run: node teste_catalogo_sapl.mjs && node teste_textos_sapl.mjs && node teste_estrutura.mjs && node teste_versionamento.mjs && node teste_historico.mjs && node teste_minuta.mjs && node teste_ocr.mjs
       - name: Rotina de coleta
         id: rotina
         run: |

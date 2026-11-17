@@ -49,7 +49,7 @@ for (const [id, ind] of baixados) {
     const texto = (await readFile(arqTexto, 'utf8')).replace(/\f/g, '\n');
     const r = catalogo.get(id) || null;
     try {
-      reg = { idSapl: id, rotulo: r?.rotulo ?? ind.rotulo, sha256Origem: ind.sha256, estruturadoEm: agora(), ...estruturarNorma(texto, r) };
+      reg = { idSapl: id, rotulo: r?.rotulo ?? ind.rotulo, sha256Origem: ind.sha256, estruturadoEm: agora(), ...estruturarNorma(texto, r, { ocr: ind.extracao?.metodo === 'ocr' }) };
     } catch (e) {
       comErro++;
       reg = { idSapl: id, rotulo: r?.rotulo ?? ind.rotulo, sha256Origem: ind.sha256, estruturadoEm: agora(), versaoEstruturador: VERSAO_ESTRUTURADOR, dispositivos: [],

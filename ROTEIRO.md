@@ -38,7 +38,7 @@ for t in teste_regressao teste_vetado_provenencia teste_pecas_2_3 teste_lei_publ
 ```
 
 Contagens de referência em 17/11/2026: 47 · 13 · 30 · 11 · 29 · 7 · 16 · 72 ·
-24 · 26 · 21 · 28 · 34 · 24 · 33, todas sem falha. (`teste_pdf_normas` precisa
+24 · 26 · 24 · 28 · 34 · 24 · 33, todas sem falha; mais `teste_ocr.mjs` (7; pula se não houver tesseract). (`teste_pdf_normas` precisa
 de `npm ci`.)
 
 ### 0.3 Regras que mais custam caro quando esquecidas
@@ -154,7 +154,24 @@ cabeçalho largo demais passa a casar com citações no corpo do texto.
 
 ---
 
-## 3. Texto dos PDFs digitalizados (OCR)
+## 3. Texto dos PDFs digitalizados (OCR) — FEITO em 17/11/2026 (falta o que está no fim desta nota)
+
+> Implementado de forma mais simples que o plano abaixo: o OCR roda **na hora do
+> download**, dentro de `baixar-textos.mjs` (`ingestao/ocr.mjs`), enquanto o
+> arquivo está na máquina — por isso não há passivo a recuperar da Release.
+> Entra em dois casos: PDF sem camada de texto, e PDF **digitalizado que já traz
+> camada de texto ruim** (`pdfDigitalizado`: imagem de página em ≥ 80% das
+> páginas) — aí fica a leitura que trouxer mais texto (folga de 30%). O índice
+> registra `extracao.metodo: 'ocr'`; a estruturação põe o aviso `texto_de_ocr` e
+> a página avisa o leitor. Teste: `teste_ocr.mjs`, com a LC 51/1980 real.
+> **Falta:** (1) arquivos com mais de 60 páginas ficam com
+> `ocr_adiado_arquivo_grande` — fazer um passe próprio para eles (baixar de novo
+> ou da Release, um por execução); (2) conferir à mão, contra a imagem, umas 10
+> leis lidas por OCR e anotar a taxa de aceitação delas no relatório; (3) o
+> texto de OCR tem defeitos típicos ("NO 51" por "Nº 51", "ae" por "de") — NÃO
+> corrigir no texto; se a taxa de aceitação for baixa demais, estudar
+> pré-processamento da IMAGEM (contraste, endireitar), não do texto.
+> O plano original segue abaixo, como registro.
 
 **Por quê.** Quase tudo anterior a 1990 é imagem. Sem OCR, o histórico das
 leis antigas fica cortado e a busca não as alcança.

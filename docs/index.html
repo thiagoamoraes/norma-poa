@@ -361,7 +361,8 @@ async function abrir(id, rolar) {
   const estado = v.situacao === 'aceita'
     ? '<div class="estado ok">Leitura automática conferida: número, data e tipo batem com o catálogo; artigos sem salto; nenhum trecho do arquivo ficou de fora. Ainda assim, confira na fonte.</div>'
     : `<div class="estado al">Leitura automática <strong>não conferida</strong> (${esc(v.motivos.join(', '))}). O texto abaixo pode estar incompleto ou mal dividido — use a fonte.</div>`;
-  const partes = [estado, '<div class="texto">'];
+  const ocr = (v.avisos || []).includes('texto_de_ocr') ? '<div class="estado al">Este texto foi obtido por reconhecimento óptico de um documento digitalizado e pode ter erros de leitura (letras e sinais trocados). Compare com o arquivo original.</div>' : '';
+  const partes = [estado, ocr, '<div class="texto">'];
   if (e.preambulo) partes.push(`<p>${esc(e.preambulo)}</p>`);
   for (const x of e.dispositivos) {
     for (const g of x.agrupadores || []) partes.push(`<div class="grupo">${esc(GRUPO[g.tipo] || g.tipo)} ${esc(g.numero)}${g.titulo ? '<br>' + esc(g.titulo) : ''}</div>`);
