@@ -110,4 +110,5 @@ const L = ['# Histórico — relatório', '', `Gerado em ${agora()} por \`ingest
 if (comErro.length) L.push('## Erros do leitor', '', ...comErro.slice(0, 200).map((x) => `- ${x}`), '');
 if (semBase.length) L.push('## Aguardando o texto da lei-base', '', semBase.length > 200 ? `Mostrando 200 de ${semBase.length}.` : '', '', ...semBase.slice(0, 200).map((x) => `- ${x}`), '');
 await writeFile(path.join(DIR, 'RELATORIO.md'), L.join('\n'));
+await writeFile(path.join(DIR, '_resumo.json'), JSON.stringify({ em: agora(), leis: leis.size, completas: cont.completas, incompletas: cont.incompletas, semTextoDaBase: cont.semTextoDaBase, erro: cont.erro }) + '\n');
 console.log(`${agora()} histórico: ${cont.apuradas} lei(s) apurada(s) (${cont.completas} completas, ${cont.incompletas} incompletas), ${cont.semTextoDaBase} sem texto da base, ${cont.erro} com erro; ${cont.regravadas} arquivo(s) regravado(s).`);

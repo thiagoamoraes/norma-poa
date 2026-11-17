@@ -38,6 +38,8 @@ if [ -n "${PARAR_EM_UTC:-}" ]; then
 fi
 falhas=0
 primeira=1
+inicio=$(date +%s)
+resultados=""
 
 etapa() { # nome, comando...
   local nome="$1"; shift
@@ -46,7 +48,7 @@ etapa() { # nome, comando...
   if [ "$primeira" -eq 0 ]; then sleep 60; fi
   primeira=0
   echo "=== $nome ($(date -u +%FT%TZ))"
-  "$@" || { echo "!!! etapa $nome terminou com erro"; falhas=$((falhas + 1)); }
+  if "$@"; then resultados="${resultados}\"${nome}\":\"ok\","; else echo "!!! etapa $nome terminou com erro"; falhas=$((falhas + 1)); resultados="${resultados}\"${nome}\":\"erro\","; fi
 }
 
 etapa novidades node ingestao/catalogo-sapl.mjs --novidades
@@ -70,4 +72,10 @@ echo "=== histórico das leis listadas em dados/historico/_piloto.json (sem rede
 node ingestao/gerar-historico.mjs || falhas=$((falhas + 1))
 echo "=== dados da página de consulta"
 node ingestao/gerar-site.mjs || falhas=$((falhas + 1))
+echo "=== painel de situação"
+# uma linha por execução em dados/_execucoes.jsonl: é o que o painel usa para
+# dizer se a rotina está viva e se as últimas noites deram certo
+fim=$(date +%s)
+printf '{"em":"%s","minutos":%d,"falhas":%d,"evento":"%s","run":"%s","etapas":{%s}}\n' "$(date -u +%FT%TZ)" $(( (fim - inicio) / 60 )) "$falhas" "${GITHUB_EVENT_NAME:-local}" "${GITHUB_RUN_NUMBER:-}" "${resultados%,}" >> dados/_execucoes.jsonl
+node ingestao/situacao.mjs || true
 exit "$falhas"

@@ -117,6 +117,8 @@ existir, prevalece):
 | Repositório público (sem cota; 320 min/noite) | ≈ 310 arquivos/noite | ≈ 4 semanas |
 | Máquina própria ligada à noite (`MINUTOS=600 bash ingestao/rotina.sh`) | ≈ 590 arquivos/noite | ≈ 2 semanas |
 
+**Painel de situação e seguro de dados.** Cada execução acrescenta uma linha a `dados/_execucoes.jsonl` e regenera `dados/SITUACAO.md` (em carga × em dia, alertas, o que fazer). Se a gravação no repositório falhar, os dados ficam 30 dias como artefato da execução. Operação sem análise e regime permanente: `ROTEIRO.md`, seções 10-A e 10-B.
+
 **Limites conhecidos da rotina:**
 - Alteração de cadastro em norma antiga (fora do topo da listagem) só é vista
   na recarga mensal do catálogo.

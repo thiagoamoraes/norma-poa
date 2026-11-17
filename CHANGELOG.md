@@ -1339,3 +1339,26 @@ Nenhuma mudança no `norma-core.js`.
 - Observado e NÃO tratado: o `pdftotext` parte palavras em alguns PDFs de 2014
   ("Ex cetuam-se"); o leitor por pdfjs (`extrairTextoNorma`) lê certo nesse
   arquivo. Ver ROTEIRO.md, tarefa 1.
+
+# Rodada 20 — Operação sem análise e regime permanente (17/11/2026)
+
+Nenhuma mudança no `norma-core.js`.
+
+- **Painel de situação** (`ingestao/situacao.mjs` → `dados/SITUACAO.md` e
+  `situacao.json`), gerado no fim de toda execução, sem rede e sem IA. Decide
+  "em carga" × "em dia" por cinco critérios, calcula ritmo e previsão de
+  esvaziar a fila de textos e levanta alertas: execução parada há mais de 2
+  dias, duas execuções seguidas com erro, fila que não anda em 7 dias, norma do
+  Diário Oficial ausente há mais de 7 dias, dados acima de 800 MB. "O que
+  fazer agora" sai de regras fixas apontando a tarefa do roteiro.
+- **Registro de execuções**: a `rotina.sh` acrescenta uma linha por execução a
+  `dados/_execucoes.jsonl` (quando, duração, erros, resultado de cada etapa).
+- **Resumos em forma de dado**: `_resumo.json` da estruturação, do histórico e
+  da conferência com o Diário Oficial.
+- **Seguro de dados**: se a gravação no repositório falhar, `dados/` e
+  `docs/dados` são guardados como artefato por 30 dias (a execução de
+  validação de 17/11 perdeu o que coletou por um conflito de gravação).
+- **Roteiro**: seções 10-A (ficar sem análise e retomar; ramo `wip/` com
+  `EM_ANDAMENTO.md` para trabalho interrompido) e 10-B (regime permanente:
+  definição de "em dia", rotina semanal/mensal/trimestral, cuidados).
+- Testes: `teste_situacao.mjs` (16).

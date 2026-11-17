@@ -81,4 +81,5 @@ const L = ['# Estruturação — relatório', '', `Gerado em ${agora()} por \`in
   '## Fila de revisão', '', fila.length > 300 ? `Mostrando 300 de ${fila.length}.` : '', '',
   ...fila.slice(0, 300).map((f) => `- ${f.rotulo} (\`${f.id}\`): ${f.motivos.join(', ')}`), ''];
 await writeFile('./dados/estruturado/RELATORIO.md', L.join('\n'));
+await writeFile('./dados/estruturado/_resumo.json', JSON.stringify({ em: agora(), aceitas: contagem.aceita, revisar: contagem.revisar, motivos, avisos }) + '\n');
 console.log(`${agora()} estruturação: ${total} normas (${contagem.aceita} aceitas, ${contagem.revisar} a revisar); ${refeitos} processadas agora; ${comErro} com erro do leitor.`);

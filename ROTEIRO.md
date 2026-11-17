@@ -15,6 +15,8 @@ indicação em contrário. Não pule a seção 0.
 
 ### 0.1 Ver em que pé as coisas estão (5 minutos, sem rede)
 
+**Primeiro de tudo: `cat dados/SITUACAO.md`.** É gerado toda noite pela própria rotina (sem IA): diz se o acervo está "em carga" ou "em dia", se há alerta, o que fazer primeiro e como foram as últimas execuções. Se o arquivo não existir ou estiver velho (mais de 2 dias), já é o primeiro problema: ver a seção 10-A.
+
 ```
 git pull
 node -e "const e=require('./dados/catalogo/sapl/_estado.json').tipos;for(const k in e)console.log(k,e[k].proximaPagina+'/'+e[k].totalPaginas,e[k].concluido)"
@@ -34,11 +36,11 @@ node normateste.mjs > /tmp/antes.txt          # só imprime: comparar byte a byt
 for t in teste_regressao teste_vetado_provenencia teste_pecas_2_3 teste_lei_publicada \
          teste_peca4 teste_urn teste_gruposAntes teste_promulgacao_parcial teste_pdf_normas \
          teste_catalogo_sapl teste_textos_sapl teste_estrutura teste_versionamento \
-         teste_historico teste_minuta teste_leis_ordinarias; do node $t.mjs | tail -1; done
+         teste_historico teste_minuta teste_leis_ordinarias teste_situacao; do node $t.mjs | tail -1; done; bash teste_parar_em.sh | tail -1
 ```
 
 Contagens de referência em 17/11/2026: 47 · 13 · 30 · 11 · 29 · 7 · 16 · 72 ·
-24 · 26 · 33 · 28 · 34 · 24 · 33 · 20, todas sem falha; mais `teste_ocr.mjs` (7; pula se não houver tesseract). (`teste_pdf_normas` precisa
+24 · 26 · 33 · 28 · 34 · 24 · 33 · 20 · 16, todas sem falha; mais `teste_ocr.mjs` (7; pula se não houver tesseract). (`teste_pdf_normas` precisa
 de `npm ci`.)
 
 ### 0.3 Regras que mais custam caro quando esquecidas
@@ -65,7 +67,8 @@ de `npm ci`.)
    e a minuta nunca propõe renumerar, salvo o caso do parágrafo único.
 9. **Repositório público:** sem nomes de pessoas, cargos, planos de órgãos ou
    juízo sobre terceiros em código, documentos e commits.
-10. **Na dúvida sobre prática legislativa, pare e pergunte ao mantenedor**,
+10. **Trabalho interrompido não pode se perder.** Antes de começar uma tarefa, crie o ramo `wip/<tarefa>` e o arquivo `EM_ANDAMENTO.md` (tarefa, passo em que está, o que falta, o que já foi decidido); faça commit e push desse ramo a cada passo concluído; só leve para a `main` o que passa na bateria inteira. Ao terminar, apague o arquivo e feche o ramo. Quem retomar encontra o ponto exato (`git branch -r | grep wip/`) — o contêiner da sessão pode sumir a qualquer momento, e o que não foi enviado some junto.
+11. **Na dúvida sobre prática legislativa, pare e pergunte ao mantenedor**,
     mostrando o documento real. Não escolha em silêncio.
 
 ---
@@ -417,6 +420,60 @@ dois com um exemplo de lei real, nunca forçando o resultado.
 
 ---
 
+## 10-A. Se ficar um tempo sem análise por IA (e como retomar)
+
+**Princípio:** a coleta, a extração, a estruturação, o histórico, o relatório, a página e o painel de situação rodam toda noite **sem IA**, são retomáveis e não dependem de ninguém acordado. Ficar semanas sem análise **não perde dados**: só deixa acumular trabalho de análise. Por construção, o que a análise produz (correção do leitor, novos comandos) se aplica depois a tudo, porque o texto bruto e o extraído ficam guardados (`Release textos-brutos` e `dados/textos/`) e basta subir `VERSAO_ESTRUTURADOR` para reprocessar.
+
+**O que continua sozinho:** catálogo, vínculos, textos (PDF, HTML, DOCX, OCR), conferência com o Diário Oficial, estruturação com verificação, históricos, página de consulta, `dados/SITUACAO.md`.
+
+**O que se acumula, e por que está seguro:**
+
+| Acúmulo | Por que não se perde | Quando vira problema |
+|---|---|---|
+| Normas em revisão (estruturação e histórico) | É a lista de trabalho; o relatório se refaz sozinho | Nunca com prazo: é só fila |
+| Execução vermelha | A noite seguinte retoma de onde parou; o GitHub manda e-mail a cada falha; **se a falha for ao gravar, os dados ficam 30 dias como artefato** (Actions → a execução → Artifacts → `dados-nao-gravados-…`) | Se o mesmo erro se repetir por várias noites sem ninguém ver: o painel acusa ("duas últimas execuções com erro") |
+| Índice do Diário Oficial | Cada noite grava cabeçalho e link das normas em `dados/dopa/edicoes.jsonl`; o link do PDF da norma é o mesmo que a base da PGM usa, então deve valer depois (confirmar na tarefa 5) | A API só mostra 5 dias: **a rotina nunca pode ficar mais de 5 dias sem rodar** |
+| Tamanho dos dados | O painel mede e avisa a partir de 800 MB | Só se subir `VERSAO_ESTRUTURADOR` sem cuidado (reescreve tudo): ver seção 10 |
+
+**O que NÃO se resolve sozinho e tem prazo (é o que o painel vigia):**
+1. **Agendamento parado.** O GitHub pode atrasar ou descartar execuções agendadas (visto em 17/11/2026: a primeira não disparou). Sem execução há mais de 2 dias, o painel acusa — mas só quem abre o painel vê. **Conferência semanal de 1 minuto, por quem for:** aba Actions do repositório, ver se há execução nas últimas noites. Se não houver: disparar manualmente (`workflow_dispatch`) e ver a seção 10 (alternativas: disparo externo, máquina própria).
+2. **Agendamento desativado por inatividade.** O GitHub desativa agendamentos de repositórios públicos sem atividade por 60 dias. Os commits noturnos da própria rotina devem contar como atividade (**não confirmado**); se a coleta parar de rodar, a aba Actions mostra um aviso com botão para reativar.
+3. **A fonte pedir para parar ou mudar o ritmo:** quem mantém a fonte pode abrir uma *issue* no repositório. Atender é decisão do mantenedor.
+
+**Retomada — checklist (use também depois de qualquer interrupção):**
+1. `git pull`; `git branch -r | grep wip/` — há trabalho interrompido? Se houver, comece por ele (`EM_ANDAMENTO.md` no ramo).
+2. `cat dados/SITUACAO.md` — estado, alertas, "o que fazer agora".
+3. Aba Actions: execuções vermelhas desde a última sessão; **artefatos `dados-nao-gravados-*`** (se existirem, restaurar antes de tudo: baixar, descompactar na raiz, commit).
+4. Bateria completa (seção 0.2) — tem de estar toda verde antes de mexer.
+5. Seguir o "O que fazer agora" do painel; depois, as tarefas do roteiro em ordem.
+
+**Quem opera sem IA (o mantenedor sozinho):** abrir `dados/SITUACAO.md` no GitHub e olhar três coisas — "Estado", "Alertas" e a tabela das últimas execuções. Nada mais é necessário para saber se a coleta está viva.
+
+---
+
+## 10-B. Quando o acervo estiver em dia (regime permanente)
+
+**Quando está "em dia":** o painel mostra **EM DIA** quando (1) o catálogo dos quatro tipos está completo, (2) os vínculos estão completos, (3) a fila de textos está vazia, (4) as últimas 3 execuções não tiveram erro e (5) nenhuma norma do Diário Oficial publicada há mais de 7 dias falta no catálogo da fonte. A decisão é de `avaliarSituacao()` em `ingestao/situacao.mjs`, testada em `teste_situacao.mjs`. Ficam de fora do critério, de propósito, e aparecem em "o que fazer agora": normas em revisão, históricos incompletos, OCR adiado, formatos sem extração — são trabalho de análise, não de coleta.
+
+**O que a rotina faz em regime (sozinha):** cada noite lê o topo do catálogo de cada tipo (4 requisições) para achar norma nova ou alterada, confere o Diário Oficial, baixa os poucos textos novos, estrutura, refaz os históricos das leis alteradas, regenera a página e o painel. Termina em minutos, não em horas: cada etapa sai quando a fila acaba. No dia 1º de cada mês refaz o catálogo inteiro (para pegar alteração de cadastro em norma antiga), o que leva umas 3 horas.
+
+**Rotina humana de acompanhamento (10 minutos):**
+
+| Quando | O que olhar | O que fazer se estiver ruim |
+|---|---|---|
+| Toda semana | `dados/SITUACAO.md` (estado, alertas, últimas execuções) e a aba Actions | Alerta → seção 10-A e seção 10 |
+| Depois de cada dia 1º | O total de registros de cada tipo no catálogo **não pode ter caído** (norma retirada da fonte) e a taxa de aceitação da estruturação não pode ter piorado | Queda: não apagar nada; abrir tarefa 1/4 com o caso |
+| A cada trimestre | Conferir à mão 10 normas novas "aceitas" contra a fonte, de tipos e épocas diferentes; anotar no `PLANO.md` | Divergência: tarefa 1, com a norma como fixture |
+| Quando surgir tipo novo de comando, anexo ou forma de cabeçalho | O relatório de estruturação ou o histórico mostram motivo novo | Seção 1 ou 4 do roteiro |
+
+**Cuidados em regime:**
+- Nunca deixar passar mais de **5 dias sem execução** (a conferência com o Diário Oficial só vê 5 dias).
+- Norma nova já entra com a estruturação e o histórico completos, mas a lei que ela altera só tem histórico correto se a lei-alvo estiver "aceita" (`baseConferida`): o painel mostra quantas faltam.
+- Ampliar o escopo (decretos, portarias, resoluções de conselhos) é decisão do mantenedor e se faz acrescentando tipos em `ESCOPO_INICIAL` e `TIPOS_PADRAO`; o catálogo da fonte já tem 51 mil normas, o escopo atual cobre ~16 mil.
+- Se o painel disser EM DIA e a página de consulta não tiver a norma que o Diário publicou ontem, é normal: a fonte cadastra com atraso (mediana medida: no mesmo dia; algumas levam dias). O painel só reclama após 7 dias.
+
+---
+
 ## 11. Mapa rápido do código
 
 | Arquivo | Papel | Rede? |
@@ -431,6 +488,7 @@ dois com um exemplo de lei real, nunca forçando o resultado.
 | `ingestao/historico.mjs` → `gerar-historico.mjs` | Versões, linha do tempo, lista de alteradoras | não |
 | `ingestao/minuta.mjs`, `minuta-conferencia.mjs`, `minuta-cli.mjs` | Minuta de alteradora + ida e volta | não |
 | `ingestao/relatorio-cobertura.mjs`, `gerar-site.mjs` | Relatórios e dados da página | não |
+| `ingestao/situacao.mjs` | Painel `dados/SITUACAO.md`: em carga × em dia, alertas, o que fazer | não |
 | `ingestao/rotina.sh`, `.github/workflows/coleta-diaria.yml` | Ordem das etapas; agendamento | — |
 | `docs/index.html` | Página de consulta (busca, histórico, minuta) | lê `dados/` |
 

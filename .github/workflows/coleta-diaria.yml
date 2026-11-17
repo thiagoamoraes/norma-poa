@@ -58,7 +58,7 @@ jobs:
       - name: Dependências (pdfjs-dist, usado na leitura dos cadernos do DOPA)
         run: npm ci --no-audit --no-fund
       - name: Testes da ingestão (sem rede)
-        run: bash teste_parar_em.sh && node teste_catalogo_sapl.mjs && node teste_textos_sapl.mjs && node teste_estrutura.mjs && node teste_versionamento.mjs && node teste_historico.mjs && node teste_minuta.mjs && node teste_leis_ordinarias.mjs && node teste_ocr.mjs
+        run: bash teste_parar_em.sh && node teste_catalogo_sapl.mjs && node teste_textos_sapl.mjs && node teste_estrutura.mjs && node teste_versionamento.mjs && node teste_historico.mjs && node teste_minuta.mjs && node teste_leis_ordinarias.mjs && node teste_situacao.mjs && node teste_ocr.mjs
       - name: Rotina de coleta
         id: rotina
         run: |
@@ -70,6 +70,7 @@ jobs:
           bash ingestao/rotina.sh
         continue-on-error: true
       - name: Gravar no repositório
+        id: gravar
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -90,6 +91,19 @@ jobs:
             sleep 15
           done
           echo "não foi possível gravar no repositório depois de 3 tentativas"; exit 1
+      - name: Seguro - guardar os dados como artefato se a gravação falhar
+        # Se o envio ao repositório falhar, o que a coleta produziu não se perde:
+        # fica 30 dias em Actions → a execução → Artifacts. Para restaurar,
+        # descompacte na raiz do repositório e faça o commit (ROTEIRO.md, 10-A).
+        if: always() && steps.gravar.outcome == 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: dados-nao-gravados-${{ github.run_id }}
+          path: |
+            dados
+            docs/dados
+            !dados/_bruto
+          retention-days: 30
       - name: Guardar arquivos brutos na Release "textos-brutos"
         if: always()
         run: |

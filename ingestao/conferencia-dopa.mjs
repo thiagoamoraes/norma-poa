@@ -77,4 +77,5 @@ L.push('## Links de norma sem cabeçalho reconhecido (possível formato novo)', 
 if (semCab.length) L.push(...semCab.map(({ ed, s }) => `- Edição ${ed.numeroEdicao} (${ed.poder}, ${ed.data}): ${s}`), '');
 else L.push('Nenhum.', '');
 await writeFile(ARQ_RELATORIO, L.join('\n'));
+await writeFile(path.join(DIR, '_resumo.json'), JSON.stringify({ em: agora(), edicoes: edicoes.length, noCatalogo: c.noCatalogo.length, ausentes: c.ausentes.length, ausentesAtrasadas: atrasadas.length, soDopa: c.foraDoSapl.length }) + '\n');
 console.log(`${agora()} conferência: ${c.noCatalogo.length} no catálogo, ${c.ausentes.length} ausente(s) (${atrasadas.length} há mais de ${DIAS_ALERTA} dias), ${c.foraDoSapl.length} só no DOPA.`);
