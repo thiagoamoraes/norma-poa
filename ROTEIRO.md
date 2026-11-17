@@ -396,7 +396,7 @@ dois com um exemplo de lei real, nunca forçando o resultado.
 ## 10. Manutenção da rotina
 
 - **Commit durante a coleta:** evite enviar commits entre 01:17 e ~07:00 (hora de Porto Alegre). Se acontecer, a rotina resolve o conflito a favor do que ela coletou (arquivos gerados se refazem na noite seguinte); mas um conflito em arquivo de CÓDIGO não é resolvido assim — confira o Actions na manhã seguinte.
-- **Janela de coleta:** só de madrugada em Brasília, 00:00 a 07:00 (`ingestao/janela.sh`; nenhuma requisição depois das 06:50). Disparo manual fora desse horário não coleta nada, a menos que se preencha `fora_da_janela` com `sim` — e isso é decisão do mantenedor, porque a regra existe para a coleta não competir com o expediente das fontes. Para mexer: `INICIO_UTC` e `LIMITE_UTC` em `janela.sh`, e `bash teste_janela.sh`.
+- **Horário da coleta:** o mantenedor quer coletas só de madrugada em Brasília; o agendamento (04:17 UTC = 01:17, 320 minutos) termina antes das 07:00. Disparo manual no expediente só a pedido dele. Para parar mais cedo num dia específico: entrada `parar_em_utc` do disparo manual (`10:00` = 07:00 de Brasília), que vale só para aquela execução (`ingestao/parar-em.sh`, `bash teste_parar_em.sh`).
 - **Execução vermelha no Actions:** abrir o log da etapa "Rotina de coleta".
   A rotina grava o que coletou mesmo com erro. Erro de rede passageiro: nada a
   fazer, a noite seguinte retoma. Erro repetido na mesma página/arquivo:

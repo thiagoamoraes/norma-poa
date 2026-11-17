@@ -13,12 +13,10 @@
 # textos já baixados e dados da página de consulta (docs/). Não faz commit
 # (isso é do workflow).
 #
-# JANELA: só roda de madrugada em Brasília (00:00 a 07:00; ver janela.sh). Fora
-# dela a rotina não faz nada e sai com sucesso. Dentro dela, nenhuma requisição
-# começa depois das 06:50 de Brasília, qualquer que seja MINUTOS. FORA_DA_JANELA=sim
-# ignora a regra (só para teste manual do mantenedor).
+# Parada pontual: PARAR_EM_UTC=HH:MM (hora UTC) faz a coleta parar naquela hora,
+# só naquele dia (ver parar-em.sh). Sem ela, vale MINUTOS.
 #
-# Variáveis: MINUTOS (padrão 55) · FORA_DA_JANELA (padrão: não) · ETAPAS (padrão "novidades dopa catalogo vinculos textos")
+# Variáveis: MINUTOS (padrão 55) · PARAR_EM_UTC (padrão: sem limite) · ETAPAS (padrão "novidades dopa catalogo vinculos textos")
 #            MAX_ARQUIVOS (padrão: sem limite) · VINCULOS_POR_EXECUCAO (padrão 60)
 set -u
 cd "$(dirname "$0")/.."
@@ -27,13 +25,15 @@ MINUTOS="${MINUTOS:-55}"
 ETAPAS="${ETAPAS:-novidades dopa catalogo vinculos textos}"
 VINCULOS_POR_EXECUCAO="${VINCULOS_POR_EXECUCAO:-60}"
 export PRAZO_EPOCH=$(( $(date +%s) + MINUTOS * 60 ))
-if [ "${FORA_DA_JANELA:-}" != "sim" ]; then
-  janela=$(bash ingestao/janela.sh)
-  case "$janela" in
-    dentro*)
-      limite="${janela#dentro }"
-      if [ "$limite" -lt "$PRAZO_EPOCH" ]; then export PRAZO_EPOCH="$limite"; echo "janela noturna: coleta até $(date -u -d "@$limite" +%H:%M) UTC (06:50 em Brasília)"; fi ;;
-    *) echo "Fora da janela noturna de coleta (00:00 a 07:00 em Brasília): nada a fazer."; exit 0 ;;
+if [ -n "${PARAR_EM_UTC:-}" ]; then
+  parada=$(bash ingestao/parar-em.sh)
+  case "$parada" in
+    ate*)
+      limite="${parada#ate }"
+      if [ "$limite" -lt "$PRAZO_EPOCH" ]; then export PRAZO_EPOCH="$limite"; fi
+      echo "parada pontual pedida: nenhuma requisição começa depois de ${PARAR_EM_UTC} UTC" ;;
+    passou) echo "PARAR_EM_UTC=${PARAR_EM_UTC} já passou hoje: nada a coletar."; exit 0 ;;
+    *) echo "PARAR_EM_UTC inválido (use HH:MM, hora UTC): ${PARAR_EM_UTC}"; exit 2 ;;
   esac
 fi
 falhas=0
