@@ -17,13 +17,15 @@ for (const f of (await readdir('./dados/catalogo/sapl')).filter((f) => /^tipo-\d
 const situacao = existsSync('./dados/estruturado/_situacao.json') ? JSON.parse(await readFile('./dados/estruturado/_situacao.json', 'utf8')) : {};
 const baixados = new Set((await lerJsonl('./dados/textos/sapl/_indice.jsonl')).filter((l) => l.situacao === 'baixado').map((l) => l.idSapl));
 
-// colunas: id, tipo, número, data, ementa, texto (0 sem · 1 só na fonte · 2 baixado), estrutura (0 não · 1 aceita · 2 revisar), url do arquivo na fonte
+// colunas: id, tipo, número, data, ementa, texto (0 sem · 1 só na fonte · 2 baixado), estrutura (0 não · 1 aceita · 2 revisar),
+//          url do arquivo na fonte, palavras-chave (campo "indexação" da fonte)
 const normas = [...ultimo.values()]
   .sort((a, b) => String(b.data).localeCompare(String(a.data)) || b.idSapl - a.idSapl)
   .map((r) => [r.idSapl, r.tipoSapl, r.numero, r.data, (r.ementa || '').replace(/\s+/g, ' ').trim(),
     baixados.has(r.idSapl) ? 2 : r.texto?.url ? 1 : 0,
     situacao[r.idSapl] === 'aceita' ? 1 : situacao[r.idSapl] === 'revisar' ? 2 : 0,
-    r.texto?.url || '']);
+    r.texto?.url || '',
+    (r.indexacao || '').split(/[;\r\n]+/).map((s) => s.trim()).filter(Boolean).join('; ')]);
 
 await mkdir('./docs/dados', { recursive: true });
 await writeFile('./docs/dados/catalogo.json', JSON.stringify({ geradoEm: agora(), tipos: NOMES, normas }) + '\n');

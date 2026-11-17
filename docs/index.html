@@ -33,6 +33,7 @@
   ul#lista li[aria-current=true] { border-color: var(--marca); box-shadow: inset 3px 0 0 var(--marca); }
   .rot { font-weight: 600; font-variant-numeric: tabular-nums; }
   .em { color: var(--suave); font-size: .9rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .chaves { color: var(--suave); font-size: .78rem; margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .selo { display: inline-block; font-size: .72rem; padding: 1px 7px; border-radius: 999px; margin-left: 6px; vertical-align: 2px; background: var(--marca-fraca); color: var(--marca); white-space: nowrap; }
   .selo.ok { background: var(--ok-fraca); color: var(--ok); } .selo.al { background: var(--alerta-fraca); color: var(--alerta); } .selo.no { background: transparent; border: 1px solid var(--linha); color: var(--suave); }
   button { font: inherit; color: var(--marca); background: transparent; border: 1px solid var(--linha); border-radius: 6px; padding: 8px 12px; cursor: pointer; }
@@ -68,7 +69,7 @@
 <main>
   <section id="lista-col" aria-label="Busca">
     <div class="busca">
-      <input id="q" type="search" placeholder="Número ou palavras da ementa (ex.: 611 · lc 320 · logradouros denominação)" autocomplete="off" aria-label="Buscar norma">
+      <input id="q" type="search" placeholder="Número ou assunto (ex.: 611 · lc 320 · denominar logradouro)" autocomplete="off" aria-label="Buscar norma">
       <div class="filtros">
         <select id="tipo" aria-label="Tipo de norma"><option value="">Todos os tipos</option></select>
         <select id="decada" aria-label="Década"><option value="">Todas as décadas</option></select>
@@ -83,7 +84,7 @@
 </main>
 <footer>
   Dados do catálogo: base "Legislação Municipal" da Procuradoria-Geral do Município de Porto Alegre (CC BY-SA 4.0). <span id="gerado"></span>
-  A busca é textual (número e palavras da ementa); busca por sentido ainda não existe.
+  A busca é por palavras (número, ementa e palavras-chave da fonte), reconhece variações da mesma palavra e ordena por relevância; busca por sentido ainda não existe.
 </footer>
 <div id="copiado" role="status"></div>
 <script>
@@ -96,7 +97,56 @@ const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<
 const milhar = (n) => /^\d+$/.test(n) ? Number(n).toLocaleString('pt-BR') : n;
 const dataBr = (iso) => iso ? iso.split('-').reverse().join('/') : 's/d';
 
-let TIPOS = {}, NORMAS = [], INDICE = [], filtradas = [], mostradas = 0, atual = null;
+let TIPOS = {}, NORMAS = [], filtradas = [], mostradas = 0, atual = null;
+
+// ── Busca por palavras, com radicais e ordenação por relevância ──────────────
+// Não é busca por sentido: casa RADICAIS de palavras ("denominar" acha
+// "denominação", "logradouro" acha "logradouros") na ementa e nas
+// palavras-chave da fonte, e ordena por relevância (BM25).
+const VAZIAS = new Set('a o as os um uma uns umas de do da dos das no na nos nas em para por com sem sob e ou que se ao aos à às pelo pela pelos pelas seu sua seus suas este esta estes estas esse essa isso aquele aquela lei leis municipal municipio porto alegre da-se outras providencias sobre'.split(' '));
+function radical(p) {
+  if (p.length <= 4 || /^\d/.test(p)) return p;
+  let r = p.replace(/(coes|cao|soes|sao)$/, 'c').replace(/(mentos?|mente)$/, '').replace(/(idades?|ivel|iveis|avel|aveis)$/, '')
+    .replace(/(ando|endo|indo|aram|eram|iram|ados?|adas?|idos?|idas?|aria|arias|ario|arios)$/, '').replace(/(oes|aes|ais|eis|ns)$/, '').replace(/(es|s)$/, '');
+  r = r.replace(/(ar|er|ir|a|o|e)$/, '');
+  return r.length >= 3 ? r : p.slice(0, 4);
+}
+const tokens = (s) => semAcento(s).split(/[^a-z0-9]+/).filter((t) => t.length > 1 && !VAZIAS.has(t)).map(radical);
+let POST = new Map(), TAM = [], TAM_MEDIO = 1;
+function indexar() {
+  POST = new Map(); TAM = new Array(NORMAS.length); let soma = 0;
+  for (let i = 0; i < NORMAS.length; i++) {
+    const n = NORMAS[i];
+    const f = new Map();
+    for (const t of tokens(n[4])) f.set(t, (f.get(t) || 0) + 1);
+    for (const t of tokens(n[8] || '')) f.set(t, (f.get(t) || 0) + 1.5); // palavra-chave da fonte pesa mais
+    let tam = 0;
+    for (const [t, q] of f) { tam += q; let p = POST.get(t); if (!p) POST.set(t, (p = [])); p.push(i, q); }
+    TAM[i] = tam; soma += tam;
+  }
+  TAM_MEDIO = soma / Math.max(1, NORMAS.length);
+}
+/** Map índice → pontuação; exige todos os termos (o último pode ser só o começo da palavra, para busca enquanto digita). */
+function pontuar(consulta) {
+  const ts = [...new Set(tokens(consulta))];
+  if (!ts.length) return null;
+  let acum = null;
+  ts.forEach((t, k) => {
+    const listas = k === ts.length - 1 && t.length >= 3 ? [...POST.keys()].filter((c) => c.startsWith(t)).map((c) => POST.get(c)) : (POST.has(t) ? [POST.get(t)] : []);
+    const desta = new Map();
+    for (const p of listas) {
+      const idf = Math.log(1 + (NORMAS.length - p.length / 2 + 0.5) / (p.length / 2 + 0.5));
+      for (let j = 0; j < p.length; j += 2) {
+        const i = p[j], f = p[j + 1];
+        const s = idf * (f * 2.2) / (f + 1.2 * (0.25 + 0.75 * TAM[i] / TAM_MEDIO));
+        if (s > (desta.get(i) || 0)) desta.set(i, s);
+      }
+    }
+    if (acum === null) acum = desta;
+    else { for (const [i, s] of acum) { if (desta.has(i)) acum.set(i, s + desta.get(i)); else acum.delete(i); } }
+  });
+  return acum || new Map();
+}
 
 const rotulo = (n) => `${TIPOS[n[1]] || 'Norma'} nº ${milhar(n[2])}, de ${dataBr(n[3])}`;
 function selo(n) {
@@ -108,11 +158,12 @@ function selo(n) {
 }
 
 function filtrar() {
-  const q = semAcento($('q').value.trim());
+  const bruto = $('q').value.trim();
+  const q = semAcento(bruto);
   const tipo = $('tipo').value, dec = $('decada').value, soE = $('so-estr').checked;
   // "lc 611", "lei 9113/2003", "9.113": número (e ano) têm prioridade sobre palavras
   const mNum = /^(?:(lc|lei complementar|lei|emenda|elo)\s*)?(?:n[ºo.]*\s*)?([\d.]+)(?:\s*\/\s*(\d{4}))?$/.exec(q);
-  const termos = mNum ? [] : q.split(/\s+/).filter(Boolean);
+  const pontos = mNum ? null : pontuar(bruto);
   const numero = mNum ? mNum[2].replace(/\./g, '') : null;
   const tipoQ = mNum && mNum[1] ? ({ lc: 6, 'lei complementar': 6, lei: 5, emenda: 2, elo: 2 })[mNum[1]] : null;
   filtradas = [];
@@ -125,9 +176,11 @@ function filtrar() {
       if (n[2] !== numero) continue;
       if (tipoQ && n[1] !== tipoQ) continue;
       if (mNum[3] && !(n[3] || '').startsWith(mNum[3])) continue;
-    } else if (termos.length && !termos.every((t) => INDICE[i].includes(t))) continue;
-    filtradas.push(n);
+    } else if (pontos && !pontos.has(i)) continue;
+    filtradas.push(pontos ? [n, pontos.get(i)] : [n, 0]);
   }
+  if (pontos) filtradas.sort((a, b) => b[1] - a[1] || String(b[0][3]).localeCompare(String(a[0][3])));
+  filtradas = filtradas.map((x) => x[0]);
   mostradas = 0;
   $('lista').innerHTML = '';
   $('contagem').textContent = `${filtradas.length.toLocaleString('pt-BR')} de ${NORMAS.length.toLocaleString('pt-BR')} normas`;
@@ -139,7 +192,7 @@ function maisResultados() {
   const html = [];
   for (let i = mostradas; i < ate; i++) {
     const n = filtradas[i];
-    html.push(`<li tabindex="0" data-id="${n[0]}"${atual === n[0] ? ' aria-current="true"' : ''}><div class="rot">${esc(rotulo(n))}${selo(n)}</div><div class="em">${esc(n[4])}</div></li>`);
+    html.push(`<li tabindex="0" data-id="${n[0]}"${atual === n[0] ? ' aria-current="true"' : ''}><div class="rot">${esc(rotulo(n))}${selo(n)}</div><div class="em">${esc(n[4])}</div>${n[8] ? `<div class="chaves">${esc(n[8])}</div>` : ''}</li>`);
   }
   $('lista').insertAdjacentHTML('beforeend', html.join(''));
   mostradas = ate;
@@ -223,7 +276,7 @@ for (const id of ['tipo', 'decada', 'so-estr']) $(id).addEventListener('change',
 
 fetch('dados/catalogo.json').then((r) => r.json()).then((c) => {
   TIPOS = c.tipos; NORMAS = c.normas;
-  INDICE = NORMAS.map((n) => semAcento(`${TIPOS[n[1]] || ''} ${n[2]} ${(n[3] || '').slice(0, 4)} ${n[4]}`));
+  indexar();
   for (const [k, v] of Object.entries(TIPOS)) $('tipo').insertAdjacentHTML('beforeend', `<option value="${k}">${esc(v)}</option>`);
   const decs = [...new Set(NORMAS.map((n) => (n[3] || '').slice(0, 3)).filter(Boolean))].sort().reverse();
   for (const d of decs) $('decada').insertAdjacentHTML('beforeend', `<option value="${d}0">${d}0</option>`);
