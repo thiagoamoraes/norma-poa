@@ -53,6 +53,10 @@
   .disp.n1 { margin-left: 1.5em; } .disp.n2 { margin-left: 3em; } .disp.n3 { margin-left: 4.5em; } .disp.n4 { margin-left: 6em; }
   .disp.vet .t, .disp.rev .t { color: var(--suave); }
   .bloco { white-space: pre-wrap; margin: 6px 0 6px 1.5em; padding: 8px 12px; border-left: 3px solid var(--linha); color: var(--suave); font-size: .95em; }
+  .disp.achado { outline: 2px solid var(--marca); background: var(--marca-fraca); }
+  .rot .de { font-weight: 400; color: var(--suave); font-size: .88em; }
+  .em.tx { -webkit-line-clamp: 4; color: var(--tinta); }
+  mark { background: var(--alerta-fraca); color: inherit; padding: 0 1px; border-radius: 2px; }
   .nota { font: .78em/1.3 system-ui, sans-serif; color: var(--suave); }
   .disp.mudou { background: var(--ok-fraca); box-shadow: inset 3px 0 0 var(--ok); }
   .disp.antiga { opacity: .75; font-size: .92em; border-left: 2px dotted var(--linha); padding-left: 10px; }
@@ -62,6 +66,8 @@
   .controles select { width: auto; max-width: 100%; min-width: 0; padding: 6px 8px; text-overflow: ellipsis; }
   .controles label.caixa { grid-column: auto; }
   .estado ul { margin: 6px 0 0; padding-left: 20px; }
+  .usar { display: none; font: .72rem/1 system-ui, sans-serif; padding: 3px 8px; margin-left: 6px; vertical-align: 1px; }
+  #corpo.com-minuta .usar { display: inline-block; }
   details#minuta { margin-top: 24px; border-top: 1px solid var(--linha); padding-top: 12px; }
   details#minuta summary { cursor: pointer; font-weight: 600; color: var(--marca); }
   details#minuta .form { display: grid; gap: 10px; margin: 12px 0; }
@@ -90,6 +96,7 @@
         <select id="tipo" aria-label="Tipo de norma"><option value="">Todos os tipos</option></select>
         <select id="decada" aria-label="Década"><option value="">Todas as décadas</option></select>
         <label class="caixa"><input id="so-estr" type="checkbox"> Só normas com texto estruturado ou histórico</label>
+        <label class="caixa"><input id="no-texto" type="checkbox"> Buscar dentro do texto das leis <span id="no-texto-info"></span></label>
       </div>
     </div>
     <div id="contagem" aria-live="polite">Carregando o catálogo…</div>
@@ -100,7 +107,7 @@
 </main>
 <footer>
   Dados do catálogo: base "Legislação Municipal" da Procuradoria-Geral do Município de Porto Alegre (CC BY-SA 4.0). <span id="gerado"></span>
-  A busca é por palavras (número, ementa e palavras-chave da fonte), reconhece variações da mesma palavra e ordena por relevância; busca por sentido ainda não existe.
+  A busca é por palavras (número, ementa, palavras-chave da fonte e, se você ligar a opção, o texto conferido das leis), reconhece variações da mesma palavra e ordena por relevância; busca por sentido ainda não existe.
 </footer>
 <div id="copiado" role="status"></div>
 <script>
@@ -128,33 +135,35 @@ function radical(p) {
   return r.length >= 3 ? r : p.slice(0, 4);
 }
 const tokens = (s) => semAcento(s).split(/[^a-z0-9]+/).filter((t) => t.length > 1 && !VAZIAS.has(t)).map(radical);
-let POST = new Map(), TAM = [], TAM_MEDIO = 1;
-function indexar() {
-  POST = new Map(); TAM = new Array(NORMAS.length); let soma = 0;
-  for (let i = 0; i < NORMAS.length; i++) {
-    const n = NORMAS[i];
+/** Índice invertido sobre uma lista de documentos; `campos(doc)` devolve [[texto, peso], …]. */
+function construirIndice(docs, campos) {
+  const POST = new Map(), TAM = new Array(docs.length); let soma = 0;
+  for (let i = 0; i < docs.length; i++) {
     const f = new Map();
-    for (const t of tokens(n[4])) f.set(t, (f.get(t) || 0) + 1);
-    for (const t of tokens(n[8] || '')) f.set(t, (f.get(t) || 0) + 1.5); // palavra-chave da fonte pesa mais
+    for (const [texto, peso] of campos(docs[i])) for (const t of tokens(texto || '')) f.set(t, (f.get(t) || 0) + peso);
     let tam = 0;
     for (const [t, q] of f) { tam += q; let p = POST.get(t); if (!p) POST.set(t, (p = [])); p.push(i, q); }
     TAM[i] = tam; soma += tam;
   }
-  TAM_MEDIO = soma / Math.max(1, NORMAS.length);
+  return { POST, TAM, MEDIO: soma / Math.max(1, docs.length), N: docs.length };
 }
-/** Map índice → pontuação; exige todos os termos (o último pode ser só o começo da palavra, para busca enquanto digita). */
-function pontuar(consulta) {
+let IDX = null;   // normas: ementa (peso 1) + palavras-chave da fonte (peso 1,5)
+let TXT = null;   // dispositivos: { docs: [[idSapl, idDispositivo, texto]], idx }
+function indexar() { IDX = construirIndice(NORMAS, (n) => [[n[4], 1], [n[8], 1.5]]); }
+/** Map índice → pontuação (BM25); exige todos os termos (o último pode ser só o começo da palavra, para busca enquanto digita). */
+function pontuar(consulta, idx = IDX) {
   const ts = [...new Set(tokens(consulta))];
   if (!ts.length) return null;
+  const { POST, TAM, MEDIO, N } = idx;
   let acum = null;
   ts.forEach((t, k) => {
     const listas = k === ts.length - 1 && t.length >= 3 ? [...POST.keys()].filter((c) => c.startsWith(t)).map((c) => POST.get(c)) : (POST.has(t) ? [POST.get(t)] : []);
     const desta = new Map();
     for (const p of listas) {
-      const idf = Math.log(1 + (NORMAS.length - p.length / 2 + 0.5) / (p.length / 2 + 0.5));
+      const idf = Math.log(1 + (N - p.length / 2 + 0.5) / (p.length / 2 + 0.5));
       for (let j = 0; j < p.length; j += 2) {
         const i = p[j], f = p[j + 1];
-        const s = idf * (f * 2.2) / (f + 1.2 * (0.25 + 0.75 * TAM[i] / TAM_MEDIO));
+        const s = idf * (f * 2.2) / (f + 1.2 * (0.25 + 0.75 * TAM[i] / MEDIO));
         if (s > (desta.get(i) || 0)) desta.set(i, s);
       }
     }
@@ -162,6 +171,31 @@ function pontuar(consulta) {
     else { for (const [i, s] of acum) { if (desta.has(i)) acum.set(i, s + desta.get(i)); else acum.delete(i); } }
   });
   return acum || new Map();
+}
+
+// ── Busca dentro do texto dos dispositivos (opcional: baixa as fatias de texto) ──
+const SEG = { art: (n, l) => `art. ${Number(n) <= 9 ? n + 'º' : n}${l}`, par: (n, l) => (n === 'unico' ? 'parágrafo único' : `§ ${Number(n) <= 9 ? n + 'º' : n}${l}`), inc: (n, l) => `inc. ${n}${l}`, ali: (n, l) => `al. ${n}${l}`, item: (n, l) => `item ${n}${l}` };
+const citarId = (id) => id.split('/').reverse().map((s) => { const m = /^(art|par|inc|ali|item)-([^-]+)(?:-(.+))?$/.exec(s); return m ? SEG[m[1]](m[2], m[3] ? '-' + m[3] : '') : s; }).join(' do ');
+async function carregarTexto() {
+  if (TXT) return TXT;
+  const info = await (await fetch('dados/texto-indice.json')).json();
+  const docs = [];
+  for (let k = 1; k <= info.fatias; k++) {
+    $('contagem').textContent = `Baixando o texto das leis… ${k} de ${info.fatias}`;
+    docs.push(...await (await fetch(`dados/texto-${String(k).padStart(3, '0')}.json`)).json());
+  }
+  $('contagem').textContent = 'Preparando a busca no texto…';
+  await new Promise((r) => setTimeout(r, 0));
+  TXT = { docs, idx: construirIndice(docs, (d) => [[d[2], 1]]), normas: info.normas };
+  return TXT;
+}
+function trecho(texto, consulta) {
+  const ts = tokens(consulta);
+  const palavras = texto.split(/(\s+)/);
+  let onde = palavras.findIndex((p) => ts.some((t) => tokens(p)[0] === t || (tokens(p)[0] || '').startsWith(t)));
+  if (onde < 0) onde = 0;
+  const ini = Math.max(0, onde - 24);
+  return (ini > 0 ? '… ' : '') + palavras.slice(ini, ini + 90).map((p) => (ts.some((t) => (tokens(p)[0] || '').startsWith(t)) ? `<mark>${esc(p)}</mark>` : esc(p))).join('') + (ini + 90 < palavras.length ? ' …' : '');
 }
 
 const rotulo = (n) => `${TIPOS[n[1]] || 'Norma'} nº ${milhar(n[2])}, de ${dataBr(n[3])}`;
@@ -175,8 +209,25 @@ function selo(n) {
   return '<span class="selo no">só ementa</span>';
 }
 
-function filtrar() {
+let modoTexto = false, consultaAtual = '';
+async function filtrar() {
   const bruto = $('q').value.trim();
+  consultaAtual = bruto;
+  modoTexto = false;
+  if ($('no-texto').checked && bruto && !/^[\d.\s/]+$/.test(bruto)) {
+    // resultados por DISPOSITIVO, dentro do texto conferido
+    let T;
+    try { T = await carregarTexto(); } catch (_) { $('contagem').textContent = 'Não foi possível baixar o texto das leis.'; return; }
+    if (consultaAtual !== bruto) return; // a pessoa continuou digitando
+    const pontos = pontuar(bruto, T.idx) || new Map();
+    const porNorma = new Map(NORMAS.map((n) => [n[0], n]));
+    const tipoF = $('tipo').value, decF = $('decada').value;
+    filtradas = [...pontos].sort((a, b) => b[1] - a[1]).map(([i]) => T.docs[i]).filter((d) => { const n = porNorma.get(d[0]); return n && (!tipoF || String(n[1]) === tipoF) && (!decF || (n[3] || '').startsWith(decF.slice(0, 3))); }).map((d) => ({ n: porNorma.get(d[0]), d }));
+    modoTexto = true; mostradas = 0; $('lista').innerHTML = '';
+    $('contagem').textContent = `${filtradas.length.toLocaleString('pt-BR')} dispositivo(s) em ${T.normas.toLocaleString('pt-BR')} norma(s) com texto conferido`;
+    maisResultados();
+    return;
+  }
   const q = semAcento(bruto);
   const tipo = $('tipo').value, dec = $('decada').value, soE = $('so-estr').checked;
   // "lc 611", "lei 9113/2003", "9.113": número (e ano) têm prioridade sobre palavras
@@ -209,6 +260,11 @@ function maisResultados() {
   const ate = Math.min(filtradas.length, mostradas + POR_PAGINA);
   const html = [];
   for (let i = mostradas; i < ate; i++) {
+    if (modoTexto) {
+      const { n, d } = filtradas[i];
+      html.push(`<li tabindex="0" data-id="${n[0]}" data-d="${esc(d[1])}"><div class="rot">${esc(citarId(d[1]))} <span class="de">— ${esc(rotulo(n))}</span></div><div class="em tx">${trecho(d[2], consultaAtual)}</div></li>`);
+      continue;
+    }
     const n = filtradas[i];
     html.push(`<li tabindex="0" data-id="${n[0]}"${atual === n[0] ? ' aria-current="true"' : ''}><div class="rot">${esc(rotulo(n))}${selo(n)}</div><div class="em">${esc(n[4])}</div>${n[8] ? `<div class="chaves">${esc(n[8])}</div>` : ''}</li>`);
   }
@@ -230,7 +286,7 @@ async function buscarDados(pasta, id) { try { const r = await fetch(urlDeDados(p
 let MIN = null; // { vigente, lei, pedidos, mod, conf }
 function prepararMinuta(h, n) {
   const vigente = h.dispositivos.map((d) => ({ id: d.id, pai: d.pai, tipo: d.tipo, rotulo: d.rotulo, ...d.estados[d.estados.length - 1] })).filter((d) => d.situacao !== 'renumerado');
-  MIN = { vigente, lei: { tipoSapl: n[1], numero: n[2], data: n[3] }, pedidos: [], temAlteracoes: h.versoes.length > 1, duvida: new Set((h.aConferir || []).map((x) => x.id)) };
+  MIN = { idSapl: n[0], vigente, lei: { tipoSapl: n[1], numero: n[2], data: n[3] }, pedidos: [], temAlteracoes: h.versoes.length > 1, duvida: new Set((h.aConferir || []).map((x) => x.id)) };
   const rot = (d) => `${'\u00a0\u00a0'.repeat(d.id.split('/').length - 1)}${(d.rotulo || '').replace(/\s*[–.]$/, '')}${d.situacao !== 'vigente' ? ' (' + d.situacao + ')' : ''} — ${(d.texto || '').slice(0, 50)}`;
   const opcoes = () => {
     const op = $('m-op').value;
@@ -267,7 +323,11 @@ async function gerarMinutaNaPagina() {
   const estado = conf.confere
     ? `<div class="estado ok">Conferida: a leitura automática deste texto devolve exatamente ${conf.comandosLidos === 1 ? 'o comando pedido' : 'os ' + conf.comandosLidos + ' comandos pedidos'}.</div>`
     : '<div class="estado al"><strong>Não use este texto como está.</strong> A leitura automática não devolveu o que foi pedido; a forma gerada precisa de revisão manual.</div>';
-  s.innerHTML = `${estado}${lista(avisos, 'al')}<pre id="m-texto-final">${esc(m.texto)}</pre><button type="button" id="m-copiar">Copiar a minuta</button>`;
+  s.innerHTML = `${estado}${lista(avisos, 'al')}<pre id="m-texto-final">${esc(m.texto)}</pre><button type="button" id="m-copiar">Copiar a minuta</button> <button type="button" id="m-baixar" title="Arquivo que a ferramenta de linha de comando (ingestao/minuta-cli.mjs) também lê">Baixar o pedido (JSON)</button>`;
+  $('m-baixar').addEventListener('click', () => {
+    const blob = new Blob([JSON.stringify({ idSapl: MIN.idSapl, explicacao: $('m-expl').value.trim() || undefined, pedidos: MIN.pedidos }, null, 1) + '\n'], { type: 'application/json' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `pedido-minuta-${MIN.idSapl}.json`; a.click(); URL.revokeObjectURL(a.href);
+  });
   $('m-copiar').addEventListener('click', () => (navigator.clipboard ? navigator.clipboard.writeText(m.texto) : Promise.reject()).then(() => aviso('Minuta copiada'), () => aviso('Selecione e copie o texto')));
 }
 
@@ -294,7 +354,7 @@ function desenharHistorico() {
     if (atual.renumerado) nota += ` <span class="nota">(${esc(atual.renumerado.de)} renumerado para ${esc((d.rotulo || '').replace(/\.$/, ''))} pela ${esc(atual.renumerado.lei)})</span>`;
     const mudou = marcar && k > 0 && atual.desde === k;
     const duvida = conferir.has(d.id) ? ' <span class="selo al" title="Uma alteradora que cita este dispositivo não foi aplicada por inteiro">não conferido</span>' : '';
-    partes.push(`<div class="disp n${NIVEL(d.id)}${atual.situacao !== 'vigente' ? ' rev' : ''}${mudou ? ' mudou' : ''}" id="d-${esc(d.id)}"><span class="r" data-ref="${esc(d.id)}" title="Copiar a referência a este dispositivo">${esc(d.rotulo || '')}</span><span class="t">${esc(atual.texto)}</span>${nota}${duvida}</div>`);
+    partes.push(`<div class="disp n${NIVEL(d.id)}${atual.situacao !== 'vigente' ? ' rev' : ''}${mudou ? ' mudou' : ''}" id="d-${esc(d.id)}"><span class="r" data-ref="${esc(d.id)}" title="Copiar a referência a este dispositivo">${esc(d.rotulo || '')}</span><span class="t">${esc(atual.texto)}</span>${nota}${duvida}${ultima ? ` <button type="button" class="usar" data-usar="${esc(d.id)}" title="Levar este dispositivo para o painel de minuta">alterar</button>` : ''}</div>`);
     if (antigas) for (const a of anteriores.reverse()) if (a.situacao !== 'renumerado') partes.push(`<div class="disp antiga n${NIVEL(d.id)}"><span class="t">${esc(a.texto)}</span> <span class="nota">(${a.origem.lei ? (ANOTA[a.origem.operacao] || 'Alterado pela') + ' ' + esc(a.origem.lei) : 'texto original'})</span></div>`);
   }
   partes.push('</div>');
@@ -324,6 +384,7 @@ function montarHistorico(h, n) {
 <div id="m-saida"></div>
 </details>`;
   prepararMinuta(h, n);
+  $('minuta').addEventListener('toggle', () => corpo.classList.toggle('com-minuta', $('minuta').open));
   corpo.dataset.norma = rotulo(n);
   corpo._disp = h.dispositivos;
   for (const id of ['versao', 'marcar', 'antigas']) $(id).addEventListener('change', desenharHistorico);
@@ -334,7 +395,15 @@ const GRUPO = { parte: 'Parte', livro: 'Livro', titulo: 'Título', capitulo: 'Ca
 const NIVEL = (id) => Math.min(4, id.split('/').length - 1);
 const CITA = { artigo: (r) => r.replace(/^Art\./, 'art.').replace(/\.$/, ''), paragrafo: (r) => /único/i.test(r) ? 'parágrafo único' : r.replace(/\.$/, ''), inciso: (r) => 'inc. ' + r.replace(/\s*[–-]\s*$/, ''), alinea: (r) => 'al. ' + r.replace(/\)$/, ''), item: (r) => 'item ' + r.replace(/\.$/, '') };
 
-async function abrir(id, rolar) {
+function irAoDispositivo(idDisp) {
+  if (!idDisp) return;
+  const el = document.getElementById('d-' + idDisp);
+  if (!el) return;
+  document.querySelectorAll('.disp.achado').forEach((x) => x.classList.remove('achado'));
+  el.classList.add('achado');
+  el.scrollIntoView({ block: 'center' });
+}
+async function abrir(id, rolar, idDisp) {
   const n = NORMAS.find((x) => x[0] === id);
   if (!n) return;
   atual = id;
@@ -350,7 +419,7 @@ async function abrir(id, rolar) {
   if (n[9]) {
     const h = await buscarDados('historico', id);
     if (atual !== id) return;
-    if (h) { montarHistorico(h, n); return; }
+    if (h) { montarHistorico(h, n); irAoDispositivo(idDisp); return; }
   }
   if (!n[6]) { if (n[9]) $('corpo').innerHTML = '<p class="vazio">Não foi possível carregar o histórico agora. Use os links acima.</p>'; return; }
   const e = await buscarDados('estruturado', id);
@@ -374,6 +443,7 @@ async function abrir(id, rolar) {
   corpo.innerHTML = partes.join('');
   corpo.dataset.norma = rotulo(n);
   corpo._disp = e.dispositivos;
+  irAoDispositivo(idDisp);
 }
 
 function referencia(idDisp, lista, nomeNorma) {
@@ -388,7 +458,16 @@ function aviso(txt) { const c = $('copiado'); c.textContent = txt; c.classList.a
 
 document.addEventListener('click', (ev) => {
   const li = ev.target.closest('#lista li');
-  if (li) { abrir(Number(li.dataset.id), true); return; }
+  if (li) { abrir(Number(li.dataset.id), true, li.dataset.d); return; }
+  const usar = ev.target.closest('button[data-usar]');
+  if (usar) {
+    const id = usar.dataset.usar, d = MIN.vigente.find((x) => x.id === id);
+    $('m-op').value = d && d.situacao === 'vigente' ? 'nova_redacao' : 'revogacao';
+    $('m-op').dispatchEvent(new Event('change'));
+    $('m-alvo').value = id; $('m-alvo').dispatchEvent(new Event('change'));
+    $('minuta').scrollIntoView({ behavior: 'smooth' }); $('m-texto').focus({ preventScroll: true });
+    return;
+  }
   const ir = ev.target.closest('a[data-abrir]');
   if (ir) { ev.preventDefault(); abrir(Number(ir.dataset.abrir), true); return; }
   const r = ev.target.closest('.r[data-ref]');
@@ -398,11 +477,11 @@ document.addEventListener('click', (ev) => {
     (navigator.clipboard ? navigator.clipboard.writeText(ref) : Promise.reject()).then(() => aviso('Copiado: ' + ref), () => aviso(ref));
   }
 });
-document.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' && ev.target.matches('#lista li')) abrir(Number(ev.target.dataset.id), true); });
+document.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' && ev.target.matches('#lista li')) abrir(Number(ev.target.dataset.id), true, ev.target.dataset.d); });
 $('mais').addEventListener('click', maisResultados);
 let t; const agendar = () => { clearTimeout(t); t = setTimeout(filtrar, 120); };
 $('q').addEventListener('input', agendar);
-for (const id of ['tipo', 'decada', 'so-estr']) $(id).addEventListener('change', filtrar);
+for (const id of ['tipo', 'decada', 'so-estr', 'no-texto']) $(id).addEventListener('change', filtrar);
 
 fetch('dados/catalogo.json').then((r) => r.json()).then((c) => {
   TIPOS = c.tipos; NORMAS = c.normas;
@@ -411,6 +490,7 @@ fetch('dados/catalogo.json').then((r) => r.json()).then((c) => {
   const decs = [...new Set(NORMAS.map((n) => (n[3] || '').slice(0, 3)).filter(Boolean))].sort().reverse();
   for (const d of decs) $('decada').insertAdjacentHTML('beforeend', `<option value="${d}0">${d}0</option>`);
   $('gerado').textContent = `Catálogo gerado em ${dataBr(c.geradoEm.slice(0, 10))}.`;
+  fetch('dados/texto-indice.json').then((r) => r.json()).then((i) => { $('no-texto-info').textContent = `(${i.normas.toLocaleString('pt-BR')} norma(s) com texto conferido; baixa cerca de ${Math.max(1, Math.round(i.fatias * 1.5))} MB)`; }).catch(() => { $('no-texto').disabled = true; });
   filtrar();
   const m = /^#n=(\d+)$/.exec(location.hash);
   if (m) abrir(Number(m[1]), false);
