@@ -517,7 +517,7 @@ export function detectarPromulgacaoParcial(raw) {
   // Datas: da lei (cabeçalho) × do fecho.
   const cab = extrairCabecalhoLeiPublicada(raw);
   const dataDaLei = cab ? cab.dataPublicacao : null;
-  const reFecho = /^(?:PREFEITURA\s+MUNICIPAL\s+DE\s+PORTO\s+ALEGRE|GABINETE\s+DA\s+PRESID[ÊE]NCIA\s+DA\s+C[ÂA]MARA\s+MUNICIPAL|C[ÂA]MARA\s+MUNICIPAL\s+DE\s+PORTO\s+ALEGRE)\b.*?(\d{1,2})\s*[º°]?\s+de\s+([A-Za-zÀ-ú]+)\s+de\s+(\d{4})\s*\.?\s*$/i;
+  const reFecho = /^(?:PREFEITURA\s+MUNIC\s?IPAL\s+DE\s+PORTO\s+ALEGRE|GABINETE\s+DA\s+PRESID[ÊE]NCIA\s+DA\s+C[ÂA]MARA\s+MUNICIPAL|C[ÂA]MARA\s+MUNICIPAL\s+DE\s+PORTO\s+ALEGRE)\b.*?(\d{1,2})\s*[º°]?\s+de\s+([A-Za-zÀ-ú]+)\s+de\s+(\d{4})\s*\.?\s*$/i;
   let dataDoFecho = null;
   for (const l of linhas) {
     const mf = l.match(reFecho);
@@ -577,7 +577,12 @@ export function parseMinuta(raw, nrRanges) {
   // Resolução 3.006, Ordem de Serviço 12/2026 — os 3 idênticos). Regex ESTRITA: a linha
   // inteira tem que ser só isso, pra uma linha de texto que apenas COMECE com "Câmara
   // Municipal de Porto Alegre, …" não seja tomada como fecho e engula o resto do corpo.
-  const reFecho = /^(?:(?:PREFEITURA\s+MUNICIPAL\s+DE\s+PORTO\s+ALEGRE|GABINETE\s+DA\s+PRESID[ÊE]NCIA\s+DA\s+C[ÂA]MARA\s+MUNICIPAL)\b|C[ÂA]MARA\s+MUNICIPAL\s+DE\s+PORTO\s+ALEGRE\s*,\s*\d{1,2}\s*[º°]?\s+de\s+[A-Za-zÀ-ú]+\s+de\s+\d{4}\s*\.?\s*$)/i;
+  // "MUNIC IPAL", com um espaço no meio da palavra: é assim que o fecho vem nos
+  // PDFs do Diário Oficial de 2012 a 2015 (visto em 3 arquivos reais: Lei nº
+  // 11.229/2012, Lei nº 11.575/2014 e LC 761/2015; os dois leitores de PDF dão
+  // o mesmo resultado, logo o defeito é do arquivo). Sem aceitar essa grafia, o
+  // fecho e as assinaturas grudavam no último artigo.
+  const reFecho = /^(?:(?:PREFEITURA\s+MUNIC\s?IPAL\s+DE\s+PORTO\s+ALEGRE|GABINETE\s+DA\s+PRESID[ÊE]NCIA\s+DA\s+C[ÂA]MARA\s+MUNICIPAL)\b|C[ÂA]MARA\s+MUNICIPAL\s+DE\s+PORTO\s+ALEGRE\s*,\s*\d{1,2}\s*[º°]?\s+de\s+[A-Za-zÀ-ú]+\s+de\s+\d{4}\s*\.?\s*$)/i;
   // Suporta sufixo de letra (Art. 5º-A, § 2º-A, II-A, a-a)) — inserção intermediária
   // (art. 17 da LC 611/2009). Sem isso, uma lei-base que já contenha dispositivos
   // inseridos (comum após algumas rodadas de alteração) tem a letra do sufixo
