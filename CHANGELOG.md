@@ -1226,3 +1226,13 @@ idêntico byte a byte; `teste_versionamento.mjs` 28 → 34.
 - Página: nota "(Parágrafo único renumerado para § 3º pela Lei Complementar nº
   514/2004)". A LC 320 passa a ter 10 versões e só 1 alteradora não aplicada
   (LC 449/2000, arquivo mal transcrito na fonte).
+
+## Rodada 16, complemento — vale o texto da lei (17/11/2026)
+
+Decisão do mantenedor, à vista da evidência (art. 6º e ementa da LC 958/2022,
+sancionada sem veto): onde o texto da lei e a cópia compilada de referência
+divergem, vale a lei. Das 6 diferenças restantes na comparação da LC 320, 4
+são desse tipo (art. 7º e seus dois parágrafos, revogados; inc. I do art.
+12-B) e o motor está certo nelas; as outras 2 são defeito do arquivo de origem
+(LC 692 e LC 474). A cópia compilada passa a ser tratada como auxílio de
+conferência, não como gabarito.

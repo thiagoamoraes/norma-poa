@@ -134,8 +134,8 @@ que a alteraram, em ordem, contra o texto compilado de referência.
 | Causa | Dispositivos | O que fazer |
 |---|---|---|
 | ~~Pendência do motor: a LC 514/2004 renumera o parágrafo único do art. 2º para § 3º e inclui os §§ 1º e 2º onde havia dispositivos vetados~~ | ~~§ 1º, § 2º e parágrafo único do art. 2º~~ | **Resolvido**: comando `renumber_node` e texto novo em rótulo de vetado, ambos registrados como exceção |
-| Divergência da referência: a LC 958/2022, art. 6º, revoga o art. 7º; o compilado de referência (cópia de trabalho) ainda traz o texto | art. 7º e seus dois parágrafos | Conferir na fonte; o motor segue o texto da lei |
-| Defeito do arquivo de origem | art. 9º-A (LC 692: faltam palavras no PDF), parágrafo único do art. 10 (LC 474: "n-" por "nº"), inc. I do art. 12-B (um travessão) | Nada no motor; a verificação da estruturação manda esses arquivos para revisão |
+| A cópia de referência diverge do texto da LC 958/2022: o art. 6º da lei revoga o art. 7º (a cópia ainda traz o texto), e o inc. I do art. 12-B tem um travessão que a cópia não tem | art. 7º e seus dois parágrafos; inc. I do art. 12-B | **Decidido (17/11/2026): vale o texto da lei.** O motor está certo; nada a fazer |
+| Defeito do arquivo de origem | art. 9º-A (LC 692: faltam palavras no PDF), parágrafo único do art. 10 (LC 474: "n-" por "nº") | Nada no motor; a verificação da estruturação manda esses arquivos para revisão |
 
 O que foi corrigido no motor para chegar aqui (antes, só 2 das 10 alteradoras
 eram aplicadas): aspas curvas nos blocos de alteração; endereço duplicado

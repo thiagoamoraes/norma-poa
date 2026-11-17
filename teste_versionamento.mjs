@@ -105,8 +105,10 @@ const diferentes = chaves.filter((k) => { const a = norm(idx[k]), b = norm(ref[k
 console.log(`  (iguais à referência: ${chaves.length - diferentes.length} de ${chaves.length})`);
 ok('72 de 78 dispositivos iguais ao compilado de referência', chaves.length === 78 && diferentes.length === 6);
 const esperadas = {
-  'DIVERGÊNCIA DA REFERÊNCIA — art. 7º revogado pela LC 958/2022, art. 6º; o compilado de referência ainda traz o texto': ['art. 7º', '§ 1º do art. 7º', '§ 2º do art. 7º'],
-  'DEFEITO DO ARQUIVO DE ORIGEM — LC 692 (faltam palavras), LC 474 ("n-" por "nº"), e um travessão a mais na LC 958 que a referência não tem': ['art. 9º-a', 'parágrafo único do art. 10', 'inc. i do art. 12-b'],
+  // Decisão do mantenedor (17/11/2026): onde a cópia de referência e o texto da
+  // LC 958/2022 divergem, vale o texto da lei. O motor está certo nestes quatro.
+  'VALE A LEI, NÃO A CÓPIA DE REFERÊNCIA — LC 958/2022: art. 6º revoga o art. 7º (a cópia ainda traz o texto) e o inc. I do art. 12-B tem um travessão que a cópia não tem': ['art. 7º', '§ 1º do art. 7º', '§ 2º do art. 7º', 'inc. i do art. 12-b'],
+  'DEFEITO DO ARQUIVO DE ORIGEM — LC 692 (faltam palavras no PDF) e LC 474 ("n-" por "nº")': ['art. 9º-a', 'parágrafo único do art. 10'],
 };
 for (const [motivo, lista] of Object.entries(esperadas)) ok(`${motivo}: ${lista.join(', ')}`, lista.every((k) => diferentes.includes(k)));
 ok('nenhuma diferença fora das 6 explicadas acima', diferentes.every((k) => Object.values(esperadas).flat().includes(k)));
