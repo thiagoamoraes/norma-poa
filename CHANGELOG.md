@@ -1236,3 +1236,48 @@ são desse tipo (art. 7º e seus dois parágrafos, revogados; inc. I do art.
 12-B) e o motor está certo nelas; as outras 2 são defeito do arquivo de origem
 (LC 692 e LC 474). A cópia compilada passa a ser tratada como auxílio de
 conferência, não como gabarito.
+
+# Rodada 17 — Minuta de alteradora, histórico em escala e roteiro de continuidade (17/11/2026)
+
+## Motor (`norma-core.js`, espelhado em `norma-simulacao.html`)
+
+- **Ponto final do último dispositivo de um bloco**: `extrairRedacaoAlterada`
+  tirava, junto com as aspas de fechamento, o ponto final que vem ANTES delas;
+  todo último dispositivo de bloco ficava sem ponto. Achado pela ida e volta da
+  minuta. Agora só saem as aspas (e o ponto que às vezes vem depois delas).
+  Bateria igual; `normateste.mjs` idêntico byte a byte.
+
+## Minuta de lei alteradora (piloto)
+
+- `ingestao/minuta.mjs`: gera epígrafe, ementa (LC 611, art. 18), um artigo
+  alterador por artigo alterado, bloco entre aspas com linha pontilhada para o
+  que não muda, "(NR)" (ausente em artigo novo), vigência e revogação. Moldes
+  reais: LC 958/2022, LC 761/2015, LC 514/2004. Numera o dispositivo novo sem
+  reaproveitar número; inserção intermediária com letra; artigo com parágrafo
+  único é renumerado para § 1º pela própria minuta. Recusa, com motivo, o que
+  não sabe pôr em forma.
+- `ingestao/minuta-conferencia.mjs`: ida e volta — o motor lê a minuta e os
+  comandos têm de ser exatamente os pedidos.
+- `ingestao/minuta-cli.mjs`, `exemplos/pedido-minuta-lc320.json`, painel na
+  página (os módulos são copiados para `docs/js/`).
+- `teste_minuta.mjs` (33): além da ida e volta, APLICA a minuta sobre a árvore
+  real da LC 320 e confere o resultado. Falha contra o motor anterior.
+
+## Histórico em escala
+
+- `montarListaDeHistoricos` (vínculos da fonte; direção conferida com os
+  vínculos reais da LC 320) e `alteradorasPelaEmenta` (a fonte não liga 3 das
+  10 alteradoras da LC 320: LC 474, 761 e 849; pelas ementas, as 10 aparecem).
+  Candidata pela ementa cujos comandos miram outra lei é descartada sem virar
+  pendência. No catálogo de hoje: 1.500 pares, 469 leis-base.
+- `gerar-historico.mjs` reescrito: três fontes de lista, regrava só o que
+  muda, `dados/historico/RELATORIO.md` e `_situacao.json` (com as revogadas por
+  inteiro, que a página passa a marcar).
+- `teste_historico.mjs` 17 → 24.
+
+## Continuidade
+
+- `ROTEIRO.md`: tarefas seguintes passo a passo (afinar o leitor pelo
+  relatório, cabeçalho pelo catálogo, OCR, atos da Câmara pelo DOPA, busca no
+  texto, busca por sentido, extensões da minuta), pendências que dependem de
+  decisão, manutenção da rotina e mapa do código.

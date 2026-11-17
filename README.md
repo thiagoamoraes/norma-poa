@@ -54,7 +54,9 @@ ritmo, outro horário ou que a coleta pare, abra uma *issue* neste repositório.
 | `dados/estruturado/` | Cada norma em dispositivos endereçáveis, com o resultado da verificação automática |
 | `docs/` | Página de consulta (busca por número e por palavras da ementa; texto estruturado quando houver) |
 | `teste_*.mjs` | Testes (sem framework: `node teste_….mjs`) |
+| `dados/historico/` | Cada lei em cada momento: versões e linha do tempo por dispositivo |
 | `PLANO.md` | Fases do experimento e o que falta |
+| `ROTEIRO.md` | Como continuar: próximas tarefas, passo a passo |
 
 Escopo atual: Lei Orgânica e emendas, leis complementares e leis ordinárias.
 

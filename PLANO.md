@@ -1,5 +1,7 @@
 # PLANO — acervo normativo de Porto Alegre em dados estruturados
 
+**Para saber o que fazer em seguida, leia `ROTEIRO.md`** (tarefas em ordem, com passos e critério de término).
+
 Documento vivo. Cada fase tem entrega, critério de aceite e estado. Atualizar o
 estado ao fim de cada sessão de trabalho; decisões novas entram na seção 5.
 
@@ -65,10 +67,10 @@ Texto oficial é o do DOPA. As demais fontes são informativas.
 | 6 | Comandos e texto vigente | Comandos das alteradoras aplicados em ordem cronológica, uma versão por alteradora | Toda aresta "altera" do SAPL tem ≥ 1 comando e vice-versa; divergências viram lista de revisão | motor medido numa lei real (seção 4-B); falta rodar no acervo, o que depende dos vínculos e dos textos |
 | 7 | Captura automática diária | GitHub Actions agendado: SAPL como gatilho (1ª página de cada tipo do escopo, 4 requisições/dia) → baixa o arquivo → estrutura → commit. DOPA como conferência e como fonte dos atos internos da Câmara. Sem IA. | Norma nova aparece no repositório em até 1 dia; divergência SAPL × DOPA vira alerta | no ar (seção 4-A) |
 | 8 | Gabarito | ≈ 200 normas estratificadas por época e tipo, conferidas manualmente | Régua permanente de qualidade | a fazer |
-| 6-A | Histórico por lei | `dados/historico/sapl/<id>.json`: versões e linha do tempo de cada dispositivo; na página, seletor de versão, anotação de origem, destaque do que mudou, redações anteriores | Alteradora não aplicada por inteiro é declarada, e os dispositivos que ela cita aparecem como "não conferido" a partir da data dela | piloto no ar com a LC 320 (9 versões); em escala quando vínculos e textos chegarem |
+| 6-A | Histórico por lei | `dados/historico/sapl/<id>.json`: versões e linha do tempo de cada dispositivo; na página, seletor de versão, anotação de origem, destaque do que mudou, redações anteriores | Alteradora não aplicada por inteiro é declarada, e os dispositivos que ela cita aparecem como "não conferido" a partir da data dela | no ar; a lista de leis sai sozinha dos vínculos da fonte e das ementas, e cresce conforme os textos chegam (hoje: LC 320, 10 versões) |
 | 10-A | Página de consulta | `docs/` (GitHub Pages): busca por número e palavras da ementa, filtros, texto estruturado, cópia de referência a dispositivo | Abre no celular e no computador; aponta sempre para a fonte | no ar (busca textual) |
 | 10 | Busca semântica | Um registro por dispositivo vigente, com contexto (norma, ementa, agrupadores, caput); busca textual + vetorial; filtros por tipo, assunto e vigência | Conjunto de perguntas de teste com resposta esperada | a fazer |
-| 11 | Minuta de alteradora | Dado o dispositivo-alvo e a nova redação, gerar o artigo alterador na forma da LC 611/2009 (citação completa da lei, bloco entre aspas, "(NR)", sufixo de letra em inserção) | Reaplicar o comando gerado pelo próprio extrator reproduz a redação pedida | a fazer |
+| 11 | Minuta de alteradora | Dado o dispositivo-alvo e a nova redação, gerar o artigo alterador na forma da LC 611/2009 (citação completa da lei, bloco entre aspas, "(NR)", sufixo de letra em inserção) | Reaplicar o comando gerado pelo próprio extrator reproduz a redação pedida | piloto no ar (módulo, linha de comando e painel na página), provado sobre a LC 320; extensões no `ROTEIRO.md`, tarefa 8 |
 | 9 | Atos internos da Câmara | Resolução de Mesa e OS do Legislativo: DOPA daqui para frente; histórico por pedido | — | estacionado |
 
 Ordem de execução: 1 → 2 → 3 → (4 em paralelo) → 5 → 6 → 10 e 11. A fase 7 pode
