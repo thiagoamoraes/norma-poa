@@ -1,0 +1,17 @@
+# dependências
+node_modules/
+
+# saídas e estado do coletor (regeneráveis)
+cadernos-baixados/
+dopa-state.json
+descobertas.json
+pagina1.txt
+
+# cadernos completos usados como fixture local (contêm dados de servidores)
+fixtures-locais/
+
+# material de referência local, não versionar
+_referencia/
+
+# arquivos brutos baixados do SAPL (vão para a Release "textos-brutos", não para o git)
+dados/_bruto/

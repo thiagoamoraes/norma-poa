@@ -1,0 +1,87 @@
+# Coleta diária do acervo normativo (SAPL da PGM): novidades, catálogo,
+# vínculos e textos. Script determinístico — sem IA. Ver PLANO.md, fase 7.
+#
+# Etiqueta: 1 requisição por minuto, sequencial (ingestao/sapl-io.mjs).
+#
+# Orçamento: repositório PRIVADO tem cota mensal de minutos do GitHub Actions
+# (2.000 no plano gratuito) → 55 min/noite. Repositório PÚBLICO não tem cota →
+# 320 min/noite. A escolha é automática, pela visibilidade do repositório; a
+# variável de repositório MINUTOS_POR_NOITE (Settings → Secrets and variables →
+# Actions → Variables), se existir, prevalece.
+name: Coleta diária
+
+on:
+  schedule:
+    - cron: '17 4 * * *'   # 01:17 em Porto Alegre, fora do expediente
+  workflow_dispatch:
+    inputs:
+      minutos:
+        description: 'Duração desta execução, em minutos (vazio = padrão)'
+        required: false
+      etapas:
+        description: 'Etapas (novidades dopa catalogo vinculos textos)'
+        required: false
+        default: 'novidades dopa catalogo vinculos textos'
+      max_arquivos:
+        description: 'Limite de arquivos de texto (vazio = sem limite)'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coleta-sapl
+  cancel-in-progress: false
+
+jobs:
+  coleta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      MINUTOS: ${{ inputs.minutos || vars.MINUTOS_POR_NOITE }}
+      ETAPAS: ${{ inputs.etapas || 'novidades dopa catalogo vinculos textos' }}
+      MAX_ARQUIVOS: ${{ inputs.max_arquivos }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Instalar pdftotext
+        run: sudo apt-get install -y --no-install-recommends poppler-utils
+      - name: Dependências (pdfjs-dist, usado na leitura dos cadernos do DOPA)
+        run: npm ci --no-audit --no-fund
+      - name: Testes da ingestão (sem rede)
+        run: node teste_catalogo_sapl.mjs && node teste_textos_sapl.mjs
+      - name: Rotina de coleta
+        id: rotina
+        run: |
+          if [ -z "$MINUTOS" ]; then
+            if [ "$(gh api "repos/${GITHUB_REPOSITORY}" --jq .private)" = "false" ]; then MINUTOS=320; else MINUTOS=55; fi
+          fi
+          echo "duração desta execução: ${MINUTOS} min"
+          export MINUTOS
+          bash ingestao/rotina.sh
+        continue-on-error: true
+      - name: Gravar no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados
+          if git diff --cached --quiet; then echo "nada a gravar"; exit 0; fi
+          git commit -q -m "Coleta diária — $(date -u +%F)"
+          git pull -q --rebase origin "${GITHUB_REF_NAME}"
+          git push -q origin "HEAD:${GITHUB_REF_NAME}"
+      - name: Guardar arquivos brutos na Release "textos-brutos"
+        if: always()
+        run: |
+          if [ -z "$(ls -A dados/_bruto/sapl 2>/dev/null)" ]; then echo "nenhum arquivo bruto nesta execução"; exit 0; fi
+          pacote="bruto-$(date -u +%F)-${GITHUB_RUN_ID}.tar.gz"
+          tar -czf "$pacote" -C dados/_bruto sapl
+          gh release view textos-brutos >/dev/null 2>&1 || gh release create textos-brutos --title "Arquivos brutos das normas (SAPL da PGM)" --notes "Arquivos originais baixados pela coleta diária, um pacote por execução. O hash de cada arquivo está em dados/textos/sapl/_indice.jsonl."
+          gh release upload textos-brutos "$pacote"
+      - name: Falhar se alguma etapa falhou
+        if: steps.rotina.outcome == 'failure'
+        run: |
+          echo "Alguma etapa da rotina terminou com erro — ver o log da etapa 'Rotina de coleta'."
+          exit 1
