@@ -21,7 +21,7 @@ import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { filaDeDownload } from './sapl-comum.mjs';
 import { requisitar, prazoEsgotado, lerJsonl, agora, ErroDefinitivo } from './sapl-io.mjs';
-import { htmlSirelParaTexto, contarAlfanumericos, extensaoDaUrl, MINIMO_ALFANUMERICOS } from './extracao-texto.mjs';
+import { htmlSirelParaTexto, docxParaTexto, contarAlfanumericos, extensaoDaUrl, MINIMO_ALFANUMERICOS } from './extracao-texto.mjs';
 
 const DIR_CATALOGO = './dados/catalogo/sapl';
 const DIR_BRUTO = './dados/_bruto/sapl';
@@ -40,6 +40,11 @@ function extrair(ext, caminhoBruto, bytes) {
   if (ext === 'html' || ext === 'htm') {
     const { texto, repeticoes } = htmlSirelParaTexto(bytes);
     return { metodo: 'html_sirel', situacao: contarAlfanumericos(texto) < MINIMO_ALFANUMERICOS ? 'texto_curto' : 'ok', texto, repeticoes };
+  }
+  if (ext === 'docx') {
+    const texto = docxParaTexto(bytes);
+    if (texto === null) return { metodo: 'docx', situacao: 'falha_na_extracao', texto: null };
+    return { metodo: 'docx', situacao: contarAlfanumericos(texto) < MINIMO_ALFANUMERICOS ? 'texto_curto' : 'ok', texto };
   }
   return { metodo: null, situacao: 'formato_sem_extracao', texto: null };
 }

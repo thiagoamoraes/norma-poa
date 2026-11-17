@@ -838,17 +838,17 @@ export function detectNRCandidates(raw) {
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
     if (!line) { continue; }
-    const isQuoteStart = /^[""']/.test(line);
-    const introCue = CMD_CUE.test(prev) || CMD_CUE.test(line.replace(/^[""']+/,"").slice(0,80));
-    const looksLikeDispositivo = /^[""']\s*(Art(?:igo)?\.?\s*\d|§|Par[áa]grafo\s+[úu]nico|[IVXLCDM]{1,6}\s*[-–—])/i.test(line);
+    const isQuoteStart = /^["“”']/.test(line);
+    const introCue = CMD_CUE.test(prev) || CMD_CUE.test(line.replace(/^["“”']+/,"").slice(0,80));
+    const looksLikeDispositivo = /^["“”']\s*(Art(?:igo)?\.?\s*\d|§|Par[áa]grafo\s+[úu]nico|[IVXLCDM]{1,6}\s*[-–—])/i.test(line);
     if (isQuoteStart && (introCue || looksLikeDispositivo)) {
       let end = -1, semNR = false;
       for (let j = i; j < Math.min(lines.length, i+300); j++) {
-        if (/\(NR\)\s*[""']?\s*\.?\s*$/.test(lines[j])) { end=j; semNR=false; break; }
-        if (/[""']\s*\.?\s*$/.test(lines[j]))             { end=j; semNR=true;  break; }
+        if (/\(NR\)\s*["“”']?\s*\.?\s*$/.test(lines[j])) { end=j; semNR=false; break; }
+        if (/["“”']\s*\.?\s*$/.test(lines[j]))             { end=j; semNR=true;  break; }
       }
       if (end >= 0) {
-        out.push({ startIdx:i, endIdx:end, semNR, preview: line.replace(/^[""']/,"").slice(0,64)+(end>i?"… "+lines[end].slice(-50):"") });
+        out.push({ startIdx:i, endIdx:end, semNR, preview: line.replace(/^["“”']/,"").slice(0,64)+(end>i?"… "+lines[end].slice(-50):"") });
         i = end; continue;
       }
     }
@@ -868,11 +868,11 @@ export function detectNRCandidates(raw) {
  */
 export function extrairRedacaoAlterada(blockLines) {
   const lns = blockLines.slice();
-  lns[0] = lns[0].replace(/^[""']+\s*/,"");
+  lns[0] = lns[0].replace(/^["“”']+\s*/,"");
   let temNR = false; const last2idx = lns.length-1; let lastLine = lns[last2idx];
-  const mNR = lastLine.match(/\(NR\)\s*[""']?\s*\.?\s*$/);
+  const mNR = lastLine.match(/\(NR\)\s*["“”']?\s*\.?\s*$/);
   if (mNR) { temNR=true; lastLine=lastLine.slice(0,mNR.index).trim(); }
-  lastLine = lastLine.replace(/[.\s]*[""'][.\s]*$/,"").trim();
+  lastLine = lastLine.replace(/[.\s]*["“”'][.\s]*$/,"").trim();
   lns[last2idx] = lastLine;
   // NOTA: os separadores após o designador (ponto, hífen, travessão, dois-pontos)
   // são capturados em ".*" e limpos por limparSeparadorX() em código, e não numa
@@ -1341,6 +1341,17 @@ export function aplicarComandoLei(versaoAtual, comando, fonteAlteradora) {
       return cm && cm[1] === numeroBase;
     });
     if (posInsercao === -1) return { erro: `artigo-base "art. ${numeroBase}º" não encontrado — não é possível posicionar "${comando.dispositivoAlvo}"`, comando };
+    // Guarda: artigo novo na raiz só entra se AINDA não existir artigo com o mesmo
+    // número e a mesma letra. Sem isto, um endereço mal lido na alteradora (caso
+    // real: LC 449/2000, cujo arquivo traz "art. 5®" no lugar de "art. 5º") virava
+    // um segundo "art. 5" inserido ao lado do verdadeiro, em silêncio.
+    {
+      const rotuloNovo = s => { const x = String(s||"").match(/(\d+)\s*[º°]?(?:-([A-Za-z]))?/); return x ? x[1]+"-"+(x[2]||"").toUpperCase() : null; };
+      const alvoNovo = rotuloNovo(comando.dispositivoAlvo.replace(/^art\.\s*/i, ""));
+      if (versaoAtual.artigos.some(a => rotuloNovo((a.desFixo||"").replace(/^Art(?:igo)?\.?\s*/i, "")) === alvoNovo)) {
+        return { erro: `já existe artigo com o rótulo de "${comando.dispositivoAlvo}" — insert_node não pode criar um segundo; se a intenção era dar nova redação, o endereço na alteradora não foi reconhecido como o do artigo existente`, comando };
+      }
+    }
     // avança além de outros sufixos de letra já inseridos pro mesmo artigo-base
     while (posInsercao+1 < versaoAtual.artigos.length &&
            new RegExp(`^Art\\.?\\s*${numeroBase}\\s*[º°]?-[A-Z]`, "i").test(versaoAtual.artigos[posInsercao+1].desFixo||"") &&
@@ -1350,14 +1361,36 @@ export function aplicarComandoLei(versaoAtual, comando, fonteAlteradora) {
     const filhoOrigemNode = comando._noOrigemNrBloco;
     const novoArtigo = {
       id: nid(), tipo: "artigo", texto: comando.novoTexto,
-      desFixo: filhoOrigemNode?.desFixo || null, children: (filhoOrigemNode?.children || []), conj: null, origem: origemComando
+      // Filhos NÃO vêm junto: cada um tem o seu próprio comando insert_node
+      // (extrairComandosLei emite um por dispositivo do bloco). Trazê-los aqui
+      // fazia os comandos dos filhos falharem com "já existe" e os deixava sem
+      // `origem` — achado com dado real (LC 958/2022, art. 12-B e seus 21 incisos).
+      desFixo: filhoOrigemNode?.desFixo || null, children: [], conj: null, origem: origemComando
     };
     const novosArtigos = versaoAtual.artigos.slice();
     novosArtigos.splice(posInsercao+1, 0, novoArtigo);
     return { versao: { ...versaoAtual, artigos: novosArtigos } };
   }
 
-  if (comando.operacao === "revoke_node" || comando.operacao === "veto_derrubado") {
+  if (comando.operacao === "revoke_node") {
+    // Exemplo real: LC 958/2022, art. 6º — "Fica revogado o art. 7º da Lei
+    // Complementar nº 320, de 2 de maio de 1994." Conforme PECA4-MODELO-DE-DADOS.md,
+    // seção 3: o nó NÃO sai da árvore; mantém id e desFixo, o texto vira
+    // "(Revogado)" e `revogado: true`. Os dispositivos subordinados seguem o
+    // principal (revogado o artigo, revogados seus parágrafos e incisos). O texto
+    // anterior continua disponível na versão anterior (versaoAnterior).
+    if (!leiAlvoBateComVersao(comando, versaoAtual)) {
+      return { erro: `comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch`, comando };
+    }
+    const caminho = localizarCaminho(versaoAtual, comando.dispositivoAlvo);
+    if (!caminho) return { erro: `endereço "${comando.dispositivoAlvo}" não encontrado na versão atual — não há o que revogar`, comando };
+    const alvo = caminho[caminho.length-1].node;
+    if (alvo.revogado) return { erro: `endereço "${comando.dispositivoAlvo}" já está revogado`, comando };
+    const revogar = n => ({ ...n, texto: "(Revogado)", revogado: true, origem: origemComando, children: (n.children || []).map(revogar) });
+    return { versao: reconstruirComSubstituicao(versaoAtual, caminho, revogar(alvo)) };
+  }
+
+  if (comando.operacao === "veto_derrubado") {
     return { erro: `operação "${comando.operacao}" ainda não implementada — pendente de validação com dado real (ver CHANGELOG)`, comando, naoImplementado: true };
   }
 
@@ -1381,14 +1414,36 @@ export function aplicarComandoLei(versaoAtual, comando, fonteAlteradora) {
 export function apurarTextoVigente(versaoInicial, lotesComandos) {
   let versao = versaoInicial;
   const log = [];
+  // Cadeia de versões (PECA4-MODELO-DE-DADOS.md, seção 2: uma versão por lei
+  // alteradora). Até a rodada 13 só a árvore final era devolvida, com o `id` e
+  // a `fonte` da v0 e `versaoAnterior` sempre null — o histórico se perdia.
+  // Achado ao encadear as 10 alteradoras reais da LC 320/1994. Agora cada lote
+  // que altera a árvore gera uma versão com identidade própria, ligada à
+  // anterior; lote que não altera nada não gera versão.
+  const versoes = [versaoInicial];
   lotesComandos.forEach(({ fonteAlteradora, comandos }) => {
+    const antes = versao;
     comandos.forEach(comando => {
       const resultado = aplicarComandoLei(versao, comando, fonteAlteradora);
       if (resultado.versao) versao = resultado.versao;
       else log.push({ fonteAlteradora, ...resultado });
     });
+    if (versao !== antes) {
+      versao = {
+        ...versao,
+        id: `${chaveLei(versao.leiBase.tipoAto, versao.leiBase.numero, versao.leiBase.ano)}@${fonteAlteradora.dataPublicacao}`,
+        versaoAnterior: antes.id,
+        fonte: {
+          tipo: "lei_alteradora",
+          lei: { tipoAto: fonteAlteradora.tipoAto, numero: fonteAlteradora.numero, ano: fonteAlteradora.ano },
+          dataPublicacao: fonteAlteradora.dataPublicacao
+        },
+        dataVigencia: fonteAlteradora.dataPublicacao
+      };
+      versoes.push(versao);
+    }
   });
-  return { versaoFinal: versao, log };
+  return { versaoFinal: versao, log, versoes };
 }
 
 // ─── LEI-ALVO: índice e anotações ────────────────────────────────────────────
@@ -1502,12 +1557,15 @@ export function parseLeiAlvoAnotacoes(raw) {
  */
 export function extrairCitacoesExternas(texto) {
   const out = [];
-  const re = /(?:(al[íi]nea)\s+([a-z]{1,2})\)?\s+do\s+)?(?:(inciso|inc\.)\s+([IVXLCDM]{1,6})\s+do\s+)?(?:(par[áa]grafo\s+[úu]nico)\s+do\s+|(?:§|par[áa]grafo)\s+(\d+\s*[º°]?)\s+do\s+)?art(?:igo)?\.?\s*(\d+\s*[º°]?(?:-[A-Z])?)/gi;
+  const re = /(?:(al[íi]nea)\s+([a-z]{1,2})\)?\s+do\s+)?(?:(inciso|inc\.)\s+([IVXLCDM]{1,6})\s+do\s+)?(?:(par[áa]grafo\s+[úu]nico)\s+do\s+|(?:§|par[áa]grafo)\s+(\d+\s*[º°]?)\s+do\s+)?art(?:igo)?\.?\s*(\d+\s*(?:[º°]|o(?=\s))?(?:-[A-Z])?)/gi;
   let m;
   while ((m = re.exec(texto))) {
-    let chave = "art. "+m[7].trim().toLowerCase();
+    // "art. 5°" (sinal de grau, comum em arquivo digitado) é o mesmo "art. 5º" —
+    // caso real: LC 449/2000. A chave sai sempre com o ordinal "º".
+    // Também "art. 2o" (letra "o" no lugar do ordinal — caso real: LC 525/2005).
+    let chave = "art. "+m[7].trim().toLowerCase().replace(/°/g, "º").replace(/^(\d+)\s*o$/, "$1º");
     if (m[5])      chave = "parágrafo único do "+chave;
-    else if (m[6]) chave = "§ "+m[6].trim()+" do "+chave;
+    else if (m[6]) chave = "§ "+m[6].trim().replace(/°/g, "º")+" do "+chave;
     if (m[3]&&m[4]) chave = "inc. "+m[4].toLowerCase()+" do "+chave;
     if (m[1]&&m[2]) chave = "al. "+m[2].toLowerCase()+") do "+chave;
     out.push({ raw:m[0], chave });
@@ -1703,7 +1761,23 @@ export function enderecarNrBloco(nrBloco, enderecoBase) {
     (nodes || []).forEach(n => {
       const endereco = /^Art(?:igo)?\.?/i.test(n.desFixo || "")
         ? enderecoBase
-        : (() => { const seg = desFixoParaSegmento(n.desFixo); return seg ? `${seg} do ${enderecoPai}` : enderecoPai; })();
+        : (() => {
+            const seg = desFixoParaSegmento(n.desFixo);
+            if (!seg) return enderecoPai;
+            // Bloco que começa direto no dispositivo citado na introdução, sem repetir
+            // o "Art. N" (casos reais: LC 474/2002 — "Dá nova redação ao parágrafo único
+            // do art. 10 … 'Parágrafo único. …'"; LC 525/2005 — "§ 3º do art. 2º"). O
+            // endereço-base JÁ é esse dispositivo: não aninhar ("parágrafo único do
+            // parágrafo único do art. 10"). Se for um irmão do citado (mesmo tipo,
+            // outro número), troca só o 1º segmento.
+            if (enderecoPai === enderecoBase && / do /.test(enderecoBase)) {
+              const [primeiro, ...resto] = enderecoBase.split(" do ");
+              if (primeiro === seg) return enderecoBase;
+              const tipoSeg = s => /^parágrafo único$|^§ /.test(s) ? "par" : /^inc\. /.test(s) ? "inc" : /^al\. /.test(s) ? "al" : "item";
+              if (tipoSeg(primeiro) === tipoSeg(seg)) return `${seg} do ${resto.join(" do ")}`;
+            }
+            return `${seg} do ${enderecoPai}`;
+          })();
       out.push({ chave: endereco, node: n });
       if (n.children && n.children.length) walk(n.children, endereco);
     });

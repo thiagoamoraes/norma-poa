@@ -1130,3 +1130,45 @@ idêntico byte a byte.
 - **`gerar-site.mjs` + `docs/index.html`**: página de consulta estática.
 - **Testes:** `teste_estrutura.mjs` (23). Os testes da Lei 9.113 falham contra
   o motor anterior (conferido).
+
+# Rodada 14 — Versionamento posto à prova com uma lei real (17/11/2026)
+
+Prova nova: `teste_versionamento.mjs` (28) — LC 320/1994 + as 10 LCs que a
+alteraram (8 baixadas da base da PGM: fixtures/lc320/), comparadas com o
+compilado de referência. Antes desta rodada o motor aplicava 2 das 10
+alteradoras; agora, 70 de 79 dispositivos coincidem e as 9 diferenças estão
+nomeadas no teste.
+
+## Motor (`norma-core.js`, espelhado em `norma-simulacao.html`)
+
+1. **Aspas curvas** (“ ”) nos blocos de redação alterada: `detectNRCandidates`
+   e `extrairRedacaoAlterada` só conheciam aspas retas. Era a causa principal:
+   7 das 8 alteradoras novas usam aspas curvas.
+2. **`enderecarNrBloco`**: bloco que começa direto no dispositivo citado na
+   introdução não aninha mais ("parágrafo único do parágrafo único do art. 10"
+   — LC 474/2002; "§ 3º do § 3º do art. 2" — LC 525/2005).
+3. **`extrairCitacoesExternas`**: "art. 2o" (letra o) e "art. 5°" (grau) valem
+   "art. 2º"/"art. 5º" (LC 525/2005, LC 449/2000).
+4. **`insert_node` de artigo na raiz**: não leva mais os filhos junto (cada um
+   tem o seu comando; antes falhavam com "já existe" e ficavam sem `origem` —
+   LC 958/2022, art. 12-B); e passa a recusar artigo com rótulo que já existe
+   (LC 449/2000, cujo arquivo traz "art. 5®").
+5. **`revoke_node` implementado** com o primeiro exemplo real (LC 958/2022,
+   art. 6º): o nó fica na árvore, `revogado: true`, texto "(Revogado)", origem
+   na alteradora; os subordinados acompanham.
+6. **`apurarTextoVigente` devolve `versoes[]`**: uma versão por alteradora que
+   mudou algo, com `id` próprio (`lc 320/1994@2022-10-04`), `versaoAnterior` e
+   `fonte`. Antes só a árvore final voltava, com a identidade da v0.
+
+Bateria: 153 no core, 72 promulgação parcial, 23 estrutura, `normateste.mjs`
+idêntico byte a byte. O teste novo falha contra o motor anterior (conferido).
+
+## Ingestão
+
+- `docxParaTexto` validado com DOCX real (LC 514/2004) e ligado ao
+  `baixar-textos.mjs` (DOCX era "formato sem extração").
+
+## Fica para decisão
+
+- Renumeração e reaproveitamento de posição vetada (LC 514/2004).
+- Forma de exibir o dispositivo revogado e o tratamento dos subordinados.

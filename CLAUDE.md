@@ -104,7 +104,9 @@ Tipos: `artigo | paragrafo | inciso | alinea | item | ementa | em | omissao | te
 - Rotina diária: `.github/workflows/coleta-diaria.yml` (04:17 UTC, na `main`, sem IA).
 - **Estruturação com verificação:** `ingestao/estrutura.mjs` (puro) → `ingestao/estruturar.mjs` grava `dados/estruturado/sapl/<id>.json` e `dados/estruturado/RELATORIO.md` (taxa de aceitação e fila de revisão, por motivo). Endereço de dispositivo = caminho de rótulos (`art-5-A/par-2/inc-III`), nunca posição. Norma só é `aceita` se passar em todas as conferências; mexeu na lógica → suba `VERSAO_ESTRUTURADOR` para reprocessar.
 - **Página de consulta:** `docs/index.html` (estática, sem dependências) + `docs/dados/catalogo.json` gerado por `ingestao/gerar-site.mjs`. Servida pelo GitHub Pages (pasta `/docs` da `main`).
-- Testes: `node teste_catalogo_sapl.mjs` (26) · `node teste_textos_sapl.mjs` (21) · `node teste_estrutura.mjs` (23).
+- Testes: `node teste_catalogo_sapl.mjs` (26) · `node teste_textos_sapl.mjs` (21) · `node teste_estrutura.mjs` (23) · `node teste_versionamento.mjs` (28).
+- **Versionamento medido com dado real** (`teste_versionamento.mjs`): LC 320/1994 + as 10 LCs que a alteraram → 70 de 79 dispositivos iguais ao compilado de referência; as 9 diferenças estão nomeadas no teste (3 de pendência do motor, 3 de divergência da referência, 3 de defeito do arquivo de origem). `apurarTextoVigente` devolve também `versoes[]` (uma por alteradora que mudou algo, com `id` e `versaoAnterior`). **A identidade da alteradora (número, data) vem do catálogo**, não do cabeçalho do arquivo — 3 de 8 arquivos reais têm cabeçalho fora do padrão.
+- `revoke_node` **implementado** (exemplo real: LC 958/2022, art. 6º, revoga o art. 7º da LC 320). **Pendente de decisão do mantenedor:** renumeração de dispositivo (LC 514/2004: "renumerando o atual parágrafo único para § 3º") e inclusão em posição de dispositivo vetado (os §§ 1º e 2º do art. 2º).
 - **Repositório pensado para ser público:** nada de nomes de pessoas, cargos, planos institucionais ou juízo sobre órgãos e terceiros em código, docs ou commits. `dados/dopa/` guarda só cabeçalho e link das normas — nunca texto corrido do caderno.
 - Escopo da fase inicial: Lei Orgânica, emendas, LCs e leis ordinárias.
 
@@ -129,7 +131,7 @@ node teste_dopa_discovery.mjs <exe6179> <leg6171> <exe6180> <leg6112> <leg6158>
 
 ## Estado atual e pendências
 
-**Pendências que aguardam exemplo real:** `revoke_node`; `veto_derrubado` (modelagem `visoes[]`, primeiros exemplos reais agora existem — modelagem **não decidida**); republicação Versão×Visão; inconstitucional/execução suspensa; inserção de artigo-irmão na raiz (só sintético); comando para Resolução/OS/etc. (sem extração). Resolução de Mesa, Decreto Legislativo, Emenda à Lei Orgânica e Precedente Legislativo: sem PDF de norma real ainda — `extrairCabecalhoLeiPublicada` só sinaliza `tipoNaoSuportado`, sem extrair número/data; `urnLei`/`chaveLei` não implementados pra eles (LexML não tem termo confirmado pra "ordem de serviço" nem, até onde pesquisado, pros demais raros).
+**Pendências que aguardam exemplo real:** `veto_derrubado` (modelagem `visoes[]`, primeiros exemplos reais agora existem — modelagem **não decidida**); republicação Versão×Visão; inconstitucional/execução suspensa; inserção de artigo-irmão na raiz (só sintético); comando para Resolução/OS/etc. (sem extração). Resolução de Mesa, Decreto Legislativo, Emenda à Lei Orgânica e Precedente Legislativo: sem PDF de norma real ainda — `extrairCabecalhoLeiPublicada` só sinaliza `tipoNaoSuportado`, sem extrair número/data; `urnLei`/`chaveLei` não implementados pra eles (LexML não tem termo confirmado pra "ordem de serviço" nem, até onde pesquisado, pros demais raros).
 
 ## Nunca
 
