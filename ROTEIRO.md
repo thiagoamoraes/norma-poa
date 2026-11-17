@@ -387,6 +387,7 @@ dois com um exemplo de lei real, nunca forçando o resultado.
 
 ## 10. Manutenção da rotina
 
+- **Commit durante a coleta:** evite enviar commits entre 01:17 e ~07:00 (hora de Porto Alegre). Se acontecer, a rotina resolve o conflito a favor do que ela coletou (arquivos gerados se refazem na noite seguinte); mas um conflito em arquivo de CÓDIGO não é resolvido assim — confira o Actions na manhã seguinte.
 - **Execução vermelha no Actions:** abrir o log da etapa "Rotina de coleta".
   A rotina grava o que coletou mesmo com erro. Erro de rede passageiro: nada a
   fazer, a noite seguinte retoma. Erro repetido na mesma página/arquivo:

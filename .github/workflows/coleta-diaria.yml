@@ -72,8 +72,20 @@ jobs:
           git add dados docs
           if git diff --cached --quiet; then echo "nada a gravar"; exit 0; fi
           git commit -q -m "Coleta diária — $(date -u +%F)"
-          git pull -q --rebase origin "${GITHUB_REF_NAME}"
-          git push -q origin "HEAD:${GITHUB_REF_NAME}"
+          # Se alguém enviou commit durante a coleta, os arquivos GERADOS (catálogo
+          # da página, relatórios) entram em conflito — aconteceu em 17/11/2026 e a
+          # execução perdeu o que tinha coletado. Na dúvida vale a versão desta
+          # coleta ("-X theirs", num rebase, é o commit que está sendo reaplicado):
+          # os dados coletados só existem aqui, e o que é gerado se refaz na
+          # execução seguinte. Três tentativas, para o caso de corrida no envio.
+          for tentativa in 1 2 3; do
+            if git pull -q --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "gravado (tentativa ${tentativa})"; exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep 15
+          done
+          echo "não foi possível gravar no repositório depois de 3 tentativas"; exit 1
       - name: Guardar arquivos brutos na Release "textos-brutos"
         if: always()
         run: |
