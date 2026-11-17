@@ -1189,3 +1189,40 @@ Nenhuma mudança no `norma-core.js`.
   "não conferido" e aviso de histórico incompleto com link para as alteradoras.
 - **Rotina:** vínculos passam de 5 para 60 páginas por noite (cinco noites).
 - **Teste:** `teste_historico.mjs` (13), com os mesmos textos reais.
+
+# Rodada 16 — O motor segue o que a lei fez: renumeração e rótulo de vetado (17/11/2026)
+
+Decisão do mantenedor: a regra de não renumerar está correta para o que o
+projeto redige; mas quando a própria lei alteradora renumera, o motor segue a
+lei. Exemplo real: LC 514/2004, art. 1º, sobre o art. 2º da LC 320/1994.
+
+## Motor (`norma-core.js`, espelhado em `norma-simulacao.html`)
+
+1. **`rePUn` só com P maiúsculo** (em `parseMinuta` e `walkLeiAlvo`): a linha
+   "parágrafo único para § 3º, com o seguinte teor:" — continuação de frase
+   quebrada — era lida como um parágrafo da alteradora, e o bloco de alteração
+   ficava preso nele.
+2. **`renumber_node`**: extraído de "renumerando o atual X para Y" na frase de
+   introdução; aplicado antes dos comandos do bloco. O nó é o mesmo (id, texto,
+   origem do texto); muda o rótulo, e a troca fica em `renumerado`.
+3. **Texto novo em rótulo de dispositivo vetado**: `replace_text` sobre nó
+   vetado deixa de ser erro quando vem de bloco de alteradora — entra um
+   dispositivo NOVO (id novo), com `origem.ocupouPosicaoDeVetado`.
+4. **Dispositivo de bloco sem texto é omissão** ('§ 3º ...”': as reticências
+   saíam junto com as aspas de fechamento e nascia um "§ 3º" vazio).
+
+Efeito: a LC 514 é aplicada; a LC 525/2005 passa a dar nova redação ao § 3º
+(antes "incluía" um segundo); o art. 2º fica igual ao compilado de referência.
+Comparação: 72 de 78 dispositivos iguais (era 70 de 79).
+
+Bateria: 153 no core, 72 promulgação parcial, 23 estrutura, `normateste.mjs`
+idêntico byte a byte; `teste_versionamento.mjs` 28 → 34.
+
+## Histórico e página
+
+- `historico.mjs`: endereço que deixa de existir por renumeração ganha o estado
+  `renumerado`; o endereço novo traz `renumerado: { de, lei }`; a ordem de
+  exibição junta todas as versões. `teste_historico.mjs` 13 → 17.
+- Página: nota "(Parágrafo único renumerado para § 3º pela Lei Complementar nº
+  514/2004)". A LC 320 passa a ter 10 versões e só 1 alteradora não aplicada
+  (LC 449/2000, arquivo mal transcrito na fonte).

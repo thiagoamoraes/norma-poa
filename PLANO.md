@@ -129,11 +129,11 @@ existir, prevalece):
 Prova: `teste_versionamento.mjs` — LC 320/1994 e as dez leis complementares
 que a alteraram, em ordem, contra o texto compilado de referência.
 
-**Resultado: 70 de 79 dispositivos iguais.** As 9 diferenças:
+**Resultado: 72 de 78 dispositivos iguais** (era 70 de 79 antes de a LC 514/2004 ser aplicada — ver a 1ª linha da tabela, resolvida em 17/11/2026 por decisão do mantenedor: o motor segue o que a lei fez). As diferenças:
 
 | Causa | Dispositivos | O que fazer |
 |---|---|---|
-| Pendência do motor: a LC 514/2004 renumera o parágrafo único do art. 2º para § 3º e inclui os §§ 1º e 2º onde havia dispositivos vetados | § 1º, § 2º e parágrafo único do art. 2º | Decidir o modelo: hoje o projeto tem por regra "nunca renumerar" e "posição de vetado não se reaproveita", e a lei real fez as duas coisas |
+| ~~Pendência do motor: a LC 514/2004 renumera o parágrafo único do art. 2º para § 3º e inclui os §§ 1º e 2º onde havia dispositivos vetados~~ | ~~§ 1º, § 2º e parágrafo único do art. 2º~~ | **Resolvido**: comando `renumber_node` e texto novo em rótulo de vetado, ambos registrados como exceção |
 | Divergência da referência: a LC 958/2022, art. 6º, revoga o art. 7º; o compilado de referência (cópia de trabalho) ainda traz o texto | art. 7º e seus dois parágrafos | Conferir na fonte; o motor segue o texto da lei |
 | Defeito do arquivo de origem | art. 9º-A (LC 692: faltam palavras no PDF), parágrafo único do art. 10 (LC 474: "n-" por "nº"), inc. I do art. 12-B (um travessão) | Nada no motor; a verificação da estruturação manda esses arquivos para revisão |
 

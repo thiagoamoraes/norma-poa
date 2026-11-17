@@ -88,7 +88,7 @@ ok('LC 692/2012 (arquivo traz o documento 3 vezes): art. 9º-A entra uma vez só
   aplicados('692').length === 1 && recusados('692').length === 2 && v.artigos.map((a) => a.desFixo).join('|').includes('Art. 9º|Art. 9º-A|Art. 10'));
 
 // --- cadeia de versões ---------------------------------------------------------
-ok('uma versão por alteradora que mudou algo: v0 + 8 (LC 449 e LC 514 não mudaram nada)', versoes.length === 9);
+ok('uma versão por alteradora que mudou algo: v0 + 9 (só a LC 449 não mudou nada)', versoes.length === 10);
 ok('cada versão tem identidade própria e aponta para a anterior', versoes.slice(1).every((x, i) => x.versaoAnterior === versoes[i].id && x.id !== versoes[i].id));
 ok('ids: "lc 320/1994@<data da alteradora>"', versoes[1].id === 'lc 320/1994@1996-09-04' && v.id === 'lc 320/1994@2022-10-04' && v.fonte.lei.numero === '958');
 ok('versões são imutáveis: a v0 segue com o art. 4º de 1994', /^É proibida a duplicidade/.test(no(v0, 'art. 4º').texto) && !/inclusive/.test(no(v0, 'art. 4º').texto));
@@ -103,15 +103,30 @@ const chaves = [...new Set([...Object.keys(ref), ...Object.keys(idx)])];
 const fecho = /prefeitura municipal de porto alegre, 02 de maio/; // a referência cola o fecho no último artigo
 const diferentes = chaves.filter((k) => { const a = norm(idx[k]), b = norm(ref[k]); return !(a === b || (b.startsWith(a) && fecho.test(b))); });
 console.log(`  (iguais à referência: ${chaves.length - diferentes.length} de ${chaves.length})`);
-ok('70 de 79 dispositivos iguais ao compilado de referência', chaves.length === 79 && diferentes.length === 9);
+ok('72 de 78 dispositivos iguais ao compilado de referência', chaves.length === 78 && diferentes.length === 6);
 const esperadas = {
-  'PENDÊNCIA — LC 514/2004 renumera o parágrafo único para § 3º e ocupa os §§ 1º e 2º vetados (comando ainda não suportado)': ['§ 1º do art. 2º', '§ 2º do art. 2º', 'parágrafo único do art. 2º'],
   'DIVERGÊNCIA DA REFERÊNCIA — art. 7º revogado pela LC 958/2022, art. 6º; o compilado de referência ainda traz o texto': ['art. 7º', '§ 1º do art. 7º', '§ 2º do art. 7º'],
   'DEFEITO DO ARQUIVO DE ORIGEM — LC 692 (faltam palavras), LC 474 ("n-" por "nº"), e um travessão a mais na LC 958 que a referência não tem': ['art. 9º-a', 'parágrafo único do art. 10', 'inc. i do art. 12-b'],
 };
 for (const [motivo, lista] of Object.entries(esperadas)) ok(`${motivo}: ${lista.join(', ')}`, lista.every((k) => diferentes.includes(k)));
-ok('nenhuma diferença fora das 9 explicadas acima', diferentes.every((k) => Object.values(esperadas).flat().includes(k)));
-ok('PENDÊNCIA — LC 514/2004: nenhum comando extraído (o artigo cai em "nao_classificado")', aplicados('514').length === 0 && porLei['514'].comandos.every((k) => k.operacao === 'nao_classificado'));
+ok('nenhuma diferença fora das 6 explicadas acima', diferentes.every((k) => Object.values(esperadas).flat().includes(k)));
+// --- renumeração ordenada pela lei e texto novo em rótulo de dispositivo vetado ---
+{
+  const k514 = porLei['514'].comandos.filter((k) => k.operacao !== 'nao_classificado');
+  ok('LC 514/2004: 3 comandos — renumerar o parágrafo único para § 3º, depois os §§ 1º e 2º', k514.map((k) => `${k.operacao}:${k.dispositivoAlvo}`).join(' | ') === 'renumber_node:parágrafo único do art. 2º | replace_text:§ 1º do art. 2º | replace_text:§ 2º do art. 2º' && porLei['514'].log.length === 1);
+  const v514 = versoes.find((x) => x.fonte?.lei?.numero === '514');
+  const antes = versoes[versoes.indexOf(v514) - 1];
+  const p3 = no(v514, '§ 3º do art. 2º'), pu = no(antes, 'parágrafo único do art. 2º');
+  ok('LC 514: o parágrafo único vira § 3º — MESMO dispositivo (id e texto), rótulo novo, troca registrada', p3 && p3.id === pu.id && p3.texto === pu.texto && p3.desFixo === '§ 3º' && p3.renumerado.de === 'Parágrafo único.' && p3.renumerado.lei.numero === '514' && p3.origem.lei.numero === '384');
+  ok('LC 514: depois dela não há mais "parágrafo único" no art. 2º', no(v514, 'parágrafo único do art. 2º') === null && no(v514, 'art. 2º').children.map((f) => f.desFixo).join(' ') === '§ 1º § 2º § 3º');
+  const p1 = no(v514, '§ 1º do art. 2º');
+  ok('LC 514: § 1º novo entra no rótulo do § 1º vetado — dispositivo NOVO (outro id), sem marca de vetado, exceção registrada', /percentual mínimo de 30%/.test(p1.texto) && !p1.vetado && p1.id !== no(antes, '§ 1º do art. 2º').id && p1.origem.ocupouPosicaoDeVetado === true && p1.origem.lei.numero === '514');
+  ok('a versão anterior continua com os §§ 1º e 2º vetados', no(antes, '§ 1º do art. 2º').vetado === true && no(antes, '§ 2º do art. 2º').vetado === true);
+  ok('LC 525/2005 passa a dar NOVA REDAÇÃO ao § 3º (antes, sem a renumeração, ela "incluía" um § 3º)', aplicados('525')[0].operacao === 'replace_text' && no(v, '§ 3º do art. 2º').origem.lei.numero === '525' && no(v, '§ 3º do art. 2º').id === pu.id);
+  ok('texto vigente do art. 2º: §§ 1º a 4º, como no compilado de referência', no(v, 'art. 2º').children.map((f) => f.desFixo).join(' ') === '§ 1º § 2º § 3º § 4º' && ['§ 1º do art. 2º', '§ 2º do art. 2º', '§ 3º do art. 2º', '§ 4º do art. 2º'].every((k) => !diferentes.includes(k)));
+  ok('(sintético) linha "parágrafo único para…" em minúscula não vira dispositivo; "Parágrafo único." e "PARÁGRAFO ÚNICO" continuam valendo',
+    c.parseMinuta('LEI Nº 1\nArt. 1º Texto que renumera o atual\nparágrafo único para § 3º.\nParágrafo único. Vale.\nArt. 2º Outro.\nPARÁGRAFO ÚNICO - Vale também.').artigos.map((a) => a.children.length).join() === '1,1');
+}
 ok('PENDÊNCIA — cabeçalho fora do padrão não é reconhecido: LC 449 ("…Nº 449", sem data), LC 474 (sem "Nº"), LC 692 (timbre antes)', !porLei['449'].cabecalho && !porLei['474'].cabecalho && !porLei['692'].cabecalho);
 
 console.log('='.repeat(70));

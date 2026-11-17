@@ -235,13 +235,14 @@ function desenharHistorico() {
   for (const d of h.dispositivos) {
     let atual = null; const anteriores = [];
     for (const e of d.estados) { if (e.desde <= k) { if (atual) anteriores.push(atual); atual = e; } }
-    if (!atual) continue; // ainda não existia nesta versão
+    if (!atual || atual.situacao === 'renumerado') continue; // ainda não existia nesta versão, ou mudou de rótulo
     for (const g of d.agrupadores || []) partes.push(`<div class="grupo">${esc(GRUPO[g.tipo] || g.tipo)} ${esc(g.numero)}${g.titulo ? '<br>' + esc(g.titulo) : ''}</div>`);
-    const nota = atual.origem.lei ? ` <span class="nota">(${ANOTA[atual.origem.operacao] || 'Alterado pela'} ${esc(atual.origem.lei)})</span>` : '';
+    let nota = atual.origem.lei ? ` <span class="nota">(${ANOTA[atual.origem.operacao] || 'Alterado pela'} ${esc(atual.origem.lei)})</span>` : '';
+    if (atual.renumerado) nota += ` <span class="nota">(${esc(atual.renumerado.de)} renumerado para ${esc((d.rotulo || '').replace(/\.$/, ''))} pela ${esc(atual.renumerado.lei)})</span>`;
     const mudou = marcar && k > 0 && atual.desde === k;
     const duvida = conferir.has(d.id) ? ' <span class="selo al" title="Uma alteradora que cita este dispositivo não foi aplicada por inteiro">não conferido</span>' : '';
     partes.push(`<div class="disp n${NIVEL(d.id)}${atual.situacao !== 'vigente' ? ' rev' : ''}${mudou ? ' mudou' : ''}" id="d-${esc(d.id)}"><span class="r" data-ref="${esc(d.id)}" title="Copiar a referência a este dispositivo">${esc(d.rotulo || '')}</span><span class="t">${esc(atual.texto)}</span>${nota}${duvida}</div>`);
-    if (antigas) for (const a of anteriores.reverse()) partes.push(`<div class="disp antiga n${NIVEL(d.id)}"><span class="t">${esc(a.texto)}</span> <span class="nota">(${a.origem.lei ? (ANOTA[a.origem.operacao] || 'Alterado pela') + ' ' + esc(a.origem.lei) : 'texto original'})</span></div>`);
+    if (antigas) for (const a of anteriores.reverse()) if (a.situacao !== 'renumerado') partes.push(`<div class="disp antiga n${NIVEL(d.id)}"><span class="t">${esc(a.texto)}</span> <span class="nota">(${a.origem.lei ? (ANOTA[a.origem.operacao] || 'Alterado pela') + ' ' + esc(a.origem.lei) : 'texto original'})</span></div>`);
   }
   partes.push('</div>');
   $('hist-corpo').innerHTML = partes.join('');

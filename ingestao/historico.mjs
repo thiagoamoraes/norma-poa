@@ -13,6 +13,9 @@
 //
 // `estados` só guarda mudança: o estado de um dispositivo na versão k é o
 // último com `desde` ≤ k; se não houver nenhum, o dispositivo ainda não existia.
+// situacao: 'vigente' | 'vetado' | 'revogado' | 'renumerado' (o endereço deixou de
+// existir porque a lei trocou o rótulo; o texto segue no endereço novo, cujo
+// estado traz `renumerado: { de, lei }`).
 //
 // NADA é dado como certo em silêncio: toda alteradora que não foi aplicada por
 // inteiro aparece em `naoAplicadas`, e os dispositivos que ela cita entram em
@@ -92,26 +95,44 @@ export function apurarHistorico(base, alteradoras) {
     }
   }
 
-  // linha do tempo por dispositivo (ordem = a da árvore final, que contém todos: nada sai da árvore)
+  // Linha do tempo por dispositivo. A ordem de exibição junta todas as versões:
+  // um endereço que deixa de existir por renumeração (o "parágrafo único" que
+  // virou "§ 3º") continua na lista, para as versões em que existia.
   const porId = new Map();
   const ordem = [];
+  const nomeLei = (l) => `${l.tipoAto === 'LEI COMPLEMENTAR' ? 'Lei Complementar' : 'Lei'} nº ${Number(l.numero).toLocaleString('pt-BR')}/${l.ano}`;
   arvores.forEach((arv, k) => {
+    const presentes = new Set();
+    let anterior = null;
     const andar = (nos, pai) => {
       for (const n of nos || []) {
         const id = (pai ? pai + '/' : '') + (slugDoRotulo(n.tipo, n.desFixo) || `${n.tipo}-sem-rotulo`);
+        presentes.add(id);
         let d = porId.get(id);
-        if (!d) { d = { id, pai: pai || null, tipo: n.tipo, rotulo: n.desFixo || null, estados: [] }; porId.set(id, d); }
+        if (!d) {
+          d = { id, pai: pai || null, tipo: n.tipo, rotulo: n.desFixo || null, estados: [] };
+          porId.set(id, d);
+          ordem.splice(anterior === null ? 0 : ordem.indexOf(anterior) + 1, 0, id);
+        }
+        anterior = id;
         if (n.gruposAntes && n.gruposAntes.length && !d.agrupadores) d.agrupadores = n.gruposAntes.map((g) => ({ tipo: g.tipo, numero: g.numero, titulo: g.titulo }));
         const situacao = n.revogado ? 'revogado' : n.vetado ? 'vetado' : 'vigente';
         const o = n.origem || {};
-        const origem = o.lei ? { operacao: o.operacao, lei: `${o.lei.tipoAto === 'LEI COMPLEMENTAR' ? 'Lei Complementar' : 'Lei'} nº ${Number(o.lei.numero).toLocaleString('pt-BR')}/${o.lei.ano}` } : { operacao: 'promulgacao_original' };
+        const origem = o.lei ? { operacao: o.operacao, lei: nomeLei(o.lei) } : { operacao: 'promulgacao_original' };
+        const estado = { desde: k, texto: n.texto, situacao, origem };
+        if (o.ocupouPosicaoDeVetado) estado.ocupouPosicaoDeVetado = true;
+        if (n.renumerado) estado.renumerado = { de: String(n.renumerado.de).replace(/\.$/, ''), lei: nomeLei(n.renumerado.lei) };
         const ult = d.estados[d.estados.length - 1];
-        if (!ult || ult.texto !== n.texto || ult.situacao !== situacao || ult.origem.operacao !== origem.operacao || ult.origem.lei !== origem.lei) d.estados.push({ desde: k, texto: n.texto, situacao, origem });
-        if (k === arvores.length - 1) ordem.push(id);
+        if (!ult || ult.texto !== estado.texto || ult.situacao !== situacao || ult.origem.operacao !== origem.operacao || ult.origem.lei !== origem.lei) d.estados.push(estado);
         andar(n.children, id);
       }
     };
     andar(arv.artigos, null);
+    // endereço que existia e não existe mais nesta versão: só acontece por renumeração
+    for (const [id, d] of porId) {
+      const ult = d.estados[d.estados.length - 1];
+      if (!presentes.has(id) && ult && ult.situacao !== 'renumerado') d.estados.push({ desde: k, texto: '', situacao: 'renumerado', origem: { operacao: 'renumber_node', lei: versoes[k].fonte ? nomeLei(fonteDoRegistro(emOrdem.find((a) => a.registro.idSapl === versoes[k].fonte.idSapl).registro)) : null } });
+    }
   });
   // quem está em aConferir leva junto os subordinados
   const conferir = [];

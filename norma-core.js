@@ -584,7 +584,10 @@ export function parseMinuta(raw, nrRanges) {
   // vazando para o corpo do texto do dispositivo seguinte.
   const reArt = /^(?:Art|ART)(?:igo|IGO)?\.?\s*(\d+\s*[º°]?(?:-[A-Za-z])?)\s*[.\-–—:]*\s*(.*)$/;
   const rePar = /^§\s*(\d+\s*[º°]?(?:-[A-Z])?)\s*[.\-–—:]*\s*(.*)$/;
-  const rePUn = /^Par[áa]grafo\s+[úu]nico\s*[.\-–—:]*\s*(.*)$/i;
+  // Só com P maiúsculo (mesma regra do "Art."): linha que começa com "parágrafo
+  // único" em minúscula é continuação de frase quebrada — caso real: LC 514/2004,
+  // "…renumerando o atual / parágrafo único para § 3º, com o seguinte teor:".
+  const rePUn = /^P(?:ar[áa]grafo|AR[ÁA]GRAFO)\s+[úuÚU](?:nico|NICO)\s*[.\-–—:]*\s*(.*)$/;
   const reInc = /^([IVXLCDM]{1,6}(?:-[A-Z])?)\s*[-–—]\s*(.*)$/;
   const reAli = /^([a-z]{1,2}(?:-[a-z]{1,2})?)\)\s*(.*)$/;
   const reIte = /^(\d{1,2}(?:-[A-Z])?)\.\s+(.*)$/;
@@ -1252,7 +1255,7 @@ export function aplicarComandoLei(versaoAtual, comando, fonteAlteradora) {
     operacao: comando.operacao
   };
 
-  if ((comando.operacao === "replace_text" || comando.operacao === "insert_node") && !leiAlvoBateComVersao(comando, versaoAtual)) {
+  if ((comando.operacao === "replace_text" || comando.operacao === "insert_node" || comando.operacao === "renumber_node") && !leiAlvoBateComVersao(comando, versaoAtual)) {
     return { erro: `comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: ${JSON.stringify(comando.leiAlvo)}, versão: ${chaveLei(versaoAtual.leiBase.tipoAto, versaoAtual.leiBase.numero, versaoAtual.leiBase.ano)})`, comando };
   }
 
@@ -1261,7 +1264,19 @@ export function aplicarComandoLei(versaoAtual, comando, fonteAlteradora) {
     if (!caminho) return { erro: `endereço "${comando.dispositivoAlvo}" não encontrado na versão atual — possível citação incorreta na lei alteradora ou dispositivo já renumerado/removido`, comando };
     const alvo = caminho[caminho.length-1].node;
     if (alvo.revogado) return { erro: `endereço "${comando.dispositivoAlvo}" está revogado — não pode ser alvo de replace_text`, comando };
-    if (alvo.vetado) return { erro: `endereço "${comando.dispositivoAlvo}" está vetado — restabelecimento exige operação "veto_derrubado" dedicada (ainda não implementada), não replace_text comum`, comando };
+    if (alvo.vetado) {
+      // Texto novo dado por lei alteradora a um rótulo cujo dispositivo original
+      // foi vetado — caso real: LC 514/2004 inclui §§ 1º e 2º no art. 2º da LC
+      // 320/1994, onde os §§ 1º e 2º originais eram VETADO. Não é derrubada de
+      // veto (essa chega por promulgação própria, não por bloco de alteração): é
+      // dispositivo NOVO, com identidade nova, que a lei pôs naquela posição. A
+      // regra de não reaproveitar posição de vetado (LC 611/2009, art. 17, II) é
+      // posterior e vale para o que se redige hoje; o motor segue o que a lei fez
+      // e registra a exceção (decisão do mantenedor, 17/11/2026).
+      const novo = { ...alvo, id: nid(), texto: comando.novoTexto, origem: { ...origemComando, operacao: "insert_node", ocupouPosicaoDeVetado: true } };
+      delete novo.vetado;
+      return { versao: reconstruirComSubstituicao(versaoAtual, caminho, novo) };
+    }
     const novoNo = { ...alvo, texto: comando.novoTexto, origem: origemComando };
     return { versao: reconstruirComSubstituicao(versaoAtual, caminho, novoNo) };
   }
@@ -1321,6 +1336,22 @@ export function aplicarComandoLei(versaoAtual, comando, fonteAlteradora) {
     const novosArtigos = versaoAtual.artigos.slice();
     novosArtigos.splice(posInsercao+1, 0, novoArtigo);
     return { versao: { ...versaoAtual, artigos: novosArtigos } };
+  }
+
+  if (comando.operacao === "renumber_node") {
+    // Ver extrairComandosLei: só existe quando a alteradora manda renumerar.
+    // O nó é o MESMO (mesmo id, mesmo texto, mesma origem do texto); muda o
+    // rótulo, e a troca fica registrada em `renumerado`.
+    const caminho = localizarCaminho(versaoAtual, comando.dispositivoAlvo);
+    if (!caminho) return { erro: `endereço "${comando.dispositivoAlvo}" não encontrado — não há o que renumerar`, comando };
+    const alvo = caminho[caminho.length-1].node;
+    const irmaos = caminho[caminho.length-1].nodes || [];
+    const segNovo = desFixoParaSegmento(comando.novoRotulo);
+    if (irmaos.some(n => n !== alvo && !n.vetado && desFixoParaSegmento(n.desFixo) === segNovo)) {
+      return { erro: `não é possível renumerar "${comando.dispositivoAlvo}" para "${comando.novoRotulo}": já existe dispositivo com esse rótulo`, comando };
+    }
+    const novoNo = { ...alvo, desFixo: comando.novoRotulo, renumerado: { de: alvo.desFixo, lei: origemComando.lei, dataPublicacao: origemComando.dataPublicacao } };
+    return { versao: reconstruirComSubstituicao(versaoAtual, caminho, novoNo) };
   }
 
   if (comando.operacao === "revoke_node") {
@@ -1421,7 +1452,10 @@ function walkLeiAlvo(raw, put) {
   const lines = raw.split(/\r?\n/).map(l => l.trim());
   let a=null, p=null, i=null;
   const reArt = /^(?:Art|ART)(?:igo|IGO)?\.?\s*(\d+\s*[º°]?(?:-[A-Za-z])?)\s*[.\-–—:]*\s*(.*)$/;
-  const rePUn = /^Par[áa]grafo\s+[úu]nico\s*[.\-–—:]*\s*(.*)$/i;
+  // Só com P maiúsculo (mesma regra do "Art."): linha que começa com "parágrafo
+  // único" em minúscula é continuação de frase quebrada — caso real: LC 514/2004,
+  // "…renumerando o atual / parágrafo único para § 3º, com o seguinte teor:".
+  const rePUn = /^P(?:ar[áa]grafo|AR[ÁA]GRAFO)\s+[úuÚU](?:nico|NICO)\s*[.\-–—:]*\s*(.*)$/;
   const rePar = /^§\s*(\d+\s*[º°]?(?:-[A-Z])?)\s*[.\-–—:]*\s*(.*)$/;
   const reInc = /^([IVXLCDM]{1,6}(?:-[A-Z])?)\s*[-–—]\s*(.*)$/;
   const reAli = /^([a-z]{1,2}(?:-[a-z]{1,2})?)\)\s*(.*)$/;
@@ -1812,8 +1846,32 @@ export function extrairComandosLei(docAlteradora, opts) {
           raw: textoIntro });
         return;
       }
+      // Renumeração ordenada pela própria alteradora — caso real: LC 514/2004,
+      // art. 1º: "…renumerando o atual parágrafo único para § 3º…". O projeto
+      // não renumera por conta própria (LC 611/2009, art. 17), mas quando a LEI
+      // manda, o motor segue a lei e registra (decisão do mantenedor, 17/11/2026).
+      // Sai ANTES dos comandos do bloco: os dispositivos novos entram depois de
+      // o antigo já ter mudado de rótulo.
+      {
+        const mRen = textoIntro.match(/renumerand[oa](?:-se)?\s+[oa]s?\s+(?:atua(?:l|is)\s+)?(par[áa]grafo\s+[úu]nico|§\s*\d+\s*[º°]?)\s+para\s+(?:[oa]\s+)?(§\s*\d+\s*[º°]?|par[áa]grafo\s+[úu]nico)/i);
+        if (mRen) {
+          const artigoBase = enderecoBase.split(" do ").pop();
+          const seg = s => /único/i.test(s) ? "parágrafo único" : "§ " + s.replace(/[§\s]/g, "").replace(/°/g, "º").replace(/^(\d+)$/, "$1º");
+          comandos.push({
+            artigoOrigem: i+1, operacao: "renumber_node", leiAlvo: leiAlvoRef, leiAlvoResolvida,
+            dispositivoAlvo: `${seg(mRen[1])} do ${artigoBase}`,
+            novoRotulo: /único/i.test(mRen[2]) ? "Parágrafo único." : seg(mRen[2]),
+            raw: textoIntro
+          });
+        }
+      }
       enderecarNrBloco(art.nrBloco, enderecoBase).forEach(({ chave, node }) => {
         if (node.omitido) return; // "..." — caput/trecho inalterado, não é comando
+        // Dispositivo do bloco que ficou SEM texto também é omissão: acontece quando
+        // a linha de pontos é a última do bloco e as reticências saem junto com as
+        // aspas de fechamento — caso real: LC 514/2004, '§ 3º ...”'. Um comando com
+        // texto vazio nunca é alteração; sem esta guarda nascia um "§ 3º" vazio.
+        if (!String(visText(node) || "").trim()) return;
         let operacao;
         if (leiBaseIndex) {
           operacao = leiBaseIndex[chave] !== undefined ? "replace_text" : "insert_node";
