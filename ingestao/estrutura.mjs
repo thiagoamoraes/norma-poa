@@ -19,7 +19,7 @@
 import { parseLeiPublicada, atribuirDesFixoOriginal, detectNRCandidates } from '../norma-core.js';
 
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
-export const VERSAO_ESTRUTURADOR = 2;
+export const VERSAO_ESTRUTURADOR = 3;
 
 const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');

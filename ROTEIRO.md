@@ -38,7 +38,7 @@ for t in teste_regressao teste_vetado_provenencia teste_pecas_2_3 teste_lei_publ
 ```
 
 Contagens de referência em 17/11/2026: 47 · 13 · 30 · 11 · 29 · 7 · 16 · 72 ·
-24 · 26 · 24 · 28 · 34 · 24 · 33, todas sem falha; mais `teste_ocr.mjs` (7; pula se não houver tesseract). (`teste_pdf_normas` precisa
+24 · 26 · 33 · 28 · 34 · 24 · 33, todas sem falha; mais `teste_ocr.mjs` (7; pula se não houver tesseract). (`teste_pdf_normas` precisa
 de `npm ci`.)
 
 ### 0.3 Regras que mais custam caro quando esquecidas
@@ -290,7 +290,12 @@ caderno, que podem ter dados pessoais: nunca gravar no repositório.
 
 ---
 
-## 6. Busca dentro do texto dos dispositivos
+## 6. Busca dentro do texto dos dispositivos — FEITO em 17/11/2026 (falta medir em escala)
+
+> Implementado como descrito abaixo (fatias `docs/dados/texto-NNN.json`, opção
+> "Buscar dentro do texto das leis"). Só entra texto CONFERIDO: histórico, ou
+> estruturação aceita. **Falta:** o passo 3 (medir no celular com o acervo real
+> e, se as fatias passarem de ~40 MB, montar o índice na rotina).
 
 **Por quê.** Hoje a busca olha número, ementa e palavras-chave.
 

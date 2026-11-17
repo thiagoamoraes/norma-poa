@@ -16,6 +16,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { estruturarNorma, VERSAO_ESTRUTURADOR } from './estrutura.mjs';
 import { lerJsonl, agora } from './sapl-io.mjs';
+import { prepararTextoExtraido } from './extracao-texto.mjs';
 
 const DIR_TEXTO = './dados/textos/sapl';
 const DIR_SAIDA = './dados/estruturado/sapl';
@@ -46,7 +47,7 @@ for (const [id, ind] of baixados) {
     if (anterior.sha256Origem === ind.sha256 && anterior.versaoEstruturador === VERSAO_ESTRUTURADOR) reg = anterior;
   }
   if (!reg) {
-    const texto = (await readFile(arqTexto, 'utf8')).replace(/\f/g, '\n');
+    const texto = prepararTextoExtraido(await readFile(arqTexto, 'utf8'));
     const r = catalogo.get(id) || null;
     try {
       reg = { idSapl: id, rotulo: r?.rotulo ?? ind.rotulo, sha256Origem: ind.sha256, estruturadoEm: agora(), ...estruturarNorma(texto, r, { ocr: ind.extracao?.metodo === 'ocr' }) };

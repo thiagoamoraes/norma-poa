@@ -26,6 +26,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { apurarHistorico, montarListaDeHistoricos, alteradorasPelaEmenta } from './historico.mjs';
 import { lerJsonl, agora } from './sapl-io.mjs';
+import { prepararTextoExtraido } from './extracao-texto.mjs';
 
 const DIR = './dados/historico';
 await mkdir(path.join(DIR, 'sapl'), { recursive: true });
@@ -54,7 +55,7 @@ for (const l of manual) {
 async function texto(id, arquivos) {
   const manualArq = arquivos.get(id);
   const arq = manualArq && existsSync(manualArq) ? manualArq : `./dados/textos/sapl/${id}.txt`;
-  return existsSync(arq) ? (await readFile(arq, 'utf8')).replace(/\f/g, '\n') : null;
+  return existsSync(arq) ? prepararTextoExtraido(await readFile(arq, 'utf8')) : null;
 }
 
 // ── apuração ──────────────────────────────────────────────────────────────────

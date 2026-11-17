@@ -134,3 +134,74 @@ export function removerRepeticaoDeTexto(texto) {
   const ultima = cheias[cheias.length / repeticoes - 1];
   return { texto: linhas.slice(0, ultima + 1).join('\n') + '\n', repeticoes };
 }
+
+// ─── Hifenização de fim de linha ──────────────────────────────────────────────
+
+// Depois do hífen, estas formas são pronome ou desinência ligados por hífen de
+// verdade ("aplica-se", "constituir-se-á", "fá-lo"): o hífen fica.
+const ENCLITICOS = new Set(['se', 'me', 'te', 'lhe', 'lhes', 'nos', 'vos', 'o', 'a', 'os', 'as', 'lo', 'la', 'los', 'las', 'no', 'na', 'á', 'ão', 'ia', 'iam', 'ei', 'emos']);
+
+/**
+ * desfazerHifenizacao(texto) → { texto, juntadas, mantidas }
+ *
+ * O PDF justificado quebra palavras no fim da linha ("cultu-" / "rais", "pode-" /
+ * "rão"). Sem tratar, o texto fica "cultu- rais" — caso real: Lei nº 11.213/2012,
+ * 19 de 66 linhas. Isto NÃO é corrigir redação: é desfazer a quebra tipográfica.
+ *
+ * Regra, da evidência mais forte para a mais fraca:
+ *   1. a palavra inteira ("culturais") aparece em outro ponto do MESMO texto,
+ *      fora de quebra de linha → junta, sem hífen;
+ *   2. a forma com hífen ("Bônus-Moradia") aparece em outro ponto → mantém o hífen;
+ *   3. depois do hífen vem pronome/desinência ("aplica-" / "se") ou maiúscula
+ *      ("Vice-" / "Prefeito") → mantém o hífen;
+ *   4. senão → junta (em português, hífen de fim de linha é quase sempre
+ *      separação de sílaba).
+ * Em todos os casos as duas linhas viram uma só, sem o espaço espúrio.
+ * Só entra linha que termina em letra + hífen, seguida de linha que começa por
+ * letra minúscula ou maiúscula de palavra (não por rótulo: "a)", "I –", "§").
+ */
+export function desfazerHifenizacao(texto) {
+  const linhas = String(texto).split('\n');
+  const palavras = (s) => (s.match(/[\p{L}]+(?:-[\p{L}]+)*/gu) || []);
+  // vocabulário do próprio texto, sem as pontas de linha (que podem ser pedaços)
+  const inteiras = new Set(), comHifen = new Set();
+  for (const l of linhas) {
+    const ps = palavras(l.trim());
+    ps.forEach((p, i) => {
+      if (i === 0 || (i === ps.length - 1 && /-\s*$/.test(l))) return;
+      if (p.includes('-')) comHifen.add(p.toLowerCase()); else inteiras.add(p.toLowerCase());
+    });
+  }
+  const saida = [];
+  let juntadas = 0, mantidas = 0;
+  for (let i = 0; i < linhas.length; i++) {
+    let atual = linhas[i];
+    for (;;) {
+      const mFim = /([\p{L}]+)-\s*$/u.exec(atual);
+      const prox = linhas[i + 1];
+      const mIni = prox !== undefined ? /^\s*([\p{L}]+)(.?)/u.exec(prox) : null;
+      if (!mFim || !mIni || mIni[2] === ')' || /^\s*(?:[IVXLCDM]+\s*[-–—]|Art\.|Par[áa]grafo\s+[úu]nico)/.test(prox)) break;
+      const a = mFim[1], b = mIni[1];
+      const junta = (a + b).toLowerCase(), hifenada = (a + '-' + b).toLowerCase();
+      let manter;
+      if (inteiras.has(junta) && !comHifen.has(hifenada)) manter = false;
+      else if (comHifen.has(hifenada)) manter = true;
+      else manter = ENCLITICOS.has(b.toLowerCase()) || /^\p{Lu}/u.test(b);
+      const cabeca = atual.replace(/-\s*$/, manter ? '-' : '');
+      atual = cabeca + prox.replace(/^\s+/, '');
+      if (manter) mantidas++; else juntadas++;
+      i++;
+    }
+    saida.push(atual);
+  }
+  return { texto: saida.join('\n'), juntadas, mantidas };
+}
+
+/**
+ * Preparo padrão do texto extraído antes de qualquer leitura (estruturação,
+ * histórico): quebra de página vira quebra de linha e a hifenização de fim de
+ * linha é desfeita. O arquivo .txt guardado NÃO é alterado.
+ */
+export function prepararTextoExtraido(texto) {
+  return desfazerHifenizacao(String(texto).replace(/\f/g, '\n')).texto;
+}

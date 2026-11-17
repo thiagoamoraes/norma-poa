@@ -1301,3 +1301,25 @@ Nenhuma mudança no `norma-core.js`.
 - Estruturação: aviso `texto_de_ocr`; a página avisa o leitor.
 - Testes: `teste_ocr.mjs` (7, com a LC 51/1980 real; pula se não houver
   tesseract) e `teste_textos_sapl.mjs` 21 → 24.
+
+# Rodada 19 — Busca no texto, acabamento da minuta, hifenização e rotina mais robusta (17/11/2026)
+
+Nenhuma mudança no `norma-core.js`.
+
+- **Hifenização de fim de linha** (`desfazerHifenizacao`, `prepararTextoExtraido`
+  em `extracao-texto.mjs`): PDF justificado quebra palavras ("cultu-" / "rais");
+  o texto ficava "cultu- rais" — Lei nº 11.213/2012, 18 casos em 66 linhas.
+  Junta quando a palavra inteira aparece no mesmo texto ou, na falta de prova,
+  por padrão; mantém o hífen se a forma com hífen aparece em outro ponto, se o
+  que segue é pronome/desinência ou começa por maiúscula. Aplicado na leitura
+  (estruturação e histórico); o `.txt` guardado não muda. `VERSAO_ESTRUTURADOR` 3.
+- **Busca dentro do texto**: `gerar-site.mjs` produz fatias com o texto vigente
+  por dispositivo (do histórico, ou da estruturação aceita); a página as baixa
+  só quando a opção é ligada, mostra resultados por dispositivo com o trecho
+  destacado e abre a norma no ponto.
+- **Painel de minuta**: botão "alterar" em cada dispositivo do texto vigente e
+  download do pedido em JSON (o mesmo que `minuta-cli.mjs` lê).
+- **Rotina**: a execução de validação coletou e NÃO gravou, por conflito em
+  arquivo gerado (houve commit durante a coleta). A gravação passa a resolver
+  esse conflito a favor do que a coleta produziu, com três tentativas.
+- Testes: `teste_textos_sapl.mjs` 24 → 33.

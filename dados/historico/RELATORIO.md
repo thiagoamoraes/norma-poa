@@ -1,6 +1,6 @@
 # Histórico — relatório
 
-Gerado em 2026-11-17T01:59:42.888Z por `ingestao/gerar-historico.mjs`. Não editar à mão.
+Gerado em 2026-11-17T02:54:13.259Z por `ingestao/gerar-historico.mjs`. Não editar à mão.
 
 Vínculos lidos: 0 · pares (lei, alteradora) propostos pelas ementas: 1500 · leis com alteradoras conhecidas ou candidatas: 469
 

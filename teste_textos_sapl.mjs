@@ -6,7 +6,7 @@
 // Sem rede. Uso: node teste_textos_sapl.mjs
 
 import { readFile } from 'node:fs/promises';
-import { htmlSirelParaTexto, removerRepeticaoIntegral, removerRepeticaoDeTexto, contarAlfanumericos, extensaoDaUrl } from './ingestao/extracao-texto.mjs';
+import { htmlSirelParaTexto, removerRepeticaoIntegral, removerRepeticaoDeTexto, desfazerHifenizacao, prepararTextoExtraido, contarAlfanumericos, extensaoDaUrl } from './ingestao/extracao-texto.mjs';
 import { filaDeDownload, normalizarRegistroSapl, normalizarVinculoSapl } from './ingestao/sapl-comum.mjs';
 
 let passou = 0, falhou = 0;
@@ -37,6 +37,23 @@ ok('contarAlfanumericos ignora pontuação e espaço ("º" conta como letra)', c
   ok('LC 692/2012: a cópia que fica vai até o fim do fecho e mantém a formatação das linhas', /Registre-se e publique-se/.test(r.texto) === /Registre-se e publique-se/.test(bruto) && bruto.startsWith(r.texto.slice(0, 200)));
   const lc514 = await readFile('./fixtures/lc320/lc514.txt', 'utf8');
   ok('texto sem repetição não é tocado (LC 514/2004)', removerRepeticaoDeTexto(lc514).repeticoes === 1 && removerRepeticaoDeTexto(lc514).texto === lc514);
+}
+
+// --- hifenização de fim de linha (real: Lei nº 11.213/2012) ------------------
+// fixtures/textos/lei11213_2012.txt: saída do `pdftotext -layout` sobre o PDF
+// da base da PGM (17/11/2026), sem retoque.
+{
+  const bruto = await readFile('./fixtures/textos/lei11213_2012.txt', 'utf8');
+  const r = desfazerHifenizacao(bruto.replace(/\f/g, '\n'));
+  ok('Lei 11.213/2012: 18 palavras partidas no fim da linha são juntadas; nenhuma fica com hífen', r.juntadas === 18 && r.mantidas === 0);
+  ok('Lei 11.213/2012: "cultu-/rais" → "culturais", "pode-/rão" → "poderão", "Glê-/nio" → "Glênio"', /eventos culturais, econômicos/.test(r.texto) && /Executivo Municipal, poderão ser/.test(r.texto) && !/cultu-|pode-\s|Glê-/.test(r.texto));
+  ok('Lei 11.213/2012: hífen no meio da linha fica como está ("Excetua-se")', /Excetua-se ao disposto/.test(r.texto));
+  ok('Lei 11.213/2012: nenhuma letra entra ou sai — só o hífen e a quebra de linha', contarAlfanumericos(r.texto) === contarAlfanumericos(bruto));
+  ok('(sintético) pronome depois do hífen mantém o hífen: "aplica-" / "se" → "aplica-se"', desfazerHifenizacao('A regra aplica-\nse a todos.').texto === 'A regra aplica-se a todos.');
+  ok('(sintético) maiúscula depois do hífen mantém o hífen: "Vice-" / "Prefeito"', desfazerHifenizacao('O Vice-\nPrefeito assina.').texto === 'O Vice-Prefeito assina.');
+  ok('(sintético) forma com hífen que aparece em outro ponto do texto é mantida: "guarda-" / "chuva"', desfazerHifenizacao('Um guarda-chuva e outro guarda-\nchuva aqui.').texto === 'Um guarda-chuva e outro guarda-chuva aqui.');
+  ok('(sintético) rótulo na linha seguinte não é emendado: alínea "a)" e inciso "I –"', desfazerHifenizacao('termina em palavra-\na) alínea').texto === 'termina em palavra-\na) alínea' && desfazerHifenizacao('termina em palavra-\nI – inciso').juntadas === 0);
+  ok('prepararTextoExtraido: quebra de página vira quebra de linha e a hifenização é desfeita', prepararTextoExtraido('cultu-\frais').trim() === 'culturais');
 }
 
 // --- extensaoDaUrl -------------------------------------------------------
