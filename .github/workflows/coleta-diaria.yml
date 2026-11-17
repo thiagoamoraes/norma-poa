@@ -37,14 +37,43 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Guarda de horário (ingestao/guarda-horario.sh): o agendamento do GitHub chega
+  # a atrasar horas; uma execução AGENDADA que acorda fora da madrugada de
+  # Brasília (00:00–07:00 = 03:00–10:00 UTC) não coleta, nem se o disparo externo
+  # já rodou. Disparo manual/externo é livre. Job pulado aparece cinza, sem e-mail.
+  guarda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      pular: ${{ steps.g.outputs.pular }}
+      parar: ${{ steps.g.outputs.parar }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: g
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENTO: ${{ github.event_name }}
+        run: |
+          desde=$(date -u -d '6 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          EXECUCOES_HOJE=$(gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/coleta-diaria.yml/runs?event=workflow_dispatch&created=>=${desde}&per_page=50" --jq "[.workflow_runs[] | select(.id != ${GITHUB_RUN_ID} and .conclusion != \"cancelled\")] | length") || EXECUCOES_HOJE=0
+          export EXECUCOES_HOJE
+          r=$(bash ingestao/guarda-horario.sh)
+          echo "guarda: $r"
+          case "$r" in
+            pular*) echo "pular=true" >> "$GITHUB_OUTPUT" ;;
+            *) echo "pular=false" >> "$GITHUB_OUTPUT"; echo "parar=${r#seguir}" | tr -d ' ' | sed 's/^parar=/parar=/' >> "$GITHUB_OUTPUT" ;;
+          esac
+
   coleta:
+    needs: guarda
+    if: needs.guarda.outputs.pular != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 350
     env:
       MINUTOS: ${{ inputs.minutos || vars.MINUTOS_POR_NOITE }}
       ETAPAS: ${{ inputs.etapas || 'novidades dopa catalogo vinculos textos' }}
       MAX_ARQUIVOS: ${{ inputs.max_arquivos }}
-      PARAR_EM_UTC: ${{ inputs.parar_em_utc }}
+      PARAR_EM_UTC: ${{ inputs.parar_em_utc || needs.guarda.outputs.parar }}
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
@@ -58,7 +87,7 @@ jobs:
       - name: Dependências (pdfjs-dist, usado na leitura dos cadernos do DOPA)
         run: npm ci --no-audit --no-fund
       - name: Testes da ingestão (sem rede)
-        run: bash teste_parar_em.sh && node teste_catalogo_sapl.mjs && node teste_textos_sapl.mjs && node teste_estrutura.mjs && node teste_versionamento.mjs && node teste_historico.mjs && node teste_minuta.mjs && node teste_leis_ordinarias.mjs && node teste_situacao.mjs && node teste_rede_local.mjs && node teste_ocr.mjs
+        run: bash teste_parar_em.sh && bash teste_guarda_horario.sh && node teste_catalogo_sapl.mjs && node teste_textos_sapl.mjs && node teste_estrutura.mjs && node teste_versionamento.mjs && node teste_historico.mjs && node teste_minuta.mjs && node teste_leis_ordinarias.mjs && node teste_situacao.mjs && node teste_rede_local.mjs && node teste_ocr.mjs
       - name: Rotina de coleta
         id: rotina
         run: |

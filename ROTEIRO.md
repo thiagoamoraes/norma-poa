@@ -36,7 +36,7 @@ node normateste.mjs > /tmp/antes.txt          # só imprime: comparar byte a byt
 for t in teste_regressao teste_vetado_provenencia teste_pecas_2_3 teste_lei_publicada \
          teste_peca4 teste_urn teste_gruposAntes teste_promulgacao_parcial teste_pdf_normas \
          teste_catalogo_sapl teste_textos_sapl teste_estrutura teste_versionamento \
-         teste_historico teste_minuta teste_leis_ordinarias teste_situacao teste_rede_local; do node $t.mjs | tail -1; done; bash teste_parar_em.sh | tail -1
+         teste_historico teste_minuta teste_leis_ordinarias teste_situacao teste_rede_local; do node $t.mjs | tail -1; done; bash teste_parar_em.sh | tail -1; bash teste_guarda_horario.sh | tail -1
 ```
 
 Contagens de referência em 17/11/2026: 47 · 13 · 30 · 11 · 29 · 7 · 16 · 72 ·
@@ -475,6 +475,19 @@ dois com um exemplo de lei real, nunca forçando o resultado.
 - Se o painel disser EM DIA e a página de consulta não tiver a norma que o Diário publicou ontem, é normal: a fonte cadastra com atraso (mediana medida: no mesmo dia; algumas levam dias). O painel só reclama após 7 dias.
 
 ---
+
+## 10-C. Disparo externo da coleta (decidido em 17/11/2026)
+
+O agendamento do GitHub atrasa horas (em 17/11 disparou 9 h depois). Por isso:
+
+1. **Guarda de horário (pronta, no workflow):** job `guarda` + `ingestao/guarda-horario.sh`. Execução `schedule` fora de 03:00–10:00 UTC é pulada (job cinza, sem e-mail); dentro da janela, para às 09:50 UTC; se o disparo externo já rodou nas últimas 6 h, o agendamento pula. Disparo manual/externo (`workflow_dispatch`) é livre.
+2. **Disparo externo (depende do mantenedor — a IA não cria credenciais):**
+   - Criar um token *fine-grained* no GitHub (Settings → Developer settings → Personal access tokens), **só neste repositório**, permissão **Actions: Read and write**, validade de até 1 ano. Nunca colar o token em chat, código ou commit.
+   - Num serviço de cron gratuito (por exemplo cron-job.org), criar uma tarefa diária **04:05 UTC (01:05 em Brasília)**, fuso UTC, método POST em
+     `https://api.github.com/repos/thiagoamoraes/norma-poa/actions/workflows/coleta-diaria.yml/dispatches`
+     com cabeçalhos `Authorization: Bearer <token>`, `Accept: application/vnd.github+json`, `X-GitHub-Api-Version: 2022-11-28`, `User-Agent: norma-experimento`, e corpo `{"ref":"main","inputs":{"parar_em_utc":"09:50"}}`. Resposta esperada: 204.
+   - Conferir no dia seguinte: Actions → a execução deve ser `workflow_dispatch` começando por volta de 04:05 UTC. O `schedule` fica de reserva.
+3. **Se o token expirar** o disparo externo para de funcionar em silêncio; o `schedule` volta a ser o único (com a guarda). `dados/SITUACAO.md` mostra "sem coleta há N dias" — nesse caso renovar o token.
 
 ## 11. Mapa rápido do código
 

@@ -1383,3 +1383,12 @@ na 2ª tentativa). Em 4 horas só 80 arquivos foram baixados.
 - Testes: `teste_rede_local.mjs` (8, servidor local que derruba conexão,
   devolve 404/500 ou não responde), `teste_textos_sapl.mjs` 33 → 36,
   `teste_situacao.mjs` 16 → 18.
+
+## Rodada 21 — guarda de horário e disparo externo (17/11/2026)
+
+- `ingestao/guarda-horario.sh` + job `guarda` no workflow: execução agendada
+  fora da madrugada de Brasília (03:00–10:00 UTC) é pulada; dentro dela para
+  às 09:50 UTC; se o disparo externo já rodou, o agendamento pula.
+  `teste_guarda_horario.sh` (8; inclui o caso real de 13:23 UTC).
+- Disparo externo às 04:05 UTC via `workflow_dispatch` (ROTEIRO, 10-C): o
+  mantenedor cria o token e a tarefa no serviço de cron; o `schedule` fica de reserva.
