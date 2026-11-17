@@ -875,7 +875,13 @@ export function extrairRedacaoAlterada(blockLines) {
   let temNR = false; const last2idx = lns.length-1; let lastLine = lns[last2idx];
   const mNR = lastLine.match(/\(NR\)\s*["“”']?\s*\.?\s*$/);
   if (mNR) { temNR=true; lastLine=lastLine.slice(0,mNR.index).trim(); }
-  lastLine = lastLine.replace(/[.\s]*["“”'][.\s]*$/,"").trim();
+  // Tira só as aspas de fechamento (e o ponto que às vezes vem DEPOIS delas:
+  // 'comunidade”. (NR)' — LC 525/2005). O ponto final do próprio dispositivo,
+  // ANTES das aspas, é texto da lei e fica: até a rodada 16 ele era comido, e o
+  // último dispositivo de todo bloco ficava sem ponto final (achado ao conferir
+  // a minuta gerada contra o que o motor lia de volta). Reticências antes das
+  // aspas ('§ 3º ...”') também ficam, e são reconhecidas como omissão adiante.
+  lastLine = lastLine.replace(/\s*["“”'][.\s]*$/,"").trim();
   lns[last2idx] = lastLine;
   // NOTA: os separadores após o designador (ponto, hífen, travessão, dois-pontos)
   // são capturados em ".*" e limpos por limparSeparadorX() em código, e não numa
