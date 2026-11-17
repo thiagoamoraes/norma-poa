@@ -2,11 +2,11 @@
  "idSapl": 28780,
  "rotulo": "Emenda à Lei Orgânica nº 10, de 13 de dezembro de 1996",
  "sha256Origem": "90bc958d9b3a782e746ec8994b5e31cc5d0835729e43331a054a30232b183443",
- "estruturadoEm": "2026-11-17T17:22:08.283Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.316Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "10",
   "ano": null,
   "data": null,
   "epigrafe": "CAMARA M PROC. Nº 2575/96",
@@ -45,8 +45,6 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte",
    "sem_fecho"
   ],
   "avisos": [

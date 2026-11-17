@@ -2,13 +2,13 @@
  "idSapl": 44303,
  "rotulo": "Emenda à Lei Orgânica nº 45, de 20 de dezembro de 2018",
  "sha256Origem": "d12a64f6dd5e437315058c32d96afe07a78f1c1ff71c6c262c1d847bfc3844fe",
- "estruturadoEm": "2026-11-17T17:22:08.246Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.237Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "45",
+  "ano": "2018",
+  "data": "2018-12-20",
   "epigrafe": "PROC. Nº 0757/18",
   "proveniencia": {
    "promulgadoPor": null,
@@ -36,11 +36,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 2,

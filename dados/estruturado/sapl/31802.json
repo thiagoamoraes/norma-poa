@@ -2,13 +2,13 @@
  "idSapl": 31802,
  "rotulo": "Emenda à Lei Orgânica nº 19, de 12 de março de 2002",
  "sha256Origem": "915ec2e9dd73d24682685021fcd14e1ec404ff8dde7f2224c3d803b1027f4da0",
- "estruturadoEm": "2026-11-17T17:22:08.274Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.298Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "19",
+  "ano": "2002",
+  "data": "2002-03-12",
   "epigrafe": "EMENDA À LEI ORGÂNICA N° 19, DE 12 DE MARÇO DE 2002.",
   "proveniencia": {
    "promulgadoPor": "PRESIDENTE_CAMARA",
@@ -36,11 +36,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 2,

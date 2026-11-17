@@ -2,11 +2,11 @@
  "idSapl": 26405,
  "rotulo": "Emenda à Lei Orgânica nº 2, de 31 de março de 1992",
  "sha256Origem": "bd85e9719c27d134610297804be00694d8fd58f303f2fe822ebac58124723d6e",
- "estruturadoEm": "2026-11-17T17:22:08.292Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.333Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "2",
   "ano": null,
   "data": null,
   "epigrafe": "CÂMARA MUNICIPAL DE PORTO ALEGRE",
@@ -37,8 +37,6 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte",
    "rotulo_nao_confere_com_a_origem",
    "bloco_de_alteracao_sem_dono"
   ],

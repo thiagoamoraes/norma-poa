@@ -2,13 +2,13 @@
  "idSapl": 37943,
  "rotulo": "Emenda à Lei Orgânica nº 34, de 28 de dezembro de 2011",
  "sha256Origem": "b9754c2560030f3b07515837b808184fdc8f59accf6be247f5da79bd786b000b",
- "estruturadoEm": "2026-11-17T17:22:08.259Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.264Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "34",
+  "ano": "2011",
+  "data": "2011-12-28",
   "epigrafe": "EMENDA À LEI ORGÂNICA Nº 34, DE 28 DE DEZEMBRO DE 2011.",
   "proveniencia": {
    "promulgadoPor": "PRESIDENTE_CAMARA",
@@ -36,11 +36,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 2,

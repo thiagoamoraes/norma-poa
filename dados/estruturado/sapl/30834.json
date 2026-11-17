@@ -2,13 +2,13 @@
  "idSapl": 30834,
  "rotulo": "Emenda à Lei Orgânica nº 16, de 10 de outubro de 2000",
  "sha256Origem": "5bb366562979df0ee4d641622245ba18ac150928c6c055f229f4f46d1883c33d",
- "estruturadoEm": "2026-11-17T17:22:08.276Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.302Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "16",
+  "ano": "2000",
+  "data": "2000-10-20",
   "epigrafe": "PROC. Nº 1846/00",
   "proveniencia": {
    "promulgadoPor": "PRESIDENTE_CAMARA",
@@ -37,8 +37,7 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
+   "data_diverge_do_catalogo"
   ],
   "avisos": [
    "texto_de_ocr"

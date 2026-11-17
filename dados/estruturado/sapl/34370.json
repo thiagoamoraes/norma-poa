@@ -2,13 +2,13 @@
  "idSapl": 34370,
  "rotulo": "Emenda à Lei Orgânica nº 23, de 26 de junho de 2006",
  "sha256Origem": "0366ca56637cbc0fdc1ce0d47f20fe9dc789eb097a1d45c686709e9ea8206b60",
- "estruturadoEm": "2026-11-17T17:22:08.271Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.292Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "23",
+  "ano": "2006",
+  "data": "2006-06-26",
   "epigrafe": "EMENDA À LEI ORGÂNICA N.º 23, DE 26 DE JUNHO DE2006.",
   "proveniencia": {
    "promulgadoPor": "PRESIDENTE_CAMARA",
@@ -36,11 +36,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 2,

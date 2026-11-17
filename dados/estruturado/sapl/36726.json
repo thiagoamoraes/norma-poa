@@ -2,13 +2,13 @@
  "idSapl": 36726,
  "rotulo": "Emenda à Lei Orgânica nº 29, de 06 de maio de 2010",
  "sha256Origem": "3e969effa61a1c162d74152aae13bfcadd824d86ec4ab59034b3b457f7abfd5f",
- "estruturadoEm": "2026-11-17T17:22:08.264Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.275Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "29",
+  "ano": "2010",
+  "data": "2010-05-06",
   "epigrafe": "EMENDA À LEI ORGÂNICA N° 29, DE 06 DE MAIO DE 2010.",
   "proveniencia": {
    "promulgadoPor": "PRESIDENTE_CAMARA",
@@ -36,11 +36,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 2,

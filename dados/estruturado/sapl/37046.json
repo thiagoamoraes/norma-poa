@@ -2,11 +2,11 @@
  "idSapl": 37046,
  "rotulo": "Emenda à Lei Orgânica nº 30, de 08 de dezembro de 2010",
  "sha256Origem": "5599181673a6413f2c3a1cca368fab19f6a87242eb48a0ac54d50ef6f2a1670e",
- "estruturadoEm": "2026-11-17T17:22:08.263Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.273Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "30",
   "ano": null,
   "data": null,
   "epigrafe": "EMENDA À LEI ORGÂNICA Nº 30, DE 8 DE DEZEMBRO DE",
@@ -44,11 +44,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 3,

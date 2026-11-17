@@ -2,13 +2,13 @@
  "idSapl": 37925,
  "rotulo": "Emenda à Lei Orgânica nº 33, de 22 de dezembro de 2011",
  "sha256Origem": "b28ea8c859b39e6c9428e5f3f0dc0dc2dbfaf98ea0409d9f2d91c0a6014de247",
- "estruturadoEm": "2026-11-17T17:22:08.260Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.266Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "33",
+  "ano": "2011",
+  "data": "2011-12-22",
   "epigrafe": "EMENDA À LEI ORGÂNICA Nº 33, DE 22 DE DEZEMBRO DE 2011.",
   "proveniencia": {
    "promulgadoPor": "PRESIDENTE_CAMARA",
@@ -36,11 +36,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 2,

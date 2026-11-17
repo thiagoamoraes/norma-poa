@@ -2,13 +2,13 @@
  "idSapl": 44300,
  "rotulo": "Emenda à Lei Orgânica nº 40, de 08 de junho de 2016",
  "sha256Origem": "aa6d4aa530024b803e02e1f1cca62f3ec8e70c55a9e11aba736a8b61bfbeead6",
- "estruturadoEm": "2026-11-17T17:22:08.250Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.247Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "40",
+  "ano": "2016",
+  "data": "2016-06-08",
   "epigrafe": "PROC. Nº 2284/13",
   "proveniencia": {
    "promulgadoPor": null,
@@ -36,11 +36,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 2,

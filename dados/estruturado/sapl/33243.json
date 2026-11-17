@@ -2,13 +2,13 @@
  "idSapl": 33243,
  "rotulo": "Emenda à Lei Orgânica nº 20, de 11 de junho de 2004",
  "sha256Origem": "02a1dcdfef0b432ad5d493847bef7184f123b3ef8cd3498090d039c5f293eef4",
- "estruturadoEm": "2026-11-17T17:22:08.273Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.296Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "20",
+  "ano": "2004",
+  "data": "2004-06-11",
   "epigrafe": "EMENDA À LEI ORGÂNICA N° 20, DE 11 DE JUNHO DE 2004.",
   "proveniencia": {
    "promulgadoPor": "PRESIDENTE_CAMARA",
@@ -36,11 +36,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 2,

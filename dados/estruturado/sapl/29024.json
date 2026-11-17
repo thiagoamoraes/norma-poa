@@ -2,11 +2,11 @@
  "idSapl": 29024,
  "rotulo": "Emenda à Lei Orgânica nº 11, de 06 de agosto de 1997",
  "sha256Origem": "7d26b0d3b11b99a2bb36de9be409c919923284d0f2ea8f090085c44acb754698",
- "estruturadoEm": "2026-11-17T17:22:08.282Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.313Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "11",
   "ano": null,
   "data": null,
   "epigrafe": "à CAMARA MUNICIPAL DE PORTO ALEGRE PROC. Nº 0687/97",
@@ -42,11 +42,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
    "texto_de_ocr"
   ],

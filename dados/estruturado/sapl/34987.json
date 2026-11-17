@@ -2,13 +2,13 @@
  "idSapl": 34987,
  "rotulo": "Emenda à Lei Orgânica nº 25, de 28 de junho de 2007",
  "sha256Origem": "6914933a16631ad298f9aae54b689e4f01c4deb0e5a7b31893cd6eee85570dc2",
- "estruturadoEm": "2026-11-17T17:22:08.269Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.288Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "25",
+  "ano": "2007",
+  "data": "2007-06-28",
   "epigrafe": "EMENDA À LEI ORGÂNICA Nº 25, DE 28 DE JUNHO DE 2007.",
   "proveniencia": {
    "promulgadoPor": "PRESIDENTE_CAMARA",
@@ -44,11 +44,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 3,

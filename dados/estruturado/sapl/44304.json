@@ -2,13 +2,13 @@
  "idSapl": 44304,
  "rotulo": "Emenda à Lei Orgânica nº 44, de 20 de dezembro de 2018",
  "sha256Origem": "748b001feb8ba9ac7d9ef90f5903893f51301a5b7433ac64d1916e3c68b433fe",
- "estruturadoEm": "2026-11-17T17:22:08.245Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.234Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "44",
+  "ano": "2018",
+  "data": "2018-12-20",
   "epigrafe": "PROC. Nº 2355/17",
   "proveniencia": {
    "promulgadoPor": null,
@@ -36,11 +36,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 2,

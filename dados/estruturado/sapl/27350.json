@@ -2,11 +2,11 @@
  "idSapl": 27350,
  "rotulo": "Emenda à Lei Orgânica nº 4, de 22 de novembro de 1993",
  "sha256Origem": "4a8168fd17409c9cfc96954776da664fda285c4dac2b0f82c3e5b09b0ca190b2",
- "estruturadoEm": "2026-11-17T17:22:08.290Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.329Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "4",
   "ano": null,
   "data": null,
   "epigrafe": "CAMARA MUNICIPAL DE PORTO ALEGRE",
@@ -37,8 +37,6 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte",
    "sem_fecho",
    "rotulo_nao_confere_com_a_origem",
    "bloco_de_alteracao_sem_dono"

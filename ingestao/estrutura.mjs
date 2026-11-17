@@ -19,7 +19,7 @@
 import { parseLeiPublicada, atribuirDesFixoOriginal, detectNRCandidates } from '../norma-core.js';
 
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
-export const VERSAO_ESTRUTURADOR = 3;
+export const VERSAO_ESTRUTURADOR = 4;
 
 const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');
@@ -45,7 +45,7 @@ function numeroDoArtigo(rotulo) {
   return m ? { n: Number(m[1]), letra: (m[2] || '').toUpperCase() } : null;
 }
 
-const TIPO_ATO_ESPERADO = { 5: 'LEI', 6: 'LEI COMPLEMENTAR' };
+const TIPO_ATO_ESPERADO = { 2: 'EMENDA À LEI ORGÂNICA', 5: 'LEI', 6: 'LEI COMPLEMENTAR' };
 
 /**
  * Conservação do texto: cada trecho que a árvore guarda tem de aparecer no
@@ -151,7 +151,7 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
   // do 1º artigo, houver uma linha que comece pelo tipo do ato e traga o número
   // do registro — senão pode ser o arquivo errado anexado à norma.
   let cabecalhoDoCatalogo = false;
-  if (!doc.numero && registro && TIPO_ATO_ESPERADO[registro.tipoSapl]) {
+  if (!doc.numero && registro && (registro.tipoSapl === 5 || registro.tipoSapl === 6)) {
     const reTipo = registro.tipoSapl === 6 ? /^LEI\s+COMPLEMENTAR\b/i : /^LEI\b(?!\s+COMPLEMENTAR)/i;
     const ate = texto.search(/^\s*Art\.\s*1\s*[º°o]?\b/m);
     const cabeca = (ate > 0 ? texto.slice(0, ate) : texto.slice(0, 3000)).split(/\r?\n/).map((l) => l.trim());

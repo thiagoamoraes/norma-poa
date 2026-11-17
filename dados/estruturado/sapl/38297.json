@@ -2,13 +2,13 @@
  "idSapl": 38297,
  "rotulo": "Emenda à Lei Orgânica nº 35, de 18 de junho de 2012",
  "sha256Origem": "ba02c7f860e2498979d9acc174ddd9b18b9cc373474eaf64d580dbd8872a6aac",
- "estruturadoEm": "2026-11-17T17:22:08.258Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.262Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "35",
+  "ano": "2012",
+  "data": "2012-06-18",
   "epigrafe": "Câmara Municipal PROC. Nº 0676/12",
   "proveniencia": {
    "promulgadoPor": "PRESIDENTE_CAMARA",
@@ -38,8 +38,6 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [

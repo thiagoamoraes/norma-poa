@@ -2,11 +2,11 @@
  "idSapl": 35889,
  "rotulo": "Emenda à Lei Orgânica nº 26, de 04 de dezembro de 2008",
  "sha256Origem": "526a504504e7b599cc310a7067b8f10627005d77da38d7131d57b59d6cf49bd4",
- "estruturadoEm": "2026-11-17T17:22:08.268Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.286Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "26",
   "ano": null,
   "data": null,
   "epigrafe": "EMENDA À LEI ORGÂNICA Nº 26, DE 4 DE DEZEMBRO DE",
@@ -36,11 +36,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 2,

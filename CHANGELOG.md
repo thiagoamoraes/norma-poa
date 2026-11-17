@@ -1392,3 +1392,21 @@ na 2ª tentativa). Em 4 horas só 80 arquivos foram baixados.
   `teste_guarda_horario.sh` (8; inclui o caso real de 13:23 UTC).
 - Disparo externo às 04:05 UTC via `workflow_dispatch` (ROTEIRO, 10-C): o
   mantenedor cria o token e a tarefa no serviço de cron; o `schedule` fica de reserva.
+
+## Rodada 22 — Emenda à Lei Orgânica (tarefa 1 do ROTEIRO, 17/11/2026)
+
+Achado: dos 60 `cabecalho_nao_reconhecido` do relatório de estruturação, ~35 eram
+Emendas à Lei Orgânica — o core só as sinalizava como `tipoNaoSuportado`, e agora
+há textos reais (EC 2–51). O resto são digitalizações antigas de baixa qualidade.
+
+- `norma-core.js` (aditivo, após o bloco de Resolução): `extrairCabecalhoLeiPublicada`
+  lê "EMENDA À LEI ORGÂNICA Nº N, DE D DE MÊS DE AAAA" nas variantes reais (N°, N.º,
+  sem Nº, "DE2006", "Nº 22 ,"). Ano cortado na linha → número sim, data/ano nulos
+  (não inventa); só "Nº 04" (anos 1990) → número sem zeros. `normateste.mjs` idêntico
+  byte a byte; core 153, promulgação parcial 72 e demais testes sem mudança.
+- `estrutura.mjs`: `TIPO_ATO_ESPERADO[2]`; `VERSAO_ESTRUTURADOR` 4.
+- `teste_emenda_lo.mjs` (12, fixtures reais em `fixtures/emendas-lo/`; 10 falham
+  contra o código antigo).
+- Efeito local nos 79 textos: aceitas 15 → 41; `cabecalho_nao_reconhecido` 60 → 22;
+  `tipo_sem_suporte` 60 → 8. A EC 16 passa a mostrar divergência real: o texto diz
+  20/10/2000, o catálogo diz 10/10/2000 (`data_diverge_do_catalogo`).

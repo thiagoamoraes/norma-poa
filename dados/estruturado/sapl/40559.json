@@ -2,13 +2,13 @@
  "idSapl": 40559,
  "rotulo": "Emenda à Lei Orgânica nº 38, de 10 de março de 2016",
  "sha256Origem": "49b56ddbe7b6f9d953c7d47d0216a0ed68550723d8dc4699d61710d723cd649e",
- "estruturadoEm": "2026-11-17T17:22:08.253Z",
- "versaoEstruturador": 3,
+ "estruturadoEm": "2026-11-17T18:17:06.252Z",
+ "versaoEstruturador": 4,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "EMENDA À LEI ORGÂNICA",
+  "numero": "38",
+  "ano": "2016",
+  "data": "2016-03-10",
   "epigrafe": "PROC. Nº 1082/13",
   "proveniencia": {
    "promulgadoPor": null,
@@ -36,11 +36,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_sem_suporte"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 2,
