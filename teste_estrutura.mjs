@@ -63,6 +63,24 @@ const reg = (tipoSapl, numero) => regs.find((r) => r.tipoSapl === tipoSapl && r.
   ok('(sintético) LC 611 cortada antes do fecho: "sem_fecho"', estruturarNorma(semFecho, reg(6, '611')).verificacao.motivos.includes('sem_fecho'));
 }
 
+// --- cabeçalho fora do padrão: a identidade vem do catálogo -----------------
+// Arquivos reais das alteradoras da LC 320 (fixtures/lc320/), registros reais
+// do catálogo (fixtures/sapl/registros_lc320.json).
+{
+  const regsLc320 = JSON.parse(fs.readFileSync('./fixtures/sapl/registros_lc320.json', 'utf8'));
+  const r = (n) => regsLc320.find((x) => x.numero === n);
+  const e = (n) => estruturarNorma(fs.readFileSync(`./fixtures/lc320/lc${n}.txt`, 'utf8'), r(n));
+  const e474 = e('474');
+  ok('LC 474/2002 ("LEI COMPLEMENTAR 474, de 21 de maio de 2002.", sem "Nº"): cabeçalho vem do catálogo, com aviso', !e474.verificacao.motivos.includes('cabecalho_nao_reconhecido') && e474.verificacao.avisos.includes('cabecalho_fora_do_padrao') && e474.cabecalho.fonte === 'catalogo' && e474.cabecalho.numero === '474' && e474.cabecalho.data === '2002-05-21');
+  const e449 = e('449');
+  ok('LC 449/2000 ("LEI COMPLEMENTAR Nº 449", sem data): idem', e449.cabecalho.fonte === 'catalogo' && e449.cabecalho.data === '2000-06-19' && !e449.verificacao.motivos.includes('cabecalho_nao_reconhecido'));
+  const e692 = e('692');
+  ok('LC 692/2012 (timbre antes; "DE 29 DEDE 2012"): idem — e segue em revisão por outros motivos (o arquivo é defeituoso)', e692.cabecalho.fonte === 'catalogo' && e692.verificacao.situacao === 'revisar');
+  const trocado = estruturarNorma(fs.readFileSync('./fixtures/lc320/lc474.txt', 'utf8'), r('449'));
+  ok('arquivo da LC 474 anexado ao registro da LC 449: NÃO herda a identidade do catálogo', trocado.verificacao.motivos.includes('cabecalho_nao_reconhecido') && !trocado.cabecalho.fonte);
+  ok('cabeçalho reconhecido pelo motor continua vindo do texto (LC 958/2022)', !e('958').cabecalho.fonte && e('958').cabecalho.numero === '958');
+}
+
 // --- peças ---------------------------------------------------------------
 ok('slugDoRotulo: artigo com letra, parágrafo, inciso, alínea', slugDoRotulo('artigo', 'Art. 5º-A') === 'art-5-A' && slugDoRotulo('artigo', 'Art. 13.') === 'art-13'
   && slugDoRotulo('paragrafo', '§ 2º') === 'par-2' && slugDoRotulo('paragrafo', 'Parágrafo único.') === 'par-unico'

@@ -19,7 +19,7 @@
 import { parseLeiPublicada, atribuirDesFixoOriginal, detectNRCandidates } from '../norma-core.js';
 
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
-export const VERSAO_ESTRUTURADOR = 1;
+export const VERSAO_ESTRUTURADOR = 2;
 
 const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');
@@ -142,7 +142,22 @@ export function estruturarNorma(texto, registro) {
 
   // ── conferências ───────────────────────────────────────────────────────────
   if (doc.promulgacaoParcial?.parcial) motivos.push('promulgacao_parcial');
-  if (!doc.numero) motivos.push('cabecalho_nao_reconhecido');
+  // Cabeçalho que o motor não reconhece, mas que É o da norma do catálogo: a
+  // identidade vem do catálogo (número, data e tipo já estão lá, vindos da fonte).
+  // Casos reais: "LEI COMPLEMENTAR Nº 449" (sem data), "LEI COMPLEMENTAR 474, de
+  // 21 de maio de 2002." (sem "Nº"), "LEI COMPLEMENTAR Nº 692, DE 29 DEDE 2012."
+  // (arquivo com palavra faltando, depois de linhas de timbre). Só vale se, antes
+  // do 1º artigo, houver uma linha que comece pelo tipo do ato e traga o número
+  // do registro — senão pode ser o arquivo errado anexado à norma.
+  let cabecalhoDoCatalogo = false;
+  if (!doc.numero && registro && TIPO_ATO_ESPERADO[registro.tipoSapl]) {
+    const reTipo = registro.tipoSapl === 6 ? /^LEI\s+COMPLEMENTAR\b/i : /^LEI\b(?!\s+COMPLEMENTAR)/i;
+    const ate = texto.search(/^\s*Art\.\s*1\s*[º°o]?\b/m);
+    const cabeca = (ate > 0 ? texto.slice(0, ate) : texto.slice(0, 3000)).split(/\r?\n/).map((l) => l.trim());
+    cabecalhoDoCatalogo = cabeca.some((l) => reTipo.test(l) && soDigitos((/\d[\d.]*/.exec(l.replace(reTipo, '')) || [''])[0]) === soDigitos(registro.numero));
+    if (cabecalhoDoCatalogo) avisos.push('cabecalho_fora_do_padrao');
+  }
+  if (!doc.numero && !cabecalhoDoCatalogo) motivos.push('cabecalho_nao_reconhecido');
   if (doc.tipoNaoSuportado) motivos.push('tipo_sem_suporte');
   if (registro) {
     if (doc.numero && soDigitos(doc.numero) !== soDigitos(registro.numero)) motivos.push('numero_diverge_do_catalogo');
@@ -183,7 +198,9 @@ export function estruturarNorma(texto, registro) {
 
   return {
     versaoEstruturador: VERSAO_ESTRUTURADOR,
-    cabecalho: { tipoAto: doc.tipoAto || null, numero: doc.numero || null, ano: doc.ano || null, data: doc.dataPublicacao || null, epigrafe: doc.epigrafe || null, proveniencia: doc.proveniencia || null },
+    cabecalho: cabecalhoDoCatalogo
+      ? { tipoAto: TIPO_ATO_ESPERADO[registro.tipoSapl], numero: registro.numero, ano: String(registro.ano), data: registro.data, epigrafe: doc.epigrafe || null, proveniencia: doc.proveniencia || null, fonte: 'catalogo' }
+      : { tipoAto: doc.tipoAto || null, numero: doc.numero || null, ano: doc.ano || null, data: doc.dataPublicacao || null, epigrafe: doc.epigrafe || null, proveniencia: doc.proveniencia || null },
     ementa: doc.ementa?.texto || null,
     preambulo: doc.preambulo || null,
     fecho: doc.fecho || null,

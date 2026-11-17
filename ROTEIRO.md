@@ -38,7 +38,7 @@ for t in teste_regressao teste_vetado_provenencia teste_pecas_2_3 teste_lei_publ
 ```
 
 Contagens de referência em 17/11/2026: 47 · 13 · 30 · 11 · 29 · 7 · 16 · 72 ·
-24 · 26 · 21 · 23 · 34 · 24 · 33, todas sem falha. (`teste_pdf_normas` precisa
+24 · 26 · 21 · 28 · 34 · 24 · 33, todas sem falha. (`teste_pdf_normas` precisa
 de `npm ci`.)
 
 ### 0.3 Regras que mais custam caro quando esquecidas
@@ -121,7 +121,11 @@ conferência existe para a norma duvidosa NÃO ser dada como certa.
 
 ---
 
-## 2. Cabeçalho fora do padrão: identidade vem do catálogo
+## 2. Cabeçalho fora do padrão: identidade vem do catálogo — FEITO em 17/11/2026
+
+> Implementado em `ingestao/estrutura.mjs` (aviso `cabecalho_fora_do_padrao`,
+> `cabecalho.fonte: 'catalogo'`) e testado em `teste_estrutura.mjs` com os três
+> arquivos reais. O texto abaixo fica como registro do porquê.
 
 **Por quê.** 3 de 8 arquivos reais das alteradoras da LC 320 têm cabeçalho que
 `extrairCabecalhoLeiPublicada` não reconhece. Mas número, data e tipo já estão
