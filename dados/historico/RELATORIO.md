@@ -1,0 +1,221 @@
+# Histórico — relatório
+
+Gerado em 2026-11-17T01:59:42.888Z por `ingestao/gerar-historico.mjs`. Não editar à mão.
+
+Vínculos lidos: 0 · pares (lei, alteradora) propostos pelas ementas: 1500 · leis com alteradoras conhecidas ou candidatas: 469
+
+| Situação | Leis |
+|---|---|
+| histórico apurado, todas as alteradoras aplicadas | 0 |
+| histórico apurado, mas incompleto (alguma alteradora não aplicada por inteiro) | 1 |
+| ainda sem o texto da lei-base | 468 |
+| erro do leitor | 0 |
+
+Leis revogadas por inteiro, segundo os vínculos da fonte: 0
+
+Vínculos com norma fora do catálogo do escopo (decretos, por exemplo): 0 · vínculos com datas invertidas (não aplicados): 0
+
+## Aguardando o texto da lei-base
+
+Mostrando 200 de 468.
+
+- Lei municipal nº 14.048, de 03 de setembro de 2024
+- Lei municipal nº 10.903, de 31 de maio de 2010
+- Lei municipal nº 7.634, de 07 de julho de 1995
+- Lei municipal nº 10.904, de 31 de maio de 2010
+- Lei municipal nº 12.783, de 13 de novembro de 2020
+- Lei municipal nº 10.054, de 22 de setembro de 2006
+- Lei municipal nº 7.815, de 08 de julho de 1996
+- Lei municipal nº 14.429, de 22 de dezembro de 2025
+- Lei municipal nº 13.956, de 24 de junho de 2024
+- Lei Complementar municipal nº 1.069, de 20 de março de 2026
+- Lei municipal nº 12.477, de 10 de dezembro de 2018
+- Lei municipal nº 9.941, de 25 de janeiro de 2006
+- Lei municipal nº 14.235, de 14 de maio de 2025
+- Lei municipal nº 10.605, de 29 de dezembro de 2008
+- Lei municipal nº 12.395, de 09 de abril de 2018
+- Lei municipal nº 10.866, de 26 de março de 2010
+- Lei municipal nº 13.773, de 18 de dezembro de 2023
+- Lei municipal nº 13.396, de 20 de março de 2023
+- Lei municipal nº 8.133, de 12 de janeiro de 1998
+- Lei municipal nº 13.377, de 06 de março de 2023
+- Lei municipal nº 8.986, de 02 de outubro de 2002
+- Lei municipal nº 12.109, de 15 de agosto de 2016
+- Lei municipal nº 14.021, de 09 de agosto de 2024
+- Lei municipal nº 12.951, de 07 de janeiro de 2022
+- Lei municipal nº 13.218, de 06 de setembro de 2022
+- Lei municipal nº 13.959, de 27 de junho de 2024
+- Lei municipal nº 14.192, de 31 de janeiro de 2025
+- Lei municipal nº 14.155, de 30 de dezembro de 2024
+- Lei municipal nº 13.489, de 30 de maio de 2023
+- Lei municipal nº 13.640, de 29 de setembro de 2023
+- Lei municipal nº 10.837, de 11 de fevereiro de 2010
+- Lei municipal nº 12.952, de 07 de janeiro de 2022
+- Lei municipal nº 13.561, de 14 de julho de 2023
+- Lei municipal nº 13.779, de 22 de dezembro de 2023
+- Lei municipal nº 12.302, de 19 de setembro de 2017
+- Lei municipal nº 11.245, de 04 de abril de 2012
+- Lei municipal nº 11.242, de 04 de abril de 2012
+- Lei municipal nº 12.742, de 06 de novembro de 2020
+- Lei municipal nº 12.856, de 24 de agosto de 2021
+- Lei municipal nº 11.582, de 21 de fevereiro de 2014
+- Lei municipal nº 12.656, de 27 de dezembro de 2019
+- Lei municipal nº 12.934, de 23 de dezembro de 2021
+- Lei municipal nº 9.001, de 18 de novembro de 2002
+- Lei municipal nº 9.258, de 12 de novembro de 2003
+- Lei municipal nº 14.094, de 30 de outubro de 2024
+- Lei Complementar municipal nº 1.018, de 31 de julho de 2024
+- Lei municipal nº 13.989, de 12 de julho de 2024
+- Lei municipal nº 14.104, de 22 de novembro de 2024
+- Lei municipal nº 10.531, de 10 de setembro de 2008
+- Lei municipal nº 12.827, de 06 de maio de 2021
+- Lei municipal nº 11.233, de 22 de março de 2012
+- Lei municipal nº 10.728, de 15 de julho de 2009
+- Lei municipal nº 13.306, de 21 de novembro de 2022
+- Lei municipal nº 10.428, de 06 de maio de 2008
+- Lei municipal nº 11.874, de 16 de julho de 2015
+- Lei municipal nº 12.509, de 30 de janeiro de 2019
+- Lei municipal nº 13.065, de 28 de abril de 2022
+- Lei municipal nº 13.775, de 21 de dezembro de 2023
+- Lei municipal nº 13.700, de 03 de novembro de 2023
+- Lei municipal nº 12.692, de 09 de março de 2020
+- Lei municipal nº 13.473, de 19 de maio de 2023
+- Lei municipal nº 11.229, de 06 de março de 2012
+- Lei municipal nº 11.466, de 29 de julho de 2013
+- Lei municipal nº 9.621, de 18 de outubro de 2004
+- Lei municipal nº 10.996, de 07 de dezembro de 2010
+- Lei municipal nº 13.343, de 23 de dezembro de 2022
+- Lei municipal nº 12.021, de 05 de abril de 2016
+- Lei municipal nº 11.858, de 25 de junho de 2015
+- Lei municipal nº 12.593, de 10 de setembro de 2019
+- Lei municipal nº 12.519, de 19 de março de 2019
+- Lei municipal nº 10.725, de 13 de julho de 2009
+- Lei municipal nº 12.743, de 06 de novembro de 2020
+- Lei municipal nº 12.662, de 21 de janeiro de 2020
+- Lei municipal nº 11.979, de 22 de dezembro de 2015
+- Lei Complementar municipal nº 701, de 18 de julho de 2012
+- Lei municipal nº 10.833, de 11 de fevereiro de 2010
+- Lei municipal nº 13.590, de 01 de agosto de 2023
+- Lei municipal nº 8.279, de 20 de janeiro de 1999
+- Lei municipal nº 7.591, de 10 de janeiro de 1995
+- Lei municipal nº 13.404, de 22 de março de 2023
+- Lei municipal nº 13.151, de 14 de junho de 2022
+- Lei municipal nº 13.550, de 13 de julho de 2023
+- Lei Complementar municipal nº 563, de 30 de janeiro de 2007
+- Lei municipal nº 10.479, de 02 de julho de 2008
+- Lei municipal nº 11.400, de 27 de dezembro de 2012
+- Lei municipal nº 11.442, de 24 de junho de 2013
+- Lei municipal nº 12.479, de 11 de dezembro de 2018
+- Lei municipal nº 12.560, de 02 de julho de 2019
+- Lei municipal nº 13.219, de 06 de setembro de 2022
+- Lei municipal nº 13.140, de 01 de junho de 2022
+- Lei municipal nº 13.340, de 21 de dezembro de 2022
+- Lei municipal nº 12.420, de 08 de junho de 2018
+- Lei municipal nº 8.538, de 04 de julho de 2000
+- Lei municipal nº 9.877, de 15 de dezembro de 2005
+- Lei municipal nº 10.087, de 16 de novembro de 2006
+- Lei municipal nº 7.054, de 28 de maio de 1992
+- Lei municipal nº 8.470, de 21 de março de 2000
+- Lei municipal nº 7.494, de 15 de setembro de 1994
+- Lei municipal nº 8.130, de 08 de janeiro de 1998
+- Lei municipal nº 12.583, de 09 de agosto de 2019
+- Lei municipal nº 11.182, de 28 de dezembro de 2011
+- Lei municipal nº 9.206, de 05 de setembro de 2003
+- Lei municipal nº 11.403, de 27 de dezembro de 2012
+- Lei municipal nº 12.585, de 09 de agosto de 2019
+- Lei municipal nº 11.814, de 01 de abril de 2015
+- Lei Complementar municipal nº 661, de 07 de dezembro de 2010
+- Lei municipal nº 12.248, de 23 de maio de 2017
+- Lei municipal nº 10.951, de 02 de setembro de 2010
+- Lei municipal nº 12.233, de 28 de março de 2017
+- Lei municipal nº 12.942, de 27 de dezembro de 2021
+- Lei municipal nº 10.836, de 11 de fevereiro de 2010
+- Lei municipal nº 12.707, de 07 de abril de 2020
+- Lei municipal nº 11.213, de 06 de fevereiro de 2012
+- Lei municipal nº 9.229, de 09 de outubro de 2003
+- Lei municipal nº 9.329, de 22 de dezembro de 2003
+- Lei Complementar municipal nº 810, de 04 de janeiro de 2017
+- Lei Complementar municipal nº 897, de 15 de janeiro de 2021
+- Lei municipal nº 11.404, de 27 de dezembro de 2012
+- Lei municipal nº 12.779, de 13 de novembro de 2020
+- Lei municipal nº 8.663, de 14 de dezembro de 2000
+- Lei municipal nº 12.884, de 15 de outubro de 2021
+- Lei municipal nº 12.713, de 07 de julho de 2020
+- Lei municipal nº 12.093, de 07 de julho de 2016
+- Lei municipal nº 12.904, de 17 de novembro de 2021
+- Lei municipal nº 7.768, de 18 de janeiro de 1996
+- Lei municipal nº 12.797, de 29 de dezembro de 2020
+- Lei municipal nº 11.235, de 27 de março de 2012
+- Lei municipal nº 12.677, de 24 de janeiro de 2020
+- Lei municipal nº 12.605, de 10 de outubro de 2019
+- Lei municipal nº 8.267, de 29 de dezembro de 1998
+- Lei municipal nº 12.655, de 27 de dezembro de 2019
+- Lei municipal nº 12.411, de 16 de maio de 2018
+- Lei municipal nº 10.986, de 06 de dezembro de 2010
+- Lei municipal nº 11.964, de 30 de novembro de 2015
+- Lei municipal nº 10.743, de 01 de setembro de 2009
+- Lei municipal nº 9.970, de 30 de maio de 2006
+- Lei municipal nº 11.533, de 02 de janeiro de 2014
+- Lei municipal nº 8.493, de 18 de maio de 2000
+- Lei municipal nº 11.062, de 06 de abril de 2011
+- Lei municipal nº 11.575, de 12 de fevereiro de 2014
+- Lei municipal nº 11.395, de 27 de dezembro de 2012
+- Lei municipal nº 9.875, de 08 de dezembro de 2005
+- Lei municipal nº 12.162, de 09 de dezembro de 2016
+- Lei municipal nº 7.951, de 08 de janeiro de 1997
+- Lei municipal nº 8.357, de 13 de outubro de 1999
+- Lei municipal nº 8.751, de 28 de agosto de 2001
+- Lei municipal nº 11.870, de 07 de julho de 2015
+- Lei municipal nº 8.266, de 29 de dezembro de 1998
+- Lei municipal nº 11.270, de 09 de maio de 2012
+- Lei municipal nº 12.177, de 21 de dezembro de 2016
+- Lei municipal nº 12.076, de 10 de junho de 2016
+- Lei municipal nº 11.935, de 07 de outubro de 2015
+- Lei municipal nº 11.417, de 15 de fevereiro de 2013
+- Lei municipal nº 7.433, de 06 de junho de 1994
+- Lei municipal nº 8.769, de 05 de outubro de 2001
+- Lei Complementar municipal nº 434, de 01 de dezembro de 1999
+- Lei municipal nº 9.725, de 01 de fevereiro de 2005
+- Lei municipal nº 10.028, de 20 de julho de 2006
+- Lei municipal nº 11.150, de 03 de novembro de 2011
+- Lei municipal nº 10.729, de 23 de julho de 2009
+- Lei municipal nº 11.139, de 11 de outubro de 2011
+- Lei municipal nº 11.890, de 24 de julho de 2015
+- Lei municipal nº 11.140, de 14 de outubro de 2011
+- Lei municipal nº 11.864, de 29 de junho de 2015
+- Lei municipal nº 8.138, de 20 de março de 1998
+- Lei municipal nº 7.930, de 19 de dezembro de 1996
+- Lei municipal nº 10.474, de 23 de junho de 2008
+- Lei municipal nº 10.722, de 08 de julho de 2009
+- Lei municipal nº 11.694, de 01 de outubro de 2014
+- Lei municipal nº 7.855, de 25 de setembro de 1996
+- Lei municipal nº 9.989, de 05 de junho de 2006
+- Lei municipal nº 11.211, de 30 de janeiro de 2012
+- Lei municipal nº 9.782, de 06 de julho de 2005
+- Lei municipal nº 9.723, de 27 de janeiro de 2005
+- Lei municipal nº 11.224, de 22 de fevereiro de 2012
+- Lei municipal nº 9.693, de 29 de dezembro de 2004
+- Lei municipal nº 11.693, de 01 de outubro de 2014
+- Lei municipal nº 11.752, de 30 de dezembro de 2014
+- Lei municipal nº 11.497, de 04 de novembro de 2013
+- Lei municipal nº 10.365, de 23 de janeiro de 2008
+- Lei municipal nº 11.584, de 21 de fevereiro de 2014
+- Lei municipal nº 8.478, de 25 de abril de 2000
+- Lei Complementar municipal nº 7, de 07 de dezembro de 1973
+- Lei municipal nº 11.180, de 28 de dezembro de 2011
+- Lei municipal nº 10.266, de 10 de outubro de 2007
+- Lei municipal nº 10.260, de 28 de setembro de 2007
+- Lei municipal nº 10.823, de 21 de janeiro de 2010
+- Lei municipal nº 6.873, de 25 de julho de 1991
+- Lei municipal nº 11.029, de 03 de janeiro de 2011
+- Lei municipal nº 8.896, de 26 de abril de 2002
+- Lei municipal nº 11.651, de 02 de julho de 2014
+- Lei municipal nº 11.033, de 06 de janeiro de 2011
+- Lei municipal nº 11.472, de 29 de agosto de 2013
+- Lei municipal nº 10.758, de 16 de outubro de 2009
+- Lei municipal nº 8.465, de 20 de janeiro de 2000
+- Lei municipal nº 8.323, de 07 de julho de 1999
+- Lei municipal nº 11.456, de 03 de julho de 2013
+- Lei municipal nº 7.134, de 29 de julho de 1992
+- Lei municipal nº 11.398, de 27 de dezembro de 2012
+- Lei municipal nº 11.429, de 14 de maio de 2013

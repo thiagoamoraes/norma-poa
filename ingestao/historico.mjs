@@ -23,7 +23,7 @@
 
 import {
   parseMinuta, detectNRCandidates, limparMarkdownLinks, extrairComandosLei, extrairCitacoesExternas,
-  criarVersaoOriginal, indexarVersao, apurarTextoVigente, visText,
+  criarVersaoOriginal, indexarVersao, apurarTextoVigente, visText, extrairReferenciasLei, chaveLei,
 } from '../norma-core.js';
 import { slugDoRotulo } from './estrutura.mjs';
 
@@ -56,6 +56,7 @@ export function apurarHistorico(base, alteradoras) {
   const arvores = [v0];
   const versoes = [{ indice: 0, id: v0.id, data: base.registro.data, fonte: null }];
   const naoAplicadas = [];
+  const descartadas = [];
   const aConferir = new Map(); // id → data mais antiga a partir da qual há dúvida
   const duvida = (id, data) => { if (!aConferir.has(id) || data < aConferir.get(id)) aConferir.set(id, data); };
   let v = v0;
@@ -73,6 +74,14 @@ export function apurarHistorico(base, alteradoras) {
 
     // dispositivos da lei-base que a alteradora cita nos artigos que não viraram alteração
     const citados = (artigos) => [...new Set(artigos.flatMap((a) => extrairCitacoesExternas(visText(a)).map((c) => chaveParaId(c.chave)).filter(Boolean)))];
+    const chaveBase = chaveLei(fonteDoRegistro(base.registro).tipoAto, base.registro.numero, String(base.registro.ano));
+    const miraEstaLei = comandos.some((k) => k.leiAlvo && (k.leiAlvo.chave === chaveBase || (k.leiAlvo.numero === base.registro.numero && (k.leiAlvo.anosCandidatos || []).includes(base.registro.ano))));
+    if (r.versaoFinal === v && alt.candidataPelaEmenta && !miraEstaLei && efetivos.length) {
+      // Candidata achada só pela ementa, e os comandos que ela traz miram OUTRA lei:
+      // não é alteradora desta. Fica registrada, mas não como pendência.
+      descartadas.push({ alteradora: quem, motivo: 'a ementa cita esta lei, mas os comandos de alteração são de outra' });
+      continue;
+    }
     if (r.versaoFinal === v) {
       // nada mudou: ou o comando não foi reconhecido, ou foi recusado
       const enderecos = citados(doc.artigos);
@@ -140,5 +149,108 @@ export function apurarHistorico(base, alteradoras) {
     const datas = [...aConferir].filter(([e]) => id === e || id.startsWith(e + '/')).map(([, d]) => d);
     if (datas.length) conferir.push({ id, desde: datas.sort()[0] });
   }
-  return { versoes, dispositivos: ordem.map((id) => porId.get(id)), naoAplicadas, aConferir: conferir };
+  return { versoes, dispositivos: ordem.map((id) => porId.get(id)), naoAplicadas, aConferir: conferir, ...(descartadas.length ? { descartadas } : {}) };
+}
+
+// ─── Quais leis têm histórico a apurar: dos vínculos da fonte ──────────────────
+
+/** Tipos de vínculo do SAPL em que a norma PRINCIPAL muda o texto da RELACIONADA. */
+export const VINCULOS_QUE_ALTERAM = new Set([1, 3]); // 1 "Altera o(a)" · 3 "Revoga parcialmente o(a)"
+/** Tipos em que a principal revoga a relacionada por inteiro. */
+export const VINCULOS_QUE_REVOGAM = new Set([2, 4]); // 2 "Revoga integralmente o(a)" · 4 "…por consolidação"
+
+/**
+ * montarListaDeHistoricos(vinculos, catalogo) →
+ *   { leis: [{ base: idSapl, alteradoras: [idSapl…] }], revogadas: { idSapl: idSaplDeQuemRevogou },
+ *     foraDoCatalogo: [{ vinculo, falta }], datasInvertidas: [vinculo…] }
+ *
+ *   vinculos: registros de normalizarVinculoSapl()
+ *   catalogo: Map idSapl → registro (só as normas do escopo)
+ *
+ * Direção conferida com dado real (LC 320/1994): a PRINCIPAL é quem altera
+ * ("Principal: LC 384/1996 — Relacionada: LC 320/1994", tipo "Altera o(a)").
+ * Como a fonte é cadastro humano, a data confere a direção: alteradora mais
+ * antiga que a alterada não é aplicada — vai para `datasInvertidas`.
+ * Norma fora do catálogo do escopo (decreto, por exemplo) não some: vai para
+ * `foraDoCatalogo`.
+ */
+export function montarListaDeHistoricos(vinculos, catalogo) {
+  const porBase = new Map();
+  const revogadas = {};
+  const foraDoCatalogo = [];
+  const datasInvertidas = [];
+  const vistos = new Set();
+  for (const v of vinculos) {
+    const altera = VINCULOS_QUE_ALTERAM.has(v.tipoVinculo), revoga = VINCULOS_QUE_REVOGAM.has(v.tipoVinculo);
+    if (!altera && !revoga) continue;
+    const chave = `${v.principal}>${v.relacionada}>${v.tipoVinculo}`;
+    if (vistos.has(chave)) continue; // o mesmo vínculo cadastrado duas vezes
+    vistos.add(chave);
+    const p = catalogo.get(v.principal), r = catalogo.get(v.relacionada);
+    if (!r) continue; // a norma alterada não é do escopo: nada a apurar aqui
+    if (!p) { foraDoCatalogo.push({ vinculo: v.idVinculo, falta: v.principal, base: v.relacionada }); continue; }
+    if (String(p.data) < String(r.data)) { datasInvertidas.push(v.idVinculo); continue; }
+    if (revoga) { revogadas[v.relacionada] = v.principal; continue; }
+    if (!porBase.has(v.relacionada)) porBase.set(v.relacionada, new Set());
+    porBase.get(v.relacionada).add(v.principal);
+  }
+  const leis = [...porBase].map(([base, alts]) => ({ base, alteradoras: [...alts].sort((a, b) => String(catalogo.get(a).data).localeCompare(String(catalogo.get(b).data)) || a - b) }))
+    .sort((a, b) => a.base - b.base);
+  return { leis, revogadas, foraDoCatalogo, datasInvertidas };
+}
+
+// ─── Alteradoras que a fonte não vinculou: pela ementa ────────────────────────
+
+const TIPO_SAPL_DO_ATO = { 'LEI': 5, 'LEI COMPLEMENTAR': 6 };
+const RE_VERBO_ALTERA = /^(?:altera|inclui|acrescenta|d[áa]\s+nova\s+reda[çc][ãa]o|modifica|insere|suprime|substitui|renumera)/i;
+const RE_REVOGA_DISPOSITIVO = /^revoga\b[^.]*?(?:\bart(?:igo|s)?\.?\s*\d|§|\binc(?:iso|s)?\.?\s)/i;
+// "L.C 320/94", "LC nº 320/1994" — forma abreviada que o extrator do motor não cobre (caso real: ementa da LC 474/2002)
+const RE_LC_ABREVIADA = /\bL\.?\s?C\.?\s*(?:n[º°.o]*\s*)?(\d[\d.]*)\s*\/\s*(\d{2,4})\b/gi;
+
+/**
+ * alteradorasPelaEmenta(catalogo) → [{ base: idSapl, alteradora: idSapl }]
+ *
+ * Os vínculos da fonte são cadastro humano e têm falhas: na LC 320/1994, 3 das
+ * 10 alteradoras (LC 474/2002, LC 761/2015, LC 849/2019) NÃO têm vínculo, mas a
+ * ementa de cada uma diz o que altera ("Inclui § 4º no art. 2º da Lei
+ * Complementar nº 320, de 2 de maio de 1994…"). Esta função lê as ementas do
+ * catálogo e propõe pares (lei alterada, alteradora) — CANDIDATOS: quem decide
+ * se há alteração de fato é o texto da alteradora, ao ser aplicado.
+ * Só entram ementas que começam por verbo de alteração (ou "revoga" seguido de
+ * dispositivo); a lei citada tem de existir no catálogo e ser mais antiga.
+ */
+export function alteradorasPelaEmenta(catalogo) {
+  const porChave = new Map(); // "tipoSapl|numero|ano" → registro
+  const porNumero = new Map(); // "tipoSapl|numero" → [registros]
+  for (const r of catalogo.values()) {
+    porChave.set(`${r.tipoSapl}|${r.numero}|${r.ano}`, r);
+    const k = `${r.tipoSapl}|${r.numero}`;
+    if (!porNumero.has(k)) porNumero.set(k, []);
+    porNumero.get(k).push(r);
+  }
+  const pares = [];
+  const vistos = new Set();
+  for (const alt of catalogo.values()) {
+    const ementa = String(alt.ementa || '').replace(/\s+/g, ' ').trim();
+    if (!RE_VERBO_ALTERA.test(ementa) && !RE_REVOGA_DISPOSITIVO.test(ementa)) continue;
+    const alvos = [];
+    for (const ref of extrairReferenciasLei(ementa)) {
+      const tipo = TIPO_SAPL_DO_ATO[ref.tipoAto];
+      const anos = ref.ano ? [Number(ref.ano)] : ref.anosCandidatos || [];
+      for (const ano of anos) { const r = porChave.get(`${tipo}|${ref.numero}|${ano}`); if (r) alvos.push(r); }
+    }
+    let m;
+    RE_LC_ABREVIADA.lastIndex = 0;
+    while ((m = RE_LC_ABREVIADA.exec(ementa))) {
+      const numero = m[1].replace(/\./g, '');
+      const candidatos = (porNumero.get(`6|${numero}`) || []).filter((r) => (m[2].length === 4 ? r.ano === Number(m[2]) : r.ano % 100 === Number(m[2])));
+      if (candidatos.length === 1) alvos.push(candidatos[0]); // ano de 2 dígitos ambíguo: não adivinha
+    }
+    for (const base of alvos) {
+      if (base.idSapl === alt.idSapl || String(base.data) > String(alt.data)) continue;
+      const k = `${base.idSapl}<${alt.idSapl}`;
+      if (!vistos.has(k)) { vistos.add(k); pares.push({ base: base.idSapl, alteradora: alt.idSapl }); }
+    }
+  }
+  return pares;
 }

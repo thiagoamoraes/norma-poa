@@ -62,6 +62,13 @@
   .controles select { width: auto; max-width: 100%; min-width: 0; padding: 6px 8px; text-overflow: ellipsis; }
   .controles label.caixa { grid-column: auto; }
   .estado ul { margin: 6px 0 0; padding-left: 20px; }
+  details#minuta { margin-top: 24px; border-top: 1px solid var(--linha); padding-top: 12px; }
+  details#minuta summary { cursor: pointer; font-weight: 600; color: var(--marca); }
+  details#minuta .form { display: grid; gap: 10px; margin: 12px 0; }
+  details#minuta label { display: grid; gap: 4px; font-size: .88rem; color: var(--suave); }
+  details#minuta select, details#minuta textarea, details#minuta input[type=text] { width: 100%; max-width: 100%; font: inherit; color: var(--tinta); background: var(--papel); border: 1px solid var(--linha); border-radius: 6px; padding: 8px 10px; }
+  details#minuta ul#m-lista { padding-left: 18px; font-size: .9rem; }
+  details#minuta pre { white-space: pre-wrap; overflow-wrap: anywhere; font: .88rem/1.5 Georgia, serif; background: var(--fundo); border: 1px solid var(--linha); border-radius: 6px; padding: 12px; }
   .fecho { white-space: pre-line; margin-top: 18px; color: var(--suave); font-size: .92em; }
   .vazio { color: var(--suave); }
   #copiado { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); background: var(--tinta); color: var(--fundo); padding: 8px 14px; border-radius: 6px; font-size: .9rem; opacity: 0; transition: opacity .2s; pointer-events: none; }
@@ -159,6 +166,7 @@ function pontuar(consulta) {
 
 const rotulo = (n) => `${TIPOS[n[1]] || 'Norma'} nº ${milhar(n[2])}, de ${dataBr(n[3])}`;
 function selo(n) {
+  if (n[10]) return '<span class="selo no">revogada</span>' + (n[9] ? '<span class="selo ok">com histórico</span>' : '');
   if (n[9]) return '<span class="selo ok">com histórico de alterações</span>';
   if (n[6] === 1) return '<span class="selo ok">texto estruturado</span>';
   if (n[6] === 2) return '<span class="selo al">estruturado, a revisar</span>';
@@ -218,6 +226,51 @@ function urlDeDados(pasta, id) {
 }
 async function buscarDados(pasta, id) { try { const r = await fetch(urlDeDados(pasta, id)); return r.ok ? await r.json() : null; } catch (_) { return null; } }
 
+// ── Minuta de lei alteradora (piloto) ────────────────────────────────────────
+let MIN = null; // { vigente, lei, pedidos, mod, conf }
+function prepararMinuta(h, n) {
+  const vigente = h.dispositivos.map((d) => ({ id: d.id, pai: d.pai, tipo: d.tipo, rotulo: d.rotulo, ...d.estados[d.estados.length - 1] })).filter((d) => d.situacao !== 'renumerado');
+  MIN = { vigente, lei: { tipoSapl: n[1], numero: n[2], data: n[3] }, pedidos: [], temAlteracoes: h.versoes.length > 1, duvida: new Set((h.aConferir || []).map((x) => x.id)) };
+  const rot = (d) => `${'\u00a0\u00a0'.repeat(d.id.split('/').length - 1)}${(d.rotulo || '').replace(/\s*[–.]$/, '')}${d.situacao !== 'vigente' ? ' (' + d.situacao + ')' : ''} — ${(d.texto || '').slice(0, 50)}`;
+  const opcoes = () => {
+    const op = $('m-op').value;
+    const lista = op === 'inclusao_artigo' ? vigente.filter((d) => d.tipo === 'artigo') : op === 'inclusao' ? vigente.filter((d) => d.tipo !== 'item') : vigente;
+    $('m-alvo').innerHTML = lista.map((d) => `<option value="${esc(d.id)}">${esc(rot(d))}</option>`).join('');
+    $('m-tipo-l').hidden = op !== 'inclusao';
+    $('m-texto-l').hidden = op === 'revogacao';
+    preencher();
+  };
+  const preencher = () => { if ($('m-op').value === 'nova_redacao') $('m-texto').value = (vigente.find((d) => d.id === $('m-alvo').value) || {}).texto || ''; else $('m-texto').value = ''; };
+  $('m-op').addEventListener('change', opcoes);
+  $('m-alvo').addEventListener('change', preencher);
+  $('m-expl').addEventListener('input', gerarMinutaNaPagina);
+  $('m-add').addEventListener('click', () => {
+    const op = $('m-op').value, alvo = $('m-alvo').value, texto = $('m-texto').value;
+    MIN.pedidos.push(op === 'inclusao' ? { operacao: op, pai: alvo, tipo: $('m-tipo').value, texto } : op === 'inclusao_artigo' ? { operacao: op, apos: alvo, texto } : op === 'revogacao' ? { operacao: op, alvo } : { operacao: op, alvo, texto });
+    gerarMinutaNaPagina();
+  });
+  $('m-lista').addEventListener('click', (ev) => { const b = ev.target.closest('button[data-i]'); if (b) { MIN.pedidos.splice(Number(b.dataset.i), 1); gerarMinutaNaPagina(); } });
+  opcoes();
+}
+const NOME_OP = { nova_redacao: 'nova redação', inclusao: 'incluir', inclusao_artigo: 'incluir artigo depois de', revogacao: 'revogar' };
+async function gerarMinutaNaPagina() {
+  const { citar } = MIN.mod || (MIN.mod = { ...(await import('./js/ingestao/minuta.mjs')), ...(await import('./js/ingestao/minuta-conferencia.mjs')) });
+  $('m-lista').innerHTML = MIN.pedidos.map((p, i) => `<li>${esc(NOME_OP[p.operacao])} ${p.tipo ? esc(p.tipo) + ' em ' : ''}<strong>${esc(citar(p.alvo || p.pai || p.apos))}</strong>${p.texto ? ': ' + esc(p.texto.slice(0, 80)) : ''} <button type="button" data-i="${i}" aria-label="Retirar este pedido">retirar</button></li>`).join('');
+  const s = $('m-saida');
+  if (!MIN.pedidos.length) { s.innerHTML = ''; return; }
+  const m = MIN.mod.gerarMinuta({ lei: MIN.lei, dispositivos: MIN.vigente, pedidos: MIN.pedidos, explicacao: $('m-expl').value.trim() || undefined, temAlteracoes: MIN.temAlteracoes });
+  const avisos = m.avisos.slice();
+  for (const p of m.pedidosResolvidos) if ([...MIN.duvida].some((d) => p.id === d || p.id.startsWith(d + '/') || d.startsWith(p.id + '/'))) avisos.push(`${citar(p.id)} está marcado como "não conferido" no histórico: confira o texto vigente na fonte antes de usar`);
+  const lista = (xs, cls) => (xs.length ? `<div class="estado ${cls}"><ul>${xs.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></div>` : '');
+  if (m.erros.length) { s.innerHTML = lista(m.erros, 'al') + lista(avisos, 'al'); return; }
+  const conf = MIN.mod.conferirMinuta(m.texto, MIN.vigente, m.pedidosResolvidos, m.renumeracoes);
+  const estado = conf.confere
+    ? `<div class="estado ok">Conferida: a leitura automática deste texto devolve exatamente ${conf.comandosLidos === 1 ? 'o comando pedido' : 'os ' + conf.comandosLidos + ' comandos pedidos'}.</div>`
+    : '<div class="estado al"><strong>Não use este texto como está.</strong> A leitura automática não devolveu o que foi pedido; a forma gerada precisa de revisão manual.</div>';
+  s.innerHTML = `${estado}${lista(avisos, 'al')}<pre id="m-texto-final">${esc(m.texto)}</pre><button type="button" id="m-copiar">Copiar a minuta</button>`;
+  $('m-copiar').addEventListener('click', () => (navigator.clipboard ? navigator.clipboard.writeText(m.texto) : Promise.reject()).then(() => aviso('Minuta copiada'), () => aviso('Selecione e copie o texto')));
+}
+
 // ── Histórico: a lei em cada momento ─────────────────────────────────────────
 const ANOTA = { replace_text: 'Redação dada pela', insert_node: 'Incluído pela', revoke_node: 'Revogado pela' };
 const MOTIVO = {
@@ -255,7 +308,22 @@ function montarHistorico(h, n) {
     ? `<div class="estado al"><strong>Histórico incompleto.</strong> ${h.naoAplicadas.length === 1 ? 'Uma norma alteradora não foi aplicada' : h.naoAplicadas.length + ' normas alteradoras não foram aplicadas'} por inteiro; os dispositivos afetados aparecem marcados como "não conferido":<ul>${h.naoAplicadas.map((x) => `<li><a href="${FONTE}${x.alteradora.idSapl}" target="_blank" rel="noopener">${esc(x.alteradora.rotulo)}</a> — ${esc(MOTIVO[x.motivo] || x.motivo)}.</li>`).join('')}</ul></div>`
     : '<div class="estado ok">Todas as normas alteradoras conhecidas foram aplicadas. Apuração automática: confira na fonte.</div>';
   const corpo = $('corpo');
-  corpo.innerHTML = `${pend}<div class="controles"><label>Versão <select id="versao">${opcoes}</select></label><label class="caixa"><input type="checkbox" id="marcar" checked> Destacar o que esta versão mudou</label><label class="caixa"><input type="checkbox" id="antigas"> Mostrar redações anteriores</label></div><div id="hist-corpo"></div>`;
+  const base = h.baseConferida === false ? '<div class="estado al">A leitura automática do texto ORIGINAL desta lei não passou em todas as conferências; o histórico abaixo parte dele e pode trazer o mesmo defeito.</div>' : '';
+  corpo.innerHTML = `${pend}${base}<div class="controles"><label>Versão <select id="versao">${opcoes}</select></label><label class="caixa"><input type="checkbox" id="marcar" checked> Destacar o que esta versão mudou</label><label class="caixa"><input type="checkbox" id="antigas"> Mostrar redações anteriores</label></div><div id="hist-corpo"></div>
+<details id="minuta"><summary>Redigir lei alteradora (piloto)</summary>
+<p class="vazio">Monta, na forma da LC 611/2009, o projeto que altera esta lei a partir do <strong>texto vigente apurado</strong>. O texto novo é seu; a ferramenta só dá a forma (artigo alterador, aspas, linha pontilhada, "(NR)", numeração) e confere se o resultado é lido de volta como você pediu. Não substitui a revisão.</p>
+<div class="form">
+<label>O que fazer <select id="m-op"><option value="nova_redacao">Dar nova redação a</option><option value="inclusao">Incluir dispositivo em</option><option value="inclusao_artigo">Incluir artigo depois de</option><option value="revogacao">Revogar</option></select></label>
+<label>Dispositivo <select id="m-alvo"></select></label>
+<label id="m-tipo-l" hidden>Tipo do dispositivo novo <select id="m-tipo"><option value="paragrafo">parágrafo</option><option value="inciso">inciso</option><option value="alinea">alínea</option></select></label>
+<label id="m-texto-l">Texto <textarea id="m-texto" rows="4"></textarea></label>
+<button type="button" id="m-add">Acrescentar ao pedido</button>
+</div>
+<ul id="m-lista"></ul>
+<label>Explicação para a ementa, em gerúndio (ex.: "vedando …") <input id="m-expl" type="text"></label>
+<div id="m-saida"></div>
+</details>`;
+  prepararMinuta(h, n);
   corpo.dataset.norma = rotulo(n);
   corpo._disp = h.dispositivos;
   for (const id of ['versao', 'marcar', 'antigas']) $(id).addEventListener('change', desenharHistorico);
@@ -275,7 +343,8 @@ async function abrir(id, rolar) {
   if (li) li.setAttribute('aria-current', 'true');
   if (location.hash !== `#n=${id}`) history.replaceState(null, '', `#n=${id}`);
   const d = $('detalhe');
-  const links = `<div class="links"><a href="${FONTE}${id}" target="_blank" rel="noopener">Página da norma na fonte</a>${n[7] ? `<a href="${esc(n[7])}" target="_blank" rel="noopener">Arquivo original</a>` : ''}</div>`;
+  const quemRevogou = n[10] ? NORMAS.find((x) => x[0] === n[10]) : null;
+  const links = `${n[10] ? `<div class="estado al">Segundo o cadastro da fonte, esta norma foi <strong>revogada por inteiro</strong>${quemRevogou ? ` pela <a href="#n=${n[10]}" data-abrir="${n[10]}">${esc(rotulo(quemRevogou))}</a>` : ''}.</div>` : ''}<div class="links"><a href="${FONTE}${id}" target="_blank" rel="noopener">Página da norma na fonte</a>${n[7] ? `<a href="${esc(n[7])}" target="_blank" rel="noopener">Arquivo original</a>` : ''}</div>`;
   d.innerHTML = `<h2>${esc(rotulo(n))}</h2><p class="ementa">${esc(n[4])}</p>${links}<div id="corpo"><p class="vazio">${n[6] || n[9] ? 'Carregando o texto…' : n[5] ? 'O texto desta norma ainda não foi estruturado. Use os links acima para lê-lo na fonte.' : 'A fonte pública só traz a ementa desta norma; o texto não está disponível.'}</p></div>`;
   if (rolar && window.matchMedia('(max-width: 979px)').matches) d.scrollIntoView({ behavior: 'smooth' });
   if (n[9]) {
@@ -319,6 +388,8 @@ function aviso(txt) { const c = $('copiado'); c.textContent = txt; c.classList.a
 document.addEventListener('click', (ev) => {
   const li = ev.target.closest('#lista li');
   if (li) { abrir(Number(li.dataset.id), true); return; }
+  const ir = ev.target.closest('a[data-abrir]');
+  if (ir) { ev.preventDefault(); abrir(Number(ir.dataset.abrir), true); return; }
   const r = ev.target.closest('.r[data-ref]');
   if (r) {
     const corpo = $('corpo');

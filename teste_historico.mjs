@@ -6,7 +6,8 @@
 // (fixtures/sapl/registros_lc320.json). Sem rede. Uso: node teste_historico.mjs
 
 import fs from 'node:fs';
-import { apurarHistorico, chaveParaId } from './ingestao/historico.mjs';
+import { apurarHistorico, chaveParaId, montarListaDeHistoricos, alteradorasPelaEmenta } from './ingestao/historico.mjs';
+import { normalizarVinculoSapl } from './ingestao/sapl-comum.mjs';
 
 let passou = 0, falhou = 0;
 const ok = (desc, cond) => { cond ? passou++ : falhou++; console.log(`${cond ? '✓' : '✗'} ${desc}`); };
@@ -50,6 +51,32 @@ ok('LC 692 (documento repetido no arquivo) NÃO conta como pendência', !h.naoAp
     c['art-5'] === '2000-06-19' && c['art-5/inc-I'] === '2000-06-19' && !Object.keys(c).some((id) => id.startsWith('art-2')) && h.aConferir.length === 4);
 }
 ok('chaveParaId: chave do motor → endereço', chaveParaId('§ 3º do art. 2º') === 'art-2/par-3' && chaveParaId('inc. iii do art. 12-b') === 'art-12-B/inc-III' && chaveParaId('parágrafo único do art. 10') === 'art-10/par-unico' && chaveParaId('coisa nenhuma') === null);
+
+// --- de onde vem a lista de alteradoras: vínculos da fonte + ementas -----------
+// Fixture REAL: fixtures/sapl/vinculos_altera_lc320.json — os 7 vínculos "Altera
+// o(a)" que a fonte tem para a LC 320/1994 (API do SAPL, 17/11/2026).
+{
+  const catalogo = new Map(regs.map((r) => [r.idSapl, r]));
+  const vinculos = JSON.parse(fs.readFileSync('./fixtures/sapl/vinculos_altera_lc320.json', 'utf8')).map(normalizarVinculoSapl);
+  const lista = montarListaDeHistoricos(vinculos, catalogo);
+  const numeros = (ids) => ids.map((id) => catalogo.get(id).numero).join(' ');
+  ok('vínculos reais: a PRINCIPAL é a alteradora; a fonte liga 7 leis à LC 320, em ordem de data', lista.leis.length === 1 && lista.leis[0].base === 27569 && numeros(lista.leis[0].alteradoras) === '384 412 449 514 525 692 958');
+  ok('…e NÃO liga 3 alteradoras verdadeiras (LC 474, 761 e 849): só o vínculo não basta', !lista.leis[0].alteradoras.some((id) => ['474', '761', '849'].includes(catalogo.get(id).numero)));
+  const pares = alteradorasPelaEmenta(catalogo).filter((x) => x.base === 27569);
+  ok('pelas ementas: as 10 alteradoras da LC 320 são encontradas, inclusive a LC 474 ("L.C 320/94")', numeros(pares.map((x) => x.alteradora).sort((a, b) => a - b)) === '384 412 449 474 514 525 692 761 849 958');
+  ok('ementa não gera par de uma lei com ela mesma nem com lei mais nova', alteradorasPelaEmenta(catalogo).every((x) => x.base !== x.alteradora && catalogo.get(x.base).data <= catalogo.get(x.alteradora).data));
+  const inv = montarListaDeHistoricos([{ idVinculo: 1, principal: 27569, relacionada: 44396, tipoVinculo: 1 }], catalogo);
+  ok('(sintético) vínculo em que a "alteradora" é mais antiga que a alterada não é aplicado: vai para datasInvertidas', inv.leis.length === 0 && inv.datasInvertidas.length === 1);
+  const rev = montarListaDeHistoricos([{ idVinculo: 2, principal: 44396, relacionada: 27569, tipoVinculo: 2 }, { idVinculo: 3, principal: 999999, relacionada: 27569, tipoVinculo: 1 }, { idVinculo: 4, principal: 44396, relacionada: 27569, tipoVinculo: 5 }], catalogo);
+  ok('(sintético) revogação integral vai para `revogadas`; alteradora fora do catálogo é registrada; "norma correlata" é ignorada', rev.revogadas[27569] === 44396 && rev.foraDoCatalogo.length === 1 && rev.leis.length === 0);
+}
+{
+  // candidata só pela ementa cujos comandos miram OUTRA lei: descartada, sem virar pendência
+  const outra = { registro: { ...reg('849'), idSapl: 1, numero: '9999', ano: 2020, data: '2020-01-01', rotulo: 'Lei Complementar municipal nº 9.999, de 01 de janeiro de 2020' },
+    texto: 'LEI COMPLEMENTAR Nº 9.999, DE 1º DE JANEIRO DE 2020.\nInclui § 9º no art. 1º da Lei Complementar nº 611, de 3 de fevereiro de 2009.\nArt. 1º Fica incluído § 9º no art. 1º da Lei Complementar nº 611, de 3 de fevereiro de 2009, conforme segue:\n“Art. 1º ......\n§ 9º Texto.” (NR)\nArt. 2º Esta Lei Complementar entra em vigor na data de sua publicação.', candidataPelaEmenta: true };
+  const h2 = apurarHistorico({ registro: reg('320'), texto: fs.readFileSync('./lc320.txt', 'utf8') }, [outra]);
+  ok('(sintético) candidata pela ementa que altera outra lei: descartada, não conta como alteradora não aplicada', h2.versoes.length === 1 && h2.naoAplicadas.length === 0 && h2.descartadas.length === 1);
+}
 
 console.log('='.repeat(70));
 console.log(`RESULTADO: ${passou} passaram, ${falhou} falharam`);
