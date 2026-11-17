@@ -728,6 +728,12 @@ export function parseMinuta(raw, nrRanges) {
       doc.artigos.push(n); last = { a:n, p:null, i:null, al:null }; stage = "corpo"; continue;
     }
     if (stage !== "corpo") {
+      // Preâmbulo em mais de uma linha ("O PREFEITO MUNICIPAL DE PORTO ALEGRE." /
+      // "Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei:").
+      // Achado com dado real (Lei nº 9.113/2003, arquivo do SIREL): sem isto, a
+      // 2ª linha caía na ementa, que passava a terminar com "Faço saber…".
+      // Depois que o preâmbulo começou, o que vier antes do 1º artigo é preâmbulo.
+      if (doc.preambulo) { doc.preambulo = doc.preambulo + " " + line; continue; }
       if (rePre.test(line)) { doc.preambulo = line; continue; }
       if (!doc.epigrafe && /PROJETO|REDA[ÇC][ÃA]O\s+FINAL|\bPLL\b|\bPLCL\b|\bPLE\b|\bPLCE\b|\bPELO\b|\bPR\b/i.test(line)) {
         doc.epigrafe = line;
@@ -798,8 +804,11 @@ export function parseMinuta(raw, nrRanges) {
  *   // doc.proveniencia: { promulgadoPor, motivoProvavel, baseLegal? }
  *   // vetado/revogado já marcados nos nós (marcarEstadosEspeciais)
  */
-export function parseLeiPublicada(raw) {
-  const doc = parseMinuta(raw);
+// `nrRanges` (opcional): saída de detectNRCandidates(raw), repassada a parseMinuta()
+// para que os blocos de redação alterada de uma lei ALTERADORA fiquem em
+// `nrBloco`, e não misturados aos dispositivos da própria alteradora.
+export function parseLeiPublicada(raw, nrRanges) {
+  const doc = parseMinuta(raw, nrRanges);
   const cabecalho = extrairCabecalhoLeiPublicada(raw);
   if (cabecalho) {
     doc.tipoAto = cabecalho.tipoAto;

@@ -51,6 +51,8 @@ ritmo, outro horário ou que a coleta pare, abra uma *issue* neste repositório.
 | `dados/catalogo/` | Catálogo das normas (metadados) e relatório de cobertura |
 | `dados/textos/` | Texto extraído de cada norma e índice com o hash do arquivo original |
 | `dados/dopa/` | Cabeçalho e link das normas vistas nas edições recentes do DOPA |
+| `dados/estruturado/` | Cada norma em dispositivos endereçáveis, com o resultado da verificação automática |
+| `docs/` | Página de consulta (busca por número e por palavras da ementa; texto estruturado quando houver) |
 | `teste_*.mjs` | Testes (sem framework: `node teste_….mjs`) |
 | `PLANO.md` | Fases do experimento e o que falta |
 

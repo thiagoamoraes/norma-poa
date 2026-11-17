@@ -9,7 +9,9 @@
 #                    (no dia 1º de cada mês, marca nova carga completa)
 #   4. vinculos    — carga dos vínculos, no máximo VINCULOS_POR_EXECUCAO páginas
 #   5. textos      — baixa arquivos de texto até o prazo acabar
-# Depois gera o relatório de cobertura. Não faz commit (isso é do workflow).
+# Depois, sem rede: relatório de cobertura, estruturação com verificação dos
+# textos já baixados e dados da página de consulta (docs/). Não faz commit
+# (isso é do workflow).
 #
 # Variáveis: MINUTOS (padrão 55) · ETAPAS (padrão "novidades dopa catalogo vinculos textos")
 #            MAX_ARQUIVOS (padrão: sem limite) · VINCULOS_POR_EXECUCAO (padrão 5)
@@ -48,4 +50,8 @@ fi
 
 echo "=== relatório"
 node ingestao/relatorio-cobertura.mjs || falhas=$((falhas + 1))
+echo "=== estruturação (sem rede)"
+node ingestao/estruturar.mjs || falhas=$((falhas + 1))
+echo "=== dados da página de consulta"
+node ingestao/gerar-site.mjs || falhas=$((falhas + 1))
 exit "$falhas"

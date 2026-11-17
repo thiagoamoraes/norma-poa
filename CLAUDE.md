@@ -102,7 +102,9 @@ Tipos: `artigo | paragrafo | inciso | alinea | item | ementa | em | omissao | te
 - **Cuidado:** os coletores executam ao serem importados (`import()` de `catalogo-sapl.mjs` dispara a coleta). Para checar sintaxe, `node --check`.
 - Dados: `dados/catalogo/sapl/*.jsonl` (a ÚLTIMA ocorrência de um `idSapl` vale), `dados/catalogo/COBERTURA.md`, `dados/textos/sapl/` (texto extraído + `_indice.jsonl`). Brutos: `dados/_bruto/` (fora do git) → Release `textos-brutos`.
 - Rotina diária: `.github/workflows/coleta-diaria.yml` (04:17 UTC, na `main`, sem IA).
-- Testes: `node teste_catalogo_sapl.mjs` (26) · `node teste_textos_sapl.mjs` (21).
+- **Estruturação com verificação:** `ingestao/estrutura.mjs` (puro) → `ingestao/estruturar.mjs` grava `dados/estruturado/sapl/<id>.json` e `dados/estruturado/RELATORIO.md` (taxa de aceitação e fila de revisão, por motivo). Endereço de dispositivo = caminho de rótulos (`art-5-A/par-2/inc-III`), nunca posição. Norma só é `aceita` se passar em todas as conferências; mexeu na lógica → suba `VERSAO_ESTRUTURADOR` para reprocessar.
+- **Página de consulta:** `docs/index.html` (estática, sem dependências) + `docs/dados/catalogo.json` gerado por `ingestao/gerar-site.mjs`. Servida pelo GitHub Pages (pasta `/docs` da `main`).
+- Testes: `node teste_catalogo_sapl.mjs` (26) · `node teste_textos_sapl.mjs` (21) · `node teste_estrutura.mjs` (23).
 - **Repositório pensado para ser público:** nada de nomes de pessoas, cargos, planos institucionais ou juízo sobre órgãos e terceiros em código, docs ou commits. `dados/dopa/` guarda só cabeçalho e link das normas — nunca texto corrido do caderno.
 - Escopo da fase inicial: Lei Orgânica, emendas, LCs e leis ordinárias.
 

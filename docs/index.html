@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Norma — consulta experimental à legislação de Porto Alegre</title>
+<style>
+  :root {
+    --fundo: #f6f4ef; --papel: #ffffff; --tinta: #1f2328; --suave: #5b6470; --linha: #dcd8cf;
+    --marca: #7a3e1d; --marca-fraca: #f1e6dd; --ok: #1f6f43; --ok-fraca: #e3f1e8; --alerta: #8a5a00; --alerta-fraca: #fbf0d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --fundo: #16181b; --papel: #1e2125; --tinta: #e6e3dc; --suave: #a0a7b0; --linha: #33383f;
+      --marca: #e0a57e; --marca-fraca: #3a2a20; --ok: #7fcf9f; --ok-fraca: #1c3327; --alerta: #e6c36a; --alerta-fraca: #3a3016; }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--fundo); color: var(--tinta); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { padding: 20px 16px 12px; max-width: 1280px; margin: 0 auto; }
+  h1 { font: 600 1.35rem/1.25 Georgia, "Times New Roman", serif; margin: 0 0 4px; text-wrap: balance; }
+  header p { margin: 0; color: var(--suave); font-size: .9rem; max-width: 75ch; }
+  .aviso { margin: 12px 0 0; padding: 10px 12px; background: var(--alerta-fraca); color: var(--tinta); border-left: 3px solid var(--alerta); border-radius: 4px; font-size: .88rem; max-width: 100ch; }
+  main { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; padding: 0 16px 48px; max-width: 1280px; margin: 0 auto; }
+  @media (min-width: 980px) { main { grid-template-columns: minmax(0, 440px) minmax(0, 1fr); align-items: start; } #lista-col { position: sticky; top: 0; max-height: 100vh; overflow: auto; padding-top: 8px; } }
+  .busca { display: grid; gap: 8px; }
+  input[type=search], select { width: 100%; font: inherit; color: inherit; background: var(--papel); border: 1px solid var(--linha); border-radius: 6px; padding: 10px 12px; }
+  input[type=search]:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible, li[tabindex]:focus-visible { outline: 2px solid var(--marca); outline-offset: 2px; }
+  .filtros { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  label.caixa { display: flex; gap: 8px; align-items: center; font-size: .9rem; color: var(--suave); grid-column: 1 / -1; }
+  #contagem { font-size: .85rem; color: var(--suave); margin: 10px 0 6px; font-variant-numeric: tabular-nums; }
+  ul#lista { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+  ul#lista li { background: var(--papel); border: 1px solid var(--linha); border-radius: 6px; padding: 10px 12px; cursor: pointer; }
+  ul#lista li[aria-current=true] { border-color: var(--marca); box-shadow: inset 3px 0 0 var(--marca); }
+  .rot { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .em { color: var(--suave); font-size: .9rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .selo { display: inline-block; font-size: .72rem; padding: 1px 7px; border-radius: 999px; margin-left: 6px; vertical-align: 2px; background: var(--marca-fraca); color: var(--marca); white-space: nowrap; }
+  .selo.ok { background: var(--ok-fraca); color: var(--ok); } .selo.al { background: var(--alerta-fraca); color: var(--alerta); } .selo.no { background: transparent; border: 1px solid var(--linha); color: var(--suave); }
+  button { font: inherit; color: var(--marca); background: transparent; border: 1px solid var(--linha); border-radius: 6px; padding: 8px 12px; cursor: pointer; }
+  #mais { width: 100%; margin-top: 8px; }
+  article { background: var(--papel); border: 1px solid var(--linha); border-radius: 8px; padding: 20px; min-height: 240px; }
+  article h2 { font: 600 1.2rem/1.3 Georgia, serif; margin: 0 0 6px; text-wrap: balance; }
+  article .ementa { font-style: italic; margin: 0 0 12px; max-width: 70ch; }
+  .links { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: .9rem; margin-bottom: 14px; }
+  a { color: var(--marca); }
+  .estado { padding: 8px 12px; border-radius: 4px; font-size: .88rem; margin-bottom: 14px; }
+  .estado.ok { background: var(--ok-fraca); } .estado.al { background: var(--alerta-fraca); }
+  .texto { font-family: Georgia, "Times New Roman", serif; max-width: 72ch; }
+  .texto .grupo { text-align: center; font-variant-caps: small-caps; letter-spacing: .03em; margin: 18px 0 6px; font-weight: 600; }
+  .disp { margin: 8px 0; padding: 2px 6px; border-radius: 4px; scroll-margin-top: 12px; }
+  .disp:hover { background: var(--marca-fraca); }
+  .disp .r { font-weight: 700; margin-right: .4em; cursor: pointer; }
+  .disp.n1 { margin-left: 1.5em; } .disp.n2 { margin-left: 3em; } .disp.n3 { margin-left: 4.5em; } .disp.n4 { margin-left: 6em; }
+  .disp.vet .t, .disp.rev .t { color: var(--suave); }
+  .bloco { white-space: pre-wrap; margin: 6px 0 6px 1.5em; padding: 8px 12px; border-left: 3px solid var(--linha); color: var(--suave); font-size: .95em; }
+  .fecho { white-space: pre-line; margin-top: 18px; color: var(--suave); font-size: .92em; }
+  .vazio { color: var(--suave); }
+  #copiado { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); background: var(--tinta); color: var(--fundo); padding: 8px 14px; border-radius: 6px; font-size: .9rem; opacity: 0; transition: opacity .2s; pointer-events: none; }
+  #copiado.v { opacity: 1; }
+  footer { max-width: 1280px; margin: 0 auto; padding: 0 16px 32px; color: var(--suave); font-size: .82rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Norma — consulta experimental à legislação de Porto Alegre</h1>
+  <p>Lei Orgânica, emendas, leis complementares e leis ordinárias, lidas de fontes públicas e estruturadas automaticamente.</p>
+  <p class="aviso"><strong>Experimento pessoal, sem caráter oficial.</strong> Não é serviço da Câmara Municipal nem da Prefeitura de Porto Alegre e pode conter erros de leitura automática. O texto que vale é o publicado no Diário Oficial de Porto Alegre; confira sempre na fonte indicada em cada norma.</p>
+</header>
+<main>
+  <section id="lista-col" aria-label="Busca">
+    <div class="busca">
+      <input id="q" type="search" placeholder="Número ou palavras da ementa (ex.: 611 · lc 320 · logradouros denominação)" autocomplete="off" aria-label="Buscar norma">
+      <div class="filtros">
+        <select id="tipo" aria-label="Tipo de norma"><option value="">Todos os tipos</option></select>
+        <select id="decada" aria-label="Década"><option value="">Todas as décadas</option></select>
+        <label class="caixa"><input id="so-estr" type="checkbox"> Só normas com texto estruturado</label>
+      </div>
+    </div>
+    <div id="contagem" aria-live="polite">Carregando o catálogo…</div>
+    <ul id="lista"></ul>
+    <button id="mais" hidden>Mostrar mais</button>
+  </section>
+  <article id="detalhe" aria-live="polite"><p class="vazio">Escolha uma norma na lista para ver os dados e, quando houver, o texto estruturado.</p></article>
+</main>
+<footer>
+  Dados do catálogo: base "Legislação Municipal" da Procuradoria-Geral do Município de Porto Alegre (CC BY-SA 4.0). <span id="gerado"></span>
+  A busca é textual (número e palavras da ementa); busca por sentido ainda não existe.
+</footer>
+<div id="copiado" role="status"></div>
+<script>
+'use strict';
+const FONTE = 'https://legislacao.portoalegre.rs.gov.br/norma/';
+const POR_PAGINA = 50;
+const $ = (id) => document.getElementById(id);
+const semAcento = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const milhar = (n) => /^\d+$/.test(n) ? Number(n).toLocaleString('pt-BR') : n;
+const dataBr = (iso) => iso ? iso.split('-').reverse().join('/') : 's/d';
+
+let TIPOS = {}, NORMAS = [], INDICE = [], filtradas = [], mostradas = 0, atual = null;
+
+const rotulo = (n) => `${TIPOS[n[1]] || 'Norma'} nº ${milhar(n[2])}, de ${dataBr(n[3])}`;
+function selo(n) {
+  if (n[6] === 1) return '<span class="selo ok">texto estruturado</span>';
+  if (n[6] === 2) return '<span class="selo al">estruturado, a revisar</span>';
+  if (n[5] === 2) return '<span class="selo">texto baixado</span>';
+  if (n[5] === 1) return '<span class="selo">texto na fonte</span>';
+  return '<span class="selo no">só ementa</span>';
+}
+
+function filtrar() {
+  const q = semAcento($('q').value.trim());
+  const tipo = $('tipo').value, dec = $('decada').value, soE = $('so-estr').checked;
+  // "lc 611", "lei 9113/2003", "9.113": número (e ano) têm prioridade sobre palavras
+  const mNum = /^(?:(lc|lei complementar|lei|emenda|elo)\s*)?(?:n[ºo.]*\s*)?([\d.]+)(?:\s*\/\s*(\d{4}))?$/.exec(q);
+  const termos = mNum ? [] : q.split(/\s+/).filter(Boolean);
+  const numero = mNum ? mNum[2].replace(/\./g, '') : null;
+  const tipoQ = mNum && mNum[1] ? ({ lc: 6, 'lei complementar': 6, lei: 5, emenda: 2, elo: 2 })[mNum[1]] : null;
+  filtradas = [];
+  for (let i = 0; i < NORMAS.length; i++) {
+    const n = NORMAS[i];
+    if (tipo && String(n[1]) !== tipo) continue;
+    if (dec && !(n[3] || '').startsWith(dec.slice(0, 3))) continue;
+    if (soE && !n[6]) continue;
+    if (numero !== null) {
+      if (n[2] !== numero) continue;
+      if (tipoQ && n[1] !== tipoQ) continue;
+      if (mNum[3] && !(n[3] || '').startsWith(mNum[3])) continue;
+    } else if (termos.length && !termos.every((t) => INDICE[i].includes(t))) continue;
+    filtradas.push(n);
+  }
+  mostradas = 0;
+  $('lista').innerHTML = '';
+  $('contagem').textContent = `${filtradas.length.toLocaleString('pt-BR')} de ${NORMAS.length.toLocaleString('pt-BR')} normas`;
+  maisResultados();
+}
+
+function maisResultados() {
+  const ate = Math.min(filtradas.length, mostradas + POR_PAGINA);
+  const html = [];
+  for (let i = mostradas; i < ate; i++) {
+    const n = filtradas[i];
+    html.push(`<li tabindex="0" data-id="${n[0]}"${atual === n[0] ? ' aria-current="true"' : ''}><div class="rot">${esc(rotulo(n))}${selo(n)}</div><div class="em">${esc(n[4])}</div></li>`);
+  }
+  $('lista').insertAdjacentHTML('beforeend', html.join(''));
+  mostradas = ate;
+  $('mais').hidden = mostradas >= filtradas.length;
+}
+
+// Onde estão os JSON estruturados: ao lado (servidor local na raiz do repositório)
+// ou no repositório público (quando a página é servida pelo GitHub Pages).
+function urlsEstruturado(id) {
+  const rel = `../dados/estruturado/sapl/${id}.json`;
+  const m = /^([^.]+)\.github\.io$/.exec(location.hostname);
+  const repo = location.pathname.split('/').filter(Boolean)[0];
+  return m && repo ? [`https://raw.githubusercontent.com/${m[1]}/${repo}/main/dados/estruturado/sapl/${id}.json`] : [rel];
+}
+
+const GRUPO = { parte: 'Parte', livro: 'Livro', titulo: 'Título', capitulo: 'Capítulo', secao: 'Seção', subsecao: 'Subseção' };
+const NIVEL = (id) => Math.min(4, id.split('/').length - 1);
+const CITA = { artigo: (r) => r.replace(/^Art\./, 'art.').replace(/\.$/, ''), paragrafo: (r) => /único/i.test(r) ? 'parágrafo único' : r.replace(/\.$/, ''), inciso: (r) => 'inc. ' + r.replace(/\s*[–-]\s*$/, ''), alinea: (r) => 'al. ' + r.replace(/\)$/, ''), item: (r) => 'item ' + r.replace(/\.$/, '') };
+
+async function abrir(id, rolar) {
+  const n = NORMAS.find((x) => x[0] === id);
+  if (!n) return;
+  atual = id;
+  document.querySelectorAll('#lista li').forEach((li) => li.toggleAttribute('aria-current', false));
+  const li = document.querySelector(`#lista li[data-id="${id}"]`);
+  if (li) li.setAttribute('aria-current', 'true');
+  if (location.hash !== `#n=${id}`) history.replaceState(null, '', `#n=${id}`);
+  const d = $('detalhe');
+  const links = `<div class="links"><a href="${FONTE}${id}" target="_blank" rel="noopener">Página da norma na fonte</a>${n[7] ? `<a href="${esc(n[7])}" target="_blank" rel="noopener">Arquivo original</a>` : ''}</div>`;
+  d.innerHTML = `<h2>${esc(rotulo(n))}</h2><p class="ementa">${esc(n[4])}</p>${links}<div id="corpo"><p class="vazio">${n[6] ? 'Carregando o texto estruturado…' : n[5] ? 'O texto desta norma ainda não foi estruturado. Use os links acima para lê-lo na fonte.' : 'A fonte pública só traz a ementa desta norma; o texto não está disponível.'}</p></div>`;
+  if (rolar && window.matchMedia('(max-width: 979px)').matches) d.scrollIntoView({ behavior: 'smooth' });
+  if (!n[6]) return;
+  let e = null;
+  for (const u of urlsEstruturado(id)) { try { const r = await fetch(u); if (r.ok) { e = await r.json(); break; } } catch (_) {} }
+  if (atual !== id) return;
+  const corpo = $('corpo');
+  if (!e) { corpo.innerHTML = '<p class="vazio">Não foi possível carregar o texto estruturado agora. Use os links acima.</p>'; return; }
+  const v = e.verificacao;
+  const estado = v.situacao === 'aceita'
+    ? '<div class="estado ok">Leitura automática conferida: número, data e tipo batem com o catálogo; artigos sem salto; nenhum trecho do arquivo ficou de fora. Ainda assim, confira na fonte.</div>'
+    : `<div class="estado al">Leitura automática <strong>não conferida</strong> (${esc(v.motivos.join(', '))}). O texto abaixo pode estar incompleto ou mal dividido — use a fonte.</div>`;
+  const partes = [estado, '<div class="texto">'];
+  if (e.preambulo) partes.push(`<p>${esc(e.preambulo)}</p>`);
+  for (const x of e.dispositivos) {
+    for (const g of x.agrupadores || []) partes.push(`<div class="grupo">${esc(GRUPO[g.tipo] || g.tipo)} ${esc(g.numero)}${g.titulo ? '<br>' + esc(g.titulo) : ''}</div>`);
+    partes.push(`<div class="disp n${NIVEL(x.id)}${x.vetado ? ' vet' : ''}${x.revogado ? ' rev' : ''}" id="d-${esc(x.id)}"><span class="r" data-ref="${esc(x.id)}" title="Copiar a referência a este dispositivo">${esc(x.rotulo || '')}</span><span class="t">${esc(x.texto)}</span></div>`);
+    if (x.blocoDeAlteracao) partes.push(`<div class="bloco">${esc(x.blocoDeAlteracao)}</div>`);
+  }
+  if (e.fecho) partes.push(`<div class="fecho">${esc(e.fecho)}</div>`);
+  partes.push('</div>');
+  corpo.innerHTML = partes.join('');
+  corpo.dataset.norma = rotulo(n);
+  corpo._disp = e.dispositivos;
+}
+
+function referencia(idDisp, lista, nomeNorma) {
+  const porId = new Map(lista.map((x) => [x.id, x]));
+  const cadeia = [];
+  for (let x = porId.get(idDisp); x; x = x.pai ? porId.get(x.pai) : null) cadeia.push((CITA[x.tipo] || ((r) => r))(x.rotulo || ''));
+  // do mais específico para o mais geral: "inc. II do § 1º do art. 5º da Lei nº …"
+  return cadeia.join(' do ') + ' da ' + nomeNorma;
+}
+
+function aviso(txt) { const c = $('copiado'); c.textContent = txt; c.classList.add('v'); setTimeout(() => c.classList.remove('v'), 1800); }
+
+document.addEventListener('click', (ev) => {
+  const li = ev.target.closest('#lista li');
+  if (li) { abrir(Number(li.dataset.id), true); return; }
+  const r = ev.target.closest('.r[data-ref]');
+  if (r) {
+    const corpo = $('corpo');
+    const ref = referencia(r.dataset.ref, corpo._disp, corpo.dataset.norma);
+    (navigator.clipboard ? navigator.clipboard.writeText(ref) : Promise.reject()).then(() => aviso('Copiado: ' + ref), () => aviso(ref));
+  }
+});
+document.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' && ev.target.matches('#lista li')) abrir(Number(ev.target.dataset.id), true); });
+$('mais').addEventListener('click', maisResultados);
+let t; const agendar = () => { clearTimeout(t); t = setTimeout(filtrar, 120); };
+$('q').addEventListener('input', agendar);
+for (const id of ['tipo', 'decada', 'so-estr']) $(id).addEventListener('change', filtrar);
+
+fetch('dados/catalogo.json').then((r) => r.json()).then((c) => {
+  TIPOS = c.tipos; NORMAS = c.normas;
+  INDICE = NORMAS.map((n) => semAcento(`${TIPOS[n[1]] || ''} ${n[2]} ${(n[3] || '').slice(0, 4)} ${n[4]}`));
+  for (const [k, v] of Object.entries(TIPOS)) $('tipo').insertAdjacentHTML('beforeend', `<option value="${k}">${esc(v)}</option>`);
+  const decs = [...new Set(NORMAS.map((n) => (n[3] || '').slice(0, 3)).filter(Boolean))].sort().reverse();
+  for (const d of decs) $('decada').insertAdjacentHTML('beforeend', `<option value="${d}0">${d}0</option>`);
+  $('gerado').textContent = `Catálogo gerado em ${dataBr(c.geradoEm.slice(0, 10))}.`;
+  filtrar();
+  const m = /^#n=(\d+)$/.exec(location.hash);
+  if (m) abrir(Number(m[1]), false);
+}).catch(() => { $('contagem').textContent = 'Não foi possível carregar o catálogo.'; });
+</script>
+</body>
+</html>

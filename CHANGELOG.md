@@ -1096,3 +1096,37 @@ Nenhuma mudança no `norma-core.js`. Tudo novo fica em `ingestao/`, `dados/` e
   `fixtures-locais/`); histórico refeito em commit único.
 - **Testes:** `teste_catalogo_sapl.mjs` 20 → 26 (conferência com o DOPA, com o
   índice real da Edição 7889).
+
+# Rodada 13 — Estruturação com verificação e página de consulta (17/11/2026)
+
+## Motor (`norma-core.js`) — duas mudanças pontuais, espelhadas em `norma-simulacao.html`
+
+1. **Preâmbulo em mais de uma linha.** Achado com dado real (Lei nº 9.113/2003,
+   arquivo do SIREL): "O PREFEITO MUNICIPAL DE PORTO ALEGRE." numa linha e
+   "Faço saber que…" na seguinte — a segunda caía na ementa. Agora, depois que
+   o preâmbulo começou, o que vier antes do 1º artigo é preâmbulo.
+2. **`parseLeiPublicada(raw, nrRanges)`** — 2º parâmetro opcional, repassado a
+   `parseMinuta`, para os blocos de redação alterada de uma lei alteradora
+   ficarem em `nrBloco` em vez de virarem dispositivos da própria alteradora
+   (caso real: LC 384/1996, cujo "Parágrafo Único" do bloco aparecia como
+   parágrafo do art. 1º da alteradora).
+
+Bateria antes e depois: 153 no core, 72 promulgação parcial, `normateste.mjs`
+idêntico byte a byte.
+
+## Ingestão
+
+- `extracao-texto.mjs`: a 1ª linha "Prefeitura Municipal de Porto Alegre" do
+  HTML do SIREL é timbre da página, não texto da norma — removida (era tomada
+  por epígrafe).
+- **`estrutura.mjs`** (puro): norma → lista de dispositivos com endereço
+  estável por rótulo + verificação. Conferências: cabeçalho × catálogo (número,
+  data, tipo), numeração de artigos, endereço repetido, rótulo dado × rótulo
+  escrito na origem, conservação do texto (nada fora da árvore), fecho,
+  promulgação parcial. Com dado real: LC 611, LC 320, LC 384 e Lei 9.113
+  aceitas; Lei 14.504 (promulgação parcial) vai para revisão.
+- **`estruturar.mjs`**: roda toda noite sobre os textos baixados; escreve
+  `dados/estruturado/` e o relatório com a taxa de aceitação.
+- **`gerar-site.mjs` + `docs/index.html`**: página de consulta estática.
+- **Testes:** `teste_estrutura.mjs` (23). Os testes da Lei 9.113 falham contra
+  o motor anterior (conferido).

@@ -57,7 +57,11 @@ export function htmlSirelParaTexto(bytes) {
     .split(/\r?\n/)
     .map((l) => l.replace(/[ \t ]+/g, ' ').trim())
     .filter(Boolean);
-  const { linhas, repeticoes } = removerRepeticaoIntegral(todas);
+  const { linhas: unicas, repeticoes } = removerRepeticaoIntegral(todas);
+  // A 1ª linha "Prefeitura Municipal de Porto Alegre" é o timbre da página do
+  // SIREL (ao lado do brasão), não é texto da norma — e, se ficar, o leitor a
+  // toma por epígrafe. Só essa linha exata, só na 1ª posição.
+  const linhas = unicas[0] === 'Prefeitura Municipal de Porto Alegre' ? unicas.slice(1) : unicas;
   return { texto: linhas.join('\n') + '\n', repeticoes };
 }
 
