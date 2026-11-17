@@ -70,3 +70,51 @@ export function extensaoDaUrl(url) {
   const m = /\.([a-z0-9]{2,5})$/i.exec(new URL(url).pathname);
   return m ? m[1].toLowerCase() : 'bin';
 }
+
+// ─── DOCX ─────────────────────────────────────────────────────────────────────
+import { inflateRawSync } from 'node:zlib';
+
+/** Lê UM arquivo de dentro de um ZIP (bytes). Devolve Buffer ou null. Sem dependências. */
+export function lerDoZip(bytes, nome) {
+  const b = Buffer.from(bytes);
+  let fim = -1;
+  for (let i = b.length - 22; i >= Math.max(0, b.length - 66000); i--) if (b.readUInt32LE(i) === 0x06054b50) { fim = i; break; }
+  if (fim < 0) return null;
+  const total = b.readUInt16LE(fim + 10);
+  let p = b.readUInt32LE(fim + 16);
+  for (let k = 0; k < total; k++) {
+    if (b.readUInt32LE(p) !== 0x02014b50) return null;
+    const metodo = b.readUInt16LE(p + 10);
+    const tamComp = b.readUInt32LE(p + 20);
+    const tamNome = b.readUInt16LE(p + 28), tamExtra = b.readUInt16LE(p + 30), tamComent = b.readUInt16LE(p + 32);
+    const local = b.readUInt32LE(p + 42);
+    const n = b.toString('utf8', p + 46, p + 46 + tamNome);
+    if (n === nome) {
+      const ini = local + 30 + b.readUInt16LE(local + 26) + b.readUInt16LE(local + 28);
+      const dados = b.subarray(ini, ini + tamComp);
+      return metodo === 0 ? Buffer.from(dados) : metodo === 8 ? inflateRawSync(dados) : null;
+    }
+    p += 46 + tamNome + tamExtra + tamComent;
+  }
+  return null;
+}
+
+/**
+ * DOCX (bytes) → texto plano, uma linha por parágrafo do documento. Lê só o
+ * corpo (word/document.xml): cabeçalho e rodapé de página ficam de fora.
+ * Devolve null se o arquivo não for um DOCX legível.
+ */
+export function docxParaTexto(bytes) {
+  const xml = lerDoZip(bytes, 'word/document.xml');
+  if (!xml) return null;
+  const decod = (s) => s.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n))).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16))).replace(/&amp;/g, '&');
+  const linhas = [];
+  for (const par of xml.toString('utf8').split(/<\/w:p>/)) {
+    let t = '';
+    const re = /<w:t(?:\s[^>]*)?>([^<]*)<\/w:t>|<w:tab\b[^>]*\/>|<w:(?:br|cr)\b[^>]*\/>|<w:noBreakHyphen\b[^>]*\/>/g;
+    let m;
+    while ((m = re.exec(par))) t += m[1] !== undefined ? decod(m[1]) : m[0].startsWith('<w:tab') ? ' ' : m[0].startsWith('<w:noBreak') ? '-' : '\n';
+    for (const l of t.split('\n')) { const limpa = l.replace(/[ \t ]+/g, ' ').trim(); if (limpa) linhas.push(limpa); }
+  }
+  return linhas.join('\n') + '\n';
+}
