@@ -66,7 +66,7 @@ jobs:
 
   coleta:
     needs: guarda
-    if: needs.guarda.outputs.pular != 'true'
+    if: ${{ always() && needs.guarda.outputs.pular != 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 350
     env:
