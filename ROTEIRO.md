@@ -34,11 +34,11 @@ node normateste.mjs > /tmp/antes.txt          # só imprime: comparar byte a byt
 for t in teste_regressao teste_vetado_provenencia teste_pecas_2_3 teste_lei_publicada \
          teste_peca4 teste_urn teste_gruposAntes teste_promulgacao_parcial teste_pdf_normas \
          teste_catalogo_sapl teste_textos_sapl teste_estrutura teste_versionamento \
-         teste_historico teste_minuta; do node $t.mjs | tail -1; done
+         teste_historico teste_minuta teste_leis_ordinarias; do node $t.mjs | tail -1; done
 ```
 
 Contagens de referência em 17/11/2026: 47 · 13 · 30 · 11 · 29 · 7 · 16 · 72 ·
-24 · 26 · 33 · 28 · 34 · 24 · 33, todas sem falha; mais `teste_ocr.mjs` (7; pula se não houver tesseract). (`teste_pdf_normas` precisa
+24 · 26 · 33 · 28 · 34 · 24 · 33 · 20, todas sem falha; mais `teste_ocr.mjs` (7; pula se não houver tesseract). (`teste_pdf_normas` precisa
 de `npm ci`.)
 
 ### 0.3 Regras que mais custam caro quando esquecidas
@@ -107,7 +107,7 @@ arquivos e nas alteradoras da LC 320):
 | `cabecalho_nao_reconhecido` | "LEI COMPLEMENTAR Nº 449" (sem data), "LEI COMPLEMENTAR 474, de…" (sem "Nº"), "N°" com sinal de grau, linha de timbre antes ("brasao.g…", "Prefeitura Municipal de Porto Alegre") | Ver tarefa 2 |
 | `texto_fora_da_arvore` com amostra de número de página ou "Diário Oficial" | cabeçalho/rodapé de página do PDF | extração: filtro de linhas repetidas em todas as páginas (medir antes: a mesma linha em ≥ 3 páginas) |
 | `rotulo_nao_confere_com_a_origem` em massa numa norma | um artigo não foi reconhecido e os seguintes "andaram" (rótulo dado por posição) | motor: `reArt`/`rePar` — veja a linha do artigo perdido no `.txt` |
-| palavras coladas ou com espaços no meio ("Dec lara de utilidad e") | PDFs de ~2011: `pdftotext` erra o espaçamento | testar `ingestao/pdf-normas.mjs` (`extrairTextoNorma`, via pdfjs) nesses arquivos; se for melhor, usá-lo como 2ª tentativa quando a razão letras/espaços for anormal |
+| palavras coladas ou com espaços no meio ("Dec lara de utilidad e", "Ex cetuam-se") | PDFs de ~2011–2014: `pdftotext` erra o espaçamento | **medido em 17/11/2026:** na Lei nº 11.575/2014 (`fixtures/leis-ordinarias/`), `extrairTextoNorma` (pdfjs) lê "Excetuam-se" onde o `pdftotext` dá "Ex cetuam-se". Próximo passo: comparar os dois leitores em ~30 PDFs dessa época e, se o pdfjs ganhar, usá-lo como leitor desses anos (ou quando houver muitas "palavras" de 1–2 letras) |
 | `sem_fecho` | fecho fora dos 3 padrões conhecidos (ver CLAUDE.md) | motor, com exemplo real; a regex de fecho é estrita de propósito |
 | aviso `tem_anexo` / `dispositivo_muito_longo` | anexo ou tabela colados no último artigo | ver tarefa 4 |
 | documento inteiro repetido 2–3 vezes | arquivos do antigo SIREL e PDFs impressos dele | já tratado no HTML (`removerRepeticaoIntegral`); falta o mesmo para PDF (texto extraído que é k cópias idênticas) |
@@ -353,8 +353,11 @@ ementa, cláusula de vigência, cláusula de revogação. Molde: LC 958/2022,
 LC 761/2015, LC 514/2004.
 
 **O que falta (cada item com exemplo real antes de codificar):**
-1. Testar com uma **lei ordinária** real que tenha histórico completo (até
-   aqui só a LC 320). Escolher uma pelo `dados/historico/RELATORIO.md`.
+1. ~~Testar com uma lei ordinária real~~ — FEITO: `teste_leis_ordinarias.mjs`
+   (Leis nº 11.213/2012 e 11.229/2012). Falta só afinar a frase da ementa e da
+   introdução quando o dispositivo novo fica dentro de parágrafo: hoje sai
+   "inclui inc. V do § 2º no art. 1º"; a Lei nº 13.967/2024 escreve "inclui
+   inc. IV no § 2º … do art. 1º". As duas formas são lidas pelo motor.
 2. Revogação de vários dispositivos na mesma cláusula: hoje sai "Ficam
    revogados os art. 6º e § 4º do art. 8º" — conferir a forma usada em leis
    reais (buscar no catálogo ementas com "revoga os arts.") e ajustar o plural.

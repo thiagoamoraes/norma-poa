@@ -1323,3 +1323,19 @@ Nenhuma mudança no `norma-core.js`.
   arquivo gerado (houve commit durante a coleta). A gravação passa a resolver
   esse conflito a favor do que a coleta produziu, com três tentativas.
 - Testes: `teste_textos_sapl.mjs` 24 → 33.
+
+## Rodada 19, complemento — leis ordinárias de ponta a ponta
+
+- **Motor (`norma-core.js`, espelhado):** o fecho aceita "PREFEITURA MUNIC IPAL
+  DE PORTO ALEGRE", grafia com que ele vem nos PDFs do Diário Oficial de 2012
+  a 2015 (Lei nº 11.229/2012, Lei nº 11.575/2014, LC 761/2015). Sem isso o
+  fecho e as assinaturas grudavam no último artigo. Bateria igual;
+  `normateste.mjs` idêntico byte a byte.
+- **`teste_leis_ordinarias.mjs` (20):** Lei nº 11.213/2012 com 4 alteradoras e
+  Lei nº 11.229/2012 com 3 (9 arquivos reais em `fixtures/leis-ordinarias/`):
+  as 9 são aceitas pela verificação, os dois históricos saem completos e
+  conferem com as ementas das alteradoras, e a minuta passa na ida e volta
+  (inciso dentro de parágrafo único; artigo novo depois de artigo com letra).
+- Observado e NÃO tratado: o `pdftotext` parte palavras em alguns PDFs de 2014
+  ("Ex cetuam-se"); o leitor por pdfjs (`extrairTextoNorma`) lê certo nesse
+  arquivo. Ver ROTEIRO.md, tarefa 1.
