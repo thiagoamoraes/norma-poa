@@ -32,8 +32,8 @@ export function prazoEsgotado() {
   return proxima + 30_000 > PRAZO_MS;
 }
 
-async function esperarVez() {
-  const falta = ultimaRequisicao + INTERVALO_MS - Date.now();
+async function esperarVez(rapido = false) {
+  const falta = ultimaRequisicao + (rapido ? 20 : INTERVALO_MS) - Date.now();
   if (falta > 0) await aguardar(falta);
   ultimaRequisicao = Date.now();
 }
@@ -43,21 +43,40 @@ export class ErroDefinitivo extends Error {
   constructor(status, url) { super(`HTTP ${status} em ${url}`); this.status = status; }
 }
 
+/** Falha que persistiu nas 3 tentativas (rede, servidor): pode passar depois; quem chama decide se segue. */
+export class ErroTemporario extends Error {
+  constructor(url, causa) { super(`desisti de ${url}: ${causa}`); this.url = url; this.causa = causa; }
+}
+
+/** "fetch failed (ECONNRESET: read ECONNRESET)": o undici esconde a causa real em `e.cause`. */
+export function descreverErro(e) {
+  const c = e && e.cause;
+  return `${e && e.message}${c ? ` (${c.code || c.name}: ${c.message})` : ''}`;
+}
+
 /**
  * GET educado. `tipo`: 'json' → objeto; 'binario' → { bytes: Buffer, contentType }.
- * Lança ErroDefinitivo em 4xx (exceto 408/429) e Error comum quando desiste.
+ * Lança ErroDefinitivo em 4xx (exceto 408/429) e ErroTemporario quando desiste.
+ *
+ * Tentativas: 3, com espera de 1 e de 5 minutos entre elas (até 17/11/2026 eram
+ * 3 e 10: em 4 de 5 casos reais a 2ª tentativa já passava e cada arquivo ruim
+ * custava 13 minutos da noite). Cada tentativa tem prazo próprio — sem ele um
+ * servidor que não responde segura a rotina inteira.
  */
 export async function requisitar(url, tipo) {
-  const esperas = [0, 180_000, 600_000];
+  // Só para teste_rede_local.mjs: com TESTE_RAPIDO=1 E endereço local, os tempos
+  // encolhem. Para qualquer servidor de verdade a etiqueta de 1 por minuto vale sempre.
+  const rapido = process.env.TESTE_RAPIDO === '1' && /^(127\.0\.0\.1|localhost)$/.test(new URL(url).hostname);
+  const esperas = rapido ? [0, 30, 60] : [0, 60_000, 300_000];
   let ultimoErro;
   for (const espera of esperas) {
     if (espera) {
       console.log(`  ${agora()} aguardando ${espera / 1000}s antes de tentar de novo…`);
       await aguardar(espera);
     }
-    await esperarVez();
+    await esperarVez(rapido);
     try {
-      const resp = await fetch(url, { headers: { 'User-Agent': USER_AGENT }, redirect: 'follow' });
+      const resp = await fetch(url, { headers: { 'User-Agent': USER_AGENT }, redirect: 'follow', signal: AbortSignal.timeout(rapido ? 400 : tipo === 'json' ? 60_000 : 180_000) });
       if (resp.status >= 400 && resp.status < 500 && resp.status !== 408 && resp.status !== 429) {
         throw new ErroDefinitivo(resp.status, url);
       }
@@ -67,10 +86,10 @@ export async function requisitar(url, tipo) {
     } catch (e) {
       if (e instanceof ErroDefinitivo) throw e;
       ultimoErro = e;
-      console.log(`  ${agora()} falha em ${url}: ${e.message}`);
+      console.log(`  ${agora()} falha em ${url}: ${descreverErro(e)}`);
     }
   }
-  throw new Error(`desisti de ${url}: ${ultimoErro.message}`);
+  throw new ErroTemporario(url, descreverErro(ultimoErro));
 }
 
 /** Lê um JSONL inteiro (arquivo ausente → []). */

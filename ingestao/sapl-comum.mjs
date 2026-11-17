@@ -135,15 +135,18 @@ export function normalizarVinculoSapl(v) {
  * Fila de download: normas do catálogo que têm URL de texto e ainda não foram
  * resolvidas. Ordem: Lei Orgânica, emendas, LCs, leis; dentro do tipo, da mais
  * recente para a mais antiga. `resolvidos`: Set de idSapl já baixados (ou com
- * erro definitivo).
+ * erro definitivo). `falhasPorId`: Map idSapl → nº de noites em que o download
+ * falhou (quem já falhou passa para o fim da fila).
  */
-export function filaDeDownload(registros, resolvidos) {
+export function filaDeDownload(registros, resolvidos, falhasPorId = new Map()) {
   const ORDEM = { 1: 0, 2: 1, 6: 2, 5: 3 };
   const ultimo = new Map();
   for (const r of registros) ultimo.set(r.idSapl, r);
   return [...ultimo.values()]
     .filter((r) => r.texto && r.texto.url && !resolvidos.has(r.idSapl))
-    .sort((a, b) => (ORDEM[a.tipoSapl] ?? 9) - (ORDEM[b.tipoSapl] ?? 9) || String(b.data).localeCompare(String(a.data)) || b.idSapl - a.idSapl);
+    // quem já falhou fica para o FIM da fila (e o que falhou mais vezes, mais ao fim):
+    // um arquivo que a fonte não entrega não pode ser o primeiro da fila toda noite
+    .sort((a, b) => (falhasPorId.get(a.idSapl) || 0) - (falhasPorId.get(b.idSapl) || 0) || (ORDEM[a.tipoSapl] ?? 9) - (ORDEM[b.tipoSapl] ?? 9) || String(b.data).localeCompare(String(a.data)) || b.idSapl - a.idSapl);
 }
 
 // ─── Conferência DOPA × catálogo ──────────────────────────────────────────────

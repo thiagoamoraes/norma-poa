@@ -56,6 +56,15 @@ ok('contarAlfanumericos ignora pontuação e espaço ("º" conta como letra)', c
   ok('prepararTextoExtraido: quebra de página vira quebra de linha e a hifenização é desfeita', prepararTextoExtraido('cultu-\frais').trim() === 'culturais');
 }
 
+// --- fila de download: quem falhou vai para o fim ---------------------------
+{
+  const reg = (id, tipoSapl, data, url = 'https://x.example/a.pdf') => ({ idSapl: id, tipoSapl, data, texto: { url } });
+  const regs = [reg(1, 5, '2026-03-01'), reg(2, 5, '2026-02-01'), reg(3, 6, '2025-01-01'), reg(4, 5, '2026-04-01')];
+  ok('(sintético) sem falhas: LC primeiro, depois leis da mais recente para a mais antiga', filaDeDownload(regs, new Set()).map((r) => r.idSapl).join() === '3,4,1,2');
+  ok('(sintético) a LC que falhou vai para o fim da fila; as leis seguem na ordem de sempre', filaDeDownload(regs, new Set(), new Map([[3, 1]])).map((r) => r.idSapl).join() === '4,1,2,3');
+  ok('(sintético) quem falhou mais vezes fica depois de quem falhou menos', filaDeDownload(regs, new Set(), new Map([[3, 2], [4, 1]])).map((r) => r.idSapl).join() === '1,2,4,3');
+}
+
 // --- extensaoDaUrl -------------------------------------------------------
 ok('extensaoDaUrl: PDF com %20 no nome', extensaoDaUrl('https://legislacao.portoalegre.rs.gov.br/media/sapl/public/normajuridica/sirel/LC%20135.pdf') === 'pdf');
 ok('extensaoDaUrl: maiúscula vira minúscula', extensaoDaUrl('https://x.example/a/B.PDF') === 'pdf');

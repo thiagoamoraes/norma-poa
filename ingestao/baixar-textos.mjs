@@ -20,7 +20,11 @@ import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { filaDeDownload } from './sapl-comum.mjs';
-import { requisitar, prazoEsgotado, lerJsonl, agora, ErroDefinitivo } from './sapl-io.mjs';
+import { requisitar, prazoEsgotado, lerJsonl, agora, ErroDefinitivo, ErroTemporario } from './sapl-io.mjs';
+
+// Falhas de rede/servidor seguidas, em arquivos DIFERENTES, que indicam a fonte fora do ar:
+// aí sim a etapa para (e a rotina fica vermelha). Falha isolada só adia o arquivo.
+const LIMITE_DE_FALHAS_SEGUIDAS = 5;
 import { ocrDisponivel, ocrDoPdf, pdfDigitalizado } from './ocr.mjs';
 import { htmlSirelParaTexto, docxParaTexto, removerRepeticaoDeTexto, contarAlfanumericos, extensaoDaUrl, MINIMO_ALFANUMERICOS } from './extracao-texto.mjs';
 
@@ -80,11 +84,16 @@ async function main() {
   for (const f of (await readdir(DIR_CATALOGO)).filter((f) => /^tipo-\d+\.jsonl$/.test(f))) {
     catalogo.push(...(await lerJsonl(path.join(DIR_CATALOGO, f))));
   }
-  const resolvidos = new Set((await lerJsonl(ARQ_INDICE)).filter((l) => l.situacao === 'baixado' || l.situacao === 'erro_definitivo').map((l) => l.idSapl));
-  const fila = filaDeDownload(catalogo, resolvidos);
+  const indice = await lerJsonl(ARQ_INDICE);
+  const resolvidos = new Set(indice.filter((l) => l.situacao === 'baixado' || l.situacao === 'erro_definitivo').map((l) => l.idSapl));
+  const falhasPorId = new Map();
+  for (const l of indice) if (l.situacao === 'falha_temporaria') falhasPorId.set(l.idSapl, (falhasPorId.get(l.idSapl) || 0) + 1);
+  const fila = filaDeDownload(catalogo, resolvidos, falhasPorId);
   console.log(`${agora()} fila: ${fila.length} arquivo(s) a baixar; ${resolvidos.size} já resolvido(s). OCR ${TEM_OCR ? 'disponível' : 'NÃO instalado (PDF digitalizado ficará sem texto)'}.`);
 
   let feitos = 0;
+  let falhasSeguidas = 0;
+  let fonteForaDoAr = false;
   for (const r of fila) {
     if (feitos >= maxArquivos) { console.log(`${agora()} limite de ${maxArquivos} arquivos atingido.`); break; }
     if (prazoEsgotado()) { console.log(`${agora()} prazo esgotado.`); break; }
@@ -104,13 +113,23 @@ async function main() {
       }) + '\n');
       console.log(`${agora()} ${r.rotulo} → ${ext}, ${bytes.length} bytes, extração: ${ex.situacao}`);
     } catch (e) {
-      if (!(e instanceof ErroDefinitivo)) throw e; // servidor/rede: para tudo, estado já salvo
+      if (e instanceof ErroTemporario) {
+        // rede/servidor: registra, adia o arquivo (vai para o fim da fila) e segue com o próximo
+        await appendFile(ARQ_INDICE, JSON.stringify({ ...base, em: agora(), situacao: 'falha_temporaria', erro: e.causa.slice(0, 200) }) + '\n');
+        console.log(`${agora()} ${r.rotulo} → falha temporária (adiado): ${e.causa}`);
+        if (++falhasSeguidas >= LIMITE_DE_FALHAS_SEGUIDAS) { fonteForaDoAr = true; feitos++; console.log(`${agora()} ${falhasSeguidas} falhas seguidas em arquivos diferentes: a fonte parece fora do ar. Parando a etapa.`); break; }
+        feitos++;
+        continue;
+      }
+      if (!(e instanceof ErroDefinitivo)) throw e; // erro de programa: para tudo, estado já salvo
       await appendFile(ARQ_INDICE, JSON.stringify({ ...base, em: agora(), situacao: 'erro_definitivo', httpStatus: e.status }) + '\n');
       console.log(`${agora()} ${r.rotulo} → ERRO DEFINITIVO HTTP ${e.status}`);
     }
+    falhasSeguidas = 0;
     feitos++;
   }
-  console.log(`${agora()} baixados nesta execução: ${feitos}; restam na fila: ${fila.length - feitos}.`);
+  console.log(`${agora()} arquivos tratados nesta execução: ${feitos}; restam na fila: ${fila.length - feitos}.`);
+  if (fonteForaDoAr) process.exit(1);
 }
 
 main().catch((e) => {

@@ -1362,3 +1362,24 @@ Nenhuma mudança no `norma-core.js`.
   `EM_ANDAMENTO.md` para trabalho interrompido) e 10-B (regime permanente:
   definição de "em dia", rotina semanal/mensal/trimestral, cuidados).
 - Testes: `teste_situacao.mjs` (16).
+
+## Rodada 20, complemento — a primeira execução agendada falhou (17/11/2026)
+
+A execução nº 5 (agendada) disparou às 13:23 UTC, 9 horas depois do horário
+(04:17), e terminou vermelha depois de 3h59. Os dados foram gravados; o que
+falhou foi a etapa de textos: depois de 3 tentativas no arquivo `lc_1061.pdf`
+(`fetch failed`), `baixar-textos.mjs` abortava a etapa inteira, e antes disso
+cada arquivo ruim gastava 13 minutos em esperas (4 de 5 casos reais passaram
+na 2ª tentativa). Em 4 horas só 80 arquivos foram baixados.
+
+- `sapl-io.mjs`: o log passa a mostrar a causa real do erro (o undici esconde
+  em `cause`); cada tentativa tem prazo; esperas de 1 e 5 minutos (eram 3 e 10);
+  falha persistente vira `ErroTemporario`.
+- `baixar-textos.mjs`: `ErroTemporario` registra `falha_temporaria` no índice e
+  segue com o próximo arquivo; só 5 falhas seguidas em arquivos diferentes
+  param a etapa (fonte fora do ar).
+- `filaDeDownload`: quem já falhou vai para o fim da fila.
+- Painel de situação: mostra os adiados; 10 ou mais viram alerta.
+- Testes: `teste_rede_local.mjs` (8, servidor local que derruba conexão,
+  devolve 404/500 ou não responde), `teste_textos_sapl.mjs` 33 → 36,
+  `teste_situacao.mjs` 16 → 18.

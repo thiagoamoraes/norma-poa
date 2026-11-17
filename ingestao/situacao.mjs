@@ -73,6 +73,8 @@ export function avaliarSituacao(e) {
   }
   if (execs.length >= 2 && execs.slice(-2).every((x) => x.falhas > 0)) alertas.push('As duas últimas execuções terminaram com erro. Leia o log da etapa que falhou (a rotina registra em `dados/_execucoes.jsonl` qual foi).');
   if (fila > 0 && execs.length >= 3 && baixados7 === 0) alertas.push('A fila de textos não diminuiu nos últimos 7 dias, embora haja execuções. Suspeite de bloqueio da fonte ou de erro repetido na etapa de textos.');
+  const falhasTemp = e.textos?.porSituacao?.falha_temporaria || 0;
+  if (falhasTemp >= 10) alertas.push(`${falhasTemp} arquivo(s) com falha temporária de download (a fonte pode estar instável): ficam para o fim da fila e são tentados de novo nas próximas noites.`);
   if (e.tamanhoMB > LIMITE_MB_AVISO) alertas.push(`Os dados já ocupam ${Math.round(e.tamanhoMB)} MB (aviso a partir de ${LIMITE_MB_AVISO} MB). Ver ROTEIRO.md, seção 10, "Tamanho do repositório".`);
   if (atras > 0) alertas.push(`${atras} norma(s) publicada(s) no Diário Oficial há mais de 7 dias ainda não aparecem no catálogo da fonte — ver dados/dopa/CONFERENCIA.md.`);
 
@@ -83,6 +85,7 @@ export function avaliarSituacao(e) {
   if (e.historico && (e.historico.incompletas > 0 || e.historico.erro > 0)) proximas.push(`${e.historico.incompletas} histórico(s) incompleto(s) e ${e.historico.erro} com erro: ROTEIRO.md, tarefa 4.`);
   const adiados = e.textos?.porSituacao?.ocr_adiado_arquivo_grande || 0;
   if (adiados > 0) proximas.push(`${adiados} arquivo(s) digitalizado(s) grande(s) esperam um passe de OCR próprio: ROTEIRO.md, tarefa 3 (parte que falta).`);
+  if (falhasTemp > 0) proximas.push(`${falhasTemp} arquivo(s) tiveram o download adiado por falha da fonte (\`falha_temporaria\` em \`dados/textos/sapl/_indice.jsonl\`); são tentados de novo sozinhos. Só é preciso agir se o número crescer noite após noite.`);
   const semExtracao = (e.textos?.porSituacao?.formato_sem_extracao || 0) + (e.textos?.porSituacao?.falha_na_extracao || 0);
   if (semExtracao > 0) proximas.push(`${semExtracao} arquivo(s) baixado(s) sem extração de texto (formato não suportado ou falha): conferir \`dados/textos/sapl/_indice.jsonl\`.`);
   if (alertas.length) proximas.unshift('Resolver os alertas acima antes de qualquer outra coisa.');

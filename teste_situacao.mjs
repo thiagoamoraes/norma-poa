@@ -75,6 +75,14 @@ const emDia = () => ({ ...emCarga(), catalogo: { 1: { concluido: true }, 2: { co
   ok('o painel em texto traz estado, o que fazer, critérios, números e a tabela das últimas execuções', /\*\*Estado: EM CARGA\*\*/.test(md) && /## O que fazer agora/.test(md) && /\| ✗ \| Catálogo completo/.test(md) && /Estruturação: 200 aceita\(s\), 100 em revisão \(66\.7% de aceitação\)/.test(md) && /## Últimas execuções da rotina/.test(md));
 }
 
+{
+  const e = emCarga(); e.textos.porSituacao = { ok: 100, falha_temporaria: 3 };
+  const r3 = avaliarSituacao(e);
+  ok('falha temporária de download: poucas viram só uma linha de "o que fazer" (sem alerta)', r3.alertas.length === 0 && r3.proximas.some((p) => /3 arquivo\(s\) tiveram o download adiado/.test(p)));
+  e.textos.porSituacao = { ok: 100, falha_temporaria: 12 };
+  ok('12 ou mais viram alerta (a fonte pode estar instável)', avaliarSituacao(e).alertas.some((a) => /12 arquivo\(s\) com falha temporária/.test(a)));
+}
+
 console.log('='.repeat(70));
 console.log(`RESULTADO: ${passou} passaram, ${falhou} falharam`);
 process.exit(falhou ? 1 : 0);

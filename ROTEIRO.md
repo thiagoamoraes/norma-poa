@@ -36,11 +36,11 @@ node normateste.mjs > /tmp/antes.txt          # só imprime: comparar byte a byt
 for t in teste_regressao teste_vetado_provenencia teste_pecas_2_3 teste_lei_publicada \
          teste_peca4 teste_urn teste_gruposAntes teste_promulgacao_parcial teste_pdf_normas \
          teste_catalogo_sapl teste_textos_sapl teste_estrutura teste_versionamento \
-         teste_historico teste_minuta teste_leis_ordinarias teste_situacao; do node $t.mjs | tail -1; done; bash teste_parar_em.sh | tail -1
+         teste_historico teste_minuta teste_leis_ordinarias teste_situacao teste_rede_local; do node $t.mjs | tail -1; done; bash teste_parar_em.sh | tail -1
 ```
 
 Contagens de referência em 17/11/2026: 47 · 13 · 30 · 11 · 29 · 7 · 16 · 72 ·
-24 · 26 · 33 · 28 · 34 · 24 · 33 · 20 · 16, todas sem falha; mais `teste_ocr.mjs` (7; pula se não houver tesseract). (`teste_pdf_normas` precisa
+24 · 26 · 36 · 28 · 34 · 24 · 33 · 20 · 18 · 8 (`teste_rede_local`), todas sem falha; mais `teste_ocr.mjs` (7; pula se não houver tesseract). (`teste_pdf_normas` precisa
 de `npm ci`.)
 
 ### 0.3 Regras que mais custam caro quando esquecidas
@@ -400,6 +400,8 @@ dois com um exemplo de lei real, nunca forçando o resultado.
 
 - **Commit durante a coleta:** evite enviar commits entre 01:17 e ~07:00 (hora de Porto Alegre). Se acontecer, a rotina resolve o conflito a favor do que ela coletou (arquivos gerados se refazem na noite seguinte); mas um conflito em arquivo de CÓDIGO não é resolvido assim — confira o Actions na manhã seguinte.
 - **Horário da coleta:** o mantenedor quer coletas só de madrugada em Brasília; o agendamento (04:17 UTC = 01:17, 320 minutos) termina antes das 07:00. Disparo manual no expediente só a pedido dele. Para parar mais cedo num dia específico: entrada `parar_em_utc` do disparo manual (`10:00` = 07:00 de Brasília), que vale só para aquela execução (`ingestao/parar-em.sh`, `bash teste_parar_em.sh`).
+- **Falha de download isolada não derruba a rotina** (desde 17/11/2026): o arquivo vira `falha_temporaria` no índice, vai para o fim da fila e é tentado de novo nas noites seguintes. A etapa só para, e a execução fica vermelha, depois de 5 falhas SEGUIDAS em arquivos diferentes (fonte fora do ar). Cada tentativa tem prazo (3 min para arquivo, 1 para JSON); espera entre tentativas: 1 e 5 minutos.
+- **O agendamento do GitHub atrasa muito** (visto em 17/11/2026: disparou às 13:23 UTC em vez de 04:17, ou seja, no meio do expediente em Brasília). A rotina não percebe o atraso sozinha para execução agendada: ver a decisão pendente sobre limitar a execução agendada à madrugada.
 - **Execução vermelha no Actions:** abrir o log da etapa "Rotina de coleta".
   A rotina grava o que coletou mesmo com erro. Erro de rede passageiro: nada a
   fazer, a noite seguinte retoma. Erro repetido na mesma página/arquivo:
