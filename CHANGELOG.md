@@ -1172,3 +1172,20 @@ idêntico byte a byte. O teste novo falha contra o motor anterior (conferido).
 
 - Renumeração e reaproveitamento de posição vetada (LC 514/2004).
 - Forma de exibir o dispositivo revogado e o tratamento dos subordinados.
+
+# Rodada 15 — Histórico por dispositivo, piloto com a LC 320 (17/11/2026)
+
+Nenhuma mudança no `norma-core.js`.
+
+- **`ingestao/historico.mjs`** (puro): aplica as alteradoras em ordem de data
+  (identidade vinda do catálogo) e devolve as versões e, por dispositivo, a
+  linha do tempo de redações com a origem de cada uma. Alteradora não aplicada
+  por inteiro é declarada (`naoAplicadas`) e os dispositivos que ela cita ficam
+  em `aConferir`, com a data a partir da qual há dúvida. Repetição do documento
+  dentro do arquivo (LC 692) não conta como pendência.
+- **`gerar-historico.mjs`** + `dados/historico/_piloto.json`: roda na rotina.
+- **Página:** seletor de versão, anotações "Redação dada pela / Incluído pela /
+  Revogado pela", destaque do que a versão mudou, redações anteriores, selo
+  "não conferido" e aviso de histórico incompleto com link para as alteradoras.
+- **Rotina:** vínculos passam de 5 para 60 páginas por noite (cinco noites).
+- **Teste:** `teste_historico.mjs` (13), com os mesmos textos reais.

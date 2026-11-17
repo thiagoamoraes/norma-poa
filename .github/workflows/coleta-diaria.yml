@@ -52,7 +52,7 @@ jobs:
       - name: Dependências (pdfjs-dist, usado na leitura dos cadernos do DOPA)
         run: npm ci --no-audit --no-fund
       - name: Testes da ingestão (sem rede)
-        run: node teste_catalogo_sapl.mjs && node teste_textos_sapl.mjs && node teste_estrutura.mjs && node teste_versionamento.mjs
+        run: node teste_catalogo_sapl.mjs && node teste_textos_sapl.mjs && node teste_estrutura.mjs && node teste_versionamento.mjs && node teste_historico.mjs
       - name: Rotina de coleta
         id: rotina
         run: |

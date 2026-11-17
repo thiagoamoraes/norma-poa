@@ -53,6 +53,15 @@
   .disp.n1 { margin-left: 1.5em; } .disp.n2 { margin-left: 3em; } .disp.n3 { margin-left: 4.5em; } .disp.n4 { margin-left: 6em; }
   .disp.vet .t, .disp.rev .t { color: var(--suave); }
   .bloco { white-space: pre-wrap; margin: 6px 0 6px 1.5em; padding: 8px 12px; border-left: 3px solid var(--linha); color: var(--suave); font-size: .95em; }
+  .nota { font: .78em/1.3 system-ui, sans-serif; color: var(--suave); }
+  .disp.mudou { background: var(--ok-fraca); box-shadow: inset 3px 0 0 var(--ok); }
+  .disp.antiga { opacity: .75; font-size: .92em; border-left: 2px dotted var(--linha); padding-left: 10px; }
+  .disp.antiga .t { text-decoration: line-through; text-decoration-color: var(--suave); }
+  .controles { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; margin: 0 0 14px; font-size: .9rem; }
+  .controles label { max-width: 100%; min-width: 0; }
+  .controles select { width: auto; max-width: 100%; min-width: 0; padding: 6px 8px; text-overflow: ellipsis; }
+  .controles label.caixa { grid-column: auto; }
+  .estado ul { margin: 6px 0 0; padding-left: 20px; }
   .fecho { white-space: pre-line; margin-top: 18px; color: var(--suave); font-size: .92em; }
   .vazio { color: var(--suave); }
   #copiado { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); background: var(--tinta); color: var(--fundo); padding: 8px 14px; border-radius: 6px; font-size: .9rem; opacity: 0; transition: opacity .2s; pointer-events: none; }
@@ -73,7 +82,7 @@
       <div class="filtros">
         <select id="tipo" aria-label="Tipo de norma"><option value="">Todos os tipos</option></select>
         <select id="decada" aria-label="Década"><option value="">Todas as décadas</option></select>
-        <label class="caixa"><input id="so-estr" type="checkbox"> Só normas com texto estruturado</label>
+        <label class="caixa"><input id="so-estr" type="checkbox"> Só normas com texto estruturado ou histórico</label>
       </div>
     </div>
     <div id="contagem" aria-live="polite">Carregando o catálogo…</div>
@@ -150,6 +159,7 @@ function pontuar(consulta) {
 
 const rotulo = (n) => `${TIPOS[n[1]] || 'Norma'} nº ${milhar(n[2])}, de ${dataBr(n[3])}`;
 function selo(n) {
+  if (n[9]) return '<span class="selo ok">com histórico de alterações</span>';
   if (n[6] === 1) return '<span class="selo ok">texto estruturado</span>';
   if (n[6] === 2) return '<span class="selo al">estruturado, a revisar</span>';
   if (n[5] === 2) return '<span class="selo">texto baixado</span>';
@@ -171,7 +181,7 @@ function filtrar() {
     const n = NORMAS[i];
     if (tipo && String(n[1]) !== tipo) continue;
     if (dec && !(n[3] || '').startsWith(dec.slice(0, 3))) continue;
-    if (soE && !n[6]) continue;
+    if (soE && !n[6] && !n[9]) continue;
     if (numero !== null) {
       if (n[2] !== numero) continue;
       if (tipoQ && n[1] !== tipoQ) continue;
@@ -201,11 +211,54 @@ function maisResultados() {
 
 // Onde estão os JSON estruturados: ao lado (servidor local na raiz do repositório)
 // ou no repositório público (quando a página é servida pelo GitHub Pages).
-function urlsEstruturado(id) {
-  const rel = `../dados/estruturado/sapl/${id}.json`;
+function urlDeDados(pasta, id) {
   const m = /^([^.]+)\.github\.io$/.exec(location.hostname);
   const repo = location.pathname.split('/').filter(Boolean)[0];
-  return m && repo ? [`https://raw.githubusercontent.com/${m[1]}/${repo}/main/dados/estruturado/sapl/${id}.json`] : [rel];
+  return m && repo ? `https://raw.githubusercontent.com/${m[1]}/${repo}/main/dados/${pasta}/sapl/${id}.json` : `../dados/${pasta}/sapl/${id}.json`;
+}
+async function buscarDados(pasta, id) { try { const r = await fetch(urlDeDados(pasta, id)); return r.ok ? await r.json() : null; } catch (_) { return null; } }
+
+// ── Histórico: a lei em cada momento ─────────────────────────────────────────
+const ANOTA = { replace_text: 'Redação dada pela', insert_node: 'Incluído pela', revoke_node: 'Revogado pela' };
+const MOTIVO = {
+  comando_nao_reconhecido: 'o texto desta norma não foi entendido pela leitura automática',
+  comando_recusado: 'o endereço do dispositivo alterado não foi reconhecido no arquivo da fonte',
+  aplicada_em_parte: 'só parte das alterações foi aplicada',
+  texto_indisponivel: 'o texto desta norma ainda não foi obtido',
+};
+let HIST = null;
+function desenharHistorico() {
+  const h = HIST, k = Number($('versao').value), marcar = $('marcar').checked, antigas = $('antigas').checked;
+  const dataVersao = h.versoes[k].data, ultima = k === h.versoes.length - 1;
+  const conferir = new Set(h.aConferir.filter((x) => ultima || dataVersao >= x.desde).map((x) => x.id));
+  const partes = ['<div class="texto">'];
+  for (const d of h.dispositivos) {
+    let atual = null; const anteriores = [];
+    for (const e of d.estados) { if (e.desde <= k) { if (atual) anteriores.push(atual); atual = e; } }
+    if (!atual) continue; // ainda não existia nesta versão
+    for (const g of d.agrupadores || []) partes.push(`<div class="grupo">${esc(GRUPO[g.tipo] || g.tipo)} ${esc(g.numero)}${g.titulo ? '<br>' + esc(g.titulo) : ''}</div>`);
+    const nota = atual.origem.lei ? ` <span class="nota">(${ANOTA[atual.origem.operacao] || 'Alterado pela'} ${esc(atual.origem.lei)})</span>` : '';
+    const mudou = marcar && k > 0 && atual.desde === k;
+    const duvida = conferir.has(d.id) ? ' <span class="selo al" title="Uma alteradora que cita este dispositivo não foi aplicada por inteiro">não conferido</span>' : '';
+    partes.push(`<div class="disp n${NIVEL(d.id)}${atual.situacao !== 'vigente' ? ' rev' : ''}${mudou ? ' mudou' : ''}" id="d-${esc(d.id)}"><span class="r" data-ref="${esc(d.id)}" title="Copiar a referência a este dispositivo">${esc(d.rotulo || '')}</span><span class="t">${esc(atual.texto)}</span>${nota}${duvida}</div>`);
+    if (antigas) for (const a of anteriores.reverse()) partes.push(`<div class="disp antiga n${NIVEL(d.id)}"><span class="t">${esc(a.texto)}</span> <span class="nota">(${a.origem.lei ? (ANOTA[a.origem.operacao] || 'Alterado pela') + ' ' + esc(a.origem.lei) : 'texto original'})</span></div>`);
+  }
+  partes.push('</div>');
+  $('hist-corpo').innerHTML = partes.join('');
+}
+function montarHistorico(h, n) {
+  HIST = h;
+  const ult = h.versoes.length - 1;
+  const opcoes = h.versoes.map((v) => `<option value="${v.indice}"${v.indice === ult ? ' selected' : ''}>${dataBr(v.data)} — ${v.fonte ? 'após a ' + esc(v.fonte.rotulo.replace(/ municipal/, '').replace(/, de .*/, '')) : 'texto original'}${v.indice === ult ? ' (texto vigente apurado)' : ''}</option>`).join('');
+  const pend = h.naoAplicadas.length
+    ? `<div class="estado al"><strong>Histórico incompleto.</strong> ${h.naoAplicadas.length === 1 ? 'Uma norma alteradora não foi aplicada' : h.naoAplicadas.length + ' normas alteradoras não foram aplicadas'} por inteiro; os dispositivos afetados aparecem marcados como "não conferido":<ul>${h.naoAplicadas.map((x) => `<li><a href="${FONTE}${x.alteradora.idSapl}" target="_blank" rel="noopener">${esc(x.alteradora.rotulo)}</a> — ${esc(MOTIVO[x.motivo] || x.motivo)}.</li>`).join('')}</ul></div>`
+    : '<div class="estado ok">Todas as normas alteradoras conhecidas foram aplicadas. Apuração automática: confira na fonte.</div>';
+  const corpo = $('corpo');
+  corpo.innerHTML = `${pend}<div class="controles"><label>Versão <select id="versao">${opcoes}</select></label><label class="caixa"><input type="checkbox" id="marcar" checked> Destacar o que esta versão mudou</label><label class="caixa"><input type="checkbox" id="antigas"> Mostrar redações anteriores</label></div><div id="hist-corpo"></div>`;
+  corpo.dataset.norma = rotulo(n);
+  corpo._disp = h.dispositivos;
+  for (const id of ['versao', 'marcar', 'antigas']) $(id).addEventListener('change', desenharHistorico);
+  desenharHistorico();
 }
 
 const GRUPO = { parte: 'Parte', livro: 'Livro', titulo: 'Título', capitulo: 'Capítulo', secao: 'Seção', subsecao: 'Subseção' };
@@ -222,11 +275,15 @@ async function abrir(id, rolar) {
   if (location.hash !== `#n=${id}`) history.replaceState(null, '', `#n=${id}`);
   const d = $('detalhe');
   const links = `<div class="links"><a href="${FONTE}${id}" target="_blank" rel="noopener">Página da norma na fonte</a>${n[7] ? `<a href="${esc(n[7])}" target="_blank" rel="noopener">Arquivo original</a>` : ''}</div>`;
-  d.innerHTML = `<h2>${esc(rotulo(n))}</h2><p class="ementa">${esc(n[4])}</p>${links}<div id="corpo"><p class="vazio">${n[6] ? 'Carregando o texto estruturado…' : n[5] ? 'O texto desta norma ainda não foi estruturado. Use os links acima para lê-lo na fonte.' : 'A fonte pública só traz a ementa desta norma; o texto não está disponível.'}</p></div>`;
+  d.innerHTML = `<h2>${esc(rotulo(n))}</h2><p class="ementa">${esc(n[4])}</p>${links}<div id="corpo"><p class="vazio">${n[6] || n[9] ? 'Carregando o texto…' : n[5] ? 'O texto desta norma ainda não foi estruturado. Use os links acima para lê-lo na fonte.' : 'A fonte pública só traz a ementa desta norma; o texto não está disponível.'}</p></div>`;
   if (rolar && window.matchMedia('(max-width: 979px)').matches) d.scrollIntoView({ behavior: 'smooth' });
-  if (!n[6]) return;
-  let e = null;
-  for (const u of urlsEstruturado(id)) { try { const r = await fetch(u); if (r.ok) { e = await r.json(); break; } } catch (_) {} }
+  if (n[9]) {
+    const h = await buscarDados('historico', id);
+    if (atual !== id) return;
+    if (h) { montarHistorico(h, n); return; }
+  }
+  if (!n[6]) { if (n[9]) $('corpo').innerHTML = '<p class="vazio">Não foi possível carregar o histórico agora. Use os links acima.</p>'; return; }
+  const e = await buscarDados('estruturado', id);
   if (atual !== id) return;
   const corpo = $('corpo');
   if (!e) { corpo.innerHTML = '<p class="vazio">Não foi possível carregar o texto estruturado agora. Use os links acima.</p>'; return; }

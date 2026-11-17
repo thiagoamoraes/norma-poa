@@ -14,13 +14,13 @@
 # (isso é do workflow).
 #
 # Variáveis: MINUTOS (padrão 55) · ETAPAS (padrão "novidades dopa catalogo vinculos textos")
-#            MAX_ARQUIVOS (padrão: sem limite) · VINCULOS_POR_EXECUCAO (padrão 5)
+#            MAX_ARQUIVOS (padrão: sem limite) · VINCULOS_POR_EXECUCAO (padrão 60)
 set -u
 cd "$(dirname "$0")/.."
 
 MINUTOS="${MINUTOS:-55}"
 ETAPAS="${ETAPAS:-novidades dopa catalogo vinculos textos}"
-VINCULOS_POR_EXECUCAO="${VINCULOS_POR_EXECUCAO:-5}"
+VINCULOS_POR_EXECUCAO="${VINCULOS_POR_EXECUCAO:-60}"
 export PRAZO_EPOCH=$(( $(date +%s) + MINUTOS * 60 ))
 falhas=0
 primeira=1
@@ -52,6 +52,8 @@ echo "=== relatório"
 node ingestao/relatorio-cobertura.mjs || falhas=$((falhas + 1))
 echo "=== estruturação (sem rede)"
 node ingestao/estruturar.mjs || falhas=$((falhas + 1))
+echo "=== histórico das leis listadas em dados/historico/_piloto.json (sem rede)"
+node ingestao/gerar-historico.mjs || falhas=$((falhas + 1))
 echo "=== dados da página de consulta"
 node ingestao/gerar-site.mjs || falhas=$((falhas + 1))
 exit "$falhas"

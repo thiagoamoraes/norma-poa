@@ -65,6 +65,7 @@ Texto oficial é o do DOPA. As demais fontes são informativas.
 | 6 | Comandos e texto vigente | Comandos das alteradoras aplicados em ordem cronológica, uma versão por alteradora | Toda aresta "altera" do SAPL tem ≥ 1 comando e vice-versa; divergências viram lista de revisão | motor medido numa lei real (seção 4-B); falta rodar no acervo, o que depende dos vínculos e dos textos |
 | 7 | Captura automática diária | GitHub Actions agendado: SAPL como gatilho (1ª página de cada tipo do escopo, 4 requisições/dia) → baixa o arquivo → estrutura → commit. DOPA como conferência e como fonte dos atos internos da Câmara. Sem IA. | Norma nova aparece no repositório em até 1 dia; divergência SAPL × DOPA vira alerta | no ar (seção 4-A) |
 | 8 | Gabarito | ≈ 200 normas estratificadas por época e tipo, conferidas manualmente | Régua permanente de qualidade | a fazer |
+| 6-A | Histórico por lei | `dados/historico/sapl/<id>.json`: versões e linha do tempo de cada dispositivo; na página, seletor de versão, anotação de origem, destaque do que mudou, redações anteriores | Alteradora não aplicada por inteiro é declarada, e os dispositivos que ela cita aparecem como "não conferido" a partir da data dela | piloto no ar com a LC 320 (9 versões); em escala quando vínculos e textos chegarem |
 | 10-A | Página de consulta | `docs/` (GitHub Pages): busca por número e palavras da ementa, filtros, texto estruturado, cópia de referência a dispositivo | Abre no celular e no computador; aponta sempre para a fonte | no ar (busca textual) |
 | 10 | Busca semântica | Um registro por dispositivo vigente, com contexto (norma, ementa, agrupadores, caput); busca textual + vetorial; filtros por tipo, assunto e vigência | Conjunto de perguntas de teste com resposta esperada | a fazer |
 | 11 | Minuta de alteradora | Dado o dispositivo-alvo e a nova redação, gerar o artigo alterador na forma da LC 611/2009 (citação completa da lei, bloco entre aspas, "(NR)", sufixo de letra em inserção) | Reaplicar o comando gerado pelo próprio extrator reproduz a redação pedida | a fazer |
@@ -93,7 +94,7 @@ Uma única fila de requisições ao SAPL, 1 por minuto, nesta ordem:
 3. **Catálogo**: retoma a carga completa, se ainda não terminou. No dia 1º de
    cada mês marca nova carga completa (pega alteração de cadastro em norma
    antiga); ao concluir, o arquivo é regravado sem repetições.
-4. **Vínculos**: 5 páginas por execução, até completar (≈ 265 páginas).
+4. **Vínculos**: 60 páginas por execução, até completar (≈ 265 páginas).
 5. **Textos** (`baixar-textos.mjs`): com o tempo que sobrar, baixa arquivos na
    ordem Lei Orgânica → emendas → LCs → leis, da mais recente para a mais antiga.
 
