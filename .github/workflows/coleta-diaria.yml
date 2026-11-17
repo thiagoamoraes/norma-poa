@@ -25,6 +25,9 @@ on:
       max_arquivos:
         description: 'Limite de arquivos de texto (vazio = sem limite)'
         required: false
+      fora_da_janela:
+        description: 'Escreva sim para coletar FORA da madrugada de Brasília (só para teste do mantenedor)'
+        required: false
 
 permissions:
   contents: write
@@ -41,6 +44,7 @@ jobs:
       MINUTOS: ${{ inputs.minutos || vars.MINUTOS_POR_NOITE }}
       ETAPAS: ${{ inputs.etapas || 'novidades dopa catalogo vinculos textos' }}
       MAX_ARQUIVOS: ${{ inputs.max_arquivos }}
+      FORA_DA_JANELA: ${{ inputs.fora_da_janela }}
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
@@ -54,7 +58,7 @@ jobs:
       - name: Dependências (pdfjs-dist, usado na leitura dos cadernos do DOPA)
         run: npm ci --no-audit --no-fund
       - name: Testes da ingestão (sem rede)
-        run: node teste_catalogo_sapl.mjs && node teste_textos_sapl.mjs && node teste_estrutura.mjs && node teste_versionamento.mjs && node teste_historico.mjs && node teste_minuta.mjs && node teste_leis_ordinarias.mjs && node teste_ocr.mjs
+        run: bash teste_janela.sh && node teste_catalogo_sapl.mjs && node teste_textos_sapl.mjs && node teste_estrutura.mjs && node teste_versionamento.mjs && node teste_historico.mjs && node teste_minuta.mjs && node teste_leis_ordinarias.mjs && node teste_ocr.mjs
       - name: Rotina de coleta
         id: rotina
         run: |

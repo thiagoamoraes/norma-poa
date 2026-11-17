@@ -51,7 +51,7 @@ Texto oficial é o do DOPA. As demais fontes são informativas.
 - Requisições sequenciais, nunca em paralelo; `User-Agent` identificado.
 - SAPL: no mínimo 60 s entre requisições (o coletor recusa menos); 100 registros por página.
 - Em erro: até 2 novas tentativas espaçadas; persistindo, parar com estado salvo.
-- Blocos longos fora do horário de expediente.
+- **Só de madrugada em Brasília (00:00 a 07:00)**; nenhuma requisição depois das 06:50 (`ingestao/janela.sh`). Fora da janela a rotina não faz nada.
 - Nunca contornar proteção de acesso de nenhum site (desafio de navegador, captcha, login).
 
 ## 4. Fases
