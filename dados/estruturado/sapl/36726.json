@@ -1,0 +1,55 @@
+{
+ "idSapl": 36726,
+ "rotulo": "Emenda à Lei Orgânica nº 29, de 06 de maio de 2010",
+ "sha256Origem": "3e969effa61a1c162d74152aae13bfcadd824d86ec4ab59034b3b457f7abfd5f",
+ "estruturadoEm": "2026-11-17T17:22:08.264Z",
+ "versaoEstruturador": 3,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "EMENDA À LEI ORGÂNICA N° 29, DE 06 DE MAIO DE 2010.",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "emenda_lei_organica"
+  }
+ },
+ "ementa": "Inclui §5º no art. 98 da Lei Orgânica doMunicípio de Porto Alegre, permitindo a subscrição eletrônica de projetosdeiniciativa popular por meio da Internet. A MESA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, no uso dasque lhe confere o parágrafo 2º do artigo 73 da Lei Orgânica do Município de PortoAlegre e artigo 131 do Regimento da Câmara Municipal de Porto Alegre, promulga a seguinteEmenda à Lei Orgânica:",
+ "preambulo": null,
+ "fecho": "GABINETE DA PRESIDÊNCIA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, 6 DE MAIODE 2010.\nNELCIR TESSARO,\nPresidente.\nMÁRIO MANFRO,\n1º Vice-Presidente.\nBERNARDINO VENDRUSCOLO,\n1º Secretário.\nTarciso Flecha Negra,\n2º Secretário.\nMauro Pinheiro,\n2º Vice-Presidente.\nJoão Carlos Nedel,\n3º Secretário.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o § 5º no art. 98 da Lei Orgânica doMunicípio de Porto Alegre, conforme segue:",
+   "blocoDeAlteracao": "\"Art. 98....................................................................\n§ 5º Os projetos de iniciativa popular poderão ser subscritos eletronicamente, pormeio da Internet.\" (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Emenda à Lei Orgânica entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "tipo_sem_suporte"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.943,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

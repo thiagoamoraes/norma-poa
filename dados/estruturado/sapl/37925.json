@@ -1,0 +1,55 @@
+{
+ "idSapl": 37925,
+ "rotulo": "Emenda à Lei Orgânica nº 33, de 22 de dezembro de 2011",
+ "sha256Origem": "b28ea8c859b39e6c9428e5f3f0dc0dc2dbfaf98ea0409d9f2d91c0a6014de247",
+ "estruturadoEm": "2026-11-17T17:22:08.260Z",
+ "versaoEstruturador": 3,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "EMENDA À LEI ORGÂNICA Nº 33, DE 22 DE DEZEMBRO DE 2011.",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "emenda_lei_organica"
+  }
+ },
+ "ementa": "Inclui art. 19-A na Lei Orgânica do Município de Porto Alegre, proibindo a nomeação ou a designação para cargo em comissão ou função de direção, chefia ou assessoramento, na administração direta e na administração indireta, de pessoa que seja inelegível em razão de atos ilícitos. A MESA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, no uso das atribuições que lhe confere o § 2º do art. 73 da Lei Orgânica do Município de Porto Alegre e art. 131 do Regimento da Câmara Municipal de Porto Alegre, promulga a seguinte Emenda à Lei Orgânica:",
+ "preambulo": null,
+ "fecho": "GABINETE DA PRESIDÊNCIA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, 22 DE DEZEMBRO DE 2011.\nVerª Sofia Cavedon,\nPresidente.\nVer. DJ Cassiá,\n1º Vice-Presidente.\nVer. Mario Manfro,\n2º Vice-Presidente.\nVer. Paulinho Rubem Berta,\n1º Secretário.\nVer. Waldir Canal,\n2º Secretário.\nVer. Adeli Sell,\n3º Secretário.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído art. 19-A na Lei Orgânica do Município de Porto Alegre, conforme segue:",
+   "blocoDeAlteracao": "“Art. 19-A. Ficam proibidas a nomeação ou a designação para cargo em comissão ou função de direção, chefia ou assessoramento, na administração direta e na administração indireta, de pessoa que seja inelegível em razão de atos ilícitos, nos termos da legislação federal.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Emenda à Lei Orgânica entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "tipo_sem_suporte"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.951,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

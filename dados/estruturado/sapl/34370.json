@@ -1,0 +1,55 @@
+{
+ "idSapl": 34370,
+ "rotulo": "Emenda à Lei Orgânica nº 23, de 26 de junho de 2006",
+ "sha256Origem": "0366ca56637cbc0fdc1ce0d47f20fe9dc789eb097a1d45c686709e9ea8206b60",
+ "estruturadoEm": "2026-11-17T17:22:08.271Z",
+ "versaoEstruturador": 3,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "EMENDA À LEI ORGÂNICA N.º 23, DE 26 DE JUNHO DE2006.",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "emenda_lei_organica"
+  }
+ },
+ "ementa": "Altera a redação do parágrafo único do art.19 da Lei Orgânica do Município de Porto Alegre, vedando a prática do nepotismo emtodos os níveis da Administração Pública Municipal. A MESA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, no uso dasque lhe confere o parágrafo 2º do artigo 73 da Lei Orgânica do Município de PortoAlegre e artigo 131 do Regimento da Câmara Municipal de Porto Alegre, promulga a seguinteEmenda à Lei Orgânica:",
+ "preambulo": null,
+ "fecho": "GABINETE DA PRESIDÊNCIA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, 26 DE JUNHO DE 2006.\nVer. Humberto Goulart,\nPresidente.\nVer. Luiz Braz,\n1º Vice-Presidente.\nVer.ª Margarete Moraes,\n2ª Vice-Presidenta.\nVer. Haroldo de Souza,\n1º Secretário.\nVer. Elias Vidal\n2º Secretário.\nVer. Valdir Caetano,\n3º Secretário.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O parágrafo único do art. 19 da Lei Orgânica do Municípiode Porto Alegre passa a ter a seguinte redação:",
+   "blocoDeAlteracao": "“Art. 19. ...\nParágrafo único. Os cargos em comissão terão número e remuneração certos, nãoserão organizados em carreira e não poderão ser ocupados por cônjuges ou companheirose parentes, consangüíneos, afins ou por adoção, até o segundo grau:\nI – do Prefeito, do Vice-Prefeito, dos Secretários Municipais ou titulares decargos que lhe sejam equiparados, e dos Presidentes, Vice-Presidentes, Diretores-Gerais,ou titulares de cargos equivalentes em autarquia, fundação instituída ou mantida peloPoder Público, empresa pública ou sociedade de economia mista, no âmbito do PoderExecutivo Municipal;\nII – dos Vereadores e dos titulares de cargos de direção no âmbito da CâmaraMunicipal de Porto Alegre.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Emenda à Lei Orgânica entra em vigor trezentos esessenta e cinco dias após a data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "tipo_sem_suporte"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "idSapl": 19330,
+ "rotulo": "Emenda à Lei Orgânica nº 13, de 25 de novembro de 1977",
+ "sha256Origem": "fa5158289ca6c4f6e4a35c9e5c5776bb0b326745ba5c46e66c2695ece20a9379",
+ "estruturadoEm": "2026-11-17T17:22:08.294Z",
+ "versaoEstruturador": 3,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "à CAMARA MUNICIPAL DE PORTO ALEGRE",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "ementa": "AV. LOUREIRO DA SILVA, 255 — FONE 28-6055 PROC. Nº 3154/97 RIO GRANDE DO SUL PELO Nº 003/97 ) | a, EMENDA À LEI ORGÂNICA Nº 13 Altera o art. 82 da Lei Orgânica do Município de Porto Alegre (quorum de maioria qualificada para alteração de denominação de logradouros). A MESA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, no uso das atribuições que lhe confere o parágrafo 2º do artigo 73 da Lei Orgânica do Município de Porto Alegre e artigo 131 do Regimento da Câmara Municipal de Porto Alegre, promulga a seguinte EMENDA À LEI ORGÂNICA Nº 13",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica acrescido ao $ 2º, do art. 82, da Lei Orgânica do Município de Porto Alegre, novo inciso IV, renumerando-se o atual inciso IV para inciso V, com o seguinte teor:",
+   "blocoDeAlteracao": "“Art. 82...\nS2\nIV - Alteração de denominação oficial de próprios, vias e logradouros.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Emenda à Lei Orgânica entra em vigor na data de sua publicação. DOPA: 16-12-97 PAG.: 06 CAMARA MUNICIPAL DE PORTO ALEGRE AV. LOUREIRO DA SILVA, 255 — FONE 28-6055 RIO GRANDE DO SUL PROC. Nº 3154/97 PELO Nº 003/97 | -2-"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se as disposições em contrário, em especial o inc. IV do $ 1º do art. 82 da Lei Orgânica do Município de Porto Alegre. CÂMARA MUNICIPAL DE PORTO ALEGRE, 12 de de- zembro de 1997. ISA UAM 1º Vice-Presidente, no exercício da Presidência. Registre-se e publique-se: 9] REGINALDO/|PUJOL, 2º Vice- idênte. GUILHERME BARBOSA, CARLOS GARCIA 2º Secretário. (em licença) 3º Secretária"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "tipo_sem_suporte",
+   "sem_fecho"
+  ],
+  "avisos": [
+   "texto_de_ocr"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

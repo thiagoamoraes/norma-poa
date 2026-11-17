@@ -1,0 +1,55 @@
+{
+ "idSapl": 35889,
+ "rotulo": "Emenda à Lei Orgânica nº 26, de 04 de dezembro de 2008",
+ "sha256Origem": "526a504504e7b599cc310a7067b8f10627005d77da38d7131d57b59d6cf49bd4",
+ "estruturadoEm": "2026-11-17T17:22:08.268Z",
+ "versaoEstruturador": 3,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "EMENDA À LEI ORGÂNICA Nº 26, DE 4 DE DEZEMBRO DE",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "emenda_lei_organica"
+  }
+ },
+ "ementa": "Inclui parágrafo único no art. 72 da LeiOrgânica do Município de Porto Alegre, determinando que lei complementar disponha sobrea elaboração, a redação, a alteração e a consolidação dos atos normativosde quetrata esse artigo. A MESA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, no uso dasque lhe confere o parágrafo 2º do artigo 73 da Lei Orgânica do Município de PortoAlegre e artigo 131 do Regimento da Câmara Municipal de Porto Alegre, promulga a seguinteEmenda à Lei Orgânica:",
+ "preambulo": null,
+ "fecho": "GABINETE DA PRESIDÊNCIA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, 4 DE DEZEMBRO DE 2008.\nVer. Sebastião Melo,\nPresidente.\nVer. Cláudio Sebenelo,\n1º Vice-Presidente.\nVer. Carlos Todeschini,\n2º Vice-Presidente.\nVer. Ervino Besson,\n1º Secretário.\nVerª MaristelaMeneghetti,\n2ª Secretária.\nVer. Aldacir Oliboni,\n3º Secretário.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído parágrafo único no art. 72 da Lei Orgânicado Município de Porto Alegre, conforme segue:",
+   "blocoDeAlteracao": "“Art. 72. ...\n...\nParágrafo único. Lei complementar disporá sobre a elaboração, a redação, aalteração e a consolidação dos atos normativos de que trata este artigo.”(NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Emenda à Lei Orgânica entra em vigor na data de suapublicação"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "tipo_sem_suporte"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.951,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

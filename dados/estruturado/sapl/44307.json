@@ -1,0 +1,75 @@
+{
+ "idSapl": 44307,
+ "rotulo": "Emenda à Lei Orgânica nº 42, de 03 de agosto de 2016",
+ "sha256Origem": "c225197015c02b1fd86c72e843a2c1891033e8e87676113b06a4ac71d135a4f0",
+ "estruturadoEm": "2026-11-17T17:22:08.248Z",
+ "versaoEstruturador": 3,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "Câmara Municipal                                                       P R O C . N° 0471/13",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "P E L O N   001/13 dc Porto                                                                ° Alegre EMENDA À L E I ORGÂNICA N° 42, DE 3 DE AGOSTO DE 2016. o Altera o § I do art. 157 da Lei Orgânica do Município de Porto Alegre, garantindo que os serviços de saúde sejam prestados 24 (vinte e quatro) horas por dia, todos os dias. A MESA D I R E T O R A DA CÂMARA MUNICIPAL DE PORTO A L E G R E , o no uso das atribuições que lhe confere o § 2 do art. 73 da Lei Orgânica do Município de Porto Alegre (LOMPA) e o art. 131 do Regimento da Câmara Municipal de Porto Alegre, promulga a seguinte Emenda à Lei Orgânica: o                   o Art. I Fica alterado o § I do art. 157 da Lei Orgânica do Município de Porto Alegre, conforme segue: o",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O Município de Porto Alegre garantirá a implementação progressiva dos o dispositivos estabelecidos no § I do art. 157 da Lei Orgânica do Município de Porto Alegre pela o alteração promovida pelo art. I desta Emenda à Lei Orgânica, a partir da data de sua publicação. O"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Emenda à Lei Orgânica entra em vigor na data de sua publicação. \\ CÂMARA MUNICIPAL DE PORTO A L E G R E , 3 DE AGOSTO DE 2016. RPD/JPCP"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "tipo_sem_suporte",
+   "sem_fecho",
+   "texto_fora_da_arvore",
+   "trecho_nao_localizado_na_origem",
+   "rotulo_nao_confere_com_a_origem",
+   "bloco_de_alteracao_sem_dono"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.26,
+   "blocosDeAlteracao": 1,
+   "lacunas": [
+    {
+     "tamanho": 914,
+     "amostra": "CâmaraMunicipalPROCN047113PELON00113dcPortoAlegreEMENDAÀLEIORGÂNICAN42DE3DEAGOST"
+    }
+   ],
+   "naoLocalizados": [
+    "P E L O N   001/13 dc Porto                                                     "
+   ],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "enoshospitaisNRoArt2"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art3"
+    }
+   ]
+  }
+ }
+}

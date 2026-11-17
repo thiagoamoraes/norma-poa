@@ -1,0 +1,55 @@
+{
+ "idSapl": 33736,
+ "rotulo": "Emenda à Lei Orgânica nº 22, de 09 de maio de 2005",
+ "sha256Origem": "39c49bed79dc6423b9982608809a713da05950cea193c94644932e0e7287a046",
+ "estruturadoEm": "2026-11-17T17:22:08.272Z",
+ "versaoEstruturador": 3,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "EMENDA À LEI ORGÂNICA Nº 22 , DE 09 de maio de 2005.",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "emenda_lei_organica"
+  }
+ },
+ "ementa": "Altera e dá nova redação aos incs. I, II eIII do parágrafo 6º e aos incs. I , II e III do parágrafo 7º, todos do art. 121 da LeiOrgânica do Município de Porto Alegre. A MESA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, no uso dasque lhe confere o parágrafo 2º do artigo 73 da Lei Orgânica do Município de PortoAlegre e artigo 131 do Regimento da Câmara Municipal de Porto Alegre, promulga a seguinteEmenda à Lei Orgânica.",
+ "preambulo": null,
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 09 DE MAIO DE 2005.\nELÓI GUIMARÃES\nPresidente.\nJOÃO CARLOS NEDEL ALDACIR OLIBONI,\n1o Vice-Presidente 2o Vice-Presidente.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Altera e dá nova redação aos incs. I, II e IIIparágrafo 6º e aos incs. I, II e III do parágrafo 7º do art. 121 da Lei Orgânica doMunicípio de Porto Alegre.",
+   "blocoDeAlteracao": "\"6º ...\nI - o projeto de lei do plano plurianual até 5 de junho do primeiro anoPrefeito;\nII - o projeto de lei de diretrizes orçamentárias até 20 de agosto de cada ano;\nIII - os projetos de lei dos orçamentos anuais até 15 de outubro, devendo ser votadosaté o dia 5 de dezembro.\n\"7º ...\nI - o projeto de lei do plano plurianual até 15 de agosto do primeiro ano do mandatodo Prefeito;\nII - o projeto de lei de diretrizes orçamentárias até 10 de outubro decada ano;\nIII - os projetos de lei dos orçamentos anuais até 15 de dezembro de cada ano. \""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Emenda à Lei Orgânica entra em vigor na data de suapublicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "tipo_sem_suporte"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.956,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

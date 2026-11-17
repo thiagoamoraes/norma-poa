@@ -1,0 +1,42 @@
+{
+ "geradoEm": "2026-11-17T17:22:09.594Z",
+ "estado": "em_carga",
+ "alertas": [],
+ "proximas": [
+  "64 norma(s) aguardam revisão da leitura automática (motivo mais frequente: `cabecalho_nao_reconhecido`, 60): ROTEIRO.md, tarefa 1.",
+  "5 histórico(s) incompleto(s) e 0 com erro: ROTEIRO.md, tarefa 4.",
+  "1 arquivo(s) baixado(s) sem extração de texto (formato não suportado ou falha): conferir `dados/textos/sapl/_indice.jsonl`."
+ ],
+ "criterios": [
+  {
+   "nome": "Catálogo completo (todos os tipos do escopo)",
+   "ok": true,
+   "detalhe": "tipo 1: completo · tipo 2: completo · tipo 5: completo · tipo 6: completo"
+  },
+  {
+   "nome": "Vínculos completos",
+   "ok": false,
+   "detalhe": "página 61 de 263"
+  },
+  {
+   "nome": "Fila de textos vazia",
+   "ok": false,
+   "detalhe": "8314 arquivo(s) a baixar"
+  },
+  {
+   "nome": "Últimas 3 execuções sem erro",
+   "ok": false,
+   "detalhe": "1 com erro entre as últimas 1"
+  },
+  {
+   "nome": "Normas do Diário Oficial já presentes no catálogo (publicadas há mais de 7 dias)",
+   "ok": true,
+   "detalhe": "nenhuma pendente"
+  }
+ ],
+ "ritmo": {
+  "baixados7": 80,
+  "mediaDia": 80,
+  "previsaoDias": 104
+ }
+}

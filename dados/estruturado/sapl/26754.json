@@ -1,0 +1,65 @@
+{
+ "idSapl": 26754,
+ "rotulo": "Emenda à Lei Orgânica nº 3, de 04 de novembro de 1992",
+ "sha256Origem": "c1644c4ae72ad63f645bdc9516851ef1ab1133327a6e5d49f960a622c4daab6c",
+ "estruturadoEm": "2026-11-17T17:22:08.291Z",
+ "versaoEstruturador": 3,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "CAMARA MUNICIPAL DE PORTO ALEGRE |",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "emenda_lei_organica"
+  }
+ },
+ "ementa": "AV, LOUREIRO DA SILVA, 255 — FONE *28.6055 PROC. ma 1753/92 RIO GRANDE DO SUL PELO N 76/92 | , EMENDA À LEI ORGÂNICA Nº 03 nepal Ge pu3 AUS: EMURE Ro f ear s:w/SAi/Ch Avi a PR Acrescenta, ao artigo 109 da oynteais noi caio, ENA 0.. 46. Lei Orgânica Municipal de Porto Alegre, E ER ML... Paragrafo único e dá outras providen-PN cias. A MESA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, no uso das atribuições que lhe confere o paragrafo 2º do artigo 73 da Lei Organica do Município de Porto Alegre, promulga a seguinte Emenda à Lei.Organica: EMENDA À LEI ORGÂNICA Nº 03",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica acrescentado Paragrafo unico ao artigo 109 da Lei Orgânica do Município de Porto Alegre, com a seguinte redação:",
+   "blocoDeAlteracao": "\"Paragrafo Unico. Não se aplica o disposto no 'caput' deste\nartigo nos casos de beneficio fiscal concedido a pessoas físicas, para o\nImposto Sobre a Propriedade Predial e Territorial Urbana, em que renda,\nprovento ou pensão sejam requisitos.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Emenda à Lei Orgânica entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se as disposições em contrário. CÂMARA MUNICIPAL DE PORTO ALEGRE, [4 /)DE NOVEMBRO DE 1992. ET QN ) Registre-se e publ ique-se: e e o 7/) Pies) NELSON CASTAN, 1º Vice-Presi 2º Vice-Presidente. LEÃO DE MEDEIROS, / E WILSON SANTOS, CLÓVIS ILGENFRITZ, Iº Secretário. 2º Secretário. 3º Secretario. /IL Tod. 9 - 20.000 - 10/81 . PM"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "tipo_sem_suporte",
+   "sem_fecho"
+  ],
+  "avisos": [
+   "texto_de_ocr"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.96,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

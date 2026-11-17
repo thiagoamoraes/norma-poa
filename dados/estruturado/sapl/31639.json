@@ -1,0 +1,63 @@
+{
+ "idSapl": 31639,
+ "rotulo": "Emenda à Lei Orgânica nº 18, de 12 de dezembro de 2001",
+ "sha256Origem": "2db2b18767104e72b5eae7c5945abecfe071d5af385ec14e5c7cbf00399c0dce",
+ "estruturadoEm": "2026-11-17T17:22:08.275Z",
+ "versaoEstruturador": 3,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "EMENDA À LEI ORGÂNICA N° 18, DE 12 DE DEZEMBRO DE 2001.",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "emenda_lei_organica"
+  }
+ },
+ "ementa": "Altera a redação do art. 240 da Lei Orgânica do Município de Porto Alegre e o art. 6° do Ato das Disposições Orgânicas Gerais e Transitórias. A MESA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, no uso das atribuições que lhe confere o parágrafo 2º do artigo 73 da Lei Orgânica do Município de Porto Alegre e artigo 131 do Regimento da Câmara Municipal de Porto Alegre, promulga a seguinte Emenda à Lei Orgânica:",
+ "preambulo": null,
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 12 DE DEZEMBRO DE 2001.\nFERNANDO ZÁCHIA,\nPresidente.\nRegistre-se e publique-se:\nCARLOS ALBERTO GARCIA, REGINALDO PUJOL,\n1º Vice-Presidente. 2º Vice-Presidente.\nHELENA BONUMÁ, PAULO BRUM, ERVINO BESSON,\n1ª Secretária. 2º Secretário. 3º Secretário.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O art. 240 da Lei Orgânica do Município de Porto Alegre passa a vigorar com a seguinte redação :",
+   "blocoDeAlteracao": "\"Art. 240. O Município deverá implantar e manter áreas verdes, de preservação permanente, perseguindo proporção nunca inferior a 12 m2 (doze metros quadrados) por habitante, em cada uma das regiões de gestão de planejamento previstas no Plano Diretor de Desenvolvimento Urbano Ambiental\". (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O art. 6° do Ato das Disposições Orgânicas Gerais e Transitórias, da Lei Orgânica do Município de Porto Alegre, passa a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 6° O percentual mínimo de área verde de 12m2 (doze metros quadrados) por habitante, em cada uma das regiões de gestão de planejamento previstas no Plano Diretor de Desenvolvimento Urbano Ambiental, deverá ser atingido até o ano de 2005\". (NR)."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Emenda à Lei Orgânica entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "tipo_sem_suporte"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.957,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

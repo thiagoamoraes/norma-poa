@@ -1,0 +1,65 @@
+{
+ "idSapl": 28780,
+ "rotulo": "Emenda à Lei Orgânica nº 10, de 13 de dezembro de 1996",
+ "sha256Origem": "90bc958d9b3a782e746ec8994b5e31cc5d0835729e43331a054a30232b183443",
+ "estruturadoEm": "2026-11-17T17:22:08.283Z",
+ "versaoEstruturador": 3,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "CAMARA M PROC. Nº 2575/96",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "ementa": "UNICIPAL DE PORTO ALEGRE 5 AV, LOUREIRO DA SILVA, 255 — FONE “286055 PELO Nº 04/96 RIO GRANDE DO SUL 1 EMENDA À LEI ORGÂNICA Nº 10 Acrescenta o inciso XX ao art. 94 da Lei Orgânica do Município de Porto Alegre e dá outras providências. \"ge A MESA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, no uso das atribuições que lhe confere o parágrafo 2º do artigo 73 da Lei Orgânica do Município de Porto Alegre e artigo 131 do Regimento da Câmara Municipal de Porto Ale- gre, promulga a seguinte EMENDA À LEI ORGÂNICA Nº 10",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica acrescido o inciso XX ao art. 94 da Lei Orgânica do Município de Porto Alegre, com a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 94. Compete privativamente ao Prefeito:\nXX - manifestar-se, dentro do prazo de trinta dias, prorrogáveis, justificadamente, por mais quinze dias, quanto à viabilidade de atendimento de proposi-\nção solicitada pela Câmara Municipal através de Pedido de Providências.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Emenda à Lei Orgânica do Município de Porto Alegre entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se as disposições em contrário. CÂMARA MUNICIP. E PORTO ALEGRE, 13 DE DEZEMBRO DE 1996. J INHÓRN, | Registre-se e publique-se: Presidente. EDI RT 1º Vice-Presidente. te. REGINALDO PIO Zi NEGRINHO, ICBR ' 3º Secretário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "tipo_sem_suporte",
+   "sem_fecho"
+  ],
+  "avisos": [
+   "texto_de_ocr"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

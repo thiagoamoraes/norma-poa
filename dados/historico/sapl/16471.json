@@ -1,0 +1,4491 @@
+{
+ "geradoEm": "2026-11-17T17:22:08.871Z",
+ "idSapl": 16471,
+ "rotulo": "Lei Orgânica nº 1, de 15 de dezembro de 1970",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": " 1/1970@1970-12-15",
+   "data": "1970-12-15",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": " 1/1970@1977-11-25",
+   "data": "1977-11-25",
+   "fonte": {
+    "idSapl": 19330,
+    "rotulo": "Emenda à Lei Orgânica nº 13, de 25 de novembro de 1977"
+   },
+   "comandosAplicados": 1
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - É mantido o atual território do Município, cujos limites só podem ser alterados nos termos da Constituição do Estado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "titulo",
+     "numero": "I",
+     "titulo": ""
+    },
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "' A divisão do Município em distritos depende de lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? -   Todo o poder emana do povo e em nome dele é exercido. Art , 4? - São símbolos    do Município   de Porto Alegre, o brazão e outros estabelecidos em lei. 3",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - São órgãos do Município, independentes e harmônicos o Legislativo e o Executivo. § I? - Salvo as exceções prevista nesta Lei Orgânica, um órgão não pode delegar atribuições a outro.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - O cidadão investido na função de um deles não pode exercer a de outro.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? ~ O Município pode celebrar convênios com a União, o Esta- -   do e Municípios, mediante autorização da Câmara Municipal, para a execução de suas leis, serviços e decisões, bem como para executar encargos análogos dessas esferas. § I? - Os convênios podem visar à realização de obras ou exploração de serviços públicos de interesse comum.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-1",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - Pode, ainda, o Município, através de convênios ou consórcios com outros Municípios da mesma comunidade sócio-econômica,           criar entidades interrnunicipais   para a realização de obras, atividades ou serviços específicos de interesse comum, devendo os mesmos ser aprovados por leis dos Municípios que deles participam.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-2",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - É permitido delegar, entre Estado e o Município, também por convênio, os servicos de competência      concorrente, assegurados os recursos necessários.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? -    A autonomia    do Município   é assegurada:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pela eleição dos Vereadores,    que compõem a Câmara Municipal; 11 -   pela administração   própria,   no que respeita a seu peculiar interesse, especialmente  quanto:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-I/ali-a",
+   "pai": "art-5/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "à decretação e arrecadação   dos tributos de sua competência e à aplicação de suas rendas, sem prejuízo da obrigatoriedade      de prestar contas e publicar balanceies nos prazos fixados em lei; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-I/ali-b",
+   "pai": "art-5/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "organização   dos serviços públicos locais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? -    Cabe ao Município,    no exercício de sua autonomia:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-I",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "organizar-se   juridicamente,     decretar leis, atos e medidas de seu peculiar interesse; 11 -   decretar e arrecadar     os tributos de sua competência      e aplicar as suas rendas; 111 -   organizar seus serviços administrativos      e patrimoniais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-II",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "administrar   seus bens, adquiri-Ios e aliená-Ias, aceitar doações, legados e heranças, e dispor de sua aplicação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-III",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "desapropriar,    por necessidâde ou utilidade públicas ou por interesse social, nos casos previstos em lei; 4",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-IV",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "conceder e permitir os serviços públicos locais e os que lhe sejam concernentes;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-V",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "organizar os quadros e estabelecer o regime jurídico de seus servidores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-VI",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estabelecer normas de edificação, de loteamento, de zoneamento, bem como as diretrizes urbanísticas convenientes à ordenação de seu território;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-VII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estabelecer normas de prevenção e controle de ruído, da poluição -            do ar e da água;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-VIII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "conceder e permitir os serviços de transportes coletivos, táxis e outros, fixando suas tarifas, itinerários, pontos de estacionamento         e paradas; regulamentar       a utilização dos logradouros públicos e sinalizar as faixas de rolamento e as zonas de silêncio; disciplinar os serviços de carga e descarga e a fixação de tonelagem máxima permitida a veículos que circulam no Município;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-IX",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estabelecer servidões administrativas          necessárias à realização de seus serviços:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-X",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "regulamentar     e fiscalizar 'a instalação e funcionamento      dos ascensores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XI",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "disciplinar a limpeza dos logradouros públicos, a remoção do lixo domiciliar e dispor sobre a prevenção de incêndios;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "licenciar estabelecimentos        industriais, comerciais e outros; cassar os alvarás de licença dos que se tornarem danosos à saúde, à higiene e ao bem-estar públicos ou aos bons costumes;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XIII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "fixar o horário de funcionamento            de estabelecimentos  comerciais e industriais; X V I - legislar sobre o serviço funerário e cemitérios, fiscalizando os que pertencerem a associações particulares;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XIV",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "interditar edificações em ruínas ou em condições de insalubridade e fazer demolir construções que ameaçem ruir;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XV",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "regulamentar      a fixação de cartazes, anúncios, emblemas e quaisquer outros meios de publicidade e propaganda;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XVI",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XVI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "regulamentar     e fiscalizar os jogos esportivos, os espetáculos e os divertimentos    públicos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XVII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XVII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "legislar sobre a apreensão e depósito de semoventes, mercadorias e móveis em geral, no caso de transgressão de leis e demais atos municipais,    bem como sobre a forma e condições de venda das coisas apreendidas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XVIII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XVIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "legislar sobre serviços públicos e regulamentar os processos de instalação, distribuição e consumo de água, gás, luz e energia elétrica e todos os demais serviços de caráter e uso coletivo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - Cabe, ainda, ao Município,        concorrentemente    com a União ou o Estado, ou supletivamente a eles: 5",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-I",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "zelar pela saúde, higiene e assistência públicas; 11 -    promover o ensino, a educação e a cultura; 111-     fomentar as atividades econômicas e estimular, particularmente, o melhor aproveitamento da terra;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-II",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "abrir e conservar estradas e caminhos e determinar a execução de serviços públicos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-III",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover a defesa sanitária vegetal e animal, a extinção de insetos . e animais daninhos, bem como a defesa contra as formas de -        VI - exaustão do solo; proteger as belezas naturais e os monumentos de valor histórico ou artístico;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-IV",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "amparar a maternidade, a infância e os desvalidos, coordenando e orientando os serviços sociais no âmbito do Município;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-V",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estimular a educação eugênica e a prática desportiva;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-VI",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "proteger a juventude contra toda a exploração, bem como contra os fatores que possam conduzi-Ia ao abandono físico, moral e intelectual;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-VII",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "tomar as medidas necessárias para restringir a mortalidade e a morbidez infantis, bem como medidas de higiene social que impeçam a propagação das doenças transmissiveis;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-VIII",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "cuidar da higiene mental e incentivar a luta contra os venenos soCiaIS;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-IX",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "incentivar o comércio, a indústria, a agricultura e outras atividades que visem ao desenvolvimento econômico;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-X",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "fiscalizar a produção, a conservação, o comércio, e o transporte dos gêneros alimentícios, destinados ao abastecimento público.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São tributos da competência municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "impostos sobre:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I/ali-a",
+   "pai": "art-8/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "propriedade predial e territorial urbana;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I/ali-b",
+   "pai": "art-8/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os serviços de qualquer natureza, na forma da legislação federal; 11 -   taxas; 1I1 -   contribuição de melhoria.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Cabem ainda ao Município os tributos e outros recursos que lhe sejam conferidos pela União ou pelo Estado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ao Município é vedado:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-I",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estabelecer    cultos  religiosos ou igrejas,   subvencioná-Ios, ernbaraçar-lhes o exercício ou manter com eles ou seus representantes relações de dependência ou aliança; 6 11 -   contrair empréstimo externo sem prévia autorização do Senado Federal; 111-    instituir ou aumentar tributos sem que a lei o estabeleça;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-II",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "instituir imposto sobre:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-II/ali-a",
+   "pai": "art-10/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o patrimônio, a renda ou os serviços da União, Estados ou Municípios;                                            . -              b) os templos de qualquer culto;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-II/ali-b",
+   "pai": "art-10/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o patrimônio, a renda ou o serviço dos partidos políticos e de instituições de educação ou de assistência social, observados os requisitos da lei;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-II/ali-c",
+   "pai": "art-10/inc-II",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o livro, o jornal e os periódicos, assim como o papel destinado à sua impressão.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-unico",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O disposto na alínea a do item IV é extensivo às autarquias, no que se refere ao patrimônio, à renda e aos serviços vinculados às suas finalidades essenciais ou delas decorrentes; mas não se estende aos serviços públicos concedidos, nem exonera o promitente comprador da obrigação de pagar imposto que incidir sobre imóvel objeto de promessa de compra e venda. CAPÍTULO      11 Do Órgão Legislativo Disposições Gerais",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Órgão Legislativo do Município é a Câmara Municipal, composta de Vereadores, e funciona de acordo com seu Regimento Interno.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Câmara Municipal reúne-se, independentemente de convocação, no dia 15 de março de cada ano, para abertura da sessão legislativa, funcionando ordinariamente até 15 de dezembro, com interrupção no mês de julho, para recesso.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/par-unico",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Durante a sessão legislativa ordinária a Câmara funciona todos os dias úteis, exceto aos sábados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No primeiro ano de cada legislatura, cuja duração coincide com a do mandato dos Vereadores, a Câmara reúne-se no dia estabelecido em lei para dar posse aos Vereadores e ao Prefeito, e eleger a sua Mesa, a Comissão Representativa e as Comissões Permanentes, entrando após em recesso. 7",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/par-unico",
+   "pai": "art-13",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No término de cada sessão legislativa ordinária, exceto a última da legislatura, são eleitas a Mesa e as Comissões para a sessão subseqüente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A convocação extraordinária da Câmara cabe ao seu Presidente, a um terço de seus membros, à Comissão Representativa ou ao Prefeito. -         Parágrafo único - Nas sessões legislativas extraordinárias a Câmara . somente pode deliberar sobre a matéria da convocação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na Comissão Representativa e nas Comissões da Câmara será assegurada, tanto quanto possível, a representação proporcional dos partidos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Câmara Municipal funciona com a presença, no mínimo, da maioria de seus membros, e as deliberações são tomadas por maioria de votos dos presentes, salvo os casos previstos nesta Lei Orgânica e no Regimento Interno. § I? - Quando se tratar da votação do orçamento, de empréstimos, auxílio à empresa, concessão de privilégios e matéria que verse interesse particular, além de outros referidos por esta lei e pelo Regimento Interno, o número mínimo prescrito é de dois terços de seus membros.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16/par-unico",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - O Presidente da Câmara vota somente quando houver empate, quando a matéria exigir presença de dois terços e nas votações secretas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As sessões da Câmara são públicas, salvo resolução em contrário e somente nos casos previstos nesta Lei e no Regimento Interno, o voto é secreto. Art , 20 - A prestação de contas do Prefeito, referente à gestão financeira do ano anterior, será apreciada pela Câmara até sessenta dias após o recebimento do parecer prévio do Tribunal de Contas do Estado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Anualmente, dentro de sessenta dias do início da sessão legislativa, a Câmara receberá, em sessão especial, o Prefeito, que informará, através de relatório, do estado em que se encontram os assuntos municipais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18/par-unico",
+   "pai": "art-18",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Sempre que o Prefeito manifestar propósito de expor assuntos de interesse público, a Câmara o receberá em sessão previamente designada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Câmara Municipal ou suas Comissões, a requerimento da maioria de seus membros, podem convocar Secretários Municipais, Diretores de Autarquias ou de órgãos não subordinados às Secretarias, para comparecerem perante elas a fim de prestar informações sobre assunto previamente designado e constante da convocação. 8 § I? - Três dias úteis antes do comparecimento        deverá ser enviada à Câmara exposição em torno das informações solicitadas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/par-unico",
+   "pai": "art-19",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - Independentemente      de convocação, quando o Secretário ou Diretor desejar prestar esclarecimentos   ou solicitar providências legislativas a qualquer Comissão, esta designará dia e hora para ouvi-lo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Câmara pode criar comissão de inquérito          sobre fato determinado, nos termos do Regimento Interno, a requerimento            de, no mínimo, -   um terço de seus membros. SEÇÃO    11 Dos Yereadores",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os Vereadores,   eleitos na forma da lei, gozam de garantias que a mesma Ihes assegura, pelas suas opiniões, palavras e votos proferidos no exercício do mandato.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É defeso ao Vereador:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/inc-I",
+   "pai": "art-22",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "desde a expedição     do diploma:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/inc-I/ali-a",
+   "pai": "art-22/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "celebrar contrato com a administração    pública, salvo quando o contrato obedecer a cláusulas uniformes;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/inc-I/ali-b",
+   "pai": "art-22/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "aceitar ou exercer comissão ou emprego do Município ou de entidade autárquica,    sociedade de economia mista, empresa pública ou concessionária. 11 -   desde a posse:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/inc-I/ali-c",
+   "pai": "art-22/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ser diretor, proprietário ou sócio de empresa beneficiada com privilégio, isenção ou favor, em virtude de contrato com a administração pública municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/inc-I/ali-d",
+   "pai": "art-22/inc-I",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "exercer outro mandato eletivo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/inc-I/ali-e",
+   "pai": "art-22/inc-I",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ocupar cargo público de que seja demissível \"ad nutum\";",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/inc-I/ali-f",
+   "pai": "art-22/inc-I",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "patrocinar causa contra pessoa jurídica de direito público. Art , 26 -   Sujeita-se   à perda do mandato   o Vereador   que:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/inc-II",
+   "pai": "art-22",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "infringir qualquer das proposições     estabelecidas  no artigo anteflor; 11 -   utilizar-se do mandato para a prática de atos de corrupção, de irnprobidade administrativa  ou atentatórios às instituições vigentes; 111 -   proceder de modo incompatível     com a dignidade da Câmara ou faltar com o decôro na sua conduta pública; 9",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/inc-III",
+   "pai": "art-22",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "perder ou tiver suspensos seus direitos políticos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/inc-IV",
+   "pai": "art-22",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "praticar atos de infidelidade    partidária,  segundo     o previsto   na Constituição  e na legislação pertinente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/par-unico",
+   "pai": "art-22",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É objeto de disposições regimentais o rito a ser seguido nos casos deste artigo, respeitada a legislação estadual e federal. -        Art. 27 - O Vereador investido no cargo de Secretário Municipal ou Diretoria equivalente não perde o mandato, desde que se afaste do exercício da vereança.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nos casos do artigo anterior e nos de licença, legítimo impedimento e vaga por morte ou renúncia, o Vereador será substituído pelo suplente, convocado nos termos da lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-unico",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O legítimo impedimento,    ou impedimento por abuso de poder, deve ser reconhecido pela Câmara e o Vereador declarado impedido será considerado  como em pleno exercício de seu mandato, sem prejuízo de convocação do suplente. Art , 29 - Os Vereadores fazem jus à remuneração,     estabelecida por Resolução da Câmara, dentro dos limites e critérios fixados em lei complementar à Constituição Federal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-24",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 24.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O servidor público eleito Vereador pode optar entre a remuneração do respectivo cargo e a da Vereança, antes de entrar no exercício do mandato, desde que a legislação do Poder Público a que pertence lhe assegure tal opção. Das atribuições   da Câmara Municipal",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 25.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Compete   à Câmara    Municipal,   com a sanção do Prefeito:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "III",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-I",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "legislar sobre todas as matérias atribuídas explícita ou implicitamente ao Município pelas Constituições      da União e do Estado, as leis em geral, esta Lei Orgânica e, especialmente,  sobre:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-I/ali-a",
+   "pai": "art-25/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o exercício dos poderes municipais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-I/ali-b",
+   "pai": "art-25/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o regime jurídico dos servidores municipais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-I/ali-c",
+   "pai": "art-25/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a denominação    dos serviços, bairros e logradouros    públicos. 11 -   votar anualmente:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-I/ali-d",
+   "pai": "art-25/inc-I",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os orçamentos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-I/ali-e",
+   "pai": "art-25/inc-I",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o plano de auxílios e subvenções. 10 111 -    decretar as leis complementares     à Lei Orgânica;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-II",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "dispor sobre os tributos de competência municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-III",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "criar e extinguir cargos e funções, bem como fixar e alterar vencimentos e outras vantagens pecuniárias;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-IV",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "decretar, estipulando   as condições, e pelo voto da maioria dos Vereadores, o arrendamento,      o aforamento     ou a alienação de próprios municipais, bem como a aquisição de outros;               . -    VII -",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-V",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "legislar sobre concessão de serviços públicos do Município; dispor sobre a divisão territorial do Município, respeitada a legislação federal e estadual;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-VI",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "criar, reformar ou extinguir repartições municipais, assim entendidas as que forem diretamente subordinadas         ao Prefeito;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-VII",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "deliberar sobre empréstimos      e operações de crédito, bem como a forma e os meios de seu pagamento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-VIII",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "transferir,  temporária   ou definitivamente,    a sede do Município, quando o interesse público o exigir;              ,",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-IX",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "cancelar, nos termos da lei, a dívida ativa do Município, autorizar a suspensão de sua cobrança e a relevacão de ônus e juros.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 26.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É da competência   exclusiva da Câmara    Municipal:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-I",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "eleger sua Mesa, elaborar seu Regimento Interno e dispor sobre sua organização     e polícia; 11 - propor a criação e extinção dos cargos de seu quadro de pessoal e serviços, dispor sobre o provimento dos mesmos, bem como fixar e alterar seus vencimentos e outras vantagens; 111 - emendar a Lei Orgânica ou reformá-Ia;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-II",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "representar,    pela maioria de seus membros, para efeito de intervenção no Município,          nos termos do disposto no art. ) 50 da Constituição    Estadual;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-III",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "autorizar convênios e contratos do interesse municipal; V I - exercer a fiscalização da administração       financeira e orçamentária do Município, com o auxílio do Tribunal de Contas do Estado e julgar as contas do Prefeito;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-IV",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "fixar os subsídios de seus membros e do Prefeito, nos termos da legislação federal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-V",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "autorizar     o Prefeito a contrair empréstimo,         regulando as suas condições e respectiva aplicação, respeitada a legislação federal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-VI",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "autorizar     o Prefeito a afastar-se do Município por mais de dez dias ou do Estado por qualquer tempo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-VII",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "convocar qualquer Secretário, Diretor de Autarquia ou de serviço diretamente subordinado        ao Prefeito, para prestar informações;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-VIII",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "mudar, temporária ou definitivamente,         a sua sede;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-IX",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "solicitar informações      por escrito ao Executivo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-X",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "- dar posse ao Prefeito, bem como declarar extinto o seu mandato nos casos previstos em lei; 11",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-XI",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "conceder licença ao Prefeito;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-XII",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "suspender a execução, no todo ou em parte, de qualquer ato, resolução ou regulamento municipal, que haja sido, pelo Poder Judiciário, declarado infringente da Constituição, da Lei Orgânica ou das leis; \\         XVI - criar comissão de inquérito; \\ \\ ~~~_II - t?~a~ a inciativa de projetos de leis estaduais, na forma da Cons- -~.-.,,-\\     tnuição Estadual; -      // (XVIII:-: resolver, em sessão secreta, sobre a nomeação dos membros dos -,       órgãos de cooperação governamental; )(IX - propor ao Prefeito a execução de qualquer obra ou medida que interesse à coletividade ou ao serviço público. Da Comissão Representativa",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 27.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Comissão         Representativa funciona nos interregnos das sessões legislativas ordinárias   da Câmara Municipal e tem as seguintes atribuições:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "IV",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-27/inc-I",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "zelar pelas prerrogativas do órgão Legislativo; 11 -   zelar pela observância da Lei Orgânica; 111-    autorizar o Prefeito a se ausentar do Município e do Estado;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27/inc-II",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "convocar Secretários do Munincípio ou titulares de Diretorias equivalentes;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27/inc-III",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "convocar extraordinariamente     a Câmara;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27/inc-IV",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "tomar medidas urgentes de competência da Câmara Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27/par-unico",
+   "pai": "art-27",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As normas relativas ao desempenho das atribuições da Comissão Representativa são estabelecidas no Regimento Interno da Câmara.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 28.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Comissão Representativa, constituída por número ímpar de Vereadores, é composta pela Mesa e pelos demais membros eleitos com os respectivos suplentes. § I? - A presidência da Comissão Representativa cabe ao Presidente da Câmara, cuja substituição se faz na forma regimental.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/par-unico",
+   "pai": "art-28",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - O número de membros eleitos da Comissão Representativa é o necessário para perfazer, no mínimo, a maioria absoluta da Câmara, computado o número de membros natos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-29",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 29.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Comissão Representativa deve apresentar relatório dos trabalhos por ela realizados, quando do reinício do período de funcionamento ordinário da Câmara. 12 Das Leis e do Processo Legislativo Art , 36 - O processo legislativo compreende a elaboração de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-29/inc-I",
+   "pai": "art-29",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "emendas à Lei Orgânica; -       11 - 111 -",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-29/inc-II",
+   "pai": "art-29",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "leis complementares à Lei Orgânica; leis ordinárias; decretos legislativos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-29/inc-III",
+   "pai": "art-29",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "resoluções.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-30",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 30.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São, ainda, entre outras, objeto de deliberação da Câmara Municipal, na forma do Regimento Interno:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "V",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-30/inc-I",
+   "pai": "art-30",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "autorizações; 11 -   indicações; 11I -   requerimentos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 31.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Lei Orgânica pode ser emendada mediante proposta:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31/inc-I",
+   "pai": "art-31",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "de Vereadores; ou",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31/inc-II",
+   "pai": "art-31",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "do Prefeito.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31/par-unico",
+   "pai": "art-31",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No caso do item I, a proposta deverá ser subscrita, no mínimo, por um terço dos membros da Câmara Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 32.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em qualquer dos casos do artigo anterior, a proposta será discutida e votada em duas sessões, dentro de sessenta dias, a contar de sua apresentação ou recebimento, e havida por aprovada quando obtiver em ambasas votações, dois terços dos votos dos membros da Câmara Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 33.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A emenda à Lei Orgânica será promulgada pela Mesa da Câmara, com o respectivo número de ordem.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-34",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 34.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As leis complementares somente serão aprovadas se obtiverem maioria absoluta dos votos dos membros da Câmara Municipal, observados os demais termos da votação das leis ordinárias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-35",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 35.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A iniciativa das leis municipais, salvo nos casos de competência exclusiva, cabe a qualquer membro da Comissão da Câmara Municipal, ao Prefeito ou ao eleitorado, que a exercerá em forma de moção articulada, subscrita, no mínimo, por um por cento do eleitorado do Município. 13",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-36",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 36.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No início ou em qualquer fase da tramitação de projeto de lei de iniciativa exclusiva do Prefeito, este poderá solicitar à Câmara Municipal que o aprecie no prazo de quarenta e cinco dias a contar do pedido. § I? - Na falta de deliberação dentro do prazo estipulado neste artigo, considerar-se-á aprovado o projeto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-36/par-unico",
+   "pai": "art-36",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - Os prazos deste artigo e seus parágrafos não correrão nos períodos de recesso da Câmara Municipal. -         § 3? - O disposto neste artigo não se aplica aos projetos de leis complementares.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-37",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 37.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A requerimento do Vereador, os projetos de lei, decorridos trinta dias de seu recebimento, serão incluídos na Ordem do Dia, mesmo sem 'parecer .",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-37/par-unico",
+   "pai": "art-37",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O projeto somente pode ser retirado da Ordem do Dia a requerimento do autor, aprovado pelo plenário.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-38",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 38.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O projeto de lei com parecer contrário de todas as Comissões é tido como rejeitado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-39",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 39.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A matéria constante de projeto de lei rejeitado ou não sancionado, assim como a de proposta de emenda à Lei Orgânica, rejeitada ou havida por prejudicada, somente poderá constituir objeto de novo projeto, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros da Câmara, ressalvadas as proposições de iniciativa do Prefeito.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-40",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 40.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os projetos de lei aprovados pela Câmara Municipal serão enviados ao Prefeito que, aquiescendo, os sancionará, sendo-lhe remetidos, para o mesmo fim, os projetos ndos por aprovados, nos termos do art. 43, § I? . § I? - Se o Prefeito julgar o projeto, no todo ou em parte, inconstitucional ou contrário ao interesse público, veta-Io-á, totál ou parcialmente, dentro de quinze dias úteis, contados daquele em que o recebeu, comunicando os motivos do veto ao Presidente da Câmara, dentro de 48 horas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-40/par-1",
+   "pai": "art-40",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - O silêncio do Prefeito, decorrido o prazo de que trata o parágrafo anterior, importa em sanção, cabendo ao Presidente da Câmara promulgar a lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-40/par-2",
+   "pai": "art-40",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - Devolvido o projeto à Câmara, será ele submetido, dentro de quarenta e cinco dias, contados da data de seu recebimento, com ou sem parecer, a discussão única, considerando-se aprovado se, em votação pública, obtiver o voto favorável de dois terços da Câmara, caso em que será enviado ao Prefeito, para promulgação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-40/par-3",
+   "pai": "art-40",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - Esgotado, sem deliberação, o prazo estabelecido no parágrafo anterior, o veto será considerado mantido.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-40/par-4",
+   "pai": "art-40",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - Não sendo a lei promulgada dentro de quarenta e oito horas pelo Prefeito, nos casos dos §§ 2? e 3? deste artigo, o Presidente da Câmara a promulgará em igual prazo. 14 Art , 48 - Nos casos do art. 36, item IV e V, considerar-se-à, com a v6- (ação da Redação Final, encerrada a elaboração do Decreto ou Resolução, cabendo ao Presidente da Câmara a sua promulgação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-41",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 41.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São objeto de lei complementar, dentre outros, o Código de Obras, o Código de Posturas, Código Tributário e Fiscal, Lei do Plano Diretor e Estatuto dos Funcionários Públicos. -            § I? - Os projetos de lei complementar serão revistos por Comissão Especial da Câmara.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-41/par-1",
+   "pai": "art-41",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - Dos projetos de códigos e respectivas exposições de motivos, antes de submetidos à discussão da Câmara, será dada divulgação com a maior amplitude possível.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-41/par-2",
+   "pai": "art-41",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - Dentro de quinze dias, contados da data em que se publicarem os projetos referidos no parágrafo anterior, qualquer cidadão poderá apresentar sugestões sobre eles ao Presidente da Câmara, que as encaminhará à Comissão Especial, para apreciação. Do Orçamento",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-42",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 42.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os orçamentos anual e plurianual de investimentos do Município obedecerão às disposições da Constituição Federal e da Estadual, às normas gerais de direito financeiro e às disposições desta Lei Orgânica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "VI",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-43",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 43.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os projetos de lei que abram créditos, fixem vencimentos e vantagens dos servidores públicos, concedam subvenção ao auxílio ou, de qualquer modo, autorizem, criem ou aumentem a despesa pública, somente receberão emendas nas comissões da Câmara.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 44.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O projeto de lei orçamentária anual será apreciado pela Comissão de Finanças e não pode receber emendas de que decorra aumento da despesa global ou de cada órgão, fundo, projeto ou programa, ou que vise a modificar-lhe o montante, a natureza ou o objetivo, aplicando-se, quanto às emendas, o disposto no artigo anterior. J Ar t , 53 - É final o pronunciamento das Comissões, nos casos dos artigos 51 e 52, salvo se um terço dos membros da Câmara pedir ao Presidente a votação em plenário, que se fará sem discussão, de emenda aprovada ou rejeitada nas comissões.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-45",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 45.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O projeto de lei orçamentária anual deve ser remetido à Câmara Municipal até 30 de setembro de cada exercício, e à sanção até 30 de novembro. 15 § )? -   Se a Câmara Municipal não o devolver para sanção até o dia previsto, o projeto será promulgado como lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-45/par-1",
+   "pai": "art-45",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - O Prefeito pode enviar mensagem à Câmara para propor a modificação do projeto de lei orçamentária, enquanto não estiver concluída a votação da parte cuia alteração foi proposta. _: --       Art. 55 - O numerário correspondente às dotações orçamentárias da Câmara Municipal será entregue no início de cada mês, em quotas correspondentes a um duodécimo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-45/par-2",
+   "pai": "art-45",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nos créditos especiais autorizados por lei, em favor da Câmara, deve a entrega do numerário verificar-se, no máximo, quinze dias após a promulgação da lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-46",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 46.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O orçamento conterá as dotações suficientes ao atendimento do Plano de Distribuição de Auxílios e Subvenções.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-46/par-unico",
+   "pai": "art-46",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Somente em caso de absoluta necessidade ou de calamidade pública, reconhecidos por dois terços dos Vereadores, podem ser concedidos auxílios e subvenções que não constarem do respectivo Plano.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-47",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 47.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os créditos especiais e extraordinários não podem ter vigência além do exercício em que forem autorizados, salvo se o ato de autorização for promulgado nos últimos quatro meses daquele exercício, caso em que, reabertos nos limites dos seus saldos, poderão viger até o término do exercício financeiro subseqüente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-48",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 48.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os créditos suplementares só podem ser abertos no segundo semestre do exercício, e os especiais a partir do segundo trimestre, salvo disposição expressa em contrário.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-48/par-unico",
+   "pai": "art-48",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A abertura dos créditos suplementares e especiais depende da existência de recursos disponíveis para a sua cobertura. CAPÍTULO 111 Do Órgão Executivo Do Prefeito",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-49",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 49.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Prefeito é o titular do órgão Executivo, auxiliado pelos Secretários do Município e Diretores Gerais de Autarquias. 16 I",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-49/par-1",
+   "pai": "art-49",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de impedimento temporário       do Prefeito, assumirá o cargo o Presidente da Câmara Municipal. Art , 60 - O Prefeito prestará compromisso    e tomará posse perante a Câmara Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-49/par-2",
+   "pai": "art-49",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Prefeito prestará, no ato da posse, o seguinte -        compromisso \"Prometo cumprir e fazer cumprir a Lei Orgânica, as leis da União, do Estado e do Município, e exercer o meu cargo sob a inspiração do patriotismo, da lealdade e da honra\".",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-50",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 50.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "] - O Prefeito não pode afastar-se do Município por mais de 10 dias, ou do Estado, por qualquer tempo, sem prévia autorização da Câmara.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-51",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 51.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Prefeito não pode exercer outra função pública, nem participar da empresa privada que mantenha transações ou contratos com o Município. SEÇÃO 11 Das Atribuições do Prefeito Art , 63 - Ao Prefeito, como chefe da administração, cabe executar as deliberações da Câmara Municipal, dirigir, fiscalizar e defender os interesses do Município e adotar, de acordo com a lei, todas as medidas administrativas de utilidade pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 52.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Compete privativamente    ao Prefeito: 1 - a iniciativa das leis orçamentárias, das que versem sobre matéria financeira e das que criem ou aumentem a despesa pública;• 11- a iniciativa das leis que criem ou extingam cargos e funções e aumentem vencimentos, exceto os da Secretaria da Câmara; 111- prover cargos, funções e empregos municipais, praticar os atos administrativos referentes aos servidores municipais, na forma da lei, salvo os da Secretaria da Câmara;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-I",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a iniciativa de leis que criem ou suprimam os órgãos a ele direta- \"*             mente subordinados;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-II",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "dispor sobre a estruturação, atribuições e funcionamento dos ór- 'f             gãos da administração municipal; •        VI - sancionar, promulgar e fazer publicar as leis e expedir decretos e regulamentos para a sua execução;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-III",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "vetar projetos de lei, nos termos desta Lei Orgânica;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-IV",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "apresentar anualmente, à Câmara, relatório sobre o estado das obras e dos serviços municipais; 17 r",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-V",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "enviar a proposta de orçamento à Câmara;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-VI",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "prestar, dentro de vinte dias, as informações solicitadas pela Câmara, referentes aos negócios públicos do Município;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-VII",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "representar o Município;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-VIII",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "convocar extraordinariamente          a Câmara quando o interesse da administração      o exigir;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-IX",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "contrair empréstimos,        mediante prévia autorização da Câmara;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-X",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "decretar a desapropriação        por necessidade ou utilidade pública ou -     XV - in teresse social; administrar    os bens e as rendas municipais,         promover o lançamento, a fiscalização e a arrecadação de tributos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-XI",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "propor o arrendamento,         o aforamento    ou a alienação de próprios municipais, bem como a aquisição de outros;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-XII",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "planejar e promover a execução dos serviços públicos municipais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-XIII",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "propor convênios, ajustes e contratos de interesse municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-XIV",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "conceder auxílios, prêmios e subvenções, nos limites das respectivas verbas orçamentárias          e do Plano de Distribuição     prévia e, anualmente aprovado pela Câmara;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-XV",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "XV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "providenciar    sobre o ensino público;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-XVI",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "XVI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "propor a divisão administrativa         do Município, de acordo com a lei. SEÇÃO nr Da Responsabilidade do Prefeito Art , 65 - Os crimes de responsabilidade,      bem como as infrações político-administrativas do Prefeito são os definidos em lei federal, obedecidas as normas de processo de julgamento. Dos Secretários do Município",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-53",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 53.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os secretários do Município, de livre nomeação e demissão pelo Prefeito, são escolhidos dentre brasileiros, maiores de 2) anos, no gozo dos direitos políticos e estão sujeitos, desde a posse, às mesmas incompatibilidades e proibições estabelecidas para os Vereadores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "IV",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-54",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 54.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Além das atribuições        fixadas em lei ordinária,    compete   aos secretários do Município:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-54/inc-I",
+   "pai": "art-54",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "orientar, coordenar e superintender      as atividades dos órgãos e entidades da administração  municipal,      na área de sua competência; 18 11- referendar os atos e decretos do Prefeito e expedir instruções para a execução das leis, decretos e regulamentos relativos aos assuntos de suas Secretarias; 111- apresentar ao Prefeito relatório anual dos serviços realizados por suas Secretarias;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-54/inc-II",
+   "pai": "art-54",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "comparecer à Câmara Municipal nos casos previstos nesta Lei Orgânica;                                                  . - -,       V - praticar os atos pertinentes às atribuições que Ihes forem delegadas pelo Prefeito.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-54/par-unico",
+   "pai": "art-54",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os decretos, atos e regulamentos referentes aos serviços autônomos serão subscritos pelo Secretário de Administração.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-55",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 55.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Aplica-se aos Diretores dos serviços autárquicos   ou autônomos, no que couber, o disposto nesta Seção. Dos Servidores Municipais",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-56",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 56.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São servidores do Município todos quantos percebam pelos cofres municipais, reservando-se a denominação de funcionários para os que integram o sistema classificado de cargos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "V",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-57",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 57.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Lei complementar estabelecerá o regime jurídico dos funcionários municipais, respeitados os princípios estabelecidos nesta Lei Orgânica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-58",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 58.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Quadro de Funcionários pode ser constituído de classes, carreiras funcionais ou de cargos isolados, classificados dentro de um sistema ou, ainda, dessas formas conjugadas, de acordo com a lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-58/par-unico",
+   "pai": "art-58",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O sistema de promoções obedece não só ao critério de merecimento, avaliado objetivamente, como ao de antigüidade, salvo quanto ao cargo final, cujo acesso será por merecimento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-59",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 59.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os cargos e funções públicas municipais são acessíveis a todos os brasileiros. § I? -  A primeira investidura em cargo público depende de aprovação prévia em concurso público de provas ou de provas e títulos, salvo os casos indicados em lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-59/par-1",
+   "pai": "art-59",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - Prescinde de concurso a nomeação para cargos em comissão, declarados em lei de livre nomeação e exoneração.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-59/par-2",
+   "pai": "art-59",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - A admissão dos demais servidores será obrigatoriamente precedida de prova de habilitação. 19",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-60",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 60.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São estáveis, após dois anos de exercício, os funcionários nomeados por concurso.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-61",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 61.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os funcionários estáveis perderão o cargo em virtude de sentença judicial ou mediante processo administrativo, em que lhes seja assegurada ampla defesa. -        Parágrafo único - Invalidada, por sentença, a demissão, o funcionário será reintegrado e quem lhe ocupava o lugar, exonerado ou, se detinha outro cargo, a este reconduzido, sem direito a indenização.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 62.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficará em disponibilidade remunerada, com vencimentos proporcionais ao tempo de serviço, o funcionário estável cujo cargo for declarado extinto ou desnecessário pelo órgão a que servir, podendo ser aproveitado em cargo compatível, a critério da administração.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-63",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 63.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O tempo de serviço público federal, estadual e de outros municípios é computado integralmente para efeitos de aposentadoria e disponibilidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-64",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 64.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O funcionário investido em mandato eletivo federal, estadual ou municipal remunerado, fica afastado do exercício do cargo municipal e somente por antigüidade pode ser promovido.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-64/par-unico",
+   "pai": "art-64",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O período de exercício de mandato federal, estadual ou municipal remunerado é contado para efeito de promoção por antigüidade e aposentadoria.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-65",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 65.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São assegurados aos funcionários abono familiar, avanços trienais, adicionais por tempo de serviço e licença-prêmio por decênio de serviço, a qual, não gozada, pode ser computada em dobro como tempo de serviço.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-66",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 66.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os vencimentos dos funcionários municipais não podem exceder aos limites máximos de remuneração fixados em lei federal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-67",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 67.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os vencimentos dos cargos do Legislativo não podem ser superiores aos pagos pelo Executivo, para cargos de atribuições iguais ou assemelhadas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-67/par-unico",
+   "pai": "art-67",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Respeitado o disposto neste artigo, é vedada a vinculação ou equiparação de qualquer natureza para o efeito de remuneração do pessoal do serviço público municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-68",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 68.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É vedada a participação de servidores no produto da arrecadação de tributos e multas, inclusive da dívida ativa. 20",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-69",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 69.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É vedada a acumulação     remunerada de cargos e funções públicas, exceto:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-69/inc-I",
+   "pai": "art-69",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a de juiz com um cargo de professor; 11-   a de dois cargos de professor;                  . 111-   a de um cargo de professor com outro técnico ou científico; -    \"it",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-69/inc-II",
+   "pai": "art-69",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-69/inc-III",
+   "pai": "art-69",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a de dois cargos privativos de médico; a de outros cargos na forma estabelecida na legislação federal. § I? - Em qualquer dos casos, a acumulação somente é permitida quando há correlação de matérias e compatibilidade de horários.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-69/par-1",
+   "pai": "art-69",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - A proibição de acumular estende-se a cargos, funções ou empregos em autarquias, empresas públicas e sociedades de economia mista.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-69/par-2",
+   "pai": "art-69",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - A vedação prevista neste artigo não se aplica aos aposentados, no que se refere ao exercício de mandato eletivo, de um cargo em comissão ou a contrato para prestação de serviços técnicos ou especializados. Art , 83 - O funcionário é aposentado:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-69/par-2/inc-I",
+   "pai": "art-69/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "por invalidez; 11- compulsoriamente, aos setenta anos de idade; 111- voluntariamente,  após trinta e cinco anos de serviço se do sexo masculino, ou após trinta anos de serviço, se do sexo feminino.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 70.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os proventos da aposentadoria     são:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70/inc-I",
+   "pai": "art-70",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "integrais, quando o funcionário:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70/inc-I/ali-a",
+   "pai": "art-70/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "se valer do disposto no item 111do artigo anterior;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70/inc-I/ali-b",
+   "pai": "art-70/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "se invalidar por acidente em serviço, por moléstia profissional       ou doença grave, contagiosa ou incurável, especificada em lei; ~ 11- proporcionais ao tempo de serviço, quando o funcionário             não l '7                 contar o tempo previsto do item 111do artigo anterior. fi' § I? -   Os proventos da inatividade devem ser revistos sempre que, por alteração do poder aquisitivo da moeda, se modificarem os vencimentos dos funcionários em atividade. 21",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70/par-unico",
+   "pai": "art-70",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - Em nenhum caso, ressalvado o disposto no parágrafo anterior, os provemos da inatividade podem exceder a remuneração percebida na atividade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-71",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 71.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O exercício em cargo que sujeite o funcionário a atividade em zonas ou locais insalubres e a execução de trabalho com risco de vida e saúde, é considerado como fator de valorização do respectivo nível de ven- . -   cimento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-72",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 72.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município responde pelos danos que seus. servidores, no exercício de suas funções, causem a terceiros.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-72/par-unico",
+   "pai": "art-72",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Cabe ao Município a ação regressiva contra o servidor responsável, em caso de culpa ou dolo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-73",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 73.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O regime jurídico dos servidores admitidos em serviço de caráter temporário ou contratados para funções de natureza técnica e especializada é o estabelecido na legislação própria.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-74",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 74.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É vedada, a quantos prestem serviços ao Município, atividade político-partidária nas horas e locais de trabalho.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-75",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 75.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município permitirá aos seus servidores, na forma da lei, a conclusão de cursos em que estejam inscritos ou em que venham a se inscrever.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 76.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É dever do Município, através de órgão de classe, dar assistência e tratamento aos servidores e dependentes atingidos por câncer, lepra, malária, cardiopatia grave, doenças mentais, cegueira evolutiva, tuberculose e quaisquer moléstias infecto-contagiosas ou contraídas em locais de trabalho. * I? - Incumbe, também, ao Município, sem prejuízo do dispositivo neste artigo, assegurar a seus servidores e dependentes assistência médica, cirúrgica e hospitalar, odontológica e social, nos termos da lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76/par-1",
+   "pai": "art-76",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - Os benefícios deste artigo são extensivos ao Prefeito, Secretários, Diretores de Autarquias e Vereadores quando no exercício de suas funções ou mandatos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76/par-2",
+   "pai": "art-76",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - Falecido o servidor, seus dependentes não perdem os direitos a assistência e tratamento previstos neste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-77",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 77.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Aos servidores não amparados por legislação especial do Município são assegurados os direitos, garantias e vantagens que a legislação social atribuir aos trabalhadores. 22 --      .~~-------------------------- Dos Conselhos Municipais",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-78",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 78.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os Conselhos Municipais são órgãos de cooperação governamental que têm por finalidade auxiliar a Administração naorientação, \"''-'        planejamento, interpretação e julgamento da matéria de sua competência: -       iJ",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "IV",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-79",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 79.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A lei especificará as atribuições de cada Conselho, sua organização, composição, funcionamento, forma de nomeação de titular e suplente e prazo de duração do mandato.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 80.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os Conselhos Municipais são compostos por um número ímpar de membros, observando, quando for o caso, a representatividade da administração, das entidades públicas, associativas, classistas e dos contribuintes. TÍTULO 11 Da Ordem Econômica e Social",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-81",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 81.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município organizará a ordem econômica e social, conciliando a liberdade de iniciativa com os interesses da coletividade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-82",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 82.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município prestará assistência técnica aos trabalhadores rurais, aos pequenos agricultores e às suas organizações legais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-82/inc-IV",
+   "pai": "art-82",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Alteração de denominação oficial de próprios, vias e logradouros.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13/1977"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-83",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 83.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município poderá promover desapropriação de imóvel, por necessidade ou utilidade pública ou para atender interesse social.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-84",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 84.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município regulará suas atividades sociais, favorecendo e coordenando as iniciativas particulares que visem esse objetivo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 85.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A lei disporá sobre o regime das empresas concessionárias ou permissionárias de serviço público municipal, estabelecendo: i",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-I",
+   "pai": "art-85",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "obrigatoriedade de manter serviços adequados; 11- tarifas que permitam a justa remuneração do capital, o melhoramento e a expansão dos serviços e assegurem o equilíbrio Q econômico-financeiro da concessão ou permissão.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/par-unico",
+   "pai": "art-85",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A fiscalização dos serviços referidos neste artigo será feita pelo Município através de seus órgãos próprios e, nas atividades afetas a outras esferas do poder público, através de convênio. 23 TjTULOl1I Da Familia, da Educação e da Cultura",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-86",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 86.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município dispensará proteção especial ao casamento e à família. -        Parágrafo único - O Município proporcionará assistência à materni- -   dade à infância e à adolescência, podendo para esses fins realizar convênios, inclusive com entidades assistenciais particulares.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-87",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 87.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A educação é direito de todos e dever do Município. § I? -   O Município ministrará o ensino preferentemente nos primeiros graus, respeitando os princípios da obrigatoriedade e da gratuidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-87/par-1",
+   "pai": "art-87",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - A educação de excepcionais será promovida supletivamente pelo Município.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-87/par-2",
+   "pai": "art-87",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - O Município favorecerá por todos os meios o ensino supletivo de adolescentes e adultos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-87/par-3",
+   "pai": "art-87",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - O ensino de iniciativa particular merecerá o amparo técnico e financeiro do Município, através de convênios, inclusive mediante bolsas de estudo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-87/par-4",
+   "pai": "art-87",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? - O Município instituirá órgãos destinados à realização de atividades de caráter educativo e cultural e promoverá, pelos meios a seu alcance, a preparação dos pais para a educação a ser dada no lar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-88",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 88.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município estimulará o desenvolvimento das ciêncías, das letras e das artes; incentivará a pesquisa e o ensino científico e tecnológico; amparará a cultura e protegerá de modo especial os documentos, as obras e os locais de valor histórico ou artístico, os monumentos e as paisagens naturais notáveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-89",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 89.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município auxiliará as organizações beneficentes, culturais e desportivas amadoristas regulares.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-90",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 90.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município aplicará em cada ano, vinte por cento, pelo menos, da receita tributária municipal, na manutenção e desenvolvimento do ensino, nos termos da Constituição Federal e da legislação pertinente. TjTULOIV Disposições Gerais, Transitórias   e Finais",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-91",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 91.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Incumbe ao Município: 24",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-91/inc-I",
+   "pai": "art-91",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "tomar medidas para assegurar a celeridade na tramitação dos expedientes administrativos, punindo, disciplinarmente, nos termos da lei, os servidores faltosos; 11- facilitar, pelos meios de comunicação social, a difusão de transmissões de interesse educacional do povo; r,",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-91/inc-II",
+   "pai": "art-91",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "facilitar aos partidos políticos, às associações culturais, científicas, desportivas, recreativas, educacionais e de classe, o uso gratuito de casas de espetáculo, parques, estádios e outros próprios -             ou logradouros adequados, de sua propriedade. Art. ]06 - O Município deve fazer o levantamento geral do seu patrimônio, mediante inventário analítico, na sede de cada repartição ou serviço e registro sintético na contabilidade respectiva.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-91/par-unico",
+   "pai": "art-91",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os bens patrimoniais   do Município   devem ser classificados:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-91/par-unico/inc-I",
+   "pai": "art-91/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pela sua natureza; 11- em relação a cada serviço.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-92",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 92.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Será feita, anualmente, a conferência da escrituração patrirnonial com os bens existentes; e, na prestação geral de contas de cada exercício, será incluído o inventário de todos os bens municipais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-93",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 93.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nos serviços, compras, obras e concessões do Município será adotada a licitação. Art , 109- Reverterão ao Município, ao termo da vigência de qualquer concessão para serviço público local, com privilégio exclusivo, todos os bens e materiais do mesmo serviço, independentemente de qualquer indenização.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-94",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 94.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É lícito a qualquer município obter informações e certidões sobre assuntos referentes a administração municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-95",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 95.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Todo cidadão é parte legítima para pleitear, perante os poderes públicos competentes, a declaração de nulidade ou anulação de atos lesivos ao patrimônio municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-96",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 96.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os logradouros, obras e serviços públicos só poderão receber nomes de pessoas falecidas pelo menos há um ano.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-97",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 97.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A lei disporá sobre a denominação      de logradouros,   obras e serviços municipais. 25",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-98",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 98.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município instituirá, na forma da lei, o prêmio de \"Cidade de Porto Alegre\", que será conferido a entidades oficiais amadoristas, em todos os ramos desportivos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-99",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 99.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os cemitérios terão caráter secular e serão administrados pela autoridade municipal. -         § I? - seus ritos. É permitido a todas as confissões religiosas praticarem   neles os",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-99/par-unico",
+   "pai": "art-99",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? -    As associações religiosas poderão manter cemitérios partículares.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-100",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 100.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Continua em vigor a legislação atual que disciplina o Código de Obras, o Código de Posturas, o Código Tributário, o Plano Diretor e .0 Estatuto dos Funcionários  Públicos Municipais, ora considerados como leis complementares.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-101",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 101.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município fará o levantamento, no prazo de um ano, dos bens imóveis de valor histórico e cultural, de expressiva tradição para a cidade, para fins de futuro tombamento e declaração de utilidade pública, nos termos da lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-101/par-unico",
+   "pai": "art-101",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A relação constará de lei a ser examinada pela Câmara Municipal. Art. ] 18 - O Município fará completo inventário de seu bens imóveis, no prazo de dois anos, atualizando seus valores e arrolando inclusive direitos e ações sobre os mesmos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-102",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 102.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município, no prazo de um ano, arrolará todos os monumentos, estátuas, pedestais, bustos, quadros artísticos e bens semelhantes do patrimônio municipal, para fins de relacionamento, divulgação, reconstituição e outras medidas julgadas acertadas. Art. ]20 - O Prefeito Municipal, dentro de seis meses, a contar da vigência desta Emenda à Lei Orgânica, remeterá mensagem à Câmara, disciplinando, na forma do disposto no art. 93, os Conselhos Municipais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-102/par-unico",
+   "pai": "art-102",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São mantidos os atuais Conselhos enquanto não viger a legislação a que se refere este artigo. 26",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-103",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 103.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Orgânica, promulgada em 3 de abril de ]948 e consolidada em 24 de setembro de ]962, com esta Emenda, após assinada pelos Vereadores presentes, entra em vigor na data de sua publicação. Câmara Municipal, aos 15- dias do mês de dezembro do ano de 1970. JOSÉ ALOISIO FILHO ~.'.~ Presidente -       fa Cleom Guatimozim 1? Vice-Presidente Lauro Rodrigues 2? Vice-Presidente João Salte 1? Secretário Aluízio Paraguassú 2? Secretário Wilson Arruda 3? Secretário Ábio Hervê Aleeu Collares César de Mesquita Elton Fensterseifer Ivan Castro Jorge Englert Marino Abrahão Martim Aranha Móses do Carmo Paulo Souza Pessoa de Brum Pozolo de Oliveira Rubens Aleântara a Esta Lei Orgânica foi promulgada em 3 de abril de 1948 e assinada pelos Vereadores Domingos Francisco Spolidoro, Presidente; Frederico C. T. f)   Bordini, 1? Secretário; João Ignácio da Silva Júnior, 2? Secretário; Antônio Jorge Achutti; Bonorino Butelli; Luiz de Almeida Bastos; Olmerindo Ruy Caporal; Tasso Vieira de Faria; Zacarias de Azevedo; Darei José da Rocha; lido Meneghetti; Roberto Landell de Moura; Aleides Gonzaga, Carlos de Morais Vellinho; Manoel Osório da Rosa; Derly de Azevedo Cha- 27 ves; José César de Mesquita; José Antônio Aranha; Ludolpho Boehl; José CarlosDaudt; tendo sido, em 21 de setembro de 1956, consolidada nos termos do Art. 4? da Emenda n? 3, sendo Presidente José Aloísio Filho, I? Secretário Dilvo Araújo e 2? Secretário Francisco Otaviano Gomes de MelIo, e tendo sido novamente consolidada em 24 de setembro de 1962, nos termos do art. 22 da Emenda n? 6, de 2 de janeiro de 1962, sendo Presidente Alberto André, I? Secretário Marino R. dos Santos e 2? Secretário Antônio Giudice. - 28 -   ., PROC. n:' 333/76 -   'j P.E.L.O. n? 42/76 EMENDA À LEI ORGÂNICA               N? 12 Dá nova redação ao artigo 18 da Lei Orgânica. A MESA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, nos termos do art , 40 da Lei Orgânica do Município de Porto Alegre, com a redação que lhe deu a Emenda n? 11, de 15 de dezembro de 1970, promulga a seguinte Emenda à referida Lei Orgânica e manda a todas as autoridades às quais couber o conhecimento e a execução desse ato, que o executem e o façam executar e observar fiel e inteiramente como nele se contém: EMENDA À LEI ORGÂNICA               N? 12 Art. I? - O art. 18, \"caput\",     da Lei Orgânica passa a vigorar com a seguinte redação: \"Art. 18 - A Câmara Municipal funciona com a presença, no mínimo, de um terço de seus membros e as deliberações são tomadas com a presença da maioria absoluta dos Vereadores e por maioria de votos, salvo os casos previstos nesta Lei Orgânica e no Regimento Interno\".",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-104",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 104.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? -   Esta Emenda à Lei Orgânica entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-105",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 105.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "? -    Revogam-se as disposições em contrário.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 16472,
+    "rotulo": "Emenda à Lei Orgânica nº 11, de 15 de dezembro de 1970"
+   },
+   "motivo": "comando_nao_reconhecido",
+   "detalhe": "nenhum comando de alteração foi extraído do texto desta norma",
+   "enderecos": [
+    "art-43",
+    "art-36",
+    "art-93"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 18423,
+    "rotulo": "Emenda à Lei Orgânica nº 12, de 24 de maio de 1976"
+   },
+   "motivo": "texto_indisponivel",
+   "detalhe": "o texto desta alteradora ainda não foi baixado ou extraído",
+   "enderecos": []
+  },
+  {
+   "alteradora": {
+    "idSapl": 21281,
+    "rotulo": "Emenda à Lei Orgânica nº 15, de 03 de dezembro de 1980"
+   },
+   "motivo": "texto_indisponivel",
+   "detalhe": "o texto desta alteradora ainda não foi baixado ou extraído",
+   "enderecos": []
+  },
+  {
+   "alteradora": {
+    "idSapl": 22738,
+    "rotulo": "Emenda à Lei Orgânica nº 16, de 08 de junho de 1984"
+   },
+   "motivo": "texto_indisponivel",
+   "detalhe": "o texto desta alteradora ainda não foi baixado ou extraído",
+   "enderecos": []
+  },
+  {
+   "alteradora": {
+    "idSapl": 23253,
+    "rotulo": "Emenda à Lei Orgânica nº 17, de 09 de dezembro de 1985"
+   },
+   "motivo": "texto_indisponivel",
+   "detalhe": "o texto desta alteradora ainda não foi baixado ou extraído",
+   "enderecos": []
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-36",
+   "desde": "1970-12-15"
+  },
+  {
+   "id": "art-36/par-unico",
+   "desde": "1970-12-15"
+  },
+  {
+   "id": "art-43",
+   "desde": "1970-12-15"
+  },
+  {
+   "id": "art-93",
+   "desde": "1970-12-15"
+  }
+ ]
+}
