@@ -1,0 +1,60 @@
+{
+ "idSapl": 50190,
+ "rotulo": "Lei Complementar municipal nº 1.043, de 12 de junho de 2025",
+ "sha256Origem": "f05a0c158474fa8e63ce9266caa541bb3794c11d23d022068f439c94045b50ac",
+ "estruturadoEm": "2026-11-18T09:25:54.082Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "1043",
+  "ano": "2025",
+  "data": "2025-06-12",
+  "epigrafe": "PLCL Nº 25/23",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI COMPLEMENTAR Nº 1.043, DE 12 DE JUNHO DE 2025. Inclui arts. 69-A e 70-A na Lei Complementar nº 992, de 7 de novembro de 2023 – que estabelece normas gerais para o processo administrativo no âmbito da Administração Municipal Direta e da Administração Municipal Indireta e dá outras providências –, estabelecendo que concluída a instrução do processo administrativo, a Administração tem o prazo de até 45 (quarenta e cinco) dias para decidir, e suspendendo os prazos para interposição de recursos e para a prática de atos processuais nos dias compreendidos entre 20 de dezembro e 20 de janeiro, inclusive.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de junho de 2025.\nSebastião Melo\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído art. 69-A na Lei Complementar nº 992, de 7 de novembro de 2023, conforme segue:",
+   "blocoDeAlteracao": "“Art. 69-A. Concluída a instrução do processo administrativo, a Administração\ntem o prazo de até 45 (quarenta e cinco) dias para decidir, prorrogável por igual período,\nhavendo motivo justificado.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluído art. 70-A na Lei Complementar nº 992, de 2023, conforme segue:",
+   "blocoDeAlteracao": "“Art. 70-A. Os prazos para interposição de recursos e para a prática de atos\nprocessuais, pelas partes e seus advogados, no âmbito de processos administrativos, ficam\nsuspensos nos dias compreendidos entre 20 de dezembro e 20 de janeiro, inclusive.\n§ 1º Durante o período de suspensão de prazos de que trata o caput deste artigo,\nfica igualmente suspensa a realização de audiências e de sessões de julgamento de órgãos\ncolegiados no âmbito dos processos administrativos, exceto nos casos considerados urgentes e\ninadiáveis.\n§ 2º A suspensão de prazos de que trata o caput deste artigo não impede a prática\nde atos pela Administração Pública, especialmente aqueles considerados urgentes e inadiáveis.\n§ 3º Ressalvadas as hipóteses de afastamentos legais e regulamentares, as\nautoridades administrativas, civis e militares, os servidores públicos e os membros da Advocacia\nPública exercerão suas atribuições durante o período previsto no caput deste artigo.”"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.987,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

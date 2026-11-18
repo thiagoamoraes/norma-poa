@@ -1,0 +1,54 @@
+{
+ "idSapl": 49654,
+ "rotulo": "Lei Complementar municipal nº 1.031, de 30 de janeiro de 2025",
+ "sha256Origem": "919ffbe95bf43bbaa3a9f4da92ede01bc80d10d91bc5c2fdb7140252134fc7f2",
+ "estruturadoEm": "2026-11-18T09:25:54.109Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "1031",
+  "ano": "2024",
+  "data": "2024-12-30",
+  "epigrafe": "PLCL Nº 014/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI COMPLEMENTAR Nº 1.031, DE 30 DE DEZEMBRO DE 2024. Inclui §§ 5º e 6º no art. 71 da Lei Complementar nº 694, de 21 de maio de 2012 – que consolida a legislação sobre criação, comércio, exibição, circulação e políticas de proteção de animais no Município de Porto Alegre e revoga legislação sobre o tema –, estabelecendo que o infrator responsável por maus-tratos a animal arcará com as despesas de assistência veterinária e demais gastos decorrentes da agressão, na forma do Código     Civil,    inclusive,   ressarcindo  à Administração Pública Municipal os custos relativos aos serviços públicos de saúde veterinária prestados para o tratamento integral do animal e estabelecendo que o tutor denunciado por maus-tratos não poderá ter o animal devolvido ou ter animais sob a sua tutela.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam incluídos §§ 5º e 6º no art. 71 da Lei Complementar nº 694, de 21 de maio de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 71. ………………………………………………………………………….\n………………………………………………………………………………………\n§ 5º O infrator responsável por maus-tratos a animal, além do cumprimento das\npenas previstas neste artigo, arcará com as despesas de assistência veterinária e demais gastos\ndecorrentes da agressão, na forma do Código Civil, inclusive, ressarcindo à Administração\nPública Municipal os custos relativos aos serviços públicos de saúde veterinária prestados para o\ntratamento integral do animal.\n§ 6º O tutor denunciado por maus-tratos não poderá ter o animal devolvido ou ter\nanimais sob a sua tutela.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "data_diverge_do_catalogo"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.986,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

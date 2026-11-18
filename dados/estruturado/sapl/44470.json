@@ -1,0 +1,66 @@
+{
+ "idSapl": 44470,
+ "rotulo": "Lei Complementar municipal nº 961, de 18 de outubro de 2022",
+ "sha256Origem": "8030d7ac1aaad6b29e416d7a1dd83ba7513d7cd05e80066faddfb68b9786d627",
+ "estruturadoEm": "2026-11-18T09:25:54.276Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "961",
+  "ano": "2022",
+  "data": "2022-10-18",
+  "epigrafe": "LEI COMPLEMENTAR Nº 961, DE 18 DE OUTUBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui inc. III e §§ 1º e 2º no art. 1º e revoga o art. 2º da Lei Complementar nº 362, de 28 de dezembro de 1995, que cria o “Passe Livre” no sistema de transporte coletivo de Porto Alegre, incluindo no rol de isenção tarifária os dias de eleições majoritárias e proporcionais em nível federal, estadual e municipal nas quais o voto é obrigatório.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 18 de outubro de 2022.\nIdenir Cecchim,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "No art. 1º da Lei Complementar nº 362, de 28 de dezembro de 1995, alterada pela Lei Complementar nº 931, de 30 de dezembro de 2021, ficam incluídos inc. III e §§ 1º e 2º, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º .....................................................................................................................\n....................................................................................................................................\nIII – dias de eleições majoritárias e proporcionais em nível federal, estadual e municipal.\n§ 1º Os dias de vacinação serão determinados pelo Executivo Municipal por meio de decreto.\n§ 2º A isenção prevista para os dias referidos no inc. III do caput deste artigo restringe-se às eleições nas quais o voto é obrigatório.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica o Executivo Municipal autorizado a abrir créditos adicionais na Lei Orçamentária Anual (LOA), obedecidas as prescrições contidas nos incs. I a IV do § 1º do art. 43 da Lei Federal nº 4.320, de 17 de março de 1964, e alterações posteriores, bem como a proceder às alterações necessárias na Lei de Diretrizes Orçamentárias (LDO) e no Plano Plurianual (PPA), para atender as despesas decorrentes da execução desta Lei Complementar, utilizando-se como fonte de recursos o Tesouro Municipal."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica revogado o art. 2º da Lei Complementar nº 362, de 28 de dezembro de 1995."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.962,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

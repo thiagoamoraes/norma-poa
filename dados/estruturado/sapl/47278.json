@@ -1,0 +1,59 @@
+{
+ "idSapl": 47278,
+ "rotulo": "Lei Complementar municipal nº 988, de 03 de outubro de 2023",
+ "sha256Origem": "234d32448f082184194014d373f097b04421ca9942c8756fed6f3248cbd367b0",
+ "estruturadoEm": "2026-11-18T09:25:54.238Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "988",
+  "ano": "2023",
+  "data": "2023-10-03",
+  "epigrafe": "LEI COMPLEMENTAR Nº 988, DE 3 DE OUTUBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui inc. XII no caput, altera o § 3º e revoga o § 4º, todos do art. 3º da Lei nº 5.994, de 25 de novembro de 1987 – que cria o Fundo Municipal para Restauração, Reforma, Manutenção e Animação do Mercado Público de Porto Alegre –, e alterações posteriores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 3 de outubro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído inc. XII no caput e fica alterado o § 3º do art. 3º da Lei nº 5.994, de 25 de novembro de 1987, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º .....................................................................................................................\n....................................................................................................................................\nXII – cercamento de prédios públicos da Administração Indireta;\n....................................................................................................................................\n§ 3º A totalidade dos valores decorrentes das permissões, concessões onerosas de uso e condomínio, que tenham por objeto exploração comercial de serviços no Mercado Público de Porto Alegre, deverá ser destinada exclusivamente para melhorias da infraestrutura, restauro, reformas, serviços de manutenção e despesas correntes de custeio dessa mesma edificação.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica revogado o § 4º do art. 3º da Lei nº 5.994, de 25 de novembro de 1987."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.953,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

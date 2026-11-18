@@ -1,6 +1,6 @@
 # Cobertura do catálogo (fonte: SAPL da PGM)
 
-Gerado em 2026-11-17T17:22:07.549Z por `ingestao/relatorio-cobertura.mjs`. Não editar à mão.
+Gerado em 2026-11-18T09:25:53.638Z por `ingestao/relatorio-cobertura.mjs`. Não editar à mão.
 
 ## Integridade da coleta
 
@@ -8,7 +8,7 @@ Gerado em 2026-11-17T17:22:07.549Z por `ingestao/relatorio-cobertura.mjs`. Não 
 |---|---|---|---|---|
 | Lei Orgânica | 8 | 8 | 0 | concluída |
 | Emenda à Lei Orgânica | 68 | 68 | 0 | concluída |
-| Lei ordinária | 15150 | 15160 | 0 | concluída |
+| Lei ordinária | 15160 | 15160 | 0 | concluída |
 | Lei Complementar | 1092 | 1092 | 0 | concluída |
 
 Se "registros únicos" ≠ "total declarado" numa coleta concluída, a base mudou durante a coleta: recolher de novo o tipo.
@@ -75,14 +75,14 @@ Lacunas de numeração (por série):
 | 1990 | 1882 | 311 | 167 | 1404 | 75% |
 | 2000 | 2301 | 269 | 1995 | 37 | 2% |
 | 2010 | 1855 | 1625 | 211 | 19 | 1% |
-| 2020 | 2021 | 2006 | 5 | 10 | 0% |
-| **Total** | **15150** | **4964** | **2441** | **7745** | **51%** |
+| 2020 | 2031 | 2015 | 5 | 11 | 1% |
+| **Total** | **15160** | **4973** | **2441** | **7746** | **51%** |
 
-Formatos dos arquivos: pdf 3885 · html 2434 · docx 814 · ppt 246 · jpg 11 · doc 7 · htm 6 · odt 2
+Formatos dos arquivos: pdf 3893 · html 2434 · docx 815 · ppt 246 · jpg 11 · doc 7 · htm 6 · odt 2
 
 Lacunas de numeração (por série):
 
-- **Lei municipal** — 14776 registros, nº 1–14687; faltam 114: 6281, 6308, 6318, 6321, 6324–6325, 6327–6329, 6331–6332, 6387, 6632, 6793, 6800, 6861, 6940, 7199, 7201, 7332, 7364, 7384, 7715, 7747, 7912, 7921, 7936, 8103, 8405, 8450, 8588, 8631, 8693, 8715, 8909, 8919–8920, 8923, 8928–8929, 9047, 9058, 9190, 9216, 9218–9220, 9223, 9342, 9414, 9522–9551, 9633, 9662, 9679, 9769, 9793, 11010, 11191, 11790, 11954, 12225, 12326, 12328, 12396, 12600, 12631, 12689, 12826, 12889, 12958–12959, 13000, 13005–13006, 13038, 13097, 13206, 13262, 13390, 13408, 13727, 13928–13929, 14187, 14443; 194 número(s) repetido(s); não numéricos: 13.097, 12.959, 12.958, 12.246, 12.225, 3180A, 540B, 540A, 362A
+- **Lei municipal** — 14786 registros, nº 1–14697; faltam 114: 6281, 6308, 6318, 6321, 6324–6325, 6327–6329, 6331–6332, 6387, 6632, 6793, 6800, 6861, 6940, 7199, 7201, 7332, 7364, 7384, 7715, 7747, 7912, 7921, 7936, 8103, 8405, 8450, 8588, 8631, 8693, 8715, 8909, 8919–8920, 8923, 8928–8929, 9047, 9058, 9190, 9216, 9218–9220, 9223, 9342, 9414, 9522–9551, 9633, 9662, 9679, 9769, 9793, 11010, 11191, 11790, 11954, 12225, 12326, 12328, 12396, 12600, 12631, 12689, 12826, 12889, 12958–12959, 13000, 13005–13006, 13038, 13097, 13206, 13262, 13390, 13408, 13727, 13928–13929, 14187, 14443; 194 número(s) repetido(s); não numéricos: 13.097, 12.959, 12.958, 12.246, 12.225, 3180A, 540B, 540A, 362A
 - **Lei municipal-GP** — 1 registros, nº null–null; faltam 0; não numéricos: 12.811
 - **Lei municipal-Intendência** — 373 registros, nº 1–273; faltam 0; 94 número(s) repetido(s); não numéricos: 8.715, 8.693, 8.631, 8.588, 8.450, 8.405
 
@@ -108,5 +108,5 @@ Lacunas de numeração (por série):
 
 ## Normas sem texto no SAPL
 
-Total: 7924. A lista completa está em `dados/catalogo/sem-texto.tsv`.
+Total: 7925. A lista completa está em `dados/catalogo/sem-texto.tsv`.
 

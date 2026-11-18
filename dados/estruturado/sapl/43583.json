@@ -1,0 +1,67 @@
+{
+ "idSapl": 43583,
+ "rotulo": "Lei Complementar municipal nº 931, de 30 de dezembro de 2021",
+ "sha256Origem": "6e2f1ef4347060562a160b0636ca54991b3e6f9291dccbbb61fb982521e65f1c",
+ "estruturadoEm": "2026-11-18T09:25:54.359Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "931",
+  "ano": "2021",
+  "data": "2021-12-30",
+  "epigrafe": "LEI COMPLEMENTAR Nº 931, DE 30 DE DEZEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput do art. 1º e o caput do art. 2º, inclui incs. I e II no art. 1º e revoga o parágrafo único do art. 2º da Lei Complementar nº 362, de 28 de dezembro de 1995 – que cria o “Passe Livre” no Sistema de Transporte Coletivo de Porto Alegre e dá outras providências –, modificando as datas em que ocorre a isenção tarifária por essa instituída.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o caput e ficam incluídos incs. I e II no art. 1º da Lei Complementar nº 362, de 28 de dezembro de 1995, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica instituída a isenção tarifária denominada Passe Livre no sistema de\ntransporte coletivo por ônibus do Município de Porto Alegre, usufruível por todos os usuários do\nserviço nas seguintes datas:\nI – dia de Nossa Senhora dos Navegantes (2 de fevereiro);\nII – campanhas de vacinação de grande relevância e alcance, com preferência\npelas datas de maior mobilização do público alvo (‘Dias D’).” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o caput do art. 2º da Lei Complementar nº 362, de 1995, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º Os dias de Passe Livre serão fixados mediante decreto do Executivo\nMunicipal.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica revogado o parágrafo único do art. 2º da Lei Complementar nº 362, de 28 de dezembro de 1995."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.955,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

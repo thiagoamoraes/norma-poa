@@ -1,0 +1,64 @@
+{
+ "idSapl": 42236,
+ "rotulo": "Lei Complementar municipal nº 860, de 24 de setembro de 2019",
+ "sha256Origem": "2bfe55336f400604e061ecd56bb4564e2ee586385f8c3f3620abc58afffbfd56",
+ "estruturadoEm": "2026-11-18T09:25:54.566Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "860",
+  "ano": "2019",
+  "data": "2019-09-24",
+  "epigrafe": "PROC. Nº 1254/18",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "ementa": "PLCL Nº 019/18 LEI COMPLEMENTAR Nº 860, DE 24 DE SETEMBRO DE 2019. Altera o § 1º do art. 31 e inclui al. d no inc. III do caput do art. 37 na Lei Complementar nº 170, de 31 de dezembro de 1987, e alterações posteriores, alterando o rol de estabelecimentos incluídos na categoria de consumo residencial de água e incluindo associações recreativas, escolas de samba e entidades carnavalescas no rol das instituições beneficiárias da tarifa social do consumo de água. A PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obriga os §§ 5º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a seguinte Lei Complementar nº 860, de 24 de setembro de 2019, como segue:",
+ "preambulo": null,
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 30 DE SETEMBRO DE 2019.\nVerª Mônica Leal,\nPresidente.\nRegistre-se e publique-se:\nVer. Alvoni Medina,\n1º Secretário.\nCCC",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o § 1º do art. 31 da Lei Complementar nº 170, de 31 de dezembro de 1987, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 31. ...................................................................................................................\n....................................................................................................................................\n§ 1º Ficam incluídos na categoria de consumo residencial os imóveis ocupados\nexclusivamente por estabelecimentos públicos hospitalares e de ensino, templos e prédios\nocupados por associações desportivas ou sociais, sem fins lucrativos.\n........................................................................................................................ ” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluída al. d no inc. III do caput do art. 37 da Lei Complementar nº 170, de 1987, e alterações posteriores, conforme segue: PROC. Nº 1254/18 PLCL Nº 019/18",
+   "blocoDeAlteracao": "“Art. 37. ....................................................................................................................\n....................................................................................................................................\nIII – ............................................................................................................................\n....................................................................................................................................\nd) prédios ocupados exclusivamente por associações recreativas, escolas de samba\ne entidades carnavalescas, que não tenham fins lucrativos e que não façam jus a outro benefício\ntarifário, para a realização de suas atividades.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "trecho_nao_localizado_na_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.895,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [
+    "Fica incluída al. d no inc. III do caput do art. 37 da Lei Complementar nº 170, "
+   ],
+   "rotulosDivergentes": []
+  }
+ }
+}

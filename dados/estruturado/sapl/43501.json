@@ -1,0 +1,108 @@
+{
+ "idSapl": 43501,
+ "rotulo": "Lei Complementar municipal nº 920, de 29 de novembro de 2021",
+ "sha256Origem": "a198dead4dd01beb491a52f1e429b4e76fde8ec4e0f99c1597f455ea7232e4d1",
+ "estruturadoEm": "2026-11-18T09:25:54.390Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "920",
+  "ano": "2021",
+  "data": "2021-11-29",
+  "epigrafe": "LEI COMPLEMENTAR Nº 920, DE 29 DE NOVEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a al. b do inc. II do art. 3º e revoga a al. e do inc. II do art. 2º, os arts. 45 e 46, o caput do art. 47 e seus §§ 1º, 3º, 5º e 7º, os arts. 48-A e 48-B e as Tabelas II e III da Lei Complementar nº 7, de 7 de dezembro de 1973, extinguindo a Taxa de Fiscalização de Localização e Funcionamento (TFLF).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 29 de novembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a al. b do inc. II do art. 3º da Lei Complementar nº 7, de 7 de dezembro de 1973, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º ..........................................................................................................................\n........................................................................................................................................\n........................................................................................................................................\nb) Aprovação e Licença de Parcelamento do Solo, Edificações e Obras, de Controle\ne Fiscalização Ambiental, de Licenciamento Ambiental e de Autorizações Ambientais Diversas, o\nexercício do poder de polícia;\n.............................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 2022."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Ficam revogados os seguintes dispositivos da Lei Complementar nº 7, de 7 de dezembro de 1973:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a al. e do inc. II do art. 2º;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o art. 45;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "o art. 46;"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "o caput do art. 47 e seus §§ 1º, 3º, 5º, 7º e 8º;"
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "o art. 48-A;"
+  },
+  {
+   "id": "art-3/inc-VI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "o art. 48-B; e"
+  },
+  {
+   "id": "art-3/inc-VII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "as Tabelas II e III."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 10,
+   "cobertura": 0.939,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "geradoEm": "2026-11-18T09:25:55.416Z",
+ "idSapl": 42388,
+ "rotulo": "Lei Complementar municipal nº 870, de 27 de dezembro de 2019",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 870/2019@2019-12-27",
+   "data": "2019-12-27",
+   "fonte": null
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o inc. XIX do art. 21 da Lei Complementar nº 7, de 7 de dezembro de 1973, e alterações posteriores, conforme segue: “Art. 21. .................................................................................................................... ....................................................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "serviços realizados pelos centros de contato (contact centers), com a interveniência do usuário ou do destinatário final do serviço, tais como atendimento ao cliente, televendas, telemarketing, pesquisas de mercado, suporte técnico, ouvidoria, recuperação de créditos e confirmação de cadastro, por meio de contato telefônico, da web, de chat ou de e-mail, até 31 de dezembro de 2021: 2,5% (dois vírgula cinco por cento); .........................................................................................................................” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 43543,
+    "rotulo": "Lei Complementar municipal nº 925, de 20 de dezembro de 2021"
+   },
+   "motivo": "comando_recusado",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 7 de dezembro de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 870/2019) | operação \"revoke_lei\" não gera alteração na árvore desta lei",
+   "enderecos": [
+    "art-21"
+   ]
+  }
+ ],
+ "aConferir": []
+}

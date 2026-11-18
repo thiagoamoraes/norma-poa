@@ -1,0 +1,86 @@
+{
+ "idSapl": 42014,
+ "rotulo": "Lei Complementar municipal nº 848, de 22 de março de 2019",
+ "sha256Origem": "17087957e183529cb15098198ee33aced782d85b2972f90d5fb32a53b0e846cc",
+ "estruturadoEm": "2026-11-18T09:25:54.590Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "LEI Nº COMPLEMENTAR Nº 848, DE 22 DE MARÇO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera os capita dos arts. 41, 42, 43 e 44 e o parágrafo único do art. 44, inclui parágrafo único no art. 41 e revoga os incs. I e II do art. 41, os incs. I e II do art. 43 e os incs. I e II do art. 44, todos da Lei Complementar nº 284, de 27 de outubro de 1992, atualizando o Código de Edificações de Porto Alegre no que tange ao uso de materiais.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de março de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.\n2",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o caput e incluído parágrafo único no art. 41 da Lei Complementar nº 284, de 27 de outubro de 1992, conforme segue:",
+   "blocoDeAlteracao": "“Art. 41. Os materiais de construção deverão satisfazer às normas de qualidade\ne segurança compatíveis com o seu destino na construção, atendendo ao que dispõem as\nNormas Brasileiras, ficando seu emprego sob responsabilidade do profissional que deles fizer\nuso.\nParágrafo único. Em se tratando de materiais novos ou materiais para os quais\nnão tenham sido estabelecidas normas, os índices qualificativos deverão ser equivalentes aos\nestabelecidos nas Normas Brasileiras, de acordo com o caput deste artigo, e serão de inteira\nresponsabilidade do profissional que os tenha especificado ou adotado.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o caput do art. 42 da Lei Complementar nº 284, de 1992, conforme segue:",
+   "blocoDeAlteracao": "“Art. 42. O Município de Porto Alegre reserva-se o direito de impedir, se\nachar necessário, o emprego de qualquer material que for expressamente inadequado\nconforme estabelecido nas Normas Brasileiras.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica alterado o caput do art. 43 da Lei Complementar nº 284, de 1992, conforme segue:",
+   "blocoDeAlteracao": "“Art. 43. Fica proibida a utilização de material não resistente ao fogo,\nconforme especificado nas normas brasileiras de prevenção e combate a incêndio, em\nestruturas, entrepisos, paredes e divisórias em edificações destinadas à educação infantil e a\nserviços ligados à saúde, tais como hospitais, clínicas, pronto-atendimento, geriatria e serviços\nmédicos.\n.....................................................................................................................”(NR)"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica alterado o caput e o parágrafo único do art. 44 da Lei Complementar nº 284, de 1992, conforme segue:",
+   "blocoDeAlteracao": "“Art. 44. Paredes e seus revestimentos, pisos e forros, bem como os elementos\ndecorativos neles fixados, deverão atender à legislação de incêndio em vigor.\nParágrafo único. Excetuam-se ao disposto no caput deste artigo as habitações\nunifamiliares.” (NR)"
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Ficam revogados os incs. I e II do art. 41, os incs. I e II do art. 43 e os incs. I e II do art. 44, todos da Lei Complementar nº 284, de 27 de outubro de 1992."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "tipo_diverge_do_catalogo"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 6,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 4,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

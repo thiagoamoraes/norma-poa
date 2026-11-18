@@ -1,0 +1,67 @@
+{
+ "idSapl": 50015,
+ "rotulo": "Lei Complementar municipal nº 1.041, de 17 de abril de 2025",
+ "sha256Origem": "1b30377ef5290371d5788d207a7543c872de06ade7d026bfded2df4bafa66249",
+ "estruturadoEm": "2026-11-18T09:25:54.085Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "1041",
+  "ano": "2025",
+  "data": "2025-04-17",
+  "epigrafe": "LEI COMPLEMENTAR Nº 1.041, DE 17 DE ABRIL DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput e os inc. II e III, inclui §§ 3º, 4º e 5º e revoga os §§ 1º e 2º, todos no art. 165 da Lei Complementar nº 133, de 31 de dezembro de 1985; e altera o caput e o § 2º e inclui § 5º, todos no art. 59 da Lei Complementar nº 701, de 18 de julho de 2012, dispondo sobre a licença-prêmio.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de abril de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam alterados o caput e os incs. II e III e ficam incluídos §§ 3º, 4º e 5º, todos no art. 165 da Lei Complementar nº 133, de 31 de dezembro de 1985, conforme segue:",
+   "blocoDeAlteracao": "“Art. 165. A licença-prêmio adquirida pelo servidor deverá, no todo ou em parte, ser:\n....................................................................................................................................\nII – indenizada, nas situações de rompimento do vínculo funcional decorrentes de aposentadoria, exoneração ou falecimento;\nIII – convertida em dinheiro, 1/3 (um terço) ao ano a partir de cada quinquênio, para o servidor em efetiva atividade e a critério do respectivo Poder ao qual ele se encontre vinculado;\n....................................................................................................................................\n§ 3º É vedada a acumulação de licença-prêmio, salvo por absoluta necessidade de serviço ou motivo justo, até o máximo de 90 (noventa) dias.\n§ 4º A licença-prêmio deverá ser usufruída no quinquênio subsequente ao da sua aquisição, em parcelas não inferiores a 15 (quinze) dias.\n§ 5º As condições para usufruir a licença-prêmio, descritas neste artigo, serão regulamentadas por Decreto.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam alterados o caput e o § 2º e fica incluído § 5º, todos no art. 59 da Lei Complementar nº 701, de 18 de julho de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 59. A concessão da licença-prêmio por assiduidade adquirida pelo Procurador Municipal, que fará jus pelo seu efetivo exercício, será objeto de regulamentação por Decreto.\n....................................................................................................................................\n§ 2º No período de licença de que trata este artigo, o servidor terá direito à totalidade da remuneração.\n....................................................................................................................................\n§ 5º É vedada a acumulação de licença-prêmio, salvo por absoluta necessidade de serviço ou motivo justo, até o máximo de 90 (noventa) dias.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Ficam revogados os §§ 1º e 2º do art. 165 da Lei Complementar nº 133, de 31 de dezembro de 1985."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.969,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

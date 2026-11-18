@@ -1,0 +1,2760 @@
+{
+ "idSapl": 47599,
+ "rotulo": "Lei Complementar municipal nº 992, de 07 de novembro de 2023",
+ "sha256Origem": "1e89293a6cd45c03ea03c89b9be10c6b7761dbdc4c63aaffb803cbc45c17b069",
+ "estruturadoEm": "2026-11-18T09:25:54.226Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "992",
+  "ano": "2023",
+  "data": "2023-11-07",
+  "epigrafe": "LEI COMPLEMENTAR Nº 992, DE 7 DE NOVEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece normas gerais para o processo administrativo no âmbito da Administração Municipal Direta e da Administração Municipal Indireta e normas especiais para a constituição de crédito não tributário no Município de Porto Alegre e revoga a Lei Complementar nº 790, de 10 de fevereiro de 2016.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de novembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.\nPublicado no DOPA de 08/11/2023.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam estabelecidas, nos termos desta Lei Complementar, normas gerais para o processo administrativo no âmbito da Administração Municipal Direta e da Administração Municipal Indireta e normas especiais para a constituição de créditos não tributários no Município de Porto Alegre, visando, em especial, à garantia dos direitos dos administrados e à persecução dos fins da Administração Pública.",
+   "agrupadores": [
+    {
+     "tipo": "titulo",
+     "numero": "I",
+     "titulo": "DAS DISPOSIÇÕES PRELIMINARES"
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "As normas gerais desta Lei Complementar aplicam-se aos órgãos do Executivo Municipal e às respectivas autarquias e fundações, bem como aos órgãos do Legislativo Municipal, quando no desempenho de função administrativa."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O processo administrativo municipal deve tramitar, sempre que possível, em formato eletrônico, admitindo-se a prática de atos processuais por meio de videoconferência ou outro recurso tecnológico de transmissão de sons e imagens em tempo real."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A Administração Pública deve obedecer, dentre outros, aos princípios da legalidade, da finalidade, da motivação, da razoabilidade, da impessoalidade, da proporcionalidade, da moralidade, da ampla defesa, do contraditório, da segurança jurídica, do interesse público, da eficiência e da publicidade.",
+   "agrupadores": [
+    {
+     "tipo": "titulo",
+     "numero": "II",
+     "titulo": "DAS NORMAS GERAIS PARA O PROCESSO ADMINISTRATIVO NO ÂMBITO DA ADMINISTRAÇÃO MUNICIPAL DIRETA E DA ADMINISTRAÇÃO MUNICIPAL INDIRETA"
+    },
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DOS PRINCÍPIOS QUE REGEM O PROCESSO ADMINISTRATIVO"
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "No processo administrativo serão observados, dentre outros, os critérios de:"
+  },
+  {
+   "id": "art-2/par-unico/inc-I",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "atuação conforme a lei e o direito;"
+  },
+  {
+   "id": "art-2/par-unico/inc-II",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "atendimento a fins de interesse geral, vedada a renúncia total ou parcial de poderes ou competências, salvo autorização em lei;"
+  },
+  {
+   "id": "art-2/par-unico/inc-III",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "objetividade no atendimento do interesse público, vedada a promoção pessoal de agentes ou autoridades;"
+  },
+  {
+   "id": "art-2/par-unico/inc-IV",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "atuação segundo padrões éticos de probidade, decoro e boa-fé;"
+  },
+  {
+   "id": "art-2/par-unico/inc-V",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "divulgação dos atos administrativos, ressalvadas as hipóteses de sigilo previstas na Constituição Federal;"
+  },
+  {
+   "id": "art-2/par-unico/inc-VI",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "adequação entre meios e fins, vedada a imposição de obrigações, restrições e sanções em medida superior àquelas estritamente necessárias ao atendimento do interesse público;"
+  },
+  {
+   "id": "art-2/par-unico/inc-VII",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "indicação dos pressupostos de fato e de direito que determinarem a decisão;"
+  },
+  {
+   "id": "art-2/par-unico/inc-VIII",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "observância das formalidades essenciais à garantia dos direitos dos administrados;"
+  },
+  {
+   "id": "art-2/par-unico/inc-IX",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "adoção de formas suficientes para propiciar adequado grau de certeza, segurança e respeito aos direitos dos administrados;"
+  },
+  {
+   "id": "art-2/par-unico/inc-X",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "texto": "garantia dos direitos à comunicação, à produção de provas e à interposição de recursos nos processos administrativos de que possam resultar sanções e nas situações de litígio;"
+  },
+  {
+   "id": "art-2/par-unico/inc-XI",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "texto": "proibição de cobrança de despesas processuais, ressalvadas as previstas em lei;"
+  },
+  {
+   "id": "art-2/par-unico/inc-XII",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "texto": "interpretação da norma administrativa da forma que melhor garanta o atendimento do fim público a que se dirige, vedada aplicação retroativa de nova interpretação;"
+  },
+  {
+   "id": "art-2/par-unico/inc-XIII",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "texto": "a desburocratização dos procedimentos administrativos, inclusive mediante a simplificação de formalidades ou exigências desnecessárias ou superpostas, cujo custo econômico ou social, tanto para o erário quanto para o cidadão, seja superior ao eventual risco de fraude;"
+  },
+  {
+   "id": "art-2/par-unico/inc-XIV",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "texto": "o uso de linguagem clara e compreensível a qualquer cidadão;"
+  },
+  {
+   "id": "art-2/par-unico/inc-XV",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "XV –",
+   "texto": "promover, sempre que possível, a solução consensual dos conflitos; e"
+  },
+  {
+   "id": "art-2/par-unico/inc-XVI",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "XVI –",
+   "texto": "a prestação digital dos serviços públicos deverá ocorrer por meio de tecnologias de amplo acesso pela população, sem prejuízo do direito do cidadão a atendimento presencial."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O administrado tem os seguintes direitos perante a Administração Pública, sem prejuízo de outros que lhe sejam assegurados:",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "II",
+     "titulo": "DOS DIREITOS E DEVERES DOS ADMINISTRADOS"
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "ser tratado com respeito pelas autoridades e pelos servidores, que deverão facilitar o exercício de seus direitos;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "acompanhar os processos administrativos em que figure como interessado, mediante obtenção de credencial de acesso ou cópia dos documentos;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "não ser surpreendido por decisão administrativa que lhe retire ou limite direitos, sem que seja previamente comunicado;"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "formular alegações e apresentar documentos antes da decisão, os quais serão objeto de consideração pelo órgão competente;"
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "fazer-se assistir, facultativamente, por advogado, salvo quando obrigatória a representação, por força de lei;"
+  },
+  {
+   "id": "art-3/inc-VI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "a razoável duração do processo e os meios que garantam a celeridade de sua tramitação; e"
+  },
+  {
+   "id": "art-3/inc-VII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "a proteção dos dados pessoais, na forma da lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "São deveres do administrado perante a Administração Pública, sem prejuízo de outros previstos em lei:"
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "expor os fatos conforme a verdade;"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "proceder com lealdade, urbanidade e boa-fé;"
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "não agir de modo temerário;"
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "prestar as informações que lhe forem solicitadas;"
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "colaborar para o esclarecimento dos fatos; e"
+  },
+  {
+   "id": "art-4/inc-VI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "manter dados pessoais atualizados, tendo o ônus de informar alterações de seu endereço."
+  },
+  {
+   "id": "art-4/par-1",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "No processo administrativo municipal, o administrado deverá ser informado de que em caso de declaração de informações falsas responderá seu autor por falsidade ideológica, nos termos do Código Penal Brasileiro."
+  },
+  {
+   "id": "art-4/par-2",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Considera-se agir temerário, exemplificativamente, para os fins desta Lei Complementar:"
+  },
+  {
+   "id": "art-4/par-2/inc-I",
+   "pai": "art-4/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "apresentar requerimento ou defesa contra texto expresso de lei ou fato incontroverso;"
+  },
+  {
+   "id": "art-4/par-2/inc-II",
+   "pai": "art-4/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "alterar a verdade dos fatos;"
+  },
+  {
+   "id": "art-4/par-2/inc-III",
+   "pai": "art-4/par-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "usar do processo para conseguir objetivo ilegal; e"
+  },
+  {
+   "id": "art-4/par-2/inc-IV",
+   "pai": "art-4/par-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "opor resistência injustificada ao andamento do processo."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "A competência é irrenunciável e se exerce pelos órgãos administrativos a que foi atribuída como própria, salvo os casos de delegação e avocação legalmente admitidos.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "III",
+     "titulo": "DA COMPETÊNCIA"
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Os órgãos administrativos poderão, se não houver impedimento legal, desde que mediante justificativa expressa, delegar parte da sua competência a outros órgãos administrativos, ainda que estes não lhe sejam hierarquicamente subordinados, quando for conveniente."
+  },
+  {
+   "id": "art-6/par-unico",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O disposto no caput deste artigo aplica-se à delegação de competência dos órgãos colegiados aos respectivos presidentes."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Não podem ser objeto de delegação:"
+  },
+  {
+   "id": "art-7/inc-I",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a edição de atos de caráter normativo; e"
+  },
+  {
+   "id": "art-7/inc-II",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "as matérias de competência exclusiva do órgão ou da autoridade."
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "O ato de delegação e sua revogação deverão ser publicizados por meio de divulgação no Diário Oficial Eletrônico de Porto Alegre (DOPA-e)."
+  },
+  {
+   "id": "art-8/par-1",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O ato de delegação especificará as matérias e os poderes transferidos, os limites da atuação do delegado, a duração e os objetivos da delegação e o recurso cabível, podendo conter ressalva de exercício da atribuição delegada."
+  },
+  {
+   "id": "art-8/par-2",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O ato de delegação é revogável a qualquer tempo pela autoridade delegante."
+  },
+  {
+   "id": "art-8/par-3",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "As decisões adotadas por delegação devem mencionar explicitamente essa qualidade e considerar-se-ão editadas pelo delegado."
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "texto": "Será permitida, em caráter excepcional e por motivos relevantes devidamente justificados, a avocação temporária de competência atribuída a órgão hierarquicamente inferior."
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "texto": "Inexistindo competência legal específica, o processo administrativo deverá ser iniciado perante a autoridade de menor grau hierárquico para decidir."
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "texto": "São legitimados como interessados no processo administrativo:",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "IV",
+     "titulo": "DOS INTERESSADOS"
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-I",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "pessoas físicas ou jurídicas que o iniciem como titulares de direitos ou de interesses individuais ou que estejam no exercício do direito de representação;"
+  },
+  {
+   "id": "art-11/inc-II",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "aqueles que, sem terem iniciado o processo administrativo, têm direitos ou interesses que possam ser afetados pela decisão a ser adotada;"
+  },
+  {
+   "id": "art-11/inc-III",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "organizações e associações representativas, no tocante a direitos e interesses coletivos; e"
+  },
+  {
+   "id": "art-11/inc-IV",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "pessoas ou associações legalmente constituídas quanto a direitos ou interesses difusos."
+  },
+  {
+   "id": "art-11/par-1",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A atuação no processo administrativo, nos casos de organizações, associações e entidades de classes, referidas nos incs. III e IV deste artigo, dependerá de comprovação de pertinência temática entre a matéria discutida no processo e suas finalidades institucionais."
+  },
+  {
+   "id": "art-11/par-2",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Será admitida a intervenção de terceiro no processo, por decisão de autoridade competente para o seu julgamento, quando comprovado seu interesse jurídico."
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "texto": "A capacidade, para fins de processo administrativo municipal, observará os termos da legislação civil."
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "texto": "Há impedimento de atuar em processo administrativo do servidor ou da autoridade que:",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "V",
+     "titulo": "DOS IMPEDIMENTOS E DA SUSPEIÇÃO"
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-I",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "tenha interesse direto ou indireto na matéria;"
+  },
+  {
+   "id": "art-13/inc-II",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "tenha participado ou venha a participar como perito, testemunha ou representante, bem como se tais situações ocorrerem com o respectivo cônjuge, companheiro, parente ou afins até o terceiro grau; e"
+  },
+  {
+   "id": "art-13/inc-III",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "esteja litigando judicial ou administrativamente com o interessado ou o respectivo cônjuge ou companheiro."
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "texto": "A autoridade ou o servidor que incorrer em impedimento deve comunicar o fato à autoridade competente, abstendo-se de atuar."
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "texto": "Há suspeição de autoridade ou de servidor que tenha amizade íntima ou inimizade notória com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes ou afins até o terceiro grau."
+  },
+  {
+   "id": "art-15/par-unico",
+   "pai": "art-15",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O indeferimento de alegação de suspeição poderá ser objeto de recurso, sem efeito suspensivo."
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "texto": "Os atos do processo administrativo não dependem de forma determinada, salvo quando a norma expressamente a exigir.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "VI",
+     "titulo": "DA FORMA E DO LUGAR DOS ATOS DO PROCESSO ADMINISTRATIVO"
+    }
+   ]
+  },
+  {
+   "id": "art-16/par-1",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Os atos do processo serão formalizados, tramitados, comunicados e transmitidos, preferencialmente, em formato eletrônico, na forma do regulamento."
+  },
+  {
+   "id": "art-16/par-2",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Consideram-se válidos os atos que, embora realizados de outro modo, preencham a finalidade essencial."
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "texto": "Os atos do processo administrativo devem ser produzidos por escrito, em língua portuguesa, indicando a data e o local de sua realização, as identificações nominal e funcional e a assinatura da autoridade responsável."
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "texto": "Na relação dos órgãos e das entidades da Administração Pública Municipal com o cidadão, é dispensada a exigência de:"
+  },
+  {
+   "id": "art-18/inc-I",
+   "pai": "art-18",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "reconhecimento de firma, devendo o agente administrativo, confrontando a assinatura com aquela constante do documento de identidade do signatário, ou estando este presente e assinando o documento diante do agente, lavrar sua autenticidade no próprio documento;"
+  },
+  {
+   "id": "art-18/inc-II",
+   "pai": "art-18",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "autenticação de cópia de documento, cabendo ao agente administrativo, mediante a comparação entre o original e a cópia, atestar a autenticidade;"
+  },
+  {
+   "id": "art-18/inc-III",
+   "pai": "art-18",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "juntada de documento pessoal do usuário, que poderá ser substituído por cópia autenticada pelo próprio agente administrativo; e"
+  },
+  {
+   "id": "art-18/inc-IV",
+   "pai": "art-18",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "apresentação de certidão de nascimento, que poderá ser substituída por cédula de identidade, expedida por conselho regional de fiscalização profissional, carteira de trabalho, certificado de prestação ou de isenção de serviço militar, passaporte ou identidade funcional expedida por órgão público."
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "texto": "A prática de atos do processo administrativo municipal eletrônico pode ocorrer em qualquer horário até as 24 (vinte e quatro) horas do último dia do prazo."
+  },
+  {
+   "id": "art-19/par-unico",
+   "pai": "art-19",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "No caso da prática de atos presenciais, estes poderão ser concluídos depois do horário normal de expediente, se já iniciados, quando o adiamento prejudique o curso regular do procedimento ou cause danos ao interessado ou à Administração Pública."
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "texto": "Os atos do processo administrativo serão realizados, preferencialmente, de forma virtual ou, não sendo possível, na sede do órgão."
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "texto": "Todo assunto submetido ao conhecimento da Administração Pública será formalizado pela via de processo administrativo, preferencialmente no formato eletrônico.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "VII",
+     "titulo": "DO INÍCIO DO PROCESSO ADMINISTRATIVO"
+    }
+   ]
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "texto": "O processo administrativo poderá ser iniciado de ofício pela autoridade competente ou a requerimento do interessado."
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "texto": "O requerimento inicial do interessado poderá ser efetuado por solicitação verbal reduzida a termo pela autoridade, por meio de preenchimento de formulário online, pelo preenchimento de formulário disponibilizado nos setores de atendimento ao público ou em petição própria, desde que legível."
+  },
+  {
+   "id": "art-23/par-1",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Quando por escrito, o requerimento deverá ser legível e indicar, no mínimo:"
+  },
+  {
+   "id": "art-23/par-1/inc-I",
+   "pai": "art-23/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o órgão, entidade ou autoridade administrativa a que se dirige;"
+  },
+  {
+   "id": "art-23/par-1/inc-II",
+   "pai": "art-23/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a identificação do interessado ou de quem o represente, assim como de seu advogado, caso constituído;"
+  },
+  {
+   "id": "art-23/par-1/inc-III",
+   "pai": "art-23/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "o domicílio do requerente ou local para recebimento de comunicações;"
+  },
+  {
+   "id": "art-23/par-1/inc-IV",
+   "pai": "art-23/par-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "o endereço eletrônico ou contato telefônico para recebimento de comunicações;"
+  },
+  {
+   "id": "art-23/par-1/inc-V",
+   "pai": "art-23/par-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "a formulação do pedido, com exposição dos fatos e de seus fundamentos; e"
+  },
+  {
+   "id": "art-23/par-1/inc-VI",
+   "pai": "art-23/par-1",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "a data e a assinatura do requerente ou de seu representante."
+  },
+  {
+   "id": "art-23/par-2",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "É vedada à Administração Pública recursar o recebimento de requerimentos ou documentos de prova imotivadamente."
+  },
+  {
+   "id": "art-23/par-3",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "A autoridade poderá rejeitar, de ofício, requerimentos ilegíveis."
+  },
+  {
+   "id": "art-23/par-4",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "O Executivo Municipal, bem como suas autarquias e suas fundações, disponibilizará formulário padronizado."
+  },
+  {
+   "id": "art-24",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 24.",
+   "texto": "Em caso de o pedido de uma pluralidade de interessados apresentar conteúdo e fundamentos idênticos, poderá ser formulado 1 (um) único requerimento, salvo preceito legal em contrário, ocasião em que será dispensado o uso do formulário padronizado."
+  },
+  {
+   "id": "art-25",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 25.",
+   "texto": "Os órgãos administrativos, mesmo que o processo administrativo seja instaurado por iniciativa do interessado, podem proceder às diligências que considerem convenientes para a instrução."
+  },
+  {
+   "id": "art-26",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 26.",
+   "texto": "A comunicação dos atos processuais dar-se-á por meio de notificação, nas seguintes situações:",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "VIII",
+     "titulo": "DA COMUNICAÇÃO DOS ATOS"
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-I",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "dos atos e termos do processo, para que faça ou deixe de fazer alguma coisa; e"
+  },
+  {
+   "id": "art-26/inc-II",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "das decisões que defiram ou reconheçam direitos, bem como das que resultem na imposição de deveres, sanções, ônus ou restrições ao exercício de direitos."
+  },
+  {
+   "id": "art-27",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 27.",
+   "texto": "A notificação deverá conter, dentre outros elementos:"
+  },
+  {
+   "id": "art-27/inc-I",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a identificação do notificado e o nome do órgão ou da entidade administrativa;"
+  },
+  {
+   "id": "art-27/inc-II",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a finalidade do ato;"
+  },
+  {
+   "id": "art-27/inc-III",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a data, a hora e o local em que o interessado deverá comparecer, se for o caso, ou praticar ato de outra natureza;"
+  },
+  {
+   "id": "art-27/inc-IV",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "a informação da continuidade do processo independentemente do seu comparecimento;"
+  },
+  {
+   "id": "art-27/inc-V",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "a indicação dos fatos e dos fundamentos legais analisados; e"
+  },
+  {
+   "id": "art-27/inc-VI",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "a indicação dos dispositivos legais violados."
+  },
+  {
+   "id": "art-27/par-1",
+   "pai": "art-27",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A notificação feita sem observância das prescrições legais será inválida, mas o comparecimento espontâneo do administrado supre sua falta ou irregularidade."
+  },
+  {
+   "id": "art-27/par-2",
+   "pai": "art-27",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Se o notificado não souber ou não puder assinar, ou se recusar a receber a notificação, o servidor público certificará nos autos o fato, dando-a por realizada."
+  },
+  {
+   "id": "art-28",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 28.",
+   "texto": "A notificação realizar-se-á, sempre que possível, por correio eletrônico, por ferramenta de troca de mensagem instantânea, ou por qualquer outro meio eletrônico que permita a confirmação da identidade do destinatário."
+  },
+  {
+   "id": "art-28/par-unico",
+   "pai": "art-28",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Quando a notificação for realizada por ferramenta de troca instantânea de mensagens e quando houver dúvida acerca da identificação do destinatário, poderá a Administração Pública exigir o envio:"
+  },
+  {
+   "id": "art-28/par-unico/inc-I",
+   "pai": "art-28/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "de registro do documento de identificação do administrado;"
+  },
+  {
+   "id": "art-28/par-unico/inc-II",
+   "pai": "art-28/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "de termo de ciência do ato assinado de próprio punho; ou"
+  },
+  {
+   "id": "art-28/par-unico/inc-III",
+   "pai": "art-28/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "de qualquer outro documento que confirme a identidade do destinatário."
+  },
+  {
+   "id": "art-29",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 29.",
+   "texto": "Quando não realizadas por meio eletrônico, as notificações serão feitas aos interessados, aos seus representantes legais ou aos advogados constituídos, pelo correio, mediante aviso de recebimento, ou, se presentes na repartição, diretamente por servidor do órgão ou da entidade administrativa."
+  },
+  {
+   "id": "art-29/par-1",
+   "pai": "art-29",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Presumem-se válidas as intimações dirigidas ao endereço constante dos autos ou obtidas em bancos de dados oficial, ainda que não recebidas pessoalmente pelo interessado."
+  },
+  {
+   "id": "art-29/par-2",
+   "pai": "art-29",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Os prazos fluem a partir do recebimento da comunicação."
+  },
+  {
+   "id": "art-30",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 30.",
+   "texto": "No caso de o interessado estar em lugar incerto ou não sabido, a notificação deve ser efetuada por meio de edital publicado no DOPA-e."
+  },
+  {
+   "id": "art-30/par-unico",
+   "pai": "art-30",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Aplica-se o disposto no caput deste artigo quando a notificação for dirigida a interessados indeterminados, desconhecidos ou com domicílio indefinido."
+  },
+  {
+   "id": "art-31",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 31.",
+   "texto": "A notificação deverá observar a antecedência mínima de 5 (cinco) dias quanto à data de comparecimento ou da obrigação de realizar ato, contados da data em que o administrado for considerado notificado."
+  },
+  {
+   "id": "art-32",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 32.",
+   "texto": "O desatendimento da comunicação não importa em confissão dos fatos, nem a renúncia a direito pelo administrado."
+  },
+  {
+   "id": "art-32/par-unico",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "No prosseguimento do processo, o interessado poderá intervir em qualquer fase, recebendo-o no estado em que se encontrar."
+  },
+  {
+   "id": "art-33",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 33.",
+   "texto": "As atividades de instrução destinadas a averiguar e comprovar os dados necessários à tomada de decisão realizar-se-ão de ofício ou mediante impulsionamento do órgão responsável pelo processo administrativo, sem prejuízo do direito de os interessados proporem atuações probatórias.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "IX",
+     "titulo": "DA INSTRUÇÃO DO PROCESSO ADMINISTRATIVO"
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-1",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O órgão competente para a instrução fará constar dos autos os dados necessários à decisão do processo administrativo."
+  },
+  {
+   "id": "art-33/par-2",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Os atos de instrução que exijam a atuação dos interessados devem realizar-se do modo menos oneroso para estes."
+  },
+  {
+   "id": "art-34",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 34.",
+   "texto": "São inadmissíveis, no processo administrativo, as provas obtidas por meios ilícitos."
+  },
+  {
+   "id": "art-34/par-unico",
+   "pai": "art-34",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Somente poderão ser recusadas, mediante decisão fundamentada, as provas propostas pelos interessados que forem ilícitas, impertinentes, desnecessárias ou protelatórias."
+  },
+  {
+   "id": "art-35",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 35.",
+   "texto": "Cabe ao interessado a prova dos fatos que tenha alegado, sem prejuízo do dever atribuído ao órgão competente para a instrução e do disposto no art. 36 desta Lei Complementar."
+  },
+  {
+   "id": "art-36",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 36.",
+   "texto": "Em caso de o interessado declarar que fatos e dados estão registrados em documentos existentes no órgão responsável pelo processo administrativo ou em outro órgão administrativo do Executivo Municipal, o setor competente para a instrução proverá, de ofício, a obtenção dos documentos."
+  },
+  {
+   "id": "art-37",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 37.",
+   "texto": "Em caso de ser necessária a prestação de informações ou a apresentação de provas pelos interessados ou por terceiros, serão expedidas comunicações para esse fim, mencionando-se data, prazo, forma e condições de atendimento."
+  },
+  {
+   "id": "art-38",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 38.",
+   "texto": "Em caso de dados, atuações ou documentos solicitados ao interessado serem necessários à apreciação de pedido formulado, o não atendimento no prazo fixado pela Administração Pública para a respectiva apresentação implicará desconsideração fundamentada daquele e o arquivamento do processo administrativo."
+  },
+  {
+   "id": "art-39",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 39.",
+   "texto": "Os interessados serão intimados de prova ou diligência ordenada, com notificação de, no mínimo, 7 (sete) dias de antecedência da data prevista para a prova ou a diligência, mencionando-se data, hora e local de sua realização."
+  },
+  {
+   "id": "art-40",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 40.",
+   "texto": "Nos casos em que deva ser ouvido órgão consultivo, o seu parecer deverá ser emitido no prazo máximo de 90 (noventa) dias, salvo norma especial ou comprovada, motivadamente, necessidade de maior prazo."
+  },
+  {
+   "id": "art-41",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 41.",
+   "texto": "Nos casos em que, por disposição de ato normativo, devam ser obtidos, previamente, laudos técnicos de órgãos administrativos, e estes não cumprirem o encargo no prazo assinalado, o órgão responsável pela instrução deverá solicitar laudo técnico de outro órgão dotado de qualificação e capacidade técnica equivalentes."
+  },
+  {
+   "id": "art-42",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 42.",
+   "texto": "Quando houver a instrução probatória, o interessado será intimado para que, no prazo de 10 (dez) dias, contados da data da notificação, apresente suas razões finais."
+  },
+  {
+   "id": "art-43",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 43.",
+   "texto": "Em caso de risco iminente, a Administração Pública poderá, motivadamente, adotar providências acauteladoras sem a prévia manifestação do interessado, abrindo-se posteriormente prazo para defesa e contraditório."
+  },
+  {
+   "id": "art-44",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 44.",
+   "texto": "Os interessados têm direito à vista do processo administrativo e a obter certidões ou cópias digitalizadas, nos termos da Lei de Acesso à Informação (LAI) e da Lei Geral de Proteção de Dados (LGPD)."
+  },
+  {
+   "id": "art-44/par-unico",
+   "pai": "art-44",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Em havendo impossibilidade de digitalização, as cópias de processos administrativos serão pagas por meio de guia própria para este fim, o que deverá ficar registrado nos seus autos. OUTROS MEIOS DE PARTICIPAÇÃO"
+  },
+  {
+   "id": "art-45",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 45.",
+   "texto": "Em caso de a matéria do processo administrativo envolver assunto de interesse geral, o órgão competente poderá, mediante despacho motivado, abrir período de consulta pública para manifestação de terceiros, antes da decisão do pedido, se não houver prejuízo para a parte interessada.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "X",
+     "titulo": "DA AUDIÊNCIA PÚBLICA, DA CONSULTA PÚBLICA E DE"
+    }
+   ]
+  },
+  {
+   "id": "art-45/par-1",
+   "pai": "art-45",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A abertura da consulta pública será objeto de divulgação pelos meios oficiais, a fim de que pessoas físicas ou jurídicas possam examinar os autos, fixando-se prazo para oferecimento de alegações escritas."
+  },
+  {
+   "id": "art-45/par-2",
+   "pai": "art-45",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O comparecimento à consulta pública não confere, por si, a condição de interessado no processo administrativo, mas confere o direito de obter da Administração Pública resposta fundamentada, que poderá ser comum a todas as alegações substancialmente iguais."
+  },
+  {
+   "id": "art-46",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 46.",
+   "texto": "Antes da tomada de decisão, a juízo da autoridade, diante da relevância da questão, poderá ser realizada audiência pública para debates sobre a matéria do processo administrativo."
+  },
+  {
+   "id": "art-47",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 47.",
+   "texto": "Os órgãos e as entidades administrativas, em matéria relevante, poderão estabelecer outros meios de participação de interessados, diretamente ou por meio de organizações e associações legalmente reconhecidas e de conselhos municipais."
+  },
+  {
+   "id": "art-48",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 48.",
+   "texto": "Os resultados de consultas, de audiências públicas e de outros meios de participação de administrados deverão ser objeto de avaliação pelo órgão competente."
+  },
+  {
+   "id": "art-49",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 49.",
+   "texto": "A audiência de outros órgãos ou entidades administrativas poderá ser realizada em reunião conjunta, com a participação dos órgãos competentes, lavrando-se a respectiva ata, a ser juntada aos autos."
+  },
+  {
+   "id": "art-50",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 50.",
+   "texto": "A edição de atos normativos por autoridade administrativa poderá ser precedida de consulta pública para manifestação de interessados, preferencialmente por meio eletrônico."
+  },
+  {
+   "id": "art-50/par-1",
+   "pai": "art-50",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A decisão pela convocação de consulta pública será motivada."
+  },
+  {
+   "id": "art-50/par-2",
+   "pai": "art-50",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A convocação de consulta pública conterá a minuta do ato normativo, disponibilizará a motivação do ato e fixará o prazo e as demais condições."
+  },
+  {
+   "id": "art-50/par-3",
+   "pai": "art-50",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "A autoridade decisória não será obrigada a comentar ou considerar individualmente as manifestações apresentadas e poderá agrupar manifestações por conexão e eliminar aquelas repetitivas ou de conteúdo não conexo ou irrelevante para a matéria em apreciação."
+  },
+  {
+   "id": "art-51",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 51.",
+   "texto": "A Administração Pública tem o dever de:",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XI",
+     "titulo": "DO DEVER DE DECIDIR E DA RESPONSABILIDADE PELA NÃO DELIBERAÇÃO"
+    }
+   ]
+  },
+  {
+   "id": "art-51/inc-I",
+   "pai": "art-51",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "emitir decisão nos processos administrativos, em caso de haver necessidade de deliberação;"
+  },
+  {
+   "id": "art-51/inc-II",
+   "pai": "art-51",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "responder às solicitações; e"
+  },
+  {
+   "id": "art-51/inc-III",
+   "pai": "art-51",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "notificar o interessado da decisão e das intimações de prova ou de manifestação."
+  },
+  {
+   "id": "art-52",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 52.",
+   "texto": "As decisões administrativas que exijam a participação de 3 (três) ou mais setores, órgãos ou entidades poderão ser tomadas mediante decisão coordenada, sempre que:",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XII",
+     "titulo": "DA DECISÃO COORDENADA"
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-I",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "for justificável pela relevância da matéria; ou"
+  },
+  {
+   "id": "art-52/inc-II",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "houver discordância que prejudique a celeridade do processo administrativo decisório."
+  },
+  {
+   "id": "art-52/par-1",
+   "pai": "art-52",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para os fins desta Lei Complementar, considera-se decisão coordenada a instância de natureza interinstitucional ou intersetorial que atua de forma compartilhada com a finalidade de simplificar o processo administrativo mediante participação concomitante de todas as autoridades e agentes decisórios e dos responsáveis pela instrução técnico-jurídica, observada a natureza do objeto e a compatibilidade do procedimento e de sua formalização com a legislação pertinente."
+  },
+  {
+   "id": "art-52/par-2",
+   "pai": "art-52",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A decisão coordenada não exclui a responsabilidade originária de cada órgão ou autoridade envolvida."
+  },
+  {
+   "id": "art-52/par-3",
+   "pai": "art-52",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "A decisão coordenada obedecerá aos princípios da legalidade, da eficiência e da transparência, com utilização, sempre que necessário, da simplificação do procedimento e da concentração das instâncias decisórias."
+  },
+  {
+   "id": "art-52/par-4",
+   "pai": "art-52",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "Não se aplica a decisão coordenada aos processos administrativos:"
+  },
+  {
+   "id": "art-52/par-4/inc-I",
+   "pai": "art-52/par-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "de licitação; e"
+  },
+  {
+   "id": "art-52/par-4/inc-II",
+   "pai": "art-52/par-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "relacionados ao poder sancionador em processo administrativo disciplinar."
+  },
+  {
+   "id": "art-53",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 53.",
+   "texto": "Poderão habilitar-se a participar da decisão coordenada, na qualidade de ouvintes, os interessados de que trata o art. 11 desta Lei Complementar."
+  },
+  {
+   "id": "art-53/par-1",
+   "pai": "art-53",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A participação na reunião, que poderá incluir direito a voz, será deferida por decisão irrecorrível da autoridade responsável pela convocação da decisão coordenada."
+  },
+  {
+   "id": "art-53/par-2",
+   "pai": "art-53",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Os interessados deverão ser notificados para participar do ato mediante despacho nos autos."
+  },
+  {
+   "id": "art-54",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 54.",
+   "texto": "Cada órgão ou entidade participante é responsável pela elaboração de documento específico sobre o tema atinente à respectiva competência, a fim de subsidiar os trabalhos e integrar o processo da decisão coordenada."
+  },
+  {
+   "id": "art-54/par-unico",
+   "pai": "art-54",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O documento previsto no caput deste artigo abordará a questão objeto da decisão coordenada e eventuais precedentes."
+  },
+  {
+   "id": "art-55",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 55.",
+   "texto": "Eventual dissenso na solução do objeto da decisão coordenada deverá ser manifestado durante as reuniões, de forma fundamentada, acompanhado das propostas de solução e de alteração necessárias para a resolução da questão."
+  },
+  {
+   "id": "art-55/par-unico",
+   "pai": "art-55",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Não poderá ser arguida matéria estranha ao objeto da convocação."
+  },
+  {
+   "id": "art-56",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 56.",
+   "texto": "A conclusão dos trabalhos da decisão coordenada será consolidada em ata, que conterá as seguintes informações:"
+  },
+  {
+   "id": "art-56/inc-I",
+   "pai": "art-56",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "relato sobre os itens da pauta;"
+  },
+  {
+   "id": "art-56/inc-II",
+   "pai": "art-56",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "síntese dos fundamentos aduzidos;"
+  },
+  {
+   "id": "art-56/inc-III",
+   "pai": "art-56",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "síntese das teses pertinentes ao objeto da convocação;"
+  },
+  {
+   "id": "art-56/inc-IV",
+   "pai": "art-56",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "registro das orientações, das diretrizes, das soluções ou das propostas de atos governamentais relativos ao objeto da convocação;"
+  },
+  {
+   "id": "art-56/inc-V",
+   "pai": "art-56",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "posicionamento dos participantes para subsidiar futura atuação governamental em matéria idêntica ou similar; e"
+  },
+  {
+   "id": "art-56/inc-VI",
+   "pai": "art-56",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "decisão de cada órgão ou entidade relativa à matéria sujeita à sua competência."
+  },
+  {
+   "id": "art-56/par-1",
+   "pai": "art-56",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Até a assinatura da ata, poderá ser complementada a fundamentação da decisão da autoridade ou do agente a respeito de matéria de competência do órgão ou da entidade representada."
+  },
+  {
+   "id": "art-56/par-2",
+   "pai": "art-56",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O extrato da ata será publicado no DOPA-e, do qual deverão constar os dados identificadores da decisão coordenada, o órgão e o local em que se encontra a ata em seu inteiro teor, para conhecimento dos interessados, sem prejuízo da utilização de outros meios de publicidade."
+  },
+  {
+   "id": "art-57",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 57.",
+   "texto": "Os atos administrativos, discricionários ou vinculados, deverão ser motivados, com indicação dos fatos e dos fundamentos jurídicos.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XIII",
+     "titulo": "DA MOTIVAÇÃO"
+    }
+   ]
+  },
+  {
+   "id": "art-58",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 58.",
+   "texto": "O interessado poderá, mediante manifestação escrita, desistir, total ou parcialmente, do pedido formulado ou renunciar a direitos disponíveis.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XIV",
+     "titulo": "DA EXTINÇÃO DO PROCESSO ADMINISTRATIVO"
+    }
+   ]
+  },
+  {
+   "id": "art-58/par-1",
+   "pai": "art-58",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Havendo vários interessados, a desistência ou a renúncia atinge somente quem a tenha formulado."
+  },
+  {
+   "id": "art-58/par-2",
+   "pai": "art-58",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A desistência ou a renúncia do interessado, conforme o caso, não prejudica o prosseguimento do processo administrativo, se a Administração Pública considerar que o interesse público assim o exige."
+  },
+  {
+   "id": "art-59",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 59.",
+   "texto": "O órgão competente poderá declarar extinto o processo administrativo nos casos em que sua finalidade for exaurida ou o objeto da decisão se tornar impossível, inútil ou prejudicado por fato superveniente."
+  },
+  {
+   "id": "art-59/par-unico",
+   "pai": "art-59",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O interessado deve ser notificado da decisão de extinção do processo administrativo."
+  },
+  {
+   "id": "art-60",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 60.",
+   "texto": "A Administração Pública deve anular seus próprios atos em caso de vício de legalidade e pode revogá-los por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XV",
+     "titulo": "DA ANULAÇÃO, DA REVOGAÇÃO E DA CONVALIDAÇÃO"
+    }
+   ]
+  },
+  {
+   "id": "art-61",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 61.",
+   "texto": "O direito de a Administração Pública anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em 5 (cinco) anos, contados da data em que foram praticados, salvo comprovada má-fé."
+  },
+  {
+   "id": "art-61/par-1",
+   "pai": "art-61",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "No caso de efeitos patrimoniais contínuos, o prazo de decadência contar-se-á da percepção do primeiro pagamento."
+  },
+  {
+   "id": "art-61/par-2",
+   "pai": "art-61",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Considera-se exercício do direito anular qualquer medida de autoridade administrativa preparatória ou tendente à impugnação da validade do ato."
+  },
+  {
+   "id": "art-61/par-3",
+   "pai": "art-61",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Enquanto o ato estiver submetido a órgão de controle externo, o prazo referido no caput deste artigo não fluirá."
+  },
+  {
+   "id": "art-62",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 62.",
+   "texto": "Em caso de se evidenciarem, no processo administrativo, atos ou omissões que não acarretem lesão ao interesse público nem prejuízo a terceiros, esses poderão ser convalidados, motivadamente, pela Administração Pública."
+  },
+  {
+   "id": "art-63",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 63.",
+   "texto": "Das decisões administrativas, cabe recurso em face de razões de constitucionalidade, legalidade e mérito.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XVI",
+     "titulo": "DOS RECURSOS"
+    },
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Do Direito ao Recurso e da Competência para Decidir"
+    }
+   ]
+  },
+  {
+   "id": "art-63/par-unico",
+   "pai": "art-63",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Em caso de norma legal não dispor de outro modo, será competente para conhecer do recurso:"
+  },
+  {
+   "id": "art-63/par-unico/inc-I",
+   "pai": "art-63/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "na Administração Centralizada, o secretário municipal do órgão no qual tramitou o processo administrativo; e"
+  },
+  {
+   "id": "art-63/par-unico/inc-II",
+   "pai": "art-63/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "na Administração Descentralizada, o dirigente superior da pessoa jurídica."
+  },
+  {
+   "id": "art-64",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 64.",
+   "texto": "Da petição de recurso deverá constar:"
+  },
+  {
+   "id": "art-64/inc-I",
+   "pai": "art-64",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a autoridade recorrida;"
+  },
+  {
+   "id": "art-64/inc-II",
+   "pai": "art-64",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a indicação do processo administrativo em que consta a decisão recorrida;"
+  },
+  {
+   "id": "art-64/inc-III",
+   "pai": "art-64",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "nome, qualificação, endereço residencial, endereço eletrônico, número do aplicativo de mensagens instantâneas e telefone celular do recorrente; e"
+  },
+  {
+   "id": "art-64/inc-IV",
+   "pai": "art-64",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "a exposição das razões e dos fundamentos da inconformidade."
+  },
+  {
+   "id": "art-65",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 65.",
+   "texto": "O prazo para apresentação de recurso será de 30 (trinta) dias, contados da data de comunicação do ato."
+  },
+  {
+   "id": "art-66",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 66.",
+   "texto": "Conhecer-se-á do recurso erroneamente designado quando de seu conteúdo resultar induvidosa a impugnação do ato."
+  },
+  {
+   "id": "art-67",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 67.",
+   "texto": "O recurso será recebido com efeito suspensivo, salvo quando:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Dos Efeitos dos Recursos"
+    }
+   ]
+  },
+  {
+   "id": "art-67/inc-I",
+   "pai": "art-67",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "houver previsão legal em contrário; e"
+  },
+  {
+   "id": "art-67/inc-II",
+   "pai": "art-67",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "da inexecução da penalidade puder resultar a ineficácia da decisão final."
+  },
+  {
+   "id": "art-67/par-unico",
+   "pai": "art-67",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Nos casos referidos nos incs. I e II do caput deste artigo, a autoridade administrativa declarará os efeitos do recebimento do recurso."
+  },
+  {
+   "id": "art-68",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 68.",
+   "texto": "A decisão de recurso não poderá, no mesmo procedimento, agravar a restrição produzida pelo ato ao interesse do recorrente."
+  },
+  {
+   "id": "art-69",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 69.",
+   "texto": "Os prazos processuais começam a contar a partir da data da notificação, excluindo-se da contagem o dia do recebimento e incluindo-se o dia do vencimento.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XVII",
+     "titulo": "DOS PRAZOS"
+    }
+   ]
+  },
+  {
+   "id": "art-69/par-1",
+   "pai": "art-69",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Prorrogar-se-á o prazo até o primeiro dia útil seguinte nos casos em que o vencimento cair em dia em que não haja expediente ou esse for encerrado antes da hora normal."
+  },
+  {
+   "id": "art-69/par-2",
+   "pai": "art-69",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Os prazos processuais serão contados em dias úteis."
+  },
+  {
+   "id": "art-69/par-3",
+   "pai": "art-69",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Os prazos fixados em meses ou anos contam-se de data a data, sendo que, no mês do vencimento em que não houver o dia equivalente àquele do início do prazo, se tem como termo o último dia do mês."
+  },
+  {
+   "id": "art-70",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 70.",
+   "texto": "Salvo motivo de força maior devidamente comprovado ou disposição expressa em contrário, os prazos processuais não se suspendem."
+  },
+  {
+   "id": "art-71",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 71.",
+   "texto": "A prescrição ocorre em 5 (cinco) anos, contados do conhecimento do fato pela Administração Pública."
+  },
+  {
+   "id": "art-72",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 72.",
+   "texto": "Incide a prescrição intercorrente no processo administrativo paralisado por mais de 3 (três) anos, pendente de julgamento ou despacho."
+  },
+  {
+   "id": "art-73",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 73.",
+   "texto": "Terão prioridade na tramitação, em qualquer órgão ou instância, os processos administrativos em que figure como parte ou interessado:",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XVIII",
+     "titulo": "DA TRAMITAÇÃO PRIORITÁRIA"
+    }
+   ]
+  },
+  {
+   "id": "art-73/inc-I",
+   "pai": "art-73",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "pessoa com idade igual ou superior a 60 (sessenta) anos, nos termos da Lei Federal nº 10.741, de 1º de outubro de 2003;"
+  },
+  {
+   "id": "art-73/inc-II",
+   "pai": "art-73",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "pessoa com deficiência; e"
+  },
+  {
+   "id": "art-73/inc-III",
+   "pai": "art-73",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "pessoa com doença grave, com base em conclusão da medicina especializada, mesmo que a doença tenha sido contraída após o início do processo administrativo."
+  },
+  {
+   "id": "art-73/par-1",
+   "pai": "art-73",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A pessoa interessada na obtenção do benefício, juntando prova de sua condição, deverá requerê-lo à autoridade administrativa competente, que determinará as providências a serem cumpridas."
+  },
+  {
+   "id": "art-73/par-2",
+   "pai": "art-73",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Deferida a prioridade, os autos receberão identificação própria que evidencie o regime de tramitação prioritária. CAPÍTULO ÚNICO DISPOSIÇÕES ESPECIAIS PARA CONSTITUIÇÃO DE CRÉDITO NÃO TRIBUTÁRIO"
+  },
+  {
+   "id": "art-74",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 74.",
+   "texto": "Fica disciplinado, neste Capítulo, o processo administrativo para a constituição de crédito não tributário, ressalvados aqueles previstos em lei especial, decorrente de:",
+   "agrupadores": [
+    {
+     "tipo": "titulo",
+     "numero": "III",
+     "titulo": "DAS NORMAS ESPECIAIS PARA A CONSTITUIÇÃO DE CRÉDITOS NÃO TRIBUTÁRIOS NO MUNICÍPIO DE PORTO ALEGRE"
+    },
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Das Espécies de Crédito Não Tributário"
+    }
+   ]
+  },
+  {
+   "id": "art-74/inc-I",
+   "pai": "art-74",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "aplicação de penalidades por infração a leis cuja competência fiscalizatória seja do Município de Porto Alegre;"
+  },
+  {
+   "id": "art-74/inc-II",
+   "pai": "art-74",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "pagamentos indevidos a servidores, ex-servidores, segurados ou terceiros; ou"
+  },
+  {
+   "id": "art-74/inc-III",
+   "pai": "art-74",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "interpelação extrajudicial para os demais casos, inclusive os previstos no art. 39 da Lei Federal nº 4.320, de 17 de março de 1964, e alterações posteriores."
+  },
+  {
+   "id": "art-75",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 75.",
+   "texto": "O procedimento terá início com a emissão sucessiva de:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Do Procedimento"
+    },
+    {
+     "tipo": "subsecao",
+     "numero": "I",
+     "titulo": "Do Procedimento de Aplicação de Penalidades por Infração à Lei"
+    }
+   ]
+  },
+  {
+   "id": "art-75/inc-I",
+   "pai": "art-75",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "notificação prévia; e"
+  },
+  {
+   "id": "art-75/inc-II",
+   "pai": "art-75",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "auto de infração."
+  },
+  {
+   "id": "art-76",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 76.",
+   "texto": "A notificação prévia, aplicável nos procedimentos de fiscalização, é o ato pelo qual se dá conhecimento à parte por escrito, de providência ou medida que a ela incumbe realizar, de obrigação de fazer ou não fazer."
+  },
+  {
+   "id": "art-76/par-1",
+   "pai": "art-76",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O não atendimento da notificação prévia no prazo fixado ensejará a lavratura do auto de infração."
+  },
+  {
+   "id": "art-76/par-2",
+   "pai": "art-76",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Não será emitida a notificação prévia referida no inc. I do art. 75 desta Lei Complementar nos casos em que:"
+  },
+  {
+   "id": "art-76/par-2/inc-I",
+   "pai": "art-76/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a infração seja insanável;"
+  },
+  {
+   "id": "art-76/par-2/inc-II",
+   "pai": "art-76/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o notificado seja reincidente, nos termos do art. 86 desta Lei Complementar; ou"
+  },
+  {
+   "id": "art-76/par-2/inc-III",
+   "pai": "art-76/par-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a infração acarrete risco, conforme norma regulamentadora."
+  },
+  {
+   "id": "art-76/par-3",
+   "pai": "art-76",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Será concedido prazo para regularização da infração sanável, de acordo com sua gravidade e possibilidade de reparação, que poderá ser:"
+  },
+  {
+   "id": "art-76/par-3/inc-I",
+   "pai": "art-76/par-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "simples, se passível de resolução em até 15 (quinze) dias;"
+  },
+  {
+   "id": "art-76/par-3/inc-II",
+   "pai": "art-76/par-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "média, se passível de resolução em até 30 (trinta) dias; ou"
+  },
+  {
+   "id": "art-76/par-3/inc-III",
+   "pai": "art-76/par-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "complexa, caso sua resolução exija prazo superior a 30 (trinta) dias ou dependa de atuação de outros órgãos para a regularização, caso em que o notificado deverá fornecer declaração ou projeto que especifique as medidas necessárias e o prazo respectivo."
+  },
+  {
+   "id": "art-76/par-4",
+   "pai": "art-76",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "O prazo previsto no § 3º deste artigo poderá ser prorrogado 1 (uma) única vez, por igual período."
+  },
+  {
+   "id": "art-76/par-5",
+   "pai": "art-76",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "texto": "Em situações emergenciais, as quais ocasionem distúrbio à comunidade local, a regularização deverá ser feita imediatamente."
+  },
+  {
+   "id": "art-77",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 77.",
+   "texto": "Responde pela infração quem, por ação ou omissão, lhe deu causa, concorreu para sua prática ou dela se beneficiou."
+  },
+  {
+   "id": "art-78",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 78.",
+   "texto": "Auto de infração é o documento pelo qual o agente competente narra a infração à legislação."
+  },
+  {
+   "id": "art-78/par-unico",
+   "pai": "art-78",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O auto de infração poderá ser preenchido de forma manuscrita ou eletrônica e sem entrelinhas, rasuras, emendas ou espaços em branco."
+  },
+  {
+   "id": "art-79",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 79.",
+   "texto": "São elementos do auto de infração:"
+  },
+  {
+   "id": "art-79/inc-I",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "dia, mês, ano, hora e local de sua lavratura;"
+  },
+  {
+   "id": "art-79/inc-II",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "nome do autuado ou do responsável e seu número de inscrição no Cadastro de Pessoa Física (CPF) ou no Cadastro Nacional de Pessoas Jurídicas (CNPJ);"
+  },
+  {
+   "id": "art-79/inc-III",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "endereço do autuado ou do responsável;"
+  },
+  {
+   "id": "art-79/inc-IV",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "endereço eletrônico, número de aplicativo de mensagem instantânea ou contato telefônico para recebimento de notificações, sempre que possível, nos termos desta Lei Complementar;"
+  },
+  {
+   "id": "art-79/inc-V",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "descrição da irregularidade constatada e indicação do dispositivo legal infringido;"
+  },
+  {
+   "id": "art-79/inc-VI",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "indicação dos perigos iminentes, em caso de haver medida cautelar;"
+  },
+  {
+   "id": "art-79/inc-VII",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "indicação de animais, coisas ou produtos apreendidos, se houver;"
+  },
+  {
+   "id": "art-79/inc-VIII",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "legislação que prevê as penalidades eventualmente aplicáveis;"
+  },
+  {
+   "id": "art-79/inc-IX",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "prazo para apresentação de impugnação e a forma de encaminhamento;"
+  },
+  {
+   "id": "art-79/inc-X",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "texto": "matrícula e assinatura de quem lavrou o auto de infração; e"
+  },
+  {
+   "id": "art-79/inc-XI",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "texto": "assinatura do autuado, de seu representante ou de preposto, ressalvada a hipótese prevista no § 2º do art. 27 desta Lei Complementar."
+  },
+  {
+   "id": "art-79/par-unico",
+   "pai": "art-79",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A descrição da irregularidade de que trata o inc. V deste artigo poderá ser acompanhada de todos os elementos probatórios em direito admitidos, tais como gravações ambientais e levantamentos fotográficos."
+  },
+  {
+   "id": "art-80",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 80.",
+   "texto": "Ficam estabelecidas as seguintes penalidades aplicáveis pela autoridade municipal, sem prejuízo de outras sanções previstas em legislação especial:"
+  },
+  {
+   "id": "art-80/inc-I",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "advertência;"
+  },
+  {
+   "id": "art-80/inc-II",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "multa simples;"
+  },
+  {
+   "id": "art-80/inc-III",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "multa diária;"
+  },
+  {
+   "id": "art-80/inc-IV",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "apreensão de animal, coisa ou produto;"
+  },
+  {
+   "id": "art-80/inc-V",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "embargo;"
+  },
+  {
+   "id": "art-80/inc-VI",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "demolição;"
+  },
+  {
+   "id": "art-80/inc-VII",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "interdição, total ou parcial, de estabelecimento, atividade, obra ou produto;"
+  },
+  {
+   "id": "art-80/inc-VIII",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "inutilização do produto;"
+  },
+  {
+   "id": "art-80/inc-IX",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "reparação do dano ao patrimônio público;"
+  },
+  {
+   "id": "art-80/inc-X",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "texto": "suspensão do fornecimento ou da fabricação do produto;"
+  },
+  {
+   "id": "art-80/inc-XI",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "texto": "fechamento de estabelecimento ou encerramento de atividade, cumulado com cassação do alvará, quando houver;"
+  },
+  {
+   "id": "art-80/inc-XII",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "texto": "remoção ou obstrução de uso de bens móveis que estejam em desacordo com a legislação municipal; e"
+  },
+  {
+   "id": "art-80/inc-XIII",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "texto": "demolição de bens imóveis que estejam em desacordo com a legislação municipal."
+  },
+  {
+   "id": "art-80/par-1",
+   "pai": "art-80",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "As penalidades referidas neste artigo serão aplicadas de acordo com a gravidade da infração, podendo ser cominadas cumulativamente."
+  },
+  {
+   "id": "art-80/par-2",
+   "pai": "art-80",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O disposto nos incs. VII e XI deste artigo permanecerá até que o autuado apresente requisição de nova vistoria após regularização."
+  },
+  {
+   "id": "art-80/par-3",
+   "pai": "art-80",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "A multa diária será aplicada sempre que o cometimento da infração se prolongar no tempo, limitada ao período máximo de 90 (noventa) dias."
+  },
+  {
+   "id": "art-81",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 81.",
+   "texto": "Na definição do valor das multas, o julgador deverá observar a gravidade da infração, o dano causado, a capacidade econômica do infrator, a reincidência, em caso de haver, e as circunstâncias agravantes ou atenuantes estabelecidas nesta Lei Complementar."
+  },
+  {
+   "id": "art-82",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 82.",
+   "texto": "Nos casos de iminente risco à saúde, à segurança das pessoas ou ao meio ambiente, será procedida, de modo sumário e cautelar, a apreensão de animal, produto ou coisa ou a interdição de equipamentos, atividade, estabelecimento ou obra, abrindo-se, posteriormente, prazo para a defesa e o contraditório."
+  },
+  {
+   "id": "art-82/par-unico",
+   "pai": "art-82",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Verificado pela fiscalização o descumprimento de medidas previstas no caput deste artigo, serão adotadas, isolada ou cumulativamente, de acordo com as peculiaridades do caso concreto, as seguintes medidas:"
+  },
+  {
+   "id": "art-82/par-unico/inc-I",
+   "pai": "art-82/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "nova autuação;"
+  },
+  {
+   "id": "art-82/par-unico/inc-II",
+   "pai": "art-82/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "nova interdição; e"
+  },
+  {
+   "id": "art-82/par-unico/inc-III",
+   "pai": "art-82/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "aplicação de multa no valor de 1.000 (mil) Unidades Financeiras Municipais (UFMs), ou o dobro da multa aplicada se mais gravosa."
+  },
+  {
+   "id": "art-83",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 83.",
+   "texto": "As penalidades aplicadas ao autuado serão objeto de registro após sua aplicação em definitivo, a fim de permitir a aferição da reincidência, conforme regulamento."
+  },
+  {
+   "id": "art-84",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 84.",
+   "texto": "São circunstâncias que atenuam a aplicação das penalidades:"
+  },
+  {
+   "id": "art-84/inc-I",
+   "pai": "art-84",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a ação do agente não ter sido fundamental para a consecução da infração;"
+  },
+  {
+   "id": "art-84/inc-II",
+   "pai": "art-84",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a equivocada compreensão da norma, admitida como escusável;"
+  },
+  {
+   "id": "art-84/inc-III",
+   "pai": "art-84",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a incapacidade de o agente entender o caráter ilícito do fato;"
+  },
+  {
+   "id": "art-84/inc-IV",
+   "pai": "art-84",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "o agente ter:"
+  },
+  {
+   "id": "art-84/inc-IV/ali-a",
+   "pai": "art-84/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "procurado, por sua espontânea vontade e com eficiência, evitar ou minorar as consequências da infração ou reparar o dano; ou"
+  },
+  {
+   "id": "art-84/inc-IV/ali-b",
+   "pai": "art-84/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "cometido a infração sob coação ou indução ou no cumprimento de ordem de autoridade superior; e"
+  },
+  {
+   "id": "art-84/inc-V",
+   "pai": "art-84",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "o agente não ser reincidente na prática de infrações."
+  },
+  {
+   "id": "art-85",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 85.",
+   "texto": "São circunstâncias que agravam a aplicação das penalidades:"
+  },
+  {
+   "id": "art-85/inc-I",
+   "pai": "art-85",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "infração cometida por:"
+  },
+  {
+   "id": "art-85/inc-I/ali-a",
+   "pai": "art-85/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "ocasião de calamidade pública, assim declarada pelo Poder Público;"
+  },
+  {
+   "id": "art-85/inc-I/ali-b",
+   "pai": "art-85/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "servidor público; ou"
+  },
+  {
+   "id": "art-85/inc-I/ali-c",
+   "pai": "art-85/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "pessoa jurídica;"
+  },
+  {
+   "id": "art-85/inc-II",
+   "pai": "art-85",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "reincidência na prática de infrações, nos termos do art. 86 desta Lei Complementar;"
+  },
+  {
+   "id": "art-85/inc-III",
+   "pai": "art-85",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "o agente ter cometido a infração:"
+  },
+  {
+   "id": "art-85/inc-III/ali-a",
+   "pai": "art-85/inc-III",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "com dolo ou má-fé; ou"
+  },
+  {
+   "id": "art-85/inc-III/ali-b",
+   "pai": "art-85/inc-III",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "com o fim de obter vantagem para si ou para outrem; e"
+  },
+  {
+   "id": "art-85/inc-IV",
+   "pai": "art-85",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "o agente ter:"
+  },
+  {
+   "id": "art-85/inc-IV/ali-a",
+   "pai": "art-85/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "retardado ou deixado de adotar as providências de sua alçada, a fim de evitar ou sanar ato ou fato lesivo;"
+  },
+  {
+   "id": "art-85/inc-IV/ali-b",
+   "pai": "art-85/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "coagido ou induzido outrem à execução material da infração;"
+  },
+  {
+   "id": "art-85/inc-IV/ali-c",
+   "pai": "art-85/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "instigado ou determinado alguém sujeito à sua autoridade a cometer a infração;"
+  },
+  {
+   "id": "art-85/inc-IV/ali-d",
+   "pai": "art-85/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "texto": "prejudicado o meio ambiente; ou"
+  },
+  {
+   "id": "art-85/inc-IV/ali-e",
+   "pai": "art-85/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "texto": "realizado a infração à noite."
+  },
+  {
+   "id": "art-85/par-unico",
+   "pai": "art-85",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para fins deste artigo, excluem-se do conceito de pessoa jurídica as micro e pequenas empresas."
+  },
+  {
+   "id": "art-86",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 86.",
+   "texto": "Verifica-se a reincidência quando o infrator comete nova infração administrativa depois de decisão definitiva que o tenha condenado por infração anterior."
+  },
+  {
+   "id": "art-86/par-1",
+   "pai": "art-86",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Verificada a reincidência do infrator, a multa deverá ser aplicada em dobro."
+  },
+  {
+   "id": "art-86/par-2",
+   "pai": "art-86",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Para efeito de caracterização de reincidência, não prevalece a condenação anterior se, entre a data do cumprimento ou da extinção da penalidade e a data da infração posterior, houver decorrido período de tempo superior a 3 (três) anos."
+  },
+  {
+   "id": "art-87",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 87.",
+   "texto": "Prescreve em 5 (cinco) anos a ação punitiva da Administração Municipal, Direta e Indireta, no exercício do poder fiscalizatório, objetivando apurar infração à legislação em vigor, contados da prática do ato ou, no caso de infração permanente e continuada, do dia em que tiver cessado."
+  },
+  {
+   "id": "art-88",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 88.",
+   "texto": "Constatado o pagamento indevido a servidores, ex-servidores, segurados ou terceiros, por meio da prestação de remuneração, subsídios, proventos ou outros benefícios devidos pelo Município de Porto Alegre, será aberto processo administrativo.",
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "II",
+     "titulo": "Do Procedimento para Ressarcimento por Pagamentos Indevidos a Servidores, Ex-Servidores, Segurados ou Terceiros"
+    }
+   ]
+  },
+  {
+   "id": "art-88/par-unico",
+   "pai": "art-88",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O processo administrativo será instruído com a memória de cálculo do pagamento feito a maior e com a notificação do administrado, em que deverá constar os fundamentos legais aplicáveis ao ressarcimento, prazo de impugnação e as condições para o pagamento, desconto em folha ou parcelamento."
+  },
+  {
+   "id": "art-89",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 89.",
+   "texto": "A interpelação extrajudicial é o meio pelo qual a Administração Pública notifica o interpelado para que cumpra obrigação pecuniária não relacionada às Subseções I e II desta Seção.",
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "III",
+     "titulo": "Do Procedimento por Interpelação Extrajudicial"
+    }
+   ]
+  },
+  {
+   "id": "art-90",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 90.",
+   "texto": "Nas hipóteses do inc. III do art. 74 desta Lei Complementar, o órgão demandante deverá instaurar novo processo administrativo, relacionado ao processo originário, o qual será instruído e encaminhado à Procuradoria-Geral do Município (PGM), com relatório contendo, no mínimo, os seguintes dados:"
+  },
+  {
+   "id": "art-90/inc-I",
+   "pai": "art-90",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a identificação da pessoa física ou jurídica a ser interpelada;"
+  },
+  {
+   "id": "art-90/inc-II",
+   "pai": "art-90",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a exposição sucinta dos fatos relativos ao pagamento, ressarcimento, indenização, o nexo de causalidade e seus fundamentos, acompanhada da documentação comprobatória já existente;"
+  },
+  {
+   "id": "art-90/inc-III",
+   "pai": "art-90",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "as finalidades da interpelação extrajudicial; e"
+  },
+  {
+   "id": "art-90/inc-IV",
+   "pai": "art-90",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "o valor líquido e atualizado do crédito a ser pago ou indenizado."
+  },
+  {
+   "id": "art-90/par-unico",
+   "pai": "art-90",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Nos casos em que a obrigação pecuniária seja de valor atualizado inferior a 500 (quinhentas) UFMs, fica dispensado o processamento da interpelação."
+  },
+  {
+   "id": "art-91",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 91.",
+   "texto": "São instâncias do processo administrativo para constituição do crédito não tributário:",
+   "agrupadores": [
+    {
+     "tipo": "titulo",
+     "numero": "IV",
+     "titulo": "DAS DISPOSIÇÕES COMUNS E FINAIS"
+    }
+   ]
+  },
+  {
+   "id": "art-91/inc-I",
+   "pai": "art-91",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "os órgãos responsáveis pelo julgamento dos processos, previstos no art. 74 desta Lei Complementar; e"
+  },
+  {
+   "id": "art-91/inc-II",
+   "pai": "art-91",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "os titulares das secretarias, autarquias ou fundação, onde realizado o julgamento de primeira instância."
+  },
+  {
+   "id": "art-91/par-unico",
+   "pai": "art-91",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A competência prevista no inc. II deste artigo poderá ser delegada a servidor ou a servidores por meio de portaria com prazo determinado."
+  },
+  {
+   "id": "art-92",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 92.",
+   "texto": "O prazo para o oferecimento de impugnação será de 30 (trinta) dias."
+  },
+  {
+   "id": "art-93",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 93.",
+   "texto": "A impugnação deverá conter, no mínimo:"
+  },
+  {
+   "id": "art-93/inc-I",
+   "pai": "art-93",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a identificação do subscritor, inclusive, nome, CPF ou CNPJ, endereço residencial ou profissional, endereço eletrônico, número de aplicativo de mensagem instantânea ou contato telefônico para recebimento de notificações, sempre que possível;"
+  },
+  {
+   "id": "art-93/inc-II",
+   "pai": "art-93",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o instrumento de mandato, no caso de a defesa ser subscrita por procurador do interpelado;"
+  },
+  {
+   "id": "art-93/inc-III",
+   "pai": "art-93",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a descrição dos fatos;"
+  },
+  {
+   "id": "art-93/inc-IV",
+   "pai": "art-93",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "a fundamentação fática e jurídica da tese defensiva apresentada;"
+  },
+  {
+   "id": "art-93/inc-V",
+   "pai": "art-93",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "o pedido de acolhimento total ou parcial da defesa; e"
+  },
+  {
+   "id": "art-93/inc-VI",
+   "pai": "art-93",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "as provas do interpelado, se já existentes, ou, em caso negativo, o pedido específico para a produção da prova necessária à comprovação do alegado."
+  },
+  {
+   "id": "art-93/par-unico",
+   "pai": "art-93",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A falta de algum dos elementos dos incs. I a VI deste artigo não poderá servir de óbice ao exame da impugnação pelo órgão competente, se for compreensível."
+  },
+  {
+   "id": "art-94",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 94.",
+   "texto": "A análise e o julgamento do processo administrativo serão efetuados em manifestação que apreciará os requisitos de admissibilidade, as provas e a tese defensiva, quando houver."
+  },
+  {
+   "id": "art-94/par-unico",
+   "pai": "art-94",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Caso verificada inconsistência ou lacuna de dados essenciais à decisão, o órgão decisor poderá solicitar diligências."
+  },
+  {
+   "id": "art-95",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 95.",
+   "texto": "A decisão prolatada por ocasião do exame de impugnação será comunicada ao interessado para que este possa exercer direito à apresentação de recurso."
+  },
+  {
+   "id": "art-96",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 96.",
+   "texto": "A decisão que anular o processo, reconhecer sua caducidade, revogar ato administrativo ou for, de qualquer forma, favorável ao interessado, será objeto de comunicação a este pela via menos onerosa ao ente público, e no DOPA-e."
+  },
+  {
+   "id": "art-97",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 97.",
+   "texto": "Apreciada a impugnação, o impugnante será notificado para, em sendo o caso, cumprir a decisão ou apresentar recurso."
+  },
+  {
+   "id": "art-98",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 98.",
+   "texto": "Da decisão cabe recurso no prazo de 30 (trinta) dias."
+  },
+  {
+   "id": "art-99",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 99.",
+   "texto": "O recurso será recebido com efeito suspensivo, salvo quando:"
+  },
+  {
+   "id": "art-99/inc-I",
+   "pai": "art-99",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "houver previsão legal em contrário; e"
+  },
+  {
+   "id": "art-99/inc-II",
+   "pai": "art-99",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "da inexecução da penalidade puder resultar a ineficácia da decisão final."
+  },
+  {
+   "id": "art-99/par-unico",
+   "pai": "art-99",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Nos casos referidos nos incs. I e II do caput deste artigo, a autoridade administrativa declarará os efeitos do recebimento do recurso."
+  },
+  {
+   "id": "art-100",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 100.",
+   "texto": "Os recursos das decisões serão examinados pelos titulares das respectivas pastas, ressalvada a hipótese do parágrafo único do art. 91 desta Lei Complementar."
+  },
+  {
+   "id": "art-101",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 101.",
+   "texto": "O administrado será notificado da decisão que julgar o recurso."
+  },
+  {
+   "id": "art-101/par-unico",
+   "pai": "art-101",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A notificação será acompanhada de Documento de Arrecadação Municipal (DAM) para pagamento no prazo de 30 (trinta) dias."
+  },
+  {
+   "id": "art-102",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 102.",
+   "texto": "Poderá ser autorizado o parcelamento do valor devido a qualquer momento, na forma do regulamento, hipótese em que o processo ficará suspenso até a quitação integral."
+  },
+  {
+   "id": "art-103",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 103.",
+   "texto": "Poderá ser concedido desconto no caso de quitação do valor devido, se efetuada até o prazo do art. 98 desta Lei Complementar, conforme regulamento, caso em que o processo será extinto."
+  },
+  {
+   "id": "art-104",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 104.",
+   "texto": "A qualquer momento é possível a utilização dos meios consensuais previstos na Lei nº 12.003, de 27 de janeiro de 2016, e alterações posteriores."
+  },
+  {
+   "id": "art-105",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 105.",
+   "texto": "O órgão julgador de origem, após decisões reiteradas sobre determinado tema, poderá, de ofício ou por provocação, propor súmulas, as quais serão submetidas à aprovação dos titulares das respectivas pastas."
+  },
+  {
+   "id": "art-105/par-1",
+   "pai": "art-105",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "As súmulas serão encaminhadas à PGM para arquivamento e publicidade, sem prejuízo de análise jurídica prévia, quando couber."
+  },
+  {
+   "id": "art-105/par-2",
+   "pai": "art-105",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A revisão ou o cancelamento de súmula dar-se-á por deliberação unânime do órgão julgador de origem, confirmada pela instância recursal, mediante parecer fundamentado."
+  },
+  {
+   "id": "art-106",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 106.",
+   "texto": "Em se tratando de crédito pecuniário, o processo será encaminhado ao setor competente para a emissão de guia para recolhimento do valor devido ou ao órgão pagador para desconto em folha de vencimentos ou de benefícios."
+  },
+  {
+   "id": "art-107",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 107.",
+   "texto": "Em caso de não pagamento da guia no prazo estabelecido ou de não ser efetuado o desconto do indébito em folha de pagamento, o valor devido atualizado será inscrito em dívida ativa e encaminhado para cobrança administrativa ou, se for o caso, para execução fiscal."
+  },
+  {
+   "id": "art-108",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 108.",
+   "texto": "Fica o Executivo Municipal autorizado a não ajuizar ação de cobrança de crédito não tributário, aplicando-se, para tal fim, os parâmetros estabelecidos em relação ao crédito tributário."
+  },
+  {
+   "id": "art-108/par-unico",
+   "pai": "art-108",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Admite-se o envio da certidão de dívida ativa ao cartório de protesto de títulos, ou ainda, a busca pela solução consensual menos onerosa para as partes, desde que resguardado o interesse público e a eficiência dos processos envolvidos."
+  },
+  {
+   "id": "art-109",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 109.",
+   "texto": "Os valores inscritos em dívida ativa informarão, por força desta Lei Complementar, a Certidão Geral de Débitos, que incluirá as dívidas tributárias e não tributárias, a ser emitida pela Secretaria Municipal da Fazenda."
+  },
+  {
+   "id": "art-110",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 110.",
+   "texto": "Aplicam-se subsidiariamente a esta Lei Complementar:"
+  },
+  {
+   "id": "art-110/inc-I",
+   "pai": "art-110",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o Decreto-Lei Federal nº 4.657, de 4 de setembro de 1942 – Lei de Introdução às Normas do Direito Brasileiro –, e alterações posteriores;"
+  },
+  {
+   "id": "art-110/inc-II",
+   "pai": "art-110",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a Lei Federal nº 10.406, de 10 de janeiro de 2002 – Código Civil Brasileiro –, e alterações posteriores;"
+  },
+  {
+   "id": "art-110/inc-III",
+   "pai": "art-110",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a Lei Federal nº 12.527, de 18 de novembro de 2011 – Lei de Acesso à Informação –, e alterações posteriores; e"
+  },
+  {
+   "id": "art-110/inc-IV",
+   "pai": "art-110",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "a Lei Federal nº 13.105, de 16 de março de 2015 – Código de Processo Civil Brasileiro –, e alterações posteriores."
+  },
+  {
+   "id": "art-111",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 111.",
+   "texto": "Os prazos referentes ao processo tributário seguem regidos pela Lei Complementar nº 7, de 7 dezembro de 1973, e alterações posteriores."
+  },
+  {
+   "id": "art-112",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 112.",
+   "texto": "Esta Lei Complementar entra em vigor em 90 (noventa) dias, contados da data de sua publicação."
+  },
+  {
+   "id": "art-113",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 113.",
+   "texto": "Fica revogada a Lei Complementar nº 790, de 10 de fevereiro de 2016."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "texto_fora_da_arvore",
+   "trecho_nao_localizado_na_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 113,
+   "dispositivos": 359,
+   "cobertura": 0.949,
+   "blocosDeAlteracao": 0,
+   "lacunas": [
+    {
+     "tamanho": 108,
+     "amostra": "2ºDeferidaaprioridadeosautosreceberãoidentificaçãoprópriaqueevidencieoregimedetr"
+    },
+    {
+     "tamanho": 77,
+     "amostra": "CAPÍTULOÚNICODISPOSIÇÕESESPECIAISPARACONSTITUIÇÃODECRÉDITONÃOTRIBUTÁRIOSeçãoIDas"
+    }
+   ],
+   "naoLocalizados": [
+    "Em havendo impossibilidade de digitalização, as cópias de processos administrati",
+    "Deferida a prioridade, os autos receberão identificação própria que evidencie o "
+   ],
+   "rotulosDivergentes": []
+  }
+ }
+}

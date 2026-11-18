@@ -294,6 +294,27 @@ export function extrairCabecalhoLeiPublicada(raw) {
     if (!m) continue;
     return { tipoAto: "ORDEM DE SERVIÇO", numero: m[1].replace(/\./g, ""), ano: m[2], dataPublicacao: null };
   }
+  // Emenda à Lei Orgânica — formatos vistos em textos reais da fonte (EC 17–51):
+  // "Nº 37, DE 16 DE DEZEMBRO DE 2015." · "N° 18" · "N.º 23" · sem "Nº" ("LEI ORGÂNICA 28, de 20…")
+  // · "Nº 22 , DE" · "DE2006" (espaço perdido na extração). Em alguns arquivos o
+  // ano some da linha ("…DE 4 DE DEZEMBRO DE"): número e tipo valem, a data NÃO
+  // é inventada (`dataPublicacao: null`, ano null) — quem chama usa o catálogo.
+  const reCabEmenda = /^EMENDA\s+[ÀA]\s+LEI\s+ORG[ÂA]NICA\s*(?:N\.?\s*[º°O]\.?\s*)?(\d+)(?:\s*,?\s*DE\s*(\d{1,2})\s*[º°O]?\s*DE\s*([A-ZÇÃÕÁÉÍÓÚÂÊÔ]+)\s*(?:DE\s*(\d{4})?)?)?\s*\.?\s*$/i;
+  for (const line of lines) {
+    const m = line.match(reCabEmenda);
+    if (!m) continue;
+    // arquivos dos anos 1990 trazem só "EMENDA À LEI ORGÂNICA Nº 04" (a data vem no fecho): número sem zeros à esquerda
+    const numeroEmenda = String(parseInt(m[1], 10));
+    if (!m[3]) return { tipoAto: "EMENDA À LEI ORGÂNICA", numero: numeroEmenda, ano: null, dataPublicacao: null };
+    const mesNum = MESES_PT[semAcento(m[3].toLowerCase())];
+    if (!mesNum) continue;
+    if (!m[4]) return { tipoAto: "EMENDA À LEI ORGÂNICA", numero: numeroEmenda, ano: null, dataPublicacao: null };
+    return {
+      tipoAto: "EMENDA À LEI ORGÂNICA", numero: numeroEmenda, ano: m[4],
+      dataPublicacao: `${m[4]}-${String(mesNum).padStart(2,"0")}-${m[2].padStart(2,"0")}`,
+      dataExtenso: `${m[2]} de ${m[3].toLowerCase()} de ${m[4]}`
+    };
+  }
   const reTipoNaoSuportado = /^(RESOLU[ÇC][ÃA]O\s+DE\s+MESA|DECRETO\s+LEGISLATIVO|EMENDA\s+(?:N[º°]\s*\d+\s*)?[ÀA]\s+LEI\s+ORG[ÂA]NICA|PRECEDENTE\s+LEGISLATIVO)\b/i;
   for (const line of lines) {
     const m = line.match(reTipoNaoSuportado);

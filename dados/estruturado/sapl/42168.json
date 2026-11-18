@@ -1,0 +1,60 @@
+{
+ "idSapl": 42168,
+ "rotulo": "Lei Complementar municipal nº 855, de 26 de julho de 2019",
+ "sha256Origem": "4a6c4a590204edf52386dbca416b8ecb62f94619142533ecfa648e5afed4c0be",
+ "estruturadoEm": "2026-11-18T09:25:54.578Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "855",
+  "ano": "2019",
+  "data": "2019-07-26",
+  "epigrafe": "LEI COMPLEMENTAR Nº 855, DE 26 DE JULHO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui § 4º no art. 1º e altera o inc. V e inclui inc. X no caput do art. 3º da Lei Complementar nº 650, de 27 de agosto de 2010, alterada pela Lei Complementar nº 688, de 15 de fevereiro de 2012, dispondo sobre a regularização de edificações não cadastradas existentes no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 26 de julho de 2019.\nGustavo Bohrer Paim,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nRicardo Hoffmann Muñoz,\nProcurador-Geral do Município, em exercício.\n2",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído § 4º no art. 1º da Lei Complementar nº 650, de 27 de agosto de 2010, alterada pela Lei Complementar nº 688, de 15 de fevereiro de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º .....................................................................................................................\n....................................................................................................................................\n§ 4º Para a regularização de edificação não cadastrada, o seu proprietário ou\npossuidor poderá adquirir índices construtivos, oriundos do Solo Criado, nos termos da outorga\nonerosa do direito de construir, ou de terceiros, por meio da transferência de potencial\nconstrutivo, na Prefeitura Municipal de Porto Alegre.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluído inc. X e fica alterado o inc. V no caput do art. 3º da Lei Complementar nº 650, de 2010, alterada pela Lei Complementar nº 688, de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º .....................................................................................................................\n....................................................................................................................................\nV – construções nos recuos de ajardinamento em atividades comerciais;\n....................................................................................................................................\nX – prédios que tenham sido consolidados até a regulamentação desta Lei\nComplementar.\n..........................................................................................................................”(NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "idSapl": 42586,
+ "rotulo": "Lei Complementar municipal nº 882, de 21 de maio de 2020",
+ "sha256Origem": "e2a9da2bb527dc1875e7ff59bb895b4dd566e77e92e525a18753625b1ee9f078",
+ "estruturadoEm": "2026-11-18T09:25:54.480Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "882",
+  "ano": "2020",
+  "data": "2020-05-20",
+  "epigrafe": "LEI COMPLEMENTAR Nº 882, DE 20 DE MAIO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece a isenção, para as competências de abril, maio e junho de 2020, das tarifas de água e esgoto aos consumidores beneficiados pela tarifa social que se enquadrem no disposto pelos incs. I e II do art. 37 da Lei Complementar nº 170, de 31 de dezembro de 1987, e alterações posteriores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 20 de maio de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nCarlos Eduardo da Silveira,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecida a isenção, para as competências de abril, maio e junho de 2020, das tarifas de água e esgoto aos consumidores beneficiados pela tarifa social que se enquadrem no disposto pelos incs. I e II do art. 37 da Lei Complementar nº 170, de 31 de dezembro de 1987, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "data_diverge_do_catalogo"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.948,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

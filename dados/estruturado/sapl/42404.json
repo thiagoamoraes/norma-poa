@@ -1,0 +1,129 @@
+{
+ "idSapl": 42404,
+ "rotulo": "Lei Complementar municipal nº 874, de 15 de janeiro de 2020",
+ "sha256Origem": "9b5a99deed87bb44001e6935a2e8295a90909216939533b58ff33e7ef201323c",
+ "estruturadoEm": "2026-11-18T09:25:54.524Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "874",
+  "ano": "2020",
+  "data": "2020-01-15",
+  "epigrafe": "LEI COMPLEMENTAR Nº 874, DE 15 DE JANEIRO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Proíbe a atividade de guardador autônomo de veículos automotores – flanelinhas – em vias e logradouros públicos do Município de Porto Alegre e revoga o inc. XXX do caput do art. 18 da Lei Complementar nº 12, de 7 de janeiro de 1975, a Lei nº 5.738, de 7 de janeiro de 1986, e a Lei nº 6.602, de 7 de maio de 1990.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE, Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 15 de janeiro de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município.\n2",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica proibida a atividade de guardador autônomo de veículos automotores – flanelinhas – ou assemelhados nas vias e nos logradouros públicos do Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Executivo Municipal elaborará plano de ação para realizar a inserção social dos guardadores autônomos de veículos que estiverem devidamente registrados no órgão federal competente."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Cabe ao Executivo Municipal, de forma exclusiva ou mediante concessão ou permissão, a exploração de estacionamento pago ou a cobrança de qualquer espécie de contribuição, legalmente autorizada, para o estacionamento de veículos nas vias e nos logradouros públicos."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Compete aos agentes de fiscalização, aos guardas municipais e aos agentes de trânsito e transporte, dentro de suas competências e de forma compartilhada, fiscalizar o cumprimento do disposto nesta Lei Complementar, procedendo à remoção e ao registro dos que estiverem exercendo indevidamente a profissão."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "O não cumprimento ao disposto nesta Lei Complementar sujeitará o infrator a multa no valor de R$ 300,00 (trezentos reais), aplicada em dobro em caso de reincidência."
+  },
+  {
+   "id": "art-5/par-unico",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O valor da multa referida no caput deste artigo será atualizado anualmente pela variação do Índice de Preço ao Consumidor Amplo (IPCA), apurado pelo Instituto Brasileiro de Geografia e Estatística (IBGE), ou por outro índice que vier a substituí-lo."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Os valores arrecadados a partir das multas referidas no art. 5º desta Lei Complementar serão destinados ao Fundo Municipal de Segurança Pública (Fumseg), instituído pela Lei Complementar nº 822, de 13 de dezembro de 2017, ou a outro que vier a substituí-lo."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "Ficam revogados:"
+  },
+  {
+   "id": "art-8/inc-I",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o inc. XXX do caput do art. 18 da Lei Complementar nº 12, de 7 de janeiro de 1975;"
+  },
+  {
+   "id": "art-8/inc-II",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a Lei nº 5.738, de 7 de janeiro de 1986; e"
+  },
+  {
+   "id": "art-8/inc-III",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a Lei nº 6.602, de 7 de maio de 1990."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 8,
+   "dispositivos": 13,
+   "cobertura": 0.948,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

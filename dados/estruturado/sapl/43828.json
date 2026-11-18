@@ -1,0 +1,73 @@
+{
+ "idSapl": 43828,
+ "rotulo": "Lei Complementar municipal nº 940, de 08 de abril de 2022",
+ "sha256Origem": "368ce7a755bf4f54af14a158f289dfbfd743ea4552a091255c32a3a467f73d64",
+ "estruturadoEm": "2026-11-18T09:25:54.338Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "940",
+  "ano": "2022",
+  "data": "2022-04-08",
+  "epigrafe": "LEI COMPLEMENTAR Nº 940, DE 8 DE ABRIL DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui art. 9º-A e revoga o art. 9º da Lei Complementar nº 352, de 8 de agosto de 1995 – que dispõe sobre a Política de Assistência Social no Município e dá outras providências –, e alterações posteriores, e revoga o § 1º do art. 5º da Lei Complementar nº 661, de 7 de dezembro de 2010, que dispõe normas gerais sobre os Conselhos Municipais, dispondo sobre a composição do Conselho Municipal de Assistência Social (CMAS).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de abril de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído art. 9º-A na Lei Complementar nº 352, de 8 de agosto de 1995, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 9º-A O Conselho Municipal de Assistência Social (CMAS) é composto por\n36 (trinta e seis) membros titulares, além dos respectivos suplentes, respeitada a composição\nparitária entre o Poder Público e a sociedade civil, bem como a proporcionalidade da sociedade\ncivil, e constituir-se-á da seguinte forma:\nI – 18 (dezoito) representantes do Executivo Municipal a serem escolhidos dentre\nos servidores públicos municipais, designados preferencialmente entre as áreas afins, observado o\nmínimo de 3 vagas destinadas para a FASC; e\nII – 18 (dezoito) representantes eleitos na Comissão Regional de Assistência Social\n(CORAS), com a seguinte proporção:\na) 6 (seis) representantes eleitos pelos usuários;\nb) 6 (seis) representantes eleitos pelas entidades; e\nc) 6 (seis) representantes eleitos pelos trabalhadores.\n§ 1º A CORAS será organizada em 3 (três) grupos distritais compostos por 6 (seis)\nregiões cada um, por proximidade geográfica, a saber:\nI – primeiro grupo: Norte, Noroeste, Eixo Baltazar, Nordeste, Leste e Partenon;\nII – segundo grupo: Ilhas, Humaitá, Centro, Cruzeiro, Glória e Cristal; e\nIII – terceiro grupo: Centro Sul, Sul, Extremo Sul, Restinga I e II (região com maior\nnúmero populacional) e Lomba do Pinheiro.\n§ 2º Cada região da CORAS elegerá 1 (um) conselheiro, totalizando seis 6 (seis)\nconselheiros em cada grupo distrital, com a seguinte composição:\nI – 2 (dois) para o segmento de usuários;\nII – 2 (dois) para o segmento de entidades; e\nIII – 2 (dois) para o segmento de trabalhadores.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Ficam revogados:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o art. 9º da Lei Complementar nº 352, de 8 de agosto de 1995; e"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o § 1º do art. 5º da Lei Complementar nº 661, de 7 de dezembro de 2010."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.975,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

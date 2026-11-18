@@ -1,0 +1,82 @@
+{
+ "idSapl": 47805,
+ "rotulo": "Lei Complementar municipal nº 998, de 21 de dezembro de 2023",
+ "sha256Origem": "24c4930629ccccf1269bb24e16aed09acc819adb9d11c1950fdb38e6036ea325",
+ "estruturadoEm": "2026-11-18T09:25:54.202Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "998",
+  "ano": "2023",
+  "data": "2023-12-21",
+  "epigrafe": "LEI COMPLEMENTAR Nº 998, DE 21 DE DEZEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o § 11 do art. 20 e os subitens 7.02 e 7.05 da Tabela XII e revoga o item 3 da al. a do § 1º do art. 20 e o inc. I com suas alíneas e o inc. II do § 11 do art. 20, todos da Lei Complementar nº 7, de 7 de dezembro de 1973, e alterações posteriores, que institui e disciplina os tributos de competência do Município, para dispor acerca da base de cálculo dos serviços a que se refere o subitem 22.01, da revogação da receita presumida como preço do serviço para os serviços enquadrados nos subitens 7.02 e 7.05 da Lista de Serviços, e da redução das alíquotas dos serviços enquadrados nos subitens 7.02 e 7.05 para 2,5% até 31 de dezembro de 2038.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de dezembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.\nANEXO\n“Tabela XII\n........................................................................................................................................................\n7.02\nExecução, por administração, empreitada ou subempreitada, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).\n2,5% até 31 de dezembro de 2038\n........................................................................................................................................................\n7.05\nReparação, conservação e reforma de edifícios, estradas, pontes, portos e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).\n2,5% até 31 de dezembro de 2038\n.......................................................................................................................” (NR)",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o § 11 do art. 20 da Lei Complementar nº 7, de 7 de dezembro de 1973, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 20. ....................................................................................................................\n....................................................................................................................................\n§ 11. Na prestação dos serviços a que se refere o subitem 22.01 da Lista de Serviços anexa a esta Lei Complementar, a base de cálculo será a receita bruta de todos os postos de cobrança de pedágio da rodovia explorada, dividida na proporção direta da extensão da rodovia explorada dentro do território deste Município.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam alterados os subitens 7.02 e 7.05 da Tabela XII da Lei Complementar nº 7, de 1973, e alterações posteriores, conforme o Anexo desta Lei Complementar."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor em 1º de junho de 2024."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Ficam revogados na Lei Complementar nº 7, de 7 de dezembro de 1973:"
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o item 3 da al. a do § 1º do art. 20; e"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o inc. I com suas alíneas e o inc. II do § 11 do art. 20."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 6,
+   "cobertura": 0.971,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

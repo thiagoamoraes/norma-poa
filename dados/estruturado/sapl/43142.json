@@ -1,0 +1,59 @@
+{
+ "idSapl": 43142,
+ "rotulo": "Lei Complementar municipal nº 902, de 27 de abril de 2021",
+ "sha256Origem": "c9015194c0174fa693da32778bdf757df18e08e53a0abbd119455bf90156a507",
+ "estruturadoEm": "2026-11-18T09:25:54.426Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "902",
+  "ano": "2021",
+  "data": "2021-04-27",
+  "epigrafe": "LEI COMPLEMENTAR Nº 902, DE 27 DE ABRIL DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput e o § 2º e revoga o inc. III do § 1º, todos do art. 20-A da Lei Complementar nº 12, de 7 de janeiro de 1975, e alterações posteriores, modificando os critérios para cercamento de logradouros públicos, tais como largos e parques, do Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de abril de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam alterados o caput e o § 2º do art. 20-A da Lei Complementar nº 12, de 7 de janeiro de 1975, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 20-A. Os logradouros públicos, tais como largos e parques, somente\npoderão receber cercamento mediante parecer permissível do Conselho Municipal de\nDesenvolvimento Urbano Ambiental (CMDUA) ao projeto.\n....................................................................................................................................\n....................................................................................................................................\n§ 2º O CMDUA deverá manifestar-se com base em projeto paisagístico elaborado\npor profissional habilitado e considerando os pareceres técnicos dos órgãos competentes do\nExecutivo Municipal.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica revogado o inc. III do § 1º do art. 20-A da Lei Complementar nº 12, de 1975."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.954,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

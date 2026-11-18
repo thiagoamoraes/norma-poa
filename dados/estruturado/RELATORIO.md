@@ -1,15 +1,15 @@
 # Estruturação — relatório
 
-Gerado em 2026-11-17T18:17:06.580Z por `ingestao/estruturar.mjs` (versão do estruturador: 4). Não editar à mão.
+Gerado em 2026-11-18T09:25:54.686Z por `ingestao/estruturar.mjs` (versão do estruturador: 4). Não editar à mão.
 
 Uma norma só é **aceita** quando passa em todas as conferências: cabeçalho igual ao do catálogo (número, data, tipo), artigos numerados sem salto, rótulos iguais aos do texto de origem, nenhum texto fora da árvore, fecho presente. O resto vai para **revisar**, com o motivo.
 
-Textos baixados: 80 · com texto extraído e estruturados: 79
+Textos baixados: 331 · com texto extraído e estruturados: 328
 
 | Situação | Normas | % |
 |---|---|---|
-| aceita | 41 | 51.9% |
-| revisar | 38 | 48.1% |
+| aceita | 234 | 71.3% |
+| revisar | 94 | 28.7% |
 
 ## Motivos de revisão
 
@@ -17,27 +17,30 @@ Textos baixados: 80 · com texto extraído e estruturados: 79
 
 | Motivo | Normas | % do total |
 |---|---|---|
-| `sem_fecho` | 23 | 29.1% |
-| `cabecalho_nao_reconhecido` | 22 | 27.8% |
-| `rotulo_nao_confere_com_a_origem` | 20 | 25.3% |
-| `trecho_nao_localizado_na_origem` | 17 | 21.5% |
-| `texto_fora_da_arvore` | 12 | 15.2% |
-| `bloco_de_alteracao_sem_dono` | 10 | 12.7% |
-| `tipo_sem_suporte` | 8 | 10.1% |
-| `sem_artigos` | 3 | 3.8% |
-| `data_diverge_do_catalogo` | 1 | 1.3% |
-| `dispositivo_sem_rotulo` | 1 | 1.3% |
-| `endereco_repetido` | 1 | 1.3% |
-| `promulgacao_parcial` | 1 | 1.3% |
+| `trecho_nao_localizado_na_origem` | 52 | 15.9% |
+| `rotulo_nao_confere_com_a_origem` | 38 | 11.6% |
+| `sem_fecho` | 28 | 8.5% |
+| `texto_fora_da_arvore` | 27 | 8.2% |
+| `cabecalho_nao_reconhecido` | 24 | 7.3% |
+| `bloco_de_alteracao_sem_dono` | 10 | 3% |
+| `tipo_sem_suporte` | 8 | 2.4% |
+| `data_diverge_do_catalogo` | 7 | 2.1% |
+| `sem_artigos` | 4 | 1.2% |
+| `dispositivo_sem_rotulo` | 3 | 0.9% |
+| `endereco_repetido` | 2 | 0.6% |
+| `promulgacao_parcial` | 2 | 0.6% |
+| `numero_diverge_do_catalogo` | 1 | 0.3% |
+| `tipo_diverge_do_catalogo` | 1 | 0.3% |
 
 ## Avisos (não reprovam)
 
 | Aviso | Normas | % do total |
 |---|---|---|
-| `texto_de_ocr` | 19 | 24.1% |
-| `dispositivo_muito_longo` | 4 | 5.1% |
-| `possivel_dispositivo_embutido` | 4 | 5.1% |
-| `tem_anexo` | 2 | 2.5% |
+| `tem_anexo` | 30 | 9.1% |
+| `texto_de_ocr` | 21 | 6.4% |
+| `cabecalho_fora_do_padrao` | 7 | 2.1% |
+| `dispositivo_muito_longo` | 5 | 1.5% |
+| `possivel_dispositivo_embutido` | 5 | 1.5% |
 
 ## Fila de revisão
 
@@ -81,3 +84,59 @@ Textos baixados: 80 · com texto extraído e estruturados: 79
 - Lei Complementar municipal nº 1.075, de 14 de julho de 2026 (`51485`): promulgacao_parcial, rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono
 - Lei Complementar municipal nº 1.074, de 09 de julho de 2026 (`51463`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 1.071, de 14 de abril de 2026 (`51214`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 1.062, de 15 de dezembro de 2025 (`50793`): data_diverge_do_catalogo
+- Lei Complementar municipal nº 1.050, de 11 de agosto de 2025 (`50386`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 1.049, de 08 de agosto de 2025 (`50385`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 1.046, de 28 de julho de 2025 (`50340`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 1.037, de 02 de fevereiro de 2025 (`49739`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 1.031, de 30 de janeiro de 2025 (`49654`): data_diverge_do_catalogo
+- Lei Complementar municipal nº 1.025, de 11 de dezembro de 2024 (`49557`): dispositivo_sem_rotulo, endereco_repetido, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 1.017, de 08 de julho de 2024 (`48855`): sem_fecho, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 1.011, de 10 de maio de 2024 (`48437`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 1.005, de 08 de fevereiro de 2024 (`48003`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 992, de 07 de novembro de 2023 (`47599`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 966, de 27 de dezembro de 2022 (`45422`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 964, de 22 de dezembro de 2022 (`48226`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 960, de 05 de outubro de 2022 (`44398`): dispositivo_sem_rotulo, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 957, de 28 de setembro de 2022 (`44376`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 951, de 17 de agosto de 2022 (`44158`): sem_artigos, sem_fecho
+- Lei Complementar municipal nº 945, de 08 de julho de 2022 (`44071`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 941, de 26 de abril de 2022 (`43860`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 932, de 06 de janeiro de 2022 (`43595`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 925, de 20 de dezembro de 2021 (`43543`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 924, de 17 de dezembro de 2021 (`43542`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 919, de 17 de novembro de 2021 (`43471`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 917, de 13 de outubro de 2021 (`43403`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 915, de 29 de setembro de 2021 (`43376`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 897, de 15 de janeiro de 2021 (`42994`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 896, de 05 de janeiro de 2021 (`42987`): numero_diverge_do_catalogo, data_diverge_do_catalogo, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 894, de 29 de dezembro de 2020 (`42980`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 885, de 09 de julho de 2020 (`42659`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 882, de 21 de maio de 2020 (`42586`): data_diverge_do_catalogo
+- Lei Complementar municipal nº 878, de 15 de maio de 2020 (`42577`): data_diverge_do_catalogo
+- Lei Complementar municipal nº 881, de 20 de abril de 2020 (`42542`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 880, de 27 de março de 2020 (`42519`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 879, de 27 de março de 2020 (`42518`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 876, de 03 de março de 2020 (`42460`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 875, de 21 de janeiro de 2020 (`42407`): trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 872, de 10 de janeiro de 2020 (`42401`): promulgacao_parcial, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 869, de 27 de dezembro de 2019 (`42387`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 868, de 10 de dezembro de 2019 (`42356`): trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 867, de 10 de dezembro de 2019 (`42355`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 860, de 24 de setembro de 2019 (`42236`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 859, de 03 de setembro de 2019 (`42216`): trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 848, de 22 de março de 2019 (`42014`): cabecalho_nao_reconhecido, tipo_diverge_do_catalogo
+- Lei Complementar municipal nº 839, de 27 de dezembro de 2018 (`41908`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 838, de 18 de dezembro de 2018 (`41876`): trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 835, de 26 de julho de 2018 (`41723`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 834, de 20 de julho de 2018 (`41717`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 832, de 09 de março de 2018 (`41577`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 822, de 12 de dezembro de 2017 (`41463`): data_diverge_do_catalogo
+- Lei Complementar municipal nº 820, de 31 de outubro de 2017 (`41414`): sem_fecho
+- Lei Complementar municipal nº 818, de 11 de setembro de 2017 (`41347`): sem_fecho
+- Lei Complementar municipal nº 817, de 30 de agosto de 2017 (`41342`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 813, de 20 de março de 2017 (`41179`): cabecalho_nao_reconhecido, sem_fecho
+- Lei Complementar municipal nº 810, de 04 de janeiro de 2017 (`41098`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 809, de 29 de dezembro de 2016 (`41019`): trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 807, de 28 de dezembro de 2016 (`41009`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
+- Lei Complementar municipal nº 804, de 27 de setembro de 2016 (`40856`): trecho_nao_localizado_na_origem

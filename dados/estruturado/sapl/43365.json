@@ -1,0 +1,75 @@
+{
+ "idSapl": 43365,
+ "rotulo": "Lei Complementar municipal nº 914, de 22 de setembro de 2021",
+ "sha256Origem": "10f2bf546f624ae7d5e1a396c5505c89cbf4da3269f198454e2c715e7e47b746",
+ "estruturadoEm": "2026-11-18T09:25:54.404Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "914",
+  "ano": "2021",
+  "data": "2021-09-22",
+  "epigrafe": "LEI COMPLEMENTAR Nº 914, DE 22 DE SETEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput do art. 34 e o caput do art. 39, ambos da Lei Complementar nº 170, de 31 de dezembro de 1987 – que revoga a Lei Complementar nº 32, de 07/01/77, estabelece normas para instalações hidrossanitárias     e    serviços    públicos     de abastecimento de água e esgotamento sanitário prestados pelo Departamento Municipal de Água e Esgotos, e dá outras providências –, e alterações posteriores; e inclui art. 2º-A e revoga o art. 2º da Lei Complementar nº 206, de 28 de dezembro de 1989 – que altera dispositivos da Lei Complementar nº 170, de 24 de dezembro de 1987, alterada pela Lei Complementar nº 180, de 18 de agosto de 1988, que estabelece normas de instalações hidro sanitárias e tarifárias para o serviço de abastecimento de água e coleta de esgotos do Município de Porto alegre e dá outras providências – dispondo sobre as tarifas do serviço de captação e remoção de esgotos pluviais.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de setembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o caput do art. 34 da Lei Complementar nº 170, de 31 de dezembro de 1987, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 34. A prestação dos serviços de distribuição de água e de captação de esgotos,\nsanitários e pluviais, serão remunerados sob a forma de tarifa, de modo que atenda aos custos de\noperação, manutenção e expansão dos respectivos sistemas.\n.........................................................................................................................(NR)”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o caput do art. 39 da Lei Complementar nº 170, de 1987, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 39.      A tarifa para remoção de esgotos, sanitários e pluviais,\nindependentemente da quantidade de despejos, será cobrada da seguinte forma: PB x C x 0,8 (valor\ndo preço básico multiplicado pelo consumo de água, multiplicado por zero vírgula oito).\n..................................................................................................................... (NR)”"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica incluído art. 2º-A na Lei Complementar nº 206, de 28 de dezembro de 1989, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º-A. O Departamento Municipal de Água e Esgotos (DMAE), em\ndecorrência do uso da rede pluvial para escoamento do esgoto sanitário, cobrará a Tarifa de Esgoto.\n§ 1º Nas economias territoriais, a Tarifa Pluvial será cobrada, anualmente, sobre o\nIPTU, a razão de 2,0 URM, 1,0 URM e 0,5 URM, para as localizadas, respectivamente, na 1ª, 2ª\ne 3ª Divisão Fiscal e seus núcleos.\n§ 2º O valor decorrente da Tarifa de Esgoto, referida no caput deste artigo, poderá\nser utilizado pela autarquia para aplicação exclusiva no cumprimento do disposto no art. 3º da Lei\nnº 2.312, de 15 de dezembro de 1961.”"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Fica revogado o art. 2º da Lei Complementar nº 206, de 28 de dezembro de 1989."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.972,
+   "blocosDeAlteracao": 3,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

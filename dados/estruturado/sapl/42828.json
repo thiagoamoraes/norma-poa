@@ -1,0 +1,74 @@
+{
+ "idSapl": 42828,
+ "rotulo": "Lei Complementar municipal nº 892, de 04 de novembro de 2020",
+ "sha256Origem": "dffc6a81b7232683bd0d6a8a009504003f6fd12fe7f03fa3bd5baa1e096749d3",
+ "estruturadoEm": "2026-11-18T09:25:54.453Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "892",
+  "ano": "2020",
+  "data": "2020-11-04",
+  "epigrafe": "LEI COMPLEMENTAR Nº 892, DE 4 DE NOVEMBRO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput do § 3º do art. 32 da Lei nº 8.133, de 12 de janeiro de 1998 – que dispõe sobre o Sistema de Transporte e Circulação no Município de Porto Alegre, adequando a legislação municipal à federal, em especial, ao Código de Trânsito Brasileiro e dá outras providências –, e alterações posteriores, dispondo sobre as despesas da Câmara de Compensação Tarifária (CCT), e revoga as als. a, b e c do § 3º do art. 32 da Lei nº 8.133, de 12 de janeiro de 1998.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 4 de novembro de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nCarlos Eduardo da Silveira,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o caput do § 3º do art. 32 da Lei nº 8.133, de 12 de janeiro de 1998, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 32. .................................................................................................................\n..............................................................................................................................\n§ 3º As despesas da Câmara de Compensação Tarifária (CCT) consistem na\nremuneração das empresas concessionárias prestadoras do serviço de transporte coletivo com\nbase nos seus respectivos custos.\n......................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Ficam revogados os seguintes dispositivos:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "as als. a, b e c do § 3º do art. 32 da Lei nº 8.133, de 12 de janeiro de 1998; e"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "VETADO.",
+   "vetado": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

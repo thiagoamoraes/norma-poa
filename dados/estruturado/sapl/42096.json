@@ -1,0 +1,52 @@
+{
+ "idSapl": 42096,
+ "rotulo": "Lei Complementar municipal nº 852, de 12 de junho de 2019",
+ "sha256Origem": "b04ce319d4aee73a402d61abf3e9cbb0c206d18027436ac33fb7dbf221f59ee2",
+ "estruturadoEm": "2026-11-18T09:25:54.581Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "852",
+  "ano": "2019",
+  "data": "2019-06-12",
+  "epigrafe": "LEI COMPLEMENTAR Nº 852, DE 12 DE JUNHO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput e inclui § 3º no art. 101 da Lei Complementar nº 478, de 26 de setembro de 2002 – que dispõe sobre o Departamento Municipal de Previdência dos Servidores Públicos do Município de Porto Alegre, disciplina o Regime Próprio de Previdência dos Servidores do Município de Porto Alegre e dá outras providências –, e alterações posteriores, modificando para o dia 20 (vinte) do mês subsequente a data até a qual serão repassadas ao RPPS as contribuições previdenciárias.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de junho de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o caput e incluído § 3º no art. 101 da Lei Complementar nº 478, de 26 de setembro de 2002, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 101. As contribuições previdenciárias serão repassadas ao RPPS até o dia\n20 (vinte) do mês subsequente.\n....................................................................................................................................\n§ 3º As contribuições previdenciárias repassadas entre os dias 11 (onze) e 20\n(vinte) do mês subsequente serão corrigidas pela meta atuarial do período.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.958,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

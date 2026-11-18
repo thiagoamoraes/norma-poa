@@ -1,0 +1,67 @@
+{
+ "idSapl": 47236,
+ "rotulo": "Lei Complementar municipal nº 986, de 21 de setembro de 2023",
+ "sha256Origem": "0a50498c03c8730a4d81ceeae962e936ac986fe35f997c724352fab707d6ca25",
+ "estruturadoEm": "2026-11-18T09:25:54.242Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "986",
+  "ano": "2023",
+  "data": "2023-09-21",
+  "epigrafe": "LEI COMPLEMENTAR Nº 986, DE 21 DE SETEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o § 2º do art. 33, inclui o art. 34-A e revoga o § 7º do art. 32, todos na Lei Complementar nº 765, de 8 de julho de 2015, excluindo os dispositivos referentes ao excedente de pontos da Gratificação de Atividade Tributária (GAT) e permitindo a sua percepção no caso de cedência de servidores a outros órgãos da Administração Pública.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de setembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o § 2º do art. 33 da Lei Complementar nº 765, de 8 de julho de 2015, alterada pela Lei Complementar nº 877, de 6 de março de 2020, conforme segue:",
+   "blocoDeAlteracao": "“Art. 33. ....................................................................................................................\n....................................................................................................................................\n§ 2º Os benefícios de aposentadoria e pensão, com direito à paridade constitucional, originários dos cargos de Agente Fiscal da Receita Municipal e de Exator da Receita Municipal serão revisados para incorporação da GAT a esses benefícios, desde que comprovado o exercício naqueles cargos por, no mínimo, 5 (cinco) anos, em valores correspondentes aos pagos mensalmente aos auditores-fiscais da Receita Municipal e aos exatores da Receita Municipal em atividade.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluído art. 34-A na Lei Complementar nº 765, de 2015, alterada pela Lei Complementar nº 877, de 2020, conforme segue:",
+   "blocoDeAlteracao": "“Art. 34-A. O servidor estável ocupante de cargo de provimento efetivo de Auditor-Fiscal da Receita Municipal ou de Exator da Receita Municipal, poderá, no interesse da Administração, afastar-se do cargo para exercer outro cargo, função ou emprego público, sem prejuízo de sua remuneração, nos termos deste artigo.\n§ 1º Fica assegurada a manutenção da GAT ao servidor enquadrado neste artigo quando o servidor estiver em desempenho das suas funções em outro órgão do Município, permanecendo obrigatória a apresentação do relatório de atividades individual previsto no § 2º do art. 32 desta Lei Complementar.\n§ 2º O valor da gratificação percebida durante o afastamento previsto no § 1º deste artigo será calculado com base no percentual de alcance global de metas institucionais da GAT.\n§ 3º A GAT não será devida em hipóteses de cedência para outros entes federados, salvo se o ente federado destinatário comprometer-se ao pagamento por meio de disposição orçamentária.\n§ 4º Fica vedada ao servidor no exercício de função gratificada ou cargo comissionado em outro órgão do Município a percepção cumulativa da GAT e de outras gratificações de produtividade vinculadas ao alcance de metas, resguardada a possibilidade de opção.”"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica revogado o § 7º do art. 32 da Lei Complementar nº 765, de 8 de julho de 2015."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.975,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

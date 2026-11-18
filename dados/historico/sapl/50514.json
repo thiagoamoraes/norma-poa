@@ -1,0 +1,800 @@
+{
+ "geradoEm": "2026-11-18T09:25:55.357Z",
+ "idSapl": 50514,
+ "rotulo": "Lei Complementar municipal nº 1.052, de 26 de setembro de 2025",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 1052/2025@2025-09-26",
+   "data": "2025-09-26",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 1052/2025@2025-12-29",
+   "data": "2025-12-29",
+   "fonte": {
+    "idSapl": 50807,
+    "rotulo": "Lei Complementar municipal nº 1.063, de 29 de dezembro de 2025"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 2,
+   "id": "lc 1052/2025@2026-02-26",
+   "data": "2026-02-26",
+   "fonte": {
+    "idSapl": 51064,
+    "rotulo": "Lei Complementar municipal nº 1.067, de 26 de fevereiro de 2026"
+   },
+   "comandosAplicados": 1
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica o Departamento Municipal de Água e Esgotos (DMAE), por meio do Programa de Recuperação Fiscal (REFIS), autorizado a conceder aos consumidores redução do valor da multa e dos juros de mora para pagamento, parcelamento ou reparcelamento dos créditos, decorrentes da prestação dos serviços de abastecimento de água e remoção de esgotos, de serviços complementares e de multas por infrações, disciplinados pela Lei Complementar nº 170, de 31 de dezembro de 1987, vencidos e não pagos até a data de publicação desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DO PROGRAMA DE RECUPERAÇÃO FISCAL DO DMAE"
+    },
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Das Disposições Preliminares e dos Benefícios"
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A redução de que trata o caput deste artigo será de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1/inc-I",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "90% (noventa por cento), para pagamento à vista;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1/inc-II",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "85% (oitenta e cinco por cento), para parcelamento em 2 (duas) a 6 (seis) parcelas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1/inc-III",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "80% (oitenta por cento), para parcelamento em 7 (sete) a 12 (doze) parcelas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1/inc-IV",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "40% (quarenta por cento), para parcelamento em 13 (treze) a 60 (sessenta) parcelas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O parcelamento ficará limitado a 60 (sessenta) parcelas mensais, observado o valor mínimo de 10 (dez) vezes o Preço Básico (PB) vigente para a categoria respectiva, por parcela.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As entidades beneficentes sem fins lucrativos que tenham por finalidade a prestação de serviços nas áreas de educação, assistência social, cultura, esporte ou saúde poderão optar por condições diferenciadas de parcelamento, observadas as seguintes regras:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-3/inc-I",
+   "pai": "art-1/par-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o parcelamento poderá ser realizado em até 120 (cento e vinte) parcelas mensais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-3/inc-II",
+   "pai": "art-1/par-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a redução de multa e juros de mora será de 95% (noventa e cinco por cento) para pagamento à vista e de 80% (oitenta por cento) para parcelamentos, independentemente do número de parcelas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-3/inc-III",
+   "pai": "art-1/par-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o valor mínimo de cada parcela corresponderá a 5 (cinco) vezes o PB vigente para a categoria respectiva; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-3/inc-IV",
+   "pai": "art-1/par-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a adesão ao parcelamento dependerá da comprovação da condição de entidade beneficente sem fins lucrativos, mediante apresentação de estatuto social registrado, declaração de utilidade pública ou certificação emitida por órgão competente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Alternativamente ao benefício de que trata o art. 1º desta Lei Complementar, aos consumidores beneficiários da Tarifa Social de que trata o art. 37 da Lei Complementar nº 170, de 1987, poderá ser concedida a remissão integral dos valores relativos à multa, aos juros de mora e à atualização monetária, estabelecido o limite máximo de 90 (noventa) parcelas, condicionado o benefício à observância de 1 (uma) das seguintes hipóteses:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estar em dia, no momento da adesão, com as últimas 3 (três) contas emitidas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ao pagamento, por ocasião da adesão, de entrada equivalente, ao menos, ao valor referente às últimas 5 (cinco) contas emitidas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para o parcelamento de que trata o caput deste artigo, não será admitida parcela com valor inferior a 2 (duas) vezes o PB.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para o cálculo das 5 (cinco) parcelas de que trata o inc. II do caput deste artigo, será incluso o benefício da remissão de que trata o caput deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O prazo de adesão ao benefício de que trata esta Lei Complementar terá vigência de 1º de outubro de 2025 a 30 de dezembro de 2025, mediante requerimento junto aos canais de atendimento do DMAE pelo interessado ou seu representante legal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "O prazo de adesão ao benefício de que trata esta Lei Complementar terá vigência de 1º de outubro de 2025 a 1º de março de 2026, mediante requerimento, junto aos canais de atendimento do DMAE, pelo interessado ou seu representante legal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.063/2025"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "O prazo de adesão ao benefício de que trata esta Lei Complementar terá vigência de 1º de outubro de 2025 a 1º de junho de 2026, mediante requerimento, junto aos canais de atendimento do DMAE, pelo interessado ou seu representante legal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.067/2026"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Da Adesão e das Condições do Programa"
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O benefício de que trata esta Lei Complementar poderá ser estendido aos parcelamentos em vigor, atendidos os prazos e as demais condições previstas nesta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-unico",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A opção pelos benefícios de que trata esta Lei Complementar implica na exclusão da concessão de quaisquer outros benefícios relacionados aos mesmos débitos, revogando-se os parcelamentos anteriormente concedidos, mantidos os benefícios anteriores nas parcelas já quitadas, sendo admitida a transferência de seus saldos para as modalidades desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O débito objeto do parcelamento, acrescido de todos os encargos previstos na Lei Complementar nº 170, de 1987, bem como em sua regulamentação, será consolidado na data do seu requerimento e dividido pelo número de parcelas que forem indicadas pelo devedor, observados os valores mínimos previstos nesta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os benefícios concedidos por esta Lei Complementar não conferem qualquer direito à restituição ou compensação de importâncias já pagas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As parcelas do débito consolidado ficarão sujeitas à correção monetária anual, aplicando-se a variação acumulada positiva do Índice Geral de Preços – Mercado (IGP-M) dos últimos 12 (doze) meses, com contagem a partir da data de consolidação do débito.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-1",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A atualização do débito observará o índice de correção monetária do mês imediatamente anterior, quando não for conhecido o índice do mês em curso, e tal periodicidade será considerada para aplicação do reajuste anual do parcelamento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-2",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A aplicação do reajuste mencionado no caput deste artigo incidirá a partir da 13ª (décima terceira) parcela mensal e, subsequentemente, a cada período de 12 (doze) parcelas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A falta de pagamento das prestações até a data de seu vencimento acarretará a cobrança de multa de 2% (dois por cento) e juros de mora de 1% (um por cento) ao mês.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O disposto nesta Lei Complementar aplica-se aos créditos inscritos ou não como dívida ativa, mesmo em fase de execução fiscal já ajuizada, ou que tenham sido objeto de parcelamento anterior não integralmente quitado, ainda que cancelado por falta de pagamento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "III",
+     "titulo": "Das Disposições Aplicáveis à Dívida Ativa e à Cobrança Judicial"
+    }
+   ]
+  },
+  {
+   "id": "art-9/par-unico",
+   "pai": "art-9",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A adesão aos benefícios previstos nesta Lei Complementar implica na confissão irretratável e irrevogável do débito e na expressa desistência de quaisquer impugnações, recursos ou medidas judiciais ou administrativas propostas para discussão do crédito, mediante o protocolo, pelo interessado, de requerimento de extinção do processo com resolução de mérito ou petição de renúncia do pedido, nos termos do art. 487, inc. III, al. c, da Lei Federal nº 13.105, de 16 de março de 2015 (Código de Processo Civil).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A decisão final sobre a adesão ao Programa, em relação a créditos em fase de cobrança judicial, compete ao Procurador-Geral do Município (PGM) ou a quem este delegar, observadas, ainda, as seguintes condições:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-I",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o pagamento do crédito não exime o devedor do recolhimento das custas, dos emolumentos e das demais despesas processuais, nos prazos fixados pelo juízo competente;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-II",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o crédito exigível em processo executivo será acrescido de honorários advocatícios, a serem definidos em ato próprio do Procurador-Geral do Município;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-III",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o processo judicial de cobrança judicial ficará suspenso, mantidas as garantias já constituídas, no limite do crédito, pelo período de duração do parcelamento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-1",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A verba honorária mencionada no inc. II deste artigo abrange as verbas devidas nas ações de execução fiscal, permanecendo devidos os honorários advocatícios decorrentes de embargos à execução e de outras ações judiciais propostas pelo aderente, observados os parâmetros fixados em ato do Procurador-Geral do Município.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-2",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O adimplemento dos honorários advocatícios previstos no inc. II deste artigo, bem como daqueles fixados judicialmente em embargos à execução, deverá ser realizado em conformidade com os prazos e condições de pagamento do crédito previsto nesta Lei Complementar, observados os parâmetros fixados em ato do Procurador-Geral do Município.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A adesão ao presente Programa não exime o contribuinte do pagamento dos emolumentos cartorários decorrentes do protesto da Certidão da Dívida Ativa, nem das custas processuais para arquivamento da execução fiscal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O parcelamento será automaticamente revogado nas seguintes hipóteses:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "IV",
+     "titulo": "Da Revogação do Parcelamento"
+    }
+   ]
+  },
+  {
+   "id": "art-12/inc-I",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "falta de pagamento da parcela de entrada até a data de seu vencimento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/inc-II",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "não pagamento de 5 (cinco) parcelas, consecutivas ou não.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/par-1",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de revogação do parcelamento, serão restabelecidos os ônus dos lançamentos previstos no art. 50 da Lei Complementar nº 170, de 1987, a contar da data de vencimento original da obrigação, mantidos os benefícios concedidos por esta Lei Complementar relativamente às parcelas efetivamente quitadas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/par-2",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A revogação do parcelamento, por si só, não implicará na suspensão ou interrupção do abastecimento de água.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/par-3",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A adesão ao parcelamento não afasta a possibilidade da suspensão ou interrupção do abastecimento de água nas hipóteses previstas no art. 15 da Lei Complementar nº 170, de 1987.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para os débitos relativos às contas de competências posteriores à entrada em vigor desta Lei Complementar, fica o DMAE autorizado a realizar o seu protesto após 30 (trinta) dias do seu vencimento, independente do lançamento em dívida ativa.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "II",
+     "titulo": "DAS DISPOSIÇÕES GERAIS E FINAIS"
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica autorizado o reconhecimento de ofício da prescrição dos créditos não tributários decorrentes da prestação dos serviços de água e remoção de esgotos, assim como serviços complementares, por ato da PGM, observada a legislação vigente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

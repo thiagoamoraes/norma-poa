@@ -1,0 +1,59 @@
+{
+ "idSapl": 49943,
+ "rotulo": "Lei Complementar municipal nº 1.040, de 01 de abril de 2025",
+ "sha256Origem": "bff712efbde40f5554e0bde1ae18ded83315e842c4662d72361f5168a308d4ed",
+ "estruturadoEm": "2026-11-18T09:25:54.086Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "1040",
+  "ano": "2025",
+  "data": "2025-04-01",
+  "epigrafe": "PLCE Nº 015/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI COMPLEMENTAR Nº 1.040, DE 1º DE ABRIL DE 2025. Altera os §§ 3º e 4º e revoga o § 5º, todos do art. 82-B da Lei Complementar nº 7, de 7 de dezembro de 1973, que institui e disciplina os tributos de competência do Município, dispondo sobre a redução do IPTU quando do cumprimento de critérios de sustentabilidade.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 1º de abril de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam alterados os §§ 3º e 4º do art. 82-B da Lei Complementar nº 7, de 7 de dezembro de 1973, conforme segue:",
+   "blocoDeAlteracao": "“Art. 82-B. ................................................................................................................\n....................................................................................................................................\n§ 3º O valor global da renúncia fiscal anual a que se refere o caput deste artigo\nterá como limite prudencial o valor correspondente a 1.000.000 (um milhão) de UFMs,\ndefinindo-se, anualmente e com base nos requerimentos de redução ocorridos ao longo do\nexercício e dos 2 (dois) exercícios anteriores, os percentuais de redução para o exercício\nseguinte, nos termos de regulamento, a fim de observar o limite prudencial.\n§ 4º Fica a cargo da Secretaria Municipal de Meio Ambiente, Urbanismo e\nSustentabilidade (Smamus) o gerenciamento do Programa de Premiação e Certificação em\nSustentabilidade Ambiental de Porto Alegre e o processo de certificação.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica revogado o § 5º do art. 82-B da Lei Complementar nº 7, de 7 de dezembro de 1973."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.98,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

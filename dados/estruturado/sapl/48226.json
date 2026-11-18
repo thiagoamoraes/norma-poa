@@ -1,0 +1,80 @@
+{
+ "idSapl": 48226,
+ "rotulo": "Lei Complementar municipal nº 964, de 22 de dezembro de 2022",
+ "sha256Origem": "f3fc2dc030f8d09765a73624c11c3d7119f9f0718cd4f9394d937b27b5c27ffa",
+ "estruturadoEm": "2026-11-18T09:25:54.272Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "964",
+  "ano": "2022",
+  "data": "2022-12-22",
+  "epigrafe": "PROC. Nº 0168/22",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "ementa": "PLCL Nº 008/22 SEI Nº 019.00030/2022-21 LEI COMPLEMENTAR Nº 964, DE 22 DE DEZEMBRO DE 2022. Altera o § 1º do art. 4º da Lei Complementar nº 876, de 3 de março de 2020, que Institui a Declaração Municipal de Direitos de Liberdade Econômica, considerando como de baixo risco a atividade principal de Classificação Nacional de Atividades Econômicas nº 4729-6/01 - Tabacaria. O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei Complementar nº 964, de 22 de dezembro de 2022, como segue:",
+ "preambulo": null,
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 23 DE FEVEREIRO DE 2023.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o § 1º do art. 4º da Lei Complementar nº 876, de 3 de março de 2020, conforme segue:"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "...................................................................................................................."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para fins do disposto no inc. I do caput deste artigo, serão consideradas como de baixo risco as atividades assim definidas pelas normativas expedidas no âmbito da Rede Nacional para a Simplificação do Registro e da Legalização de Empresas e Negócios - Redesim, instituída pela Lei Federal nº 11.598, de 3 de dezembro de 2007, e a atividade principal de Classificação Nacional de Atividades Econômicas nº 4729-6/01 - Tabacaria. .........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.973,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": ""
+    },
+    {
+     "rotulo": "Parágrafo único.",
+     "naOrigem": "Art4º1º"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art2º"
+    }
+   ]
+  }
+ }
+}

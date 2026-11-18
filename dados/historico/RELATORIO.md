@@ -1,23 +1,23 @@
 # Histórico — relatório
 
-Gerado em 2026-11-17T17:22:08.976Z por `ingestao/gerar-historico.mjs`. Não editar à mão.
+Gerado em 2026-11-18T09:25:55.451Z por `ingestao/gerar-historico.mjs`. Não editar à mão.
 
-Vínculos lidos: 6000 · pares (lei, alteradora) propostos pelas ementas: 1682 · leis com alteradoras conhecidas ou candidatas: 992
+Vínculos lidos: 12000 · pares (lei, alteradora) propostos pelas ementas: 1685 · leis com alteradoras conhecidas ou candidatas: 1134
 
 | Situação | Leis |
 |---|---|
-| histórico apurado, todas as alteradoras aplicadas | 2 |
-| histórico apurado, mas incompleto (alguma alteradora não aplicada por inteiro) | 5 |
-| ainda sem o texto da lei-base | 985 |
+| histórico apurado, todas as alteradoras aplicadas | 9 |
+| histórico apurado, mas incompleto (alguma alteradora não aplicada por inteiro) | 22 |
+| ainda sem o texto da lei-base | 1103 |
 | erro do leitor | 0 |
 
-Leis revogadas por inteiro, segundo os vínculos da fonte: 272
+Leis revogadas por inteiro, segundo os vínculos da fonte: 765
 
-Vínculos com norma fora do catálogo do escopo (decretos, por exemplo): 418 · vínculos com datas invertidas (não aplicados): 7
+Vínculos com norma fora do catálogo do escopo (decretos, por exemplo): 493 · vínculos com datas invertidas (não aplicados): 11
 
 ## Aguardando o texto da lei-base
 
-Mostrando 200 de 985.
+Mostrando 200 de 1103.
 
 - Lei municipal-Intendência nº 17, de 17 de dezembro de 1895
 - Lei municipal-Intendência nº 69, de 28 de dezembro de 1925
@@ -59,6 +59,7 @@ Mostrando 200 de 985.
 - Lei municipal nº 186, de 05 de janeiro de 1949
 - Lei municipal nº 187, de 05 de janeiro de 1949
 - Lei municipal nº 199, de 24 de maio de 1949
+- Lei municipal nº 209, de 03 de junho de 1949
 - Lei municipal nº 238, de 21 de julho de 1949
 - Lei municipal nº 252, de 11 de agosto de 1949
 - Lei municipal nº 287, de 15 de outubro de 1949
@@ -143,6 +144,7 @@ Mostrando 200 de 985.
 - Lei municipal nº 1.510, de 29 de novembro de 1955
 - Lei municipal nº 1.516, de 02 de dezembro de 1955
 - Lei municipal nº 1.534, de 22 de dezembro de 1955
+- Lei municipal nº 1.566, de 31 de dezembro de 1955
 - Lei municipal nº 1.631, de 01 de setembro de 1956
 - Lei municipal nº 1.638, de 10 de setembro de 1956
 - Lei municipal nº 1.651, de 09 de outubro de 1956
@@ -180,8 +182,11 @@ Mostrando 200 de 985.
 - Lei municipal nº 1.917, de 29 de dezembro de 1958
 - Lei municipal nº 1.934, de 02 de janeiro de 1959
 - Lei municipal nº 1.936, de 02 de janeiro de 1959
+- Lei municipal nº 1.943, de 05 de maio de 1959
+- Lei municipal nº 1.959, de 26 de junho de 1959
 - Lei municipal nº 1.966, de 14 de julho de 1959
 - Lei municipal nº 1.967, de 14 de julho de 1959
+- Lei municipal nº 1.988, de 17 de setembro de 1959
 - Lei municipal nº 2.022, de 07 de dezembro de 1959
 - Lei municipal nº 2.035, de 11 de dezembro de 1959
 - Lei municipal nº 2.046, de 30 de dezembro de 1959
@@ -202,6 +207,7 @@ Mostrando 200 de 985.
 - Lei municipal nº 2.777, de 19 de dezembro de 1964
 - Lei municipal nº 2.800, de 30 de janeiro de 1965
 - Lei municipal nº 2.824, de 14 de julho de 1965
+- Lei municipal nº 2.835, de 10 de setembro de 1965
 - Lei municipal nº 2.842, de 19 de outubro de 1965
 - Lei municipal nº 2.843, de 22 de outubro de 1965
 - Lei municipal nº 2.857, de 30 de novembro de 1965
@@ -210,12 +216,6 @@ Mostrando 200 de 985.
 - Lei municipal nº 2.902, de 30 de dezembro de 1965
 - Lei municipal nº 2.904, de 30 de dezembro de 1965
 - Lei municipal nº 2.905, de 30 de dezembro de 1965
+- Lei municipal nº 2.915, de 16 de junho de 1966
+- Lei municipal nº 2.926, de 12 de julho de 1966
 - Lei municipal nº 2.949, de 18 de outubro de 1966
-- Lei municipal nº 2.970, de 28 de novembro de 1966
-- Lei municipal nº 2.982, de 14 de dezembro de 1966
-- Lei municipal nº 3.002, de 21 de dezembro de 1966
-- Lei municipal nº 3.033, de 30 de junho de 1967
-- Lei municipal nº 3.048, de 12 de setembro de 1967
-- Lei municipal nº 3.065, de 17 de novembro de 1967
-- Lei municipal nº 3.069, de 23 de novembro de 1967
-- Lei municipal nº 3.073, de 29 de novembro de 1967

@@ -1,0 +1,83 @@
+{
+ "idSapl": 42980,
+ "rotulo": "Lei Complementar municipal nº 894, de 29 de dezembro de 2020",
+ "sha256Origem": "d6b4d70902425f38393726cefb986e1e50c653f7dca66291020a0d42463d9505",
+ "estruturadoEm": "2026-11-18T09:25:54.450Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "894",
+  "ano": "2020",
+  "data": "2020-12-29",
+  "epigrafe": "LEI COMPLEMENTAR Nº 894, 29 DE DEZEMBRO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Altera o inc. XXVII do caput do art. 21 e o inc. XXX do caput do art. 70 da Lei Complementar nº 7, de 7 de dezembro de 1973 – que institui e disciplina os tributos de competência do Município –, e alterações posteriores; e altera o inc. VII do caput do art. 8º e a al. a do § 2º do art. 18 da Lei Complementar nº 197, de 21 de março de 1989 – que institui e disciplina o Imposto sobre a Transmissão “inter-vivos”, por ato oneroso, de bens imóveis e de direitos reais a eles relativos (ITBI) –, e alterações posteriores, estendendo a vigência da alíquota do Imposto sobre Serviços de Qualquer Natureza (ISSQN) para os serviços previstos no item 2 da Lista de Serviços na área de tecnologia em saúde, estendendo a vigência da isenção de Imposto sobre a Propriedade Predial e Territorial Urbana (IPTU) e de ITBI para empresas de base tecnológica, inovadoras e de economia criativa, nos casos em que especifica, e estendendo o prazo para solicitação do parcelamento do ITBI.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 29 de dezembro de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nCarlos Eduardo da Silveira,\nProcurador-Geral do Município\n3",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o inc. XXVII do caput do art. 21 da Lei Complementar nº 7, de 7 de dezembro de 1973, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 21. ....................................................................................................................\n....................................................................................................................................\nXXVII – serviços previstos no item 2 da Lista de Serviços anexa, na área de\ntecnologia em saúde: 2,0% (dois por cento), até 31 de dezembro de 2022.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o inc. XXX do caput do art. 70 da Lei Complementar nº 7, de 1973, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 70. ....................................................................................................................\n....................................................................................................................................\nXXX – empresas de base tecnológica, empresas inovadoras e empresas de\neconomia criativa, localizadas nos Bairros Floresta, São Geraldo, Navegantes, Humaitá e\nFarrapos, para os imóveis adquiridos ou locados nesses bairros e utilizados no desenvolvimento\nde suas atividades, pelo período de 5 (cinco) anos, contados do exercício seguinte ao da\nsolicitação, que deverá ser feita até 31 de dezembro de 2022.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica alterado o inc. VII do caput do art. 8º da Lei Complementar nº 197, de 21 de março de 1989, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 8º .....................................................................................................................\n....................................................................................................................................\nVII – na primeira aquisição, por empresas de base tecnológica, empresas\ninovadoras ou empresas de economia criativa, de bens imóveis que se destinem à sua instalação\nna área de delimitação dos Bairros Floresta, São Geraldo, Navegantes, Humaitá e Farrapos,\nvigendo a referida isenção em relação aos fatores geradores ocorridos até 31 de dezembro de\n2022.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica alterada a al. a do § 2º do art. 18 da Lei Complementar nº 197, de 1989, e alterações posteriores, conforme segue: 2",
+   "blocoDeAlteracao": "“Art. 18. ....................................................................................................................\n....................................................................................................................................\n§ 2º ............................................................................................................................\na) o parcelamento previsto no caput deste parágrafo será concedido ao\ncontribuinte que o solicitar até 31 de dezembro de 2021;\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "trecho_nao_localizado_na_origem"
+  ],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.937,
+   "blocosDeAlteracao": 4,
+   "lacunas": [],
+   "naoLocalizados": [
+    "Fica alterada a al. a do § 2º do art. 18 da Lei Complementar nº 197, de 1989, e "
+   ],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "idSapl": 43286,
+ "rotulo": "Lei Complementar municipal nº 909, de 05 de agosto de 2021",
+ "sha256Origem": "2891f57bf9dff914a95e82d0a515ddc4a96058294f9283c733ea6fd43962ad9c",
+ "estruturadoEm": "2026-11-18T09:25:54.419Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "909",
+  "ano": "2021",
+  "data": "2021-08-05",
+  "epigrafe": "LEI COMPLEMENTAR Nº 909, DE 5 DE AGOSTO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput do art. 4º e inclui § 3º no art. 3º da Lei Complementar nº 382, de 24 de julho de 1996, que regulamenta o art. 103 da Lei Orgânica do Município de Porto Alegre e dá outras providências, dispondo sobre a realização de audiências públicas.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 5 de agosto de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído § 3º no art. 3º da Lei Complementar nº 382, de 24 de julho de 1996, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º.......................................................................................................................\n....................................................................................................................................\n§ 3º A solicitação de Audiência Pública deverá ser realizada antes de o Projeto de\nLei ingressar na ordem do dia na Câmara Municipal”. (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o caput do art. 4º da Lei Complementar nº 382, de 1996, conforme segue:",
+   "blocoDeAlteracao": "“Art. 4º Fica o Poder Executivo ou o Poder Legislativo, conforme o caso,\nobrigado a realizar a audiência pública no prazo de 21 (vinte e um) dias, contados da data de\nentrega do requerimento, publicando edital no Diário Oficial Eletrônico de Porto Alegre (DOPA-\ne) e em jornal de grande circulação local, com 7 (sete) dias, no mínimo, de antecedência da\nrealização da audiência pública.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.956,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

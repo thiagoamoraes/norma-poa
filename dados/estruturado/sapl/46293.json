@@ -1,0 +1,96 @@
+{
+ "idSapl": 46293,
+ "rotulo": "Lei Complementar municipal nº 975, de 02 de junho de 2023",
+ "sha256Origem": "066f02159defa11691b6cbbfe924e29552f89d9cccf137a61b3656758526257b",
+ "estruturadoEm": "2026-11-18T09:25:54.259Z",
+ "versaoEstruturador": 4,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "975",
+  "ano": "2023",
+  "data": "2023-06-02",
+  "epigrafe": "LEI COMPLEMENTAR Nº 975, DE 2 DE JUNHO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o art. 52-J e os incs. VI e VII da Tabela IV; inclui o inc. V-A na Tabela IV; e revoga o parágrafo único do art. 52-L, as als. a a i do inc. VI e as als. a a f do inc. VII da Tabela IV e a Tabela V, todos na Lei Complementar nº7 de 7 dezembro de 1973, estabelecendo que o sujeito passivo da Taxa de Licenciamento Ambiental é a pessoa física ou a pessoa jurídica que requerer, nos termos da Lei nº 8.267, de 29 de dezembro de 1998, e alterações posteriores, licenciamento ambiental ou alteração de licenciamento ambiental de atividades passíveis de licenciamento ambiental municipal, definidas e tipificadas em resoluções do Conselho Estadual do Meio Ambiente (CONSEMA) e do Conselho Municipal do Meio Ambiente (COMAM), no que couber, e dando outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de junho de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.\nANEXO\n“Tabela IV\n....................................................................................................................................\nV-A – Licenças e obras de simples natureza, no valor de 30 (trinta) UFMs.\nVI – Emissão de habite-se de edificação, no valor de 50 (cinquenta) UFMs.\n....................................................................................................................................\nVII – Reconsideração de emissão de habite-se de edificação, no valor de 30 (trinta) UFMs.\n.........................................................................................................................” (NR)",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o art. 52-J da Lei Complementar nº 7, de 7 de dezembro de 1973, conforme segue:",
+   "blocoDeAlteracao": "“Art. 52-J. O sujeito passivo da TLA é a pessoa física ou a pessoa jurídica que requerer, nos termos da Lei nº 8.267, de 29 de dezembro de 1998, e alterações posteriores, licenciamento ambiental ou alteração de licenciamento ambiental de atividades passíveis de licenciamento ambiental municipal, definidas e tipificadas em resoluções do Conselho Estadual do Meio Ambiente (CONSEMA) e do Conselho Municipal do Meio Ambiente (COMAM), no que couber.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam alterados os incs. VI e VII e fica incluído inc. V-A na Tabela IV da Lei Complementar nº 7, de 1973, e alterações posteriores, conforme o Anexo desta Lei Complementar."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor no primeiro dia do exercício subsequente ao de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Ficam revogados na Lei Complementar nº 7, de 7 de dezembro de 1973:"
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o parágrafo único do art. 52-L;"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "as als. a a i do inc. VI da Tabela IV;"
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "as als. a a f do inc. VII da Tabela IV; e"
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "a Tabela V."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 8,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}
