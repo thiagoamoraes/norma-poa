@@ -1410,3 +1410,21 @@ há textos reais (EC 2–51). O resto são digitalizações antigas de baixa qua
 - Efeito local nos 79 textos: aceitas 15 → 41; `cabecalho_nao_reconhecido` 60 → 22;
   `tipo_sem_suporte` 60 → 8. A EC 16 passa a mostrar divergência real: o texto diz
   20/10/2000, o catálogo diz 10/10/2000 (`data_diverge_do_catalogo`).
+
+## Rodada 23 — "(NR)" na linha seguinte ao fecha-aspas (tarefa 1, 18/11/2026)
+
+Achado: 15 das 52 normas com `trecho_nao_localizado_na_origem` tinham o bloco de
+redação alterada fechando com `”` numa linha e `(NR)` sozinho na seguinte (LCs
+reais de 2017 em diante, ex. LC 804/2017). `detectNRCandidates` fechava o bloco
+no fecha-aspas, e o "(NR)" sobrava e grudava no dispositivo que introduz o bloco
+("…conforme segue: (NR)"), que então não existia assim na origem.
+
+- `norma-core.js` (aditivo): depois do fecha-aspas, se a próxima linha não vazia
+  (até 3 linhas à frente) é só "(NR)", o bloco termina nela. Blocos sem "(NR)"
+  (artigo novo) continuam `semNR`. `normateste.mjs` idêntico byte a byte; core 153
+  e demais testes sem mudança.
+- `VERSAO_ESTRUTURADOR` 5. `teste_nr_linha_seguinte.mjs` (9, LC 804 e LC 834
+  reais em `fixtures/lcs-nr/`; 7 falham contra o código antigo).
+- Efeito nos 328 textos: aceitas 234 → 243, nenhuma deixou de ser aceita.
+- Não resolvido (defeito de fonte): LC 809/2017 — "(NR" truncado e número de página
+  solto ("conforme segue: 3") no arquivo de origem; fica em revisão.

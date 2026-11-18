@@ -2,8 +2,8 @@
  "idSapl": 42518,
  "rotulo": "Lei Complementar municipal nº 879, de 27 de março de 2020",
  "sha256Origem": "92622de90462170f23c98b7d9da55a1b68d8f6400c26e79fed3626d2b610e256",
- "estruturadoEm": "2026-11-18T09:25:54.504Z",
- "versaoEstruturador": 4,
+ "estruturadoEm": "2026-11-18T09:57:03.412Z",
+ "versaoEstruturador": 5,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "879",
@@ -958,8 +958,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 19.",
-   "texto": "Fica alterado o art. 29 da Lei nº 12.420, de 8 de julho de 2018, conforme segue: (NR)",
-   "blocoDeAlteracao": "“Art. 29. Fica o prazo para o cumprimento do disposto no § 8º do art. 27 da Lei\nnº 11.582, de 2014, e alterações posteriores, definido pela vida útil dos veículos da frota de táxi.”"
+   "texto": "Fica alterado o art. 29 da Lei nº 12.420, de 8 de julho de 2018, conforme segue:",
+   "blocoDeAlteracao": "“Art. 29. Fica o prazo para o cumprimento do disposto no § 8º do art. 27 da Lei\nnº 11.582, de 2014, e alterações posteriores, definido pela vida útil dos veículos da frota de táxi.”\n(NR)"
   },
   {
    "id": "art-20",
@@ -1028,22 +1028,17 @@
   "metricas": {
    "artigos": 22,
    "dispositivos": 133,
-   "cobertura": 0.959,
+   "cobertura": 0.962,
    "blocosDeAlteracao": 1,
    "lacunas": [
     {
      "tamanho": 182,
      "amostra": "4ºOjulgamentodafaserecursalseráefetuadoemdecisãocolegiadadaDiretoriadaEPTCposter"
-    },
-    {
-     "tamanho": 64,
-     "amostra": "Art19Ficaalteradooart29daLeinº12420de8dejulhode2018conformesegueArt29Ficaoprazop"
     }
    ],
    "naoLocalizados": [
     "No caso de notificação por meio do DOPA-e, o destinatário será considerado notif",
-    "O julgamento da fase recursal será efetuado em decisão colegiada da Diretoria da",
-    "Fica alterado o art. 29 da Lei nº 12.420, de 8 de julho de 2018, conforme segue:"
+    "O julgamento da fase recursal será efetuado em decisão colegiada da Diretoria da"
    ],
    "rotulosDivergentes": []
   }

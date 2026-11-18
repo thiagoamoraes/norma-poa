@@ -2,8 +2,8 @@
  "idSapl": 40856,
  "rotulo": "Lei Complementar municipal nº 804, de 27 de setembro de 2016",
  "sha256Origem": "a0b5304e0fef583ce3e01a32e6d7ac6d4e8a36c61a56d54e5f5c48f56f4697f8",
- "estruturadoEm": "2026-11-18T09:25:54.681Z",
- "versaoEstruturador": 4,
+ "estruturadoEm": "2026-11-18T09:57:03.690Z",
+ "versaoEstruturador": 5,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "804",
@@ -24,8 +24,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "No art. 4º da Lei Complementar nº 601, de 23 de outubro de 2008, alterada pela Lei Complementar nº 743, de 2 de setembro de 2014, fica renomeado o parágrafo único para § 1º, mantendo-se sua redação atual, e fica incluído § 2º, conforme segue: (NR)",
-   "blocoDeAlteracao": "“Art. 4º .....................................................................................................................\n§ 1º ............................................................................................................................\n§ 2º O levantamento de que trata este artigo será realizado no prazo improrrogável de 1 (um) ano, sob pena de, transcorrido esse prazo, restar prejudicada e insuscetível de repetição a inclusão do imóvel no Inventário do Patrimônio Cultural de Bens Imóveis do Município.”"
+   "texto": "No art. 4º da Lei Complementar nº 601, de 23 de outubro de 2008, alterada pela Lei Complementar nº 743, de 2 de setembro de 2014, fica renomeado o parágrafo único para § 1º, mantendo-se sua redação atual, e fica incluído § 2º, conforme segue:",
+   "blocoDeAlteracao": "“Art. 4º .....................................................................................................................\n§ 1º ............................................................................................................................\n§ 2º O levantamento de que trata este artigo será realizado no prazo improrrogável de 1 (um) ano, sob pena de, transcorrido esse prazo, restar prejudicada e insuscetível de repetição a inclusão do imóvel no Inventário do Patrimônio Cultural de Bens Imóveis do Município.”\n(NR)"
   },
   {
    "id": "art-2",
@@ -103,20 +103,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 10,
    "dispositivos": 11,
-   "cobertura": 0.927,
+   "cobertura": 0.974,
    "blocosDeAlteracao": 3,
    "lacunas": [],
-   "naoLocalizados": [
-    "No art. 4º da Lei Complementar nº 601, de 23 de outubro de 2008, alterada pela L"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

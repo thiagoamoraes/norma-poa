@@ -2,8 +2,8 @@
  "idSapl": 43376,
  "rotulo": "Lei Complementar municipal nº 915, de 29 de setembro de 2021",
  "sha256Origem": "9b2de789db1ebe3bea708df7245633d0f8294c9b6bf2cd5135ad03fda13413e0",
- "estruturadoEm": "2026-11-18T09:25:54.399Z",
- "versaoEstruturador": 4,
+ "estruturadoEm": "2026-11-18T09:57:03.264Z",
+ "versaoEstruturador": 5,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "915",
@@ -48,16 +48,16 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 4º",
-   "texto": "Fica incluído § 3º no art. 31 da Lei Complementar nº 478, de 2002, e alterações posteriores, conforme segue: (NR)",
-   "blocoDeAlteracao": "“Art. 31. .....................................................................................................................\n....................................................................................................................................\n§ 3º Para caracterização do acidente previsto no inc. IV do § 1º deste artigo, é\nimprescindível a apresentação do boletim de ocorrência policial, com registro de 2 (duas)\ntestemunhas do fato, e do boletim de atendimento pré-hospitalar, hospitalar ou ambulatorial ou\ndo comprovante de atendimento pelo Serviço de Atendimento Médico de Urgência (SAMU).”"
+   "texto": "Fica incluído § 3º no art. 31 da Lei Complementar nº 478, de 2002, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 31. .....................................................................................................................\n....................................................................................................................................\n§ 3º Para caracterização do acidente previsto no inc. IV do § 1º deste artigo, é\nimprescindível a apresentação do boletim de ocorrência policial, com registro de 2 (duas)\ntestemunhas do fato, e do boletim de atendimento pré-hospitalar, hospitalar ou ambulatorial ou\ndo comprovante de atendimento pelo Serviço de Atendimento Médico de Urgência (SAMU).”\n(NR)"
   },
   {
    "id": "art-5",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 5º",
-   "texto": "Fica alterado o art. 32 da Lei Complementar nº 478, de 2002, e alterações posteriores, conforme segue: (NR)",
-   "blocoDeAlteracao": "“Art 32. Doença profissional é aquela produzida ou desencadeada pelo exercício\nde trabalho peculiar a determinada atividade, mediante estabelecimento de nexo técnico médico\ncomo causa ou concausa e constante do Regulamento do Regime Geral de Previdência Social.”"
+   "texto": "Fica alterado o art. 32 da Lei Complementar nº 478, de 2002, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art 32. Doença profissional é aquela produzida ou desencadeada pelo exercício\nde trabalho peculiar a determinada atividade, mediante estabelecimento de nexo técnico médico\ncomo causa ou concausa e constante do Regulamento do Regime Geral de Previdência Social.”\n(NR)"
   },
   {
    "id": "art-6",
@@ -416,17 +416,9 @@
   "metricas": {
    "artigos": 28,
    "dispositivos": 50,
-   "cobertura": 0.89,
+   "cobertura": 0.897,
    "blocosDeAlteracao": 21,
    "lacunas": [
-    {
-     "tamanho": 88,
-     "amostra": "NRArt5ºFicaalteradooart32daLeiComplementarnº478de2002ealteraçõesposterioresconfo"
-    },
-    {
-     "tamanho": 71,
-     "amostra": "TítuloIIdaLeiComplementarnº478de2002ealteraçõesposterioresconformesegueArt34AAin"
-    },
     {
      "tamanho": 1948,
      "amostra": "Art10Ficaalteradoocaputeficamincluídos3ºe4ºnoart36naLeiComplementarnº478de2002ea"
@@ -437,11 +429,10 @@
     }
    ],
    "naoLocalizados": [
-    "Fica incluído § 3º no art. 31 da Lei Complementar nº 478, de 2002, e alterações ",
-    "Fica alterado o art. 32 da Lei Complementar nº 478, de 2002, e alterações poster",
     "Fica alterado o caput e ficam incluídos §§ 3º e 4º no art. 36 na Lei Complementa",
     "“Art. 36. Os segurados serão aposentados voluntariamente quando observados,\ncumu",
-    "Fica alterado o caput e o § 5º e ficam incluídos inc. III no § 4º e §§ 6º, 7º, 8"
+    "Fica alterado o caput e o § 5º e ficam incluídos inc. III no § 4º e §§ 6º, 7º, 8",
+    "Fica alterado o caput do art. 80 da Lei Complementar nº 478, de 2002, e alteraçõ"
    ],
    "rotulosDivergentes": [
     {

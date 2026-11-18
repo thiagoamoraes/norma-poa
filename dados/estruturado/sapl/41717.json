@@ -2,8 +2,8 @@
  "idSapl": 41717,
  "rotulo": "Lei Complementar municipal nº 834, de 20 de julho de 2018",
  "sha256Origem": "2782d40385a82b422812ea80296aa29fd8ae33a7141e77391e8f81b829b86bbe",
- "estruturadoEm": "2026-11-18T09:25:54.624Z",
- "versaoEstruturador": 4,
+ "estruturadoEm": "2026-11-18T09:57:03.595Z",
+ "versaoEstruturador": 5,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "834",
@@ -32,8 +32,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 2º",
-   "texto": "Fica alterado o inc. II e incluído o inc. IV no art. 5º da Lei Complementar nº 687, de 1º de fevereiro de 2012, alterada pela Lei Complementar nº 731, de 21 de janeiro de 2014, conforme segue: (NR)",
-   "blocoDeAlteracao": "“Art. 5º .......................................................................................................\n....................................................................................................................\nII – as empresas autorizatárias, permissionárias ou concessionárias dos serviços de\nenergia elétrica, telefonia e distribuição de água e de gás;\n.............................................................................................................................\nIV – as empresas administradoras de portos, aeroportos e terminais rodoviários.”"
+   "texto": "Fica alterado o inc. II e incluído o inc. IV no art. 5º da Lei Complementar nº 687, de 1º de fevereiro de 2012, alterada pela Lei Complementar nº 731, de 21 de janeiro de 2014, conforme segue:",
+   "blocoDeAlteracao": "“Art. 5º .......................................................................................................\n....................................................................................................................\nII – as empresas autorizatárias, permissionárias ou concessionárias dos serviços de\nenergia elétrica, telefonia e distribuição de água e de gás;\n.............................................................................................................................\nIV – as empresas administradoras de portos, aeroportos e terminais rodoviários.”\n(NR)"
   },
   {
    "id": "art-3",
@@ -44,20 +44,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 3,
    "dispositivos": 3,
-   "cobertura": 0.9,
+   "cobertura": 0.974,
    "blocosDeAlteracao": 2,
    "lacunas": [],
-   "naoLocalizados": [
-    "Fica alterado o inc. II e incluído o inc. IV no art. 5º da Lei Complementar nº 6"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

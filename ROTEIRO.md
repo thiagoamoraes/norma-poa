@@ -36,7 +36,7 @@ node normateste.mjs > /tmp/antes.txt          # só imprime: comparar byte a byt
 for t in teste_regressao teste_vetado_provenencia teste_pecas_2_3 teste_lei_publicada \
          teste_peca4 teste_urn teste_gruposAntes teste_promulgacao_parcial teste_pdf_normas \
          teste_catalogo_sapl teste_textos_sapl teste_estrutura teste_versionamento \
-         teste_historico teste_minuta teste_leis_ordinarias teste_emenda_lo teste_situacao teste_rede_local; do node $t.mjs | tail -1; done; bash teste_parar_em.sh | tail -1; bash teste_guarda_horario.sh | tail -1
+         teste_historico teste_minuta teste_leis_ordinarias teste_emenda_lo teste_nr_linha_seguinte teste_situacao teste_rede_local; do node $t.mjs | tail -1; done; bash teste_parar_em.sh | tail -1; bash teste_guarda_horario.sh | tail -1
 ```
 
 Contagens de referência em 17/11/2026: 47 · 13 · 30 · 11 · 29 · 7 · 16 · 72 ·

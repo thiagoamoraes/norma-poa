@@ -2,8 +2,8 @@
  "idSapl": 42994,
  "rotulo": "Lei Complementar municipal nº 897, de 15 de janeiro de 2021",
  "sha256Origem": "dac2f2358c1af5a6baec560d80cda77faacc1dd8bde9a43196803f3839d14839",
- "estruturadoEm": "2026-11-18T09:25:54.435Z",
- "versaoEstruturador": 4,
+ "estruturadoEm": "2026-11-18T09:57:03.326Z",
+ "versaoEstruturador": 5,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "897",
@@ -24,7 +24,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "No caput do art. 3º da Lei Complementar nº 810, de 4 de janeiro de 2017, alterada pela Lei Complementar nº 817, de 30 de agosto de 2017, ficam alterados os incs. I, II, III, V, VI, VII e IX e ficam incluídos incs. X a XIII, conforme segue: (NR)",
+   "texto": "No caput do art. 3º da Lei Complementar nº 810, de 4 de janeiro de 2017, alterada pela Lei Complementar nº 817, de 30 de agosto de 2017, ficam alterados os incs. I, II, III, V, VI, VII e IX e ficam incluídos incs. X a XIII, conforme segue:",
    "agrupadores": [
     {
      "tipo": "secao",
@@ -32,7 +32,7 @@
      "titulo": "Da Alteração de Estrutura"
     }
    ],
-   "blocoDeAlteracao": "“Art. 3º .....................................................................................................................\nI – a Secretaria Municipal de Desenvolvimento Social (SMDS);\nII – a Secretaria Municipal de Desenvolvimento Econômico e Turismo (SMDET);\nIII – a Secretaria Municipal do Meio Ambiente, Urbanismo e Sustentabilidade\n(Smamus);\n....................................................................................................................................\nV – a Secretaria Municipal de Obras e Infraestrutura (SMOI);\nVI – a Secretaria Municipal de Planejamento e Assuntos Estratégicos (SMPAE);\nVII – a Secretaria Municipal de Parcerias (SMP);\n....................................................................................................................................\nIX – a Secretaria Municipal de Governança Local e Coordenação Política\n(Smgov);\nX – a Secretaria Municipal de Administração e Patrimônio (SMAP);\nXI – a Secretaria Municipal de Mobilidade Urbana (SMMU);\nXII – a Secretaria Municipal de Esporte, Lazer e Juventude (SMELJ); e\nXIII – a Secretaria Municipal de Habitação e Regularização Fundiária (Smharf).”"
+   "blocoDeAlteracao": "“Art. 3º .....................................................................................................................\nI – a Secretaria Municipal de Desenvolvimento Social (SMDS);\nII – a Secretaria Municipal de Desenvolvimento Econômico e Turismo (SMDET);\nIII – a Secretaria Municipal do Meio Ambiente, Urbanismo e Sustentabilidade\n(Smamus);\n....................................................................................................................................\nV – a Secretaria Municipal de Obras e Infraestrutura (SMOI);\nVI – a Secretaria Municipal de Planejamento e Assuntos Estratégicos (SMPAE);\nVII – a Secretaria Municipal de Parcerias (SMP);\n....................................................................................................................................\nIX – a Secretaria Municipal de Governança Local e Coordenação Política\n(Smgov);\nX – a Secretaria Municipal de Administração e Patrimônio (SMAP);\nXI – a Secretaria Municipal de Mobilidade Urbana (SMMU);\nXII – a Secretaria Municipal de Esporte, Lazer e Juventude (SMELJ); e\nXIII – a Secretaria Municipal de Habitação e Regularização Fundiária (Smharf).”\n(NR)"
   },
   {
    "id": "art-2",
@@ -565,7 +565,6 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem"
   ],
   "avisos": [
@@ -574,16 +573,10 @@
   "metricas": {
    "artigos": 51,
    "dispositivos": 73,
-   "cobertura": 0.978,
+   "cobertura": 0.984,
    "blocosDeAlteracao": 10,
-   "lacunas": [
-    {
-     "tamanho": 102,
-     "amostra": "Art3ºFicaincluídoart4ºAnaLeiComplementarnº810de2017alteradapelaLeiComplementarnº"
-    }
-   ],
+   "lacunas": [],
    "naoLocalizados": [
-    "No caput do art. 3º da Lei Complementar nº 810, de 4 de janeiro de 2017, alterad",
     "Fica incluído art. 4º-A na Lei Complementar nº 810, de 2017, alterada pela Lei C"
    ],
    "rotulosDivergentes": []

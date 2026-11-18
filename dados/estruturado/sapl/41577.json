@@ -2,8 +2,8 @@
  "idSapl": 41577,
  "rotulo": "Lei Complementar municipal nº 832, de 09 de março de 2018",
  "sha256Origem": "011eda6a5a1b21eef546be88750f0bec516733c88b2a12bf8a91a7d631d66463",
- "estruturadoEm": "2026-11-18T09:25:54.628Z",
- "versaoEstruturador": 4,
+ "estruturadoEm": "2026-11-18T09:57:03.603Z",
+ "versaoEstruturador": 5,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "832",
@@ -300,8 +300,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 14.",
-   "texto": "No art. 20 da Lei Complementar nº 12, de 1975, e alterações posteriores, ficam alterados os incs. I, II e IV do caput, ficam incluídos inc. V no caput e § 2º, e fica renomeado o parágrafo único para § 1º, mantendo-se sua redação atual, conforme segue: (NR)",
-   "blocoDeAlteracao": "“Art. 20. ...................................................................................................................\nI – a localização e o horário de sua realização sejam aprovados pelo Município de\nPorto Alegre;\nII – as limitações de trânsito em via pública definidas pelo Município de Porto\nAlegre sejam cumpridas;\n....................................................................................................................................\nIV – a sua remoção ocorra em prazo compatível com o evento, definido pelo\nMunicípio de Porto Alegre em vista das suas características; e\nV – os requisitos de segurança dos participantes, definidos por lei e regulamento,\nsejam atendidos.\n5\n§ 1º ...........................................................................................................................\n§ 2º A infração ao disposto neste artigo acarretará multa de 500 (quinhentas)\nUFMs a 3.000 (três mil) UFMs, sem prejuízo do dever do infrator de reparar o dano causado.”"
+   "texto": "No art. 20 da Lei Complementar nº 12, de 1975, e alterações posteriores, ficam alterados os incs. I, II e IV do caput, ficam incluídos inc. V no caput e § 2º, e fica renomeado o parágrafo único para § 1º, mantendo-se sua redação atual, conforme segue:",
+   "blocoDeAlteracao": "“Art. 20. ...................................................................................................................\nI – a localização e o horário de sua realização sejam aprovados pelo Município de\nPorto Alegre;\nII – as limitações de trânsito em via pública definidas pelo Município de Porto\nAlegre sejam cumpridas;\n....................................................................................................................................\nIV – a sua remoção ocorra em prazo compatível com o evento, definido pelo\nMunicípio de Porto Alegre em vista das suas características; e\nV – os requisitos de segurança dos participantes, definidos por lei e regulamento,\nsejam atendidos.\n5\n§ 1º ...........................................................................................................................\n§ 2º A infração ao disposto neste artigo acarretará multa de 500 (quinhentas)\nUFMs a 3.000 (três mil) UFMs, sem prejuízo do dever do infrator de reparar o dano causado.”\n(NR)"
   },
   {
    "id": "art-15",
@@ -369,7 +369,6 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem"
   ],
   "avisos": [
@@ -378,16 +377,10 @@
   "metricas": {
    "artigos": 22,
    "dispositivos": 48,
-   "cobertura": 0.951,
+   "cobertura": 0.97,
    "blocosDeAlteracao": 8,
-   "lacunas": [
-    {
-     "tamanho": 85,
-     "amostra": "Art18Ficaincluídoart91BnaLeiComplementarnº12de1975ealteraçõesposterioresconforme"
-    }
-   ],
+   "lacunas": [],
    "naoLocalizados": [
-    "No art. 20 da Lei Complementar nº 12, de 1975, e alterações posteriores, ficam a",
     "Fica incluído art. 91-B na Lei Complementar nº 12, de 1975, e alterações posteri"
    ],
    "rotulosDivergentes": []

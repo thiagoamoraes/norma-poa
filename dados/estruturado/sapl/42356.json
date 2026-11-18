@@ -2,8 +2,8 @@
  "idSapl": 42356,
  "rotulo": "Lei Complementar municipal nº 868, de 10 de dezembro de 2019",
  "sha256Origem": "b17b6c4ea15318f49e3b4737f617abe04fa3e9daca1fcc5ce97e4ae12179860c",
- "estruturadoEm": "2026-11-18T09:25:54.554Z",
- "versaoEstruturador": 4,
+ "estruturadoEm": "2026-11-18T09:57:03.481Z",
+ "versaoEstruturador": 5,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "868",
@@ -40,8 +40,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 3º",
-   "texto": "Ficam alterados o caput e o parágrafo único do art. 35 da Lei Complementar nº 478, de 2002, e alterações posteriores, conforme segue: (NR)",
-   "blocoDeAlteracao": "“Art. 35. O segurado será aposentado automática e compulsoriamente ao atingir a\nidade limite estabelecida na Constituição Federal, com proventos proporcionais ao tempo de\ncontribuição.\nParágrafo único. A aposentadoria será declarada por ato administrativo, com\nvigência a partir do dia em que o servidor atingir a idade limite de permanência no serviço.”"
+   "texto": "Ficam alterados o caput e o parágrafo único do art. 35 da Lei Complementar nº 478, de 2002, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 35. O segurado será aposentado automática e compulsoriamente ao atingir a\nidade limite estabelecida na Constituição Federal, com proventos proporcionais ao tempo de\ncontribuição.\nParágrafo único. A aposentadoria será declarada por ato administrativo, com\nvigência a partir do dia em que o servidor atingir a idade limite de permanência no serviço.”\n(NR)"
   },
   {
    "id": "art-4",
@@ -245,19 +245,16 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
   "metricas": {
    "artigos": 22,
    "dispositivos": 29,
-   "cobertura": 0.985,
+   "cobertura": 0.991,
    "blocosDeAlteracao": 19,
    "lacunas": [],
-   "naoLocalizados": [
-    "Ficam alterados o caput e o parágrafo único do art. 35 da Lei Complementar nº 47"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": [
     {
      "rotulo": "VII –",

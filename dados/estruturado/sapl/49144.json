@@ -2,8 +2,8 @@
  "idSapl": 49144,
  "rotulo": "Emenda à Lei Orgânica nº 50, de 28 de agosto de 2024",
  "sha256Origem": "0c10e3d26f8821d7c3f2a5cc4bb7e9b6d23ffd7c7c52fc60f308a004608dde06",
- "estruturadoEm": "2026-11-17T18:17:06.210Z",
- "versaoEstruturador": 4,
+ "estruturadoEm": "2026-11-18T09:57:02.502Z",
+ "versaoEstruturador": 5,
  "cabecalho": {
   "tipoAto": "EMENDA À LEI ORGÂNICA",
   "numero": "50",
@@ -24,8 +24,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "Fica alterado o § 1º do art. 50 da Lei Orgânica do Município de Porto Alegre, conforme segue: (NR)",
-   "blocoDeAlteracao": "“Art.50 ......................................................................................................................................\n§ 1º É fixado em 35 (trinta e cinco) o número de vereadores da Câmara Municipal.\n............................................................................................................................................”"
+   "texto": "Fica alterado o § 1º do art. 50 da Lei Orgânica do Município de Porto Alegre, conforme segue:",
+   "blocoDeAlteracao": "“Art.50 ......................................................................................................................................\n§ 1º É fixado em 35 (trinta e cinco) o número de vereadores da Câmara Municipal.\n............................................................................................................................................”\n(NR)"
   },
   {
    "id": "art-2",
@@ -43,20 +43,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 3,
    "dispositivos": 3,
-   "cobertura": 0.961,
+   "cobertura": 0.989,
    "blocosDeAlteracao": 1,
    "lacunas": [],
-   "naoLocalizados": [
-    "Fica alterado o § 1º do art. 50 da Lei Orgânica do Município de Porto Alegre, co"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

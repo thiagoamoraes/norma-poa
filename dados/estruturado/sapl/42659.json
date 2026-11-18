@@ -2,8 +2,8 @@
  "idSapl": 42659,
  "rotulo": "Lei Complementar municipal nº 885, de 09 de julho de 2020",
  "sha256Origem": "ffe7d0746ddbd181259d368a0a23ef9cf338503b3c102eaf3d51443c9820f193",
- "estruturadoEm": "2026-11-18T09:25:54.465Z",
- "versaoEstruturador": 4,
+ "estruturadoEm": "2026-11-18T09:57:03.365Z",
+ "versaoEstruturador": 5,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "885",
@@ -24,8 +24,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "Fica alterado o art. 31 da Lei Complementar nº 12, de 7 de janeiro de 1975, e alterações posteriores, conforme segue: (NR)",
-   "blocoDeAlteracao": "“Art. 31. Todas as instalações sanitárias, os tanques, os banheiros, os mictórios e as latrinas\nde uso cole vo, seus aparelhos e acessórios, serão man dos no mais rigoroso asseio e em perfeito\nfuncionamento, com papel higiênico e álcool em gel 70% (setenta por cento) fornecidos pelo responsável.”"
+   "texto": "Fica alterado o art. 31 da Lei Complementar nº 12, de 7 de janeiro de 1975, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 31. Todas as instalações sanitárias, os tanques, os banheiros, os mictórios e as latrinas\nde uso cole vo, seus aparelhos e acessórios, serão man dos no mais rigoroso asseio e em perfeito\nfuncionamento, com papel higiênico e álcool em gel 70% (setenta por cento) fornecidos pelo responsável.”\n(NR)"
   },
   {
    "id": "art-2",
@@ -36,20 +36,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 2,
    "dispositivos": 2,
-   "cobertura": 0.935,
+   "cobertura": 0.988,
    "blocosDeAlteracao": 1,
    "lacunas": [],
-   "naoLocalizados": [
-    "Fica alterado o art. 31 da Lei Complementar nº 12, de 7 de janeiro de 1975, e al"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

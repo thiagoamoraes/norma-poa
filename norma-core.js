@@ -815,6 +815,13 @@ export function detectNRCandidates(raw) {
         if (/\(NR\)\s*["“”']?\s*\.?\s*$/.test(lines[j])) { end=j; semNR=false; break; }
         if (/["“”']\s*\.?\s*$/.test(lines[j]))             { end=j; semNR=true;  break; }
       }
+      // "(NR)" sozinho na linha SEGUINTE ao fecha-aspas (visto em LCs reais de 2017 em diante,
+      // ex. LC 804/2017): o bloco acaba nele; senão o "(NR)" sobra e gruda no dispositivo que introduz.
+      if (end >= 0 && semNR) {
+        let k = end + 1;
+        while (k < lines.length && k <= end + 3 && !lines[k]) k++;
+        if (k < lines.length && /^\(NR\)\s*["“”']?\s*\.?\s*$/.test(lines[k])) { end = k; semNR = false; }
+      }
       if (end >= 0) {
         out.push({ startIdx:i, endIdx:end, semNR, preview: line.replace(/^["“”']/,"").slice(0,64)+(end>i?"… "+lines[end].slice(-50):"") });
         i = end; continue;

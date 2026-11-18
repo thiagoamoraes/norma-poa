@@ -2,8 +2,8 @@
  "idSapl": 44071,
  "rotulo": "Lei Complementar municipal nº 945, de 08 de julho de 2022",
  "sha256Origem": "d2896c1fc8987c1886f7a3ba8af9eba7e5ffa390b196dce5981a36308f3d15ae",
- "estruturadoEm": "2026-11-18T09:25:54.322Z",
- "versaoEstruturador": 4,
+ "estruturadoEm": "2026-11-18T09:57:03.169Z",
+ "versaoEstruturador": 5,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "945",
@@ -120,8 +120,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 13.",
-   "texto": "Fica incluído § 5º no art. 5º da Lei Complementar nº 534, de 2005, e alterações posteriores, conforme segue: (NR)",
-   "blocoDeAlteracao": "“Art. 5º ....................................................................................................................\n...................................................................................................................................\n§ 5º Em início de novo mandato e não tendo sido reconduzidos o Presidente e o\nVice-Presidente na condição de conselheiros, a Presidência do TART será exercida\nprioritariamente pelo Coordenador mais antigo no Tribunal, ou, supletivamente, pelo Conselheiro\nmais idoso representante do Erário Municipal, até a nomeação do titular definitivo pelo Prefeito”"
+   "texto": "Fica incluído § 5º no art. 5º da Lei Complementar nº 534, de 2005, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 5º ....................................................................................................................\n...................................................................................................................................\n§ 5º Em início de novo mandato e não tendo sido reconduzidos o Presidente e o\nVice-Presidente na condição de conselheiros, a Presidência do TART será exercida\nprioritariamente pelo Coordenador mais antigo no Tribunal, ou, supletivamente, pelo Conselheiro\nmais idoso representante do Erário Municipal, até a nomeação do titular definitivo pelo Prefeito”\n(NR)"
   },
   {
    "id": "art-14",
@@ -221,20 +221,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 21,
    "dispositivos": 26,
-   "cobertura": 0.974,
+   "cobertura": 0.984,
    "blocosDeAlteracao": 18,
    "lacunas": [],
-   "naoLocalizados": [
-    "Fica incluído § 5º no art. 5º da Lei Complementar nº 534, de 2005, e alterações "
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

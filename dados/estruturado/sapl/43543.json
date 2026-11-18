@@ -2,8 +2,8 @@
  "idSapl": 43543,
  "rotulo": "Lei Complementar municipal nº 925, de 20 de dezembro de 2021",
  "sha256Origem": "9d0131c3927d79395aa4d2fd5c5af25f75f30aff6f3abf3259c445e184c7a0e5",
- "estruturadoEm": "2026-11-18T09:25:54.379Z",
- "versaoEstruturador": 4,
+ "estruturadoEm": "2026-11-18T09:57:03.242Z",
+ "versaoEstruturador": 5,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "925",
@@ -24,8 +24,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "Fica alterado o inc. XIX e incluído inc. XXXI no art. 21 da Lei Complementar nº 7, de 7 de dezembro de 1973, e alterações posteriores, conforme segue: (NR) ....................................................................................................................................",
-   "blocoDeAlteracao": "“Art. 21. ....................................................................................................................\n....................................................................................................................................\nXIX – serviços realizados pelos centros de contato (contact centers), com a\ninterveniência do usuário ou do destinatário final do serviço, tais como atendimento ao cliente,\ntelevendas, telemarketing, pesquisas de mercado, suporte técnico, ouvidoria, recuperação de\ncréditos e confirmação de cadastro, por meio de contato telefônico, da web, de chat ou de e-mail,\ndurante o período de 1º de janeiro de 2022 a 31 de dezembro de 2036: 2% (dois por cento).”"
+   "texto": "Fica alterado o inc. XIX e incluído inc. XXXI no art. 21 da Lei Complementar nº 7, de 7 de dezembro de 1973, e alterações posteriores, conforme segue: ....................................................................................................................................",
+   "blocoDeAlteracao": "“Art. 21. ....................................................................................................................\n....................................................................................................................................\nXIX – serviços realizados pelos centros de contato (contact centers), com a\ninterveniência do usuário ou do destinatário final do serviço, tais como atendimento ao cliente,\ntelevendas, telemarketing, pesquisas de mercado, suporte técnico, ouvidoria, recuperação de\ncréditos e confirmação de cadastro, por meio de contato telefônico, da web, de chat ou de e-mail,\ndurante o período de 1º de janeiro de 2022 a 31 de dezembro de 2036: 2% (dois por cento).”\n(NR)"
   },
   {
    "id": "art-1/inc-I",
@@ -50,20 +50,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 3,
    "dispositivos": 4,
-   "cobertura": 0.882,
+   "cobertura": 0.961,
    "blocosDeAlteracao": 1,
    "lacunas": [],
-   "naoLocalizados": [
-    "Fica alterado o inc. XIX e incluído inc. XXXI no art. 21 da Lei Complementar nº "
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }
