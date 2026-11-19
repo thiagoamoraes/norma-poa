@@ -1,0 +1,61 @@
+{
+ "idSapl": 39713,
+ "rotulo": "Lei Complementar municipal nº 748, de 04 de novembro de 2014",
+ "sha256Origem": "35b8ea02909ddbfd761f7ca4bd0a36729d7b70584caab4f5b097fe2a059ec68c",
+ "estruturadoEm": "2026-11-19T09:26:03.444Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "brasao.gif Prefeitura Municipal de Porto",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "(2807 bytes) Alegre LEI COMPLEMENTARNº 748, DE 4 DE NOVEMBRO DE 2014. Altera o § 1º erevoga o § 4º do art. 1º da Lei Complementar nº 554, de 11 de julho de 2006,alterada pela Lei Complementar nº 699, de 19 de janeiro de 2011, dispondosobre a renovação da Autorização para o Funcionamento de AtividadesEconômicas no Município de Porto Alegre. OPREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições queconfere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono aseguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 4 de novembro de 2014.\nJosé Fortunati,\nPrefeito.\nHumberto Goulart,\nSecretário Municipal da Produção, Indústria e Comércio.\nRegistre-se epublique-se.\nUrbano Schmitt,\nSecretário Municipalde Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o § 1º do art. 1º da LeiComplementar nº 554, de 11 de julho de 2006, alterada pela Lei Complementar nº699, de 19 de janeiro de 2011, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º.....................................................................................\n§1º A Autorização para o Funcionamento de Atividades Econômicas será expedidapela\nSecretaria Municipal da Produção, Indústria e Comércio – SMIC –, nostermosda regulamentação\ndesta Lei Complementar, e terá vigência de 1 (um) ano e6(seis) meses, podendo ser renovada por\niguais e sucessivos períodos, desdecomprovado o prosseguimento da regularização da atividade\nou do imóvel.\n.........................................................................................”(NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor nadatade sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica revogado o § 4º do art. 1º da LeiComplementar nº 554, de 11 de julho de 2006, alterada pela Lei Complementar nº699, de 19 de janeiro de 2011."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,1008 @@
+{
+ "geradoEm": "2026-11-19T09:26:05.061Z",
+ "idSapl": 39422,
+ "rotulo": "Lei Complementar municipal nº 740, de 16 de maio de 2014",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 740/2014@2014-05-16",
+   "data": "2014-05-16",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 740/2014@2014-10-29",
+   "data": "2014-10-29",
+   "fonte": {
+    "idSapl": 39697,
+    "rotulo": "Lei Complementar municipal nº 745, de 29 de outubro de 2014"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 2,
+   "id": "lc 740/2014@2016-09-13",
+   "data": "2016-09-13",
+   "fonte": {
+    "idSapl": 40830,
+    "rotulo": "Lei Complementar municipal nº 802, de 13 de setembro de 2016"
+   },
+   "comandosAplicados": 2
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica instituído o Estatuto doPedestre no Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para os fins desta LeiComplementar, é definido como pedestre todo aquele que utilizar as vias, ospasseios públicos, as calçadas, as praças e os parques a pé, em carrinho de bebêou em cadeira de rodas, bem como aquele que, portando uma bicicleta, não aestiver pedalando. DISPOSIÇÕES GERAIS Dos Direitos do Pedestre",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O pedestre tem o direito decircular nas travessias de vias, calçadas, praças, parques e passeios públicos,sem obstáculos de qualquer natureza, bem como o direito à livre paisagem visual.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "II",
+     "titulo": ""
+    },
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam assegurados aopedestre, especialmente ao idoso, à pessoa com deficiência e à pessoa commobilidade reduzida, a mobilidade, a acessibilidade e a segurança nas viaspúblicas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam assegurados ao pedestreos seguintes direitos:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "faixas de segurança nas vias públicas,sinalizadas horizontal e verticalmente;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "faixas de segurança nas vias públicas, sinalizadas horizontal e verticalmente, nas quais os retângulos transversais mais próximos da calçada e do canteiro deverão possuir formato de seta e conter o dizer “OLHE”, de forma a orientar o pedestre sobre o sentido do trânsito da via a ser atravessada, conforme os Anexos I e II desta Lei Complementar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 802/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "iluminação pública nas calçadas, naspraças, nos parques, nos passeios, nos terminais e nas paradas de transportecoletivo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "sinalização com tempo suficientepara permitir a travessia de vias em segurança;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ciclovias com sistema de sinalizaçãohorizontal e vertical, utilizando materiais refletivos para a visualizaçãonoturna de ciclistas e de pedestres;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "equipamentos e mobiliário urbano quefacilitem a mobilidade e a acessibilidade de pessoas com deficiência ou commobilidade reduzida e de idosos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "sinaleiras luminosas e sonoras nasportas de garagens, com colocação de espelhos angulares nas laterais, permitindoa visualização pelo pedestre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-1",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As faixas de segurança garantemaos pedestres a prioridade na travessia, inclusive quando ocorrer a mudança desinal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-2",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-3",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "A necessidade de implantação das faixas referidas no inc. I do caput deste artigo será avaliada por corpo técnico competente da Empresa Pública de Transporte e Circulação – EPTC.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 802/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam assegurados às pessoascom deficiência ou com mobilidade reduzida o livre acesso e a livre circulaçãoem edificações e logradouros públicos. Dos Deveres do Pedestre",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São deveres do pedestre:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-I",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "zelar pelo cumprimento do Estatuto doPedestre, comunicando ao Poder Público o seu descumprimento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-II",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "nas vias, caminhar somente nascalçadas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-III",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "atravessar as vias públicasutilizando, quando existirem, as faixas de segurança e as passarelas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-IV",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "atravessar somente em trajetóriaperpendicular às vias;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-V",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "observar o semáforo na travessia dasvias públicas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-VI",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ajudar crianças, idosos e pessoas comdeficiência ou com mobilidade reduzida na travessia de vias de grandecirculação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-VII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "não jogar lixo nas vias, nascalçadas, nas praças, nos parques e nos passeios públicos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-VIII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "obedecer à sinalização de trânsito;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-IX",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "manter os cães, no caso de mordedorese bravios, com coleiras e focinheiras; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-X",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "recolher os excrementos de seus cãesnas vias públicas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-unico",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de a via nãoter calçada, caminhar pela lateral da pista e sempre de frente para os veículos. Do Conselho Municipal dos Direitos e dosDeveres do Pedestre",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica criado o ConselhoMunicipal dos Direitos e dos Deveres do Pedestre (Consepe), órgão consultivovinculado à Secretaria Municipal de Transportes (SMT).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "III",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Compete ao Consepe:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "propor políticas públicas de incentivoao cumprimento do Estatuto do Pedestre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-II",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "desenvolver projetos em parceria como Conselho Municipal do Transporte Urbano (Comtu);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-III",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estimular, nas escolas e nos órgãospúblicos do Município de Porto Alegre, a realização de campanhas socioeducativasrelacionadas aos direitos e aos deveres do pedestre; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-IV",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "cumprir e fazer cumprir o Estatuto doPedestre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Consepe será composto por:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-I",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "4 (quatro) representantes deassociações de pessoas com deficiência ou com mobilidade reduzida;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-II",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "3 (três) representantes da sociedadecivil organizada;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-III",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) representante da EmpresaPública de Transporte e Circulação (EPTC);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-IV",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) representante da SecretariaMunicipal de Acessibilidade e Inclusão Social (Smacis);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-V",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) representante do OrçamentoParticipativo (OP);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-VI",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) representante da SecretariaMunicipal de Obras e Viação (SMOV); e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-VII",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) representante da SecretariaMunicipal de Educação (Smed).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/par-unico",
+   "pai": "art-9",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica permitida aparticipação de entidades e associações no Consepe, sem direito a voto, mediantesolicitação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Consepe deverámanifestar-se nos projetos do Município de Porto Alegre referentes àreestruturação urbana e à reforma de calçadas, praças, parques, passeiospúblicos, faixas de segurança e passarelas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-unico",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nos projetos de quetrata o caput deste artigo, as rampas para acessibilidade devem terinclinações adequadas, marcadas com faixa de alerta tátil e, em seus limites,com Símbolo Internacional de Acesso (SAI), em conformidade com o dispostonosarts. 83 e 94 da Lei Federal nº 9.503, de 23 de setembro de 1997, e alteraçõesposteriores (Código de Trânsito Brasileiro). Das Normas Gerais",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os postos de venda decombustíveis deverão sinalizar os limites dos locais de passagem de pedestres,com destaque para a sinalização e a diferenciação do piso, em conformidadedisposto na Resolução nº 38, de 21 de maio de 1998, do Conselho Nacional deTrânsito (Contran).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "IV",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam vedados, nas áreas decirculação de pedestres:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/inc-I",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o trânsito de bicicletas, veículos depropulsão humana ou de tração animal, triciclos e motocicletas destinadasàentrega ou à venda de produtos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/inc-II",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o estacionamento de veículosmotorizados. DISPOSIÇÕES FINAIS",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As concessionárias e aspermissionárias de serviço público que possuam, em calçadas, praças ou passeios,cabines, telefones públicos, coletores de lixo, postes de iluminação pública,caixas coletoras de correspondência, quiosques diversos ou placas depublicidade, dentre outros, em desacordo com o disposto nesta Lei Complementardeverão adequar-se às suas disposições no prazo de 90 (noventa) dias, contadosda data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "III",
+     "titulo": ""
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Executivo Municipalincentivará políticas de instalação de bicicletários e estacionamentos paramotocicletas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica o Executivo Municipalresponsável pela conservação de faixas de segurança, rampas de acesso,passarelas e sinalizações.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O licenciamento de projetosque impliquem aumento do tráfego em calçadas de shoppings ou de postos degasolina deve ser precedido de estudo de impacto de circulação de pedestresnessas áreas, com vista à instalação de equipamentos como faixas de segurança,rampas, semáforos, passarelas e equipamentos afins.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Executivo Municipalinstituirá a ouvidoria do pedestre, com a finalidade de receber e de encaminharsugestões, reivindicações e denúncias, com base no disposto nesta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17-A",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "O Executivo Municipal regulamentará esta Lei Complementar no prazode 120 (cento e vinte) dias, contados da data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 745/2014"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entraem vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica revogada a Lei nº10.199, de 11 de junho de 2007.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

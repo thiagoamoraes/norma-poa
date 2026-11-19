@@ -1,0 +1,85 @@
+{
+ "idSapl": 39563,
+ "rotulo": "Lei Complementar municipal nº 741, de 05 de agosto de 2014",
+ "sha256Origem": "f65877a0097567a5b6031b018243d2dd493a606ede2c9e8bf25a695982f087cf",
+ "estruturadoEm": "2026-11-19T09:26:03.459Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "brasao.gif",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "(2807 bytes)           Prefeitura Municipal de Porto Alegre LEI COMPLEMENTARNº 741, DE 5 DE AGOSTO DE 2014. Altera o inc. XIII do caput e inclui§ 4º no art. 118 da Lei Complementar nº 434, de 1ode dezembro de 1999 – Plano Diretor deDesenvolvimento Urbano Ambiental de Porto Alegre –, e alteraçõesposteriores, dispondo sobre recuo de ajardinamento. O PREFEITOMUNICIPAL DE PORTO ALEGRE Faço saber que aCâmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso IIdo artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Noart. 118 da Lei Complementar nº 434, de 1º de dezembro de 1999, e alteraçõesposteriores, fica alterado o inc. XIII do caput, e fica incluído"
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": ", conformesegue: “Art. 118......................................................................................................................................................................................"
+  },
+  {
+   "id": "art-1/par-1/inc-I",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "muros noalinhamento ou nas divisas laterais com altura de até 2m (dois metros) emrelação ao PNT, nos terrenos baldios e nas edificações destinadas aestabelecimentos de ensino formal, templos, atividades industriais, transportesde cargas ou valores, hospitais, conventos, seminários, quartéis, presídios eórgãos de segurança. ..................................................................................................."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "No casoreferido no inc. XIII do caput deste artigo, havendo solicitação paraconstrução de muro com altura superior à prevista nesse inciso, o pedido seráanalisado pelo SMGP.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "oEsta Lei Complementar entra em vigor nadata de sua publicação. PREFEITURAMUNICIPAL DE PORTO ALEGRE, 5 de agosto de 2014. José Fortunati, Prefeito. Cristiano Tatsch, Secretário Municipal de Urbanismo. Registre-se e publique-se. Urbano Schmitt, Secretário Municipal de Gestão."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 5,
+   "cobertura": 0.979,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "§ 1º",
+     "naOrigem": "4º"
+    },
+    {
+     "rotulo": "§ 2º",
+     "naOrigem": "4º"
+    }
+   ]
+  }
+ }
+}

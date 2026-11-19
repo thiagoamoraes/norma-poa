@@ -1,0 +1,3883 @@
+{
+ "geradoEm": "2026-11-19T09:26:05.057Z",
+ "idSapl": 39223,
+ "rotulo": "Lei Complementar municipal nº 728, de 08 de janeiro de 2014",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 728/2014@2014-01-08",
+   "data": "2014-01-08",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 728/2014@2014-12-30",
+   "data": "2014-12-30",
+   "fonte": {
+    "idSapl": 39823,
+    "rotulo": "Lei Complementar municipal nº 753, de 30 de dezembro de 2014"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 2,
+   "id": "lc 728/2014@2015-09-14",
+   "data": "2015-09-14",
+   "fonte": {
+    "idSapl": 40215,
+    "rotulo": "Lei Complementar municipal nº 769, de 14 de setembro de 2015"
+   },
+   "comandosAplicados": 2
+  },
+  {
+   "indice": 3,
+   "id": "lc 728/2014@2026-04-14",
+   "data": "2026-04-14",
+   "fonte": {
+    "idSapl": 51213,
+    "rotulo": "Lei Complementar municipal nº 1.070, de 14 de abril de 2026"
+   },
+   "comandosAplicados": 3
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica instituído, nos termos desta Lei Complementar, o CódigoMunicipal de Limpeza Urbana, pelo qual são regidos os serviços de limpezaurbanae manejo de resíduos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DISPOSIÇÕESPRELIMINARES"
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Departamento Municipal de Limpeza Urbana (DMLU) é aautarquia do Município de Porto Alegre titular dos serviços públicos desaneamento básico, de limpeza urbana e manejo de resíduos sólidos urbanos,executando-os por meios próprios ou adjudicando-os a terceiros, remuneradagratuitamente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São classificados como serviços públicos de limpeza urbana e manejode resíduos sólidos, dentre outros serviços concernentes à limpeza do Municípiode Porto Alegre:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o conjunto de atividades, infraestrutura e instalações operacionais de coleta,transporte, transbordo e destinação final dos resíduos sólidos urbanos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a conservação da limpeza de vias, praias, balneários, sanitários públicos,viadutos, elevadas, áreas verdes, parques e outros logradouros e bens de usocomum da população do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a remoção de bens móveis abandonados nos logradouros públicos, excetoveículos automotivos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a fiscalização no âmbito do cumprimento desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para fins desta Lei Complementar, consideram-se:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "resíduos sólidos de limpeza urbana os originários da varrição e demaisserviços de limpeza executados nos logradouros públicos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "resíduos sólidos ordinários domiciliares, para fins de coleta regular, os nãorecicláveis, produzidos em imóveis, residenciais ou não, que possam seracondicionados em sacos plásticos com volume igual ou inferior a 100 (cem)litros, compostos por resíduos orgânicos, de origem animal ou vegetal, erejeito, que são resíduos para os quais ainda não há reaproveitamento oureciclagem, e que possam ser destinados aos sistemas de tratamentodisponibilizados pelo Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "resíduos sólidos recicláveis, para fins de coleta seletiva, ospotencialmente recicláveis, originários de atividades domésticas em imóveis,residenciais ou não, devidamente acondicionados, independentemente de seuvolume, os quais serão destinados preferencialmente às unidades de triagemcadastradas no DMLU;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "resíduos sólidos especiais aqueles que, por sua composição, massa específicaou volume, necessitam de sistema de recolhimento diferenciado ou tratamentoespecífico, enquadrados da seguinte forma:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IV/ali-a",
+   "pai": "art-3/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "resíduos gerados em imóveis, residenciais ou não, que não possam ser dispostosna forma estabelecida para a coleta regular;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IV/ali-b",
+   "pai": "art-3/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "resíduos gerados em imóveis não residenciais oriundos de processos rurais,comerciais, industriais ou de prestação de serviços;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IV/ali-c",
+   "pai": "art-3/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "resíduos gerados por atividades ou eventos instalados em logradouros públicos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IV/ali-d",
+   "pai": "art-3/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "resíduos gerados pelo comércio ambulante; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IV/ali-e",
+   "pai": "art-3/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "outros, por sua composição ou por ser objeto de legislação específica;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "geradores de resíduos sólidos as pessoas físicas ou jurídicas, de direitopúblico ou privado, que geram resíduos sólidos por meio de suas atividades,nessas incluído o consumo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Executivo Municipal adotará a coleta seletiva e a reciclagemmateriais como formas de tratamento dos resíduos sólidos, encaminhando osresíduos recicláveis a unidades de triagem devidamente cadastradas no DMLU.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A destinação e a disposição final dos resíduos sólidos de qualquernatureza e responsabilidade, ressalvadas as exceções previstas nesta LeiComplementar, somente poderão ser realizadas em locais licenciadosambientalmente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-unico",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput deste artigoconstitui infração gravíssima, punível conforme o art. 52, inc. IV, destaLeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O gerador de resíduo sólido será responsável pelo acondicionamento epela apresentação dos resíduos sólidos por ele dispostos para a coleta, até omomento do recolhimento pelo DMLU.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-unico",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput deste artigoconstitui infração média, punível conforme o art. 52, inc. II, desta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os serviços públicos de saneamento básico, de limpeza urbana emanejo de resíduos sólidos terão a sustentabilidade econômico-financeiraassegurada, sempre que possível, mediante remuneração pela cobrança dosserviços, levando em conta a adequada destinação dos resíduos coletados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O resíduo sólido ordinário domiciliar será acondicionado eapresentado à coleta, separado em resíduo orgânico ou rejeito, destinado àcoleta regular, e resíduo reciclável, destinado à coleta seletiva.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-1",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Caso o DMLU venha a implantar sistema de tratamento para os resíduosorgânicos, estes deverão ser apresentados à coleta específica, separadamente dorejeito.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-2",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput e no § 1º deste artigoconstitui infração média, punível conforme o art. 52, inc. II, desta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-3",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Executivo Municipal implantará um sistema de tratamento para osresíduos orgânicos e os resíduos inorgânicos, de forma a reaproveitá-los pormeio de uma cadeia produtiva sustentável, tendo por norte o conceito de lixozero.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-4",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A coleta seletiva será estendida a todo o Município de Porto Alegreprazo de até 2 (dois) anos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A coleta, o transporte e a destinação dos resíduos sólidos geradosna execução dos serviços de limpeza urbana são de responsabilidade exclusiva doExecutivo Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "II",
+     "titulo": "DISPOSIÇÕES GERAIS"
+    },
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Dos Resíduos Sólidos"
+    },
+    {
+     "tipo": "subsecao",
+     "numero": "I",
+     "titulo": "Dos Resíduos Sólidosde Limpeza Urbana"
+    }
+   ]
+  },
+  {
+   "id": "art-9/par-1",
+   "pai": "art-9",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O produto do trabalho de capina e limpeza de meio-fio, sarjetas, ruas edemais logradouros públicos deverá ser recolhido no prazo máximo de 12 (doze)horas, contadas da execução do serviço.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/par-2",
+   "pai": "art-9",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O DMLU deverá executar estes serviços para o Município de Porto Alegre,observando a adequação de custos à receita específica de repasse a ser criada,independentemente da receita da Taxa de Coleta de Lixo e das demais receitaspróprias do órgão.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A coleta regular, o transporte e a destinação final dos resíduossólidos ordinários domiciliares são de exclusiva competência do DMLU.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "II",
+     "titulo": "Dos Resíduos SólidosOrdinários Domiciliares"
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-1",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A prestação dos serviços descritos no caput deste artigo darse- ápela mera disponibilidade, independentemente de sua utilização ou não peloresponsável do imóvel servido.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-2",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A utilização dos serviços dar-se-á na forma descrita nesta subseção.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-3",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput deste artigo constituiinfração gravíssima, punível conforme o art. 52, inc. IV, desta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O acondicionamento do resíduo sólido ordinário domiciliar à coletaregular deverá considerar as determinações que seguem:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-I",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "deverá ser efetuado em sacos plásticos, tanto nas regiões com coleta porta aporta como nas regiões com coleta em contêineres;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-II",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o volume dos sacos plásticos não deve ser superior a 100 (cem) litros;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-III",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "materiais cortantes ou pontiagudos deverão ser devidamente embalados, afim de evitar lesão aos garis; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-IV",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os sacos plásticos ou recipientes indicados devem estar convenientementefechados, em perfeitas condições de higiene e conservação, sem líquido emseuinterior.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/par-unico",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto nos incs. I, II e IV docaput deste artigo constitui infração leve, e a não observância ao dispostono inc. III do caput deste artigo, gravíssima, punível conforme o art.52, incs. I e IV, desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O resíduo sólido ordinário domiciliar deverá ser apresentadopara acoleta regular nos seguintes locais:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/inc-I",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "no logradouro público, junto ao alinhamento de cada imóvel, nas regiõesem quea coleta for executada porta a porta; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/inc-II",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "no interior dos contêineres, nas regiões em que a coleta for automatizada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/par-1",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica o Poder Público Municipal responsável por proceder à coleta deresíduos sólidos em logradouros públicos municipais por meio de automatização, apartir da implementação progressiva do serviço de coleta automática comcontêineres na totalidade de logradouros públicos do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/par-2",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput deste artigo constituiinfração média, punível conforme o art. 52, inc. II, desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O resíduo sólido ordinário domiciliar deverá ser apresentadopara acoleta nos dias e nos horários em que o serviço for posto à disposição naregião, conforme segue:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-I",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "nas regiões em que a coleta domiciliar for realizada porta a porta no turno dodia, o resíduo somente poderá ser disposto a partir das 6h (seis horas), nosdias em que o serviço for prestado;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-II",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "nas regiões em que a coleta domiciliar for realizada porta a porta no turno danoite, o resíduo somente poderá ser disposto a partir das 18h (dezoito horas),nos dias em que o serviço for prestado;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-III",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "nas regiões em que a coleta domiciliar for realizada por meio decontêineres, o resíduo poderá ser disposto nesses recipientes em qualquerdia ouhorário; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-IV",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o gerador de resíduo sólido não deverá apresentar o resíduo à coleta após apassagem do veículo coletor.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/par-unico",
+   "pai": "art-13",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto neste artigo constituiinfração grave, punível conforme o art. 52, inc. III, desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Somente serão recolhidos pelo serviço regular de coleta os resíduossólidos acondicionados e apresentados em consonância com o disposto nestasubseção.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A coleta regular, o transporte e a destinação do resíduo sólidoreciclável são de exclusiva competência do DMLU.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "III",
+     "titulo": "Dos Resíduos SólidosRecicláveis"
+    }
+   ]
+  },
+  {
+   "id": "art-15/par-1",
+   "pai": "art-15",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A prestação dos serviços descritos no caput deste artigo poderá sedar:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/par-1/inc-I",
+   "pai": "art-15/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pela colocação de contêiner para depósito dos resíduos sólidos recicláveispróximo ao contêiner de depósito de resíduos orgânicos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/par-1/inc-II",
+   "pai": "art-15/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pela disponibilização de postos de entrega voluntária (PEVs) para a entregados resíduos sólidos recicláveis por seus geradores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/par-2",
+   "pai": "art-15",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput deste artigo constituiinfração gravíssima, punível conforme o art. 52, inc. IV, desta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O acondicionamento dos resíduos sólidos recicláveis a seremapresentados à coleta seletiva deverá ser realizado em sacos plásticos comvolume igual ou inferior a 100 (cem) litros.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16/par-unico",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput deste artigoconstitui infração média, punível conforme o art. 52, inc. II, desta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os resíduos sólidos recicláveis deverão ser apresentados paracoleta seletiva no logradouro público:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/inc-I",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "junto ao alinhamento de cada imóvel, nos locais em que não existir coletaautomatizada;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/inc-II",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "nos contêineres que lhes forem exclusivamente destinados, posicionados juntoaos contêineres de recolhimento de resíduos orgânicos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-1",
+   "pai": "art-17",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica vedado o depósito de resíduos sólidos recicláveis no interiordoscontêineres destinados exclusivamente à coleta automatizada do resíduo sólidoordinário domiciliar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-2",
+   "pai": "art-17",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto nos incisos do caput deste artigo ea não observância ao disposto no § 1º deste artigo constituem infração média egrave, respectivamente, puníveis conforme o art. 52, incs. II e III, destaComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Somente serão recolhidos pelo serviço regular de coleta seletiva osresíduos sólidos recicláveis acondicionados em consonância com o dispostonestasubseção.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os resíduos sólidos recicláveis serão apresentados à coletaseletiva conforme segue:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "nos dias e nos turnos estabelecidos pelo DMLU, conforme as regiões deabrangência do serviço; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-II",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o gerador de resíduo sólido reciclável não deverá apresentá-lo à coletaapós apassagem do veículo coletor.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/par-unico",
+   "pai": "art-19",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto neste artigo constituiinfração grave, punível conforme o art. 52, inc. III, desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os órgãos públicos deverão implantar sistema interno de separaçãodos resíduos sólidos, a fim de apresentá-los à coleta seletiva.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/par-unico",
+   "pai": "art-20",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput deste artigoconstitui infração média, punível conforme o art. 52, inc. II, desta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As escolas da rede municipal de ensino deverão desenvolverprogramas internos de separação dos resíduos sólidos recicláveis, atendendo aodisposto na Lei nº 6.586, de 12 de janeiro de 1990.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os estabelecimentos comerciais deverão colocar à disposição de seusclientes recipientes próprios que garantam a separação dos resíduos sólidosgerados durante o seu funcionamento, para apresentação à coleta seletiva.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/par-unico",
+   "pai": "art-22",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput deste artigoconstitui infração média, punível conforme o art. 52, inc. II, desta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No que for pertinente à limpeza e à conservação dos logradourospúblicos, as construções e as demolições reger-se-ão pelas seguintes obrigações,além das demais disposições desta Lei Complementar:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "IV",
+     "titulo": "Dos Resíduos SólidosEspeciais"
+    }
+   ]
+  },
+  {
+   "id": "art-23/inc-I",
+   "pai": "art-23",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "manter em estado permanente de limpeza e conservação o trecho fronteiroàobra; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/inc-II",
+   "pai": "art-23",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "evitar a queda de detritos nos logradouros públicos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-unico",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto neste artigo constituiinfração média, punível conforme o art. 52, inc. II, desta Lei Complementar,sendo as sanções aplicadas ao responsável pela obra, ao proprietário do imóvelou a quem tiver a posse desse.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-24",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 24.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os bares, as lanchonetes, as padarias, as confeitarias e outrosestabelecimentos de venda de alimentos para consumo imediato serão dota dos derecipientes para resíduos com capacidade suficiente para suprir a demandagerada, posicionados em locais visíveis e de fácil acesso ao público em geral.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-24/par-1",
+   "pai": "art-24",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os recipientes a que se refere o caput deste artigo conterãoletreiros de fácil leitura para o público em geral, com os dizeres resíduoreciclável e resíduo orgânico ou rejeito.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-24/par-2",
+   "pai": "art-24",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput deste artigo constituiinfração média, punível conforme o art. 52, inc. II, desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 25.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As áreas do passeio público fronteiriças ao local do exercício dasatividades comerciais deverão ser mantidas em permanente estado de limpezaconservação pelo responsável pelo estabelecimento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/par-unico",
+   "pai": "art-25",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto neste artigo constituiinfração média, punível conforme o art. 52, inc. II, desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 26.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nas feiras livres instaladas em logradouros públicos, em quehaja avenda de gêneros alimentícios, produtos hortifrutigranjeiros ou outros produtosde interesse do ponto de vista do abastecimento público, é obrigatória acolocação de recipientes de recolhimento de resíduos de, no mínimo, 40(quarenta) litros, posicionados em local visível e acessível ao público emgeral, em quantidade mínima de 2 (dois) recipientes por banca instalada,contendo letreiros de fácil leitura com os dizeres resíduo reciclável eresíduo orgânico ou rejeito.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/par-unico",
+   "pai": "art-26",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto neste artigo constituiinfração média, punível conforme o art. 52, inc. II, desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 27.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O comerciante – feirante, artesão, agricultor ou expositor –deverámanter permanentemente limpa a sua área de atuação, acondicionando corretamenteo produto da limpeza em sacos plásticos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27/par-1",
+   "pai": "art-27",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Imediatamente após o encerramento das atividades, deverá o comerciantefazer a limpeza de sua área de atuação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27/par-2",
+   "pai": "art-27",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto neste artigo constitui infração média,punível conforme o art. 52, inc. II, desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 28.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O comerciante deverá, obrigatoriamente, cadastrar-se no DMLU,contar da data de publicação desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/par-1",
+   "pai": "art-28",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para os efeitos deste artigo, o Executivo Municipal deverá adotar medidasque evitem múltiplo cadastramento para o mesmo fim.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/par-2",
+   "pai": "art-28",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput deste artigo constituiinfração leve, punível conforme o art. 52, inc. I, desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-29",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 29.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os responsáveis por circos, parques de diversões e similares,instalados em logradouros públicos, deverão manter limpa a sua área de atuação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-29/par-1",
+   "pai": "art-29",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É obrigatória a colocação de recipientes de recolhimento de resíduos, de60 (sessenta) litros, em local visível e acessível ao público, contendoletreiros de fácil leitura com os dizeres resíduo reciclável e resíduoorgânico ou rejeito.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-29/par-2",
+   "pai": "art-29",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput deste artigo constituiinfração média, punível conforme o art. 52, inc. II, desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-30",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 30.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os vendedores ambulantes detentores de licenciamento deestabelecimento nos logradouros públicos deverão, obrigatoriamente, cadastrar-seno DMLU, a contar da data de publicação desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-30/par-1",
+   "pai": "art-30",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para os efeitos deste artigo, o Executivo Municipal deverá adotar medidasque evitem múltiplo cadastramento para o mesmo fim.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-30/par-2",
+   "pai": "art-30",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput deste artigo constituiinfração leve, punível conforme o art. 52, inc. I, desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 31.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os veículos de qualquer espécie destinados à venda de alimentos deconsumo imediato deverão ter recipientes de resíduos neles fixados ou colocadosno solo, a seu lado, feitos de metal, plástico ou qualquer outro materialrígido, que tenham capacidade para comportar sacos de, no mínimo, 40 (quarenta)litros.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31/par-1",
+   "pai": "art-31",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os recipientes referidos no caput deste artigo deverão conterletreiro de fácil leitura para o público em geral com os dizeres resíduoreciclável e resíduo orgânico ou rejeito.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31/par-2",
+   "pai": "art-31",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput e no § 1º deste artigoconstitui infração leve, punível conforme o art. 52, inc. I, desta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 32.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os vendedores ambulantes deverão tomar medidas necessárias para quea área destinada a seu uso e proximidade seja mantida em estado permanentelimpeza e conservação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-1",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os resíduos resultantes destas atividades deverão ser dispostos pararecolhimento em sacos plásticos nos dias e nos horários em que a coleta regularna região é prestada, ou em contêineres nos locais em que a coleta é prestada deforma automatizada, observando o disposto no capítulo I desta Lei Complementar enas subseções II e III desta seção.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-2",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput e no § 1º deste artigoconstitui infração média, punível conforme o art. 52, inc. II, desta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 33.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O acondicionamento, a coleta, o transporte, o destino e adisposição final do resíduo sólido especial, quando não regulado em contrárionesta subseção, serão, obrigatoriamente, responsabilidade do gerador desseresíduo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-1",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O manejo de resíduos sólidos especiais deverá ser realizado por empresasdevidamente habilitadas para prestar tal serviço.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-2",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Não é permitida a apresentação de resíduo sólido especial para osserviços de coleta domiciliar regular e coleta seletiva.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-3",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Não é permitida a disposição de resíduos sólidos especiais em locais nãolicenciados para este fim.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-4",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Havendo a necessidade, por parte do Executivo Municipal, de açãocorretiva pelo não cumprimento das disposições contidas neste artigo, serácobrado do gerador do resíduo sólido especial o custo correspondente,independentemente das sanções legais cabíveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-5",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A coleta, o transporte e outros serviços relativos ao resíduo sólidoespecial podem ser realizados pelo Executivo Municipal, desde que solicitadopara tanto, sendo cobrados conforme tabela própria a ser regulamentada emlei,acrescidos da taxa de administração de 20% (vinte por cento) do preçoestipulado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "A coleta, o transporte e outros serviçosrelativos ao resíduo sólido especial podem ser realizados pelo ExecutivoMunicipal, desde que solicitado para tanto, sendo cobrados conforme tabelaprópria, a ser regulamentada em decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 753/2014"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-6",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto nos §§ 1º, 2º e 3º deste artigo constituiinfração gravíssima, punível conforme o art. 52, inc. IV, desta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-34",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 34.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O DMLU poderá oferecer alternativas para o recebimento de resíduossólidos especiais, com limitação de tipologia e volume, para o seu tratamento ousua disposição final adequados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-35",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 35.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O eventual inadimplemento das multas decorrentes de infraçãoaodisposto nesta subseção sujeitará o infrator ao cancelamento de seu cadastrojunto ao DMLU, resguardando-se o direito ao contraditório e à ampla defesa.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-36",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 36.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A logística reversa será a política prioritária de coleta dosresíduos sólidos especiais, de acordo com a Lei Federal nº 12.305, de 2 deagosto de 2010.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-36/par-unico",
+   "pai": "art-36",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Caberão ao Executivo, por meio do DMLU, os procedimentos eas metas da coleta.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-37",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 37.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os proprietários ou possuidores de terrenos baldios, edificados ounão, são obrigados a:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Dos Terrenos Baldios edos Passeios"
+    }
+   ]
+  },
+  {
+   "id": "art-37/inc-I",
+   "pai": "art-37",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "fechá-los de acordo com as normas estabelecidas em legislação específica;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-37/inc-II",
+   "pai": "art-37",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "guardá-los e fiscalizá-los, mantendo-os em perfeito estado de limpeza,evitando que sejam usados como depósito de resíduos de qualquer natureza;e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-37/inc-III",
+   "pai": "art-37",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "nos logradouros que possuam meio-fio, manter a área destinada a passeiopúblico constantemente em bom estado de conservação e limpeza, com a vegetaçãorasteira aparada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-37/par-1",
+   "pai": "art-37",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Constatada a não observância ao disposto neste artigo, o proprietárioserá notificado para proceder à regularização do apontado, dentro do prazo(quinze) dias, conforme o previsto no art. 49, inc. II, desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-37/par-2",
+   "pai": "art-37",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto nos incisos do caput deste artigoconstitui infração média, punível conforme o art. 52, inc. II, desta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-37/par-3",
+   "pai": "art-37",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No caso de comprovada impossibilidade de atendimento da regularizaçãodentro do prazo estipulado no § 1º deste artigo, o notificado poderá, no mesmoprazo previsto para a regularização, protocolar solicitação de ampliação deprazo, mediante requerimento escrito e fundamentado, o qual deverá ser dirigidoe submetido à apreciação da autoridade competente, que poderá autorizar suadilação em até o dobro.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-37/par-4",
+   "pai": "art-37",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de não atendimento ao disposto nos incs. II e III do caput deste artigo, os terrenos baldios, edificados ou não, serão limposcompulsoriamente pelo Executivo Municipal, ficando seus proprietários obrigadosao pagamento de taxa de limpeza, que será definida pelo DMLU.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-38",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 38.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica permitida, no passeio público, a colocação de suporte paraapresentação do resíduo sólido à coleta, desde que atendidas as seguintescondições:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "III",
+     "titulo": "Dos Suportes paraApresentação do Resíduo Sólido à Coleta"
+    }
+   ]
+  },
+  {
+   "id": "art-38/inc-I",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o resíduo sólido apresentado deverá estar, obrigatoriamente, acondicionado emsacos plásticos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-38/inc-II",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o suporte deverá possuir abertura pela face superior e dimensões que permitama fácil retirada do resíduo de seu interior, sem a necessidade de o coletorentrar naquele;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-38/inc-III",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "são obrigatórias a limpeza e a conservação do suporte pelo proprietário oupossuidor do imóvel em cujo alinhamento estiver instalado;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-38/inc-IV",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o suporte não poderá causar prejuízo ao livre trânsito de pedestres;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-38/inc-V",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o seu acesso não seja restrito com trancas, cadeados ou qualquer outroelemento; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-38/inc-VI",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o suporte deverá estar posicionado no alinhamento do imóvel gerador deresíduos sólidos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-38/par-unico",
+   "pai": "art-38",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto nos incs. I a VI do caputdeste artigo constitui infração média, punível conforme o art. 52, inc. II,desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-39",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 39.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os suportes considerados inservíveis, ou que não atendam àsdeterminações desta Lei Complementar, deverão ser consertados ou substituídospelo responsável, no prazo de 30 (trinta) dias subsequentes à sua notificação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-39/par-unico",
+   "pai": "art-39",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Transcorrido o prazo descrito no caput deste artigo,sem a adoção das providências necessárias pelo responsável, o DMLU providenciaráo recolhimento dos suportes inservíveis, sem que caiba qualquer espécie deindenização ao seu proprietário e sem prejuízo do estabelecido no parágrafoúnico do art. 38 desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-40",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 40.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A coleta de resíduos sólidos ou pastosos deverá ser realizadamodo que não provoque o seu derramamento no local de carregamento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "IV",
+     "titulo": "Da Coleta e doTransporte dos Resíduos Sólidos ou Pastosos"
+    }
+   ]
+  },
+  {
+   "id": "art-40/par-unico",
+   "pai": "art-40",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto neste artigo constituiinfração média, punível conforme o art. 52, inc. II, desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-41",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 41.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O transporte de resíduos sólidos ou pastosos deverá ser feitoconformidade com o que segue:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-41/inc-I",
+   "pai": "art-41",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os veículos transportadores de material a granel, como terra, resíduos deaterro, entulhos de construções ou demolições, areia, barro, cascalho, brita,escória, serragem e similares, deverão ser dotados de cobertura e sistemadeproteção que impeça o derramamento dos resíduos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-41/inc-II",
+   "pai": "art-41",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os veículos transportadores de resíduos pastosos, como argamassa ou concreto,deverão ter sua carroceria estanque de forma a não provocar derramamento noslogradouros públicos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-41/par-unico",
+   "pai": "art-41",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto nos incs. I e II do caputdeste artigo constitui infração média e grave, respectivamente, punívelconforme o art. 52, incs. II e III, desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-42",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 42.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No Município de Porto Alegre, a coleta automatizada de resíduossólidos ordinários domiciliares por contêineres será estendida aos bairrosmaior densidade populacional até o final de 2016 e a todos os demais bairros nosanos subsequentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-43",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 43.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A coleta seletiva de resíduos sólidos recicláveis poderá serrealizada por contêineres automatizados instalados junto aos contêineres deresíduos sólidos ordinários domiciliares.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-43/par-unico",
+   "pai": "art-43",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Caberá ao órgão responsável estabelecer prazo para essaadequação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 44.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São atos lesivos à limpeza urbana:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "V",
+     "titulo": "Dos Atos LesivosLimpeza Urbana"
+    }
+   ]
+  },
+  {
+   "id": "art-44/inc-I",
+   "pai": "art-44",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "depositar, lançar ou atirar, nos passeios ou nos logradouros públicos, papéis,invólucros, embalagens ou assemelhados que causem danos à conservação da limpezaurbana, constituindo infração leve, punível conforme o art. 52, inc. I, destaLei Complementar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/inc-II",
+   "pai": "art-44",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "realizar triagem ou catação no resíduo sólido disposto em logradourospúblicos, de qualquer objeto, material, resto ou sobra, seja qual for suaorigem, constituindo infração leve, punível conforme o art. 52, inc. I, destaLei Complementar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/inc-III",
+   "pai": "art-44",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "depositar, lançar ou atirar, em quaisquer áreas públicas ou terrenos,edificados ou não, de propriedade pública ou privada, resíduos sólidos dequalquer natureza em volume:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/inc-III/ali-a",
+   "pai": "art-44/inc-III",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "de até 100 (cem) litros, constituindo infração grave, punível conforme o52, inc. III, desta Lei Complementar; ou",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/inc-III/ali-b",
+   "pai": "art-44/inc-III",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "acima de 100 (cem) litros, constituindo infração gravíssima, punível conforme oart. 52, inc. IV, desta Lei Complementar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/inc-IV",
+   "pai": "art-44",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "reparar veículos ou qualquer tipo de equipamento em logradouros públicos,quando desta atividade resultar prejuízo à limpeza urbana, constituindo infraçãograve, punível conforme o art. 52, inc. III, desta Lei Complementar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/inc-V",
+   "pai": "art-44",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "descarregar ou vazar águas servidas de qualquer natureza em passeios oulogradouros públicos, constituindo infração média, punível conforme o art.inc. II, desta Lei Complementar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/inc-VI",
+   "pai": "art-44",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "assorear logradouros públicos em decorrência de decapagens, desmatamentos ouobras, constituindo infração gravíssima, punível conforme o art. 52, inc.IV,desta Lei Complementar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/inc-VII",
+   "pai": "art-44",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "depositar, lançar ou atirar em riachos, canais, arroios, córregos, lagos,lagoas e rios, ou às suas margens, resíduos de qualquer natureza que causemprejuízo à limpeza ou ao meio ambiente, constituindo infração gravíssima,punível conforme o art. 52, inc. IV, desta Lei Complementar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/inc-VIII",
+   "pai": "art-44",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "dispor materiais de qualquer natureza ou efetuar preparo de argamassasobre passeios ou pista de rolamento, constituindo infração média, punívelconforme o art. 52, inc. II, desta Lei Complementar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/inc-IX",
+   "pai": "art-44",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "fazer varredura do interior de prédios, terrenos ou calçadas para oslogradouros públicos, constituindo infração grave, punível conforme o art.inc. III, desta Lei Complementar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/inc-X",
+   "pai": "art-44",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "danificar equipamentos de coleta automatizada dispostos em logradouros,constituindo infração gravíssima, punível conforme o art. 52, inc. IV, desta LeiComplementar; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/inc-XI",
+   "pai": "art-44",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "depositar em passeios, vias ou logradouros públicos, riachos, canais, arroios,córregos, lagos, lagoas e rios ou em suas margens animais mortos ou partesdeles, constituindo infração média, punível conforme o art. 52, inc. II, destaLei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/par-1",
+   "pai": "art-44",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No caso do disposto no inc. II do caput deste artigo, osinfratores estarão sujeitos à apreensão do veículo ou equipamento usado paratransporte do material e à remoção do resíduo",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/par-2",
+   "pai": "art-44",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nos casos dos incs. I e III a XI do caput deste artigo, osinfratores ou seus mandantes estarão sujeitos a efetuar a remoção do materialdisposto, reparar danos causados ou indenizar o Município de Porto Alegrepelaexecução dos serviços, sem prejuízo das multas correspondentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/par-3",
+   "pai": "art-44",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Excetua-se ao disposto no inc. XI do caput deste artigo autilização de animais em cultos e liturgias de religiões de matriz africana e daumbanda.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/par-4",
+   "pai": "art-44",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Excetua-se ao disposto nos incs. I e VII do caput deste artigo a utilização de itens de oferenda conhecidos como ebós, como pipocas, balas sem papel, flores, bandejas de papelão, papel-celofane, papel de seda e, somente o líquido, cachaça e espumante, em cultos e liturgias de religiões de matriz africana e da umbanda.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 769/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/par-5",
+   "pai": "art-44",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Somente se enquadram nas exceções do § 4º deste artigo os itens de oferenda feitos com materiais biodegradáveis que não agridam ao ambiente e que utilizem materiais que, na sua decomposição, sejam absorvidos pela natureza ou que sirvam de alimentos a cães, gatos, pássaros, entre outros animais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 769/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-45",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 45.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Será atribuição da Guarda Municipal de Porto Alegre, a partiralteração do inc. XV do art. 2º da Lei nº 9.056, de 27 de dezembro de 2002, ealterações posteriores, e dos agentes de fiscalização do DMLU a emissão denotificações e autos de infração, bem como o estabelecimento de graduaçãodesanções, tendo em vista a gravidade das infrações e a reincidência dosinfratores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "VI",
+     "titulo": "Da Fiscalização"
+    }
+   ]
+  },
+  {
+   "id": "art-45/par-unico",
+   "pai": "art-45",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No exercício da atividade fiscalizatória, o agente defiscalização poderá fazer uso de quaisquer provas materiais, bem comoinformações oriundas de aparelhos eletrônicos, equipamentos de audiovisualoutros meios tecnologicamente disponíveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-46",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 46.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica o Executivo Municipal autorizado a firmar convênios comórgãospúblicos e entidades públicas, que visem a garantir a aplicação desta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-47",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 47.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para os fins desta Lei Complementar, considera-se infração anãoobservância ao disposto em normas legais, bem como em regulamentadoras ououtras, que, por qualquer forma, se destinem à promoção, à preservação, àrecuperação e à conservação da limpeza pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "VII",
+     "titulo": "Dos Procedimentos, dasInfrações e das Penalidades"
+    }
+   ]
+  },
+  {
+   "id": "art-48",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 48.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Responde pela infração quem, por ação ou omissão, lhe deu causa,concorreu para sua prática ou dela se beneficiou.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-49",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 49.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Notificação é o ato pelo qual se dá conhecimento à parte, porescrito, de providência ou medida que a ela incumbe realizar, podendo serprocedida pelo correio, por meio de carta registrada com aviso de recebimento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-49/par-unico",
+   "pai": "art-49",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na notificação, será informado o prazo para que onotificado tome as providências ou as medidas solicitadas em função da gravidadeda infração, sendo que:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-49/par-unico/inc-I",
+   "pai": "art-49/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na infração leve, 30 (trinta) dias;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-49/par-unico/inc-II",
+   "pai": "art-49/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na infração média, 15 (quinze) dias;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-49/par-unico/inc-III",
+   "pai": "art-49/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na infração grave, 10 (dez) dias; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-49/par-unico/inc-IV",
+   "pai": "art-49/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na infração gravíssima, 5 (cinco) dias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-50",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 50.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na hipótese de o infrator estar em lugar incerto ou não sabido, anotificação far-se-á por meio de publicação no Diário Oficial Eletrônico doMunicípio de Porto Alegre (DOPA-e), concedendo-se o prazo de 10 (dez) diaspartir desta para cumprimento da obrigação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-51",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 51.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "De acordo com a gravidade do fato ou persistindo a situaçãoproibida ou vedada por esta Lei Complementar, será lavrado o auto de infração, oqual deverá conter, obrigatoriamente:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-51/inc-I",
+   "pai": "art-51",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a qualificação do autuado;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-51/inc-II",
+   "pai": "art-51",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o local, a data e a hora da lavratura;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-51/inc-III",
+   "pai": "art-51",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a fiel descrição do fato infringente;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-51/inc-IV",
+   "pai": "art-51",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a capitulação legal e a penalidade aplicável;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-51/inc-V",
+   "pai": "art-51",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o prazo para que o infrator impugne a autuação e a legislação atinente;e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-51/inc-VI",
+   "pai": "art-51",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a assinatura do agente autuante, seu cargo e seu número de matrícula.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 52.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os valores das multas serão atribuídos em função da gravidadeinfração, definidos conforme os seguintes critérios:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-I",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "para a infração leve, multa de 90 (noventa) Unidades Financeiras Municipais (UFMs);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-II",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "para a infração média, multa de 180 (cento e oitenta) UFMs;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-III",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "para a infração grave, multa de 720 (setecentas e vinte) UFMs; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-IV",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "para a infração gravíssima, multa de 1.440 (um mil, quatrocentas e quarenta)UFMs.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/par-unico",
+   "pai": "art-52",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de reincidência, a multa será aplicada em dobro.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-53",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 53.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As multas aplicadas em decorrência da transgressão ao dispostonesta Lei Complementar deverão ser recolhidas em Documento de ArrecadaçãoMunicipal (DAM), específico para cada multa, nas instituições financeirasautorizadas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-54",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 54.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os valores não recolhidos pelas multas impostas e pelos preços deserviços prestados, esgotados os prazos administrativos, serão inscritos emdívida ativa, nos termos da legislação municipal atinente à matéria.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-55",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 55.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O pagamento da multa não exonera o infrator do cumprimento dasdisposições desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-55-B",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 55-B",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "A denúncia que fornecer informações e imagens que permitam a autuação do infrator e a aplicação da respectiva multa habilitará o denunciante a receber uma premiação correspondente a 20% (vinte por cento) do valor líquido da multa efetivamente arrecadada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.070/2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-55-B/par-1",
+   "pai": "art-55-B",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "O pagamento da premiação ocorrerá no prazo de 60 (sessenta) dias após o recolhimento do valor da multa paga pelo infrator.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.070/2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-55-B/par-2",
+   "pai": "art-55-B",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "As denúncias poderão ser realizadas por meio de aplicativo oficial da Prefeitura, plataforma eletrônica ou outros meios a serem regulamentados pelo Executivo Municipal, devendo ser garantido, caso solicitado, o sigilo da identidade do denunciante.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.070/2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-56",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 56.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os procedimentos e os prazos para a apresentação de defesas erecursos em face da lavratura de auto de infração por descumprimento ao dispostonesta Lei Complementar obedecerão ao rito processual estabelecido para asseguraro contraditório e a ampla defesa no processo administrativo destinado aconstituir dívida ativa não tributária, conforme legislação municipal atinente àmatéria.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "VIII",
+     "titulo": "Do Rito Processualpara Assegurar o Contraditório e a Ampla Defesa"
+    }
+   ]
+  },
+  {
+   "id": "art-57",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 57.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Executivo Municipal desenvolverá política visando a conscientizara população sobre a importância da preservação ambiental, em particular, emrelação à limpeza urbana e ao correto gerenciamento dos resíduos sólidos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "IX",
+     "titulo": "Da EducaçãoSocioambiental"
+    }
+   ]
+  },
+  {
+   "id": "art-57/par-1",
+   "pai": "art-57",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para cumprimento do disposto neste artigo, o Executivo Municipal deverá:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-57/par-1/inc-I",
+   "pai": "art-57/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "realizar regularmente processos educativos sobre o gerenciamento dos resíduossólidos, limpeza urbana e preservação ambiental;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-57/par-1/inc-II",
+   "pai": "art-57/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover processos educativos, utilizando-se de meios de comunicação demassa;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-57/par-1/inc-III",
+   "pai": "art-57/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "realizar palestras e visitas às escolas, promover mostras itinerantes,apresentar audiovisuais, editar folhetos e cartilhas explicativas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-57/par-1/inc-IV",
+   "pai": "art-57/par-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "desenvolver programas de informação, por meio de processos educativos, sobreresíduos recicláveis, resíduos orgânicos e rejeito;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-57/par-1/inc-V",
+   "pai": "art-57/par-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "celebrar convênios ou parcerias com entidades públicas ou particulares,objetivando a viabilização das disposições previstas nesta Seção; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-57/par-1/inc-VI",
+   "pai": "art-57/par-1",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "desenvolver programa de incentivo e capacitação para transformação de resíduosrecicláveis em objetos reutilizáveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-57/par-2",
+   "pai": "art-57",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Do resultado da cobrança das multas, 20% (vinte por cento) da receitaserão destinados às ações elencadas nos incs. III e IV do § 1º deste artigo,ressalvadas as matérias publicitárias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-58",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 58.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica proibido, em todo o território do Município de Porto Alegre, odepósito ou qualquer forma de disposição de resíduos que tenham sua origemutilização de energia nuclear e de resíduos radioativos, quando provenientes deoutros municípios, de qualquer parte do território nacional ou de outros países.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "X",
+     "titulo": "Das Normas Gerais"
+    }
+   ]
+  },
+  {
+   "id": "art-58/par-unico",
+   "pai": "art-58",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto neste artigo constituiinfração gravíssima,Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-59",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 59.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica proibido o uso de resíduos in natura para servircomoalimentação de suínos ou outros animais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-59/par-1",
+   "pai": "art-59",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Constatada a irregularidade, essa deverá ser comunicada aos órgãoscompetentes na área da saúde pública, para que sejam tomadas as providênciascabíveis, sem prejuízo da aplicação da multa prevista.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-59/par-2",
+   "pai": "art-59",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O resíduo orgânico proveniente de estabelecimentos de comércioalimentício e de fornecimento de alimentação deverá ser submetido à segregaçãona origem ou a tratamento para efeito de aproveitamento como ração animal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-59/par-3",
+   "pai": "art-59",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância ao disposto no caput e no § 2º deste artigoconstitui infração grave, punível conforme o art. 52, inc. III, desta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-60",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 60.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os veículos transportadores de resíduos a serviço do DMLU deverãoter estampados, destacadamente, identificação conforme disposições específicasdo órgão, para auxiliar na fiscalização direta a ser exercida pela população.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-61",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 61.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em locais previamente estabelecidos, o Executivo Municipaldisponibilizará à população contêineres para o recolhimento do materialproveniente de poda de galhos de árvores, móveis e eletrodomésticos descartadospela população.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 62.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Serão destinados 20% (vinte por cento) da receita decorrentedasmultas referidas nesta Lei Complementar à qualificação e à modernização dosespaços de triagem e reciclagem de resíduos sólidos recicláveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62/par-unico",
+   "pai": "art-62",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O disposto no caput deste artigo dar-se-áprioritariamente:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62/par-unico/inc-I",
+   "pai": "art-62/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na melhoria da infraestrutura dos galpões de triagem e reciclagem; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62/par-unico/inc-II",
+   "pai": "art-62/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na instalação de esteiras automatizadas para triagem e seleção dos resíduossólidos recicláveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-63",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 63.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Serão destinados 10% (dez por cento) da receita decorrente dasmultas aplicadas com base no art. 44 desta Lei Complementar à qualificaçãoservidores do DMLU, por meio de cursos de formação de educador ambiental.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-64",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 64.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As multas aplicadas a pessoas com renda inferior a 3 (três)salários mínimos poderão ser transformadas em trabalhos comunitários vinculadosà limpeza urbana do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-65",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 65.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Executivo Municipal poderá, atendendo ao interesse públicoe deacordo com a necessidade e a conveniência, mediante consulta popular, editaratos normativos que tratem dos serviços públicos de saneamento básico de limpezaurbana e manejo de resíduos sólidos urbanos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "III",
+     "titulo": "DISPOSIÇÕES FINAIS"
+    }
+   ]
+  },
+  {
+   "id": "art-65/par-unico",
+   "pai": "art-65",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Sempre que necessário, o regulamento poderá serreformulado, garantida a necessária divulgação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-66",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 66.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica o Executivo Municipal autorizado a contratar os serviçoscoleta seletiva de resíduos, destinação e separação por meio de convênio com ascooperativas de catadores e recicladores de resíduos sólidos e as associações decatadores e recicladores de resíduos sólidos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-67",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 67.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nos primeiros 30 (trinta) dias, contados da data de publicação dealteração desta Lei Complementar, cabe ao Poder Executivo dar ampla divulgaçãodessa alteração.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-68",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 68.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar deverá ser revisada em um prazo de 4 (quatro)anos, contados da data de sua publicação, ou em prazo inferior, conforme aimplementação do Plano Municipal de Gestão Integrada de Resíduos Sólidos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-69",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 69.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 70.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam revogadas:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70/inc-I",
+   "pai": "art-70",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Lei Complementar nº 234, de 10 de outubro de 1990;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70/inc-II",
+   "pai": "art-70",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Lei Complementar nº 274, de 25 de março de 1992;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70/inc-III",
+   "pai": "art-70",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Lei Complementar nº 376, de 3 de junho de 1996;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70/inc-IV",
+   "pai": "art-70",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Lei Complementar nº 377, de 3 de junho de 1996;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70/inc-V",
+   "pai": "art-70",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Lei Complementar nº 591, de 23 de abril de 2008; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70/inc-VI",
+   "pai": "art-70",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Lei Complementar nº 602, de 24 de novembro de 2008.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 40514,
+    "rotulo": "Lei Complementar municipal nº 790, de 10 de fevereiro de 2016"
+   },
+   "motivo": "comando_nao_reconhecido",
+   "detalhe": "nenhum comando de alteração foi extraído do texto desta norma",
+   "enderecos": []
+  },
+  {
+   "alteradora": {
+    "idSapl": 51213,
+    "rotulo": "Lei Complementar municipal nº 1.070, de 14 de abril de 2026"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.060, de 22 de dezembro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1060\",\"ano\":\"2025\",\"chave\":\"lc 1060/2025\"}, versão: lc 728/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.060, de 22 de dezembro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1060\",\"ano\":\"2025\",\"chave\":\"lc 1060/2025\"}, versão: lc 728/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.060, de 22 de dezembro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1060\",\"ano\":\"2025\",\"chave\":\"lc 1060/2025\"}, versão: lc 728/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.060, de 22 de dezembro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1060\",\"ano\":\"2025\",\"chave\":\"lc 1060/2025\"}, versão: lc 728/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.060, de 22 de dezembro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1060\",\"ano\":\"2025\",\"chave\":\"lc 1060/2025\"}, versão: lc 728/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.060, de 22 de dezembro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1060\",\"ano\":\"2025\",\"chave\":\"lc 1060/2025\"}, versão: lc 728/2014)",
+   "enderecos": [
+    "art-55-A",
+    "art-55-A/par-1",
+    "art-55-A/par-1/inc-I",
+    "art-55-A/par-1/inc-II",
+    "art-55-A/par-1/inc-III",
+    "art-55-A/par-2"
+   ]
+  }
+ ],
+ "aConferir": []
+}

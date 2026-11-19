@@ -1,0 +1,74 @@
+{
+ "idSapl": 38042,
+ "rotulo": "Lei Complementar municipal nº 689, de 15 de fevereiro de 2012",
+ "sha256Origem": "a35295a2170394a392f2da249e021ff6275b6bb31e238074bd5c6cb8dd483a5a",
+ "estruturadoEm": "2026-11-19T09:26:03.711Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "689",
+  "ano": "2012",
+  "data": "2012-02-15",
+  "epigrafe": "brasao.g",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "(2807 bytes) Prefeitura Municipal de Porto Alegre LEI COMPLEMENTAR Nº 689, DE 15 DE FEVEREIRO DE 2012. Altera o inc. IV do caput do art. 25 da Lei Complementar nº12, de 7 de janeiro de 1975 – que institui posturas para o Município dePorto Alegre e dá outras providências –, e alterações posteriores,estabelecendo como infração o não uso de fones de ouvido em caso deutilização de aparelho sonoro no interior de veículo de transporte coletivode passageiros, e institui campanha permanente de conscientização dapopulação. O PREFEITOMUNICIPAL DE PORTO ALEGRE Faço saberque a Câmara Municipal aprovou e eu, no uso das atribuições que me confereinciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte LeiComplementar:",
+ "preambulo": null,
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 15 de fevereirode2012.\nJosé Fortunati,\nPrefeito.\nVanderlei Luis Cappellari,\nSecretárioMunicipal dos Transportes.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão e Acompanhamento Estratégico.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o inc. IV do caput do art. 25 daComplementar nº 12, de 7 de janeiro de 1975, e alterações posteriores, conformesegue: “Art. 25........................................................................................................................................................................................."
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "não fazer uso de fones de ouvido em caso de utilizaçãode aparelho sonoro no interior de veículo de transporte           coletivo                 de             passageiros;Pena:                    multa de 16,63 a 83,15 UFMs..........................................................................................”(NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica instituída campanha permanente deconscientização da população sobre a necessidade de uso de fones de ouvidocaso de utilização de aparelhos sonoros no interior dos veículos de transportecoletivo de passageiros. Parágrafo único. Para os fins do disposto no caputdeste artigo, as concessionárias das linhas de transporte coletivo depassageiros deverão afixar cartazes educativos no interior dos veículos."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de suapublicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [
+   "possivel_dispositivo_embutido"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.984,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "I –",
+     "naOrigem": "IV"
+    }
+   ]
+  }
+ }
+}

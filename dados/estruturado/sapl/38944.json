@@ -1,0 +1,62 @@
+{
+ "idSapl": 38944,
+ "rotulo": "Lei Complementar municipal nº 715, de 02 de julho de 2013",
+ "sha256Origem": "8f3442ec3a94b3f1b44a9f7597e6884de6e5e6ab57926bbee0fd76093950f09d",
+ "estruturadoEm": "2026-11-19T09:26:03.526Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "715",
+  "ano": "2013",
+  "data": "2013-07-02",
+  "epigrafe": "brasao.gif Prefeitura Municipal de Porto",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "(2807 bytes) Alegre LEI COMPLEMENTAR Nº 715, DE 2 DE JULHO DE2013. Inclui inc. XVII, renomeia o parágrafo único para § 1ºeinclui § 2º no art. 71 e revoga o inc. IV do art. 21 na Lei Complementar nº7, de 7 de dezembro de 1973, que institui e disciplina os tributos decompetência do Município.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no usodasatribuições que me confere o inciso II do artigo 94 da Lei Orgânica doMunicípio, sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de julho de 2013.\nSebastião Melo,\nPrefeito, em exercício.\nVanderlei Luis Cappellari,\nSecretário Municipal de Transportes.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído inc. XVII, renomeado o parágrafoúnico para § 1º e incluído § 2º no art. 71 da Lei Complementar nº 7, de 7dedezembro de 1973, conforme segue:",
+   "blocoDeAlteracao": "“Art.71......................................................................................\n...................................................................................................\nXVII – serviço público de transporte coletivo por ônibus;\n§ 1º A isenção de que trata o inc. XVI do caput deste artigo depende de requerimentopor parte do empreiteiro\nprincipal e de prévio cadastramento da obra naSecretaria Municipal da Fazenda.\n§ 2º O disposto no inc. XVII do caput deste artigo vigorará até 31 dedezembro de 2016.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de suapublicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica revogado o inc. IV do caput do art. 21 da Lei Complementar nº 7,de 7 de dezembro de 1973."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.957,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

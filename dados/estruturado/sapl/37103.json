@@ -1,0 +1,93 @@
+{
+ "idSapl": 37103,
+ "rotulo": "Lei Complementar municipal nº 666, de 30 de dezembro de 2010",
+ "sha256Origem": "a3f5243f0fd0da4050f19a30c715b3ab6357bb01a6c6b0825d3a89e9fc8bfc94",
+ "estruturadoEm": "2026-11-19T09:26:03.814Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "666",
+  "ano": "2010",
+  "data": "2010-12-30",
+  "epigrafe": "LEI COMPLEMENTAR Nº 666, DE 30 DE DEZEMBRO DE 2010.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Define índices de aproveitamento para os terrenos nos quais se tenha a finalidade de implantar projetos de reformas ou ampliações de centros esportivos, clubes, equipamentos administrativos, hospitais, hotéis, apart-hotéis, centros de eventos, centros comerciais, shopping centers, escolas, universidades e igrejas e revoga o caput e os §§ 1º e 2º do art. 9º da Lei Complementar nº 610, de 13 de janeiro de 2009.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2010.\nJosé Fortunati, Prefeito.\nMárcio Bins Ely, Secretário do Planejamento Municipal.\nRegistre-se e publique-se.\nRoni Marques Corrêa, José Fortunati, Prefeito. Márcio Bins Ely, Secretário do Planejamento Municipal. Secretário Municipal de Gestão e Acompanhamento Estratégico, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam definidos os seguintes índices de aproveitamento para os terrenos nos quais se tenha a finalidade de implantar projetos de reformas, adequações ou ampliações de centros esportivos, clubes, equipamentos administrativos, hospitais, hotéis, apart-hotéis, centros de eventos, centros comerciais, shopping centers, escolas, universidades e igrejas, todos com pedidos de aprovação protocolados perante a Administração Municipal até 31 de dezembro de 2012,"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "1,5 (um vírgula cinco), quando localizados em Unidade de Estruturação Urbana (UEU) com o código de índice de aproveitamento 01, 02a e 02b do Anexo 6 da Lei Complementar nº 434, de 1º de dezembro de 1999, e alterações posteriores;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "2,0 (dois vírgula zero), quando localizados em UEU com o código de índice de aproveitamento 03, 04, 04a, 05, 06 e 21 do Anexo 6 da Lei Complementar nº 434, de 1999, e alterações posteriores; e"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "3,0 (três vírgula zero), quando localizados em UEU com o código de índice de aproveitamento 07, 09, 11, 13, 15, 17 e 19 do Anexo 6 da Lei Complementar nº 434, de 1999, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Os projetos de que trata este artigo serão aprovados sob a forma de Projeto Especial de Impacto Urbano, de acordo com o disposto na Lei Complementar nº 434, de 1999, e alterações posteriores, observando as mitigações legais, inclusive com a contemplação de demandas do Orçamento Participativo."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Serão consideradas áreas não adensáveis aquelas destinadas a equipamentos culturais como cinemas, teatros, auditórios, salões de convenções e assemelhados, na forma prevista na respectiva legislação."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Ficam revogados o caput e os §§ 1º e 2º do art. 9º da Lei Complementar nº 610, de 13 de janeiro de 2009."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 8,
+   "cobertura": 0.971,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

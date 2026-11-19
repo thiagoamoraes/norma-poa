@@ -1,0 +1,86 @@
+{
+ "idSapl": 40312,
+ "rotulo": "Lei Complementar municipal nº 778, de 28 de outubro de 2015",
+ "sha256Origem": "87e11c8d9e89d30dfbd29254c6737aaeff5804fdbd18c9996e7da6f55e399456",
+ "estruturadoEm": "2026-11-19T09:26:03.338Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "778",
+  "ano": "2015",
+  "data": "2015-10-28",
+  "epigrafe": "REPUBLICAÇÃO",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI COMPLEMENTAR Nº 778, DE 28 DE OUTUBRO DE 2015. Extingue a Subunidade 10 da Unidade de Estruturação Urbana (UEU) 10 da MZ 07, definida como AEIS I; altera os limites, os regimes urbanísticos e as subunidades 01 e 05 da UEU 10 da Macrozona (MZ) 7, revogando a Lei Complementar nº 621, de 23 de junho de 2009.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de outubro de 2015.\nJosé Fortunati,\nPrefeito.\nValter Nagelstein,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.\n2\n3",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica extinta a Subunidade 10 da Unidade de Estruturação Urbana (UEU) 10 da Macrozona (MZ) 07, definida como Área Especial de Interesse Social I (AEIS I)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam alterados os limites das Subunidades 01 e 05 da UEU 10 da MZ 7, conforme croqui anexo."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Nas Subunidades 01 e 05, com seus novos limites, serão observados os regimes urbanísticos já definidos para as respectivamente subunidades, a saber:"
+  },
+  {
+   "id": "art-2/par-unico/inc-I",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "Subunidade 01: Densidade Bruta: Código 03. Regime de atividade: Código 01. Índice de Aproveitamento: Código 03. Regime Volumétrico: Código 05."
+  },
+  {
+   "id": "art-2/par-unico/inc-II",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "Subunidade 05: Densidade Bruta: Código 25. Regime de atividade: Código 19.2. Índice de Aproveitamento: Código 25. Regime Volumétrico: Código 25."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica revogada a Lei Complementar nº 621, de 23 de junho de 2009."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 7,
+   "cobertura": 0.962,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

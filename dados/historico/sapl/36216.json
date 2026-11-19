@@ -1,0 +1,3000 @@
+{
+ "geradoEm": "2026-11-19T09:26:04.761Z",
+ "idSapl": 36216,
+ "rotulo": "Lei Complementar municipal nº 625, de 03 de julho de 2009",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 625/2009@2009-07-03",
+   "data": "2009-07-03",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 625/2009@2012-07-03",
+   "data": "2012-07-03",
+   "fonte": {
+    "idSapl": 38330,
+    "rotulo": "Lei Complementar municipal nº 700, de 03 de julho de 2012"
+   },
+   "comandosAplicados": 20
+  },
+  {
+   "indice": 2,
+   "id": "lc 625/2009@2015-07-08",
+   "data": "2015-07-08",
+   "fonte": {
+    "idSapl": 40111,
+    "rotulo": "Lei Complementar municipal nº 765, de 08 de julho de 2015"
+   },
+   "comandosAplicados": 30
+  },
+  {
+   "indice": 3,
+   "id": "lc 625/2009@2017-08-30",
+   "data": "2017-08-30",
+   "fonte": {
+    "idSapl": 41342,
+    "rotulo": "Lei Complementar municipal nº 817, de 30 de agosto de 2017"
+   },
+   "comandosAplicados": 14
+  },
+  {
+   "indice": 4,
+   "id": "lc 625/2009@2022-07-21",
+   "data": "2022-07-21",
+   "fonte": {
+    "idSapl": 44114,
+    "rotulo": "Lei Complementar municipal nº 947, de 21 de julho de 2022"
+   },
+   "comandosAplicados": 61
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica instituído, no Município de Porto Alegre, o Sistema de Con trole Interno do Poder Executivo Municipal, com atuação prévia, concomitante e posterior aos atos da Administração, nos termos do art. 31 da Constituição Fede ral e dos arts. 61 a 64 da Lei Orgânica do Município de Porto Alegre, visando ao controle e à fiscalização das contas públicas municipais, que serão exercidos com base nas escriturações e demonstrações contábeis, nos relatórios de execução e acompanhamento de projetos e atividades e em outros procedimentos e instru mentos estabelecidos nas normas pertinentes em vigor.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica instituído, no Municípiode Porto Alegre, o Sistema de Controle Interno dos poderes Executivo eLegislativo Municipal , com atuação prévia, concomitante e posterior aos atos daAdministração, nos termos do art. 31 da Constituição Federal e dos arts. 61 e 64da Lei Orgânica do Município de Porto Alegre – LOMPA –, visando ao controle e àfiscalização das contas públicas municipais, que serão exercidos com basenasescriturações e nas demonstrações contábeis, nos relatórios de execução eacompanhamento de projetos e atividades e em outros procedimentos e instrumentosestabelecidos nas normas pertinentes em vigor.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "Fica instituído, no Município de Porto Alegre, o Sistema de Controle Interno do Executivo e do Legislativo Municipal, com atuação prévia, concomitante e posterior aos atos da Administração, nos termos do art. 31 da Constituição Federal e dos arts. 61 e 64 da Lei Orgânica do Município de Porto Alegre (LOMPA).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Integram o Sistema de Controle Interno do Poder Executivo Municipal e a ele se submetem todos os órgãos, as entidades e os agentes públicos da Administração Pública Municipal, Direta e Indireta, doravante referida apenas como Administração.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A sistematização do controle interno, na forma estabelecida nesta Lei Complementar, integra os controles existentes e os que venham a ser criados no âmbito da Administração, não eliminando nem prejudicando o controle administrativo hierárquico inerente a cada chefia, que deve ser exercido em todos os níveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para fins desta Lei Complementar, considera-se:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Controle Interno o conjunto de recursos, métodos e processos adotados com a finalidade de comprovar atos e fatos, impedir erros e fraudes e otimizar a eficiência da Administração, bem como garantir, em seu âmbito, o respeito aos princípios da legalidade, moralidade, publicidade e impessoalidade;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "Controle Interno (CI) o conjunto de recursos, métodos e processos adotados pelas próprias gerências do setor público, com vistas a impedir o erro, a fraude e a ineficiência, visando a dar atendimento aos princípios constitucionais, em especial os da legalidade, impessoalidade, moralidade, publicidade e eficiência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Sistema de Controle Interno o conjunto das atividades de controle exercidas pelos diversos setores e unidades técnicas da Administração, organiza dos e articulados a partir da Controladoria-Geral do Município e orientados para o desempenho das atribuições de controle interno;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "Sistema de Controle Interno (SCI) o conjunto de unidades técnicas, articuladas a partir de um órgão central de coordenação, orientadas para o desempenho das atribuições de controle interno previstas na Constituição e normatizadas em cada nível de governo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Contabilidade a ciência aplicada que se exprime por meio de apreensão, qualificação, registro e relato de atos e fatos da Administração que resultem ou possam resultar no aumento ou na diminuição da situação patrimonial, orçamentária e financeira, ou na alteração qualitativa dos elementos patrimoniais, consubstanciada na escrituração do livro diário e do livro-razão e na elaboração de balanços, balancetes e demais demonstrações contábeis, além de outras informações e relatórios pertinentes; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "Unidade Central de Controle Interno (UCCI) o órgão central responsável pela coordenação das atividades do SCI; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Auditoria a técnica de revisão e controle, realizada consoante normas e procedimentos de auditoria, que compreende exame detalhado, total, parcial ou pontual dos atos administrativos e fatos contábeis, com a finalidade de identificar se as operações foram realizadas de maneira apropriada e registradas de acordo com as orientações e normas legais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "Auditoria Interna (AI) a técnica de controle interno, a ser utilizada pela UCCI para verificar a ocorrência de erros, fraudes e desperdícios, abarcando o exame detalhado, total ou parcial, dos atos administrativos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica criada como Órgão Central do Sistema de Controle Interno do Poder Executivo Municipal a Controladoria-Geral do Município de Porto Alegre– CGM –, órgão vinculado à Secretaria Municipal da Fazenda – SMF –, com atribuições de coordenar, fiscalizar e avaliar as atividades de controle interno da Ad ministração.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica criada como Órgão Centraldo Sistema de Controle Interno dos poderes Executivo e Legislativo Municipal aControladoria-Geral do Município de Porto Alegre (CGM), órgão vinculado àSecretaria Municipal da Fazenda (SMF), com atribuições de coordenar, fiscalizare avaliar as atividades de controle interno da Administração.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "O Quadro dos Cargos de Provimento Efetivo é estruturado nos grupos a seguir, conforme a natureza das respectivas atribuições, destinadas a atender às atividades essenciais e gerais necessárias à consecução dos fins da Administração Centralizada:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "Fica criada, como Órgão Central do SCI do Executivo e do Legislativo Municipal, a Controladoria-Geral do Município de Porto Alegre (CGM), órgão vinculado à Secretaria Municipal da Transparência e Controladoria (SMTC), com atribuições de coordenar, fiscalizar e avaliar as atividades de controle interno da Administração Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-1",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A CGM se constituirá como órgão dotado de independência técnica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-2",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As atividades de controle estão sujeitas à orientação normativa e à supervisão técnica do órgão central do Sistema de Controle Interno, sem prejuízo da subordinação aos órgãos a cuja estrutura estiverem vinculados hierarquicamente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-3",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A CGM manifestar-se-á mediante informações, instruções, relatórios, inclusive de gestão fiscal, auditorias, inspeções, pareceres e outros pronunciamentos voltados a identificar e a sanar as possíveis irregularidades e a colaborar na obtenção de desempenhos mais eficientes na aplicação dos recursos públicos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-4",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os relatórios emitidos pela Coordenação de Auditoria-Geral ficarão arquivados em suas dependências e terão obrigatoriamente cópias destinadas:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Os relatórios emitidos pelaUnidade de Auditoria-Geral ficarão arquivados em suas dependências e terãoobrigatoriamente cópias destinadas:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "Os relatórios emitidos pela Divisão de Auditoria-Geral ficarão arquivados em suas dependências e terão obrigatoriamente cópias destinadas:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "Os relatórios emitidos pela Divisão de Auditoria-Geral ficarão armazenados eletronicamente e serão obrigatoriamente destinados:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-4/inc-I",
+   "pai": "art-4/par-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ao Prefeito Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-4/inc-II",
+   "pai": "art-4/par-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "à autoridade responsável pelo órgão ou a entidades controladas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-4/inc-III",
+   "pai": "art-4/par-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ao Secretário Municipal da Fazenda; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-4/inc-IV",
+   "pai": "art-4/par-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "à Procuradoria Geral do Município – PGM –, em caso de procedimentos especiais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-5",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica autorizada a organização, por meio de decreto, de Unidades Seccionais da CGM, estruturas responsáveis pela execução de ações setoriais do Sistema de Controle Interno, integradas por servidores da CGM, subordinados técnica e administrativamente ao Gabinete do Controlador-Geral.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica autorizada a organização, pormeio de decreto, de Equipes Seccionais da CGM, estruturas responsáveis pelaexecução de ações setoriais do Sistema de Controle Interno, integradas porservidores da CGM, subordinados técnica e administrativamente ao GabinetedoControlador-Geral.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "Fica autorizada a organização, por meio de decreto, de unidades seccionais ou especializadas da CGM, estruturas responsáveis pela execução de ações setoriais ou especializadas do SCI, integradas por servidores da CGM, subordinados técnica e administrativamente ao Gabinete do Controlador-Geral.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "AA – Grupo Apoio à Administração;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    },
+    {
+     "desde": 3,
+     "texto": "da SMDSE:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "OP – Grupo Operacional;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II/ali-e",
+   "pai": "art-4/inc-II",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "promover o desenvolvimento urbano envolvendo o controle e o uso do solo, a viabilidade e o impacto de obras e empreendimentos, a aplicação dos instrumentos de regulação do uso do solo e o licenciamento, a manutenção e a vistoria dos projetos de edificação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "AC – Grupo Atividades Complementares;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III/ali-f",
+   "pai": "art-4/inc-III",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "promover o planejamento urbano, a elaboração e a atualização do Plano Diretor de Desenvolvimento Urbano Ambiental, bem como a fiscalização da correta aplicação da legislação urbano-ambiental; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III/ali-g",
+   "pai": "art-4/inc-III",
+   "tipo": "alinea",
+   "rotulo": "g)",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "promover o planejamento da política de resíduos sólidos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "CO – Grupo Comunicação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    },
+    {
+     "desde": 3,
+     "texto": "da SMSUrb:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV/ali-a",
+   "pai": "art-4/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "formular, planejar, coordenar, articular e controlar a política de prestação de serviços urbanos, limpeza urbana e coleta de resíduos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV/ali-b",
+   "pai": "art-4/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "manter a coleta e o tratamento de esgoto; 2",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV/ali-c",
+   "pai": "art-4/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "prover a iluminação pública e manter e conservar as redes de águas pluviais; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV/ali-d",
+   "pai": "art-4/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "conservar e manter praças, jardins e balneários e promover o manejo, a poda e a supressão de arbóreos em vias urbanas, em coordenação com a Smams, obedecida a legislação ambiental;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "LC – Grupo Lazer e Cultura;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-V/ali-a",
+   "pai": "art-4/inc-V",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "formular, planejar, coordenar, articular e controlar as políticas voltadas para as atividades relativas ao projeto e à execução de obras públicas municipais, incluindo sistema viário, edificações e obras relacionadas ao abastecimento de água, esgotamento sanitário e manejo de águas pluviais urbanas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-V/ali-c",
+   "pai": "art-4/inc-V",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "formular, planejar, coordenar, articular e prover a conservação de vias urbanas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "FV – Grupo Fiscalização e Vigilância;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VI/ali-e",
+   "pai": "art-4/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "gerir o patrimônio imobiliário e mobiliário do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "OB – Grupo Obras;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VIII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "SA – Grupo Saúde e Assistência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VIII/ali-e",
+   "pai": "art-4/inc-VIII",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "incrementar o Sistema de Controle Interno dos Poderes Executivo e Legislativo Municipais e implementá-lo por meio do órgão próprio de controladoria-geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IX",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "TP – Grupo Técnico-Profissional;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IX/ali-d",
+   "pai": "art-4/inc-IX",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "gerir os processos vinculados ao ciclo anual de operação do Orçamento Participativo e a outras formas de democracia participativa local e a relação com os Conselhos Municipais e de governança local, por meio da identificação de demandas da sociedade, e desenvolver, implementar e supervisionar projetos locais e territoriais, por meio dos canais de atendimento e dos Centros de Relações Institucionais Participativos (CRIPs) do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-X",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "ES – Grupo Executivo e Assessoramento Superior;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "ESM – Grupo Especialidade Médica; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "AT – Grupo Administração Tributária.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-6",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 6º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "A autoridade responsável pelo órgão auditado deverá informar as providências adotadas ou a serem adotadas para atender às recomendações dos relatórios de auditoria, no prazo de 30 (trinta) dias, contados da data do recebimento, prorrogável por, no máximo, igual período, mediante solicitação prévia fundamentada pela autoridade responsável.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-7",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 7º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "A CGM poderá estabelecer prazos entre 10 (dez) e 180 (cento e oitenta) dias, prorrogáveis por, no máximo, igual período, mediante solicitação prévia fundamentada pela autoridade responsável, para o cumprimento de suas recomendações, decididos conforme a extensão das ações necessárias à resolução das inconformidades identificadas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A CGM tem como finalidade a execução das atividades de con trole interno no âmbito da Administração, alicerçada nas normas técnicas, nas tarefas de elaboração e consolidação das demonstrações contábeis, na realiza ção de auditorias, no acompanhamento e na elaboração dos relatórios e das pres tações de contas de gestão fiscal e do exercício, bem como em relatórios de natu reza gerencial, cabendo-lhe, essencialmente:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "Compete à CGM:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "coordenar, acompanhar, avaliar e fiscalizar as atividades de controle interno no âmbito do Município de Porto Alegre e recomendar medidas voltadas ao seu aperfeiçoamento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-II",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "subsidiar propostas de diretrizes, normas e procedimentos, visando à padronização e à normatização em sua área de atuação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-III",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover a prestação de contas da Administração na forma e nos prazos estabelecidos pela legislação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "avaliar o cumprimento das metas previstas no plano plurianual dos programas de governo e dos orçamentos do Município;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-IV",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "garantir a boa gestão dos recursos financeiros, visando ao equilíbrio das contas públicas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-V",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "gerenciar o fluxo de caixa da Administração Pública Direta do Poder Executivo Municipal, recebendo valores, efetuando pagamentos e guardando va lores e títulos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-VI",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "controlar a execução orçamentária e extraorçamentária no âmbito da Administração;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "coordenar e executar a comprovação da legalidade e a avaliação dos resultados quanto à eficácia e eficiência da gestão contábil, orçamentária, financeira e patrimonial nos órgãos e nas entidades da Administração Municipal, bem como da aplicação de recursos públicos por entidades de direito privado;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-VII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "efetuar os registros contábeis dos atos e fatos administrativos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "monitorar a execução extraorçamentária no âmbito da Administração Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-VIII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "coordenar a normatização e a orientação das questões contábeis;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "verificar atos da gestão administrativa e de pessoal, incluídos os de admissão;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-IX",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover a consolidação das prestações de contas da Administra ção;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "desenvolver ações de gerenciamento, de forma a propor ações e projetos para a formação dos servidores e a melhoria dos processos organizacionais, na perspectiva de seu melhor desempenho e qualidade;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-X",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "desenvolver ações de gerenciamento, de forma a propor ações e projetos para a formação dos servidores e a melhoria dos processos organizacionais, na perspectiva de seu melhor desempenho e qualidade;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "instaurar e acompanhar as tomadas de contas especiais, quando o dano for ocasionado por omissão ou ato praticado pelo administrador, na forma da legislação em vigor, elaborando, nessa hipótese, o parecer conclusivo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-XI",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "executar, por meio da coordenação de auditoria, trabalhos especiais solicitados pelas autoridades municipais; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "executar, por meio da Divisão de Auditoria-Geral, auditorias especiais solicitadas pelas autoridades municipais; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "coordenar e executar as atividades administrativas relacionadas às suas unidades vinculadas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-XII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "exercer outras competências inerentes à sua área de atuação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "coordenar e executar a auditoria interna preventiva e de controle dos órgãos e das entidades da Administração Direta e Indireta do Município e do Legislativo Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-XIII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "coordenar as atividades de atendimento, recepção, encaminhamento de resposta às demandas do Tribunal de Contas do Estado do Rio Grande do Sul (TCE/RS) relativas a questionários, solicitações de informações, comunicados de auditoria, requisições de documentos e informações, bem como outras demandas não relacionadas a processos instaurados pelo órgão de controle externo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-XIV",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "prestar assessoramento para o desenvolvimento de mecanismos de prevenção à corrupção;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-XV",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "XV –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "realizar ou apoiar estudos e trabalhos técnicos que contribuam para a promoção da ética e para o fortalecimento da integridade, da transparência e do controle social na Administração Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-XVI",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "XVI –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "prestar assessoramento ao Prefeito nas matérias de sua competência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-XVII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "XVII –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "apoiar o controle externo no exercício de sua missão constitucional; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-XVIII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "XVIII –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "exercer outras competências inerentes à sua área de atuação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-unico",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "O responsável pela CGM dará ciência aos respectivos administradores e ao TCE/RS das irregularidades ou ilegalidades constatadas no curso da fiscalização interna, nos termos do disposto no § 1º do art. 74 da Constituição Federal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Compõem a estrutura básica da CGM:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-I",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Gabinete do Controlador-Geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-II",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Conselho Superior;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-III",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Coordenação de Contabilidade-Geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Unidade de Contabilidade-Geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "Divisão de Contabilidade-Geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-IV",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Coordenação de Auditoria-Geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Unidade de Auditoria-Geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "Divisão de Auditoria-Geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-V",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Coordenação de Informações Legais e Gerenciais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Unidade de Informações LegaisGerenciais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "Divisão de Informações Legais e Gerenciais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-VI",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Coordenação de Normas Técnicas e Orientação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Unidade de Normas Técnicas eOrientação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "Divisão de Despesa Pública;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-VII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Coordenação de Gestão Financeira; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Unidade de Gestão Financeira; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-VIII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Coordenação de Despesa Pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Unidade de Despesa Pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-unico",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A regulamentação da estrutura e do funcionamento dos Órgãos previstos neste artigo será fixada por decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º-A",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Compõem a estrutura básica da CGM:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6-A/inc-I",
+   "pai": "art-6-A",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "o Gabinete do Controlador-Geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6-A/inc-II",
+   "pai": "art-6-A",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "o Conselho Superior;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6-A/inc-III",
+   "pai": "art-6-A",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "a Divisão de Controle e Monitoramento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6-A/inc-IV",
+   "pai": "art-6-A",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "a Divisão de Auditoria-Geral; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6-A/inc-V",
+   "pai": "art-6-A",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "a Divisão de Despesa Pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ao Gabinete do Controlador-Geral compete a coordenação geral das atividades exercidas pelas Coordenações referidas nos incs. III a VIII do art. 6º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Ao Gabinete doControlador-Geral compete a coordenaçãogeral das atividades exercidas pelasUnidades referidas nos incs. III a VIII do art. 6º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "Ao Gabinete do Controlador-Geral compete a coordenação geral das atividades exercidas pelas Divisões referidas nos incisos III a VI do caput do art. 6º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "Ao Gabinete do Controlador-Geral compete a coordenação geral das atividades exercidas pelas divisões referidas nos incs. III a V do caput do art. 6º-A desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ao Conselho Superior compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "analisar obrigatoriamente e emitir parecer sobre as matérias de maior complexidade;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-II",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pronunciar-se sobre procedimentos, normas e resoluções deferidas pelo Controlador-Geral e solicitadas por esse;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-III",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "revisar pronunciamentos divergentes sobre a mesma matéria, com a finalidade de assegurar a unidade na orientação técnica e jurídica da CGM;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-IV",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "examinar matérias, quando solicitado por no mínimo 3 (três) membros do Conselho; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-V",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "elaborar seu Regimento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "À Coordenação de Contabilidade-Geral compete a execução da contabilidade e o controle da Dívida Pública dos órgãos da Administração, com exceção das empresas estatais, tendo por objetivo principal a uniformidade de procedimentos visando à consolidação das demonstrações contábeis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "À Unidade deContabilidade-Geral competem a execução da contabilidade e o controle da DívidaPública dos órgãos da Administração, com exceção das empresas estatais, tendopor objetivo principal a uniformidade de procedimentos visando à consolidaçãodas demonstrações contábeis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "À Divisão de Contabilidade-Geral competem: 25",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "À Divisão de Controle e Monitoramento compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-I",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a execução da contabilidade e o registro da dívida pública da Administração, com exceção das empresas estatais, tendo por objetivo principal a uniformidade de procedimentos visando à consolidação das demonstrações contábeis; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "monitorar os atos de gestão e de despesa pública das sociedades de economia mista e de empresa pública do Executivo Municipal, bem como do Legislativo Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-II",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a coordenação das Seccionais de Contabilidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "monitorar os atos de gestão das autarquias e da fundação de direito público do Executivo Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-III",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "emitir orientações e recomendações de natureza técnica acerca dos atos de gestão, visando à efetividade, à eficácia, à eficiência e à economicidade desses atos, das autarquias, da fundação de direito público, das sociedades de economia mista e de empresa pública do Executivo Municipal, bem como do Legislativo Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-IV",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "executar o monitoramento das recomendações emitidas aos gestores das autarquias, da fundação de direito público, das sociedades de economia mista e de empresa pública do Executivo Municipal, bem como do Legislativo Municipal; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-V",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "coordenar as Seccionais de Controle e Monitoramento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "À Coordenação de Auditoria-Geral compete a fiscalização e a avaliação dos controles internos nos órgãos da Administração.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "À Unidade de Auditoria-Geralcompetem a fiscalização e a avaliação dos controles internos nos órgãos daAdministração, inclusive a Controladoria-Geral do Município de Porto Alegre (CGM),ficando garantidas as prerrogativas do art. 20 desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "À Divisão de Auditoria-Geral competem a fiscalização e a avaliação dos controles internos da Administração, inclusive na própria CGM, ficando garantidas as prerrogativas do art. 20 desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "À Coordenação de Informações Legais e Gerenciais compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "À Unidade de InformaçõesLegais e Gerenciais compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "À Divisão de Informações Legais e Gerenciais compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-I",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "fornecer informações contábeis, legais e gerenciais que auxiliem na tomada de decisão dos gestores públicos e na eficácia da utilização dos recursos aplicados; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-II",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "atender às exigências de órgãos externos e da própria Administra ção.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "À Coordenação de Normas Técnicas e Orientação compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "À Unidade de Normas Técnicase Orientação compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/inc-I",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "elaborar e submeter ao Controlador-Geral normas, rotinas e procedi mentos a serem implementados;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/inc-II",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "auxiliar nos projetos de implantação e manutenção dos diversos sis temas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/inc-III",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "elaborar normas e manuais necessários à padronização de procedi mentos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/inc-IV",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "prestar orientações técnicas no âmbito da Administração e do Poder Legislativo Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "À Coordenação de Gestão Financeira compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-I",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "gerir o fluxo de caixa da Administração Pública Direta;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-II",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "efetivar os pagamentos da Administração Pública Direta; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-III",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "acompanhar a gestão financeira dos fundos municipais, das autarquias e da fundação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "À Coordenação de Despesa Pública compete coordenar, orien tar e controlar as atividades de execução orçamentária e extraorçamentária da Administração Direta, das autarquias e da fundação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "À Unidade de Despesa Públicacompete coordenar, orientar e controlar as atividades de execução orçamentária eextraorçamentária da Administração Direta, das autarquias e da fundação edoPoder Legislativo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "À Divisão de Despesa Pública compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14/inc-I",
+   "pai": "art-14",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "controlar e orientar as atividades de execução da despesa orçamentária e extraorçamentária da Administração Direta, das autarquias, da fundação de direito público e do Legislativo Municipal; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "controlar e orientar as atividades de execução da despesa orçamentária e extraorçamentária da Administração Direta, das autarquias e da fundação de direito público do Executivo Municipal, e do Legislativo Municipal; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14/inc-II",
+   "pai": "art-14",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "coordenar as Seccionais de Controle da Despesa Pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "coordenar as Equipes de Análise da Despesa Pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O detalhamento e a definição das atribuições relativas à estru tura prevista no art. 6º desta Lei Complementar, bem como a lotação das funções gratificadas vinculadas à CGM, já existentes ou criadas em lei específica, serão objeto de regulamentação por decreto, conforme o prazo estabelecido no art. 23 desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "O detalhamento e a definição das atribuições relativas à estrutura prevista no art. 6º-A desta Lei Complementar, bem como a lotação das funções gratificadas vinculadas à CGM, serão objeto de regulamentação por decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os integrantes do Sistema de Controle Interno do Poder Execu tivo Municipal deverão apoiar o Órgão de Controle Externo no exercício de sua missão institucional, competindo à CGM coordenar, fiscalizar e avaliar a presta ção desse apoio.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16/par-unico",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O apoio ao Controle Externo, sem prejuízo do dispos to em legislação específica, consistirá em manter à disposição desse as informa ções colhidas no exercício de sua atividade, bem como produzir aquelas solicita das especificamente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Controlador-Geral será designado pelo Prefeito, mediante indicação do Secretário Municipal da Fazenda.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-unico",
+   "pai": "art-17",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O indicado a Controlador-Geral deverá satisfazer as seguintes condições para a assunção do cargo:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "O mandato do Controlador-Geral será de até 3 (três) anos, permitida uma recondução por igual período.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-unico/inc-I",
+   "pai": "art-17/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ser servidor municipal ocupante de cargo efetivo, com no mínimo 5 (cinco) anos no cargo de Contador;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "ser servidor municipal ocupante de cargo efetivo com, no mínimo, 3 (três) anos no cargo de auditor de controle interno e ter concluído o estágio probatório;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-unico/inc-II",
+   "pai": "art-17/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "possuir registro ativo no Conselho Regional de Contabilidade do Rio Grande do Sul, na categoria de Contador;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "apresentar, na designação e anualmente, declaração de bens e rendas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-unico/inc-III",
+   "pai": "art-17/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "apresentar declaração atual de bens e evolução patrimonial nos últimos 3 (três) exercícios; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "não ter sofrido penalização administrativa, civil ou penal transitada em julgado nos 5 (cinco) anos anteriores; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-unico/inc-IV",
+   "pai": "art-17/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "possuir formação em nível de pós-graduação, em matéria pertinente à contabilidade pública, controladoria ou administração pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "possuir formação, em nível de pós-graduação, em matéria pertinente a contabilidade pública, controladoria ou administração pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Conselho Superior será integrado pelos servidores ocupantes das chefias das Coordenações da CGM e presidido pelo Controlador-Geral.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "O Conselho Superior seráintegrado pelos servidores ocupantes das chefias das Unidades da CGM e presididopelo Controlador-Geral.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "O Conselho Superior será integrado pelos servidores ocupantes das direções das Divisões da CGM e pelo controlador-geral adjunto e presidido pelo controlador-geral.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São condições para a assunção da função de Coordenador:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "São condições para a assunçãoda função de Chefe de Unidade:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "É condição para a assunção da função de Controlador-Geral Adjunto ou Diretor de Divisão possuir o cargo de Auditor de Controle Interno.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "possuir obrigatoriamente cargo de Contador para as Coordenações de Contabilidade-Geral, Auditoria-Geral, Informações Legais e Gerenciais, Normas Técnicas e Orientação e Despesa Pública; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "possuir obrigatoriamente cargo deContador para as Unidades de Contabilidade-Geral, Auditoria-Geral, InformaçõesLegais e Gerenciais, Normas Técnicas e Orientação e Despesa Pública; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-II",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "possuir obrigatoriamente cargo de Administrador, Economista ou Contador para a Coordenação de Gestão Financeira.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "possuir obrigatoriamente cargo deAdministrador, Economista ou Contador para a Unidade de Gestão Financeira.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 700/2012"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica garantido aos Servidores integrantes da CGM:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/inc-I",
+   "pai": "art-20",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "independência técnica e profissional para o desempenho das funções relacionadas ao controle interno; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/inc-II",
+   "pai": "art-20",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "no desempenho de suas atividades, o acesso a quaisquer documentos, processos, livros, registros, informações ou bancos de dados necessários ao exercício das funções.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "no desempenho de suas atividades, o acesso a quaisquer documentos, processos, livros, registros, informações ou bancos de dados e sistemas informatizados necessários ao exercício das funções.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/par-unico",
+   "pai": "art-20",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Sem prejuízo de outros impedimentos previstos na legislação, é vedado ao servidor lotado na CGM violar o sigilo sobre dados e informações obtidas em função do desempenho de suas atividades.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O agente público que, por ação ou omissão, causar embaraço, constrangimento ou obstáculo à atuação da CGM no desempenho de suas funções institucionais ficará sujeito à responsabilização administrativa, nos termos da Lei Complementar nº 133, de 31 de dezembro de 1985, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/par-1",
+   "pai": "art-21",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Serão configuradas como situações que geram obstáculo à atuação a sonegação de documentos, de processos, de livros, de registros e de informações e a negação de acesso aos bancos de dados e aos sistemas informatizados municipais, bem como qualquer ocorrência de ameaça, velada ou explícita, de intimidação ou indisposição aos servidores da CGM no exercício de suas funções institucionais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/par-2",
+   "pai": "art-21",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Eventuais limitações de acesso e ocorrências listadas no § 1º deste artigo deverão ser comunicadas, de imediato e por escrito, ao Controlador-Geral do Município, para promover as providências cabíveis e, nos casos graves, para encaminhar o registro dos fatos à autoridade máxima municipal e aos órgãos públicos internos e externos competentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica o Executivo Municipal autorizado a abrir créditos especiais, bem como créditos adicionais necessários à aplicação desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Poder Executivo Municipal regulamentará esta Lei Complementar no prazo de 90 (noventa) dias, a contar da data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "O Executivo Municipal regulamentará, por meio de Regimento Interno, o detalhamento das atividades a serem desempenhadas pelas unidades da CGM.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23-A",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "A CGM fica autorizada a estabelecer, por meio de instrução normativa:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23-A/inc-I",
+   "pai": "art-23-A",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "os prazos a serem cumpridos pelos órgãos e pelas entidades auditados internamente para resposta aos esclarecimentos solicitados, aos relatórios por ela elaborados e a outros meios de documentos expedidos, assim como para a adoção das medidas corretivas demandadas, desde que não contrariem o disposto nos §§ 6º e 7º do art. 4º desta Lei Complementar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23-A/inc-II",
+   "pai": "art-23-A",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "os procedimentos para instauração de tomadas de contas especiais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23-A/inc-III",
+   "pai": "art-23-A",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "as normas e os procedimentos para empenho e liquidação da despesa orçamentária;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23-A/inc-IV",
+   "pai": "art-23-A",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "as normas e os procedimentos para a aprovação de despesas extraorçamentárias;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23-A/inc-V",
+   "pai": "art-23-A",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "as normas e os procedimentos de concessão, aplicação e prestação de contas de adiantamento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23-A/inc-VI",
+   "pai": "art-23-A",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "as normas e os procedimentos para a prestação de contas anuais do Prefeito, dos gestores da Administração Indireta e do Presidente da Câmara Municipal; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23-A/inc-VII",
+   "pai": "art-23-A",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "outros procedimentos que visem a padronizar ou a aperfeiçoar fluxos e controles internos do Município.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 947/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-24",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 24.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 38330,
+    "rotulo": "Lei Complementar municipal nº 700, de 03 de julho de 2012"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
+  },
+  {
+   "alteradora": {
+    "idSapl": 40111,
+    "rotulo": "Lei Complementar municipal nº 765, de 08 de julho de 2015"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "endereço-pai \"parágrafo único do art. 4º\" não encontrado — não é possível inserir \"inc. xii do parágrafo único do art. 4º\" | artigo-base \"art. 39º\" não encontrado — não é possível posicionar \"art. 39\" | endereço-pai \"parágrafo único do inc. i do parágrafo único do art. 17\" não encontrado — não é possível inserir \"inc. i do parágrafo único do inc. i do parágrafo único do art. 17\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 534, de 28 de dezembro de 2005\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"534\",\"ano\":\"2005\",\"chave\":\"lc 534/2005\"}, versão: lc 625/2009)",
+   "enderecos": [
+    "art-4/par-unico/inc-XII",
+    "art-39",
+    "art-17/par-unico/inc-I/par-unico/inc-I",
+    "art-20/par-4"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 41342,
+    "rotulo": "Lei Complementar municipal nº 817, de 30 de agosto de 2017"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 4 de janeiro de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 4 de janeiro de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | endereço-pai \"§ 4º do inc. iii do § 4º do art. 4º\" não encontrado — não é possível inserir \"inc. iii do § 4º do inc. iii do § 4º do art. 4º\"",
+   "enderecos": [
+    "art-3/inc-I",
+    "art-3/inc-VIII",
+    "art-4/par-4/inc-III/par-4/inc-III"
+   ]
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-3/inc-I",
+   "desde": "2017-08-30"
+  }
+ ]
+}

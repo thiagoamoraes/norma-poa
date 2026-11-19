@@ -1,0 +1,61 @@
+{
+ "idSapl": 39227,
+ "rotulo": "Lei Complementar municipal nº 730, de 10 de janeiro de 2014",
+ "sha256Origem": "8ebdd7aac96793b119f2e6f9ec42223dae702cdbb53db96623edb0361a7e8c64",
+ "estruturadoEm": "2026-11-19T09:26:03.481Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "brasao.gif Prefeitura Municipal de Porto",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "(2807 bytes) Alegre LEI COMPLEMENTAR730, DE 10 DE JANEIRO DE 2014. Altera a ementa e o parágrafo únicodo art. 1º da Lei Complementar nº 560, de 3 de janeiro de 2007, incluindoageração de energia elétrica fotovoltaica dentre os objetivos do Programa deIncentivos ao Uso de Energia Solar nas Edificações. OPREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições queconfere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono aseguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de janeiro de 2014.\nJosé Fortunati,\nPrefeito.\nJosé Aquiles Susin,\nSecretário Municipal de Urbanismo, em exercício.\nRegistre-se epublique-se.\nUrbano Schmitt,\nSecretário Municipalde Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei Complementar nº 560, de 3 de janeirode 2007, conforme segue: “Institui, no Município de Porto Alegre, o Programa de Incentivos ao Uso deEnergia Solar nas Edificações.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o parágrafo único do art. 1º da Lei Complementar560, de 2007, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º.....................................................................................\nParágrafo único.Constituem objetivos do Programa instituído no caput deste artigo:\nI– a promoção de medidas necessárias ao fomento do uso e ao desenvolvimentotecnológico de\nsistemas de aproveitamento de energia solar para o aquecimento deágua em imóveis e para a\ngeração de energia elétrica fotovoltaica; e\nII– a conscientização da população sobre os benefícios da energia solar.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

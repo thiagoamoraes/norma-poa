@@ -1,0 +1,68 @@
+{
+ "idSapl": 35333,
+ "rotulo": "Lei Complementar municipal nº 587, de 22 de janeiro de 2008",
+ "sha256Origem": "3b2b431c76bac47c4c7fdc215df7cfdf0271e3e95a884915db60a72b23251833",
+ "estruturadoEm": "2026-11-19T09:26:04.083Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "587",
+  "ano": "2008",
+  "data": "2008-01-22",
+  "epigrafe": "LEI COMPLEMENTAR Nº 587, de 22 de janeiro de 2008.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o parágrafo único do art. 7º e os arts. 10 e 11 da Lei Complementar nº 447, de 10 de maio de 2000 – que dispõe sobre o Sistema Municipal de Turismo, a estrutura e funcionamento do Conselho Municipal de Turismo e cria o Fundo Municipal de Turismo e dá outras providências –, transferindo da Secretaria Municipal da Produção, Indústria e Comércio (SMIC) à Secretaria Municipal de Turismo (SMTUR) a intermediação no suporte administrativo e financeiro ao Conselho Municipal de Turismo, a responsabilidade pelo Fundo Municipal de Fomento ao Turismo e a participação na composição da Junta Administrativa desse Fundo.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de janeiro de 2008.\nEliseu Santos,\nPrefeito, em exercício.\nLuiz Fernando Moraes,\nSecretário Municipal de Turismo.\nRegistre-se e publique-se.\nClóvis Magalhães,\nSecretário Municipal de Gestão e Acompanhamento Estratégico.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o parágrafo único do art. 7º da Lei Complementar nº 447, de 10 de outubro de 2000, que passa a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "“Art. 7º ...\n...\nParágrafo único. O Município de Porto Alegre, por intermédio da Secretaria Municipal de Turismo (SMTUR), dará suporte administrativo e financeiro ao\nConselho Municipal de Turismo, utilizando-se, para tanto, de servidores, espaço\nfísico e recursos destinados para tal fim.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o art. 10 da Lei Complementar nº 447, de 2000, que passa a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "“Art. 10. O Fundo Municipal de Fomento ao Turismo é de responsabilidade da SMTUR e será administrado por uma Junta Administrativa.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica alterado o art. 11 da Lei Complementar nº 447, de 2000, que passa a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "“Art. 11. A Junta Administrativa será composta pelo Presidente do Conselho Municipal de Turismo ou seu representante, pelo Secretário Municipal de\nTurismo ou seu representante e por 03 (três) membros da SMTUR.\nParágrafo único. O Secretário Municipal de Turismo ou seu representante será o Presidente da Junta Administrativa.” (NR)"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 3,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

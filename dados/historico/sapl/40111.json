@@ -1,0 +1,6258 @@
+{
+ "geradoEm": "2026-11-19T09:26:05.110Z",
+ "idSapl": 40111,
+ "rotulo": "Lei Complementar municipal nº 765, de 08 de julho de 2015",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 765/2015@2015-07-08",
+   "data": "2015-07-08",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 765/2015@2020-03-06",
+   "data": "2020-03-06",
+   "fonte": {
+    "idSapl": 42468,
+    "rotulo": "Lei Complementar municipal nº 877, de 06 de março de 2020"
+   },
+   "comandosAplicados": 2
+  },
+  {
+   "indice": 2,
+   "id": "lc 765/2015@2023-09-21",
+   "data": "2023-09-21",
+   "fonte": {
+    "idSapl": 47236,
+    "rotulo": "Lei Complementar municipal nº 986, de 21 de setembro de 2023"
+   },
+   "comandosAplicados": 7
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica criado o Tesouro Municipal, órgão vinculado à Secretaria Municipal da Fazenda (SMF) e responsável pela gestão e pela ex ecução da administração financeira municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Do Tesouro Municipal"
+    },
+    {
+     "tipo": "subsecao",
+     "numero": "I",
+     "titulo": "Do Tesouro Municipal"
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Tesouro Municipal constituir-se-á como órgão dotado de independência técnica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São funções institucionais do Tesouro Municipal:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "O valor da GPrev corresponderá ao percentual de alcance de metas quadrimestrais de resultado, cujos critérios de aferição serão estabelecidos por decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 877/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "planejar, organizar, dirigir e executar as diretrizes da política 2 financeira do Município de Porto Alegre no âmbito de sua competência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estabelecer, supervisionar, redefinir e acompanhar a programação financeira e o cronograma de execução mensal de desembolso da ação da despesa orçamentária;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "acompanhar a execução orçamentária mediante suficiência financeira dos recursos vinculados e pelo estabelecimento de metas fiscais para receita e agregados de despesa;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "propor e acompanhar o cumprimento da meta anual de resultado orçamentário;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "propor, redefinir e acompanhar a execução de ações de monitoramento do exercício financeiro e orçamentário, observando a suficiência dos recursos orçamentários vinculados e das metas fiscais estabelecidas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-VI",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "manifestar-se em propostas que impliquem impacto orçamentário, econômico ou financeiro relevante nas contas do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-VII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "planejar, organizar, dirigir e executar o fluxo financeiro do Município de Porto Alegre e o pagamento de despesas públicas, bem como administrar os ingressos e as disponibilidades do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-VIII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "gerenciar o Sistema Financeiro de Administração Centralizada (Sifac), do Executivo Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-IX",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "monitorar o Sistema de Arrecadação das Receitas Municipais (Sarem);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-X",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "planejar e administrar a dívida pública municipal, bem como propor o estabelecimento de normas específicas relativas às operações de crédito contratadas pelos órgãos e pelas entidades da Administração Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XI",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "acompanhar, avaliar e elaborar propostas para solução de passivos contingentes e dívidas com precatórios;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "supervisionar a gestão financeira das entidades da Administração Indireta, bem como prestar assessoramento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XIII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover os encontros de contas entre os débitos e os créditos, no âmbito da Administração Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XIV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "acompanhar as participações societárias do Município de 3 Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "prospectar oportunidades e efetivar operações de captação de recursos financeiros;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XVI",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XVI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "propor estudos e emitir pareceres sobre propostas de alienação de valores mobiliários e outros ativos financeiros de propriedade do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XVII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XVII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "propor limites globais para a despesa pública, compatíveis com as estimativas da receita municipal, a serem observadas na elaboração orçamentária;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XVIII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XVIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "monitorar as despesas previdenciárias e avaliar seu impacto na condução da política fiscal de longo prazo e da necessidade de financiamento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XIX",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XIX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "editar atos normativos em matéria financeira;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XX",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "avaliar, propor, implantar e acompanhar medidas concernentes à qualificação e à eficiência do gasto público;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XXI",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XXI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "sugerir os limites e os parâmetros econômico-financeiros a serem observados na elaboração do projeto de lei de diretrizes orçamentárias e do projeto de lei do orçamento anual;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XXII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XXII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "exercer o acompanhamento das receitas orçamentárias e extraorçamentárias, no âmbito de sua competência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XXIII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XXIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "exercer a coordenação e a guarda dos valores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XXIV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XXIV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "exercer as atividades relacionadas aos sistemas no âmbito de sua competência, atuando, de forma integrada, com a Superintendência da Tecnologia da Informação (STI);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-XXV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "XXV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "prestar apoio técnico ao órgão de defesa judicial do Município de Porto Alegre no âmbito de sua competência.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inciso-sem-rotulo",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "26 –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover estudos e propor o aperfeiçoamento da legislação na sua área de competência; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 0,
+     "texto": "participar de órgãos colegiados de coordenação financeira de abrangência municipal, nacional e internacional e de conselhos municipais. 4",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "promover estudos e propor o aperfeiçoamento da legislação na sua área de competência; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "participar de órgãos colegiados de coordenação financeira de abrangência municipal, nacional e internacional e de conselhos municipais. 4",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "promover estudos e propor o aperfeiçoamento da legislação na sua área de competência; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "participar de órgãos colegiados de coordenação financeira de abrangência municipal, nacional e internacional e de conselhos municipais. 4",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Tesouro Municipal será dirigido pelo superintendente do Tesouro Municipal, sendo requisitos indispensáveis:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "II",
+     "titulo": "Do Superintendente do Tesouro Municipal"
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "nível superior; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "experiência em assuntos compatíveis com o cargo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O superintendente do Tesouro Municipal tomará posse em sessão pública perante seus pares.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-2",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Integra o Gabinete do Superintendente do Tesouro Municipal o superintendente-adjunto do Tesouro Municipal, o qual auxiliará o superintendente do Tesouro Municipal nas funções de administração e de desenvolvimento institucional.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ao superintendente do Tesouro Municipal compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "dirigir o Tesouro Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "propor ao Secretário Municipal da Fazenda a estrutura básica do órgão e suas alterações;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "expedir atos normativos no âmbito de sua competência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "formular, gerir e acompanhar as diretrizes da política financeira do Município de Porto Alegre no âmbito de sua competência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "coordenar a Junta Financeira, no âmbito da SMF;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "apresentar relatório anual das atividades ao Secretário Municipal da Fazenda; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "outras atribuições que lhe forem conferidas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Tesouro Municipal terá uma organização básica que contemple a atividade de administração financeira municipal, com a seguinte estrutura organizacional: 5",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "III",
+     "titulo": "Da Organização do Tesouro Municipal"
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Gabinete do Superintendente do Tesouro Municipal; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-II",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "órgãos de execução, os quais apresentam competências de coordenação, administração e integração, segmentadas em razão da especialização da matéria.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-unico",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O detalhamento da estrutura e a competência dos respectivos órgãos serão fixados em Decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ao Gabinete do Superintendente do Tesouro Municipal compete a coordenação geral das atividades exercidas pelos órgãos de execução referidos no inc. II d o caput do art. 5º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam criados, no Quadro dos Cargos em Comissão e Funções Gratificadas, constante da letra c do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "IV",
+     "titulo": "Das Disposições Gerais"
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-I",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) cargo em comissão de Superintendente do Tesouro Municipal, código 1.1.2.7;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-II",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Superintendente-Adjunto do Tesouro Municipal, código 1.1.1.6;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-III",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "2 (dois) cargos em comissão de Diretor de Divisão, código 1.1.2.6;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-IV",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Diretor de Divisão, código 1.1.1.6;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-V",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Assistente, código 2.1.1.5; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-VI",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "3 (três) funções gratificadas de Responsável por Atividades, código 1.1.1.3.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-unico",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A relotação das funções gratificadas vinculadas à Controladoria-Geral do Município (CGM), ao Gabinete do Secretário (GS) e à Área de Atendimento (ATM) e a alteração de denominações básicas, já existentes ou criadas em Lei específica, serão objeto de regulamentação por Decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam extintos, no Quadro dos Cargos em Comissão e Funções Gratificadas, constante da letra c do Anexo I da Lei nº 6.309, de 1988, e 6 alterações posteriores:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) cargo em comissão de Assessor Técnico, código 2.1.2.7, lotado na Assessoria de Relacionamento Externo/GS, da SMF;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-II",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) cargo em comissão de Chefe de Unidade, código 1.1.2.6, lotado na Unidade de Atendimento/ATM, da SMF; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-III",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Chefe de Unidade, código 1.1.1.6, lotada na Unidade de Gestão Financeira/CGM, da SMF.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO. .",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica criada a Superintendência da Tecnologia da Informação (STI), órgão vinculado à SMF.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Da Superintendência da Tecnologia da Informação"
+    },
+    {
+     "tipo": "subsecao",
+     "numero": "I",
+     "titulo": "Do Órgão da Superintendência da Tecnologia da Informação"
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São funções institucionais da STI:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-I",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "gerir as atividades e os projetos relacionados com a área de informática, atendidas as orientações da SMF;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-II",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "planejar, controlar e estabelecer as políticas de Tecnologia da Informação para a SMF;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-III",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "identificar inovações referentes à Tecnologia da Informação e Comunicação (TIC), estabelecendo diretrizes e elaborando propostas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-IV",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estabelecer metas e indicadores de desempenho a serem atingidos pela STI;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-V",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "administrar os sistemas de informação de competência da SMF de forma integrada com a Companhia de Processamento de Dados do Município de Porto Alegre (Procempa);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-VI",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "exercer o acompanhamento, a fiscalização e o gerenciamento dos contratos com fornecedores internos e externos, definindo a aplicação de sanções e penalidades em caso de descumprimento, conforme previsto na Lei 7 Federal nº 8.666, de 21 de junho de 1993 – Lei de Licitações –, e alterações posteriores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-VII",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "assessorar as demais áreas da SMF na gestão dos sistemas informatizados, exercendo outras atribuições congêneres e não conflitantes com as atribuições de outros órgãos da SMF;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-VIII",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "planejar, controlar e gerir a política de acesso aos sistemas de competência da SMF;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-IX",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "acompanhar o desempenho dos sistemas da SMF; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-X",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "gerir o escritório de projetos da SMF.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A STI será dirigida pelo superintendente da tecnologia da informação, sendo requisitos indispensáveis:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "II",
+     "titulo": "Do Superintendente da Tecnologia da Informação"
+    }
+   ]
+  },
+  {
+   "id": "art-12/inc-I",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "nível superior; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/inc-II",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "experiência em assuntos compatíveis com o cargo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/par-unico",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O superintendente da STI tomará posse em sessão pública perante seus pares.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ao superintendente da STI compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-I",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "dirigir a STI;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-II",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "propor ao Secretário Municipal da Fazenda a estrutura básica do órgão e suas alterações;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-III",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "expedir atos normativos no âmbito de sua competência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-IV",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "integrar comissões, comitês, grupos ou conselhos municipais que envolvam a política de tecnologia da informação e comunicação no âmbito do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-V",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "formular, gerir e acompanhar as diretrizes da política de tecnologia da informação e comunicação da SMF; 8",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-VI",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "apresentar relatório anual das atividades ao Secretário Municipal da Fazenda; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-VII",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "outras atribuições que lhe forem conferidas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A STI terá uma organização básica que contemple a atividade de administração da tecnologia da informação e comunicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "III",
+     "titulo": "Da Organização da Superintendência da Tecnologia da Informação"
+    }
+   ]
+  },
+  {
+   "id": "art-14/par-unico",
+   "pai": "art-14",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O detalhamento da estrutura e a competência dos respectivos órgãos serão fixados em decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam criados, no Quadro dos Cargos em Comissão e Funções Gratificadas, constante da letra c do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "IV",
+     "titulo": "Das Disposições Gerais"
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-I",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) cargo em comissão de Superintendente de Tecnologia da Informação, código 1.1.2.7;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-II",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) cargo em comissão de Diretor de Divisão, código 1.1.2.6;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-III",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "2 (duas) funções gratificadas de Diretor de Divisão, código 1.1.1.6;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-IV",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "3 (três) funções gratificadas de Assistente, código 2.1.1.5; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-V",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Responsável por Atividades, código 1.1.1.3.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam ex tintos, no Quadro dos Cargos em Comissão e Funções Gratificadas, constante da letra c do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16/inc-I",
+   "pai": "art-16",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) cargo em comissão de Assessor Especialista, código 2.1.2.6, lotado no Gabinete do Secretário, da SMF; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16/inc-II",
+   "pai": "art-16",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Auxiliar Técnico, código 2.1.1.3, lotada na Assessoria de Informática, do Gabinete do Secretário, da SMF. 9",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Seção, fundamentada nos incs. XVIII e XXII do art. 37 da Constituição Federal de 1988, dispõe sobre normas gerais de organização da administração tributária do Município de Porto Alegre e compreende:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "III",
+     "titulo": "Da Receita Municipal"
+    },
+    {
+     "tipo": "subsecao",
+     "numero": "I",
+     "titulo": "Da Receita Municipal"
+    }
+   ]
+  },
+  {
+   "id": "art-17/inc-I",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "caracterização, essencialidade, competências, prerrogativas e composição básica do órgão executivo; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/inc-II",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "finalidades, princípios, diretrizes e estruturação da administração tributária do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-unico",
+   "pai": "art-17",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A administração tributária municipal é composta pelos cargos de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-unico/inc-I",
+   "pai": "art-17/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Auditor-Fiscal da Receita Municipal; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-unico/inc-II",
+   "pai": "art-17/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Exator da Receita Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica criada a Receita Municipal, órgão de gestão e execução da administração tributária municipal, vinculado à SMF e dotado de independência técnica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18/par-unico",
+   "pai": "art-18",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Receita Municipal, instituição permanente vinculada ao interesse público como atividade essencial ao funcionamento do Estado, será organizada sob a forma de sistema.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São funções institucionais da Receita Municipal:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "planejar, organizar, dirigir, controlar e executar:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I/ali-a",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "as atividades de fiscalização e de imposição tributária;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I/ali-b",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a arrecadação das receitas municipais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I/ali-c",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a inscrição em dívida ativa e a cobrança administrativa dos créditos tributários e dos créditos não tributários; 10",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I/ali-d",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "as atividades relacionadas aos sistemas no âmbito de sua competência, atuando de forma integrada com a STI;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I/ali-e",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os programas de promoção e de educação tributárias, podendo, inclusive, formar parcerias com outras entidades da administração pública e da sociedade civil; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I/ali-f",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "as atividades setoriais de administração tributária municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-II",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "expedir, quando for sua atribuição, ou propor a expedição de atos normativos e elaborar e propor anteprojetos de lei e regulamentos que versem sobre as matérias de sua competência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-III",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "preparar os processos administrativo-tributários de contencioso fiscal, inclusive nos casos de pedidos de reconhecimento de imunidade, de não incidência e de isenção, e os pedidos de restituição de qualquer receita tributária de competência do Município de Porto Alegre, bem como decidir sobre esses processos, em primeira instância;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-IV",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "prestar assessoramento na formulação da política econômicotributária, inclusive em relação a benefícios fiscais e incentivos financeiros e fiscais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-V",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "decidir sobre o cancelamento ou qualquer outra forma de extinção de crédito tributário e de crédito não tributário, conforme estabelece a legislação própria;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-VI",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "dar solução a consultas relativas à matéria tributária;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-VII",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "divulgar a legislação tributária e orientar os sujeitos passivos quanto à correta aplicação dessa legislação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-VIII",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "exercer o acompanhamento e o controle das transferências intergovernamentais, no âmbito de sua competência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-IX",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "participar de órgãos colegiados de coordenação tributária de abrangência regional ou nacional, ressalvados os de competência exclusiva do Secretário Municipal da Fazenda;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-X",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "analisar e coletar as informações indispensáveis à participação do Município de Porto Alegre no produto da arrecadação dos tributos, nos termos previstos em Lei; 11",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-XI",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "efetuar a estimativa do valor dos bens, inclusive a contraditória, para fins de apuração da base de cálculo dos tributos municipais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-XII",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover estudos e propor medidas de aperfeiçoamento e regulamentação da legislação tributária municipal, bem como efetuar sua consolidação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-XIII",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "preparar informações a serem prestadas em mandado de segurança impetrado contra ato de autoridade em exercício na SMF, relativamente aos tributos municipais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-XIV",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "prestar apoio técnico ao órgão de defesa judicial do Município de Porto Alegre, bem como aos demais órgãos e aos Poderes do Município de Porto Alegre, inclusive prestando assistência técnica em perícias judiciais relacionadas com matéria de sua competência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-XV",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "XV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "prestar assessoramento à Administração Indireta no âmbito de sua competência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-XVI",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "XVI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "executar os procedimentos de formação e instrução de auto de notícia-crime, quando houver indício de prática de crime contra a ordem tributária;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-XVII",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "XVII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "prestar assessoramento nas proposições de convênios, a serem firmados com pessoas jurídicas de direito público ou de direito privado, de acordo com a competência definida nas normas vigentes;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-XVIII",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "XVIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "realizar auditorias nos agentes arrecadadores, cartórios de registros de imóveis e tabelionatos, e em outras pessoas ligadas direta ou indiretamente à obrigação tributária, nas atividades que envolvam a administração tributária municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-XIX",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "XIX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "decidir sobre pedidos de moratória e de parcelamento de créditos tributários e de créditos não tributários; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-XX",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "XX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "exercer outras atribuições ou outros encargos que lhe sejam correlatos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Receita Municipal será dirigida pelo superintendente da Receita Municipal, designado pelo Prefeito, mediante indicação do Secretário 12 Municipal da Fazenda, escolhido entre os auditores-fiscais da Receita Municipal ativos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "II",
+     "titulo": "Do Superintendente da Receita Municipal"
+    }
+   ]
+  },
+  {
+   "id": "art-20/par-1",
+   "pai": "art-20",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para a escolha referida no caput deste artigo, serão aferidos os critérios de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/par-1/inc-I",
+   "pai": "art-20/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "conhecimento técnico;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/par-1/inc-II",
+   "pai": "art-20/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "capacidade de liderança;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/par-1/inc-III",
+   "pai": "art-20/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "competência em administrar; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/par-1/inc-IV",
+   "pai": "art-20/par-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "experiência na gestão de pessoas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/par-2",
+   "pai": "art-20",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O superintendente da Receita Municipal tomará posse em sessão pública, perante seus pares.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ao superintendente da Receita Municipal compete, além de outras atribuições que lhe forem conferidas:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/inc-I",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "dirigir a Receita Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/inc-II",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "propor ao Secretário Municipal da Fazenda a estrutura básica do órgão e suas alterações;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/inc-III",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "apresentar relatório anual das atividades ao Secretário Municipal da Fazenda;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/inc-IV",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "elaborar o Demonstrativo de Desonerações Fiscais, documento integrante da proposta do orçamento anual;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/inc-V",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pronunciar-se sobre as proposições de alteração na legislação tributária municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/inc-VI",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "celebrar, no âmbito de sua competência, ajustes, protocolos e outros acordos com órgãos e entidades da Administração Municipal, Estadual, Federal e entidades de direito público ou privado, para permuta de informações, racionalização de atividades e realização de operações conjuntas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/inc-VII",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "indicar representantes em órgão colegiado de julgamento de recursos tributários;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/inc-VIII",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "representar a SMF junto a outros órgãos da Administração Tributária Federal, Estadual e Municipal, na sua área de competência; e 13",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/inc-IX",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "expedir os atos normativos no âmbito de sua competência.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O titular da Receita Municipal, em caso de ausência ou impedimento temporário, será substituído pelo superintendente-adjunto da Receita Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/par-unico",
+   "pai": "art-22",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O superintendente-adjunto da Receita Municipal será um auditor-fiscal da Receita Municipal, sendo a sua indicação feita pelo superintendente da Receita Municipal, com suas atribuições definidas em Decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Receita Municipal terá uma organização básica que contemple as atividades de fiscalização, contencioso administrativo, arrecadação, normatização, atendimento, educação tributária e cobrança, com a seguinte estrutura organizacional:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "III",
+     "titulo": "Da Organização da Receita Municipal"
+    }
+   ]
+  },
+  {
+   "id": "art-23/inc-I",
+   "pai": "art-23",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Gabinete do Superintendente da Receita Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/inc-II",
+   "pai": "art-23",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "órgãos de assessoria; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/inc-III",
+   "pai": "art-23",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "órgãos de execução.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-1",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O detalhamento da estrutura e a competência dos respectivos órgãos serão fixados em Decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-2",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São vinculados à Receita Municipal os ocupantes efetivos dos cargos de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-2/inc-I",
+   "pai": "art-23/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Auditor-Fiscal da Receita Municipal; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-2/inc-II",
+   "pai": "art-23/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Exator da Receita Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-24",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 24.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Integra o Gabinete do Superintendente da Receita Municipal o superintendente-adjunto da Receita Municipal, o qual auxiliará o superintendente da Receita Municipal nas funções de administração e de desenvolvimento institucional. 14",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 25.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam criadas, no Quadro dos Cargos em Comissão e Funções Gratificadas, constante da letra c do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "IV",
+     "titulo": "Das Disposições Gerais"
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-I",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Superintendente da Receita Municipal, código 1.1.1.7;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-II",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Superintendente-Adjunto da Receita Municipal, código 1.1.1.6;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-III",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "5 (cinco) funções gratificadas de Diretor de Divisão da Receita Municipal, código 1.1.1.6;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-IV",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "2 (duas) funções gratificadas de Assessor da Receita Municipal, código 2.1.1.6;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-V",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "7 (sete) funções gratificadas de Assessor de Divisão da Receita Municipal, código 2.1.1.4;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-VI",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "12 (doze) funções gratificadas de Coordenador da Receita Municipal, código 1.1.1.5;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-VII",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "18 (dezoito) funções gratificadas de Supervisor da Receita Municipal, código 1.1.1.3; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/inc-VIII",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "8 (oito) funções gratificadas de Auxiliar Técnico da Receita Municipal, código 2.1.1.3.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 26.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam ex tintas, no Quadro dos Cargos em Comissão e Funções Gratificadas, constante da letra c do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-I",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Gestor B, código 1.1.1.7, lotada na Célula de Gestão Tributária (CGT);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-II",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Assistente Técnico, código 2.1.1.6, lotada na Assessoria de Planejamento e Projetos (APP), da CGT;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-III",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "2 (duas) funções gratificadas de Auxiliar Técnico, código 2.1.1.3, lotadas na APP, da CGT;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-IV",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Assistente Técnico, código 2.1.1.6, lotada na Assessoria de Tecnologia de Informação (ATI), da CGT; 15",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-V",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratifica de Chefe de Unidade, código 1.1.1.6, lotada na Unidade de Arrecadação (UAR), da CGT;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-VI",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "3 (três) funções gratificadas de Assistente, código 2.1.1.5, lotadas na UAR, da CGT;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-VII",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "5 (cinco) funções gratificadas de Auxiliar Técnico, código 2.1.1.3, lotadas na UAR, da CGT;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-VIII",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Chefe de Unidade, código 1.1.1.6, lotada na Unidade de Avaliação de Imóveis (UAI), da CGT;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-IX",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Auxiliar Técnico, código 2.1.1.3, lotada na UAI, da CGT;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-X",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Chefe de Unidade, código 1.1.1.6, lotada na Unidade de Tributos Imobiliários (UTI), da CGT;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-XI",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "3 (três) funções gratificadas de Assistente, código 2.1.1.5, lotadas na UTI, da CGT;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-XII",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "6 (seis) funções gratificadas de Auxiliar Técnico, código 2.1.1.3, lotadas na UTI, da CGT;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-XIII",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Chefe de Unidade, código 1.1.1.6, lotada na Unidade de Tributos Mobiliários (UTM), da CGT;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-XIV",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "2 (duas) funções gratificadas de Assistente, código 2.1.1.5, lotadas na UTM, da CGT;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-XV",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "XV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "5 (cinco) funções gratificadas de Auxiliar Técnico, código 2.1.1.3, lotadas na UTM, da CGT;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-XVI",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "XVI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Chefe de Unidade, código 1.1.1.6, lotada na Unidade de Contencioso (UCO), da CGT;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-XVII",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "XVII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "2 (duas) funções gratificadas de Assistente, código 2.1.1.5, lotadas na UCO, da CGT; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-XVIII",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "XVIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Auxiliar Técnico, código 2.1.1.3, lotada na UCO, da CGT. 16",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 27.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O atual cargo da classe de Agente Fiscal da Receita Municipal passa a denominar-se Auditor-Fiscal da Receita Municipal, e o cargo da classe de Exator Municipal passa a denominar-se Exator da Receita Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "IV",
+     "titulo": "Das Carreiras da Administração Tributária"
+    }
+   ]
+  },
+  {
+   "id": "art-28",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 28.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No art. 4º da Lei nº 6.309, de 1988, e alterações posteriores, fica alterado o caput, e fica incluído inc. XII no parágrafo único, conforme segue: “Art. 4º O Quadro dos Cargos de Provimento Efetivo é estruturado nos grupos a seguir, conforme a natureza das respectivas atribuições, destinadas a atender às atividades essenciais e gerais necessárias à consecução dos fins da Administração Centralizada:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/inc-I",
+   "pai": "art-28",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "AA – Grupo Apoio à Administração;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/inc-II",
+   "pai": "art-28",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "OP – Grupo Operacional;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/inc-III",
+   "pai": "art-28",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "AC – Grupo Atividades Complementares;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/inc-IV",
+   "pai": "art-28",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "CO – Grupo Comunicação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/inc-V",
+   "pai": "art-28",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "LC – Grupo Lazer e Cultura;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/inc-VI",
+   "pai": "art-28",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "FV – Grupo Fiscalização e Vigilância;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/inc-VII",
+   "pai": "art-28",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "OB – Grupo Obras;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/inc-VIII",
+   "pai": "art-28",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "SA – Grupo Saúde e Assistência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/inc-IX",
+   "pai": "art-28",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "TP – Grupo Técnico-Profissional;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/inc-X",
+   "pai": "art-28",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ES – Grupo Executivo e Assessoramento Superior;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/inc-XI",
+   "pai": "art-28",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ESM – Grupo Especialidade Médica; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/inc-XII",
+   "pai": "art-28",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "AT – Grupo Administração Tributária.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/par-unico",
+   "pai": "art-28",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "......................................................................... ...................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/par-unico/inc-I",
+   "pai": "art-28/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Grupo Administração Tributária: atividades inerentes à fiscalização e ao lançamento de tributos e à arrecadação de receitas municipais, para 17 cujo ex ercício é exigido nível superior de educação em nível de bacharelado ou licenciatura plena.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-29",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 29.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam excluídos do grupo ES – Grupo Executivo e Assessoramento Superior, do Quadro de Cargos de Provimento Efetivo da Administração Centralizada, do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores, as classes de Agente Fiscal da Receita Municipal, código ES-1.07.NS, e Exator Municipal, código ES-1.19.NS.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-29/par-unico",
+   "pai": "art-29",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As especificações de classe referidas no caput deste artigo, constantes da letra b do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores, passam a compor o grupo AT – Grupo Administração Tributária, observadas as alterações dispostas nesta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-30",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 30.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam alteradas, no Quadro dos Cargos de Provimento Efetivo, constante da letra a do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores, as seguintes classes de cargos de provimento efetivo, do grupo AT – Grupo Administração Tributária:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-30/inc-I",
+   "pai": "art-30",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Auditor-Fiscal da Receita Municipal, código AT-1.01.AF, referências A, B, C, D, E, F, número de cargos 130 (cento e trinta); e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-30/inc-II",
+   "pai": "art-30",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Exator da Receita Municipal, código AT-1.02.ER, referências A, B, C, D, E, F, número de cargos 15 (quinze).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 31.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os valores dos vencimentos básicos das classes dos cargos de Auditor-Fiscal da Receita Municipal, padrão AF, e de Ex ator da Receita Municipal, padrão ER, observarão o que segue:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31/inc-I",
+   "pai": "art-31",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 1.909,80 (um mil, novecentos e nove reais e oitenta centa- vos), para a referência A;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31/inc-II",
+   "pai": "art-31",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 1.992,60 (um mil, novecentos e noventa e dois reais e sessenta centavos), para a referência B;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31/inc-III",
+   "pai": "art-31",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 2.077,80 (dois mil e setenta e sete reais e oitenta centavos), para a referência C;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31/inc-IV",
+   "pai": "art-31",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 2.161,80 (dois mil, cento e sessenta e um reais e oitenta centavos), para a referência D;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31/inc-V",
+   "pai": "art-31",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 2.246,50 (dois mil, duzentos e quarenta e seis reais e cinquenta centavos), para a referência E; e 18",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31/inc-VI",
+   "pai": "art-31",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 2.331,10 (dois mil, trezentos e trinta e um reais e dez cen- tavos), para a referência F.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31/par-unico",
+   "pai": "art-31",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os valores dos vencimentos básicos estabelecidos nos incisos do caput deste artigo serão reajustados sempre que forem reajustados os vencimentos, os salários e os proventos dos servidores públicos municipais, nos mesmos índices.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 32.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica criada a Gratificação de Atividade Tributária (GAT), devida a contar de 1º de janeiro de 2015, aos detentores dos cargos das classes de Auditor-Fiscal da Receita Municipal e Exator da Receita Municipal, em substituição à gratificação prevista na Lei nº 10.087, de 16 de novembro de 2006, e alterações posteriores, e à gratificação por exercício de atividades tributárias prevista no art. 47 da Lei nº 6.309, de 1988, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-1",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A GAT é calculada em razão do percentual de alcance das metas institucionais da SMF, cujos critérios de aferição serão estabelecidos por Decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-2",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As metas, para efeito da aferição, são trimestrais e de caráter geral, e a GAT, para efeito de pagamento, é mensal e individual, mediante relatório de atividades individual.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "As metas, para efeito de aferição, são quadrimestrais e de caráter geral, e a GAT, para efeito de pagamento, é mensal e individual, mediante relatório de atividades individual.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 877/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-3",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O cumprimento integral das metas corresponde a 21.000 (vinte e um mil) pontos mensais para Auditor-Fiscal da Receita Municipal e a 16.800 (dezesseis mil e oitocentos) pontos para Exator da Receita Municipal, sendo a pontuação efetivamente atingida o parâmetro utilizado no cálculo do valor da GAT.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-4",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A pontuação prevista no § 3º deste artigo será reduzida em:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-4/inc-I",
+   "pai": "art-32/par-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "2.400 (dois mil e quatrocentos) pontos, para Auditor-Fiscal da Receita Municipal e Exator da Receita Municipal, em 1° de janeiro de 2016, e o valor monetário a esses correspondente nessa data será acrescido ao vencimento básico da referência A das classes desses cargos, multiplicando-se, para as demais referências dessas classes, o valor do vencimento básico da referência imediatamente anterior por 1,046376 (um inteiro e quarenta e seis mil, trezentos e setenta e seis milionésimos); e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-4/inc-II",
+   "pai": "art-32/par-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "2.900 (dois mil e novecentos) pontos, para Auditor-Fiscal da Receita Municipal e Exator da Receita Municipal, em 1° de janeiro de 2017, e o valor monetário a esses correspondente nessa data será acrescido ao vencimento básico da referência A das classe desses cargos, multiplicando-se, para as demais referências dessas classes, o valor do vencimento básico da referência 19 imediatamente anterior por 1,046376 (um inteiro e quarenta e seis mil, trezentos e setenta e seis milionésimos).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-5",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O valor unitário do ponto, para a quantificação da GAT, é calculado sobre a efetiva arrecadação, em regime de caixa, dos créditos tributários referentes ao Imposto sobre Propriedade Predial e Territorial Urbana (IPTU), ao Imposto sobre a Transmissão “Inter-Vivos”, por ato oneroso, de Bens Imóveis e de Direitos Reais a eles relativos (ITBI), ao Imposto sobre Serviços de Qualquer Natureza (ISSQN) e à Tax a de Coleta de Lixo (TCL), inscritos ou não em Dívida Ativa, inclusive as multas e os juros a eles relativos, ocorrida nos últimos 12 (doze) meses, contados até o segundo mês imediatamente anterior ao do pagamento, pela aplicação do percentual de 0,000000042% (quarenta e dois bilionésimos por cento).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-6",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os valores arrecadados em parcela única, decorrentes de programas de parcelamento incentivado instituídos por Lei, serão deduzidos da arrecadação referida no § 5º deste artigo para fins do cálculo do valor unitário do ponto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-7",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Eventual excedente de pontos, resultado da superação das metas institucionais, limitado a 4.500 (quatro mil e quinhentos) pontos por trimestre, será compensado no trimestre seguinte ou pago no mês subsequente ao do encerramento de cada trimestre do ano civil.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 986/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-8",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O auditor-fiscal da Receita Municipal e o exator da Receita Municipal, no desempenho de função gratificada ou cargo em comissão, terão o valor mensal da GAT acrescido de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-8/inc-I",
+   "pai": "art-32/par-8",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "0,0573 (quinhentos e setenta e três décimos de milésimo) vezes o valor dessa gratificação, se no desempenho de função gratificada ou cargo em comissão padrão 2;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-8/inc-II",
+   "pai": "art-32/par-8",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "0,0859 (oitocentos e cinquenta e nove décimos de milésimo) vezes o valor dessa gratificação, se no desempenho de função gratificada ou cargo em comissão padrão 3;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-8/inc-III",
+   "pai": "art-32/par-8",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "0,1145 (um mil, cento e quarenta e cinco décimos de milésimo) vezes o valor dessa gratificação, se no desempenho de função gratificada ou cargo em comissão padrão 4;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-8/inc-IV",
+   "pai": "art-32/par-8",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "0,1431 (um mil, quatrocentos e trinta e um décimos de milési-",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-8/inc-IV/ali-a",
+   "pai": "art-32/par-8/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "vezes o valor dessa gratificação, se no desempenho de função gratificada ou cargo em comissão padrão 5; 20",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-8/inc-V",
+   "pai": "art-32/par-8",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "0,2290 (dois mil, duzentos e noventa décimos de milésimo) vezes o valor dessa gratificação, se no desempenho de função gratificada ou cargo em comissão padrão 6;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-8/inc-VI",
+   "pai": "art-32/par-8",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "0,2863 (dois mil, oitocentos e sessenta e três décimos de milé- simo) vezes o valor dessa gratificação, se no desempenho de função gratificada ou cargo em comissão padrão 7; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-8/inc-VII",
+   "pai": "art-32/par-8",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "0,3436 (três mil, quatrocentos e trinta e seis décimos de milé- simo) vezes o valor dessa gratificação, se no desempenho de função gratificada ou cargo em comissão padrão 8.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-9",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os índices previstos nos incisos do § 8º deste artigo serão multiplicados por 1,27 (um inteiro e vinte e sete centésimos) a contar de 1º de janeiro de 2016.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-10",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os índices resultantes da aplicação do § 9º deste artigo serão multiplicados por 1,36 (um inteiro e trinta e seis centésimos) a contar de 1º de janeiro de 2017.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-11",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A partir da entrada em vigor da GAT, não será mais devida aos detentores dos cargos das classes de Auditor-Fiscal da Receita Municipal e de Exator da Receita Municipal a Gratificação de Resultado Fazendário e de Programação Orçamentária (GRFPO), prevista na Lei nº 10.087, de 2006, e alterações posteriores, e fica extinta a gratificação por exercício de atividades tributárias prevista no art. 47 da Lei nº 6.309, de 1988, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-12",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica assegurada a percepção da GRFPO para os demais servidores que desempenhem funções na SMF.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-13",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-14",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os valores de pagamento das funções gratificadas das classes dos cargos de Auditor-Fiscal da Receita Municipal e de Exator da Receita Municipal observarão o que segue:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-14/inc-I",
+   "pai": "art-32/par-14",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 197,80 (cento e noventa e sete reais e oitenta centavos), para o nível 1 (um);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-14/inc-II",
+   "pai": "art-32/par-14",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 238,10 (duzentos e trinta e oito reais e dez centavos), para o nível 2 (dois);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-14/inc-III",
+   "pai": "art-32/par-14",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 287,70 (duzentos e oitenta e sete reais e setenta centavos), para o nível 3 (três); 21",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-14/inc-IV",
+   "pai": "art-32/par-14",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 356,80 (trezentos e cinquenta e seis reais e oitenta centa- vos), para o nível 4 (quarto);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-14/inc-V",
+   "pai": "art-32/par-14",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 447,40 (quatrocentos e quarenta e sete reais e quarenta cen- tavos), para o nível 5 (cinco);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-14/inc-VI",
+   "pai": "art-32/par-14",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 561,10 (quinhentos e sessenta e um reais e dez centavos), para o nível 6 (seis);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-14/inc-VII",
+   "pai": "art-32/par-14",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 699,90 (seiscentos e noventa e nove reais e noventa centa- vos), para o nível 7; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-14/inc-VIII",
+   "pai": "art-32/par-14",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 860,00 (oitocentos e sessenta reais), para o nível 8 (oito).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-15",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 15.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os valores referidos no § 14 deste artigo serão multiplicados pelo índice 1,25 (um inteiro e vinte e cinco centésimos), em face da extinção da gratificação por exercício de atividades tributárias prevista no inc. I do art. 47 da Lei nº 6.309, de 1988, e alterações posteriores, a qual não mais incidirá sobre as funções gratificadas recebidas pelos detentores dos cargos das classes de Auditor-Fiscal da Receita municipal e de Ex ator da Receita Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-16",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 16.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As funções gratificadas incorporadas à remuneração dos detentores dos cargos das classes de Auditor-Fiscal da Receita Municipal e de Exator da Receita Municipal, inclusive aos proventos e às pensões dos aposentados e dos pensionistas, anteriormente à vigência desta Lei Complementar, serão revisadas para contemplar o disposto no § 15 deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-17",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 17.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os valores referidos no § 14 deste artigo serão reajustados sempre que forem reajustados os valores das funções gratificadas dos servidores públicos municipais, nos mesmo índices.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-18",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "§ 18.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A GAT, inclusive o acréscimo previsto no § 8º deste artigo, não poderá servir de base de cálculo para gratificações por regime especial de trabalho, adicionais de tempo de serviço ou qualquer outra vantagem pecuniária, à exceção da gratificação natalina e do terço constitucional de férias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 33.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A GAT será incorporada pelo auditor-fiscal da Receita Municipal e pelo ex ator da Receita Municipal que venham a se aposentar com direito à paridade constitucional, segundo as regras constitucionais transitórias, nos mesmos valores dos ativos, desde que atendam conjuntamente às seguintes condições: 22",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/inc-I",
+   "pai": "art-33",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ser detentor de cargo das classes de Auditor-Fiscal da Receita Municipal ou de Exator da Receita Municipal por, no mínimo, 5 (cinco) anos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/inc-II",
+   "pai": "art-33",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ter percebido a GAT pelo período mínimo de 2 (dois) anos e estar percebendo-a por ocasião da aposentadoria.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-1",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na contagem do prazo previsto no inc. II do caput deste artigo, considera-se a percepção da gratificação prevista na Lei nº 10.087, de 2006, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-2",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os benefícios de aposentadoria e pensão, com direito à paridade constitucional, originários dos cargos de Agente Fiscal da Receita Municipal e de Exator da Receita Municipal, serão revisados para incorporação da GAT a esses benefícios, inclusive para efeitos de concessão do excedente previsto no § 7º do art. 32 desta Lei Complementar, desde que comprovado o exercício naqueles cargos por, no mínimo, 5 (cinco) anos, em valores correspondentes aos pagos mensalmente aos auditores-fiscais da Receita Municipal e aos exatores da Receita Municipal em atividade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "Os benefícios de aposentadoria e pensão, com direito à paridade constitucional, originários dos cargos de Agente Fiscal da Receita Municipal e de Exator da Receita Municipal serão revisados para incorporação da GAT a esses benefícios, desde que comprovado o exercício naqueles cargos por, no mínimo, 5 (cinco) anos, em valores correspondentes aos pagos mensalmente aos auditores-fiscais da Receita Municipal e aos exatores da Receita Municipal em atividade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 986/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-3",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os benefícios de aposentadoria e pensão não revisados, nos termos do § 2º deste artigo, em face do não atendimento dos requisitos necessários para a incorporação da GAT a esses benefícios, terão assegurados os valores da gratificação prevista na Lei nº 10.087, de 2006, e alterações posteriores, e os valores correspondentes à gratificação por ex ercício de atividades tributárias prevista no art. 47 da Lei nº 6.309, de 1988, e alterações posteriores, por ocasião da revisão referida no art. 35 desta Lei Complementar, com posteriores reajustes nas mesmas datas e nos mesmos índices da política salarial do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-4",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O acréscimo da GAT previsto no § 8º do art. 32 desta Lei Complementar não será incorporado ao vencimento do servidor, não será base de incidência de contribuição previdenciária e não integrará os proventos de aposentadoria.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-34",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 34.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Permanecem devidas aos detentores de cargo das classes de Auditor-Fiscal da Receita Municipal e de Exator da Receita Municipal as demais vantagens previstas para o conjunto do funcionalismo municipal de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-34-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 34-A",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "O servidor estável ocupante de cargo de provimento efetivo de Auditor-Fiscal da Receita Municipal ou de Exator da Receita Municipal, poderá, no interesse da Administração, afastar-se do cargo para exercer outro cargo, função ou emprego público, sem prejuízo de sua remuneração, nos termos deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 986/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-34-A/par-1",
+   "pai": "art-34-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Fica assegurada a manutenção da GAT ao servidor enquadrado neste artigo quando o servidor estiver em desempenho das suas funções em outro órgão do Município, permanecendo obrigatória a apresentação do relatório de atividades individual previsto no § 2º do art. 32 desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 986/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-34-A/par-2",
+   "pai": "art-34-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "O valor da gratificação percebida durante o afastamento previsto no § 1º deste artigo será calculado com base no percentual de alcance global de metas institucionais da GAT.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 986/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-34-A/par-3",
+   "pai": "art-34-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "A GAT não será devida em hipóteses de cedência para outros entes federados, salvo se o ente federado destinatário comprometer-se ao pagamento por meio de disposição orçamentária.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 986/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-34-A/par-4",
+   "pai": "art-34-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Fica vedada ao servidor no exercício de função gratificada ou cargo comissionado em outro órgão do Município a percepção cumulativa da GAT e de outras gratificações de produtividade vinculadas ao alcance de metas, resguardada a possibilidade de opção.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 986/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-35",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 35.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os benefícios de aposentadoria e pensão, com direito à paridade constitucional, originários dos cargos de Agente Fiscal da Receita Municipal e de Exator Municipal serão revisados para contemplar, no que couber, os dispositivos previstos nesta Lei Complementar. 23",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-36",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 36.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-37",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 37.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-38",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 38.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 39 da Lei nº 6.309, de 1988, e alterações posteriores, conforme segue: “Art. 39. Somente poderão ser convocados para o regime de que trata o art. 38 desta Lei os detentores de cargos de provimento efetivo situados no Grupo Administração Tributária e no Grupo Executivo e Assessoramento Superior ou em comissão, para cujo provimento seja exigida a formação universitária ou habilitação legal equivalente.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-39",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 39.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Enquanto não expirado o prazo de 180 (cento e oitenta) dias, contados da data de publicação desta Lei Complementar, para regulamentação do disposto no § 1º do art. 32 desta Lei Complementar, aplicar-se-á, para fins de pagamento, 90% (noventa por cento) da pontuação máxima vigente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-39/par-unico",
+   "pai": "art-39",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Expirado o prazo de regulamentação referido no caput deste artigo, ficarão suspensos os pagamentos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-40",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 40.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Aplicam-se subsidiariamente aos detentores de cargos das classes de Auditor-Fiscal da Receita Municipal e de Ex ator da Receita Municipal os dispositivos da Lei Complementar nº 133, de 31 de dezembro de 1985, e alterações posteriores, e da Lei nº 6.309, de 1988, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-41",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 41.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o caput do § 4º do art. 4º da Lei Complementar nº 625, de 3 de julho de 2009, alterada pela Lei Complementar nº 700, de 3 de julho de 2012, conforme segue: “Art. 4º ..................................................................................... ...................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "V",
+     "titulo": "Das Demais Alterações na Estrutura da Secretaria Municipal da Fazenda"
+    },
+    {
+     "tipo": "subsecao",
+     "numero": "I",
+     "titulo": "Da Controladoria-Geral do Município"
+    }
+   ]
+  },
+  {
+   "id": "art-41/par-unico",
+   "pai": "art-41",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os relatórios emitidos pela Divisão de Auditoria-Geral ficarão arquivados em suas dependências e terão obrigatoriamente cópias destinadas: .........................................................................................” (NR) 24",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-42",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 42.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o inc. XI do caput do art. 5º da Lei Complementar nº 625, de 2009, alterada pela Lei Complementar nº 700, de 2012, conforme segue: “Art. 5º ..................................................................................... ...................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-42/inc-I",
+   "pai": "art-42",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "executar, por meio da Divisão de Auditoria-Geral, auditorias especiais solicitadas pelas autoridades municipais; e .........................................................................................” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-43",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 43.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam alterados os incs. III a VI do caput do art. 6º da Lei Complementar nº 625, de 2009, alterada pela Lei Complementar nº 700, de 2012, conforme segue: “Art. 6º ..................................................................................... ...................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-43/inc-I",
+   "pai": "art-43",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Divisão de Contabilidade-Geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-43/inc-II",
+   "pai": "art-43",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Divisão de Auditoria-Geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-43/inc-III",
+   "pai": "art-43",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Divisão de Informações Legais e Gerenciais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-43/inc-IV",
+   "pai": "art-43",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Divisão de Despesa Pública; .........................................................................................” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 44.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 7º da Lei Complementar nº 625, de 2009, alterada pela Lei Complementar nº 700, de 2012, conforme segue: “Art. 7º Ao Gabinete do Controlador-Geral compete a coordenação geral das atividades exercidas pelas Divisões referidas nos incisos III a VI do caput do art. 6º desta Lei Complementar.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-45",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 45.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No art. 9º da Lei Complementar nº 625, de 2009, alterada pela Lei Complementar nº 700, de 2012, fica alterado o caput, e ficam incluídos incs. I e II no caput, conforme segue: “Art. 9º À Divisão de Contabilidade-Geral competem: 25",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-45/inc-I",
+   "pai": "art-45",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a execução da contabilidade e o registro da dívida pública da Administração, com exceção das empresas estatais, tendo por objetivo principal a uniformidade de procedimentos visando à consolidação das demonstrações contábeis; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-45/inc-II",
+   "pai": "art-45",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a coordenação das Seccionais de Contabilidade.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-46",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 46.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 10 da Lei Complementar nº 625, de 2009, alterada pela Lei Complementar nº 700, de 2012, conforme segue: “Art. 10. À Divisão de Auditoria-Geral competem a fiscalização e a avaliação dos controles internos da Administração, inclusive na própria CGM, ficando garantidas as prerrogativas do art. 20 desta Lei Complementar.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-47",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 47.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o caput do art. 11 da Lei Complementar nº 625, de 2009, alterada pela Lei Complementar nº 700, de 2012, conforme segue: “Art. 11. À Divisão de Informações Legais e Gerenciais compete: .........................................................................................” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-48",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 48.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No art. 14 da Lei Complementar nº 625, de 2009, alterada pela Lei Complementar nº 700, de 2012, fica alterado o caput, e ficam incluídos incs. I e II no caput, conforme segue: “Art. 14. À Divisão de Despesa Pública compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-48/inc-I",
+   "pai": "art-48",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "controlar e orientar as atividades de execução da despesa orçamentária e extraorçamentária da Administração Direta, das autarquias, da fundação de direito público e do Legislativo Municipal; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-48/inc-II",
+   "pai": "art-48",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "coordenar as Seccionais de Controle da Despesa Pública.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-49",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 49.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o inc. I do parágrafo único do art. 17 da Lei Complementar nº 625, de 2009, alterada pela Lei Complementar nº 700, de 2012, conforme segue: “Art. 17. ....................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-49/par-unico",
+   "pai": "art-49",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": ".........................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-49/par-unico/inc-I",
+   "pai": "art-49/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ser servidor municipal ocupante de cargo efetivo, com, no mínimo, 5 (cinco) anos no cargo de Auditor de Controle Interno; 26 .........................................................................................” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-50",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 50.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 18 da Lei Complementar nº 625, de 2009, alterada pela Lei Complementar nº 700, de 2012, conforme segue: “Art. 18. O Conselho Superior será integrado pelos servidores ocupantes das direções das Divisões da CGM e pelo controlador-geral adjunto e presidido pelo controlador-geral.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-51",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 51.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o caput do art. 19 da Lei Complementar nº 625, de 2009, alterada pela Lei Complementar nº 700, de 2012, conforme segue: “Art. 19. É condição para a assunção da função de Controlador-Geral Adjunto ou Diretor de Divisão possuir o cargo de Auditor de Controle Interno. .........................................................................................” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 52.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os atuais cargos de Contador passam a denominar-se Auditor de Controle Interno, compreendidos os cargos providos e vagos, permanecendo as mesmas atribuições dos cargos da classe de Contador, previstas no Anexo I da Lei nº 6.309, de 1988, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-53",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 53.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os atuais cargos da classe de Técnico em Contabilidade passam a denominar-se Técnico de Controle Interno, compreendidos os cargos providos e vagos, permanecendo as mesmas atribuições dos cargos da classe de Técnico em Contabilidade, previstas no Anexo I da Lei nº 6.309, de 1988, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-54",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 54.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam criadas, no Quadro dos Cargos em Comissão e Funções Gratificadas, constante da letra c do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-54/inc-I",
+   "pai": "art-54",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Controlador-Geral Adjunto, código 1.1.1.6; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-54/inc-II",
+   "pai": "art-54",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "2 (duas) funções gratificadas de Chefe de Equipe, código 1.1.1.5.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-54/par-unico",
+   "pai": "art-54",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O controlador-geral adjunto será indicado pelo controlador-geral do Município de Porto Alegre, com suas atribuições definidas em decreto. 27",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-55",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 55.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica extinta 1 (uma) função gratificada de Chefe de Unidade, código 1.1.1.6, na Unidade de Normas Técnicas e Orientação, da CGM, integrante do Quadro dos Cargos em Comissão e Funções Gratificadas, constante da letra c do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-56",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 56.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam criadas, no Quadro dos Cargos em Comissão e Funções Gratificadas, constante da letra c do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores, 2 (duas) funções gratificadas de Auxiliar Técnico, código 2.1.1.3.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "II",
+     "titulo": "Da Assessoria para Aquisições Especiais de Imóveis"
+    }
+   ]
+  },
+  {
+   "id": "art-57",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 57.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica criada, no Quadro dos Cargos em Comissão e Funções Gratificadas, constante da letra c do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores, 1 (uma) função gratificada de Presidente do Tribunal Administrativo de Recursos Tributários (TART), código 1.1.1.8.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "III",
+     "titulo": "Do Tribunal Administrativo de Recursos Tributários"
+    }
+   ]
+  },
+  {
+   "id": "art-57/par-unico",
+   "pai": "art-57",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A função gratificada criada no caput deste artigo será lotada na SMF.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-58",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 58.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica incluído § 4º no art. 20 da Lei Complementar nº 534, de 28 de dezembro de 2005, e alterações posteriores, conforme segue: “Art. 20. ..................................................................................... ...................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-58/par-unico",
+   "pai": "art-58",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ao vice-presidente do TART será devida a gratificação prevista no caput deste artigo, acrescida de 50% (cinquenta por cento) em relação à forma prescrita no § 1º deste artigo.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-59",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 59.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica criada a Central de Licitações (Celic), órgão vinculado à SMF e responsável pela gestão e pelo controle de aquisição de bens, materiais, serviços, obras e serviços de engenharia, por meio de licitações para a Administração Direta e a Administração Indireta do Município de Porto Alegre. 28",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "IV",
+     "titulo": "Da Central de Licitações"
+    }
+   ]
+  },
+  {
+   "id": "art-60",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 60.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São funções institucionais da Celic:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-60/inc-I",
+   "pai": "art-60",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "elaborar os instrumentos convocatórios e realizar as licitações da Administração Direta e da Administração Indireta;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-60/inc-II",
+   "pai": "art-60",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "gerir e controlar as aquisições de bens, materiais, serviços, obras e serviços de engenharia no âmbito do Município de Porto Alegre, por meio de coordenação, orientação, controle e execução das atividades relacionadas com bens, materiais, serviços, obras e serviços de engenharia, almoxarifado e contratos, por meio de licitações, dispensas e inexigibilidades;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-60/inc-III",
+   "pai": "art-60",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover análises e padronizações das aquisições de bens, materiais, serviços, obras e serviços de engenharia no âmbito do Município de Porto Alegre, consolidando informações relevantes para as decisões dos órgãos solicitantes, por meio de licitações e pelo Sistema de Registro de Preços;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-60/inc-IV",
+   "pai": "art-60",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "compor comissões permanentes, deliberativas e especiais de licitação, bem como comissões para julgamento e aplicação de penalidades, multas e rescisões de contratos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-60/inc-V",
+   "pai": "art-60",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "implantar, gerir e controlar o cadastro de fornecedores de bens, materiais, serviços, obras e serviços de engenharia, por meio de cadastro único;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-60/inc-VI",
+   "pai": "art-60",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "gerir, controlar e emitir empenhos de bens e materiais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-60/inc-VII",
+   "pai": "art-60",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "gerir, controlar e promover estudos para alienações da Administração Pública Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-60/inc-VIII",
+   "pai": "art-60",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "executar atividades pertinentes à importação de bens e materiais em casos excepcionais; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-60/inc-IX",
+   "pai": "art-60",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "gerir, controlar e promover as aquisições e as contratações, por meio do Sistema de Registros de Preços no âmbito do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-60/par-unico",
+   "pai": "art-60",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As comissões deliberativas, permanentes e especiais serão designadas por portaria, indicadas pelo superintendente da Central de Licitações com anuência do secretário da Fazenda.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-61",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 61.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São órgãos da Celic:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-61/inc-I",
+   "pai": "art-61",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Gabinete do Superintendente da Central de Licitações;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-61/inc-II",
+   "pai": "art-61",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "órgão de assessoria; e 29",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-61/inc-III",
+   "pai": "art-61",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "órgão de execução.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-61/par-1",
+   "pai": "art-61",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O detalhamento da estrutura e a competência dos respectivos órgãos serão fixados em decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-61/par-2",
+   "pai": "art-61",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Integra o Gabinete do Superintendente da Central de Licitações o superintendente-adjunto da Central de Licitações, o qual auxiliará o superintendente da Central de Licitações nas funções de administração e de desenvolvimento institucional.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 62.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São atribuições do superintendente da Central de Licitações:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62/inc-I",
+   "pai": "art-62",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "coordenar, orientar, normatizar e controlar as aquisições de bens, materiais, serviços, obras e serviços de engenharia no âmbito do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62/inc-II",
+   "pai": "art-62",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover análises sobre as aquisições de bens, materiais, serviços, obras e serviços de engenharia no âmbito do Município de Porto Alegre, consolidando informações relevantes para as decisões da SMF;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62/inc-III",
+   "pai": "art-62",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estabelecer ações conjuntas com as outras secretarias ou os outros órgãos, ou ambos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62/inc-IV",
+   "pai": "art-62",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "apoiar o secretário nas decisões relativas à sua área de competência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62/inc-V",
+   "pai": "art-62",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "subsidiar propostas de diretrizes, normas e procedimentos, dentro de sua área de atuação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62/inc-VI",
+   "pai": "art-62",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "desenvolver ações de gerenciamento, de forma a propor ações e projetos para a formação dos servidores e a melhoria dos processos organizacionais, na perspectiva de seu melhor desempenho e sua melhor qualidade;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62/inc-VII",
+   "pai": "art-62",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "firmar as atas de registro de preços;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62/inc-VIII",
+   "pai": "art-62",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "adjudicar ou homologar os processos licitatórios, ou ambos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62/inc-IX",
+   "pai": "art-62",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "exercer outras competências inerentes à sua área de atuação. 30",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62/par-unico",
+   "pai": "art-62",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O titular do órgão, em caso de ausência ou impedimento temporário, será substituído pelo superintendente-adjunto da Central de Licitações.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-63",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 63.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica criada a Gratificação de Pregoeiro, no valor mensal de R$ 1.200,00 (um mil e duzentos reais), sendo reajustado no mesmo índice e na mesma data do reajuste dos vencimentos dos servidores municipais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-63/par-1",
+   "pai": "art-63",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São requisitos indispensáveis à percepção da Gratificação de Pregoeiro:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-63/par-1/inc-I",
+   "pai": "art-63/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ser servidor público detentor de cargo de provimento efetivo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-63/par-1/inc-II",
+   "pai": "art-63/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ser designado por portaria do secretário municipal da Fazenda, por indicação do superintendente da Central de Licitações, para o exercício da função de pregoeiro;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-63/par-1/inc-III",
+   "pai": "art-63/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ter curso de formação ou de capacitação em processo licitatório (pregão), que poderá ser realizado por instituição do Município de Porto Alegre, por instituições de outros entes da Federação ou por instituição pública ou privada de ensino, reconhecida pelos órgãos competentes; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-63/par-1/inc-IV",
+   "pai": "art-63/par-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ter 12 (doze) meses, consecutivos ou intercalados, de efetivo desempenho na função de pregoeiro.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-63/par-2",
+   "pai": "art-63",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Gratificação de Pregoeiro não poderá servir de base de cálculo para gratificações por regime especial de trabalho, adicionais de tempo de serviço ou qualquer outra vantagem pecuniária, à exceção da gratificação natalina e do terço constitucional de férias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-63/par-3",
+   "pai": "art-63",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Gratificação de Pregoeiro não será incorporada ao vencimento do servidor, não será base de incidência de contribuição previdenciária e não integrará os proventos de aposentadoria.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-64",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 64.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam criados, no Quadro de Cargos em Comissão e Funções Gratificadas, constante da letra c do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-64/inc-I",
+   "pai": "art-64",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) cargo em comissão de Superintedente da Central de Licitações, código 1.1.2.7;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-64/inc-II",
+   "pai": "art-64",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Superintendente-Adjunto da Central de Licitações, código 2.1.1.6; 31",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-64/inc-III",
+   "pai": "art-64",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "4 (quatro) funções gratificadas de Chefe de Unidade, código 1.1.1.6;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-64/inc-IV",
+   "pai": "art-64",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "8 (oito) funções gratificadas de Assistente, código 2.1.1.5; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-64/inc-V",
+   "pai": "art-64",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "13 (treze) funções gratificadas de Responsável por Atividades, código 2.1.1.3.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-65",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 65.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam vedados o provimento, a investidura e o exercício em cargo em comissão ou em função de confiança previstos nos arts. 7º, 9º, 15 e 25 desta Lei Complementar aos brasileiros que estejam em situação de inelegibilidade, ressalvadas as incompatibilidades específicas de cargos políticos eleti-vos, a condição de inalistável e a de militar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-66",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 66.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam extintos, no quadro da Área de Compras e Serviços da SMF, integrante da letra c do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-66/inc-I",
+   "pai": "art-66",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) cargo em comissão de Gestor B, código 1.1.2.7;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-66/inc-II",
+   "pai": "art-66",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Assistente Técnico, código 2.1.1.6;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-66/inc-III",
+   "pai": "art-66",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "2 (duas) funções gratificadas de Chefe de Unidade, código 1.1.1.6;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-66/inc-IV",
+   "pai": "art-66",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "3 (três) funções gratificadas de Assistente, código 2.1.1.5; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-66/inc-V",
+   "pai": "art-66",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "9 (nove) funções gratificadas de Auxiliar Técnico, código 2.1.1.3.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-67",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 67.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam criados, no Quadro de Cargos em Comissão e Funções Gratificadas, constante da letra c do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "V",
+     "titulo": "Do Gabinete do Secretário"
+    }
+   ]
+  },
+  {
+   "id": "art-67/inc-I",
+   "pai": "art-67",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Assitente Técnico, código 2.1.1.6;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-67/inc-II",
+   "pai": "art-67",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) cargo em comissão de Assistente, código 2.1.2.5; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-67/inc-III",
+   "pai": "art-67",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) função gratificada de Assistente, código 2.1.1.5. 32",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-68",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 68.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Eventuais efeitos da incidência dos regimes especiais de trabalho, de tempo integral e de dedicação exclusiva, previstos nas als. a e b do inc. I do caput do art. 37 da Lei Complementar nº 133, de 1985, e alterações posteriores, serão revisados quando houver a revisão para os servidores municipais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "VI",
+     "titulo": "Das Disposições Finais"
+    }
+   ]
+  },
+  {
+   "id": "art-68/par-1",
+   "pai": "art-68",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Eventuais perdas decorrentes da revisão prevista no caput deste artigo serão compensadas como parcelas autônomas a serem implementadas pelo Executivo Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-68/par-2",
+   "pai": "art-68",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As alterações da denominação dos cargos previstos nesta Lei Complementar não trarão qualquer prejuízo aos requisitos temporais exigidos para aposentadoria e qualquer outra vantagem definida em lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-69",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 69.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam alterados os requisitos de recrutamento da classe de Auditor-Fiscal da Receita Municipal, constante no Grupo AT – Grupo Administração Tributária da letra b – Especificações de Classes do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores, no Grupo Executivo e Assessoramento Superior, conforme Anexo desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 70.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As despesas decorrentes desta Lei Complementar correrão à conta de dotações orçamentárias próprias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-71",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 71.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica o Executivo Municipal autorizado a abrir créditos suplementares para a cobertura das despesas necessárias à aplicação desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-72",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 72.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-72/par-unico",
+   "pai": "art-72",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-73",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 73.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam revogados:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-73/inc-I",
+   "pai": "art-73",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os incs. IV e V do caput do art. 5º, os incs. VII e VIII do caput e o parágrafo único do art. 6º, os art. 12 e 13 e os incs. I e II do caput do art. 19 da Lei Complementar nº 625, de 3 de julho de 2009; 33",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-73/inc-II",
+   "pai": "art-73",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o inc. XXXVIII do caput do art. 1º da Lei nº 11.404, de 27 de dezembro de 2012; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-73/inc-III",
+   "pai": "art-73",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o art. 47 da Lei nº 6.309, de 28 de dezembro de 1988.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 47888,
+    "rotulo": "Lei Complementar municipal nº 1.003, de 05 de janeiro de 2024"
+   },
+   "motivo": "comando_recusado",
+   "detalhe": "endereço-pai \"§ 1º do inc. ii do § 1º do art. 63\" não encontrado — não é possível inserir \"inc. ii do § 1º do inc. ii do § 1º do art. 63\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.404, de 27 de dezembro de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11404\",\"ano\":\"2012\",\"chave\":\"l 11404/2012\"}, versão: lc 765/2015)",
+   "enderecos": [
+    "art-63/par-1/inc-II",
+    "art-1/inc-XIX"
+   ]
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-63/par-1/inc-II",
+   "desde": "2024-01-05"
+  }
+ ]
+}

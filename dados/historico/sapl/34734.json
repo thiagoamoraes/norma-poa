@@ -1,0 +1,151 @@
+{
+ "geradoEm": "2026-11-19T09:26:04.675Z",
+ "idSapl": 34734,
+ "rotulo": "Lei Complementar municipal nº 560, de 03 de janeiro de 2007",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 560/2007@2007-01-03",
+   "data": "2007-01-03",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 560/2007@2014-01-10",
+   "data": "2014-01-10",
+   "fonte": {
+    "idSapl": 39227,
+    "rotulo": "Lei Complementar municipal nº 730, de 10 de janeiro de 2014"
+   },
+   "comandosAplicados": 3
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica instituído, no Município de Porto Alegre,de Incentivos ao Uso de Energia Solar nas Edificações.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O objetivo do Programa é a promoção de medidas necessárias aofomento do uso e ao desenvolvimento tecnológico de sistemas de aproveitamento de energiasolar para o aquecimento de água em imóveis, bem como a conscientização dasobre os benefícios da energia solar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Constituem objetivos do Programa instituído no caput deste artigo:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 730/2014"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-I",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "a promoção de medidas necessárias ao fomento do uso e ao desenvolvimentotecnológico de sistemas de aproveitamento de energia solar para o aquecimento deágua em imóveis e para a geração de energia elétrica fotovoltaica; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 730/2014"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-II",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "a conscientização da população sobre os benefícios da energia solar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 730/2014"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Programa de Incentivos ao Uso de Energia Solar nasEdificações estabelecerá, na sua regulamentação, os incentivos fiscais a seremconcedidos e o prazo de validade do Programa.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os incentivos fiscais de que trata o art. 2º desta LeiComplementar serão concedidos desde que o equipamento de captação de energia solarutilizado apresente certificado de qualidade expedido pelo Instituto Nacional deMetrologia, Normalização e Qualidade Industrial – Inmetro.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de suapublicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

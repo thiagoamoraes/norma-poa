@@ -1,0 +1,59 @@
+{
+ "idSapl": 36177,
+ "rotulo": "Lei Complementar municipal nº 620, de 16 de junho de 2009",
+ "sha256Origem": "9b705c026a39c04836caaef0113d46213e93d368cf04117246b3b91c193c06b0",
+ "estruturadoEm": "2026-11-19T09:26:04.031Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "620",
+  "ano": "2009",
+  "data": "2009-06-16",
+  "epigrafe": "LEI COMPLEMENTAR Nº 620, DE 16 DE JUNHO DE 2009.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui § 3º no art. 18 da Lei Complementar nº 12, de 7 de janeiro de 1975 – que institui posturas para o Município de Porto Alegre e dá outras providências –, e alterações posteriores, remetendo a fixação da pena pela venda de mercadorias sem prévia autorização do Município para a legislação que dispõe sobre o comércio e a prestação de serviços ambulantes, e revoga o inc. XV do art. 18 dessa Lei Complementar.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 16 de junho de 2009.\nJosé Fogaça,\nPrefeito.\nIdenir Cecchim,\nSecretário Municipal da Produção, Indústria e Comércio.\nRegistre-se e publique-se.\nClóvis Magalhães,\nSecretário Municipal de Gestão e\nAcompanhamento Estratégico.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído § 3º no art. 18 da Lei Complementar nº 12, de 7 de janeiro de 1975, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 18. ...................................................................................................\n..................................................................................................................\n§ 3º A venda de mercadorias nos logradouros públicos, sem prévia autorização do Município, tem a respectiva penalidade prevista na legislação que dispõe sobre o comércio e a prestação de serviços ambulantes.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica revogado o inc. XV do art. 18 da Lei Complementar nº 12, de 7 de janeiro de 1975."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.952,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

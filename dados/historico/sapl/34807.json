@@ -1,0 +1,3415 @@
+{
+ "geradoEm": "2026-11-19T09:26:04.692Z",
+ "idSapl": 34807,
+ "rotulo": "Lei Complementar municipal nº 563, de 30 de janeiro de 2007",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 563/2007@2007-01-30",
+   "data": "2007-01-30",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 563/2007@2008-10-21",
+   "data": "2008-10-21",
+   "fonte": {
+    "idSapl": 35814,
+    "rotulo": "Lei Complementar municipal nº 600, de 21 de outubro de 2008"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 2,
+   "id": "lc 563/2007@2010-12-07",
+   "data": "2010-12-07",
+   "fonte": {
+    "idSapl": 37041,
+    "rotulo": "Lei Complementar municipal nº 660, de 07 de dezembro de 2010"
+   },
+   "comandosAplicados": 71
+  },
+  {
+   "indice": 3,
+   "id": "lc 563/2007@2015-09-21",
+   "data": "2015-09-21",
+   "fonte": {
+    "idSapl": 40239,
+    "rotulo": "Lei Complementar municipal nº 772, de 21 de setembro de 2015"
+   },
+   "comandosAplicados": 2
+  },
+  {
+   "indice": 4,
+   "id": "lc 563/2007@2023-09-29",
+   "data": "2023-09-29",
+   "fonte": {
+    "idSapl": 47275,
+    "rotulo": "Lei Complementar municipal nº 987, de 29 de setembro de 2023"
+   },
+   "comandosAplicados": 33
+  },
+  {
+   "indice": 5,
+   "id": "lc 563/2007@2024-06-21",
+   "data": "2024-06-21",
+   "fonte": {
+    "idSapl": 48769,
+    "rotulo": "Lei Complementar municipal nº 1.014, de 21 de junho de 2024"
+   },
+   "comandosAplicados": 5
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica estabelecida a organização do Sistema Municipal deProteção e Defesa dos Direitos do Consumidor – SMDC –, nos termos do inc.XXXII do art. 5º da Constituição da República Federativa do Brasil e dos arts. 4º e105 da Lei Federal nº 8.078, de 11 de setembro de 1990, e alterações posteriores, e doDecreto Federal nº 2.181, de 20 de março de 1997.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "Fica instituído, no Município de Porto Alegre, o Conselho Municipal do Idoso (Comui), órgão deliberativo no âmbito de suas competências, pro positivo, consultivo e fiscalizador das políticas públicas destinadas a promover os direitos dos idosos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DAS DISPOSIÇÕES PRELIMINARES"
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O SMDC tem como finalidade promover, no Município de Porto Alegre,ações de defesa e representação dos consumidores juntamente com os diversos organismosestaduais e municipais, públicos ou privados, articulando-as com as açõesexercidaspelas demais instituições integrantes do Sistema Nacional de Defesa do Consumidor.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "O Comui será vinculado administrativamente à Secretaria Municipal de Coordenação Política e Governança Local (SMGL).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-VI",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "dar pareceres aos projetos destinados a instituir ações ou políticas públicas de promoção cultural desenvolvidas pela Secretaria Municipal da Cultura (SMC);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º-A",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Fica criado o Fundo Municipal do Idoso.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-unico",
+   "pai": "art-1-A",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Constituem receitas do Fundo Municipal do Idoso, além de outras que lhe forem destinadas:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-unico/inc-I",
+   "pai": "art-1-A/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "recursos destinados ao Fundo Municipal de Assistência Social para aplicação em programas e ações relativos ao idoso;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-unico/inc-II",
+   "pai": "art-1-A/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "contribuições de pessoas físicas e jurídicas dedutíveis do Imposto de Renda devido, conforme legislação federal específica;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-unico/inc-III",
+   "pai": "art-1-A/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "dotações orçamentárias que lhe forem destinadas pelo Município de Porto Alegre; IV – recursos oriundos dos governos estadual e federal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-unico/inc-V",
+   "pai": "art-1-A/par-unico",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "contribuições de organismos estrangeiros e internacionais; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-unico/inc-VI",
+   "pai": "art-1-A/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "rendimentos de aplicações no mercado financeiro, observada a legislação pertinente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São componentes do SMDC:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "Ao Comui compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o Serviço de Proteção e Defesa dos Direitos do Consumidor –Procon/PMPA;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o Conselho Municipal de Proteção e Defesa dos Direitos do Consumidor –Condecon; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "17 (dezessete) membros titulares e seus respectivos suplentes indicados pela população organizada a partir das regiões do Orçamento Participativo, mediante indicações encaminhadas e votadas pelos respectivos núcleos de cultura; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o Fundo Municipal dos Direitos Difusos – FMDD. DOS DIREITOS DO CONSUMIDOR",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "encaminhar sugestões e providências destinadas a implementar políticas e programações referentes à promoção do idoso no Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-a",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "artes visuais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-b",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "cinema e vídeo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-c",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "artes cênicas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-d",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "livro e literatura;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-e",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "música;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-f",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "patrimônio cultural;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-g",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "g)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "folclore;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-h",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "h)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "carnaval;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-i",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "i)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "humanidades;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-j",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "j)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "hip-hop;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-k",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "k)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "dança; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-l",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "l)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "pontos de cultura;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-VI",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "expedir a órgãos e entidades governamentais do Município de Porto Alegre, por meio de resoluções, diretrizes para a elaboração de ações e políticas relacionadas com os idosos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-VII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "gerir o Fundo Municipal do Idoso, fixando os critérios para a sua utilização;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-VIII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "dar parecer aos projetos destinados a instituir ações ou políticas públicas de proteção e promoção dos direitos dos idosos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-IX",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "elaborar seu regimento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica instituído o Serviço de Proteção e DefesaDireitos do Consumidor – Procon/PMPA – da Prefeitura Municipal de Porto Alegre,destinado a promover e a implementar, no âmbito do Município de Porto Alegre, açõesdirecionadas à formulação da política de proteção, orientação, defesa e educaçãodo consumidor.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "O Comui será composto por 17 (dezessete) membros, com seus respectivos suplentes, para um mandato de 2 (dois) anos, nomeados pelo Prefeito Municipal, de acordo com o que segue:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "II",
+     "titulo": "DO SERVIÇO DE PROTEÇÃO E DEFESA"
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "orientação e defesa dos direitos reprodutivos dos segmentos etários, étnicos, raciais, religiosos e sexuais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IX",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "respeito à dignidade humana das pessoas com deficiência e altas habilidades, visando à sua incorporação à vida social; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-X",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "respeito à dignidade humana dos amputados, transplantados, portadores do vírus HIV, doentes de AIDS e portadores de qualquer doença ou fato que seja objeto de discriminação ou preconceito.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "10 (dez) munícipes, preferencialmente idosos, que representem as entidades não governamentais e comunitárias, relacionadas com os idosos, eleitos por assembleia do Fórum Municipal do Idoso; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "7 (sete) representantes da Administração Municipal, sendo um representante da Coordenadoria das Políticas Públicas do Idoso, escolhidos de acordo com critérios do Executivo Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3-C",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º-C",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "A partir do resultado financeiro de 2023, fica desvinculado o superávit financeiro do PRÓ-AMBIENTE, apurado ao final de cada exercício, conforme segue:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3-C/inc-I",
+   "pai": "art-3-C",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "quando a execução financeira atingir 80% (oitenta por cento) ou mais, não haverá desvinculação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3-C/inc-II",
+   "pai": "art-3-C",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "quando a execução financeira atingir entre 50% (cinquenta por cento) e 80% (oitenta por cento), será executada a desvinculação de 50% (cinquenta por cento) do superávit financeiro do exercício; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3-C/inc-III",
+   "pai": "art-3-C",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "quando o índice de execução financeira for inferior a 50% (cinquenta por cento), será executada a desvinculação de 100% (cem por cento) do superávit financeiro do exercício.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3-C/par-1",
+   "pai": "art-3-C",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Entende-se por superávit financeiro a diferença positiva entre o ativo financeiro e passivo financeiro, apurado no Balanço Patrimonial do exercício.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3-C/par-2",
+   "pai": "art-3-C",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Entende-se por índice de execução financeira o total da despesa empenhada, dividido pelo total da receita arrecadada no exercício.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3-C/par-3",
+   "pai": "art-3-C",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Compete à Contadoria-Geral do Município da Secretária Municipal da Fazenda (CTGM/SMF) apurar o índice de execução financeira.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3-C/par-4",
+   "pai": "art-3-C",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "O superávit financeiro desvinculado da conta bancária específica deverá ser transferido para o Fundo de Reforma e Desenvolvimento Municipal (FRDM), do qual deverá ser direcionado exclusivamente para pagamento da dívida pública consolidada e para cobertura do déficit previdenciário do RPPS.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3-C/par-5",
+   "pai": "art-3-C",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Os recursos oriundos das compensações ambientais previstos na Lei Complementar nº 757, de 2015, e alterações posteriores, não serão desvinculados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Procon/PMPA integrará a estrutura da Secretaria Municipalda Produção, Indústria e Comércio – SMIC –, constituindo unidade de trabalhodesta.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "2 (dois) representantes da Secretaria Municipal de Saúde;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "resultado operacional próprio, quando não atingido pela desvinculação de que tratam os arts. 3º-A, 3º-B e 3º-C desta Lei;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Constituem objetivos permanentes do Procon/PMPA:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "planejar, elaborar, propor e executar a política municipal de proteção edefesa dos direitos e interesses do consumidor;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "participar da formulação da Política Municipal dos Direitos Humanos e acompanhar a execução das ações programadas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-II",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "receber, analisar, avaliar e encaminhar consultas, denúncias, reclamaçõese sugestões apresentadas por consumidores, entidades representativas ou pessoasjurídicas de direito público ou privado;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-III",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "incentivar e apoiar a criação e a organização de órgãos eassociações comunitárias de defesa do consumidor, bem como a organização das jáexistentes;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-IV",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "colocar à disposição dos consumidores mecanismos que possibiliteminformaros menores preços dos produtos básicos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "propugnar pela orientação e defesa dos direitos reprodutivos e dos direitos dos segmentos étnicos, raciais, religiosos e sexuais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-V",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "manter cadastro atualizado das reclamações contra fornecedores de produtos eserviços, com as respectivas soluções, divulgando-as anualmente, por meioimpresso, epermanentemente, por meio digital;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-VI",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "funcionar como instância de julgamento no processo administrativo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-VII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "solicitar o concurso de órgãos e entidades de notória especializaçãotécnica para a obtenção dos seus objetivos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-VIII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "celebrar compromissos de ajustamento de conduta às exigências legais, nostermos do § 6º do art. 5º da Lei Federal nº 7.347, de 24 de julho de 1985,alterações posteriores, e do art. 6º do Decreto Federal nº 2.181, de 1997,suas respectivas competências;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-IX",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "receber as denúncias, encaminhando as individuais à assistênciajudiciária e as coletivas ao Ministério Público, quando não resolvidasadministrativamente;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-X",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "expedir notificações aos fornecedores para prestarem informações sobrereclamações apresentadas pelos consumidores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-X/ali-b",
+   "pai": "art-5/inc-X",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "maus-tratos, tortura, abuso sexual contra crianças e adolescentes e humilhação realizados por quaisquer pessoas em qualquer lugar ou situação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-X/ali-c",
+   "pai": "art-5/inc-X",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "discriminações de gênero;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-X/ali-d",
+   "pai": "art-5/inc-X",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "discriminações intentadas contra lésbicas, gays, bissexuais, transexuais, travestis e transgêneros;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-X/ali-f",
+   "pai": "art-5/inc-X",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "preconceito e discriminação por raça e etnia;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-X/ali-g",
+   "pai": "art-5/inc-X",
+   "tipo": "alinea",
+   "rotulo": "g)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "atentados aos direitos das crianças, dos adolescentes e dos idosos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-X/ali-h",
+   "pai": "art-5/inc-X",
+   "tipo": "alinea",
+   "rotulo": "h)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "violação dos direitos das populações indígenas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-X/ali-o",
+   "pai": "art-5/inc-X",
+   "tipo": "alinea",
+   "rotulo": "o)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "violação dos direitos dos portadores do vírus HIV e dos doentes da AIDS ou de qualquer outra doença que seja objeto de discriminação ou preconceito; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-X/ali-p",
+   "pai": "art-5/inc-X",
+   "tipo": "alinea",
+   "rotulo": "p)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "violação e discriminação dos direitos da pessoa com deficiência.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-XI",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "fiscalizar e aplicar as sanções administrativas previstas nos arts. 55, §1º, e 56 do Código de Defesa do Consumidor; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-XII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "atuar junto ao sistema municipal de ensino, visando à inclusão do“educação para o consumo” no currículo das disciplinas já existentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A regulamentação da estrutura e do funcionamento do SMDCserá fixada por decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "O CMDH será composto por representantes das seguintes instituições: I – 1 (um) do Gabinete do Prefeito;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Da Estrutura"
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-1",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Poder Executivo Municipal disponibilizará os bens materiais e recursosfinanceiros para o perfeito funcionamento do órgão.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-2",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A fiscalização realizada pelo Procon/PMPA será efetivada pelos servidores doQuadro de Agentes de Fiscalização, lotados na SMIC.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-II",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) da Procuradoria-Geral do Município;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-III",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) da Secretaria Municipal dos Direitos Humanos e Segurança Urbana; de do Sul;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-IV",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) de Movimento do Povo Negro;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-V",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) da Ordem dos Advogados do Brasil – Seção do Rio Grande",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-VI",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) da Câmara de Dirigentes Lojistas de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-VII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) do Fórum Municipal das Mulheres de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-VIII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) de movimento homossexual de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-IX",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) do Núcleo de Estudos da Prostituição;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-X",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) da Associação de Travestis e Transexuais do Estado do Rio Grande do Sul – Igualdade/RS;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XI",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) do Fórum de Pessoas com Deficiência e Altas Habilidades de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) do Conselho do Orçamento Participativo; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XIII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) da Rede Nacional de Pessoas Vivendo com HIV/AIDS – RS.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-unico",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Cada conselheiro do CMDH terá seu suplente, que assumirá nos casos previstos em regimento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6-C",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º-C",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "A partir do resultado financeiro de 2023, fica desvinculado o superávit financeiro do Fun-Patrimônio, apurado ao final de cada exercício, conforme segue:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6-C/inc-I",
+   "pai": "art-6-C",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "quando a execução financeira atingir 20% (vinte por cento) ou menos, será executada a desvinculação de 100% (cem por cento) do superávit financeiro do exercício; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6-C/inc-II",
+   "pai": "art-6-C",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "quando a execução financeira atingir mais de 20% (vinte por cento), será executada a desvinculação de 50% (cinquenta por cento) do superávit financeiro do exercício.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6-C/par-1",
+   "pai": "art-6-C",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Entende-se por superávit financeiro a diferença positiva entre o ativo financeiro e passivo financeiro, apurado no Balanço Patrimonial do exercício.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6-C/par-2",
+   "pai": "art-6-C",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Entende-se por índice de execução financeira o total da despesa empenhada, dividido pelo total da receita arrecadada no exercício.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6-C/par-3",
+   "pai": "art-6-C",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Compete à Contadoria-Geral do Município da Secretária Municipal da Fazenda (CTGM/SMF) apurar o índice de execução financeira.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6-C/par-4",
+   "pai": "art-6-C",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "O superávit financeiro desvinculado da conta bancária específica deverá ser transferido para o Fundo de Reforma e Desenvolvimento Municipal (FRDM), do qual deverá ser direcionado exclusivamente para pagamento da dívida pública consolidada e para cobertura do déficit previdenciário do RPPS.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A definição da estrutura interna do Procon/PMPA, bem como alotação de todos os Cargos em Comissão e Funções Gratificadas, criados emleiespecífica, será regulamentada por decreto, conforme o prazo estabelecidono art. 20desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Gestor B, Coordenador do Procon/PMPA, contará com acolaboração do Condecon, que também atuará como Comissão Permanente deNormatização. DOS DIREITOS DO CONSUMIDOR",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "A ausência não justificada do representante a 3 (três) sessões consecutivas ou 6 (seis) intercaladas do Conselho resultará na sua automática exclusão, devendo o faltoso ser substituído pelo respectivo suplente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-unico",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Em ocorrendo a substituição referida no caput deste artigo, haverá nova indicação de suplência.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica instituído o Conselho Municipal de Proteção e Defesados Direitos do Consumidor – Condecon –, com as seguintes competências:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "III",
+     "titulo": "DO CONSELHO MUNICIPAL DE PROTEÇÃO E DEFESA"
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-I",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "atuar na formulação de estratégias e no controle da política municipal deproteção e defesa dos direitos do consumidor;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-II",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estabelecer diretrizes a serem observadas na elaboração dos projetos doplano de proteção e defesa dos direitos do consumidor;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-III",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "elaborar, revisar e atualizar as normas referidas no § 1º do art.Lei Federal nº 8.078, de 1990, e alterações posteriores, por meio da ComissãoPermanente de Normatização;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-IV",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "fazer editar, inclusive em colaboração com órgãos oficiais, materialinformativo sobre a proteção e defesa do consumidor;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-V",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover atividades e eventos, por meio de órgãos da AdministraçãoPública e de entidades civis interessadas, que contribuam para a orientação doconsumidor;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-VI",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "elaborar seu regimento, que, aprovado, será homologado pelo Senhore",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-VII",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "desenvolver outras atividades compatíveis com suas finalidades.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º-A",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Os membros do Comtu perceberão, a título de representação, uma gratificação pela presença nas reuniões, na forma de jetom, observando-se os valores e os limites estabelecidos na Lei que dispõe sobre as normas gerais para os Conselhos Municipais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "Fica assegurado o desenvolvimento econômico da região composta pelos bairros Belém Novo, Chapéu do Sol, Lageado, Lami e Ponta Grossa por meio de proposição de diretrizes para a atuação do Executivo Municipal na execução da política pública urbana e de meio ambiente e de garantias de articulação e de integração de políticas setoriais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Condecon, órgão central de orientação do SMDC, serácomposto por representantes do Poder Público e entidades privadas representativas defornecedores e consumidores, assim discriminados:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "O CMDH elegerá 1 (um) vice-presidente e 1 (um) secretário executivo, observado o disposto no art. 9º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-I",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Gestor B, Coordenador do Procon/PMPA;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-II",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante da Secretaria Municipal de Educação – SMED;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "alienação de ativos públicos municipais de qualquer natureza, exceto os decorrentes de alienações de imóveis de propriedade do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-III",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante da Secretaria Municipal do Meio Ambiente – SMAM;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-IV",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante da Secretaria Municipal da Produção, Indústria eComércio – SMIC;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-V",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante da Secretaria Municipal de Saúde – SMS;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-VI",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante da Procuradoria-Geral do Município – PGM;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "as receitas decorrentes do superávit financeiro desvinculado da conta bancária específica do Fundo Municipal dos Direitos Difusos (FMDD), do Fundo Pró-Defesa do Meio Ambiente de Porto Alegre (Pró-Ambiente), do Fundo Especial Pró-Mobilidade (FUNPROMOB) e do Fundo Municipal para Restauração, Reforma e Manutenção do Patrimônio Imobiliário do Município de Porto Alegre (Fun-Patrimônio); e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-VII",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante da Defensoria Pública do Estado;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "outras fontes previstas em lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-VIII",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante da Comissão de Defesa do Consumidor, Direitos Humanos eSegurança Urbana – CEDECONDH – da Câmara Municipal de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-IX",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "três representantes de entidades civis de defesa dos direitos do consumidorsediadas em Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-X",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante do Sindicato de Lojistas do Município;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-XI",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante de entidade sindical local de trabalhadores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-XII",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante de entidade sindical local de fornecedores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-XIII",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante da União das Associações de Moradores de PortoAlegre– UAMPA;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-XIV",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante do Sindicato da Indústria da Construção Civil nodo Rio Grande do Sul – Sinduscon/RS;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-XV",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "XV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante do Sindicato Intermunicipal das Empresas de Compra, Venda,Locação e Administração de Imóveis e dos Condomínios Residenciais e Comerciais noRio Grande do Sul – Secovi/RS; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-XVI",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "XVI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante do Conselho Regional de Corretores de Imóveis doGrande do Sul – Creci/RS.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-1",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Ministério Público Estadual e o Ministério Público Federal poderãoparticipar como convidados especiais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-2",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os membros do Conselho serão indicados pelos órgãos e entidades querepresentam, sendo investidos no cargo de Conselheiro pelo Senhor Prefeitomeio de portaria.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-3",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As indicações para designações ou substituições de Conselheirosrepresentantes pertencentes às entidades privadas serão feitas na forma deestatutos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-4",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Será indicado um suplente para cada Conselheiro titular que terá direito avoto e o substituirá nas ausências ou impedimentos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-5",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os órgãos e entidades relacionados no “caput” poderão, a qualquertempo, propor a substituição de seus respectivos representantes, obedecendo ao dispostono § 2º deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-6",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O mandato dos Conselheiros será de 02 (dois) anos, renovável por igualperíodo, sendo que o cargo não será remunerado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-XVII",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "XVII –",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "um representante da Ordem dos Advogados do Brasil – Seccional Rio Grande do Sul (OAB-RS).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 772/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Presidente do Condecon será eleito dentre os membrosrepresentantes dos órgãos públicos, por maioria simples de votos dos Conselheirosnomeados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "Os representantes do Executivo Municipal serão indicados pelo Prefeito Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    },
+    {
+     "desde": 3,
+     "texto": "O presidente, o vice-presidente e o secretário-geral do Condecon serão eleitos por maioria simples de votos dos conselheiros nomeados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 772/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Conselho reunir-se-á ordinariamente, a cadaextraordinariamente, sempre que convocado por seu Presidente ou por solicitação damaioria de seus membros.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/par-1",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As sessões plenárias do Conselho instalar-se-ão com a maioria de seusmembros, que deliberará pela maioria simples dos votos dos presentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/par-2",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na falta de quórum mínimo do plenário, será convocada, automaticamente, novareunião, que acontecerá após 48 (quarenta e oito) horas, com qualquer número departicipantes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica instituído o Fundo Municipal dos Direitos Difusos– FMDD –, conforme o disposto no art. 57 da Lei Federal nº 8.078, de 1990,alterações posteriores, regulamentada pelo Decreto Federal nº 2.181, de 1997, dotado deautonomia administrativa e financeira, destinado ao custeio e/ou financiamento de açõesreferentes à política municipal de relações de consumo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "IV",
+     "titulo": "DO FUNDO MUNICIPAL DOS DIREITOS DIFUSOS"
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O FMDD será gerenciado pelo Gestor B, Coordenador doProcon/PMPA.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14/par-unico",
+   "pai": "art-14",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os recursos financeiros do FMDD serão aplicados preferencialmente:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14/par-unico/inc-I",
+   "pai": "art-14/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na promoção de eventos educativos e científicos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14/par-unico/inc-II",
+   "pai": "art-14/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na edição de material informativo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14/par-unico/inc-III",
+   "pai": "art-14/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "no custeio de exames periciais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14/par-unico/inc-IV",
+   "pai": "art-14/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "no custeio de estudos e trabalhos técnicos necessários à instruçãoinquérito civil ou procedimento investigatório preliminar, instaurado parade fato ofensivo ao interesse coletivo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14/par-unico/inc-V",
+   "pai": "art-14/par-unico",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "no estímulo à criação e ao desenvolvimento de programas municipaise deentidades civis de defesa do consumidor que preencham os requisitos previstos no art. 82,inc. IV, da Lei Federal nº 8.078, de 1990, e alterações posteriores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14/par-unico/inc-VI",
+   "pai": "art-14/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na modernização administrativa dos órgãos públicos responsáveis, diretaou indiretamente, pela execução da política municipal de relações de consumo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Constituem recursos financeiros do FMDD:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-I",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o produto das indenizações e multas oriundas de condenações judiciais eações civis públicas e de ações coletivas referentes a relações de consumo,previstas pela legislação federal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-II",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os valores arrecadados pelo Procon/PMPA, oriundos de aplicação demultas epagamentos de indenizações;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-III",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "as dotações orçamentárias anuais e os créditos adicionais que foremdestinados;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-IV",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os recursos oriundos da cobrança de taxas ou custas que forem criadas emdecorrência da prestação de serviços pelo Município, na área de defesa dosdo consumidor;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-V",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "transferências do fundo congênere no âmbito nacional e estadual;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-VI",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "recursos advindos da assinatura de convênios firmados com órgãos eentidades de direito público e/ou privado, nacionais ou internacionais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-VII",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "recursos originários de contribuições, donativos e legados de pessoasfísicas e jurídicas, de direito público e/ou privado, nacionais ou internacionais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-VIII",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "saldos de exercícios anteriores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "saldos de exercícios anteriores, quando não atingidos pela desvinculação de que tratam os arts. 18-A, 18-B e 18-C desta Lei Complementar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-IX",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "recursos advindos de compromissos de ajustamentos firmados;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-X",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "rendimentos decorrentes de depósitos bancários e aplicações financeirasdas disponibilidades do FMDD em operações ativas, observadas as disposições legaispertinentes; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-XI",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "outras receitas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/par-unico",
+   "pai": "art-15",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os recursos advindos dos fundos congêneres no âmbito estadual emunicipal não poderão ser utilizados para fins de custeio do SMDC.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "Os recursos arrecadados poderão ser aplicados no financiamento da implantação das obras de infraestrutura, das aquisições e das desapropriações, das despesas administrativas e judiciais dela decorrentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os recursos financeiros que compõem o FMDD serãomovimentados por meio de conta vinculada exclusiva, sob a denominação “FundoMunicipal dos Direitos Difusos”, aberta no sistema financeiro estadual oufederal,vedada sua utilização para qualquer outra finalidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16/par-unico",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica o Poder Executivo autorizado a abrir crédito especial para oFMDD até o valor do ingresso dos recursos financeiros referidos no art. 15Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os recursos financeiros do FMDD serão aplicados com oobjetivo de ressarcir e prevenir danos causados à coletividade, relativosao meioambiente, ao consumidor, bem como a bens e direitos de valor artístico, estético,histórico, turístico e paisagístico ou qualquer outro interesse difuso oucoletivo noterritório municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-1",
+   "pai": "art-17",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os recursos do FMDD serão aplicados:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-1/inc-I",
+   "pai": "art-17/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na recuperação de bens lesados;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-1/inc-II",
+   "pai": "art-17/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na promoção de eventos educativos e científicos e na edição de materialinformativo relacionado à natureza da infração ou do dano causado; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-1/inc-III",
+   "pai": "art-17/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "no custeio de exames periciais, estudos e trabalhos técnicos necessáriosà instrução de inquérito civil ou procedimento investigatório preliminar,instauradopara a apuração de fato ofensivo ao interesse difuso ou coletivo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-2",
+   "pai": "art-17",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na hipótese do inc. III do parágrafo anterior, deverá o Conselho considerar aexistência de fontes alternativas para o custeio de perícia, a sua relevância, a suaurgência e as evidências de sua necessidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Gestor do FMDD fica obrigado a publicar, semestralmente, noDiário Oficial de Porto Alegre, os demonstrativos das receitas e das despesas do Fundo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18-B",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18-B",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Fica desvinculado o valor integral do superávit financeiro de 2022.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18-C",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18-C",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "A partir do resultado financeiro de 2023, fica desvinculado o superávit financeiro do FMDD, apurado ao final de cada exercício, conforme segue:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18-C/inc-I",
+   "pai": "art-18-C",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "quando a execução financeira atingir 80% (oitenta por cento) ou mais, não haverá desvinculação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18-C/inc-II",
+   "pai": "art-18-C",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "quando a execução financeira atingir entre 50% (cinquenta por cento) e 80% (oitenta por cento), será executada a desvinculação de 50% (cinquenta por cento) do superávit financeiro do exercício; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18-C/inc-III",
+   "pai": "art-18-C",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "quando o índice de execução financeira for inferior a 50% (cinquenta por cento), será executada a desvinculação de 100% (cem por cento) do superávit financeiro do exercício.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18-C/par-1",
+   "pai": "art-18-C",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Entende-se por superávit financeiro a diferença positiva entre o ativo financeiro e o passivo financeiro, apurado no Balanço Patrimonial do exercício.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18-C/par-2",
+   "pai": "art-18-C",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Entende-se por índice de execução financeira o total da despesa empenhada, dividido pelo total da receita arrecadada no exercício.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18-C/par-3",
+   "pai": "art-18-C",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Compete à Contadoria-Geral do Município da Secretária Municipal da Fazenda (CTGM/SMF) apurar o índice de execução financeira.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18-C/par-4",
+   "pai": "art-18-C",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "O superávit financeiro desvinculado da conta bancária específica deverá ser transferido para o Fundo de Reforma e Desenvolvimento Municipal (FRDM), do qual deverá ser direcionado exclusivamente para pagamento da dívida pública consolidada e para cobertura do déficit previdenciário do Regime Próprio de Previdência Social (RPPS).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 987/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18-D",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18-D",
+   "estados": [
+    {
+     "desde": 5,
+     "texto": "Fica autorizado o Executivo Municipal a desvincular o valor dos saldos financeiros existentes e contabilizados em cada fundo público, na competência de abril de 2024, para atendimento às necessidades relacionadas ao Decreto nº 22.647, de 2 de maio de 2024.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.014/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18-D/par-1",
+   "pai": "art-18-D",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 5,
+     "texto": "Entende-se por saldo financeiro o valor da disponibilidade financeira, subtraídos os valores dos compromissos constantes no Sistema Integrado de Gestão Fiscal (Sigef), tais quais as despesas pré-empenhadas, empenhadas e restos a pagar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.014/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18-D/par-2",
+   "pai": "art-18-D",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 5,
+     "texto": "Compete à Contadoria-Geral do Município da Secretaria Municipal da Fazenda (CTGM/SMF) apurar o saldo financeiro.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.014/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18-D/par-3",
+   "pai": "art-18-D",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 5,
+     "texto": "O valor desvinculado da conta bancária específica deverá ser transferido para o Tesouro Municipal (TM), em conta bancária a ser por ele determinada, o qual direcionará os valores ao atendimento das despesas relacionadas à calamidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.014/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18-D/par-4",
+   "pai": "art-18-D",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 5,
+     "texto": "Ficam excepcionalizados os recursos decorrentes de transferências do Governo Federal ou Estadual ou recebidos de outras pessoas de direito público ou privado com destinação específica prevista em lei, contrato, convênio e afins, salvo se forem aplicados na referida destinação, bem como os recursos oriundos dos Termos de Ajustamento de Conduta (TAC), condenações judiciais e transações penais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.014/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O procedimento administrativo aplicável às reclamaçõesdos consumidores será aquele previsto no Regulamento da Lei Estadual nº 10.913, de 3 dejaneiro de 1997.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 600/2008"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "V",
+     "titulo": "DAS DISPOSIÇÕES FINAIS"
+    }
+   ]
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Poder Executivo Municipal regulamentará esta LeiComplementar no prazo de 90 (noventa) dias, a contar de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam revogadas as Leis nos 7.168, de 27 de outubro de 1992,e 7.481, de 2 de setembro de 1994, e a Lei Complementar nº 360, de 6 de dezembro de 1995.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica o Executivo Municipal autorizado a abrirespeciais, bem como créditos adicionais necessários à aplicação desta LeiComplementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na datade suapublicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 37041,
+    "rotulo": "Lei Complementar municipal nº 660, de 07 de dezembro de 2010"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 20 de maio de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 20 de maio de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 28 de março de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 28 de março de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 563/2007) | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 352, de 8 de agosto de 1995\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"352\",\"ano\":\"1995\",\"chave\":\"lc 352/1995\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 352, de 8 de agosto de 1995\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"352\",\"ano\":\"1995\",\"chave\":\"lc 352/1995\"}, versão: lc 563/2007) | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 434, de 1º de dezembro de 1999\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"434\",\"ano\":\"1999\",\"chave\":\"lc 434/1999\"}, versão: lc 563/2007) | artigo-base \"art. 41º\" não encontrado — não é possível posicionar \"art. 41\" | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 447, de 10 de maio de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"447\",\"ano\":\"2000\",\"chave\":\"lc 447/2000\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 585, de 28 de dezembro de 2007\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"585\",\"ano\":\"2007\",\"chave\":\"lc 585/2007\"}, versão: lc 563/2007)",
+   "enderecos": [
+    "art-3",
+    "art-3/par-unico",
+    "art-1",
+    "art-1/par-unico",
+    "art-9/inc-I",
+    "art-9/inc-VI",
+    "art-40/par-5",
+    "art-41",
+    "art-15-A",
+    "art-2/inc-V"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 47275,
+    "rotulo": "Lei Complementar municipal nº 987, de 29 de setembro de 2023"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 612, de 19 de fevereiro de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"612\",\"ano\":\"2009\",\"chave\":\"lc 612/2009\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 869, de 27 de dezembro de 2019\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"869\",\"ano\":\"2019\",\"chave\":\"lc 869/2019\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 4.235, de 21 de dezembro de 1976\",\"tipoAto\":\"LEI\",\"numero\":\"4235\",\"ano\":\"1976\",\"chave\":\"l 4235/1976\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 5.994, de 25 de novembro de 1987\",\"tipoAto\":\"LEI\",\"numero\":\"5994\",\"ano\":\"1987\",\"chave\":\"l 5994/1987\"}, versão: lc 563/2007) | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
+   "enderecos": [
+    "art-6-A",
+    "art-9/par-unico/inc-VII",
+    "art-3-B",
+    "art-6-B",
+    "art-16"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 48769,
+    "rotulo": "Lei Complementar municipal nº 1.014, de 21 de junho de 2024"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 4.235, de 21 de dezembro de 1976\",\"tipoAto\":\"LEI\",\"numero\":\"4235\",\"ano\":\"1976\",\"chave\":\"l 4235/1976\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 4.235, de 21 de dezembro de 1976\",\"tipoAto\":\"LEI\",\"numero\":\"4235\",\"ano\":\"1976\",\"chave\":\"l 4235/1976\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 4.235, de 21 de dezembro de 1976\",\"tipoAto\":\"LEI\",\"numero\":\"4235\",\"ano\":\"1976\",\"chave\":\"l 4235/1976\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 4.235, de 21 de dezembro de 1976\",\"tipoAto\":\"LEI\",\"numero\":\"4235\",\"ano\":\"1976\",\"chave\":\"l 4235/1976\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 4.235, de 21 de dezembro de 1976\",\"tipoAto\":\"LEI\",\"numero\":\"4235\",\"ano\":\"1976\",\"chave\":\"l 4235/1976\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 5.994, de 25 de novembro de 1987\",\"tipoAto\":\"LEI\",\"numero\":\"5994\",\"ano\":\"1987\",\"chave\":\"l 5994/1987\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 5.994, de 25 de novembro de 1987\",\"tipoAto\":\"LEI\",\"numero\":\"5994\",\"ano\":\"1987\",\"chave\":\"l 5994/1987\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 5.994, de 25 de novembro de 1987\",\"tipoAto\":\"LEI\",\"numero\":\"5994\",\"ano\":\"1987\",\"chave\":\"l 5994/1987\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 5.994, de 25 de novembro de 1987\",\"tipoAto\":\"LEI\",\"numero\":\"5994\",\"ano\":\"1987\",\"chave\":\"l 5994/1987\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 5.994, de 25 de novembro de 1987\",\"tipoAto\":\"LEI\",\"numero\":\"5994\",\"ano\":\"1987\",\"chave\":\"l 5994/1987\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 3 de fevereiro de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 3 de fevereiro de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 3 de fevereiro de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 3 de fevereiro de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 3 de fevereiro de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 9.329, de 22 de dezembro de 2003\",\"tipoAto\":\"LEI\",\"numero\":\"9329\",\"ano\":\"2003\",\"chave\":\"l 9329/2003\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 9.329, de 22 de dezembro de 2003\",\"tipoAto\":\"LEI\",\"numero\":\"9329\",\"ano\":\"2003\",\"chave\":\"l 9329/2003\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 9.329, de 22 de dezembro de 2003\",\"tipoAto\":\"LEI\",\"numero\":\"9329\",\"ano\":\"2003\",\"chave\":\"l 9329/2003\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 9.329, de 22 de dezembro de 2003\",\"tipoAto\":\"LEI\",\"numero\":\"9329\",\"ano\":\"2003\",\"chave\":\"l 9329/2003\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 9.329, de 22 de dezembro de 2003\",\"tipoAto\":\"LEI\",\"numero\":\"9329\",\"ano\":\"2003\",\"chave\":\"l 9329/2003\"}, versão: lc 563/2007)",
+   "enderecos": [
+    "art-3-D",
+    "art-3-D/par-1",
+    "art-3-D/par-2",
+    "art-3-D/par-3",
+    "art-3-D/par-4",
+    "art-6-D",
+    "art-6-D/par-1",
+    "art-6-D/par-2",
+    "art-6-D/par-3",
+    "art-6-D/par-4",
+    "art-12-B",
+    "art-12-B/par-1",
+    "art-12-B/par-2",
+    "art-12-B/par-3",
+    "art-12-B/par-4",
+    "art-9-B",
+    "art-9-B/par-1",
+    "art-9-B/par-2",
+    "art-9-B/par-3",
+    "art-9-B/par-4"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 47274,
+    "rotulo": "Lei municipal nº 13.641, de 29 de setembro de 2023"
+   },
+   "motivo": "texto_indisponivel",
+   "detalhe": "o texto desta alteradora ainda não foi baixado ou extraído",
+   "enderecos": []
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-1",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-1/par-unico",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-3",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-9/inc-I",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-9/inc-VI",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-16",
+   "desde": "2023-09-29"
+  },
+  {
+   "id": "art-16/par-unico",
+   "desde": "2023-09-29"
+  },
+  {
+   "id": "art-1/inc-VI",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-3/inc-IX",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-3/inc-X",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-3/inc-I",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-3/inc-II",
+   "desde": "2010-12-07"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "idSapl": 39057,
+ "rotulo": "Lei Complementar municipal nº 719, de 30 de setembro de 2013",
+ "sha256Origem": "1bed482f1fc8aa721ea683df9598d9f88683b9d5fdfa04e7258d5db0f98c947c",
+ "estruturadoEm": "2026-11-19T09:26:03.519Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "brasao.gif Prefeitura Municipal de Porto",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "(2807 bytes) Alegre LEICOMPLEMENTAR Nº 719, 30 DE SETEMBRO DE 2013. Alterao inc. III do art. 11 e inclui art. 14-A na Lei Complementar nº 628, de 17de agosto de 2009, e alterações posteriores, dispondo sobre a proibição devenda ou disponibilização de bebidas alcoólicas a crianças e adolescentes.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso dasatribuições que me confere o inciso II do artigo 94 da Lei Orgânica doMunicípio, sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 setembro de 2013.\nSebastiãoMelo,\nPrefeito,exercício.\nHumbertoGoulart,\nSecretárioMunicipal da Produção, Indústria e Comércio.\nRegistre-se e publique-se.\nUrbanoSchmitt,",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficaalterado o inc. III do art. 11 da Lei Complementar nº 628, de 17 de agosto2009, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 11.....................................................................................\n...................................................................................................\nIII – venda, inclusive por meio de tele-entrega, ou disponibilizaçãode bebidas alcoólicas,\nindependentemente de seu teor alcoólico, a criançasadolescentes;\n........................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficaincluído art. 14-A na Lei Complementar nº 628, de 2009, e alteraçõesposteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 14-A. Em caso de aquisição ou disponibilização de bebidasalcoólicas por meio de serviços de\ntele-entrega, o fornecedor deverá registrar,na via do comprovante de entrega do produto, a ser arquivada na\nempresafornecedora, o nome e o número do RG (registro geral) daquele que recebeuasbebidas.\nParágrafo único. A empresa fornecedora das bebidas deverá guardar oscomprovantes pelo prazo de 90\n(noventa) dias.”"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "EstaComplementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.963,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "idSapl": 34391,
+ "rotulo": "Lei Complementar municipal nº 553, de 05 de julho de 2006",
+ "sha256Origem": "9f3d21fa15e5f1a2a5172e569c9d3c9dfb2503673400320dd0b79956ee499a6c",
+ "estruturadoEm": "2026-11-19T09:26:04.129Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "553",
+  "ano": "2006",
+  "data": "2006-07-05",
+  "epigrafe": "LEI COMPLEMENTAR N° 553, de 5 de julho de 2006.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui inc. IV no art. 33 da Lei Complementar nº 12, de 7 de janeiro de 1975, e alterações posteriores, incluindo dispositivo para o cancelamento de licença de localização nos casos comprovados de fabricação, comercialização e transporte de produtos industrializados ilegalmente, falsificados ou receptados de roubo.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 5 de julho de 2006.\nJosé Fogaça,\nPrefeito.\nIdenir Cecchin,\nSecretário Municipal da Produção, Indústria e Comércio.\nRegistre-se e publique-se.\nClóvis Magalhães,\nSecretário Municipal de Gestão e\nAcompanhamento Estratégico.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído inc. IV no art. 33 da Lei Complementar nº 12, de 7 de janeiro de 1975, e alterações posteriores, com a seguinte redação:",
+   "blocoDeAlteracao": "“Art. 33. ...\n...\nIV – nos casos comprovados de fabricação, comercialização e transporte\nde produtos industrializados ilegalmente, falsificados ou receptados de roubo.\n...” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.951,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

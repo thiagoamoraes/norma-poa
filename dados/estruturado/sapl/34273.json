@@ -1,0 +1,87 @@
+{
+ "idSapl": 34273,
+ "rotulo": "Lei Complementar municipal nº 549, de 09 de maio de 2006",
+ "sha256Origem": "e94d336273c17dd3320522f1ef801047df438a8ee5684bb35715741834ce283b",
+ "estruturadoEm": "2026-11-19T09:26:04.134Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "549",
+  "ano": "2006",
+  "data": "2006-05-09",
+  "epigrafe": "LEI COMPLEMENTAR Nº 549, de 9 de maio de 2006.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Acrescenta § 3º ao art. 68 da Lei Complementar n° 133, de 31 de dezembro de 1985 – Estatuto dos Funcionários Públicos do Município de Porto Alegre –, e alterações posteriores, possibilitando a atribuição de função gratificada especial a servidores detentores de cargo de provimento efetivo do Município ou de outra esfera governamental, cedidos ao Município, com ônus para o órgão de origem, e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de maio de 2006.\nJosé Fogaça,\nPrefeito.\nSônia Vaz Pinto,\nSecretária Municipal de Administração.\nRegistre-se e publique-se.\nClóvis Magalhães,\nSecretário Municipal de Gestão e Acompanhamento Estratégico.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica acrescentado o § 3º ao art. 68 da Lei Complementar n° 133, de 31 de dezembro de 1985 – Estatuto dos Funcionários Públicos do Município de Porto Alegre –, e alterações posteriores, com a seguinte redação:",
+   "blocoDeAlteracao": "“Art. 68...\n...\n§ 3° Poderá ser atribuída função gratificada especial pelo desempenho\nde atribuições de chefia, direção e assessoramento a servidores detentores de\ncargo de provimento efetivo do Município ou de outra esfera governamental, cedi\ndos para o Município, com ônus para o órgão de origem.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As funções gratificadas especiais de que trata esta Lei Complementar terão o valor equivalente a 70% (setenta por cento) da remuneração decada um dos respectivos cargos em comissão existentes no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A atribuição de função gratificada especial acarretará a impossibilidade de nomeação do cargo em comissão respectivo, cujo valor lhe seja equivalente, e impedirá a atribuição de nova gratificação decorrente da mesma função."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A função gratificada especial não poderá ser incorporada aos vencimentos e proventos."
+  },
+  {
+   "id": "art-2/par-3",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "A atribuição da função gratificada especial será limitada a 15% (quinze por cento) dos cargos em comissão existentes no Município e será regula mentada por meio de Decreto do Poder Executivo e de Resolução do Poder Legislativo."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As despesas decorrentes desta Lei Complementar correrão à conta de dotações orçamentárias próprias."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 7,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "idSapl": 39258,
+ "rotulo": "Lei Complementar municipal nº 733, de 24 de janeiro de 2014",
+ "sha256Origem": "d87edeedf0c59120c5ef5e605c690a6ad5e69eeb29f29fb85ca62f7ae2a77911",
+ "estruturadoEm": "2026-11-19T09:26:03.471Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "brasao.gif Prefeitura Municipal de Porto",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "(2807 bytes) Alegre LEI COMPLEMENTAR733, DE 24 DE JANEIRO DE 2014. Altera o § 1º einclui § 5º no art. 15 da Lei Complementar nº 170, de 31 de dezembro de1987, e alterações posteriores, proibindo a interrupção do abastecimento deágua nos casos que especifica e dando outras providências. OPREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições queconfere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono aseguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 24 de janeiro de 2014.\nSebastião Melo,\nPrefeito, em exercício.\nRegistre-se epublique-se.\nUrbano Schmitt,\nSecretário Municipalde Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "No art. 15 da Lei Complementar nº 170, de 31 de dezembro de 1987, ealterações posteriores, fica alterado o § 1º, e fica incluído § 5º, conformesegue: “Art. 15....................................................................................."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A interrupção poderá ser efetivada, no caso do inc. I do caput desteartigo, após 5 (cinco) dias úteis subsequentes à entrega do Aviso de CorteFornecimento de Água. ..................................................................................................."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.946,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "§ 2º",
+     "naOrigem": "5º"
+    }
+   ]
+  }
+ }
+}

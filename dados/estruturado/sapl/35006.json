@@ -1,0 +1,52 @@
+{
+ "idSapl": 35006,
+ "rotulo": "Lei Complementar municipal nº 575, de 13 de julho de 2007",
+ "sha256Origem": "c1970bb889454ec58822d2a332954219fd80692b94c4fcd41a1a462dd6a6af2d",
+ "estruturadoEm": "2026-11-19T09:26:04.103Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "575",
+  "ano": "2007",
+  "data": "2007-07-13",
+  "epigrafe": "LEI COMPLEMENTAR Nº 575, de 13 de julho de 2007.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a Lei Complementar nº 395, de 26 de dezembro de 1996, que institui o Código Municipal de Saúde do Município de Porto Alegre, alterada pela Lei Complementar nº 504, de 26 de maio de 2004, excetuando a proibição da permanência de animais nas escolas, desde que sob a orientação escolar e estando de acordo com as normas de vigilância sanitária.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de julho de 2007.\nJosé Fogaça,\nPrefeito.\nEliseu Santos,\nSecretário Municipal de Saúde.\nRegistre-se e publique-se.\nClóvis Magalhães,\nSecretário Municipal de Gestão e\nAcompanhamento Estratégico.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "No art. 140 da Lei Complementar nº 395, de 26 de dezembro de 1996, alterada pela Lei Complementar nº 504, de 26 de maio de 2004, fica altera do o “caput”, e fica incluído § 2º, conforme segue, passando o parágrafo único a constar como § 1º:",
+   "blocoDeAlteracao": "“Art. 140. É proibida a permanência de animais nos recintos e locais\npúblicos ou privados, de uso coletivo, cinemas, teatros, clubes esportivos e recreativos, estabelecimentos comerciais, industriais e de saúde, piscinas, feiras e\n‘playgrounds’.\n§ 1º ...\n§ 2º Excetuam-se do disposto no “caput” deste artigo as escolas, desde\nque sob a orientação escolar e estando de acordo com as normas de vigilância\nsanitária.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.96,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "idSapl": 40497,
+ "rotulo": "Lei Complementar municipal nº 788, de 21 de janeiro de 2016",
+ "sha256Origem": "b5ac5d3b696f053f38be8dfd4b0ca4c0ef51b0978f6832d735ab559a23448af6",
+ "estruturadoEm": "2026-11-19T09:26:03.321Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "788",
+  "ano": "2016",
+  "data": "2016-01-21",
+  "epigrafe": "LEI COMPLEMENTAR Nº 788, 21 DE JANEIRO DE 2016",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Revoga os arts. 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56 e 57 da Lei Complementar nº 12, de 7 de janeiro de 1975 – que institui posturas para o Município de Porto Alegre e dá outras providências –, e alterações posteriores, excluindo dispositivos acerca de elevadores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de janeiro de 2016.\nJosé Fortunati,\nPrefeito.\nValter Nagelstein,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam revogados os arts. 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56 e 57 da Lei Complementar nº 12, de 7 de janeiro de 1975, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor em 180 (cento e oitenta) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.94,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

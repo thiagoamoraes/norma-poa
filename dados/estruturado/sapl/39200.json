@@ -1,0 +1,62 @@
+{
+ "idSapl": 39200,
+ "rotulo": "Lei Complementar municipal nº 722, de 30 de dezembro de 2013",
+ "sha256Origem": "d639c6ab1168f6141fc075dec7cd922a9812efbc6c730d51250af29e214019ae",
+ "estruturadoEm": "2026-11-19T09:26:03.503Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "brasao.gif Prefeitura Municipal de Porto",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "(2807 bytes) Alegre LEI COMPLEMENTAR722, DE 30 DE DEZEMBRO DE 2013. Altera o caputdo art. 9º e o § 2º do art. 17-A da Lei Complementar nº 636, de 13 dejaneiro de 2010, alterada pela Lei Complementar nº 699, de 28 de junho de2012, ampliando a base de instituições financeiras às quais está o ExecutivoMunicipal autorizado a doar áreas de terra de sua propriedade para aconstrução de habitações que especifica. OPREFEITO MUNICIPAL DE PORTO ALEGRE Façosaber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confereo inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinteComplementar:",
+ "preambulo": null,
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2013.\nSebastião Melo,\nPrefeito, em exercício.\nEroni Izaias Numer,\nSecretário Municipal da Fazenda, em exercício.\nRegistre-se epublique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o caput do art. 9º da Lei Complementar nº 636,de janeiro de 2010, alterada pela Lei Complementar nº 699, de 28 de junhode2012, conforme segue:",
+   "blocoDeAlteracao": "“Art.9º Fica o Executivo Municipal autorizado a doar, mediante lei específica,ainstituições\nfinanceiras oficiais federais, em nome do Fundo de ArrendamentoResidencial, instituído pela Lei\nFederal nº 10.188, de 12 de fevereiro de2001,e alterações posteriores, áreas de terra de sua\npropriedade para a construção dehabitações que se enquadrem no disposto no inc. I do art. 3º\ndesta LeiComplementar.\n.........................................................................................”(NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o § 2º do art. 17-A da Lei Complementar nº 636, de 2010,alterada pela Lei Complementar nº 699, de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art.17-A.................................................................................\n..................................................................................................\n§ 2ºA concessão do incentivo de que trata este artigo fica condicionada à aprovaçãodas\ninstituições financeiras oficiais federais, na qualidade de agentesexecutores do Programa Nacional\nde Habitação Urbana, mediante apresentaçãocustos de cada empreendimento superiores ao valor\ndefinido pelo Programa.”"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.969,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

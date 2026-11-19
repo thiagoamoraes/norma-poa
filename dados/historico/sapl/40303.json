@@ -1,0 +1,29 @@
+{
+ "geradoEm": "2026-11-19T09:26:05.118Z",
+ "idSapl": 40303,
+ "rotulo": "Lei Complementar municipal nº 775, de 23 de outubro de 2015",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 775/2015@2015-10-23",
+   "data": "2015-10-23",
+   "fonte": null
+  }
+ ],
+ "dispositivos": [],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 40377,
+    "rotulo": "Lei Complementar municipal nº 784, de 30 de novembro de 2015"
+   },
+   "motivo": "comando_recusado",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 755, de 30 de dezembro de 2014\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"755\",\"ano\":\"2014\",\"chave\":\"lc 755/2014\"}, versão: lc 775/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 755, de 30 de dezembro de 2014\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"755\",\"ano\":\"2014\",\"chave\":\"lc 755/2014\"}, versão: lc 775/2015)",
+   "enderecos": [
+    "art-17/par-unico"
+   ]
+  }
+ ],
+ "aConferir": []
+}

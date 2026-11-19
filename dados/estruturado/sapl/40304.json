@@ -1,0 +1,75 @@
+{
+ "idSapl": 40304,
+ "rotulo": "Lei Complementar municipal nº 776, de 23 de outubro de 2015",
+ "sha256Origem": "ec4a205473197cc05535ffd285557af0ff37df5753f3949128b10787837bc3e7",
+ "estruturadoEm": "2026-11-19T09:26:03.344Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "776",
+  "ano": "2015",
+  "data": "2015-10-23",
+  "epigrafe": "LEI COMPLEMENTAR Nº 776, DE 23 DE OUTUBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera os arts. 23 e 26 e revoga o § 1º do art. 22, os incs. I a IV do caput e o parágrafo único do art. 23 e os arts. 24 e 25 da Lei Complementar nº 694, de 21 de maio de 2012, excluindo proibições estabelecidas para a comercialização de animais e determinando a esterilização, a microchipagem, a identificação e o registro de animais comercializados no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 23 de outubro de 2015.\nJosé Fortunati,\nPrefeito.\nMaurício Silveira de Oliveira,\nSecretário Especial de Direito Animais.\nRegistre-se e publique-se.\nRonaldo Lopes Garcia,\nSecretário Municipal de Gestão, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o art. 26 da Lei Complementar nº 694, de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 26. Aplicar-se-ão, na íntegra, para os estabelecimentos que comercializem\nanimais domésticos, as regras definidas para canis e gatis nesta Lei Complementar, em especial\nas exigências estabelecidas nos arts. 22, 35, 36, 37, incs. I e VI, e 39.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Os estabelecimentos comerciais têm o prazo de 90 (noventa) dias, contados da data de publicação desta Lei Complementar, para se adequarem às suas disposições."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei Complementar entra em vigor na data de publicação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "VETADO.",
+   "vetado": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.946,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

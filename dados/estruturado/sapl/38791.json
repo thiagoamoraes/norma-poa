@@ -1,0 +1,61 @@
+{
+ "idSapl": 38791,
+ "rotulo": "Lei Complementar municipal nº 710, de 18 de fevereiro de 2013",
+ "sha256Origem": "b7e11d9a5e25698255f1dc6482547b8de89f6f4514ac57a666fde127fcc4226c",
+ "estruturadoEm": "2026-11-19T09:26:03.531Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "710",
+  "ano": "2013",
+  "data": "2013-02-18",
+  "epigrafe": "brasao.g",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "(2807     Prefeitura Municipal de Porto bytes)     Alegre LEI COMPLEMENTAR Nº 710, DEFEVEREIRO DE 2013. Inclui o logradouro Avenida Ecoville naFigura 2 do Anexo 1 e no Anexo 2 da Lei Complementar nº 626, de 15 de julhode 2009 – que institui o Plano Diretor Cicloviário Integrado e dá outrasprovidências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipalaprovou e eu, no uso das atribuições que me confere o inciso II do artigo94 daLei Orgânica do Município, sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE,18 de fevereiro de 2013.\nJosé Fortunati,\nPrefeito.\nCristiano Tatsch,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o logradouroAvenida Ecoville na Figura 2 do Anexo 1 da Lei Complementar nº 626, de 15dejulho de 2009."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluído o logradouroAvenida Ecoville, trecho toda a via, na Tabela Descritiva das Vias da RedeCicloviária Estrutural, Anexo 2 da Lei Complementar nº 626, de 2009."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra emvigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.976,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

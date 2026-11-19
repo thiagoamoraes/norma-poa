@@ -1,0 +1,1320 @@
+{
+ "geradoEm": "2026-11-19T09:26:05.122Z",
+ "idSapl": 40706,
+ "rotulo": "Lei Complementar municipal nº 798, de 10 de junho de 2016",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 798/2016@2016-06-10",
+   "data": "2016-06-10",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 798/2016@2020-03-27",
+   "data": "2020-03-27",
+   "fonte": {
+    "idSapl": 42519,
+    "rotulo": "Lei Complementar municipal nº 880, de 27 de março de 2020"
+   },
+   "comandosAplicados": 18
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica criada a Gratificação por Atividade de Planejamento Estratégico (GAPE), devida aos servidores investidos em cargos de provimento efetivo e aos servidores designados para cargos em comissão (CC), lotados e em efetivo exercício na Secretaria Municipal de Planejamento Estratégico e Orçamento (SMPEO), que atuam nas atividades gerais e nas atividades especiais do planejamento estratégico municipal, a ser concedida e paga nos termos desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica criada a GAPE, devida aos servidores investidos em cargos de provimento efetivo e aos servidores designados para cargos em comissão (CC), em efetivo exercício no Escritório de Planejamento Estratégico e Gestão de Projetos (EPEGP) e na Coordenação de Monitoramento de Resultados (CMR), da Secretaria Municipal de Planejamento e Gestão (SMPG), que atuam nas atividades gerais e nas atividades especiais do planejamento estratégico municipal, a ser concedida e paga nos termos desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "É facultada a percepção de GAPE ao Diretor-Geral responsável pelas estruturas do EPEGP e da CMR, observadas as limitações previstas no art. 8º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O valor da GAPE é composto de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Parcela Básica (PB) para servidores que atuam nas atividades gerais do planejamento estratégico descritas no art. 3º desta Lei Complementar, equivalente ao índice de 2,2 (dois vírgula dois) aplicado sobre o vencimento básico inicial do cargo de provimento efetivo em que estiverem investidos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Parcela Especial (PE) para servidores que atuam nas atividades especiais do planejamento estratégico descritas no art. 4º desta Lei Complementar, equivalente aos seguintes índices aplicados sobre o vencimento básico inicial do cargo de provimento efetivo em que estiverem investidos:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II/ali-a",
+   "pai": "art-2/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "0,1 (zero vírgula um), para atividades com código PE1;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II/ali-b",
+   "pai": "art-2/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "0,5 (zero vírgula cinco), para atividades com código PE2;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II/ali-c",
+   "pai": "art-2/inc-II",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1,3 (um vírgula três), para atividades com código PE3; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II/ali-d",
+   "pai": "art-2/inc-II",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1,5 (um vírgula cinco), para atividades com código PE4.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O valor das parcelas da GAPE, previstas nos incs. I e II do caput deste artigo, será pago cumulativa e mensalmente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O valor da GAPE, conforme os incs. I e II do caput deste artigo, será calculado na proporção de 100% (cem por cento) do previsto, para servidores com carga horária semanal de 40 (quarenta) horas, e de 50% (cinquenta por cento) do previsto, para servidores com carga horária semanal de 30 (trinta) horas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-3",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica autorizada a percepção apenas da PB da GAPE para servidores que atuam exclusivamente nas atividades gerais do planejamento estratégico na SMPEO, desde que já atendidos cumulativamente os requisitos temporais previstos nos incs. I, II e III do caput do art. 10 desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica autorizada a percepção apenas da Parcela Básica (PB) da GAPE para servidores que atuam exclusivamente nas atividades gerais do planejamento estratégico no EPEGP ou na CMR, desde que já atendidos cumulativamente os requisitos temporais previstos nos incs. I, II e III do caput do art. 10 desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-4",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O servidor do quadro de provimento efetivo do Município de Porto Alegre que, exercendo o cargo de Secretário Municipal de Planejamento Estratégico e Orçamento, optar pela remuneração que percebia no cargo de origem fará jus à PB da GAPE, conforme o inc. I do caput deste artigo, acrescida da PE, conforme al. d do inc. II do caput deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-5",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os servidores investidos em cargos de provimento efetivo da Prefeitura Municipal de Porto Alegre (PMPA) e designados para CCs lotados na SMPEO, com requisito de nível superior, que estiverem no exercício das atividades gerais e especiais do planejamento estratégico, perceberão o valor da GAPE calculado pela aplicação dos índices previstos nos incs. I e II do caput deste artigo sobre o vencimento básico inicial do cargo de provimento efetivo, agrupamento técnico-científico, padrão NS, referência A.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Os servidores investidos em cargos de provimento efetivo da Prefeitura Municipal de Porto Alegre (PMPA) e designados para CCs lotados no EPEGP ou na CMR, com requisito de nível superior, que estiverem no exercício das atividades gerais e especiais do planejamento estratégico perceberão o valor da GAPE calculado pela aplicação dos índices previstos nos incs. I e II do caput deste artigo sobre o vencimento básico inicial do cargo de provimento efetivo, agrupamento técnico-científico, padrão NS, referência A.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-6",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os servidores investidos em cargos de provimento efetivo do Município de Porto Alegre, de nível fundamental ou médio, perceberão apenas a PB da GAPE, desde que já atendidos cumulativamente os requisitos temporais previstos nos incs. I, II e III do caput do art. 10 desta Lei Complementar, sendo que o requisito do inc. III deve ter sido integralmente atendido na condição de servidor efetivo designado para CC da SMPEO, com requisito de nível superior.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Os servidores investidos em cargos de provimento efetivo do Município de Porto Alegre, de nível fundamental ou médio, perceberão apenas a PB da GAPE, desde que já atendidos cumulativamente os requisitos temporais previstos nos incs. I, II e III do caput do art. 10 desta Lei Complementar, sendo que o requisito do inc. III deve ter sido integralmente atendido na condição de servidor efetivo designado para CC do EPEGP ou da CMR, com requisito de nível superior.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Consideram-se atividades gerais do planejamento estratégico municipal, no âmbito da SMPEO, com direito à percepção da PB da GAPE:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Consideram-se atividades gerais do planejamento estratégico municipal, no âmbito do EPEGP e da CMR, com direito à percepção da PB da GAPE:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "atuar nas atividades auxiliares de monitoramento e controle da execução do planejamento setorial, consolidando informações e análises transversais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "atuar nas atividades e tarefas inerentes às competências do Escritório-Geral de Planejamento Estratégico (EGPE) e de suas subunidades de trabalho em apoio operacional à Coordenação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "atuar nas atividades e nas tarefas inerentes às competências do EPEGP e da CMR em apoio operacional à Coordenação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "executar atividades e tarefas de baixa e média complexidade necessárias ao planejamento, à execução e ao controle dos resultados dos programas estratégicos municipais; 2",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "auxiliar na definição e no controle de metas e indicadores para medir os resultados da execução do planejamento estratégico municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "auxiliar na gerência dos programas estratégicos municipais por meio da obtenção de informações atualizadas nos órgãos sobre o planejamento, a execução e os resultados das ações previstas no planejamento dos programas estratégicos municipais; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-VI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "atuar na manutenção da rede de planejamento setorial, visando a acompanhar a execução do planejamento setorial de todos os órgãos do Executivo Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Consideram-se atividades especiais do planejamento estratégico municipal, no âmbito da SMPEO, com direito à percepção da PE da GAPE:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Consideram-se atividades especiais do planejamento estratégico municipal, no âmbito do EPEGP e da CMR, com direito à percepção da Parcela Especial (PE) da GAPE:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "detalhar e monitorar projetos, ações e indicadores que integram os escopos dos programas estratégicos municipais ou atuar em atividades de assessoria técnica necessária ao planejamento e à execução destes – atividade especial de nível 1, código PE1 –;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "prestar apoio técnico à chefia do Escritório-Geral de Planejamento Estratégico (EGPE) e assessorá-la, na SMPEO, ou às demais chefias das unidades de trabalho que compõem a subestrutura do EGPE em suas diversas unidades de trabalho, coordenações e gerências – atividade especial de nível 2, código PE2 –;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "prestar apoio técnico às coordenações do EPEGP e da CMR e assessorá-las ou às demais chefias das unidades de trabalho subordinadas – atividade especial de nível 2, código PE2 –;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "planejar e gerenciar os programas estratégicos municipais previstos nos Planos Plurianuais do Município de Porto Alegre – atividade especial de nível 3, código PE3 –;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "prestar apoio técnico especial à direção geral da SMPEO e à chefia do EGPE em questões vinculadas ao macroprocesso de planejamento estratégico – atividade especial de nível 3, código PE3 –;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "prestar apoio técnico especial à coordenação do EPEGP e da CMR em questões vinculadas ao macroprocesso de planejamento estratégico – atividade especial de nível 3, código PE3 –;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "coordenar o EGPE, na SMPEO, sua subestrutura e processos de trabalho e liderar a equipe de servidores lotados nas atividades de planejamento estratégico municipal – atividade especial de nível 4, código PE4 –;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "coordenar o EPEGP, sua subestrutura e processos de trabalho e liderar a equipe de servidores lotados nas atividades de planejamento estratégico municipal – atividade especial de nível 4, código PE4 –;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "coordenar as atividades e os processos relacionados com o monitoramento de resultados e gestão de indicadores municipais vinculados aos programas estratégicos municipais – atividade especial de nível 4, código PE4 –; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "coordenar a CMR, sua subestrutura e processos de trabalho e liderar a equipe de servidores lotados nas atividades de monitoramento de resultados e gestão de indicadores municipais vinculados aos programas estratégicos municipais – atividade especial de nível 4, código PE4 –; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "atuar na direção-geral da pasta responsável pelo planejamento estratégico no âmbito do Município de Porto Alegre, gerindo suas subestruturas funcionais, seus macroprocessos de trabalho e o quadro de pessoal envolvido na execução das rotinas e das atividades de planejamento estratégico municipal – atividade especial de nível 4, código PE4.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "exercer a direção-geral do EPEGP e da CMR, gerindo suas subestruturas funcionais e seus macroprocessos de trabalho e atuando como responsável pelo planejamento estratégico municipal – atividade especial de nível 4, código PE4.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica o pagamento da PE da GAPE limitado a:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "13 (treze) servidores em atividades especiais PE1; 3",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-II",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "8 (oito) servidores em atividades especiais PE2;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-III",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "19 (dezenove) servidores em atividades especiais PE3; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-IV",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "3 (três) servidores em atividades especiais PE4, incluída a possibilidade prevista no § 4º do art. 2º, cuja atividade especial está descrita no inc. VII do art. 4º, ambos desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Pelo menos 65% (sessenta e cinco por cento) dos servidores que perceberem a PE da GAPE deverão ser dos quadros de provimento efetivo do Município de Porto Alegre, incluídos os servidores efetivos designados para CCs na SMPEO.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A GAPE não integra a base de cálculo de quaisquer outras gratificações, adicionais ou vantagens temporais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-unico",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Excetuam-se ao disposto no caput deste artigo a gratificação natalina e o terço constitucional de férias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O valor da GAPE não é acumulável, em atividade ou na aposentadoria, com as parcelas remuneratórias previstas:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "no art. 111 da Lei Complementar nº 133, de 31 de dezembro de 1985, e alterações posteriores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-II",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "no art. 70 da Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-III",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na Lei nº 10.087, de 16 de novembro de 2006, e alterações posteriores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-IV",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na Lei nº 11.140, de 14 de outubro de 2011;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-V",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na Lei nº 11.180, de 28 de dezembro de 2011, alterada pela Lei nº 11.755, de 30 de dezembro de 2014;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-VI",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na Lei nº 11.192, de 5 de janeiro de 2012, e alterações posteriores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-VII",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na Lei nº 11.242, de 4 de abril de 2012;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-VIII",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na Lei nº 11.245, de 4 de abril de 2012;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-IX",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na Lei nº 11.248, de 4 de abril de 2012;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-X",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na Lei nº 11.404, de 27 de dezembro de 2012, e alterações posteriores; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "na Lei nº 11.400, de 27 de dezembro de 2012, e alterações posteriores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-XI",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na Lei nº 11.405, de 27 de dezembro de 2012. 4",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-unico",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Atendidas as condições que o habilitem à percepção da GAPE ou de quaisquer das parcelas remuneratórias referidas nos incisos do caput deste artigo, ou de outras que venham a ser criadas, o servidor perceberá apenas a de maior valor pecuniário.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-XII",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "na Lei nº 11.964, de 30 de novembro de 2015, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica assegurada a percepção da GAPE nos períodos de afastamento considerados como de efetivo exercício, nos casos previstos nos incs. I a III, VI, XII a XVI e XVIII do caput do art. 76 da Lei Complementar nº 133, de 1985, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A PB e a PE da GAPE serão incorporadas aos proventos dos servidores que se aposentarem pelas regras constitucionais transitórias, com direito à paridade constitucional, desde que percebidas por ocasião da aposentadoria, atendidos cumulativamente os seguintes critérios:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-I",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ter exercido 15 (quinze) anos de serviço público municipal lotado em órgão da administração direta, autárquica ou fundacional de direito público do Município de Porto Alegre, em período contínuo ou em períodos intercalados;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-II",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ter atuado em CC ou função gratificada (FG) nos quadros da administração direta, do magistério municipal, das autarquias ou da fundação de direito público, do Município de Porto Alegre, por 10 (dez) anos, em período contínuo ou em períodos intercalados, sendo que, pelo menos, 5 (cinco) anos em CC ou FG de nível 5 (cinco) ou superior; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-III",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ter percebido a GAPE por, no mínimo, 5 (cinco) anos, em período contínuo ou em períodos intercalados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "ter percebido a GAPE por, no mínimo, 10 (dez) anos, em período contínuo ou em períodos intercalados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-1",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para composição dos requisitos temporais previstos nos incs. I e II do caput deste artigo, somam-se os tempos auferidos anteriormente à vigência desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-2",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para composição do requisito temporal previsto no inc. III do caput deste artigo, somam-se:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-2/inc-I",
+   "pai": "art-10/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o tempo auferido sob a vigência do § 4º do art. 68 da Lei Complementar nº 133, de 1985, e alterações posteriores; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-2/inc-II",
+   "pai": "art-10/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o tempo auferido por servidor municipal efetivo, a contar de 1º de janeiro de 2013, no cargo de Secretário Municipal de Planejamento Estratégico e Orçamento criado pelo art. 3º da Lei nº 11.401, de 27 de dezembro de 2012.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-3",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ao servidor que houver percebido PE da GAPE em níveis e valores diferentes será assegurada, na aposentadoria, a de maior valor, desde que percebida durante 2 (dois) anos e nos 12 (doze) meses imediatamente anteriores à aposentadoria, ou a de nível imediatamente inferior, desde que percebida por 12 (doze) meses, no mínimo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-4",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A GAPE, com suas PB e PE, será incorporada aos proventos de aposentadoria do servidor efetivo investido em cargo de nível fundamental ou médio dos quadros 5 da PMPA, desde que designado para CC com requisito de nível superior, na SMPEO, respeitado o caput deste artigo e atendido o requisito temporal previsto no inc. III do caput deste artigo, integralmente nesta condição, com valor calculado conforme previsto no art. 2º desta Lei Complementar, no que couber.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "A GAPE, com suas PB e PE, será incorporada aos proventos de aposentadoria do servidor efetivo investido em cargo de nível fundamental ou médio dos quadros da PMPA, desde que designado para CC com requisito de nível superior no EPEGP, na CMR, na Direção-Geral das atividades de planejamento estratégico no âmbito da SMPG ou na extinta SMPEO, respeitado o disposto no caput deste artigo e atendido o requisito temporal previsto no inc. III do caput deste artigo, integralmente nessa condição, com valor calculado conforme previsto no art. 2º desta Lei Complementar, no que couber.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-5",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica assegurada a incorporação na aposentadoria apenas da PB da GAPE, desde que os servidores a estejam percebendo no momento da aposentadoria, na SMPEO, nos casos previstos nos §§ 3º e 6º do art. 2º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica assegurada a incorporação na aposentadoria apenas da PB da GAPE, desde que os servidores a estejam percebendo no momento da aposentadoria, no EPEGP, na CMR, na Direção-Geral das atividades de planejamento estratégico no âmbito da SMPG ou na extinta Secretaria Municipal de Planejamento Estratégico e Orçamento (SMPEO), nos casos previstos nos §§ 3º e 6º do art. 2º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 880/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-6",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para servidores que ingressarem na SMPEO após a data de vigência desta Lei Complementar, o requisito temporal previsto no inc. III do caput deste artigo será de 10 (dez) anos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A concessão da GAPE e os procedimentos administrativos necessários à sua aplicação e ao seu controle serão regulamentados por decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As despesas decorrentes da aplicação desta Lei Complementar correrão à conta de dotações orçamentárias próprias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam revogados:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14/inc-I",
+   "pai": "art-14",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o § 4º do art. 68 da Lei Complementar nº 133, de 31 de dezembro de 1985; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14/inc-II",
+   "pai": "art-14",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Lei Complementar nº 707, de 27 de dezembro de 2012.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 42519,
+    "rotulo": "Lei Complementar municipal nº 880, de 27 de março de 2020"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
+  }
+ ],
+ "aConferir": []
+}

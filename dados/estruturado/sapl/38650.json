@@ -1,0 +1,55 @@
+{
+ "idSapl": 38650,
+ "rotulo": "Lei Complementar municipal nº 704, de 04 de dezembro de 2012",
+ "sha256Origem": "823e3c0b486f9ae083e9c84051bca992c9cf6cf620480beb312a836a38f0f52a",
+ "estruturadoEm": "2026-11-19T09:26:03.547Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "704",
+  "ano": "2012",
+  "data": "2012-12-04",
+  "epigrafe": "brasao.g",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "(2807            Prefeitura Municipal de Porto bytes)            Alegre LEI COMPLEMENTAR Nº 704, DE 4 DEDEZEMBRO DE 2012. Altera o § 2º do art. 3º da LeiComplementar nº 589, de 19 de fevereiro de 2008, permitindo 1 (uma)recondução, pelo período de 2 (dois) anos, ao cargo de membro do ConselhoMunicipal de Acompanhamento e Controle Social do Fundo de Manutenção eDesenvolvimento da Educação Básica e de Valorização dos Profissionais daEducação (Conselho Municipal do Fundeb).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipalaprovou e eu, no uso das atribuições que me confere o inciso II do artigo94 daLei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 4de dezembro de 2012.\nJosé Fortunati,\nPrefeito.\nCleci Jurach,\nSecretária Municipal de Educação.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão e Acompanhamento Estratégico.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o § 2º do art. 3ºda Lei Complementar nº 589, de 19 de fevereiro de 2008, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º.....................................................................................\n...................................................................................................\n§ 2º O mandato dos membros do ConselhoMunicipal do Fundeb será de 2 (dois) anos, permitida 1 (uma)\nrecondução porigual período.\n.........................................................................................”(NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra emvigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.983,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

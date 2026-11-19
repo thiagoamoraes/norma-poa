@@ -1,0 +1,73 @@
+{
+ "idSapl": 35933,
+ "rotulo": "Lei Complementar municipal nº 606, de 29 de dezembro de 2008",
+ "sha256Origem": "8a3d439abf006016321f3de1ed476355657e87c5b84a95f592e3a155fff74d4a",
+ "estruturadoEm": "2026-11-19T09:26:04.055Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "606",
+  "ano": "2008",
+  "data": "2008-12-29",
+  "epigrafe": "LEI COMPLEMENTAR Nº 606, de 29 de dezembro de 2008.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui incs. VIII, IX, X, XI e XII no art. 49 da Lei Complementar nº 434, de 1º de dezembro de 1999 – Plano Diretor de Desenvolvimento Urbano Ambiental –, e alterações posteriores, ampliando o rol de instrumentos urbanísticos de intervenção no solo para o cumprimento da função social da propriedade, e altera o Regime Urbanístico da Subunidade 3 da Unidade de Estruturação Urbana (UEU) 94 da Macrozona (MZ) 3, constante no Anexo 1.2 dessa Lei Complementar.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 29 de dezembro de\nJosé Fogaça,\nPrefeito.\nJosé Fortunati,\nSecretário do Planejamento Municipal.\nRegistre-s e publique-se.\nClóvis Magalhães,\nSecretário Municipal de Gestão e\nAcompanhamento Estratégico.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam acrescentados, no art. 49 da Lei Complementar nº 434, de 1º de dezembro de 1999, e alterações posteriores, incs. VIII, IX, X, XI e XII, conforme segue:",
+   "blocoDeAlteracao": "“Art. 49. ...\n...\nVIII – Direito de Preempção;\nIX – Direito de Superfície;\nX – Consórcio Imobiliário;\nXI – Estudo de Impacto de Vizinhança; e\nXII – Operação Urbana Consorciada.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado, no Anexo 1.2 da Lei Complementar nº 434, de 1999, e alterações posteriores, o Regime Urbanístico da Subunidade 3 da Unidade de Estruturação Urbana (UEU) 94 da Macrozona (MZ) 3, conforme segue:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "densidade bruta: código 9; e"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "índice de aproveitamento: código 9."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação. 2008."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.953,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

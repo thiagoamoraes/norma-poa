@@ -1,23 +1,23 @@
 # Histórico — relatório
 
-Gerado em 2026-11-18T09:25:55.451Z por `ingestao/gerar-historico.mjs`. Não editar à mão.
+Gerado em 2026-11-19T09:26:05.328Z por `ingestao/gerar-historico.mjs`. Não editar à mão.
 
-Vínculos lidos: 12000 · pares (lei, alteradora) propostos pelas ementas: 1685 · leis com alteradoras conhecidas ou candidatas: 1134
+Vínculos lidos: 18000 · pares (lei, alteradora) propostos pelas ementas: 1685 · leis com alteradoras conhecidas ou candidatas: 1168
 
 | Situação | Leis |
 |---|---|
-| histórico apurado, todas as alteradoras aplicadas | 9 |
-| histórico apurado, mas incompleto (alguma alteradora não aplicada por inteiro) | 22 |
-| ainda sem o texto da lei-base | 1103 |
+| histórico apurado, todas as alteradoras aplicadas | 21 |
+| histórico apurado, mas incompleto (alguma alteradora não aplicada por inteiro) | 66 |
+| ainda sem o texto da lei-base | 1081 |
 | erro do leitor | 0 |
 
-Leis revogadas por inteiro, segundo os vínculos da fonte: 765
+Leis revogadas por inteiro, segundo os vínculos da fonte: 987
 
-Vínculos com norma fora do catálogo do escopo (decretos, por exemplo): 493 · vínculos com datas invertidas (não aplicados): 11
+Vínculos com norma fora do catálogo do escopo (decretos, por exemplo): 597 · vínculos com datas invertidas (não aplicados): 11
 
 ## Aguardando o texto da lei-base
 
-Mostrando 200 de 1103.
+Mostrando 200 de 1081.
 
 - Lei municipal-Intendência nº 17, de 17 de dezembro de 1895
 - Lei municipal-Intendência nº 69, de 28 de dezembro de 1925
@@ -27,6 +27,7 @@ Mostrando 200 de 1103.
 - Lei municipal nº 362, de 28 de junho de 1937
 - Lei municipal nº 23, de 08 de março de 1939
 - Lei municipal nº 14, de 28 de novembro de 1947
+- Lei municipal nº 16, de 29 de novembro de 1947
 - Lei municipal nº 21, de 03 de dezembro de 1947
 - Lei municipal nº 34, de 31 de dezembro de 1947
 - Lei municipal nº 51, de 03 de maio de 1948
@@ -145,6 +146,7 @@ Mostrando 200 de 1103.
 - Lei municipal nº 1.516, de 02 de dezembro de 1955
 - Lei municipal nº 1.534, de 22 de dezembro de 1955
 - Lei municipal nº 1.566, de 31 de dezembro de 1955
+- Lei municipal nº 1.621, de 17 de julho de 1956
 - Lei municipal nº 1.631, de 01 de setembro de 1956
 - Lei municipal nº 1.638, de 10 de setembro de 1956
 - Lei municipal nº 1.651, de 09 de outubro de 1956
@@ -217,5 +219,3 @@ Mostrando 200 de 1103.
 - Lei municipal nº 2.904, de 30 de dezembro de 1965
 - Lei municipal nº 2.905, de 30 de dezembro de 1965
 - Lei municipal nº 2.915, de 16 de junho de 1966
-- Lei municipal nº 2.926, de 12 de julho de 1966
-- Lei municipal nº 2.949, de 18 de outubro de 1966

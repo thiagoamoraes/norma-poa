@@ -1,0 +1,52 @@
+{
+ "idSapl": 34960,
+ "rotulo": "Lei Complementar municipal nº 571, de 18 de junho de 2007",
+ "sha256Origem": "e2f8d9003c0fc54392129e981e014d74a9a91c894590a6a04e0e12560893d58d",
+ "estruturadoEm": "2026-11-19T09:26:04.106Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "571",
+  "ano": "2007",
+  "data": "2007-06-18",
+  "epigrafe": "LEI COMPLEMENTAR Nº 571, de 18 de junho de 2007.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o inc. II do art. 248 da Lei Complementar nº 420, de 25 de agosto de 1998, e alterações posteriores, que institui o Código de Proteção contra Incêndio de Porto Alegre e dá outras providências, ampliando a vedação da instalação de aparelhos consumidores de gás no interior de boxes de banheiros para no interior de banheiros.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 18 de junho de 2007.\nJosé Fogaça,\nPrefeito.\nMaurício Dziedricki,\nSecretário Municipal de Obras e Viação.\nRegistre-se e publique-se.\nClóvis Magalhães,\nSecretário Municipal de Gestão e Acompanhamento Estratégico.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o inc. II do art. 248 da Lei Complementar nº 420, de 25 de agosto de 1998, e alterações posteriores, passando a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "“Art. 248. ...\n...\nII – no interior de banheiros;\n...” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.943,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

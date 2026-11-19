@@ -1,0 +1,55 @@
+{
+ "idSapl": 39220,
+ "rotulo": "Lei Complementar municipal nº 726, de 07 de janeiro de 2014",
+ "sha256Origem": "3e9835e247529fa91d534d80c22b1da1270428c4859c65c80fcd5ee30f5dba74",
+ "estruturadoEm": "2026-11-19T09:26:03.496Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "brasao.gif Prefeitura Municipal de Porto",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "(2807 bytes) Alegre LEI COMPLEMENTAR726, DE 7 DE JANEIRO DE 2014. Altera o art. 14 da LeiComplementar nº 703, de 28 de setembro de 2012 – que estabelece asdiretrizes para a implementação da infraestrutura necessária à realizaçãodaCopa do Mundo de 2014, implantação do Sistema Bus Rapid Transit (BRT)e do Metrô de Porto Alegre –, dispondo sobre o prazo decadencial para autilização de potencial construtivo alienável e não alienável. OPREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições queconfere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono aseguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o art. 14 da Lei Complementar nº 703, de 28 desetembro de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 14. O prazo decadencial para a utilização de potencial construtivoalienável e não alienável\né de 10 (dez) anos, contados da formalização daalienação, respeitada a legislação vigente à\népoca da utilização.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação. PREFEITURA MUNICIPALDE PORTO ALEGRE, 7 de janeiro de 2014. José Fortunati, Prefeito. Eroni Izaias Numer, Secretario Municipal da Fazenda, em exercício. Registre-se epublique-se. Urbano Schmitt, Secretário Municipalde Gestão."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.957,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}
