@@ -1451,6 +1451,24 @@ chamada por `prepararTextoExtraido` (o `.txt` guardado não muda). Só junta com
 - `VERSAO_ESTRUTURADOR` 6 (a coleta noturna reprocessa tudo).
 - Efeito medido nas 823 estruturações, norma a norma (sem gravar em `dados/`): 2 mudam de resultado, nenhuma piora. LC 689/2012 passa de revisar a **aceita**; a de 39249 perde o motivo de rótulo (segue em revisão por outros); 39563 passa de 5 para 3 dispositivos (bloco reconhecido). Demais bateria sem mudança.
 
+## Rodada 25 — `cabecalho_nao_reconhecido`: análise e correção do espaçamento (tarefa 1, 20/11/2026)
+
+Análise dos 119 textos (por tipo: 97 LC · 14 Emenda à LO · 8 Lei Orgânica; por época: 74 dos anos 1990, 29 de 2010–2019, 7 de 2000–2009, 9 anteriores a 1980; 14 são texto de OCR).
+O motivo só aparece quando o leitor não acha número no cabeçalho **e** o reconhecimento pelo catálogo (aviso `cabecalho_fora_do_padrao`) também não casa.
+Famílias:
+
+- **Palavras coladas ou partidas pela extração, em LCs de 2011–2014 (~24)**: `LEICOMPLEMENTAR Nº 719`, `LEI COMPLEMENTAR723`, `LEI COMPLEMENTARNº 741`, `Nº 67 4`. O cabeçalho está lá; o reconhecimento pelo catálogo era estrito demais no espaço. **Corrigido.**
+- **Digitalização/OCR antigo (a maioria dos ~65 de LC até 1999 e das 14 EC)**: capa de protocolo da Câmara no lugar do cabeçalho, "NP 268", linhas de lixo. Defeito de fonte; seguem em revisão.
+- **Lei Orgânica (8, 1892–1990)**: tipo fora do suporte do leitor e texto digitalizado. Seguem em revisão.
+- **Erro na própria lei ou ruído de timbre (poucos, 2015–2019)**: "LEI Nº COMPLEMENTAR Nº 848", "E LEI COMPLEMENTAR Nº 813 … ST", "LC 790" repetido, ato de "TORNA SEM EFEITO" publicado (LC 779/2015). Não se afrouxa para eles.
+
+Correção (em `ingestao/estrutura.mjs`, só no reconhecimento por catálogo; o core não foi tocado, `normateste.mjs` idêntico):
+`LEI\s*COMPLEMENTAR` com lookahead (espaço, algarismo, "Nº", pontuação ou fim — "LEI COMPLEMENTARES" continua não casando) e **duas leituras** do número (1º bloco de algarismos, ou com espaço no meio); vale se qualquer uma for o número do registro. Continua amarrado ao catálogo: arquivo de outra norma não herda a identidade.
+
+- Achado no caminho: a leitura só com espaço faria o OCR "Nº: 358 072" (LC 358/1995) virar 358072 e **piorar** uma norma já aceita; a comparação norma a norma pegou, e por isso as duas leituras. Esse caso entrou no teste.
+- `teste_estrutura.mjs` 35 → 42 (LCs 719/2013, 723/2013, 674/2011, 741/2014 e 358/1995 reais em `fixtures/textos/`; 4 falham contra o código antigo; o da LC 358 e os dois negativos são de guarda). `VERSAO_ESTRUTURADOR` 7.
+- Efeito medido nas 823, norma a norma (sem gravar em `dados/`): 24 perdem o motivo de cabeçalho, 11 passam a **aceitas** por esta rodada (mais a LC 689 da rodada 24), nenhuma piora. Esperado após a coleta noturna: ~527 aceitas de 823 (64,0%).
+
 ## Passagem de sessão (20/11/2026)
 
 Sem mudança de código. Registrado: estado da tarefa 1 (62,6% aceitas em 823 textos),

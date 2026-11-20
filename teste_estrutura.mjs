@@ -66,6 +66,22 @@ const reg = (tipoSapl, numero) => regs.find((r) => r.tipoSapl === tipoSapl && r.
   ok('preparo (sintético): "Art." sem aspas de abertura nunca é juntado', prepararTextoExtraido('Art.\n5º Fica').split('\n')[0] === 'Art.');
 }
 
+// --- LCs de 2011–2014: palavras coladas pela extração no cabeçalho (rodada 24) ---
+// O cabeçalho existe, mas a extração do PDF cola ou parte palavras. A identidade
+// continua vindo do catálogo, e só vale se o número escrito for o do registro.
+{
+  const lc = (arq, n) => estruturarNorma(prepararTextoExtraido(fs.readFileSync(`./fixtures/textos/${arq}.txt`, 'utf8')), reg(6, n));
+  const reconhecido = (e) => !e.verificacao.motivos.includes('cabecalho_nao_reconhecido') && e.verificacao.avisos.includes('cabecalho_fora_do_padrao') && e.cabecalho.fonte === 'catalogo';
+  ok('LC 719/2013 ("LEICOMPLEMENTAR Nº 719"): cabeçalho vem do catálogo, com aviso', reconhecido(lc('lc719_2013', '719')));
+  ok('LC 723/2013 ("LEI COMPLEMENTAR723"): idem', reconhecido(lc('lc723_2013', '723')));
+  ok('LC 674/2011 ("Nº 67 4", espaço no meio do número): idem', reconhecido(lc('lc674_2011', '674')));
+  ok('LC 741/2014 ("LEI COMPLEMENTARNº 741"): idem', reconhecido(lc('lc741_2014', '741')));
+  ok('LC 358/1995 (OCR, "Nº: 358 072"): a leitura com espaço NÃO esconde o número certo (segue reconhecida)', reconhecido(estruturarNorma(prepararTextoExtraido(fs.readFileSync('./fixtures/textos/lc358_1995_ocr.txt', 'utf8')), reg(6, '358'))));
+  ok('LC 719 anexada ao registro da LC 723: NÃO herda a identidade do catálogo', lc('lc719_2013', '723').verificacao.motivos.includes('cabecalho_nao_reconhecido'));
+  const sint = (cab) => estruturarNorma(`${cab}\n\nDispõe sobre algo.\n\nArt. 1º Fica criado o algo.\n\nArt. 2º Esta Lei Complementar entra em vigor.\n`, reg(6, '719'));
+  ok('(sintético) "LEI COMPLEMENTARES Nº 719" (palavra diferente) não é aceito como tipo', sint('LEI COMPLEMENTARES Nº 719, DE 30 DE SETEMBRO DE 2013.').verificacao.motivos.includes('cabecalho_nao_reconhecido'));
+}
+
 // --- o que NÃO pode ser aceito ---------------------------------------------
 {
   const e = estruturarNorma(fs.readFileSync('./lei14504_parcial.txt', 'utf8'), reg(5, '14504'));

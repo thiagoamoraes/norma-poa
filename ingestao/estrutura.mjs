@@ -19,7 +19,7 @@
 import { parseLeiPublicada, atribuirDesFixoOriginal, detectNRCandidates } from '../norma-core.js';
 
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
-export const VERSAO_ESTRUTURADOR = 6;
+export const VERSAO_ESTRUTURADOR = 7;
 
 const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');
@@ -152,10 +152,18 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
   // do registro — senão pode ser o arquivo errado anexado à norma.
   let cabecalhoDoCatalogo = false;
   if (!doc.numero && registro && (registro.tipoSapl === 5 || registro.tipoSapl === 6)) {
-    const reTipo = registro.tipoSapl === 6 ? /^LEI\s+COMPLEMENTAR\b/i : /^LEI\b(?!\s+COMPLEMENTAR)/i;
+    // Palavras coladas pela extração (PDFs de 2011–2014): "LEICOMPLEMENTAR Nº 719",
+    // "LEI COMPLEMENTAR723", "LEI COMPLEMENTARNº 741" — o tipo é aceito sem o espaço.
+    const reTipo = registro.tipoSapl === 6 ? /^LEI\s*COMPLEMENTAR(?=\s|\d|N[º°o.]|[,.:;]|$)/i : /^LEI\b(?!\s+COMPLEMENTAR)/i;
     const ate = texto.search(/^\s*Art\.\s*1\s*[º°o]?\b/m);
     const cabeca = (ate > 0 ? texto.slice(0, ate) : texto.slice(0, 3000)).split(/\r?\n/).map((l) => l.trim());
-    cabecalhoDoCatalogo = cabeca.some((l) => reTipo.test(l) && soDigitos((/\d[\d.]*/.exec(l.replace(reTipo, '')) || [''])[0]) === soDigitos(registro.numero));
+    // duas leituras do número: o 1º bloco de algarismos, ou com espaço no meio ("Nº 67 4");
+    // vale se QUALQUER uma for o número do registro ("Nº: 358 072" segue lido como 358)
+    const numerosDaLinha = (l) => {
+      const resto = l.replace(reTipo, '');
+      return [/\d[\d.]*/, /\d(?:[\d.]|\s(?=\d))*/].map((re) => soDigitos((re.exec(resto) || [''])[0]));
+    };
+    cabecalhoDoCatalogo = cabeca.some((l) => reTipo.test(l) && numerosDaLinha(l).includes(soDigitos(registro.numero)));
     if (cabecalhoDoCatalogo) avisos.push('cabecalho_fora_do_padrao');
   }
   if (!doc.numero && !cabecalhoDoCatalogo) motivos.push('cabecalho_nao_reconhecido');
