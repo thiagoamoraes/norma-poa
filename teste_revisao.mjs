@@ -12,7 +12,7 @@ import { prepararTextoExtraido } from './ingestao/extracao-texto.mjs';
 import { ancorarConferencia } from './ingestao/revisao-ancoras.mjs';
 import { descreverComandos } from './ingestao/revisao-comandos.mjs';
 import { compararComCompilacao, normalizarParaComparar } from './ingestao/revisao-compilacao.mjs';
-import { validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao, situacaoHumana, resumoHumano, listaParaOMotor, CATEGORIAS_HUMANAS, roteiroDeConferencia } from './ingestao/revisao.mjs';
+import { validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao, situacaoHumana, resumoHumano, listaParaOMotor, CATEGORIAS_HUMANAS, roteiroDeConferencia, tituloDoMotivo, TITULOS_DE_MOTIVO, pontosDaNorma, LIMITE_PONTOS_CONFIRMACAO } from './ingestao/revisao.mjs';
 
 let passou = 0, falhou = 0;
 const ok = (desc, cond) => { cond ? passou++ : falhou++; console.log(`${cond ? '✓' : '✗'} ${desc}`); };
@@ -204,6 +204,19 @@ const base = { idSapl: 48003, decisao: 'aceitar', sha256Origem: 'abc', versaoEst
   ok('LC 1.075/2026 (real), promulgação parcial: o recorte começa no "Faço saber/promulgo" e traz "dispositivo"', rp.length === 1 && /fa[çc]o saber|promulg/i.test(rp[0].trecho.split('\n')[0]) && /dispositivo/i.test(rp[0].trecho));
 }
 
+// --- vocabulário e "aceitar" com muitos pontos (decisões de 20/11/2026) ------------------------------------
+{
+  ok('todo título de motivo é texto em português, sem o código técnico (sem "_")', Object.values(TITULOS_DE_MOTIVO).every((t) => /\S/.test(t) && !/_/.test(t)));
+  ok('motivo desconhecido não derruba: "Motivo ainda sem título"', tituloDoMotivo('inventado_xyz') === 'Motivo ainda sem título' && tituloDoMotivo('sem_fecho') === 'Fecho (local, data e assinaturas) não reconhecido');
+  const { texto, e } = carregar('lc1005_2024', 6, '1005');
+  const a = ancorarConferencia(texto, e);
+  ok('LC 1.005/2024 (real): pontosDaNorma soma o que o painel mostra (3 rótulos que não conferem)', pontosDaNorma({ resumo: a.resumo }) === 3 && pontosDaNorma({ resumo: a.resumo, fronteiras: [{}, {}] }) === 5 && pontosDaNorma(null) === 0);
+  const base = { idSapl: 1, decisao: 'aceitar', sha256Origem: 'abc', versaoEstruturador: 7, em: '2026-11-20T12:00:00Z' };
+  ok(`(sintético) aceitar norma com até ${LIMITE_PONTOS_CONFIRMACAO} pontos não exige confirmação`, validarDecisao({ ...base, pontosNaHora: LIMITE_PONTOS_CONFIRMACAO }).ok && validarDecisao(base).ok);
+  ok('(sintético) aceitar norma com MAIS de 20 pontos sem confirmar é recusado; confirmando todos, vale', !validarDecisao({ ...base, pontosNaHora: 290 }).ok && !validarDecisao({ ...base, pontosNaHora: 290, confirmouPontos: 100 }).ok && validarDecisao({ ...base, pontosNaHora: 290, confirmouPontos: 290 }).ok);
+  ok('(sintético) a exigência é só do "aceitar": defeito de fonte em norma grande não pede confirmação de pontos', validarDecisao({ ...base, decisao: 'defeito_de_fonte', defeito: { tipo: 'ocr', trecho: 'x' }, pontosNaHora: 290 }).ok);
+}
+
 // --- acervo inteiro: as âncoras concordam com o veredito do estruturador -----
 const DIR = './dados/estruturado/sapl';
 if (fs.existsSync(DIR) && fs.existsSync('./dados/textos/sapl')) {
@@ -228,6 +241,9 @@ if (fs.existsSync(DIR) && fs.existsSync('./dados/textos/sapl')) {
   }
   ok(`acervo: as âncoras concordam com o veredito gravado em ${n} normas (divergem: ${divergiu}${exemplos.length ? ' — ' + exemplos.join(',') : ''})`, n > 0 && divergiu === 0);
   ok('acervo: toda âncora tem deslocamentos válidos dentro do texto', semPosicao === 0);
+  const motivosDoAcervo = new Set();
+  for (const f of fs.readdirSync(DIR).filter((f) => /^\d+\.json$/.test(f))) for (const m of JSON.parse(fs.readFileSync(`${DIR}/${f}`, 'utf8')).verificacao.motivos) motivosDoAcervo.add(m);
+  ok(`acervo: todos os ${motivosDoAcervo.size} motivos que o motor já produziu têm título em português (sem título: ${[...motivosDoAcervo].filter((m) => !TITULOS_DE_MOTIVO[m]).join(', ') || 'nenhum'})`, [...motivosDoAcervo].every((m) => TITULOS_DE_MOTIVO[m]));
 } else {
   console.log('(acervo ausente: seção pulada)');
 }

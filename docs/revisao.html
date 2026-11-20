@@ -121,6 +121,8 @@
   .fam .ids { display: flex; flex-wrap: wrap; gap: 4px; }
   .fam .ids button { padding: 2px 8px; font-size: .78rem; }
   .datas { padding: 6px 10px; border-radius: 4px; background: var(--alerta-fraca); border-left: 3px solid var(--alerta); font-size: .88rem; margin: 0 0 10px; }
+  .mot { border-bottom: 1px dotted var(--suave); cursor: help; }
+  .conf-pontos { display: flex; gap: 8px; align-items: center; font-size: .9rem; padding: 6px 8px; background: var(--alerta-fraca); border-radius: 4px; }
   .so-leitor { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
   .roteiro { border: 1px solid var(--linha); border-left: 4px solid var(--marca); border-radius: 6px; padding: 8px 12px; margin: 0 0 12px; background: var(--papel); }
   .roteiro > summary { cursor: pointer; font-weight: 600; font-size: .92rem; }
@@ -162,7 +164,7 @@
 <div id="toast" role="status"></div>
 <div id="anuncio" class="so-leitor" aria-live="polite"></div>
 <script type="module">
-import { DECISOES, TIPOS_DE_DEFEITO, validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao, roteiroDeConferencia, ROTEIRO_GENERICO } from './js/ingestao/revisao.mjs';
+import { DECISOES, TIPOS_DE_DEFEITO, validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao, roteiroDeConferencia, ROTEIRO_GENERICO, tituloDoMotivo, pontosDaNorma, LIMITE_PONTOS_CONFIRMACAO } from './js/ingestao/revisao.mjs';
 
 const $ = (id) => document.getElementById(id);
 const CHAVE = 'norma-revisao-decisoes-v1';
@@ -193,6 +195,7 @@ const MOTIVOS = {
 
 const CHAVE_ATALHOS = 'norma-revisao-atalhos-v1';
 const lerAtalhos = () => { try { return localStorage.getItem(CHAVE_ATALHOS) !== '0'; } catch { return true; } }; // ligados por padrão; o revisor pode desligar (WCAG 2.1.4)
+const mot = (m) => el('span', { class: 'mot', title: `código técnico: ${m}`, tabindex: 0 }, tituloDoMotivo(m)); // título em português; o código fica na dica
 const estado = { atalhos: lerAtalhos(), fila: [], guia: [], decisoes: new Map(), norma: null, sel: null, rascunho: [], cache: new Map() };
 
 // ── decisões: repositório + navegador ─────────────────────────────────────────
@@ -233,6 +236,7 @@ function pintarPainel() {
     el('div', { id: 'acoes-gerais' },
       el('button', { type: 'button', onclick: exportar }, 'Exportar decisões'),
       el('button', { type: 'button', onclick: () => $('arq').click() }, 'Importar'),
+      ...(window.showSaveFilePicker ? [el('button', { type: 'button', id: 'btn-arquivo', onclick: ligarArquivo, title: 'Escolha uma vez o arquivo decisoes.jsonl; a página o regrava a cada decisão' }, estado.arquivo ? `Salvando em ${estado.arquivo.name} ✓` : 'Salvar em arquivo…')] : []),
       el('label', { class: 'atalhos' }, el('input', { type: 'checkbox', id: 'atalhos', checked: estado.atalhos, onchange: (e) => { estado.atalhos = e.target.checked; try { localStorage.setItem(CHAVE_ATALHOS, e.target.checked ? '1' : '0'); } catch { /* sem armazenamento */ } aplicarAtalhos(); } }), 'Atalhos de teclado'),
       el('input', { id: 'arq', type: 'file', accept: '.jsonl,.json,.txt', hidden: true, onchange: importar })));
   const k = naoExportadas();
@@ -244,11 +248,26 @@ function pintarFiltroMotivos() {
   const cont = {};
   for (const n of estado.fila) for (const m of n.motivos) cont[m] = (cont[m] || 0) + 1;
   const s = $('f-motivo'); s.replaceChildren(el('option', { value: '' }, 'Todos os motivos'),
-    ...Object.entries(cont).sort((a, b) => b[1] - a[1]).map(([m, c]) => el('option', { value: m }, `${m} (${c})`)));
+    ...Object.entries(cont).sort((a, b) => b[1] - a[1]).map(([m, c]) => el('option', { value: m }, `${tituloDoMotivo(m)} (${c})`)));
 }
 function filtrada() {
   const m = $('f-motivo').value, s = $('f-situacao').value;
   return estado.fila.filter((n) => (!m || n.motivos.includes(m)) && (!s || sit(n) === s));
+}
+// Salvar sempre no mesmo arquivo (File System Access: Chrome/Edge). Sem suporte, a exportação continua por download.
+async function ligarArquivo() {
+  try {
+    estado.arquivo = await window.showSaveFilePicker({ suggestedName: 'decisoes.jsonl', types: [{ description: 'Decisões (JSON Lines)', accept: { 'application/x-ndjson': ['.jsonl'] } }] });
+    await escreverArquivo(); pintarPainel();
+  } catch (e) { if (e && e.name !== 'AbortError') toast('Não consegui ligar o arquivo: ' + e.message); }
+}
+async function escreverArquivo() {
+  if (!estado.arquivo) return true;
+  try {
+    const w = await estado.arquivo.createWritable(); await w.write(paraJsonl(estado.decisoes)); await w.close();
+    try { localStorage.setItem(CHAVE_EXPORT, new Date().toISOString()); } catch { /* ignora */ }
+    return true;
+  } catch (e) { estado.arquivo = null; toast('O arquivo deixou de responder (' + e.message + '). EXPORTE as decisões.'); pintarPainel(); return false; }
 }
 function aplicarAtalhos() { const a = $('ajuda-teclas'); if (a) a.hidden = !estado.atalhos; }
 function pintarGuia() {
@@ -256,7 +275,7 @@ function pintarGuia() {
   const corpo = $('guia-corpo');
   const fams = estado.guia.map((f) => ({ ...f, pend: f.ids.map((id) => porId.get(id)).filter((n) => n && sit(n) !== 'revisada') })).filter((f) => f.pend.length);
   corpo.replaceChildren(...(fams.length ? fams.slice(0, 8).map((f) => el('div', { class: 'fam' },
-    el('b', {}, f.motivos.join(' + ')), ` (${f.total} norma(s))`, el('p', {}, f.dica),
+    el('b', {}, f.motivos.map(tituloDoMotivo).join(' + ')), ` (${f.total} norma(s))`, el('p', {}, f.dica),
     el('div', { class: 'ids' }, ...f.pend.slice(0, 4).map((n) => el('button', { type: 'button', onclick: () => abrir(n.idSapl) }, `${n.rotulo.replace(/Lei Complementar municipal nº |Emenda à Lei Orgânica nº |Lei municipal nº /, '').replace(/,.*/, '')} · ${n.pontos}p`))))) : [el('p', { class: 'ajuda' }, 'Nenhuma norma pendente nas famílias do guia.')]));
 }
 function pintarFila() {
@@ -266,9 +285,9 @@ function pintarFila() {
   $('fila').replaceChildren(...lista.map((n) => {
     const s = sit(n), d = estado.decisoes.get(n.idSapl);
     const selo = s === 'revisada' ? el('span', { class: 'selo ok' }, '✓ ' + ROTULO_DECISAO[d.decisao]) : s === 'desatualizada' ? el('span', { class: 'selo er' }, '⚠ desatualizada') : null;
-    return el('li', { tabindex: 0, 'data-id': n.idSapl, 'aria-current': estado.norma?.idSapl === n.idSapl ? 'true' : 'false', onclick: () => abrir(n.idSapl), onkeydown: (e) => { if (e.key === 'Enter') abrir(n.idSapl); } },
+    return el('li', { tabindex: 0, role: 'button', 'data-id': n.idSapl, 'aria-current': estado.norma?.idSapl === n.idSapl ? 'true' : 'false', onclick: () => abrir(n.idSapl), onkeydown: (e) => { if (e.key === 'Enter' || e.key === ' ') { abrir(n.idSapl); e.preventDefault(); } } },
       el('div', { class: 't' }, n.rotulo.replace(/ municipal/i, ''), selo, n.ocr ? el('span', { class: 'selo al' }, 'OCR') : null),
-      el('div', { class: 'm' }, n.motivos.join(' · '), n.pontos ? ` — ${n.pontos} ponto(s)` : '', n.comandos ? ` · ${n.comandos} comando(s)` : ''));
+      el('div', { class: 'm' }, n.motivos.map(tituloDoMotivo).join(' · '), n.pontos ? ` — ${n.pontos} ponto(s)` : '', n.comandos ? ` · ${n.comandos} comando(s)` : ''));
   }));
 }
 
@@ -291,7 +310,7 @@ async function abrir(id) {
 }
 function pintarNorma() {
   const n = estado.norma;
-  const porque = el('ul', { class: 'porque' }, n.motivos.map((m) => el('li', {}, el('code', {}, m), ' — ', MOTIVOS[m] || 'Motivo ainda sem descrição.')));
+  const porque = el('ul', { class: 'porque' }, n.motivos.map((m) => el('li', {}, el('b', {}, mot(m)), ' — ', MOTIVOS[m] || 'Motivo ainda sem descrição.')));
   const meta = el('div', { class: 'meta' },
     el('span', {}, n.tipo + ' nº ' + n.numero), el('span', {}, 'data ' + (n.data || '—')),
     n.urlFonte ? el('a', { href: n.urlFonte, target: '_blank', rel: 'noopener' }, 'Arquivo original na fonte ↗') : el('span', {}, 'sem link da fonte'),
@@ -323,6 +342,13 @@ async function ligarCompara(n) {
   const alvo = $('link-compara');
   if (alvo && estado.norma?.idSapl === n.idSapl && estado.historicos.has(n.idSapl)) alvo.replaceChildren(el('a', { href: `compara.html#${n.idSapl}` }, 'Comparar com o leis.org →'));
 }
+function navegarDispositivos(e) {
+  const itens = [...e.currentTarget.querySelectorAll('[role=option]')]; const i = itens.indexOf(document.activeElement); if (i < 0) return;
+  let alvo = null;
+  if (e.key === 'ArrowDown') alvo = itens[Math.min(itens.length - 1, i + 1)]; else if (e.key === 'ArrowUp') alvo = itens[Math.max(0, i - 1)]; else if (e.key === 'Home') alvo = itens[0]; else if (e.key === 'End') alvo = itens[itens.length - 1];
+  else if (e.key === 'Enter' || e.key === ' ') { selecionar(document.activeElement.dataset.id, true); e.preventDefault(); return; }
+  if (alvo) { itens.forEach((x) => { x.tabIndex = -1; }); alvo.tabIndex = 0; alvo.focus({ preventScroll: false }); e.preventDefault(); }
+}
 function arvore() {
   const n = estado.norma;
   const nodes = n.dispositivos.map((d) => {
@@ -330,13 +356,15 @@ function arvore() {
     const cls = 'disp n' + nivel + (d.situacao === 'rotulo_diverge' ? ' bad' : d.situacao === 'nao_localizado' ? ' nl' : '');
     const st = d.situacao === 'rotulo_diverge' ? el('div', { class: 'st bad' }, `✗ rótulo não confere: no arquivo está escrito «${d.naOrigem || '?'}» antes deste trecho`)
       : d.situacao === 'nao_localizado' ? el('div', { class: 'st nl' }, '⚠ trecho não localizado no texto de origem') : null;
-    return el('div', { class: cls, 'data-id': d.id, role: 'option', tabindex: 0, 'aria-selected': 'false', onclick: () => selecionar(d.id, true), onkeydown: (e) => { if (e.key === 'Enter') selecionar(d.id, true); } },
+    return el('div', { class: cls, 'data-id': d.id, role: 'option', tabindex: -1, 'aria-selected': 'false', onclick: () => selecionar(d.id, true) },
       el('span', { class: 'r' }, d.rotulo || '(sem rótulo)'), d.vetado ? el('span', { class: 'selo' }, 'vetado') : null, d.revogado ? el('span', { class: 'selo' }, 'revogado') : null,
       el('div', { class: 't' }, d.texto || ''), st);
   });
   const esp = n.especiais.filter((e) => e.situacao === 'nao_localizado').map((e) => el('div', { class: 'esp' }, `⚠ ${e.ref} não localizado no texto de origem`));
   const lac = n.lacunas.length ? el('div', { class: 'esp' }, `${n.lacunas.length} trecho(s) do arquivo ficaram fora da árvore (em amarelo, à esquerda).`) : null;
-  return el('div', { role: 'listbox', 'aria-label': 'Dispositivos' }, lac, ...esp, ...nodes);
+  const caixa = el('div', { role: 'listbox', 'aria-label': 'Dispositivos (use as setas; Enter localiza no texto)', onkeydown: navegarDispositivos }, lac, ...esp, ...nodes);
+  if (nodes[0]) nodes[0].tabIndex = 0; // uma só parada de Tab na lista; as setas andam dentro dela
+  return caixa;
 }
 function pintarOrigem() {
   const n = estado.norma, o = $('origem'); o.replaceChildren();
@@ -434,9 +462,15 @@ function abrirForm(tipo) {
   estado.formAberto = tipo;
   const n = estado.norma, f = $('form'); f.classList.add('ver'); f.replaceChildren();
   const nota = (obrig) => el('label', {}, obrig ? 'Nota (obrigatória: o que o motor não conhece)' : 'Nota (opcional)', el('textarea', { id: 'nota', maxlength: 400 }));
-  const salvar = (rot) => el('div', { class: 'linha', style: 'display:flex;gap:8px' }, el('button', { type: 'button', onclick: () => gravar(tipo), style: 'background:var(--marca);color:var(--papel)' }, rot), el('button', { type: 'button', onclick: () => { f.classList.remove('ver'); estado.formAberto = null; } }, 'Cancelar'));
+  const salvar = (rot) => el('div', { class: 'linha', style: 'display:flex;gap:8px' }, el('button', { type: 'button', id: 'btn-registrar', 'data-registrar': '1', onclick: () => gravar(tipo), style: 'background:var(--marca);color:var(--papel)' }, rot), el('button', { type: 'button', onclick: () => { f.classList.remove('ver'); estado.formAberto = null; } }, 'Cancelar'));
   if (tipo === 'aceitar') {
-    f.append(el('p', { class: 'ajuda' }, 'Você conferiu a árvore contra o texto e ela está certa. Fica registrada como "aceita por humano", separada da aceitação do motor.'), nota(false), salvar('Registrar: aceitar'));
+    const pontos = pontosDaNorma(n);
+    f.append(el('p', { class: 'ajuda' }, 'Você conferiu a árvore contra o texto e ela está certa. Fica registrada como "aceita por humano", separada da aceitação do motor.'));
+    if (pontos > LIMITE_PONTOS_CONFIRMACAO) {
+      f.append(el('label', { class: 'conf-pontos' }, el('input', { type: 'checkbox', id: 'conf-pontos', onchange: (ev) => { const b = $('btn-registrar'); if (b) b.disabled = !ev.target.checked; } }), ` Conferi os ${pontos} pontos desta norma (são muitos: mais de ${LIMITE_PONTOS_CONFIRMACAO}).`));
+    }
+    f.append(nota(false), salvar('Registrar: aceitar'));
+    if (pontos > LIMITE_PONTOS_CONFIRMACAO) { const b = f.querySelector('button[data-registrar]'); if (b) b.disabled = true; }
   } else if (tipo === 'defeito_de_fonte') {
     const sel = window.getSelection()?.toString().trim().slice(0, 300) || '';
     const d = estado.norma.dispositivos.find((x) => x.id === estado.sel);
@@ -465,16 +499,18 @@ function gravar(tipo) {
   const n = estado.norma;
   const d = { idSapl: n.idSapl, decisao: tipo, sha256Origem: n.sha256Origem, versaoEstruturador: n.versaoEstruturador, em: new Date().toISOString(), motivosNaHora: n.motivos };
   const nota = $('nota')?.value.trim(); if (nota) d.nota = nota;
+  if (tipo === 'aceitar') { const pts = pontosDaNorma(n); d.pontosNaHora = pts; if (pts > LIMITE_PONTOS_CONFIRMACAO) d.confirmouPontos = $('conf-pontos')?.checked ? pts : undefined; }
   if (tipo === 'defeito_de_fonte') d.defeito = { tipo: $('def-tipo').value, trecho: $('def-trecho').value.trim() };
   if (tipo === 'corrigir') d.correcoes = estado.rascunho;
   const v = validarDecisao(d);
   if (!v.ok) { toast(v.erros[0]); return; }
-  estado.decisoes.set(n.idSapl, d); const guardou = gravarLocal();
+  estado.decisoes.set(n.idSapl, d); const guardou = gravarLocal(); escreverArquivo().then(() => pintarPainel());
   $('form').classList.remove('ver'); estado.formAberto = null; estado.rascunho = [];
-  toast(guardou ? 'Decisão registrada neste navegador.' : 'ATENÇÃO: este navegador não deixou guardar a decisão. Ela vale só enquanto a página estiver aberta: EXPORTE agora.');
+  const pend = naoExportadas();
+  toast(guardou ? (estado.arquivo ? `Decisão registrada e salva em ${estado.arquivo.name}.` : pend >= 5 && pend % 5 === 0 ? `Já são ${pend} decisões só neste navegador: EXPORTE agora.` : 'Decisão registrada neste navegador.') : 'ATENÇÃO: este navegador não deixou guardar a decisão. Ela vale só enquanto a página estiver aberta: EXPORTE agora.');
   pintarDecisao(); pintarPainel(); pintarFila();
 }
-function limparDecisao() { const n = estado.norma; if (!n || !estado.decisoes.has(n.idSapl)) return; estado.decisoes.delete(n.idSapl); gravarLocal(n.idSapl); toast('Decisão removida deste navegador. (Se já está no repositório, volta na próxima carga.)'); pintarDecisao(); pintarPainel(); pintarFila(); }
+function limparDecisao() { const n = estado.norma; if (!n || !estado.decisoes.has(n.idSapl)) return; if (!confirm('Remover a decisão desta norma? (Se ela já está no repositório, volta na próxima carga.)')) return; estado.decisoes.delete(n.idSapl); gravarLocal(n.idSapl); escreverArquivo().then(() => pintarPainel()); toast('Decisão removida deste navegador. (Se já está no repositório, volta na próxima carga.)'); pintarDecisao(); pintarPainel(); pintarFila(); }
 
 // ── exportar / importar ───────────────────────────────────────────────────────
 function exportar() {
@@ -493,12 +529,19 @@ async function importar(e) {
 
 // ── teclado ───────────────────────────────────────────────────────────────────
 document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && estado.formAberto) { $('form').classList.remove('ver'); estado.formAberto = null; document.querySelectorAll('#decisao [data-d]').forEach((b) => b.setAttribute('aria-pressed', 'false')); pintarDecisao(); return; }
   if (!estado.atalhos || e.ctrlKey || e.metaKey || e.altKey || /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
   const k = e.key.toLowerCase();
   if (k === 'j' || k === 'k') {
     const l = filtrada(); if (!l.length) return;
     const i = l.findIndex((n) => n.idSapl === estado.norma?.idSapl);
-    abrir(l[Math.max(0, Math.min(l.length - 1, i + (k === 'j' ? 1 : -1)))].idSapl); e.preventDefault();
+    let alvo;
+    if (i >= 0) alvo = l[Math.max(0, Math.min(l.length - 1, i + (k === 'j' ? 1 : -1)))];
+    else { // a norma aberta saiu da lista filtrada (acabou de ser decidida): continua DE ONDE ESTAVA, não volta ao início
+      const pos = estado.fila.findIndex((n) => n.idSapl === estado.norma?.idSapl); const posDe = (n) => estado.fila.indexOf(n);
+      alvo = k === 'j' ? (l.find((n) => posDe(n) > pos) || l[0]) : ([...l].reverse().find((n) => posDe(n) < pos) || l[l.length - 1]);
+    }
+    abrir(alvo.idSapl); e.preventDefault();
   } else if (estado.norma && { a: 'aceitar', d: 'defeito_de_fonte', c: 'corrigir', e: 'encaminhar_ao_motor' }[k]) { abrirForm({ a: 'aceitar', d: 'defeito_de_fonte', c: 'corrigir', e: 'encaminhar_ao_motor' }[k]); e.preventDefault(); }
 });
 $('f-motivo').addEventListener('change', pintarFila);

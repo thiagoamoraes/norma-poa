@@ -8,6 +8,8 @@
 // a que se refere; se qualquer uma mudar, a decisão fica DESATUALIZADA e a norma
 // volta à fila — nunca vale em silêncio.
 
+/** Acima disto, "aceitar" pede confirmação de que os pontos foram conferidos (decisão de 20/11/2026). */
+export const LIMITE_PONTOS_CONFIRMACAO = 20;
 export const DECISOES = ['aceitar', 'defeito_de_fonte', 'corrigir', 'encaminhar_ao_motor'];
 export const TIPOS_DE_DEFEITO = ['aspas_faltando', 'aspas_fechando_cedo', 'nr_truncado', 'numeracao_errada', 'ocr', 'outro'];
 export const CAMPOS_CORRIGIVEIS = ['rotulo'];
@@ -38,6 +40,8 @@ export function validarDecisao(d) {
     });
   }
   if (d.decisao === 'encaminhar_ao_motor' && !ehTexto(d.nota)) erros.push('encaminhar_ao_motor exige nota (o que o motor não conhece)');
+  if (d.pontosNaHora != null && !Number.isInteger(d.pontosNaHora)) erros.push('pontosNaHora deve ser inteiro');
+  if (d.decisao === 'aceitar' && d.pontosNaHora > LIMITE_PONTOS_CONFIRMACAO && d.confirmouPontos !== d.pontosNaHora) erros.push(`aceitar uma norma com ${d.pontosNaHora} pontos (mais de ${LIMITE_PONTOS_CONFIRMACAO}) exige confirmar que todos foram conferidos`);
   return { ok: erros.length === 0, erros };
 }
 
@@ -186,3 +190,35 @@ export function roteiroDeConferencia(motivos, texto) {
 
 /** Roteiro genérico: norma sem nenhum ponto marcado e sem roteiro específico. */
 export const ROTEIRO_GENERICO = 'O motor não apontou um ponto neste texto. Leia o início e o fim do arquivo e compare com a árvore ao lado; na dúvida, marque "encaminhar ao motor" e descreva o que viu.';
+
+// ── Vocabulário do revisor, aceitar com muitos pontos (decisões do mantenedor, 20/11/2026) ──────────────────
+
+/** Títulos em português dos motivos do motor; o código técnico fica em dica (tooltip) e no arquivo exportado. */
+export const TITULOS_DE_MOTIVO = {
+  rotulo_nao_confere_com_a_origem: 'O rótulo não confere com o texto',
+  trecho_nao_localizado_na_origem: 'Trecho da árvore não encontrado no texto',
+  texto_fora_da_arvore: 'Sobrou texto do arquivo fora da árvore',
+  sem_fecho: 'Fecho (local, data e assinaturas) não reconhecido',
+  bloco_de_alteracao_sem_dono: 'Bloco de alteração sem artigo que o introduza',
+  cabecalho_nao_reconhecido: 'Cabeçalho (tipo, número e data) não reconhecido',
+  sem_artigos: 'Nenhum artigo reconhecido',
+  dispositivo_sem_rotulo: 'Dispositivo sem rótulo reconhecível',
+  endereco_repetido: 'Dois dispositivos com o mesmo endereço',
+  promulgacao_parcial: 'Promulgação parcial (só alguns dispositivos)',
+  data_diverge_do_catalogo: 'A data do arquivo difere da do catálogo',
+  numero_diverge_do_catalogo: 'O número do arquivo difere do do catálogo',
+  tipo_diverge_do_catalogo: 'O tipo do ato difere do do catálogo',
+  tipo_sem_suporte: 'Tipo de ato ainda não suportado',
+  numeracao_de_artigos_com_salto: 'Numeração dos artigos com salto',
+  erro_do_leitor: 'O leitor falhou neste texto',
+  bloco_sem_fechamento_de_aspas: 'Fim do bloco de alteração foi inferido',
+  aspa_de_abertura_ausente: 'Bloco de alteração sem aspa de abertura',
+  alteracao_sem_aspas_nao_delimitada: 'Alteração anunciada, mas o bloco não foi lido',
+};
+export const tituloDoMotivo = (codigo) => TITULOS_DE_MOTIVO[codigo] || 'Motivo ainda sem título';
+
+/** Quantos pontos o revisor tem a olhar numa norma (mesma soma que o painel mostra). */
+export function pontosDaNorma(n) {
+  const r = n?.resumo || {};
+  return (r.rotulosDivergentes || 0) + (r.naoLocalizados || 0) + (r.lacunasReais || 0) + (n?.fronteiras?.length || 0);
+}

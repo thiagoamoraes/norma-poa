@@ -236,7 +236,8 @@ async function filtrar() {
   const mNum = /^(?:(lc|lei complementar|lei|emenda|elo)\s*)?(?:n[ºo.]*\s*)?([\d.]+)(?:\s*\/\s*(\d{4}))?$/.exec(q);
   const pontos = mNum ? null : pontuar(bruto);
   const numero = mNum ? mNum[2].replace(/\./g, '') : null;
-  const tipoQ = mNum && mNum[1] ? ({ lc: 6, 'lei complementar': 6, lei: 5, emenda: 2, elo: 2 })[mNum[1]] : null;
+  // "lei 12/1975" é como se fala de qualquer lei: acha a Lei e a Lei Complementar de mesmo número e ano (a lista diz o tipo); "lc" só LC
+  const tipoQ = mNum && mNum[1] ? ({ lc: [6], 'lei complementar': [6], lei: [5, 6], emenda: [2], elo: [2] })[mNum[1]] : null;
   filtradas = [];
   for (let i = 0; i < NORMAS.length; i++) {
     const n = NORMAS[i];
@@ -245,7 +246,7 @@ async function filtrar() {
     if (soE && !n[6] && !n[9]) continue;
     if (numero !== null) {
       if (n[2] !== numero) continue;
-      if (tipoQ && n[1] !== tipoQ) continue;
+      if (tipoQ && !tipoQ.includes(n[1])) continue;
       if (mNum[3] && !(n[3] || '').startsWith(mNum[3])) continue;
     } else if (pontos && !pontos.has(i)) continue;
     filtradas.push(pontos ? [n, pontos.get(i)] : [n, 0]);
@@ -491,7 +492,9 @@ let t; const agendar = () => { clearTimeout(t); t = setTimeout(filtrar, 120); };
 $('q').addEventListener('input', agendar);
 for (const id of ['tipo', 'decada', 'so-estr', 'no-texto']) $(id).addEventListener('change', filtrar);
 
+const avisoLento = setTimeout(() => { const c = document.getElementById('contagem'); if (c && /Carregando/.test(c.textContent)) c.textContent = 'Carregando o catálogo (cerca de 1 MB compactado, carregado uma só vez)… a conexão parece lenta; aguarde.'; }, 6000);
 fetch('dados/catalogo.json').then((r) => r.json()).then((c) => {
+  clearTimeout(avisoLento);
   TIPOS = c.tipos; NORMAS = c.normas;
   indexar();
   for (const [k, v] of Object.entries(TIPOS)) $('tipo').insertAdjacentHTML('beforeend', `<option value="${k}">${esc(v)}</option>`);

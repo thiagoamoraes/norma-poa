@@ -1561,6 +1561,17 @@ Entrevista com o mantenedor sobre os relatórios `PLANO-UX-*.md` (decisões 13 a
 - Conferido no Chromium: roteiro, foco, anúncio, interruptor (desligado: J não navega; lembrado ao recarregar), link e pré-seleção da comparação, rótulos da consulta (LC 320 "texto vigente apurado" com 10 versões; LC 611 "nenhuma alteração apurada"), sem erro de console.
 - Fica para próximas rodadas (relatórios): `listbox` com 521 `tabindex=0`, itens clicáveis sem papel, busca "lei 12/1975" que exclui LCs, tradução dos códigos de motivo, decisão por ponto, tempo de primeira carga em conexão lenta.
 
+## Rodada 34 — pendências de experiência de uso (decisões 17 a 20, 20/11/2026)
+
+Entrevista com o mantenedor (CLAUDE.md, decisões 17 a 20) e implementação, a partir dos relatórios `PLANO-UX-*.md`:
+- **Motivos em português** (`tituloDoMotivo`, `TITULOS_DE_MOTIVO`): fila, filtro, guia e lista de motivos mostram o título; o código técnico fica em dica (tooltip).
+- **Aceitar com mais de 20 pontos** exige confirmação; a decisão grava `pontosNaHora`/`confirmouPontos` e `validarDecisao` recusa sem ela (`LIMITE_PONTOS_CONFIRMACAO`, `pontosDaNorma`).
+- **Salvar sempre no mesmo arquivo** (File System Access, quando o navegador permitir): botão "Salvar em arquivo…", regravação a cada decisão (inclusive remoção), aviso de que o arquivo deixou de responder; sem suporte, lembrete a cada 5 decisões.
+- **Teclado e semântica:** lista de dispositivos com uma só parada de Tab e setas/Home/End/Enter/Espaço (antes, 521 paradas); fila com papel de botão e Espaço; **J/K continuam de onde estavam** depois de decidir (antes voltava à 1ª pendente); Esc fecha o formulário; "Limpar decisão" pede confirmação.
+- **Consulta:** "lei 12/1975" e "lei 611" agora acham também as leis complementares (a lista diz o tipo); "lc" continua só LC; aviso de conexão lenta durante o carregamento do catálogo.
+- `teste_revisao.mjs` 66 → 73 (inclui: todo motivo que o motor já produziu no acervo tem título). Conferido no Chromium, com o File System Access simulado: motivos traduzidos, confirmação (293 pontos exigem; 4 não), Esc, 1 parada de Tab entre 405 itens, setas, Espaço, J após decidir (abre a seguinte), gravação no arquivo (2 gravações; faixa de alerta some), busca; sem erro de console.
+- Fica: tempo de primeira carga em conexão lenta (cache local do catálogo — decisão), tradução dos códigos também no arquivo exportado (não: o código fica), decisão por ponto (não, decidido: por norma).
+
 ## Passagem de sessão (20/11/2026)
 
 Sem mudança de código. Registrado: estado da tarefa 1 (62,6% aceitas em 823 textos),
