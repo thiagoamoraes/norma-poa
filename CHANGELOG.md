@@ -1479,6 +1479,19 @@ Orientação do mantenedor: a LC 611/2009 vale da sanção (03/02/2009) em diant
 - Medido com a versão 7 do estruturador: **527 aceitas de 823 (64,0%)**; recentes 343 de 478 (**71,8%**); antigas 184 de 345 (53,3%). Motivos das recentes: `rotulo_nao_confere_com_a_origem` 58 · `trecho_nao_localizado_na_origem` 55 · `texto_fora_da_arvore` 35 · `sem_fecho` 31 · `bloco_de_alteracao_sem_dono` 25.
 - `dados/estruturado/` regravado localmente com a versão 7 (o mesmo que a coleta noturna faria).
 
+## Rodada 27 — dashboard de revisão humana, fase 1 (tarefa 1, 20/11/2026)
+
+Plano e decisões da entrevista com o mantenedor em `PLANO-REVISAO.md`. Fase 1 entregue: página estática `docs/revisao.html` (fila das normas **recentes** em revisão; texto de origem × árvore lado a lado, com o ponto reprovado destacado nos dois lados; quatro ações — aceitar, defeito de fonte, corrigir rótulo por sobreposição, encaminhar ao motor; exportar/importar `decisoes.jsonl`; link do arquivo original; teclado; celular; claro/escuro).
+
+- `ingestao/estrutura.mjs` (aditivo): `conferirConservacao` devolve também `ancoras` e `posLacunas` (posições); `alnum` exportada. Nenhum veredito muda; o JSON gravado em `dados/estruturado/` não muda.
+- `ingestao/revisao-ancoras.mjs` (puro): `ancorarConferencia` converte as posições em deslocamentos no texto de origem e dá a situação de cada trecho (ok · rótulo não confere · não localizado), mais as lacunas. Não reimplementa a conferência.
+- `ingestao/revisao.mjs` (puro, roda no navegador): validação de decisões, leitura/escrita do `decisoes.jsonl` (a última de cada norma vale), situação pendente/revisada/**desatualizada** (decisão amarrada a `sha256Origem` + `versaoEstruturador`: se o texto ou o leitor mudar, a norma volta à fila).
+- `ingestao/gerar-revisao.mjs`: gera `docs/dados/revisao/` (`fila.json`, `n/<id>.json`, cópia das decisões) e copia o módulo para `docs/js/ingestao/`; entra na `rotina.sh` depois do `gerar-site`. 135 normas, 6,1 MB, carregadas uma a uma.
+- `teste_revisao.mjs` (28, novo; falha contra o código sem as âncoras): casos reais (LC 1.005/2024, LC 957/2022, EC 39/2016, LC 689/2012 em `fixtures/textos/`) e, sobre as **823 normas** do acervo, as âncoras concordam com o veredito gravado pelo estruturador (0 divergências).
+- Conferido no Chromium (Playwright): fila, filtros, destaque, clique nos dois sentidos, as quatro ações, recusa de "encaminhar" sem nota, exportação, persistência após recarregar, celular sem rolagem horizontal, sem erro de console.
+- `normateste.mjs` idêntico; demais testes sem mudança. Core intocado.
+- Limites desta fase: decisões ainda não alteram os relatórios (F4); alteradoras sem "comando × resultado" (F2); sem comparação com o leis.org (F3).
+
 ## Passagem de sessão (20/11/2026)
 
 Sem mudança de código. Registrado: estado da tarefa 1 (62,6% aceitas em 823 textos),

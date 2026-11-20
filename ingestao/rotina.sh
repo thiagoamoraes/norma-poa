@@ -72,6 +72,8 @@ echo "=== histórico das leis listadas em dados/historico/_piloto.json (sem rede
 node ingestao/gerar-historico.mjs || falhas=$((falhas + 1))
 echo "=== dados da página de consulta"
 node ingestao/gerar-site.mjs || falhas=$((falhas + 1))
+echo "=== dados do dashboard de revisão (sem rede)"
+node ingestao/gerar-revisao.mjs || falhas=$((falhas + 1))
 echo "=== painel de situação"
 # uma linha por execução em dados/_execucoes.jsonl: é o que o painel usa para
 # dizer se a rotina está viva e se as últimas noites deram certo

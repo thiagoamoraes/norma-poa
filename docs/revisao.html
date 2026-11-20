@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Norma — revisão humana</title>
+<style>
+  :root {
+    --fundo: #f6f4ef; --papel: #ffffff; --tinta: #1f2328; --suave: #5b6470; --linha: #dcd8cf;
+    --marca: #7a3e1d; --marca-fraca: #f1e6dd; --ok: #1f6f43; --ok-fraca: #e3f1e8;
+    --alerta: #8a5a00; --alerta-fraca: #fbf0d6; --erro: #a12a2a; --erro-fraca: #f8e1e1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --fundo: #16181b; --papel: #1e2125; --tinta: #e6e3dc; --suave: #a0a7b0; --linha: #33383f;
+      --marca: #e0a57e; --marca-fraca: #3a2a20; --ok: #7fcf9f; --ok-fraca: #1c3327;
+      --alerta: #e6c36a; --alerta-fraca: #3a3016; --erro: #f0a0a0; --erro-fraca: #3d2020; }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--fundo); color: var(--tinta); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { padding: 16px 16px 8px; max-width: 1500px; margin: 0 auto; }
+  h1 { font: 600 1.3rem/1.25 Georgia, "Times New Roman", serif; margin: 0 0 4px; }
+  header p { margin: 0; color: var(--suave); font-size: .88rem; max-width: 90ch; }
+  a { color: var(--marca); }
+  button, select, input, textarea { font: inherit; color: inherit; }
+  button { color: var(--marca); background: var(--papel); border: 1px solid var(--linha); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
+  button:hover { border-color: var(--marca); }
+  button[aria-pressed=true] { background: var(--marca); color: var(--papel); border-color: var(--marca); }
+  button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--marca); outline-offset: 2px; }
+  input[type=text], select, textarea { background: var(--papel); border: 1px solid var(--linha); border-radius: 6px; padding: 7px 10px; width: 100%; }
+  textarea { resize: vertical; min-height: 3.2em; }
+
+  #painel { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-top: 10px; }
+  .num { display: flex; flex-direction: column; min-width: 78px; }
+  .num b { font: 600 1.35rem/1.1 system-ui; font-variant-numeric: tabular-nums; }
+  .num span { font-size: .75rem; color: var(--suave); }
+  .num.al b { color: var(--alerta); } .num.ok b { color: var(--ok); } .num.er b { color: var(--erro); }
+  #acoes-gerais { margin-left: auto; display: flex; gap: 8px; flex-wrap: wrap; }
+  #aviso-export { display: none; margin: 10px 0 0; padding: 8px 12px; background: var(--alerta-fraca); border-left: 3px solid var(--alerta); border-radius: 4px; font-size: .88rem; }
+  #aviso-export.ver { display: block; }
+
+  main { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; padding: 8px 16px 48px; max-width: 1500px; margin: 0 auto; }
+  @media (min-width: 1000px) { main { grid-template-columns: 330px minmax(0, 1fr); align-items: start; } #fila-col { position: sticky; top: 0; max-height: 100vh; overflow: auto; padding-top: 4px; } }
+  #fila-col summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
+  @media (min-width: 1000px) { #fila-col summary { display: none; } }
+  .filtros { display: grid; gap: 6px; margin: 6px 0 8px; }
+  #contagem { font-size: .82rem; color: var(--suave); margin: 4px 0; font-variant-numeric: tabular-nums; }
+  ul#fila { list-style: none; margin: 0; padding: 0; display: grid; gap: 5px; }
+  ul#fila li { background: var(--papel); border: 1px solid var(--linha); border-radius: 6px; padding: 7px 10px; cursor: pointer; font-size: .9rem; }
+  ul#fila li[aria-current=true] { border-color: var(--marca); box-shadow: inset 3px 0 0 var(--marca); }
+  ul#fila .t { font-weight: 600; }
+  ul#fila .m { color: var(--suave); font-size: .75rem; margin-top: 2px; word-break: break-word; }
+  .selo { display: inline-block; font-size: .7rem; padding: 0 7px; border-radius: 999px; margin-left: 4px; background: var(--marca-fraca); color: var(--marca); white-space: nowrap; }
+  .selo.ok { background: var(--ok-fraca); color: var(--ok); } .selo.al { background: var(--alerta-fraca); color: var(--alerta); } .selo.er { background: var(--erro-fraca); color: var(--erro); }
+
+  #norma { background: var(--papel); border: 1px solid var(--linha); border-radius: 8px; padding: 16px; min-width: 0; }
+  #norma h2 { font: 600 1.15rem/1.3 Georgia, serif; margin: 0 0 4px; }
+  .vazio { color: var(--suave); padding: 40px 8px; text-align: center; }
+  .meta { font-size: .85rem; color: var(--suave); display: flex; flex-wrap: wrap; gap: 4px 14px; margin-bottom: 10px; }
+  .porque { margin: 0 0 12px; padding: 0; list-style: none; display: grid; gap: 4px; font-size: .88rem; }
+  .porque li { padding: 6px 10px; border-radius: 4px; background: var(--alerta-fraca); }
+  .porque code { font-size: .78rem; }
+
+  #decisao { border: 1px solid var(--linha); border-radius: 8px; padding: 10px 12px; margin-bottom: 14px; background: var(--fundo); }
+  #decisao .linha { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  #decisao .estado { font-size: .85rem; margin: 8px 0 0; }
+  #decisao .estado.des { color: var(--erro); font-weight: 600; }
+  #form { display: none; margin-top: 10px; gap: 8px; }
+  #form.ver { display: grid; }
+  #form label { font-size: .82rem; color: var(--suave); display: grid; gap: 2px; }
+  .ajuda { font-size: .78rem; color: var(--suave); }
+
+  #paineis { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  @media (min-width: 1200px) { #paineis { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+  .painel { border: 1px solid var(--linha); border-radius: 8px; min-width: 0; display: flex; flex-direction: column; }
+  .painel h3 { margin: 0; font-size: .85rem; font-weight: 600; padding: 7px 10px; border-bottom: 1px solid var(--linha); background: var(--fundo); border-radius: 8px 8px 0 0; display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+  .rolagem { overflow: auto; max-height: 68vh; padding: 10px; }
+  #origem { white-space: pre-wrap; font: .82rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; word-break: break-word; tab-size: 4; }
+  #origem .d { border-bottom: 1px dotted var(--linha); cursor: pointer; }
+  #origem .d:hover { background: var(--marca-fraca); }
+  #origem .d.bad { background: var(--erro-fraca); border-bottom: 2px solid var(--erro); }
+  #origem .lac { background: var(--alerta-fraca); border-bottom: 2px dashed var(--alerta); }
+  #origem .sel { outline: 2px solid var(--marca); background: var(--marca-fraca); }
+  .leg { font-size: .75rem; color: var(--suave); font-weight: 400; }
+  .leg i { display: inline-block; width: .9em; height: .9em; border-radius: 2px; vertical-align: -1px; margin-right: 3px; }
+
+  .disp { padding: 6px 8px; border: 1px solid transparent; border-radius: 6px; margin-bottom: 3px; cursor: pointer; font-size: .9rem; }
+  .disp:hover { background: var(--marca-fraca); }
+  .disp[aria-selected=true] { border-color: var(--marca); background: var(--marca-fraca); }
+  .disp .r { font-weight: 700; margin-right: .4em; }
+  .disp .t { font-family: Georgia, serif; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .disp[aria-selected=true] .t { -webkit-line-clamp: unset; display: block; }
+  .disp .st { font-size: .75rem; margin-top: 2px; }
+  .disp.bad { border-left: 3px solid var(--erro); } .disp.nl { border-left: 3px solid var(--alerta); }
+  .st.bad { color: var(--erro); } .st.nl { color: var(--alerta); }
+  .disp.n1 { margin-left: 1.2em; } .disp.n2 { margin-left: 2.4em; } .disp.n3 { margin-left: 3.6em; } .disp.n4 { margin-left: 4.8em; }
+  .esp { font-size: .8rem; color: var(--suave); padding: 4px 8px; }
+  #toast { position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%); background: var(--tinta); color: var(--papel); padding: 8px 14px; border-radius: 6px; font-size: .88rem; opacity: 0; pointer-events: none; transition: opacity .2s; }
+  #toast.ver { opacity: 1; }
+  kbd { font: .75rem ui-monospace, monospace; border: 1px solid var(--linha); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; background: var(--papel); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Norma — revisão humana</h1>
+  <p>Normas <b>recentes</b> (sancionadas a partir da LC 611/2009) que o leitor automático não aceitou. Confira o ponto reprovado nos dois lados e registre a decisão. A decisão <b>não altera</b> a leitura do motor: fica numa camada à parte, amarrada à versão do texto. Projeto experimental e sem caráter oficial. <a href="index.html">Voltar à consulta</a></p>
+  <div id="painel" aria-live="polite"></div>
+  <div id="aviso-export" role="status"></div>
+</header>
+<main>
+  <details id="fila-col" open>
+    <summary>Fila de revisão</summary>
+    <div class="filtros">
+      <select id="f-motivo" aria-label="Filtrar por motivo"></select>
+      <select id="f-situacao" aria-label="Filtrar por situação">
+        <option value="">Todas as situações</option>
+        <option value="pendente" selected>Pendentes</option>
+        <option value="desatualizada">Desatualizadas</option>
+        <option value="revisada">Já revisadas</option>
+      </select>
+    </div>
+    <div id="contagem"></div>
+    <ul id="fila"></ul>
+    <p class="ajuda">Teclas: <kbd>J</kbd>/<kbd>K</kbd> próxima/anterior · <kbd>A</kbd> aceitar · <kbd>D</kbd> defeito de fonte · <kbd>C</kbd> corrigir rótulo · <kbd>E</kbd> encaminhar ao motor</p>
+  </details>
+  <section id="norma" aria-live="polite"><p class="vazio">Carregando a fila…</p></section>
+</main>
+<div id="toast" role="status"></div>
+<script type="module">
+import { DECISOES, TIPOS_DE_DEFEITO, validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao } from './js/ingestao/revisao.mjs';
+
+const $ = (id) => document.getElementById(id);
+const CHAVE = 'norma-revisao-decisoes-v1';
+const CHAVE_EXPORT = 'norma-revisao-exportado-em-v1';
+const ROTULO_DECISAO = { aceitar: 'Aceita como está', defeito_de_fonte: 'Defeito de fonte', corrigir: 'Correção de rótulo', encaminhar_ao_motor: 'Encaminhada ao motor' };
+const ROTULO_DEFEITO = { aspas_faltando: 'aspas de fechamento faltando', aspas_fechando_cedo: 'aspas fechando cedo demais', nr_truncado: '"(NR)" truncado', numeracao_errada: 'numeração errada na própria lei', ocr: 'texto de OCR / digitalização', outro: 'outro' };
+const MOTIVOS = {
+  rotulo_nao_confere_com_a_origem: 'O rótulo que o leitor deu (por posição) não é o que está escrito antes do trecho no arquivo.',
+  trecho_nao_localizado_na_origem: 'Um trecho da árvore não aparece no texto de origem, na ordem esperada.',
+  texto_fora_da_arvore: 'Há texto no arquivo que não foi para nenhum dispositivo.',
+  sem_fecho: 'Não foi reconhecido o fecho (local, data e assinatura).',
+  bloco_de_alteracao_sem_dono: 'Há bloco de redação alterada que não se liga a nenhum dispositivo da alteradora.',
+  cabecalho_nao_reconhecido: 'Não foi reconhecido o cabeçalho (tipo, número e data).',
+  sem_artigos: 'Nenhum artigo foi reconhecido.',
+  dispositivo_sem_rotulo: 'Há dispositivo sem rótulo reconhecível.',
+  endereco_repetido: 'Dois dispositivos receberam o mesmo endereço.',
+  promulgacao_parcial: 'Fragmento de promulgação parcial (só os dispositivos de veto derrubado).',
+  data_diverge_do_catalogo: 'A data do arquivo difere da do catálogo.',
+  numero_diverge_do_catalogo: 'O número do arquivo difere do do catálogo.',
+  tipo_diverge_do_catalogo: 'O tipo do arquivo difere do do catálogo.',
+  tipo_sem_suporte: 'Tipo de ato que o leitor ainda não suporta.',
+  numeracao_de_artigos_com_salto: 'A numeração dos artigos tem salto.',
+  erro_do_leitor: 'O leitor falhou ao processar o texto.',
+};
+
+const estado = { fila: [], decisoes: new Map(), norma: null, sel: null, rascunho: [], cache: new Map() };
+
+// ── decisões: repositório + navegador ─────────────────────────────────────────
+function lerLocal() { try { return JSON.parse(localStorage.getItem(CHAVE) || '[]'); } catch { return []; } }
+function gravarLocal() { try { localStorage.setItem(CHAVE, JSON.stringify([...estado.decisoes.values()])); } catch { /* sem armazenamento: segue em memória */ } }
+function exportadoEm() { try { return localStorage.getItem(CHAVE_EXPORT) || ''; } catch { return ''; } }
+function mesclar(lista) { for (const d of lista) { const atual = estado.decisoes.get(d.idSapl); if (!atual || d.em >= atual.em) estado.decisoes.set(d.idSapl, d); } }
+function naoExportadas() { const t = exportadoEm(); return [...estado.decisoes.values()].filter((d) => !t || d.em > t).length; }
+
+function toast(msg) { const t = $('toast'); t.textContent = msg; t.classList.add('ver'); clearTimeout(toast.h); toast.h = setTimeout(() => t.classList.remove('ver'), 2200); }
+function el(tag, attrs = {}, ...filhos) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) { if (k === 'class') e.className = v; else if (k.startsWith('on')) e.addEventListener(k.slice(2), v); else if (v !== false && v != null) e.setAttribute(k, v === true ? '' : v); }
+  for (const f of filhos.flat()) if (f != null) e.append(f.nodeType ? f : document.createTextNode(f));
+  return e;
+}
+const sit = (n) => situacaoDaDecisao(estado.decisoes.get(n.idSapl), n);
+
+// ── painel e fila ─────────────────────────────────────────────────────────────
+function pintarPainel() {
+  const r = resumoDaRevisao(estado.fila, estado.decisoes);
+  const n = (v, rot, cls = '') => el('div', { class: 'num ' + cls }, el('b', {}, String(v)), el('span', {}, rot));
+  const p = $('painel'); p.replaceChildren(
+    n(r.total, 'em revisão (recentes)'), n(r.pendentes, 'pendentes', 'al'), n(r.revisadas, 'revisadas', 'ok'), n(r.desatualizadas, 'desatualizadas', r.desatualizadas ? 'er' : ''),
+    el('div', { id: 'acoes-gerais' },
+      el('button', { type: 'button', onclick: exportar }, 'Exportar decisões'),
+      el('button', { type: 'button', onclick: () => $('arq').click() }, 'Importar'),
+      el('input', { id: 'arq', type: 'file', accept: '.jsonl,.json,.txt', hidden: true, onchange: importar })));
+  const k = naoExportadas();
+  const a = $('aviso-export');
+  a.classList.toggle('ver', k > 0);
+  a.textContent = k ? `${k} decisão(ões) só neste navegador. Exporte e entregue o arquivo para ficarem no repositório (limpar os dados do navegador as apaga).` : '';
+}
+function pintarFiltroMotivos() {
+  const cont = {};
+  for (const n of estado.fila) for (const m of n.motivos) cont[m] = (cont[m] || 0) + 1;
+  const s = $('f-motivo'); s.replaceChildren(el('option', { value: '' }, 'Todos os motivos'),
+    ...Object.entries(cont).sort((a, b) => b[1] - a[1]).map(([m, c]) => el('option', { value: m }, `${m} (${c})`)));
+}
+function filtrada() {
+  const m = $('f-motivo').value, s = $('f-situacao').value;
+  return estado.fila.filter((n) => (!m || n.motivos.includes(m)) && (!s || sit(n) === s));
+}
+function pintarFila() {
+  const lista = filtrada();
+  $('contagem').textContent = `${lista.length} de ${estado.fila.length} norma(s)`;
+  $('fila').replaceChildren(...lista.map((n) => {
+    const s = sit(n), d = estado.decisoes.get(n.idSapl);
+    const selo = s === 'revisada' ? el('span', { class: 'selo ok' }, '✓ ' + ROTULO_DECISAO[d.decisao]) : s === 'desatualizada' ? el('span', { class: 'selo er' }, '⚠ desatualizada') : null;
+    return el('li', { tabindex: 0, 'data-id': n.idSapl, 'aria-current': estado.norma?.idSapl === n.idSapl ? 'true' : 'false', onclick: () => abrir(n.idSapl), onkeydown: (e) => { if (e.key === 'Enter') abrir(n.idSapl); } },
+      el('div', { class: 't' }, n.rotulo.replace(/ municipal/i, ''), selo, n.ocr ? el('span', { class: 'selo al' }, 'OCR') : null),
+      el('div', { class: 'm' }, n.motivos.join(' · '), n.pontos ? ` — ${n.pontos} ponto(s)` : ''));
+  }));
+}
+
+// ── norma ─────────────────────────────────────────────────────────────────────
+async function carregar(id) {
+  if (estado.cache.has(id)) return estado.cache.get(id);
+  const r = await fetch(`dados/revisao/n/${id}.json`); if (!r.ok) throw new Error('norma não encontrada');
+  const n = await r.json(); estado.cache.set(id, n); return n;
+}
+async function abrir(id) {
+  try { estado.norma = await carregar(id); } catch (e) { toast('Não consegui abrir a norma: ' + e.message); return; }
+  estado.sel = null; estado.rascunho = []; $('form')?.classList.remove('ver');
+  pintarNorma(); pintarFila();
+  const sugestao = estado.norma.dispositivos.find((d) => d.situacao !== 'ok');
+  if (sugestao) selecionar(sugestao.id, false);
+  if (window.innerWidth < 1000) { $('fila-col').open = false; $('norma').scrollIntoView(); } else window.scrollTo({ top: 0 });
+}
+function pintarNorma() {
+  const n = estado.norma;
+  const porque = el('ul', { class: 'porque' }, n.motivos.map((m) => el('li', {}, el('code', {}, m), ' — ', MOTIVOS[m] || 'Motivo ainda sem descrição.')));
+  const meta = el('div', { class: 'meta' },
+    el('span', {}, n.tipo + ' nº ' + n.numero), el('span', {}, 'data ' + (n.data || '—')),
+    n.urlFonte ? el('a', { href: n.urlFonte, target: '_blank', rel: 'noopener' }, 'Arquivo original na fonte ↗') : el('span', {}, 'sem link da fonte'),
+    n.avisos.includes('texto_de_ocr') ? el('span', { class: 'selo al' }, 'texto de OCR: confira no original') : null);
+  $('norma').replaceChildren(
+    el('h2', {}, n.rotulo), meta, porque, blocoDecisao(),
+    el('div', { id: 'paineis' },
+      el('div', { class: 'painel' }, el('h3', {}, el('span', {}, 'Texto de origem (como extraído)'), el('span', { class: 'leg' }, el('i', { style: 'background:var(--erro-fraca);border-bottom:2px solid var(--erro)' }), 'rótulo não confere  ', el('i', { style: 'background:var(--alerta-fraca);border-bottom:2px dashed var(--alerta)' }), 'fora da árvore')), el('div', { class: 'rolagem', id: 'rol-origem', tabindex: 0 }, el('div', { id: 'origem' }))),
+      el('div', { class: 'painel' }, el('h3', {}, el('span', {}, `Árvore do leitor (${n.dispositivos.length} dispositivos)`), el('span', { class: 'leg' }, 'clique para localizar no texto')), el('div', { class: 'rolagem', id: 'rol-arvore' }, arvore()))));
+  pintarOrigem();
+  pintarDecisao();
+}
+function arvore() {
+  const n = estado.norma;
+  const nodes = n.dispositivos.map((d) => {
+    const nivel = Math.min(4, d.id.split('/').length - 1);
+    const cls = 'disp n' + nivel + (d.situacao === 'rotulo_diverge' ? ' bad' : d.situacao === 'nao_localizado' ? ' nl' : '');
+    const st = d.situacao === 'rotulo_diverge' ? el('div', { class: 'st bad' }, `✗ rótulo não confere: no arquivo está escrito «${d.naOrigem || '?'}» antes deste trecho`)
+      : d.situacao === 'nao_localizado' ? el('div', { class: 'st nl' }, '⚠ trecho não localizado no texto de origem') : null;
+    return el('div', { class: cls, 'data-id': d.id, role: 'option', tabindex: 0, 'aria-selected': 'false', onclick: () => selecionar(d.id, true), onkeydown: (e) => { if (e.key === 'Enter') selecionar(d.id, true); } },
+      el('span', { class: 'r' }, d.rotulo || '(sem rótulo)'), d.vetado ? el('span', { class: 'selo' }, 'vetado') : null, d.revogado ? el('span', { class: 'selo' }, 'revogado') : null,
+      el('div', { class: 't' }, d.texto || ''), st);
+  });
+  const esp = n.especiais.filter((e) => e.situacao === 'nao_localizado').map((e) => el('div', { class: 'esp' }, `⚠ ${e.ref} não localizado no texto de origem`));
+  const lac = n.lacunas.length ? el('div', { class: 'esp' }, `${n.lacunas.length} trecho(s) do arquivo ficaram fora da árvore (em amarelo, à esquerda).`) : null;
+  return el('div', { role: 'listbox', 'aria-label': 'Dispositivos' }, lac, ...esp, ...nodes);
+}
+function pintarOrigem() {
+  const n = estado.norma, o = $('origem'); o.replaceChildren();
+  const marcas = [];
+  for (const d of n.dispositivos) if (d.ini != null && d.fim > d.ini) marcas.push({ ini: d.ini, fim: d.fim, cls: 'd' + (d.situacao === 'rotulo_diverge' ? ' bad' : ''), id: d.id });
+  for (const l of n.lacunas) if (l.fim > l.ini) marcas.push({ ini: l.ini, fim: l.fim, cls: 'lac' });
+  marcas.sort((a, b) => a.ini - b.ini);
+  let p = 0;
+  for (const m of marcas) {
+    if (m.ini < p) continue;
+    if (m.ini > p) o.append(document.createTextNode(n.texto.slice(p, m.ini)));
+    const s = el('span', { class: m.cls }, n.texto.slice(m.ini, m.fim));
+    if (m.id) { s.dataset.id = m.id; s.addEventListener('click', () => selecionar(m.id, false)); }
+    o.append(s); p = m.fim;
+  }
+  if (p < n.texto.length) o.append(document.createTextNode(n.texto.slice(p)));
+}
+function selecionar(id, rolarOrigem) {
+  estado.sel = id;
+  document.querySelectorAll('#rol-arvore .disp').forEach((e) => e.setAttribute('aria-selected', String(e.dataset.id === id)));
+  document.querySelectorAll('#origem .sel').forEach((e) => e.classList.remove('sel'));
+  const marca = document.querySelector(`#origem [data-id="${CSS.escape(id)}"]`);
+  if (marca) { marca.classList.add('sel'); const rol = $('rol-origem'); rol.scrollTo({ top: Math.max(0, marca.offsetTop - rol.clientHeight / 3), behavior: 'smooth' }); }
+  const no = document.querySelector(`#rol-arvore .disp[data-id="${CSS.escape(id)}"]`);
+  if (no && !rolarOrigem) no.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  if (estado.formAberto === 'corrigir') abrirForm('corrigir');
+}
+
+// ── decisão ───────────────────────────────────────────────────────────────────
+function blocoDecisao() {
+  return el('div', { id: 'decisao' },
+    el('div', { class: 'linha' },
+      ...DECISOES.map((d) => el('button', { type: 'button', 'data-d': d, 'aria-pressed': 'false', onclick: () => abrirForm(d) }, { aceitar: 'Aceitar como está (A)', defeito_de_fonte: 'Defeito de fonte (D)', corrigir: 'Corrigir rótulo (C)', encaminhar_ao_motor: 'Encaminhar ao motor (E)' }[d])),
+      el('button', { type: 'button', onclick: limparDecisao, id: 'limpar' }, 'Limpar decisão')),
+    el('p', { class: 'estado', id: 'estado-decisao' }),
+    el('div', { id: 'form' }));
+}
+function pintarDecisao() {
+  const n = estado.norma, d = estado.decisoes.get(n.idSapl), s = sit(n);
+  const p = $('estado-decisao'); p.className = 'estado' + (s === 'desatualizada' ? ' des' : '');
+  p.textContent = !d ? 'Sem decisão.' : s === 'desatualizada' ? `⚠ Decisão desatualizada (${ROTULO_DECISAO[d.decisao]}): o texto ou o leitor mudou desde então. Revise de novo.` : `Decisão: ${ROTULO_DECISAO[d.decisao]} · ${new Date(d.em).toLocaleString('pt-BR')}${d.nota ? ' · ' + d.nota : ''}`;
+  document.querySelectorAll('#decisao [data-d]').forEach((b) => b.setAttribute('aria-pressed', String(!!d && s === 'revisada' && b.dataset.d === d.decisao)));
+  $('limpar').disabled = !d;
+}
+function abrirForm(tipo) {
+  if (!estado.norma) return;
+  estado.formAberto = tipo;
+  const n = estado.norma, f = $('form'); f.classList.add('ver'); f.replaceChildren();
+  const nota = (obrig) => el('label', {}, obrig ? 'Nota (obrigatória: o que o motor não conhece)' : 'Nota (opcional)', el('textarea', { id: 'nota', maxlength: 400 }));
+  const salvar = (rot) => el('div', { class: 'linha', style: 'display:flex;gap:8px' }, el('button', { type: 'button', onclick: () => gravar(tipo), style: 'background:var(--marca);color:var(--papel)' }, rot), el('button', { type: 'button', onclick: () => { f.classList.remove('ver'); estado.formAberto = null; } }, 'Cancelar'));
+  if (tipo === 'aceitar') {
+    f.append(el('p', { class: 'ajuda' }, 'Você conferiu a árvore contra o texto e ela está certa. Fica registrada como "aceita por humano", separada da aceitação do motor.'), nota(false), salvar('Registrar: aceitar'));
+  } else if (tipo === 'defeito_de_fonte') {
+    const sel = window.getSelection()?.toString().trim().slice(0, 300) || '';
+    const d = estado.norma.dispositivos.find((x) => x.id === estado.sel);
+    f.append(el('p', { class: 'ajuda' }, 'O erro está no arquivo da fonte, não no leitor. O motor não muda; a norma sai da fila com o motivo registrado.'),
+      el('label', {}, 'Tipo do defeito', el('select', { id: 'def-tipo' }, TIPOS_DE_DEFEITO.map((t) => el('option', { value: t }, ROTULO_DEFEITO[t])))),
+      el('label', {}, 'Trecho do arquivo que está errado (selecione no texto de origem antes de abrir, ou digite)', el('textarea', { id: 'def-trecho', maxlength: 300 }, sel || (d?.naOrigem ? '' : ''))),
+      nota(false), salvar('Registrar: defeito de fonte'));
+  } else if (tipo === 'corrigir') {
+    const d = n.dispositivos.find((x) => x.id === estado.sel);
+    f.append(el('p', { class: 'ajuda' }, 'Só o RÓTULO é corrigível, e a correção fica numa camada à parte; o texto da lei nunca é reescrito. Selecione o dispositivo na árvore.'));
+    if (!d) { f.append(el('p', {}, 'Selecione um dispositivo na árvore ou no texto de origem.')); }
+    else {
+      f.append(el('div', {}, el('b', {}, d.id), ` — rótulo do leitor: «${d.rotulo}»${d.naOrigem ? ` · escrito no arquivo: «${d.naOrigem}»` : ''}`),
+        el('label', {}, 'Rótulo correto (como está escrito na lei, ex.: "Art. 12.", "§ 1º", "Parágrafo único.")', el('input', { type: 'text', id: 'cor-para', maxlength: 40 })),
+        el('button', { type: 'button', onclick: () => { const para = $('cor-para').value.trim(); if (!para || para === d.rotulo) { toast('Informe um rótulo diferente do atual.'); return; } estado.rascunho = estado.rascunho.filter((c) => c.endereco !== d.id).concat({ endereco: d.id, campo: 'rotulo', de: d.rotulo, para }); abrirForm('corrigir'); } }, 'Adicionar à lista'));
+    }
+    if (estado.rascunho.length) f.append(el('ul', {}, estado.rascunho.map((c) => el('li', {}, `${c.endereco}: «${c.de}» → «${c.para}» `, el('button', { type: 'button', onclick: () => { estado.rascunho = estado.rascunho.filter((x) => x !== c); abrirForm('corrigir'); } }, 'remover')))));
+    f.append(nota(false), salvar('Registrar: correções'));
+  } else if (tipo === 'encaminhar_ao_motor') {
+    f.append(el('p', { class: 'ajuda' }, 'É forma legítima de redação que o motor ainda não conhece. A norma real vira exemplo candidato para um caso de estudo.'), nota(true), salvar('Registrar: encaminhar ao motor'));
+  }
+  document.querySelectorAll('#decisao [data-d]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.d === tipo)));
+  f.querySelector('textarea, input, select')?.focus({ preventScroll: true });
+}
+function gravar(tipo) {
+  const n = estado.norma;
+  const d = { idSapl: n.idSapl, decisao: tipo, sha256Origem: n.sha256Origem, versaoEstruturador: n.versaoEstruturador, em: new Date().toISOString(), motivosNaHora: n.motivos };
+  const nota = $('nota')?.value.trim(); if (nota) d.nota = nota;
+  if (tipo === 'defeito_de_fonte') d.defeito = { tipo: $('def-tipo').value, trecho: $('def-trecho').value.trim() };
+  if (tipo === 'corrigir') d.correcoes = estado.rascunho;
+  const v = validarDecisao(d);
+  if (!v.ok) { toast(v.erros[0]); return; }
+  estado.decisoes.set(n.idSapl, d); gravarLocal();
+  $('form').classList.remove('ver'); estado.formAberto = null; estado.rascunho = [];
+  toast('Decisão registrada neste navegador.');
+  pintarDecisao(); pintarPainel(); pintarFila();
+}
+function limparDecisao() { const n = estado.norma; if (!n || !estado.decisoes.has(n.idSapl)) return; estado.decisoes.delete(n.idSapl); gravarLocal(); toast('Decisão removida deste navegador. (Se já está no repositório, volta na próxima carga.)'); pintarDecisao(); pintarPainel(); pintarFila(); }
+
+// ── exportar / importar ───────────────────────────────────────────────────────
+function exportar() {
+  const txt = paraJsonl(estado.decisoes);
+  const a = el('a', { href: URL.createObjectURL(new Blob([txt], { type: 'application/x-ndjson' })), download: 'decisoes.jsonl' }); document.body.append(a); a.click(); a.remove();
+  try { localStorage.setItem(CHAVE_EXPORT, new Date().toISOString()); } catch { /* ignora */ }
+  toast(`${estado.decisoes.size} decisão(ões) exportada(s). Entregue o arquivo para entrar em dados/revisao/.`); pintarPainel();
+}
+async function importar(e) {
+  const f = e.target.files[0]; if (!f) return;
+  const { decisoes, erros } = lerDecisoesJsonl(await f.text());
+  mesclar([...decisoes.values()]); gravarLocal();
+  toast(`${decisoes.size} decisão(ões) importada(s)` + (erros.length ? `; ${erros.length} linha(s) inválida(s) ignorada(s) (primeira: linha ${erros[0].linha}).` : '.'));
+  pintarPainel(); pintarFila(); if (estado.norma) pintarDecisao();
+}
+
+// ── teclado ───────────────────────────────────────────────────────────────────
+document.addEventListener('keydown', (e) => {
+  if (e.ctrlKey || e.metaKey || e.altKey || /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
+  const k = e.key.toLowerCase();
+  if (k === 'j' || k === 'k') {
+    const l = filtrada(); if (!l.length) return;
+    const i = l.findIndex((n) => n.idSapl === estado.norma?.idSapl);
+    abrir(l[Math.max(0, Math.min(l.length - 1, i + (k === 'j' ? 1 : -1)))].idSapl); e.preventDefault();
+  } else if (estado.norma && { a: 'aceitar', d: 'defeito_de_fonte', c: 'corrigir', e: 'encaminhar_ao_motor' }[k]) { abrirForm({ a: 'aceitar', d: 'defeito_de_fonte', c: 'corrigir', e: 'encaminhar_ao_motor' }[k]); e.preventDefault(); }
+});
+$('f-motivo').addEventListener('change', pintarFila);
+$('f-situacao').addEventListener('change', pintarFila);
+
+// ── partida ───────────────────────────────────────────────────────────────────
+try {
+  const [fila, dec] = await Promise.all([fetch('dados/revisao/fila.json').then((r) => r.json()), fetch('dados/revisao/decisoes.jsonl').then((r) => (r.ok ? r.text() : '')).catch(() => '')]);
+  estado.fila = fila.normas;
+  mesclar([...lerDecisoesJsonl(dec).decisoes.values()]);
+  mesclar(lerLocal().filter((d) => validarDecisao(d).ok));
+  pintarFiltroMotivos(); pintarPainel(); pintarFila();
+  $('norma').replaceChildren(el('p', { class: 'vazio' }, estado.fila.length ? 'Escolha uma norma na fila (ou tecle J).' : 'Nenhuma norma recente em revisão. 🎉'));
+  if (location.hash.length > 1) { const id = Number(location.hash.slice(1)); if (estado.fila.some((n) => n.idSapl === id)) abrir(id); }
+} catch (e) {
+  $('norma').replaceChildren(el('p', { class: 'vazio' }, 'Não consegui carregar os dados da revisão (' + e.message + '). Abra esta página pelo endereço publicado, não pelo arquivo local.'));
+}
+</script>
+</body>
+</html>

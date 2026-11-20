@@ -37,7 +37,7 @@ export function epocaDaNorma(registro) {
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
 export const VERSAO_ESTRUTURADOR = 7;
 
-const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
+export const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');
 
 /** Rótulo (desFixo) → pedaço de caminho. Devolve null se não reconhecer. */
@@ -77,7 +77,12 @@ export function conferirConservacao(textoOrigem, trechos, limiteLacuna = 40) {
   const lacunas = [];
   const naoLocalizados = [];
   const rotulosDivergentes = [];
+  // Posições (aditivo, para o dashboard de revisão): em coordenadas do texto só com letras e algarismos.
+  const ancoras = []; // uma por trecho, na ordem: { i, pos, len, situacao: 'ok' | 'rotulo_diverge' | 'nao_localizado' }
+  const posLacunas = []; // paralela a `lacunas`: { ini, fim, noFim? }
+  let indice = -1;
   for (const item of trechos) {
+    indice++;
     // item: string, ou { texto, rotulo } — com `rotulo`, o que vem logo ANTES do
     // trecho na origem tem de terminar com o número/letra do rótulo. É a prova
     // de que o endereço dado ao dispositivo é o que está escrito, não o da posição.
@@ -85,20 +90,22 @@ export function conferirConservacao(textoOrigem, trechos, limiteLacuna = 40) {
     const a = alnum(t);
     const rotulo = typeof item === 'string' ? null : item.rotulo;
     const pos = a ? origem.indexOf(a, cursor) : cursor;
-    if (pos < 0) { naoLocalizados.push(String(t).slice(0, 80)); continue; }
+    if (pos < 0) { naoLocalizados.push(String(t).slice(0, 80)); ancoras.push({ i: indice, pos: -1, len: a.length, situacao: 'nao_localizado' }); continue; }
+    let situacaoDoTrecho = 'ok';
     if (rotulo) {
       const marca = fichaDoRotulo(rotulo);
       const antes = origem.slice(Math.max(cursor, pos - 30), pos).toLowerCase().replace(/[º°ª]/gu, '');
       // "Art. 5o" (letra "o" no lugar de "º") também vale
-      if (marca && !antes.endsWith(marca) && !antes.replace(/o$/, '').endsWith(marca)) rotulosDivergentes.push({ rotulo, naOrigem: origem.slice(Math.max(cursor, pos - 20), pos) });
+      if (marca && !antes.endsWith(marca) && !antes.replace(/o$/, '').endsWith(marca)) { rotulosDivergentes.push({ rotulo, naOrigem: origem.slice(Math.max(cursor, pos - 20), pos) }); situacaoDoTrecho = 'rotulo_diverge'; }
     }
+    ancoras.push({ i: indice, pos, len: a.length, situacao: situacaoDoTrecho });
     if (!a) continue;
-    if (pos - cursor > limiteLacuna) lacunas.push({ tamanho: pos - cursor, amostra: origem.slice(cursor, cursor + 80) });
+    if (pos - cursor > limiteLacuna) { lacunas.push({ tamanho: pos - cursor, amostra: origem.slice(cursor, cursor + 80) }); posLacunas.push({ ini: cursor, fim: pos }); }
     coberto += a.length;
     cursor = pos + a.length;
   }
-  if (origem.length - cursor > limiteLacuna) lacunas.push({ tamanho: origem.length - cursor, amostra: origem.slice(cursor, cursor + 80), noFim: true });
-  return { total: origem.length, coberto, cobertura: origem.length ? coberto / origem.length : 0, lacunas, naoLocalizados, rotulosDivergentes };
+  if (origem.length - cursor > limiteLacuna) { lacunas.push({ tamanho: origem.length - cursor, amostra: origem.slice(cursor, cursor + 80), noFim: true }); posLacunas.push({ ini: cursor, fim: origem.length, noFim: true }); }
+  return { total: origem.length, coberto, cobertura: origem.length ? coberto / origem.length : 0, lacunas, naoLocalizados, rotulosDivergentes, ancoras, posLacunas };
 }
 
 /** "Art. 5º-A" → "5a" · "§ 2º" → "2" · "Parágrafo único." → "único" · "XXIV –" → "xxiv" · "b)" → "b". */
