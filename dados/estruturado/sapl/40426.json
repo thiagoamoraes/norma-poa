@@ -2,8 +2,8 @@
  "idSapl": 40426,
  "rotulo": "Lei Complementar municipal nº 786, de 24 de dezembro de 2015",
  "sha256Origem": "6d6e6ea4a79e9d284155c9b7c1d35fe91b97b101451335d111c3f42ad7f129f1",
- "estruturadoEm": "2026-11-20T22:01:57.037Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:39.871Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "786",
@@ -15,7 +15,7 @@
    "motivoProvavel": "sancao_normal"
   }
  },
- "ementa": "Inclui Capítulo IX, com arts. 52-S a 52-X, no dezembro de 1973 – que institui e disciplina os tributos de competência do Município e estabelece normas gerais de direito tributário – e alterações posteriores, criando a Taxa de Fiscalização de Abertura do Pavimento das Vias Públicas e das Calçadas e dando outras providências.",
+ "ementa": "Inclui Capítulo IX, com arts. 52-S a 52-X, no Título III da Lei Complementar nº 7, de 7 de dezembro de 1973 – que institui e disciplina os tributos de competência do Município e estabelece normas gerais de direito tributário – e alterações posteriores, criando a Taxa de Fiscalização de Abertura do Pavimento das Vias Públicas e das Calçadas e dando outras providências.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
  "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 24 de dezembro de 2015.\nSebastião Melo,\nPrefeito, em exercício.\nJorge Luis Tonetto,\nSecretário Municipal da Fazenda.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.\nANEXO\nTabela VIII – Taxa de Fiscalização de Abertura do Pavimento das Vias Públicas e das Calçadas\nFaixas em m²     Valor por Licença em UFMs\n0 – 100                   100\n101 – 200                   200\n201 – 300                   300\n301 – 400                   400\n401 – 500                   500\n501 – 1000                 1.000\n1001 – acima                2.000",
  "dispositivos": [
@@ -25,13 +25,6 @@
    "tipo": "artigo",
    "rotulo": "Art. 1º",
    "texto": "Fica incluído Capítulo IX, com arts. 52-S a 52-X, no Título III da Lei Complementar nº 7, de 7 de dezembro de 1973, e alterações posteriores, conforme segue:",
-   "agrupadores": [
-    {
-     "tipo": "titulo",
-     "numero": "III",
-     "titulo": "da Lei Complementar nº 7, de 7 de"
-    }
-   ],
    "blocoDeAlteracao": "“CAPÍTULO IX\nTAXA DE FISCALIZAÇÃO DE ABERTURA DO PAVIMENTO DAS VIAS PÚBLICAS E\nDAS CALÇADAS\nSeção I\nDa Incidência e do Sujeito Passivo\nArt. 52-S. A Taxa de Fiscalização de Abertura do Pavimento das Vias Públicas e\ndas Calçadas é devida em razão do exercício do poder de polícia e incide sobre fiscalização\nexercida quando da abertura de pavimento de vias públicas e calçadas por parte do contribuinte,\nem observância ao regramento atinente à matéria.\nParágrafo único. A abertura de pavimento de vias públicas e calçadas prevista no\ncaput deste artigo compreende as intervenções que impliquem remoção de pavimentos com\nescavações nas vias públicas ou calçadas, incluindo métodos não destrutivos, constantes em\nprojetos para execução de obras, tais como implantação de postes, redes aéreas e subterrâneas,\nou obras que interfiram ou modifiquem o pavimento nas vias públicas.\nArt. 52-T. O sujeito passivo é a pessoa física ou a pessoa jurídica que requerer a\nautorização e executar os serviços descritos no art. 52-S desta Lei Complementar, inclusive\nterceiros contratados pelo Município de Porto Alegre, por suas autarquias e por suas fundações\nde direito público.\nSeção II\nDa Base de Cálculo\nArt. 52-U. A Taxa de Fiscalização de Abertura do Pavimento das Vias Públicas e\ndas Calçadas é calculada por metro quadrado, conforme faixas previstas na Tabela VIII desta Lei\nComplementar, tendo por base a UFM.\nSeção III\nDo Lançamento\nArt. 52-V. A Taxa de Fiscalização de Abertura do Pavimento das Vias Públicas e\ndas Calçadas será lançada quando do requerimento de autorização junto ao Executivo Municipal\npara a abertura de vias públicas ou calçadas, relativa aos serviços descritos no parágrafo único do\nart. 52-S desta Lei Complementar.\nSeção IV\nDa Isenção\nArt. 52-X. Ficam isentos da Taxa de Fiscalização de Abertura do Pavimento das\nVias Públicas e das Calçadas:\nI – a União e o Estado do Rio Grande do Sul, quando executarem diretamente as\nreferidas obras; e\nII – o proprietário ou possuidor a qualquer título que realizar reforma que objetive\na melhoria do revestimento da calçada fronteiriça a seu imóvel.”"
   },
   {
@@ -50,33 +43,18 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
    "tem_anexo"
   ],
   "metricas": {
    "artigos": 3,
    "dispositivos": 3,
-   "cobertura": 0.845,
+   "cobertura": 0.981,
    "blocosDeAlteracao": 1,
-   "lacunas": [
-    {
-     "tamanho": 52,
-     "amostra": "Art1ºFicaincluídoCapítuloIXcomarts52Sa52XnoTítuloIIIdaLeiComplementarnº7de7dedez"
-    },
-    {
-     "tamanho": 49,
-     "amostra": "dezembrode1973ealteraçõesposterioresconformesegueCAPÍTULOIXTAXADEFISCALIZAÇÃODEA"
-    }
-   ],
-   "naoLocalizados": [
-    "Inclui Capítulo IX, com arts. 52-S a 52-X, no dezembro de 1973 – que institui e ",
-    "Fica incluído Capítulo IX, com arts. 52-S a 52-X, no Título III da Lei Complemen"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

@@ -2,8 +2,8 @@
  "idSapl": 50340,
  "rotulo": "Lei Complementar municipal nº 1.046, de 28 de julho de 2025",
  "sha256Origem": "6ca6a3b5526772d80c6b723ac74c166a6ea9f7a87a77cdbc31a70b4f0b461f99",
- "estruturadoEm": "2026-11-20T22:01:55.879Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:38.833Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1046",
@@ -519,7 +519,7 @@
    "pai": "art-11",
    "tipo": "inciso",
    "rotulo": "X –",
-   "texto": "a utilização de créditos de precatórios como instrumento a ser utilizado na transação, respeitada a legislação vigente sobre a matéria. suas Autarquias e Fundações Públicas"
+   "texto": "a utilização de créditos de precatórios como instrumento a ser utilizado na transação, respeitada a legislação vigente sobre a matéria."
   },
   {
    "id": "art-12",
@@ -531,7 +531,7 @@
     {
      "tipo": "secao",
      "numero": "II",
-     "titulo": "Da Transação na Cobrança de Créditos do Município,"
+     "titulo": "Da Transação na Cobrança de Créditos do Município, suas Autarquias e Fundações Públicas"
     }
    ]
   },
@@ -603,7 +603,7 @@
    "pai": "art-13",
    "tipo": "paragrafo",
    "rotulo": "§ 2º",
-   "texto": "As disposições deste artigo não se aplicam à Transação por Adesão no Contencioso Tributário de Relevante e Disseminada Controvérsia Jurídica e à Transação por Adesão no Contencioso de Pequeno Valor, previstas, respectivamente, nas Seções III e IV deste Capítulo. Não-Tributário de Relevante e Disseminada Controvérsia Jurídica"
+   "texto": "As disposições deste artigo não se aplicam à Transação por Adesão no Contencioso Tributário de Relevante e Disseminada Controvérsia Jurídica e à Transação por Adesão no Contencioso de Pequeno Valor, previstas, respectivamente, nas Seções III e IV deste Capítulo."
   },
   {
    "id": "art-14",
@@ -615,7 +615,7 @@
     {
      "tipo": "secao",
      "numero": "III",
-     "titulo": "Da Transação por Adesão no Contencioso Tributário e"
+     "titulo": "Da Transação por Adesão no Contencioso Tributário e Não-Tributário de Relevante e Disseminada Controvérsia Jurídica"
     }
    ]
   },
@@ -894,31 +894,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 25,
    "dispositivos": 118,
-   "cobertura": 0.949,
+   "cobertura": 0.974,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 230,
-     "amostra": "2ºAsdisposiçõesdesteartigonãoseaplicamàTransaçãoporAdesãonoContenciosoTributário"
-    },
-    {
-     "tamanho": 61,
-     "amostra": "NãoTributáriodeRelevanteeDisseminadaControvérsiaJurídicaArt14OMunicípiodePortoAl"
-    }
-   ],
-   "naoLocalizados": [
-    "a utilização de créditos de precatórios como instrumento a ser utilizado na tran",
-    "As disposições deste artigo não se aplicam à Transação por Adesão no Contencioso"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

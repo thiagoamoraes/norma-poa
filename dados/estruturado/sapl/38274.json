@@ -2,8 +2,8 @@
  "idSapl": 38274,
  "rotulo": "Lei Complementar municipal nº 696, de 04 de junho de 2012",
  "sha256Origem": "9b1593770652274d082b2c5b9477a85b6c48265aec14ce57e3652a9066488c85",
- "estruturadoEm": "2026-11-20T22:01:57.694Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:40.423Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "696",
@@ -289,7 +289,7 @@
    "pai": "art-7",
    "tipo": "paragrafo",
    "rotulo": "§ 3º",
-   "texto": "Competirá ao presidente doConselho Gestor do FMDA proporcionaros meios necessários ao exercício de suascompetências. Animais"
+   "texto": "Competirá ao presidente doConselho Gestor do FMDA proporcionaros meios necessários ao exercício de suascompetências."
   },
   {
    "id": "art-8",
@@ -301,7 +301,7 @@
     {
      "tipo": "secao",
      "numero": "IV",
-     "titulo": "Das Competências Gerais do Conselho Gestor do Fundo Municipal dos Direitos"
+     "titulo": "Das Competências Gerais do Conselho Gestor do Fundo Municipal dos Direitos Animais"
     }
    ]
   },
@@ -391,10 +391,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
    "cabecalho_fora_do_padrao",
    "paragrafo_numerado_sem_irmao"
@@ -402,12 +400,10 @@
   "metricas": {
    "artigos": 13,
    "dispositivos": 46,
-   "cobertura": 0.943,
+   "cobertura": 0.962,
    "blocosDeAlteracao": 0,
    "lacunas": [],
-   "naoLocalizados": [
-    "Competirá ao presidente doConselho Gestor do FMDA proporcionaros meios necessári"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

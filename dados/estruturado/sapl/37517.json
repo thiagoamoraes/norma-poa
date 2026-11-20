@@ -2,8 +2,8 @@
  "idSapl": 37517,
  "rotulo": "Lei Complementar municipal nº 679, de 26 de agosto de 2011",
  "sha256Origem": "81e89c777c8140a05db5205c777d35c7d9925d537be7e409edd35abe068da6e3",
- "estruturadoEm": "2026-11-20T22:01:57.872Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:40.541Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "679",
@@ -165,7 +165,7 @@
    "pai": "art-2",
    "tipo": "inciso",
    "rotulo": "XIX –",
-   "texto": "VETADO. CAPÍT ULO II DISPOS IÇÕES GERA IS da Natureza d e Porto Alegre"
+   "texto": "VETADO. CAPÍT ULO II DISPOS IÇÕES GERA IS"
   },
   {
    "id": "art-3",
@@ -177,7 +177,7 @@
     {
      "tipo": "secao",
      "numero": "I",
-     "titulo": "Do Sistema Municipal de Unidades de Co nserva ção"
+     "titulo": "Do Sistema Municipal de Unidades de Co nserva ção da Natureza d e Porto Alegre"
     }
    ]
   },
@@ -1138,7 +1138,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 28.",
-   "texto": "A criação d e RPPN, ainda que parcia lme nte inser ida de ntro dos limites territo ria is do Municíp io de Po rto Alegre, deverá ser co municada à Smam. S ubseção I Criaçã o, Implantação e Gestão"
+   "texto": "A criação d e RPPN, ainda que parcia lme nte inser ida de ntro dos limites territo ria is do Municíp io de Po rto Alegre, deverá ser co municada à Smam."
   },
   {
    "id": "art-29",
@@ -1150,7 +1150,7 @@
     {
      "tipo": "secao",
      "numero": "III",
-     "titulo": "Das Unidades de Co nservação"
+     "titulo": "Das Unidades de Co nservação S ubseção I Criaçã o, Implantação e Gestão"
     }
    ]
   },
@@ -2175,8 +2175,6 @@
   "situacao": "revisar",
   "motivos": [
    "sem_fecho",
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [
@@ -2185,18 +2183,10 @@
   "metricas": {
    "artigos": 75,
    "dispositivos": 302,
-   "cobertura": 0.968,
+   "cobertura": 0.973,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 131,
-     "amostra": "Art28AcriaçãodeRPPNaindaqueparcialmenteinseridadentrodoslimitesterritoriaisdoMun"
-    }
-   ],
-   "naoLocalizados": [
-    "VETADO. CAPÍT ULO II DISPOS IÇÕES GERA IS da Natureza d e Porto Alegre",
-    "A criação d e RPPN, ainda que parcia lme nte inser ida de ntro dos limites terri"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": [
     {
      "rotulo": "XV –",
@@ -2215,8 +2205,8 @@
      "naOrigem": "XXII"
     },
     {
-     "rotulo": "Art. 15.",
-     "naOrigem": "Art1"
+     "rotulo": "XIX –",
+     "naOrigem": "XXIII"
     }
    ]
   }

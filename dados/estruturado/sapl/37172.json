@@ -2,8 +2,8 @@
  "idSapl": 37172,
  "rotulo": "Lei Complementar municipal nº 672, de 01 de fevereiro de 2011",
  "sha256Origem": "a2b60a86a385c428b6d7f4f481162a91f3f287a7b8c1313446e9b5c4afbb8dfa",
- "estruturadoEm": "2026-11-20T22:01:57.936Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:40.599Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "672",
@@ -24,24 +24,24 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "Fica criado o Fundo paraImplementação do Programa de Redução Gradativa do Número de Veículos de Tração Animal ede Veículosde Tração Humana (FRGV) no Município de Porto Alegre. DISPOSIÇÕES GERAIS Do Objetivo do FRGV"
+   "texto": "Fica criado o Fundo paraImplementação do Programa de Redução Gradativa do Número de Veículos de Tração Animal ede Veículosde Tração Humana (FRGV) no Município de Porto Alegre."
   },
   {
    "id": "art-2",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 2º",
-   "texto": "OFRGV tem por objetivo proporcionar e gerenciar receitas e meios para o desenvolvimento do Programa de Redução Gradativa do Número de Veículos deTração Animal e de Veículos de Tração Humana no Município de Porto Alegree para aexecução das políticas públicas que serão implementadas no desenvolvimentoPrograma. Das Receitas do FRGV Composição",
+   "texto": "OFRGV tem por objetivo proporcionar e gerenciar receitas e meios para o desenvolvimento do Programa de Redução Gradativa do Número de Veículos deTração Animal e de Veículos de Tração Humana no Município de Porto Alegree para aexecução das políticas públicas que serão implementadas no desenvolvimentoPrograma.",
    "agrupadores": [
     {
      "tipo": "capitulo",
      "numero": "II",
-     "titulo": ""
+     "titulo": "DISPOSIÇÕES GERAIS"
     },
     {
      "tipo": "secao",
      "numero": "I",
-     "titulo": ""
+     "titulo": "Do Objetivo do FRGV"
     }
    ]
   },
@@ -55,12 +55,12 @@
     {
      "tipo": "secao",
      "numero": "II",
-     "titulo": ""
+     "titulo": "Das Receitas do FRGV"
     },
     {
      "tipo": "subsecao",
      "numero": "I",
-     "titulo": ""
+     "titulo": "Composição"
     }
    ]
   },
@@ -118,7 +118,7 @@
    "pai": "art-3",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
-   "texto": "O auferido com base neste artigo será depositadoem instituições financeiras oficiais, em conta especial, sob a denominaçãoImplementação do Programa de Redução Gradativa do Número de Veículos de Tração Animal e de Veículos de TraçãoHumana. Aplicações"
+   "texto": "O auferido com base neste artigo será depositadoem instituições financeiras oficiais, em conta especial, sob a denominaçãoImplementação do Programa de Redução Gradativa do Número de Veículos de Tração Animal e de Veículos de TraçãoHumana."
   },
   {
    "id": "art-4",
@@ -130,7 +130,7 @@
     {
      "tipo": "subsecao",
      "numero": "II",
-     "titulo": ""
+     "titulo": "Aplicações"
     }
    ]
   },
@@ -174,7 +174,7 @@
    "pai": "art-4",
    "tipo": "inciso",
    "rotulo": "VI –",
-   "texto": "concessão de outrosbenefícios, serviços, programas, projetos e intervenções, conforme a necessidade, naforma aprovada pelo Conselho Gestor do FRGV. Do Conselho Gestor do FRGV"
+   "texto": "concessão de outrosbenefícios, serviços, programas, projetos e intervenções, conforme a necessidade, naforma aprovada pelo Conselho Gestor do FRGV."
   },
   {
    "id": "art-5",
@@ -186,7 +186,7 @@
     {
      "tipo": "secao",
      "numero": "III",
-     "titulo": ""
+     "titulo": "Do Conselho Gestor do FRGV"
     }
    ]
   },
@@ -222,36 +222,16 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "sem_fecho",
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
+   "sem_fecho"
   ],
   "avisos": [],
   "metricas": {
    "artigos": 8,
    "dispositivos": 22,
-   "cobertura": 0.75,
+   "cobertura": 0.957,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 517,
-     "amostra": "Art1ºFicacriadooFundoparaImplementaçãodoProgramadeReduçãoGradativadoNúmerodeVeíc"
-    },
-    {
-     "tamanho": 241,
-     "amostra": "ParágrafoúnicoOauferidocombasenesteartigoserádepositadoeminstituiçõesfinanceiras"
-    },
-    {
-     "tamanho": 161,
-     "amostra": "VIconcessãodeoutrosbenefíciosserviçosprogramasprojetoseintervençõesconformeanece"
-    }
-   ],
-   "naoLocalizados": [
-    "Fica criado o Fundo paraImplementação do Programa de Redução Gradativa do Número",
-    "OFRGV tem por objetivo proporcionar e gerenciar receitas e meios para o desenvol",
-    "O auferido com base neste artigo será depositadoem instituições financeiras ofic",
-    "concessão de outrosbenefícios, serviços, programas, projetos e intervenções, con"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

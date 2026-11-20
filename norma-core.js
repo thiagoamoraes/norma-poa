@@ -624,7 +624,7 @@ export function parseMinuta(raw, nrRanges) {
   const reEmentaVerbo = /^(institui|disp[õo]e\s+sobre|altera|estabelece|autoriza|cria|fixa|regulamenta|revoga|extingue|denomina|concede|declara|reconhece|d[áa]|acrescenta|inclui|suspende|pro[íi]be|veda|permite|assegura|garante|institucionaliza|reorganiza|transforma|desafeta|regula|torna|obriga|determina)\b/i;
   const reEM  = /^(EXPOSI[ÇC][ÃA]O\s+DE\s+MOTIVOS|JUSTIFICATIVA|JUSTIFICA[ÇC][ÃA]O)\s*:?$/i;
   const reEpig = /^(MINUTA\s+DE\s+)?PROJETO\s+DE\s+(LEI|RESOLU[ÇC][ÃA]O)(\s+COMPLEMENTAR)?\b\s*:?\s*(.*)$/i;
-  const reGrupo = /^(T[ÍI]TULO|CAP[ÍI]TULO|SE[ÇC][ÃA]O|SUBSE[ÇC][ÃA]O|PARTE|LIVRO)\s+([IVXLCDM]+)\b\s*[-–—:]?\s*(.*)$/i;
+  const reGrupo = /^(T[ÍI]TULO|CAP[ÍI]TULO|SE[ÇC][ÃA]O|SUBSE[ÇC][ÃA]O|PARTE|LIVRO)\s+([IVXLCDM]+|[ÚU]NICO)\b\s*[-–—:]?\s*(.*)$/i;
   const GRUPO_TIPO = {
     "título":"titulo","titulo":"titulo","capítulo":"capitulo","capitulo":"capitulo",
     "seção":"secao","secao":"secao","subseção":"subsecao","subsecao":"subsecao",
@@ -670,7 +670,9 @@ export function parseMinuta(raw, nrRanges) {
       doc.em.push(mk("em", line)); continue;
     }
     let m;
-    if (m = line.match(reGrupo)) {
+    // agrupador: só depois do preâmbulo e com título que não começa por minúscula/pontuação
+    // (linha de frase "Seção IV do Capítulo II; e revoga…" não é agrupador — decisão 23, 20/11/2026)
+    if ((m = line.match(reGrupo)) && (stage === "corpo" || doc.preambulo) && !/^[a-zà-ÿ,;.)]/.test((m[3]||"").trim())) {
       const tipo = GRUPO_TIPO[m[1].toLowerCase()] || "capitulo";
       let titulo = (m[3] || "").trim();
       if (!titulo) {
@@ -681,6 +683,25 @@ export function parseMinuta(raw, nrRanges) {
         // tinha rodado contra formatação real.
         const prox = (lines[li + 1] || "").trim();
         if (prox && !reGrupo.test(prox) && !reArt.test(prox)) { titulo = prox; skipUntil = li + 1; }
+      }
+      {
+        // Título em até 3 linhas a mais (e/ou separado por linha em branco ou quebra de página):
+        // vale tudo até o próximo Art. ou agrupador, até 200 caracteres, sem "Art. N"/"§ N" dentro;
+        // se não terminar em Art. ou agrupador, fica como estava (decisão 23, 20/11/2026).
+        const ini = skipUntil >= li ? skipUntil + 1 : li + 1;
+        const extra = []; let k = ini;
+        while (k < lines.length && k - ini < 8) {
+          const t = (lines[k] || "").trim();
+          if (!t) { k++; continue; }
+          if (reArt.test(t) || reGrupo.test(t)) break;
+          extra.push([k, t]); k++;
+        }
+        const partes = [titulo, ...extra.map(e => e[1])];
+        const fim = (lines[k] || "").trim();
+        if (extra.length && extra.length <= 3 && partes.join(" ").length <= 200 &&
+            !partes.some(t => /\bAr?t?\.?\s*\d|§\s*\d/.test(t)) && (reArt.test(fim) || reGrupo.test(fim))) {
+          titulo = partes.join(" ").trim(); skipUntil = extra[extra.length - 1][0];
+        }
       }
       pendGrupos.push({ id:nid(), tipo, numero:m[2].toUpperCase(), titulo }); continue;
     }

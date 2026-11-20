@@ -2,8 +2,8 @@
  "idSapl": 50386,
  "rotulo": "Lei Complementar municipal nº 1.050, de 11 de agosto de 2025",
  "sha256Origem": "2f3db2a33137c69ae9f1fac02b5976acd4dd81eef089d2726cbdda6a412c52b0",
- "estruturadoEm": "2026-11-20T22:01:55.756Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:38.771Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1050",
@@ -15,7 +15,7 @@
    "motivoProvavel": "sancao_normal"
   }
  },
- "ementa": "Altera o art. 4º e o caput do art. 21; inclui § 3º no art. 22, Subseção I, com arts. 22-A, 22-B e 22-C, na caput do art. 21, todos na Lei Complementar nº 694, de 21 de maio de 2012, – que consolida a legislação sobre criação, comércio, exibição, circulação e políticas de proteção de animais domésticos no Município de Porto Alegre e revoga legislação sobre o tema –, modificando condições para o funcionamento de canis e gatis, acrescentando normas em relação a acumuladores de animais e dando outras providências.",
+ "ementa": "Altera o art. 4º e o caput do art. 21; inclui § 3º no art. 22, Subseção I, com arts. 22-A, 22-B e 22-C, na Seção IV do Capítulo II; e revoga os incs. I e II do caput do art. 21, todos na Lei Complementar nº 694, de 21 de maio de 2012, – que consolida a legislação sobre criação, comércio, exibição, circulação e políticas de proteção de animais domésticos no Município de Porto Alegre e revoga legislação sobre o tema –, modificando condições para o funcionamento de canis e gatis, acrescentando normas em relação a acumuladores de animais e dando outras providências.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
  "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de agosto de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
@@ -25,13 +25,6 @@
    "tipo": "artigo",
    "rotulo": "Art. 1º",
    "texto": "Fica alterado o art. 4º da Lei Complementar nº 694, de 21 de maio de 2012, conforme segue:",
-   "agrupadores": [
-    {
-     "tipo": "secao",
-     "numero": "IV",
-     "titulo": "do Capítulo II; e revoga os incs. I e II do"
-    }
-   ],
    "blocoDeAlteracao": "“Art. 4º O funcionamento de estabelecimentos destinados à criação, à pesquisa, à\nvenda, ao treinamento, à competição, ao alojamento, ao tratamento, à exposição, à exibição, à\nestética de animais ou de estabelecimentos similares dependerá da nomeação de médico\nveterinário responsável técnico.” (NR)"
   },
   {
@@ -55,7 +48,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 4º",
-   "texto": "Fica incluída Subseção I, com arts. 22-A, 22-B e 22-C, na Seção IV do",
+   "texto": "Fica incluída Subseção I, com arts. 22-A, 22-B e 22-C, na Seção IV do Capítulo II da Lei Complementar nº 694, de 2012, conforme segue:",
    "blocoDeAlteracao": "“Subseção I\nDos Casos que Envolvam Acumuladores de Animais\nArt. 22-A. Faz parte da política de proteção aos animais a identificação de pessoas\nconhecidas como acumuladoras de animais, bem como a assistência a elas e aos animais\nacumulados.\nArt. 22-B. Para fins desta Subseção, entende-se por acumulador de animais a\npessoa que:\nI – é incapaz de colocar um limite no número de animais abrigados;\nII – mantém um número de animais em desacordo com esta Lei Complementar, em\nespaços físicos insuficientes e inapropriados à albergagem;\nIII – é incapaz de dar aos animais o mínimo de condições de vida, tais como\nalimento adequado, água, cuidados veterinários e higienização do animal e do ambiente;\nIV – não admite a própria incapacidade de cuidar minimamente dos animais e\nperceber o impacto negativo em sua saúde e seu bem-estar, na saúde das pessoas próximas e na\nsaúde dos animais abrigados; e\nV – é incapaz de agir sobre a deterioração das condições dos animais ou do\nambiente.\nArt. 22-C. A Administração Pública Municipal auxiliará na assistência aos casos\nde que trata o art. 22-A desta Lei Complementar, nos seguintes termos:\nI – identificação de pessoas que se caracterizam como acumuladores de animais;\nII – planejamento, coordenação, desenvolvimento, articulação, implementação,\ngerenciamento, controle e execução de ações voltadas à efetivação das políticas de assistência a\nacumuladores de animais;\nIII – organização, gerenciamento e capacitação de grupos de voluntários, para dar\nsuporte a projetos relacionados à assistência a acumuladores de animais; e\nIV – busca de parcerias e participação de pessoas físicas ou jurídicas e organizações\nsociais, a fim de desenvolver projetos relacionados à assistência a acumuladores de animais.”"
   },
   {
@@ -63,14 +56,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 5º",
-   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação.",
-   "agrupadores": [
-    {
-     "tipo": "capitulo",
-     "numero": "II",
-     "titulo": "da Lei Complementar nº 694, de 2012, conforme segue:"
-    }
-   ]
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
   },
   {
    "id": "art-6",
@@ -81,32 +67,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 6,
    "dispositivos": 6,
-   "cobertura": 0.832,
+   "cobertura": 0.979,
    "blocosDeAlteracao": 4,
-   "lacunas": [
-    {
-     "tamanho": 477,
-     "amostra": "LEICOMPLEMENTARNº1050DE11DEAGOSTODE2025Alteraoart4ºeocaputdoart21inclui3ºnoart22"
-    },
-    {
-     "tamanho": 51,
-     "amostra": "CapítuloIIdaLeiComplementarnº694de2012conformesegueSubseçãoIDosCasosqueEnvolvamA"
-    }
-   ],
-   "naoLocalizados": [
-    "Altera o art. 4º e o caput do art. 21; inclui § 3º no art. 22, Subseção I, com a",
-    "do Capítulo II; e revoga os incs. I e II do",
-    "da Lei Complementar nº 694, de 2012, conforme segue:"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

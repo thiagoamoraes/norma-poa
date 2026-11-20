@@ -2,8 +2,8 @@
  "idSapl": 28021,
  "rotulo": "Lei Complementar municipal nº 344, de 20 de março de 1995",
  "sha256Origem": "38e317d877b00584d9b9d887008ed97385746ec2f98b5fa4b3693262dc589b89",
- "estruturadoEm": "2026-11-20T22:02:01.038Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:43.592Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -15,7 +15,7 @@
    "motivoProvavel": "indeterminado"
   }
  },
- "ementa": "AV. LOUREIRO    DA SILVA,   255 -   FONE    *28-15065 PLCL NQ 030/94 RIO GRANDE DO SUL 033 )/). l                                           Acrescenta artigo e inciso ao Capitulo v, }\\   : j i ,I'     .                                              01-75, estabelecendo sanções de competência J municipal às infrações às Leis Federais   nQs 8880 - Lei de Criação da URV, e 8884 - L.ei Antitruste. Faço saber, no uso das atribuições que me obrigam os parágrafos 5Q e 7Q, do art. 77, da Lei Orgânica, que a Câmara Municipal manteve e eu                 promulgo a seguinte Lei Complementar:",
+ "ementa": "AV. LOUREIRO    DA SILVA,   255 -   FONE    *28-15065 PLCL NQ 030/94 RIO GRANDE DO SUL 033 )/). l                                           Acrescenta artigo e inciso ao Capitulo v, Titulo II da Lei Complementar nQ 12, de 07- }\\   : j i ,I'     .                                              01-75, estabelecendo sanções de competência J municipal às infrações às Leis Federais   nQs 8880 - Lei de Criação da URV, e 8884 - L.ei Antitruste. Faço saber, no uso das atribuições que me obrigam os parágrafos 5Q e 7Q, do art. 77, da Lei Orgânica, que a Câmara Municipal manteve e eu                 promulgo a seguinte Lei Complementar:",
  "preambulo": null,
  "fecho": null,
  "dispositivos": [
@@ -25,13 +25,6 @@
    "tipo": "artigo",
    "rotulo": "Art. 1º",
    "texto": "Q. Acrescenta ao Capitulo v, Titulo II, da Lei Complementar nQ 12/75, art. 31, com a seguinte redação, renumerando-se os demais:",
-   "agrupadores": [
-    {
-     "tipo": "titulo",
-     "numero": "II",
-     "titulo": "da Lei Complementar nQ 12, de 07-"
-    }
-   ],
    "blocoDeAlteracao": "\"Art. 31. Os estabelecimentos que infringirem o disposto no § lQ do\nart. 36 da Lei nQ 8880/94, ou o disposto no inciso XXIV do art. 21 da Lei\nnQ 8884/94, sofrerão as seguintes sanções municipais, a serem aplicadas pelo órgão competente na caracterização da imposição de preços              abusivos     ou\naumento injustificado de preços:\n-\nI - na primeira infração, suspensao temporária do alvará de funcionamento, pelo prazo de 10 (dez) dias;\n- temporária do alvará de funciorI - reiterada a infração, suspensao\nnamento, pelo prazo de 30 (trinta) dias;\nIII - na terceira infração consecutiva, cancelamento definitivo do al\nvará de funcionamento.\n- utilizados os levantamentos mensais do IEPE - Centro de Estudos e Pesrao\nquisas Econômicas da Universidade Federal do Rio Grande do Sul.\nCAMARA MUNICIPAL DE PORTO ALEGRE                               PROC. Nº 1994/94\nAV. LOUREIRO DA SILVA, 255 -   FONE -28-0055                   PLCL NºQ ~/94\nRIO GRANDE DO SUL\n§ 2º.                                                            - rece-As denúncias de qualquer pesso'a fisica ou jUrl dica serao\nbidas e analisadas pela SMIC - Secretaria Municipal de Indústria      e Comér-\n~\ncio, que se encarregara da comprovação das infrações e ap1icação das      pena-\n1idades, com base nos critérios estabelecidos neste artigo.\n§ 3º.    As penalidades serão aplicadas, consecutivamente, independente\ndos lapsos de tempo decorridos entre as infrações.\""
   },
   {
@@ -82,25 +75,16 @@
   "motivos": [
    "cabecalho_nao_reconhecido",
    "sem_fecho",
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
   "metricas": {
    "artigos": 3,
    "dispositivos": 7,
-   "cobertura": 0.779,
+   "cobertura": 0.967,
    "blocosDeAlteracao": 1,
-   "lacunas": [
-    {
-     "tamanho": 259,
-     "amostra": "jiI0175estabelecendosançõesdecompetênciaJmunicipalàsinfraçõesàsLeisFederaisnQs88"
-    }
-   ],
-   "naoLocalizados": [
-    "AV. LOUREIRO    DA SILVA,   255 -   FONE    *28-15065 PLCL NQ 030/94 RIO GRANDE "
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": [
     {
      "rotulo": "I –",

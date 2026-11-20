@@ -2,8 +2,8 @@
  "idSapl": 39694,
  "rotulo": "Lei Complementar municipal nº 744, de 28 de outubro de 2014",
  "sha256Origem": "060072b60cf0ef7f9590e46f6a2e05fdbb51d42776a7019b86b4d09620b47f4c",
- "estruturadoEm": "2026-11-20T22:01:57.303Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:40.073Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "744",
@@ -38,7 +38,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 2º",
-   "texto": "Fica o FMASC vinculado à Secretaria Municipal de Transportes (SMT) e à Empresa Pública de Transporte e Circulação (EPTC). Cicloviário"
+   "texto": "Fica o FMASC vinculado à Secretaria Municipal de Transportes (SMT) e à Empresa Pública de Transporte e Circulação (EPTC)."
   },
   {
    "id": "art-3",
@@ -55,7 +55,7 @@
     {
      "tipo": "secao",
      "numero": "I",
-     "titulo": "Da Aplicação dos Recursos do Fundo Municipal de Apoio ao Sistema"
+     "titulo": "Da Aplicação dos Recursos do Fundo Municipal de Apoio ao Sistema Cicloviário"
     }
    ]
   },
@@ -92,7 +92,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 4º",
-   "texto": "Não poderão ser financiados pelo FMASC projetos incompatíveis com as políticas públicas constantes do Plano Diretor Cicloviário Integrado. Cicloviário"
+   "texto": "Não poderão ser financiados pelo FMASC projetos incompatíveis com as políticas públicas constantes do Plano Diretor Cicloviário Integrado."
   },
   {
    "id": "art-5",
@@ -104,7 +104,7 @@
     {
      "tipo": "secao",
      "numero": "II",
-     "titulo": "Da Composição das Receitas do Fundo Municipal de Apoio ao Sistema"
+     "titulo": "Da Composição das Receitas do Fundo Municipal de Apoio ao Sistema Cicloviário"
     }
    ]
   },
@@ -323,7 +323,7 @@
    "pai": "art-7",
    "tipo": "paragrafo",
    "rotulo": "§ 3º",
-   "texto": "Competirá ao presidente do conselho gestor do FMASC proporcionar os meios necessários ao exercício de suas competências. ao Sistema Cicloviário"
+   "texto": "Competirá ao presidente do conselho gestor do FMASC proporcionar os meios necessários ao exercício de suas competências."
   },
   {
    "id": "art-8",
@@ -335,7 +335,7 @@
     {
      "tipo": "secao",
      "numero": "IV",
-     "titulo": "Das Competências Gerais do Conselho Gestor do Fundo Municipal de Apoio"
+     "titulo": "Das Competências Gerais do Conselho Gestor do Fundo Municipal de Apoio ao Sistema Cicloviário"
     }
    ]
   },
@@ -454,34 +454,18 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
    "tem_anexo"
   ],
   "metricas": {
    "artigos": 16,
    "dispositivos": 54,
-   "cobertura": 0.953,
+   "cobertura": 0.98,
    "blocosDeAlteracao": 1,
-   "lacunas": [
-    {
-     "tamanho": 132,
-     "amostra": "Art4ºNãopoderãoserfinanciadospeloFMASCprojetosincompatíveiscomaspolíticaspública"
-    },
-    {
-     "tamanho": 112,
-     "amostra": "3ºCompetiráaopresidentedoconselhogestordoFMASCproporcionarosmeiosnecessáriosaoex"
-    }
-   ],
-   "naoLocalizados": [
-    "Fica o FMASC vinculado à Secretaria Municipal de Transportes (SMT) e à Empresa P",
-    "Não poderão ser financiados pelo FMASC projetos incompatíveis com as políticas p",
-    "Competirá ao presidente do conselho gestor do FMASC proporcionar os meios necess"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

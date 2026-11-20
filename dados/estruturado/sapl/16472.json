@@ -2,8 +2,8 @@
  "idSapl": 16472,
  "rotulo": "Emenda à Lei Orgânica nº 11, de 15 de dezembro de 1970",
  "sha256Origem": "b7a5fab08917e910509ee7a01c9f9dce6e84be85f013ceaa0ab7467b9b4f01b7",
- "estruturadoEm": "2026-11-20T22:01:55.306Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:38.431Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -15,7 +15,7 @@
    "motivoProvavel": "indeterminado"
   }
  },
- "ementa": "DO • MUNICIPIO DE PORTO ALEGRE PORTO ALEGRE CORAG -   Companhia Rio-grandense de Aries Graficas 1975 A CAMARA MUNICIPAL DE PORTO ALEGRE faz saber que, em sessao de 11 de dezembro de 1970, aprovou a presente Emenda a Lei Organica do Municipio, em conseqOencia do que a Lei Magna de Porto Alegre passa a vigorar com 0 seguinte texto: \"0 povo do Municipio de Porto Alegre, por seus representantes, reunidos em Camara Constituinte, invocando a prote~ao de Deus, estabeJece, decreta e promulga a seguite: LEI ORGANICA Art. I? - 0 Municipio de Porto Alegre, parte integrante do Estado do Rio Grande do SuI, organiza-se autonomo em tudo que respeite a seu peculiar interesse, regendo-se por esta Lei Organica as demais leis que adotar, respeitados os principios estabelecidos nas Constitui~oes Federal e Estadual.",
+ "ementa": "DO • MUNICIPIO DE PORTO ALEGRE PORTO ALEGRE CORAG -   Companhia Rio-grandense de Aries Graficas 1975 A CAMARA MUNICIPAL DE PORTO ALEGRE faz saber que, em sessao de 11 de dezembro de 1970, aprovou a presente Emenda a Lei Organica do Municipio, em conseqOencia do que a Lei Magna de Porto Alegre passa a vigorar com 0 seguinte texto: \"0 povo do Municipio de Porto Alegre, por seus representantes, reunidos em Camara Constituinte, invocando a prote~ao de Deus, estabeJece, decreta e promulga a seguite: LEI ORGANICA TiTULO I Art. I? - 0 Municipio de Porto Alegre, parte integrante do Estado do Rio Grande do SuI, organiza-se autonomo em tudo que respeite a seu peculiar interesse, regendo-se por esta Lei Organica as demais leis que adotar, respeitados os principios estabelecidos nas Constitui~oes Federal e Estadual.",
  "preambulo": null,
  "fecho": null,
  "dispositivos": [
@@ -24,14 +24,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "? - E mantido 0 atual territ6rio do Municipio, cujos limites s6 podem ser alterados nos termos da Constitui~ao do Estado. Paragrafo imico     A divisao do Municipio em distritos depende de lei.",
-   "agrupadores": [
-    {
-     "tipo": "titulo",
-     "numero": "I",
-     "titulo": ""
-    }
-   ]
+   "texto": "? - E mantido 0 atual territ6rio do Municipio, cujos limites s6 podem ser alterados nos termos da Constitui~ao do Estado. Paragrafo imico     A divisao do Municipio em distritos depende de lei."
   },
   {
    "id": "art-2",
@@ -1988,26 +1981,21 @@
   "metricas": {
    "artigos": 96,
    "dispositivos": 274,
-   "cobertura": 0.941,
+   "cobertura": 0.959,
    "blocosDeAlteracao": 0,
    "lacunas": [
-    {
-     "tamanho": 669,
-     "amostra": "LEIORGANICADOMUNICIPIODEPORTOALEGREPORTOALEGRECORAGCompanhiaRiograndensedeAriesG"
-    },
     {
      "tamanho": 575,
      "amostra": "XVsuspenderaexeCUCaonotodoouempartedequalqueratoresoluCaoouregulamentomunicipalq"
     }
    ],
    "naoLocalizados": [
-    "DO • MUNICIPIO DE PORTO ALEGRE PORTO ALEGRE CORAG -   Companhia Rio-grandense de",
     "suspender a exeCUCao,no todo ou em parte, de qualquer ato, resoluCao ou regulame"
    ],
    "rotulosDivergentes": [
     {
      "rotulo": "Art. 1º",
-     "naOrigem": "FederaleEstadualArt2"
+     "naOrigem": "Art2"
     },
     {
      "rotulo": "Art. 2º",

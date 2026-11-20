@@ -2,8 +2,8 @@
  "idSapl": 28813,
  "rotulo": "Lei Complementar municipal nº 395, de 26 de dezembro de 1996",
  "sha256Origem": "bc45914a032743703640ad24c3c08e5f1d215a0f75b2ea6413da4e2f38e5320d",
- "estruturadoEm": "2026-11-20T22:02:00.899Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:43.480Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "395",
@@ -494,7 +494,7 @@
    "pai": "art-2",
    "tipo": "inciso",
    "rotulo": "64 –",
-   "texto": "ZOONOSES - Infecção ou doença infecciosa transmissível naturalmente entre osanimais e o homem, e vice-versa. DE VIGILÂNCIA À SAÚDE"
+   "texto": "ZOONOSES - Infecção ou doença infecciosa transmissível naturalmente entre osanimais e o homem, e vice-versa."
   },
   {
    "id": "art-3",
@@ -506,7 +506,7 @@
     {
      "tipo": "capitulo",
      "numero": "III",
-     "titulo": "DO SISTEMA ÚNICO DE SAÚDE E DO SISTEMA MUNICIPAL"
+     "titulo": "DO SISTEMA ÚNICO DE SAÚDE E DO SISTEMA MUNICIPAL DE VIGILÂNCIA À SAÚDE"
     }
    ]
   },
@@ -5089,7 +5089,6 @@
    "sem_fecho",
    "dispositivo_sem_rotulo",
    "endereco_repetido",
-   "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [
@@ -5098,12 +5097,10 @@
   "metricas": {
    "artigos": 212,
    "dispositivos": 687,
-   "cobertura": 0.963,
+   "cobertura": 0.965,
    "blocosDeAlteracao": 3,
    "lacunas": [],
-   "naoLocalizados": [
-    "ZOONOSES - Infecção ou doença infecciosa transmissível naturalmente entre osanim"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": [
     {
      "rotulo": "26 –",

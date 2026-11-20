@@ -2,8 +2,8 @@
  "idSapl": 35123,
  "rotulo": "Lei Complementar municipal nº 577, de 16 de outubro de 2007",
  "sha256Origem": "dd11774d2182215c5bd8fcf62e59187be580ea82cb009755760162e76a22f06a",
- "estruturadoEm": "2026-11-20T22:01:58.517Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:41.103Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "577",
@@ -108,7 +108,7 @@
    "pai": "art-5",
    "tipo": "inciso",
    "rotulo": "VI –",
-   "texto": "a produção de conhecimento e o acesso à informação. ALIMENTAR E NUTRICIONAL SUSTENTÁVEL"
+   "texto": "a produção de conhecimento e o acesso à informação."
   },
   {
    "id": "art-6",
@@ -120,7 +120,7 @@
     {
      "tipo": "titulo",
      "numero": "II",
-     "titulo": "DOS OBJETIVOS E METAS DO SISTEMA MUNICIPAL DE SEGURANÇA"
+     "titulo": "DOS OBJETIVOS E METAS DO SISTEMA MUNICIPAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL SUSTENTÁVEL"
     }
    ]
   },
@@ -227,7 +227,7 @@
    "pai": "art-7",
    "tipo": "inciso",
    "rotulo": "VIII –",
-   "texto": "desenvolver estratégias e metodologias adequadas às carências mapeadas em cada região de planejamento da Cidade, de acordo com as especificidades de cada uma dessas. SISTEMA MUNICIPAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL SUSTENTÁVEL"
+   "texto": "desenvolver estratégias e metodologias adequadas às carências mapeadas em cada região de planejamento da Cidade, de acordo com as especificidades de cada uma dessas."
   },
   {
    "id": "art-8",
@@ -239,7 +239,7 @@
     {
      "tipo": "titulo",
      "numero": "III",
-     "titulo": "DOS PRINCÍPIOS, DAS DIRETRIZES E DA ESTRUTURA DO"
+     "titulo": "DOS PRINCÍPIOS, DAS DIRETRIZES E DA ESTRUTURA DO SISTEMA MUNICIPAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL SUSTENTÁVEL"
     }
    ]
   },
@@ -346,7 +346,7 @@
    "pai": "art-12",
    "tipo": "inciso",
    "rotulo": "VII –",
-   "texto": "estímulo ao desenvolvimento de pesquisas e à capacitação de re cursos humanos. NUTRICIONAL SUSTENTÁVEL"
+   "texto": "estímulo ao desenvolvimento de pesquisas e à capacitação de re cursos humanos."
   },
   {
    "id": "art-13",
@@ -358,7 +358,7 @@
     {
      "tipo": "capitulo",
      "numero": "I",
-     "titulo": "DA CONFERÊNCIA MUNICIPAL DE SEGURANÇA ALIMENTAR E"
+     "titulo": "DA CONFERÊNCIA MUNICIPAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL SUSTENTÁVEL"
     }
    ]
   },
@@ -374,7 +374,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 14.",
-   "texto": "Compete à Conferência Municipal de Segurança Alimentar e Nutricional Sustentável estabelecer as diretrizes e as prioridades da política Muni cipal de Segurança Alimentar e Nutricional Sustentável, bem como sugerir e apon tar subsídios para a construção do Plano Municipal de Segurança Alimentar e Nutricional Sustentável. NUTRICIONAL SUSTENTÁVEL"
+   "texto": "Compete à Conferência Municipal de Segurança Alimentar e Nutricional Sustentável estabelecer as diretrizes e as prioridades da política Muni cipal de Segurança Alimentar e Nutricional Sustentável, bem como sugerir e apon tar subsídios para a construção do Plano Municipal de Segurança Alimentar e Nutricional Sustentável."
   },
   {
    "id": "art-15",
@@ -386,7 +386,7 @@
     {
      "tipo": "capitulo",
      "numero": "II",
-     "titulo": "DO CONSELHO MUNICIPAL DE SEGURANÇA ALIMENTAR E"
+     "titulo": "DO CONSELHO MUNICIPAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL SUSTENTÁVEL"
     }
    ]
   },
@@ -577,7 +577,7 @@
    "pai": "art-18",
    "tipo": "paragrafo",
    "rotulo": "§ 2º",
-   "texto": "Sempre que necessário, poderá o Conselho solicitar aos órgãos e entidades informações e colaboração para o desenvolvimento das atividades da Política e do Plano Municipal de Segurança Alimentar e Nutricional Sustentável. NUTRICIONAL SUSTENTÁVEL"
+   "texto": "Sempre que necessário, poderá o Conselho solicitar aos órgãos e entidades informações e colaboração para o desenvolvimento das atividades da Política e do Plano Municipal de Segurança Alimentar e Nutricional Sustentável."
   },
   {
    "id": "art-19",
@@ -589,7 +589,7 @@
     {
      "tipo": "capitulo",
      "numero": "III",
-     "titulo": "DAS MICRORREDES LOCAIS DE SEGURANÇA ALIMENTAR E"
+     "titulo": "DAS MICRORREDES LOCAIS DE SEGURANÇA ALIMENTAR E NUTRICIONAL SUSTENTÁVEL"
     }
    ]
   },
@@ -605,7 +605,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 20.",
-   "texto": "As Microrredes locais são compostas por representantes gover namentais e da sociedade civil que atuem diretamente nas regiões do Orçamento Participativo – OP. NUTRICIONAL SUSTENTÁVEL"
+   "texto": "As Microrredes locais são compostas por representantes gover namentais e da sociedade civil que atuem diretamente nas regiões do Orçamento Participativo – OP."
   },
   {
    "id": "art-21",
@@ -617,7 +617,7 @@
     {
      "tipo": "capitulo",
      "numero": "IV",
-     "titulo": "DA COORDENADORIA DE SEGURANÇA ALIMENTAR E"
+     "titulo": "DA COORDENADORIA DE SEGURANÇA ALIMENTAR E NUTRICIONAL SUSTENTÁVEL"
     }
    ]
   },
@@ -735,46 +735,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 24,
    "dispositivos": 94,
-   "cobertura": 0.901,
+   "cobertura": 0.971,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 153,
-     "amostra": "VIIIdesenvolverestratégiasemetodologiasadequadasàscarênciasmapeadasemcadaregiãod"
-    },
-    {
-     "tamanho": 64,
-     "amostra": "SISTEMAMUNICIPALDESEGURANÇAALIMENTARENUTRICIONALSUSTENTÁVELArt8ºOSimsansregesepe"
-    },
-    {
-     "tamanho": 78,
-     "amostra": "VIIestímuloaodesenvolvimentodepesquisaseàcapacitaçãoderecursoshumanosCapítuloIDA"
-    },
-    {
-     "tamanho": 290,
-     "amostra": "Art14CompeteàConferênciaMunicipaldeSegurançaAlimentareNutricionalSustentávelesta"
-    },
-    {
-     "tamanho": 201,
-     "amostra": "2ºSemprequenecessáriopoderáoConselhosolicitaraosórgãoseentidadesinformaçõesecola"
-    }
-   ],
-   "naoLocalizados": [
-    "a produção de conhecimento e o acesso à informação. ALIMENTAR E NUTRICIONAL SUST",
-    "desenvolver estratégias e metodologias adequadas às carências mapeadas em cada r",
-    "estímulo ao desenvolvimento de pesquisas e à capacitação de re cursos humanos. N",
-    "Compete à Conferência Municipal de Segurança Alimentar e Nutricional Sustentável",
-    "Sempre que necessário, poderá o Conselho solicitar aos órgãos e entidades inform"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

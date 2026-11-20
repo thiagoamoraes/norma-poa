@@ -2,8 +2,8 @@
  "idSapl": 47599,
  "rotulo": "Lei Complementar municipal nº 992, de 07 de novembro de 2023",
  "sha256Origem": "1e89293a6cd45c03ea03c89b9be10c6b7761dbdc4c63aaffb803cbc45c17b069",
- "estruturadoEm": "2026-11-20T22:01:56.164Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:39.053Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "992",
@@ -1051,7 +1051,7 @@
    "pai": "art-44",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
-   "texto": "Em havendo impossibilidade de digitalização, as cópias de processos administrativos serão pagas por meio de guia própria para este fim, o que deverá ficar registrado nos seus autos. OUTROS MEIOS DE PARTICIPAÇÃO"
+   "texto": "Em havendo impossibilidade de digitalização, as cópias de processos administrativos serão pagas por meio de guia própria para este fim, o que deverá ficar registrado nos seus autos."
   },
   {
    "id": "art-45",
@@ -1063,7 +1063,7 @@
     {
      "tipo": "capitulo",
      "numero": "X",
-     "titulo": "DA AUDIÊNCIA PÚBLICA, DA CONSULTA PÚBLICA E DE"
+     "titulo": "DA AUDIÊNCIA PÚBLICA, DA CONSULTA PÚBLICA E DE OUTROS MEIOS DE PARTICIPAÇÃO"
     }
    ]
   },
@@ -1693,7 +1693,7 @@
    "pai": "art-73",
    "tipo": "paragrafo",
    "rotulo": "§ 2º",
-   "texto": "Deferida a prioridade, os autos receberão identificação própria que evidencie o regime de tramitação prioritária. CAPÍTULO ÚNICO DISPOSIÇÕES ESPECIAIS PARA CONSTITUIÇÃO DE CRÉDITO NÃO TRIBUTÁRIO"
+   "texto": "Deferida a prioridade, os autos receberão identificação própria que evidencie o regime de tramitação prioritária."
   },
   {
    "id": "art-74",
@@ -1706,6 +1706,11 @@
      "tipo": "titulo",
      "numero": "III",
      "titulo": "DAS NORMAS ESPECIAIS PARA A CONSTITUIÇÃO DE CRÉDITOS NÃO TRIBUTÁRIOS NO MUNICÍPIO DE PORTO ALEGRE"
+    },
+    {
+     "tipo": "capitulo",
+     "numero": "ÚNICO",
+     "titulo": "DISPOSIÇÕES ESPECIAIS PARA CONSTITUIÇÃO DE CRÉDITO NÃO TRIBUTÁRIO"
     },
     {
      "tipo": "secao",
@@ -2729,31 +2734,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 113,
    "dispositivos": 359,
-   "cobertura": 0.949,
+   "cobertura": 0.957,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 108,
-     "amostra": "2ºDeferidaaprioridadeosautosreceberãoidentificaçãoprópriaqueevidencieoregimedetr"
-    },
-    {
-     "tamanho": 77,
-     "amostra": "CAPÍTULOÚNICODISPOSIÇÕESESPECIAISPARACONSTITUIÇÃODECRÉDITONÃOTRIBUTÁRIOSeçãoIDas"
-    }
-   ],
-   "naoLocalizados": [
-    "Em havendo impossibilidade de digitalização, as cópias de processos administrati",
-    "Deferida a prioridade, os autos receberão identificação própria que evidencie o "
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

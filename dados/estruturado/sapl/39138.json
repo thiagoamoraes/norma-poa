@@ -2,8 +2,8 @@
  "idSapl": 39138,
  "rotulo": "Lei Complementar municipal nº 721, de 29 de novembro de 2013",
  "sha256Origem": "7b223590c2187e28366931928dfb8271cb44e66048d4f7165583102114d65524",
- "estruturadoEm": "2026-11-20T22:01:57.406Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:40.175Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "721",
@@ -381,7 +381,7 @@
    "pai": "art-8",
    "tipo": "paragrafo",
    "rotulo": "§ 2º",
-   "texto": "Aplica-se ao disposto neste artigo, no que couber, a Lei nº 9.609, de 19 defevereiro de 1998 (Direito de Propriedade Intelectual), a Lei nº 9279, de14 demaio de 1996 (Direitos e obrigações relativos à propriedade industrial),e a Lei 9.610, de 19 de fevereiro de 1998 (Direito Autoral). INSTITUIÇÕES CIENTÍFICAS E TECNOLÓGICAS"
+   "texto": "Aplica-se ao disposto neste artigo, no que couber, a Lei nº 9.609, de 19 defevereiro de 1998 (Direito de Propriedade Intelectual), a Lei nº 9279, de14 demaio de 1996 (Direitos e obrigações relativos à propriedade industrial),e a Lei 9.610, de 19 de fevereiro de 1998 (Direito Autoral)."
   },
   {
    "id": "art-9",
@@ -393,7 +393,7 @@
     {
      "tipo": "capitulo",
      "numero": "V",
-     "titulo": "DASREGIÕES E ÁREAS TECNOLÓGICAS E"
+     "titulo": "DASREGIÕES E ÁREAS TECNOLÓGICAS E INSTITUIÇÕES CIENTÍFICAS E TECNOLÓGICAS"
     }
    ]
   },
@@ -416,7 +416,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 12.",
-   "texto": "VETADO. EINCUBADORAS DE EMPRESAS DE BASE TECNOLÓGICA"
+   "texto": "VETADO.",
+   "vetado": true
   },
   {
    "id": "art-13",
@@ -428,7 +429,7 @@
     {
      "tipo": "capitulo",
      "numero": "VI",
-     "titulo": "DOSPARQUES TECNOLÓGICOS, CONDOMÍNIOS EMPRESARIAIS"
+     "titulo": "DOSPARQUES TECNOLÓGICOS, CONDOMÍNIOS EMPRESARIAIS EINCUBADORAS DE EMPRESAS DE BASE TECNOLÓGICA"
     }
    ]
   },
@@ -667,30 +668,16 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
   "metricas": {
    "artigos": 21,
    "dispositivos": 83,
-   "cobertura": 0.982,
+   "cobertura": 0.989,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 41,
-     "amostra": "INSTITUIÇÕESCIENTÍFICASETECNOLÓGICASArt9ºOExecutivoMunicipalpoderáestudareidenti"
-    },
-    {
-     "tamanho": 44,
-     "amostra": "EINCUBADORASDEEMPRESASDEBASETECNOLÓGICAArt13OExecutivoMunicipalfomentaráacriação"
-    }
-   ],
-   "naoLocalizados": [
-    "Aplica-se ao disposto neste artigo, no que couber, a Lei nº 9.609, de 19 defever",
-    "VETADO. EINCUBADORAS DE EMPRESAS DE BASE TECNOLÓGICA"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": [
     {
      "rotulo": "XIX –",

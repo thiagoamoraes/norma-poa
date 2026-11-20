@@ -2,8 +2,8 @@
  "idSapl": 25277,
  "rotulo": "Lei Orgânica nº 1, de 03 de abril de 1990",
  "sha256Origem": "aaf54771f203f9910fd39cbe1356cc494613fab1b79bcb9a4b606909232a3235",
- "estruturadoEm": "2026-11-20T22:01:54.517Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:37.964Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -15,7 +15,7 @@
    "motivoProvavel": "indeterminado"
   }
  },
- "ementa": "MUNICÍPIO DE PORTO ALEGRE LEI ORGÂNICA DO MUNICÍPIO DE PORTO ALEGRE Atualizada até Emenda n.º 48, de 05.05.2022 LEI ORGÂNICA DO MUNICÍPIO DE PORTO ALEGRE PREÂMBULO O povo do Município de Porto Alegre, por seus representantes, reunidos em Câmara Constituinte, com os poderes outorgados pelas Constituições da República Federativa do Brasil e do Estado do Rio Grande do Sul, e o pensamento voltado para a construção de uma sociedade soberana, livre, igualitária e democrática, fundada nos princípios da justiça, do pleno exercício da cidadania, da ética, da moral e do trabalho, promulga, sob a invocação de Deus, esta LEI ORGÂNICA.",
+ "ementa": "MUNICÍPIO DE PORTO ALEGRE LEI ORGÂNICA DO MUNICÍPIO DE PORTO ALEGRE Atualizada até Emenda n.º 48, de 05.05.2022 LEI ORGÂNICA DO MUNICÍPIO DE PORTO ALEGRE PREÂMBULO O povo do Município de Porto Alegre, por seus representantes, reunidos em Câmara Constituinte, com os poderes outorgados pelas Constituições da República Federativa do Brasil e do Estado do Rio Grande do Sul, e o pensamento voltado para a construção de uma sociedade soberana, livre, igualitária e democrática, fundada nos princípios da justiça, do pleno exercício da cidadania, da ética, da moral e do trabalho, promulga, sob a invocação de Deus, esta LEI ORGÂNICA. TÍTULO I DA ORGANIZAÇÃO DO MUNICÍPIO, PODERES EXECUTIVO E LEGISLATIVO CAPÍTULO I DOS PRINCÍPIOS GERAIS DA ORGANIZAÇÃO MUNICIPAL",
  "preambulo": null,
  "fecho": null,
  "dispositivos": [
@@ -24,19 +24,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "O Município de Porto Alegre, pessoa jurídica de direito público interno, parte integrante da República Federativa do Brasil e do Estado do Rio Grande do Sul, no pleno uso de sua autonomia política, administrativa e financeira, reger-se-á por esta Lei Orgânica e demais leis que adotar, respeitados os princípios estabelecidos nas Constituições Federal e Estadual.",
-   "agrupadores": [
-    {
-     "tipo": "titulo",
-     "numero": "I",
-     "titulo": "DA ORGANIZAÇÃO DO MUNICÍPIO, PODERES EXECUTIVO E LEGISLATIVO"
-    },
-    {
-     "tipo": "capitulo",
-     "numero": "I",
-     "titulo": "DOS PRINCÍPIOS GERAIS DA ORGANIZAÇÃO MUNICIPAL"
-    }
-   ]
+   "texto": "O Município de Porto Alegre, pessoa jurídica de direito público interno, parte integrante da República Federativa do Brasil e do Estado do Rio Grande do Sul, no pleno uso de sua autonomia política, administrativa e financeira, reger-se-á por esta Lei Orgânica e demais leis que adotar, respeitados os princípios estabelecidos nas Constituições Federal e Estadual."
   },
   {
    "id": "art-1/par-unico",
@@ -2282,7 +2270,7 @@
    "pai": "art-79",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
-   "texto": "Lei complementar disporá sobre a elaboração, a redação, a alteração e a consolidação dos atos normativos de que trata este artigo. Da Emenda à Lei Orgânica"
+   "texto": "Lei complementar disporá sobre a elaboração, a redação, a alteração e a consolidação dos atos normativos de que trata este artigo."
   },
   {
    "id": "art-80",
@@ -2294,7 +2282,7 @@
     {
      "tipo": "secao",
      "numero": "VII",
-     "titulo": ""
+     "titulo": "Da Emenda à Lei Orgânica"
     }
    ]
   },
@@ -4639,7 +4627,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 145.",
-   "texto": "Incumbe ao Poder Executivo manter banco de dados com estatísticas, diagnóstico físico, territorial e outras informações relativas às atividades comerciais, industriais e de serviços, destinando-se a servir de suporte para as ações de planejamento e desenvolvimento. Dos Princípios Gerais"
+   "texto": "Incumbe ao Poder Executivo manter banco de dados com estatísticas, diagnóstico físico, territorial e outras informações relativas às atividades comerciais, industriais e de serviços, destinando-se a servir de suporte para as ações de planejamento e desenvolvimento."
   },
   {
    "id": "art-146",
@@ -4656,7 +4644,7 @@
     {
      "tipo": "secao",
      "numero": "I",
-     "titulo": ""
+     "titulo": "Dos Princípios Gerais"
     }
    ]
   },
@@ -8133,8 +8121,6 @@
    "cabecalho_nao_reconhecido",
    "tipo_sem_suporte",
    "sem_fecho",
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [
@@ -8144,18 +8130,10 @@
   "metricas": {
    "artigos": 289,
    "dispositivos": 1099,
-   "cobertura": 0.97,
+   "cobertura": 0.972,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 240,
-     "amostra": "Art136IncumbeaoPoderExecutivomanterbancodedadoscomestatísticasdiagnósticofísicot"
-    }
-   ],
-   "naoLocalizados": [
-    "Lei complementar disporá sobre a elaboração, a redação, a alteração e a consolid",
-    "Incumbe ao Poder Executivo manter banco de dados com estatísticas, diagnóstico f"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": [
     {
      "rotulo": "Art. 20.",

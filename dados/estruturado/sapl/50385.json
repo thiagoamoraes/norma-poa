@@ -2,8 +2,8 @@
  "idSapl": 50385,
  "rotulo": "Lei Complementar municipal nº 1.049, de 08 de agosto de 2025",
  "sha256Origem": "2fbcef272180c803ae504293141cb12722ea9d877dc4c062881e07fae3793bc4",
- "estruturadoEm": "2026-11-20T22:01:55.835Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:38.796Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1049",
@@ -1625,7 +1625,7 @@
    "pai": "art-40",
    "tipo": "paragrafo",
    "rotulo": "§ 2º",
-   "texto": "O reconhecimento da promoção post mortem deverá ser publicado no DOPA-e. Guarda Municipal e Guarda-Parques"
+   "texto": "O reconhecimento da promoção post mortem deverá ser publicado no DOPA-e."
   },
   {
    "id": "art-41",
@@ -1637,7 +1637,7 @@
     {
      "tipo": "secao",
      "numero": "XII",
-     "titulo": "Do Reenquadramento dos Ocupantes de Cargo de"
+     "titulo": "Do Reenquadramento dos Ocupantes de Cargo de Guarda Municipal e Guarda-Parques"
     }
    ]
   },
@@ -2150,7 +2150,7 @@
    "pai": "art-49",
    "tipo": "paragrafo",
    "rotulo": "§ 6º",
-   "texto": "A ausência de apresentação de requerimento formal pelo não enquadramento à carreira de Guarda Civil Metropolitano, no prazo estabelecido, extinguirá o direito de opção de que trata este artigo. Implantação da Carreira de Guarda Civil Metropolitano"
+   "texto": "A ausência de apresentação de requerimento formal pelo não enquadramento à carreira de Guarda Civil Metropolitano, no prazo estabelecido, extinguirá o direito de opção de que trata este artigo."
   },
   {
    "id": "art-50",
@@ -2162,7 +2162,7 @@
     {
      "tipo": "secao",
      "numero": "XIII",
-     "titulo": "Do Regramento Especial Aplicável aos Primeiros Anos de"
+     "titulo": "Do Regramento Especial Aplicável aos Primeiros Anos de Implantação da Carreira de Guarda Civil Metropolitano"
     }
    ]
   },
@@ -2460,33 +2460,18 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
    "tem_anexo"
   ],
   "metricas": {
    "artigos": 67,
    "dispositivos": 332,
-   "cobertura": 0.982,
+   "cobertura": 0.986,
    "blocosDeAlteracao": 5,
-   "lacunas": [
-    {
-     "tamanho": 173,
-     "amostra": "6ºAausênciadeapresentaçãoderequerimentoformalpelonãoenquadramentoàcarreiradeGuar"
-    },
-    {
-     "tamanho": 52,
-     "amostra": "ImplantaçãodaCarreiradeGuardaCivilMetropolitanoArt50Duranteosprimeiros5cincoanos"
-    }
-   ],
-   "naoLocalizados": [
-    "O reconhecimento da promoção post mortem deverá ser publicado no DOPA-e. Guarda ",
-    "A ausência de apresentação de requerimento formal pelo não enquadramento à carre"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

@@ -2,8 +2,8 @@
  "idSapl": 41009,
  "rotulo": "Lei Complementar municipal nº 807, de 28 de dezembro de 2016",
  "sha256Origem": "76e464a75a6d5dc106180a567b2909d0bdb688c72eb4bd5fcf5ff2a560a6b25b",
- "estruturadoEm": "2026-11-20T22:01:56.968Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:39.786Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "807",
@@ -237,7 +237,7 @@
    "pai": "art-4",
    "tipo": "inciso",
    "rotulo": "IX –",
-   "texto": "à concessão de outros benefícios, bolsas de capacitação, serviços, programas, projetos e intervenções relacionados com o objetivo do FMRIC, conforme a necessidade, mediante aprovação do seu Conselho Gestor. de Catadores"
+   "texto": "à concessão de outros benefícios, bolsas de capacitação, serviços, programas, projetos e intervenções relacionados com o objetivo do FMRIC, conforme a necessidade, mediante aprovação do seu Conselho Gestor."
   },
   {
    "id": "art-5",
@@ -249,7 +249,7 @@
     {
      "tipo": "secao",
      "numero": "III",
-     "titulo": "Do Conselho Gestor do Fundo Municipal de Incentivo à Reciclagem e à Inserção Produtiva"
+     "titulo": "Do Conselho Gestor do Fundo Municipal de Incentivo à Reciclagem e à Inserção Produtiva de Catadores"
     }
    ]
   },
@@ -353,20 +353,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 11,
    "dispositivos": 40,
-   "cobertura": 0.924,
+   "cobertura": 0.956,
    "blocosDeAlteracao": 0,
    "lacunas": [],
-   "naoLocalizados": [
-    "à concessão de outros benefícios, bolsas de capacitação, serviços, programas, pr"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

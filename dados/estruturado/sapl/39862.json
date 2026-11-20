@@ -2,8 +2,8 @@
  "idSapl": 39862,
  "rotulo": "Lei Complementar municipal nº 757, de 14 de janeiro de 2015",
  "sha256Origem": "17d23fec8164559743b126bc913086f7b45f1aa6b3e63534deec6881785f5a40",
- "estruturadoEm": "2026-11-20T22:01:57.184Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:39.999Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "757",
@@ -2132,7 +2132,7 @@
    "pai": "art-43",
    "tipo": "paragrafo",
    "rotulo": "§ 1º",
-   "texto": "Excetuam-se ao previsto no caput deste artigo as podas e as supressões previstas na"
+   "texto": "Excetuam-se ao previsto no caput deste artigo as podas e as supressões previstas na Seção VII deste Capítulo."
   },
   {
    "id": "art-43/par-2",
@@ -2202,14 +2202,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 44.",
-   "texto": "Excetuam-se à obrigação de divulgação a que se refere o art. 42º desta Lei Complementar os casos de urgência de poda ou supressão, pela manifesta ruína de espécies vegetais arbóreos em decorrência de caso fortuito, ou pela conclusão de parecer técnico de servidor da Smam.",
-   "agrupadores": [
-    {
-     "tipo": "secao",
-     "numero": "VII",
-     "titulo": "deste Capítulo."
-    }
-   ]
+   "texto": "Excetuam-se à obrigação de divulgação a que se refere o art. 42º desta Lei Complementar os casos de urgência de poda ou supressão, pela manifesta ruína de espécies vegetais arbóreos em decorrência de caso fortuito, ou pela conclusão de parecer técnico de servidor da Smam."
   },
   {
    "id": "art-45",
@@ -2481,7 +2474,6 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [
@@ -2490,12 +2482,10 @@
   "metricas": {
    "artigos": 63,
    "dispositivos": 335,
-   "cobertura": 0.973,
+   "cobertura": 0.974,
    "blocosDeAlteracao": 0,
    "lacunas": [],
-   "naoLocalizados": [
-    "deste Capítulo."
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": [
     {
      "rotulo": "Art. 9º",

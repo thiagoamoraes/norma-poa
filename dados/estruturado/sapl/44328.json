@@ -2,8 +2,8 @@
  "idSapl": 44328,
  "rotulo": "Lei Orgânica-Intendência nº 1, de 14 de outubro de 1892",
  "sha256Origem": "3580002f2c00b9d634e124d921be0636ef74163ee3248dd77b13895381ead2d5",
- "estruturadoEm": "2026-11-20T22:01:55.092Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:38.282Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -15,7 +15,7 @@
    "motivoProvavel": "indeterminado"
   }
  },
- "ementa": "Acto n, 1 Alfredo Augusto de Azevedo, intendente municipal de Porto Alegre: Faço saber, em cumprimento do disposto no art. 64 da Constituição do Estado, que o Conselho Municipal da capital decretou no dia lodo corrente e eu promulgo a seguinte LEI OBGAN'ICA DO Município de Porto Alegre DO MUNICIPIO",
+ "ementa": "Acto n, 1 Alfredo Augusto de Azevedo, intendente municipal de Porto Alegre: Faço saber, em cumprimento do disposto no art. 64 da Constituição do Estado, que o Conselho Municipal da capital decretou no dia lodo corrente e eu promulgo a seguinte LEI OBGAN'ICA DO Município de Porto Alegre TITULO I DO MUNICIPIO",
  "preambulo": null,
  "fecho": null,
  "dispositivos": [
@@ -24,14 +24,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "O município de Porto Alegre, parte integrante do Estado do Rio Grande da Sul, organisa na presente le o seu regimen de governo autonomo, de accordo com as bases estatuidas na Constituição do Estado.",
-   "agrupadores": [
-    {
-     "tipo": "titulo",
-     "numero": "I",
-     "titulo": ""
-    }
-   ]
+   "texto": "O município de Porto Alegre, parte integrante do Estado do Rio Grande da Sul, organisa na presente le o seu regimen de governo autonomo, de accordo com as bases estatuidas na Constituição do Estado."
   },
   {
    "id": "art-2",
@@ -185,7 +178,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 16.",
-   "texto": "Não Iunccionando o Conselho na data da promulgação     da lei, e chegando, por qualquer meio, ao conhecimento de qualquer membro do Conselho, que a lei não satisfaz as necessidades e é contraria       aos interesses da sociedade, con vocará elle immediatamente          o Conselho para, em sessão extraordinaria,        deliberar sobre o assumpto, como prescreve o artigo anterior. CAPrrlJLO I Do intendente"
+   "texto": "Não Iunccionando o Conselho na data da promulgação     da lei, e chegando, por qualquer meio, ao conhecimento de qualquer membro do Conselho, que a lei não satisfaz as necessidades e é contraria       aos interesses da sociedade, con vocará elle immediatamente          o Conselho para, em sessão extraordinaria,        deliberar sobre o assumpto, como prescreve o artigo anterior."
   },
   {
    "id": "art-17",
@@ -197,7 +190,7 @@
     {
      "tipo": "titulo",
      "numero": "IV",
-     "titulo": ""
+     "titulo": "CAPrrlJLO I Do intendente"
     }
    ]
   },
@@ -631,7 +624,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 39.",
-   "texto": "Uma lei elaborada       pelo intendente      e approvada pelo Conselho, de accordo com o estatuido neste titulo, estabelecerá   o processo eleitoral. DAS DISPO~IÇÕEg GERAES"
+   "texto": "Uma lei elaborada       pelo intendente      e approvada pelo Conselho, de accordo com o estatuido neste titulo, estabelecerá   o processo eleitoral."
   },
   {
    "id": "art-40",
@@ -643,7 +636,7 @@
     {
      "tipo": "titulo",
      "numero": "VIII",
-     "titulo": ""
+     "titulo": "DAS DISPO~IÇÕEg GERAES"
     }
    ]
   },
@@ -673,7 +666,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 44.",
-   "texto": "Os conselheiros, intendentes,           sub-intendentes e todos os empregados           municipaes, ao tomarem conta dos cargos, assumirão o seguinte compromisso: « P rometto     ser fiel cumpridor       do cargo de ..... para q ue fui eleito (on nomeado),' não faltando jamais ás inspirações do patriotismo, da lealdade e da honra.s Art. b3 - Os empregadosmunioipaes              não têm direito á   aposentadoria,     jubilação ou reforma, qualquer que seja o tempo de serviço, sal vo aos actuaes empregados o direito        á aposentadoria     nos termos das leis vigentes. DAS DISPOSICuES TRANSITORIAS ?"
+   "texto": "Os conselheiros, intendentes,           sub-intendentes e todos os empregados           municipaes, ao tomarem conta dos cargos, assumirão o seguinte compromisso: « P rometto     ser fiel cumpridor       do cargo de ..... para q ue fui eleito (on nomeado),' não faltando jamais ás inspirações do patriotismo, da lealdade e da honra.s Art. b3 - Os empregadosmunioipaes              não têm direito á   aposentadoria,     jubilação ou reforma, qualquer que seja o tempo de serviço, sal vo aos actuaes empregados o direito        á aposentadoria     nos termos das leis vigentes."
   },
   {
    "id": "art-45",
@@ -685,7 +678,7 @@
     {
      "tipo": "titulo",
      "numero": "IX",
-     "titulo": ""
+     "titulo": "DAS DISPOSICuES TRANSITORIAS ?"
     }
    ]
   },
@@ -710,7 +703,6 @@
    "cabecalho_nao_reconhecido",
    "tipo_sem_suporte",
    "sem_fecho",
-   "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
@@ -718,32 +710,11 @@
   "metricas": {
    "artigos": 47,
    "dispositivos": 91,
-   "cobertura": 0.905,
+   "cobertura": 0.966,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 332,
-     "amostra": "Art17NãoIunccionandooConselhonadatadapromulgaçãodaleiechegandoporqualquermeioaoc"
-    },
-    {
-     "tamanho": 292,
-     "amostra": "Art34Nãopoderãoserobjectodeleiasmedidasdenaturezaessencialmenteadministrativaque"
-    },
-    {
-     "tamanho": 153,
-     "amostra": "Art47UmaleielaboradapelointendenteeapprovadapeloConselhodeaccordocomoestatuidone"
-    },
-    {
-     "tamanho": 455,
-     "amostra": "Art52Osconselheirosintendentessubintendentesetodososempregadosmunicipaesaotomare"
-    }
-   ],
+   "lacunas": [],
    "naoLocalizados": [
-    "Acto n, 1 Alfredo Augusto de Azevedo, intendente municipal de Porto Alegre: Faço",
-    "Não Iunccionando o Conselho na data da promulgação     da lei, e chegando, por q",
-    "Não poderão ser objecto de lei as medidas de natureza essencialmente      admini",
-    "Uma lei elaborada       pelo intendente      e approvada pelo Conselho, de accor",
-    "Os conselheiros, intendentes,           sub-intendentes e todos os empregados   "
+    "Não poderão ser objecto de lei as medidas de natureza essencialmente      admini"
    ],
    "rotulosDivergentes": [
     {

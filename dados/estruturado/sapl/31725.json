@@ -2,8 +2,8 @@
  "idSapl": 31725,
  "rotulo": "Lei Complementar municipal nº 471, de 02 de janeiro de 2002",
  "sha256Origem": "98784b5fe1aa4f29534fc65775784b825a5a925c348fe7f300d6945d96f325c2",
- "estruturadoEm": "2026-11-20T22:01:58.785Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:41.341Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "471",
@@ -24,7 +24,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "® Fica incluído, no Título III da Lei Complementar n® 12, de 7 de janeiro de 1975, e aliterações posteriores, “Capítulo V - Da Poluição contra o Ordenamento Urbano e o Patrimônio Cultural”, com o art. 91-A, como segue: “TITULO III ... PATRIMÔNIO CULTURAL"
+   "texto": "® Fica incluído, no Título III da Lei Complementar n® 12, de 7 de janeiro de 1975, e aliterações posteriores, “Capítulo V - Da Poluição contra o Ordenamento Urbano e o Patrimônio Cultural”, com o art. 91-A, como segue: “TITULO III ..."
   },
   {
    "id": "art-2",
@@ -36,7 +36,7 @@
     {
      "tipo": "capitulo",
      "numero": "V",
-     "titulo": "DA POLUIÇÃO CONTRA O ORDENAMENTO URBANO E O"
+     "titulo": "DA POLUIÇÃO CONTRA O ORDENAMENTO URBANO E O PATRIMÔNIO CULTURAL"
     }
    ]
   },
@@ -58,23 +58,20 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
   "metricas": {
    "artigos": 3,
    "dispositivos": 4,
-   "cobertura": 0.753,
+   "cobertura": 0.93,
    "blocosDeAlteracao": 0,
    "lacunas": [],
-   "naoLocalizados": [
-    "® Fica incluído, no Título III da Lei Complementar n® 12, de 7 de janeiro de 197"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": [
     {
      "rotulo": "Art. 2º",
-     "naOrigem": "IMÔNIOCULTURALArt91A"
+     "naOrigem": "Art91A"
     },
     {
      "rotulo": "Art. 3º",

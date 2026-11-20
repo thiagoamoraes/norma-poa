@@ -1596,3 +1596,9 @@ Pesquisa em `PLANO-TRECHO-NAO-LOCALIZADO.md` (55 normas recentes; em nenhuma o m
 - `teste_revisao.mjs`: a EC 39/2016 deixou de ter trecho não localizado (curada pelo preparo); o caso real do teste passou a ser a LC 646/2010 (colunas e margens intercaladas), `fixtures/textos/coluna_36841.*`.
 - `VERSAO_ESTRUTURADOR` 11 → 12. Acervo: aceitas 540 → 554, 0 perdas; recentes em revisão 128 → 114. Bateria idêntica; `normateste.mjs` byte a byte igual.
 - **Falta (decisão 23, já dada):** G1+G2 no core (título de agrupador), com espelho no `norma-simulacao.html`.
+
+## Rodada 37 — título de agrupador (causas G1 e G2, decisão 23, 20/11/2026)
+- **Core (`parseMinuta`, espelhado em `norma-simulacao.html`; trecho espelhado conferido idêntico):** (a) agrupador só depois do preâmbulo e com título que não começa por minúscula/pontuação (frase "Seção IV do Capítulo II; e revoga…" deixa de virar agrupador); (b) título de até 3 linhas extras, pulando linha em branco e quebra de página, até o próximo Art. ou agrupador, ≤ 200 caracteres, sem "Art. N"/"§ N" dentro; (c) `CAPÍTULO ÚNICO` (`numero: 'ÚNICO'`).
+- **Teste novo:** `teste_agrupadores.mjs` (12; reais: LC 1.076/2026, 1.037/2025, 992/2023, 1.050/2025, 915/2021, 757/2015, mais 3 negativos sintéticos). Contra o código antigo: 2 ok / 10 falhas.
+- Bateria idêntica antes/depois; `normateste.mjs` byte a byte igual. `VERSAO_ESTRUTURADOR` 12 → 13. Acervo: aceitas 554 → 570, **0 perdas e 0 motivos novos** em qualquer das 823; recentes em revisão 114 → 100.
+- Soma das rodadas 35–37: aceitas 537 → 570; recentes em revisão 131 → 100. Restam das causas do plano: aspa interna que fecha bloco cedo (id 36400, precisa decisão/teste próprio), repetição de documento (decisão 24: defeito de fonte), colunas/OCR (36841, 36190, 44307: defeito de fonte).

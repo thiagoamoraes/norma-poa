@@ -2,8 +2,8 @@
  "idSapl": 42518,
  "rotulo": "Lei Complementar municipal nº 879, de 27 de março de 2020",
  "sha256Origem": "92622de90462170f23c98b7d9da55a1b68d8f6400c26e79fed3626d2b610e256",
- "estruturadoEm": "2026-11-20T22:01:56.654Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:39.500Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "879",
@@ -204,7 +204,7 @@
    "pai": "art-4",
    "tipo": "paragrafo",
    "rotulo": "§ 4º",
-   "texto": "No caso de notificação por meio do DOPA-e, o destinatário será considerado notificado a partir da data de sua publicação. LEGISLAÇÃO MUNICIPAL"
+   "texto": "No caso de notificação por meio do DOPA-e, o destinatário será considerado notificado a partir da data de sua publicação."
   },
   {
    "id": "art-5",
@@ -216,7 +216,7 @@
     {
      "tipo": "capitulo",
      "numero": "II",
-     "titulo": "DO PROCEDIMENTO PARA APLICAÇÃO DE PENALIDADES POR INFRAÇÃO À"
+     "titulo": "DO PROCEDIMENTO PARA APLICAÇÃO DE PENALIDADES POR INFRAÇÃO À LEGISLAÇÃO MUNICIPAL"
     },
     {
      "tipo": "secao",
@@ -860,7 +860,7 @@
    "pai": "art-14",
    "tipo": "paragrafo",
    "rotulo": "§ 4º",
-   "texto": "O julgamento da fase recursal será efetuado em decisão colegiada da Diretoria da EPTC, posteriormente submetida ao Secretário Municipal de Infraestrutura e Mobilidade Urbana para deliberação final. CERTIDÃO GERAL DE DÍVIDA"
+   "texto": "O julgamento da fase recursal será efetuado em decisão colegiada da Diretoria da EPTC, posteriormente submetida ao Secretário Municipal de Infraestrutura e Mobilidade Urbana para deliberação final."
   },
   {
    "id": "art-15",
@@ -872,7 +872,7 @@
     {
      "tipo": "capitulo",
      "numero": "III",
-     "titulo": "DO CUMPRIMENTO DAS PENALIDADES, DA INSCRIÇÃO EM DÍVIDA ATIVA E DA"
+     "titulo": "DO CUMPRIMENTO DAS PENALIDADES, DA INSCRIÇÃO EM DÍVIDA ATIVA E DA CERTIDÃO GERAL DE DÍVIDA"
     }
    ]
   },
@@ -1019,27 +1019,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 22,
    "dispositivos": 133,
-   "cobertura": 0.962,
+   "cobertura": 0.977,
    "blocosDeAlteracao": 1,
-   "lacunas": [
-    {
-     "tamanho": 182,
-     "amostra": "4ºOjulgamentodafaserecursalseráefetuadoemdecisãocolegiadadaDiretoriadaEPTCposter"
-    }
-   ],
-   "naoLocalizados": [
-    "No caso de notificação por meio do DOPA-e, o destinatário será considerado notif",
-    "O julgamento da fase recursal será efetuado em decisão colegiada da Diretoria da"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

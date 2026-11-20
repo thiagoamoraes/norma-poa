@@ -2,8 +2,8 @@
  "idSapl": 36316,
  "rotulo": "Lei Complementar municipal nº 628, de 17 de agosto de 2009",
  "sha256Origem": "87550d6e43e12b2a4c75b3eb7f86e79d66f59963a1fa4bb6f90e8ba98eaafc07",
- "estruturadoEm": "2026-11-20T22:01:58.317Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:40.937Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "628",
@@ -213,7 +213,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 6º",
-   "texto": "O Município de Porto Alegre destinará recursos e espaços públicos para programações culturais, esportivas e de lazer voltadas a crianças e adolescentes. CRIANÇAS E ADOLESCENTES"
+   "texto": "O Município de Porto Alegre destinará recursos e espaços públicos para programações culturais, esportivas e de lazer voltadas a crianças e adolescentes."
   },
   {
    "id": "art-7",
@@ -230,7 +230,7 @@
     {
      "tipo": "capitulo",
      "numero": "I",
-     "titulo": "DO DIREITO E DO DEVER DA DENÚNCIA DE ATOS CONTRA"
+     "titulo": "DO DIREITO E DO DEVER DA DENÚNCIA DE ATOS CONTRA CRIANÇAS E ADOLESCENTES"
     }
    ]
   },
@@ -701,7 +701,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 26.",
-   "texto": "Os valores resultantes da aplicação das multas previstas nos arts. 20, 21, 23 e 24 desta Lei Complementar serão destinados ao Fundo Municipal dos Direitos da Criança e do Adolescente. CRIANÇA E DO ADOLESCENTE"
+   "texto": "Os valores resultantes da aplicação das multas previstas nos arts. 20, 21, 23 e 24 desta Lei Complementar serão destinados ao Fundo Municipal dos Direitos da Criança e do Adolescente."
   },
   {
    "id": "art-27",
@@ -713,7 +713,7 @@
     {
      "tipo": "capitulo",
      "numero": "IV",
-     "titulo": "DO CONSELHO MUNICIPAL DOS DIREITOS DA"
+     "titulo": "DO CONSELHO MUNICIPAL DOS DIREITOS DA CRIANÇA E DO ADOLESCENTE"
     }
    ]
   },
@@ -981,7 +981,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 32.",
-   "texto": "O Executivo Municipal dará suporte administrativo e financeiro ao CMDCA, utilizando-se, para tanto, de servidores, espaço físico e recursos fi nanceiros. DO ADOLESCENTE"
+   "texto": "O Executivo Municipal dará suporte administrativo e financeiro ao CMDCA, utilizando-se, para tanto, de servidores, espaço físico e recursos fi nanceiros."
   },
   {
    "id": "art-33",
@@ -993,7 +993,7 @@
     {
      "tipo": "capitulo",
      "numero": "V",
-     "titulo": "DO FÓRUM MUNICIPAL DOS DIREITOS DA CRIANÇA E"
+     "titulo": "DO FÓRUM MUNICIPAL DOS DIREITOS DA CRIANÇA E DO ADOLESCENTE"
     }
    ]
   },
@@ -1114,7 +1114,7 @@
    "pai": "art-35",
    "tipo": "inciso",
    "rotulo": "III –",
-   "texto": "auxiliar na implementação das políticas desenvolvidas pelo CMDCA. DO ADOLESCENTE"
+   "texto": "auxiliar na implementação das políticas desenvolvidas pelo CMDCA."
   },
   {
    "id": "art-36",
@@ -1126,7 +1126,7 @@
     {
      "tipo": "capitulo",
      "numero": "VI",
-     "titulo": "DO FUNDO MUNICIPAL DOS DIREITOS DA CRIANÇA E"
+     "titulo": "DO FUNDO MUNICIPAL DOS DIREITOS DA CRIANÇA E DO ADOLESCENTE"
     }
    ]
   },
@@ -3295,7 +3295,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 133.",
-   "texto": "Concluída a sindicância pela incidência de uma das hipóteses previstas nos arts. 228 a 258 do ECA, os autos serão remetidos ao Ministério Público, sem prejuízo das sanções administrativas cabíveis. CRIANÇA E DO ADOLESCENTE Crianças e de Adolescentes"
+   "texto": "Concluída a sindicância pela incidência de uma das hipóteses previstas nos arts. 228 a 258 do ECA, os autos serão remetidos ao Ministério Público, sem prejuízo das sanções administrativas cabíveis."
   },
   {
    "id": "art-134",
@@ -3307,12 +3307,12 @@
     {
      "tipo": "capitulo",
      "numero": "IX",
-     "titulo": "DOS ATOS DE DIVULGAÇÃO DOS DIREITOS DA"
+     "titulo": "DOS ATOS DE DIVULGAÇÃO DOS DIREITOS DA CRIANÇA E DO ADOLESCENTE"
     },
     {
      "tipo": "secao",
      "numero": "I",
-     "titulo": "Da Semana Municipal de Luta contra a Violência e a Exploração Sexual de"
+     "titulo": "Da Semana Municipal de Luta contra a Violência e a Exploração Sexual de Crianças e de Adolescentes"
     }
    ]
   },
@@ -3607,8 +3607,6 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [
@@ -3617,33 +3615,10 @@
   "metricas": {
    "artigos": 143,
    "dispositivos": 478,
-   "cobertura": 0.937,
+   "cobertura": 0.953,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 165,
-     "amostra": "Art26Osvaloresresultantesdaaplicaçãodasmultasprevistasnosarts202123e24destaLeiCo"
-    },
-    {
-     "tamanho": 141,
-     "amostra": "Art32OExecutivoMunicipaldarásuporteadministrativoefinanceiroaoCMDCAutilizandosep"
-    },
-    {
-     "tamanho": 70,
-     "amostra": "IIIauxiliarnaimplementaçãodaspolíticasdesenvolvidaspeloCMDCACAPÍTULOVIDOFUNDOMUN"
-    },
-    {
-     "tamanho": 180,
-     "amostra": "Art134Concluídaasindicânciapelaincidênciadeumadashipótesesprevistasnosarts228a25"
-    }
-   ],
-   "naoLocalizados": [
-    "O Município de Porto Alegre destinará recursos e espaços públicos para programaç",
-    "Os valores resultantes da aplicação das multas previstas nos arts. 20, 21, 23 e ",
-    "O Executivo Municipal dará suporte administrativo e financeiro ao CMDCA, utiliza",
-    "auxiliar na implementação das políticas desenvolvidas pelo CMDCA. DO ADOLESCENTE",
-    "Concluída a sindicância pela incidência de uma das hipóteses previstas nos arts."
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": [
     {
      "rotulo": "a)",

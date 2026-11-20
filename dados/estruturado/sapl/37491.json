@@ -2,8 +2,8 @@
  "idSapl": 37491,
  "rotulo": "Lei Complementar municipal nº 678, de 22 de agosto de 2011",
  "sha256Origem": "601a0bc7368502239094297bd755eafe8efeac7c950906d87901064ec085e77e",
- "estruturadoEm": "2026-11-20T22:01:57.898Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:40.565Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "678",
@@ -207,7 +207,7 @@
    "pai": "art-3",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
-   "texto": "O disposto no inc. II do caput deste artigo aplica-se, ainda, às pes so as com idad e igual ou superio r a 60 (sesse nta) anos, ao s obeso s, às gest a ntes, às lactant es e às pesso as com criança d e co lo. CAPÍT ULO II DISPOS IÇÕES GERA IS Pri vada"
+   "texto": "O disposto no inc. II do caput deste artigo aplica-se, ainda, às pes so as com idad e igual ou superio r a 60 (sesse nta) anos, ao s obeso s, às gest a ntes, às lactant es e às pesso as com criança d e co lo. CAPÍT ULO II DISPOS IÇÕES GERA IS"
   },
   {
    "id": "art-4",
@@ -219,7 +219,7 @@
     {
      "tipo": "secao",
      "numero": "I",
-     "titulo": "Do Acesso e do Atendimento em Locais co m Destinação Pública, Coletiva o u"
+     "titulo": "Do Acesso e do Atendimento em Locais co m Destinação Pública, Coletiva o u Pri vada"
     }
    ]
   },
@@ -480,7 +480,7 @@
    "pai": "art-8",
    "tipo": "inciso",
    "rotulo": "II –",
-   "texto": "o pla nejamento, de forma co nt inuada e art iculada, entr e o s setores envolvidos. na Acessibilidad e Arquit etônica e Paisagística S ubseção I Da s Condições Gerais"
+   "texto": "o pla nejamento, de forma co nt inuada e art iculada, entr e o s setores envolvidos."
   },
   {
    "id": "art-9",
@@ -492,7 +492,7 @@
     {
      "tipo": "secao",
      "numero": "IV",
-     "titulo": "Da Implementação da Acessibi lid ade Urba nística e Sua Implicação"
+     "titulo": "Da Implementação da Acessibi lid ade Urba nística e Sua Implicação na Acessibilidad e Arquit etônica e Paisagística S ubseção I Da s Condições Gerais"
     }
    ]
   },
@@ -1383,8 +1383,6 @@
   "situacao": "revisar",
   "motivos": [
    "sem_fecho",
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [
@@ -1394,22 +1392,10 @@
   "metricas": {
    "artigos": 51,
    "dispositivos": 185,
-   "cobertura": 0.97,
+   "cobertura": 0.979,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 74,
-     "amostra": "IIoplanejamentodeformacontinuadaearticuladaentreossetoresenvolvidosSeçãoIVDaImpl"
-    },
-    {
-     "tamanho": 74,
-     "amostra": "naAcessibilidadeArquitetônicaePaisagísticaSubseçãoIDasCondiçõesGeraisArt9ºNaprom"
-    }
-   ],
-   "naoLocalizados": [
-    "O disposto no inc. II do caput deste artigo aplica-se, ainda, às pes so as com i",
-    "o pla nejamento, de forma co nt inuada e art iculada, entr e o s setores envolvi"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": [
     {
      "rotulo": "Art. 15.",

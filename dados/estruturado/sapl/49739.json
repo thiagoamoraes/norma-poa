@@ -2,8 +2,8 @@
  "idSapl": 49739,
  "rotulo": "Lei Complementar municipal nº 1.037, de 02 de fevereiro de 2025",
  "sha256Origem": "e8ab8f2ef23bb7a99d813cb36bbd6f79cd93fadc55434e12317e8083c2de9091",
- "estruturadoEm": "2026-11-20T22:01:55.933Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:38.868Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1037",
@@ -535,7 +535,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 12.",
-   "texto": "Fica mantida, na SMF, a Contadoria-Geral do Município (CTGM) com a incorporação das competências da Divisão de Controle e Monitoramento da CGM referidas no § 2º do art. 11 desta Lei Complementar. Das Competências"
+   "texto": "Fica mantida, na SMF, a Contadoria-Geral do Município (CTGM) com a incorporação das competências da Divisão de Controle e Monitoramento da CGM referidas no § 2º do art. 11 desta Lei Complementar."
   },
   {
    "id": "art-13",
@@ -547,7 +547,7 @@
     {
      "tipo": "secao",
      "numero": "III",
-     "titulo": ""
+     "titulo": "Das Competências"
     }
    ]
   },
@@ -2208,25 +2208,16 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
   "metricas": {
    "artigos": 42,
    "dispositivos": 305,
-   "cobertura": 0.976,
+   "cobertura": 0.981,
    "blocosDeAlteracao": 15,
-   "lacunas": [
-    {
-     "tamanho": 189,
-     "amostra": "Art12FicamantidanaSMFaContadoriaGeraldoMunicípioCTGMcomaincorporaçãodascompetênc"
-    }
-   ],
-   "naoLocalizados": [
-    "Fica mantida, na SMF, a Contadoria-Geral do Município (CTGM) com a incorporação "
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": [
     {
      "rotulo": "Art. 32.",

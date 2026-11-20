@@ -2,8 +2,8 @@
  "idSapl": 34807,
  "rotulo": "Lei Complementar municipal nº 563, de 30 de janeiro de 2007",
  "sha256Origem": "1eb133c0ab3d1228c7729f0176040b430bf877fc5388f6bc9981044d0b29875e",
- "estruturadoEm": "2026-11-20T22:01:58.547Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:41.130Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "563",
@@ -66,7 +66,7 @@
    "pai": "art-2",
    "tipo": "inciso",
    "rotulo": "III –",
-   "texto": "o Fundo Municipal dos Direitos Difusos – FMDD. DOS DIREITOS DO CONSUMIDOR"
+   "texto": "o Fundo Municipal dos Direitos Difusos – FMDD."
   },
   {
    "id": "art-3",
@@ -78,7 +78,7 @@
     {
      "tipo": "capitulo",
      "numero": "II",
-     "titulo": "DO SERVIÇO DE PROTEÇÃO E DEFESA"
+     "titulo": "DO SERVIÇO DE PROTEÇÃO E DEFESA DOS DIREITOS DO CONSUMIDOR"
     }
    ]
   },
@@ -220,7 +220,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 8º",
-   "texto": "O Gestor B, Coordenador do Procon/PMPA, contará com acolaboração do Condecon, que também atuará como Comissão Permanente deNormatização. DOS DIREITOS DO CONSUMIDOR"
+   "texto": "O Gestor B, Coordenador do Procon/PMPA, contará com acolaboração do Condecon, que também atuará como Comissão Permanente deNormatização."
   },
   {
    "id": "art-9",
@@ -232,7 +232,7 @@
     {
      "tipo": "capitulo",
      "numero": "III",
-     "titulo": "DO CONSELHO MUNICIPAL DE PROTEÇÃO E DEFESA"
+     "titulo": "DO CONSELHO MUNICIPAL DE PROTEÇÃO E DEFESA DOS DIREITOS DO CONSUMIDOR"
     }
    ]
   },
@@ -742,27 +742,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 23,
    "dispositivos": 97,
-   "cobertura": 0.948,
+   "cobertura": 0.965,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 130,
-     "amostra": "Art8ºOGestorBCoordenadordoProconPMPAcontarácomacolaboraçãodoCondeconquetambématu"
-    }
-   ],
-   "naoLocalizados": [
-    "o Fundo Municipal dos Direitos Difusos – FMDD. DOS DIREITOS DO CONSUMIDOR",
-    "O Gestor B, Coordenador do Procon/PMPA, contará com acolaboração do Condecon, qu"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

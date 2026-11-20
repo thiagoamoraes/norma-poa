@@ -2,8 +2,8 @@
  "idSapl": 51486,
  "rotulo": "Lei Complementar municipal nº 1.076, de 14 de julho de 2026",
  "sha256Origem": "80e1459d07a324e1a3d75ad5e85295a1ee7260a9ca7229e1eb453c13988bc622",
- "estruturadoEm": "2026-11-20T22:01:55.369Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:38.503Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1076",
@@ -367,7 +367,7 @@
    "pai": "art-22",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
-   "texto": "Nas Zonas de Amortecimento das Unidades de Conservação aplicar-se-á o regime urbanístico da ZOT em que estiverem inseridas, observadas as disposições do plano de manejo da Unidade e as restrições ambientais de ocupação para essas áreas. EDIFICAÇÕES E REGIME URBANÍSTICO"
+   "texto": "Nas Zonas de Amortecimento das Unidades de Conservação aplicar-se-á o regime urbanístico da ZOT em que estiverem inseridas, observadas as disposições do plano de manejo da Unidade e as restrições ambientais de ocupação para essas áreas."
   },
   {
    "id": "art-23",
@@ -379,7 +379,7 @@
     {
      "tipo": "capitulo",
      "numero": "III",
-     "titulo": "DAS DISPOSIÇÕES GERAIS SOBRE PARCELAMENTO DO SOLO,"
+     "titulo": "DAS DISPOSIÇÕES GERAIS SOBRE PARCELAMENTO DO SOLO, EDIFICAÇÕES E REGIME URBANÍSTICO"
     }
    ]
   },
@@ -3827,19 +3827,16 @@
   "motivos": [
    "dispositivo_sem_rotulo",
    "endereco_repetido",
-   "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
   "metricas": {
    "artigos": 126,
    "dispositivos": 521,
-   "cobertura": 0.97,
+   "cobertura": 0.973,
    "blocosDeAlteracao": 0,
    "lacunas": [],
-   "naoLocalizados": [
-    "Nas Zonas de Amortecimento das Unidades de Conservação aplicar-se-á o regime urb"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": [
     {
      "rotulo": "26 –",

@@ -2,8 +2,8 @@
  "idSapl": 42387,
  "rotulo": "Lei Complementar municipal nº 869, de 27 de dezembro de 2019",
  "sha256Origem": "d77470183adcc9c5a9f2065a2271247b0c20d41d1bbbbe575e5404de28b6e8dd",
- "estruturadoEm": "2026-11-20T22:01:56.731Z",
- "versaoEstruturador": 12,
+ "estruturadoEm": "2026-11-20T22:03:39.571Z",
+ "versaoEstruturador": 13,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "869",
@@ -246,7 +246,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 8º",
-   "texto": "Os órgãos gestores dos fundos extintos promoverão sua extinção administrativa no prazo máximo de 12 (doze) meses, contados da verificação, por parte da CTGM, do cumprimento dos requisitos previstos no art. 6º desta Lei Complementar, devendo, para tanto, adotarem todos os procedimentos necessários que garantam a eficiente transferência dos créditos envolvidos. DO FUNDO DE REFORMA E DESENVOLVIMENTO MUNICIPAL"
+   "texto": "Os órgãos gestores dos fundos extintos promoverão sua extinção administrativa no prazo máximo de 12 (doze) meses, contados da verificação, por parte da CTGM, do cumprimento dos requisitos previstos no art. 6º desta Lei Complementar, devendo, para tanto, adotarem todos os procedimentos necessários que garantam a eficiente transferência dos créditos envolvidos."
   },
   {
    "id": "art-9",
@@ -258,7 +258,7 @@
     {
      "tipo": "capitulo",
      "numero": "III",
-     "titulo": ""
+     "titulo": "DO FUNDO DE REFORMA E DESENVOLVIMENTO MUNICIPAL"
     }
    ]
   },
@@ -649,20 +649,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 31,
    "dispositivos": 82,
-   "cobertura": 0.967,
+   "cobertura": 0.983,
    "blocosDeAlteracao": 14,
    "lacunas": [],
-   "naoLocalizados": [
-    "Os órgãos gestores dos fundos extintos promoverão sua extinção administrativa no"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }
