@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-19T09:26:04.644Z",
+ "geradoEm": "2026-11-20T09:25:03.782Z",
  "idSapl": 25277,
  "rotulo": "Lei Orgânica nº 1, de 03 de abril de 1990",
  "baseConferida": false,
@@ -329,6 +329,16 @@
     "rotulo": "Emenda à Lei Orgânica nº 47, de 18 de agosto de 2021"
    },
    "comandosAplicados": 56
+  },
+  {
+   "indice": 33,
+   "id": " 1/1990@2022-12-12",
+   "data": "2022-12-12",
+   "fonte": {
+    "idSapl": 45346,
+    "rotulo": "Emenda à Lei Orgânica nº 49, de 12 de dezembro de 2022"
+   },
+   "comandosAplicados": 1
   }
  ],
  "dispositivos": [
@@ -15147,6 +15157,23 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-183/par-2",
+   "pai": "art-183",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 33,
+     "texto": "O Município promoverá, no mínimo trimestralmente, transferência de verbas às escolas públicas municipais, garantindo-lhes autonomia de gestão financeira, por meio de sua competência para o ordenamento e a execução de gastos rotineiros de manutenção, custeio e com pequenos investimentos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 49/2022"
      }
     }
    ]

@@ -1,0 +1,58 @@
+{
+ "idSapl": 33217,
+ "rotulo": "Lei Complementar municipal nº 504, de 26 de maio de 2004",
+ "sha256Origem": "cecc89e17047f990f38d879460e38319d4ed349b8db5106a0f2497881b6217b0",
+ "estruturadoEm": "2026-11-20T09:25:01.716Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "504",
+  "ano": "2004",
+  "data": "2004-05-26",
+  "epigrafe": "LEI COMPLEMENTAR Nº 504, de 26 de maio de 2004.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a redação do parágrafo único do art.140 da Lei Complementar nº 395, de 26 de dezembro de 1996, e alterações posteriores(Código Municipal de Saúde do Município de Porto Alegre).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte LeiComplementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 26 de maio de 2004.\nJoão Verle,\nPrefeito.\nSandra Fagundes,\nSecretária Municipal da Saúde.\nRegistre-se e publique-se.\nJorge Branco,\nSecretário do Governo Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O parágrafo único do art. 140 da Lei Complementar nº 395,de 26 de dezembro de 1996, e alterações posteriores, passa a vigorar com aredação: Art. 140. ..."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Excetuam-se da proibição referida no caputrecintos e estabelecimentos, legal e adequadamente instalados e destinadosà pesquisa, à venda, ao treinamento, à competição, ao alojamento, ao tratamento, àexposição, à exibição e ao abate de animais, bem como os estabelecimentosde saúdedestinados à moradia de idosos. (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de suapublicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.933,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

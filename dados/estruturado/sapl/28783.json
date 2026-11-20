@@ -1,0 +1,92 @@
+{
+ "idSapl": 28783,
+ "rotulo": "Lei Complementar municipal nº 392, de 16 de dezembro de 1996",
+ "sha256Origem": "d1e3473298554bd7d06bafe57be4eb307b437be053e46397f56e79b449fe0ed8",
+ "estruturadoEm": "2026-11-20T09:25:03.195Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "392",
+  "ano": "1996",
+  "data": "1996-12-16",
+  "epigrafe": "LEI COMPLEMENTAR N® 392",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Disciplina o uso de telefone celular no interior das casas de eventos culturais e Plenário da Câmara Municipal, através de inclusão e alteração de dispositivos na Lei Complementar n® 12, de 07 de janeiro de 1975, e alterações posteriores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 16 de\ndezembro de 1996\nTarso Genro,\nPrefeito.\nJosé Luiz Vianna Moraes,\nSecretário Municipal da Produção, Indústria e\nComércio.\nRegistre-se e publique-se.\nCezar Alvarez,\nSecretário do Governo Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "* - O \"caput\" do art. 83 da Lei Complementar n\" 12, de 07 de janeiro de 1975, e alterações posteriores, passa a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 83 - É vedado perturbar o bem-estar e o sossego\npúblico, ou de vizinhanças, com ruídos, barulhos, sons excessivos ou\nincômodos de qualquer natureza, produzidos por qualquer forma e que\nultrapassem ou não os níveis máximos de intensidade fixados nesta\nLei.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "® - Acrescenta incisos VI e VII ao artigo 86 da Lei Complementar n® 12, de 07 de janeiro de 1975, e alterações poste riores, com as seguintes redações:",
+   "blocoDeAlteracao": "\"Art. 86 - ...\nVI - a utilização de aparelhos de telefone celular ou\nde emissão sonora pessoal no interior de casas de espetáculos e de\neventos culturais, como cinemas, teatros e Plenário da Câmara Munici\npal. Pena: multa de 285 UFIR (duzentos e oitenta e cinco Unidades\nFiscais de Referência) a 425 UFIR (quatrocentos e vinte e cinco Uni\ndades Fiscais de Referência);\nVII - a utilização de aparelhos de telefone celular por\ncondutores de veículo individual ou coletivo, quando em movimento ou\ncirculação na área de jurisdição do Município de Porto Alegre.\""
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "® - Acrescenta inciso VIII ao art 87 da Lei Com plementar n® 12, de 07 de janeiro de 1975, e alterações posteriores, com a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 87 - ...\nVII - aparelhos de telefone celular ou de emissão so\nnora pessoal, quando em uso no interior das casas de espetáculos e\nde eventos culturais, fora das salas de exibições de filmes, peças tea\ntrais, musicais, danças, palestras, conferências e demais atividades\nculturais ou artísticas do gênero.\""
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "® - Será obrigatória a divulgação do conteúdo desta Lei Complementar, através da fixação de cartazes nos locais a que se refere."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "® - Esta Lei Complementar será regulamentada pelo Executivo Municipal no prazo de 30 (trinta) dias, contados da data de sua publicação."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "® - Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "® - Revogam-se as disposições em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 7,
+   "cobertura": 0.977,
+   "blocosDeAlteracao": 3,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

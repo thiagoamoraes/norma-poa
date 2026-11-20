@@ -1,0 +1,91 @@
+{
+ "idSapl": 26353,
+ "rotulo": "Lei Complementar municipal nº 270, de 20 de fevereiro de 1992",
+ "sha256Origem": "4cc140ba439679776bb24dd347a62c57a67a5242409d80c636d3e3fe7985a25b",
+ "estruturadoEm": "2026-11-20T09:25:03.381Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "~-:.-~",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "~~ - .. ...•.... '\" .... \\\" CAMARA MUNICIPAL DE PORTO ALEGRE AV. LOUREIRO DA SILVA, 255 - RIO GRANDE DO SUL FONE ·28-6055 nQ    0242/92 .' nº       03/92 O'ba.1   Declarada inconstitúcionalEstabe1ece  o reajuste do IPTU pelo TJEROS em 29.6.92.   Imposto Predial    e   Territoria1 Faço saber,        no uso das atribuições               que me obriga o   §   7º, do art. 77, da Lei Orgânica,                que a         Câmara        Municipal aprovou       e eu promulgo        a seguinte      Lei Complementar:",
+ "preambulo": null,
+ "fecho": "Gabinete        da Presidência     da Câmara     Municipal           de\nPorto    Alegre,    20 de fevereiro            de 1992.\nD~=:1~",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Aos contribuintes             do IPTU e Taxa de Co 1eta de Lixo,         no exercicio        de 1992, são assegurados                   os segui~ tes beneficios:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "mai s 20% (vi nte por cento)                  de desconto        sobre o valor       lançado     para pagamento         em parcela      única       até 31 de janeiro,       prorrogando-se        este prazo para 14            de        fevereiro            de 1992. ~                      11 - mais       10% (dez por cento)           de desconto             sobre ~'\\o               lançamento      para pagamento           em parcela    única até          15 de fevereiro,       prorrogando-se        este prazo para           28 de         fevereiro            de"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Aos contribuintes               que ja tiverem              pago fica assegurado           a restituição         da diferença,        se     houver,            no prazo       de 30 (trinta)        dias independente         de requerimento."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Inobservado          o     prazo     disposto no \"caput\"       deste     artigo,     os valores      serão corrigidos               monetariamente       a contar     da data do efetivo            pagamento. CAMARA MUNICIPAL DE PORTO ALEGRE AV. LOUREIRO DA SILVA, 255 -   FONE ·28·6055 RIO GRANDE DO SUL                                  Proc.     n9 0242/92 PLCL      n9    03/92 o boxe     de estacionamento          em edificio     residencial        vinculado economia      que ja paga esta taxa."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar         entra     em na data      de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Revogam-se        as disposições       em contrário, ressalvando-se       a plena        vigência     dos direitos     assegurados        aos contribuintes       pela Lei Complementar            n2 260, de 11 de dezembro de   1991."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 6,
+   "cobertura": 0.974,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art49"
+    },
+    {
+     "rotulo": "Art. 4º",
+     "naOrigem": "Art52"
+    }
+   ]
+  }
+ }
+}

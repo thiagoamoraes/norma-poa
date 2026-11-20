@@ -1,0 +1,62 @@
+{
+ "idSapl": 29309,
+ "rotulo": "Lei Complementar municipal nº 412, de 24 de março de 1998",
+ "sha256Origem": "34db533f448f1da916721315726617885e5d2bc2a28d5155cd4416a35b32a79a",
+ "estruturadoEm": "2026-11-20T09:25:03.167Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "LEICOMPLEMENTAR Nº 412, DE 24 DE MARÇO DE 1998.",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "Altera oart. 8º da Lei Complementar nº 320, de 02 de maio de 1994, que dispõe sobrea denominação de logradouros públicos, e dá outras providências. O PRESIDENTEDA CÂMARAMUNICIPAL DE PORTO ALEGRE Faço saber, nouso das atribuições que me obriga o parágrafo 7º, do art. 77, da Lei Orgânica,que a Câmara Municipal manteve e eu promulgo a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "nova redação e inclui §§1º, 2º, e 3º ao art. 8º da Lei Complementar nº320, de 02 de maio de 1994, que passa a ter a seguinte redação:",
+   "blocoDeAlteracao": "\" Art. 8º Aalteração da denominação de logradouros é permitida, me­diante consulta préviaaos moradores domiciliados nos limites do logradouro do qual é pleiteada amudança de denominação.\n§1º Aconsulta deverá ser prévia e amplamente divulgada na região abrangida, devendoser promovida pelo autor da proposta de alteração ou por entidade popularrepresentativa dos moradores do local, através de votação, abaixo-assinadoqualquer outro meio capaz de expressar a vontade favorável de, no mínimo,2/3(dois terços) dos moradores.\n§ 2º Estarãoaptos a participar da consulta todos os cidadãos eleitores que comprovaremdomicílio nos limites do logradouro.\n§ 3º Oato deauscultar a vontade popular deverá ser acompanhado e fiscalizado pela entidadegeral representativa das associações de moradores de Porto Alegre. \""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se as disposições em contrário. GABINETEPRESIDÊNCIA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, 24 de março de 1998. Luiz Bráz, Presidente. Registre-se epublique-se. JuarezPinheiro, 1º Secretário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

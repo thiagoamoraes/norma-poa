@@ -1,0 +1,95 @@
+{
+ "idSapl": 32356,
+ "rotulo": "Lei Complementar municipal nº 486, de 14 de janeiro de 2003",
+ "sha256Origem": "0ea7526008dc59a509508f4a2288faf00e8c6cacf234ae03cca7f041ca46a493",
+ "estruturadoEm": "2026-11-20T09:25:01.742Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "486",
+  "ano": "2003",
+  "data": "2003-01-14",
+  "epigrafe": "LEI COMPLEMENTAR Nº 486, de 14 de janeiro de 2003.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Corredor de Cavalgadas no Municípiode Porto Alegre e acrescenta novas disposições à Lei Complementar nº 434,de 1º dedezembro de 1999, e alterações posteriores",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte LeiComplementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 14 de janeiro de 2003.\nJoão Verle,\nPrefeito.\nCarlos Eduardo Vieira,\nSecretário do Planejamento Municipal.\nRegistre-se e publique-se.\nGerson Almeida,\nSecretário do Governo Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Corredor de Cavalgadas no Município dePorto Alegre com o objetivo de preservar a segurança das pessoas e dos animais em viaspúblicas do Município e desenvolver os setores culturais, turísticos e econômicosligados a esse segmento de atividades."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As instalações para a prática de cavalgar no Corredor deCavalgadas compõe-se, basicamente, da implantação de trilhas e paradourosinstalados aolongo das vias públicas, em trajetos a serem especificados em lei."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A lei poderá, mediante oferecimento da iniciativa privada,estabelecer trajetos complementares em áreas que não estejam no traçado das viaspúblicas."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Compete ao Poder Executivo elaborar o anteprojeto do Corredorde Cavalgadas, com a participação da comunidade e das entidades interessadas, no prazomáximo de 90 (noventa) dias."
+  },
+  {
+   "id": "art-3/par-1",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O anteprojeto definirá a localização do Corredor de Cavalgadas e suainserção nas vias do Município, bem como as áreas específicas destinadas ao apoio àatividade eqüestre."
+  },
+  {
+   "id": "art-3/par-2",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Fica estabelecida, como referencial para a implantação do CorredorCavalgadas, a Região Sul do Município denominada Macrozona 8."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Para efeitos de inserção das trilhas para cavalgar nosperfis viários instituídos para as estradas, Anexo 9.2 da Lei Complementar1º de dezembro de 1999, e alterações posteriores, acrescenta-se ao Anexo 9.1 da citadaLei Complementar a seguinte classificação: ANEXO 9.1 CLASSIFICAÇÃO DAS VIAS ... V.8 - Via para cavalgar: localização conforme projetos especiais; com aespaços abertos para cavalgar; gabaritos de 1,50m (um vírgula cinqüenta metros) e 4,00m(quatro metros); outros detalhes conforme projetos específicos, referenciados aosgabaritos constantes do Anexo 1 desta Lei Complementar”."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei Complementar entra em vigor na data de suapublicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 8,
+   "cobertura": 0.958,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "idSapl": 26189,
+ "rotulo": "Lei Complementar municipal nº 257, de 27 de novembro de 1991",
+ "sha256Origem": "f84cee822cabc47dd402ee0fabd4ad7853b42b8be04857e6d5947d10b0773c11",
+ "estruturadoEm": "2026-11-20T09:25:03.393Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "257",
+  "ano": "1991",
+  "data": "1991-11-27",
+  "epigrafe": "LEI COMPLEMENTAR 257",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Dispõe sobre a obrigatoriedade de limpeza e desinfecção de reservatório depotável.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinteLei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de novembro de 1991.\nTarso Genro\nPrefeito em exercício.\nMaria Luiza Jaeger,\nSecretária Municipal de Saúde e Serviço Social.\nRegistre-se e publique-se.\nHelio Corbellini,\nSecretário do Governo Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "água potável, de acordo com as técnicas estabelecidas pela Secretaria da Saúde edo Meio Ambiente do Estado do Rio Grande do Sul, são obrigatórias, no mínimo,anualmente, nos seguintes casos:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "prédios que abriguem 4 (quatro) ou mais unidades residenciais;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "prédios escolares;"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "prédios de estabelecimentos industriais;"
+  },
+  {
+   "id": "art-1/inc-IV",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "prédios de estabelecimentos comerciais;"
+  },
+  {
+   "id": "art-1/inc-V",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "prédios de estabelecimentos prestadores de serviços;"
+  },
+  {
+   "id": "art-1/inc-VI",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "independente de sua destinação, prédios em que a capacidade dearmazenagem de água potável seja igual ou superior a 5.000 (cinco mil) litros."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "sujeita o infrator às seguintes penalidades:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "advertência;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "multa de 3 (três) Unidades de Referência Municipal;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "multa de 6 (seis) Unidades de Referência Municipal, em caso dereincidência;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "suspensão do alvará, quando couber."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Em qualquer dos casos previstos nos incisos II eIII, é facultado à autoridade municipal elevar o valor das penalidades ematé 10(dez) vezes, quando verificar que, o devido ao porte do infrator, a mesmaseráinócua."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "no prazo de 30 (trinta) dias."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "publicação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": ""
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 16,
+   "cobertura": 0.944,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 5º",
+     "naOrigem": ""
+    }
+   ]
+  }
+ }
+}

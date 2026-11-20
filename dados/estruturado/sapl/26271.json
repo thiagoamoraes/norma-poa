@@ -1,0 +1,97 @@
+{
+ "idSapl": 26271,
+ "rotulo": "Lei Complementar municipal nº 262, de 27 de dezembro de 1991",
+ "sha256Origem": "baee04bbe9c1869c58088874bedd30431dfe64b39ebc41765b17a3c242ff3f3b",
+ "estruturadoEm": "2026-11-20T09:25:03.389Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "262",
+  "ano": "1991",
+  "data": "1991-12-27",
+  "epigrafe": "LEI COMPLEMENTAR N.º 262",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Torna obrigatória a colocação decorrespondência na área de fachada dos prédios.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte LeiComplementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de dezembro de 1991.\nOlívio Dutra,\nPrefeito.\nNewton Burmeister,\nSecretário Municipal de Obras e Viação.\nRegistre-se e publique-se.\nHélio Corbellini,\nSecretário do Governo Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica obrigada a colocação de caixa de correspondênciajunto à fachada principal dos prédios, dentro das normas da Empresa Brasileira deCorreios e Telégrafos, sendo livre o modelo, o padrão e o material de confecção dasreferidas caixas."
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a caixa de correspondência deve ser instalada em lugar de fácil acesso aocarteiro;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "havendo muro no alinhamento, a localização da caixa de correspondênciafar-se-á no mesmo."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os prédios atingidos por esta Lei devem seradequados àmesma, no prazo de seis meses."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A pena pelo descumprimento desta Lei será multa de 1 a 5URMs."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei Complementar entra em vigor na datapublicação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Revogam-se as disposições em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 8,
+   "cobertura": 0.935,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

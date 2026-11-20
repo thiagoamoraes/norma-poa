@@ -1,8 +1,8 @@
 # Conferência DOPA × catálogo
 
-Gerado em 2026-11-19T04:11:11.479Z por `ingestao/conferencia-dopa.mjs`. Não editar à mão.
+Gerado em 2026-11-20T04:10:41.960Z por `ingestao/conferencia-dopa.mjs`. Não editar à mão.
 
-Edições lidas: 20 · normas no catálogo: 10 · ausentes: 0 · atos que só o DOPA traz: 1
+Edições lidas: 25 · normas no catálogo: 10 · ausentes: 0 · atos que só o DOPA traz: 1
 
 ## Publicadas há mais de 7 dias e ausentes do catálogo
 

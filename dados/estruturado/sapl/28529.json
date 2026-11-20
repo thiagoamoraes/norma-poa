@@ -1,0 +1,82 @@
+{
+ "idSapl": 28529,
+ "rotulo": "Lei Complementar municipal nº 378, de 17 de junho de 1996",
+ "sha256Origem": "9cf9e6784afb31bbe733934352c7b2740b94c98cf3c3f9ca3fa23a600631950e",
+ "estruturadoEm": "2026-11-20T09:25:03.203Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "378",
+  "ano": "1996",
+  "data": "1996-06-17",
+  "epigrafe": "LEI COMPLEMENTAR N® 378",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Estabelece elementos mínimos para publicação dos relatórios mensais da execução orçamentária do Município e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de\njunho de 1996.\nTarso Genn\nPrefeito.\nArno Augustin Filho,\nSecretário Municipal da Fazenda.\nRegistre-se e publique-se\nCezar Alvarez,\nSecretário do Governo Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "® - A publicação do relatório da execução orçamentária do Município, prevista no artigo 119 da Lei Orgânica Municipal, deverá conter as seguintes informações:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "Receita Arrecadada por fontes, no mês anterior, referente à Administração Centralizada, Autarquias e Fundações;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "Despesa da Administração Centralizada, por Programa de Trabalho e Natureza da despesa e Despesa das Autarquias e Fundações."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "® - Também mensalmente e nos mesmos prazos do artigo 1®, o Poder Executivo encaminhará ao Poder Legislativo relatórios das despesas empenhadas e pagas, no mês anterior, pela Administração Centralizada, Autarquias e Fundações, por Projetos e Atividades e por Subelementos de Despesa."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "® - Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "® - Revogam-se as disposições em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 6,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

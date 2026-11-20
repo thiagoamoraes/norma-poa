@@ -1,0 +1,109 @@
+{
+ "geradoEm": "2026-11-20T09:25:05.845Z",
+ "idSapl": 32648,
+ "rotulo": "Lei Complementar municipal nº 492, de 08 de agosto de 2003",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 492/2003@2003-08-08",
+   "data": "2003-08-08",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 492/2003@2010-05-18",
+   "data": "2010-05-18",
+   "fonte": {
+    "idSapl": 36741,
+    "rotulo": "Lei Complementar municipal nº 643, de 18 de maio de 2010"
+   },
+   "comandosAplicados": 1
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica incluído parágrafo único no art. 1º da Lei Complementar nº 332, de 2 de dezembro de 1994, como segue: “Art. 1º ...",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A numeração predial conterá as dimensões mínimas de 11cm (onze centímetros) de altura por 7cm (sete centímetros) de largura, com coloração contrastante ao fundo em que for afixada, ressalvados os prédios integrantes do Patrimônio Cultural do Município, circunstâncias em que as dimensões serão determinadas pelo Executivo Municipal, através do setor competente”.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As ações fiscais decorrentes desta Lei Complementar serão objeto de regulamentação pelo Executivo Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Osestabelecimentos que possuem painéis comerciais em sua parte frontal ficamcolocar a numeração predial e o nome do logradouro nesses painéis, observadas asdimensões mínimas indicadas no parágrafo único do art. 1º desta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 643/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

@@ -1,0 +1,678 @@
+{
+ "geradoEm": "2026-11-20T09:25:03.922Z",
+ "idSapl": 27682,
+ "rotulo": "Lei Complementar municipal nº 325, de 07 de julho de 1994",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 325/1994@1994-07-07",
+   "data": "1994-07-07",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 325/1994@2010-12-07",
+   "data": "2010-12-07",
+   "fonte": {
+    "idSapl": 37041,
+    "rotulo": "Lei Complementar municipal nº 660, de 07 de dezembro de 2010"
+   },
+   "comandosAplicados": 33
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Compreende-se como Política Municipal dos Direitos da Cidadania contra as Discriminações e Violência as atividades empreendidas no ambito do Município, isoladas cu coordenadas entre si, que visem a promover a observância dos direitos dos cidadãos e das liberdades fundamentais da pessoa humana. j | Art. 2º - Ao Poder Público Municipal incumbe, de forma articulada com entidades dá sociedade civil, governamentais ef não governamentais, formular estratégias e instrumentos capazes de tornar efetivos os direitos individuais e coletivos previstos na Constituição Federal e nas convenções e tratados internacionais, ratificados pelo Governo Brasileiro.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica instituído, no Município de Porto Alegre, o Conselho Municipal do Idoso (Comui), órgão deliberativo no âmbito de suas competências, pro positivo, consultivo e fiscalizador das políticas públicas destinadas a promover os direitos dos idosos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-VI",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "dar pareceres aos projetos destinados a instituir ações ou políticas públicas de promoção cultural desenvolvidas pela Secretaria Municipal da Cultura (SMC);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "O Comui será vinculado administrativamente à Secretaria Municipal de Coordenação Política e Governança Local (SMGL).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º-A",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Fica criado o Fundo Municipal do Idoso.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-unico",
+   "pai": "art-1-A",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Constituem receitas do Fundo Municipal do Idoso, além de outras que lhe forem destinadas:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-unico/inc-I",
+   "pai": "art-1-A/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "recursos destinados ao Fundo Municipal de Assistência Social para aplicação em programas e ações relativos ao idoso;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-unico/inc-II",
+   "pai": "art-1-A/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "contribuições de pessoas físicas e jurídicas dedutíveis do Imposto de Renda devido, conforme legislação federal específica;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-unico/inc-III",
+   "pai": "art-1-A/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "dotações orçamentárias que lhe forem destinadas pelo Município de Porto Alegre; IV – recursos oriundos dos governos estadual e federal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-unico/inc-V",
+   "pai": "art-1-A/par-unico",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "contribuições de organismos estrangeiros e internacionais; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-unico/inc-VI",
+   "pai": "art-1-A/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "rendimentos de aplicações no mercado financeiro, observada a legislação pertinente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na formulação da Política Municipal de garantia aos Direitos da Cidadania e contra as Discriminaçoes e Violencia observar-se-ao os seguintes aspectos:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Ao Comui compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "participação dos cidadãos na vida política brasileira, na forma das Constituições da República e do Estado, da Lei Orgânica do Município e das leis, bem como nos negócios públicos do Município; .",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "liberdade de expressão, reunião, informação e auto-organização da sociedade civil;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "17 (dezessete) membros titulares e seus respectivos suplentes indicados pela população organizada a partir das regiões do Orçamento Participativo, mediante indicações encaminhadas e votadas pelos respectivos núcleos de cultura; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "exercício de qualquer culto ou religião;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "encaminhar sugestões e providências destinadas a implementar políticas e programações referentes à promoção do idoso no Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-a",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "artes visuais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-b",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "cinema e vídeo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-c",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "artes cênicas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-d",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "livro e literatura;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-e",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "música;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-f",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "patrimônio cultural;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-g",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "g)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "folclore;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-h",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "h)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "carnaval;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-i",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "i)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "humanidades;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-j",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "j)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "hip-hop;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-k",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "k)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "dança; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III/ali-l",
+   "pai": "art-2/inc-III",
+   "tipo": "alinea",
+   "rotulo": "l)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "pontos de cultura;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "orientação e defesa dos direitos dos segmentos etários, étnicos, raciais, religiosos e sexuais, contra as disjcriminações; | : | 0. e qa. . PUBLICACÃO REPUBLICAÇÃO HE wu - PROCESSO RUBRICA FONTE DATA PÃG | FONTE DATA PÁG. (DOE [13-07-94 |34 Nitv ) A CMA, MOD GM 29",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-VI",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "expedir a órgãos e entidades governamentais do Município de Porto Alegre, por meio de resoluções, diretrizes para a elaboração de ações e políticas relacionadas com os idosos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-VII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "gerir o Fundo Municipal do Idoso, fixando os critérios para a sua utilização;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-VIII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "dar parecer aos projetos destinados a instituir ações ou políticas públicas de proteção e promoção dos direitos dos idosos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-IX",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "elaborar seu regimento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 30360,
+    "rotulo": "Lei Complementar municipal nº 442, de 12 de janeiro de 2000"
+   },
+   "motivo": "comando_nao_reconhecido",
+   "detalhe": "nenhum comando de alteração foi extraído do texto desta norma",
+   "enderecos": [
+    "art-6/inc-VIII"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 30698,
+    "rotulo": "Lei Complementar municipal nº 451, de 28 de julho de 2000"
+   },
+   "motivo": "comando_recusado",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": [
+    "art-4",
+    "art-5",
+    "art-6"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 37041,
+    "rotulo": "Lei Complementar municipal nº 660, de 07 de dezembro de 2010"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 20 de maio de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 325/1994) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 20 de maio de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 325/1994) | endereço-pai \"art. 4º\" não encontrado — não é possível inserir \"inc. i do art. 4º\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 28 de março de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 325/1994) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 28 de março de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 325/1994) | artigo-base \"art. 6º\" não encontrado — não é possível posicionar \"art. 6º\" | artigo-base \"art. 9º\" não encontrado — não é possível posicionar \"art. 9º-a\" | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | artigo-base \"art. 3º\" não encontrado — não é possível posicionar \"art. 3º\" | endereço-pai \"art. 3º\" não encontrado — não é possível inserir \"inc. iv do art. 3º\" | endereço-pai \"art. 3º\" não encontrado — não é possível inserir \"inc. ix do art. 3º\" | endereço-pai \"art. 3º\" não encontrado — não é possível inserir \"inc. x do art. 3º\" | endereço-pai \"art. 5º\" não encontrado — não é possível inserir \"inc. i do art. 5º\" | endereço-pai \"art. 5º\" não encontrado — não é possível inserir \"inc. iv do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. b) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. c) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. d) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. f) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. g) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. h) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. o) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. p) do inc. x do art. 5º\" | artigo-base \"art. 6º\" não encontrado — não é possível posicionar \"art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. ii do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. iii do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. iv do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. v do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. vi do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. vii do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. viii do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. ix do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. x do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. xi do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. xii do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. xiii do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"parágrafo único do art. 6º\" | artigo-base \"art. 8º\" não encontrado — não é possível posicionar \"art. 8º\" | endereço-pai \"art. 8º\" não encontrado — não é possível inserir \"parágrafo único do art. 8º\" | artigo-base \"art. 10º\" não encontrado — não é possível posicionar \"art. 10\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 352, de 8 de agosto de 1995\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"352\",\"ano\":\"1995\",\"chave\":\"lc 352/1995\"}, versão: lc 325/1994) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 352, de 8 de agosto de 1995\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"352\",\"ano\":\"1995\",\"chave\":\"lc 352/1995\"}, versão: lc 325/1994) | artigo-base \"art. 11º\" não encontrado — não é possível posicionar \"art. 11\" | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 434, de 1º de dezembro de 1999\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"434\",\"ano\":\"1999\",\"chave\":\"lc 434/1999\"}, versão: lc 325/1994) | artigo-base \"art. 41º\" não encontrado — não é possível posicionar \"art. 41\" | operação \"indeterminado\" não gera alteração na árvore desta lei | artigo-base \"art. 3º\" não encontrado — não é possível posicionar \"art. 3º\" | endereço-pai \"art. 3º\" não encontrado — não é possível inserir \"inc. i do art. 3º\" | endereço-pai \"art. 3º\" não encontrado — não é possível inserir \"inc. ii do art. 3º\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 447, de 10 de maio de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"447\",\"ano\":\"2000\",\"chave\":\"lc 447/2000\"}, versão: lc 325/1994) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 585, de 28 de dezembro de 2007\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"585\",\"ano\":\"2007\",\"chave\":\"lc 585/2007\"}, versão: lc 325/1994)",
+   "enderecos": [
+    "art-3",
+    "art-3/par-unico",
+    "art-4/inc-I",
+    "art-1",
+    "art-1/par-unico",
+    "art-6",
+    "art-9-A",
+    "art-3/inc-IV",
+    "art-3/inc-IX",
+    "art-3/inc-X",
+    "art-5/inc-I",
+    "art-5/inc-IV",
+    "art-5/inc-X/ali-b",
+    "art-5/inc-X/ali-c",
+    "art-5/inc-X/ali-d",
+    "art-5/inc-X/ali-f",
+    "art-5/inc-X/ali-g",
+    "art-5/inc-X/ali-h",
+    "art-5/inc-X/ali-o",
+    "art-5/inc-X/ali-p",
+    "art-6/inc-II",
+    "art-6/inc-III",
+    "art-6/inc-IV",
+    "art-6/inc-V",
+    "art-6/inc-VI",
+    "art-6/inc-VII",
+    "art-6/inc-VIII",
+    "art-6/inc-IX",
+    "art-6/inc-X",
+    "art-6/inc-XI",
+    "art-6/inc-XII",
+    "art-6/inc-XIII",
+    "art-6/par-unico",
+    "art-8",
+    "art-8/par-unico",
+    "art-10",
+    "art-9/inc-I",
+    "art-9/inc-VI",
+    "art-11",
+    "art-40/par-5",
+    "art-41",
+    "art-3/inc-I",
+    "art-3/inc-II",
+    "art-15-A",
+    "art-2/inc-V"
+   ]
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-1",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-1/inc-VI",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-1/par-unico",
+   "desde": "2010-12-07"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "idSapl": 28774,
+ "rotulo": "Lei Complementar municipal nº 391, de 11 de dezembro de 1996",
+ "sha256Origem": "3b62aa80191f008a65bdecc87cb08b3a48411da24ab763cb9c7319d216c468cd",
+ "estruturadoEm": "2026-11-20T09:25:03.196Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "391",
+  "ano": "1996",
+  "data": "1996-12-11",
+  "epigrafe": "LEI COMPLEMENTAR N® 391",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Altera a redação do art. 1®, do \"caput\" do art. 2® e dos §§ 1® e 3® e acrescenta artigos 3® e 4® à Lei Complementar n® 136, de 22 de julho de 1986, que dispõe sobre a adoção de equipamentos de lazer e cultura.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de\ndezembro de 1996.\nTarso Genro,\nPrefeito. /\nCláudio Langone,\nSecretário Municipal do Meio Abíente.\nRejane Pena Rodrigues,\nSecretária Municipal de Esportes, Recreação\ne Lazer.\nMargarete Costa Moraes,\nSecretária Municipal da Cultura.\nRegistre-se e publique-se.\nCezar Alvarez,\nSecretário do Governo Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "® - Fica alterada a redação do ari 1®, do \"caput\" do art. 2® e dos §§ 1® e 3® da Lei Complementar n® 136, de 22 de julho de 1986, como segue:",
+   "blocoDeAlteracao": "“Art. 1»\nFica criada a adoção, por órgão ou\nentidade, de equipamentos de lazer, cultura, esportes e recreação.\nArt. 2® - Fica o adotante responsável pela manutenção\ne conservação do equipamento adotado de lazer, cultura, esportes e\nrecreação.\n§ 1® - Pode 0 adotante, além da conservação e\nmanutenção, participar financeiramente, parcial ou integralmente, da\nimplantação dos equipamentos de lazer, cultura, esportes e recreação.\n§2®-..<\n§ 3® - A implantação de todo e qualquer equipamento\narrolado nesta Lei Complementar deve seguir estritamente o\nestabelecido pela Lei Complementar n® 43, de 21 de junho de 1979.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "® - Acrescentem-se os artigos 3® e 4® à Lei Complementar n® 136, de 22 de julho de 1986, renumerando-se os demais, com a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 3® - Para proceder à adoção de equipamentos\narrolados no art. 1®, ficam designadas a Secretaria Municipal do Meio\nAmbiente - SMAM -, a Secretaria Municipal de Esportes, Recreação e\nLazer - SME, a Secretaria Municipal da Cultura- SMC, e a Fundação de\nEducação Social e Comunitária - FESC, para os equipamentos por elas\nrespectivamente administrados.\nParágrafo único - Os equipamentos não administrados\npela Secretaria Municipal do Meio Ambiente - SMAM, peia Secretaria\nMunicipal de Esportes, Recreação e Lazer - SME, -pela Secretaria\nMunicipal da Cultura - SMC, ou pela Fundação de Educação Social e\nComunitária\ndeterminados pela Secretaria Municipal do Meio Ambiente - SMAM.\nFESC, terão os procedimentos para adoção\nArt. 4® - .0 Executivo alterará, no prazo de 30 (trinta)\ndias, o Decreto n® 8915, de 30 de abril de 1987, que regulamenta a Lei\nComplementar n® 136, adequando-o às alterações introduzidas por esta\nLei Complementar.\""
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "® - Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "® - Revogam-se as disposições em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.983,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

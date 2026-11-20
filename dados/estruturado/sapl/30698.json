@@ -1,0 +1,155 @@
+{
+ "idSapl": 30698,
+ "rotulo": "Lei Complementar municipal nº 451, de 28 de julho de 2000",
+ "sha256Origem": "a98e64fdb3a5d50cee9c7fbce4edc4cde36a11edc3862864bbf8db3185f21961",
+ "estruturadoEm": "2026-11-20T09:25:01.775Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "451",
+  "ano": "2000",
+  "data": "2000-07-28",
+  "epigrafe": "LEI COMPLEMENTAR N° 451",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Altera os capítulos II, 111 e IV da Lei Complementar n° 325, de 7 de julho de 1994, que institui a Política Municipal dos Direitos da Cidadania contra as Discriminações e Violência, cria Con selho e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu san ciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de julho de 2000.\nRaul Pont,\nPrefeito.\nLúcio Barcelos,\nSecretário Municipal da Saúde.\nRegistre-se e publique-se.\nElaine Paz,\nSecretária do Governo Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam alterados o título, o art. 4® e o \"caput” do art. 5° do Capítulo II da Lei Complementar n° 325, de 7 de julho de 1994, que passam a ter as seguintes redações; \"CAPITULO II Do Conselho Municipal de Direitos Humanos"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "® - Fica constituído, em caráter permanente, o Conselho Municipal de Direitos Humanos - CMDH, com o objetivo de propor, orientar e coordenar diretrizes, políticas e ações públicas que assegurem, através de instrumentos ao seu alcance, o gozo dos direitos humanos, da cidadania e das liberdades fundamentais por todos os munícipes, sem distinções."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "® - Ao Conselho Municipal de Direitos Humanos compete:"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "® - Ficam alterados o título e os incisos X, XVI, XVII, XXII, XXIII, XXIV e XXV do art. 6® do Capítulo III da Lei Comple mentar n® 325, de 1994, que passam a ter as seguintes redações: “CAPiTULO III e Adolescente; Da Composição do Conselho Municipal de Direitos Humanos"
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "® - ..."
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "um representante do Movimento de Apoio ao índio;"
+  },
+  {
+   "id": "art-5/inc-II",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "um representante do Fórum Municipal da Criança"
+  },
+  {
+   "id": "art-5/inc-III",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "um representante dos Agentes de Direitos Hu manos; Militar; al;"
+  },
+  {
+   "id": "art-5/inc-IV",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "um representante da Polícia Civil e da Brigada"
+  },
+  {
+   "id": "art-5/inc-V",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "um representante da Magistratura Estadual;"
+  },
+  {
+   "id": "art-5/inc-VI",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "um representante do Ministério Público Estadu XXV um representante eleito pela comunidade em cada fórum regional do Orçamento Participativo."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "® - Fica alterado o titulo do Capítulo IV da Lei Complementar n° 325, de 1994, que passa a ter a seguinte redação:",
+   "blocoDeAlteracao": "“CAPÍTULO IV\nDa Constituição dos Órgãos Diretivos do Conselho Municipal\nDos Direitos Humanos”"
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "® - Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 13,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art4"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art5"
+    },
+    {
+     "rotulo": "Art. 4º",
+     "naOrigem": "Art2"
+    },
+    {
+     "rotulo": "Art. 5º",
+     "naOrigem": ""
+    },
+    {
+     "rotulo": "I –",
+     "naOrigem": "Art6X"
+    }
+   ]
+  }
+ }
+}

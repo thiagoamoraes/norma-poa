@@ -1,0 +1,75 @@
+{
+ "idSapl": 28496,
+ "rotulo": "Lei Complementar municipal nº 375, de 24 de maio de 1996",
+ "sha256Origem": "2877c137bfd354e19f5c2231ea9e5a5f0680c11de99d3b18c22251fdd9640e63",
+ "estruturadoEm": "2026-11-20T09:25:03.205Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "02t;I'S/?f",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "~)/)/.                 '1,·J.5 Regulamenta o § 1° do artigo 76 da Lei Orgânica do Município de Porto Alegre e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "A divulgação mais ampla possível de projetos de códigos será realizada através de audiência pública e de outras formas previstas nesta Lei Complementar."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Cópias dos projetos de códigos deverão ser encaminhadas às entidades vinculadas ao assunto, com antecedência mínima de 15 (quinze) dias da data de realização da audiência pública."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Da audiência pública e do respectivo projeto a ser discutido será dada publicidade através de edital publicado na Imprensa Oficial e em jornais diários de grande circulação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Na mensagem do Executivo Municipal, de encaminhamento de projetos de códigos, deverá ser juntada ata com comprovação do atendimento dos princípios estabelecidos nesta Lei Complementar."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação. I I I I L PROCESSO '\"t ... t     RUBRICA PAG. 02   I Tarso Genro, Prefeito. Luiz Alberto Rodrigues, Secretário Municipal de Administração. RegiSlre~   e publique-se. Cez r~rez Sec etf;~oéld   overno Municipal. L"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 5,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

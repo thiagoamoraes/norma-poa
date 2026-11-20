@@ -1,0 +1,59 @@
+{
+ "idSapl": 26424,
+ "rotulo": "Lei Complementar municipal nº 276, de 23 de abril de 1992",
+ "sha256Origem": "9574fc12911dd53b134b913dbf186dcd37b3791ddcea17f268cedd4bfade578e",
+ "estruturadoEm": "2026-11-20T09:25:03.372Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "PREFEITURA MUNICIPAL             DE PORTO ALEGRE",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "?/2d?C       2.prJP/t:/ /-:J L C L   O ~6/Z/ Altera dispositivo da Lei Complementar nº 43/79 (Plano Diretor) em relaç~o    ~ localizaç~o de sedes de entidades sindicais e de associações de classe em zo nas residenciais.",
+ "preambulo": "o PREFEITO             MUNICIPAL              DE PORTO ALEGRE. Faço saber que a C~mara                           Municipal       aprovou              e eu sanc iono    éJ   seguinte Le i Cornplementar:",
+ "fecho": "PREFEITURA              MUNICIPAL              DE PORTO ALEGRE,                   23          de abril\nJoão Carl s Vasconcellos,\nSecretário do Planejamento                              Municipal.\nRegistre-se        e publique-se.\n~\\'o'dWl~                         ~\nSecretario       do Governo          Municipal.\nL\n/EB                                              PlJAI.ICACi\\O\nDAlA                             pAr;   ..\nPRCJCr:SSO\n._..\n- ~t\n~\n_   ._\nrJflZ7.S2.1                 X",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica liberada, a critério do Sistema   de Planejamento,  a instalaç~o de sedes de entidades sindicais   e de associações de classe, em zonas residenciais com grupamentos de a tiviçlades - código 07, desde que sejam as mesmas equiparadas a es critorio de serviços de assessoria e consultoria.                - Par[~grar()único - A análise de viabilicJ8.cJelevar'['.E-'fTl consideração as caracteristicas  de transformaç~~o da zorla, a manifestação da associação de moradores e o porte da instalação. Art..   ;10       -    I<ril,:]   Lei        COlllplcTlIcnL:H'   cntf'::J        (:rn   vl[u)r                nad2 \\:1   de su::I publ iCé:lÇÔO."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Revogam-se                           as disposições              em contrario."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.956,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art3º"
+    }
+   ]
+  }
+ }
+}

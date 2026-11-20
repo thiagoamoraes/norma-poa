@@ -1,0 +1,63 @@
+{
+ "idSapl": 28118,
+ "rotulo": "Lei Complementar municipal nº 351, de 10 de julho de 1995",
+ "sha256Origem": "bbe7b4d48964b6e8d7d2f03c71e62905615920f228550d93cd96cf541aaad6a3",
+ "estruturadoEm": "2026-11-20T09:25:03.232Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "053",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a redação do art. 376 da Lei Complementar nº 43, de 21 de julho de 1979.",
+ "preambulo": "o PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar: Art. lº - A redação do art. 376 da Lei Complementar nº 43, de 21 de julho de 1979, passa a ser a que segue: L ~ (2r\"'~",
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Q - Esta         Lei   Complementar   entra   em vigor na data de sua publicação. Tarso Genro, Prefei to.            I Newton,Burmeiste/, Secretario      do Planejamento     Municipal. Raul Pont, Secretário   do Governo   Municipal. L"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "texto_fora_da_arvore",
+   "trecho_nao_localizado_na_origem",
+   "rotulo_nao_confere_com_a_origem",
+   "bloco_de_alteracao_sem_dono"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 1,
+   "dispositivos": 1,
+   "cobertura": 0.146,
+   "blocosDeAlteracao": 1,
+   "lacunas": [
+    {
+     "tamanho": 1264,
+     "amostra": "oPREFEITOMUNICIPALDEPORTOALEGREFaçosaberqueaCâmaraMunicipalaprovoueeusancionoase"
+    }
+   ],
+   "naoLocalizados": [
+    "o PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou "
+   ],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "edensificaçãoL2rArt2"
+    }
+   ]
+  }
+ }
+}

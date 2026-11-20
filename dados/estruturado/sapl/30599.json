@@ -1,0 +1,55 @@
+{
+ "idSapl": 30599,
+ "rotulo": "Lei Complementar municipal nº 449, de 19 de junho de 2000",
+ "sha256Origem": "3cd65e099e289ce86413b867da6bd6f108efab2c4fc17e6927e5e418d30efe20",
+ "estruturadoEm": "2026-11-20T09:25:01.776Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "449",
+  "ano": "2000",
+  "data": "2000-06-19",
+  "epigrafe": "LEI COMPLEMENTAR Nº 449",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Dá nova redação ao art. 5° da Lei Complementar n® 320, de 2 de maio de 1994, que dispõe sobre a denominação de logradouros públicos e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sandiono a seguinte Lei Complementar;",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 19 d8\njunho de 2000.\nJoão Motta,\nPrefeito em exercício.\nNewton Burmeister,\nSecretário do Planejamento Municipal.\nRegistre-se e publique-se.\nElaine Paz,\nSecretária do Governo Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Dá nova redação ao art. 5® da Lei Complementar n® 320, de 2 de maio de 1994, que passa a vigorar como segue;",
+   "blocoDeAlteracao": "\"Art. 5® - Os projetos de lei de denominação de logradouros públicos de que trata èStá Lei, quando de sua apresentação,\ndeverão conter documentos de identificação do logradouro a ser denominado, fornecido pela Secretaria de Planejamento Municipal\"."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "® - Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

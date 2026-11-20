@@ -1,11 +1,11 @@
 {
- "geradoEm": "2026-11-19T09:26:05.969Z",
+ "geradoEm": "2026-11-20T09:25:06.434Z",
  "estado": "em_carga",
  "alertas": [],
  "proximas": [
-  "178 norma(s) aguardam revisão da leitura automática (motivo mais frequente: `rotulo_nao_confere_com_a_origem`, 74): ROTEIRO.md, tarefa 1.",
-  "66 histórico(s) incompleto(s) e 0 com erro: ROTEIRO.md, tarefa 4.",
-  "7 arquivo(s) baixado(s) sem extração de texto (formato não suportado ou falha): conferir `dados/textos/sapl/_indice.jsonl`."
+  "308 norma(s) aguardam revisão da leitura automática (motivo mais frequente: `rotulo_nao_confere_com_a_origem`, 174): ROTEIRO.md, tarefa 1.",
+  "117 histórico(s) incompleto(s) e 0 com erro: ROTEIRO.md, tarefa 4.",
+  "10 arquivo(s) baixado(s) sem extração de texto (formato não suportado ou falha): conferir `dados/textos/sapl/_indice.jsonl`."
  ],
  "criterios": [
   {
@@ -16,17 +16,17 @@
   {
    "nome": "Vínculos completos",
    "ok": false,
-   "detalhe": "página 181 de 263"
+   "detalhe": "página 241 de 263"
   },
   {
    "nome": "Fila de textos vazia",
    "ok": false,
-   "detalhe": "7820 arquivo(s) a baixar"
+   "detalhe": "7568 arquivo(s) a baixar"
   },
   {
    "nome": "Últimas 3 execuções sem erro",
-   "ok": false,
-   "detalhe": "1 com erro entre as últimas 3"
+   "ok": true,
+   "detalhe": "0 com erro entre as últimas 3"
   },
   {
    "nome": "Normas do Diário Oficial já presentes no catálogo (publicadas há mais de 7 dias)",
@@ -35,8 +35,8 @@
   }
  ],
  "ritmo": {
-  "baixados7": 582,
-  "mediaDia": 194,
-  "previsaoDias": 41
+  "baixados7": 834,
+  "mediaDia": 209,
+  "previsaoDias": 37
  }
 }

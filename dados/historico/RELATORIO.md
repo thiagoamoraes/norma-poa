@@ -1,23 +1,23 @@
 # Histórico — relatório
 
-Gerado em 2026-11-19T09:26:05.328Z por `ingestao/gerar-historico.mjs`. Não editar à mão.
+Gerado em 2026-11-20T09:25:05.850Z por `ingestao/gerar-historico.mjs`. Não editar à mão.
 
-Vínculos lidos: 18000 · pares (lei, alteradora) propostos pelas ementas: 1685 · leis com alteradoras conhecidas ou candidatas: 1168
+Vínculos lidos: 24000 · pares (lei, alteradora) propostos pelas ementas: 1685 · leis com alteradoras conhecidas ou candidatas: 1177
 
 | Situação | Leis |
 |---|---|
-| histórico apurado, todas as alteradoras aplicadas | 21 |
-| histórico apurado, mas incompleto (alguma alteradora não aplicada por inteiro) | 66 |
-| ainda sem o texto da lei-base | 1081 |
+| histórico apurado, todas as alteradoras aplicadas | 35 |
+| histórico apurado, mas incompleto (alguma alteradora não aplicada por inteiro) | 117 |
+| ainda sem o texto da lei-base | 1025 |
 | erro do leitor | 0 |
 
-Leis revogadas por inteiro, segundo os vínculos da fonte: 987
+Leis revogadas por inteiro, segundo os vínculos da fonte: 1029
 
 Vínculos com norma fora do catálogo do escopo (decretos, por exemplo): 597 · vínculos com datas invertidas (não aplicados): 11
 
 ## Aguardando o texto da lei-base
 
-Mostrando 200 de 1081.
+Mostrando 200 de 1025.
 
 - Lei municipal-Intendência nº 17, de 17 de dezembro de 1895
 - Lei municipal-Intendência nº 69, de 28 de dezembro de 1925

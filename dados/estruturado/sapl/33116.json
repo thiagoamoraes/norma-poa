@@ -1,0 +1,60 @@
+{
+ "idSapl": 33116,
+ "rotulo": "Lei Complementar municipal nº 503, de 30 de março de 2004",
+ "sha256Origem": "74f577c2a8421c3813841b45ea1fae8089f54031c950d241c367c1ffe358f98a",
+ "estruturadoEm": "2026-11-20T09:25:01.716Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "503",
+  "ano": "2004",
+  "data": "2004-03-30",
+  "epigrafe": "LEI COMPLEMENTAR Nº 503, DE 30 DE MARÇO DE 2004.",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "Altera a redação do inciso I e inclui alínea \"d\" no § 1º doart. 70 da Lei Complementar nº 7, de 7 de dezembro de 1973, e alterações posteriores,que institui e disciplina os tributos de competência do Município. A PRESIDENTA DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obriga o parágrafo 7º, do art. 77, daLei Orgânica, que a Câmara Municipal manteve e eu promulgo dispositivos daComplementar nº 503, de 30 de março de 2004:",
+ "preambulo": null,
+ "fecho": "GABINETE DA PRESIDÊNCIA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, 30 DE MARÇO DE 2004.\nMARGARETE MORAES,\nPresidenta.\nRegistre-se e publique-se:\nJOÃO CARLOS NEDEL,\n1º Secretário.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O inciso I do art. 70 da Lei Complementar nº 7, de 7 de dezembro de 1973, ealterações posteriores, passa a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 70. ...\nI - os imóveis, ou parte deles, onde esteja instalada a sede ou filialde entidadereligiosa ou maçônica, sem fins lucrativos, próprios, alugados ou cedidos,frequente da entidade\". (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluída alínea \"d\" no § 1º do art. 70 da LeiComplementar nº 7, de 1973, e alterações posteriores, com a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 70. ...\n...\n§ 1º ...\n...\nd) no inciso I, aquelas entidades de Religião Africana ou Religião Umbanda que nãopossuírem imóvel próprio ou alugado deverão comprovar a existência e funcionamentopor meio de certificado fornecido pela entidade representativa e constituída, em plenoexercício legal\"."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.956,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

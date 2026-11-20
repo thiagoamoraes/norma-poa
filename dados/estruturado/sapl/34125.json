@@ -1,0 +1,114 @@
+{
+ "idSapl": 34125,
+ "rotulo": "Lei Complementar municipal nº 543, de 16 de janeiro de 2006",
+ "sha256Origem": "2dd337ddcd3ef7c8ebe891b08a4206e22016f96899f5a938a784807dceabc842",
+ "estruturadoEm": "2026-11-20T09:25:01.678Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "543",
+  "ano": "2006",
+  "data": "2006-01-16",
+  "epigrafe": "LEI COMPLEMENTAR Nº 543, de 16 de janeiro de 2006.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Determina a construção de banheiros públicos destinados ao uso infantil nos centros comerciais e shopping centers do Município de Porto Alegre, com área bruta locável (ABL) superior a 7500m2 (sete mil e quinhentos metros quadrados), nos cinemas e teatros que atendam o público infantil, ainda que com ABL inferior a 7500m2 (sete mil e quinhentos metros quadrados), e nos estádios de futebol e ginásios cujas atividades desportivas envolvam programas voltados a este público.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 16 de janeiro de 2006.\nJosé Fogaça,\nPrefeito.\nCassiá Carpes,\nSecretário Municipal de Obras e Viação.\nRegistre-se e publique-se.\nClóvis Magalhães,\nSecretário Municipal de Gestão e\nAcompanhamento Estratégico.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Os centros comerciais e shopping centers localizados no Município de Porto Alegre ficam obrigados a disponibilizar banheiros públicos infantis."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os banheiros infantis deverão oportunizar os seguintes serviços:"
+  },
+  {
+   "id": "art-1/par-unico/inc-I",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "acesso conjunto da criança e de uma pessoa adulta que a acompanhe;"
+  },
+  {
+   "id": "art-1/par-unico/inc-II",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "toaletes e pias com proporções reduzidas, visando a facilitar seu uso pelas crianças;"
+  },
+  {
+   "id": "art-1/par-unico/inc-III",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "aviso de acesso restrito à criança e a seu acompanhante."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As normas estabelecidas nesta Lei deverão incidir sobre os estabelecimentos dispostos no “caput” do artigo anterior, com área bruta locável (ABL) superior a 7500m² (sete mil e quinhentos metros quadrados)."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Estarão igualmente obrigados a disponibilizarem banheiros públicos infantis os cinemas e teatros cujas exibições cinematográficas e apresentações culturais atendam o público infantil, ainda que com ABL inferior à prevista no “caput” deste artigo."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Também se obrigam a oferecer banheiros infantis os estádios de futebol e ginásios cujas atividades desportivas envolvam programas voltados ao público infantil, ainda que com ABL inferior à prevista no “caput” deste artigo."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A fiscalização junto aos centros comerciais e shopping centers existentes no Município será realizada pelo órgão competente, no que tange a observância das normas previstas nesta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Os responsáveis pela administração dos centros comerciais e shopping centers têm o prazo de 180 (cento e oitenta) dias, a contar da publicação desta Lei, para darem início ao cumprimento do disposto no art. 1º desta Lei."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor 90 (noventa) dias após sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 11,
+   "cobertura": 0.958,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

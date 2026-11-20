@@ -1,0 +1,121 @@
+{
+ "idSapl": 28977,
+ "rotulo": "Lei Complementar municipal nº 400, de 27 de junho de 1997",
+ "sha256Origem": "ee077149186eb7c2707f80f2ce9582e33c764b924a4c7807b88c4adc93a9fc66",
+ "estruturadoEm": "2026-11-20T09:25:03.175Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "400",
+  "ano": "1997",
+  "data": "1997-06-27",
+  "epigrafe": "LEI COMPLEMENTAR Nº 400",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Cria a Unidade Territorial de Comércio e Serviços 02 da Unidade Territorial Seccional Intensiva 45, define o seu regime e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de junho de 1997.\nRaul Pont,\nPrefeito.\nNewton Burmeister,\nSecretário do Planejamento Municipal.\nRegistre-se e publique-se.\nJosé Fortunati,\nSecretário do Governo Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "® - Fica criada a Unidade Territorial de Comércio e Serviços 02 na Unidade Territorial Seccional Intensiva 45, cujos li mites e traçado constam na Planta que acompanha esta Lei Comple mentar, sob a forma de Anexo Único."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "® - As edificações na Unidade Territorial de Co mércio e Serviços 02 da Unidade Territorial Seccional Intensiva 45 obedecerão ao seguinte regime urbanístico;"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "Atividades Comerciais e de Serviços; li - índice de Aproveitamento: 1,0;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "Taxa de Ocupação: 75®^;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "Altura máxima permitida: 80 metros referente á diferença entre o nível médio da Av. Diário de Notícias e a cota má xima do forro do último pavimento;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "Recuo de jardim: 4 metros."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "“ - A implantação das edificações na Unidade Territorial de Comércio e Serviços 02 da Unidade Territorial Seccional Intensiva 45 serão sempre objeto de estudo prévio de viabilidade urba nística."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Ressalvado o disposto nesta Lei Complemen tar, aplicar-se-á à Unidade Territorial de Comércio e Serviços 02 da Unidade Territorial Seccional Intensiva 45, as disposições constantes na Lei Complementar n“ 43, de 21 de julho de 1979."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "“ - Esta Lei Complementar entra em vigor na data de sua publicação"
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "“ - Revogam/Sd as disposições em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 10,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "III –",
+     "naOrigem": "IV"
+    },
+    {
+     "rotulo": "IV –",
+     "naOrigem": "V"
+    }
+   ]
+  }
+ }
+}

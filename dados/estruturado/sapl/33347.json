@@ -1,0 +1,52 @@
+{
+ "idSapl": 33347,
+ "rotulo": "Lei Complementar municipal nº 507, de 05 de agosto de 2004",
+ "sha256Origem": "a3f660465470c271b6fea66fc96071ed02a696cd1fa633060fb753fb21612b1f",
+ "estruturadoEm": "2026-11-20T09:25:01.714Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "507",
+  "ano": "2004",
+  "data": "2004-08-05",
+  "epigrafe": "LEI COMPLEMENTAR Nº 507, de 05 de agosto de 2004.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a Lei Complementar nº 12, de 7 de janeiro de 1975, que institui posturas para o Município de Porto Alegre e dá outras providências, estabelecendo condicionantes quanto ao cercamento de logradouros públicos como largos e parques.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 05 agosto de 2004.\nJoão Verle,\nPrefeito.\nÁlvaro Pedrotti,\nSecretário Municipal de Obras e Viação.\nRegistre-se e publique-se.\nJorge Branco,\nSecretário do Governo Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica acrescido o art. 20-A à Lei Complementar nº 12, de 7 de janeiro de 1975, e alterações posteriores, com a seguinte redação:",
+   "blocoDeAlteracao": "“Art. 20-A. Os logradouros públicos, tais como largos e parques, somente poderão receber cercamento com parecer permissível ao projeto pelo Conselho Municipal de Desenvolvimento Urbano Ambiental, adequadamente, após\naprovação por consulta à população mediante plebiscito.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.946,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

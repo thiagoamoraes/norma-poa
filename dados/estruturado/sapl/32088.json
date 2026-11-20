@@ -1,0 +1,84 @@
+{
+ "idSapl": 32088,
+ "rotulo": "Lei Complementar municipal nº 477, de 10 de setembro de 2002",
+ "sha256Origem": "5f7c0e6abd1efa294e318294fdc3693c731d94e0ec9cc3caf2167587e2f989ba",
+ "estruturadoEm": "2026-11-20T09:25:01.749Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "477",
+  "ano": "2002",
+  "data": "2002-09-10",
+  "epigrafe": "LEI COMPLEMENTAR N» 477, de 10 de setembro de 2002.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Autoriza a implantação do Complexo Pista de Eventos no Porto Seco, modifica a Lei Complementar n® 324, de 25 de maio de 1994, e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de setembro de 2002.\nJoão Verle,\nPrefeito.\nCarlos Eduardo Vieira,\nSecretário do Planejamento Municipal.\nRegistre-se e publique-se.\nHelena Bonumá,\nSecretária do Governo Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "® Fica autorizada a implantação do Complexo Pista de Eventos no Porto Seco, estabelecido pela Lei Complementar n® 324, de 25 de maio de 1994, observado o traçado delimitado no Anexo I desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "® Considera-se Complexo Pista de Eventos o equipamento público utilizado para festividades carnavalescas, comemorações cívicas, atividades culturais e outras afins."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Integra o Complexo Pista de Eventos a área destinada a desfiles, arquibancadas, edificações necessárias à confecção e armazenamento dos carros alegóricos e demais acessórios indispensáveis ao cumprimento de suas finalidades."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "® Altera o disposto no inciso IV do art. 4® da Lei Complementar n® 324, de 1994, que passa a vigorar com a seguinte redação;",
+   "blocoDeAlteracao": "“Art. 4®...\nIV - Complexo Pista de Eventos;”. (NR)"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "® Acrescenta parágrafo único ao art. 4® da Lei Complementar n® 324, de 1994, com a seguinte redação:",
+   "blocoDeAlteracao": "“Art. 4®...\nParágrafo único. Considera-se equipamento urbano e comunitário o Com\nplexo Pista de Eventos, cabendo ao projeto arquitetônico a definição das áreas\npara o uso de atividades sociais, culturais e afins ao uso comum e à fruição pública\ndo espaço”."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "® Esta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 6,
+   "cobertura": 0.948,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

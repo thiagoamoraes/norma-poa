@@ -1,0 +1,75 @@
+{
+ "idSapl": 28859,
+ "rotulo": "Lei Complementar municipal nº 398, de 13 de janeiro de 1997",
+ "sha256Origem": "1bfdeac1eb344b5a65ba2078d4e17136d8d537b3f85a9a0dc4a96970fe08f30d",
+ "estruturadoEm": "2026-11-20T09:25:03.178Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "398",
+  "ano": "1997",
+  "data": "1997-01-13",
+  "epigrafe": "LEI COMPLEMENTAR N\" 398",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Altera o art. 166 da Lei Complementar n° 284, de 27 de outubro de 1992.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de janeiro de 1997\nRaul Pont,\nPrefeito.\nEstilac Xavier,\nSecretário Municipal de Obras e Viação.\nRegistre-se e publique-se.\nJosé Fortunati,\nSecretário do Governo Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "® - O inciso I do art. 166 da Lei Complementar n® 284, de 27 de outubro de 1992, passa a ter a seguinte redação; “Art 166 - ..."
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "as colunas e válvulas dos reservatórios deverão ficar recuadas, no mínimo, 4,00m (quatro metros) dos alinhamentos e 7,00m (sete metros) das divisas."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para imóveis cujo recuo de jardim estabelecido pelo Plano Diretor seja maior do que 4,00m (quatro metros) prevalecerá a medida deste recuo de jardim como padrão de afastamento mínimo de alinhamento.’"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "® - Revogam-se as disposições em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.944,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

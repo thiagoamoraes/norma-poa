@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-19T09:26:04.730Z",
+ "geradoEm": "2026-11-20T09:25:05.394Z",
  "idSapl": 36000,
  "rotulo": "Lei Complementar municipal nº 612, de 19 de fevereiro de 2009",
  "baseConferida": true,
@@ -42,6 +42,16 @@
   },
   {
    "indice": 4,
+   "id": "lc 612/2009@2022-07-18",
+   "data": "2022-07-18",
+   "fonte": {
+    "idSapl": 44102,
+    "rotulo": "Lei Complementar municipal nº 946, de 18 de julho de 2022"
+   },
+   "comandosAplicados": 2
+  },
+  {
+   "indice": 5,
    "id": "lc 612/2009@2023-09-29",
    "data": "2023-09-29",
    "fonte": {
@@ -51,7 +61,7 @@
    "comandosAplicados": 19
   },
   {
-   "indice": 5,
+   "indice": 6,
    "id": "lc 612/2009@2023-12-27",
    "data": "2023-12-27",
    "fonte": {
@@ -281,6 +291,15 @@
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 850/2019"
      }
+    },
+    {
+     "desde": 4,
+     "texto": "recursos auferidos com o Solo Criado Não Adensável e com o Solo Criado de Pequeno Adensamento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 946/2022"
+     }
     }
    ]
   },
@@ -412,7 +431,7 @@
    "rotulo": "Art. 3º-C",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "A partir do resultado financeiro de 2023, fica desvinculado o superávit financeiro do PRÓ-AMBIENTE, apurado ao final de cada exercício, conforme segue:",
      "situacao": "vigente",
      "origem": {
@@ -429,7 +448,7 @@
    "rotulo": "I –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "quando a execução financeira atingir 80% (oitenta por cento) ou mais, não haverá desvinculação;",
      "situacao": "vigente",
      "origem": {
@@ -446,7 +465,7 @@
    "rotulo": "II –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "quando a execução financeira atingir entre 50% (cinquenta por cento) e 80% (oitenta por cento), será executada a desvinculação de 50% (cinquenta por cento) do superávit financeiro do exercício; e",
      "situacao": "vigente",
      "origem": {
@@ -463,7 +482,7 @@
    "rotulo": "III –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "quando o índice de execução financeira for inferior a 50% (cinquenta por cento), será executada a desvinculação de 100% (cem por cento) do superávit financeiro do exercício.",
      "situacao": "vigente",
      "origem": {
@@ -480,7 +499,7 @@
    "rotulo": "§ 1º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "Entende-se por superávit financeiro a diferença positiva entre o ativo financeiro e passivo financeiro, apurado no Balanço Patrimonial do exercício.",
      "situacao": "vigente",
      "origem": {
@@ -497,7 +516,7 @@
    "rotulo": "§ 2º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "Entende-se por índice de execução financeira o total da despesa empenhada, dividido pelo total da receita arrecadada no exercício.",
      "situacao": "vigente",
      "origem": {
@@ -514,7 +533,7 @@
    "rotulo": "§ 3º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "Compete à Contadoria-Geral do Município da Secretária Municipal da Fazenda (CTGM/SMF) apurar o índice de execução financeira.",
      "situacao": "vigente",
      "origem": {
@@ -531,7 +550,7 @@
    "rotulo": "§ 4º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "O superávit financeiro desvinculado da conta bancária específica deverá ser transferido para o Fundo de Reforma e Desenvolvimento Municipal (FRDM), do qual deverá ser direcionado exclusivamente para pagamento da dívida pública consolidada e para cobertura do déficit previdenciário do RPPS.",
      "situacao": "vigente",
      "origem": {
@@ -548,7 +567,7 @@
    "rotulo": "§ 5º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "Os recursos oriundos das compensações ambientais previstos na Lei Complementar nº 757, de 2015, e alterações posteriores, não serão desvinculados.",
      "situacao": "vigente",
      "origem": {
@@ -784,7 +803,7 @@
    "rotulo": "V –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "resultado operacional próprio, quando não atingido pela desvinculação de que tratam os arts. 3º-A, 3º-B e 3º-C desta Lei;",
      "situacao": "vigente",
      "origem": {
@@ -1190,6 +1209,15 @@
       "operacao": "insert_node",
       "lei": "Lei Complementar nº 850/2019"
      }
+    },
+    {
+     "desde": 4,
+     "texto": "desapropriações, despesas administrativas e judiciais decorrentes de obras vinculadas ao sistema de transporte viário e projetado que envolvam reassentamento ou realocação de famílias atingidas pela sua implantação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 946/2022"
+     }
     }
    ]
   },
@@ -1200,7 +1228,7 @@
    "rotulo": "Art. 6º-A",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "Fica desvinculado o valor equivalente a 50% (cinquenta por cento) do superávit financeiro de 2022, destinando-se a outra metade para a concessão de subsídio com a finalidade de auxílio aos beneficiários na aquisição de imóveis usados para moradia de que trata a Lei nº 13.473, de 19 de maio de 2023.",
      "situacao": "vigente",
      "origem": {
@@ -1217,7 +1245,7 @@
    "rotulo": "Parágrafo único.",
    "estados": [
     {
-     "desde": 5,
+     "desde": 6,
      "texto": "O valor referente a 50% (cinquenta por cento) do superávit financeiro de 2022 desvinculado da conta bancária específica deverá ser transferido para o Fundo de Reforma e Desenvolvimento Municipal (FRDM), do qual deverá ser direcionado exclusivamente para pagamento da dívida pública consolidada e para cobertura do déficit previdenciário do Regime Próprio de Previdência Social (RPPS).",
      "situacao": "vigente",
      "origem": {
@@ -1234,7 +1262,7 @@
    "rotulo": "Art. 6º-C",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "A partir do resultado financeiro de 2023, fica desvinculado o superávit financeiro do Fun-Patrimônio, apurado ao final de cada exercício, conforme segue:",
      "situacao": "vigente",
      "origem": {
@@ -1251,7 +1279,7 @@
    "rotulo": "I –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "quando a execução financeira atingir 20% (vinte por cento) ou menos, será executada a desvinculação de 100% (cem por cento) do superávit financeiro do exercício; e",
      "situacao": "vigente",
      "origem": {
@@ -1268,7 +1296,7 @@
    "rotulo": "II –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "quando a execução financeira atingir mais de 20% (vinte por cento), será executada a desvinculação de 50% (cinquenta por cento) do superávit financeiro do exercício.",
      "situacao": "vigente",
      "origem": {
@@ -1285,7 +1313,7 @@
    "rotulo": "§ 1º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "Entende-se por superávit financeiro a diferença positiva entre o ativo financeiro e passivo financeiro, apurado no Balanço Patrimonial do exercício.",
      "situacao": "vigente",
      "origem": {
@@ -1302,7 +1330,7 @@
    "rotulo": "§ 2º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "Entende-se por índice de execução financeira o total da despesa empenhada, dividido pelo total da receita arrecadada no exercício.",
      "situacao": "vigente",
      "origem": {
@@ -1319,7 +1347,7 @@
    "rotulo": "§ 3º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "Compete à Contadoria-Geral do Município da Secretária Municipal da Fazenda (CTGM/SMF) apurar o índice de execução financeira.",
      "situacao": "vigente",
      "origem": {
@@ -1336,7 +1364,7 @@
    "rotulo": "§ 4º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "O superávit financeiro desvinculado da conta bancária específica deverá ser transferido para o Fundo de Reforma e Desenvolvimento Municipal (FRDM), do qual deverá ser direcionado exclusivamente para pagamento da dívida pública consolidada e para cobertura do déficit previdenciário do RPPS.",
      "situacao": "vigente",
      "origem": {
@@ -1408,7 +1436,7 @@
    "rotulo": "Art. 9º-A",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "Fica assegurado o desenvolvimento econômico da região composta pelos bairros Belém Novo, Chapéu do Sol, Lageado, Lami e Ponta Grossa por meio de proposição de diretrizes para a atuação do Executivo Municipal na execução da política pública urbana e de meio ambiente e de garantias de articulação e de integração de políticas setoriais.",
      "situacao": "vigente",
      "origem": {
@@ -1420,6 +1448,18 @@
   }
  ],
  "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 44102,
+    "rotulo": "Lei Complementar municipal nº 946, de 18 de julho de 2022"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 434, de 1º de dezembro de 1999\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"434\",\"ano\":\"1999\",\"chave\":\"lc 434/1999\"}, versão: lc 612/2009) | endereço-pai \"art. 111\" não encontrado — não é possível inserir \"§ 5º do art. 111\" | operação \"revoke_lei\" não gera alteração na árvore desta lei",
+   "enderecos": [
+    "art-53-A/inc-III",
+    "art-111/par-5"
+   ]
+  },
   {
    "alteradora": {
     "idSapl": 47275,

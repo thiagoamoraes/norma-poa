@@ -1,0 +1,113 @@
+{
+ "idSapl": 29327,
+ "rotulo": "Lei Complementar municipal nº 415, de 07 de abril de 1998",
+ "sha256Origem": "09a9ac2b187ff0e2bfba266b3c1557ad91d03d7f5b9a77fa9406bedf3d0b8326",
+ "estruturadoEm": "2026-11-20T09:25:03.166Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "CAMARA MUNICIPAL DE PORTO ALEGRE                                              PROC. N2 2545/97",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "AV. LOUREIRO      DA SILVA,   255 -   FONE   228-6055 PLCL    N!~ 019/97 RIO GRANDE DO SUL Dispõe sobre a permissão de uso de recuo e do passeio público, fronteiro a bares, restaurantes, lanchonetes e assemelhados, para colocação de toldos, mesas e cadeiras, e dá outras providências. Faço saber, no uso das atribuições que me obriga o parágrafo                      72      do art. 77 da Lei Orgânica, que a câmara Municipal manteve e eu promulgo                        a      seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "•      Será permitido aos bares, confeitarias,           restaurantes,           lanchonetes e similares, já instalados no Municlpio                 de Porto Alegre, o uso do recuo e do passeio fronteiro ao estabelecimento                 para colocação de toldos,           mesas e éadeiras,     desde que obedecidas às seguintes condições:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a instalação do mobiliário              nos passeios não poderá bloquear,           obstruir ou dificultar        o aceSso de veiculas, o livre trânsito de pedestres,                      em especial de pessoas portadoras de deficiência                 e nem a visibilidade dos motoristas, na confluência        de vias;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o que trata o \"caput\" deste artigo terá validade apenas para                       calçadas que tenham metragem mlnima de 4 (quatro) metros, respeitada                       a faixa     minima de 1,5 (um e meio) metro, para permitir o livre e seguro trânsito                       de     pedestres."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "•    Excepcionalmente,          os estabelecimentos   poderão utilizar      os ~~asseios fronteiros        de seus vizinhos laterais, desde que            apresentem       autorização expressa dos mesmos e promovam a manutenção                 e limpeza da área."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "•     As calçadas objeto da permissao de uso de que              trata     esta     Lei Complementar        e suas imediações deverão ser mantidas limpas e conservadas                   pelos permissionarios. 1í1 i,' CAMARA MUNICIPAL DE PORTO ALEGRE                                          PROC. Nº 2545/97 AV. LOUREIRO    DA SILVA,   255 -   FONE   228·6055                       PLCL Nº 019/97 RIO GRANDE DO SUL"
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Fica proibida, nestas calçadas, a colocação de amplificadores, caixas acústicas, alto-falantes, ou qualquer tipo de aparelho de som, bem como estande de venda."
+  },
+  {
+   "id": "art-1/par-4",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "O não-cumprimento do disposto neste artigo implicari multa                   de 2 (dois) salirios mlnimos e a cassação da permissão, que somente poder i voltar a ser concedida após 1 (um) ano."
+  },
+  {
+   "id": "art-1/par-5",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "texto": "Os estabelecimentos especificados no \"caput\" deste artigo que se localizarem na parte térrea de ediflcios terão que ter a autorização do con domlnio, emanada de Assembléia Geral."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Poder Executivo regulamentari esta Lei Complementar no pr~ zo de 45 (quarenta e cinco) dias a contar da data de sua publicação. DA PRESIDÊNCIA DA CÂMARA MUNICIjPA~ DE JORro ALEGRE, !j (1;' J 1 I'() F / j/     / LUIZ   BRAZ, Presidente."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 9,
+   "cobertura": 0.968,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art12"
+    },
+    {
+     "rotulo": "§ 1º",
+     "naOrigem": "12"
+    }
+   ]
+  }
+ }
+}

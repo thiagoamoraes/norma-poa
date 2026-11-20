@@ -1,0 +1,55 @@
+{
+ "idSapl": 28716,
+ "rotulo": "Lei Complementar municipal nº 388, de 07 de novembro de 1996",
+ "sha256Origem": "1a3b91c2a44c81a46b7611a4e9797ca1036e32f9bc8d1b981290117d41d041a7",
+ "estruturadoEm": "2026-11-20T09:25:03.198Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "n '....~')",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": ",   .. \\.: ,':) CAMARA MUN,ICIPAL         DE PORTO ALEGRE AV. LOUREIRO DA SILVA, 2~ -      FONE ·28-e055                     PROC. Nº 1230/95 RIO GRANDE DO SUL                                 PLCL Nº 008/95 Altera a redação dos artigos 22 e 23 da Lei Complementar nº 284, de 27 de outubro de 1992, e dá outras providências. Faço saber, no uso das atribuições que me obrigam os parágrafos 5º e 7º, do arte 77, da Lei Orgânica, que a Câmara Municipal manteve e eu promulgo                       a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Dá nova redação ao artigo 22 da Lei Complementar nº 284,                 de 27 de outubro de 1992, conforme segue: - -",
+   "blocoDeAlteracao": "\"Art. 22. Será permitida a ocupaçao maxima de 50% (cinqUenta por cen-\nto) do passeio, preservando uma passagem livre de 1,00m (um metro)           para pedestres. Quando for tecnicamente indispensável o uso de maior área do passeio,\ndeverá o responsável requerer a devida autorização, )ustificando o motivo.\nParágrafo único.   A permissão de que trata este dispositivo   exclui              a\nconstrução de quiosques e edificações destinadas à comercia1ização das unidades em construção ou já conc1uldas, na área a que se refere o passeio.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Dá nova redação ao arte 23 da Lei Complementar nº 284, de 27 de outubro de 1992, conforme segue: \"Art. 23. Na área central, limitada pela Primeira Perimetra1, ou fora dela, nas ruas de grandes movimentos, a parte inferior do tapume deverá                   ocupar, no máximo, 1/3 (um terço) da largura do passeio, garantindo passagem com largura mínima de 1,50m (um metro e cinqUenta centímetros), construindo-se uma cobertura em forma de galeria, com pê direito mínimo de 2,50m (dois metros                      e cinqUenta centímetros) e atendendo as condições do art. 17 (figura 2 do Anexo 13) •   11 .) \"'\":) CAMARA MUNICIPAL DE PORTO ALEGRE AV. LOUREIRO DA SILVA, 2Mi -   FONE *28-e065                 PROC. Nº 1230/95 RIO GRANDE DO SUL                                PLCL Nº 008/95 ~~NHO~~h Presidente."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.992,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

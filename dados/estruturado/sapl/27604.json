@@ -1,0 +1,88 @@
+{
+ "idSapl": 27604,
+ "rotulo": "Lei Complementar municipal nº 323, de 25 de maio de 1994",
+ "sha256Origem": "3b039fc93e811f91325069c6ebdbfd392708d68843454961b166eacbe118f9e2",
+ "estruturadoEm": "2026-11-20T09:25:03.258Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "Dá nova redação aos artigos 32, 42 e",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "62 da Lei Complementar nQ 282, de 16 de outubro de 1992.",
+ "preambulo": "o PREFEITO   MUNICIPAL   DE PORTO ALEGRE. Faço saber que a Câmara      Municipal     aprovou   e eu sanciono   a seguinte Lei Complementar: ,",
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O art. 32 da Lei Complementar nº 282, de 16 de outubro de 1992, passa a ter a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 3º - Caberá à câmara Municipal organizar\na consulta   plebiscitária, através de sua Mesa Diretora.\n,,§12 - A coordenação dos trabalhos preparatórios\nao plebiscito será feita por uma Comissão composta por:\n\"a) três Vereadores, indicados pela Mesa Diretora\nda Câmara Municipal;\n\"b) três representantes   do Executivo Municipal,\nindicados pelo Prefeito;\n\"c) um representante  do Ministério Público, indicado pela respectiva associação;\n\"d) um representante do Tribunal Regional Eleitoral, indicado por seu Presidente.\n\"§22 - O processo de plebiscito, em todas as suas\nfases operacionais,   será realizado por funcionários da Câmara\nMunicipal, especialmente   convocados para a tarefa, pelo Presidente da Casa.\n\"§3º - A consul ta plebisci tária dar-se-á com o\nmáximo de 5 (cinco) perguntas objetivas, com as possibilidades\nde resposta SIM ou NÃO.\n\"§4º - A consulta plebiscitária    e a pauta dos\nassuntos   a serem consultados serão definidos em Lei Ordinária.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O art. 42 da Lei Complementar n2 282, de 16 de outubro de 1992, passa a ter a seguinte redação: L .J O~7 r",
+   "blocoDeAlteracao": "\"Art. 4º - A câmara Municipal    poderá convidar\nmembros da sociedade civil organizada para a discussão e o deba-te dos assuntos a respeito dos quais será a população consultada. \""
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O arte 62 da Lei Complementar nº 282, de 16 de outubro de 1992, passa a ter a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 62 - A iniciativa de realização do plebisci to poderá ser tanto do Executivo quanto do Legislati vo, bem\ncomo de iniciativa popular, nos termos do arte 99 da Lei Orgânica do Município, correndo as despesas'por conta das verbas orçamentárias do Executivo e/ou do Legislativo.\""
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta      Lei   Complement~r     entra    em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Revogam-se      as disposições    em contrário. PREFEITURA    MUN   IPAL DE PORTO   ALEGRE,        25 de maio Luiz Alberto Secretário M publique-se. I I I I L                                                                                 .J /EFC"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.969,
+   "blocosDeAlteracao": 3,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 4º",
+     "naOrigem": "Art42"
+    },
+    {
+     "rotulo": "Art. 5º",
+     "naOrigem": "Art52"
+    }
+   ]
+  }
+ }
+}

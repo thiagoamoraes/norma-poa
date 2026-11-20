@@ -1,0 +1,61 @@
+{
+ "idSapl": 29528,
+ "rotulo": "Lei Complementar municipal nº 422, de 09 de setembro de 1998",
+ "sha256Origem": "997fc7bfaadec91d2b9ef1ae72e4deec8125cae19fbe0b64c1dabfb542e348f2",
+ "estruturadoEm": "2026-11-20T09:25:03.115Z",
+ "versaoEstruturador": 5,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "422",
+  "ano": "1998",
+  "data": "1998-09-09",
+  "epigrafe": "LEI COMPLEMENTAR N° 422",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Dá nova redação ao art. 183 da Lei Complementar n® 284/92 (Código de Edificações de Porto Alegre).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 09 de setembro de 1998.\nRaul Pont,\nPrefeito,\nEstilac Xavier,\nSecretário Municipal de Obras e Viação.\nRegistre-se e publique-se.\nElaine Paz,\nSecretária do Governo Municipal\nrespondendo.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "“ - O art. 183 da Lei Complementar n“ 284/92 passa a ter a seguinte redação; “Art. 183 - Os reservatórios serão de concreto arma do, admitindo-se o emprego de fibrocimento ou outro material, em re servatórios pré-fabricados ou não, desde que atendam às especifica ções da ABNT (Associação Brasileira de Normas Técnicas) ou outra norma técnica equivalente.*"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "“ – Revogam-se as disposições em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}
