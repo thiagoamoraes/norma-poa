@@ -40,10 +40,13 @@ const carregar = (arq, tipo, numero) => {
 
 // --- âncoras: trecho não localizado (EC 39/2016) e norma aceita (LC 689/2012) -
 {
-  const { texto, e } = carregar('ec39_2016', 2, '39');
+  // (a EC 39/2016 deixou de ter trecho não localizado quando o ruído de página passou a sair do texto lido;
+  // o caso real que segue é a LC 646/2010, com colunas e margens do PDF intercaladas — defeito de fonte)
+  const texto = prepararTextoExtraido(fs.readFileSync('./fixtures/textos/coluna_36841.txt', 'utf8'));
+  const e = estruturarNorma(texto, JSON.parse(fs.readFileSync('./fixtures/textos/coluna_36841.json', 'utf8')));
   const a = ancorarConferencia(texto, e);
   const nl = a.itens.filter((i) => i.situacao === 'nao_localizado');
-  ok('EC 39/2016: o trecho não localizado vem marcado, sem posição inventada', nl.length === 1 && nl[0].id === 'art-1' && nl[0].ini === undefined && a.resumo.naoLocalizados === 1);
+  ok('LC 646/2010: os trechos não localizados vêm marcados, sem posição inventada', nl.length >= 1 && nl.every((i) => i.ini === undefined) && a.resumo.naoLocalizados === nl.length);
   const { texto: t2, e: e2 } = carregar('lc689_2012', 6, '689');
   const a2 = ancorarConferencia(t2, e2);
   ok('LC 689/2012 (aceita): nenhum ponto a olhar', e2.verificacao.situacao === 'aceita' && a2.resumo.rotulosDivergentes === 0 && a2.resumo.naoLocalizados === 0 && a2.resumo.lacunasReais === 0);

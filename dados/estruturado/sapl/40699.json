@@ -2,20 +2,20 @@
  "idSapl": 40699,
  "rotulo": "Emenda à Lei Orgânica nº 39, de 08 de junho de 2016",
  "sha256Origem": "08f56a61a18de80040c789ca5c13adaaba8cd0395f77a01a424d0170696c7e41",
- "estruturadoEm": "2026-11-20T19:24:06.432Z",
- "versaoEstruturador": 11,
+ "estruturadoEm": "2026-11-20T22:01:55.138Z",
+ "versaoEstruturador": 12,
  "cabecalho": {
   "tipoAto": "EMENDA À LEI ORGÂNICA",
   "numero": "39",
   "ano": "2016",
   "data": "2016-06-08",
-  "epigrafe": "PROC. Nº 0580/15",
+  "epigrafe": "EMENDA À LEI ORGÂNICA Nº 39, DE 8 DE JUNHO DE 2016.",
   "proveniencia": {
    "promulgadoPor": null,
    "motivoProvavel": "indeterminado"
   }
  },
- "ementa": "PELO Nº 004/15 EMENDA À LEI ORGÂNICA Nº 39, DE 8 DE JUNHO DE 2016. Inclui art. 151-A na Lei Orgânica do Município de Porto Alegre, determinando que o Executivo Municipal preste contas à Câmara Municipal acerca das ações e dos programas desenvolvidos no exercício anterior relacionados à proteção de mulheres e de crianças vítimas de violência, à prevenção e ao combate à violência contra a mulher e à promoção dos direitos da mulher. A MESA DIRETORA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, no uso das atribuições que lhe confere o § 2º do art. 73 da Lei Orgânica do Município de Porto Alegre (LOMPA) e o art. 131 do Regimento da Câmara Municipal de Porto Alegre, promulga a seguinte Emenda à Lei Orgânica:",
+ "ementa": "Inclui art. 151-A na Lei Orgânica do Município de Porto Alegre, determinando que o Executivo Municipal preste contas à Câmara Municipal acerca das ações e dos programas desenvolvidos no exercício anterior relacionados à proteção de mulheres e de crianças vítimas de violência, à prevenção e ao combate à violência contra a mulher e à promoção dos direitos da mulher. A MESA DIRETORA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, no uso das atribuições que lhe confere o § 2º do art. 73 da Lei Orgânica do Município de Porto Alegre (LOMPA) e o art. 131 do Regimento da Câmara Municipal de Porto Alegre, promulga a seguinte Emenda à Lei Orgânica:",
  "preambulo": null,
  "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 8 DE JUNHO DE 2016.\nCassio Trogildo,\nPresidente.\nGuilherme Socias Villela,                                        Delegado Cleiton,\n1º Vice-Presidente.                                           2º Vice-Presidente.\nPaulo Brum,                  Engº Comassetto,                Mario Manfro,\n1º Secretário.                2º Secretário.                 3º Secretário.",
  "dispositivos": [
@@ -24,7 +24,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "Fica incluído art. 151-A na Lei Orgânica do Município de Porto Alegre, conforme segue: PROC. Nº 0580/15 PELO Nº 004/15",
+   "texto": "Fica incluído art. 151-A na Lei Orgânica do Município de Porto Alegre, conforme segue:",
    "blocoDeAlteracao": "“Art. 151-A. O Executivo Municipal, anualmente, na primeira quinzena do mês\nde março, prestará contas à Câmara Municipal acerca das ações e dos programas desenvolvidos\nno exercício anterior relacionados à:\nI – proteção de mulheres e de crianças vítimas de violência;\nII – prevenção e ao combate à violência contra a mulher; e\nIII – promoção dos direitos da mulher.\nParágrafo único. Na prestação de contas referida no caput deste artigo, serão\ndiscriminados, para cada ação e para cada programa:\nI – as metas estabelecidas;\nII – o orçamento previsto;\nIII – a execução orçamentária; e\nIV– o público atingido, quantificado por:\na) idade;\nb) etnia; e\nc) localização regional.”"
   },
   {
@@ -36,20 +36,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 2,
    "dispositivos": 2,
-   "cobertura": 0.922,
+   "cobertura": 0.966,
    "blocosDeAlteracao": 1,
    "lacunas": [],
-   "naoLocalizados": [
-    "Fica incluído art. 151-A na Lei Orgânica do Município de Porto Alegre, conforme "
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

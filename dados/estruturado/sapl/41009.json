@@ -2,8 +2,8 @@
  "idSapl": 41009,
  "rotulo": "Lei Complementar municipal nº 807, de 28 de dezembro de 2016",
  "sha256Origem": "76e464a75a6d5dc106180a567b2909d0bdb688c72eb4bd5fcf5ff2a560a6b25b",
- "estruturadoEm": "2026-11-20T19:24:07.870Z",
- "versaoEstruturador": 11,
+ "estruturadoEm": "2026-11-20T22:01:56.968Z",
+ "versaoEstruturador": 12,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "807",
@@ -17,7 +17,7 @@
  },
  "ementa": "Cria o Fundo Municipal de Incentivo à Reciclagem e à Inserção Produtiva de Catadores (FMRIC) e revoga a Lei Complementar nº 672, de 1º de fevereiro de 2011 – que cria o Fundo para Implementação do Programa de Redução Gradativa do Número de Veículos de Tração Animal e de Veículos de Tração Humana.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de dezembro de 2016.\nJosé Fortunati,\nPrefeito.\nCezar Busatto,\nSecretário Municipal de Governança Local.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.\n5",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de dezembro de 2016.\nJosé Fortunati,\nPrefeito.\nCezar Busatto,\nSecretário Municipal de Governança Local.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -78,7 +78,7 @@
    "pai": "art-2",
    "tipo": "inciso",
    "rotulo": "IV –",
-   "texto": "o desenvolvimento de projetos especiais de comercialização e beneficiamento incorporados ao sistema público, de resíduos sólidos pós-triagem, com a participação das unidades de triagem conveniadas com o Departamento Municipal de Limpeza Urbana (DMLU); e 1"
+   "texto": "o desenvolvimento de projetos especiais de comercialização e beneficiamento incorporados ao sistema público, de resíduos sólidos pós-triagem, com a participação das unidades de triagem conveniadas com o Departamento Municipal de Limpeza Urbana (DMLU); e"
   },
   {
    "id": "art-2/inc-V",
@@ -160,7 +160,7 @@
    "pai": "art-3",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
-   "texto": "As receitas referidas nos incisos do caput deste artigo serão depositadas em instituições financeiras oficiais, em conta especial, sob a denominação Fundo Municipal de Incentivo à Reciclagem e à Inserção Produtiva de Catadores. 2"
+   "texto": "As receitas referidas nos incisos do caput deste artigo serão depositadas em instituições financeiras oficiais, em conta especial, sob a denominação Fundo Municipal de Incentivo à Reciclagem e à Inserção Produtiva de Catadores."
   },
   {
    "id": "art-4",
@@ -265,7 +265,7 @@
    "pai": "art-6",
    "tipo": "inciso",
    "rotulo": "I –",
-   "texto": "estabelecer diretrizes e fixar critérios para priorização de linhas de ação e alocação de recursos do FMRIC; 3"
+   "texto": "estabelecer diretrizes e fixar critérios para priorização de linhas de ação e alocação de recursos do FMRIC;"
   },
   {
    "id": "art-6/inc-II",
@@ -342,7 +342,7 @@
    "pai": "art-10",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
-   "texto": "Excetua-se ao disposto no caput deste artigo o art. 11 desta Lei Complementar, que entra em vigor 360 (trezentos e sessenta) dias após a data de publicação desta Lei Complementar. 4"
+   "texto": "Excetua-se ao disposto no caput deste artigo o art. 11 desta Lei Complementar, que entra em vigor 360 (trezentos e sessenta) dias após a data de publicação desta Lei Complementar."
   },
   {
    "id": "art-11",
@@ -355,23 +355,16 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem"
   ],
   "avisos": [],
   "metricas": {
    "artigos": 11,
    "dispositivos": 40,
-   "cobertura": 0.891,
+   "cobertura": 0.924,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 182,
-     "amostra": "IXàconcessãodeoutrosbenefíciosbolsasdecapacitaçãoserviçosprogramasprojetoseinter"
-    }
-   ],
+   "lacunas": [],
    "naoLocalizados": [
-    "As receitas referidas nos incisos do caput deste artigo serão depositadas em ins",
     "à concessão de outros benefícios, bolsas de capacitação, serviços, programas, pr"
    ],
    "rotulosDivergentes": []

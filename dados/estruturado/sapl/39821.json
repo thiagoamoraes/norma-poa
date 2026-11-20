@@ -2,8 +2,8 @@
  "idSapl": 39821,
  "rotulo": "Lei Complementar municipal nº 751, de 30 de dezembro de 2014",
  "sha256Origem": "9e1bf069a4a5227a80d51a8e83f38f4357b98ece5e5017350d71202c4a24a51a",
- "estruturadoEm": "2026-11-20T19:24:08.150Z",
- "versaoEstruturador": 11,
+ "estruturadoEm": "2026-11-20T22:01:57.237Z",
+ "versaoEstruturador": 12,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "751",
@@ -17,7 +17,7 @@
  },
  "ementa": "Inclui § 3º no art. 17-A e inc. XXVI no caput do art. 21, altera o inc. XXI do caput do art. 21, o caput e o § 2º do art. 66- A e o § 3º do art. 68 e revoga os §§ 3º e 4º do art. 66-A da Lei Complementar nº 7, de 7 de dezembro de 1973, – que institui e disciplina os tributos de competência do Município –, e alterações posteriores, dispensando o Executivo Municipal de efetuar lançamentos por descumprimento de obrigações acessórias em relação ao IPTU e à TCL, relativos às economias a que se refere, dispondo sobre o limite para o Executivo Municipal dispensar o ajuizamento de ações de cobrança da Dívida Ativa e dando outras providências; revoga a al. f do § 2º do art. 18, altera o § 3ºdo art. 26 e inclui § 6º no art. 26 da Lei Complementar nº 197, de 21 de março de 1989 – que institui e disciplina o Imposto sobre a Transmissão “Inter-Vivos”, por Ato Oneroso, de Bens Imóveis e de Direitos Reais a Eles Relativos –, e alterações posteriores, excluindo obrigação de emissão de Declaração de Quitação, em face de certificação de quitação de parcelas desse imposto, pela Secretaria Municipal da Fazenda (SMF) e dando outras providências.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei Complementar:",
- "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 30 de dezembro\nde 2014.\nJosé Fortunati,\nPrefeito.\nJorge Tonetto,\nSecretário Municipal da Fazenda.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.\n4",
+ "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 30 de dezembro\nde 2014.\nJosé Fortunati,\nPrefeito.\nJorge Tonetto,\nSecretário Municipal da Fazenda.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -40,7 +40,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 3º",
-   "texto": "Ficam alterados o caput e o § 2º do art. 66-A da Lei Complementar nº 7, de 1973, e alterações posteriores, conforme segue: 2",
+   "texto": "Ficam alterados o caput e o § 2º do art. 66-A da Lei Complementar nº 7, de 1973, e alterações posteriores, conforme segue:",
    "blocoDeAlteracao": "“Art. 66-A. Fica admitida a compensação de créditos tributários e\nnão tributários do sujeito passivo, aptos à restituição, com débitos tributários e\nnão tributários em seu nome.\n...................................................................................................\n§ 2º A SMF poderá efetuar a compensação de ofício sempre que verificar que o titular do direito à restituição tenha algum débito vencido, inclusive que seja objeto de parcelamento, com parcelas vencidas ou não.\n.........................................................................................” (NR)"
   },
   {
@@ -64,7 +64,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 6º",
-   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação. 3"
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
   },
   {
    "id": "art-7",
@@ -89,20 +89,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 7,
    "dispositivos": 9,
-   "cobertura": 0.949,
+   "cobertura": 0.977,
    "blocosDeAlteracao": 5,
    "lacunas": [],
-   "naoLocalizados": [
-    "Ficam alterados o caput e o § 2º do art. 66-A da Lei Complementar nº 7, de 1973,"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

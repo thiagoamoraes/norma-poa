@@ -2,8 +2,8 @@
  "idSapl": 39901,
  "rotulo": "Lei Complementar municipal nº 759, de 09 de fevereiro de 2015",
  "sha256Origem": "80333e599362b227012aed469f91ca01bb2a9e930716bf5bbbd94b641eac4fbf",
- "estruturadoEm": "2026-11-20T19:24:08.065Z",
- "versaoEstruturador": 11,
+ "estruturadoEm": "2026-11-20T22:01:57.166Z",
+ "versaoEstruturador": 12,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "759",
@@ -17,7 +17,7 @@
  },
  "ementa": "Altera a ementa, o § 2º do art. 1º, o inc. I do caput do art. 2º e a al. b do inc. II do caput do art. 3º e inclui § 3º no art. 1º da Lei Complementar nº 555, de 13 de julho de 2006, alterada pela Lei Complementar nº 574, de 2 de julho de 2007, dispondo sobre a proibição do uso de produtos fumígenos em recintos coletivos e em recintos de trabalho coletivo.",
  "preambulo": null,
- "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 09 de fevereiro\nde 2015.\nJosé Fortunati,\nPrefeito.\nPablo Mendes Ribeiro,\nSecretário Municipal de Indústria e Comércio, em exercício.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.\n3",
+ "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 09 de fevereiro\nde 2015.\nJosé Fortunati,\nPrefeito.\nPablo Mendes Ribeiro,\nSecretário Municipal de Indústria e Comércio, em exercício.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -48,7 +48,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 4º",
-   "texto": "Fica alterada a al. b do inc. II do caput do art. 3º da Lei Complementar nº 555, de 2006, alterada pela Lei Complementar nº 574, de 2007, conforme segue: 2",
+   "texto": "Fica alterada a al. b do inc. II do caput do art. 3º da Lei Complementar nº 555, de 2006, alterada pela Lei Complementar nº 574, de 2007, conforme segue:",
    "blocoDeAlteracao": "“Art. 3º ................................................................................ .....\n................................................................................................. .\nII – ............................................................................... .............\n.............................................................................................. ....\nb) não impedirem o uso de produtos fumígenos, multa de 50\n(cinquenta) UFMs.” (NR)"
   },
   {
@@ -60,26 +60,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 5,
    "dispositivos": 5,
-   "cobertura": 0.92,
+   "cobertura": 0.971,
    "blocosDeAlteracao": 4,
-   "lacunas": [
-    {
-     "tamanho": 121,
-     "amostra": "Art4ºFicaalteradaaalbdoincIIdocaputdoart3ºdaLeiComplementarnº555de2006alteradape"
-    }
-   ],
-   "naoLocalizados": [
-    "Fica alterada a al. b do inc. II do caput do art. 3º da Lei Complementar nº 555,"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

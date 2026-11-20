@@ -2,8 +2,8 @@
  "idSapl": 42519,
  "rotulo": "Lei Complementar municipal nº 880, de 27 de março de 2020",
  "sha256Origem": "cab18d18790937df161a16e78a10e68c94d22f42b786d638133ef78b9dfa1fbc",
- "estruturadoEm": "2026-11-20T19:24:07.559Z",
- "versaoEstruturador": 11,
+ "estruturadoEm": "2026-11-20T22:01:56.644Z",
+ "versaoEstruturador": 12,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "880",
@@ -17,7 +17,7 @@
  },
  "ementa": "Altera a ementa e o caput do art. 1º, os §§ 4º, 5º e 6º do art. 2º, o caput e o inc. II do art. 3º, o caput e os incs. II, IV, V, VI e VII do art. 4º, o inc. X do art. 8º, o inc. III do caput e os §§ 4º e 5º do art. 10, inclui parágrafo único no art. 1º e inc. XII no caput do art. 8º e revoga o § 4º do art. 2º, o art. 6º e o inc. II do § 2º e o § 6º do art. 10, todos da Lei Complementar nº 798, de 10 de junho de 2016, dispondo sobre a Gratificação por Atividade de Planejamento Estratégico (GAPE).",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de março de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município.\n5",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de março de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -56,7 +56,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 5º",
-   "texto": "No art. 4º da Lei Complementar nº 798, de 2016, ficam alterados o caput e seus incs. II, IV, V, VI e VII, conforme segue: 2",
+   "texto": "No art. 4º da Lei Complementar nº 798, de 2016, ficam alterados o caput e seus incs. II, IV, V, VI e VII, conforme segue:",
    "blocoDeAlteracao": "“Art. 4º Consideram-se atividades especiais do planejamento estratégico\nmunicipal, no âmbito do EPEGP e da CMR, com direito à percepção da Parcela Especial (PE) da\nGAPE:\n....................................................................................................................................\nII – prestar apoio técnico às coordenações do EPEGP e da CMR e assessorá-las ou\nàs demais chefias das unidades de trabalho subordinadas – atividade especial de nível 2, código\nPE2 –;\n....................................................................................................................................\nIV – prestar apoio técnico especial à coordenação do EPEGP e da CMR em\nquestões vinculadas ao macroprocesso de planejamento estratégico – atividade especial de nível\n3, código PE3 –;\nV – coordenar o EPEGP, sua subestrutura e processos de trabalho e liderar a\nequipe de servidores lotados nas atividades de planejamento estratégico municipal – atividade\nespecial de nível 4, código PE4 –;\nVI – coordenar a CMR, sua subestrutura e processos de trabalho e liderar a equipe\nde servidores lotados nas atividades de monitoramento de resultados e gestão de indicadores\nmunicipais vinculados aos programas estratégicos municipais – atividade especial de nível 4,\ncódigo PE4 –; e\nVII – exercer a direção-geral do EPEGP e da CMR, gerindo suas subestruturas\nfuncionais e seus macroprocessos de trabalho e atuando como responsável pelo planejamento\nestratégico municipal – atividade especial de nível 4, código PE4.” (NR)"
   },
   {
@@ -64,7 +64,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 6º",
-   "texto": "Fica alterado o inc. X e incluído inc. XII no caput do art. 8º da Lei Complementar nº 798, de 2016, conforme segue: 3",
+   "texto": "Fica alterado o inc. X e incluído inc. XII no caput do art. 8º da Lei Complementar nº 798, de 2016, conforme segue:",
    "blocoDeAlteracao": "“Art. 8º ......................................................................................................................\n....................................................................................................................................\nX – na Lei nº 11.400, de 27 de dezembro de 2012, e alterações posteriores;\n....................................................................................................................................\nXII – na Lei nº 11.964, de 30 de novembro de 2015, e alterações posteriores.\n.........................................................................................................................” (NR)"
   },
   {
@@ -80,7 +80,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 8º",
-   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação. 4"
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
   },
   {
    "id": "art-9",
@@ -112,20 +112,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 9,
    "dispositivos": 12,
-   "cobertura": 0.969,
+   "cobertura": 0.985,
    "blocosDeAlteracao": 7,
    "lacunas": [],
-   "naoLocalizados": [
-    "Fica alterado o inc. X e incluído inc. XII no caput do art. 8º da Lei Complement"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

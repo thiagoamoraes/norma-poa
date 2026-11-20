@@ -203,7 +203,7 @@ export function desfazerHifenizacao(texto) {
  * linha é desfeita. O arquivo .txt guardado NÃO é alterado.
  */
 export function prepararTextoExtraido(texto) {
-  return juntarFechoQuebrado(juntarAberturaDeBlocoPartida(desfazerHifenizacao(cp1252ParaUnicode(String(texto)).replace(/\f/g, '\n')).texto));
+  return juntarFechoQuebrado(juntarAberturaDeBlocoPartida(desfazerHifenizacao(removerRuidoDePagina(separarArtigoDoPreambulo(cp1252ParaUnicode(String(texto)))).replace(/\f/g, '\n')).texto));
 }
 
 /**
@@ -268,4 +268,47 @@ const CP1252 = { 0x80: '€', 0x82: '‚', 0x83: 'ƒ', 0x84: '„', 0x85: '…',
   0x91: '‘', 0x92: '’', 0x93: '“', 0x94: '”', 0x95: '•', 0x96: '–', 0x97: '—', 0x98: '˜', 0x99: '™', 0x9a: 'š', 0x9b: '›', 0x9c: 'œ', 0x9e: 'ž', 0x9f: 'Ÿ' };
 export function cp1252ParaUnicode(texto) {
   return String(texto).replace(/[\u0080-\u009f]/g, (ch) => CP1252[ch.charCodeAt(0)] ?? ch);
+}
+
+/**
+ * Ruído de impressão (decisão do mantenedor, 20/11/2026): sai do texto LIDO — o .txt guardado não
+ * muda — (a) a linha com apenas o número da PRÓPRIA página, uma por página (a página é contada pelos
+ * `\f` do texto extraído), e (b) o carimbo de processo (`PROC. Nº …`, `PLCL|PLCE|PLL|PLE|PELO|PR Nº …`)
+ * que se repete 2 ou mais vezes no documento. Regra estrita de propósito: número que não é o da página
+ * (quadro numérico, como o do plano diretor) e carimbo que aparece uma vez ficam. A linha é apagada,
+ * não deixada em branco; se tinha o `\f` de início de página, o `\f` passa para a linha seguinte.
+ * Roda ANTES de trocar `\f` por quebra de linha.
+ */
+export function removerRuidoDePagina(texto) {
+  const linhas = String(texto).split('\n');
+  const reCarimbo = /^\s*(?:PROC\.?\s*N[º°o.]*\s*[\d./-]+\s*(?:(?:PLCL|PLCE|PLL|PLE|PELO|PR)\s*N[º°o.]*\s*[\d./-]+\s*)?|(?:PLCL|PLCE|PLL|PLE|PELO|PR)\s*N[º°o.]*\s*[\d./-]+\s*)$/i;
+  const conta = new Map();
+  for (const l of linhas) {
+    const limpa = l.replace(/\f/g, '');
+    if (reCarimbo.test(limpa)) conta.set(limpa.trim(), (conta.get(limpa.trim()) || 0) + 1);
+  }
+  let pagina = 1;
+  const numeroJaTirado = new Set();
+  const saida = [];
+  let fPendente = false;
+  for (const l of linhas) {
+    const limpa = l.replace(/\f/g, '');
+    const paginaDaLinha = pagina + (l.startsWith('\f') ? 1 : 0);
+    let tira = false;
+    if (/^ *\d{1,3} *$/.test(limpa) && +limpa.trim() === paginaDaLinha && !numeroJaTirado.has(paginaDaLinha)) { numeroJaTirado.add(paginaDaLinha); tira = true; }
+    if (reCarimbo.test(limpa) && conta.get(limpa.trim()) >= 2) tira = true;
+    pagina += (l.match(/\f/g) || []).length;
+    if (tira) { if (l.startsWith('\f')) fPendente = true; }
+    else { saida.push(fPendente && !l.startsWith('\f') ? '\f' + l : l); fPendente = false; }
+  }
+  return saida.join('\n');
+}
+
+/**
+ * "Art. 1º" na MESMA linha do fim do preâmbulo ("… promulgo a seguinte Lei Complementar: Art. 1º Fica…"),
+ * como o DOCX junta o parágrafo (LC 37041 do catálogo). Quebra a linha antes do "Art. 1º" — só do 1º artigo,
+ * só depois de "seguinte Lei/Lei Complementar/Emenda …:" e só com "Art." de A maiúsculo.
+ */
+export function separarArtigoDoPreambulo(texto) {
+  return String(texto).replace(/^(.*\bseguinte (?:Lei(?: Complementar)?|Emenda[^:\n]*)):[ \t]+(Art\. ?1[º°o]?\b)/gm, '$1:\n$2');
 }

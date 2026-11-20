@@ -1588,3 +1588,11 @@ Pesquisa em `PLANO-TRECHO-NAO-LOCALIZADO.md` (55 normas recentes; em nenhuma o m
 - **Bateria antes/depois idêntica** (core 153, promulgação parcial 72, estrutura 62, revisão 73, blocos sem aspas 26 etc.); `normateste.mjs` byte a byte igual.
 - `VERSAO_ESTRUTURADOR` 10 → 11. Acervo: aceitas 537 → 540 (36892, 40791, 43471), 0 perdas; recentes em revisão 131 → 128.
 - **Não feito (aguarda decisão do mantenedor):** G4 (número de página e carimbo saem do texto lido), G1/G2 (título de agrupador: até 3 linhas, `CAPÍTULO ÚNICO`), repetição de documento no arquivo. Ver o plano.
+
+## Rodada 36 — ruído de impressão fora do texto lido (causa G4/G6, decisões 22 a 24, 20/11/2026)
+- **Preparo (`ingestao/extracao-texto.mjs`):** `removerRuidoDePagina` (número da própria página, uma por página; carimbo de processo repetido 2+ vezes) e `separarArtigoDoPreambulo` ("Art. 1º" na linha do preâmbulo), ambos ligados em `prepararTextoExtraido` (por isso valem para estruturador, revisão e histórico). O core não mudou.
+- **Prova independente:** o negativo é o plano diretor (id 30209): 789 linhas só de algarismos antes, 787 depois (saem só 2, as que são o número da página). Sem a trava "valor = número da página" o filtro apagaria ~722 linhas.
+- **Teste novo:** `teste_ruido_de_pagina.mjs` (11; reais: LC 897/2021, 1.074/2026, 867/2019, 838/2018, 660/2010 + negativo 30209). Contra o código antigo: 3 ok / 8 falhas.
+- `teste_revisao.mjs`: a EC 39/2016 deixou de ter trecho não localizado (curada pelo preparo); o caso real do teste passou a ser a LC 646/2010 (colunas e margens intercaladas), `fixtures/textos/coluna_36841.*`.
+- `VERSAO_ESTRUTURADOR` 11 → 12. Acervo: aceitas 540 → 554, 0 perdas; recentes em revisão 128 → 114. Bateria idêntica; `normateste.mjs` byte a byte igual.
+- **Falta (decisão 23, já dada):** G1+G2 no core (título de agrupador), com espelho no `norma-simulacao.html`.
