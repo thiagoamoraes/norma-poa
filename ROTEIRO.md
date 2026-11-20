@@ -68,6 +68,7 @@ de `npm ci`.)
 9. **Repositório público:** sem nomes de pessoas, cargos, planos de órgãos ou
    juízo sobre terceiros em código, documentos e commits.
 10. **Trabalho interrompido não pode se perder.** Antes de começar uma tarefa, crie o ramo `wip/<tarefa>` e o arquivo `EM_ANDAMENTO.md` (tarefa, passo em que está, o que falta, o que já foi decidido); faça commit e push desse ramo a cada passo concluído; só leve para a `main` o que passa na bateria inteira. Ao terminar, apague o arquivo e feche o ramo. Quem retomar encontra o ponto exato (`git branch -r | grep wip/`) — o contêiner da sessão pode sumir a qualquer momento, e o que não foi enviado some junto.
+12. **Entrevista exaustiva e agentes (CLAUDE.md, regras 11 e 12):** decisão do mantenedor se pergunta até não restar ponto em aberto e vira regra registrada; tarefa não trivial começa por plano escrito e, quando couber, por agentes de pesquisa/planejamento (somente leitura; resposta de agente é insumo a ser conferido).
 11. **Na dúvida sobre prática legislativa, pare e pergunte ao mantenedor**,
     mostrando o documento real. Não escolha em silêncio.
 
