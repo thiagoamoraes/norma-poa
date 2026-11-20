@@ -1540,6 +1540,18 @@ Entrevista com o mantenedor (decisões 9 a 12 no CLAUDE.md) e implementação da
 
 **Medido em todo o acervo:** aceitas 541 → **537** de 823. Cinco normas que eram "aceitas" por erro silencioso agora estão a revisar (4 com fronteira inferida: LC 398/1997, 422, 425 e 426/1998; e a LC 606/2008, que altera um anexo em tabela sem bloco lido); 1 passa a aceita (LC 293/1993); nenhuma outra aceita virou revisar. Antigas 194 → 190; recentes inalteradas (347/478, 72,6%). Históricos: 6 mudaram, todos para melhor (a EC 7/1994 deixou de aplicar à LO dois comandos-lixo — "Esta Emenda… entra em vigor" lido como redação do art. 31 —; a EC 11/1997 passou a ter seu comando lido; a LC 1.011/2024 passou a registrar a pendência). Completos 40 → 41.
 
+## Rodada 32 — avaliação exploratória de design e experiência de uso (20/11/2026)
+
+Três agentes de pesquisa (somente leitura, com Playwright e capturas de tela; regra 12) avaliaram as páginas e deixaram relatórios: `PLANO-UX-REVISAO.md` (dashboard de revisão), `PLANO-UX-CONSULTA.md` (página de consulta, confiança e terminologia) e `PLANO-UX-ACESSIBILIDADE.md` (design visual e WCAG 2.1 AA; axe-core: 0 violações em 10 execuções, o que ele não pega foi medido à mão). Os relatórios são insumo: as afirmações que sustentam correção foram conferidas de forma independente antes de agir.
+
+Corrigido já (defeitos objetivos do `docs/revisao.html`, confirmados por medida própria):
+- **Rolagem errada ao clicar num dispositivo:** 4 de 5 marcas ficavam fora da área visível (`offsetTop` relativo ao `BODY`, não ao contêiner de rolagem). Agora a posição é relativa ao contêiner e a rolagem do texto de origem é instantânea (a suave levava ~2,5 s em textos longos).
+- **Perda de decisões com duas abas:** cada aba regravava só a sua memória e apagava as da outra. `gravarLocal` agora mescla com o que está gravado (mais recente por `em`) e aceita remoção explícita.
+- **Aviso desonesto sem armazenamento:** com o armazenamento do navegador bloqueado a página dizia "registrada". Agora avisa "NÃO deixou guardar… EXPORTE agora" e mantém a faixa de alerta.
+- Conferido no Chromium: rolagem (5 de 5 visíveis), duas abas (2 decisões preservadas), armazenamento negado (aviso correto), sem erro de console.
+
+Confirmado por medida e pendente de decisão do mantenedor (entrevista, regra 11): borda dos controles 1,42:1 (exige 3:1); destaques do comparador 1,13 a 1,25:1 e só por cor; 44 de 131 normas sem nenhum ponto a conferir; busca "lei 12/1975" não acha LCs; rótulo "(texto vigente apurado)" sobre histórico não apurado; atalhos de uma letra sem como desligar (WCAG 2.1.4); foco perdido após J/K; `listbox` com 521 `tabindex=0`.
+
 ## Passagem de sessão (20/11/2026)
 
 Sem mudança de código. Registrado: estado da tarefa 1 (62,6% aceitas em 823 textos),

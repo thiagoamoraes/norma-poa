@@ -185,7 +185,20 @@ const estado = { fila: [], guia: [], decisoes: new Map(), norma: null, sel: null
 
 // ── decisões: repositório + navegador ─────────────────────────────────────────
 function lerLocal() { try { return JSON.parse(localStorage.getItem(CHAVE) || '[]'); } catch { return []; } }
-function gravarLocal() { try { localStorage.setItem(CHAVE, JSON.stringify([...estado.decisoes.values()])); } catch { /* sem armazenamento: segue em memória */ } }
+// Grava no navegador MESCLANDO com o que outra aba já gravou (cada aba só conhece o que carregou: gravar só a memória
+// apagava as decisões da outra). `remover` é o idSapl de uma decisão apagada de propósito. Devolve false se o navegador
+// não deixou gravar (modo privativo, armazenamento bloqueado ou cheio): a página então avisa, em vez de dizer "salvo".
+function gravarLocal(remover) {
+  try {
+    const noArmazenamento = lerLocal().filter((d) => validarDecisao(d).ok && d.idSapl !== remover);
+    const mapa = new Map(noArmazenamento.map((d) => [d.idSapl, d]));
+    for (const d of estado.decisoes.values()) { const x = mapa.get(d.idSapl); if (!x || d.em >= x.em) mapa.set(d.idSapl, d); }
+    if (remover != null) mapa.delete(remover);
+    for (const d of mapa.values()) if (!estado.decisoes.has(d.idSapl)) estado.decisoes.set(d.idSapl, d); // traz para esta aba o que veio da outra
+    localStorage.setItem(CHAVE, JSON.stringify([...mapa.values()]));
+    estado.semArmazenamento = false; return true;
+  } catch { estado.semArmazenamento = true; return false; }
+}
 function exportadoEm() { try { return localStorage.getItem(CHAVE_EXPORT) || ''; } catch { return ''; } }
 function mesclar(lista) { for (const d of lista) { const atual = estado.decisoes.get(d.idSapl); if (!atual || d.em >= atual.em) estado.decisoes.set(d.idSapl, d); } }
 function naoExportadas() { const t = exportadoEm(); return [...estado.decisoes.values()].filter((d) => !t || d.em > t).length; }
@@ -211,8 +224,8 @@ function pintarPainel() {
       el('input', { id: 'arq', type: 'file', accept: '.jsonl,.json,.txt', hidden: true, onchange: importar })));
   const k = naoExportadas();
   const a = $('aviso-export');
-  a.classList.toggle('ver', k > 0);
-  a.textContent = k ? `${k} decisão(ões) só neste navegador. Exporte e entregue o arquivo para ficarem no repositório (limpar os dados do navegador as apaga).` : '';
+  a.textContent = estado.semArmazenamento ? `ATENÇÃO: este navegador não está guardando as decisões (${estado.decisoes.size} só na memória desta página). Exporte antes de fechar ou recarregar.` : k ? `${k} decisão(ões) só neste navegador. Exporte e entregue o arquivo para ficarem no repositório (limpar os dados do navegador as apaga).` : '';
+  a.classList.toggle('ver', k > 0 || !!estado.semArmazenamento);
 }
 function pintarFiltroMotivos() {
   const cont = {};
@@ -317,7 +330,7 @@ function selecionar(id, rolarOrigem) {
   document.querySelectorAll('#rol-arvore .disp').forEach((e) => e.setAttribute('aria-selected', String(e.dataset.id === id)));
   document.querySelectorAll('#origem .sel').forEach((e) => e.classList.remove('sel'));
   const marca = document.querySelector(`#origem [data-id="${CSS.escape(id)}"]`);
-  if (marca) { marca.classList.add('sel'); const rol = $('rol-origem'); rol.scrollTo({ top: Math.max(0, marca.offsetTop - rol.clientHeight / 3), behavior: 'smooth' }); }
+  if (marca) { marca.classList.add('sel'); const rol = $('rol-origem'); const dentro = marca.getBoundingClientRect().top - rol.getBoundingClientRect().top + rol.scrollTop; rol.scrollTo({ top: Math.max(0, dentro - rol.clientHeight / 3), behavior: 'auto' }); }
   const no = document.querySelector(`#rol-arvore .disp[data-id="${CSS.escape(id)}"]`);
   if (no && !rolarOrigem) no.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   if (estado.formAberto === 'corrigir') abrirForm('corrigir');
@@ -426,12 +439,12 @@ function gravar(tipo) {
   if (tipo === 'corrigir') d.correcoes = estado.rascunho;
   const v = validarDecisao(d);
   if (!v.ok) { toast(v.erros[0]); return; }
-  estado.decisoes.set(n.idSapl, d); gravarLocal();
+  estado.decisoes.set(n.idSapl, d); const guardou = gravarLocal();
   $('form').classList.remove('ver'); estado.formAberto = null; estado.rascunho = [];
-  toast('Decisão registrada neste navegador.');
+  toast(guardou ? 'Decisão registrada neste navegador.' : 'ATENÇÃO: este navegador não deixou guardar a decisão. Ela vale só enquanto a página estiver aberta: EXPORTE agora.');
   pintarDecisao(); pintarPainel(); pintarFila();
 }
-function limparDecisao() { const n = estado.norma; if (!n || !estado.decisoes.has(n.idSapl)) return; estado.decisoes.delete(n.idSapl); gravarLocal(); toast('Decisão removida deste navegador. (Se já está no repositório, volta na próxima carga.)'); pintarDecisao(); pintarPainel(); pintarFila(); }
+function limparDecisao() { const n = estado.norma; if (!n || !estado.decisoes.has(n.idSapl)) return; estado.decisoes.delete(n.idSapl); gravarLocal(n.idSapl); toast('Decisão removida deste navegador. (Se já está no repositório, volta na próxima carga.)'); pintarDecisao(); pintarPainel(); pintarFila(); }
 
 // ── exportar / importar ───────────────────────────────────────────────────────
 function exportar() {
