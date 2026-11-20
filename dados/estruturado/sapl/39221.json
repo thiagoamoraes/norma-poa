@@ -2,18 +2,19 @@
  "idSapl": 39221,
  "rotulo": "Lei Complementar municipal nº 727, de 07 de janeiro de 2014",
  "sha256Origem": "dd0f063d9114bc2c56f72f244609c44b1fdc89e3c8f143b4e4d71de45798b161",
- "estruturadoEm": "2026-11-19T09:26:03.495Z",
- "versaoEstruturador": 5,
+ "estruturadoEm": "2026-11-20T11:52:21.009Z",
+ "versaoEstruturador": 7,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "727",
+  "ano": "2014",
+  "data": "2014-01-07",
   "epigrafe": "brasao.gif Prefeitura Municipal de Porto",
   "proveniencia": {
    "promulgadoPor": "PREFEITO",
    "motivoProvavel": "sancao_normal"
-  }
+  },
+  "fonte": "catalogo"
  },
  "ementa": "(2807 bytes) Alegre LEI COMPLEMENTAR727, DE 7 DE JANEIRO DE 2014. Altera a ementa e o caput doart. 1º da Lei Complementar nº 666, de 30 de dezembro de 2010, alterada pelaLei Complementar nº 714, de 27 de maio de 2013, passando para 31 de marçode2014 a data limite de protocolização dos pedidos de aprovação dos projetosque se incluem em rol para cujos terrenos aquela Lei    Complementar      defineíndices   de aproveitamento. OPREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições queconfere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono aseguinte Lei Complementar:",
  "preambulo": null,
@@ -43,11 +44,11 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido"
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
   ],
-  "avisos": [],
   "metricas": {
    "artigos": 3,
    "dispositivos": 3,

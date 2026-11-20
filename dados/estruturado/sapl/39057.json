@@ -2,18 +2,19 @@
  "idSapl": 39057,
  "rotulo": "Lei Complementar municipal nº 719, de 30 de setembro de 2013",
  "sha256Origem": "1bed482f1fc8aa721ea683df9598d9f88683b9d5fdfa04e7258d5db0f98c947c",
- "estruturadoEm": "2026-11-19T09:26:03.519Z",
- "versaoEstruturador": 5,
+ "estruturadoEm": "2026-11-20T11:52:21.066Z",
+ "versaoEstruturador": 7,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "719",
+  "ano": "2013",
+  "data": "2013-09-30",
   "epigrafe": "brasao.gif Prefeitura Municipal de Porto",
   "proveniencia": {
    "promulgadoPor": "PREFEITO",
    "motivoProvavel": "sancao_normal"
-  }
+  },
+  "fonte": "catalogo"
  },
  "ementa": "(2807 bytes) Alegre LEICOMPLEMENTAR Nº 719, 30 DE SETEMBRO DE 2013. Alterao inc. III do art. 11 e inclui art. 14-A na Lei Complementar nº 628, de 17de agosto de 2009, e alterações posteriores, dispondo sobre a proibição devenda ou disponibilização de bebidas alcoólicas a crianças e adolescentes.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso dasatribuições que me confere o inciso II do artigo 94 da Lei Orgânica doMunicípio, sanciono a seguinte Lei Complementar:",
@@ -44,11 +45,11 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido"
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
   ],
-  "avisos": [],
   "metricas": {
    "artigos": 3,
    "dispositivos": 3,

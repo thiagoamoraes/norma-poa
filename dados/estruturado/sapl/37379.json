@@ -2,18 +2,19 @@
  "idSapl": 37379,
  "rotulo": "Lei Complementar municipal nº 675, de 22 de junho de 2011",
  "sha256Origem": "86b14ded286b101822c1151f678e8a400818ee2ddac1aeaf4357958215bee2c4",
- "estruturadoEm": "2026-11-19T09:26:03.785Z",
- "versaoEstruturador": 5,
+ "estruturadoEm": "2026-11-20T11:52:21.479Z",
+ "versaoEstruturador": 7,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "numero": "675",
+  "ano": "2011",
+  "data": "2011-06-22",
   "epigrafe": "LEI COMPLEMENTAR Nº 67 5, DE 22 DE JUNHO DE 2011 .",
   "proveniencia": {
    "promulgadoPor": null,
    "motivoProvavel": "indeterminado"
-  }
+  },
+  "fonte": "catalogo"
  },
  "ementa": "Inclui art. 9º -A na Lei Co mplementar nº 618, de 10 de junho de 2009 – que institui a adoção de equipamentos público s e de verdes comple men tares p or pesso as ju rídicas e revo ga a Lei Comp lementa r nº 136, de 22 de julho de 1986 –, d ispondo sob re o cercamento de áreas destinadas ao entretenimento infa ntil. O PREF EITO MUN ICIPAL DE PO RTO ALEGRE Faço sab er que a Câmara Municipa l aprovo u e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Or gâ nica d o Municíp io, sanc iono a se guinte Lei",
  "preambulo": null,
@@ -38,10 +39,11 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido",
    "sem_fecho"
   ],
-  "avisos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
   "metricas": {
    "artigos": 2,
    "dispositivos": 2,

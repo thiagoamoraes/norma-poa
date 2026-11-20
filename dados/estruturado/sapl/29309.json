@@ -2,18 +2,19 @@
  "idSapl": 29309,
  "rotulo": "Lei Complementar municipal nº 412, de 24 de março de 1998",
  "sha256Origem": "34db533f448f1da916721315726617885e5d2bc2a28d5155cd4416a35b32a79a",
- "estruturadoEm": "2026-11-20T09:25:03.167Z",
- "versaoEstruturador": 5,
+ "estruturadoEm": "2026-11-20T11:52:24.485Z",
+ "versaoEstruturador": 7,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "412",
+  "ano": "1998",
+  "data": "1998-03-24",
   "epigrafe": "LEICOMPLEMENTAR Nº 412, DE 24 DE MARÇO DE 1998.",
   "proveniencia": {
    "promulgadoPor": null,
    "motivoProvavel": "indeterminado"
-  }
+  },
+  "fonte": "catalogo"
  },
  "ementa": "Altera oart. 8º da Lei Complementar nº 320, de 02 de maio de 1994, que dispõe sobrea denominação de logradouros públicos, e dá outras providências. O PRESIDENTEDA CÂMARAMUNICIPAL DE PORTO ALEGRE Faço saber, nouso das atribuições que me obriga o parágrafo 7º, do art. 77, da Lei Orgânica,que a Câmara Municipal manteve e eu promulgo a seguinte Lei Complementar:",
  "preambulo": null,
@@ -45,10 +46,11 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido",
    "sem_fecho"
   ],
-  "avisos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
   "metricas": {
    "artigos": 3,
    "dispositivos": 3,

@@ -2,18 +2,19 @@
  "idSapl": 39259,
  "rotulo": "Lei Complementar municipal nº 734, de 24 de janeiro de 2014",
  "sha256Origem": "8353172448ba321e00db2b7bc80ad2dd39ccd9f8ba768c121ebcc2e0f5f50ea4",
- "estruturadoEm": "2026-11-19T09:26:03.470Z",
- "versaoEstruturador": 5,
+ "estruturadoEm": "2026-11-20T11:52:20.956Z",
+ "versaoEstruturador": 7,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "734",
+  "ano": "2014",
+  "data": "2014-01-24",
   "epigrafe": "brasao.gif Prefeitura Municipal de Porto",
   "proveniencia": {
    "promulgadoPor": "PREFEITO",
    "motivoProvavel": "sancao_normal"
-  }
+  },
+  "fonte": "catalogo"
  },
  "ementa": "(2807 bytes) Alegre LEI COMPLEMENTAR734, DE 24 DE JANEIRO DE 2014. Inclui art. 222-Ana Lei Complementar nº 284, de 27 de outubro de 1992 – que institui o Códigode Edificações de Porto Alegre e dá outras         providências       –,      e alteraçõesposteriores, permitindo o uso de telhado       verde     sobre    lajes    e demaiscoberturas do último pavimento de edificações. OPREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições queconfere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono aseguinte Lei Complementar:",
  "preambulo": null,
@@ -38,10 +39,11 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido",
    "bloco_de_alteracao_sem_dono"
   ],
-  "avisos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
   "metricas": {
    "artigos": 2,
    "dispositivos": 2,

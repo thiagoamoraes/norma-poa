@@ -2,18 +2,19 @@
  "idSapl": 39227,
  "rotulo": "Lei Complementar municipal nº 730, de 10 de janeiro de 2014",
  "sha256Origem": "8ebdd7aac96793b119f2e6f9ec42223dae702cdbb53db96623edb0361a7e8c64",
- "estruturadoEm": "2026-11-19T09:26:03.481Z",
- "versaoEstruturador": 5,
+ "estruturadoEm": "2026-11-20T11:52:20.981Z",
+ "versaoEstruturador": 7,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "730",
+  "ano": "2014",
+  "data": "2014-01-10",
   "epigrafe": "brasao.gif Prefeitura Municipal de Porto",
   "proveniencia": {
    "promulgadoPor": "PREFEITO",
    "motivoProvavel": "sancao_normal"
-  }
+  },
+  "fonte": "catalogo"
  },
  "ementa": "(2807 bytes) Alegre LEI COMPLEMENTAR730, DE 10 DE JANEIRO DE 2014. Altera a ementa e o parágrafo únicodo art. 1º da Lei Complementar nº 560, de 3 de janeiro de 2007, incluindoageração de energia elétrica fotovoltaica dentre os objetivos do Programa deIncentivos ao Uso de Energia Solar nas Edificações. OPREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições queconfere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono aseguinte Lei Complementar:",
  "preambulo": null,
@@ -43,11 +44,11 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido"
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
   ],
-  "avisos": [],
   "metricas": {
    "artigos": 3,
    "dispositivos": 3,

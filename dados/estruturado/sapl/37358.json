@@ -2,18 +2,19 @@
  "idSapl": 37358,
  "rotulo": "Lei Complementar municipal nº 674, de 16 de junho de 2011",
  "sha256Origem": "9e531c58ef50742f01b6d1622406c9c4220e94841b8c008dcc7e416e186975d7",
- "estruturadoEm": "2026-11-19T09:26:03.786Z",
- "versaoEstruturador": 5,
+ "estruturadoEm": "2026-11-20T11:52:21.482Z",
+ "versaoEstruturador": 7,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "numero": "674",
+  "ano": "2011",
+  "data": "2011-06-16",
   "epigrafe": "LEI COMPLEMENTAR Nº 67 4, DE 16 DE JUNHO DE 2011 .",
   "proveniencia": {
    "promulgadoPor": null,
    "motivoProvavel": "indeterminado"
-  }
+  },
+  "fonte": "catalogo"
  },
  "ementa": "Altera o art. 2 9 e o § 3º do art. 30 e revoga o § 7º do art. 6º, todos da Lei Co mplementar nº 197, de 21 d e março de 1989 – que institui e disciplina o Imposto s obre a transmi s são \"inter -vi vos\", po r ato oneroso, de bens i móvei s e de direitos r eais a eles rela tivos –, e altera ções post eriores, dispon do so bre instrumentos de impugna ção à estimativa e à reestimativa fisca is. O PREF EITO MUN ICIPAL DE PO RTO ALEGRE Faço sab er que a Câmara Municipa l aprovo u e eu , no uso das atribuições que me confere o inciso II do artigo 94 da Lei Or gâ nica d o Municíp io, sanc iono a se guinte Lei Comp lementar:",
  "preambulo": null,
@@ -45,11 +46,12 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido",
    "sem_fecho",
    "rotulo_nao_confere_com_a_origem"
   ],
-  "avisos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
   "metricas": {
    "artigos": 3,
    "dispositivos": 3,

@@ -2,18 +2,19 @@
  "idSapl": 39106,
  "rotulo": "Lei Complementar municipal nº 720, de 08 de novembro de 2013",
  "sha256Origem": "b6f85ae14f26bbe4eba4b74facccf97c9e0865423b8c2911ed4fe064e8325714",
- "estruturadoEm": "2026-11-19T09:26:03.518Z",
- "versaoEstruturador": 5,
+ "estruturadoEm": "2026-11-20T11:52:21.062Z",
+ "versaoEstruturador": 7,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "720",
+  "ano": "2013",
+  "data": "2013-11-08",
   "epigrafe": "brasao.gif Prefeitura Municipal de Porto",
   "proveniencia": {
    "promulgadoPor": "PREFEITO",
    "motivoProvavel": "sancao_normal"
-  }
+  },
+  "fonte": "catalogo"
  },
  "ementa": "(2807 bytes) Alegre LEICOMPLEMENTAR Nº 720, DE 8 DE NOVEMBRO DE 2013. Institui comoÁrea de Interesse Cultural (AIC), os imóveis situados na MZ 08 UEU 066 –Quarteirão 01, na área denominada Aldeia Indígena Charrua Polidoro,localizada na Estrada São Caetano, nº 2004, caracterizada como propriedademunicipal indivisível, institui regime urbanístico próprio e dá outrasprovidências. PREFEITO MUNICIPAL DE PORTO ALEGRE saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confereo inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinteComplementar:",
  "preambulo": null,
@@ -77,11 +78,11 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido"
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
   ],
-  "avisos": [],
   "metricas": {
    "artigos": 8,
    "dispositivos": 8,

@@ -18,6 +18,22 @@
 
 import { parseLeiPublicada, atribuirDesFixoOriginal, detectNRCandidates } from '../norma-core.js';
 
+/**
+ * Corte de época (orientação do mantenedor, 20/11/2026): a LC 611/2009, sancionada
+ * em 03/02/2009, fixa a técnica legislativa de hoje. Antes dela a redação era
+ * diferente e falhas de compilação são esperadas (não são, por si, defeito do motor).
+ */
+export const DATA_CORTE_EPOCA = '2009-02-03';
+
+/** 'antiga' (antes da sanção da LC 611) | 'recente' | 'indefinida' (sem data nem ano que decida). */
+export function epocaDaNorma(registro) {
+  const data = String(registro?.data ?? '');
+  if (/^\d{4}-\d{2}-\d{2}/.test(data)) return data.slice(0, 10) < DATA_CORTE_EPOCA ? 'antiga' : 'recente';
+  const ano = Number(registro?.ano);
+  if (!Number.isInteger(ano) || ano < 1000) return 'indefinida';
+  return ano < 2009 ? 'antiga' : ano > 2009 ? 'recente' : 'indefinida'; // só o ano 2009 não decide
+}
+
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
 export const VERSAO_ESTRUTURADOR = 7;
 

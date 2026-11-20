@@ -7,6 +7,7 @@
 
 import fs from 'node:fs';
 import { estruturarNorma, slugDoRotulo, conferirConservacao } from './ingestao/estrutura.mjs';
+import * as estrutura from './ingestao/estrutura.mjs';
 import { htmlSirelParaTexto, prepararTextoExtraido } from './ingestao/extracao-texto.mjs';
 import { limparMarkdownLinks, parseLeiPublicada } from './norma-core.js';
 
@@ -80,6 +81,17 @@ const reg = (tipoSapl, numero) => regs.find((r) => r.tipoSapl === tipoSapl && r.
   ok('LC 719 anexada ao registro da LC 723: NÃO herda a identidade do catálogo', lc('lc719_2013', '723').verificacao.motivos.includes('cabecalho_nao_reconhecido'));
   const sint = (cab) => estruturarNorma(`${cab}\n\nDispõe sobre algo.\n\nArt. 1º Fica criado o algo.\n\nArt. 2º Esta Lei Complementar entra em vigor.\n`, reg(6, '719'));
   ok('(sintético) "LEI COMPLEMENTARES Nº 719" (palavra diferente) não é aceito como tipo', sint('LEI COMPLEMENTARES Nº 719, DE 30 DE SETEMBRO DE 2013.').verificacao.motivos.includes('cabecalho_nao_reconhecido'));
+}
+
+// --- época da norma: corte na sanção da LC 611 (03/02/2009) ----------------
+{
+  const ep = (r) => estrutura.epocaDaNorma?.(r);
+  ok('época: LC 611 (sancionada em 03/02/2009) já é recente', ep(reg(6, '611')) === 'recente');
+  ok('época: LC 689/2012 é recente', ep(reg(6, '689')) === 'recente');
+  ok('época: LC 358/1995 é antiga', ep(reg(6, '358')) === 'antiga');
+  ok('época (sintético): véspera do corte (02/02/2009) é antiga', ep({ data: '2009-02-02', ano: 2009 }) === 'antiga');
+  ok('época (sintético): sem data, só o ano — 2008 antiga, 2010 recente', ep({ ano: 2008 }) === 'antiga' && ep({ ano: 2010 }) === 'recente');
+  ok('época (sintético): sem data e ano 2009 (ou sem nada) → indefinida, nunca palpite', ep({ ano: 2009 }) === 'indefinida' && ep({}) === 'indefinida' && ep(null) === 'indefinida');
 }
 
 // --- o que NÃO pode ser aceito ---------------------------------------------

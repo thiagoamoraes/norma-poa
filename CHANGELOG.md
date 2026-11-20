@@ -1469,6 +1469,16 @@ Correção (em `ingestao/estrutura.mjs`, só no reconhecimento por catálogo; o 
 - `teste_estrutura.mjs` 35 → 42 (LCs 719/2013, 723/2013, 674/2011, 741/2014 e 358/1995 reais em `fixtures/textos/`; 4 falham contra o código antigo; o da LC 358 e os dois negativos são de guarda). `VERSAO_ESTRUTURADOR` 7.
 - Efeito medido nas 823, norma a norma (sem gravar em `dados/`): 24 perdem o motivo de cabeçalho, 11 passam a **aceitas** por esta rodada (mais a LC 689 da rodada 24), nenhuma piora. Esperado após a coleta noturna: ~527 aceitas de 823 (64,0%).
 
+## Rodada 26 — fila de revisão separada por época (tarefa 1, 20/11/2026)
+
+Orientação do mantenedor: a LC 611/2009 vale da sanção (03/02/2009) em diante; antes dela a técnica legislativa era outra e falhas de compilação são esperadas. O corte é fixo nessa data.
+
+- `ingestao/estrutura.mjs`: `DATA_CORTE_EPOCA` e `epocaDaNorma(registro)` → `antiga` | `recente` | `indefinida` (sem data, só o ano 2009 não decide; sem nada, `indefinida` — nunca palpite). Pura.
+- `ingestao/estruturar.mjs`: `RELATORIO.md` ganha a tabela "Por época" (aceitas, a revisar, taxa), os motivos só das recentes e duas filas — recentes (prioridade) e antigas. `_resumo.json` ganha `porEpoca` (aditivo).
+- `teste_estrutura.mjs` 42 → 48 (6 falham contra o código antigo). `normateste.mjs` idêntico; core intocado.
+- Medido com a versão 7 do estruturador: **527 aceitas de 823 (64,0%)**; recentes 343 de 478 (**71,8%**); antigas 184 de 345 (53,3%). Motivos das recentes: `rotulo_nao_confere_com_a_origem` 58 · `trecho_nao_localizado_na_origem` 55 · `texto_fora_da_arvore` 35 · `sem_fecho` 31 · `bloco_de_alteracao_sem_dono` 25.
+- `dados/estruturado/` regravado localmente com a versão 7 (o mesmo que a coleta noturna faria).
+
 ## Passagem de sessão (20/11/2026)
 
 Sem mudança de código. Registrado: estado da tarefa 1 (62,6% aceitas em 823 textos),

@@ -2,18 +2,19 @@
  "idSapl": 39200,
  "rotulo": "Lei Complementar municipal nº 722, de 30 de dezembro de 2013",
  "sha256Origem": "d639c6ab1168f6141fc075dec7cd922a9812efbc6c730d51250af29e214019ae",
- "estruturadoEm": "2026-11-19T09:26:03.503Z",
- "versaoEstruturador": 5,
+ "estruturadoEm": "2026-11-20T11:52:21.033Z",
+ "versaoEstruturador": 7,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "722",
+  "ano": "2013",
+  "data": "2013-12-30",
   "epigrafe": "brasao.gif Prefeitura Municipal de Porto",
   "proveniencia": {
    "promulgadoPor": "PREFEITO",
    "motivoProvavel": "sancao_normal"
-  }
+  },
+  "fonte": "catalogo"
  },
  "ementa": "(2807 bytes) Alegre LEI COMPLEMENTAR722, DE 30 DE DEZEMBRO DE 2013. Altera o caputdo art. 9º e o § 2º do art. 17-A da Lei Complementar nº 636, de 13 dejaneiro de 2010, alterada pela Lei Complementar nº 699, de 28 de junho de2012, ampliando a base de instituições financeiras às quais está o ExecutivoMunicipal autorizado a doar áreas de terra de sua propriedade para aconstrução de habitações que especifica. OPREFEITO MUNICIPAL DE PORTO ALEGRE Façosaber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confereo inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinteComplementar:",
  "preambulo": null,
@@ -44,11 +45,11 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido"
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
   ],
-  "avisos": [],
   "metricas": {
    "artigos": 3,
    "dispositivos": 3,

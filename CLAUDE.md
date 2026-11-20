@@ -74,10 +74,10 @@ Tipos: `artigo | paragrafo | inciso | alinea | item | ementa | em | omissao | te
 
 ## Época da norma e grau de revisão humana (orientação do mantenedor, 20/11/2026)
 
-- A LC 611/2009 vale da sua sanção em diante. Normas **anteriores a cerca de 2005** (corte aproximado, sem segurança sobre o rigor de redação de antes) seguem uma técnica legislativa diferente da de hoje (§ 1º sozinho, alteradora sem aspas, numeração e rótulos fora do padrão): **esperam-se problemas de compilação nelas**, e cada falha dessa época **não é, por si só, defeito do motor**. As normas recentes seguem a técnica atual.
+- A LC 611/2009 vale da sua sanção em diante. Normas **anteriores à sanção da LC 611 (03/02/2009 — corte fixado pelo mantenedor, sem segurança sobre o rigor de redação de antes)** seguem uma técnica legislativa diferente da de hoje (§ 1º sozinho, alteradora sem aspas, numeração e rótulos fora do padrão): **esperam-se problemas de compilação nelas**, e cada falha dessa época **não é, por si só, defeito do motor**. As normas recentes seguem a técnica atual.
 - Por isso a revisão humana é esperada na maior parte do acervo antigo, mas **não pode ser tão grande que impeça a automação**: a conferência do motor deve sinalizar com precisão, sem exigir olhar tudo.
 - Para normas de peso (ex. LC 7/1973 e suas alterações), a conferência de referência é a **compilação do leis.org**, à mão e como auxílio (não como fonte de coleta automática); onde ela diverge do texto da lei, vale a lei (decisão de 17/11/2026).
-- Ainda não implementado: separar a fila de revisão por época (≤ ~2005 × depois).
+- **Implementado (rodada 26):** `epocaDaNorma` / `DATA_CORTE_EPOCA` em `ingestao/estrutura.mjs`; o relatório de estruturação separa taxa e fila em recentes × antigas. **A taxa das recentes é a que mede o leitor.**
 
 ## DOPA — fatos confirmados
 

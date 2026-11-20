@@ -2,18 +2,19 @@
  "idSapl": 39219,
  "rotulo": "Lei Complementar municipal nº 725, de 07 de janeiro de 2014",
  "sha256Origem": "efff77b332fe914f9338e9c7fdad4ccf9c540f3b2ed73cdee02161a5d14bb66b",
- "estruturadoEm": "2026-11-19T09:26:03.497Z",
- "versaoEstruturador": 5,
+ "estruturadoEm": "2026-11-20T11:52:21.017Z",
+ "versaoEstruturador": 7,
  "cabecalho": {
-  "tipoAto": null,
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "725",
+  "ano": "2014",
+  "data": "2014-01-07",
   "epigrafe": "brasao.gif",
   "proveniencia": {
    "promulgadoPor": "PREFEITO",
    "motivoProvavel": "sancao_normal"
-  }
+  },
+  "fonte": "catalogo"
  },
  "ementa": "(2807 bytes)          Prefeitura Municipal de Porto Alegre LEI COMPLEMENTAR725, DE 7 DE JANEIRO DE 2014. Altera a al. c do capute inclui al. f no inc. II do caput e § 6º no art. 8º daLei Complementar nº 197, de 21 de março de 1989 – que Institui e disciplinao Imposto sobre a transmissão “inter-vivos”, por ato oneroso, de bensimóveis e de direitos reais a eles relativos –, e alterações posteriores. OPREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições queconfere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono aseguinte Lei Complementar:",
  "preambulo": null,
@@ -36,11 +37,11 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido"
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
   ],
-  "avisos": [],
   "metricas": {
    "artigos": 2,
    "dispositivos": 2,

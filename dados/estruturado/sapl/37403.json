@@ -2,18 +2,19 @@
  "idSapl": 37403,
  "rotulo": "Lei Complementar municipal nº 676, de 06 de julho de 2011",
  "sha256Origem": "c2b2af10c93349e7aa0c0d000a4bb931bd96cccd9e2f37ffc3a1e076fbb908b5",
- "estruturadoEm": "2026-11-19T09:26:03.783Z",
- "versaoEstruturador": 5,
+ "estruturadoEm": "2026-11-20T11:52:21.477Z",
+ "versaoEstruturador": 7,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "numero": "676",
+  "ano": "2011",
+  "data": "2011-07-06",
   "epigrafe": "LEI COMPLEMENTAR Nº 67 6, DE 6 DE JULHO DE 2011.",
   "proveniencia": {
    "promulgadoPor": null,
    "motivoProvavel": "indeterminado"
-  }
+  },
+  "fonte": "catalogo"
  },
  "ementa": "Altera o caput do art. 74 e inclui par ágrafo único no art. 74 e a rt. 74 -A na Lei Co mplementar n º 12 , de 7 de ja neiro de 1975 – que institui posturas para o Mu nicípio de Po rto Alegre e dá o utras providên cia s –, e alterações post eriores, d ispond o sobre a criação de abelh as no Município de Porto Alegre. O PREF EITO MUN ICIPAL DE PO RTO ALEGRE Faço sab er que a Câmara Municipa l aprovo u e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Or gâ nica d o Municíp io, sanc iono a se guinte Lei Comp lementar:",
  "preambulo": null,
@@ -46,10 +47,11 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido",
    "sem_fecho"
   ],
-  "avisos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
   "metricas": {
    "artigos": 3,
    "dispositivos": 3,
