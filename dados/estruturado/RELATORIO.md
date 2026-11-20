@@ -1,6 +1,6 @@
 # Estruturação — relatório
 
-Gerado em 2026-11-20T12:28:37.462Z por `ingestao/estruturar.mjs` (versão do estruturador: 7). Não editar à mão.
+Gerado em 2026-11-20T13:04:49.761Z por `ingestao/estruturar.mjs` (versão do estruturador: 7). Não editar à mão.
 
 Uma norma só é **aceita** quando passa em todas as conferências: cabeçalho igual ao do catálogo (número, data, tipo), artigos numerados sem salto, rótulos iguais aos do texto de origem, nenhum texto fora da árvore, fecho presente. O resto vai para **revisar**, com o motivo.
 
@@ -19,6 +19,22 @@ Antes do corte a técnica legislativa era outra: falhas de compilação são esp
 |---|---|---|---|
 | recente | 343 | 135 | 71.8% |
 | antiga | 184 | 161 | 53.3% |
+
+## Revisão humana
+
+O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **aceita por humano** são contadas separadamente: só a primeira mede o leitor. Decisão de versão antiga do texto ou do leitor volta como **desatualizada**.
+
+| Situação | Recentes | Antigas | Total |
+|---|---|---|---|
+| aceita motor | 343 | 184 | 527 |
+| aceita humano | 0 | 0 | 0 |
+| corrigida | 0 | 0 | 0 |
+| defeito de fonte | 0 | 0 | 0 |
+| encaminhada | 0 | 0 | 0 |
+| pendente | 135 | 161 | 296 |
+| desatualizada | 0 | 0 | 0 |
+
+
 
 ### Motivos de revisão nas recentes
 
@@ -69,7 +85,7 @@ Antes do corte a técnica legislativa era outra: falhas de compilação são esp
 | `possivel_dispositivo_embutido` | 18 | 2.2% |
 | `dispositivo_muito_longo` | 12 | 1.5% |
 
-## Fila de revisão — recentes (prioridade)
+## Fila de revisão — recentes (prioridade; só pendentes e desatualizadas)
 
 - Emenda à Lei Orgânica nº 43, de 25 de maio de 2017 (`44305`): cabecalho_nao_reconhecido, sem_fecho, rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono
 - Emenda à Lei Orgânica nº 42, de 03 de agosto de 2016 (`44307`): cabecalho_nao_reconhecido, sem_fecho, texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono

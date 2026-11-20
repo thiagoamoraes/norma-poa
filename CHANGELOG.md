@@ -1492,6 +1492,14 @@ Plano e decisões da entrevista com o mantenedor em `PLANO-REVISAO.md`. Fase 1 e
 - `normateste.mjs` idêntico; demais testes sem mudança. Core intocado.
 - Limites desta fase: decisões ainda não alteram os relatórios (F4); alteradoras sem "comando × resultado" (F2); sem comparação com o leis.org (F3).
 
+## Rodada 28 — dashboard de revisão, fase 4: efeito das decisões (20/11/2026)
+
+- `ingestao/revisao.mjs`: `situacaoHumana`, `resumoHumano`, `listaParaOMotor`, `CATEGORIAS_HUMANAS`. Categorias: aceita pelo motor · aceita por humano · corrigida · defeito de fonte · encaminhada · pendente · desatualizada. "Aceitar" sobre norma que o motor já aceitou só a confirma.
+- `ingestao/estruturar.mjs`: o `RELATORIO.md` ganha a seção "Revisão humana" (recentes × antigas × total) e as filas passam a listar só **pendentes e desatualizadas**; `_resumo.json` ganha `humano`; grava `dados/revisao/PARA-O-MOTOR.md` (casos encaminhados ao motor, com a nota do revisor). Decisões não alteram a leitura nem `dados/estruturado/sapl/`.
+- `teste_revisao.mjs` 28 → 35 (normas reais das fixtures + decisões `(sintético)`; falha contra o código antigo). Verificado também de ponta a ponta com decisões temporárias sobre normas reais (cada categoria contou certo; arquivo de decisões restaurado vazio).
+- **Atenção:** como a decisão amarra `versaoEstruturador`, **todo `VERSAO_ESTRUTURADOR` novo reabre todas as decisões** (viram "desatualizadas"). É o desenho (princípio 2 do `PLANO-REVISAO.md`); por isso não subir a versão sem necessidade depois que houver revisão feita.
+- Fica para depois: sobreposições de rótulo valerem na página de consulta (com aviso).
+
 ## Passagem de sessão (20/11/2026)
 
 Sem mudança de código. Registrado: estado da tarefa 1 (62,6% aceitas em 823 textos),

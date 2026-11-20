@@ -17,6 +17,7 @@ import path from 'node:path';
 import { estruturarNorma, epocaDaNorma, VERSAO_ESTRUTURADOR } from './estrutura.mjs';
 import { lerJsonl, agora } from './sapl-io.mjs';
 import { prepararTextoExtraido } from './extracao-texto.mjs';
+import { lerDecisoesJsonl, resumoHumano, situacaoHumana, listaParaOMotor, CATEGORIAS_HUMANAS } from './revisao.mjs';
 
 const DIR_TEXTO = './dados/textos/sapl';
 const DIR_SAIDA = './dados/estruturado/sapl';
@@ -34,6 +35,7 @@ const contagem = { aceita: 0, revisar: 0 };
 const motivos = {};
 const avisos = {};
 const fila = [];
+const todas = []; // para a revisão humana (F4)
 const porEpoca = { recente: { aceita: 0, revisar: 0, motivos: {} }, antiga: { aceita: 0, revisar: 0, motivos: {} }, indefinida: { aceita: 0, revisar: 0, motivos: {} } };
 let refeitos = 0;
 let comErro = 0;
@@ -66,12 +68,21 @@ for (const [id, ind] of baixados) {
   for (const m of v.motivos) motivos[m] = (motivos[m] || 0) + 1;
   for (const a of v.avisos) avisos[a] = (avisos[a] || 0) + 1;
   const epoca = epocaDaNorma(catalogo.get(id));
+  todas.push({ idSapl: id, rotulo: reg.rotulo, epoca, situacao: v.situacao, motivos: v.motivos, sha256Origem: reg.sha256Origem, versaoEstruturador: reg.versaoEstruturador });
   porEpoca[epoca][v.situacao]++;
   for (const m of v.motivos) porEpoca[epoca].motivos[m] = (porEpoca[epoca].motivos[m] || 0) + 1;
   if (v.situacao === 'revisar') fila.push({ id, rotulo: reg.rotulo, motivos: v.motivos, epoca });
 }
 
 await writeFile('./dados/estruturado/_situacao.json', JSON.stringify(situacao) + '\n');
+
+// ── revisão humana (F4): as decisões em dados/revisao/decisoes.jsonl são uma camada à parte;
+// nunca alteram a leitura acima, só o que o relatório conta como "pendente".
+const ARQ_DECISOES = './dados/revisao/decisoes.jsonl';
+const { decisoes, erros: errosDecisoes } = existsSync(ARQ_DECISOES) ? lerDecisoesJsonl(await readFile(ARQ_DECISOES, 'utf8')) : { decisoes: new Map(), erros: [] };
+const humano = resumoHumano(todas, decisoes);
+const pendentesDaFila = new Set(todas.filter((n) => ['pendente', 'desatualizada'].includes(situacaoHumana(n, decisoes.get(n.idSapl)))).map((n) => n.idSapl));
+await writeFile('./dados/revisao/PARA-O-MOTOR.md', listaParaOMotor(todas, decisoes));
 
 const total = contagem.aceita + contagem.revisar;
 const pct = (n) => (total ? `${Math.round((1000 * n) / total) / 10}%` : '—');
@@ -84,13 +95,18 @@ const L = ['# Estruturação — relatório', '', `Gerado em ${agora()} por \`in
   'Antes do corte a técnica legislativa era outra: falhas de compilação são esperadas e não medem o leitor. **A taxa das recentes é a que mede o motor.**', '',
   '| Época | Aceitas | A revisar | Taxa de aceitação |', '|---|---|---|---|',
   ...Object.entries(porEpoca).filter(([, e]) => e.aceita + e.revisar).map(([k, e]) => `| ${k} | ${e.aceita} | ${e.revisar} | ${Math.round((1000 * e.aceita) / (e.aceita + e.revisar)) / 10}% |`), '',
+  '## Revisão humana', '',
+  'O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **aceita por humano** são contadas separadamente: só a primeira mede o leitor. Decisão de versão antiga do texto ou do leitor volta como **desatualizada**.', '',
+  '| Situação | Recentes | Antigas | Total |', '|---|---|---|---|',
+  ...CATEGORIAS_HUMANAS.map((c) => `| ${c.replace(/_/g, ' ')} | ${humano.recente[c]} | ${humano.antiga[c]} | ${humano.geral[c]} |`), '',
+  errosDecisoes.length ? `Linhas inválidas em \`decisoes.jsonl\` (ignoradas): ${errosDecisoes.length}.` : '', '',
   '### Motivos de revisão nas recentes', '', '| Motivo | Normas |', '|---|---|',
   ...Object.entries(porEpoca.recente.motivos).sort((a, b) => b[1] - a[1]).map(([k, v]) => `| \`${k}\` | ${v} |`), '',
   '## Motivos de revisão (todas as épocas)', '', '(uma norma pode ter mais de um)', '', '| Motivo | Normas | % do total |', '|---|---|---|', ...tabela(motivos), '',
   '## Avisos (não reprovam)', '', '| Aviso | Normas | % do total |', '|---|---|---|', ...tabela(avisos), '',
-  '## Fila de revisão — recentes (prioridade)', '', ...fila.filter((f) => f.epoca !== 'antiga').map((f) => `- ${f.rotulo} (\`${f.id}\`): ${f.motivos.join(', ')}`), '',
-  '## Fila de revisão — antigas (antes da LC 611; revisão humana esperada)', '', fila.filter((f) => f.epoca === 'antiga').length > 300 ? `Mostrando 300 de ${fila.filter((f) => f.epoca === 'antiga').length}.` : '', '',
-  ...fila.filter((f) => f.epoca === 'antiga').slice(0, 300).map((f) => `- ${f.rotulo} (\`${f.id}\`): ${f.motivos.join(', ')}`), ''];
+  '## Fila de revisão — recentes (prioridade; só pendentes e desatualizadas)', '', ...fila.filter((f) => f.epoca !== 'antiga' && pendentesDaFila.has(f.id)).map((f) => `- ${f.rotulo} (\`${f.id}\`): ${f.motivos.join(', ')}`), '',
+  '## Fila de revisão — antigas (antes da LC 611; revisão humana esperada)', '', fila.filter((f) => f.epoca === 'antiga' && pendentesDaFila.has(f.id)).length > 300 ? `Mostrando 300 de ${fila.filter((f) => f.epoca === 'antiga' && pendentesDaFila.has(f.id)).length}.` : '', '',
+  ...fila.filter((f) => f.epoca === 'antiga' && pendentesDaFila.has(f.id)).slice(0, 300).map((f) => `- ${f.rotulo} (\`${f.id}\`): ${f.motivos.join(', ')}`), ''];
 await writeFile('./dados/estruturado/RELATORIO.md', L.join('\n'));
-await writeFile('./dados/estruturado/_resumo.json', JSON.stringify({ em: agora(), aceitas: contagem.aceita, revisar: contagem.revisar, motivos, avisos, porEpoca }) + '\n');
+await writeFile('./dados/estruturado/_resumo.json', JSON.stringify({ em: agora(), aceitas: contagem.aceita, revisar: contagem.revisar, motivos, avisos, porEpoca, humano }) + '\n');
 console.log(`${agora()} estruturação: ${total} normas (${contagem.aceita} aceitas, ${contagem.revisar} a revisar); ${refeitos} processadas agora; ${comErro} com erro do leitor.`);

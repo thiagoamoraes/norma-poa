@@ -10,7 +10,7 @@ import fs from 'node:fs';
 import { estruturarNorma } from './ingestao/estrutura.mjs';
 import { prepararTextoExtraido } from './ingestao/extracao-texto.mjs';
 import { ancorarConferencia } from './ingestao/revisao-ancoras.mjs';
-import { validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao } from './ingestao/revisao.mjs';
+import { validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao, situacaoHumana, resumoHumano, listaParaOMotor, CATEGORIAS_HUMANAS } from './ingestao/revisao.mjs';
 
 let passou = 0, falhou = 0;
 const ok = (desc, cond) => { cond ? passou++ : falhou++; console.log(`${cond ? '✓' : '✗'} ${desc}`); };
@@ -85,6 +85,25 @@ const base = { idSapl: 48003, decisao: 'aceitar', sha256Origem: 'abc', versaoEst
   const m = new Map([[48003, base], [3, { ...base, idSapl: 3, sha256Origem: 'velho' }]]);
   const r = resumoDaRevisao(fila, m);
   ok('resumo: 1 revisada (aceitar), 1 desatualizada, 1 pendente', r.total === 3 && r.revisadas === 1 && r.desatualizadas === 1 && r.pendentes === 1 && r.porDecisao.aceitar === 1);
+}
+
+// --- F4: efeito das decisões nos relatórios ----------------------------------
+{
+  // normas reais (fixtures): uma que o motor aceita e uma que reprova
+  const aceita = carregar('lc689_2012', 6, '689').e, reprova = carregar('lc1005_2024', 6, '1005').e;
+  const nA = { idSapl: 38042, rotulo: 'LC 689/2012', epoca: 'recente', situacao: aceita.verificacao.situacao, motivos: aceita.verificacao.motivos, sha256Origem: 'sha-a', versaoEstruturador: 7 };
+  const nR = { idSapl: 48003, rotulo: 'LC 1.005/2024', epoca: 'recente', situacao: reprova.verificacao.situacao, motivos: reprova.verificacao.motivos, sha256Origem: 'sha-r', versaoEstruturador: 7 };
+  const dec = (n, decisao, extra = {}) => ({ idSapl: n.idSapl, decisao, sha256Origem: n.sha256Origem, versaoEstruturador: n.versaoEstruturador, em: '2026-11-20T12:00:00Z', ...extra });
+  ok('(sintético) humano: norma que o motor aceita, sem decisão = aceita_motor; que reprova, sem decisão = pendente', situacaoHumana(nA, undefined) === 'aceita_motor' && situacaoHumana(nR, undefined) === 'pendente');
+  ok('(sintético) humano: cada decisão sobre norma reprovada vira a categoria certa', situacaoHumana(nR, dec(nR, 'aceitar')) === 'aceita_humano' && situacaoHumana(nR, dec(nR, 'corrigir', { correcoes: [] })) === 'corrigida' && situacaoHumana(nR, dec(nR, 'defeito_de_fonte')) === 'defeito_de_fonte' && situacaoHumana(nR, dec(nR, 'encaminhar_ao_motor')) === 'encaminhada');
+  ok('(sintético) humano: "aceitar" sobre norma que o motor já aceitou só a confirma (não vira aceita_humano)', situacaoHumana(nA, dec(nA, 'aceitar')) === 'aceita_motor');
+  ok('(sintético) humano: decisão de texto ou leitor antigo reabre a norma (desatualizada)', situacaoHumana(nR, { ...dec(nR, 'aceitar'), sha256Origem: 'velho' }) === 'desatualizada' && situacaoHumana(nR, { ...dec(nR, 'aceitar'), versaoEstruturador: 6 }) === 'desatualizada');
+  const m = new Map([[nR.idSapl, dec(nR, 'encaminhar_ao_motor', { nota: '§ 1º sozinho na lei' })]]);
+  const r = resumoHumano([nA, nR, { ...nR, idSapl: 1, epoca: 'antiga' }], m);
+  ok('(sintético) resumo humano: separa por época e a soma fecha com o total', r.recente.aceita_motor === 1 && r.recente.encaminhada === 1 && r.antiga.pendente === 1 && CATEGORIAS_HUMANAS.reduce((t, c) => t + r.geral[c], 0) === 3);
+  const md = listaParaOMotor([nA, nR], m);
+  ok('lista para o motor: só os encaminhados, com o rótulo, os motivos reais e a nota', /Casos: 1/.test(md) && md.includes('LC 1.005/2024') && md.includes('rotulo_nao_confere_com_a_origem') && md.includes('§ 1º sozinho na lei') && !md.includes('LC 689/2012'));
+  ok('lista para o motor: decisão desatualizada não entra', /Casos: 0/.test(listaParaOMotor([{ ...nR, sha256Origem: 'outro' }], m)));
 }
 
 // --- acervo inteiro: as âncoras concordam com o veredito do estruturador -----
