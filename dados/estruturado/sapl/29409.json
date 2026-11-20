@@ -2,8 +2,8 @@
  "idSapl": 29409,
  "rotulo": "Lei Complementar municipal nº 417, de 10 de junho de 1998",
  "sha256Origem": "32722ce137d9d8bd527c68c67b93e6c4438dc71d0ea29b34dd8fbea7ebe7b741",
- "estruturadoEm": "2026-11-20T13:59:55.131Z",
- "versaoEstruturador": 9,
+ "estruturadoEm": "2026-11-20T16:24:19.875Z",
+ "versaoEstruturador": 10,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "417",
@@ -25,28 +25,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "® - A alínea “b” do inciso I do artigo 176 da Lei Complementar n® 133, de 31 de dezembro de 1985, passa a vigorar com a seguinte redação: \"Art. 176-0 provento será:"
-  },
-  {
-   "id": "art-1/inc-I",
-   "pai": "art-1",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "integral quando o funcionário:"
-  },
-  {
-   "id": "art-1/inc-I/ali-a",
-   "pai": "art-1/inc-I",
-   "tipo": "alinea",
-   "rotulo": "a)",
-   "texto": "...;"
-  },
-  {
-   "id": "art-1/inc-I/ali-b",
-   "pai": "art-1/inc-I",
-   "tipo": "alinea",
-   "rotulo": "b)",
-   "texto": "for acometido de alienação mental especificada como psicose, neoplasia maligna, pênfigo foliáceo, cegueira, neuropatias, pneumopatias, doenças traumato-ortopédicas, cardiopatias, vasculopatias, gastroenteropatias, nefropatia, Síndrome de Imunodeficiên cias, diabete e hanseníase, desde que nas suas formas graves, conta giosas ou incuráveis e incapacitantes para o exercício da função públi ca e outras moléstias que a Lei venha a indicar, com base e!^^«onclusões da medicina especializada;’"
+   "texto": "® - A alínea “b” do inciso I do artigo 176 da Lei Complementar n® 133, de 31 de dezembro de 1985, passa a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 176-0 provento será:\nI - integral quando o funcionário:\na) ...;\nb) for acometido de alienação mental especificada\ncomo psicose, neoplasia maligna, pênfigo foliáceo, cegueira, neuropatias, pneumopatias, doenças traumato-ortopédicas, cardiopatias, vasculopatias, gastroenteropatias, nefropatia, Síndrome de Imunodeficiên\ncias, diabete e hanseníase, desde que nas suas formas graves, conta\ngiosas ou incuráveis e incapacitantes para o exercício da função públi\nca e outras moléstias que a Lei venha a indicar, com base e!^^«onclusões da medicina especializada;’"
   },
   {
    "id": "art-2",
@@ -66,22 +46,25 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+   "bloco_sem_fechamento_de_aspas"
   ],
   "avisos": [
    "cabecalho_fora_do_padrao"
   ],
   "metricas": {
    "artigos": 3,
-   "dispositivos": 6,
-   "cobertura": 0.967,
-   "blocosDeAlteracao": 0,
+   "dispositivos": 3,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
     {
-     "rotulo": "a)",
-     "naOrigem": ""
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 12,
+     "linhaFim": 19,
+     "confianca": "media"
     }
    ]
   }

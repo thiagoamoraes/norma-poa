@@ -2,8 +2,8 @@
  "idSapl": 29528,
  "rotulo": "Lei Complementar municipal nº 422, de 09 de setembro de 1998",
  "sha256Origem": "997fc7bfaadec91d2b9ef1ae72e4deec8125cae19fbe0b64c1dabfb542e348f2",
- "estruturadoEm": "2026-11-20T13:59:55.043Z",
- "versaoEstruturador": 9,
+ "estruturadoEm": "2026-11-20T16:24:19.783Z",
+ "versaoEstruturador": 10,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "422",
@@ -25,7 +25,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "“ - O art. 183 da Lei Complementar n“ 284/92 passa a ter a seguinte redação; “Art. 183 - Os reservatórios serão de concreto arma do, admitindo-se o emprego de fibrocimento ou outro material, em re servatórios pré-fabricados ou não, desde que atendam às especifica ções da ABNT (Associação Brasileira de Normas Técnicas) ou outra norma técnica equivalente.*"
+   "texto": "“ - O art. 183 da Lei Complementar n“ 284/92 passa a ter a seguinte redação;",
+   "blocoDeAlteracao": "“Art. 183 - Os reservatórios serão de concreto arma\ndo, admitindo-se o emprego de fibrocimento ou outro material, em re\nservatórios pré-fabricados ou não, desde que atendam às especifica\nções da ABNT (Associação Brasileira de Normas Técnicas) ou outra\nnorma técnica equivalente.*"
   },
   {
    "id": "art-2",
@@ -43,8 +44,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "bloco_sem_fechamento_de_aspas"
+  ],
   "avisos": [
    "cabecalho_fora_do_padrao"
   ],
@@ -52,10 +55,18 @@
    "artigos": 3,
    "dispositivos": 3,
    "cobertura": 0.959,
-   "blocosDeAlteracao": 0,
+   "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": []
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 10,
+     "linhaFim": 14,
+     "confianca": "media"
+    }
+   ]
   }
  }
 }

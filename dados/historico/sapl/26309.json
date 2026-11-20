@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-20T13:59:56.436Z",
+ "geradoEm": "2026-11-20T16:24:21.159Z",
  "idSapl": 26309,
  "rotulo": "Lei Complementar municipal nº 267, de 16 de janeiro de 1992",
  "baseConferida": true,
@@ -18,7 +18,7 @@
     "idSapl": 26970,
     "rotulo": "Lei Complementar municipal nº 293, de 28 de abril de 1993"
    },
-   "comandosAplicados": 2
+   "comandosAplicados": 4
   }
  ],
  "dispositivos": [
@@ -439,7 +439,41 @@
    "estados": [
     {
      "desde": 1,
-     "texto": "Para efeitos do que trata o 'caput'     deste artigo, é fixado em 70% (setenta por cento) do valor da URM a gr~ tificação a titulo de 'jetton",
+     "texto": "Para efeitos do que trata o 'caput'     deste artigo, é fixado em 70% (setenta por cento) do valor da URM a gr~ tificação a titulo de 'jetton'.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 293/1993"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/par-2",
+   "pai": "art-13",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Somente terão direito à percepção de    'jetton' os membros dos Conselhos arrolados no Anexo I, que faz parte desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 293/1993"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/par-3",
+   "pai": "art-13",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Fica limitado o direito ao recebimento      de 'jetton' ao máximo de 04 (quatro) sessões ordinárias,    mais 1 (uma) extraordinária  por mês.",
      "situacao": "vigente",
      "origem": {
       "operacao": "insert_node",

@@ -81,6 +81,8 @@
   #origem .d.bad { background: var(--erro-fraca); border-bottom: 2px solid var(--erro); }
   #origem .lac { background: var(--alerta-fraca); border-bottom: 2px dashed var(--alerta); }
   #origem .sel { outline: 2px solid var(--marca); background: var(--marca-fraca); }
+  #origem .fr { background: color-mix(in srgb, #3b82c4 18%, transparent); border-bottom: 2px solid #3b82c4; }
+  .fr-nota { padding: 6px 10px; border-radius: 4px; background: color-mix(in srgb, #3b82c4 14%, var(--papel)); border-left: 3px solid #3b82c4; font-size: .88rem; margin: 0 0 10px; }
   .leg { font-size: .75rem; color: var(--suave); font-weight: 400; }
   .leg i { display: inline-block; width: .9em; height: .9em; border-radius: 2px; vertical-align: -1px; margin-right: 3px; }
 
@@ -160,6 +162,9 @@ const ROTULO_DEFEITO = { aspas_faltando: 'aspas de fechamento faltando', aspas_f
 const MOTIVOS = {
   rotulo_nao_confere_com_a_origem: 'O rótulo que o leitor deu (por posição) não é o que está escrito antes do trecho no arquivo.',
   trecho_nao_localizado_na_origem: 'Um trecho da árvore não aparece no texto de origem, na ordem esperada.',
+  bloco_sem_fechamento_de_aspas: 'O fim do bloco de alteração foi INFERIDO (faltam as aspas de fechamento): confira o trecho em azul.',
+  aspa_de_abertura_ausente: 'O bloco de alteração abre pelo cabeçalho com reticências, sem aspa de abertura: confira os limites (trecho em azul).',
+  alteracao_sem_aspas_nao_delimitada: 'Há introdução de alteração sem nenhum bloco lido: a lei-alvo pode ter sido lida como dispositivo da alteradora.',
   texto_fora_da_arvore: 'Há texto no arquivo que não foi para nenhum dispositivo.',
   sem_fecho: 'Não foi reconhecido o fecho (local, data e assinatura).',
   bloco_de_alteracao_sem_dono: 'Há bloco de redação alterada que não se liga a nenhum dispositivo da alteradora.',
@@ -264,9 +269,11 @@ function pintarNorma() {
   const fmt = (d) => (d ? new Date(d + 'T12:00:00').toLocaleDateString('pt-BR') : '—');
   const datas = n.datas ? el('p', { class: 'datas' }, `Datas divergentes: catálogo ${fmt(n.datas.catalogo)} · escrita no arquivo ${fmt(n.datas.arquivo)}. Decida caso a caso qual está certa (o motor não escolhe): se o arquivo tem razão, é erro de cadastro; se o catálogo tem razão, é defeito do arquivo ou data de outro ato.`) : null;
   $('norma').replaceChildren(
-    ...[el('h2', {}, n.rotulo), meta, porque, datas, blocoDecisao(),
+    ...[el('h2', {}, n.rotulo), meta, porque, datas,
+      n.fronteiras?.length ? el('p', { class: 'fr-nota' }, `Fronteira inferida pelo motor (confiança ${[...new Set(n.fronteiras.map((f) => f.confianca))].join('/')}): ${n.fronteiras.length} trecho(s) em azul no texto de origem. Aqui o revisor só ACEITA ou marca defeito de fonte; a decisão não muda o que o motor lê.`) : null,
+      blocoDecisao(),
     el('div', { id: 'paineis' },
-      el('div', { class: 'painel' }, el('h3', {}, el('span', {}, 'Texto de origem (como extraído)'), el('span', { class: 'leg' }, el('i', { style: 'background:var(--erro-fraca);border-bottom:2px solid var(--erro)' }), 'rótulo não confere  ', el('i', { style: 'background:var(--alerta-fraca);border-bottom:2px dashed var(--alerta)' }), 'fora da árvore')), el('div', { class: 'rolagem', id: 'rol-origem', tabindex: 0 }, el('div', { id: 'origem' }))),
+      el('div', { class: 'painel' }, el('h3', {}, el('span', {}, 'Texto de origem (como extraído)'), el('span', { class: 'leg' }, el('i', { style: 'background:var(--erro-fraca);border-bottom:2px solid var(--erro)' }), 'rótulo não confere  ', el('i', { style: 'background:var(--alerta-fraca);border-bottom:2px dashed var(--alerta)' }), 'fora da árvore  ', el('i', { style: 'background:color-mix(in srgb,#3b82c4 18%,transparent);border-bottom:2px solid #3b82c4' }), 'fronteira inferida')), el('div', { class: 'rolagem', id: 'rol-origem', tabindex: 0 }, el('div', { id: 'origem' }))),
       el('div', { class: 'painel' }, el('h3', {}, el('span', {}, `Árvore do leitor (${n.dispositivos.length} dispositivos)`), el('span', { class: 'leg' }, 'clique para localizar no texto')), el('div', { class: 'rolagem', id: 'rol-arvore' }, arvore())))].filter((x) => x != null));
   $('norma').append(el('section', { id: 'comandos', hidden: true }));
   pintarOrigem();
@@ -293,6 +300,7 @@ function pintarOrigem() {
   const marcas = [];
   for (const d of n.dispositivos) if (d.ini != null && d.fim > d.ini) marcas.push({ ini: d.ini, fim: d.fim, cls: 'd' + (d.situacao === 'rotulo_diverge' ? ' bad' : ''), id: d.id });
   for (const l of n.lacunas) if (l.fim > l.ini) marcas.push({ ini: l.ini, fim: l.fim, cls: 'lac' });
+  for (const f of n.fronteiras || []) if (f.fim > f.ini) marcas.push({ ini: f.ini, fim: f.fim, cls: 'fr' });
   marcas.sort((a, b) => a.ini - b.ini);
   let p = 0;
   for (const m of marcas) {

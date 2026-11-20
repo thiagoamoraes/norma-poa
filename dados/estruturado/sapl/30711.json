@@ -2,8 +2,8 @@
  "idSapl": 30711,
  "rotulo": "Lei Complementar municipal nº 453, de 02 de agosto de 2000",
  "sha256Origem": "d6f11749f28018adc806a6ba1e92a779bf31a8cd1fded7d2035c71298e2c935b",
- "estruturadoEm": "2026-11-20T13:59:53.133Z",
- "versaoEstruturador": 9,
+ "estruturadoEm": "2026-11-20T16:24:17.804Z",
+ "versaoEstruturador": 10,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "453",
@@ -25,28 +25,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "® - Fica alterada a redação do §3° do art. 69 da Lei Complementar n° 7, de 7 de dezembro de 1973, e alterações posteriores, que passa a vigorar com a seguinte redação: “Art. 69 - ..."
-  },
-  {
-   "id": "art-1/par-unico",
-   "pai": "art-1",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "texto": "A multa para os débitos com a Fazenda Municipal será aplicada sobre o valor monetariamente corrigido do tributo e será de:"
-  },
-  {
-   "id": "art-1/par-unico/inc-I",
-   "pai": "art-1/par-unico",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "2% (dois por cento), quando o pagamento se der ainda no curso do mês subseqüente ao da competência do imposto;"
-  },
-  {
-   "id": "art-1/par-unico/inc-II",
-   "pai": "art-1/par-unico",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "texto": "10% (dez por cento), quando o pagamento se der a partir do segundo mês subseqüente ao da competência do imposto’."
+   "texto": "® - Fica alterada a redação do §3° do art. 69 da Lei Complementar n° 7, de 7 de dezembro de 1973, e alterações posteriores, que passa a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "“Art. 69 - ...\n§3° - A multa para os débitos com a Fazenda Municipal\nserá aplicada sobre o valor monetariamente corrigido do tributo e será\nde:\nI - 2% (dois por cento), quando o pagamento se der\nainda no curso do mês subseqüente ao da competência do imposto;\nII - 10% (dez por cento), quando o pagamento se der a\npartir do segundo mês subseqüente ao da competência do imposto’."
   },
   {
    "id": "art-2",
@@ -59,22 +39,25 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+   "bloco_sem_fechamento_de_aspas"
   ],
   "avisos": [
    "cabecalho_fora_do_padrao"
   ],
   "metricas": {
    "artigos": 2,
-   "dispositivos": 5,
-   "cobertura": 0.969,
-   "blocosDeAlteracao": 0,
+   "dispositivos": 2,
+   "cobertura": 0.973,
+   "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
     {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "3"
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 7,
+     "linhaFim": 14,
+     "confianca": "media"
     }
    ]
   }

@@ -2,8 +2,8 @@
  "idSapl": 30483,
  "rotulo": "Lei Complementar municipal nº 445, de 19 de abril de 2000",
  "sha256Origem": "1eb8eda923e5cb8bbbd6d11ef86a69bdb9422cd10c7cc2adf6467492fa11ccc0",
- "estruturadoEm": "2026-11-20T13:59:53.149Z",
- "versaoEstruturador": 9,
+ "estruturadoEm": "2026-11-20T16:24:17.823Z",
+ "versaoEstruturador": 10,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "445",
@@ -33,8 +33,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 2º",
-   "texto": "® - O art. 7° da Lei Complementar n® 242, de 9 de janeiro de 1991, passa a vigorar com a seguinte redação; ‘Art. 7® - Nos contratos de Concessão do Direito Real de Uso, no caso de morte do titular, será prevista a ordem de vocação hereditária nos termos do art. 1.603 do Código Civil Brasileiro.\" (NR) AíT. 3» - Acrescenta incisos III e IV ao art. 3®, §§ 9®, 10, 11, 12, 13, 14 e 15 ao art. 5® e parágrafo único ao art. 12 da Lei Complementar n° 242, de 9 de janeiro de 1991, com as seguintes reda ções;",
-   "blocoDeAlteracao": "“Art. 3® - ...\nIII - áreas necessárias para o pleno desenvolvimento\nda Cidade, considerando os projetos prioritários do governo, mediante\napreciação do COMATHAB (Conselho Municipal de Acesso à Terra e\nHabitação) e da UAMPA (União das Associações de Moradores de\nPorto Alegre);\nIV - os núcleos com menos de 25 (vinte e cinco) ha\nbitações, considerando a análise caso a caso, ouvindo o COMATHAB e\na UAMPA.”"
+   "texto": "® - O art. 7° da Lei Complementar n® 242, de 9 de janeiro de 1991, passa a vigorar com a seguinte redação; AíT. 3» - Acrescenta incisos III e IV ao art. 3®, §§ 9®, 10, 11, 12, 13, 14 e 15 ao art. 5® e parágrafo único ao art. 12 da Lei Complementar n° 242, de 9 de janeiro de 1991, com as seguintes reda ções;",
+   "blocoDeAlteracao": "‘Art. 7® - Nos contratos de Concessão do Direito Real\nde Uso, no caso de morte do titular, será prevista a ordem de vocação\nhereditária nos termos do art. 1.603 do Código Civil Brasileiro.\" (NR)"
   },
   {
    "id": "art-3",
@@ -42,7 +42,7 @@
    "tipo": "artigo",
    "rotulo": "Art. 3º",
    "texto": "® - Acrescenta art. 6®-A à Lei Complementar n“ 242, de 9 de janeiro de 1991, nos seguintes termos:",
-   "blocoDeAlteracao": "“Art. 5® - ...\n§ 9® - O beneficiário do direito à concessão de uso\npoderá vender a unidade habitacional construída com mão-de-obra\nprópria a terceiros, mediante assinatura de um distrato da Concessão\ndo Direito Real de Uso.\n§ 10 - O comprador da unidade habitacional, para que\nseja beneficiado com a Concessão do Direito Real de Uso do terreno,\ndeverá enquadrar-se no requisito baixa renda, nos termos desta Lei.\n§ 11 - A unidade habitacional não poderá ser vendida\na proprietário de imóvel ou a quem tenha Concessão de Direito Real de\nUso.\n§ 12 - Quando se tratar de unidade habitacional cons\ntruída pelo Município, o concessionário poderá optar pela sua compra,\nmediante assinatura de um contrato padrão de financiamento, abatido,\npara efeitos de cálculo, o valor pago durante o período de uso, devi\ndamente atualizadó.\n§ 13 - Na situação prevista no parágrafo anterior, será\nadmissível a transferência do contrato de financiamento da unidade\nhabitacional para terceiros, transcorrido, no mínimo, um terço do prazo\ncontratual, mediante assinatura de distrato da Concessão do Direito\nReal de Uso, por parte do beneficiário.\n§ 14 - No caso de unidade habitacional construída em\nregime de mutirão, será abatido, para efeitos de cálculo de moradia, o\nvalor da mão-de-obra utilizada empregada para construção, devida\nmente atualizado.\n§ 15 - Observada a igualdade de condicões na avalia\nção das unidades naonacionais construídas, pouera ucuirei a permuxa\nentre beneficiários da Concessão do Direito Real de Uso.\""
+   "blocoDeAlteracao": "“Art. 3® - ...\nIII - áreas necessárias para o pleno desenvolvimento\nda Cidade, considerando os projetos prioritários do governo, mediante\napreciação do COMATHAB (Conselho Municipal de Acesso à Terra e\nHabitação) e da UAMPA (União das Associações de Moradores de\nPorto Alegre);\nIV - os núcleos com menos de 25 (vinte e cinco) ha\nbitações, considerando a análise caso a caso, ouvindo o COMATHAB e\na UAMPA.”"
   },
   {
    "id": "art-4",
@@ -66,12 +66,12 @@
   "metricas": {
    "artigos": 4,
    "dispositivos": 4,
-   "cobertura": 0.525,
-   "blocosDeAlteracao": 5,
+   "cobertura": 0.357,
+   "blocosDeAlteracao": 6,
    "lacunas": [
     {
-     "tamanho": 1373,
-     "amostra": "Art59Obeneficiáriododireitoàconcessãodeusopoderávenderaunidadehabitacionalconstr"
+     "tamanho": 1824,
+     "amostra": "AíT3AcrescentaincisosIIIeIVaoart391011121314e15aoart5eparágrafoúnicoaoart12daLei"
     },
     {
      "tamanho": 91,
@@ -79,7 +79,8 @@
     }
    ],
    "naoLocalizados": [
-    "“Art. 5® - ...\n§ 9® - O beneficiário do direito à concessão de uso\npoderá vender"
+    "® - O art. 7° da Lei Complementar n® 242, de 9 de janeiro de 1991, passa a vigor",
+    "“Art. 3® - ...\nIII - áreas necessárias para o pleno desenvolvimento\nda Cidade, c"
    ],
    "rotulosDivergentes": [
     {

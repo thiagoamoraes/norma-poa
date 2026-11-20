@@ -2,8 +2,8 @@
  "idSapl": 27784,
  "rotulo": "Emenda à Lei Orgânica nº 7, de 26 de setembro de 1994",
  "sha256Origem": "3ff3f57977bdfd3e22a9230260497947ad2cb17efb5ba23696275d704764c6b0",
- "estruturadoEm": "2026-11-20T13:59:49.916Z",
- "versaoEstruturador": 9,
+ "estruturadoEm": "2026-11-20T16:24:14.567Z",
+ "versaoEstruturador": 10,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -17,44 +17,70 @@
  },
  "ementa": "AV. LOUREIRO DA SILVA, 285 — FONE *28-6055 PELO Nº 02/94 RIO GRANDE DO SUL | | EMENDA À LEI ORGÂNICA Nº 07 Inclui inciso VII ao art. 31 da | Lei Orgânica do Município de Porto E Alegre (licença-maternidade). A MESA DA CÂMARA MUNICIPAL DE PORTO ALEGRE, no uso das atribuições que lhe confere o parágrafo 2º do artigo 73 da Lei Orgânica do Município de Porto Alegre e artigo 131 do Regimento -* da Câmara Municipal de Porto Alegre, promulga a seguinte Emenda à Lei Orgânica: EMENDA À LEI ORGÂNICA Nº 07",
  "preambulo": null,
- "fecho": null,
+ "fecho": "CAMARA MUNICIPAL DE PORTO ALEGRE, 26 de setembro de 1994.\n[4\ne.\nLUIZ BRAZ,\nPresidente.\nRegistre-se e publique-se: '\nVá\nAIRT ONATO, CLÓVIS ILGENFRITZ,\n19 2 2º Vice-Presidente.\nWILTÔN ARAÚJ UIZ NEGRINHO, » MILTON ZUANAZ f\nLº- le Secretkfrio. Secretário. VA 3º Secretário.",
  "dispositivos": [
   {
    "id": "art-1",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "Inclua-se inciso VII ao art. 31 da Lei Orgãnica do Município de Porto Alegre, renumerando-se os demais, com a seguinte redação: Vá AIRT ONATO, CLÓVIS ILGENFRITZ, 19 2 2º Vice-Presidente. WILTÔN ARAÚJ UIZ NEGRINHO, » MILTON ZUANAZ f Lº- le Secretkfrio. Secretário. VA 3º Secretário.",
-   "blocoDeAlteracao": "\"Art. 31 hai e.s\nVII - licença-maternidade;\nArt. 20. Esta Emenda à Lei Orgânica entra em vigor na\ndata de sua publicação.\nArt. 39. Revogam-se as disposições em contrário.\nCAMARA MUNICIPAL DE PORTO ALEGRE, 26 de setembro de 1994.\n[4\ne.\nLUIZ BRAZ,\nPresidente.\nRegistre-se e publique-se: '"
+   "texto": "Inclua-se inciso VII ao art. 31 da Lei Orgãnica do Município de Porto Alegre, renumerando-se os demais, com a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 31 hai e.s\nVII - licença-maternidade;"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Emenda à Lei Orgânica entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se as disposições em contrário."
   }
  ],
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
    "cabecalho_nao_reconhecido",
-   "sem_fecho",
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
+   "rotulo_nao_confere_com_a_origem",
+   "bloco_sem_fechamento_de_aspas"
   ],
   "avisos": [
    "texto_de_ocr"
   ],
   "metricas": {
-   "artigos": 1,
-   "dispositivos": 1,
-   "cobertura": 0.695,
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.938,
    "blocosDeAlteracao": 1,
-   "lacunas": [
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
     {
-     "tamanho": 120,
-     "amostra": "VáAIRTONATOCLÓVISILGENFRITZ1922ºVicePresidenteWILTÔNARAÚJUIZNEGRINHOMILTONZUANAZ",
-     "noFim": true
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art19"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art20"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art39"
     }
    ],
-   "naoLocalizados": [
-    "Inclua-se inciso VII ao art. 31 da Lei Orgãnica do Município de Porto Alegre, re"
-   ],
-   "rotulosDivergentes": []
+   "fronteirasInferidas": [
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 24,
+     "linhaFim": 26,
+     "confianca": "baixa"
+    }
+   ]
   }
  }
 }

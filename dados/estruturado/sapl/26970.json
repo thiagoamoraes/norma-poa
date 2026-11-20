@@ -2,8 +2,8 @@
  "idSapl": 26970,
  "rotulo": "Lei Complementar municipal nº 293, de 28 de abril de 1993",
  "sha256Origem": "ab1d8764fb223089f59178615f14076591bb4c65367928135914a1af462c8fe6",
- "estruturadoEm": "2026-11-20T13:59:55.428Z",
- "versaoEstruturador": 9,
+ "estruturadoEm": "2026-11-20T16:24:20.193Z",
+ "versaoEstruturador": 10,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "293",
@@ -26,21 +26,7 @@
    "tipo": "artigo",
    "rotulo": "Art. 1º",
    "texto": "O art. 13 da Lei Complementar nº 267, de 16 de janeiro       de 1992, passa a vigorar com a seguinte redação:",
-   "blocoDeAlteracao": "\"Art. 13 - O desempenho da função de membro de Con\nselho Municipal será considerada de relevância para o Municlpi07\nrecebendo os Conselheiros,   apenas a titulo de representação,   uma\ngratificação sob a forma de 'jetton', proporcionalmente    ao comparecimento às sessões.\n§ 1º - Para efeitos do que trata o 'caput'     deste\nartigo, é fixado em 70% (setenta por cento) do valor da URM a gr~\ntificação a titulo de 'jetton'."
-  },
-  {
-   "id": "art-1/par-1",
-   "pai": "art-1",
-   "tipo": "paragrafo",
-   "rotulo": "§ 1º",
-   "texto": "Somente terão direito à percepção de    'jetton' os membros dos Conselhos arrolados no Anexo I, que faz parte desta Lei Complementar."
-  },
-  {
-   "id": "art-1/par-2",
-   "pai": "art-1",
-   "tipo": "paragrafo",
-   "rotulo": "§ 2º",
-   "texto": "Fica limitado o direito ao recebimento      de 'jetton' ao máximo de 04 (quatro) sessões ordinárias,    mais 1 (uma) extraordinária  por mês.\""
+   "blocoDeAlteracao": "\"Art. 13 - O desempenho da função de membro de Con\nselho Municipal será considerada de relevância para o Municlpi07\nrecebendo os Conselheiros,   apenas a titulo de representação,   uma\ngratificação sob a forma de 'jetton', proporcionalmente    ao comparecimento às sessões.\n§ 1º - Para efeitos do que trata o 'caput'     deste\nartigo, é fixado em 70% (setenta por cento) do valor da URM a gr~\ntificação a titulo de 'jetton'.\n§ 2º - Somente terão direito à percepção de    'jetton' os membros dos Conselhos arrolados no Anexo I, que faz parte\ndesta Lei Complementar.\n§ 3º - Fica limitado o direito ao recebimento      de\n'jetton' ao máximo de 04 (quatro) sessões ordinárias,    mais 1 (uma)\nextraordinária  por mês.\""
   },
   {
    "id": "art-2",
@@ -65,31 +51,20 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
    "cabecalho_fora_do_padrao",
    "tem_anexo"
   ],
   "metricas": {
    "artigos": 4,
-   "dispositivos": 6,
-   "cobertura": 0.973,
+   "dispositivos": 4,
+   "cobertura": 0.975,
    "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "§ 1º",
-     "naOrigem": "2º"
-    },
-    {
-     "rotulo": "§ 2º",
-     "naOrigem": "3º"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

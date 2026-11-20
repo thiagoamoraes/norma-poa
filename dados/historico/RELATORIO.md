@@ -1,13 +1,13 @@
 # Histórico — relatório
 
-Gerado em 2026-11-20T13:59:59.790Z por `ingestao/gerar-historico.mjs`. Não editar à mão.
+Gerado em 2026-11-20T16:24:24.476Z por `ingestao/gerar-historico.mjs`. Não editar à mão.
 
 Vínculos lidos: 24000 · pares (lei, alteradora) propostos pelas ementas: 1689 · leis com alteradoras conhecidas ou candidatas: 1177
 
 | Situação | Leis |
 |---|---|
-| histórico apurado, todas as alteradoras aplicadas | 40 |
-| histórico apurado, mas incompleto (alguma alteradora não aplicada por inteiro) | 112 |
+| histórico apurado, todas as alteradoras aplicadas | 41 |
+| histórico apurado, mas incompleto (alguma alteradora não aplicada por inteiro) | 111 |
 | ainda sem o texto da lei-base | 1025 |
 | erro do leitor | 0 |
 

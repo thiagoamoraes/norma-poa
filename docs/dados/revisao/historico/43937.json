@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-20T13:47:05.965Z",
+ "geradoEm": "2026-11-20T16:24:24.265Z",
  "idSapl": 43937,
  "rotulo": "Lei Complementar municipal nº 942, de 25 de maio de 2022",
  "baseConferida": true,
@@ -2811,6 +2811,20 @@
   },
   {
    "alteradora": {
+    "idSapl": 48437,
+    "rotulo": "Lei Complementar municipal nº 1.011, de 10 de maio de 2024"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 5.994, de 25 de novembro de 1987\",\"tipoAto\":\"LEI\",\"numero\":\"5994\",\"ano\":\"1987\",\"chave\":\"l 5994/1987\"}, versão: lc 942/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 5.994, de 25 de novembro de 1987\",\"tipoAto\":\"LEI\",\"numero\":\"5994\",\"ano\":\"1987\",\"chave\":\"l 5994/1987\"}, versão: lc 942/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 5.994, de 25 de novembro de 1987\",\"tipoAto\":\"LEI\",\"numero\":\"5994\",\"ano\":\"1987\",\"chave\":\"l 5994/1987\"}, versão: lc 942/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 5.994, de 25 de novembro de 1987\",\"tipoAto\":\"LEI\",\"numero\":\"5994\",\"ano\":\"1987\",\"chave\":\"l 5994/1987\"}, versão: lc 942/2022)",
+   "enderecos": [
+    "art-3/inc-I",
+    "art-3/inc-III",
+    "art-3/inc-V",
+    "art-3/inc-VII"
+   ]
+  },
+  {
+   "alteradora": {
     "idSapl": 51735,
     "rotulo": "Lei Complementar municipal nº 1.081, de 10 de setembro de 2026"
    },
@@ -2822,5 +2836,10 @@
    ]
   }
  ],
- "aConferir": []
+ "aConferir": [
+  {
+   "id": "art-3/inc-I",
+   "desde": "2024-05-10"
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-20T09:25:03.944Z",
+ "geradoEm": "2026-11-20T16:24:21.511Z",
  "idSapl": 28320,
  "rotulo": "Lei Complementar municipal nº 361, de 19 de dezembro de 1995",
  "baseConferida": false,
@@ -212,7 +212,7 @@
     "rotulo": "Lei Complementar municipal nº 461, de 28 de dezembro de 2000"
    },
    "motivo": "comando_recusado",
-   "detalhe": "artigo-base \"art. 69º\" não encontrado — não é possível posicionar \"art. 69\" | endereço-pai \"art. 69\" não encontrado — não é possível inserir \"§ 3 do art. 69\" | já existe artigo com o rótulo de \"art. 3\" — insert_node não pode criar um segundo; se a intenção era dar nova redação, o endereço na alteradora não foi reconhecido como o do artigo existente",
+   "detalhe": "artigo-base \"art. 69º\" não encontrado — não é possível posicionar \"art. 69\" | endereço-pai \"art. 69\" não encontrado — não é possível inserir \"§ 3 do art. 69\" | já existe artigo com o rótulo de \"art. 3\" — insert_node não pode criar um segundo; se a intenção era dar nova redação, o endereço na alteradora não foi reconhecido como o do artigo existente | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar n° 07, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"07\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 361/1995)",
    "enderecos": [
     "art-67",
     "art-5",

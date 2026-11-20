@@ -1527,6 +1527,19 @@ Regras decididas em entrevista (CLAUDE.md, "Decisões do mantenedor"). Mudanças
 - Estruturação (`VERSAO_ESTRUTURADOR` 9): aceitas **527 → 541** de 823 (65,7%); recentes 347/478 (72,6%), antigas 194/345 (56,2%); 0 normas que eram aceitas deixaram de ser. `revoke_node` novos no acervo: 8, todos revogações explícitas corretas.
 - `PLANO-ALTERADORA-SEM-ASPAS.md` (pesquisa por agente; não implementado além da correção cp1252): das 28 candidatas só 5 são realmente sem aspas; 8 normas `aceita` hoje têm a lei-alvo lida como dispositivo da alteradora (falso aceite silencioso) — próximas rodadas (aspa pareada, bloco sem fechamento, cue no plural).
 
+## Rodada 31 — blocos de alteração mal delimitados e falso aceite (plano das alteradoras, 20/11/2026)
+
+Entrevista com o mantenedor (decisões 9 a 12 no CLAUDE.md) e implementação das rodadas 3, 4 e 5 do `PLANO-ALTERADORA-SEM-ASPAS.md`. `detectNRCandidates` (core, espelhado em `norma-simulacao.html`, cuja cópia da função estava defasada — sem a rodada 23 — e agora é idêntica à do core):
+- **R1 fechamento pareado:** abertura dupla só fecha com aspas duplas (ou o par de simples que a extração faz); abertura simples só com simples; fechar na própria linha de abertura exige mais de 25 caracteres. A aspa de `'jetton'.` não corta mais o bloco (LC 293/1993).
+- **R2 bloco sem fechamento:** com introdução de alteração, termina antes do `Art. (n+1)`. Fronteira INFERIDA: `sem_fecho`, `confianca` (média se há glifo de aspas no fim; baixa se não há). O estruturador reprova com `bloco_sem_fechamento_de_aspas` (nunca aceita limpa) e grava `metricas.fronteirasInferidas`.
+- **R3** cue no plural ("seguintes redações"), `$` no lugar de `§`, aberturas `‘ ’ „ ‚`.
+- **R4 cabeçalho com reticências** sem aspa de abertura (`Art. 4º ......`): 3 sinais juntos (3+ pontos; introdução que cita esse artigo e não é o próximo da alteradora; fecha em `(NR)`/aspa) → `aspa_de_abertura_ausente`, confiança média. Cabeçalho sem pontos nunca delimita.
+- **Detector de falso aceite** (`introsDeAlteracaoSemBloco`, estruturador): introdução forte sem bloco lido → motivo `alteracao_sem_aspas_nao_delimitada`.
+- `VERSAO_ESTRUTURADOR` 10. Dashboard: motivos novos descritos, guia com orientação para eles, fronteira inferida em azul no texto de origem (o revisor só aceita ou marca defeito de fonte; decisão 12).
+- `teste_blocos_sem_aspas.mjs` (26, textos reais em `fixtures/alteradoras-sem-aspas/`): 15 falham contra o core antigo; guardas reais (LC 615/2009, LC 575/2007, LC 611, LC 685/2011) provam que o pareamento e a regra de cabeçalho não regridem.
+
+**Medido em todo o acervo:** aceitas 541 → **537** de 823. Cinco normas que eram "aceitas" por erro silencioso agora estão a revisar (4 com fronteira inferida: LC 398/1997, 422, 425 e 426/1998; e a LC 606/2008, que altera um anexo em tabela sem bloco lido); 1 passa a aceita (LC 293/1993); nenhuma outra aceita virou revisar. Antigas 194 → 190; recentes inalteradas (347/478, 72,6%). Históricos: 6 mudaram, todos para melhor (a EC 7/1994 deixou de aplicar à LO dois comandos-lixo — "Esta Emenda… entra em vigor" lido como redação do art. 31 —; a EC 11/1997 passou a ter seu comando lido; a LC 1.011/2024 passou a registrar a pendência). Completos 40 → 41.
+
 ## Passagem de sessão (20/11/2026)
 
 Sem mudança de código. Registrado: estado da tarefa 1 (62,6% aceitas em 823 textos),

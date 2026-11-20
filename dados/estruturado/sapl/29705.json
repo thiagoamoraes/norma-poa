@@ -2,8 +2,8 @@
  "idSapl": 29705,
  "rotulo": "Lei Complementar municipal nº 426, de 29 de dezembro de 1998",
  "sha256Origem": "56fbea75850c4e31fdbd3d182e8f39c9da8ff76a43cd1fd155c66335866aca23",
- "estruturadoEm": "2026-11-20T13:59:55.035Z",
- "versaoEstruturador": 9,
+ "estruturadoEm": "2026-11-20T16:24:19.776Z",
+ "versaoEstruturador": 10,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "426",
@@ -25,14 +25,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "® - Altera o inc, I do art. 253 da Lei Comple mentar n° 133, de 31 de dezembro de 1985, que passa a vigorar com a seguinte redação; “Art. 253 - ..."
-  },
-  {
-   "id": "art-1/inc-I",
-   "pai": "art-1",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "estagiários estudantes, pelo prazo máximo de 720 dias, com dispensa automática no final desse prazo;"
+   "texto": "® - Altera o inc, I do art. 253 da Lei Comple mentar n° 133, de 31 de dezembro de 1985, que passa a vigorar com a seguinte redação;",
+   "blocoDeAlteracao": "“Art. 253 - ...\nI - estagiários estudantes, pelo prazo máximo de 720\ndias, com dispensa automática no final desse prazo;"
   },
   {
    "id": "art-2",
@@ -50,19 +44,29 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "bloco_sem_fechamento_de_aspas"
+  ],
   "avisos": [
    "cabecalho_fora_do_padrao"
   ],
   "metricas": {
    "artigos": 3,
-   "dispositivos": 4,
-   "cobertura": 0.948,
-   "blocosDeAlteracao": 0,
+   "dispositivos": 3,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": []
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 11,
+     "linhaFim": 13,
+     "confianca": "baixa"
+    }
+   ]
   }
  }
 }

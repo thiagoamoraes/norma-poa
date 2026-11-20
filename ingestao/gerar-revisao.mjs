@@ -75,6 +75,18 @@ for (const f of (await readdir(DIR_EST)).filter((f) => /^\d+\.json$/.test(f))) {
     sha256Origem: reg.sha256Origem, versaoEstruturador: reg.versaoEstruturador,
     resumo: a.resumo, texto: a.texto, dispositivos, especiais, lacunas: a.lacunas.filter((l) => !l.esperada),
   };
+  // fronteiras de bloco INFERIDAS (sem aspa de fechamento ou de abertura): deslocamentos no texto base da página
+  const inferidas = reg.verificacao.metricas.fronteirasInferidas;
+  if (inferidas?.length) {
+    const textoPrep = prepararTextoExtraido(await readFile(arq, 'utf8'));
+    const iniLinhas = [0]; const reNl = /\r?\n/g; let mNl; while ((mNl = reNl.exec(textoPrep))) iniLinhas.push(mNl.index + mNl[0].length);
+    const corte = Math.max(0, textoPrep.search(/\S/));
+    norma.fronteiras = inferidas.map((f) => {
+      const ini = Math.max(0, (iniLinhas[f.linhaIni - 1] ?? 0) - corte);
+      const fim = Math.max(ini, (iniLinhas[f.linhaFim] ?? textoPrep.length) - corte - 1);
+      return { tipo: f.tipo, confianca: f.confianca, linhaIni: f.linhaIni, linhaFim: f.linhaFim, ini, fim: Math.min(fim, a.texto.length) };
+    });
+  }
   // datas lado a lado quando divergem (regra de 20/11/2026: o motor nunca escolhe; o revisor decide caso a caso)
   if (reg.verificacao.motivos.includes('data_diverge_do_catalogo')) norma.datas = { arquivo: reg.cabecalho?.data ?? null, catalogo: cat.data ?? null };
   await writeFile(path.join(SAIDA, 'n', `${reg.idSapl}.json`), JSON.stringify(norma) + '\n');
@@ -95,6 +107,9 @@ const DICAS = [
   ['data_diverge_do_catalogo', 'A data escrita no arquivo difere da do catálogo (as duas aparecem lado a lado). Decida caso a caso qual está certa: o motor nunca escolhe.'],
   ['promulgacao_parcial', 'Fragmento de promulgação parcial (só os dispositivos de veto derrubado): confira se o objeto do "promulgo" é "dispositivo da Lei nº N".'],
   ['bloco_de_alteracao_sem_dono', 'Um bloco de redação alterada não se ligou a nenhum dispositivo da alteradora. Veja se a introdução ("Fica alterado… conforme segue:") está inteira e se as aspas abrem e fecham onde deveriam.'],
+  ['bloco_sem_fechamento_de_aspas', 'O motor INFERIU o fim do bloco de alteração (antes do próximo artigo), pois faltam as aspas de fechamento: o trecho aparece em azul no texto de origem. Confira se o bloco termina onde deveria e se a lei-alvo não ficou misturada com dispositivos da própria alteradora. Aceite ou marque defeito de fonte.'],
+  ['aspa_de_abertura_ausente', 'O bloco de alteração abre direto pelo cabeçalho do artigo-alvo com reticências ("Art. 4º ......"), sem aspa de abertura: o motor delimitou até o "(NR)" ou a aspa final (trecho em azul). Confira os limites; aceite ou marque defeito de fonte.'],
+  ['alteracao_sem_aspas_nao_delimitada', 'Há uma introdução de alteração ("Fica alterado o art. X da Lei Y, conforme segue:") sem nenhum bloco lido: o texto da lei-alvo pode ter sido lido como dispositivo da própria alteradora (ex.: alteração de anexo em tabela). Veja o texto logo após a introdução e decida: defeito de fonte ou encaminhar ao motor.'],
   ['sem_fecho', 'Olhe as últimas linhas: o fecho está colado ao texto, com data quebrada, ou é uma FORMA NOVA de fecho (conhecidas: 4)? Forma nova com texto real vira encaminhamento ao motor.'],
   ['texto_fora_da_arvore', 'Sobrou texto do arquivo fora da árvore (amarelo à esquerda). Veja se é defeito do arquivo (aspas fechando cedo, artigo fora das aspas) ou forma legítima que o leitor não conhece.'],
   ['trecho_nao_localizado_na_origem', 'Um trecho da árvore não aparece no arquivo na ordem esperada: costuma ser palavra colada/partida pela extração ou "(NR)" mal posto. Decida entre defeito de fonte e encaminhar ao motor.'],

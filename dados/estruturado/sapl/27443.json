@@ -2,8 +2,8 @@
  "idSapl": 27443,
  "rotulo": "Lei Complementar municipal nº 311, de 28 de dezembro de 1993",
  "sha256Origem": "54ab696db369e935000f362aaf229a1beea4230bb9ee87a6b8ebd46ce30285ee",
- "estruturadoEm": "2026-11-20T13:59:55.412Z",
- "versaoEstruturador": 9,
+ "estruturadoEm": "2026-11-20T16:24:20.171Z",
+ "versaoEstruturador": 10,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -24,7 +24,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "Os itens 44, 46 e 48 da Tabela de Serviços da Lei Complementar nº 209, de 29 de dezembro de 1989, que altera dispositivos da Lei Complementar nº 07, de 07 de dezembro de 1973, passam a vigorar com a seguinte redação: \"44 - Administração  de fundos mútuos. 46 - Agenciamento,   corretagem  ou intermediação de quaisquer titulos. 48 - Agenciamentos, corretagem   ou intermediação de contratos de franquia (I franchising I) e de faturação (I factoring' )11 •"
+   "texto": "Os itens 44, 46 e 48 da Tabela de Serviços da Lei Complementar nº 209, de 29 de dezembro de 1989, que altera dispositivos da Lei Complementar nº 07, de 07 de dezembro de 1973, passam a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "\"44 - Administração  de fundos mútuos.\n46 - Agenciamento,   corretagem  ou intermediação\nde quaisquer titulos.\n48 - Agenciamentos, corretagem   ou intermediação\nde contratos de franquia (I franchising I) e de faturação (I factoring' )11 •"
   },
   {
    "id": "art-2",
@@ -51,17 +52,26 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido"
+   "cabecalho_nao_reconhecido",
+   "bloco_sem_fechamento_de_aspas"
   ],
   "avisos": [],
   "metricas": {
    "artigos": 4,
    "dispositivos": 4,
    "cobertura": 0.934,
-   "blocosDeAlteracao": 0,
+   "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": []
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 21,
+     "linhaFim": 25,
+     "confianca": "baixa"
+    }
+   ]
   }
  }
 }

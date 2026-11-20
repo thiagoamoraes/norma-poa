@@ -802,21 +802,66 @@ export function parseLeiPublicada(raw, nrRanges) {
  * Use os índices como `nrRanges` no segundo argumento de parseMinuta()
  * para isolar os blocos da numeração da lei alteradora.
  */
+/**
+ * detectNRCandidates(raw) → [{ startIdx, endIdx, semNR, sem_fecho, confianca?, preview }]
+ *
+ * Acha os blocos de redação alterada (trecho entre aspas que a alteradora dá a outra lei).
+ * Rodada 30 (plano PLANO-ALTERADORA-SEM-ASPAS.md; decisões do mantenedor de 20/11/2026):
+ *  - FECHAMENTO PAREADO com a abertura: abertura dupla só fecha com aspas duplas (ou o par de simples
+ *    "''"/"’’" que a extração faz de aspas duplas); abertura simples só fecha com simples. Fechar na
+ *    própria linha de abertura exige mais de 25 caracteres (aspa simples de palavra — 'jetton'. — não
+ *    fecha bloco). Sem o pareamento, a aspa simples no fim de uma linha cortava o bloco (LC 293/1993).
+ *  - Aberturas ‘ ’ „ ‚ (glifos que a digitalização produz) e `$` no lugar de `§`.
+ *  - Cue no plural ("seguintes redações").
+ *  - SEM fechamento: se há introdução de alteração, o bloco termina antes do "Art. (n+1)" da alteradora
+ *    (n = artigo que contém a introdução). É fronteira INFERIDA: `sem_fecho: true` e `confianca`
+ *    ('media' se o fim da linha traz algum glifo de aspas; 'baixa' se nenhum). O estruturador
+ *    reprova a norma com o motivo `bloco_sem_fechamento_de_aspas`: nunca fica "aceita limpa".
+ */
 export function detectNRCandidates(raw) {
   const lines = raw.split(/\r?\n/).map(l => l.trim());
   const out = []; let prev = "";
-  const CMD_CUE = /(passa\s+a\s+vigorar|passa\s+a\s+ter\s+a\s+seguinte\s+reda[çc][ãa]o|fica\s+acrescid[oa]|nova\s+reda[çc][ãa]o|seguinte\s+reda[çc][ãa]o|altera\w*\s+a\s+reda[çc][ãa]o|conforme\s+segue)/i;
+  const CMD_CUE = /(passa\s+a\s+vigorar|passa\s+a\s+ter\s+a\s+seguinte\s+reda[çc][ãa]o|fica\s+acrescid[oa]|nova\s+reda[çc][ãa]o|seguintes?\s+reda[çc][ãa]o|altera\w*\s+a\s+reda[çc][ãa]o|conforme\s+segue)/i;
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
     if (!line) { continue; }
-    const isQuoteStart = /^["“”']/.test(line);
+    const isQuoteStart = /^["“”'‘’„‚]/.test(line);
     const introCue = CMD_CUE.test(prev) || CMD_CUE.test(line.replace(/^["“”']+/,"").slice(0,80));
-    const looksLikeDispositivo = /^["“”']\s*(Art(?:igo)?\.?\s*\d|§|Par[áa]grafo\s+[úu]nico|[IVXLCDM]{1,6}\s*[-–—])/i.test(line);
+    const looksLikeDispositivo = /^["“”']\s*(Art(?:igo)?\.?\s*\d|[§$]|Par[áa]grafo\s+[úu]nico|[IVXLCDM]{1,6}\s*[-–—])/i.test(line);
+    // Bloco SEM aspas de abertura, que começa pelo cabeçalho do artigo-alvo com reticências ("Art. 4º ......"),
+    // técnica recente (LC 897/2022, LC 1.011/2024, LC 1.074/2026). Delimita só com TRÊS sinais juntos (decisão do
+    // mantenedor, 20/11/2026): (1) 3+ pontos no cabeçalho; (2) logo depois de uma introdução de alteração que
+    // CITA esse mesmo artigo e cujo número não é o do próximo artigo da alteradora; (3) fecha em "(NR)" ou aspa
+    // final. Sem fechamento, não infere nada. Sai com `sem_abertura: true` e confiança média (a norma fica "a
+    // revisar" com o motivo `aspa_de_abertura_ausente`). Cabeçalho SEM pontos ("Art. N.") nunca delimita.
+    const mCab = !isQuoteStart ? /^Art(?:igo)?\.?\s*(\d+)\s*[º°o]?(?:-[A-Za-z])?\s*\.?\s*\.{3,}/.exec(line) : null;
+    if (mCab) {
+      let q = i - 1, n = 0; const introLinhas = [];
+      for (; q >= 0 && q > i - 8; q--) { if (!lines[q]) continue; introLinhas.unshift(lines[q]); const ma = /^Art(?:igo)?\.?\s*(\d+)/.exec(lines[q]); if (ma) { n = +ma[1]; break; } }
+      const intro = introLinhas.join(" ");
+      const N = +mCab[1];
+      const citaN = new RegExp("\\bart(?:igo|\\.)?\\s*" + N + "\\b", "i").test(intro.replace(/^Art(?:igo)?\.?\s*\d+\S*/i, ""));
+      if (n && CMD_CUE.test(intro) && citaN && N !== n + 1) {
+        let fim = -1;
+        for (let j = i + 1; j < Math.min(lines.length, i + 300); j++) { if (/\(NR\)\s*["“”'‘’]*\s*\.?\s*$/.test(lines[j]) || /(?:["“”]|['‘’]{2})\s*\.?\s*$/.test(lines[j])) { fim = j; break; } }
+        if (fim >= 0) {
+          out.push({ startIdx:i, endIdx:fim, semNR:false, sem_fecho:false, sem_abertura:true, confianca:"media", preview: line.slice(0,64)+(fim>i?"… "+lines[fim].slice(-50):"") });
+          i = fim; continue;
+        }
+      }
+    }
     if (isQuoteStart && (introCue || looksLikeDispositivo)) {
-      let end = -1, semNR = false;
+      let end = -1, semNR = false, sem_fecho = false;
+      const abre = line.replace(/^[\s]*/, '')[0];
+      const duplo = /["“”„]/.test(abre);
+      // fechamento PAREADO com a abertura: abertura dupla só fecha com aspas duplas (ou par de simples,
+      // "''"/"’’", que a extração faz de aspas duplas); abertura simples só fecha com simples.
+      const reFechaNR = /\(NR\)\s*["“”'‘’]*\s*\.?\s*$/;
+      const reFechaDup = /(?:["“”]|['‘’]{2})\s*\.?\s*$/;
+      const reFechaSim = /['‘’]\s*\.?\s*$/;
       for (let j = i; j < Math.min(lines.length, i+300); j++) {
-        if (/\(NR\)\s*["“”']?\s*\.?\s*$/.test(lines[j])) { end=j; semNR=false; break; }
-        if (/["“”']\s*\.?\s*$/.test(lines[j]))             { end=j; semNR=true;  break; }
+        if (reFechaNR.test(lines[j])) { end=j; semNR=false; break; }
+        if ((duplo ? reFechaDup : reFechaSim).test(lines[j]) && (j > i || lines[j].length > 25)) { end=j; semNR=true; break; }
       }
       // "(NR)" sozinho na linha SEGUINTE ao fecha-aspas (visto em LCs reais de 2017 em diante,
       // ex. LC 804/2017): o bloco acaba nele; senão o "(NR)" sobra e gruda no dispositivo que introduz.
@@ -825,8 +870,15 @@ export function detectNRCandidates(raw) {
         while (k < lines.length && k <= end + 3 && !lines[k]) k++;
         if (k < lines.length && /^\(NR\)\s*["“”']?\s*\.?\s*$/.test(lines[k])) { end = k; semNR = false; }
       }
+      if (end < 0 && introCue) {
+        let n = 0;
+        for (let q = i - 1; q >= 0 && q > i - 40; q--) { const mm = /^Art(?:igo)?\.?\s*(\d+)/.exec(lines[q]); if (mm) { n = +mm[1]; break; } }
+        if (n) for (let j = i + 1; j < Math.min(lines.length, i + 120); j++) { if (new RegExp('^Art(?:igo)?\\.?\\s*' + (n + 1) + '\\s*[º°®o2]?\\s*[-–—.]').test(lines[j])) { end = j - 1; semNR = true; sem_fecho = true; break; } }
+      }
       if (end >= 0) {
-        out.push({ startIdx:i, endIdx:end, semNR, preview: line.replace(/^["“”']/,"").slice(0,64)+(end>i?"… "+lines[end].slice(-50):"") });
+        const bloco = { startIdx:i, endIdx:end, semNR, sem_fecho, preview: line.replace(/^["“”']/,"").slice(0,64)+(end>i?"… "+lines[end].slice(-50):"") };
+        if (sem_fecho) bloco.confianca = /["“”'‘’*]\s*\.?\s*$/.test(lines[end]) ? "media" : "baixa";
+        out.push(bloco);
         i = end; continue;
       }
     }

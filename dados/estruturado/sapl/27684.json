@@ -2,8 +2,8 @@
  "idSapl": 27684,
  "rotulo": "Lei Complementar municipal nº 326, de 11 de julho de 1994",
  "sha256Origem": "b619eab7182725d158c7c41c3da9599eafede7c9d9543a2757ae85c6790466a6",
- "estruturadoEm": "2026-11-20T13:59:55.332Z",
- "versaoEstruturador": 9,
+ "estruturadoEm": "2026-11-20T16:24:20.072Z",
+ "versaoEstruturador": 10,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -24,35 +24,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "O art. 161 da Lei Complementar   nº 43, de 21 de julho de 1979, passa a vigorar com a seguinte redação: \"Art. 161 - Fica vedada a construção em áreas                                                                de recuo para ajardinamento, mesmo em subsolo, excetuados: I    muros de arrimo decorrentes    dos desnlveis naturais dos terrenos; 11 - vedações nos alinhamentos ou nas divisas laterais, desde que utilizados elementos construtivos    onde predominam os espaços vazios; 111 - escadarias ou rampas de acesso, quando necessários pela conformação do terreno natural;"
-  },
-  {
-   "id": "art-1/inc-I",
-   "pai": "art-1",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "muros nos alinhamentos   ou nas divisas làterais, nas edificações    destinadas a estabelecimentos   de ensino formal."
-  },
-  {
-   "id": "art-1/par-unico",
-   "pai": "art-1",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "texto": "A aplicação do inciso IV deste artigo será precedida de consulta ao Sistema Municipal de Planejamento e Coordenação do Desenvolvimento Urbano considerando:"
-  },
-  {
-   "id": "art-1/par-unico/inc-I",
-   "pai": "art-1/par-unico",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "a localização do equipamento; 11 - as questões de segurança; 111 - o porte do equipamento;"
-  },
-  {
-   "id": "art-1/par-unico/inc-II",
-   "pai": "art-1/par-unico",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "texto": "a adequação com os imóveis lindeiros                                                      e esquinas de quarteirão. II"
+   "texto": "O art. 161 da Lei Complementar   nº 43, de 21 de julho de 1979, passa a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 161 - Fica vedada a construção em áreas                                                                de\nrecuo para ajardinamento, mesmo em subsolo, excetuados:\nI    muros de arrimo decorrentes    dos desnlveis\nnaturais dos terrenos;\n11 - vedações nos alinhamentos ou nas divisas laterais, desde que utilizados elementos construtivos    onde predominam os espaços vazios;\n111 - escadarias ou rampas de acesso, quando necessários pela conformação do terreno natural;\nIV - muros nos alinhamentos   ou nas divisas làterais, nas edificações    destinadas a estabelecimentos   de ensino\nformal.\nParágrafo único - A aplicação do inciso IV deste\nartigo será precedida de consulta ao Sistema Municipal de Planejamento e Coordenação do Desenvolvimento Urbano considerando:\nI - a localização do equipamento;\n11 - as questões de segurança;\n111 - o porte do equipamento;\nIV - a adequação com os imóveis lindeiros                                                      e esquinas de quarteirão. II"
   },
   {
    "id": "art-2",
@@ -74,24 +47,23 @@
   "motivos": [
    "cabecalho_nao_reconhecido",
    "sem_fecho",
-   "rotulo_nao_confere_com_a_origem"
+   "bloco_sem_fechamento_de_aspas"
   ],
   "avisos": [],
   "metricas": {
    "artigos": 3,
-   "dispositivos": 7,
-   "cobertura": 0.972,
-   "blocosDeAlteracao": 0,
+   "dispositivos": 3,
+   "cobertura": 0.988,
+   "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
     {
-     "rotulo": "I –",
-     "naOrigem": "IV"
-    },
-    {
-     "rotulo": "II –",
-     "naOrigem": "IV"
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 11,
+     "linhaFim": 25,
+     "confianca": "baixa"
     }
    ]
   }

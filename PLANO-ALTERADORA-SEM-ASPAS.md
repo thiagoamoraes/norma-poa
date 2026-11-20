@@ -134,3 +134,8 @@ Ordem em rodadas pequenas (cada uma: bateria antes/depois, teste que falha no an
 7. Reavaliar com o PDF original (fora do repositório) os 4–5 casos recentes do tipo C1: se a aspa existe no PDF, o defeito é de extração do PDF e a correção é lá, não no leitor.
 
 Fora deste plano e que apareceu: ordinais lidos como dígito (B6) em 10 normas; blocos com cue partido em duas linhas ("conforme" / "segue:"); 29061 (`‘Art. 12`, cue quebrada) permanece aceita com estrutura provavelmente errada.
+
+---
+## Estado de implementação (20/11/2026)
+
+Feitas: R0 (rodada 30), R1 + pareamento, R2 (`sem_fecho`), R3, R4 (reticências) e o detector de falso aceite (rodada 31), com as decisões do mantenedor (CLAUDE.md, itens 9 a 12). Ainda abertas deste plano: o dashboard dedicado de fronteira com linha seguinte em outra cor (hoje só o trecho em azul), reavaliar com o PDF original os casos recentes do tipo C1 (se a aspa existe no PDF, a correção é na extração do PDF), ordinais lidos como dígito (B6, 10 normas, fora deste plano) e blocos com o cue partido em duas linhas.

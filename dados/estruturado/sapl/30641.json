@@ -2,8 +2,8 @@
  "idSapl": 30641,
  "rotulo": "Lei Complementar municipal nº 450, de 06 de julho de 2000",
  "sha256Origem": "aa78111d60474870c3a422f7b56340ac769a41102daa09573ab6622a9d8086b1",
- "estruturadoEm": "2026-11-20T13:59:53.138Z",
- "versaoEstruturador": 9,
+ "estruturadoEm": "2026-11-20T16:24:17.809Z",
+ "versaoEstruturador": 10,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "450",
@@ -33,14 +33,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 2º",
-   "texto": "O inciso V do art. 207 da Lei Complementar n° 133, de1985, passa a ter a seguinte redação: “Art. 207 - ..."
-  },
-  {
-   "id": "art-2/inc-I",
-   "pai": "art-2",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "transgressão de qualquer das disposições constantes dos incisos XVII a XXIVdo art. 197, considerada sua gravidade, efeito ou reincidência;"
+   "texto": "O inciso V do art. 207 da Lei Complementar n° 133, de1985, passa a ter a seguinte redação:",
+   "blocoDeAlteracao": "“Art. 207 - ...\nV – transgressão de qualquer das disposições constantes dos incisos XVII a XXIVdo art. 197, considerada sua gravidade, efeito ou reincidência;"
   },
   {
    "id": "art-3",
@@ -60,22 +54,25 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+   "bloco_sem_fechamento_de_aspas"
   ],
   "avisos": [
    "cabecalho_fora_do_padrao"
   ],
   "metricas": {
    "artigos": 4,
-   "dispositivos": 5,
-   "cobertura": 0.968,
-   "blocosDeAlteracao": 1,
+   "dispositivos": 4,
+   "cobertura": 0.969,
+   "blocosDeAlteracao": 2,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
     {
-     "rotulo": "I –",
-     "naOrigem": "V"
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 10,
+     "linhaFim": 11,
+     "confianca": "baixa"
     }
    ]
   }

@@ -2,8 +2,8 @@
  "idSapl": 48437,
  "rotulo": "Lei Complementar municipal nº 1.011, de 10 de maio de 2024",
  "sha256Origem": "11b4f72b5cd20ba4b5fcc74954ae7d48bcd673bc9b24d6375628e32e0a926e1d",
- "estruturadoEm": "2026-11-20T13:59:50.466Z",
- "versaoEstruturador": 9,
+ "estruturadoEm": "2026-11-20T16:24:15.154Z",
+ "versaoEstruturador": 10,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1011",
@@ -95,74 +95,40 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 10.",
-   "texto": "Ficam alterados os incs. I, III, V e VII do art. 3º da Lei nº 5.994, de 25 de novembro de 1987, conforme segue:"
+   "texto": "Ficam alterados os incs. I, III, V e VII do art. 3º da Lei nº 5.994, de 25 de novembro de 1987, conforme segue:",
+   "blocoDeAlteracao": "Art. 3º .......................................................................................................................\nI – obras e serviços de construção, ampliação e retrofit de imóveis próprios municipais da Administração Direta e Indireta;\n....................................................................................................................................\nIII – serviços de avaliação imobiliária, cuja origem da contratação esteja vinculada ao inc. I deste artigo;\n....................................................................................................................................\nV – obras e serviços de reforma, manutenção, cercamento e calçamento de imóveis próprios municipais da Administração Direta e Indireta;\n...................................................................................................................................\nVII – projetos e execução de Planos de Prevenção e Proteção Contra Incêndio (PPCI) de imóveis próprios municipais da Administração Direta e Indireta;\n.........................................................................................................................” (NR)"
   },
   {
    "id": "art-11",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 11.",
-   "texto": ""
-  },
-  {
-   "id": "art-11/inc-I",
-   "pai": "art-11",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "obras e serviços de construção, ampliação e retrofit de imóveis próprios municipais da Administração Direta e Indireta; ...................................................................................................................................."
-  },
-  {
-   "id": "art-11/inc-II",
-   "pai": "art-11",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "texto": "serviços de avaliação imobiliária, cuja origem da contratação esteja vinculada ao inc. I deste artigo; ...................................................................................................................................."
-  },
-  {
-   "id": "art-11/inc-III",
-   "pai": "art-11",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "texto": "obras e serviços de reforma, manutenção, cercamento e calçamento de imóveis próprios municipais da Administração Direta e Indireta; ..................................................................................................................................."
-  },
-  {
-   "id": "art-11/inc-IV",
-   "pai": "art-11",
-   "tipo": "inciso",
-   "rotulo": "IV –",
-   "texto": "projetos e execução de Planos de Prevenção e Proteção Contra Incêndio (PPCI) de imóveis próprios municipais da Administração Direta e Indireta; .........................................................................................................................” (NR)"
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
   },
   {
    "id": "art-12",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 12.",
-   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
-  },
-  {
-   "id": "art-13",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 13.",
    "texto": "Ficam revogados:"
   },
   {
-   "id": "art-13/inc-I",
-   "pai": "art-13",
+   "id": "art-12/inc-I",
+   "pai": "art-12",
    "tipo": "inciso",
    "rotulo": "I –",
    "texto": "o inc. XII do art. 3º da Lei nº 5.994, de 25 de novembro de 1987;"
   },
   {
-   "id": "art-13/inc-II",
-   "pai": "art-13",
+   "id": "art-12/inc-II",
+   "pai": "art-12",
    "tipo": "inciso",
    "rotulo": "II –",
    "texto": "a Lei nº 8.449, de 30 de dezembro de 1999; e"
   },
   {
-   "id": "art-13/inc-III",
-   "pai": "art-13",
+   "id": "art-12/inc-III",
+   "pai": "art-12",
    "tipo": "inciso",
    "rotulo": "III –",
    "texto": "os itens 36 e 68 do Anexo I da Lei Complementar nº 942, de 25 de maio de 2022."
@@ -171,38 +137,25 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+   "aspa_de_abertura_ausente"
   ],
   "avisos": [
    "tem_anexo"
   ],
   "metricas": {
-   "artigos": 13,
-   "dispositivos": 20,
-   "cobertura": 0.977,
-   "blocosDeAlteracao": 8,
+   "artigos": 12,
+   "dispositivos": 15,
+   "cobertura": 0.98,
+   "blocosDeAlteracao": 9,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
     {
-     "rotulo": "Art. 11.",
-     "naOrigem": ""
-    },
-    {
-     "rotulo": "III –",
-     "naOrigem": "V"
-    },
-    {
-     "rotulo": "IV –",
-     "naOrigem": "VII"
-    },
-    {
-     "rotulo": "Art. 12.",
-     "naOrigem": "Art11"
-    },
-    {
-     "rotulo": "Art. 13.",
-     "naOrigem": "Art12"
+     "tipo": "sem_abertura_de_aspas",
+     "linhaIni": 40,
+     "linhaFim": 48,
+     "confianca": "media"
     }
    ]
   }

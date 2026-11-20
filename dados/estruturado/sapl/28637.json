@@ -2,8 +2,8 @@
  "idSapl": 28637,
  "rotulo": "Lei Complementar municipal nº 385, de 18 de setembro de 1996",
  "sha256Origem": "4ddea73fb260deac6836f3e91586311e6220e6e767b9f4d183fa2293e9e98412",
- "estruturadoEm": "2026-11-20T13:59:55.200Z",
- "versaoEstruturador": 9,
+ "estruturadoEm": "2026-11-20T16:24:19.945Z",
+ "versaoEstruturador": 10,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "385",
@@ -25,22 +25,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "Ficam alterados os dispositivos, abaixo discriminados dosartigos 98, 180 e 181 da Lei Complementar nº 133, de 31 de dezembro de 1985, que passam avigorar com a seguinte redação: \"Art. 180 - A gratificação por exercício de atividade tributária,quebra decaixa, incentivo à produtividade, operação de máquinas, atividades em determinadaszonas ou locais, atividades em classe de alunos excepcionais, atividades insalubres ouperigosas, condução de veículo de representação ou serviços essenciais, peloexercício de atividades de lançamento de tributo, arrecadação, execução econtroleda receita, da despesa e do empenho, e de preparo de pagamento, a vantagemrelativa à parcela autônoma, bem como a gratificação individual de produtividadetécnico-jurídica será incorporada ao provento do funcionário que a tenha percebidodurante cinco anos consecutivos ou dez intercalados e desde que a esteja percebendo naocasião da aposentadoria.",
+   "texto": "Ficam alterados os dispositivos, abaixo discriminados dosartigos 98, 180 e 181 da Lei Complementar nº 133, de 31 de dezembro de 1985, que passam avigorar com a seguinte redação:",
    "blocoDeAlteracao": "\"Art.98 - ...\n§ 2º - O valor da gratificação de que trata este artigo será acrescidode até100% (cem por cento), na proporção do tempo de percepção durante o exercício, dagratificação por regime especial de trabalho, serviço extraordinário, atividadetributária, individual de produtividade técnico-jurídica, aulas excedentes, parcelaautônoma e incentivo à produtividade.\n...\""
-  },
-  {
-   "id": "art-1/inc-I",
-   "pai": "art-1",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "a média mensal de pontos ou de percentuais relativos à parte variável dagratificação por atividade tributária, bem como a gratificação individualdeprodutividade técnico-jurídica. \"Art. 181 - ..."
-  },
-  {
-   "id": "art-1/par-unico",
-   "pai": "art-1",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "texto": "Para efeitos deste artigo, somam-se os períodos não simultâneos depercepção das gratificações por regime especial de trabalho, regime especialsuplementar e complementar de trabalho, por exercício de atividade tributária, serviçoextraordinário, serviço noturno e aulas excedentes, da vantagem pessoal relativa `aparcela autônoma e da gratificação individual de produtividade técnico-jurídica, parao estabelecimento do qüinqüênio ou decênio."
   },
   {
    "id": "art-2",
@@ -61,30 +47,31 @@
   "situacao": "revisar",
   "motivos": [
    "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem",
-   "rotulo_nao_confere_com_a_origem"
+   "bloco_de_alteracao_sem_dono",
+   "bloco_sem_fechamento_de_aspas"
   ],
   "avisos": [
    "cabecalho_fora_do_padrao"
   ],
   "metricas": {
    "artigos": 3,
-   "dispositivos": 5,
-   "cobertura": 0.608,
-   "blocosDeAlteracao": 1,
+   "dispositivos": 3,
+   "cobertura": 0.419,
+   "blocosDeAlteracao": 2,
    "lacunas": [
     {
-     "tamanho": 632,
+     "tamanho": 1175,
      "amostra": "Art180Agratificaçãoporexercíciodeatividadetributáriaquebradecaixaincentivoàprodu"
     }
    ],
-   "naoLocalizados": [
-    "Ficam alterados os dispositivos, abaixo discriminados dosartigos 98, 180 e 181 d"
-   ],
-   "rotulosDivergentes": [
+   "naoLocalizados": [],
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
     {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "2º"
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 9,
+     "linhaFim": 12,
+     "confianca": "baixa"
     }
    ]
   }

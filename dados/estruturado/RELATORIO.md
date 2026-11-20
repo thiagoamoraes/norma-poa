@@ -1,6 +1,6 @@
 # Estruturação — relatório
 
-Gerado em 2026-11-20T13:59:55.686Z por `ingestao/estruturar.mjs` (versão do estruturador: 9). Não editar à mão.
+Gerado em 2026-11-20T16:24:20.481Z por `ingestao/estruturar.mjs` (versão do estruturador: 10). Não editar à mão.
 
 Uma norma só é **aceita** quando passa em todas as conferências: cabeçalho igual ao do catálogo (número, data, tipo), artigos numerados sem salto, rótulos iguais aos do texto de origem, nenhum texto fora da árvore, fecho presente. O resto vai para **revisar**, com o motivo.
 
@@ -8,8 +8,8 @@ Textos baixados: 834 · com texto extraído e estruturados: 823
 
 | Situação | Normas | % |
 |---|---|---|
-| aceita | 541 | 65.7% |
-| revisar | 282 | 34.3% |
+| aceita | 537 | 65.2% |
+| revisar | 286 | 34.8% |
 
 ## Por época (corte: sanção da LC 611, 03/02/2009)
 
@@ -18,7 +18,7 @@ Antes do corte a técnica legislativa era outra: falhas de compilação são esp
 | Época | Aceitas | A revisar | Taxa de aceitação |
 |---|---|---|---|
 | recente | 347 | 131 | 72.6% |
-| antiga | 194 | 151 | 56.2% |
+| antiga | 190 | 155 | 55.1% |
 
 ## Revisão humana
 
@@ -26,12 +26,12 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 
 | Situação | Recentes | Antigas | Total |
 |---|---|---|---|
-| aceita motor | 347 | 194 | 541 |
+| aceita motor | 347 | 190 | 537 |
 | aceita humano | 0 | 0 | 0 |
 | corrigida | 0 | 0 | 0 |
 | defeito de fonte | 0 | 0 | 0 |
 | encaminhada | 0 | 0 | 0 |
-| pendente | 131 | 151 | 282 |
+| pendente | 131 | 155 | 286 |
 | desatualizada | 0 | 0 | 0 |
 
 
@@ -40,16 +40,18 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 
 | Motivo | Normas |
 |---|---|
-| `rotulo_nao_confere_com_a_origem` | 56 |
 | `trecho_nao_localizado_na_origem` | 55 |
+| `rotulo_nao_confere_com_a_origem` | 53 |
 | `texto_fora_da_arvore` | 35 |
-| `sem_fecho` | 27 |
+| `sem_fecho` | 28 |
 | `bloco_de_alteracao_sem_dono` | 25 |
 | `cabecalho_nao_reconhecido` | 11 |
 | `sem_artigos` | 8 |
 | `dispositivo_sem_rotulo` | 6 |
 | `data_diverge_do_catalogo` | 6 |
 | `endereco_repetido` | 5 |
+| `aspa_de_abertura_ausente` | 3 |
+| `alteracao_sem_aspas_nao_delimitada` | 3 |
 | `promulgacao_parcial` | 2 |
 | `numero_diverge_do_catalogo` | 1 |
 | `tipo_diverge_do_catalogo` | 1 |
@@ -60,18 +62,21 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 
 | Motivo | Normas | % do total |
 |---|---|---|
-| `rotulo_nao_confere_com_a_origem` | 160 | 19.4% |
-| `trecho_nao_localizado_na_origem` | 99 | 12% |
+| `rotulo_nao_confere_com_a_origem` | 151 | 18.3% |
+| `trecho_nao_localizado_na_origem` | 97 | 11.8% |
 | `cabecalho_nao_reconhecido` | 96 | 11.7% |
 | `sem_fecho` | 93 | 11.3% |
-| `texto_fora_da_arvore` | 72 | 8.7% |
+| `texto_fora_da_arvore` | 71 | 8.6% |
 | `bloco_de_alteracao_sem_dono` | 51 | 6.2% |
 | `sem_artigos` | 16 | 1.9% |
+| `bloco_sem_fechamento_de_aspas` | 12 | 1.5% |
 | `promulgacao_parcial` | 11 | 1.3% |
 | `data_diverge_do_catalogo` | 9 | 1.1% |
 | `tipo_sem_suporte` | 8 | 1% |
 | `dispositivo_sem_rotulo` | 7 | 0.9% |
 | `endereco_repetido` | 6 | 0.7% |
+| `alteracao_sem_aspas_nao_delimitada` | 4 | 0.5% |
+| `aspa_de_abertura_ausente` | 3 | 0.4% |
 | `numero_diverge_do_catalogo` | 1 | 0.1% |
 | `tipo_diverge_do_catalogo` | 1 | 0.1% |
 
@@ -82,9 +87,9 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 | `cabecalho_fora_do_padrao` | 168 | 20.4% |
 | `tem_anexo` | 50 | 6.1% |
 | `texto_de_ocr` | 44 | 5.3% |
-| `paragrafo_numerado_sem_irmao` | 24 | 2.9% |
-| `possivel_dispositivo_embutido` | 18 | 2.2% |
-| `dispositivo_muito_longo` | 12 | 1.5% |
+| `paragrafo_numerado_sem_irmao` | 23 | 2.8% |
+| `possivel_dispositivo_embutido` | 17 | 2.1% |
+| `dispositivo_muito_longo` | 13 | 1.6% |
 
 ## Fila de revisão — recentes (prioridade; só pendentes e desatualizadas)
 
@@ -95,7 +100,7 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Emenda à Lei Orgânica nº 31, de 15 de junho de 2011 (`37352`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 1.076, de 14 de julho de 2026 (`51486`): dispositivo_sem_rotulo, endereco_repetido, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 1.075, de 14 de julho de 2026 (`51485`): promulgacao_parcial, rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono
-- Lei Complementar municipal nº 1.074, de 09 de julho de 2026 (`51463`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 1.074, de 09 de julho de 2026 (`51463`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem, aspa_de_abertura_ausente
 - Lei Complementar municipal nº 1.071, de 14 de abril de 2026 (`51214`): trecho_nao_localizado_na_origem
 - Lei Complementar municipal nº 1.062, de 15 de dezembro de 2025 (`50793`): data_diverge_do_catalogo
 - Lei Complementar municipal nº 1.050, de 11 de agosto de 2025 (`50386`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
@@ -105,17 +110,17 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Lei Complementar municipal nº 1.031, de 30 de janeiro de 2025 (`49654`): data_diverge_do_catalogo
 - Lei Complementar municipal nº 1.025, de 11 de dezembro de 2024 (`49557`): dispositivo_sem_rotulo, endereco_repetido, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 1.017, de 08 de julho de 2024 (`48855`): sem_fecho, rotulo_nao_confere_com_a_origem
-- Lei Complementar municipal nº 1.011, de 10 de maio de 2024 (`48437`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 1.011, de 10 de maio de 2024 (`48437`): aspa_de_abertura_ausente
 - Lei Complementar municipal nº 1.005, de 08 de fevereiro de 2024 (`48003`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 992, de 07 de novembro de 2023 (`47599`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
-- Lei Complementar municipal nº 964, de 22 de dezembro de 2022 (`48226`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 964, de 22 de dezembro de 2022 (`48226`): aspa_de_abertura_ausente
 - Lei Complementar municipal nº 960, de 05 de outubro de 2022 (`44398`): dispositivo_sem_rotulo, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 957, de 28 de setembro de 2022 (`44376`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 951, de 17 de agosto de 2022 (`44158`): sem_artigos, sem_fecho
 - Lei Complementar municipal nº 932, de 06 de janeiro de 2022 (`43595`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 924, de 17 de dezembro de 2021 (`43542`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
 - Lei Complementar municipal nº 919, de 17 de novembro de 2021 (`43471`): trecho_nao_localizado_na_origem
-- Lei Complementar municipal nº 915, de 29 de setembro de 2021 (`43376`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 915, de 29 de setembro de 2021 (`43376`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem, alteracao_sem_aspas_nao_delimitada
 - Lei Complementar municipal nº 897, de 15 de janeiro de 2021 (`42994`): trecho_nao_localizado_na_origem
 - Lei Complementar municipal nº 896, de 05 de janeiro de 2021 (`42987`): numero_diverge_do_catalogo, data_diverge_do_catalogo, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 894, de 29 de dezembro de 2020 (`42980`): trecho_nao_localizado_na_origem
@@ -138,7 +143,7 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Lei Complementar municipal nº 835, de 26 de julho de 2018 (`41723`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 832, de 09 de março de 2018 (`41577`): trecho_nao_localizado_na_origem
 - Lei Complementar municipal nº 822, de 12 de dezembro de 2017 (`41463`): data_diverge_do_catalogo
-- Lei Complementar municipal nº 818, de 11 de setembro de 2017 (`41347`): sem_fecho
+- Lei Complementar municipal nº 818, de 11 de setembro de 2017 (`41347`): sem_fecho, alteracao_sem_aspas_nao_delimitada
 - Lei Complementar municipal nº 817, de 30 de agosto de 2017 (`41342`): trecho_nao_localizado_na_origem
 - Lei Complementar municipal nº 813, de 20 de março de 2017 (`41179`): cabecalho_nao_reconhecido, sem_fecho
 - Lei Complementar municipal nº 810, de 04 de janeiro de 2017 (`41098`): rotulo_nao_confere_com_a_origem
@@ -202,7 +207,7 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Lei Complementar municipal nº 650, de 27 de agosto de 2010 (`36892`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
 - Lei Complementar municipal nº 649, de 06 de agosto de 2010 (`36862`): bloco_de_alteracao_sem_dono
 - Lei Complementar municipal nº 647, de 27 de julho de 2010 (`36850`): bloco_de_alteracao_sem_dono
-- Lei Complementar municipal nº 646, de 22 de julho de 2010 (`36841`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono
+- Lei Complementar municipal nº 646, de 22 de julho de 2010 (`36841`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono, alteracao_sem_aspas_nao_delimitada
 - Lei Complementar municipal nº 645, de 14 de julho de 2010 (`36824`): sem_fecho
 - Lei Complementar municipal nº 644, de 02 de julho de 2010 (`36811`): bloco_de_alteracao_sem_dono
 - Lei Complementar municipal nº 643, de 18 de maio de 2010 (`36741`): bloco_de_alteracao_sem_dono
@@ -216,7 +221,7 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Lei Complementar municipal nº 631, de 01 de outubro de 2009 (`36373`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 630, de 01 de outubro de 2009 (`36372`): cabecalho_nao_reconhecido, sem_artigos, sem_fecho
 - Lei Complementar municipal nº 628, de 17 de agosto de 2009 (`36316`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
-- Lei Complementar municipal nº 624, de 25 de junho de 2009 (`36190`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 624, de 25 de junho de 2009 (`36190`): sem_fecho, texto_fora_da_arvore, trecho_nao_localizado_na_origem
 - Lei Complementar municipal nº 623, de 23 de junho de 2009 (`36188`): cabecalho_nao_reconhecido, sem_artigos, sem_fecho
 - Lei Complementar municipal nº 614, de 30 de abril de 2009 (`36114`): rotulo_nao_confere_com_a_origem
 
@@ -243,7 +248,7 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Emenda à Lei Orgânica nº 12, de 12 de dezembro de 1997 (`29169`): cabecalho_nao_reconhecido, rotulo_nao_confere_com_a_origem
 - Emenda à Lei Orgânica nº 10, de 13 de dezembro de 1996 (`28780`): sem_fecho
 - Emenda à Lei Orgânica nº 9, de 04 de abril de 1995 (`28032`): cabecalho_nao_reconhecido
-- Emenda à Lei Orgânica nº 7, de 26 de setembro de 1994 (`27784`): cabecalho_nao_reconhecido, sem_fecho, texto_fora_da_arvore, trecho_nao_localizado_na_origem
+- Emenda à Lei Orgânica nº 7, de 26 de setembro de 1994 (`27784`): cabecalho_nao_reconhecido, rotulo_nao_confere_com_a_origem, bloco_sem_fechamento_de_aspas
 - Emenda à Lei Orgânica nº 6, de 15 de dezembro de 1993 (`27395`): trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
 - Emenda à Lei Orgânica nº 5, de 08 de dezembro de 1993 (`27386`): cabecalho_nao_reconhecido, sem_fecho
 - Emenda à Lei Orgânica nº 4, de 22 de novembro de 1993 (`27350`): sem_fecho, rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono
@@ -251,6 +256,7 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Emenda à Lei Orgânica nº 2, de 31 de março de 1992 (`26405`): rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono
 - Emenda à Lei Orgânica nº 13, de 25 de novembro de 1977 (`19330`): cabecalho_nao_reconhecido, sem_fecho
 - Emenda à Lei Orgânica nº 11, de 15 de dezembro de 1970 (`16472`): cabecalho_nao_reconhecido, sem_fecho, texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 606, de 29 de dezembro de 2008 (`35933`): alteracao_sem_aspas_nao_delimitada
 - Lei Complementar municipal nº 604, de 29 de dezembro de 2008 (`35931`): data_diverge_do_catalogo
 - Lei Complementar municipal nº 577, de 16 de outubro de 2007 (`35123`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
 - Lei Complementar municipal nº 563, de 30 de janeiro de 2007 (`34807`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
@@ -272,18 +278,21 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Lei Complementar municipal nº 460, de 22 de dezembro de 2000 (`31004`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 459, de 07 de dezembro de 2000 (`30950`): cabecalho_nao_reconhecido, sem_fecho
 - Lei Complementar municipal nº 455, de 01 de setembro de 2000 (`30749`): rotulo_nao_confere_com_a_origem
-- Lei Complementar municipal nº 453, de 02 de agosto de 2000 (`30711`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 453, de 02 de agosto de 2000 (`30711`): bloco_sem_fechamento_de_aspas
 - Lei Complementar municipal nº 451, de 28 de julho de 2000 (`30698`): rotulo_nao_confere_com_a_origem
-- Lei Complementar municipal nº 450, de 06 de julho de 2000 (`30641`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 450, de 06 de julho de 2000 (`30641`): bloco_sem_fechamento_de_aspas
 - Lei Complementar municipal nº 447, de 10 de maio de 2000 (`30519`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 445, de 19 de abril de 2000 (`30483`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono
 - Lei Complementar municipal nº 437, de 29 de dezembro de 1999 (`30298`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 434, de 01 de dezembro de 1999 (`30209`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 433, de 22 de novembro de 1999 (`30183`): sem_fecho
+- Lei Complementar municipal nº 426, de 29 de dezembro de 1998 (`29705`): bloco_sem_fechamento_de_aspas
+- Lei Complementar municipal nº 425, de 13 de outubro de 1998 (`29581`): bloco_sem_fechamento_de_aspas
 - Lei Complementar municipal nº 424, de 18 de setembro de 1998 (`29544`): cabecalho_nao_reconhecido, sem_fecho
+- Lei Complementar municipal nº 422, de 09 de setembro de 1998 (`29528`): bloco_sem_fechamento_de_aspas
 - Lei Complementar municipal nº 420, de 25 de agosto de 1998 (`29512`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 418, de 16 de junho de 1998 (`29418`): rotulo_nao_confere_com_a_origem
-- Lei Complementar municipal nº 417, de 10 de junho de 1998 (`29409`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 417, de 10 de junho de 1998 (`29409`): bloco_sem_fechamento_de_aspas
 - Lei Complementar municipal nº 415, de 07 de abril de 1998 (`29327`): cabecalho_nao_reconhecido, sem_fecho, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 410, de 02 de abril de 1998 (`29316`): promulgacao_parcial, sem_artigos, sem_fecho, texto_fora_da_arvore, trecho_nao_localizado_na_origem, bloco_de_alteracao_sem_dono
 - Lei Complementar municipal nº 412, de 24 de março de 1998 (`29309`): sem_fecho
@@ -291,11 +300,12 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Lei Complementar municipal nº 404, de 14 de novembro de 1997 (`29125`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 400, de 27 de junho de 1997 (`28977`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 399, de 14 de janeiro de 1997 (`28863`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 398, de 13 de janeiro de 1997 (`28859`): bloco_sem_fechamento_de_aspas
 - Lei Complementar municipal nº 397, de 13 de janeiro de 1997 (`28858`): cabecalho_nao_reconhecido, texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 395, de 26 de dezembro de 1996 (`28813`): sem_fecho, dispositivo_sem_rotulo, endereco_repetido, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 390, de 05 de dezembro de 1996 (`28766`): sem_fecho
 - Lei Complementar municipal nº 388, de 07 de novembro de 1996 (`28716`): cabecalho_nao_reconhecido, sem_fecho
-- Lei Complementar municipal nº 385, de 18 de setembro de 1996 (`28637`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 385, de 18 de setembro de 1996 (`28637`): texto_fora_da_arvore, bloco_de_alteracao_sem_dono, bloco_sem_fechamento_de_aspas
 - Lei Complementar municipal nº 380, de 01 de julho de 1996 (`28547`): cabecalho_nao_reconhecido, sem_fecho, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 379, de 24 de junho de 1996 (`28539`): cabecalho_nao_reconhecido, sem_fecho, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 375, de 24 de maio de 1996 (`28496`): cabecalho_nao_reconhecido, sem_fecho
@@ -314,7 +324,7 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Lei Complementar municipal nº 357, de 02 de outubro de 1995 (`28203`): cabecalho_nao_reconhecido
 - Lei Complementar municipal nº 356, de 15 de setembro de 1995 (`28190`): cabecalho_nao_reconhecido
 - Lei Complementar municipal nº 354, de 23 de agosto de 1995 (`28156`): cabecalho_nao_reconhecido, rotulo_nao_confere_com_a_origem
-- Lei Complementar municipal nº 352, de 08 de agosto de 1995 (`28148`): cabecalho_nao_reconhecido, rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono
+- Lei Complementar municipal nº 352, de 08 de agosto de 1995 (`28148`): cabecalho_nao_reconhecido, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 351, de 10 de julho de 1995 (`28118`): cabecalho_nao_reconhecido, sem_fecho, texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono
 - Lei Complementar municipal nº 350, de 10 de julho de 1995 (`28117`): cabecalho_nao_reconhecido, texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono
 - Lei Complementar municipal nº 349, de 13 de junho de 1995 (`28092`): rotulo_nao_confere_com_a_origem
@@ -330,9 +340,9 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Lei Complementar municipal nº 334, de 27 de dezembro de 1994 (`27924`): cabecalho_nao_reconhecido, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 332, de 02 de dezembro de 1994 (`27882`): sem_fecho
 - Lei Complementar municipal nº 331, de 25 de novembro de 1994 (`27875`): rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono
-- Lei Complementar municipal nº 329, de 06 de setembro de 1994 (`27750`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 329, de 06 de setembro de 1994 (`27750`): bloco_sem_fechamento_de_aspas
 - Lei Complementar municipal nº 328, de 27 de julho de 1994 (`27707`): cabecalho_nao_reconhecido, rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono
-- Lei Complementar municipal nº 326, de 11 de julho de 1994 (`27684`): cabecalho_nao_reconhecido, sem_fecho, rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 326, de 11 de julho de 1994 (`27684`): cabecalho_nao_reconhecido, sem_fecho, bloco_sem_fechamento_de_aspas
 - Lei Complementar municipal nº 325, de 07 de julho de 1994 (`27682`): cabecalho_nao_reconhecido, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 323, de 25 de maio de 1994 (`27604`): cabecalho_nao_reconhecido, sem_fecho, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 321, de 19 de maio de 1994 (`27599`): sem_fecho
@@ -342,14 +352,13 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Lei Complementar municipal nº 315, de 06 de janeiro de 1994 (`27459`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 314, de 04 de janeiro de 1994 (`27453`): cabecalho_nao_reconhecido, sem_fecho, trecho_nao_localizado_na_origem
 - Lei Complementar municipal nº 312, de 29 de dezembro de 1993 (`27449`): rotulo_nao_confere_com_a_origem
-- Lei Complementar municipal nº 311, de 28 de dezembro de 1993 (`27443`): cabecalho_nao_reconhecido
+- Lei Complementar municipal nº 311, de 28 de dezembro de 1993 (`27443`): cabecalho_nao_reconhecido, bloco_sem_fechamento_de_aspas
 - Lei Complementar municipal nº 308, de 28 de dezembro de 1993 (`27441`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 305, de 21 de dezembro de 1993 (`27406`): promulgacao_parcial, cabecalho_nao_reconhecido, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 303, de 20 de dezembro de 1993 (`27404`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 299, de 06 de outubro de 1993 (`27249`): sem_fecho
 - Lei Complementar municipal nº 297, de 27 de julho de 1993 (`27111`): cabecalho_nao_reconhecido, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 282, de 22 de junho de 1993 (`27049`): promulgacao_parcial, sem_artigos, sem_fecho, texto_fora_da_arvore, trecho_nao_localizado_na_origem, bloco_de_alteracao_sem_dono
-- Lei Complementar municipal nº 293, de 28 de abril de 1993 (`26970`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 292, de 15 de janeiro de 1993 (`26885`): sem_fecho, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 291, de 15 de janeiro de 1993 (`26884`): cabecalho_nao_reconhecido, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 289, de 13 de janeiro de 1993 (`26874`): cabecalho_nao_reconhecido, rotulo_nao_confere_com_a_origem

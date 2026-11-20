@@ -2,8 +2,8 @@
  "idSapl": 28859,
  "rotulo": "Lei Complementar municipal nº 398, de 13 de janeiro de 1997",
  "sha256Origem": "1bfdeac1eb344b5a65ba2078d4e17136d8d537b3f85a9a0dc4a96970fe08f30d",
- "estruturadoEm": "2026-11-20T13:59:55.160Z",
- "versaoEstruturador": 9,
+ "estruturadoEm": "2026-11-20T16:24:19.902Z",
+ "versaoEstruturador": 10,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "398",
@@ -25,21 +25,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "® - O inciso I do art. 166 da Lei Complementar n® 284, de 27 de outubro de 1992, passa a ter a seguinte redação; “Art 166 - ..."
-  },
-  {
-   "id": "art-1/inc-I",
-   "pai": "art-1",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "as colunas e válvulas dos reservatórios deverão ficar recuadas, no mínimo, 4,00m (quatro metros) dos alinhamentos e 7,00m (sete metros) das divisas."
-  },
-  {
-   "id": "art-1/par-unico",
-   "pai": "art-1",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "texto": "Para imóveis cujo recuo de jardim estabelecido pelo Plano Diretor seja maior do que 4,00m (quatro metros) prevalecerá a medida deste recuo de jardim como padrão de afastamento mínimo de alinhamento.’"
+   "texto": "® - O inciso I do art. 166 da Lei Complementar n® 284, de 27 de outubro de 1992, passa a ter a seguinte redação;",
+   "blocoDeAlteracao": "“Art 166 - ...\nI - as colunas e válvulas dos reservatórios deverão\nficar recuadas, no mínimo, 4,00m (quatro metros) dos alinhamentos e\n7,00m (sete metros) das divisas.\nParágrafo único - Para imóveis cujo recuo de jardim\nestabelecido pelo Plano Diretor seja maior do que 4,00m (quatro\nmetros) prevalecerá a medida deste recuo de jardim como padrão de\nafastamento mínimo de alinhamento.’"
   },
   {
    "id": "art-2",
@@ -57,19 +44,29 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "bloco_sem_fechamento_de_aspas"
+  ],
   "avisos": [
    "cabecalho_fora_do_padrao"
   ],
   "metricas": {
    "artigos": 3,
-   "dispositivos": 5,
-   "cobertura": 0.944,
-   "blocosDeAlteracao": 0,
+   "dispositivos": 3,
+   "cobertura": 0.963,
+   "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": []
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 9,
+     "linhaFim": 16,
+     "confianca": "media"
+    }
+   ]
   }
  }
 }

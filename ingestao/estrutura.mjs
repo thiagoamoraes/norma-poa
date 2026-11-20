@@ -16,7 +16,7 @@
 // Uma norma só é 'aceita' quando passa em TODAS as conferências. O resto vai
 // para 'revisar' com o motivo — nada é aceito em silêncio.
 
-import { parseLeiPublicada, atribuirDesFixoOriginal, detectNRCandidates } from '../norma-core.js';
+import { parseLeiPublicada, atribuirDesFixoOriginal, detectNRCandidates, extrairReferenciasLei, extrairReferenciaLeiOrganica } from '../norma-core.js';
 
 /**
  * Corte de época (orientação do mantenedor, 20/11/2026): a LC 611/2009, sancionada
@@ -34,8 +34,28 @@ export function epocaDaNorma(registro) {
   return ano < 2009 ? 'antiga' : ano > 2009 ? 'recente' : 'indefinida'; // só o ano 2009 não decide
 }
 
+// Introdução FORTE de alteração: verbo de alteração + lei citada + fecha com "conforme segue:" e afins.
+const RE_INTRO_VERBO = /\b(?:fic(?:a|am)\s+(?:alterad|acrescid|inclu[ií]d|criad|modificad)\w*|altera-se|(?:passa|passam)\s+a\s+(?:vigorar|ter)|d[aá]-se\s+nova\s+reda[çc][ãa]o|nova\s+reda[çc][ãa]o)/i;
+const RE_INTRO_CUE = /(?:conforme\s+segue|seguintes?\s+reda[çc][ãa](?:o|es|ões)|com\s+a\s+seguinte\s+reda[çc][ãa]o|seguinte\s+teor)\s*:?\s*$/i;
+
+/**
+ * Artigos da alteradora com introdução forte ("Fica alterado o art. X da Lei Y, conforme segue:") em que
+ * NENHUM bloco de redação alterada foi lido (`nrBloco`). Se a norma fosse aceita assim, a lei-alvo teria sido
+ * lida como dispositivo da alteradora e ninguém saberia (falso aceite silencioso). Decisão do mantenedor,
+ * 20/11/2026: a norma é reprovada com o motivo `alteracao_sem_aspas_nao_delimitada`.
+ */
+export function introsDeAlteracaoSemBloco(artigos) {
+  const achados = [];
+  for (const a of artigos || []) {
+    if (a.nrBloco) continue;
+    const t = String(a.texto || '').replace(/\s+/g, ' ').trim();
+    if (RE_INTRO_VERBO.test(t) && RE_INTRO_CUE.test(t) && (extrairReferenciasLei(t).length || extrairReferenciaLeiOrganica(t))) achados.push(t.slice(0, 160));
+  }
+  return achados;
+}
+
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
-export const VERSAO_ESTRUTURADOR = 9;
+export const VERSAO_ESTRUTURADOR = 10;
 
 export const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');
@@ -224,6 +244,11 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
   if (cons.naoLocalizados.length) motivos.push('trecho_nao_localizado_na_origem');
   if (cons.rotulosDivergentes.length) motivos.push('rotulo_nao_confere_com_a_origem');
   if (proximoBloco !== blocos.length) motivos.push('bloco_de_alteracao_sem_dono');
+  // fronteira de bloco INFERIDA (decisões 9 e 11 do mantenedor): aplicada, mas a norma nunca fica "aceita limpa"
+  const fronteirasInferidas = blocos.filter((b) => b.sem_fecho || b.sem_abertura).map((b) => ({ tipo: b.sem_fecho ? 'sem_fechamento_de_aspas' : 'sem_abertura_de_aspas', linhaIni: b.startIdx + 1, linhaFim: b.endIdx + 1, confianca: b.confianca }));
+  if (blocos.some((b) => b.sem_fecho)) motivos.push('bloco_sem_fechamento_de_aspas');
+  if (blocos.some((b) => b.sem_abertura)) motivos.push('aspa_de_abertura_ausente');
+  if (introsDeAlteracaoSemBloco(doc.artigos).length) motivos.push('alteracao_sem_aspas_nao_delimitada');
 
   if (numeradoSemIrmao) avisos.push('paragrafo_numerado_sem_irmao');
   if (opcoes.ocr) avisos.push('texto_de_ocr'); // lido de imagem: pode ter troca de caracteres
@@ -250,6 +275,7 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
         cobertura: Math.round(cons.cobertura * 1000) / 1000,
         blocosDeAlteracao: blocos.length,
         lacunas: lacunasReais.slice(0, 5), naoLocalizados: cons.naoLocalizados.slice(0, 5), rotulosDivergentes: cons.rotulosDivergentes.slice(0, 5),
+        ...(fronteirasInferidas.length ? { fronteirasInferidas } : {}),
       },
     },
   };

@@ -2,8 +2,8 @@
  "idSapl": 27750,
  "rotulo": "Lei Complementar municipal nº 329, de 06 de setembro de 1994",
  "sha256Origem": "8e066bbeaa1c6002fb2fd9ba40d4be23da143709ec696c315965cc66123a8f99",
- "estruturadoEm": "2026-11-20T13:59:55.328Z",
- "versaoEstruturador": 9,
+ "estruturadoEm": "2026-11-20T16:24:20.069Z",
+ "versaoEstruturador": 10,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "329",
@@ -25,14 +25,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "O inciso V, do art. 21 da Lei Complementar nº 7, de 07 de dezembro de 1973, com as modificações posteriores e com as alterações introduzidas pela Lei Complementar nº 209, de 28 de dezembro de 1989, passa a ter a seguinte redaçao: \"Art. 21 -...."
-  },
-  {
-   "id": "art-1/inc-I",
-   "pai": "art-1",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "arrendamento mercantil ('leasing'): 2,5% (dois e meio por cento);!"
+   "texto": "O inciso V, do art. 21 da Lei Complementar nº 7, de 07 de dezembro de 1973, com as modificações posteriores e com as alterações introduzidas pela Lei Complementar nº 209, de 28 de dezembro de 1989, passa a ter a seguinte redaçao:",
+   "blocoDeAlteracao": "\"Art. 21 -....\nV - arrendamento mercantil ('leasing'): 2,5% (dois\ne meio por cento);!"
   },
   {
    "id": "art-2",
@@ -52,7 +46,7 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+   "bloco_sem_fechamento_de_aspas"
   ],
   "avisos": [
    "cabecalho_fora_do_padrao",
@@ -60,15 +54,18 @@
   ],
   "metricas": {
    "artigos": 3,
-   "dispositivos": 4,
-   "cobertura": 0.974,
-   "blocosDeAlteracao": 0,
+   "dispositivos": 3,
+   "cobertura": 0.975,
+   "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
     {
-     "rotulo": "I –",
-     "naOrigem": "V"
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 25,
+     "linhaFim": 29,
+     "confianca": "baixa"
     }
    ]
   }
