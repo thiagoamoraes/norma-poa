@@ -2,8 +2,8 @@
  "idSapl": 26309,
  "rotulo": "Lei Complementar municipal nº 267, de 16 de janeiro de 1992",
  "sha256Origem": "96a245c93d1363bf2531d4d6e7a004fad36382e7c153ec28b51e91d9804e7c55",
- "estruturadoEm": "2026-11-20T11:52:25.046Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:55.659Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "267",
@@ -32,7 +32,28 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 2º",
-   "texto": "Compete aos Conselhos Municipais: I  Atuar nas formulações e controle da execução da política setorial daAdministração Municipal que lhe afeta. II  Estabelecer as diretrizes a serem observadas na elaboração dos planos eprogramas de ação setoriais no âmbito municipal. III  Deliberar sobre políticas, planos e programas referentes à políticasetorial."
+   "texto": "Compete aos Conselhos Municipais:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "Atuar nas formulações e controle da execução da política setorial daAdministração Municipal que lhe afeta."
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "Estabelecer as diretrizes a serem observadas na elaboração dos planos eprogramas de ação setoriais no âmbito municipal."
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "Deliberar sobre políticas, planos e programas referentes à políticasetorial."
   },
   {
    "id": "art-3",
@@ -46,7 +67,7 @@
    "pai": "art-3",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
-   "texto": " O Poder Legislativo deverá dar ampla divulgaçãoao projetode lei que tiver por objeto a instituição de Conselho Municipal."
+   "texto": "O Poder Legislativo deverá dar ampla divulgaçãoao projetode lei que tiver por objeto a instituição de Conselho Municipal."
   },
   {
    "id": "art-4",
@@ -60,7 +81,7 @@
    "pai": "art-4",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
-   "texto": " O número de membros da cada Conselho Municipal seráestipulado conforme sua especificidade, sendo garantida maioria de representantes àsentidades comunitárias de moradores e entidades representativas de trabalhadores eentidades civis vinculadas à área de atuação do Conselho."
+   "texto": "O número de membros da cada Conselho Municipal seráestipulado conforme sua especificidade, sendo garantida maioria de representantes àsentidades comunitárias de moradores e entidades representativas de trabalhadores eentidades civis vinculadas à área de atuação do Conselho."
   },
   {
    "id": "art-5",
@@ -74,7 +95,7 @@
    "pai": "art-5",
    "tipo": "paragrafo",
    "rotulo": "§ 1º",
-   "texto": "Os representantes das entidades comunitárias serão eleitos em AssembléiaGeral convocada pela UAMPA  União das Associações de Moradores de Porto Alegre."
+   "texto": "Os representantes das entidades comunitárias serão eleitos em AssembléiaGeral convocada pela UAMPA – União das Associações de Moradores de Porto Alegre."
   },
   {
    "id": "art-5/par-2",
@@ -137,84 +158,88 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 10.",
-   "texto": " VETADO."
+   "texto": "VETADO.",
+   "vetado": true
   },
   {
    "id": "art-11",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 11.",
-   "texto": " As resoluções dos Conselhos serão encaminhadas aoPrefeito, que as acolherá ou vetará, no todo ou em parte."
+   "texto": "As resoluções dos Conselhos serão encaminhadas aoPrefeito, que as acolherá ou vetará, no todo ou em parte."
   },
   {
    "id": "art-11/par-1",
    "pai": "art-11",
    "tipo": "paragrafo",
    "rotulo": "§ 1º",
-   "texto": " VETADO"
+   "texto": "VETADO",
+   "vetado": true
   },
   {
    "id": "art-11/par-2",
    "pai": "art-11",
    "tipo": "paragrafo",
    "rotulo": "§ 2º",
-   "texto": " VETADO"
+   "texto": "VETADO",
+   "vetado": true
   },
   {
    "id": "art-12",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 12.",
-   "texto": " VETADO"
+   "texto": "VETADO",
+   "vetado": true
   },
   {
    "id": "art-13",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 13.",
-   "texto": " O Desempenho da função de membro de ConselhoMunicipal será considerada de relevância para o Município."
+   "texto": "O Desempenho da função de membro de ConselhoMunicipal será considerada de relevância para o Município."
   },
   {
    "id": "art-14",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 14.",
-   "texto": " O Membro do Conselho Municipal terá o direito deexercer a função de fiscal das atividades do Município na área da respectivacompetência, para o que receberá credencial própria firmada pelo Prefeito."
+   "texto": "O Membro do Conselho Municipal terá o direito deexercer a função de fiscal das atividades do Município na área da respectivacompetência, para o que receberá credencial própria firmada pelo Prefeito."
   },
   {
    "id": "art-15",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 15.",
-   "texto": " O Município deverá providenciar na divulgação dasresoluções dos Conselhos."
+   "texto": "O Município deverá providenciar na divulgação dasresoluções dos Conselhos."
   },
   {
    "id": "art-16",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 16.",
-   "texto": " O Município providenciará na infra-estruturanecessária ao funcionamento dos Conselhos que, de preferência, se reunirãorespectivos órgãos de atuação."
+   "texto": "O Município providenciará na infra-estruturanecessária ao funcionamento dos Conselhos que, de preferência, se reunirãorespectivos órgãos de atuação."
   },
   {
    "id": "art-17",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 17.",
-   "texto": " Os atuais Conselhos com atuação no Município queestejam em desacordo com os preceitos desta Lei Complementar continuarão funcionando emcaráter precário até que esteja em vigor Lei específica que institua ConselhoMunicipal em sua respectiva área de atuação de acordo com os critérios estabelecidosnesta Lei Complementar."
+   "texto": "Os atuais Conselhos com atuação no Município queestejam em desacordo com os preceitos desta Lei Complementar continuarão funcionando emcaráter precário até que esteja em vigor Lei específica que institua ConselhoMunicipal em sua respectiva área de atuação de acordo com os critérios estabelecidosnesta Lei Complementar."
   },
   {
    "id": "art-18",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 18.",
-   "texto": " Esta Lei Complementar entra em vigor napublicação."
+   "texto": "Esta Lei Complementar entra em vigor napublicação."
   },
   {
    "id": "art-19",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 19.",
-   "texto": " Revogam-se as disposições em contrário,as disposições relativas a Conselhos Municipais reguladas na Legislação Estadual eFederal."
+   "texto": "Revogam-se as disposições em contrário,as disposições relativas a Conselhos Municipais reguladas na Legislação Estadual eFederal."
   }
  ],
  "verificacao": {
@@ -225,8 +250,8 @@
   ],
   "metricas": {
    "artigos": 19,
-   "dispositivos": 28,
-   "cobertura": 0.964,
+   "dispositivos": 31,
+   "cobertura": 0.962,
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],

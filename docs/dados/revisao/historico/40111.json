@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-19T09:26:05.110Z",
+ "geradoEm": "2026-11-20T13:58:22.376Z",
  "idSapl": 40111,
  "rotulo": "Lei Complementar municipal nº 765, de 08 de julho de 2015",
  "baseConferida": false,
@@ -18,7 +18,7 @@
     "idSapl": 42468,
     "rotulo": "Lei Complementar municipal nº 877, de 06 de março de 2020"
    },
-   "comandosAplicados": 2
+   "comandosAplicados": 1
   },
   {
    "indice": 2,
@@ -88,15 +88,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 1,
-     "texto": "O valor da GPrev corresponderá ao percentual de alcance de metas quadrimestrais de resultado, cujos critérios de aferição serão estabelecidos por decreto.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 877/2020"
      }
     }
    ]
@@ -4600,10 +4591,10 @@
    ]
   },
   {
-   "id": "art-41/par-unico",
+   "id": "art-41/par-4",
    "pai": "art-41",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 4º",
    "estados": [
     {
      "desde": 0,
@@ -5142,10 +5133,10 @@
    ]
   },
   {
-   "id": "art-58/par-unico",
+   "id": "art-58/par-4",
    "pai": "art-58",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 4º",
    "estados": [
     {
      "desde": 0,
@@ -6238,6 +6229,17 @@
  "naoAplicadas": [
   {
    "alteradora": {
+    "idSapl": 42468,
+    "rotulo": "Lei Complementar municipal nº 877, de 06 de março de 2020"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.180, de 2011\",\"tipoAto\":\"LEI\",\"numero\":\"11180\",\"ano\":\"2011\",\"chave\":\"l 11180/2011\"}, versão: lc 765/2015)",
+   "enderecos": [
+    "art-2"
+   ]
+  },
+  {
+   "alteradora": {
     "idSapl": 47888,
     "rotulo": "Lei Complementar municipal nº 1.003, de 05 de janeiro de 2024"
    },
@@ -6250,6 +6252,114 @@
   }
  ],
  "aConferir": [
+  {
+   "id": "art-2",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-I",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-II",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-III",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-V",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-VI",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-VII",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-VIII",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-IX",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-X",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XI",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XII",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XIII",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XIV",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XV",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XVI",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XVII",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XVIII",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XIX",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XX",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XXI",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XXII",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XXIII",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XXIV",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inc-XXV",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-2/inciso-sem-rotulo",
+   "desde": "2020-03-06"
+  },
   {
    "id": "art-63/par-1/inc-II",
    "desde": "2024-01-05"

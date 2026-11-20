@@ -52,7 +52,7 @@ export function htmlSirelParaTexto(bytes) {
     .replace(/<(script|style|title)\b[\s\S]*?<\/\1>/gi, '')
     .replace(/<\s*(?:p|br|tr|div|table|h[1-6]|li|center)\b[^>]*>/gi, '\n')
     .replace(/<[^>]+>/g, '')
-    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#(\d+);/g, (_, n) => cp1252ParaUnicode(String.fromCodePoint(Number(n))))
     .replace(/&([a-z]+);/gi, (m, nome) => ENTIDADES[nome.toLowerCase()] ?? m)
     .split(/\r?\n/)
     .map((l) => l.replace(/[ \t ]+/g, ' ').trim())
@@ -203,7 +203,7 @@ export function desfazerHifenizacao(texto) {
  * linha é desfeita. O arquivo .txt guardado NÃO é alterado.
  */
 export function prepararTextoExtraido(texto) {
-  return juntarAberturaDeBlocoPartida(desfazerHifenizacao(String(texto).replace(/\f/g, '\n')).texto);
+  return juntarFechoQuebrado(juntarAberturaDeBlocoPartida(desfazerHifenizacao(cp1252ParaUnicode(String(texto)).replace(/\f/g, '\n')).texto));
 }
 
 /**
@@ -230,4 +230,42 @@ export function juntarAberturaDeBlocoPartida(texto) {
     saida.push(linhas[i]);
   }
   return saida.join('\n');
+}
+
+/**
+ * Fecho com a data partida em duas linhas pela extração: "CÂMARA MUNICIPAL DE PORTO ALEGRE, 6 DE
+ * NOVEMBRO DE" / "2017." (visto em LC 820/2017 e LC 769/2015, entre outras). Junta as duas SÓ quando a
+ * primeira é um fecho conhecido que termina em "de" e a seguinte é apenas o ano (com ponto opcional) —
+ * decisão do mantenedor, 20/11/2026. Nenhum fecho novo é aceito: é o mesmo fecho, quebrado pela extração.
+ */
+export function juntarFechoQuebrado(texto) {
+  const reInicio = /^(?:C[ÂA]MARA\s+MUNICIPAL\s+DE\s+PORTO\s+ALEGRE|PREFEITURA\s+MUNIC\s?IPAL\s+DE\s+PORTO\s+ALEGRE|GABINETE\s+DA\s+PRESID[ÊE]NCIA\s+DA\s+C[ÂA]MARA\s+MUNICIPAL[^,]{0,60}|PORTO\s+ALEGRE)\s*,\s*\d{1,2}\s*[º°]?\s+de\s+[A-Za-zÀ-ú]+\s+de$/i;
+  const linhas = String(texto).split('\n');
+  const saida = [];
+  for (let i = 0; i < linhas.length; i++) {
+    if (reInicio.test(linhas[i].trim())) {
+      let k = i + 1;
+      while (k < linhas.length && !linhas[k].trim()) k++;
+      if (k < linhas.length && /^\d{4}\.?$/.test(linhas[k].trim())) {
+        saida.push(linhas[i].trimEnd() + ' ' + linhas[k].trim());
+        i = k;
+        continue;
+      }
+    }
+    saida.push(linhas[i]);
+  }
+  return saida.join('\n');
+}
+
+/**
+ * Aspas, travessão e afins gravados como caracteres de CONTROLE (U+0080–U+009F). O SIREL escreve "&#147;" e
+ * "&#148;" (aspas), "&#150;" (travessão) etc.: números da tabela Windows-1252, que a leitura tratava como
+ * Unicode e gravava como controles invisíveis. Sem as aspas, `detectNRCandidates` não vê a abertura do bloco
+ * de alteração e o texto da lei-alvo vira dispositivo da alteradora (o plano PLANO-ALTERADORA-SEM-ASPAS.md
+ * mediu 16 textos assim, todos de HTML do SIREL). Controles C1 nunca são texto legítimo: o mapa é seguro.
+ */
+const CP1252 = { 0x80: '€', 0x82: '‚', 0x83: 'ƒ', 0x84: '„', 0x85: '…', 0x86: '†', 0x87: '‡', 0x88: 'ˆ', 0x89: '‰', 0x8a: 'Š', 0x8b: '‹', 0x8c: 'Œ', 0x8e: 'Ž',
+  0x91: '‘', 0x92: '’', 0x93: '“', 0x94: '”', 0x95: '•', 0x96: '–', 0x97: '—', 0x98: '˜', 0x99: '™', 0x9a: 'š', 0x9b: '›', 0x9c: 'œ', 0x9e: 'ž', 0x9f: 'Ÿ' };
+export function cp1252ParaUnicode(texto) {
+  return String(texto).replace(/[\u0080-\u009f]/g, (ch) => CP1252[ch.charCodeAt(0)] ?? ch);
 }

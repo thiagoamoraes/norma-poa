@@ -2,8 +2,8 @@
  "idSapl": 42401,
  "rotulo": "Lei Complementar municipal nº 872, de 10 de janeiro de 2020",
  "sha256Origem": "27da6f9c52bb78cedb5beaeae0703abc7687544d2111ebf37793bfbd9af470d8",
- "estruturadoEm": "2026-11-20T11:52:20.382Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:51.163Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "872",
@@ -63,10 +63,10 @@
    "texto": "....................................................................................................................................... ........................................................................................................................................................"
   },
   {
-   "id": "art-3/par-unico",
+   "id": "art-3/par-1",
    "pai": "art-3",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 1º",
    "texto": "A Secretaria Municipal do Meio Ambiente e da Sustentabilidade (Smams) deverá coordenar a deﬁnição de indicadores ambientais que permitam avaliar os resultados desta Lei Complementar e publicar os resultados de seu acompanhamento."
   },
   {
@@ -238,6 +238,7 @@
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [
+   "paragrafo_numerado_sem_irmao",
    "tem_anexo"
   ],
   "metricas": {
@@ -261,12 +262,12 @@
      "naOrigem": ""
     },
     {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "Art101º"
-    },
-    {
      "rotulo": "Art. 4º",
      "naOrigem": "Art11"
+    },
+    {
+     "rotulo": "Art. 5º",
+     "naOrigem": ""
     }
    ]
   }

@@ -138,6 +138,22 @@ const base = { idSapl: 48003, decisao: 'aceitar', sha256Origem: 'abc', versaoEst
   ok('texto que não é lei não derruba a descrição', descreverComandos('lixo', fonte('1', '2000-01-01'), () => null).comandos.length === 0);
 }
 
+// --- F2: Lei Orgânica como alvo presumido (decisão de 20/11/2026) -----------------------------
+{
+  const fonteEC = (n, data) => ({ tipoAto: 'EMENDA À LEI ORGÂNICA', numero: n, ano: data.slice(0, 4), dataPublicacao: data });
+  const ec28 = fs.readFileSync('./fixtures/textos/ec28_2009.txt', 'utf8');
+  const sem = descreverComandos(ec28, fonteEC('28', '2009-03-20'), () => null);
+  ok('EC 28/2009 (real) sem a LO na base: o alvo é identificado (Lei Orgânica, presumido) mas "fora da base" — nada de antes/depois inventado', sem.comandos.length === 1 && sem.comandos[0].chave === 'lo 1/1990' && sem.comandos[0].presumido === true && sem.comandos[0].situacao === 'alvo_fora_da_base' && sem.comandos[0].antes === undefined);
+  const antiga = descreverComandos(ec28, fonteEC('28', '1985-03-20'), () => ({ registro: { idSapl: 1, tipoSapl: 1, numero: '1', ano: 1990, data: '1990-04-03' }, texto: 'LEI ORGÂNICA\nArt. 1º Texto.' }));
+  ok('(sintético) a MESMA frase em ato anterior a 1990 não é resolvida para a LO de 1990 (a presunção só vale desde então) e nunca consulta a base', antiga.comandos[0].situacao === 'alvo_nao_identificado' && /anterior a 1990/.test(antiga.comandos[0].erro));
+  const arqLO = './dados/textos/sapl/25277.txt';
+  if (fs.existsSync(arqLO)) {
+    const lo = { registro: { idSapl: 25277, tipoSapl: 1, numero: '1', ano: 1990, data: '1990-04-03', rotulo: 'Lei Orgânica nº 1, de 03 de abril de 1990' }, texto: fs.readFileSync(arqLO, 'utf8') };
+    const com = descreverComandos(ec28, fonteEC('28', '2009-03-20'), (ch) => (ch === 'lo 1/1990' ? lo : null));
+    ok('EC 28/2009 com a LO de 1990 do acervo na base: o inc. XXI do art. 94 é "aplicável" e nasce sem "antes" (é inclusão)', com.comandos[0].situacao === 'aplicavel' && com.comandos[0].antes === undefined && /^enviar à Câmara/.test(com.comandos[0].depois));
+  }
+}
+
 // --- F3: comparação com a compilação colada (leis.org) -------------------------
 {
   // histórico REAL da LC 320 (saída de gerar-historico.mjs) × compilação REAL (lc320_compilado_leisorg.txt)
@@ -159,6 +175,18 @@ const base = { idSapl: 48003, decisao: 'aceitar', sha256Origem: 'abc', versaoEst
   const vazio = compararComCompilacao(h, '');
   ok('(sintético) compilação vazia: nada some em silêncio — todo dispositivo do motor aparece como "só no motor"', vazio.resumo.so_no_motor === h.dispositivos.length && vazio.resumo.igual === 0);
   ok('normalização: espaço, travessão, aspas curvas e anotação de redação não contam', normalizarParaComparar('“A”  – B (Redação dada pela LC 1)') === normalizarParaComparar('"A" - B'));
+}
+
+// --- regra de desatualização: só texto ou veredito (decisão de 20/11/2026) --------------------
+{
+  const dec = { idSapl: 7, decisao: 'aceitar', sha256Origem: 'abc', versaoEstruturador: 7, em: '2026-11-20T12:00:00Z', motivosNaHora: ['sem_fecho', 'rotulo_nao_confere_com_a_origem'] };
+  const norma = { idSapl: 7, sha256Origem: 'abc', versaoEstruturador: 8, situacao: 'revisar', motivos: ['rotulo_nao_confere_com_a_origem', 'sem_fecho'] };
+  ok('(sintético) versão do leitor subiu mas o VEREDITO é o mesmo (mesmos motivos, em outra ordem): a decisão continua valendo', situacaoDaDecisao(dec, norma) === 'revisada');
+  ok('(sintético) versão subiu e os motivos MUDARAM: volta à fila (desatualizada)', situacaoDaDecisao(dec, { ...norma, motivos: ['sem_fecho'] }) === 'desatualizada');
+  ok('(sintético) o texto mudou (sha): desatualizada, mesmo com o mesmo veredito', situacaoDaDecisao(dec, { ...norma, sha256Origem: 'novo' }) === 'desatualizada');
+  ok('(sintético) sem como comparar o veredito (decisão sem motivosNaHora, ou norma sem motivos): regra rígida, versão diferente = desatualizada', situacaoDaDecisao({ ...dec, motivosNaHora: undefined }, norma) === 'desatualizada' && situacaoDaDecisao(dec, { ...norma, motivos: undefined }) === 'desatualizada');
+  ok('(sintético) mesma versão: vale, sem olhar os motivos', situacaoDaDecisao(dec, { ...norma, versaoEstruturador: 7, motivos: ['outro'] }) === 'revisada');
+  ok('(sintético) humano: o motor passou a aceitar a norma — a decisão desatualizada não a reabre (aceita_motor)', situacaoHumana({ ...norma, situacao: 'aceita', motivos: [] }, dec) === 'aceita_motor');
 }
 
 // --- acervo inteiro: as âncoras concordam com o veredito do estruturador -----

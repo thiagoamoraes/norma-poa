@@ -2,8 +2,8 @@
  "idSapl": 51485,
  "rotulo": "Lei Complementar municipal nº 1.075, de 14 de julho de 2026",
  "sha256Origem": "2d3e0a832522fe92fad3e5cbfab7bf472ef69f37b4263e0452ad9aeaa1c65864",
- "estruturadoEm": "2026-11-20T11:52:19.255Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:50.083Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1075",
@@ -28,10 +28,10 @@
    "texto": ".................................................................................................................... ...................................................................................................................................."
   },
   {
-   "id": "art-1/par-unico",
+   "id": "art-1/par-3",
    "pai": "art-1",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 3º",
    "texto": "A geração de TDC nos casos do inc. IV do caput deste artigo, limitada à área do módulo de fracionamento da ZOT em que estiver inserido o imóvel será condicionada à apresentação de Estudo Técnico de Restauro e à formalização de Termo de Compromisso, quando o imóvel tombado ou inventariado exigir ações de conservação ou manutenção. .................................................................................................................................... ...................................................................................................................................."
   }
  ],
@@ -42,7 +42,9 @@
    "rotulo_nao_confere_com_a_origem",
    "bloco_de_alteracao_sem_dono"
   ],
-  "avisos": [],
+  "avisos": [
+   "paragrafo_numerado_sem_irmao"
+  ],
   "metricas": {
    "artigos": 1,
    "dispositivos": 2,
@@ -54,10 +56,6 @@
     {
      "rotulo": "Art. 1º",
      "naOrigem": ""
-    },
-    {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "Art1853º"
     }
    ]
   }

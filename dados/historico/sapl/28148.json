@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-20T09:25:03.942Z",
+ "geradoEm": "2026-11-20T13:47:03.157Z",
  "idSapl": 28148,
  "rotulo": "Lei Complementar municipal nº 352, de 08 de agosto de 1995",
  "baseConferida": false,
@@ -9,16 +9,6 @@
    "id": "lc 352/1995@1995-08-08",
    "data": "1995-08-08",
    "fonte": null
-  },
-  {
-   "indice": 1,
-   "id": "lc 352/1995@2010-12-07",
-   "data": "2010-12-07",
-   "fonte": {
-    "idSapl": 37041,
-    "rotulo": "Lei Complementar municipal nº 660, de 07 de dezembro de 2010"
-   },
-   "comandosAplicados": 12
   }
  ],
  "dispositivos": [
@@ -34,15 +24,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 1,
-     "texto": "Fica instituído, no Município de Porto Alegre, o Conselho Municipal do Idoso (Comui), órgão deliberativo no âmbito de suas competências, pro positivo, consultivo e fiscalizador das políticas públicas destinadas a promover os direitos dos idosos.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
      }
     }
    ]
@@ -94,159 +75,6 @@
      }
     }
    ]
-  },
-  {
-   "id": "art-1/inc-VI",
-   "pai": "art-1",
-   "tipo": "inciso",
-   "rotulo": "VI –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "dar pareceres aos projetos destinados a instituir ações ou políticas públicas de promoção cultural desenvolvidas pela Secretaria Municipal da Cultura (SMC);",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1/par-unico",
-   "pai": "art-1",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "O Comui será vinculado administrativamente à Secretaria Municipal de Coordenação Política e Governança Local (SMGL).",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 1º-A",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Fica criado o Fundo Municipal do Idoso.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A/par-unico",
-   "pai": "art-1-A",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Constituem receitas do Fundo Municipal do Idoso, além de outras que lhe forem destinadas:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A/par-unico/inc-I",
-   "pai": "art-1-A/par-unico",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "recursos destinados ao Fundo Municipal de Assistência Social para aplicação em programas e ações relativos ao idoso;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A/par-unico/inc-II",
-   "pai": "art-1-A/par-unico",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "contribuições de pessoas físicas e jurídicas dedutíveis do Imposto de Renda devido, conforme legislação federal específica;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A/par-unico/inc-III",
-   "pai": "art-1-A/par-unico",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "dotações orçamentárias que lhe forem destinadas pelo Município de Porto Alegre; IV – recursos oriundos dos governos estadual e federal;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A/par-unico/inc-V",
-   "pai": "art-1-A/par-unico",
-   "tipo": "inciso",
-   "rotulo": "V –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "contribuições de organismos estrangeiros e internacionais; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A/par-unico/inc-VI",
-   "pai": "art-1-A/par-unico",
-   "tipo": "inciso",
-   "rotulo": "VI –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "rendimentos de aplicações no mercado financeiro, observada a legislação pertinente.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
   }
  ],
  "naoAplicadas": [
@@ -289,73 +117,28 @@
     "idSapl": 37041,
     "rotulo": "Lei Complementar municipal nº 660, de 07 de dezembro de 2010"
    },
-   "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 20 de maio de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 20 de maio de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 352/1995) | endereço-pai \"art. 4º\" não encontrado — não é possível inserir \"inc. i do art. 4º\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 28 de março de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 28 de março de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 352/1995) | artigo-base \"art. 6º\" não encontrado — não é possível posicionar \"art. 6º\" | artigo-base \"art. 9º\" não encontrado — não é possível posicionar \"art. 9º-a\" | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | artigo-base \"art. 3º\" não encontrado — não é possível posicionar \"art. 3º\" | endereço-pai \"art. 3º\" não encontrado — não é possível inserir \"inc. iv do art. 3º\" | endereço-pai \"art. 3º\" não encontrado — não é possível inserir \"inc. ix do art. 3º\" | endereço-pai \"art. 3º\" não encontrado — não é possível inserir \"inc. x do art. 3º\" | endereço-pai \"art. 5º\" não encontrado — não é possível inserir \"inc. i do art. 5º\" | endereço-pai \"art. 5º\" não encontrado — não é possível inserir \"inc. iv do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. b) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. c) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. d) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. f) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. g) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. h) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. o) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. p) do inc. x do art. 5º\" | artigo-base \"art. 6º\" não encontrado — não é possível posicionar \"art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. ii do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. iii do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. iv do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. v do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. vi do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. vii do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. viii do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. ix do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. x do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. xi do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. xii do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"inc. xiii do art. 6º\" | endereço-pai \"art. 6º\" não encontrado — não é possível inserir \"parágrafo único do art. 6º\" | artigo-base \"art. 8º\" não encontrado — não é possível posicionar \"art. 8º\" | endereço-pai \"art. 8º\" não encontrado — não é possível inserir \"parágrafo único do art. 8º\" | artigo-base \"art. 10º\" não encontrado — não é possível posicionar \"art. 10\" | endereço-pai \"art. 9º\" não encontrado — não é possível inserir \"inc. i do art. 9º\" | endereço-pai \"art. 9º\" não encontrado — não é possível inserir \"inc. vi do art. 9º\" | artigo-base \"art. 11º\" não encontrado — não é possível posicionar \"art. 11\" | operação \"indeterminado\" não gera alteração na árvore desta lei | artigo-base \"art. 2º\" não encontrado — não é possível posicionar \"art. 2º\" | endereço-pai \"art. 2º\" não encontrado — não é possível inserir \"inc. ii do art. 2º\" | endereço-pai \"art. 2º\" não encontrado — não é possível inserir \"inc. iii do art. 2º\" | endereço-pai \"inc. iii do art. 2º\" não encontrado — não é possível inserir \"al. a) do inc. iii do art. 2º\" | endereço-pai \"inc. iii do art. 2º\" não encontrado — não é possível inserir \"al. b) do inc. iii do art. 2º\" | endereço-pai \"inc. iii do art. 2º\" não encontrado — não é possível inserir \"al. c) do inc. iii do art. 2º\" | endereço-pai \"inc. iii do art. 2º\" não encontrado — não é possível inserir \"al. d) do inc. iii do art. 2º\" | endereço-pai \"inc. iii do art. 2º\" não encontrado — não é possível inserir \"al. e) do inc. iii do art. 2º\" | endereço-pai \"inc. iii do art. 2º\" não encontrado — não é possível inserir \"al. f) do inc. iii do art. 2º\" | endereço-pai \"inc. iii do art. 2º\" não encontrado — não é possível inserir \"al. g) do inc. iii do art. 2º\" | endereço-pai \"inc. iii do art. 2º\" não encontrado — não é possível inserir \"al. h) do inc. iii do art. 2º\" | endereço-pai \"inc. iii do art. 2º\" não encontrado — não é possível inserir \"al. i) do inc. iii do art. 2º\" | endereço-pai \"inc. iii do art. 2º\" não encontrado — não é possível inserir \"al. j) do inc. iii do art. 2º\" | endereço-pai \"inc. iii do art. 2º\" não encontrado — não é possível inserir \"al. k) do inc. iii do art. 2º\" | endereço-pai \"inc. iii do art. 2º\" não encontrado — não é possível inserir \"al. l) do inc. iii do art. 2º\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 434, de 1º de dezembro de 1999\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"434\",\"ano\":\"1999\",\"chave\":\"lc 434/1999\"}, versão: lc 352/1995) | artigo-base \"art. 41º\" não encontrado — não é possível posicionar \"art. 41\" | operação \"indeterminado\" não gera alteração na árvore desta lei | artigo-base \"art. 2º\" não encontrado — não é possível posicionar \"art. 2º\" | endereço-pai \"art. 2º\" não encontrado — não é possível inserir \"inc. iii do art. 2º\" | endereço-pai \"art. 2º\" não encontrado — não é possível inserir \"inc. vi do art. 2º\" | endereço-pai \"art. 2º\" não encontrado — não é possível inserir \"inc. vii do art. 2º\" | endereço-pai \"art. 2º\" não encontrado — não é possível inserir \"inc. viii do art. 2º\" | endereço-pai \"art. 2º\" não encontrado — não é possível inserir \"inc. ix do art. 2º\" | artigo-base \"art. 3º\" não encontrado — não é possível posicionar \"art. 3º\" | endereço-pai \"art. 3º\" não encontrado — não é possível inserir \"inc. i do art. 3º\" | endereço-pai \"art. 3º\" não encontrado — não é possível inserir \"inc. ii do art. 3º\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 447, de 10 de maio de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"447\",\"ano\":\"2000\",\"chave\":\"lc 447/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 585, de 28 de dezembro de 2007\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"585\",\"ano\":\"2007\",\"chave\":\"lc 585/2007\"}, versão: lc 352/1995)",
+   "motivo": "comando_recusado",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 20 de maio de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 20 de maio de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 28 de março de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 28 de março de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 352/1995) | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 352/1995) | endereço-pai \"art. 9º\" não encontrado — não é possível inserir \"inc. i do art. 9º\" | endereço-pai \"art. 9º\" não encontrado — não é possível inserir \"inc. vi do art. 9º\" | artigo-base \"art. 11º\" não encontrado — não é possível posicionar \"art. 11\" | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 434, de 1º de dezembro de 1999\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"434\",\"ano\":\"1999\",\"chave\":\"lc 434/1999\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 434, de 1999\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"434\",\"ano\":\"1999\",\"chave\":\"lc 434/1999\"}, versão: lc 352/1995) | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 447, de 10 de maio de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"447\",\"ano\":\"2000\",\"chave\":\"lc 447/2000\"}, versão: lc 352/1995) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 585, de 28 de dezembro de 2007\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"585\",\"ano\":\"2007\",\"chave\":\"lc 585/2007\"}, versão: lc 352/1995)",
    "enderecos": [
     "art-3",
-    "art-3/par-unico",
     "art-4/inc-I",
     "art-1",
-    "art-1/par-unico",
     "art-6",
     "art-9-A",
-    "art-3/inc-IV",
-    "art-3/inc-IX",
-    "art-3/inc-X",
-    "art-5/inc-I",
-    "art-5/inc-IV",
-    "art-5/inc-X/ali-b",
-    "art-5/inc-X/ali-c",
-    "art-5/inc-X/ali-d",
-    "art-5/inc-X/ali-f",
-    "art-5/inc-X/ali-g",
-    "art-5/inc-X/ali-h",
-    "art-5/inc-X/ali-o",
-    "art-5/inc-X/ali-p",
-    "art-6/inc-II",
-    "art-6/inc-III",
-    "art-6/inc-IV",
-    "art-6/inc-V",
-    "art-6/inc-VI",
-    "art-6/inc-VII",
-    "art-6/inc-VIII",
-    "art-6/inc-IX",
-    "art-6/inc-X",
-    "art-6/inc-XI",
-    "art-6/inc-XII",
-    "art-6/inc-XIII",
-    "art-6/par-unico",
+    "art-5/inc-X",
     "art-8",
-    "art-8/par-unico",
     "art-10",
-    "art-9/inc-I",
-    "art-9/inc-VI",
+    "art-9",
     "art-11",
+    "art-7",
     "art-2",
-    "art-2/inc-II",
-    "art-2/inc-III",
-    "art-2/inc-III/ali-a",
-    "art-2/inc-III/ali-b",
-    "art-2/inc-III/ali-c",
-    "art-2/inc-III/ali-d",
-    "art-2/inc-III/ali-e",
-    "art-2/inc-III/ali-f",
-    "art-2/inc-III/ali-g",
-    "art-2/inc-III/ali-h",
-    "art-2/inc-III/ali-i",
-    "art-2/inc-III/ali-j",
-    "art-2/inc-III/ali-k",
-    "art-2/inc-III/ali-l",
-    "art-40/par-5",
+    "art-40",
     "art-41",
-    "art-2/inc-VI",
-    "art-2/inc-VII",
-    "art-2/inc-VIII",
-    "art-2/inc-IX",
-    "art-3/inc-I",
-    "art-3/inc-II",
+    "art-1-A",
     "art-15-A",
-    "art-2/inc-V"
+    "art-2/inc-V",
+    "art-4/inc-II",
+    "art-7/par-unico"
    ]
   },
   {
@@ -385,14 +168,6 @@
   },
   {
    "id": "art-1/inc-III",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-1/inc-VI",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-1/par-unico",
    "desde": "2010-12-07"
   }
  ]

@@ -41,8 +41,8 @@
 
   main { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; padding: 8px 16px 48px; max-width: 1500px; margin: 0 auto; }
   @media (min-width: 1000px) { main { grid-template-columns: 330px minmax(0, 1fr); align-items: start; } #fila-col { position: sticky; top: 0; max-height: 100vh; overflow: auto; padding-top: 4px; } }
-  #fila-col summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
-  @media (min-width: 1000px) { #fila-col summary { display: none; } }
+  #fila-col > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
+  @media (min-width: 1000px) { #fila-col > summary { display: none; } }
   .filtros { display: grid; gap: 6px; margin: 6px 0 8px; }
   #contagem { font-size: .82rem; color: var(--suave); margin: 4px 0; font-variant-numeric: tabular-nums; }
   ul#fila { list-style: none; margin: 0; padding: 0; display: grid; gap: 5px; }
@@ -108,6 +108,15 @@
   #comandos .cx b { display: block; font: 600 .72rem system-ui; color: var(--suave); text-transform: uppercase; letter-spacing: .04em; }
   #comandos .erro { font-size: .82rem; color: var(--erro); }
   .selo.cinza { background: transparent; border: 1px solid var(--linha); color: var(--suave); }
+  .guia { margin: 6px 0 10px; border: 1px solid var(--linha); border-radius: 6px; background: var(--papel); }
+  .guia > summary { padding: 6px 10px; font-weight: 600; font-size: .9rem; }
+  #guia-corpo { padding: 2px 10px 10px; display: grid; gap: 8px; }
+  .fam { font-size: .84rem; border-top: 1px solid var(--linha); padding-top: 6px; }
+  .fam b { font-size: .8rem; word-break: break-word; }
+  .fam p { margin: 2px 0 4px; color: var(--suave); }
+  .fam .ids { display: flex; flex-wrap: wrap; gap: 4px; }
+  .fam .ids button { padding: 2px 8px; font-size: .78rem; }
+  .datas { padding: 6px 10px; border-radius: 4px; background: var(--alerta-fraca); border-left: 3px solid var(--alerta); font-size: .88rem; margin: 0 0 10px; }
   #toast { position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%); background: var(--tinta); color: var(--papel); padding: 8px 14px; border-radius: 6px; font-size: .88rem; opacity: 0; pointer-events: none; transition: opacity .2s; }
   #toast.ver { opacity: 1; }
   kbd { font: .75rem ui-monospace, monospace; border: 1px solid var(--linha); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; background: var(--papel); }
@@ -123,6 +132,7 @@
 <main>
   <details id="fila-col" open>
     <summary>Fila de revisão</summary>
+    <details id="guia" class="guia"><summary>Guia: por onde começar</summary><div id="guia-corpo"></div></details>
     <div class="filtros">
       <select id="f-motivo" aria-label="Filtrar por motivo"></select>
       <select id="f-situacao" aria-label="Filtrar por situação">
@@ -166,7 +176,7 @@ const MOTIVOS = {
   erro_do_leitor: 'O leitor falhou ao processar o texto.',
 };
 
-const estado = { fila: [], decisoes: new Map(), norma: null, sel: null, rascunho: [], cache: new Map() };
+const estado = { fila: [], guia: [], decisoes: new Map(), norma: null, sel: null, rascunho: [], cache: new Map() };
 
 // ── decisões: repositório + navegador ─────────────────────────────────────────
 function lerLocal() { try { return JSON.parse(localStorage.getItem(CHAVE) || '[]'); } catch { return []; } }
@@ -209,7 +219,16 @@ function filtrada() {
   const m = $('f-motivo').value, s = $('f-situacao').value;
   return estado.fila.filter((n) => (!m || n.motivos.includes(m)) && (!s || sit(n) === s));
 }
+function pintarGuia() {
+  const porId = new Map(estado.fila.map((n) => [n.idSapl, n]));
+  const corpo = $('guia-corpo');
+  const fams = estado.guia.map((f) => ({ ...f, pend: f.ids.map((id) => porId.get(id)).filter((n) => n && sit(n) !== 'revisada') })).filter((f) => f.pend.length);
+  corpo.replaceChildren(...(fams.length ? fams.slice(0, 8).map((f) => el('div', { class: 'fam' },
+    el('b', {}, f.motivos.join(' + ')), ` (${f.total} norma(s))`, el('p', {}, f.dica),
+    el('div', { class: 'ids' }, ...f.pend.slice(0, 4).map((n) => el('button', { type: 'button', onclick: () => abrir(n.idSapl) }, `${n.rotulo.replace(/Lei Complementar municipal nº |Emenda à Lei Orgânica nº |Lei municipal nº /, '').replace(/,.*/, '')} · ${n.pontos}p`))))) : [el('p', { class: 'ajuda' }, 'Nenhuma norma pendente nas famílias do guia.')]));
+}
 function pintarFila() {
+  pintarGuia();
   const lista = filtrada();
   $('contagem').textContent = `${lista.length} de ${estado.fila.length} norma(s)`;
   $('fila').replaceChildren(...lista.map((n) => {
@@ -242,11 +261,13 @@ function pintarNorma() {
     el('span', {}, n.tipo + ' nº ' + n.numero), el('span', {}, 'data ' + (n.data || '—')),
     n.urlFonte ? el('a', { href: n.urlFonte, target: '_blank', rel: 'noopener' }, 'Arquivo original na fonte ↗') : el('span', {}, 'sem link da fonte'),
     n.avisos.includes('texto_de_ocr') ? el('span', { class: 'selo al' }, 'texto de OCR: confira no original') : null);
+  const fmt = (d) => (d ? new Date(d + 'T12:00:00').toLocaleDateString('pt-BR') : '—');
+  const datas = n.datas ? el('p', { class: 'datas' }, `Datas divergentes: catálogo ${fmt(n.datas.catalogo)} · escrita no arquivo ${fmt(n.datas.arquivo)}. Decida caso a caso qual está certa (o motor não escolhe): se o arquivo tem razão, é erro de cadastro; se o catálogo tem razão, é defeito do arquivo ou data de outro ato.`) : null;
   $('norma').replaceChildren(
-    el('h2', {}, n.rotulo), meta, porque, blocoDecisao(),
+    ...[el('h2', {}, n.rotulo), meta, porque, datas, blocoDecisao(),
     el('div', { id: 'paineis' },
       el('div', { class: 'painel' }, el('h3', {}, el('span', {}, 'Texto de origem (como extraído)'), el('span', { class: 'leg' }, el('i', { style: 'background:var(--erro-fraca);border-bottom:2px solid var(--erro)' }), 'rótulo não confere  ', el('i', { style: 'background:var(--alerta-fraca);border-bottom:2px dashed var(--alerta)' }), 'fora da árvore')), el('div', { class: 'rolagem', id: 'rol-origem', tabindex: 0 }, el('div', { id: 'origem' }))),
-      el('div', { class: 'painel' }, el('h3', {}, el('span', {}, `Árvore do leitor (${n.dispositivos.length} dispositivos)`), el('span', { class: 'leg' }, 'clique para localizar no texto')), el('div', { class: 'rolagem', id: 'rol-arvore' }, arvore()))));
+      el('div', { class: 'painel' }, el('h3', {}, el('span', {}, `Árvore do leitor (${n.dispositivos.length} dispositivos)`), el('span', { class: 'leg' }, 'clique para localizar no texto')), el('div', { class: 'rolagem', id: 'rol-arvore' }, arvore())))].filter((x) => x != null));
   $('norma').append(el('section', { id: 'comandos', hidden: true }));
   pintarOrigem();
   pintarDecisao();
@@ -311,7 +332,8 @@ async function carregarComandos(id) {
   estado.cmd.set(id, r); return r;
 }
 async function pintarComandos(n) {
-  const cmd = await carregarComandos(n.idSapl);
+  const naFila = estado.fila.find((x) => x.idSapl === n.idSapl);
+  const cmd = naFila && naFila.comandos === 0 ? null : await carregarComandos(n.idSapl); // sem comandos na fila: nem pede o arquivo
   const sec = $('comandos'); if (!sec || estado.norma?.idSapl !== n.idSapl) return;
   if (!cmd || !cmd.comandos.length) { sec.hidden = true; return; }
   sec.hidden = false;
@@ -433,8 +455,8 @@ $('f-situacao').addEventListener('change', pintarFila);
 
 // ── partida ───────────────────────────────────────────────────────────────────
 try {
-  const [fila, dec] = await Promise.all([fetch('dados/revisao/fila.json').then((r) => r.json()), fetch('dados/revisao/decisoes.jsonl').then((r) => (r.ok ? r.text() : '')).catch(() => '')]);
-  estado.fila = fila.normas;
+  const [fila, guia, dec] = await Promise.all([fetch('dados/revisao/fila.json').then((r) => r.json()), fetch('dados/revisao/guia.json').then((r) => (r.ok ? r.json() : { familias: [] })).catch(() => ({ familias: [] })), fetch('dados/revisao/decisoes.jsonl').then((r) => (r.ok ? r.text() : '')).catch(() => '')]);
+  estado.fila = fila.normas; estado.guia = guia.familias;
   mesclar([...lerDecisoesJsonl(dec).decisoes.values()]);
   mesclar(lerLocal().filter((d) => validarDecisao(d).ok));
   pintarFiltroMotivos(); pintarPainel(); pintarFila();

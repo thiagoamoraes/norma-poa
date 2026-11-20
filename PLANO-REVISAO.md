@@ -68,3 +68,10 @@ A fila de revisão do estruturador (`dados/estruturado/RELATORIO.md`) é longa p
 - Texto de OCR: a página mostra o aviso e o link da fonte; nunca corrige OCR.
 - Tamanho: ~135 normas × poucas dezenas de KB. Se passar de ~10 MB, fatiar como a página de consulta.
 - Perda de decisões: o navegador pode limpar o armazenamento — por isso exportar com frequência (a página lembra e avisa depois de N decisões não exportadas).
+
+## Atualização de 20/11/2026 (entrevista)
+
+- **Guia de normas a revisar:** dentro da página (`Guia: por onde começar`), gerado por `gerar-revisao.mjs` em `guia.json` (famílias de motivos, menores primeiro, com a orientação do que cada revisão ensina ao motor). Não depende de chat.
+- **Datas divergentes** (arquivo × catálogo) aparecem lado a lado; o revisor decide caso a caso.
+- **Desatualização:** só reabre se o texto mudou ou o veredito do motor (motivos) mudou; subir `VERSAO_ESTRUTURADOR` sem mudar o veredito não desfaz revisão.
+- **Alvo "Lei Orgânica do Município"** na F2: resolvido para a LO de 1990 só em ato de 1990 em diante.

@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-19T09:26:04.704Z",
+ "geradoEm": "2026-11-20T13:58:21.695Z",
  "idSapl": 35288,
  "rotulo": "Lei Complementar municipal nº 584, de 27 de dezembro de 2007",
  "baseConferida": true,
@@ -9,16 +9,6 @@
    "id": "lc 584/2007@2007-12-27",
    "data": "2007-12-27",
    "fonte": null
-  },
-  {
-   "indice": 1,
-   "id": "lc 584/2007@2008-12-29",
-   "data": "2008-12-29",
-   "fonte": {
-    "idSapl": 35934,
-    "rotulo": "Lei Complementar municipal nº 607, de 29 de dezembro de 2008"
-   },
-   "comandosAplicados": 16
   }
  ],
  "dispositivos": [
@@ -39,10 +29,10 @@
    ]
   },
   {
-   "id": "art-1/par-unico",
+   "id": "art-1/par-3",
    "pai": "art-1",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 3º",
    "estados": [
     {
      "desde": 0,
@@ -50,57 +40,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 1º-A",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Toda pessoa jurídica que preste serviço no Município de Porto Alegre e emita documento fiscal autorizado por outro município deverá fornecer informações à Secretaria Municipal da Fazenda, conforme estabelecido em regu lamento.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 607/2008"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A/par-1",
-   "pai": "art-1-A",
-   "tipo": "paragrafo",
-   "rotulo": "§ 1º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Excetuam-se ao disposto no “caput” deste artigo as operações rela tivas aos serviços referidos nos incs. XII e XIII do art. 1º desta Lei Complementar.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 607/2008"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A/par-2",
-   "pai": "art-1-A",
-   "tipo": "paragrafo",
-   "rotulo": "§ 2º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "No interesse da eficiência administrativa da arrecadação e fiscali zação tributária, o Poder Executivo poderá excluir do procedimento de que trata o ‘caput’ deste artigo determinados grupos ou categorias de contribuintes, conforme sua localização ou atividade.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 607/2008"
      }
     }
    ]
@@ -534,15 +473,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 1,
-     "texto": "A isenção de que trata o inc. V deste artigo alcançará somente os loteamentos consolidados até 10 de julho de 2001, nos termos do Provimento nº 28, de 2004, da Corredoria-Geral de Justiça do Tribunal de Justiça do Estado do Rio Grande do Sul, e será proposta, de forma coletiva, pela GRL quando da apro vação do projeto urbanístico e antes do ingresso da Ação de Registro perante a Vara de Registros Públicos, cabendo à Secretaria Municipal da Fazenda o despa cho concessivo.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 607/2008"
-     }
     }
    ]
   },
@@ -558,40 +488,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-8/inc-V",
-   "pai": "art-8",
-   "tipo": "inciso",
-   "rotulo": "V –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "relativa às unidades habitacionais e aos terrenos situados nos loteamentos e nas vilas inscritos na Gerência de Regularização de Loteamentos do Município – GRL –, nas transações efetuadas desde a aquisição original pelo loteador até a regularização fundiária.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 607/2008"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-8/ali-c",
-   "pai": "art-8",
-   "tipo": "alinea",
-   "rotulo": "c)",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "da casa própria por meio de programa governamental de habitação destinado a famílias de baixa renda;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 607/2008"
      }
     }
    ]
@@ -720,57 +616,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-11/par-7",
-   "pai": "art-11",
-   "tipo": "paragrafo",
-   "rotulo": "§ 7º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Na emissão de guia de arrecadação para transação imobiliária com fato gerador do imposto ocorrido, o valor apurado para a base de cálculo será convertido em UFM, sendo o imposto a pagar calculado sobre a base de cálculo na UFM vigente na data da ocorrência do fato gerador:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 607/2008"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-11/par-7/inc-I",
-   "pai": "art-11/par-7",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "acrescido dos encargos de mora (multa e juros) calculados até a data da emissão da guia de arrecadação, no caso de estar expirado o prazo legal para recolhimento do imposto; ou",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 607/2008"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-11/par-7/inc-II",
-   "pai": "art-11/par-7",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "atualizado até a data da emissão da guia de arrecadação, no caso de ainda não estar expirado o prazo para recolhimento do imposto.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 607/2008"
      }
     }
    ]
@@ -916,15 +761,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 1,
-     "texto": "Nas transmissões com utilização dos recursos mencionados no inc. I do art. 16 desta Lei Complementar, deverá ser informado:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 607/2008"
-     }
     }
    ]
   },
@@ -940,15 +776,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 1,
-     "texto": "o valor efetivamente financiado;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 607/2008"
      }
     }
    ]
@@ -966,15 +793,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 1,
-     "texto": "o valor do FGTS utilizado pelo comprador;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 607/2008"
-     }
     }
    ]
   },
@@ -990,15 +808,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 1,
-     "texto": "o valor de avaliação feita pelo agente financiador;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 607/2008"
      }
     }
    ]
@@ -1018,57 +827,6 @@
      }
     }
    ]
-  },
-  {
-   "id": "art-15/inc-IV",
-   "pai": "art-15",
-   "tipo": "inciso",
-   "rotulo": "IV –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "o valor do saldo devedor nas transferências de financiamento;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 607/2008"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-15/inc-V",
-   "pai": "art-15",
-   "tipo": "inciso",
-   "rotulo": "V –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "o nome do agente financiador; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 607/2008"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-15/inc-VI",
-   "pai": "art-15",
-   "tipo": "inciso",
-   "rotulo": "VI –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "a data da alienação.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 607/2008"
-     }
-    }
-   ]
   }
  ],
  "naoAplicadas": [
@@ -1077,64 +835,107 @@
     "idSapl": 35934,
     "rotulo": "Lei Complementar municipal nº 607, de 29 de dezembro de 2008"
    },
-   "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 7 de dezembro de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | artigo-base \"art. 21º\" não encontrado — não é possível posicionar \"art. 21\" | endereço-pai \"art. 21\" não encontrado — não é possível inserir \"inc. iii do art. 21\" | endereço-pai \"art. 21\" não encontrado — não é possível inserir \"inc. xviii do art. 21\" | endereço-pai \"art. 24\" não encontrado — não é possível inserir \"§ 2º do art. 24\" | endereço-pai \"art. 32\" não encontrado — não é possível inserir \"inc. iv do art. 32\" | endereço-pai \"art. 56\" não encontrado — não é possível inserir \"inc. iii do art. 56\" | endereço-pai \"al. b) do inc. iii do art. 56\" não encontrado — não é possível inserir \"2 do al. b) do inc. iii do art. 56\" | endereço-pai \"art. 56\" não encontrado — não é possível inserir \"al. c) do art. 56\" | artigo-base \"art. 60º\" não encontrado — não é possível posicionar \"art. 60\" | endereço-pai \"art. 62\" não encontrado — não é possível inserir \"§ 4º do art. 62\" | endereço-pai \"art. 63\" não encontrado — não é possível inserir \"§ 2º do art. 63\" | endereço-pai \"art. 63\" não encontrado — não é possível inserir \"§ 2º do art. 63\" | endereço-pai \"art. 68\" não encontrado — não é possível inserir \"§ 2º do art. 68\" | artigo-base \"art. 69º\" não encontrado — não é possível posicionar \"art. 69\" | endereço-pai \"art. 69\" não encontrado — não é possível inserir \"parágrafo único do art. 69\" | artigo-base \"art. 69º\" não encontrado — não é possível posicionar \"art. 69-a\" | endereço-pai \"art. 69-a\" não encontrado — não é possível inserir \"§ 1º do art. 69-a\" | endereço-pai \"art. 69-a\" não encontrado — não é possível inserir \"§ 2º do art. 69-a\" | endereço-pai \"art. 69-a\" não encontrado — não é possível inserir \"§ 3º do art. 69-a\" | endereço-pai \"art. 69-a\" não encontrado — não é possível inserir \"§ 1º do art. 69-a\" | endereço-pai \"art. 69-a\" não encontrado — não é possível inserir \"§ 4º do art. 69-a\" | artigo-base \"art. 69º\" não encontrado — não é possível posicionar \"art. 69-b\" | endereço-pai \"art. 69-b\" não encontrado — não é possível inserir \"§ 1º do art. 69-b\" | endereço-pai \"art. 69-b\" não encontrado — não é possível inserir \"§ 2º do art. 69-b\" | endereço-pai \"art. 69-b\" não encontrado — não é possível inserir \"§ 3º do art. 69-b\" | endereço-pai \"art. 70\" não encontrado — não é possível inserir \"inc. xxv do art. 70\" | endereço-pai \"art. 70\" não encontrado — não é possível inserir \"§ 7º do art. 70\" | endereço-pai \"art. 72\" não encontrado — não é possível inserir \"al. a) do art. 72\" | endereço-pai \"al. a) do art. 72\" não encontrado — não é possível inserir \"1 do al. a) do art. 72\" | endereço-pai \"al. a) do art. 72\" não encontrado — não é possível inserir \"2 do al. a) do art. 72\" | endereço-pai \"§ 1º do art. 82\" não encontrado — não é possível inserir \"inc. i do § 1º do art. 82\" | endereço-pai \"§ 1º do art. 82\" não encontrado — não é possível inserir \"inc. ii do § 1º do art. 82\" | endereço-pai \"art. 82\" não encontrado — não é possível inserir \"§ 1º do art. 82\" | endereço-pai \"§ 1º do art. 82\" não encontrado — não é possível inserir \"inc. i do § 1º do art. 82\" | endereço-pai \"§ 1º do art. 82\" não encontrado — não é possível inserir \"inc. ii do § 1º do art. 82\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 113, de 21 de dezembro de 1984\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"113\",\"ano\":\"1984\",\"chave\":\"lc 113/1984\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 21 de março de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | endereço \"al. c) do art. 8º\" já existe — insert_node não pode sobrescrever (use replace_text) | artigo-base \"art. 16º\" não encontrado — não é possível posicionar \"art. 16\" | endereço-pai \"art. 16\" não encontrado — não é possível inserir \"inc. i do art. 16\" | endereço-pai \"inc. i do art. 16\" não encontrado — não é possível inserir \"al. a) do inc. i do art. 16\" | endereço-pai \"inc. i do art. 16\" não encontrado — não é possível inserir \"al. b) do inc. i do art. 16\" | endereço-pai \"art. 16\" não encontrado — não é possível inserir \"inc. iii do art. 16\" | endereço-pai \"inc. iii do art. 16\" não encontrado — não é possível inserir \"al. a) do inc. iii do art. 16\" | endereço-pai \"inc. iii do art. 16\" não encontrado — não é possível inserir \"al. b) do inc. iii do art. 16\" | endereço-pai \"art. 16\" não encontrado — não é possível inserir \"§ 1º do art. 16\" | endereço-pai \"art. 16\" não encontrado — não é possível inserir \"§ 2º do art. 16\" | endereço-pai \"art. 16\" não encontrado — não é possível inserir \"§ 3º do art. 16\" | endereço-pai \"art. 21\" não encontrado — não é possível inserir \"inc. iii do art. 21\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 21 de março de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 23 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 23 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 23 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 23 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 23 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 584/2007) | endereço-pai \"art. 20\" não encontrado — não é possível inserir \"§ 2º do art. 20\" | endereço-pai \"art. 20\" não encontrado — não é possível inserir \"§ 2º do art. 20\"",
+   "motivo": "comando_recusado",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 7 de dezembro de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 584/2007) | endereço-pai \"§ 1º do art. 82\" não encontrado — não é possível inserir \"inc. i do § 1º do art. 82\" | endereço-pai \"§ 1º do art. 82\" não encontrado — não é possível inserir \"inc. ii do § 1º do art. 82\" | endereço-pai \"art. 82\" não encontrado — não é possível inserir \"§ 1º do art. 82\" | endereço-pai \"§ 1º do art. 82\" não encontrado — não é possível inserir \"inc. i do § 1º do art. 82\" | endereço-pai \"§ 1º do art. 82\" não encontrado — não é possível inserir \"inc. ii do § 1º do art. 82\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 113, de 21 de dezembro de 1984\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"113\",\"ano\":\"1984\",\"chave\":\"lc 113/1984\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 21 de março de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 197, de 21 de março de 1989\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"197\",\"ano\":\"1989\",\"chave\":\"lc 197/1989\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 23 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 23 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 23 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 23 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 23 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 584/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 584/2007) | endereço-pai \"art. 20\" não encontrado — não é possível inserir \"§ 2º do art. 20\" | endereço-pai \"art. 20\" não encontrado — não é possível inserir \"§ 2º do art. 20\"",
    "enderecos": [
-    "art-5/par-17/inc-I/par-17/inc-I",
+    "art-5/par-17/inc-I",
     "art-21",
-    "art-21/inc-III",
-    "art-21/inc-XVIII",
-    "art-24/par-2",
+    "art-24",
     "art-32/inc-IV",
-    "art-56/inc-III",
-    "art-56/ali-c",
+    "art-56",
     "art-60",
-    "art-62/par-4",
+    "art-62",
     "art-63/par-2",
-    "art-68/par-2",
+    "art-68",
     "art-69",
-    "art-69/par-unico",
     "art-69-A",
-    "art-69-A/par-1",
-    "art-69-A/par-2",
-    "art-69-A/par-3",
-    "art-69-A/par-4",
     "art-69-B",
-    "art-69-B/par-1",
-    "art-69-B/par-2",
-    "art-69-B/par-3",
-    "art-70/inc-XXV",
-    "art-70/par-7",
-    "art-72/ali-a",
-    "art-82/par-1/inc-I",
-    "art-82/par-1/inc-II",
+    "art-70",
+    "art-72",
     "art-82/par-1",
-    "art-3/par-3/inc-V",
+    "art-3/par-3",
     "art-6/par-5",
-    "art-8/ali-c",
+    "art-8",
+    "art-11",
+    "art-15",
     "art-16",
-    "art-16/inc-I",
-    "art-16/inc-I/ali-a",
-    "art-16/inc-I/ali-b",
-    "art-16/inc-III",
-    "art-16/inc-III/ali-a",
-    "art-16/inc-III/ali-b",
-    "art-16/par-1",
-    "art-16/par-2",
-    "art-16/par-3",
+    "art-21/inc-III",
     "art-33-A",
-    "art-1/inc-IX",
-    "art-1/inc-XII",
-    "art-1/inc-XX",
-    "art-1/par-8",
-    "art-1/par-9",
-    "art-20/par-2"
+    "art-1",
+    "art-1-A",
+    "art-20/par-2",
+    "art-70/par-7",
+    "art-8/inc-V"
    ]
   }
  ],
  "aConferir": [
   {
-   "id": "art-8/ali-c",
+   "id": "art-1",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-1/par-3",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-8",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-8/par-1",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-8/par-2",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-8/par-3",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-8/par-4",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-8/par-5",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-11",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-11/inc-I",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-11/inc-I/ali-a",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-11/inc-II",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-15",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-15/inc-I",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-15/inc-II",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-15/inc-III",
+   "desde": "2008-12-29"
+  },
+  {
+   "id": "art-15/par-unico",
    "desde": "2008-12-29"
   }
  ]

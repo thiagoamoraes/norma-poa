@@ -2,8 +2,8 @@
  "idSapl": 33600,
  "rotulo": "Lei Complementar municipal nº 515, de 28 de dezembro de 2004",
  "sha256Origem": "1b08afc0b50e950a32331959bb6f6213e47c459d4f536b3138d0ca8234ec1fe8",
- "estruturadoEm": "2026-11-20T11:52:22.271Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:52.995Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "515",
@@ -27,10 +27,10 @@
    "texto": "Modifica o § 4º e acrescenta § 6º ao art. 52, renumerando o atual"
   },
   {
-   "id": "art-1/par-unico",
+   "id": "art-1/par-6",
    "pai": "art-1",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 6º",
    "texto": "para § 7º, da Lei Complementar nº 434, de 1º de dezembro de 1999, e alterações posteriores, como segue:",
    "blocoDeAlteracao": "“Art. 52. ...\n...\n§ 4º A Transferência de Potencial Construtivo decorrente de desapropriação de imóvel tombado e áreas de Parque Natural relacionadas por Lei ou Decreto alcançará toda a área de ocupação intensiva.\n§ 6º Dar-se-á prioridade à Transferência de Potencial Construtivo em\ndecorrência do reconhecimento por parte do Poder Público de áreas de Patrimônio\nAmbiental, de acordo com a descrição proposta na Parte I – Do Desenvolvimento\nUrbano Ambiental, Título II – Das Estratégias, Capítulo IV – Da Qualificação\nAmbiental, art. 13, que por suas características integram o Patrimônio Cultural\ntombado, de acordo com o art. 14 desta Lei Complementar, alcançando toda a\nárea de ocupação intensiva, observado o seguinte:\nI – a Transferência de Potencial Construtivo somente será possível caso\nos proprietários comprovem, nas áreas com tal qualificação, o desenvolvimento\ntradicional de ações relacionadas com assistência social, preferencialmente volta\ndas ao atendimento de crianças, adolescentes ou idosos, pertencentes a comuni\ndades carentes;\nII – o reconhecimento público das áreas de Patrimônio Ambiental será\nrealizado mediante Lei Complementar, podendo ser atingidas as coleções de\nPatrimônio Ambiental tombados ou relacionados para inventário”."
   },
@@ -43,11 +43,11 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "paragrafo_numerado_sem_irmao"
   ],
-  "avisos": [],
   "metricas": {
    "artigos": 2,
    "dispositivos": 3,
@@ -55,12 +55,7 @@
    "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "6º"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

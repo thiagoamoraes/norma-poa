@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-19T09:26:05.065Z",
+ "geradoEm": "2026-11-20T13:58:22.265Z",
  "idSapl": 39600,
  "rotulo": "Lei Complementar municipal nº 743, de 02 de setembro de 2014",
  "baseConferida": false,
@@ -9,16 +9,6 @@
    "id": "lc 743/2014@2014-09-02",
    "data": "2014-09-02",
    "fonte": null
-  },
-  {
-   "indice": 1,
-   "id": "lc 743/2014@2016-09-27",
-   "data": "2016-09-27",
-   "fonte": {
-    "idSapl": 40856,
-    "rotulo": "Lei Complementar municipal nº 804, de 27 de setembro de 2016"
-   },
-   "comandosAplicados": 1
   }
  ],
  "dispositivos": [
@@ -103,10 +93,10 @@
    ]
   },
   {
-   "id": "art-2/par-unico",
+   "id": "art-2/par-1",
    "pai": "art-2",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 1º",
    "estados": [
     {
      "desde": 0,
@@ -215,10 +205,10 @@
    ]
   },
   {
-   "id": "art-5/par-unico",
+   "id": "art-5/par-1",
    "pai": "art-5",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 1º",
    "estados": [
     {
      "desde": 0,
@@ -311,23 +301,6 @@
    ]
   },
   {
-   "id": "art-7-A",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 7º-A",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Às disposições desta Lei Complementar aplica-se, no que couber, o disposto nos arts. 8º a 16 da Lei Complementar nº 275, de 6 de abril de 1992, observando-se, quanto ao prazo para a impugnação, o disposto no § 1º do art. 7º desta Lei Complementar.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 804/2016"
-     }
-    }
-   ]
-  },
-  {
    "id": "art-8",
    "pai": null,
    "tipo": "artigo",
@@ -344,10 +317,10 @@
    ]
   },
   {
-   "id": "art-8/par-unico",
+   "id": "art-8/par-1",
    "pai": "art-8",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 1º",
    "estados": [
     {
      "desde": 0,
@@ -382,22 +355,32 @@
     "idSapl": 40856,
     "rotulo": "Lei Complementar municipal nº 804, de 27 de setembro de 2016"
    },
-   "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 601, de 23 de outubro de 2008\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"601\",\"ano\":\"2008\",\"chave\":\"lc 601/2008\"}, versão: lc 743/2014) | artigo-base \"art. 16º\" não encontrado — não é possível posicionar \"art. 16-a\" | endereço-pai \"art. 16-a\" não encontrado — não é possível inserir \"inc. i do art. 16-a\" | endereço-pai \"art. 16-a\" não encontrado — não é possível inserir \"inc. ii do art. 16-a\" | endereço-pai \"art. 16-a\" não encontrado — não é possível inserir \"§ 1º do art. 16-a\" | endereço-pai \"art. 16-a\" não encontrado — não é possível inserir \"§ 2º do art. 16-a\" | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
+   "motivo": "comando_recusado",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 601, de 23 de outubro de 2008\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"601\",\"ano\":\"2008\",\"chave\":\"lc 601/2008\"}, versão: lc 743/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 601, de 2008\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"601\",\"ano\":\"2008\",\"chave\":\"lc 601/2008\"}, versão: lc 743/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 601, de 2008\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"601\",\"ano\":\"2008\",\"chave\":\"lc 601/2008\"}, versão: lc 743/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 601, de 2008\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"601\",\"ano\":\"2008\",\"chave\":\"lc 601/2008\"}, versão: lc 743/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 601, de 2008\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"601\",\"ano\":\"2008\",\"chave\":\"lc 601/2008\"}, versão: lc 743/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 601, de 2008\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"601\",\"ano\":\"2008\",\"chave\":\"lc 601/2008\"}, versão: lc 743/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 601, de 2008\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"601\",\"ano\":\"2008\",\"chave\":\"lc 601/2008\"}, versão: lc 743/2014) | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
    "enderecos": [
-    "art-4/par-2",
+    "art-4",
+    "art-7-A",
     "art-16-A",
-    "art-16-A/inc-I",
-    "art-16-A/inc-II",
-    "art-16-A/par-1",
-    "art-16-A/par-2",
+    "art-16",
     "art-16/par-4"
    ]
   }
  ],
  "aConferir": [
   {
+   "id": "art-4",
+   "desde": "2016-09-27"
+  },
+  {
+   "id": "art-4/par-1",
+   "desde": "2016-09-27"
+  },
+  {
    "id": "art-4/par-2",
+   "desde": "2016-09-27"
+  },
+  {
+   "id": "art-4/par-3",
    "desde": "2016-09-27"
   }
  ]

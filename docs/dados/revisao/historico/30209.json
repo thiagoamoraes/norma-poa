@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-20T09:25:05.227Z",
+ "geradoEm": "2026-11-20T13:58:21.436Z",
  "idSapl": 30209,
  "rotulo": "Lei Complementar municipal nº 434, de 01 de dezembro de 1999",
  "baseConferida": false,
@@ -108,7 +108,7 @@
     "idSapl": 37041,
     "rotulo": "Lei Complementar municipal nº 660, de 07 de dezembro de 2010"
    },
-   "comandosAplicados": 64
+   "comandosAplicados": 2
   },
   {
    "indice": 11,
@@ -168,7 +168,7 @@
     "idSapl": 44102,
     "rotulo": "Lei Complementar municipal nº 946, de 18 de julho de 2022"
    },
-   "comandosAplicados": 3
+   "comandosAplicados": 1
   }
  ],
  "dispositivos": [
@@ -184,15 +184,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 10,
-     "texto": "Fica instituído, no Município de Porto Alegre, o Conselho Municipal do Idoso (Comui), órgão deliberativo no âmbito de suas competências, pro positivo, consultivo e fiscalizador das políticas públicas destinadas a promover os direitos dos idosos.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
      }
     }
    ],
@@ -405,15 +396,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 10,
-     "texto": "dar pareceres aos projetos destinados a instituir ações ou políticas públicas de promoção cultural desenvolvidas pela Secretaria Municipal da Cultura (SMC);",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
-     }
     }
    ]
   },
@@ -598,142 +580,6 @@
    ]
   },
   {
-   "id": "art-1/par-unico",
-   "pai": "art-1",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "O Comui será vinculado administrativamente à Secretaria Municipal de Coordenação Política e Governança Local (SMGL).",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 1º-A",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "Fica criado o Fundo Municipal do Idoso.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A/par-unico",
-   "pai": "art-1-A",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "Constituem receitas do Fundo Municipal do Idoso, além de outras que lhe forem destinadas:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A/par-unico/inc-I",
-   "pai": "art-1-A/par-unico",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "recursos destinados ao Fundo Municipal de Assistência Social para aplicação em programas e ações relativos ao idoso;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A/par-unico/inc-II",
-   "pai": "art-1-A/par-unico",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "contribuições de pessoas físicas e jurídicas dedutíveis do Imposto de Renda devido, conforme legislação federal específica;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A/par-unico/inc-III",
-   "pai": "art-1-A/par-unico",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "dotações orçamentárias que lhe forem destinadas pelo Município de Porto Alegre; IV – recursos oriundos dos governos estadual e federal;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A/par-unico/inc-V",
-   "pai": "art-1-A/par-unico",
-   "tipo": "inciso",
-   "rotulo": "V –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "contribuições de organismos estrangeiros e internacionais; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-1-A/par-unico/inc-VI",
-   "pai": "art-1-A/par-unico",
-   "tipo": "inciso",
-   "rotulo": "VI –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "rendimentos de aplicações no mercado financeiro, observada a legislação pertinente.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
    "id": "art-2",
    "pai": null,
    "tipo": "artigo",
@@ -745,15 +591,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 10,
-     "texto": "Ao Comui compete:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
      }
     }
    ]
@@ -775,321 +612,6 @@
    ]
   },
   {
-   "id": "art-2/inc-II",
-   "pai": "art-2",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "17 (dezessete) membros titulares e seus respectivos suplentes indicados pela população organizada a partir das regiões do Orçamento Participativo, mediante indicações encaminhadas e votadas pelos respectivos núcleos de cultura; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-III",
-   "pai": "art-2",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "12 (doze) membros titulares e seus respectivos suplentes, representantes das entidades de classe, sendo 1 (um) para cada um dos seguintes segmentos:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-III/ali-a",
-   "pai": "art-2/inc-III",
-   "tipo": "alinea",
-   "rotulo": "a)",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "artes visuais;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-III/ali-b",
-   "pai": "art-2/inc-III",
-   "tipo": "alinea",
-   "rotulo": "b)",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "cinema e vídeo;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-III/ali-c",
-   "pai": "art-2/inc-III",
-   "tipo": "alinea",
-   "rotulo": "c)",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "artes cênicas;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-III/ali-d",
-   "pai": "art-2/inc-III",
-   "tipo": "alinea",
-   "rotulo": "d)",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "livro e literatura;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-III/ali-e",
-   "pai": "art-2/inc-III",
-   "tipo": "alinea",
-   "rotulo": "e)",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "música;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-III/ali-f",
-   "pai": "art-2/inc-III",
-   "tipo": "alinea",
-   "rotulo": "f)",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "patrimônio cultural;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-III/ali-g",
-   "pai": "art-2/inc-III",
-   "tipo": "alinea",
-   "rotulo": "g)",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "folclore;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-III/ali-h",
-   "pai": "art-2/inc-III",
-   "tipo": "alinea",
-   "rotulo": "h)",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "carnaval;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-III/ali-i",
-   "pai": "art-2/inc-III",
-   "tipo": "alinea",
-   "rotulo": "i)",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "humanidades;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-III/ali-j",
-   "pai": "art-2/inc-III",
-   "tipo": "alinea",
-   "rotulo": "j)",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "hip-hop;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-III/ali-k",
-   "pai": "art-2/inc-III",
-   "tipo": "alinea",
-   "rotulo": "k)",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "dança; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-III/ali-l",
-   "pai": "art-2/inc-III",
-   "tipo": "alinea",
-   "rotulo": "l)",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "pontos de cultura;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-VI",
-   "pai": "art-2",
-   "tipo": "inciso",
-   "rotulo": "VI –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "expedir a órgãos e entidades governamentais do Município de Porto Alegre, por meio de resoluções, diretrizes para a elaboração de ações e políticas relacionadas com os idosos;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-VII",
-   "pai": "art-2",
-   "tipo": "inciso",
-   "rotulo": "VII –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "gerir o Fundo Municipal do Idoso, fixando os critérios para a sua utilização;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    },
-    {
-     "desde": 16,
-     "texto": "recursos auferidos com o Solo Criado Não Adensável e com o Solo Criado de Pequeno Adensamento;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 946/2022"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-VIII",
-   "pai": "art-2",
-   "tipo": "inciso",
-   "rotulo": "VIII –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "dar parecer aos projetos destinados a instituir ações ou políticas públicas de proteção e promoção dos direitos dos idosos; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-2/inc-IX",
-   "pai": "art-2",
-   "tipo": "inciso",
-   "rotulo": "IX –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "elaborar seu regimento.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
    "id": "art-3",
    "pai": null,
    "tipo": "artigo",
@@ -1101,15 +623,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 10,
-     "texto": "O Comui será composto por 17 (dezessete) membros, com seus respectivos suplentes, para um mandato de 2 (dois) anos, nomeados pelo Prefeito Municipal, de acordo com o que segue:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
      }
     }
    ],
@@ -1134,15 +647,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 10,
-     "texto": "10 (dez) munícipes, preferencialmente idosos, que representem as entidades não governamentais e comunitárias, relacionadas com os idosos, eleitos por assembleia do Fórum Municipal do Idoso; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
-     }
     }
    ]
   },
@@ -1158,15 +662,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 10,
-     "texto": "7 (sete) representantes da Administração Municipal, sendo um representante da Coordenadoria das Políticas Públicas do Idoso, escolhidos de acordo com critérios do Executivo Municipal.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
      }
     }
    ]
@@ -1199,15 +694,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 10,
-     "texto": "orientação e defesa dos direitos reprodutivos dos segmentos etários, étnicos, raciais, religiosos e sexuais;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
      }
     }
    ]
@@ -1277,40 +763,6 @@
    ]
   },
   {
-   "id": "art-3/inc-IX",
-   "pai": "art-3",
-   "tipo": "inciso",
-   "rotulo": "IX –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "respeito à dignidade humana das pessoas com deficiência e altas habilidades, visando à sua incorporação à vida social; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3/inc-X",
-   "pai": "art-3",
-   "tipo": "inciso",
-   "rotulo": "X –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "respeito à dignidade humana dos amputados, transplantados, portadores do vírus HIV, doentes de AIDS e portadores de qualquer doença ou fato que seja objeto de discriminação ou preconceito.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
    "id": "art-4",
    "pai": null,
    "tipo": "artigo",
@@ -1350,23 +802,6 @@
    ]
   },
   {
-   "id": "art-4/inc-I",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "2 (dois) representantes da Secretaria Municipal de Saúde;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
    "id": "art-5",
    "pai": null,
    "tipo": "artigo",
@@ -1394,15 +829,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 10,
-     "texto": "participar da formulação da Política Municipal dos Direitos Humanos e acompanhar a execução das ações programadas;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
      }
     }
    ]
@@ -1481,23 +907,6 @@
    ]
   },
   {
-   "id": "art-5/inc-IV",
-   "pai": "art-5",
-   "tipo": "inciso",
-   "rotulo": "IV –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "propugnar pela orientação e defesa dos direitos reprodutivos e dos direitos dos segmentos étnicos, raciais, religiosos e sexuais;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
    "id": "art-6",
    "pai": null,
    "tipo": "artigo",
@@ -1509,15 +918,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 10,
-     "texto": "O CMDH será composto por representantes das seguintes instituições: I – 1 (um) do Gabinete do Prefeito;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
      }
     }
    ],
@@ -1558,15 +958,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 10,
-     "texto": "1 (um) da Procuradoria-Geral do Município;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
-     }
     }
    ]
   },
@@ -1582,15 +973,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 10,
-     "texto": "1 (um) da Secretaria Municipal dos Direitos Humanos e Segurança Urbana; de do Sul;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
      }
     }
    ]
@@ -1608,15 +990,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 10,
-     "texto": "1 (um) de Movimento do Povo Negro;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
-     }
     }
    ]
   },
@@ -1632,15 +1005,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 10,
-     "texto": "1 (um) da Ordem dos Advogados do Brasil – Seção do Rio Grande",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
      }
     }
    ]
@@ -1658,15 +1022,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 10,
-     "texto": "1 (um) da Câmara de Dirigentes Lojistas de Porto Alegre;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
-     }
     }
    ]
   },
@@ -1683,15 +1038,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 10,
-     "texto": "1 (um) do Fórum Municipal das Mulheres de Porto Alegre;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
-     }
     }
    ]
   },
@@ -1707,15 +1053,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 10,
-     "texto": "1 (um) de movimento homossexual de Porto Alegre;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
      }
     },
     {
@@ -1741,109 +1078,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 10,
-     "texto": "Cada conselheiro do CMDH terá seu suplente, que assumirá nos casos previstos em regimento.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-6/inc-IX",
-   "pai": "art-6",
-   "tipo": "inciso",
-   "rotulo": "IX –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "1 (um) do Núcleo de Estudos da Prostituição;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-6/inc-X",
-   "pai": "art-6",
-   "tipo": "inciso",
-   "rotulo": "X –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "1 (um) da Associação de Travestis e Transexuais do Estado do Rio Grande do Sul – Igualdade/RS;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-6/inc-XI",
-   "pai": "art-6",
-   "tipo": "inciso",
-   "rotulo": "XI –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "1 (um) do Fórum de Pessoas com Deficiência e Altas Habilidades de Porto Alegre;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-6/inc-XII",
-   "pai": "art-6",
-   "tipo": "inciso",
-   "rotulo": "XII –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "1 (um) do Conselho do Orçamento Participativo; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    },
-    {
-     "desde": 16,
-     "texto": "desapropriações, despesas administrativas e judiciais decorrentes de obras vinculadas ao sistema de transporte viário e projetado que envolvam reassentamento ou realocação de famílias atingidas pela sua implantação.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 946/2022"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-6/inc-XIII",
-   "pai": "art-6",
-   "tipo": "inciso",
-   "rotulo": "XIII –",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "1 (um) da Rede Nacional de Pessoas Vivendo com HIV/AIDS – RS.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
      }
     }
    ]
@@ -2184,15 +1418,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 10,
-     "texto": "A ausência não justificada do representante a 3 (três) sessões consecutivas ou 6 (seis) intercaladas do Conselho resultará na sua automática exclusão, devendo o faltoso ser substituído pelo respectivo suplente.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
-     }
     }
    ]
   },
@@ -2453,23 +1678,6 @@
    ]
   },
   {
-   "id": "art-8/par-unico",
-   "pai": "art-8",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "Em ocorrendo a substituição referida no caput deste artigo, haverá nova indicação de suplência.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
    "id": "art-9",
    "pai": null,
    "tipo": "artigo",
@@ -2525,23 +1733,6 @@
    ]
   },
   {
-   "id": "art-9-A",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 9º-A",
-   "estados": [
-    {
-     "desde": 10,
-     "texto": "Os membros do Comtu perceberão, a título de representação, uma gratificação pela presença nas reuniões, na forma de jetom, observando-se os valores e os limites estabelecidos na Lei que dispõe sobre as normas gerais para os Conselhos Municipais.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 660/2010"
-     }
-    }
-   ]
-  },
-  {
    "id": "art-10",
    "pai": null,
    "tipo": "artigo",
@@ -2553,15 +1744,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 10,
-     "texto": "O CMDH elegerá 1 (um) vice-presidente e 1 (um) secretário executivo, observado o disposto no art. 9º desta Lei Complementar.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
      }
     }
    ]
@@ -2802,15 +1984,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 10,
-     "texto": "Os representantes do Executivo Municipal serão indicados pelo Prefeito Municipal.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 660/2010"
      }
     }
    ],
@@ -3246,10 +2419,10 @@
    ]
   },
   {
-   "id": "art-17/par-unico",
+   "id": "art-17/par-3",
    "pai": "art-17",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 3º",
    "estados": [
     {
      "desde": 0,
@@ -21342,10 +20515,10 @@
    ]
   },
   {
-   "id": "art-162/par-unico",
+   "id": "art-162/par-3",
    "pai": "art-162",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 3º",
    "estados": [
     {
      "desde": 0,
@@ -24517,12 +23690,20 @@
     "rotulo": "Lei Complementar municipal nº 660, de 07 de dezembro de 2010"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 20 de maio de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 20 de maio de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 28 de março de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 28 de março de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 434/1999) | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. b) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. c) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. d) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. f) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. g) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. h) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. o) do inc. x do art. 5º\" | endereço-pai \"inc. x do art. 5º\" não encontrado — não é possível inserir \"al. p) do inc. x do art. 5º\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 352, de 8 de agosto de 1995\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"352\",\"ano\":\"1995\",\"chave\":\"lc 352/1995\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 352, de 8 de agosto de 1995\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"352\",\"ano\":\"1995\",\"chave\":\"lc 352/1995\"}, versão: lc 434/1999) | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | endereço \"inc. iii do art. 2º\" já existe — insert_node não pode sobrescrever (use replace_text) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 447, de 10 de maio de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"447\",\"ano\":\"2000\",\"chave\":\"lc 447/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 585, de 28 de dezembro de 2007\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"585\",\"ano\":\"2007\",\"chave\":\"lc 585/2007\"}, versão: lc 434/1999)",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 20 de maio de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 20 de maio de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 28 de março de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 28 de março de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 434/1999) | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 352, de 8 de agosto de 1995\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"352\",\"ano\":\"1995\",\"chave\":\"lc 352/1995\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 352, de 8 de agosto de 1995\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"352\",\"ano\":\"1995\",\"chave\":\"lc 352/1995\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 352, de 1995\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"352\",\"ano\":\"1995\",\"chave\":\"lc 352/1995\"}, versão: lc 434/1999) | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 434/1999) | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 447, de 10 de maio de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"447\",\"ano\":\"2000\",\"chave\":\"lc 447/2000\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 585, de 28 de dezembro de 2007\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"585\",\"ano\":\"2007\",\"chave\":\"lc 585/2007\"}, versão: lc 434/1999)",
    "enderecos": [
     "art-3",
     "art-3/par-unico",
+    "art-4/inc-I",
     "art-1",
     "art-1/par-unico",
+    "art-6",
+    "art-9-A",
+    "art-3/inc-IV",
+    "art-3/inc-IX",
+    "art-3/inc-X",
+    "art-5/inc-I",
+    "art-5/inc-IV",
     "art-5/inc-X/ali-b",
     "art-5/inc-X/ali-c",
     "art-5/inc-X/ali-d",
@@ -24531,9 +23712,54 @@
     "art-5/inc-X/ali-h",
     "art-5/inc-X/ali-o",
     "art-5/inc-X/ali-p",
+    "art-6/inc-II",
+    "art-6/inc-III",
+    "art-6/inc-IV",
+    "art-6/inc-V",
+    "art-6/inc-VI",
+    "art-6/inc-VII",
+    "art-6/inc-VIII",
+    "art-6/inc-IX",
+    "art-6/inc-X",
+    "art-6/inc-XI",
+    "art-6/inc-XII",
+    "art-6/inc-XIII",
+    "art-6/par-unico",
+    "art-8",
+    "art-8/par-unico",
+    "art-10",
     "art-9/inc-I",
     "art-9/inc-VI",
+    "art-11",
+    "art-1/inc-VI",
+    "art-2",
+    "art-2/inc-II",
     "art-2/inc-III",
+    "art-2/inc-III/ali-a",
+    "art-2/inc-III/ali-b",
+    "art-2/inc-III/ali-c",
+    "art-2/inc-III/ali-d",
+    "art-2/inc-III/ali-e",
+    "art-2/inc-III/ali-f",
+    "art-2/inc-III/ali-g",
+    "art-2/inc-III/ali-h",
+    "art-2/inc-III/ali-i",
+    "art-2/inc-III/ali-j",
+    "art-2/inc-III/ali-k",
+    "art-2/inc-III/ali-l",
+    "art-1-A",
+    "art-1-A/par-unico",
+    "art-1-A/par-unico/inc-I",
+    "art-1-A/par-unico/inc-II",
+    "art-1-A/par-unico/inc-III",
+    "art-1-A/par-unico/inc-V",
+    "art-1-A/par-unico/inc-VI",
+    "art-2/inc-VI",
+    "art-2/inc-VII",
+    "art-2/inc-VIII",
+    "art-2/inc-IX",
+    "art-3/inc-I",
+    "art-3/inc-II",
     "art-15-A",
     "art-2/inc-V"
    ]
@@ -24638,8 +23864,10 @@
     "rotulo": "Lei Complementar municipal nº 946, de 18 de julho de 2022"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "endereço-pai \"art. 53-a\" não encontrado — não é possível inserir \"inc. iii do art. 53-a\" | operação \"revoke_lei\" não gera alteração na árvore desta lei",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 612, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"612\",\"ano\":\"2009\",\"chave\":\"lc 612/2009\"}, versão: lc 434/1999) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 612, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"612\",\"ano\":\"2009\",\"chave\":\"lc 612/2009\"}, versão: lc 434/1999) | endereço-pai \"art. 53-a\" não encontrado — não é possível inserir \"inc. iii do art. 53-a\" | operação \"revoke_lei\" não gera alteração na árvore desta lei",
    "enderecos": [
+    "art-2/inc-VII",
+    "art-6/inc-XII",
     "art-53-A/inc-III"
    ]
   },
@@ -24758,11 +23986,11 @@
   },
   {
    "id": "art-2",
-   "desde": "2018-08-17"
+   "desde": "2010-12-07"
   },
   {
    "id": "art-2/par-unico",
-   "desde": "2018-08-17"
+   "desde": "2010-12-07"
   },
   {
    "id": "art-3",
@@ -24807,6 +24035,58 @@
   {
    "id": "art-4/par-unico",
    "desde": "2006-01-26"
+  },
+  {
+   "id": "art-5/inc-I",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-5/inc-I/ali-a",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-5/inc-I/ali-b",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-6",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-6/inc-I",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-6/inc-II",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-6/inc-III",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-6/inc-IV",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-6/inc-V",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-6/inc-VI",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-6/inc-VII",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-6/inc-VIII",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-6/par-unico",
+   "desde": "2010-12-07"
   },
   {
    "id": "art-7",
@@ -24875,6 +24155,146 @@
   {
    "id": "art-7/inc-XVI",
    "desde": "2010-12-28"
+  },
+  {
+   "id": "art-8",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/inc-I",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/inc-II",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/inc-II/ali-a",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/inc-II/ali-b",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/inc-II/ali-c",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/inc-II/ali-d",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/inc-III",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/inc-IV",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/inc-IV/ali-a",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/inc-IV/ali-b",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/inc-IV/ali-c",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/inc-IV/ali-d",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/inc-V",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/inc-VI",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/par-1",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8/par-2",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/inc-I",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/inc-II",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/inc-II/ali-a",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/inc-II/ali-b",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/inc-III",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/inc-IV",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/inc-V",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/inc-VI",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/inc-VII",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/inc-VIII",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/inc-IX",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/par-1",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/par-2",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/par-3",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-11",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-11/par-1",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-11/par-2",
+   "desde": "2010-12-07"
   },
   {
    "id": "art-21",
@@ -24991,94 +24411,6 @@
   {
    "id": "art-118/inc-XIII",
    "desde": "2014-08-05"
-  },
-  {
-   "id": "art-1/par-unico",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-2/inc-II",
-   "desde": "2018-08-17"
-  },
-  {
-   "id": "art-2/inc-III",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-2/inc-III/ali-a",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-2/inc-III/ali-b",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-2/inc-III/ali-c",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-2/inc-III/ali-d",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-2/inc-III/ali-e",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-2/inc-III/ali-f",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-2/inc-III/ali-g",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-2/inc-III/ali-h",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-2/inc-III/ali-i",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-2/inc-III/ali-j",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-2/inc-III/ali-k",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-2/inc-III/ali-l",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-2/inc-VI",
-   "desde": "2018-08-17"
-  },
-  {
-   "id": "art-2/inc-VII",
-   "desde": "2018-08-17"
-  },
-  {
-   "id": "art-2/inc-VIII",
-   "desde": "2018-08-17"
-  },
-  {
-   "id": "art-2/inc-IX",
-   "desde": "2018-08-17"
-  },
-  {
-   "id": "art-3/inc-IX",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-3/inc-X",
-   "desde": "2010-12-07"
-  },
-  {
-   "id": "art-4/inc-I",
-   "desde": "2006-01-26"
   },
   {
    "id": "art-52/par-7-A",

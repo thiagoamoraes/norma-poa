@@ -2,8 +2,8 @@
  "idSapl": 16472,
  "rotulo": "Emenda à Lei Orgânica nº 11, de 15 de dezembro de 1970",
  "sha256Origem": "b7a5fab08917e910509ee7a01c9f9dce6e84be85f013ceaa0ab7467b9b4f01b7",
- "estruturadoEm": "2026-11-20T11:52:19.108Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:49.949Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -48,10 +48,10 @@
    "texto": "? - Sao orgaos do Municipio, independentes e harmonicos 0 Legislativo e 0 Executivo. § I? - Salvo as excec;oes prevista nesta Lei Organica, urn orgao nao podedelegar atribuic;oes a outro."
   },
   {
-   "id": "art-3/par-unico",
+   "id": "art-3/par-2",
    "pai": "art-3",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 2º",
    "texto": "? - 0 cidadao investido na func;ao de urn deles nao pode exercer a de outro."
   },
   {
@@ -468,10 +468,10 @@
    "texto": "A Camara Municipal funciona com a presen<;a, no minimo, da maio ria de seus membros, e as delibera<;oes sac tomadas por maioria de votos dos presentes, salvo os casos previstos nesta Lei Organica e no Regimento Ir1terno. § I? - Quando se tratar da vota<;ao do or<;amento, de emprestimos, auxilio a empresa, concessao de privilegios e materia que verse interesse particular, alem de outros referidos por esta lei e pelo Regimento Interno,°  numere minimo prescrito e de dois ter<;os de seus membros."
   },
   {
-   "id": "art-11/par-unico",
+   "id": "art-11/par-2",
    "pai": "art-11",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 2º",
    "texto": "? - 0 Presidente da Camara vota somente quando houver empate, quando a materia exigir presen<;a de dois ten;os e nas vota<;oes secretas."
   },
   {
@@ -503,10 +503,10 @@
    "texto": "A Camara Municipal ou suas Comissoes, a requerimento da maioria\"de seus membros, podem convocar Secretarios Municipais, Diretores de Autarquias ou de orgaos nao subordinados as Secretarias, para comparecerem perante elas a fim de prestar informa<;oes sobre assunto previamente designado e constante da convoca<;ao. § I? -    Tres dias (lteis antes do comparecimento devera ser enviada a Camara exposiCao em torno das informa~oes solicitadas."
   },
   {
-   "id": "art-15/par-unico",
+   "id": "art-15/par-2",
    "pai": "art-15",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 2º",
    "texto": "? - Independentemente de convocaCao, quando 0 Secretario ou Diretor desejar prestar esclarecimentos ou solicitar providencias legislativas a qualquer Comissao, esta designara dia e hora para ouvi-Io."
   },
   {
@@ -881,10 +881,10 @@
    ]
   },
   {
-   "id": "art-23/par-unico",
+   "id": "art-23/par-2",
    "pai": "art-23",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 2º",
    "texto": "? - 0 niImero de membros eleitos da Comissao Representativa e 0 necessario para perfazer, no minimo, a maioria absoluta da Camara, computado 0 niImero de membros natos."
   },
   {
@@ -1140,10 +1140,10 @@
    "texto": "0 projeto de lei or<;amentaria anual deve ser remetido a Camara Municipal ate 30 de setembro de cada exercicio, e a san<;ao ate 30 de novembro. § J? -   Se a Camara Municipal nao 0 devolver para sancao ate 0 dia previsto, 0 projeto sera promulgado como lei."
   },
   {
-   "id": "art-41/par-unico",
+   "id": "art-41/par-2",
    "pai": "art-41",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 2º",
    "texto": "? - 0 Prefeito pode enviar mensagem     a Camara para propor a modificacao do projeto de lei orcamentaria, enquanto nao estiver concluida a votacao da parte cuja alteracao foi proposta."
   },
   {
@@ -1924,10 +1924,10 @@
    "texto": "Os cemiterios terao carater secular e serao administrados pela autoridade municipal. § I? -   E permitido a todas as confissoes religiosas praticarem neles os seus ritos."
   },
   {
-   "id": "art-92/par-unico",
+   "id": "art-92/par-2",
    "pai": "art-92",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 2º",
    "texto": "? -   As associac;oes religiosas poderao manter cemiterios particula-"
   },
   {
@@ -1982,7 +1982,9 @@
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
-  "avisos": [],
+  "avisos": [
+   "paragrafo_numerado_sem_irmao"
+  ],
   "metricas": {
    "artigos": 96,
    "dispositivos": 274,
@@ -2016,12 +2018,12 @@
      "naOrigem": "Art5"
     },
     {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "2"
-    },
-    {
      "rotulo": "Art. 4º",
      "naOrigem": "Art6"
+    },
+    {
+     "rotulo": "§ 1º",
+     "naOrigem": "2"
     }
    ]
   }

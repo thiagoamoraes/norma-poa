@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-20T09:25:05.256Z",
+ "geradoEm": "2026-11-20T13:58:21.489Z",
  "idSapl": 31027,
  "rotulo": "Lei Complementar municipal nº 461, de 28 de dezembro de 2000",
  "baseConferida": false,
@@ -18,7 +18,7 @@
     "idSapl": 32958,
     "rotulo": "Lei Complementar municipal nº 501, de 30 de dezembro de 2003"
    },
-   "comandosAplicados": 42
+   "comandosAplicados": 1
   }
  ],
  "dispositivos": [
@@ -89,10 +89,10 @@
    ]
   },
   {
-   "id": "art-2/par-unico",
+   "id": "art-2/par-7",
    "pai": "art-2",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 7º",
    "estados": [
     {
      "desde": 0,
@@ -121,10 +121,10 @@
    ]
   },
   {
-   "id": "art-3/par-unico",
+   "id": "art-3/par-3",
    "pai": "art-3",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 3º",
    "estados": [
     {
      "desde": 0,
@@ -137,8 +137,8 @@
    ]
   },
   {
-   "id": "art-3/par-unico/inc-I",
-   "pai": "art-3/par-unico",
+   "id": "art-3/par-3/inc-I",
+   "pai": "art-3/par-3",
    "tipo": "inciso",
    "rotulo": "I –",
    "estados": [
@@ -153,8 +153,8 @@
    ]
   },
   {
-   "id": "art-3/par-unico/inc-I/ali-a",
-   "pai": "art-3/par-unico/inc-I",
+   "id": "art-3/par-3/inc-I/ali-a",
+   "pai": "art-3/par-3/inc-I",
    "tipo": "alinea",
    "rotulo": "a)",
    "estados": [
@@ -169,8 +169,8 @@
    ]
   },
   {
-   "id": "art-3/par-unico/inc-I/ali-b",
-   "pai": "art-3/par-unico/inc-I",
+   "id": "art-3/par-3/inc-I/ali-b",
+   "pai": "art-3/par-3/inc-I",
    "tipo": "alinea",
    "rotulo": "b)",
    "estados": [
@@ -185,8 +185,8 @@
    ]
   },
   {
-   "id": "art-3/par-unico/inc-I/ali-c",
-   "pai": "art-3/par-unico/inc-I",
+   "id": "art-3/par-3/inc-I/ali-c",
+   "pai": "art-3/par-3/inc-I",
    "tipo": "alinea",
    "rotulo": "c)",
    "estados": [
@@ -201,8 +201,8 @@
    ]
   },
   {
-   "id": "art-3/par-unico/inc-II",
-   "pai": "art-3/par-unico",
+   "id": "art-3/par-3/inc-II",
+   "pai": "art-3/par-3",
    "tipo": "inciso",
    "rotulo": "II –",
    "estados": [
@@ -217,8 +217,8 @@
    ]
   },
   {
-   "id": "art-3/par-unico/inc-II/ali-a",
-   "pai": "art-3/par-unico/inc-II",
+   "id": "art-3/par-3/inc-II/ali-a",
+   "pai": "art-3/par-3/inc-II",
    "tipo": "alinea",
    "rotulo": "a)",
    "estados": [
@@ -233,8 +233,8 @@
    ]
   },
   {
-   "id": "art-3/par-unico/inc-II/ali-b",
-   "pai": "art-3/par-unico/inc-II",
+   "id": "art-3/par-3/inc-II/ali-b",
+   "pai": "art-3/par-3/inc-II",
    "tipo": "alinea",
    "rotulo": "b)",
    "estados": [
@@ -249,8 +249,8 @@
    ]
   },
   {
-   "id": "art-3/par-unico/inc-II/ali-c",
-   "pai": "art-3/par-unico/inc-II",
+   "id": "art-3/par-3/inc-II/ali-c",
+   "pai": "art-3/par-3/inc-II",
    "tipo": "alinea",
    "rotulo": "c)",
    "estados": [
@@ -265,8 +265,8 @@
    ]
   },
   {
-   "id": "art-3/par-unico/inc-II/ali-d",
-   "pai": "art-3/par-unico/inc-II",
+   "id": "art-3/par-3/inc-II/ali-d",
+   "pai": "art-3/par-3/inc-II",
    "tipo": "alinea",
    "rotulo": "d)",
    "estados": [
@@ -281,8 +281,8 @@
    ]
   },
   {
-   "id": "art-3/par-unico/inc-II/ali-e",
-   "pai": "art-3/par-unico/inc-II",
+   "id": "art-3/par-3/inc-II/ali-e",
+   "pai": "art-3/par-3/inc-II",
    "tipo": "alinea",
    "rotulo": "e)",
    "estados": [
@@ -297,8 +297,8 @@
    ]
   },
   {
-   "id": "art-3/par-unico/inc-II/ali-f",
-   "pai": "art-3/par-unico/inc-II",
+   "id": "art-3/par-3/inc-II/ali-f",
+   "pai": "art-3/par-3/inc-II",
    "tipo": "alinea",
    "rotulo": "f)",
    "estados": [
@@ -308,601 +308,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3/par-1",
-   "pai": "art-3",
-   "tipo": "paragrafo",
-   "rotulo": "§ 1º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "A relação dos contribuintes substituídos será demonstrada na guia de recolhimento, podendo a Secretaria Municipal da Fazenda instituir declaração especial para esse fim, a ser definida na legislação.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3/par-2",
-   "pai": "art-3",
-   "tipo": "paragrafo",
-   "rotulo": "§ 2º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Os substitutos tributários estão obrigados à inscrição no Cadastro Fiscal do Imposto Sobre Serviços de Qualquer Natureza.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3/par-3",
-   "pai": "art-3",
-   "tipo": "paragrafo",
-   "rotulo": "§ 3º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Os substitutos tributários estão obrigados a apresentar declaração fiscal na forma e prazo definidos na legislação.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 3º-A",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "O serviço considera-se prestado e o Imposto Sobre Serviços de Qualquer Natureza devido no local do estabelecimento prestador ou, na falta do estabelecimento, no local do domicílio do prestador, exceto nas seguintes hipóteses, quando será devido no local:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-I",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "do estabelecimento do tomador ou intermediário de serviço ou, na falta de estabelecimento, onde ele estiver domiciliado, no caso do serviço proveniente do exterior do País ou cuja prestação se tenha iniciado no exterior do País;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-II",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "da instalação dos andaimes, palcos, coberturas e outras estruturas, no caso dos serviços descritos no subitem 3.05 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-III",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "da execução da obra, no caso dos serviços descritos nos subitens 7.02 e 7.19 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-IV",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "IV –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "da demolição, no caso dos serviços descritos no subitem 7.04 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-V",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "V –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "das edificações em geral, estradas, pontes, portos e congêneres, no caso dos serviços descritos no subitem 7.05 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-VI",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "VI –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "da execução da varrição, coleta, remoção, incineração, tratamento, reciclagem, separação e destinação final de lixo, rejeitos e outros resíduos quais quer, no caso dos serviços descritos no subitem 7.09 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-VII",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "VII –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "da execução da limpeza, manutenção e conservação de vias e logradouros públicos, imóveis, chaminés, piscinas, parques, jardins e congêneres, no caso dos serviços descritos no subitem 7.10 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-VIII",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "VIII –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "da execução da decoração e jardinagem, do corte e poda de árvores, no caso dos serviços descritos no subitem 7.11 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-IX",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "IX –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "do controle e tratamento de efluente de qualquer natureza e de agentes físicos, químicos e biológicos, no caso dos serviços descritos no subitem 7.12 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-X",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "X –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "do florestamento, reflorestamento, semeadura, adubação e congêneres, no caso dos serviços descritos no subitem 7.16 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-XI",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "XI –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "da execução de escoramento, contenção de encostas e congêneres, no caso dos serviços descritos no subitem 7.17 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-XII",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "XII –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "da limpeza e dragagem, no caso dos serviços descritos no subitem 7.18 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-XIII",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "XIII –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "onde o bem estiver guardado ou estacionado, no caso dos serviços descritos no subitem 11.01 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-XIV",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "XIV –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "dos bens ou do domicílio das pessoas vigiados, segurados ou monitorados, no caso dos serviços descritos no subitem 11.02 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-XV",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "XV –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "do armazenamento, depósito, carga, descarga, arrumação e guar da do bem, no caso dos serviços descritos no subitem 11.04 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-XVI",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "XVI –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "da execução dos serviços de diversão, lazer, entretenimento e congêneres, no caso dos serviços descritos nos subitens do item 12, exceto o 12.13 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-XVII",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "XVII –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "do Município onde está sendo executado o transporte, no caso dos serviços descritos pelo subitem 16.01 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-XVIII",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "XVIII –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "do estabelecimento do tomador de mão-de-obra ou, na falta de estabelecimento, onde ele estiver domiciliado, no caso dos serviços descritos pelo subitem 17.05 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-XIX",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "XIX –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "da feira, exposição, congresso ou congênere, a que se referir o planejamento, organização e administração, no caso dos serviços descritos pelo subitem 17.10 da lista anexa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/inc-XX",
-   "pai": "art-3-A",
-   "tipo": "inciso",
-   "rotulo": "XX –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "do porto, aeroporto, ferroporto, terminal rodoviário, ferroviário ou metroviário, no caso dos serviços descritos pelo item 20 da lista anexa.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/par-1",
-   "pai": "art-3-A",
-   "tipo": "paragrafo",
-   "rotulo": "§ 1º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "No caso dos serviços a que se refere o subitem 3.04 da lista anexa, considera-se ocorrido o fato gerador, neste Município, sempre que se dê a locação, sublocação, arrendamento, direito de passagem ou permissão de uso, com partilhado ou não, de extensão de ferrovia, rodovia, postes, cabos, dutos e condutos de qualquer natureza aqui localizados.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/par-2",
-   "pai": "art-3-A",
-   "tipo": "paragrafo",
-   "rotulo": "§ 2º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "No caso dos serviços a que se refere o subitem 22.01 da lista anexa, considera-se ocorrido o fato gerador neste Município sempre que se dê a exploração de extensão de rodovia aqui localizada.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/par-3",
-   "pai": "art-3-A",
-   "tipo": "paragrafo",
-   "rotulo": "§ 3º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Considera-se ocorrido o fato gerador do Imposto no local do estabelecimento prestador nos serviços executados em águas marítimas, excetuados os serviços descritos no subitem 20.01.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/par-4",
-   "pai": "art-3-A",
-   "tipo": "paragrafo",
-   "rotulo": "§ 4º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Considera-se estabelecimento prestador a unidade econômica ou profissional onde o contribuinte desenvolva a atividade de prestar serviços, de modo permanente ou temporário, sendo irrelevantes para a sua caracterização as denominações de sede, filial, agência, posto de atendimento, sucursal, escritório de representação ou contato, ou quaisquer outras que venham a ser utilizadas.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/par-5",
-   "pai": "art-3-A",
-   "tipo": "paragrafo",
-   "rotulo": "§ 5º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "A circunstância de o serviço, por sua natureza, ser executado, habitual ou eventualmente, fora do estabelecimento, não o descaracteriza como estabelecimento prestador.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/par-6",
-   "pai": "art-3-A",
-   "tipo": "paragrafo",
-   "rotulo": "§ 6º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "A existência de estabelecimento prestador é indicada pela presença de um ou mais dos seguintes elementos:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/ali-a",
-   "pai": "art-3-A",
-   "tipo": "alinea",
-   "rotulo": "a)",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "manutenção de pessoal, material, máquinas, instrumentos e equipa mentos necessários à execução dos serviços;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/ali-b",
-   "pai": "art-3-A",
-   "tipo": "alinea",
-   "rotulo": "b)",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "estrutura organizacional ou administrativa;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/ali-c",
-   "pai": "art-3-A",
-   "tipo": "alinea",
-   "rotulo": "c)",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "inscrição nos órgãos previdenciários;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/ali-d",
-   "pai": "art-3-A",
-   "tipo": "alinea",
-   "rotulo": "d)",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "indicação como domicílio fiscal para efeito de outros tributos;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3-A/ali-e",
-   "pai": "art-3-A",
-   "tipo": "alinea",
-   "rotulo": "e)",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "permanência ou ânimo de permanecer no local, para a exploração econômica de atividade de prestação de serviços, exteriorizada por meio de indicação de endereço em impressos, formulários ou correspondência, contrato de locação de imóvel, propaganda ou publicidade, ou em contas telefônicas, de energia elétrica ou de água, em nome do prestador, seu representante ou preposto.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
      }
     }
    ]
@@ -920,23 +325,14 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 1,
-     "texto": "As hipóteses de substituição tributária previstas nesta Lei Com plementar aplicam-se quando os serviços forem tributados no Município de Porto Alegre.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 501/2003"
-     }
     }
    ]
   },
   {
-   "id": "art-4/par-unico",
+   "id": "art-4/par-3",
    "pai": "art-4",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 3º",
    "estados": [
     {
      "desde": 0,
@@ -944,23 +340,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4-A",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 4º-A",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Aplicam-se aos substitutos tributários, no que couber, as dispo sições da Lei Complementar nº 7, de 1973, e alterações, especialmente aquelas relativas às penalidades por infrações.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
      }
     }
    ]
@@ -993,74 +372,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-5/par-16",
-   "pai": "art-5",
-   "tipo": "paragrafo",
-   "rotulo": "§ 16",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Será lançado com benefício de alíquota predial, a partir do exercício seguinte ao da aprovação do projeto arquitetônico, o terreno cuja edificação não for concluída em virtude da falência do empreendedor, tendo os adquirentes, em condomínio, assumido a conclusão da obra, observado ainda o seguinte:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-5/par-16/inc-I",
-   "pai": "art-5/par-16",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "a aplicação desse benefício dependerá de requerimento protocolizado junto à Prefeitura Municipal de Porto Alegre, acompanhado de cópia do projeto arquitetônico;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-5/par-16/inc-II",
-   "pai": "art-5/par-16",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "o benefício previsto neste parágrafo terá o prazo máximo e improrrogável de 05 (cinco) exercícios, contados a partir do exercício seguinte ao da solicitação;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-5/par-16/inc-III",
-   "pai": "art-5/par-16",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "o benefício estará submetido, no que couber, às condições do parágrafo anterior e se aplica a fatos geradores já ocorridos",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 501/2003"
      }
     }
    ]
@@ -1153,8 +464,44 @@
     "rotulo": "Lei Complementar municipal nº 501, de 30 de dezembro de 2003"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "endereço-pai \"art. 16\" não encontrado — não é possível inserir \"§ 2º do art. 16\" | artigo-base \"art. 18º\" não encontrado — não é possível posicionar \"art. 18-a\" | endereço-pai \"art. 18-a\" não encontrado — não é possível inserir \"inc. i do art. 18-a\" | endereço-pai \"art. 18-a\" não encontrado — não é possível inserir \"inc. ii do art. 18-a\" | endereço-pai \"art. 18-a\" não encontrado — não é possível inserir \"parágrafo único do art. 18-a\" | artigo-base \"art. 18º\" não encontrado — não é possível posicionar \"art. 18-b\" | endereço-pai \"art. 18-b\" não encontrado — não é possível inserir \"inc. i do art. 18-b\" | endereço-pai \"art. 18-b\" não encontrado — não é possível inserir \"inc. ii do art. 18-b\" | endereço-pai \"art. 18-b\" não encontrado — não é possível inserir \"inc. iii do art. 18-b\" | endereço-pai \"art. 18-b\" não encontrado — não é possível inserir \"inc. iv do art. 18-b\" | endereço-pai \"art. 18-b\" não encontrado — não é possível inserir \"inc. v do art. 18-b\" | artigo-base \"art. 24º\" não encontrado — não é possível posicionar \"art. 24\" | endereço-pai \"art. 24\" não encontrado — não é possível inserir \"parágrafo único do art. 24\" | artigo-base \"art. 28º\" não encontrado — não é possível posicionar \"art. 28\" | endereço-pai \"art. 28\" não encontrado — não é possível inserir \"inc. i do art. 28\" | endereço-pai \"art. 28\" não encontrado — não é possível inserir \"inc. ii do art. 28\" | artigo-base \"art. 29º\" não encontrado — não é possível posicionar \"art. 29-a\" | endereço-pai \"art. 31\" não encontrado — não é possível inserir \"§ 3º do art. 31\" | operação \"indeterminado\" não gera alteração na árvore desta lei | artigo-base \"art. 48º\" não encontrado — não é possível posicionar \"art. 48-a\" | endereço-pai \"art. 62\" não encontrado — não é possível inserir \"parágrafo único do art. 62\" | endereço-pai \"art. 71\" não encontrado — não é possível inserir \"inc. v do art. 71\" | artigo-base \"art. 82º\" não encontrado — não é possível posicionar \"art. 82-a\" | artigo-base \"art. 82º\" não encontrado — não é possível posicionar \"art. 82-a\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 23 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 461/2000)",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | operação \"indeterminado\" não gera alteração na árvore desta lei | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 23 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 461/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 306, de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"306\",\"ano\":\"1993\",\"chave\":\"lc 306/1993\"}, versão: lc 461/2000)",
    "enderecos": [
+    "art-3-A",
+    "art-3-A/inc-I",
+    "art-3-A/inc-II",
+    "art-3-A/inc-III",
+    "art-3-A/inc-IV",
+    "art-3-A/inc-V",
+    "art-3-A/inc-VI",
+    "art-3-A/inc-VII",
+    "art-3-A/inc-VIII",
+    "art-3-A/inc-IX",
+    "art-3-A/inc-X",
+    "art-3-A/inc-XI",
+    "art-3-A/inc-XII",
+    "art-3-A/inc-XIII",
+    "art-3-A/inc-XIV",
+    "art-3-A/inc-XV",
+    "art-3-A/inc-XVI",
+    "art-3-A/inc-XVII",
+    "art-3-A/inc-XVIII",
+    "art-3-A/inc-XIX",
+    "art-3-A/inc-XX",
+    "art-3-A/par-1",
+    "art-3-A/par-2",
+    "art-3-A/par-3",
+    "art-3-A/par-4",
+    "art-3-A/par-5",
+    "art-3-A/par-6",
+    "art-3-A/ali-a",
+    "art-3-A/ali-b",
+    "art-3-A/ali-c",
+    "art-3-A/ali-d",
+    "art-3-A/ali-e",
+    "art-5/par-16",
+    "art-5/par-16/inc-I",
+    "art-5/par-16/inc-II",
+    "art-5/par-16/inc-III",
     "art-16/par-2",
     "art-18-A",
     "art-18-A/inc-I",
@@ -1173,11 +520,18 @@
     "art-28/inc-II",
     "art-29-A",
     "art-31/par-3",
+    "art-48",
     "art-48-A",
     "art-62/par-unico",
+    "art-64",
     "art-71/inc-V",
     "art-82-A",
-    "art-2"
+    "art-2",
+    "art-3/par-1",
+    "art-3/par-2",
+    "art-3/par-3",
+    "art-4",
+    "art-4-A"
    ]
   }
  ],
@@ -1187,7 +541,63 @@
    "desde": "2003-12-30"
   },
   {
-   "id": "art-2/par-unico",
+   "id": "art-2/par-7",
+   "desde": "2003-12-30"
+  },
+  {
+   "id": "art-3/par-3",
+   "desde": "2003-12-30"
+  },
+  {
+   "id": "art-3/par-3/inc-I",
+   "desde": "2003-12-30"
+  },
+  {
+   "id": "art-3/par-3/inc-I/ali-a",
+   "desde": "2003-12-30"
+  },
+  {
+   "id": "art-3/par-3/inc-I/ali-b",
+   "desde": "2003-12-30"
+  },
+  {
+   "id": "art-3/par-3/inc-I/ali-c",
+   "desde": "2003-12-30"
+  },
+  {
+   "id": "art-3/par-3/inc-II",
+   "desde": "2003-12-30"
+  },
+  {
+   "id": "art-3/par-3/inc-II/ali-a",
+   "desde": "2003-12-30"
+  },
+  {
+   "id": "art-3/par-3/inc-II/ali-b",
+   "desde": "2003-12-30"
+  },
+  {
+   "id": "art-3/par-3/inc-II/ali-c",
+   "desde": "2003-12-30"
+  },
+  {
+   "id": "art-3/par-3/inc-II/ali-d",
+   "desde": "2003-12-30"
+  },
+  {
+   "id": "art-3/par-3/inc-II/ali-e",
+   "desde": "2003-12-30"
+  },
+  {
+   "id": "art-3/par-3/inc-II/ali-f",
+   "desde": "2003-12-30"
+  },
+  {
+   "id": "art-4",
+   "desde": "2003-12-30"
+  },
+  {
+   "id": "art-4/par-3",
    "desde": "2003-12-30"
   }
  ]

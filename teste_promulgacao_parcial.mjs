@@ -202,7 +202,8 @@ linha('DOCUMENTA o risco que a guarda evita (o que o parser faz com o fragmento,
   const parsed = parseLeiPublicada(lei14504);
   const v0 = criarVersaoOriginal(parsed, parsed);   // o que a guarda impede de acontecer
   ok('Lei 14.504 SEM a guarda: a v0 numeraria o dispositivo como "Art. 1º" — e não "Art. 4º", o número real', v0.artigos.length === 1 && v0.artigos[0].desFixo === 'Art. 1º');
-  ok('Lei 14.504 SEM a guarda: e o § 3º viraria "Parágrafo único."', v0.artigos[0].children[0].desFixo === 'Parágrafo único.');
+  // rodada 30: "§ 1º" escrito sozinho segue o rótulo escrito (decisão do mantenedor, 20/11/2026) — o § 3º já não vira "Parágrafo único."
+  ok('Lei 14.504 SEM a guarda: o § 3º, sozinho, MANTÉM o rótulo escrito "§ 3º" (não vira "Parágrafo único.")', v0.artigos[0].children[0].desFixo === '§ 3º');
 }
 
 linha('extrairCabecalhoLeiPublicada() — Resolução e Ordem de Serviço (Limite 2)');

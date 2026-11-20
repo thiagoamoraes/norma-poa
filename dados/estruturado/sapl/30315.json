@@ -2,8 +2,8 @@
  "idSapl": 30315,
  "rotulo": "Lei Complementar municipal nº 438, de 30 de dezembro de 1999",
  "sha256Origem": "bb9f3ea10b33ff85d179de0255ce55222fa008e78bc6e7d2613db9b2960895dd",
- "estruturadoEm": "2026-11-20T11:52:22.518Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:53.160Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "438",
@@ -53,28 +53,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 3º",
-   "texto": "Fica incluído § 5º-A ao art. 69 da Lei Complementar nº07, de 07 de dezembro de 1973, com a seguinte redação: Art. 69 - ... ..."
-  },
-  {
-   "id": "art-3/par-unico",
-   "pai": "art-3",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "texto": "A No caso do Imposto sobre a Propriedade Predial e Territorial Urbana e da Taxade Coleta de Lixo, a multa será de 2% (dois por cento) sobre o valor monetariamenteatualizado do tributo se:"
-  },
-  {
-   "id": "art-3/par-unico/inc-I",
-   "pai": "art-3/par-unico",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "o pagamento do débito vencido ocorrer até o dia 8 do mês seguinte ao dovencimento;"
-  },
-  {
-   "id": "art-3/par-unico/inc-II",
-   "pai": "art-3/par-unico",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "texto": "o pagamento do débito vencido no mês de dezembro for atendido dentro domês."
+   "texto": "Fica incluído § 5º-A ao art. 69 da Lei Complementar nº07, de 07 de dezembro de 1973, com a seguinte redação:",
+   "blocoDeAlteracao": "“Art. 69 - ...\n...\n§5º - A No caso do Imposto sobre a Propriedade Predial e Territorial Urbana e da Taxade Coleta de Lixo, a multa será de 2% (dois por cento) sobre o valor monetariamenteatualizado do tributo se:\nI - o pagamento do débito vencido ocorrer até o dia 8 do mês seguinte ao dovencimento;\nII - o pagamento do débito vencido no mês de dezembro for atendido dentro domês.”"
   },
   {
    "id": "art-4",
@@ -85,26 +65,19 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
    "cabecalho_fora_do_padrao"
   ],
   "metricas": {
    "artigos": 4,
-   "dispositivos": 9,
-   "cobertura": 0.966,
-   "blocosDeAlteracao": 0,
+   "dispositivos": 6,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "5º"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

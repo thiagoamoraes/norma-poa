@@ -2,8 +2,8 @@
  "idSapl": 30317,
  "rotulo": "Lei Complementar municipal nº 440, de 30 de dezembro de 1999",
  "sha256Origem": "29ad3a647340d99589c5e6e9fee009e12b030b0f4d57ec5fcb8fde4771e65f14",
- "estruturadoEm": "2026-11-20T11:52:22.515Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:53.157Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "440",
@@ -25,21 +25,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "Dá nova redação aos itens IV e VII do art. 33 da LeiComplementar nº 170, de 31 de dezembro de 1987, como segue: Art. 33 - .... ..."
-  },
-  {
-   "id": "art-1/inc-I",
-   "pai": "art-1",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "o apartamento, incluindo o de hotel e similares, hospital e similares, dotado deinstalação hidrossanitária, para uso individual e privativo; ..."
-  },
-  {
-   "id": "art-1/inc-II",
-   "pai": "art-1",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "texto": "colégio, quartel, repartição pública, posto de gasolina e lavagem, entidadeassistencial e caritativa, clube esportivo e similares; ...\""
+   "texto": "Dá nova redação aos itens IV e VII do art. 33 da LeiComplementar nº 170, de 31 de dezembro de 1987, como segue:",
+   "blocoDeAlteracao": "“Art. 33 - ....\n...\nIV - o apartamento, incluindo o de hotel e similares, hospital e similares, dotado deinstalação hidrossanitária, para uso individual e privativo;\n...\nVII - colégio, quartel, repartição pública, posto de gasolina e lavagem, entidadeassistencial e caritativa, clube esportivo e similares;\n...\""
   },
   {
    "id": "art-2",
@@ -50,26 +37,19 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
    "cabecalho_fora_do_padrao"
   ],
   "metricas": {
    "artigos": 2,
-   "dispositivos": 4,
-   "cobertura": 0.956,
-   "blocosDeAlteracao": 0,
+   "dispositivos": 2,
+   "cobertura": 0.962,
+   "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "I –",
-     "naOrigem": "IV"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

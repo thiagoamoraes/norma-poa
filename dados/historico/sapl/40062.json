@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-19T09:26:05.093Z",
+ "geradoEm": "2026-11-20T13:47:05.778Z",
  "idSapl": 40062,
  "rotulo": "Lei Complementar municipal nº 762, de 12 de junho de 2015",
  "baseConferida": true,
@@ -18,7 +18,7 @@
     "idSapl": 41306,
     "rotulo": "Lei Complementar municipal nº 815, de 21 de julho de 2017"
    },
-   "comandosAplicados": 3
+   "comandosAplicados": 1
   }
  ],
  "dispositivos": [
@@ -542,40 +542,6 @@
      }
     }
    ]
-  },
-  {
-   "id": "art-9/par-1",
-   "pai": "art-9",
-   "tipo": "paragrafo",
-   "rotulo": "§ 1º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Os membros do Conselho Fiscal, ativos ou inativos, representam o Poder ao qual o seu cargo de provimento efetivo estiver vinculado.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 815/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-9/par-2",
-   "pai": "art-9",
-   "tipo": "paragrafo",
-   "rotulo": "§ 2º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "As eleições de que tratam os incs. II e III do caput deste artigo serão disciplinadas por decreto municipal.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 815/2017"
-     }
-    }
-   ]
   }
  ],
  "naoAplicadas": [
@@ -585,14 +551,16 @@
     "rotulo": "Lei Complementar municipal nº 815, de 21 de julho de 2017"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 762/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 762/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 762/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 762/2015) | endereço-pai \"inc. i do art. 9º\" não encontrado — não é possível inserir \"al. b) do inc. i do art. 9º\" | endereço-pai \"inc. i do art. 9º\" não encontrado — não é possível inserir \"al. c) do inc. i do art. 9º\"",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 762/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 762/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 762/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 762/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 762/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 762/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 762/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 762/2015)",
    "enderecos": [
     "art-5/inc-I",
     "art-5/par-3",
     "art-5/par-5",
     "art-5/par-6",
     "art-9/inc-I/ali-b",
-    "art-9/inc-I/ali-c"
+    "art-9/inc-I/ali-c",
+    "art-9/par-1",
+    "art-9/par-2"
    ]
   }
  ],

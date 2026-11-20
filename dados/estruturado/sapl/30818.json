@@ -2,8 +2,8 @@
  "idSapl": 30818,
  "rotulo": "Lei Complementar municipal nº 458, de 03 de outubro de 2000",
  "sha256Origem": "7c5c24cadabe301cd9fb2a6308e55c9c0978cff428cdabfa76f65ceb635dc391",
- "estruturadoEm": "2026-11-20T11:52:22.479Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:53.125Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "458",
@@ -67,10 +67,10 @@
    "blocoDeAlteracao": "“Art. 266 ...\n§ 1® Fica obrigatória a apresentação do Laudo rto\nProteção contra Incêndio para as edificações abrangidas por este Código, decorridos cinco anos após a concessão da primeira Carta de Habitação ou sua ocupação. (NR)"
   },
   {
-   "id": "art-5/par-unico",
+   "id": "art-5/par-2",
    "pai": "art-5",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 2º",
    "texto": "® Os Laudos de Proteção contra Incêndio devem ser renovados a cada cinco anos. ...” (NR)"
   },
   {
@@ -111,11 +111,11 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "paragrafo_numerado_sem_irmao"
   ],
-  "avisos": [],
   "metricas": {
    "artigos": 10,
    "dispositivos": 12,
@@ -123,12 +123,7 @@
    "blocosDeAlteracao": 6,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "2"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

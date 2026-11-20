@@ -2,8 +2,8 @@
  "idSapl": 42216,
  "rotulo": "Lei Complementar municipal nº 859, de 03 de setembro de 2019",
  "sha256Origem": "a093d66c4a0ab636296202933b44b5b1a06fca058e573bc3c0df2403d3be31b7",
- "estruturadoEm": "2026-11-20T11:52:20.439Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:51.237Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "859",
@@ -41,10 +41,10 @@
    "texto": "Ficam alterados o caput do § 1º, o caput do § 3º, o § 8º, o caput do § 10, o"
   },
   {
-   "id": "art-2/par-unico",
+   "id": "art-2/par-12",
    "pai": "art-2",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 12.",
    "texto": ", o caput do § 16 e o caput e os incs. I, II e III do § 17, e ficam incluídos incs. V e VI no § 17 e §§ 18 e 19, todos no art. 5º da Lei Complementar nº 7, de 7 de dezembro de 1973, e alterações posteriores, conforme segue:",
    "blocoDeAlteracao": "“Art. 5º .....................................................................................................................\n§ 1º As alíquotas para cálculo do imposto predial são diferenciadas em função do\nuso e progressivas em função do valor venal dos imóveis, fracionado por faixas, conforme a\nTabela IX desta Lei Complementar.\n....................................................................................................................................\n§ 3º As alíquotas para cálculo do imposto territorial são diferenciadas em função\nda localização e do valor venal, conforme a Tabela X desta Lei Complementar.\n....................................................................................................................................\n§ 8º As alíquotas para cálculo do imposto predial e territorial incidem sobre a\nfaixa de valor venal do imóvel compreendido nos respectivos limites.\n....................................................................................................................................\n§ 10. Estão sujeitos às alíquotas para cálculo do imposto territorial, previstas na\nTabela X desta Lei Complementar, observada a sua localização:\n....................................................................................................................................\n2\n....................................................................................................................................\n§ 12. Considera-se, para efeito de apuração do valor venal do imóvel, nos termos\ndos §§ 1º e 3º deste artigo, o valor da UFM de 1º de janeiro do ano ao qual corresponde o\nlançamento.\n....................................................................................................................................\n§ 16. Para o terreno cuja edificação não for concluída em virtude de falência do\nempreendedor ou de sua destituição por abandono de obra, tendo os adquirentes, em\ncondomínio, assumido sua conclusão, será lançado imposto predial com base na Tabela IX desta\nLei Complementar, a partir do exercício seguinte ao da aprovação do projeto arquitetônico,\nobservado, ainda, o seguinte:\n..............................................................................................................................\n§ 17. Ressalvado o disposto nos §§ 3º, 8º e 9º deste artigo, para o terreno,\nindependente da divisão fiscal em que estiver localizado, que possuir projeto arquitetônico\ndevidamente aprovado pela Prefeitura Municipal de Porto Alegre será aplicada alíquota de 0,9%\n(zero vírgula nove por cento) sobre o valor venal do imóvel, observando-se o seguinte:\nI – a aplicação da alíquota de 0,9% (zero vírgula nove por cento) prevista no caput\ndeste parágrafo incidirá pelo prazo máximo, improrrogável, de 4 (quatro) anos, contados a partir\ndo exercício seguinte ao da aprovação do projeto arquitetônico, mediante solicitação\nprotocolizada na Secretaria Municipal da Fazenda (SMF);\nII – o prazo previsto no inc. I deste parágrafo será reduzido à data de conclusão da\nobra ou da ocupação, o que ocorrer primeiro, quando passará a incidir a alíquota para cálculo de\nimposto predial correspondente, a partir do exercício seguinte ao da conclusão da obra ou da\nocupação;\nIII – a alíquota de 0,9% (zero vírgula nove por cento) será aplicada uma única vez\npara cada imóvel, salvo se este for transmitido para outro proprietário, observado o período\nmáximo de 4 (quatro) anos por proprietário;\nIV – ...........................................................................................................................\nV – o previsto no caput deste parágrafo aplica-se, ainda, quando não houver\ndecisão de mérito a respeito de projeto arquitetônico em condições técnicas de tramitar por parte\ndo Executivo Municipal após transcorrido o prazo de 1 (um) ano, caso em que a alíquota\nincidirá, retroativamente, a partir do primeiro exercício após data da protocolização do projeto\naté o prazo máximo de 4 (quatro anos), contados de sua aprovação ou até seu arquivamento, se\nfor o caso, conforme regulamento; e\n3\nVI – a aplicação do previsto no inc. V deste parágrafo dependerá da\nprotocolização de requerimento junto à SMF, por parte do contribuinte, após transcorrido 1 (um)\nano da protocolização do projeto, que deverá ser instruído com documento que comprove a não\nocorrência da decisão de mérito por parte do Executivo Municipal.\n§ 18. VETADO.\nI – VETADO.\nII – VETADO.\nIII – VETADO.\nIV – VETADO.\n§ 19. VETADO.\nArt. 3º Fica alterado o inc. I e fica incluído parágrafo único no art. 7º da Lei\nComplementar nº 7, de 1973, e alterações posteriores, conforme segue:\n“Art. 7º .....................................................................................................................\nI – o índice médio de valorização, variáveis de localização, a legislação\nurbanística;\n....................................................................................................................................\nParágrafo único. A determinação de valor do metro quadrado de terreno referente\na novas faces de quarteirão será regida pelo disposto neste artigo.” (NR)"
   },
@@ -315,7 +315,9 @@
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
-  "avisos": [],
+  "avisos": [
+   "paragrafo_numerado_sem_irmao"
+  ],
   "metricas": {
    "artigos": 20,
    "dispositivos": 40,
@@ -326,10 +328,6 @@
     "Fica incluído parágrafo único no art. 8º da Lei Complementar nº 7, de 1973, e al"
    ],
    "rotulosDivergentes": [
-    {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "12"
-    },
     {
      "rotulo": "Art. 4º",
      "naOrigem": "4Art5º"
@@ -345,6 +343,10 @@
     {
      "rotulo": "Art. 7º",
      "naOrigem": "Art8º"
+    },
+    {
+     "rotulo": "Art. 8º",
+     "naOrigem": "Art9º"
     }
    ]
   }

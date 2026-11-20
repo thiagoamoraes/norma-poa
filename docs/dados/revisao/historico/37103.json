@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-19T09:26:04.889Z",
+ "geradoEm": "2026-11-20T13:47:05.461Z",
  "idSapl": 37103,
  "rotulo": "Lei Complementar municipal nº 666, de 30 de dezembro de 2010",
  "baseConferida": true,
@@ -17,16 +17,6 @@
    "fonte": {
     "idSapl": 38893,
     "rotulo": "Lei Complementar municipal nº 714, de 27 de maio de 2013"
-   },
-   "comandosAplicados": 1
-  },
-  {
-   "indice": 2,
-   "id": "lc 666/2010@2014-01-07",
-   "data": "2014-01-07",
-   "fonte": {
-    "idSapl": 39221,
-    "rotulo": "Lei Complementar municipal nº 727, de 07 de janeiro de 2014"
    },
    "comandosAplicados": 1
   }
@@ -53,15 +43,6 @@
      "origem": {
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 714/2013"
-     }
-    },
-    {
-     "desde": 2,
-     "texto": "Ficam definidos os seguintes índices de aproveitamento para os terrenosnos quais se tenha a finalidade de implantar projetos de reformas, adequações ouampliações de centros esportivos, clubes, equipamentos administrativos,hospitais, clínicas médicas, hotéis, apart-hotéis, centros de eventos, centroscomerciais, shopping centers, escolas, universidades e templos religiososou filosóficos de qualquer natureza, todos com pedidos de aprovaçãoprotocolizados perante a Administração Municipal, até 31 de março de 2014,conforme segue:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 727/2014"
      }
     }
    ]
@@ -185,12 +166,38 @@
     "idSapl": 39221,
     "rotulo": "Lei Complementar municipal nº 727, de 07 de janeiro de 2014"
    },
-   "motivo": "aplicada_em_parte",
-   "detalhe": "comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
+   "motivo": "comando_recusado",
+   "detalhe": "comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 714, de 2013\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"714\",\"ano\":\"2013\",\"chave\":\"lc 714/2013\"}, versão: lc 666/2010)",
    "enderecos": [
-    "art-9"
+    "art-9",
+    "art-1"
    ]
   }
  ],
- "aConferir": []
+ "aConferir": [
+  {
+   "id": "art-1",
+   "desde": "2014-01-07"
+  },
+  {
+   "id": "art-1/inc-I",
+   "desde": "2014-01-07"
+  },
+  {
+   "id": "art-1/inc-II",
+   "desde": "2014-01-07"
+  },
+  {
+   "id": "art-1/inc-III",
+   "desde": "2014-01-07"
+  },
+  {
+   "id": "art-1/par-1",
+   "desde": "2014-01-07"
+  },
+  {
+   "id": "art-1/par-2",
+   "desde": "2014-01-07"
+  }
+ ]
 }

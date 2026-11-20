@@ -64,11 +64,23 @@ export function paraJsonl(decisoes) {
 
 /**
  * Situação de uma norma frente à sua decisão:
- *  'pendente' (sem decisão) · 'revisada' · 'desatualizada' (o texto ou o leitor mudou desde a decisão).
+ *  'pendente' (sem decisão) · 'revisada' · 'desatualizada' (volta à fila).
+ *
+ * Regra (decisão do mantenedor, 20/11/2026): a decisão só fica DESATUALIZADA se o TEXTO mudou
+ * (sha256Origem) ou se o VEREDITO do motor mudou. Subir a versão do leitor sem mudar o veredito
+ * (os motivos de revisão da norma) NÃO desfaz o trabalho de revisão. Sem como comparar o veredito
+ * (decisão sem `motivosNaHora` ou norma sem `motivos`), vale a regra rígida: versão diferente =
+ * desatualizada — nunca vale em silêncio.
  */
 export function situacaoDaDecisao(decisao, norma) {
   if (!decisao) return 'pendente';
-  if (decisao.sha256Origem !== norma.sha256Origem || decisao.versaoEstruturador !== norma.versaoEstruturador) return 'desatualizada';
+  if (decisao.sha256Origem !== norma.sha256Origem) return 'desatualizada';
+  if (decisao.versaoEstruturador !== norma.versaoEstruturador) {
+    const antes = decisao.motivosNaHora, agora = norma.motivos;
+    if (!Array.isArray(antes) || !Array.isArray(agora)) return 'desatualizada';
+    const a = [...new Set(antes)].sort().join('|'), b = [...new Set(agora)].sort().join('|');
+    if (a !== b) return 'desatualizada';
+  }
   return 'revisada';
 }
 
@@ -98,7 +110,7 @@ export const CATEGORIAS_HUMANAS = ['aceita_motor', 'aceita_humano', 'corrigida',
  */
 export function situacaoHumana(norma, decisao) {
   const s = situacaoDaDecisao(decisao, norma);
-  if (s === 'desatualizada') return 'desatualizada';
+  if (s === 'desatualizada') return norma.situacao === 'aceita' ? 'aceita_motor' : 'desatualizada'; // o motor passou a aceitar: a revisão deixou de ser necessária
   if (s === 'pendente') return norma.situacao === 'aceita' ? 'aceita_motor' : 'pendente';
   switch (decisao.decisao) {
     case 'aceitar': return norma.situacao === 'aceita' ? 'aceita_motor' : 'aceita_humano';

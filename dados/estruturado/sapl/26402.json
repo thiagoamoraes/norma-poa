@@ -2,8 +2,8 @@
  "idSapl": 26402,
  "rotulo": "Lei Complementar municipal nº 267, de 30 de março de 1992",
  "sha256Origem": "b51f7c27feafdaf3e77aca4cd172abda8ca317d49d3dfa366c6fdbf037217397",
- "estruturadoEm": "2026-11-20T11:52:25.012Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:55.631Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "267",
@@ -17,7 +17,7 @@
   },
   "fonte": "catalogo"
  },
- "ementa": "Regulamenta os Conselhos Municipais criados peloartigo 101 da Lei Orgânica do Município de Porto Alegre. O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE. Faço saber, no uso das atribuições que me obrigam os parágrafos 5º e 7º, doart.77, da Lei Orgânica, que a Câmara Municipal manteve e eu promulgo dispositivos daLei Complementar n.º 267, de 16 de janeiro de 1992. Art.11 - ... § 1º - Vetada a resolução, ou parte dela, a matéria objeto do veto retornará aorespectivo Conselho para nova votação. § 2º - A rejeição do veto do Prefeito somente se dará pelo voto de dois(2/3) dos membros do Conselho. Art. 12  Rejeitado o veto do Prefeito, este encaminhará a matéria àCâmara Municipal para apreciação e decisão final, que se dará através do processolegislativo adotado para os vetos aos projetos de lei. Parágrafo único  É exigida a maioria absoluta de votos favoráveisda Câmara para aprovação de resolução dos Conselhos Municipais vetada peloPrefeito. Gabinete da Presidência da Câmara Municipal de Porto Alegre, 30 de março de 1992. DILAMAR MACHADO, Presidente. Registre-se e publique-se: Leão de Medeiros. 1º Secretário.",
+ "ementa": "Regulamenta os Conselhos Municipais criados peloartigo 101 da Lei Orgânica do Município de Porto Alegre. O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE. Faço saber, no uso das atribuições que me obrigam os parágrafos 5º e 7º, doart.77, da Lei Orgânica, que a Câmara Municipal manteve e eu promulgo dispositivos daLei Complementar n.º 267, de 16 de janeiro de 1992. Gabinete da Presidência da Câmara Municipal de Porto Alegre, 30 de março de 1992. DILAMAR MACHADO, Presidente. Registre-se e publique-se: Leão de Medeiros. 1º Secretário.",
  "preambulo": null,
  "fecho": null,
  "dispositivos": [],
@@ -25,7 +25,10 @@
   "situacao": "revisar",
   "motivos": [
    "sem_artigos",
-   "sem_fecho"
+   "sem_fecho",
+   "texto_fora_da_arvore",
+   "trecho_nao_localizado_na_origem",
+   "bloco_de_alteracao_sem_dono"
   ],
   "avisos": [
    "cabecalho_fora_do_padrao"
@@ -33,10 +36,18 @@
   "metricas": {
    "artigos": 0,
    "dispositivos": 0,
-   "cobertura": 0.978,
-   "blocosDeAlteracao": 0,
-   "lacunas": [],
-   "naoLocalizados": [],
+   "cobertura": 0,
+   "blocosDeAlteracao": 2,
+   "lacunas": [
+    {
+     "tamanho": 921,
+     "amostra": "LEICOMPLEMENTARNº267RegulamentaosConselhosMunicipaiscriadospeloartigo101daLeiOrg",
+     "noFim": true
+    }
+   ],
+   "naoLocalizados": [
+    "Regulamenta os Conselhos Municipais criados peloartigo 101 da Lei Orgânica do Mu"
+   ],
    "rotulosDivergentes": []
   }
  }

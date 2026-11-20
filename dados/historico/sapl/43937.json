@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-20T09:25:05.743Z",
+ "geradoEm": "2026-11-20T13:47:05.965Z",
  "idSapl": 43937,
  "rotulo": "Lei Complementar municipal nº 942, de 25 de maio de 2022",
  "baseConferida": true,
@@ -28,7 +28,7 @@
     "idSapl": 51735,
     "rotulo": "Lei Complementar municipal nº 1.081, de 10 de setembro de 2026"
    },
-   "comandosAplicados": 2
+   "comandosAplicados": 1
   }
  ],
  "dispositivos": [
@@ -209,23 +209,6 @@
      "origem": {
       "operacao": "insert_node",
       "lei": "Lei Complementar nº 1.011/2024"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3/inc-X",
-   "pai": "art-3",
-   "tipo": "inciso",
-   "rotulo": "X –",
-   "estados": [
-    {
-     "desde": 2,
-     "texto": "projetos, ações e iniciativas voltados ao incremento das receitas patrimoniais, à modernização, à qualificação e à racionalização da gestão do patrimônio imobiliário municipal, incluindo cadastro patrimonial, gestão documental, geoinformação, regularização dominial, gestão registral e cartorial e demais ações correlatas necessárias à gestão do patrimônio imobiliário municipal; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 1.081/2026"
      }
     }
    ]
@@ -2832,9 +2815,10 @@
     "rotulo": "Lei Complementar municipal nº 1.081, de 10 de setembro de 2026"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 5.994, de 25 de novembro de 1987\",\"tipoAto\":\"LEI\",\"numero\":\"5994\",\"ano\":\"1987\",\"chave\":\"l 5994/1987\"}, versão: lc 942/2022) | operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 5.994, de 25 de novembro de 1987\",\"tipoAto\":\"LEI\",\"numero\":\"5994\",\"ano\":\"1987\",\"chave\":\"l 5994/1987\"}, versão: lc 942/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 5.994, de 1987\",\"tipoAto\":\"LEI\",\"numero\":\"5994\",\"ano\":\"1987\",\"chave\":\"l 5994/1987\"}, versão: lc 942/2022) | operação \"indeterminado\" não gera alteração na árvore desta lei",
    "enderecos": [
-    "art-2/inc-X"
+    "art-2/inc-X",
+    "art-3/inc-X"
    ]
   }
  ],

@@ -2,8 +2,8 @@
  "idSapl": 34244,
  "rotulo": "Lei Complementar municipal nº 547, de 24 de abril de 2006",
  "sha256Origem": "37af1887cb9cd94cc115619ab4faea9fd7eb52a4f1036ff5adb23d1f96bb53d1",
- "estruturadoEm": "2026-11-20T11:52:22.177Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:52.918Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "547",
@@ -146,10 +146,10 @@
    "texto": "Para fins de execução do projeto urbanístico da praça e dos prédios destinados à escola, a posto de saúde e à segurança pública, o Executivo fica autorizado a utilizar os recursos advindos da aplicação do § 6º do art. 138 e do"
   },
   {
-   "id": "art-12/par-unico",
+   "id": "art-12/par-2",
    "pai": "art-12",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 2º",
    "texto": "do art. 149 da Lei Complementar nº 434, de 1999."
   },
   {
@@ -169,11 +169,11 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "paragrafo_numerado_sem_irmao"
   ],
-  "avisos": [],
   "metricas": {
    "artigos": 14,
    "dispositivos": 21,
@@ -181,12 +181,7 @@
    "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "2º"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-20T09:25:05.264Z",
+ "geradoEm": "2026-11-20T13:47:04.975Z",
  "idSapl": 31404,
  "rotulo": "Lei Complementar municipal nº 466, de 06 de setembro de 2001",
  "baseConferida": false,
@@ -9,16 +9,6 @@
    "id": "lc 466/2001@2001-09-06",
    "data": "2001-09-06",
    "fonte": null
-  },
-  {
-   "indice": 1,
-   "id": "lc 466/2001@2009-10-01",
-   "data": "2009-10-01",
-   "fonte": {
-    "idSapl": 36373,
-    "rotulo": "Lei Complementar municipal nº 631, de 01 de outubro de 2009"
-   },
-   "comandosAplicados": 20
   }
  ],
  "dispositivos": [
@@ -567,57 +557,6 @@
    ]
   },
   {
-   "id": "art-7/inc-I",
-   "pai": "art-7",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "10 (dez) membros representantes do Poder Público Municipal, sendo 1 (um) indicado pelo Poder Legislativo e 9 (nove) indicados por titulares de órgãos do Poder Executivo, todos designados pelo Prefeito Municipal;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-7/inc-II",
-   "pai": "art-7",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "9 (nove) membros representantes dos servidores municipais pertencentes ao Poder Executivo, integrantes de chapa eleita pelos servidores da Prefeitura e detentores de cargo de provimento efetivo ou nele aposentados; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-7/inc-III",
-   "pai": "art-7",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "1 (um) membro representante dos servidores municipais pertencen tes ao Poder Legislativo, integrante de chapa eleita pelos servidores da Câmara Municipal de Porto Alegre e detentor de cargo de provimento efetivo ou nele apo sentado.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
    "id": "art-8",
    "pai": null,
    "tipo": "artigo",
@@ -646,15 +585,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 1,
-     "texto": "O Conselho de Administração poderá sugerir a exoneração dos detentores dos cargos de Diretor Administrativo-Financeiro e de Diretor Previdenciário, desde que devidamente motivada e que a deliberação se dê por, no mínimo, 3/4 (três quartos) do total de membros desse Conselho.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 631/2009"
-     }
     }
    ]
   },
@@ -670,15 +600,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 1,
-     "texto": "Os ocupantes do Cargo de Diretor Administrativo-Financeiro e de Diretor Previdenciário poderão ser exonerados a qualquer tempo, a pedido do Prefeito Municipal, devendo ser enviadas ao Conselho de Administração as moti vações do Executivo Municipal.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 631/2009"
      }
     }
    ]
@@ -759,40 +680,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-9/inc-II",
-   "pai": "art-9",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "3 (três) membros, representantes dos servidores municipais pertencentes ao Poder Executivo, integrantes de chapa eleita pelos servidores da Prefeitura e detentores de cargo de provimento efetivo ou nele aposentados; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-9/inc-III",
-   "pai": "art-9",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "1 (um) membro representante dos servidores municipais pertencentes ao Poder Legislativo, integrante de chapa eleita pelos servidores da Câmara Municipal de Porto Alegre e detentor de cargo de provimento efetivo ou nele apo sentado.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
      }
     }
    ]
@@ -1438,57 +1325,6 @@
    ]
   },
   {
-   "id": "art-12/par-1",
-   "pai": "art-12",
-   "tipo": "paragrafo",
-   "rotulo": "§ 1º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Independentemente do prazo de duração fixado no “caput” deste artigo, o mandato dos membros representantes do Poder Público Municipal extinguir-se-á por ocasião da indicação de novos representantes, que poderá ocorrer no prazo de até 60 (sessenta) dias, contados do término do mandato, respectiva mente, do Chefe do Executivo Municipal ou da Mesa Diretora da Câmara Municipal de Porto Alegre.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-12/par-2",
-   "pai": "art-12",
-   "tipo": "paragrafo",
-   "rotulo": "§ 2º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Na hipótese de que trata o § 1º deste artigo, os novos indicados pelo Poder Público serão designados para mandato de 2 (dois) anos, observada a vedação contida no “caput” deste artigo.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-12/par-3",
-   "pai": "art-12",
-   "tipo": "paragrafo",
-   "rotulo": "§ 3º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Perderão o mandato os membros dos Conselhos de Administração e Fiscal que sofrerem condenação judicial transitada em julgado pela prática de crime arrolado no inc. II do art. 11 desta Lei Complementar, e, pelas mesmas razões, perderão os respectivos cargos o Diretor-Geral e os Diretores Administrativo-Financeiro e Previdenciário.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
    "id": "art-13",
    "pai": null,
    "tipo": "artigo",
@@ -1533,168 +1369,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 1,
-     "texto": "Compete ao PREVIMPA a organização das eleições dos membros dos Conselhos de Administração e Fiscal, devendo ser designada comissão eleitoral integrada por servidores efetivos estáveis do Município de Porto Alegre, sendo:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-15/inc-III",
-   "pai": "art-15",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "1 (um) representante da Secretaria Municipal de Administração SMA; ...................................................................................................",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-15/inc-V",
-   "pai": "art-15",
-   "tipo": "inciso",
-   "rotulo": "V –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "1 (um) representante do Departamento Municipal de Previdência dos Servidores Públicos do Município de Porto Alegre – PREVIMPA –;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-15/inc-VI",
-   "pai": "art-15",
-   "tipo": "inciso",
-   "rotulo": "VI –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "1 (um) representante da Câmara Municipal de Porto Alegre, indica do pelo Sindicâmara; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-15/inc-VII",
-   "pai": "art-15",
-   "tipo": "inciso",
-   "rotulo": "VII –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "1 (um) representante do SIMPA.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-15/par-unico",
-   "pai": "art-15",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "A posse dos conselheiros eleitos dar-se-á em até 15 (quinze) dias, a partir da publicação dos resultados do pleito, respeitando-se os prazos recursais, independentemente das indicações dos conselheiros por parte do Executivo e do Legislativo Municipal.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-15-A",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 15-A",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "As eleições de que trata o art. 15 desta Lei Complementar serão convocadas por edital, a ser publicado em, pelo menos, 2 (dois) jornais locais de grande circulação e no Diário Oficial de Porto Alegre, com antecedência mínima de 90 (noventa) dias da data fixada para o pleito.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-15-A/par-1",
-   "pai": "art-15-A",
-   "tipo": "paragrafo",
-   "rotulo": "§ 1º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "As eleições de que trata o “caput” deste artigo somente serão vali dadas com a participação de, no mínimo, 30% (trinta por cento) dos segurados.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-15-A/par-2",
-   "pai": "art-15-A",
-   "tipo": "paragrafo",
-   "rotulo": "§ 2º",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Em não sendo atingido o percentual de participação de que trata o",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-15-B",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 15-B",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "A eleição para os representantes dos servidores municipais pertencentes ao Poder Legislativo, de que tratam o inc. III do art. 7º e o inc. III do",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 631/2009"
-     }
     }
    ]
   },
@@ -1737,85 +1411,155 @@
     "idSapl": 36373,
     "rotulo": "Lei Complementar municipal nº 631, de 01 de outubro de 2009"
    },
-   "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | endereço \"§ 1º do art. 15-a\" já existe — insert_node não pode sobrescrever (use replace_text) | já existe artigo com o rótulo de \"art. 15-b\" — insert_node não pode criar um segundo; se a intenção era dar nova redação, o endereço na alteradora não foi reconhecido como o do artigo existente | endereço-pai \"art. 25\" não encontrado — não é possível inserir \"§ 9º do art. 25\" | artigo-base \"art. 25º\" não encontrado — não é possível posicionar \"art. 25-a\" | endereço-pai \"art. 25-a\" não encontrado — não é possível inserir \"parágrafo único do art. 25-a\" | artigo-base \"art. 33º\" não encontrado — não é possível posicionar \"art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"inc. i do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"inc. ii do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"inc. iii do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"inc. iv do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"inc. v do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"inc. vi do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"inc. vii do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"inc. viii do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"inc. ix do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"inc. x do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"inc. xi do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"inc. xii do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"inc. xiii do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"inc. xiv do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"§ 1º do art. 33\" | endereço-pai \"art. 33\" não encontrado — não é possível inserir \"§ 2º do art. 33\" | endereço-pai \"art. 34\" não encontrado — não é possível inserir \"§ 4º do art. 34\" | endereço-pai \"art. 34\" não encontrado — não é possível inserir \"§ 4º do art. 34\" | endereço-pai \"art. 36\" não encontrado — não é possível inserir \"§ 2º do art. 36\" | artigo-base \"art. 38º\" não encontrado — não é possível posicionar \"art. 38-a\" | artigo-base \"art. 38º\" não encontrado — não é possível posicionar \"art. 38-b\" | endereço-pai \"art. 40\" não encontrado — não é possível inserir \"inc. i do art. 40\" | endereço-pai \"art. 40\" não encontrado — não é possível inserir \"§ 6º do art. 40\" | endereço-pai \"§ 6º do art. 40\" não encontrado — não é possível inserir \"inc. i do § 6º do art. 40\" | endereço-pai \"§ 6º do art. 40\" não encontrado — não é possível inserir \"inc. ii do § 6º do art. 40\" | endereço-pai \"art. 40\" não encontrado — não é possível inserir \"§ 7º do art. 40\" | artigo-base \"art. 53º\" não encontrado — não é possível posicionar \"art. 53\" | artigo-base \"art. 63º\" não encontrado — não é possível posicionar \"art. 63\" | endereço-pai \"art. 63\" não encontrado — não é possível inserir \"inc. i do art. 63\" | endereço-pai \"art. 63\" não encontrado — não é possível inserir \"inc. ii do art. 63\" | endereço-pai \"art. 63\" não encontrado — não é possível inserir \"parágrafo único do art. 63\" | endereço-pai \"art. 65\" não encontrado — não é possível inserir \"parágrafo único do art. 65\" | endereço-pai \"art. 70\" não encontrado — não é possível inserir \"inc. iv do art. 70\" | endereço-pai \"art. 71\" não encontrado — não é possível inserir \"§ 1º do art. 71\" | endereço-pai \"art. 71\" não encontrado — não é possível inserir \"§ 2º do art. 71\" | endereço-pai \"art. 87\" não encontrado — não é possível inserir \"inc. v do art. 87\" | endereço-pai \"art. 87\" não encontrado — não é possível inserir \"§ 1º do art. 87\" | endereço-pai \"art. 87\" não encontrado — não é possível inserir \"§ 2º do art. 87\" | endereço-pai \"art. 87\" não encontrado — não é possível inserir \"§ 4º do art. 87\" | artigo-base \"art. 91º\" não encontrado — não é possível posicionar \"art. 91\" | endereço-pai \"art. 91\" não encontrado — não é possível inserir \"parágrafo único do art. 91\" | artigo-base \"art. 95º\" não encontrado — não é possível posicionar \"art. 95\" | artigo-base \"art. 96º\" não encontrado — não é possível posicionar \"art. 96\" | endereço-pai \"art. 96\" não encontrado — não é possível inserir \"inc. xi do art. 96\" | endereço-pai \"art. 96\" não encontrado — não é possível inserir \"inc. xii do art. 96\" | endereço-pai \"art. 96\" não encontrado — não é possível inserir \"inc. xiii do art. 96\" | endereço-pai \"art. 96\" não encontrado — não é possível inserir \"inc. xiv do art. 96\" | endereço-pai \"art. 96\" não encontrado — não é possível inserir \"inc. xv do art. 96\" | endereço-pai \"art. 96\" não encontrado — não é possível inserir \"inc. xvi do art. 96\" | endereço-pai \"art. 96\" não encontrado — não é possível inserir \"parágrafo único do art. 96\" | artigo-base \"art. 116º\" não encontrado — não é possível posicionar \"art. 116-a\" | artigo-base \"art. 127º\" não encontrado — não é possível posicionar \"art. 127-a\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 505, de 28 de maio de 2004\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"505\",\"ano\":\"2004\",\"chave\":\"lc 505/2004\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 505, de 28 de maio de 2004\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"505\",\"ano\":\"2004\",\"chave\":\"lc 505/2004\"}, versão: lc 466/2001)",
+   "motivo": "comando_recusado",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 505, de 28 de maio de 2004\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"505\",\"ano\":\"2004\",\"chave\":\"lc 505/2004\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 505, de 28 de maio de 2004\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"505\",\"ano\":\"2004\",\"chave\":\"lc 505/2004\"}, versão: lc 466/2001)",
    "enderecos": [
-    "art-5/par-3",
-    "art-5/par-6",
-    "art-5/par-7",
-    "art-15-A/par-1",
+    "art-5",
+    "art-7",
+    "art-8",
+    "art-9",
+    "art-12",
+    "art-15",
+    "art-15-A",
     "art-15-B",
     "art-25/par-9",
     "art-25-A",
-    "art-25-A/par-unico",
     "art-33",
-    "art-33/inc-I",
-    "art-33/inc-II",
-    "art-33/inc-III",
-    "art-33/inc-IV",
-    "art-33/inc-V",
-    "art-33/inc-VI",
-    "art-33/inc-VII",
-    "art-33/inc-VIII",
-    "art-33/inc-IX",
-    "art-33/inc-X",
-    "art-33/inc-XI",
-    "art-33/inc-XII",
-    "art-33/inc-XIII",
-    "art-33/inc-XIV",
-    "art-33/par-1",
-    "art-33/par-2",
     "art-34/par-4",
     "art-36/par-2",
     "art-38-A",
     "art-38-B",
-    "art-40/inc-I",
-    "art-40/par-6",
-    "art-40/par-6/inc-I",
-    "art-40/par-6/inc-II",
-    "art-40/par-7",
+    "art-40",
     "art-53",
     "art-63",
-    "art-63/inc-I",
-    "art-63/inc-II",
-    "art-63/par-unico",
     "art-65/par-unico",
-    "art-70/inc-IV",
-    "art-71/par-1",
-    "art-71/par-2",
-    "art-87/inc-V",
-    "art-87/par-1",
-    "art-87/par-2",
-    "art-87/par-4",
+    "art-70",
+    "art-71",
+    "art-87",
     "art-91",
-    "art-91/par-unico",
     "art-95",
     "art-96",
-    "art-96/inc-XI",
-    "art-96/inc-XII",
-    "art-96/inc-XIII",
-    "art-96/inc-XIV",
-    "art-96/inc-XV",
-    "art-96/inc-XVI",
-    "art-96/par-unico",
     "art-116-A",
     "art-127-A",
-    "art-3/par-3",
-    "art-3/par-4"
+    "art-3"
    ]
   }
  ],
  "aConferir": [
   {
+   "id": "art-3",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-3/par-1",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-3/par-2",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-5",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-5/inc-I",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-5/inc-II",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-5/inc-III",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-5/inc-IV",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-5/inc-V",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-5/inc-VI",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-5/par-1",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-5/par-2",
+   "desde": "2009-10-01"
+  },
+  {
    "id": "art-5/par-3",
    "desde": "2009-10-01"
   },
   {
-   "id": "art-15-A/par-1",
+   "id": "art-7",
    "desde": "2009-10-01"
   },
   {
-   "id": "art-15-B",
+   "id": "art-7/par-1",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-7/par-2",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-7/par-3",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-7/par-4",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-7/par-5",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-8",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-8/par-1",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-8/par-2",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-8/par-3",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-8/par-4",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-8/par-5",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-8/par-6",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-9",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-12",
+   "desde": "2009-10-01"
+  },
+  {
+   "id": "art-15",
    "desde": "2009-10-01"
   }
  ]

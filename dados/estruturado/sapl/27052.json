@@ -2,8 +2,8 @@
  "idSapl": 27052,
  "rotulo": "Lei Complementar municipal nº 296, de 24 de junho de 1993",
  "sha256Origem": "7e7ea64afbddaf7aa7b82652657a77ec193d5149d78ba240fcb279e913edfe8a",
- "estruturadoEm": "2026-11-20T11:52:24.820Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:55.425Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "296",
@@ -32,7 +32,7 @@
    "pai": "art-1",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
-   "texto": " O Fundo Municipal de Saúde será administrado pela SecretariaMunicipal de Saúde e Serviço Social  SMSSS, tendo o Secretário comoordenador dadespesa."
+   "texto": "O Fundo Municipal de Saúde será administrado pela SecretariaMunicipal de Saúde e Serviço Social – SMSSS, tendo o Secretário comoordenador dadespesa."
   },
   {
    "id": "art-2",
@@ -60,7 +60,28 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 3º",
-   "texto": "São atribuições da Junta de Administração: I  gerir os recursos do Fundo e fixar as suas diretrizes operacionais, de acordocom as políticas de aplicação estabelecidas pelo Conselho Municipal de Saúde; II  elaborar o Plano de Aplicação, a proposta orçamentária dos recursos doFundo e sua programação financeira, submetendo-as ao Conselho Municipal de III  elaborar a prestação de contas da aplicação dos recursos doFundo."
+   "texto": "São atribuições da Junta de Administração:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "gerir os recursos do Fundo e fixar as suas diretrizes operacionais, de acordocom as políticas de aplicação estabelecidas pelo Conselho Municipal de Saúde;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "elaborar o Plano de Aplicação, a proposta orçamentária dos recursos doFundo e sua programação financeira, submetendo-as ao Conselho Municipal de"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "elaborar a prestação de contas da aplicação dos recursos doFundo."
   },
   {
    "id": "art-4",
@@ -81,7 +102,7 @@
    "pai": "art-4",
    "tipo": "paragrafo",
    "rotulo": "§ 2º",
-   "texto": "As importâncias necessárias às aplicações de recursos do Fundo serãorepassadas, observada a programação financeira de desembolso da SecretariaFazenda  SMF, até 5 (cinco) dias após a solicitação do Secretário Municipal deSaúde e Serviço Social."
+   "texto": "As importâncias necessárias às aplicações de recursos do Fundo serãorepassadas, observada a programação financeira de desembolso da SecretariaFazenda – SMF, até 5 (cinco) dias após a solicitação do Secretário Municipal deSaúde e Serviço Social."
   },
   {
    "id": "art-5",
@@ -123,7 +144,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 10.",
-   "texto": " Revogam-se as disposições em contrário,especialmente a Lei nº 5557, de 09 de janeiro de 1985."
+   "texto": "Revogam-se as disposições em contrário,especialmente a Lei nº 5557, de 09 de janeiro de 1985."
   }
  ],
  "verificacao": {
@@ -134,8 +155,8 @@
   ],
   "metricas": {
    "artigos": 10,
-   "dispositivos": 15,
-   "cobertura": 0.963,
+   "dispositivos": 18,
+   "cobertura": 0.961,
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],

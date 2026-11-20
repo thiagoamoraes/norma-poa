@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-19T09:26:04.761Z",
+ "geradoEm": "2026-11-20T13:47:05.281Z",
  "idSapl": 36216,
  "rotulo": "Lei Complementar municipal nº 625, de 03 de julho de 2009",
  "baseConferida": true,
@@ -28,20 +28,10 @@
     "idSapl": 40111,
     "rotulo": "Lei Complementar municipal nº 765, de 08 de julho de 2015"
    },
-   "comandosAplicados": 30
+   "comandosAplicados": 17
   },
   {
    "indice": 3,
-   "id": "lc 625/2009@2017-08-30",
-   "data": "2017-08-30",
-   "fonte": {
-    "idSapl": 41342,
-    "rotulo": "Lei Complementar municipal nº 817, de 30 de agosto de 2017"
-   },
-   "comandosAplicados": 14
-  },
-  {
-   "indice": 4,
    "id": "lc 625/2009@2022-07-21",
    "data": "2022-07-21",
    "fonte": {
@@ -76,7 +66,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "Fica instituído, no Município de Porto Alegre, o Sistema de Controle Interno do Executivo e do Legislativo Municipal, com atuação prévia, concomitante e posterior aos atos da Administração, nos termos do art. 31 da Constituição Federal e dos arts. 61 e 64 da Lei Orgânica do Município de Porto Alegre (LOMPA).",
      "situacao": "vigente",
      "origem": {
@@ -149,7 +139,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "Controle Interno (CI) o conjunto de recursos, métodos e processos adotados pelas próprias gerências do setor público, com vistas a impedir o erro, a fraude e a ineficiência, visando a dar atendimento aos princípios constitucionais, em especial os da legalidade, impessoalidade, moralidade, publicidade e eficiência;",
      "situacao": "vigente",
      "origem": {
@@ -174,7 +164,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "Sistema de Controle Interno (SCI) o conjunto de unidades técnicas, articuladas a partir de um órgão central de coordenação, orientadas para o desempenho das atribuições de controle interno previstas na Constituição e normatizadas em cada nível de governo;",
      "situacao": "vigente",
      "origem": {
@@ -199,7 +189,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "Unidade Central de Controle Interno (UCCI) o órgão central responsável pela coordenação das atividades do SCI; e",
      "situacao": "vigente",
      "origem": {
@@ -224,7 +214,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "Auditoria Interna (AI) a técnica de controle interno, a ser utilizada pela UCCI para verificar a ocorrência de erros, fraudes e desperdícios, abarcando o exame detalhado, total ou parcial, dos atos administrativos.",
      "situacao": "vigente",
      "origem": {
@@ -258,16 +248,7 @@
      }
     },
     {
-     "desde": 2,
-     "texto": "O Quadro dos Cargos de Provimento Efetivo é estruturado nos grupos a seguir, conforme a natureza das respectivas atribuições, destinadas a atender às atividades essenciais e gerais necessárias à consecução dos fins da Administração Centralizada:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    },
-    {
-     "desde": 4,
+     "desde": 3,
      "texto": "Fica criada, como Órgão Central do SCI do Executivo e do Legislativo Municipal, a Controladoria-Geral do Município de Porto Alegre (CGM), órgão vinculado à Secretaria Municipal da Transparência e Controladoria (SMTC), com atribuições de coordenar, fiscalizar e avaliar as atividades de controle interno da Administração Municipal.",
      "situacao": "vigente",
      "origem": {
@@ -358,7 +339,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "Os relatórios emitidos pela Divisão de Auditoria-Geral ficarão armazenados eletronicamente e serão obrigatoriamente destinados:",
      "situacao": "vigente",
      "origem": {
@@ -456,438 +437,12 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "Fica autorizada a organização, por meio de decreto, de unidades seccionais ou especializadas da CGM, estruturas responsáveis pela execução de ações setoriais ou especializadas do SCI, integradas por servidores da CGM, subordinados técnica e administrativamente ao Gabinete do Controlador-Geral.",
      "situacao": "vigente",
      "origem": {
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 947/2022"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-I",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "estados": [
-    {
-     "desde": 2,
-     "texto": "AA – Grupo Apoio à Administração;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    },
-    {
-     "desde": 3,
-     "texto": "da SMDSE:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 817/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-II",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "estados": [
-    {
-     "desde": 2,
-     "texto": "OP – Grupo Operacional;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-II/ali-e",
-   "pai": "art-4/inc-II",
-   "tipo": "alinea",
-   "rotulo": "e)",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "promover o desenvolvimento urbano envolvendo o controle e o uso do solo, a viabilidade e o impacto de obras e empreendimentos, a aplicação dos instrumentos de regulação do uso do solo e o licenciamento, a manutenção e a vistoria dos projetos de edificação;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 817/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-III",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "estados": [
-    {
-     "desde": 2,
-     "texto": "AC – Grupo Atividades Complementares;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-III/ali-f",
-   "pai": "art-4/inc-III",
-   "tipo": "alinea",
-   "rotulo": "f)",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "promover o planejamento urbano, a elaboração e a atualização do Plano Diretor de Desenvolvimento Urbano Ambiental, bem como a fiscalização da correta aplicação da legislação urbano-ambiental; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 817/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-III/ali-g",
-   "pai": "art-4/inc-III",
-   "tipo": "alinea",
-   "rotulo": "g)",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "promover o planejamento da política de resíduos sólidos;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 817/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-IV",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "IV –",
-   "estados": [
-    {
-     "desde": 2,
-     "texto": "CO – Grupo Comunicação;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    },
-    {
-     "desde": 3,
-     "texto": "da SMSUrb:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 817/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-IV/ali-a",
-   "pai": "art-4/inc-IV",
-   "tipo": "alinea",
-   "rotulo": "a)",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "formular, planejar, coordenar, articular e controlar a política de prestação de serviços urbanos, limpeza urbana e coleta de resíduos;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 817/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-IV/ali-b",
-   "pai": "art-4/inc-IV",
-   "tipo": "alinea",
-   "rotulo": "b)",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "manter a coleta e o tratamento de esgoto; 2",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 817/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-IV/ali-c",
-   "pai": "art-4/inc-IV",
-   "tipo": "alinea",
-   "rotulo": "c)",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "prover a iluminação pública e manter e conservar as redes de águas pluviais; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 817/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-IV/ali-d",
-   "pai": "art-4/inc-IV",
-   "tipo": "alinea",
-   "rotulo": "d)",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "conservar e manter praças, jardins e balneários e promover o manejo, a poda e a supressão de arbóreos em vias urbanas, em coordenação com a Smams, obedecida a legislação ambiental;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 817/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-V",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "V –",
-   "estados": [
-    {
-     "desde": 2,
-     "texto": "LC – Grupo Lazer e Cultura;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-V/ali-a",
-   "pai": "art-4/inc-V",
-   "tipo": "alinea",
-   "rotulo": "a)",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "formular, planejar, coordenar, articular e controlar as políticas voltadas para as atividades relativas ao projeto e à execução de obras públicas municipais, incluindo sistema viário, edificações e obras relacionadas ao abastecimento de água, esgotamento sanitário e manejo de águas pluviais urbanas;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 817/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-V/ali-c",
-   "pai": "art-4/inc-V",
-   "tipo": "alinea",
-   "rotulo": "c)",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "formular, planejar, coordenar, articular e prover a conservação de vias urbanas;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 817/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-VI",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "VI –",
-   "estados": [
-    {
-     "desde": 2,
-     "texto": "FV – Grupo Fiscalização e Vigilância;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-VI/ali-e",
-   "pai": "art-4/inc-VI",
-   "tipo": "alinea",
-   "rotulo": "e)",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "gerir o patrimônio imobiliário e mobiliário do Município de Porto Alegre;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 817/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-VII",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "VII –",
-   "estados": [
-    {
-     "desde": 2,
-     "texto": "OB – Grupo Obras;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-VIII",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "VIII –",
-   "estados": [
-    {
-     "desde": 2,
-     "texto": "SA – Grupo Saúde e Assistência;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-VIII/ali-e",
-   "pai": "art-4/inc-VIII",
-   "tipo": "alinea",
-   "rotulo": "e)",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "incrementar o Sistema de Controle Interno dos Poderes Executivo e Legislativo Municipais e implementá-lo por meio do órgão próprio de controladoria-geral;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 817/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-IX",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "IX –",
-   "estados": [
-    {
-     "desde": 2,
-     "texto": "TP – Grupo Técnico-Profissional;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-IX/ali-d",
-   "pai": "art-4/inc-IX",
-   "tipo": "alinea",
-   "rotulo": "d)",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "gerir os processos vinculados ao ciclo anual de operação do Orçamento Participativo e a outras formas de democracia participativa local e a relação com os Conselhos Municipais e de governança local, por meio da identificação de demandas da sociedade, e desenvolver, implementar e supervisionar projetos locais e territoriais, por meio dos canais de atendimento e dos Centros de Relações Institucionais Participativos (CRIPs) do Município de Porto Alegre.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 817/2017"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-X",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "X –",
-   "estados": [
-    {
-     "desde": 2,
-     "texto": "ES – Grupo Executivo e Assessoramento Superior;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-XI",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "XI –",
-   "estados": [
-    {
-     "desde": 2,
-     "texto": "ESM – Grupo Especialidade Médica; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-XII",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "XII –",
-   "estados": [
-    {
-     "desde": 2,
-     "texto": "AT – Grupo Administração Tributária.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
      }
     }
    ]
@@ -899,7 +454,7 @@
    "rotulo": "§ 6º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "A autoridade responsável pelo órgão auditado deverá informar as providências adotadas ou a serem adotadas para atender às recomendações dos relatórios de auditoria, no prazo de 30 (trinta) dias, contados da data do recebimento, prorrogável por, no máximo, igual período, mediante solicitação prévia fundamentada pela autoridade responsável.",
      "situacao": "vigente",
      "origem": {
@@ -916,7 +471,7 @@
    "rotulo": "§ 7º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "A CGM poderá estabelecer prazos entre 10 (dez) e 180 (cento e oitenta) dias, prorrogáveis por, no máximo, igual período, mediante solicitação prévia fundamentada pela autoridade responsável, para o cumprimento de suas recomendações, decididos conforme a extensão das ações necessárias à resolução das inconformidades identificadas.",
      "situacao": "vigente",
      "origem": {
@@ -941,7 +496,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "Compete à CGM:",
      "situacao": "vigente",
      "origem": {
@@ -998,7 +553,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "avaliar o cumprimento das metas previstas no plano plurianual dos programas de governo e dos orçamentos do Município;",
      "situacao": "vigente",
      "origem": {
@@ -1055,7 +610,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "coordenar e executar a comprovação da legalidade e a avaliação dos resultados quanto à eficácia e eficiência da gestão contábil, orçamentária, financeira e patrimonial nos órgãos e nas entidades da Administração Municipal, bem como da aplicação de recursos públicos por entidades de direito privado;",
      "situacao": "vigente",
      "origem": {
@@ -1080,7 +635,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "monitorar a execução extraorçamentária no âmbito da Administração Municipal;",
      "situacao": "vigente",
      "origem": {
@@ -1105,7 +660,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "verificar atos da gestão administrativa e de pessoal, incluídos os de admissão;",
      "situacao": "vigente",
      "origem": {
@@ -1130,7 +685,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "desenvolver ações de gerenciamento, de forma a propor ações e projetos para a formação dos servidores e a melhoria dos processos organizacionais, na perspectiva de seu melhor desempenho e qualidade;",
      "situacao": "vigente",
      "origem": {
@@ -1155,7 +710,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "instaurar e acompanhar as tomadas de contas especiais, quando o dano for ocasionado por omissão ou ato praticado pelo administrador, na forma da legislação em vigor, elaborando, nessa hipótese, o parecer conclusivo;",
      "situacao": "vigente",
      "origem": {
@@ -1189,7 +744,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "coordenar e executar as atividades administrativas relacionadas às suas unidades vinculadas;",
      "situacao": "vigente",
      "origem": {
@@ -1214,7 +769,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "coordenar e executar a auditoria interna preventiva e de controle dos órgãos e das entidades da Administração Direta e Indireta do Município e do Legislativo Municipal;",
      "situacao": "vigente",
      "origem": {
@@ -1231,7 +786,7 @@
    "rotulo": "XIII –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "coordenar as atividades de atendimento, recepção, encaminhamento de resposta às demandas do Tribunal de Contas do Estado do Rio Grande do Sul (TCE/RS) relativas a questionários, solicitações de informações, comunicados de auditoria, requisições de documentos e informações, bem como outras demandas não relacionadas a processos instaurados pelo órgão de controle externo;",
      "situacao": "vigente",
      "origem": {
@@ -1248,7 +803,7 @@
    "rotulo": "XIV –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "prestar assessoramento para o desenvolvimento de mecanismos de prevenção à corrupção;",
      "situacao": "vigente",
      "origem": {
@@ -1265,7 +820,7 @@
    "rotulo": "XV –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "realizar ou apoiar estudos e trabalhos técnicos que contribuam para a promoção da ética e para o fortalecimento da integridade, da transparência e do controle social na Administração Municipal;",
      "situacao": "vigente",
      "origem": {
@@ -1282,7 +837,7 @@
    "rotulo": "XVI –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "prestar assessoramento ao Prefeito nas matérias de sua competência;",
      "situacao": "vigente",
      "origem": {
@@ -1299,7 +854,7 @@
    "rotulo": "XVII –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "apoiar o controle externo no exercício de sua missão constitucional; e",
      "situacao": "vigente",
      "origem": {
@@ -1316,7 +871,7 @@
    "rotulo": "XVIII –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "exercer outras competências inerentes à sua área de atuação.",
      "situacao": "vigente",
      "origem": {
@@ -1333,7 +888,7 @@
    "rotulo": "Parágrafo único.",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "O responsável pela CGM dará ciência aos respectivos administradores e ao TCE/RS das irregularidades ou ilegalidades constatadas no curso da fiscalização interna, nos termos do disposto no § 1º do art. 74 da Constituição Federal.",
      "situacao": "vigente",
      "origem": {
@@ -1600,7 +1155,7 @@
    "rotulo": "Art. 6º-A",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "Compõem a estrutura básica da CGM:",
      "situacao": "vigente",
      "origem": {
@@ -1617,7 +1172,7 @@
    "rotulo": "I –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "o Gabinete do Controlador-Geral;",
      "situacao": "vigente",
      "origem": {
@@ -1634,7 +1189,7 @@
    "rotulo": "II –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "o Conselho Superior;",
      "situacao": "vigente",
      "origem": {
@@ -1651,7 +1206,7 @@
    "rotulo": "III –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "a Divisão de Controle e Monitoramento;",
      "situacao": "vigente",
      "origem": {
@@ -1668,7 +1223,7 @@
    "rotulo": "IV –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "a Divisão de Auditoria-Geral; e",
      "situacao": "vigente",
      "origem": {
@@ -1685,7 +1240,7 @@
    "rotulo": "V –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "a Divisão de Despesa Pública.",
      "situacao": "vigente",
      "origem": {
@@ -1728,7 +1283,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "Ao Gabinete do Controlador-Geral compete a coordenação geral das atividades exercidas pelas divisões referidas nos incs. III a V do caput do art. 6º-A desta Lei Complementar.",
      "situacao": "vigente",
      "origem": {
@@ -1867,7 +1422,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "À Divisão de Controle e Monitoramento compete:",
      "situacao": "vigente",
      "origem": {
@@ -1893,7 +1448,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "monitorar os atos de gestão e de despesa pública das sociedades de economia mista e de empresa pública do Executivo Municipal, bem como do Legislativo Municipal;",
      "situacao": "vigente",
      "origem": {
@@ -1919,7 +1474,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "monitorar os atos de gestão das autarquias e da fundação de direito público do Executivo Municipal;",
      "situacao": "vigente",
      "origem": {
@@ -1936,7 +1491,7 @@
    "rotulo": "III –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "emitir orientações e recomendações de natureza técnica acerca dos atos de gestão, visando à efetividade, à eficácia, à eficiência e à economicidade desses atos, das autarquias, da fundação de direito público, das sociedades de economia mista e de empresa pública do Executivo Municipal, bem como do Legislativo Municipal;",
      "situacao": "vigente",
      "origem": {
@@ -1953,7 +1508,7 @@
    "rotulo": "IV –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "executar o monitoramento das recomendações emitidas aos gestores das autarquias, da fundação de direito público, das sociedades de economia mista e de empresa pública do Executivo Municipal, bem como do Legislativo Municipal; e",
      "situacao": "vigente",
      "origem": {
@@ -1970,7 +1525,7 @@
    "rotulo": "V –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "coordenar as Seccionais de Controle e Monitoramento.",
      "situacao": "vigente",
      "origem": {
@@ -2283,7 +1838,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "controlar e orientar as atividades de execução da despesa orçamentária e extraorçamentária da Administração Direta, das autarquias e da fundação de direito público do Executivo Municipal, e do Legislativo Municipal; e",
      "situacao": "vigente",
      "origem": {
@@ -2309,7 +1864,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "coordenar as Equipes de Análise da Despesa Pública.",
      "situacao": "vigente",
      "origem": {
@@ -2334,7 +1889,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "O detalhamento e a definição das atribuições relativas à estrutura prevista no art. 6º-A desta Lei Complementar, bem como a lotação das funções gratificadas vinculadas à CGM, serão objeto de regulamentação por decreto.",
      "situacao": "vigente",
      "origem": {
@@ -2407,7 +1962,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "O mandato do Controlador-Geral será de até 3 (três) anos, permitida uma recondução por igual período.",
      "situacao": "vigente",
      "origem": {
@@ -2432,7 +1987,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "ser servidor municipal ocupante de cargo efetivo com, no mínimo, 3 (três) anos no cargo de auditor de controle interno e ter concluído o estágio probatório;",
      "situacao": "vigente",
      "origem": {
@@ -2457,7 +2012,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "apresentar, na designação e anualmente, declaração de bens e rendas;",
      "situacao": "vigente",
      "origem": {
@@ -2482,7 +2037,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "não ter sofrido penalização administrativa, civil ou penal transitada em julgado nos 5 (cinco) anos anteriores; e",
      "situacao": "vigente",
      "origem": {
@@ -2507,7 +2062,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "possuir formação, em nível de pós-graduação, em matéria pertinente a contabilidade pública, controladoria ou administração pública.",
      "situacao": "vigente",
      "origem": {
@@ -2682,7 +2237,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "no desempenho de suas atividades, o acesso a quaisquer documentos, processos, livros, registros, informações ou bancos de dados e sistemas informatizados necessários ao exercício das funções.",
      "situacao": "vigente",
      "origem": {
@@ -2699,7 +2254,7 @@
    "rotulo": "Parágrafo único.",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "Sem prejuízo de outros impedimentos previstos na legislação, é vedado ao servidor lotado na CGM violar o sigilo sobre dados e informações obtidas em função do desempenho de suas atividades.",
      "situacao": "vigente",
      "origem": {
@@ -2732,7 +2287,7 @@
    "rotulo": "§ 1º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "Serão configuradas como situações que geram obstáculo à atuação a sonegação de documentos, de processos, de livros, de registros e de informações e a negação de acesso aos bancos de dados e aos sistemas informatizados municipais, bem como qualquer ocorrência de ameaça, velada ou explícita, de intimidação ou indisposição aos servidores da CGM no exercício de suas funções institucionais.",
      "situacao": "vigente",
      "origem": {
@@ -2749,7 +2304,7 @@
    "rotulo": "§ 2º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "Eventuais limitações de acesso e ocorrências listadas no § 1º deste artigo deverão ser comunicadas, de imediato e por escrito, ao Controlador-Geral do Município, para promover as providências cabíveis e, nos casos graves, para encaminhar o registro dos fatos à autoridade máxima municipal e aos órgãos públicos internos e externos competentes.",
      "situacao": "vigente",
      "origem": {
@@ -2790,7 +2345,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "O Executivo Municipal regulamentará, por meio de Regimento Interno, o detalhamento das atividades a serem desempenhadas pelas unidades da CGM.",
      "situacao": "vigente",
      "origem": {
@@ -2807,7 +2362,7 @@
    "rotulo": "Art. 23-A",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "A CGM fica autorizada a estabelecer, por meio de instrução normativa:",
      "situacao": "vigente",
      "origem": {
@@ -2824,7 +2379,7 @@
    "rotulo": "I –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "os prazos a serem cumpridos pelos órgãos e pelas entidades auditados internamente para resposta aos esclarecimentos solicitados, aos relatórios por ela elaborados e a outros meios de documentos expedidos, assim como para a adoção das medidas corretivas demandadas, desde que não contrariem o disposto nos §§ 6º e 7º do art. 4º desta Lei Complementar;",
      "situacao": "vigente",
      "origem": {
@@ -2841,7 +2396,7 @@
    "rotulo": "II –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "os procedimentos para instauração de tomadas de contas especiais;",
      "situacao": "vigente",
      "origem": {
@@ -2858,7 +2413,7 @@
    "rotulo": "III –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "as normas e os procedimentos para empenho e liquidação da despesa orçamentária;",
      "situacao": "vigente",
      "origem": {
@@ -2875,7 +2430,7 @@
    "rotulo": "IV –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "as normas e os procedimentos para a aprovação de despesas extraorçamentárias;",
      "situacao": "vigente",
      "origem": {
@@ -2892,7 +2447,7 @@
    "rotulo": "V –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "as normas e os procedimentos de concessão, aplicação e prestação de contas de adiantamento;",
      "situacao": "vigente",
      "origem": {
@@ -2909,7 +2464,7 @@
    "rotulo": "VI –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "as normas e os procedimentos para a prestação de contas anuais do Prefeito, dos gestores da Administração Indireta e do Presidente da Câmara Municipal; e",
      "situacao": "vigente",
      "origem": {
@@ -2926,7 +2481,7 @@
    "rotulo": "VII –",
    "estados": [
     {
-     "desde": 4,
+     "desde": 3,
      "texto": "outros procedimentos que visem a padronizar ou a aperfeiçoar fluxos e controles internos do Município.",
      "situacao": "vigente",
      "origem": {
@@ -2969,8 +2524,21 @@
     "rotulo": "Lei Complementar municipal nº 765, de 08 de julho de 2015"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "endereço-pai \"parágrafo único do art. 4º\" não encontrado — não é possível inserir \"inc. xii do parágrafo único do art. 4º\" | artigo-base \"art. 39º\" não encontrado — não é possível posicionar \"art. 39\" | endereço-pai \"parágrafo único do inc. i do parágrafo único do art. 17\" não encontrado — não é possível inserir \"inc. i do parágrafo único do inc. i do parágrafo único do art. 17\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 534, de 28 de dezembro de 2005\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"534\",\"ano\":\"2005\",\"chave\":\"lc 534/2005\"}, versão: lc 625/2009)",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 625/2009) | endereço-pai \"parágrafo único do inc. i do parágrafo único do art. 17\" não encontrado — não é possível inserir \"inc. i do parágrafo único do inc. i do parágrafo único do art. 17\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 534, de 28 de dezembro de 2005\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"534\",\"ano\":\"2005\",\"chave\":\"lc 534/2005\"}, versão: lc 625/2009)",
    "enderecos": [
+    "art-4",
+    "art-4/inc-I",
+    "art-4/inc-II",
+    "art-4/inc-III",
+    "art-4/inc-IV",
+    "art-4/inc-V",
+    "art-4/inc-VI",
+    "art-4/inc-VII",
+    "art-4/inc-VIII",
+    "art-4/inc-IX",
+    "art-4/inc-X",
+    "art-4/inc-XI",
+    "art-4/inc-XII",
     "art-4/par-unico/inc-XII",
     "art-39",
     "art-17/par-unico/inc-I/par-unico/inc-I",
@@ -2982,18 +2550,204 @@
     "idSapl": 41342,
     "rotulo": "Lei Complementar municipal nº 817, de 30 de agosto de 2017"
    },
-   "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 4 de janeiro de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 4 de janeiro de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | endereço-pai \"§ 4º do inc. iii do § 4º do art. 4º\" não encontrado — não é possível inserir \"inc. iii do § 4º do inc. iii do § 4º do art. 4º\"",
+   "motivo": "comando_recusado",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 4 de janeiro de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 4 de janeiro de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 625/2009) | endereço-pai \"§ 4º do inc. iii do § 4º do art. 4º\" não encontrado — não é possível inserir \"inc. iii do § 4º do inc. iii do § 4º do art. 4º\"",
    "enderecos": [
-    "art-3/inc-I",
-    "art-3/inc-VIII",
-    "art-4/par-4/inc-III/par-4/inc-III"
+    "art-3",
+    "art-4",
+    "art-4/par-4/inc-III",
+    "art-7/par-2",
+    "art-20",
+    "art-5",
+    "art-1/par-1",
+    "art-7",
+    "art-13"
    ]
   }
  ],
  "aConferir": [
   {
+   "id": "art-3",
+   "desde": "2017-08-30"
+  },
+  {
    "id": "art-3/inc-I",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-3/inc-II",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-3/inc-III",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-4",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/par-1",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/par-2",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/par-3",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/par-4",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/par-4/inc-I",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/par-4/inc-II",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/par-4/inc-III",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/par-4/inc-IV",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/par-5",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-5",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-I",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-II",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-III",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-IV",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-V",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-VI",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-VII",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-VIII",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-IX",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-X",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-XI",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-XII",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-7",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-13",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-13/inc-I",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-13/inc-II",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-13/inc-III",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-20",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-20/inc-I",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-20/inc-II",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-4/par-6",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/par-7",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-5/inc-XIII",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-XIV",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-XV",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-XVI",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-XVII",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/inc-XVIII",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-5/par-unico",
+   "desde": "2017-08-30"
+  },
+  {
+   "id": "art-20/par-unico",
    "desde": "2017-08-30"
   }
  ]

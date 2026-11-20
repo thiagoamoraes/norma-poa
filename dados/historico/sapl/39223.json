@@ -1,8 +1,8 @@
 {
- "geradoEm": "2026-11-19T09:26:05.057Z",
+ "geradoEm": "2026-11-20T13:47:05.716Z",
  "idSapl": 39223,
  "rotulo": "Lei Complementar municipal nº 728, de 08 de janeiro de 2014",
- "baseConferida": false,
+ "baseConferida": true,
  "versoes": [
   {
    "indice": 0,
@@ -29,16 +29,6 @@
     "rotulo": "Lei Complementar municipal nº 769, de 14 de setembro de 2015"
    },
    "comandosAplicados": 2
-  },
-  {
-   "indice": 3,
-   "id": "lc 728/2014@2026-04-14",
-   "data": "2026-04-14",
-   "fonte": {
-    "idSapl": 51213,
-    "rotulo": "Lei Complementar municipal nº 1.070, de 14 de abril de 2026"
-   },
-   "comandosAplicados": 3
   }
  ],
  "dispositivos": [
@@ -3181,57 +3171,6 @@
    ]
   },
   {
-   "id": "art-55-B",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 55-B",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "A denúncia que fornecer informações e imagens que permitam a autuação do infrator e a aplicação da respectiva multa habilitará o denunciante a receber uma premiação correspondente a 20% (vinte por cento) do valor líquido da multa efetivamente arrecadada.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 1.070/2026"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-55-B/par-1",
-   "pai": "art-55-B",
-   "tipo": "paragrafo",
-   "rotulo": "§ 1º",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "O pagamento da premiação ocorrerá no prazo de 60 (sessenta) dias após o recolhimento do valor da multa paga pelo infrator.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 1.070/2026"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-55-B/par-2",
-   "pai": "art-55-B",
-   "tipo": "paragrafo",
-   "rotulo": "§ 2º",
-   "estados": [
-    {
-     "desde": 3,
-     "texto": "As denúncias poderão ser realizadas por meio de aplicativo oficial da Prefeitura, plataforma eletrônica ou outros meios a serem regulamentados pelo Executivo Municipal, devendo ser garantido, caso solicitado, o sigilo da identidade do denunciante.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 1.070/2026"
-     }
-    }
-   ]
-  },
-  {
    "id": "art-56",
    "pai": null,
    "tipo": "artigo",
@@ -3861,23 +3800,16 @@
    "motivo": "comando_nao_reconhecido",
    "detalhe": "nenhum comando de alteração foi extraído do texto desta norma",
    "enderecos": []
-  },
+  }
+ ],
+ "aConferir": [],
+ "descartadas": [
   {
    "alteradora": {
     "idSapl": 51213,
     "rotulo": "Lei Complementar municipal nº 1.070, de 14 de abril de 2026"
    },
-   "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.060, de 22 de dezembro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1060\",\"ano\":\"2025\",\"chave\":\"lc 1060/2025\"}, versão: lc 728/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.060, de 22 de dezembro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1060\",\"ano\":\"2025\",\"chave\":\"lc 1060/2025\"}, versão: lc 728/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.060, de 22 de dezembro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1060\",\"ano\":\"2025\",\"chave\":\"lc 1060/2025\"}, versão: lc 728/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.060, de 22 de dezembro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1060\",\"ano\":\"2025\",\"chave\":\"lc 1060/2025\"}, versão: lc 728/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.060, de 22 de dezembro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1060\",\"ano\":\"2025\",\"chave\":\"lc 1060/2025\"}, versão: lc 728/2014) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.060, de 22 de dezembro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1060\",\"ano\":\"2025\",\"chave\":\"lc 1060/2025\"}, versão: lc 728/2014)",
-   "enderecos": [
-    "art-55-A",
-    "art-55-A/par-1",
-    "art-55-A/par-1/inc-I",
-    "art-55-A/par-1/inc-II",
-    "art-55-A/par-1/inc-III",
-    "art-55-A/par-2"
-   ]
+   "motivo": "a ementa cita esta lei, mas os comandos de alteração são de outra"
   }
- ],
- "aConferir": []
+ ]
 }

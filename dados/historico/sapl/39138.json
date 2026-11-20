@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-19T09:26:05.047Z",
+ "geradoEm": "2026-11-20T13:47:05.701Z",
  "idSapl": 39138,
  "rotulo": "Lei Complementar municipal nº 721, de 29 de novembro de 2013",
  "baseConferida": false,
@@ -18,7 +18,7 @@
     "idSapl": 42631,
     "rotulo": "Lei Complementar municipal nº 883, de 24 de junho de 2020"
    },
-   "comandosAplicados": 3
+   "comandosAplicados": 2
   }
  ],
  "dispositivos": [
@@ -591,23 +591,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "replace_text",
-      "lei": "Lei Complementar nº 883/2020"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-IX",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "IX –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "indicar 1 (um) representante para compor o Comitê Gestor do Fundo Municipal de Inovação e Tecnologia de Porto Alegre (FIT/POA).",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
       "lei": "Lei Complementar nº 883/2020"
      }
     }
@@ -1450,6 +1433,17 @@
   }
  ],
  "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 42631,
+    "rotulo": "Lei Complementar municipal nº 883, de 24 de junho de 2020"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 367, de 1996\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"367\",\"ano\":\"1996\",\"chave\":\"lc 367/1996\"}, versão: lc 721/2013)",
+   "enderecos": [
+    "art-4/inc-IX"
+   ]
+  },
   {
    "alteradora": {
     "idSapl": 40363,

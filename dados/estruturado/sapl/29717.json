@@ -2,8 +2,8 @@
  "idSapl": 29717,
  "rotulo": "Lei Complementar municipal nº 427, de 30 de dezembro de 1998",
  "sha256Origem": "d5d5865d448a7738fb6e576875d9357c80d8008d2a5611c6eb9e73301260f054",
- "estruturadoEm": "2026-11-20T11:52:24.343Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:55.032Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "427",
@@ -123,10 +123,10 @@
    "texto": "Dá nova redação ao § 4® do art. 1® da Lei Complementar n® 306/93, com a redação dada pela Lei Complementar n° 410, de 20 de janeiro de 1998, que passa a ser a seguinte: “Art. r ..."
   },
   {
-   "id": "art-13/par-unico",
+   "id": "art-13/par-4",
    "pai": "art-13",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 4º",
    "texto": "Esta Lei Complementar será regulamentada por Decreto do Executivo que estabelecerá os casos e limites de valor dos serviços em que não ocorrerá retenção do imposto.\""
   },
   {
@@ -145,12 +145,11 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "cabecalho_fora_do_padrao"
+   "cabecalho_fora_do_padrao",
+   "paragrafo_numerado_sem_irmao"
   ],
   "metricas": {
    "artigos": 15,
@@ -159,12 +158,7 @@
    "blocosDeAlteracao": 11,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "4"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

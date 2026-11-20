@@ -13,7 +13,9 @@
 
 import * as c from '../norma-core.js';
 
-export const TIPO_ATO_DO_CATALOGO = { 2: 'EMENDA À LEI ORGÂNICA', 5: 'LEI', 6: 'LEI COMPLEMENTAR' };
+export const TIPO_ATO_DO_CATALOGO = { 1: 'LEI ORGÂNICA', 2: 'EMENDA À LEI ORGÂNICA', 5: 'LEI', 6: 'LEI COMPLEMENTAR' };
+/** Data da Lei Orgânica nº 1/1990, a única vigente: o alvo presumido "Lei Orgânica do Município" não vale antes dela. */
+export const DATA_LEI_ORGANICA_VIGENTE = '1990-04-03';
 const OPERACOES_COM_EFEITO = ['replace_text', 'insert_node', 'revoke_node', 'renumber_node'];
 const SEM_EFEITO = ['nao_classificado', 'clausula_generica_sem_efeito'];
 const CORTE = 500;
@@ -69,6 +71,10 @@ export function descreverComandos(textoAlteradora, fonteAlteradora, resolverBase
     if (k.novoTexto != null) Object.assign(item, { novo: corta(k.novoTexto).texto, novoTruncado: corta(k.novoTexto).truncado });
     if (!OPERACOES_COM_EFEITO.includes(k.operacao)) { item.situacao = k.leiAlvo ? 'sem_aplicacao' : 'alvo_nao_identificado'; saida.push(item); continue; }
     if (!k.leiAlvo?.chave) { item.situacao = 'alvo_nao_identificado'; saida.push(item); continue; }
+    if (k.leiAlvo.presumida) {
+      item.presumido = true; // "Lei Orgânica do Município", sem número na frase: resolvida PARA a LO de 1990 (decisão de 20/11/2026)
+      if (String(fonteAlteradora.dataPublicacao || '') < DATA_LEI_ORGANICA_VIGENTE) { item.situacao = 'alvo_nao_identificado'; item.erro = 'Lei Orgânica anterior a 1990: a presunção (LO nº 1/1990) não vale para ato desta data'; saida.push(item); continue; }
+    }
     const b = base(k.leiAlvo.chave);
     if (!b) { item.situacao = 'alvo_fora_da_base'; saida.push(item); continue; }
     item.alvoNaBase = { idSapl: b.registro.idSapl, rotulo: b.registro.rotulo };

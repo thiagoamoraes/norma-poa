@@ -2,8 +2,8 @@
  "idSapl": 33385,
  "rotulo": "Lei Complementar municipal nº 508, de 08 de setembro de 2004",
  "sha256Origem": "f896d53153db48467bec437a3db130ed92df90ef98cce8c02a0f486aaa76a3cb",
- "estruturadoEm": "2026-11-20T11:52:22.291Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:53.015Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "508",
@@ -241,7 +241,35 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 10.",
-   "texto": "Também são membros, com assento no Conselho deRepresentantes, mediante indicação de suas entidades: I  10 (dez) representantes de classes empreendedoras, por suasassociações ou sindicatos, urbanos ou rurais; II  10 (dez) representantes de classes trabalhadoras, por suasassociações ou sindicatos, urbanos ou rurais; III  10 (dez) representantes de entidades da sociedade civil,formalmente organizadas, oriundas dos movimentos sociais e comunitários, com sede noMunicípio; IV  10 (dez) membros do Conselho de Cidadãos Honorários dePorto Alegre, assim designados pela Resolução nº 1.262, de 13 de dezembrode 1994, daCâmara Municipal de Porto Alegre, e escolhidos por aquele colegiado."
+   "texto": "Também são membros, com assento no Conselho deRepresentantes, mediante indicação de suas entidades:"
+  },
+  {
+   "id": "art-10/inc-I",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "10 (dez) representantes de classes empreendedoras, por suasassociações ou sindicatos, urbanos ou rurais;"
+  },
+  {
+   "id": "art-10/inc-II",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "10 (dez) representantes de classes trabalhadoras, por suasassociações ou sindicatos, urbanos ou rurais;"
+  },
+  {
+   "id": "art-10/inc-III",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "10 (dez) representantes de entidades da sociedade civil,formalmente organizadas, oriundas dos movimentos sociais e comunitários, com sede noMunicípio;"
+  },
+  {
+   "id": "art-10/inc-IV",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "10 (dez) membros do Conselho de Cidadãos Honorários dePorto Alegre, assim designados pela Resolução nº 1.262, de 13 de dezembrode 1994, daCâmara Municipal de Porto Alegre, e escolhidos por aquele colegiado."
   },
   {
    "id": "art-10/par-1",
@@ -297,7 +325,7 @@
    "pai": "art-11",
    "tipo": "inciso",
    "rotulo": "V –",
-   "texto": "decidir, ad referendum da Assembléiaurgentes ou omissos;"
+   "texto": "decidir, “ad referendum” da Assembléiaurgentes ou omissos;"
   },
   {
    "id": "art-11/inc-VI",
@@ -495,8 +523,8 @@
   "avisos": [],
   "metricas": {
    "artigos": 26,
-   "dispositivos": 67,
-   "cobertura": 0.957,
+   "dispositivos": 71,
+   "cobertura": 0.956,
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],

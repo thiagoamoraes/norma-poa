@@ -1510,6 +1510,23 @@ Plano e decisões da entrevista com o mantenedor em `PLANO-REVISAO.md`. Fase 1 e
 
 `teste_revisao.mjs` 35 → 53 (casos reais: LC 412 e LC 514 sobre a LC 320, LC 1.005/2024; histórico real da LC 320 em `fixtures/historico/`; um teste que eu havia escrito vácuo foi detectado e refeito). Conferido no Chromium nas duas páginas. `normateste.mjs` idêntico; core intocado; demais testes sem mudança.
 
+## Rodada 30 — core: lei-alvo, Lei Orgânica, 4º fecho, "§ 1º" sozinho; entrevista do mantenedor como regras (20/11/2026)
+
+Regras decididas em entrevista (CLAUDE.md, "Decisões do mantenedor"). Mudanças, todas com texto real e testes que falham contra o código antigo (`teste_referencias_alvo.mjs`, 27; 16 dos 22 iniciais e 3 dos 5 do § falham no core antigo):
+
+- **`extrairReferenciasLei` reconhece a citação só com o ano** ("Lei Complementar nº 12, de 1975"; ~1.100 ocorrências no acervo, a forma mais comum nas leis recentes) e passa a devolver as referências **na ordem do texto** (antes: por forma de escrita), para a 1ª citada ser de fato a lei-alvo. `extrairReferenciaLeiOrganica` (nova, à parte): "Lei Orgânica do Município" = LO nº 1/1990, presumida; `chaveLei` ganha `lo`.
+- **4º padrão de fecho** `Porto Alegre, DD de mês de AAAA.` em `parseMinuta`; `juntarFechoQuebrado` (extração) junta o fecho com a data partida em duas linhas.
+- **"§ 1º" escrito sozinho** segue o rótulo escrito (`atribuirDesFixoOriginal`), com o aviso `paragrafo_numerado_sem_irmao` no estruturador.
+- **Travas da revogação**, expostas pelo reconhecimento de mais leis-alvo: `RE_GATILHO_REVOGACAO` só casa o verbo (o `\b` casava "revogação"); revogação com citação de dispositivo incompleta vira `indeterminado`. Corrigiu também 4 `revoke_node` que já existiam e estavam errados (art. 71 e art. 1º inteiros por OCR, uma "repristinação").
+- **Extração:** aspas e travessão gravados como controles cp1252 (U+0093/94/96) em 16 textos do SIREL (achado do agente de pesquisa, confirmado de forma independente): `cp1252ParaUnicode` na leitura do HTML e no preparo.
+- **Dashboard:** o guia de normas a revisar (famílias de motivos, menores primeiro) passa a morar em `revisao.html`; datas divergentes lado a lado; regra de desatualização "só texto ou veredito" (`situacaoDaDecisao`); F2 trata a LO presumida (`DATA_LEI_ORGANICA_VIGENTE`).
+- Espelho em `norma-simulacao.html` (texto das funções alteradas conferido idêntico ao do core; página carrega sem erro). `normateste.mjs` idêntico byte a byte; core 153 intacto; `teste_promulgacao_parcial` ganhou uma expectativa atualizada de propósito (o § 3º sozinho agora mantém "§ 3º" em vez de virar "Parágrafo único.").
+
+**Medido em todo o acervo, não só nos testes:**
+- Históricos (152 leis): 901 comandos de OUTRA lei que eram aplicados à base errada passaram a ser recusados; 0 regressões (nenhum comando que mira a própria base deixou de ser aplicado; 1 ganho). Antes, 14 alteradoras tinham comandos aplicados a mais leis do que o total que possuem (602 aplicações indevidas); depois, 0. Leis com alteração aplicada: 99 → 85 (14 só tinham alterações aplicadas por engano). Completas 35 → 40.
+- Estruturação (`VERSAO_ESTRUTURADOR` 9): aceitas **527 → 541** de 823 (65,7%); recentes 347/478 (72,6%), antigas 194/345 (56,2%); 0 normas que eram aceitas deixaram de ser. `revoke_node` novos no acervo: 8, todos revogações explícitas corretas.
+- `PLANO-ALTERADORA-SEM-ASPAS.md` (pesquisa por agente; não implementado além da correção cp1252): das 28 candidatas só 5 são realmente sem aspas; 8 normas `aceita` hoje têm a lei-alvo lida como dispositivo da alteradora (falso aceite silencioso) — próximas rodadas (aspa pareada, bloco sem fechamento, cue no plural).
+
 ## Passagem de sessão (20/11/2026)
 
 Sem mudança de código. Registrado: estado da tarefa 1 (62,6% aceitas em 823 textos),

@@ -2,8 +2,8 @@
  "idSapl": 28080,
  "rotulo": "Lei Complementar municipal nº 347, de 30 de maio de 1995",
  "sha256Origem": "ed743d746ffe1007ad4a8ca8c785560922c3d919b971f7b58954e550fff44a2d",
- "estruturadoEm": "2026-11-20T11:52:24.660Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:55.281Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -34,10 +34,10 @@
    "texto": "Fórum Municipal da Mulher; 11 - VETADO."
   },
   {
-   "id": "art-1/par-unico",
+   "id": "art-1/par-3",
    "pai": "art-1",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 3º",
    "texto": "O Forúm Muni?ipal da Mulher é uma instância composta por entidades ou orgãos não-governamentais interessados em tratar das questões afetas ao direito da mulher e autônomo em relação ao Poder Público, consti tu1do a partir desta Lei."
   },
   {
@@ -188,7 +188,9 @@
    "sem_fecho",
    "rotulo_nao_confere_com_a_origem"
   ],
-  "avisos": [],
+  "avisos": [
+   "paragrafo_numerado_sem_irmao"
+  ],
   "metricas": {
    "artigos": 5,
    "dispositivos": 23,
@@ -197,10 +199,6 @@
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [
-    {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "3º"
-    },
     {
      "rotulo": "§ 1º",
      "naOrigem": "2"
@@ -216,6 +214,10 @@
     {
      "rotulo": "V –",
      "naOrigem": "X"
+    },
+    {
+     "rotulo": "VI –",
+     "naOrigem": "XII"
     }
    ]
   }

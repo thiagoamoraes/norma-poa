@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-19T09:26:04.918Z",
+ "geradoEm": "2026-11-20T13:47:05.506Z",
  "idSapl": 38022,
  "rotulo": "Lei Complementar municipal nº 687, de 01 de fevereiro de 2012",
  "baseConferida": true,
@@ -18,7 +18,7 @@
     "idSapl": 39249,
     "rotulo": "Lei Complementar municipal nº 731, de 21 de janeiro de 2014"
    },
-   "comandosAplicados": 7
+   "comandosAplicados": 5
   },
   {
    "indice": 2,
@@ -175,15 +175,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 1,
-     "texto": "Art. 3º.......................................................................................................................................................................................",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 731/2014"
      }
     }
    ]
@@ -396,15 +387,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 1,
-     "texto": "Art. 6º........................................................................................................................................................................................",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 731/2014"
      }
     }
    ]
@@ -1063,10 +1045,13 @@
     "rotulo": "Lei Complementar municipal nº 731, de 21 de janeiro de 2014"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "endereço-pai \"art. 68\" não encontrado — não é possível inserir \"§ 3º do art. 68\" | endereço-pai \"art. 68\" não encontrado — não é possível inserir \"§ 3º do art. 68\" | artigo-base \"art. 70º\" não encontrado — não é possível posicionar \"art. 70\" | endereço-pai \"art. 70\" não encontrado — não é possível inserir \"inc. xxix do art. 70\"",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 687/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 687/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 687/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 687/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 687/2012) | endereço-pai \"art. 70\" não encontrado — não é possível inserir \"inc. xxix do art. 70\"",
    "enderecos": [
+    "art-21/inc-XXI",
+    "art-21/inc-XXIII",
+    "art-21/inc-XXIV",
+    "art-21/par-2/inc-II",
     "art-68/par-3",
-    "art-70",
     "art-70/inc-XXIX"
    ]
   },

@@ -2,8 +2,8 @@
  "idSapl": 33222,
  "rotulo": "Lei Complementar municipal nº 505, de 28 de maio de 2004",
  "sha256Origem": "12a6a5810f74ed56a9bbc6573e75167b3890bd3c1bbe061f0c53d1676376f7d2",
- "estruturadoEm": "2026-11-20T11:52:22.300Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:53.022Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "505",
@@ -31,7 +31,63 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 2º",
-   "texto": "Ficam fixadas as seguintes alíquotas de contribuiçãosocial para o custeio do RPPS: I  para o servidor ativo, inativo e pensionistas: a) 9% (nove por cento), com vigência a partir do prazo estabelecido noart. 7º destaLei Complementar até 28 de fevereiro de 2005; b) 10% (dez por cento), a partir de 1º de março de 2005 até 31 de agosto de 2005; c) 11% (onze por cento), a partir de 1º de setembro de 2005. II  para o Município: a) 18% (dezoito por cento), com vigência a partir do prazo estabelecidodesta Lei Complementar até 28 de fevereiro de 2005; b) 20% (vinte por cento), a partir de 1º de março de 2005 até 31 de agosto de 2005; c) 22% (vinte e dois por cento), a partir de 1º de setembro de 2005."
+   "texto": "Ficam fixadas as seguintes alíquotas de contribuiçãosocial para o custeio do RPPS:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "para o servidor ativo, inativo e pensionistas:"
+  },
+  {
+   "id": "art-2/inc-I/ali-a",
+   "pai": "art-2/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "9% (nove por cento), com vigência a partir do prazo estabelecido noart. 7º destaLei Complementar até 28 de fevereiro de 2005;"
+  },
+  {
+   "id": "art-2/inc-I/ali-b",
+   "pai": "art-2/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "10% (dez por cento), a partir de 1º de março de 2005 até 31 de agosto de 2005;"
+  },
+  {
+   "id": "art-2/inc-I/ali-c",
+   "pai": "art-2/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "11% (onze por cento), a partir de 1º de setembro de 2005."
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "para o Município:"
+  },
+  {
+   "id": "art-2/inc-II/ali-a",
+   "pai": "art-2/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "18% (dezoito por cento), com vigência a partir do prazo estabelecidodesta Lei Complementar até 28 de fevereiro de 2005;"
+  },
+  {
+   "id": "art-2/inc-II/ali-b",
+   "pai": "art-2/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "20% (vinte por cento), a partir de 1º de março de 2005 até 31 de agosto de 2005;"
+  },
+  {
+   "id": "art-2/inc-II/ali-c",
+   "pai": "art-2/inc-II",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "22% (vinte e dois por cento), a partir de 1º de setembro de 2005."
   },
   {
    "id": "art-2/par-1",
@@ -117,7 +173,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 6º",
-   "texto": "Esta Lei Complementar recepcionará, de imediato, todas asmodificações que forem aprovadas, no regime próprio de previdência social,Proposta de Emenda à Constituição (PEC) nº 227/04, denominada PECParalela, que tramita no Congresso Nacional, bem como qualquer decisão judicial quevenha isentar, alterar ou modificar a participação dos inativos no custeioprevidenciário a que estiverem vinculados."
+   "texto": "Esta Lei Complementar recepcionará, de imediato, todas asmodificações que forem aprovadas, no regime próprio de previdência social,Proposta de Emenda à Constituição (PEC) nº 227/04, denominada “PECParalela”, que tramita no Congresso Nacional, bem como qualquer decisão judicial quevenha isentar, alterar ou modificar a participação dos inativos no custeioprevidenciário a que estiverem vinculados."
   },
   {
    "id": "art-7",
@@ -140,8 +196,8 @@
   "avisos": [],
   "metricas": {
    "artigos": 8,
-   "dispositivos": 16,
-   "cobertura": 0.97,
+   "dispositivos": 24,
+   "cobertura": 0.967,
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],

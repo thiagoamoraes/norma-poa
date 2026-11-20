@@ -35,7 +35,7 @@ export function epocaDaNorma(registro) {
 }
 
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
-export const VERSAO_ESTRUTURADOR = 7;
+export const VERSAO_ESTRUTURADOR = 9;
 
 export const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');
@@ -134,6 +134,7 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
   const dispositivos = [];
   const vistos = new Map();
   let semRotulo = 0;
+  let numeradoSemIrmao = false; // "§ 1º" escrito sozinho na lei: o endereço segue o rótulo escrito (aviso, não reprova)
   const trechos = [doc.ementa?.texto || '', doc.preambulo || ''];
   const andar = (nos, pai) => {
     for (const n of nos || []) {
@@ -148,6 +149,7 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
       if (n.vetado) d.vetado = true;
       if (n.revogado) d.revogado = true;
       if (n.omitido) d.omitido = true;
+      if (n.numeradoSemIrmao) numeradoSemIrmao = true;
       dispositivos.push(d);
       for (const g of n.gruposAntes || []) trechos.push(g.titulo || '');
       trechos.push({ texto: n.texto || '', rotulo: n.desFixo });
@@ -223,6 +225,7 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
   if (cons.rotulosDivergentes.length) motivos.push('rotulo_nao_confere_com_a_origem');
   if (proximoBloco !== blocos.length) motivos.push('bloco_de_alteracao_sem_dono');
 
+  if (numeradoSemIrmao) avisos.push('paragrafo_numerado_sem_irmao');
   if (opcoes.ocr) avisos.push('texto_de_ocr'); // lido de imagem: pode ter troca de caracteres
   if (/^\s*ANEXO\b/m.test(texto)) avisos.push('tem_anexo');
   const maior = dispositivos.reduce((m, d) => Math.max(m, (d.texto || '').length), 0);

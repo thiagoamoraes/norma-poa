@@ -8,7 +8,7 @@
 import fs from 'node:fs';
 import { estruturarNorma, slugDoRotulo, conferirConservacao } from './ingestao/estrutura.mjs';
 import * as estrutura from './ingestao/estrutura.mjs';
-import { htmlSirelParaTexto, prepararTextoExtraido } from './ingestao/extracao-texto.mjs';
+import { htmlSirelParaTexto, prepararTextoExtraido, juntarFechoQuebrado, cp1252ParaUnicode } from './ingestao/extracao-texto.mjs';
 import { limparMarkdownLinks, parseLeiPublicada } from './norma-core.js';
 
 let passou = 0, falhou = 0;
@@ -92,6 +92,41 @@ const reg = (tipoSapl, numero) => regs.find((r) => r.tipoSapl === tipoSapl && r.
   ok('época (sintético): véspera do corte (02/02/2009) é antiga', ep({ data: '2009-02-02', ano: 2009 }) === 'antiga');
   ok('época (sintético): sem data, só o ano — 2008 antiga, 2010 recente', ep({ ano: 2008 }) === 'antiga' && ep({ ano: 2010 }) === 'recente');
   ok('época (sintético): sem data e ano 2009 (ou sem nada) → indefinida, nunca palpite', ep({ ano: 2009 }) === 'indefinida' && ep({}) === 'indefinida' && ep(null) === 'indefinida');
+}
+
+// --- fecho com a data partida em duas linhas (rodada 30) -------------------------------------
+{
+  const bruto = fs.readFileSync('./fixtures/textos/lc820_2017.txt', 'utf8');
+  const prep = prepararTextoExtraido(bruto);
+  ok('LC 820/2017 (real): "CÂMARA MUNICIPAL DE PORTO ALEGRE, 6 DE NOVEMBRO DE" + "2017." viram uma linha só', /^\s*CÂMARA MUNICIPAL DE PORTO ALEGRE, 6 DE NOVEMBRO DE 2017\.\s*$/m.test(prep) && /DE\s*\n\s*2017\./.test(bruto));
+  const e = estruturarNorma(prep, reg(6, '820'));
+  ok('LC 820/2017: o fecho passa a ser reconhecido (sem sem_fecho)', !!e.fecho && !e.verificacao.motivos.includes('sem_fecho'));
+  ok('(sintético) só junta quando a linha seguinte é APENAS o ano: "…DE" + "Registre-se" fica como está', juntarFechoQuebrado('CÂMARA MUNICIPAL DE PORTO ALEGRE, 6 DE NOVEMBRO DE\nRegistre-se.').split('\n').length === 2);
+  ok('(sintético) texto qualquer terminado em "de" seguido de ano NÃO é fecho e não é juntado ("a data de" + "2017.")', juntarFechoQuebrado('conforme a data de\n2017.').split('\n').length === 2);
+  ok('(sintético) o 4º padrão ("Porto Alegre, 19 de março de" + "2009.") também é juntado', juntarFechoQuebrado('Porto Alegre, 19 de março de\n2009.').trim() === 'Porto Alegre, 19 de março de 2009.');
+}
+
+// --- "§ 1º" escrito sozinho na lei: o endereço segue o rótulo escrito (rodada 30) -------------
+{
+  const e = estruturarNorma(prepararTextoExtraido(fs.readFileSync('./fixtures/textos/lc521_2005.txt', 'utf8')), reg(6, '521'));
+  ok('LC 521/2005 (real): o § 1º do art. 1º, sozinho, tem o endereço do rótulo escrito (art-1/par-1), não "par-unico"', e.dispositivos.some((d) => d.id === 'art-1/par-1' && d.rotulo === '§ 1º') && !e.dispositivos.some((d) => d.id === 'art-1/par-unico'));
+  ok('LC 521/2005: deixa de ser reprovada por rótulo e leva só o AVISO "paragrafo_numerado_sem_irmao"', !e.verificacao.motivos.includes('rotulo_nao_confere_com_a_origem') && e.verificacao.avisos.includes('paragrafo_numerado_sem_irmao'));
+  const lc611 = estruturarNorma(fs.readFileSync('./lc611.txt', 'utf8'), reg(6, '611'));
+  ok('lei bem escrita (LC 611, "Parágrafo único" de verdade): sem o aviso e com o endereço de sempre (art-1/par-unico)', !lc611.verificacao.avisos.includes('paragrafo_numerado_sem_irmao') && lc611.dispositivos.some((d) => d.id === 'art-1/par-unico'));
+}
+
+// --- aspas gravadas como caracteres de controle (HTML do SIREL; rodada 30) -----------------------
+{
+  const bruto = fs.readFileSync('./fixtures/textos/lc499_2003_sirel.txt', 'utf8');
+  ok('LC 499/2003 (real, SIREL): o texto guardado tem aspas como caracteres de CONTROLE (U+0093/U+0094) e travessão U+0096', /\u0093/.test(bruto) && /\u0094/.test(bruto) && /\u0096/.test(bruto));
+  const prep = prepararTextoExtraido(bruto);
+  ok('LC 499/2003: o preparo troca os controles por aspas e travessão de verdade (“ ” –); o arquivo guardado não muda', !/[\u0080-\u009f]/.test(prep) && /“Art\. 53\./.test(prep) && /[\u0080-\u009f]/.test(bruto));
+  const e = estruturarNorma(prep, reg(6, '499'));
+  ok('LC 499/2003: o bloco de alteração é reconhecido e a lei-alvo NÃO vira dispositivo da alteradora', e.verificacao.metricas.blocosDeAlteracao > 0 && !e.dispositivos.some((d) => /^art-53/.test(d.id)));
+  ok('LC 499/2003: passa a ser aceita (antes, reprovada por rótulo)', e.verificacao.situacao === 'aceita');
+  ok('(sintético) cp1252ParaUnicode: 147/148 viram “ ”, 150 vira –, 146 vira ’; texto comum e letras acentuadas ficam como estão', cp1252ParaUnicode('\u0093A\u0094 \u0096 d\u0092água ação ã') === '“A” – d’água ação ã');
+  const { texto } = htmlSirelParaTexto(new TextEncoder().encode('<html><body><p>LEI Nº 1</p><p>&#147;Art. 1&#186; Texto.&#148; (NR) &#150; fim</p></body></html>'));
+  ok('(sintético) htmlSirelParaTexto: entidades numéricas &#147; &#148; &#150; saem como “ ” –, já na leitura do HTML', /“Art\. 1º Texto\.” \(NR\) – fim/.test(texto));
 }
 
 // --- o que NÃO pode ser aceito ---------------------------------------------

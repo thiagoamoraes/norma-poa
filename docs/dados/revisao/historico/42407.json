@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-18T09:25:55.408Z",
+ "geradoEm": "2026-11-20T13:47:05.900Z",
  "idSapl": 42407,
  "rotulo": "Lei Complementar municipal nº 875, de 21 de janeiro de 2020",
  "baseConferida": false,
@@ -18,7 +18,7 @@
     "idSapl": 45238,
     "rotulo": "Lei Complementar municipal nº 963, de 07 de dezembro de 2022"
    },
-   "comandosAplicados": 10
+   "comandosAplicados": 7
   }
  ],
  "dispositivos": [
@@ -1223,57 +1223,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-5/inc-I",
-   "pai": "art-5",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "salário do emprego, nos termos do fixado pela União;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 963/2022"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-5/inc-II",
-   "pai": "art-5",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "concessão de adicional de insalubridade de 10% (dez por cento), 20% (vinte por cento) ou 40% (quarenta por cento), calculada sobre o valor de referência, conforme atividades realizadas e laudo técnico;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 963/2022"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-5/inc-III",
-   "pai": "art-5",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "adicional noturno de 20% (vinte por cento), calculado sobre o valor de referência;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 963/2022"
      }
     }
    ]
@@ -2562,6 +2511,20 @@
    ]
   }
  ],
- "naoAplicadas": [],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 45238,
+    "rotulo": "Lei Complementar municipal nº 963, de 07 de dezembro de 2022"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 932, de 2022\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"932\",\"ano\":\"2022\",\"chave\":\"lc 932/2022\"}, versão: lc 875/2020) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 932, de 2022\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"932\",\"ano\":\"2022\",\"chave\":\"lc 932/2022\"}, versão: lc 875/2020) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 932, de 2022\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"932\",\"ano\":\"2022\",\"chave\":\"lc 932/2022\"}, versão: lc 875/2020)",
+   "enderecos": [
+    "art-5/inc-I",
+    "art-5/inc-II",
+    "art-5/inc-III"
+   ]
+  }
+ ],
  "aConferir": []
 }

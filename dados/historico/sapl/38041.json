@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-19T09:26:05.313Z",
+ "geradoEm": "2026-11-20T13:58:22.817Z",
  "idSapl": 38041,
  "rotulo": "Lei Complementar municipal nº 688, de 15 de fevereiro de 2012",
  "baseConferida": false,
@@ -9,16 +9,6 @@
    "id": "lc 688/2012@2012-02-15",
    "data": "2012-02-15",
    "fonte": null
-  },
-  {
-   "indice": 1,
-   "id": "lc 688/2012@2019-07-26",
-   "data": "2019-07-26",
-   "fonte": {
-    "idSapl": 42168,
-    "rotulo": "Lei Complementar municipal nº 855, de 26 de julho de 2019"
-   },
-   "comandosAplicados": 2
   }
  ],
  "dispositivos": [
@@ -55,10 +45,10 @@
    ]
   },
   {
-   "id": "art-2/par-unico",
+   "id": "art-2/par-1",
    "pai": "art-2",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 1º",
    "estados": [
     {
      "desde": 0,
@@ -71,8 +61,8 @@
    ]
   },
   {
-   "id": "art-2/par-unico/inc-I",
-   "pai": "art-2/par-unico",
+   "id": "art-2/par-1/inc-I",
+   "pai": "art-2/par-1",
    "tipo": "inciso",
    "rotulo": "I –",
    "estados": [
@@ -87,8 +77,8 @@
    ]
   },
   {
-   "id": "art-2/par-unico/inc-I/ali-a",
-   "pai": "art-2/par-unico/inc-I",
+   "id": "art-2/par-1/inc-I/ali-a",
+   "pai": "art-2/par-1/inc-I",
    "tipo": "alinea",
    "rotulo": "a)",
    "estados": [
@@ -103,8 +93,8 @@
    ]
   },
   {
-   "id": "art-2/par-unico/inc-I/ali-b",
-   "pai": "art-2/par-unico/inc-I",
+   "id": "art-2/par-1/inc-I/ali-b",
+   "pai": "art-2/par-1/inc-I",
    "tipo": "alinea",
    "rotulo": "b)",
    "estados": [
@@ -119,8 +109,8 @@
    ]
   },
   {
-   "id": "art-2/par-unico/inc-I/ali-c",
-   "pai": "art-2/par-unico/inc-I",
+   "id": "art-2/par-1/inc-I/ali-c",
+   "pai": "art-2/par-1/inc-I",
    "tipo": "alinea",
    "rotulo": "c)",
    "estados": [
@@ -146,40 +136,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3/inc-V",
-   "pai": "art-3",
-   "tipo": "inciso",
-   "rotulo": "V –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "construções nos recuos de ajardinamento em atividades comerciais;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 855/2019"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-3/inc-X",
-   "pai": "art-3",
-   "tipo": "inciso",
-   "rotulo": "X –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "prédios que tenham sido consolidados até a regulamentação desta Lei Complementar.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 855/2019"
      }
     }
    ]
@@ -297,10 +253,10 @@
    ]
   },
   {
-   "id": "art-5/par-unico",
+   "id": "art-5/par-1",
    "pai": "art-5",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 1º",
    "estados": [
     {
      "desde": 0,
@@ -393,18 +349,15 @@
    ]
   }
  ],
- "naoAplicadas": [
+ "naoAplicadas": [],
+ "aConferir": [],
+ "descartadas": [
   {
    "alteradora": {
     "idSapl": 42168,
     "rotulo": "Lei Complementar municipal nº 855, de 26 de julho de 2019"
    },
-   "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 650, de 27 de agosto de 2010\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"650\",\"ano\":\"2010\",\"chave\":\"lc 650/2010\"}, versão: lc 688/2012)",
-   "enderecos": [
-    "art-1/par-4"
-   ]
+   "motivo": "a ementa cita esta lei, mas os comandos de alteração são de outra"
   }
- ],
- "aConferir": []
+ ]
 }

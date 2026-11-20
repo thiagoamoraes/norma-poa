@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-19T09:26:04.957Z",
+ "geradoEm": "2026-11-20T13:47:05.565Z",
  "idSapl": 38330,
  "rotulo": "Lei Complementar municipal nº 700, de 03 de julho de 2012",
  "baseConferida": false,
@@ -9,16 +9,6 @@
    "id": "lc 700/2012@2012-07-03",
    "data": "2012-07-03",
    "fonte": null
-  },
-  {
-   "indice": 1,
-   "id": "lc 700/2012@2015-07-08",
-   "data": "2015-07-08",
-   "fonte": {
-    "idSapl": 40111,
-    "rotulo": "Lei Complementar municipal nº 765, de 08 de julho de 2015"
-   },
-   "comandosAplicados": 27
   }
  ],
  "dispositivos": [
@@ -115,15 +105,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 1,
-     "texto": "O Quadro dos Cargos de Provimento Efetivo é estruturado nos grupos a seguir, conforme a natureza das respectivas atribuições, destinadas a atender às atividades essenciais e gerais necessárias à consecução dos fins da Administração Centralizada:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
-     }
     }
    ]
   },
@@ -139,15 +120,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 1,
-     "texto": "AA – Grupo Apoio à Administração;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
      }
     }
    ]
@@ -165,15 +137,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 1,
-     "texto": "OP – Grupo Operacional;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
-     }
     }
    ]
   },
@@ -189,15 +152,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 1,
-     "texto": "AC – Grupo Atividades Complementares;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
      }
     }
    ]
@@ -215,15 +169,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 1,
-     "texto": "CO – Grupo Comunicação;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
-     }
     }
    ]
   },
@@ -240,15 +185,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 1,
-     "texto": "LC – Grupo Lazer e Cultura;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
-     }
     }
    ]
   },
@@ -264,117 +200,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 1,
-     "texto": "FV – Grupo Fiscalização e Vigilância;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-VII",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "VII –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "OB – Grupo Obras;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-VIII",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "VIII –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "SA – Grupo Saúde e Assistência;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-IX",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "IX –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "TP – Grupo Técnico-Profissional;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-X",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "X –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "ES – Grupo Executivo e Assessoramento Superior;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-XI",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "XI –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "ESM – Grupo Especialidade Médica; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-4/inc-XII",
-   "pai": "art-4",
-   "tipo": "inciso",
-   "rotulo": "XII –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "AT – Grupo Administração Tributária.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
      }
     }
    ]
@@ -396,23 +221,6 @@
    ]
   },
   {
-   "id": "art-5/inc-XI",
-   "pai": "art-5",
-   "tipo": "inciso",
-   "rotulo": "XI –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "executar, por meio da Divisão de Auditoria-Geral, auditorias especiais solicitadas pelas autoridades municipais; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
    "id": "art-6",
    "pai": null,
    "tipo": "artigo",
@@ -429,74 +237,6 @@
    ]
   },
   {
-   "id": "art-6/inc-III",
-   "pai": "art-6",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Divisão de Contabilidade-Geral;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-6/inc-IV",
-   "pai": "art-6",
-   "tipo": "inciso",
-   "rotulo": "IV –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Divisão de Auditoria-Geral;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-6/inc-V",
-   "pai": "art-6",
-   "tipo": "inciso",
-   "rotulo": "V –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Divisão de Informações Legais e Gerenciais;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-6/inc-VI",
-   "pai": "art-6",
-   "tipo": "inciso",
-   "rotulo": "VI –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "Divisão de Despesa Pública;",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
    "id": "art-7",
    "pai": null,
    "tipo": "artigo",
@@ -508,15 +248,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 1,
-     "texto": "Ao Gabinete do Controlador-Geral compete a coordenação geral das atividades exercidas pelas Divisões referidas nos incisos III a VI do caput do art. 6º desta Lei Complementar.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
      }
     }
    ]
@@ -550,49 +281,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 1,
-     "texto": "À Divisão de Contabilidade-Geral competem: 25",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-9/inc-I",
-   "pai": "art-9",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "a execução da contabilidade e o registro da dívida pública da Administração, com exceção das empresas estatais, tendo por objetivo principal a uniformidade de procedimentos visando à consolidação das demonstrações contábeis; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
-    }
-   ]
-  },
-  {
-   "id": "art-9/inc-II",
-   "pai": "art-9",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "estados": [
-    {
-     "desde": 1,
-     "texto": "a coordenação das Seccionais de Contabilidade.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "insert_node",
-      "lei": "Lei Complementar nº 765/2015"
-     }
     }
    ]
   },
@@ -609,15 +297,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 1,
-     "texto": "À Divisão de Auditoria-Geral competem a fiscalização e a avaliação dos controles internos da Administração, inclusive na própria CGM, ficando garantidas as prerrogativas do art. 20 desta Lei Complementar.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
-     }
     }
    ]
   },
@@ -633,15 +312,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 1,
-     "texto": "À Divisão de Informações Legais e Gerenciais compete:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
      }
     }
    ]
@@ -691,15 +361,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 1,
-     "texto": "À Divisão de Despesa Pública compete:",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
-     }
     }
    ]
   },
@@ -716,15 +377,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 1,
-     "texto": "controlar e orientar as atividades de execução da despesa orçamentária e extraorçamentária da Administração Direta, das autarquias, da fundação de direito público e do Legislativo Municipal; e",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
-     }
     }
    ]
   },
@@ -740,15 +392,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 1,
-     "texto": "coordenar as Seccionais de Controle da Despesa Pública.",
-     "situacao": "vigente",
-     "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 765/2015"
      }
     }
    ]
@@ -776,18 +419,93 @@
     "idSapl": 40111,
     "rotulo": "Lei Complementar municipal nº 765, de 08 de julho de 2015"
    },
-   "motivo": "aplicada_em_parte",
-   "detalhe": "endereço-pai \"parágrafo único do art. 4º\" não encontrado — não é possível inserir \"inc. xii do parágrafo único do art. 4º\" | artigo-base \"art. 39º\" não encontrado — não é possível posicionar \"art. 39\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 3 de julho de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | endereço-pai \"parágrafo único do inc. i do parágrafo único do art. 17\" não encontrado — não é possível inserir \"inc. i do parágrafo único do inc. i do parágrafo único do art. 17\" | artigo-base \"art. 18º\" não encontrado — não é possível posicionar \"art. 18\" | artigo-base \"art. 19º\" não encontrado — não é possível posicionar \"art. 19\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 534, de 28 de dezembro de 2005\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"534\",\"ano\":\"2005\",\"chave\":\"lc 534/2005\"}, versão: lc 700/2012)",
+   "motivo": "comando_recusado",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.309, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6309\",\"ano\":\"1988\",\"chave\":\"l 6309/1988\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 3 de julho de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 534, de 28 de dezembro de 2005\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"534\",\"ano\":\"2005\",\"chave\":\"lc 534/2005\"}, versão: lc 700/2012)",
    "enderecos": [
-    "art-4/par-unico/inc-XII",
+    "art-5",
+    "art-37",
+    "art-4",
+    "art-47",
     "art-39",
+    "art-32/par-1",
     "art-4/par-4",
-    "art-17/par-unico/inc-I/par-unico/inc-I",
+    "art-6",
+    "art-7",
+    "art-9",
+    "art-10",
+    "art-11",
+    "art-14",
+    "art-17/par-unico/inc-I",
     "art-18",
     "art-19",
-    "art-20/par-4"
+    "art-20"
    ]
   }
  ],
- "aConferir": []
+ "aConferir": [
+  {
+   "id": "art-4",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/inc-I",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/inc-II",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/inc-III",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/inc-IV",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/inc-V",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-4/inc-VI",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-5",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-6",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-7",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-9",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-10",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-11",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-14",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-14/inc-I",
+   "desde": "2015-07-08"
+  },
+  {
+   "id": "art-14/inc-II",
+   "desde": "2015-07-08"
+  }
+ ]
 }

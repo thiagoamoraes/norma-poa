@@ -2,8 +2,8 @@
  "idSapl": 30298,
  "rotulo": "Lei Complementar municipal nº 437, de 29 de dezembro de 1999",
  "sha256Origem": "41a8c0493c3396bb62566e902dd46a7ea271a04f548f067982575ba784aba66f",
- "estruturadoEm": "2026-11-20T11:52:22.521Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:53.163Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "437",
@@ -122,10 +122,10 @@
    "texto": "Acrescenta § 9° ao art. 70 da Lei Complementar n® 07/73, com redação dada pela Lei Complementar n° 285, de 29 de dezembro de 1992, como segue: “Alt. 70-..."
   },
   {
-   "id": "art-13/par-unico",
+   "id": "art-13/par-9",
    "pai": "art-13",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 9º",
    "texto": "Para efeitos do disposto no inciso XVII, considera-se renda o total dos proventos recebidos, deduzidas as contribuições para a previdência oficial.”"
   },
   {
@@ -157,7 +157,8 @@
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [
-   "cabecalho_fora_do_padrao"
+   "cabecalho_fora_do_padrao",
+   "paragrafo_numerado_sem_irmao"
   ],
   "metricas": {
    "artigos": 16,

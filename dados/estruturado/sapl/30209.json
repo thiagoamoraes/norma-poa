@@ -2,8 +2,8 @@
  "idSapl": 30209,
  "rotulo": "Lei Complementar municipal nº 434, de 01 de dezembro de 1999",
  "sha256Origem": "46c2d5b1c4df2339d816ebb00e2384b7e606747c7f3804fba1c689d5f6087adc",
- "estruturadoEm": "2026-11-20T11:52:22.733Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:53.389Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "434",
@@ -1029,10 +1029,10 @@
    "texto": "aplicação de instrumentos urbanísticos e tributários com vistas ao estímulo à proteção do patrimônio natural nas propriedades identificadas nos termos do"
   },
   {
-   "id": "art-17/par-unico",
+   "id": "art-17/par-3",
    "pai": "art-17",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 3º",
    "texto": "do art. 32."
   },
   {
@@ -8805,10 +8805,10 @@
    "texto": "A. Aprovado o projeto urbanístico de parcelamento do solo, o interessado deverá submetê–lo ao Registro Imobiliário em um prazo de 180 (cento e oitenta) dias, sob pena de caducidade, exceto para os condomínios equiparados a parcelamento do solo conforme disposto no"
   },
   {
-   "id": "art-162/par-unico",
+   "id": "art-162/par-3",
    "pai": "art-162",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 3º",
    "texto": "do art. 153 desta Lei Complementar. (Incluído pela L.C. n° 646, de 22 de julho de 2010)."
   },
   {
@@ -10213,6 +10213,7 @@
   ],
   "avisos": [
    "cabecalho_fora_do_padrao",
+   "paragrafo_numerado_sem_irmao",
    "tem_anexo",
    "dispositivo_muito_longo",
    "possivel_dispositivo_embutido"
@@ -10252,10 +10253,6 @@
     "O Patrimônio Ambiental abrange os Patrimônios Cultural e Natural."
    ],
    "rotulosDivergentes": [
-    {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "ãododispostonos2ºe3º"
-    },
     {
      "rotulo": "XV –",
      "naOrigem": "Parágrafoúnico"

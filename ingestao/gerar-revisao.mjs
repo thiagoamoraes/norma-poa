@@ -6,6 +6,7 @@
 //   n/<id>.cmd.json comandos de uma alteradora: o que o extrator entendeu e, com a lei-alvo na base, antes/depois (F2)
 //   n/<id>.json    uma norma: texto de origem, dispositivos com âncora e situação, lacunas
 //   historico/<id>.json + historico-lista.json  históricos apurados das leis alteradas, para comparar com a compilação do leis.org (F3)
+//   guia.json      famílias de motivos com as menores normas primeiro (guia de revisão da página)
 //   decisoes.jsonl cópia de dados/revisao/decisoes.jsonl (as decisões já entregues)
 // e copia o módulo de decisões para docs/js/ingestao/ (roda no navegador).
 // Sem rede. Executa ao ser importado (como os demais coletores): use `node --check` para checar sintaxe.
@@ -74,6 +75,8 @@ for (const f of (await readdir(DIR_EST)).filter((f) => /^\d+\.json$/.test(f))) {
     sha256Origem: reg.sha256Origem, versaoEstruturador: reg.versaoEstruturador,
     resumo: a.resumo, texto: a.texto, dispositivos, especiais, lacunas: a.lacunas.filter((l) => !l.esperada),
   };
+  // datas lado a lado quando divergem (regra de 20/11/2026: o motor nunca escolhe; o revisor decide caso a caso)
+  if (reg.verificacao.motivos.includes('data_diverge_do_catalogo')) norma.datas = { arquivo: reg.cabecalho?.data ?? null, catalogo: cat.data ?? null };
   await writeFile(path.join(SAIDA, 'n', `${reg.idSapl}.json`), JSON.stringify(norma) + '\n');
   const cmd = descreverComandos(await readFile(arq, 'utf8').then(prepararTextoExtraido), fonteDoRegistroCatalogo(cat), resolverBase);
   if (cmd.comandos.length) await writeFile(path.join(SAIDA, 'n', `${reg.idSapl}.cmd.json`), JSON.stringify(cmd) + '\n');
@@ -85,6 +88,26 @@ for (const f of (await readdir(DIR_EST)).filter((f) => /^\d+\.json$/.test(f))) {
   });
 }
 fila.sort((x, y) => (x.data < y.data ? 1 : x.data > y.data ? -1 : y.idSapl - x.idSapl));
+// Guia de revisão: famílias de normas pela combinação de motivos, com as MENORES primeiro (menos pontos a olhar),
+// e o que a revisão de cada família ensina ao motor. A página filtra o que já foi revisado.
+const DICAS = [
+  ['cabecalho_nao_reconhecido', 'Quase sempre NÃO é o texto da norma (folha de protocolo, anexo, arquivo trocado) ou digitalização ilegível: confira o início do arquivo; se for o caso, marque defeito de fonte.'],
+  ['data_diverge_do_catalogo', 'A data escrita no arquivo difere da do catálogo (as duas aparecem lado a lado). Decida caso a caso qual está certa: o motor nunca escolhe.'],
+  ['promulgacao_parcial', 'Fragmento de promulgação parcial (só os dispositivos de veto derrubado): confira se o objeto do "promulgo" é "dispositivo da Lei nº N".'],
+  ['bloco_de_alteracao_sem_dono', 'Um bloco de redação alterada não se ligou a nenhum dispositivo da alteradora. Veja se a introdução ("Fica alterado… conforme segue:") está inteira e se as aspas abrem e fecham onde deveriam.'],
+  ['sem_fecho', 'Olhe as últimas linhas: o fecho está colado ao texto, com data quebrada, ou é uma FORMA NOVA de fecho (conhecidas: 4)? Forma nova com texto real vira encaminhamento ao motor.'],
+  ['texto_fora_da_arvore', 'Sobrou texto do arquivo fora da árvore (amarelo à esquerda). Veja se é defeito do arquivo (aspas fechando cedo, artigo fora das aspas) ou forma legítima que o leitor não conhece.'],
+  ['trecho_nao_localizado_na_origem', 'Um trecho da árvore não aparece no arquivo na ordem esperada: costuma ser palavra colada/partida pela extração ou "(NR)" mal posto. Decida entre defeito de fonte e encaminhar ao motor.'],
+  ['rotulo_nao_confere_com_a_origem', 'O rótulo dado por posição não é o escrito no arquivo: a lei escreveu fora da ordem, ou um bloco engoliu/perdeu um artigo. Aceite, marque defeito de fonte, corrija o rótulo ou encaminhe ao motor.'],
+];
+const dicaDe = (motivos) => (DICAS.find(([m]) => motivos.includes(m)) || [null, 'Motivo ainda sem orientação própria: descreva o que viu em "encaminhar ao motor".'])[1];
+const familias = new Map();
+for (const n of fila) { const k = [...n.motivos].sort().join('+'); if (!familias.has(k)) familias.set(k, []); familias.get(k).push(n); }
+const guia = [...familias.values()].map((v) => ({
+  motivos: [...v[0].motivos].sort(), total: v.length, dica: dicaDe(v[0].motivos),
+  ids: v.sort((a, b) => a.pontos - b.pontos || a.idSapl - b.idSapl).slice(0, 12).map((n) => n.idSapl),
+})).sort((a, b) => b.total - a.total);
+await writeFile(path.join(SAIDA, 'guia.json'), JSON.stringify({ familias: guia }) + '\n');
 await writeFile(path.join(SAIDA, 'fila.json'), JSON.stringify({ geradoEm: agora(), versaoEstruturador: fila[0]?.versaoEstruturador ?? null, normas: fila }) + '\n');
 
 const decisoes = './dados/revisao/decisoes.jsonl';

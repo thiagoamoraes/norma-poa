@@ -603,7 +603,10 @@ export function parseMinuta(raw, nrRanges) {
   // 11.229/2012, Lei nº 11.575/2014 e LC 761/2015; os dois leitores de PDF dão
   // o mesmo resultado, logo o defeito é do arquivo). Sem aceitar essa grafia, o
   // fecho e as assinaturas grudavam no último artigo.
-  const reFecho = /^(?:(?:PREFEITURA\s+MUNIC\s?IPAL\s+DE\s+PORTO\s+ALEGRE|GABINETE\s+DA\s+PRESID[ÊE]NCIA\s+DA\s+C[ÂA]MARA\s+MUNICIPAL)\b|C[ÂA]MARA\s+MUNICIPAL\s+DE\s+PORTO\s+ALEGRE\s*,\s*\d{1,2}\s*[º°]?\s+de\s+[A-Za-zÀ-ú]+\s+de\s+\d{4}\s*\.?\s*$)/i;
+  // 4ª forma de fecho (rodada 30, decisão do mantenedor em 20/11/2026): "Porto Alegre, 19 de março de
+  // 2009." — só local e data, sem nome da instituição (LC 613/2009 e EC 28/2009, as duas de março de
+  // 2009). Regex ESTRITA como as outras: a linha inteira.
+  const reFecho = /^(?:(?:PREFEITURA\s+MUNIC\s?IPAL\s+DE\s+PORTO\s+ALEGRE|GABINETE\s+DA\s+PRESID[ÊE]NCIA\s+DA\s+C[ÂA]MARA\s+MUNICIPAL)\b|C[ÂA]MARA\s+MUNICIPAL\s+DE\s+PORTO\s+ALEGRE\s*,\s*\d{1,2}\s*[º°]?\s+de\s+[A-Za-zÀ-ú]+\s+de\s+\d{4}\s*\.?\s*$|PORTO\s+ALEGRE\s*,\s*\d{1,2}\s*[º°]?\s+de\s+[A-Za-zÀ-ú]+\s+de\s+\d{4}\s*\.?\s*$)/i;
   // Suporta sufixo de letra (Art. 5º-A, § 2º-A, II-A, a-a)) — inserção intermediária
   // (art. 17 da LC 611/2009). Sem isso, uma lei-base que já contenha dispositivos
   // inseridos (comum após algumas rodadas de alteração) tem a letra do sufixo
@@ -1094,6 +1097,13 @@ export function atribuirDesFixoOriginal(doc) {
       if (p.tipo === "paragrafo") {
         p.desFixo = paragrafos.length === 1 ? "Parágrafo único."
           : (paragrafos.indexOf(p)+1 <= 9 ? `§ ${paragrafos.indexOf(p)+1}º` : `§ ${paragrafos.indexOf(p)+1}.`);
+        // "§ 1º" escrito SOZINHO na lei (sem "§ 2º"): o motor segue o que a lei fez (decisão do mantenedor,
+        // 20/11/2026) — o endereço é o rótulo escrito, não "Parágrafo único."; fica marcado para o aviso
+        // "irregularidade da fonte". Nada é renumerado: é o rótulo que a lei pôs.
+        if (paragrafos.length === 1) {
+          const mEscrito = /^§\s*(\d+)\s*[º°o]?\s*$/.exec(String(p.rawL || "").trim());
+          if (mEscrito) { const n = parseInt(mEscrito[1], 10); p.desFixo = n <= 9 ? `§ ${n}º` : `§ ${n}.`; p.numeradoSemIrmao = true; }
+        }
       }
       const incisos = (p.children || []).filter(n => n.tipo === "inciso");
       (p.tipo === "paragrafo" ? p.children : []).forEach(inc => { if (inc.tipo==="inciso") inc.desFixo = roman(incisos.indexOf(inc)+1) + " –"; });
@@ -1276,6 +1286,7 @@ export function criarVersaoOriginalDeLeiPublicada(raw) {
  * "revoke_lei", "clausula_generica_sem_efeito", "indeterminado", "nao_classificado".
  */
 function leiAlvoBateComVersao(comando, versaoAtual) {
+  if (comando.leiAlvo && comando.leiAlvo.presumida) return true; // alvo presumido (ex. "Lei Orgânica do Município") nunca recusa comando
   if (!comando.leiAlvo) return true; // comando sem citação de lei-alvo reconhecida — não há o que checar, confia no chamador
   const chaveVersao = chaveLei(versaoAtual.leiBase.tipoAto, versaoAtual.leiBase.numero, versaoAtual.leiBase.ano);
   if (comando.leiAlvo.chave) return comando.leiAlvo.chave === chaveVersao;
@@ -1592,7 +1603,14 @@ export function extrairCitacoesExternas(texto) {
     else if (m[6]) chave = "§ "+m[6].trim().replace(/°/g, "º")+" do "+chave;
     if (m[3]&&m[4]) chave = "inc. "+m[4].toLowerCase()+" do "+chave;
     if (m[1]&&m[2]) chave = "al. "+m[2].toLowerCase()+") do "+chave;
-    out.push({ raw:m[0], chave });
+    // Endereço PARCIALMENTE lido: logo antes do trecho reconhecido sobra um pedaço de endereço que a
+    // expressão não entendeu ("inc. IV do $ 1º do art. 82", com o OCR trocando "§" por "$"). A chave
+    // sairia só "art. 82" — o artigo inteiro. Marca `incompleta` (só quando for o caso) para quem
+    // consome falhar alto em vez de agir sobre o endereço errado.
+    const antes = texto.slice(Math.max(0, m.index - 24), m.index);
+    const item = { raw:m[0], chave };
+    if (/(?:[§$]\s*\d+\s*[º°o]?|\b(?:inc\.?|inciso|al[íi]nea)\s+\S+|par[áa]grafo\s+[úu]nico)\s+d[oa]s?\s+$/i.test(antes)) item.incompleta = true;
+    out.push(item);
   }
   return out;
 }
@@ -1607,7 +1625,7 @@ export function extrairCitacoesExternas(texto) {
  */
 // "os" pra Ordem de Serviço é convenção interna (chave de citação), não do LexML —
 // ele não tem tipoDocumento oficial pra esse ato (ver urnLei() abaixo).
-const SIGLA_TIPO_ATO = { "LEI COMPLEMENTAR": "lc", "LEI": "l", "RESOLUÇÃO": "r", "ORDEM DE SERVIÇO": "os" };
+const SIGLA_TIPO_ATO = { "LEI COMPLEMENTAR": "lc", "LEI": "l", "RESOLUÇÃO": "r", "ORDEM DE SERVIÇO": "os", "LEI ORGÂNICA": "lo" };
 
 export function chaveLei(tipoAto, numero, ano) {
   const sigla = SIGLA_TIPO_ATO[(tipoAto || "").toUpperCase()] || (tipoAto || "").toLowerCase();
@@ -1692,20 +1710,20 @@ export function urnLei(tipoAto, numero, dataPublicacao) {
  * o regex exige "Lei (Complementar)? Nº" imediatamente seguido de número.
  */
 export function extrairReferenciasLei(texto) {
-  const out = []; const faixas = [];
+  const achados = []; const faixas = []; // achados: [posição no texto, referência]
   const reExtensa = /\b(Lei\s+Complementar|Lei)\s+N[º°oO]\.?\s*([\d.]+)\s*,?\s*de\s+(\d{1,2})\s*[º°]?\s*de\s+([A-Za-zÀ-ÿç]+)\s+de\s+(\d{4})/gi;
   let m;
   while ((m = reExtensa.exec(texto))) {
     const mesNum = MESES_PT[semAcento(m[4].toLowerCase())];
     if (!mesNum) continue; // mês não reconhecido — não arrisca
     faixas.push([m.index, m.index + m[0].length]);
-    out.push({
+    achados.push([m.index, {
       raw: m[0],
       tipoAto: /complementar/i.test(m[1]) ? "LEI COMPLEMENTAR" : "LEI",
       numero: m[2].replace(/\./g, ""),
       ano: m[5],
       chave: chaveLei(/complementar/i.test(m[1]) ? "LEI COMPLEMENTAR" : "LEI", m[2].replace(/\./g,""), m[5])
-    });
+    }]);
   }
   const reAbrev = /\b(Lei\s+Complementar|Lei)\s+N[º°oO]\.?\s*([\d.]+)\s*\/\s*(\d{2,4})\b/gi;
   while ((m = reAbrev.exec(texto))) {
@@ -1713,13 +1731,42 @@ export function extrairReferenciasLei(texto) {
     const tipoAto = /complementar/i.test(m[1]) ? "LEI COMPLEMENTAR" : "LEI";
     const numero = m[2].replace(/\./g, "");
     if (m[3].length === 4) {
-      out.push({ raw: m[0], tipoAto, numero, ano: m[3], chave: chaveLei(tipoAto, numero, m[3]) });
+      achados.push([m.index, { raw: m[0], tipoAto, numero, ano: m[3], chave: chaveLei(tipoAto, numero, m[3]) }]);
     } else {
       const n = parseInt(m[3], 10);
-      out.push({ raw: m[0], tipoAto, numero, anosCandidatos: [1900 + n, 2000 + n] });
+      achados.push([m.index, { raw: m[0], tipoAto, numero, anosCandidatos: [1900 + n, 2000 + n] }]);
     }
   }
+  // Forma só com o ANO, sem dia e mês — "Lei Complementar nº 12, de 1975" (rodada 30; ~1.100 ocorrências
+  // no acervo, a forma mais comum nas leis recentes). No município, o número de cada tipo de ato é
+  // único por ano (decisão do mantenedor, 20/11/2026): tipo + número + ano identifica a lei.
+  const reAno = /\b(Lei\s+Complementar|Lei)\s+N[º°oO]\.?\s*([\d.]+)\s*,?\s*de\s*(\d{4})\b/gi;
+  while ((m = reAno.exec(texto))) {
+    if (faixas.some(([ini, fim]) => m.index >= ini && m.index < fim)) continue;
+    const tipoAto = /complementar/i.test(m[1]) ? "LEI COMPLEMENTAR" : "LEI";
+    const numero = m[2].replace(/\./g, "");
+    achados.push([m.index, { raw: m[0], tipoAto, numero, ano: m[3], chave: chaveLei(tipoAto, numero, m[3]) }]);
+  }
+  // A 1ª lei citada é a lei-alvo (convenção de extrairComandosLei): a ordem é a do TEXTO, não a da forma.
+  achados.sort((a, b) => a[0] - b[0]);
+  const out = achados.map(a => a[1]);
   return out;
+}
+
+/**
+ * extrairReferenciaLeiOrganica(texto) → { raw, tipoAto, numero, ano, chave, presumida: true } | null
+ *
+ * "Lei Orgânica do Município (de Porto Alegre)" — sem número na frase — é resolvida PRESUMIDAMENTE
+ * para a Lei Orgânica nº 1, de 03/04/1990, a única vigente (decisão do mantenedor, 20/11/2026).
+ * Função À PARTE de extrairReferenciasLei de propósito: citar a Lei Orgânica de passagem não é
+ * referência a outra lei (preâmbulos citam o art. 94 etc.). Só extrairComandosLei a usa, como
+ * último recurso para o alvo de um comando, quando o artigo não cita nenhuma lei numerada.
+ * `presumida: true` avisa quem consome: nunca serve para recusar comando (leiAlvoBateComVersao) e
+ * não vale para ato anterior a 1990 (quem conhece a data da alteradora é que confere).
+ */
+export function extrairReferenciaLeiOrganica(texto) {
+  const m = /\bLei\s+Org[âa]nica\s+do\s+Munic[íi]pio(?:\s+de\s+Porto\s+Alegre)?/i.exec(String(texto || ""));
+  return m ? { raw: m[0], tipoAto: "LEI ORGÂNICA", numero: "1", ano: "1990", chave: chaveLei("LEI ORGÂNICA", "1", "1990"), presumida: true } : null;
 }
 
 /**
@@ -1821,7 +1868,9 @@ export function enderecarNrBloco(nrBloco, enderecoBase) {
   return out;
 }
 
-const RE_GATILHO_REVOGACAO   = /\brevoga(m|da|do|-se)?\b/i;
+// Só o VERBO: em JS o "ç" não é caractere de palavra, então `\b` depois de "revoga" casava o substantivo
+// "revogação" ("Ocorrendo a revogação do parcelamento…") e emitia revoke_node falso (rodada 30).
+const RE_GATILHO_REVOGACAO   = /\brevoga(m|da|do|-se)?(?![A-Za-zÀ-ÿ])/i;
 const RE_GATILHO_INSERCAO    = /\bacrescent\w*|\bfica(m)?\s+acrescid\w*|\binclu(i|em|ído|ída)\w*/i;
 const RE_GATILHO_SUBSTITUICAO = /passa\s+a\s+(ter\s+a\s+seguinte\s+reda[çc][ãa]o|vigorar)|d[áa]\s+nova\s+reda[çc][ãa]o|nova\s+reda[çc][ãa]o/i;
 
@@ -1873,7 +1922,7 @@ export function extrairComandosLei(docAlteradora, opts) {
   docAlteradora.artigos.forEach((art, i) => {
     const textoIntro = visText(art);
     const refsLei = extrairReferenciasLei(textoIntro);
-    const leiAlvoRef = refsLei[0] || null; // convenção: a 1ª lei citada no artigo é a lei-alvo do comando
+    const leiAlvoRef = refsLei[0] || extrairReferenciaLeiOrganica(textoIntro); // convenção: a 1ª lei citada no artigo é a lei-alvo do comando; sem nenhuma numerada, a Lei Orgânica presumida
     const leiAlvoResolvida = leiAlvoRef ? resolverReferenciaLei(leiAlvoRef, indiceColecao) : null;
 
     if (art.nrBloco) {
@@ -1930,6 +1979,12 @@ export function extrairComandosLei(docAlteradora, opts) {
 
     if (RE_GATILHO_REVOGACAO.test(textoIntro)) {
       const citsDispositivo = extrairCitacoesExternas(textoIntro);
+      if (citsDispositivo.some(c => c.incompleta)) {
+        // não age sobre endereço parcialmente ilegível: o motor nunca chuta o dispositivo revogado
+        comandos.push({ artigoOrigem: i+1, operacao: "indeterminado",
+          motivo: "revogação com citação de dispositivo incompleta (parte do endereço ilegível no texto)", raw: textoIntro });
+        return;
+      }
       if (citsDispositivo.length && leiAlvoRef) {
         citsDispositivo.forEach(c => comandos.push({
           artigoOrigem: i+1, operacao: "revoke_node", leiAlvo: leiAlvoRef, leiAlvoResolvida,

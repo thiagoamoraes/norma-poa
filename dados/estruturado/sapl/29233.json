@@ -2,8 +2,8 @@
  "idSapl": 29233,
  "rotulo": "Lei Complementar municipal nº 408, de 06 de janeiro de 1998",
  "sha256Origem": "c3a8ad2996723502db0deb8132808c1ded561e3fd30a8231eee60ccf58c318cb",
- "estruturadoEm": "2026-11-20T11:52:24.496Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:55.144Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "408",
@@ -28,10 +28,10 @@
    "texto": "® - Fica acrescido ao artigo 69 da Lei Comple mentar n® 07, de 07 de dezembro de 1973, especialmente alterado pe las Leis Complementares n® 209, de 28 de dezembro de 1989, e n® 228, de 27 de junho de 1990, § 5® com a seguinte redação, renumerando-se o atual § 5® para 6® e assim os demais, sucessivamente: •Art. 69 - ..."
   },
   {
-   "id": "art-1/par-unico",
+   "id": "art-1/par-5",
    "pai": "art-1",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 5º",
    "texto": "® - No caso do Imposto sobre Transmissão ‘Inter Vivos', por ato oneroso, de bens imóveis e de direitos reais a eles re lativos, a multa será de 2% (dois por cento) sobre o valor monetariamente atualizado do tributo.\""
   },
   {
@@ -50,12 +50,11 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "cabecalho_fora_do_padrao"
+   "cabecalho_fora_do_padrao",
+   "paragrafo_numerado_sem_irmao"
   ],
   "metricas": {
    "artigos": 3,
@@ -64,12 +63,7 @@
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "5"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

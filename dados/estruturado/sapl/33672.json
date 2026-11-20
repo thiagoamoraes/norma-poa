@@ -2,8 +2,8 @@
  "idSapl": 33672,
  "rotulo": "Lei Complementar municipal nº 521, de 20 de janeiro de 2005",
  "sha256Origem": "dcf8a174f2279758843bc85db08e3586d4fe227990afebebeb638e162016f843",
- "estruturadoEm": "2026-11-20T11:52:22.254Z",
- "versaoEstruturador": 7,
+ "estruturadoEm": "2026-11-20T13:59:52.982Z",
+ "versaoEstruturador": 9,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "521",
@@ -48,10 +48,10 @@
    "texto": "venda ou estocagem de combustíveis derivados de petróleo de qual quer natureza;"
   },
   {
-   "id": "art-1/par-unico",
+   "id": "art-1/par-1",
    "pai": "art-1",
    "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
+   "rotulo": "§ 1º",
    "texto": "Para fins desta Lei, consideram-se locais de grande concentração de público: hospitais, escolas, creches, templos religiosos, estádios e ginásios esportivos, casas de shows com metragem total superior a 300 m² (trezentos metros quadrados), pátios e estacionamentos de estabelecimentos comerciais varejistas com área total de varejo igual ou superior a 1.000 m² (mil metros quadrados) e logradouros de uso comum, tais como praças, parques e outros congêneres."
   },
   {
@@ -99,11 +99,11 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "paragrafo_numerado_sem_irmao"
   ],
-  "avisos": [],
   "metricas": {
    "artigos": 4,
    "dispositivos": 11,
@@ -111,12 +111,7 @@
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "1º"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }
