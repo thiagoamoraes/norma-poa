@@ -138,6 +138,12 @@ node teste_dopa_discovery.mjs <exe6179> <leg6171> <exe6180> <leg6112> <leg6158>
 
 **Pendências que aguardam exemplo real:** `veto_derrubado` (modelagem `visoes[]`, primeiros exemplos reais agora existem — modelagem **não decidida**); republicação Versão×Visão; inconstitucional/execução suspensa; inserção de artigo-irmão na raiz (só sintético); comando para Resolução/OS/etc. (sem extração). **Emenda à Lei Orgânica: cabeçalho extraído desde a rodada 22** (textos reais EC 2–51; `fixtures/emendas-lo/`; formatos com "N.º", sem "Nº", "DE2006", ano cortado → `ano`/`data` nulos, nunca inventados; `urnLei`/`chaveLei` ainda não). Resolução de Mesa, Decreto Legislativo e Precedente Legislativo: sem texto real ainda — `extrairCabecalhoLeiPublicada` só sinaliza `tipoNaoSuportado`, sem extrair número/data; `urnLei`/`chaveLei` não implementados pra eles (LexML não tem termo confirmado pra "ordem de serviço" nem, até onde pesquisado, pros demais raros).
 
+## Como a sessão trabalha agora (decisão do mantenedor, 20/11/2026)
+
+- **Direto na `main`, sem PR e sem ramo `wip/`** (a regra 10 do ROTEIRO, seção 0.3, fica suspensa por decisão dele). As disciplinas continuam: bateria antes e depois, teste novo que falha no código antigo, `normateste.mjs` byte a byte, CHANGELOG por rodada.
+- **Não commitar entre ~04:00 e ~09:40 UTC** (a coleta noturna grava na `main`; commit nosso nessa janela gera conflito nos arquivos gerados). Sempre `git pull --rebase origin main` antes de `git push`.
+- Estado e próximos passos: `dados/SITUACAO.md` e `ROTEIRO.md` (seção 1, "Estado em 20/11/2026"). Disparo da coleta: ROTEIRO 10-C (a tarefa agendada está ligada à sessão que a criou).
+
 ## Nunca
 
 - Rodar `normalizar()` sobre lei publicada · renumerar · remover dispositivo · pôr dependência ou I/O no core.

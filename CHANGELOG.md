@@ -1428,3 +1428,9 @@ no fecha-aspas, e o "(NR)" sobrava e grudava no dispositivo que introduz o bloco
 - Efeito nos 328 textos: aceitas 234 → 243, nenhuma deixou de ser aceita.
 - Não resolvido (defeito de fonte): LC 809/2017 — "(NR" truncado e número de página
   solto ("conforme segue: 3") no arquivo de origem; fica em revisão.
+
+## Passagem de sessão (20/11/2026)
+
+Sem mudança de código. Registrado: estado da tarefa 1 (62,6% aceitas em 823 textos),
+achados do `sem_fecho`, decisão pendente do 4º padrão de fecho, vínculo do disparo
+externo com a sessão e a forma de trabalhar direto na `main`.
