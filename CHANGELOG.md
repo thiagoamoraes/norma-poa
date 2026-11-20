@@ -1577,3 +1577,6 @@ Entrevista com o mantenedor (CLAUDE.md, decisões 17 a 20) e implementação, a 
 Sem mudança de código. Registrado: estado da tarefa 1 (62,6% aceitas em 823 textos),
 achados do `sem_fecho`, decisão pendente do 4º padrão de fecho, vínculo do disparo
 externo com a sessão e a forma de trabalhar direto na `main`.
+
+## Decisão 21 — banco de dados (20/11/2026)
+Só decisão, sem código: Supabase fica adiado; git segue como fonte da verdade. Gatilhos para reabrir e o contrato `decisoes.jsonl` ↔ tabela estão em `CLAUDE.md` (decisão 21). Testes não afetados.
