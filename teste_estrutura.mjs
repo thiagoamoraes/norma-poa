@@ -7,7 +7,7 @@
 
 import fs from 'node:fs';
 import { estruturarNorma, slugDoRotulo, conferirConservacao } from './ingestao/estrutura.mjs';
-import { htmlSirelParaTexto } from './ingestao/extracao-texto.mjs';
+import { htmlSirelParaTexto, prepararTextoExtraido } from './ingestao/extracao-texto.mjs';
 import { limparMarkdownLinks, parseLeiPublicada } from './norma-core.js';
 
 let passou = 0, falhou = 0;
@@ -48,6 +48,22 @@ const reg = (tipoSapl, numero) => regs.find((r) => r.tipoSapl === tipoSapl && r.
   ok('Lei 9.113/2003: a ementa não engole o "Faço saber"', !/Faço saber/.test(doc.ementa.texto) && doc.ementa.texto.startsWith('Denomina Avenida Homero Guerreiro'));
   const e = estruturarNorma(texto, reg(5, '9113'));
   ok('Lei 9.113/2003: aceita (2 artigos, parágrafo único, fecho)', e.verificacao.situacao === 'aceita' && e.dispositivos.map((d) => d.id).join(' ') === 'art-1 art-1/par-unico art-2' && !!e.fecho);
+}
+
+// --- LC 689/2012: “Art. e o número separados por quebra de linha (rodada 24) --
+// No PDF, a abertura do bloco de alteração veio partida: a linha traz só “Art.
+// e o número do artigo alterado ("25....") vem na linha seguinte. Sem juntar, o
+// bloco não é reconhecido e o inciso citado vira dispositivo da própria alteradora.
+{
+  const bruto = fs.readFileSync('./fixtures/textos/lc689_2012.txt', 'utf8');
+  const e = estruturarNorma(prepararTextoExtraido(bruto), reg(6, '689'));
+  ok('LC 689/2012: o bloco de alteração, de abertura partida, é reconhecido (1 bloco)', e.verificacao.metricas.blocosDeAlteracao === 1);
+  ok('LC 689/2012: o inciso citado NÃO vira dispositivo da alteradora (art-1 art-2 art-3)', e.dispositivos.map((d) => d.id).join(' ') === 'art-1 art-2 art-3');
+  ok('LC 689/2012: aceita, sem motivo de revisão', e.verificacao.situacao === 'aceita' && e.verificacao.motivos.length === 0);
+  ok('preparo: o arquivo guardado não muda; só a leitura junta (o bruto ainda tem “Art. sozinho)', /^\s*“Art\.\s*$/m.test(bruto));
+  ok('preparo (sintético): “Art. + número na linha seguinte → uma linha só', prepararTextoExtraido('texto:\n\n  “Art.\n 25.....\nIV – x').split('\n').map((l) => l.trim()).includes('“Art. 25.....'));
+  ok('preparo (sintético): “Art. seguido de linha que NÃO começa por algarismo fica como está', prepararTextoExtraido('“Art.\nFica alterado').split('\n')[0] === '“Art.');
+  ok('preparo (sintético): "Art." sem aspas de abertura nunca é juntado', prepararTextoExtraido('Art.\n5º Fica').split('\n')[0] === 'Art.');
 }
 
 // --- o que NÃO pode ser aceito ---------------------------------------------

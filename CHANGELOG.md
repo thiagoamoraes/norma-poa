@@ -1429,6 +1429,28 @@ no fecha-aspas, e o "(NR)" sobrava e grudava no dispositivo que introduz o bloco
 - Não resolvido (defeito de fonte): LC 809/2017 — "(NR" truncado e número de página
   solto ("conforme segue: 3") no arquivo de origem; fica em revisão.
 
+## Rodada 24 — `rotulo_nao_confere_com_a_origem`: análise e 1ª correção (tarefa 1, 20/11/2026)
+
+Análise dos 174 textos com esse motivo (por épocas: 91 até 1999 · 28 de 2000–2009 · 55 de 2010 em diante; 61 só com ele).
+O motivo cumpre o papel: o estruturador dá o rótulo por posição e a conferência o compara com o que está escrito.
+Quando diverge, é porque a árvore perdeu ou ganhou dispositivo, ou porque a lei escreveu diferente do posicional.
+Famílias (contagens por regra mecânica; algumas heurísticas, marcadas ~):
+
+- **Defeito de fonte — bloco engole artigo da própria lei** (~11): fecha-aspas ausente (Lei Compl. 766/2015, art. 10 sem fecho), fecha-aspas cedo demais (LC 957/2022, arts. 133-C a 133-F fora das aspas) ou "(NR)" truncado em `” (` (LC 1005/2024, engole os arts. 10 e 11). Ficam em revisão; não se corrige à mão.
+- **Defeito de fonte — numeração errada na própria lei** (LC 868/2019: "V – o art. 114" no lugar de "VII"). Fica em revisão.
+- **Texto de OCR / digitalização antiga** (~12 marcados `texto_de_ocr` e ~16 em que "Art. 1º" saiu "Art. 12"/"Art. 1®": 14 deles até 1999). Defeito de fonte.
+- **"§ 1º" escrito sozinho × "Parágrafo único." posicional** (~22, mais 4 no sentido inverso): a lei escreveu "§ 1º" sem "§ 2º" (ex. LC 521/2005 art. 1º; Lei Compl. 773/2015). A conferência está certa em reprovar. **Decisão do mantenedor pendente** (ver ROTEIRO, seção 9): o endereço passa a seguir o rótulo escrito ("o motor segue o que a lei fez") ou fica em revisão?
+- **Alteradora sem aspas** (~29, 1990–2003, ex. LC 267/1992 e LC 349/1995): a redação nova vem em texto corrido, sem aspas; o leitor a toma por dispositivo da própria alteradora. Forma legítima antiga que o motor não conhece; exige desenho próprio (sem exemplo suficiente de regra segura ainda).
+- **Forma legítima que o preparo não tratava — corrigida nesta rodada** (9 textos, 2013–2014): a extração do PDF parte a abertura do bloco em duas linhas (`“Art.` / `25......`). Sem juntar, `detectNRCandidates` não reconhece o bloco e o inciso citado vira dispositivo da alteradora.
+
+Correção (menor possível, na extração e não no core): `juntarAberturaDeBlocoPartida` em `ingestao/extracao-texto.mjs`,
+chamada por `prepararTextoExtraido` (o `.txt` guardado não muda). Só junta com aspa de abertura e número na linha seguinte.
+`norma-core.js` não foi tocado; `normateste.mjs` idêntico byte a byte.
+
+- `teste_estrutura.mjs` 28 → 35 (LC 689/2012 real em `fixtures/textos/lc689_2012.txt` + registro do catálogo; 4 asserções falham contra o código antigo; 3 são de fronteira: sem aspa, seguido de texto, `Art.` sozinho).
+- `VERSAO_ESTRUTURADOR` 6 (a coleta noturna reprocessa tudo).
+- Efeito medido nas 823 estruturações, norma a norma (sem gravar em `dados/`): 2 mudam de resultado, nenhuma piora. LC 689/2012 passa de revisar a **aceita**; a de 39249 perde o motivo de rótulo (segue em revisão por outros); 39563 passa de 5 para 3 dispositivos (bloco reconhecido). Demais bateria sem mudança.
+
 ## Passagem de sessão (20/11/2026)
 
 Sem mudança de código. Registrado: estado da tarefa 1 (62,6% aceitas em 823 textos),

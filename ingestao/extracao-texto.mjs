@@ -203,5 +203,31 @@ export function desfazerHifenizacao(texto) {
  * linha é desfeita. O arquivo .txt guardado NÃO é alterado.
  */
 export function prepararTextoExtraido(texto) {
-  return desfazerHifenizacao(String(texto).replace(/\f/g, '\n')).texto;
+  return juntarAberturaDeBlocoPartida(desfazerHifenizacao(String(texto).replace(/\f/g, '\n')).texto);
+}
+
+/**
+ * Abertura de bloco de alteração partida pela extração: a linha traz só a
+ * aspa de abertura e "Art." (`“Art.`) e o número do artigo alterado vem na
+ * linha seguinte (`25......`). Visto em PDFs de 2013–2014 (9 textos do acervo,
+ * entre eles a LC 689/2012). Junta as duas, descartando as linhas em branco do
+ * meio. Só junta quando há aspa de abertura e a linha seguinte começa por
+ * algarismo — "Art." sem aspa, ou seguido de texto, fica como está.
+ */
+export function juntarAberturaDeBlocoPartida(texto) {
+  const linhas = String(texto).split('\n');
+  const saida = [];
+  for (let i = 0; i < linhas.length; i++) {
+    if (/^\s*["“”']\s*Art(?:igo)?\.?\s*$/.test(linhas[i])) {
+      let k = i + 1;
+      while (k < linhas.length && !linhas[k].trim()) k++;
+      if (k < linhas.length && /^\s*\d/.test(linhas[k])) {
+        saida.push(linhas[i].trimEnd() + ' ' + linhas[k].trimStart());
+        i = k;
+        continue;
+      }
+    }
+    saida.push(linhas[i]);
+  }
+  return saida.join('\n');
 }
