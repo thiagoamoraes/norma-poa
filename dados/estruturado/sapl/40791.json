@@ -2,8 +2,8 @@
  "idSapl": 40791,
  "rotulo": "Lei Complementar municipal nº 799, de 16 de agosto de 2016",
  "sha256Origem": "34e8725b785e902978c47f106b8e7d447e91ab7ef2509d77645eb66f76fbc3e9",
- "estruturadoEm": "2026-11-20T16:24:16.062Z",
- "versaoEstruturador": 10,
+ "estruturadoEm": "2026-11-20T19:24:07.897Z",
+ "versaoEstruturador": 11,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "799",
@@ -537,7 +537,7 @@
    "pai": "art-39/inc-I",
    "tipo": "alinea",
    "rotulo": "c)",
-   "texto": "para volumetria: metros) do alinhamento da Av. Bento Gonçalves e, no interior, de 18m (dezoito metros);"
+   "texto": "para volumetria:"
   },
   {
    "id": "art-39/inc-I/ali-c/item-1",
@@ -551,7 +551,7 @@
    "pai": "art-39/inc-I/ali-c",
    "tipo": "item",
    "rotulo": "2.",
-   "texto": "altura de 52m (cinquenta e dois metros) até a profundidade de 60m (sessenta"
+   "texto": "altura de 52m (cinquenta e dois metros) até a profundidade de 60m (sessenta metros) do alinhamento da Av. Bento Gonçalves e, no interior, de 18m (dezoito metros);"
   },
   {
    "id": "art-39/inc-I/ali-d",
@@ -586,21 +586,21 @@
    "pai": "art-39/inc-II",
    "tipo": "alinea",
    "rotulo": "c)",
-   "texto": "para volumetria: 6 metros) do alinhamento da Av. Bento Gonçalves e, no interior, de 18m (dezoito metros);"
+   "texto": "para volumetria:"
   },
   {
    "id": "art-39/inc-II/ali-c/item-1",
    "pai": "art-39/inc-II/ali-c",
    "tipo": "item",
    "rotulo": "1.",
-   "texto": "taxa de ocupação de 75% (setenta e cinco por cento); e"
+   "texto": "taxa de ocupação de 75% (setenta e cinco por cento); e 6"
   },
   {
    "id": "art-39/inc-II/ali-c/item-2",
    "pai": "art-39/inc-II/ali-c",
    "tipo": "item",
    "rotulo": "2.",
-   "texto": "altura de 52m (cinquenta e dois metros) até a profundidade de 60m (sessenta"
+   "texto": "altura de 52m (cinquenta e dois metros) até a profundidade de 60m (sessenta metros) do alinhamento da Av. Bento Gonçalves e, no interior, de 18m (dezoito metros);"
   },
   {
    "id": "art-39/inc-II/ali-d",
@@ -1388,29 +1388,18 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
    "tem_anexo"
   ],
   "metricas": {
    "artigos": 62,
    "dispositivos": 195,
-   "cobertura": 0.954,
+   "cobertura": 0.964,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 67,
-     "amostra": "metrosdoalinhamentodaAvBentoGonçalvesenointeriorde18mdezoitometrosdpararecuodeja"
-    }
-   ],
-   "naoLocalizados": [
-    "para volumetria: metros) do alinhamento da Av. Bento Gonçalves e, no interior, d",
-    "para volumetria: 6 metros) do alinhamento da Av. Bento Gonçalves e, no interior,"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

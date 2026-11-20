@@ -2,8 +2,8 @@
  "idSapl": 28858,
  "rotulo": "Lei Complementar municipal nº 397, de 13 de janeiro de 1997",
  "sha256Origem": "28c2112b365f2ace03bf781e5c151d2801a957d494b962ae25cf1b69b79dfa1b",
- "estruturadoEm": "2026-11-20T16:24:19.906Z",
- "versaoEstruturador": 10,
+ "estruturadoEm": "2026-11-20T19:24:11.577Z",
+ "versaoEstruturador": 11,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -129,28 +129,28 @@
    "pai": "art-3/inc-I",
    "tipo": "alinea",
    "rotulo": "f)",
-   "texto": "em desacordo com o lndice de aproveitamento incidente na respectiva Unidade Territorial de Planejamento, mediante recolhimento das taxas a que se refere o inciso I, letra \"a\" deste artigo, e atendimento de uma das segui.!!. tes condições, por ordem preferencial: 170, inciso I, da Lei Complementar nº 43, de 21 de julho de 1979, em montante equivalente ao excesso de área construlda; ao excesso de área construlda, relativa à reserva de lndice construtivo da respectiva Unidade Territorial de Planejamento; ~ ~~, :ularização do excesso de área construlda. ~\\           § lº.  Quando a obra estiver em desacordo com mais de um dos dispositivos de controle das edificações, a regularização efetivar-se-á pelo pagame.!!. to de multa de maior valor, ressalvadas as hipóteses de operação com a reserva de lndice construtivo."
+   "texto": "em desacordo com o lndice de aproveitamento incidente na respectiva Unidade Territorial de Planejamento, mediante recolhimento das taxas a que se refere o inciso I, letra \"a\" deste artigo, e atendimento de uma das segui.!!. tes condições, por ordem preferencial:"
   },
   {
    "id": "art-3/inc-I/ali-f/item-1",
    "pai": "art-3/inc-I/ali-f",
    "tipo": "item",
    "rotulo": "1.",
-   "texto": "operação com a reserva de lndice construtivo, nos termos do artigo"
+   "texto": "operação com a reserva de lndice construtivo, nos termos do artigo 170, inciso I, da Lei Complementar nº 43, de 21 de julho de 1979, em montante equivalente ao excesso de área construlda;"
   },
   {
    "id": "art-3/inc-I/ali-f/item-2",
    "pai": "art-3/inc-I/ali-f",
    "tipo": "item",
    "rotulo": "2.",
-   "texto": "aquisição do Municlpio da faculdade de construir área equivalente"
+   "texto": "aquisição do Municlpio da faculdade de construir área equivalente ao excesso de área construlda, relativa à reserva de lndice construtivo da respectiva Unidade Territorial de Planejamento; ~"
   },
   {
    "id": "art-3/inc-I/ali-f/item-3",
    "pai": "art-3/inc-I/ali-f",
    "tipo": "item",
    "rotulo": "3.",
-   "texto": "pagamento de multa equivalente ao valor do terreno necessario a re"
+   "texto": "pagamento de multa equivalente ao valor do terreno necessario a re ~~, :ularização do excesso de área construlda. ~\\           § lº.  Quando a obra estiver em desacordo com mais de um dos dispositivos de controle das edificações, a regularização efetivar-se-á pelo pagame.!!. to de multa de maior valor, ressalvadas as hipóteses de operação com a reserva de lndice construtivo."
   },
   {
    "id": "art-3/par-unico",
@@ -241,8 +241,6 @@
   "situacao": "revisar",
   "motivos": [
    "cabecalho_nao_reconhecido",
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [
@@ -251,25 +249,10 @@
   "metricas": {
    "artigos": 11,
    "dispositivos": 31,
-   "cobertura": 0.912,
+   "cobertura": 0.985,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 95,
-     "amostra": "170incisoIdaLeiComplementarnº43de21dejulhode1979emmontanteequivalenteaoexcessode"
-    },
-    {
-     "tamanho": 105,
-     "amostra": "aoexcessodeáreaconstruldarelativaàreservadelndiceconstrutivodarespectivaUnidadeT"
-    },
-    {
-     "tamanho": 236,
-     "amostra": "ularizaçãodoexcessodeáreaconstruldalºQuandoaobraestiveremdesacordocommaisdeumdos"
-    }
-   ],
-   "naoLocalizados": [
-    "em desacordo com o lndice de aproveitamento incidente na respectiva Unidade Terr"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": [
     {
      "rotulo": "Art. 1º",
@@ -284,12 +267,12 @@
      "naOrigem": "c"
     },
     {
-     "rotulo": "Parágrafo único.",
-     "naOrigem": "elndiceconstrutivo2º"
+     "rotulo": "f)",
+     "naOrigem": "d"
     },
     {
      "rotulo": "Parágrafo único.",
-     "naOrigem": "Parágrafounico"
+     "naOrigem": "2º"
     }
    ]
   }

@@ -1580,3 +1580,11 @@ externo com a sessão e a forma de trabalhar direto na `main`.
 
 ## Decisão 21 — banco de dados (20/11/2026)
 Só decisão, sem código: Supabase fica adiado; git segue como fonte da verdade. Gatilhos para reabrir e o contrato `decisoes.jsonl` ↔ tabela estão em `CLAUDE.md` (decisão 21). Testes não afetados.
+
+## Rodada 35 — continuação de item (causa G3 de `trecho_nao_localizado_na_origem`, 20/11/2026)
+Pesquisa em `PLANO-TRECHO-NAO-LOCALIZADO.md` (55 normas recentes; em nenhuma o motor perdeu texto — a árvore guarda o texto, mas um pedaço fica no dispositivo errado). Causas: G1 título de agrupador em várias linhas (25), G2 frase tomada por agrupador (6), G3 continuação de item colada na alínea (5), G4 número de página/carimbo de processo (20), isoladas (6). A afirmação de G3 foi conferida à mão no texto real da LC 799/2016 (art. 39, inc. I, al. c, item 2: a linha "metros) do alinhamento…" colava na alínea).
+- **Core (`parseMinuta`, espelhado em `norma-simulacao.html`):** `last.it` guarda o último item; a linha de continuação vai para o item, não para a alínea. Diff pontual de 7 linhas.
+- **Teste novo:** `teste_item_continuacao.mjs` (4; texto real, `fixtures/textos/lc799_2016.*`). Contra o código antigo: 1 ok / 3 falhas.
+- **Bateria antes/depois idêntica** (core 153, promulgação parcial 72, estrutura 62, revisão 73, blocos sem aspas 26 etc.); `normateste.mjs` byte a byte igual.
+- `VERSAO_ESTRUTURADOR` 10 → 11. Acervo: aceitas 537 → 540 (36892, 40791, 43471), 0 perdas; recentes em revisão 131 → 128.
+- **Não feito (aguarda decisão do mantenedor):** G4 (número de página e carimbo saem do texto lido), G1/G2 (título de agrupador: até 3 linhas, `CAPÍTULO ÚNICO`), repetição de documento no arquivo. Ver o plano.

@@ -634,7 +634,7 @@ export function parseMinuta(raw, nrRanges) {
     dataSessao: "", assinatura: "", sigla: "PLL", ementa: null, preambulo: null, artigos: [],
     fecho: ""
   };
-  let stage = "epigrafe", last = { a:null, p:null, i:null, al:null }, emMode = false;
+  let stage = "epigrafe", last = { a:null, p:null, i:null, al:null, it:null }, emMode = false;
   let fechoBuf = [];
   // Fecho de lei já publicada (local/data de promulgação + bloco de assinaturas).
   // Sem isso, essas linhas grudam no texto do último dispositivo tocado.
@@ -736,7 +736,7 @@ export function parseMinuta(raw, nrRanges) {
     if (m = line.match(reArt)) {
       const n = mk("artigo", m[2], line.slice(0, line.length-m[2].length).trim());
       if (pendGrupos.length) { n.gruposAntes = pendGrupos; pendGrupos = []; }
-      doc.artigos.push(n); last = { a:n, p:null, i:null, al:null }; stage = "corpo"; continue;
+      doc.artigos.push(n); last = { a:n, p:null, i:null, al:null, it:null }; stage = "corpo"; continue;
     }
     if (stage !== "corpo") {
       // Preâmbulo em mais de uma linha ("O PREFEITO MUNICIPAL DE PORTO ALEGRE." /
@@ -775,12 +775,12 @@ export function parseMinuta(raw, nrRanges) {
       doc.ementa = doc.ementa ? { ...doc.ementa, texto: doc.ementa.texto+" "+line } : mk("ementa", line);
       continue;
     }
-    if (m = line.match(rePUn)) { const n=mk("paragrafo",m[1],"Parágrafo único"); last.a&&last.a.children.push(n); last.p=n; last.i=null; last.al=null; continue; }
-    if (m = line.match(rePar)) { const n=mk("paragrafo",m[2],line.slice(0,line.length-m[2].length).trim()); last.a&&last.a.children.push(n); last.p=n; last.i=null; last.al=null; continue; }
-    if (m = line.match(reInc)) { const n=mk("inciso",m[2]); (last.p||last.a)&&(last.p||last.a).children.push(n); last.i=n; last.al=null; continue; }
-    if ((m = line.match(reAli)) && last.i) { const n=mk("alinea",m[2]); last.i.children.push(n); last.al=n; continue; }
-    if ((m = line.match(reIte)) && last.al) { const n=mk("item",m[2]); last.al.children.push(n); continue; }
-    const t = last.al||last.i||last.p||last.a; if (t) t.texto = (t.texto+" "+line).trim();
+    if (m = line.match(rePUn)) { const n=mk("paragrafo",m[1],"Parágrafo único"); last.a&&last.a.children.push(n); last.p=n; last.i=null; last.al=null; last.it=null; continue; }
+    if (m = line.match(rePar)) { const n=mk("paragrafo",m[2],line.slice(0,line.length-m[2].length).trim()); last.a&&last.a.children.push(n); last.p=n; last.i=null; last.al=null; last.it=null; continue; }
+    if (m = line.match(reInc)) { const n=mk("inciso",m[2]); (last.p||last.a)&&(last.p||last.a).children.push(n); last.i=n; last.al=null; last.it=null; continue; }
+    if ((m = line.match(reAli)) && last.i) { const n=mk("alinea",m[2]); last.i.children.push(n); last.al=n; last.it=null; continue; }
+    if ((m = line.match(reIte)) && last.al) { const n=mk("item",m[2]); last.al.children.push(n); last.it=n; continue; }
+    const t = last.it||last.al||last.i||last.p||last.a; if (t) t.texto = (t.texto+" "+line).trim();
   }
   if (!doc.ementa) doc.ementa = mk("ementa","");
   if (fechoBuf.length) doc.fecho = fechoBuf.join("\n");

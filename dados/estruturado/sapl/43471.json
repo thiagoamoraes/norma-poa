@@ -2,8 +2,8 @@
  "idSapl": 43471,
  "rotulo": "Lei Complementar municipal nº 919, de 17 de novembro de 2021",
  "sha256Origem": "7a90c557a177370ea151b52623108cae38a0d6e52f05cd874ccfc79420902baa",
- "estruturadoEm": "2026-11-20T16:24:15.524Z",
- "versaoEstruturador": 10,
+ "estruturadoEm": "2026-11-20T19:24:07.396Z",
+ "versaoEstruturador": 11,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "919",
@@ -66,7 +66,7 @@
    "pai": "art-3/inc-II",
    "tipo": "alinea",
    "rotulo": "b)",
-   "texto": "comércio: forno a lenha; e"
+   "texto": "comércio:"
   },
   {
    "id": "art-3/inc-II/ali-b/item-1",
@@ -80,14 +80,14 @@
    "pai": "art-3/inc-II/ali-b",
    "tipo": "item",
    "rotulo": "2.",
-   "texto": "varejista de interferência ambiental 1, podendo ser bar, café, lancheria, farmácia, drogaria e padaria sem"
+   "texto": "varejista de interferência ambiental 1, podendo ser bar, café, lancheria, farmácia, drogaria e padaria sem forno a lenha; e"
   },
   {
    "id": "art-3/inc-II/ali-c",
    "pai": "art-3/inc-II",
    "tipo": "alinea",
    "rotulo": "c)",
-   "texto": "serviços: associação comunitários;"
+   "texto": "serviços:"
   },
   {
    "id": "art-3/inc-II/ali-c/item-1",
@@ -101,7 +101,7 @@
    "pai": "art-3/inc-II/ali-c",
    "tipo": "item",
    "rotulo": "2.",
-   "texto": "de interferência ambiental 1, podendo ser estabelecimento de ensino fundamental e conselho ou"
+   "texto": "de interferência ambiental 1, podendo ser estabelecimento de ensino fundamental e conselho ou associação comunitários;"
   },
   {
    "id": "art-3/inc-III",
@@ -133,23 +133,18 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
    "tem_anexo"
   ],
   "metricas": {
    "artigos": 4,
    "dispositivos": 16,
-   "cobertura": 0.958,
+   "cobertura": 0.979,
    "blocosDeAlteracao": 0,
    "lacunas": [],
-   "naoLocalizados": [
-    "comércio: forno a lenha; e",
-    "serviços: associação comunitários;"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

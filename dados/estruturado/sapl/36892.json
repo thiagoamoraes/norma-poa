@@ -2,8 +2,8 @@
  "idSapl": 36892,
  "rotulo": "Lei Complementar municipal nº 650, de 27 de agosto de 2010",
  "sha256Origem": "683ceec4e335d7ce7a357fff9acd199298125fe6c4a56761ad85f2078ddbf248",
- "estruturadoEm": "2026-11-20T16:24:17.078Z",
- "versaoEstruturador": 10,
+ "estruturadoEm": "2026-11-20T19:24:08.880Z",
+ "versaoEstruturador": 11,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "650",
@@ -101,21 +101,21 @@
    "pai": "art-1/par-1/inc-II",
    "tipo": "alinea",
    "rotulo": "c)",
-   "texto": "em desacordo com o índice de aproveitamento incidente narespectiva UEU, com o recolhimento das taxas referidas na al. “a” do inc.Ideste artigo, e com o atendimento de uma das seguintes condições: Complementar nº 434, de 1999, e alterações posteriores, emmontante equivalente ao excesso de área construída; e à regularização do excesso de área construída."
+   "texto": "em desacordo com o índice de aproveitamento incidente narespectiva UEU, com o recolhimento das taxas referidas na al. “a” do inc.Ideste artigo, e com o atendimento de uma das seguintes condições:"
   },
   {
    "id": "art-1/par-1/inc-II/ali-c/item-1",
    "pai": "art-1/par-1/inc-II/ali-c",
    "tipo": "item",
    "rotulo": "1.",
-   "texto": "operação com reserva de índice construtivo, nos termosdos arts. 51 e 52 da Lei"
+   "texto": "operação com reserva de índice construtivo, nos termosdos arts. 51 e 52 da Lei Complementar nº 434, de 1999, e alterações posteriores, emmontante equivalente ao excesso de área construída; e"
   },
   {
    "id": "art-1/par-1/inc-II/ali-c/item-2",
    "pai": "art-1/par-1/inc-II/ali-c",
    "tipo": "item",
    "rotulo": "2.",
-   "texto": "pagamento de multa equivalente a 30% (trinta por cento) dovalor do solo criado, necessário"
+   "texto": "pagamento de multa equivalente a 30% (trinta por cento) dovalor do solo criado, necessário à regularização do excesso de área construída."
   },
   {
    "id": "art-1/par-2",
@@ -322,30 +322,16 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 11,
    "dispositivos": 43,
-   "cobertura": 0.98,
+   "cobertura": 0.993,
    "blocosDeAlteracao": 0,
-   "lacunas": [
-    {
-     "tamanho": 93,
-     "amostra": "Complementarnº434de1999ealteraçõesposterioresemmontanteequivalenteaoexcessodeáre"
-    },
-    {
-     "tamanho": 41,
-     "amostra": "àregularizaçãodoexcessodeáreaconstruída2ºNasobrasqueestiverememdesacordocommaisd"
-    }
-   ],
-   "naoLocalizados": [
-    "em desacordo com o índice de aproveitamento incidente narespectiva UEU, com o re"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

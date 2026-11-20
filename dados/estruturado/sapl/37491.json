@@ -2,8 +2,8 @@
  "idSapl": 37491,
  "rotulo": "Lei Complementar municipal nº 678, de 22 de agosto de 2011",
  "sha256Origem": "601a0bc7368502239094297bd755eafe8efeac7c950906d87901064ec085e77e",
- "estruturadoEm": "2026-11-20T16:24:16.909Z",
- "versaoEstruturador": 10,
+ "estruturadoEm": "2026-11-20T19:24:08.734Z",
+ "versaoEstruturador": 11,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "678",
@@ -95,42 +95,42 @@
    "pai": "art-3/inc-I",
    "tipo": "alinea",
    "rotulo": "c)",
-   "texto": "deficiência visua l, em caso de: (zero vírgu la zero cinco) no melhor o lho, com a melhor correção óptica; três) e 0,05 (zero vír gu la zero cinco) no melho r olho , com a me lhor c orreção óptica; me nor que 60 o (sesse nta graus); ou itens desta alí nea ;"
+   "texto": "deficiência visua l, em caso de:"
   },
   {
    "id": "art-3/inc-I/ali-c/item-1",
    "pai": "art-3/inc-I/ali-c",
    "tipo": "item",
    "rotulo": "1.",
-   "texto": "cegue ira, na q ual a acu idade visua l é igual ou meno r que 0,05"
+   "texto": "cegue ira, na q ual a acu idade visua l é igual ou meno r que 0,05 (zero vírgu la zero cinco) no melhor o lho, com a melhor correção óptica;"
   },
   {
    "id": "art-3/inc-I/ali-c/item-2",
    "pai": "art-3/inc-I/ali-c",
    "tipo": "item",
    "rotulo": "2.",
-   "texto": "baixa visão , que significa acu idade visu al entre 0 ,3 (zero vírgu la"
+   "texto": "baixa visão , que significa acu idade visu al entre 0 ,3 (zero vírgu la três) e 0,05 (zero vír gu la zero cinco) no melho r olho , com a me lhor c orreção óptica;"
   },
   {
    "id": "art-3/inc-I/ali-c/item-3",
    "pai": "art-3/inc-I/ali-c",
    "tipo": "item",
    "rotulo": "3.",
-   "texto": "somatória da medida do campo visu al em ambos os o lhos igual o u"
+   "texto": "somatória da medida do campo visu al em ambos os o lhos igual o u me nor que 60 o (sesse nta graus); ou"
   },
   {
    "id": "art-3/inc-I/ali-c/item-4",
    "pai": "art-3/inc-I/ali-c",
    "tipo": "item",
    "rotulo": "4.",
-   "texto": "oco rrência simultânea de quaisqu er das cond ições descrit as no"
+   "texto": "oco rrência simultânea de quaisqu er das cond ições descrit as no itens desta alí nea ;"
   },
   {
    "id": "art-3/inc-I/ali-d",
    "pai": "art-3/inc-I",
    "tipo": "alinea",
    "rotulo": "d)",
-   "texto": "defic iênc ia me ntal, em ca so de func ioname nto int ele ctual significat ivam ente infer ior à méd ia, com manifestação antes do s 18 (dezoito) anos e limit ações assoc iadas a 2 (duas) ou mais áreas de habilidades adaptat ivas, tais como: 2"
+   "texto": "defic iênc ia me ntal, em ca so de func ioname nto int ele ctual significat ivam ente infer ior à méd ia, com manifestação antes do s 18 (dezoito) anos e limit ações assoc iadas a 2 (duas) ou mais áreas de habilidades adaptat ivas, tais como:"
   },
   {
    "id": "art-3/inc-I/ali-d/item-1",
@@ -165,7 +165,7 @@
    "pai": "art-3/inc-I/ali-d",
    "tipo": "item",
    "rotulo": "5.",
-   "texto": "saú de e segurança;"
+   "texto": "saú de e segurança; 2"
   },
   {
    "id": "art-3/inc-I/ali-d/item-6",
@@ -1394,21 +1394,9 @@
   "metricas": {
    "artigos": 51,
    "dispositivos": 185,
-   "cobertura": 0.958,
+   "cobertura": 0.97,
    "blocosDeAlteracao": 0,
    "lacunas": [
-    {
-     "tamanho": 65,
-     "amostra": "trêse005zerovírgulazerocinconomelhorolhocomamelhorcorreçãoóptica3somatóriadamedi"
-    },
-    {
-     "tamanho": 205,
-     "amostra": "itensdestaalíneaddeficiênciamentalemcasodefuncionamentointelectualsignificativam"
-    },
-    {
-     "tamanho": 198,
-     "amostra": "ParágrafoúnicoOdispostonoincIIdocaputdesteartigoaplicaseaindaàspessoascomidadeig"
-    },
     {
      "tamanho": 74,
      "amostra": "IIoplanejamentodeformacontinuadaearticuladaentreossetoresenvolvidosSeçãoIVDaImpl"
@@ -1419,8 +1407,6 @@
     }
    ],
    "naoLocalizados": [
-    "deficiência visua l, em caso de: (zero vírgu la zero cinco) no melhor o lho, com",
-    "defic iênc ia me ntal, em ca so de func ioname nto int ele ctual significat ivam",
     "O disposto no inc. II do caput deste artigo aplica-se, ainda, às pes so as com i",
     "o pla nejamento, de forma co nt inuada e art iculada, entr e o s setores envolvi"
    ],
