@@ -24,18 +24,20 @@ const carregar = (arq, tipo, numero) => {
   return { texto, e: estruturarNorma(texto, reg(tipo, numero)) };
 };
 
-// --- âncoras: caso real com rótulo que não confere (LC 1.005/2024) -----------
+// --- âncoras: caso real com rótulo que não confere (LC 859/2019: o veto tirou o fecha-aspas do bloco do art. 2º) ---
+// (a LC 1.005/2024, que servia aqui, passou a ser lida certa quando "( NR)" com espaço foi aceito)
 {
-  const { texto, e } = carregar('lc1005_2024', 6, '1005');
+  const texto = prepararTextoExtraido(fs.readFileSync('./fixtures/textos/lc859_2019.txt', 'utf8'));
+  const e = estruturarNorma(texto, JSON.parse(fs.readFileSync('./fixtures/textos/lc859_2019.json', 'utf8')));
   const a = ancorarConferencia(texto, e);
   const div = a.itens.filter((i) => i.situacao === 'rotulo_diverge');
-  ok('LC 1.005/2024: 3 rótulos não conferem (arts. 10, 11 e 12 posicionais)', div.map((i) => i.id).join(' ') === 'art-10 art-11 art-12');
-  ok('LC 1.005/2024: o que está escrito antes do trecho é "Art12" (o artigo 10 real foi engolido pelo bloco anterior)', div[0].naOrigem === 'Art12');
-  ok('LC 1.005/2024: a âncora de "Art. 10." aponta, no texto de origem, para o artigo que na lei é o 12', alnum(a.texto.slice(div[0].ini, div[0].fim)).startsWith(alnum('Ficam alterados na letra c do Anexo I')));
-  ok('LC 1.005/2024: o texto imediatamente antes da âncora traz "Art. 12"', /Art\.\s*12\.?\s*$/.test(a.texto.slice(Math.max(0, div[0].ini - 12), div[0].ini)));
-  ok('LC 1.005/2024: os dispositivos que conferem têm âncora que reproduz o próprio texto', a.itens.filter((i) => i.ref === 'dispositivo' && i.situacao === 'ok').every((i) => alnum(a.texto.slice(i.ini, i.fim)) === alnum(e.dispositivos.find((d) => d.id === i.id).texto)));
-  ok('LC 1.005/2024: o resumo bate com o do estruturador', a.resumo.rotulosDivergentes === e.verificacao.metricas.rotulosDivergentes.length && e.verificacao.motivos.includes('rotulo_nao_confere_com_a_origem'));
-  ok('âncoras seguem a ordem do texto de origem (nunca voltam)', a.itens.filter((i) => i.ini != null).every((i, k, v) => k === 0 || i.ini >= v[k - 1].ini));
+  ok('LC 859/2019: o rótulo "Art. 3º" não confere (o artigo 3º real foi engolido pelo bloco anterior)', div.length >= 1 && div[0].id === 'art-3');
+  ok('LC 859/2019: o que está escrito antes do trecho é "Art4" (o artigo 4º da lei)', /^Art4/.test(div[0].naOrigem));
+  ok('LC 859/2019: a âncora de "Art. 3º" aponta, no texto de origem, para o artigo que na lei é o 4º', alnum(a.texto.slice(div[0].ini, div[0].fim)).startsWith(alnum('Fica incluído parágrafo único no art. 8º')));
+  ok('LC 859/2019: o texto imediatamente antes da âncora traz "Art. 4º"', /Art\.\s*4[º°]?\s*$/.test(a.texto.slice(Math.max(0, div[0].ini - 12), div[0].ini)));
+  ok('LC 859/2019: os dispositivos que conferem têm âncora que reproduz o próprio texto', a.itens.filter((i) => i.ref === 'dispositivo' && i.situacao === 'ok').every((i) => alnum(a.texto.slice(i.ini, i.fim)) === alnum(e.dispositivos.find((d) => d.id === i.id).texto)));
+  ok('LC 859/2019: o resumo bate com o do estruturador (o estruturador guarda só os 5 primeiros)', Math.min(5, a.resumo.rotulosDivergentes) === e.verificacao.metricas.rotulosDivergentes.length && e.verificacao.motivos.includes('rotulo_nao_confere_com_a_origem'));
+ok('âncoras seguem a ordem do texto de origem (nunca voltam)', a.itens.filter((i) => i.ini != null).every((i, k, v) => k === 0 || i.ini >= v[k - 1].ini));
 }
 
 // --- âncoras: trecho não localizado (EC 39/2016) e norma aceita (LC 689/2012) -
@@ -95,7 +97,7 @@ const base = { idSapl: 48003, decisao: 'aceitar', sha256Origem: 'abc', versaoEst
 // --- F4: efeito das decisões nos relatórios ----------------------------------
 {
   // normas reais (fixtures): uma que o motor aceita e uma que reprova
-  const aceita = carregar('lc689_2012', 6, '689').e, reprova = carregar('lc1005_2024', 6, '1005').e;
+  const aceita = carregar('lc689_2012', 6, '689').e, reprova = estruturarNorma(prepararTextoExtraido(fs.readFileSync('./fixtures/textos/lc859_2019.txt', 'utf8')), JSON.parse(fs.readFileSync('./fixtures/textos/lc859_2019.json', 'utf8')));
   const nA = { idSapl: 38042, rotulo: 'LC 689/2012', epoca: 'recente', situacao: aceita.verificacao.situacao, motivos: aceita.verificacao.motivos, sha256Origem: 'sha-a', versaoEstruturador: 7 };
   const nR = { idSapl: 48003, rotulo: 'LC 1.005/2024', epoca: 'recente', situacao: reprova.verificacao.situacao, motivos: reprova.verificacao.motivos, sha256Origem: 'sha-r', versaoEstruturador: 7 };
   const dec = (n, decisao, extra = {}) => ({ idSapl: n.idSapl, decisao, sha256Origem: n.sha256Origem, versaoEstruturador: n.versaoEstruturador, em: '2026-11-20T12:00:00Z', ...extra });
@@ -134,10 +136,9 @@ const base = { idSapl: 48003, decisao: 'aceitar', sha256Origem: 'abc', versaoEst
   const semBase = descreverComandos(fs.readFileSync('./lc412.txt', 'utf8'), fonte('412', '1998-03-24'), () => null);
   ok('LC 412/1998 sem a LC 320 na base: nenhum antes/depois inventado, tudo "alvo_fora_da_base", classificação NÃO confiável', !semBase.classificacaoConfiavel && semBase.comandos.length > 0 && semBase.comandos.every((k) => k.situacao === 'alvo_fora_da_base' && k.antes === undefined && k.depois === undefined));
 
-  const r1005 = descreverComandos(fs.readFileSync('./fixtures/textos/lc1005_2024.txt', 'utf8'), fonte('1005', '2024-08-29'), () => null);
-  const alt = r1005.comandos.filter((k) => k.dispositivo === '§ 1º do art. 6º');
-  ok('LC 1.005/2024 (real, com "(NR)" truncado): o bloco que engoliu os arts. 10 e 11 aparece como comando com texto de OUTRO artigo ("Ficam criados…") — o defeito fica visível ao revisor', alt.length >= 2 && alt.some((k) => /^Ficam criados na letra c/.test(k.novo)) && alt.some((k) => /^Integram a estrutura/.test(k.novo)));
-  ok('LC 1.005/2024: as leis-alvo são identificadas pelo nome, mesmo fora da base', r1005.comandos.every((k) => k.chave) && r1005.comandos.some((k) => k.chave === 'lc 817/2017'));
+  const r859 = descreverComandos(fs.readFileSync('./fixtures/textos/lc859_2019.txt', 'utf8'), fonte('859', '2019-09-03'), () => null);
+  ok('LC 859/2019 (real, sem fecha-aspas no bloco do art. 2º): nenhum comando aparece para os arts. 5º e 7º (que os arts. 2º e 3º dizem alterar) — o bloco engoliu o artigo seguinte e o defeito fica visível ao revisor', r859.comandos.length > 0 && !r859.comandos.some((k) => /art\. (5|7)º$/.test(k.dispositivo)) && r859.comandos.some((k) => /art\. 8º-a$/.test(k.dispositivo)));
+  ok('LC 859/2019: as leis-alvo são identificadas pelo nome, mesmo fora da base', r859.comandos.every((k) => k.chave) && r859.comandos.some((k) => k.chave === 'lc 7/1973'));
   ok('texto que não é lei não derruba a descrição', descreverComandos('lixo', fonte('1', '2000-01-01'), () => null).comandos.length === 0);
 }
 
@@ -211,9 +212,10 @@ const base = { idSapl: 48003, decisao: 'aceitar', sha256Origem: 'abc', versaoEst
 {
   ok('todo título de motivo é texto em português, sem o código técnico (sem "_")', Object.values(TITULOS_DE_MOTIVO).every((t) => /\S/.test(t) && !/_/.test(t)));
   ok('motivo desconhecido não derruba: "Motivo ainda sem título"', tituloDoMotivo('inventado_xyz') === 'Motivo ainda sem título' && tituloDoMotivo('sem_fecho') === 'Fecho (local, data e assinaturas) não reconhecido');
-  const { texto, e } = carregar('lc1005_2024', 6, '1005');
+  const texto = prepararTextoExtraido(fs.readFileSync('./fixtures/textos/lc859_2019.txt', 'utf8'));
+  const e = estruturarNorma(texto, JSON.parse(fs.readFileSync('./fixtures/textos/lc859_2019.json', 'utf8')));
   const a = ancorarConferencia(texto, e);
-  ok('LC 1.005/2024 (real): pontosDaNorma soma o que o painel mostra (3 rótulos que não conferem)', pontosDaNorma({ resumo: a.resumo }) === 3 && pontosDaNorma({ resumo: a.resumo, fronteiras: [{}, {}] }) === 5 && pontosDaNorma(null) === 0);
+  ok('LC 859/2019 (real): pontosDaNorma soma o que o painel mostra (18 rótulos que não conferem)', pontosDaNorma({ resumo: a.resumo }) === 18 && pontosDaNorma({ resumo: a.resumo, fronteiras: [{}, {}] }) === 20 && pontosDaNorma(null) === 0);
   const base = { idSapl: 1, decisao: 'aceitar', sha256Origem: 'abc', versaoEstruturador: 7, em: '2026-11-20T12:00:00Z' };
   ok(`(sintético) aceitar norma com até ${LIMITE_PONTOS_CONFIRMACAO} pontos não exige confirmação`, validarDecisao({ ...base, pontosNaHora: LIMITE_PONTOS_CONFIRMACAO }).ok && validarDecisao(base).ok);
   ok('(sintético) aceitar norma com MAIS de 20 pontos sem confirmar é recusado; confirmando todos, vale', !validarDecisao({ ...base, pontosNaHora: 290 }).ok && !validarDecisao({ ...base, pontosNaHora: 290, confirmouPontos: 100 }).ok && validarDecisao({ ...base, pontosNaHora: 290, confirmouPontos: 290 }).ok);

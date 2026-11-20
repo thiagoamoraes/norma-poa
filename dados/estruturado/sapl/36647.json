@@ -2,8 +2,8 @@
  "idSapl": 36647,
  "rotulo": "Lei Complementar municipal nº 640, de 09 de março de 2010",
  "sha256Origem": "e9dadf3e61fdf3429a9ac9f3d9b96966851cf5fcabb59567f258370443c46079",
- "estruturadoEm": "2026-11-20T22:03:40.840Z",
- "versaoEstruturador": 13,
+ "estruturadoEm": "2026-11-20T22:44:10.905Z",
+ "versaoEstruturador": 14,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "640",
@@ -112,7 +112,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 12.",
-   "texto": "No Capítulo VIII do Título II da Lei Complementar nº 628, de 2009, ficam renomeadas a Seção II e sua Subseção I, conforme segue: “Seção II Da prova de Conhecimentos e da Eleição no Processo de Escolha dos Conselheiros Tutelares"
+   "texto": "No Capítulo VIII do Título II da Lei Complementar nº 628, de 2009, ficam renomeadas a Seção II e sua Subseção I, conforme segue:",
+   "blocoDeAlteracao": "“Seção II\nDa prova de Conhecimentos e da Eleição no\nProcesso de Escolha dos Conselheiros Tutelares\nSubseção I\nDa Prova de Conhecimentos” (NR)"
   },
   {
    "id": "art-13",
@@ -120,13 +121,6 @@
    "tipo": "artigo",
    "rotulo": "Art. 13.",
    "texto": "Fica alterado o art. 49 da Lei Complementar nº 628, de 2009, conforme segue:",
-   "agrupadores": [
-    {
-     "tipo": "subsecao",
-     "numero": "I",
-     "titulo": "Da Prova de Conhecimentos” (NR)"
-    }
-   ],
    "blocoDeAlteracao": "“Art. 49. O CMDCA publicará lista contendo os nomes dos\nhabilitantes aptos a prestar a prova de conhecimentos e os nomes das entidades que certificaram o cumprimento do requisito previsto no inc. V do\n‘caput’ do art. 48 desta Lei Complementar, e determinará a abertura do prazo para a interposição de recursos aos habilitantes considerados não aptos.\nParágrafo único. O recurso será encaminhado ao CMDCA e\ndeverá ter por objeto a análise ou a interpretação da documentação apresentada, sendo vedada a juntada de novos documentos.” (NR)"
   },
   {
@@ -245,7 +239,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 28.",
-   "texto": "Fica renomeada a Subseção IV da Seção II do Ca pítulo VIII do Título II da Lei Complementar nº 628, de 2009, conforme segue: “Subseção IV Da Publicação da Lista dos Habilitantes” (NR)"
+   "texto": "Fica renomeada a Subseção IV da Seção II do Ca pítulo VIII do Título II da Lei Complementar nº 628, de 2009, conforme segue:",
+   "blocoDeAlteracao": "“Subseção IV\nDa Publicação da Lista dos Habilitantes” (NR)"
   },
   {
    "id": "art-29",
@@ -527,8 +522,8 @@
   "metricas": {
    "artigos": 49,
    "dispositivos": 64,
-   "cobertura": 0.982,
-   "blocosDeAlteracao": 43,
+   "cobertura": 0.983,
+   "blocosDeAlteracao": 45,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

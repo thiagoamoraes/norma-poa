@@ -2,8 +2,8 @@
  "idSapl": 38274,
  "rotulo": "Lei Complementar municipal nº 696, de 04 de junho de 2012",
  "sha256Origem": "9b1593770652274d082b2c5b9477a85b6c48265aec14ce57e3652a9066488c85",
- "estruturadoEm": "2026-11-20T22:03:40.423Z",
- "versaoEstruturador": 13,
+ "estruturadoEm": "2026-11-20T22:44:10.473Z",
+ "versaoEstruturador": 14,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "696",
@@ -352,7 +352,7 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 10.",
-   "texto": "Para atender às despesasdecorrentes da execução desta Lei Complementar, fica o Executivo Municipalautorizado a abrir crédito adicional especial, obedecidas às prescriçõescontidas nos incs. I a IV do",
+   "texto": "Para atender às despesasdecorrentes da execução desta Lei Complementar, fica o Executivo Municipalautorizado a abrir crédito adicional especial, obedecidas às prescriçõescontidas nos incs. I a IV do § 1º do art. 43 da Lei Federal nº 4.320, de 17 demarço de 1964, e alterações posteriores.",
    "agrupadores": [
     {
      "tipo": "capitulo",
@@ -360,13 +360,6 @@
      "titulo": "DISPOSIÇÕES FINAIS"
     }
    ]
-  },
-  {
-   "id": "art-10/par-1",
-   "pai": "art-10",
-   "tipo": "paragrafo",
-   "rotulo": "§ 1º",
-   "texto": "do art. 43 da Lei Federal nº 4.320, de 17 demarço de 1964, e alterações posteriores."
   },
   {
    "id": "art-11",
@@ -394,13 +387,12 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "cabecalho_fora_do_padrao",
-   "paragrafo_numerado_sem_irmao"
+   "cabecalho_fora_do_padrao"
   ],
   "metricas": {
    "artigos": 13,
-   "dispositivos": 46,
-   "cobertura": 0.962,
+   "dispositivos": 45,
+   "cobertura": 0.963,
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],

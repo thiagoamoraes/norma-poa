@@ -2,8 +2,8 @@
  "idSapl": 40278,
  "rotulo": "Lei Complementar municipal nº 773, de 08 de outubro de 2015",
  "sha256Origem": "0fdcc33987cadfc80df790951eff3089916dec2a4e72b31849fa261b55dc3514",
- "estruturadoEm": "2026-11-20T22:03:39.918Z",
- "versaoEstruturador": 13,
+ "estruturadoEm": "2026-11-20T22:44:09.922Z",
+ "versaoEstruturador": 14,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "773",
@@ -297,20 +297,13 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 10.",
-   "texto": "As execuções fiscais cujos créditos forem objeto do parcelamento especial desta Lei Complementar serão suspensas até a quitação do parcelamento mantendo-se as penhoras já efetivadas, salvo as penhoras em dinheiro, que serão convertidas em renda em favor da Fazenda Municipal com a consequente amortização do valor parcelado, conforme previsto no"
+   "texto": "As execuções fiscais cujos créditos forem objeto do parcelamento especial desta Lei Complementar serão suspensas até a quitação do parcelamento mantendo-se as penhoras já efetivadas, salvo as penhoras em dinheiro, que serão convertidas em renda em favor da Fazenda Municipal com a consequente amortização do valor parcelado, conforme previsto no § 5º do art. 2º."
   },
   {
-   "id": "art-10/par-1",
+   "id": "art-10/par-unico",
    "pai": "art-10",
    "tipo": "paragrafo",
-   "rotulo": "§ 1º",
-   "texto": "do art. 2º."
-  },
-  {
-   "id": "art-10/par-2",
-   "pai": "art-10",
-   "tipo": "paragrafo",
-   "rotulo": "§ 2º",
+   "rotulo": "Parágrafo único.",
    "texto": "Serão devidos honorários advocatícios nos casos previstos no caput deste artigo, equivalentes a 5% (cinco por cento) do valor parcelado, independente do que estiver fixado judicialmente, e serão pagos proporcionalmente, em cada parcela, nos termos do Decreto regulamentador."
   },
   {
@@ -350,28 +343,17 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 14,
-   "dispositivos": 47,
+   "dispositivos": 46,
    "cobertura": 0.97,
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "§ 1º",
-     "naOrigem": "5º"
-    },
-    {
-     "rotulo": "§ 2º",
-     "naOrigem": "Parágrafoúnico"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

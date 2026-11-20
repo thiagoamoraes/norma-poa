@@ -2,8 +2,8 @@
  "idSapl": 36114,
  "rotulo": "Lei Complementar municipal nº 614, de 30 de abril de 2009",
  "sha256Origem": "331235585b70dcee4cf2d4e5e1e0107182260cf54824d33ec1b33423f88b47c1",
- "estruturadoEm": "2026-11-20T22:03:41.002Z",
- "versaoEstruturador": 13,
+ "estruturadoEm": "2026-11-20T22:44:11.094Z",
+ "versaoEstruturador": 14,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "614",
@@ -164,35 +164,21 @@
    "pai": "art-5",
    "tipo": "paragrafo",
    "rotulo": "§ 2º",
-   "texto": "Decorrido o prazo estabelecido no § 1º do art. 4º desta Lei Complementar, sem o cumprimento dos procedimentos de responsabilidade do Executivo Municipal, esta Lei Complementar passa a viger com a derrogação do art. 4º e do"
-  },
-  {
-   "id": "art-5/par-3",
-   "pai": "art-5",
-   "tipo": "paragrafo",
-   "rotulo": "§ 3º",
-   "texto": "deste artigo."
+   "texto": "Decorrido o prazo estabelecido no § 1º do art. 4º desta Lei Complementar, sem o cumprimento dos procedimentos de responsabilidade do Executivo Municipal, esta Lei Complementar passa a viger com a derrogação do art. 4º e do § 1º deste artigo."
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 5,
-   "dispositivos": 22,
-   "cobertura": 0.976,
+   "dispositivos": 21,
+   "cobertura": 0.977,
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "§ 3º",
-     "naOrigem": "1º"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

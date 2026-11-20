@@ -2,8 +2,8 @@
  "idSapl": 38364,
  "rotulo": "Lei Complementar municipal nº 701, de 18 de julho de 2012",
  "sha256Origem": "afd05bf584b641a46c34b2331d0369d857684afbf2ff5243076ae32aa0011bcf",
- "estruturadoEm": "2026-11-20T22:03:40.330Z",
- "versaoEstruturador": 13,
+ "estruturadoEm": "2026-11-20T22:44:10.380Z",
+ "versaoEstruturador": 14,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "701",
@@ -316,17 +316,17 @@
    "texto": "ajuizar ações de improbidadeadministrativa e medidas cautelares;"
   },
   {
-   "id": "art-5/inciso-sem-rotulo",
+   "id": "art-5/inc-XXVI",
    "pai": "art-5",
    "tipo": "inciso",
-   "rotulo": "26 –",
+   "rotulo": "XXVI –",
    "texto": "proporcionar      o   permanenteaprimoramento   técnico-jurídico   aos integrantes da carreira; e"
   },
   {
-   "id": "art-5/inciso-sem-rotulo~2",
+   "id": "art-5/inc-XXVII",
    "pai": "art-5",
    "tipo": "inciso",
-   "rotulo": "27 –",
+   "rotulo": "XXVII –",
    "texto": "exercer outras atribuiçõesnecessárias, nos termos do seu Regimento Interno, estabelecido por decreto."
   },
   {
@@ -3759,10 +3759,7 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "dispositivo_sem_rotulo",
-   "endereco_repetido",
-   "trecho_nao_localizado_na_origem",
-   "rotulo_nao_confere_com_a_origem"
+   "trecho_nao_localizado_na_origem"
   ],
   "avisos": [
    "cabecalho_fora_do_padrao"
@@ -3776,16 +3773,7 @@
    "naoLocalizados": [
     "Somente será admitida a distribuição se oscandidatos estiverem com suas atividad"
    ],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "26 –",
-     "naOrigem": "XXVI"
-    },
-    {
-     "rotulo": "27 –",
-     "naOrigem": "XXVII"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

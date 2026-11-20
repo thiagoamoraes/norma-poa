@@ -2,8 +2,8 @@
  "idSapl": 48003,
  "rotulo": "Lei Complementar municipal nº 1.005, de 08 de fevereiro de 2024",
  "sha256Origem": "348fd1522feb9515cdfa3eb6596435182b586720bd3a4e9a69d721ae977668bd",
- "estruturadoEm": "2026-11-20T22:03:38.994Z",
- "versaoEstruturador": 13,
+ "estruturadoEm": "2026-11-20T22:44:08.926Z",
+ "versaoEstruturador": 14,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1005",
@@ -172,59 +172,73 @@
    "tipo": "artigo",
    "rotulo": "Art. 9º",
    "texto": "Fica alterado o § 1º do art. 6º da Lei Complementar nº 817, de 30 de agosto de 2017, conforme segue:",
-   "blocoDeAlteracao": "“Art. 6º ……………………………….......................................................................\n…………………………………..……………………..............................................\n§ 1º Integram a estrutura do Gabinete do Prefeito (GP) o Gabinete do Vice-Prefeito\n(GVP), o Gabinete da Inovação (GI), o Gabinete da Causa Animal (GCA) e a Defesa Civil de\nPorto Alegre (DCPA).\n........................................................................................................................” ( NR)\nArt. 10. Ficam criados na letra c do Anexo I da Lei nº 6.309, de 28 de dezembro\nde 1988, e alterações posteriores, os seguintes Cargos em Comissão (CC):\nI – 1 (um) cargo de Diretor-Geral – CC8 (1.1.2.8); e\nII – 2 (dois) cargos de Coordenador – CC7 (1.1.2.7)\nArt. 11. Fica alterado o inc. XIX do art.1º da Lei nº 11.404, de 27 de dezembro de\n2012, e alterações posteriores, conforme segue:\n“Art. 1º ......................................................................................................................\n....................................................................................................................................\nXIX – Diretor-Geral, no total de 64 (sessenta e quatro);\n.........................................................................................................................” (NR)"
+   "blocoDeAlteracao": "“Art. 6º ……………………………….......................................................................\n…………………………………..……………………..............................................\n§ 1º Integram a estrutura do Gabinete do Prefeito (GP) o Gabinete do Vice-Prefeito\n(GVP), o Gabinete da Inovação (GI), o Gabinete da Causa Animal (GCA) e a Defesa Civil de\nPorto Alegre (DCPA).\n........................................................................................................................” ( NR)"
   },
   {
    "id": "art-10",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 10.",
-   "texto": "Ficam alterados na letra c do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores, os quantitativos dos cargos, conforme o Anexo desta Lei Complementar."
+   "texto": "Ficam criados na letra c do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores, os seguintes Cargos em Comissão (CC):"
+  },
+  {
+   "id": "art-10/inc-I",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "1 (um) cargo de Diretor-Geral – CC8 (1.1.2.8); e"
+  },
+  {
+   "id": "art-10/inc-II",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "2 (dois) cargos de Coordenador – CC7 (1.1.2.7)"
   },
   {
    "id": "art-11",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 11.",
-   "texto": "Fica o Executivo Municipal autorizado a abrir crédito especial e extraordinário na Lei Orçamentária Anual (LOA), obedecidas as prescrições contidas nos incs. I a IV do § 1º do art. 43 da Lei Federal nº 4.320, de 17 de março de 1964, e alterações posteriores, para fazer frente às despesas com programa de recuperação emergencial e auxílio humanitário instituído por esta Lei Complementar, bem como proceder às alterações necessárias no Plano Plurianual (PPA) e na Lei de Diretrizes Orçamentárias (LDO)."
+   "texto": "Fica alterado o inc. XIX do art.1º da Lei nº 11.404, de 27 de dezembro de 2012, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º ......................................................................................................................\n....................................................................................................................................\nXIX – Diretor-Geral, no total de 64 (sessenta e quatro);\n.........................................................................................................................” (NR)"
   },
   {
    "id": "art-12",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 12.",
+   "texto": "Ficam alterados na letra c do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores, os quantitativos dos cargos, conforme o Anexo desta Lei Complementar."
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "texto": "Fica o Executivo Municipal autorizado a abrir crédito especial e extraordinário na Lei Orçamentária Anual (LOA), obedecidas as prescrições contidas nos incs. I a IV do § 1º do art. 43 da Lei Federal nº 4.320, de 17 de março de 1964, e alterações posteriores, para fazer frente às despesas com programa de recuperação emergencial e auxílio humanitário instituído por esta Lei Complementar, bem como proceder às alterações necessárias no Plano Plurianual (PPA) e na Lei de Diretrizes Orçamentárias (LDO)."
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
    "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
    "tem_anexo"
   ],
   "metricas": {
-   "artigos": 12,
-   "dispositivos": 25,
-   "cobertura": 0.963,
-   "blocosDeAlteracao": 1,
+   "artigos": 14,
+   "dispositivos": 29,
+   "cobertura": 0.96,
+   "blocosDeAlteracao": 2,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "Art. 10.",
-     "naOrigem": "Art12"
-    },
-    {
-     "rotulo": "Art. 11.",
-     "naOrigem": "Art13"
-    },
-    {
-     "rotulo": "Art. 12.",
-     "naOrigem": "Art14"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

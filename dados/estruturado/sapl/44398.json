@@ -2,8 +2,8 @@
  "idSapl": 44398,
  "rotulo": "Lei Complementar municipal nº 960, de 05 de outubro de 2022",
  "sha256Origem": "718c3afaa721296f7224ed6109b9a8d42180ac4e956ead278e301d0016a83f99",
- "estruturadoEm": "2026-11-20T22:03:39.146Z",
- "versaoEstruturador": 13,
+ "estruturadoEm": "2026-11-20T22:44:09.107Z",
+ "versaoEstruturador": 14,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "960",
@@ -741,10 +741,10 @@
    "texto": "ficam redefinidos os limites da SUBUEU 1 e criadas as SUBUEUs 3 e 4 na UEU 020 da MZ 2; e"
   },
   {
-   "id": "art-11/inciso-sem-rotulo",
+   "id": "art-11/inc-XXVI",
    "pai": "art-11",
    "tipo": "inciso",
-   "rotulo": "26 –",
+   "rotulo": "XXVI –",
    "texto": "ficam redefinidos os limites da SUBUEU 2 da UEU 020 da MZ 2."
   },
   {
@@ -1766,11 +1766,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "dispositivo_sem_rotulo",
-   "rotulo_nao_confere_com_a_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 38,
@@ -1779,12 +1776,7 @@
    "blocosDeAlteracao": 2,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "26 –",
-     "naOrigem": "XXVI"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

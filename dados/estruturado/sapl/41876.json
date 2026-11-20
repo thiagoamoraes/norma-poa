@@ -2,8 +2,8 @@
  "idSapl": 41876,
  "rotulo": "Lei Complementar municipal nº 838, de 18 de dezembro de 2018",
  "sha256Origem": "1517f7475462c83171f1c76619a7c3a553e50237133e4ff23adf2e7ea162f2f0",
- "estruturadoEm": "2026-11-20T22:03:39.688Z",
- "versaoEstruturador": 13,
+ "estruturadoEm": "2026-11-20T22:44:09.708Z",
+ "versaoEstruturador": 14,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "838",
@@ -543,35 +543,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 26.",
-   "texto": "No inc. XV da Tabela IV da Lei Complementar nº 7, de 1973, e alterações posteriores, ficam alterados o caput e as als. a e b e fica incluída al. c, conforme segue: “TABELA IV .............................................................................................................................. ................................................................................................................................"
-  },
-  {
-   "id": "art-26/inc-I",
-   "pai": "art-26",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "Estudo de Viabilidade e Licenciamento das Estações Transmissoras de Radiocomunicação (ETR):"
-  },
-  {
-   "id": "art-26/inc-I/ali-a",
-   "pai": "art-26/inc-I",
-   "tipo": "alinea",
-   "rotulo": "a)",
-   "texto": "Estudo de Viabilidade Urbanística (EVU) de edificações para Estações Rádio Base   2.500"
-  },
-  {
-   "id": "art-26/inc-I/ali-b",
-   "pai": "art-26/inc-I",
-   "tipo": "alinea",
-   "rotulo": "b)",
-   "texto": "Reconsideração de EVU de edificação                                500"
-  },
-  {
-   "id": "art-26/inc-I/ali-c",
-   "pai": "art-26/inc-I",
-   "tipo": "alinea",
-   "rotulo": "c)",
-   "texto": "Licenciamento das Estações Transmissoras de Radiocomunicação                                                      800 .........................................................................................................................” (NR)"
+   "texto": "No inc. XV da Tabela IV da Lei Complementar nº 7, de 1973, e alterações posteriores, ficam alterados o caput e as als. a e b e fica incluída al. c, conforme segue:",
+   "blocoDeAlteracao": "“TABELA IV\n..............................................................................................................................\n................................................................................................................................\nXV – Estudo de Viabilidade e Licenciamento das Estações Transmissoras de\nRadiocomunicação (ETR):\na) Estudo de Viabilidade Urbanística (EVU) de edificações para Estações Rádio\nBase   2.500\nb) Reconsideração de EVU de edificação                                500\nc) Licenciamento das Estações Transmissoras de Radiocomunicação                                                      800\n.........................................................................................................................” (NR)"
   },
   {
    "id": "art-27",
@@ -645,24 +618,17 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 33,
-   "dispositivos": 80,
+   "dispositivos": 76,
    "cobertura": 0.966,
-   "blocosDeAlteracao": 1,
+   "blocosDeAlteracao": 2,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "I –",
-     "naOrigem": "XV"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

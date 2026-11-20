@@ -180,7 +180,7 @@ export function desfazerHifenizacao(texto) {
       const mFim = /([\p{L}]+)-\s*$/u.exec(atual);
       const prox = linhas[i + 1];
       const mIni = prox !== undefined ? /^\s*([\p{L}]+)(.?)/u.exec(prox) : null;
-      if (!mFim || !mIni || mIni[2] === ')' || /^\s*(?:[IVXLCDM]+\s*[-–—]|Art\.|Par[áa]grafo\s+[úu]nico)/.test(prox)) break;
+      if (!mFim || !mIni || (mIni[2] === ')' && (mIni[1].length === 1 || mIni[1][0] === mIni[1][1])) || /^\s*(?:[IVXLCDM]+\s*[-–—]|Art\.|Par[áa]grafo\s+[úu]nico)/.test(prox)) break;
       const a = mFim[1], b = mIni[1];
       const junta = (a + b).toLowerCase(), hifenada = (a + '-' + b).toLowerCase();
       let manter;
