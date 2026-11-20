@@ -149,3 +149,40 @@ export function listaParaOMotor(normas, decisoes) {
   }
   return L.join('\n') + '\n';
 }
+
+// ── Roteiro de conferência (decisão do mantenedor, 20/11/2026) ───────────────────────────────────────
+// Norma sem ponto marcado no texto (44 de 131 recentes em 20/11/2026): o revisor não deve "caçar". Em linguagem
+// dele, e antes da decisão, a página diz O QUE olhar e já recorta o trecho do arquivo onde olhar.
+
+const linhasNaoVazias = (texto) => String(texto || '').split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+
+/**
+ * roteiroDeConferencia(motivos, texto) → [{ chave, titulo, instrucao, trecho }]
+ *  - cabeçalho/artigos/tipo: início do arquivo;  - sem fecho: final do arquivo;  - promulgação parcial: o "promulgo".
+ *  Sem nenhum desses motivos, devolve [] (a página usa o roteiro genérico só se a norma não tiver ponto nenhum).
+ */
+export function roteiroDeConferencia(motivos, texto) {
+  const ms = new Set(motivos || []);
+  const L = linhasNaoVazias(texto);
+  const out = [];
+  if (['cabecalho_nao_reconhecido', 'sem_artigos', 'tipo_sem_suporte'].some((m) => ms.has(m))) {
+    out.push({ chave: 'inicio', titulo: 'Comece pelo início do arquivo',
+      instrucao: 'Confirme se o arquivo começa pelo cabeçalho da norma (tipo, número e data). Se for folha de protocolo, anexo, texto de outro ato ou estiver ilegível, marque "defeito de fonte".',
+      trecho: L.slice(0, 14).join('\n') });
+  }
+  if (ms.has('sem_fecho')) {
+    out.push({ chave: 'fim', titulo: 'Confira o final do arquivo',
+      instrucao: 'O texto deve terminar com local, data e assinaturas. Se o fecho existe mas tem forma diferente das quatro conhecidas, descreva-a em "encaminhar ao motor"; se está colado ao texto ou partido, é defeito do arquivo.',
+      trecho: L.slice(-12).join('\n') });
+  }
+  if (ms.has('promulgacao_parcial')) {
+    const i = L.findIndex((l) => /fa[çc]o saber|promulg/i.test(l));
+    out.push({ chave: 'promulgo', titulo: 'Confira o "promulgo"',
+      instrucao: 'Promulgação parcial: o "promulgo" fala de dispositivo(s) de uma lei já existente, não de uma lei inteira. Confira o objeto e se o corpo traz só esses dispositivos.',
+      trecho: (i >= 0 ? L.slice(i, i + 6) : L.slice(0, 8)).join('\n') });
+  }
+  return out;
+}
+
+/** Roteiro genérico: norma sem nenhum ponto marcado e sem roteiro específico. */
+export const ROTEIRO_GENERICO = 'O motor não apontou um ponto neste texto. Leia o início e o fim do arquivo e compare com a árvore ao lado; na dúvida, marque "encaminhar ao motor" e descreva o que viu.';

@@ -9,11 +9,13 @@
     --fundo: #f6f4ef; --papel: #ffffff; --tinta: #1f2328; --suave: #5b6470; --linha: #dcd8cf;
     --marca: #7a3e1d; --marca-fraca: #f1e6dd; --ok: #1f6f43; --ok-fraca: #e3f1e8;
     --alerta: #8a5a00; --alerta-fraca: #fbf0d6; --erro: #a12a2a; --erro-fraca: #f8e1e1;
+    --borda-ctl: #857f74;
   }
   @media (prefers-color-scheme: dark) {
     :root { --fundo: #16181b; --papel: #1e2125; --tinta: #e6e3dc; --suave: #a0a7b0; --linha: #33383f;
       --marca: #e0a57e; --marca-fraca: #3a2a20; --ok: #7fcf9f; --ok-fraca: #1c3327;
-      --alerta: #e6c36a; --alerta-fraca: #3a3016; --erro: #f0a0a0; --erro-fraca: #3d2020; }
+      --alerta: #e6c36a; --alerta-fraca: #3a3016; --erro: #f0a0a0; --erro-fraca: #3d2020;
+      --borda-ctl: #7b838c; }
   }
   * { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; }
@@ -23,11 +25,11 @@
   header p { margin: 0; color: var(--suave); font-size: .88rem; max-width: 90ch; }
   a { color: var(--marca); }
   button, select, input, textarea { font: inherit; color: inherit; }
-  button { color: var(--marca); background: var(--papel); border: 1px solid var(--linha); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
+  button { color: var(--marca); background: var(--papel); border: 1px solid var(--borda-ctl); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
   button:hover { border-color: var(--marca); }
   button[aria-pressed=true] { background: var(--marca); color: var(--papel); border-color: var(--marca); }
   button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--marca); outline-offset: 2px; }
-  input[type=text], select, textarea { background: var(--papel); border: 1px solid var(--linha); border-radius: 6px; padding: 7px 10px; width: 100%; }
+  input[type=text], select, textarea { background: var(--papel); border: 1px solid var(--borda-ctl); border-radius: 6px; padding: 7px 10px; width: 100%; }
   textarea { resize: vertical; min-height: 3.2em; }
 
   #painel { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-top: 10px; }
@@ -119,6 +121,13 @@
   .fam .ids { display: flex; flex-wrap: wrap; gap: 4px; }
   .fam .ids button { padding: 2px 8px; font-size: .78rem; }
   .datas { padding: 6px 10px; border-radius: 4px; background: var(--alerta-fraca); border-left: 3px solid var(--alerta); font-size: .88rem; margin: 0 0 10px; }
+  .so-leitor { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+  .roteiro { border: 1px solid var(--linha); border-left: 4px solid var(--marca); border-radius: 6px; padding: 8px 12px; margin: 0 0 12px; background: var(--papel); }
+  .roteiro > summary { cursor: pointer; font-weight: 600; font-size: .92rem; }
+  .roteiro p { margin: 4px 0; }
+  .roteiro pre.trecho { margin: 4px 0 10px; padding: 8px 10px; background: var(--fundo); border: 1px solid var(--linha); border-radius: 4px; font: .8rem/1.45 ui-monospace, Menlo, Consolas, monospace; white-space: pre-wrap; word-break: break-word; max-height: 16em; overflow: auto; }
+  .atalhos { display: flex; gap: 6px; align-items: center; font-size: .85rem; color: var(--suave); }
+  @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
   #toast { position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%); background: var(--tinta); color: var(--papel); padding: 8px 14px; border-radius: 6px; font-size: .88rem; opacity: 0; pointer-events: none; transition: opacity .2s; }
   #toast.ver { opacity: 1; }
   kbd { font: .75rem ui-monospace, monospace; border: 1px solid var(--linha); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; background: var(--papel); }
@@ -127,7 +136,7 @@
 <body>
 <header>
   <h1>Norma — revisão humana</h1>
-  <p>Normas <b>recentes</b> (sancionadas a partir da LC 611/2009) que o leitor automático não aceitou. Confira o ponto reprovado nos dois lados e registre a decisão. A decisão <b>não altera</b> a leitura do motor: fica numa camada à parte, amarrada à versão do texto. Projeto experimental e sem caráter oficial. <a href="compara.html">Conferir uma lei com a compilação do leis.org</a> · <a href="index.html">Voltar à consulta</a></p>
+  <p>Normas <b>recentes</b> (sancionadas a partir da LC 611/2009) que o leitor automático não aceitou. Confira o ponto reprovado nos dois lados e registre a decisão. A decisão <b>não altera</b> a leitura do motor: fica numa camada à parte, amarrada à versão do texto. Ferramenta de trabalho, experimental e sem caráter oficial. <a href="compara.html">Conferir uma lei com a compilação do leis.org</a> · <a href="index.html">Voltar à consulta</a></p>
   <div id="painel" aria-live="polite"></div>
   <div id="aviso-export" role="status"></div>
 </header>
@@ -146,13 +155,14 @@
     </div>
     <div id="contagem"></div>
     <ul id="fila"></ul>
-    <p class="ajuda">Teclas: <kbd>J</kbd>/<kbd>K</kbd> próxima/anterior · <kbd>A</kbd> aceitar · <kbd>D</kbd> defeito de fonte · <kbd>C</kbd> corrigir rótulo · <kbd>E</kbd> encaminhar ao motor</p>
+    <p class="ajuda" id="ajuda-teclas">Teclas: <kbd>J</kbd>/<kbd>K</kbd> próxima/anterior · <kbd>A</kbd> aceitar · <kbd>D</kbd> defeito de fonte · <kbd>C</kbd> corrigir rótulo · <kbd>E</kbd> encaminhar ao motor</p>
   </details>
-  <section id="norma" aria-live="polite"><p class="vazio">Carregando a fila…</p></section>
+  <section id="norma"><p class="vazio">Carregando a fila…</p></section>
 </main>
 <div id="toast" role="status"></div>
+<div id="anuncio" class="so-leitor" aria-live="polite"></div>
 <script type="module">
-import { DECISOES, TIPOS_DE_DEFEITO, validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao } from './js/ingestao/revisao.mjs';
+import { DECISOES, TIPOS_DE_DEFEITO, validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao, roteiroDeConferencia, ROTEIRO_GENERICO } from './js/ingestao/revisao.mjs';
 
 const $ = (id) => document.getElementById(id);
 const CHAVE = 'norma-revisao-decisoes-v1';
@@ -181,7 +191,9 @@ const MOTIVOS = {
   erro_do_leitor: 'O leitor falhou ao processar o texto.',
 };
 
-const estado = { fila: [], guia: [], decisoes: new Map(), norma: null, sel: null, rascunho: [], cache: new Map() };
+const CHAVE_ATALHOS = 'norma-revisao-atalhos-v1';
+const lerAtalhos = () => { try { return localStorage.getItem(CHAVE_ATALHOS) !== '0'; } catch { return true; } }; // ligados por padrão; o revisor pode desligar (WCAG 2.1.4)
+const estado = { atalhos: lerAtalhos(), fila: [], guia: [], decisoes: new Map(), norma: null, sel: null, rascunho: [], cache: new Map() };
 
 // ── decisões: repositório + navegador ─────────────────────────────────────────
 function lerLocal() { try { return JSON.parse(localStorage.getItem(CHAVE) || '[]'); } catch { return []; } }
@@ -221,6 +233,7 @@ function pintarPainel() {
     el('div', { id: 'acoes-gerais' },
       el('button', { type: 'button', onclick: exportar }, 'Exportar decisões'),
       el('button', { type: 'button', onclick: () => $('arq').click() }, 'Importar'),
+      el('label', { class: 'atalhos' }, el('input', { type: 'checkbox', id: 'atalhos', checked: estado.atalhos, onchange: (e) => { estado.atalhos = e.target.checked; try { localStorage.setItem(CHAVE_ATALHOS, e.target.checked ? '1' : '0'); } catch { /* sem armazenamento */ } aplicarAtalhos(); } }), 'Atalhos de teclado'),
       el('input', { id: 'arq', type: 'file', accept: '.jsonl,.json,.txt', hidden: true, onchange: importar })));
   const k = naoExportadas();
   const a = $('aviso-export');
@@ -237,6 +250,7 @@ function filtrada() {
   const m = $('f-motivo').value, s = $('f-situacao').value;
   return estado.fila.filter((n) => (!m || n.motivos.includes(m)) && (!s || sit(n) === s));
 }
+function aplicarAtalhos() { const a = $('ajuda-teclas'); if (a) a.hidden = !estado.atalhos; }
 function pintarGuia() {
   const porId = new Map(estado.fila.map((n) => [n.idSapl, n]));
   const corpo = $('guia-corpo');
@@ -267,7 +281,10 @@ async function carregar(id) {
 async function abrir(id) {
   try { estado.norma = await carregar(id); } catch (e) { toast('Não consegui abrir a norma: ' + e.message); return; }
   estado.sel = null; estado.rascunho = []; $('form')?.classList.remove('ver');
+  const tinhaFoco = $('fila').contains(document.activeElement) || document.activeElement === document.body;
   pintarNorma(); pintarFila();
+  if (tinhaFoco) $('fila').querySelector('[aria-current="true"]')?.focus({ preventScroll: true });
+  $('anuncio').textContent = `Norma aberta: ${estado.norma.rotulo}`;
   const sugestao = estado.norma.dispositivos.find((d) => d.situacao !== 'ok');
   if (sugestao) selecionar(sugestao.id, false);
   if (window.innerWidth < 1000) { $('fila-col').open = false; $('norma').scrollIntoView(); } else window.scrollTo({ top: 0 });
@@ -278,11 +295,17 @@ function pintarNorma() {
   const meta = el('div', { class: 'meta' },
     el('span', {}, n.tipo + ' nº ' + n.numero), el('span', {}, 'data ' + (n.data || '—')),
     n.urlFonte ? el('a', { href: n.urlFonte, target: '_blank', rel: 'noopener' }, 'Arquivo original na fonte ↗') : el('span', {}, 'sem link da fonte'),
-    n.avisos.includes('texto_de_ocr') ? el('span', { class: 'selo al' }, 'texto de OCR: confira no original') : null);
+    n.avisos.includes('texto_de_ocr') ? el('span', { class: 'selo al' }, 'texto de OCR: confira no original') : null,
+    el('span', { id: 'link-compara' }));
+  const pontos = (n.resumo?.rotulosDivergentes || 0) + (n.resumo?.naoLocalizados || 0) + (n.resumo?.lacunasReais || 0) + (n.fronteiras?.length || 0);
+  const roteiros = roteiroDeConferencia(n.motivos, n.texto);
+  const roteiro = roteiros.length || !pontos ? el('details', { class: 'roteiro', open: true }, el('summary', {}, 'O que conferir nesta norma'),
+    ...roteiros.map((r) => el('div', {}, el('b', {}, r.titulo), el('p', { class: 'ajuda' }, r.instrucao), el('pre', { class: 'trecho', tabindex: 0 }, r.trecho))),
+    !roteiros.length ? el('p', { class: 'ajuda' }, ROTEIRO_GENERICO) : null) : null;
   const fmt = (d) => (d ? new Date(d + 'T12:00:00').toLocaleDateString('pt-BR') : '—');
   const datas = n.datas ? el('p', { class: 'datas' }, `Datas divergentes: catálogo ${fmt(n.datas.catalogo)} · escrita no arquivo ${fmt(n.datas.arquivo)}. Decida caso a caso qual está certa (o motor não escolhe): se o arquivo tem razão, é erro de cadastro; se o catálogo tem razão, é defeito do arquivo ou data de outro ato.`) : null;
   $('norma').replaceChildren(
-    ...[el('h2', {}, n.rotulo), meta, porque, datas,
+    ...[el('h2', {}, n.rotulo), meta, porque, roteiro, datas,
       n.fronteiras?.length ? el('p', { class: 'fr-nota' }, `Fronteira inferida pelo motor (confiança ${[...new Set(n.fronteiras.map((f) => f.confianca))].join('/')}): ${n.fronteiras.length} trecho(s) em azul no texto de origem. Aqui o revisor só ACEITA ou marca defeito de fonte; a decisão não muda o que o motor lê.`) : null,
       blocoDecisao(),
     el('div', { id: 'paineis' },
@@ -292,6 +315,13 @@ function pintarNorma() {
   pintarOrigem();
   pintarDecisao();
   pintarComandos(n);
+  ligarCompara(n);
+}
+// "Comparar esta lei com o leis.org": só aparece se a lei tem histórico apurado (as leis de compara.html)
+async function ligarCompara(n) {
+  if (!estado.historicos) { try { estado.historicos = new Set((await (await fetch('dados/revisao/historico-lista.json')).json()).map((x) => x.idSapl)); } catch { estado.historicos = new Set(); } }
+  const alvo = $('link-compara');
+  if (alvo && estado.norma?.idSapl === n.idSapl && estado.historicos.has(n.idSapl)) alvo.replaceChildren(el('a', { href: `compara.html#${n.idSapl}` }, 'Comparar com o leis.org →'));
 }
 function arvore() {
   const n = estado.norma;
@@ -463,7 +493,7 @@ async function importar(e) {
 
 // ── teclado ───────────────────────────────────────────────────────────────────
 document.addEventListener('keydown', (e) => {
-  if (e.ctrlKey || e.metaKey || e.altKey || /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
+  if (!estado.atalhos || e.ctrlKey || e.metaKey || e.altKey || /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
   const k = e.key.toLowerCase();
   if (k === 'j' || k === 'k') {
     const l = filtrada(); if (!l.length) return;
@@ -480,7 +510,7 @@ try {
   estado.fila = fila.normas; estado.guia = guia.familias;
   mesclar([...lerDecisoesJsonl(dec).decisoes.values()]);
   mesclar(lerLocal().filter((d) => validarDecisao(d).ok));
-  pintarFiltroMotivos(); pintarPainel(); pintarFila();
+  pintarFiltroMotivos(); pintarPainel(); pintarFila(); aplicarAtalhos();
   $('norma').replaceChildren(el('p', { class: 'vazio' }, estado.fila.length ? 'Escolha uma norma na fila (ou tecle J).' : 'Nenhuma norma recente em revisão. 🎉'));
   if (location.hash.length > 1) { const id = Number(location.hash.slice(1)); if (estado.fila.some((n) => n.idSapl === id)) abrir(id); }
 } catch (e) {

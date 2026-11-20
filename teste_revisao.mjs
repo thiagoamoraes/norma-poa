@@ -12,7 +12,7 @@ import { prepararTextoExtraido } from './ingestao/extracao-texto.mjs';
 import { ancorarConferencia } from './ingestao/revisao-ancoras.mjs';
 import { descreverComandos } from './ingestao/revisao-comandos.mjs';
 import { compararComCompilacao, normalizarParaComparar } from './ingestao/revisao-compilacao.mjs';
-import { validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao, situacaoHumana, resumoHumano, listaParaOMotor, CATEGORIAS_HUMANAS } from './ingestao/revisao.mjs';
+import { validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao, situacaoHumana, resumoHumano, listaParaOMotor, CATEGORIAS_HUMANAS, roteiroDeConferencia } from './ingestao/revisao.mjs';
 
 let passou = 0, falhou = 0;
 const ok = (desc, cond) => { cond ? passou++ : falhou++; console.log(`${cond ? '✓' : '✗'} ${desc}`); };
@@ -187,6 +187,21 @@ const base = { idSapl: 48003, decisao: 'aceitar', sha256Origem: 'abc', versaoEst
   ok('(sintético) sem como comparar o veredito (decisão sem motivosNaHora, ou norma sem motivos): regra rígida, versão diferente = desatualizada', situacaoDaDecisao({ ...dec, motivosNaHora: undefined }, norma) === 'desatualizada' && situacaoDaDecisao(dec, { ...norma, motivos: undefined }) === 'desatualizada');
   ok('(sintético) mesma versão: vale, sem olhar os motivos', situacaoDaDecisao(dec, { ...norma, versaoEstruturador: 7, motivos: ['outro'] }) === 'revisada');
   ok('(sintético) humano: o motor passou a aceitar a norma — a decisão desatualizada não a reabre (aceita_motor)', situacaoHumana({ ...norma, situacao: 'aceita', motivos: [] }, dec) === 'aceita_motor');
+}
+
+// --- roteiro de conferência (decisão de 20/11/2026) -------------------------------------------------
+{
+  const { texto, e } = carregar('lc613_2009', 6, '613');
+  const a = ancorarConferencia(texto, e);
+  const linhas = a.texto.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+  const r = roteiroDeConferencia(['sem_fecho'], a.texto);
+  ok('LC 613/2009 (real), motivo "sem_fecho": o roteiro manda olhar o FINAL do arquivo e o recorte traz o fecho real ("Porto Alegre, 19 de março de 2009.")', r.length === 1 && r[0].chave === 'fim' && /Porto Alegre, 19 de março de 2009\./.test(r[0].trecho) && r[0].trecho.split('\n').length <= 12 && /\S/.test(r[0].instrucao));
+  const ri = roteiroDeConferencia(['cabecalho_nao_reconhecido', 'sem_artigos'], a.texto);
+  ok('motivo de cabeçalho: o roteiro manda olhar o INÍCIO e o recorte começa pela primeira linha do arquivo', ri.length === 1 && ri[0].chave === 'inicio' && ri[0].trecho.split('\n')[0] === linhas[0]);
+  ok('(sintético) vários motivos geram vários roteiros, sem repetir; motivo sem roteiro devolve lista vazia; texto vazio não derruba', roteiroDeConferencia(['cabecalho_nao_reconhecido', 'tipo_sem_suporte', 'sem_fecho'], a.texto).map((x) => x.chave).join() === 'inicio,fim' && roteiroDeConferencia(['rotulo_nao_confere_com_a_origem'], a.texto).length === 0 && roteiroDeConferencia(['sem_fecho'], '').length === 1);
+  const lc1075 = fs.readFileSync('./lc1075_promulgacao_parcial.txt', 'utf8');
+  const rp = roteiroDeConferencia(['promulgacao_parcial'], lc1075);
+  ok('LC 1.075/2026 (real), promulgação parcial: o recorte começa no "Faço saber/promulgo" e traz "dispositivo"', rp.length === 1 && /fa[çc]o saber|promulg/i.test(rp[0].trecho.split('\n')[0]) && /dispositivo/i.test(rp[0].trecho));
 }
 
 // --- acervo inteiro: as âncoras concordam com o veredito do estruturador -----

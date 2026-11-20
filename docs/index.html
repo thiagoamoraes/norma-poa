@@ -8,10 +8,12 @@
   :root {
     --fundo: #f6f4ef; --papel: #ffffff; --tinta: #1f2328; --suave: #5b6470; --linha: #dcd8cf;
     --marca: #7a3e1d; --marca-fraca: #f1e6dd; --ok: #1f6f43; --ok-fraca: #e3f1e8; --alerta: #8a5a00; --alerta-fraca: #fbf0d6;
+    --borda-ctl: #857f74;
   }
   @media (prefers-color-scheme: dark) {
     :root { --fundo: #16181b; --papel: #1e2125; --tinta: #e6e3dc; --suave: #a0a7b0; --linha: #33383f;
-      --marca: #e0a57e; --marca-fraca: #3a2a20; --ok: #7fcf9f; --ok-fraca: #1c3327; --alerta: #e6c36a; --alerta-fraca: #3a3016; }
+      --marca: #e0a57e; --marca-fraca: #3a2a20; --ok: #7fcf9f; --ok-fraca: #1c3327; --alerta: #e6c36a; --alerta-fraca: #3a3016;
+      --borda-ctl: #7b838c; }
   }
   * { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; }
@@ -23,7 +25,7 @@
   main { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; padding: 0 16px 48px; max-width: 1280px; margin: 0 auto; }
   @media (min-width: 980px) { main { grid-template-columns: minmax(0, 440px) minmax(0, 1fr); align-items: start; } #lista-col { position: sticky; top: 0; max-height: 100vh; overflow: auto; padding-top: 8px; } }
   .busca { display: grid; gap: 8px; }
-  input[type=search], select { width: 100%; font: inherit; color: inherit; background: var(--papel); border: 1px solid var(--linha); border-radius: 6px; padding: 10px 12px; }
+  input[type=search], select { width: 100%; font: inherit; color: inherit; background: var(--papel); border: 1px solid var(--borda-ctl); border-radius: 6px; padding: 10px 12px; }
   input[type=search]:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible, li[tabindex]:focus-visible { outline: 2px solid var(--marca); outline-offset: 2px; }
   .filtros { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
   label.caixa { display: flex; gap: 8px; align-items: center; font-size: .9rem; color: var(--suave); grid-column: 1 / -1; }
@@ -36,7 +38,7 @@
   .chaves { color: var(--suave); font-size: .78rem; margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .selo { display: inline-block; font-size: .72rem; padding: 1px 7px; border-radius: 999px; margin-left: 6px; vertical-align: 2px; background: var(--marca-fraca); color: var(--marca); white-space: nowrap; }
   .selo.ok { background: var(--ok-fraca); color: var(--ok); } .selo.al { background: var(--alerta-fraca); color: var(--alerta); } .selo.no { background: transparent; border: 1px solid var(--linha); color: var(--suave); }
-  button { font: inherit; color: var(--marca); background: transparent; border: 1px solid var(--linha); border-radius: 6px; padding: 8px 12px; cursor: pointer; }
+  button { font: inherit; color: var(--marca); background: transparent; border: 1px solid var(--borda-ctl); border-radius: 6px; padding: 8px 12px; cursor: pointer; }
   #mais { width: 100%; margin-top: 8px; }
   article { background: var(--papel); border: 1px solid var(--linha); border-radius: 8px; padding: 20px; min-height: 240px; }
   article h2 { font: 600 1.2rem/1.3 Georgia, serif; margin: 0 0 6px; text-wrap: balance; }
@@ -363,9 +365,15 @@ function desenharHistorico() {
 function montarHistorico(h, n) {
   HIST = h;
   const ult = h.versoes.length - 1;
-  const opcoes = h.versoes.map((v) => `<option value="${v.indice}"${v.indice === ult ? ' selected' : ''}>${dataBr(v.data)} — ${v.fonte ? 'após a ' + esc(v.fonte.rotulo.replace(/ municipal/, '').replace(/, de .*/, '')) : 'texto original'}${v.indice === ult ? ' (texto vigente apurado)' : ''}</option>`).join('');
+  // Três níveis de confiança no rótulo da última versão (decisão do mantenedor, 20/11/2026; LC 611, art. 19):
+  // só se chama "texto vigente apurado" o que teve alteração apurada; só o original é dito original; lei revogada
+  // por inteiro nunca é apresentada como vigente.
+  const revogada = !!(n && n[10]);
+  const rotuloDoUltimo = revogada ? ' (último texto apurado; norma revogada por inteiro)' : ult > 0 ? ' (texto vigente apurado)' : ' (nenhuma alteração apurada)';
+  const opcoes = h.versoes.map((v) => `<option value="${v.indice}"${v.indice === ult ? ' selected' : ''}>${dataBr(v.data)} — ${v.fonte ? 'após a ' + esc(v.fonte.rotulo.replace(/ municipal/, '').replace(/, de .*/, '')) : 'texto original'}${v.indice === ult ? rotuloDoUltimo : ''}</option>`).join('');
   const pend = h.naoAplicadas.length
     ? `<div class="estado al"><strong>Histórico incompleto.</strong> ${h.naoAplicadas.length === 1 ? 'Uma norma alteradora não foi aplicada' : h.naoAplicadas.length + ' normas alteradoras não foram aplicadas'} por inteiro; os dispositivos afetados aparecem marcados como "não conferido":<ul>${h.naoAplicadas.map((x) => `<li><a href="${FONTE}${x.alteradora.idSapl}" target="_blank" rel="noopener">${esc(x.alteradora.rotulo)}</a> — ${esc(MOTIVO[x.motivo] || x.motivo)}.</li>`).join('')}</ul></div>`
+    : ult === 0 ? '<div class="estado al"><strong>Texto original.</strong> Nenhuma norma alteradora foi apurada para esta lei: este é o texto como foi publicado, não necessariamente o vigente. A base pode não conhecer todas as alterações; confira na fonte.</div>'
     : '<div class="estado ok">Todas as normas alteradoras conhecidas foram aplicadas. Apuração automática: confira na fonte.</div>';
   const corpo = $('corpo');
   const base = h.baseConferida === false ? '<div class="estado al">A leitura automática do texto ORIGINAL desta lei não passou em todas as conferências; o histórico abaixo parte dele e pode trazer o mesmo defeito.</div>' : '';
@@ -413,7 +421,7 @@ async function abrir(id, rolar, idDisp) {
   if (location.hash !== `#n=${id}`) history.replaceState(null, '', `#n=${id}`);
   const d = $('detalhe');
   const quemRevogou = n[10] ? NORMAS.find((x) => x[0] === n[10]) : null;
-  const links = `${n[10] ? `<div class="estado al">Segundo o cadastro da fonte, esta norma foi <strong>revogada por inteiro</strong>${quemRevogou ? ` pela <a href="#n=${n[10]}" data-abrir="${n[10]}">${esc(rotulo(quemRevogou))}</a>` : ''}.</div>` : ''}<div class="links"><a href="${FONTE}${id}" target="_blank" rel="noopener">Página da norma na fonte</a>${n[7] ? `<a href="${esc(n[7])}" target="_blank" rel="noopener">Arquivo original</a>` : ''}</div>`;
+  const links = `${n[10] ? `<div class="estado al">Segundo o cadastro da fonte, esta norma foi <strong>revogada por inteiro</strong>${quemRevogou ? ` pela <a href="#n=${n[10]}" data-abrir="${n[10]}">${esc(rotulo(quemRevogou))}</a>${quemRevogou[3] ? ` (${dataBr(quemRevogou[3])})` : ''}` : ''}. O texto abaixo é o último apurado, não é texto vigente.</div>` : ''}<div class="links"><a href="${FONTE}${id}" target="_blank" rel="noopener">Página da norma na fonte</a>${n[7] ? `<a href="${esc(n[7])}" target="_blank" rel="noopener">Arquivo original</a>` : ''}</div>`;
   d.innerHTML = `<h2>${esc(rotulo(n))}</h2><p class="ementa">${esc(n[4])}</p>${links}<div id="corpo"><p class="vazio">${n[6] || n[9] ? 'Carregando o texto…' : n[5] ? 'O texto desta norma ainda não foi estruturado. Use os links acima para lê-lo na fonte.' : 'A fonte pública só traz a ementa desta norma; o texto não está disponível.'}</p></div>`;
   if (rolar && window.matchMedia('(max-width: 979px)').matches) d.scrollIntoView({ behavior: 'smooth' });
   if (n[9]) {

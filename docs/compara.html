@@ -9,11 +9,13 @@
     --fundo: #f6f4ef; --papel: #ffffff; --tinta: #1f2328; --suave: #5b6470; --linha: #dcd8cf;
     --marca: #7a3e1d; --marca-fraca: #f1e6dd; --ok: #1f6f43; --ok-fraca: #e3f1e8;
     --alerta: #8a5a00; --alerta-fraca: #fbf0d6; --erro: #a12a2a; --erro-fraca: #f8e1e1;
+    --borda-ctl: #857f74;
   }
   @media (prefers-color-scheme: dark) {
     :root { --fundo: #16181b; --papel: #1e2125; --tinta: #e6e3dc; --suave: #a0a7b0; --linha: #33383f;
       --marca: #e0a57e; --marca-fraca: #3a2a20; --ok: #7fcf9f; --ok-fraca: #1c3327;
-      --alerta: #e6c36a; --alerta-fraca: #3a3016; --erro: #f0a0a0; --erro-fraca: #3d2020; }
+      --alerta: #e6c36a; --alerta-fraca: #3a3016; --erro: #f0a0a0; --erro-fraca: #3d2020;
+      --borda-ctl: #7b838c; }
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--fundo); color: var(--tinta); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
@@ -24,11 +26,11 @@
   .aviso { padding: 8px 12px; background: var(--alerta-fraca); border-left: 3px solid var(--alerta); border-radius: 4px; font-size: .88rem; max-width: 100ch; }
   a { color: var(--marca); }
   button, select, input, textarea { font: inherit; color: inherit; }
-  button { color: var(--marca); background: var(--papel); border: 1px solid var(--linha); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
+  button { color: var(--marca); background: var(--papel); border: 1px solid var(--borda-ctl); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
   button.principal { background: var(--marca); color: var(--papel); border-color: var(--marca); }
   button:disabled { opacity: .5; cursor: default; }
   button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--marca); outline-offset: 2px; }
-  input[type=text], select, textarea { background: var(--papel); border: 1px solid var(--linha); border-radius: 6px; padding: 8px 10px; width: 100%; }
+  input[type=text], select, textarea { background: var(--papel); border: 1px solid var(--borda-ctl); border-radius: 6px; padding: 8px 10px; width: 100%; }
   textarea { min-height: 11em; resize: vertical; font: .82rem/1.45 ui-monospace, Menlo, Consolas, monospace; }
   .passo { background: var(--papel); border: 1px solid var(--linha); border-radius: 8px; padding: 14px; display: grid; gap: 8px; }
   .passo h2 { margin: 0; font-size: .95rem; }
@@ -45,8 +47,9 @@
   @media (min-width: 900px) { .duas { grid-template-columns: 1fr 1fr; } }
   .cx { font: .88rem/1.5 Georgia, serif; white-space: pre-wrap; border-left: 3px solid var(--linha); padding: 2px 8px; }
   .cx b { display: block; font: 600 .72rem system-ui; color: var(--suave); text-transform: uppercase; letter-spacing: .04em; }
-  mark.m { background: var(--erro-fraca); color: inherit; border-radius: 2px; padding: 0 1px; }
-  mark.c { background: var(--alerta-fraca); color: inherit; border-radius: 2px; padding: 0 1px; }
+  /* a diferença não depende só da cor: texto do motor = sublinhado sólido; da compilação = sublinhado tracejado + negrito */
+  mark.m { background: var(--erro-fraca); color: inherit; border-radius: 2px; padding: 0 1px; text-decoration: underline; text-decoration-thickness: 2px; text-decoration-color: var(--erro); }
+  mark.c { background: var(--alerta-fraca); color: inherit; border-radius: 2px; padding: 0 1px; font-weight: 700; text-decoration: underline dashed; text-decoration-thickness: 2px; text-decoration-color: var(--alerta); }
   .ajuda { font-size: .8rem; color: var(--suave); }
   #lista { max-height: 70vh; overflow: auto; }
 </style>
@@ -55,7 +58,7 @@
 <header>
   <h1>Norma — conferir com a compilação (leis.org)</h1>
   <p>Escolha uma lei, cole a compilação dela (copiada à mão) e veja onde o texto vigente apurado pelo motor e a compilação divergem. <a href="revisao.html">Voltar à revisão</a> · <a href="index.html">Consulta</a></p>
-  <p class="aviso">A compilação é só <b>auxílio de conferência</b>, não gabarito (LC 611/2009, art. 19: compilação não tem processo legislativo). Onde ela diverge do texto da lei, <b>vale o texto da lei</b>: aqui as diferenças são apenas listadas, nada é corrigido. O texto colado fica no seu navegador; nada é enviado.</p>
+  <p class="aviso"><b>Ferramenta de trabalho, experimental e sem caráter oficial.</b> A compilação é só <b>auxílio de conferência</b>, não gabarito (LC 611/2009, art. 19: compilação não tem processo legislativo). Onde ela diverge do texto da lei, <b>vale o texto da lei</b>: aqui as diferenças são apenas listadas, nada é corrigido. O texto colado fica no seu navegador; nada é enviado.</p>
 </header>
 <main>
   <section class="passo">
@@ -148,7 +151,7 @@ $('comparar').addEventListener('click', () => {
   try { resultado = compararComCompilacao(atual, $('texto').value); $('resultado').hidden = false; pintarResultado(); $('resultado').scrollIntoView(); }
   catch (e) { $('estado').textContent = 'Não consegui comparar: ' + e.message; }
 });
-try { leis = await (await fetch('dados/revisao/historico-lista.json')).json(); pintarLeis(); }
+try { leis = await (await fetch('dados/revisao/historico-lista.json')).json(); pintarLeis(); const h = Number(location.hash.slice(1)); if (h && leis.some((x) => x.idSapl === h)) { $('lei').value = String(h); $('lei').dispatchEvent(new Event('change')); } }
 catch (e) { $('lei-info').textContent = 'Não consegui carregar a lista (' + e.message + '). Abra pelo endereço publicado, não pelo arquivo local.'; }
 </script>
 </body>

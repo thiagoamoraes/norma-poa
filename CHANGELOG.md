@@ -1552,6 +1552,15 @@ Corrigido já (defeitos objetivos do `docs/revisao.html`, confirmados por medida
 
 Confirmado por medida e pendente de decisão do mantenedor (entrevista, regra 11): borda dos controles 1,42:1 (exige 3:1); destaques do comparador 1,13 a 1,25:1 e só por cor; 44 de 131 normas sem nenhum ponto a conferir; busca "lei 12/1975" não acha LCs; rótulo "(texto vigente apurado)" sobre histórico não apurado; atalhos de uma letra sem como desligar (WCAG 2.1.4); foco perdido após J/K; `listbox` com 521 `tabindex=0`.
 
+## Rodada 33 — experiência de uso: decisões 13 a 16 e correções de acessibilidade (20/11/2026)
+
+Entrevista com o mantenedor sobre os relatórios `PLANO-UX-*.md` (decisões 13 a 16 no CLAUDE.md) e implementação:
+- **Roteiro de conferência** (`roteiroDeConferencia`, puro, `ingestao/revisao.mjs`; 4 asserções com textos reais no `teste_revisao.mjs`, 62 → 66): a página mostra "O que conferir nesta norma" com o recorte do arquivo; norma sem ponto e sem roteiro específico recebe o roteiro genérico.
+- **Atalhos:** interruptor "Atalhos de teclado" (ligado por padrão, lembrado no navegador). **Consulta:** rótulo de três níveis e faixa de revogação com a data; **ferramentas:** aviso "ferramenta de trabalho, experimental e sem caráter oficial", `compara.html#ID`, link "Comparar com o leis.org" na revisão.
+- **Acessibilidade (defeitos objetivos medidos):** borda dos controles com `--borda-ctl` (de 1,42:1 para ≥ 3,4:1 no claro e 4,2:1 no escuro; WCAG 1.4.11) nas três páginas; destaques do comparador também por sublinhado sólido × tracejado/negrito (não só cor); `aria-live` saiu da norma inteira (18 mil caracteres) para uma região de anúncio curta; o foco volta ao item da fila depois de abrir uma norma; `prefers-reduced-motion`.
+- Conferido no Chromium: roteiro, foco, anúncio, interruptor (desligado: J não navega; lembrado ao recarregar), link e pré-seleção da comparação, rótulos da consulta (LC 320 "texto vigente apurado" com 10 versões; LC 611 "nenhuma alteração apurada"), sem erro de console.
+- Fica para próximas rodadas (relatórios): `listbox` com 521 `tabindex=0`, itens clicáveis sem papel, busca "lei 12/1975" que exclui LCs, tradução dos códigos de motivo, decisão por ponto, tempo de primeira carga em conexão lenta.
+
 ## Passagem de sessão (20/11/2026)
 
 Sem mudança de código. Registrado: estado da tarefa 1 (62,6% aceitas em 823 textos),
