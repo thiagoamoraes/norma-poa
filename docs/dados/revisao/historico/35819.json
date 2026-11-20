@@ -1,0 +1,1084 @@
+{
+ "geradoEm": "2026-11-19T09:26:04.714Z",
+ "idSapl": 35819,
+ "rotulo": "Lei Complementar municipal nº 601, de 23 de outubro de 2008",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 601/2008@2008-10-23",
+   "data": "2008-10-23",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 601/2008@2014-09-02",
+   "data": "2014-09-02",
+   "fonte": {
+    "idSapl": 39600,
+    "rotulo": "Lei Complementar municipal nº 743, de 02 de setembro de 2014"
+   },
+   "comandosAplicados": 6
+  },
+  {
+   "indice": 2,
+   "id": "lc 601/2008@2016-09-27",
+   "data": "2016-09-27",
+   "fonte": {
+    "idSapl": 40856,
+    "rotulo": "Lei Complementar municipal nº 804, de 27 de setembro de 2016"
+   },
+   "comandosAplicados": 8
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar dispõe sobre o Inventário do Patrimônio Cultural de Bens Imóveis do Município, em atendimento ao art. 196 da Lei Orgânica do Município de Porto Alegre e ao art. 92 da Lei Complementar nº 434, de 1º de dezembro de 1999 (Plano Diretor de Desenvolvimento Urbano Ambiental), e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Inventário do Patrimônio Cultural de Bens Imóveis do Município será implantado por meio da listagem dos imóveis, com a indicação das características necessárias à sua identificação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Inventário do Patrimônio Cultural de Bens Imóveis do Município indicará as edificações Inventariadas de Estruturação e de Compatibilização, nos termos dos incs. I e II do parágrafo único do art. 14 da Lei Complementar n° 434, de 1999, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Será dada ciência de inclusão de imóveis no Inventário do Patrimônio Cultural de Bens Imóveis do Município ao Poder Legislativo no prazo de 180 (cento e oitenta) dias, a partir da homologação do Prefeito Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Toda indicação de imóvel para inclusão no Inventário do PatrimônioCultural de Bens Imóveis do Município deverá, previamente a parecer conclusivodo Conselho Municipal do Patrimônio Histórico e Cultural (Compahc), a publicaçãona imprensa, a notificação do proprietário ou possuidor e a sua homologação peloprefeito, ser aprovada pelo Legislativo Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 743/2014"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "A indicação de imóvel deverá conter as características necessárias à suaidentificação e as razões que a justifiquem, assim como deverá ser incluída sualistagem na Lei Complementar nº 434, de 1º de dezembro de 1999 – Plano Diretorde Desenvolvimento Urbano Ambiental (PDDUA) –, e alterações posteriores, ondecouber.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 743/2014"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-2",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Ficam cancelados do Inventário do Patrimônio Cultural de Bens Imóveis doMunicípio os 364 (trezentos e sessenta e quatro) imóveis localizados no BairroPetrópolis e incluídos conforme o Parecer nº 22/13, do Compahc, emitido emagosto de 2013 e homologado pelo prefeito em 24 de outubro de 2013.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 743/2014"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-3",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "O Legislativo Municipal realizará audiência pública prévia para os fins dodisposto no caput deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 743/2014"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Durante os levantamentos necessários à inclusão dos imóveis no Inventário do Patrimônio Cultural de Bens Imóveis do Município não será expedida Licença de Demolição ou aprovação de projeto para os imóveis situados nos limites da área em estudo, sem a prévia avaliação pela Equipe de Patrimônio Histórico e Cultural (EPAHC), da Secretaria Municipal da Cultura (SMC), referente ao respectivo interesse na preservação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-unico",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Durante os levantamentos a que se refere o “caput” deste artigo, será consignado nas respectivas certidões e declarações o registro de que o imóvel se encontra com restrição à Licença de Demolição ou aprovação de projeto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-2",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "O levantamento de que trata este artigo será realizado no prazo improrrogável de 1 (um) ano, sob pena de, transcorrido esse prazo, restar prejudicada e insuscetível de repetição a inclusão do imóvel no Inventário do Patrimônio Cultural de Bens Imóveis do Município.”",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 804/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-2",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A iniciativa do processo de inclusão de imóveis no Inventário do Patrimônio Cultural de Bens Imóveis do Município poderá ser da Administração Municipal ou do interessado, devendo, neste caso, o requerente instruir o processo com todos os elementos necessários.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os imóveis arrolados para inclusão no Inventário do Patrimônio Cultural de Bens Imóveis do Município são passíveis de impugnação pelo proprietário, nos termos de parecer do Conselho Municipal do Patrimônio Histórico e Cultural (COMPAHC), homologado pelo Prefeito Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-1",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O proprietário do imóvel será notificado e terá o prazo de 30 (trinta) dias para apresentação de impugnação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-2",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A impugnação deverá apresentar os elementos necessários, de fato e de direito, pelos quais o proprietário se opõe à inclusão do imóvel no Inventário do Patrimônio Cultural de Bens Imóveis do Município.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-3",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A impugnação será examinada pelos órgãos competentes e encaminhada ao COMPAHC.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-4",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Após manifestação do COMPAHC, será dada ciência aos proprietários dos imóveis incluídos no Inventário do Patrimônio Cultural de Bens Imóveis do Município, de forma coletiva, por meio de chamado em veículo de comunicação de grande circulação, para conhecimento da listagem publicada no Diário Oficial de Porto Alegre (DOPA).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º-A",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Às disposições desta Lei Complementar aplica-se, no que couber, o disposto nos arts. 8º a 16 da Lei Complementar nº 275, de 6 de abril de 1992, observando-se, quanto ao prazo para a impugnação, o disposto no § 1º do art. 7º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 804/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A lista dos imóveis com inclusão no Inventário do Patrimônio Cultural de Bens Imóveis do Município, já aprovada pelo COMPAHC e homologa da pelo Prefeito Municipal até a data da publicação desta Lei Complementar, será publicada no DOPA, aplicando-se o prazo para contestação previsto no § 1º do art. 7º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A inclusão de imóveis no Inventário do Patrimônio Cultural de Bens Imóveis do Município poderá ser cancelada com base em parecer funda mentado do Conselho competente, homologado pelo Prefeito Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/par-unico",
+   "pai": "art-9",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A degradação física da edificação Inventariada de Estruturação não poderá ser alegada pelo proprietário como fundamentação para justificar o cancelamento da inclusão de imóvel na listagem do Inventário do Patrimônio Cultural de Bens Imóveis do Município.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As edificações Inventariadas de Estruturação não podem ser destruídas, mutiladas ou demolidas, sendo dever do proprietário sua preservação e conservação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-unico",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Poderá ser autorizada, mediante estudo prévio junto ao órgão técnico competente, a demolição parcial, a reciclagem de uso ou o acréscimo de área construída, desde que se mantenham preservados os elementos históricos e culturais que determinaram sua inclusão no Inventário do Patrimônio Cultural de Bens Imóveis do Município.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As edificações Inventariadas de Compatibilização poderão ser demolidas ou modificadas, por meio de Estudo de Viabilidade Urbanística (EVU), devendo a intervenção ou a edificação que a substituir observar as restrições necessárias à preservação cultural e histórica da edificação de Estruturação e do entorno a que estiver vinculado, bem como à paisagem urbana.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para as edificações Inventariadas de Estruturação, a aplicação da legislação referente à acessibilidade e à proteção contra incêndio deverá estar devidamente compatibilizada com as características arquitetônicas, históricas e culturais do imóvel.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A atividade proposta para as edificações Inventariadas de Estruturação deverá ser compatível com os critérios de preservação determina dos pelo órgão municipal competente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/par-unico",
+   "pai": "art-13",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A instalação de garagens comerciais e estabelecimentos de guarda de veículos nas edificações classificadas como Inventariadas de Estruturação deverá ser submetida à EPHAC.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O licenciamento de anúncios, publicidades e divulgações, as instalações de equipamento de infra-estrutura aparente no mobiliário urbano e autorizações de comércio ambulante em edificações Inventariadas de Estruturação e em seu entorno deverão observar a preservação das características arquitetônicas, históricas e culturais da edificação e do entorno, além do Potencial Turístico, evitando-se a poluição visual e paisagística.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Poder Público inspecionará os imóveis inventariados:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-I",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "sempre que julgar necessário; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/inc-II",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "obrigatoriamente, diante de denúncia de desrespeito à preservação de imóvel inventariado, não podendo o proprietário, detentor ou possuidor impedir a inspeção.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na restauração ou na preservação das edificações Inventariadas de Estruturação, a critério do órgão municipal competente, poderá ser autorizada a transferência de parte do Potencial Construtivo do imóvel para outro imóvel situ ado na mesma Macrozona, quando não houver possibilidade ou interesse ambiental de utilização no mesmo imóvel inventariado, observado o disposto no art. 5° desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16/par-1",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É passível de Transferência o Potencial Construtivo resultante do somatório da parcela de 50% (cinqüenta por cento) do Potencial Contrutivo Ocioso do imóvel e de 50% (cinqüenta por cento) da área construída da edificação a ser preservada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16/par-2",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Potencial Construtivo Ocioso, para fins de Transferência de Potencial Construtivo, é a diferença entre a capacidade construtiva do imóvel antes de inventariado e a área construída do imóvel inventariado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16/par-3",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O somatório da Transferência de Potencial Construtivo de que trata o § 2º deste artigo com a área construída da edificação a ser preservada não poderá ultrapassar o total do Potencial Construtivo do imóvel.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16/par-4",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Poderá ser autorizada a Transferência de Potencial Construtivo relativa à edificação Inventariada de Compatibilização, quando a preservação da edificação Inventariada de Estruturação assim justificar, limitada a 50% (cinqüenta por cento) do Potencial Construtivo original.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 804/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16/par-5",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A liberação da Transferência de Potencial Construtivo deverá ser parcelada, observando as etapas de acordo com cronograma físico-financeiro das obras de restauração, salvo na hipótese de o imóvel encontrar-se nas condições adequadas de preservação, caso em que a Transferência poderá se dar em única parcela.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16/par-6",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "§ 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A utilização do Potencial Construtivo decorrente de Transferência de Potencial Construtivo é condicionada à comprovação de sua averbação na matrícula do imóvel originário junto ao Registro Imobiliário.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16-A",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Em caso de novo projeto de edificação destinado a terreno no qual esteja localizada edificação integrante do Inventário do Patrimônio Cultural de Bens Imóveis do Município, de Estruturação, será utilizado:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 804/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16-A/inc-I",
+   "pai": "art-16-A",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "para Índice de Aproveitamento, o constante da coluna “IA Máximo” do Anexo 6 da Lei Complementar nº 434, de 1999, e alterações posteriores; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 804/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16-A/inc-II",
+   "pai": "art-16-A",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "para regime volumétrico, o código 13 do Anexo 7.1 da Lei Complementar nº 434, de 1999, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 804/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16-A/par-1",
+   "pai": "art-16-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "No caso do novo projeto englobar lotes lindeiros a terreno no qual esteja localizada edificação objeto do Inventário do Patrimônio Cultural de Bens Imóveis do Município, será aplicado a esses lotes o regime volumétrico referido no inc. II do caput deste artigo, não lhes sendo aplicadas as restrições referidas no art. 11 desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 804/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16-A/par-2",
+   "pai": "art-16-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Para o cumprimento das disposições desta Lei Complementar, será utilizado, se necessário, o estoque reserva de solo criado da Macrozona na qual estiver localizado o imóvel.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 804/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Constatada qualquer das infrações previstas nesta Lei Complementar, será lavrado Auto de Infração pela autoridade competente, sendo notifica do o infrator, o proprietário, o possuidor ou detentor do imóvel, conferindo prazo de 15 (quinze) dias para apresentação de defesa.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-unico",
+   "pai": "art-17",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os valores correspondentes às penalidades decorrentes da aplicação desta Lei Complementar serão depositados no Fundo Municipal do Patrimônio Histórico e Cultural (FUMPAHC).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para mutilação, destruição parcial ou demolição do imóvel inventariado sem a devida licença, ou se efetuada em desacordo com as orientações do Município de Porto Alegre, será aplicada multa no valor de 6.028,4098 (seis mil e vinte e oito inteiros e quatro mil e noventa e oito décimos de milésimos) a 473.660,77 (quatrocentos e setenta e três mil, seiscentos e sessenta inteiros e setenta e sete centésimos) UFMs, a ser especificada por decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18/par-1",
+   "pai": "art-18",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No caso de mutilação, destruição ou demolição, o proprietário, às suas expensas, realizará o salvamento arqueológico do terreno, sob orientação do Município de Porto Alegre, observada a competência federal sobre a matéria.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18/par-2",
+   "pai": "art-18",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A demolição total do imóvel implicará também, para fins de nova construção no terreno, a limitação do regime urbanístico, nos termos do art. 87 da Lei Complementar nº 434, de 1999, e alterações posteriores, ou do total edificado do imóvel inventariado antes da demolição, o que for menor.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18/par-3",
+   "pai": "art-18",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O descumprimento das determinações de manutenção do imóvel restaurado com recursos decorrentes de Transferência de Potencial Construtivo implica multa diária de 107,6501 (cento e sete inteiros e seis mil, quinhentos e um décimos de milésimos) UFMs, contada a partir do não-acolhimento do recurso do proprietário até o efetivo cumprimento, comprovado em vistoria realizada pelo órgão municipal competente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nenhuma multa prevista nesta Lei Complementar poderá ultra passar 50% (cinqüenta por cento) do valor do imóvel inventariado, conforme avaliação efetuada pela Secretaria Municipal da Fazenda (SMF).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Constatado o descumprimento das determinações de manutenção e conservação do imóvel inventariado, será o proprietário ou o responsável notificado, para que, no prazo de 90 (noventa) dias, tome as providências necessárias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/par-1",
+   "pai": "art-20",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O descumprimento do prazo referido no “caput” deste artigo implica auto de infração com multa diária de 107,6501 (cento e sete inteiros e seis mil, quinhentos e um décimos de milésimos) UFMs, até o efetivo cumprimento das disposições do auto de infração, comprovado em vistoria realizada pelo órgão municipal competente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/par-2",
+   "pai": "art-20",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O descumprimento das determinações de manutenção e conservação do imóvel restaurado com recursos decorrentes de Transferência de Potencial Construtivo implica a devolução de 100% (cem por cento) do valor correspondente ao Potencial Construtivo, comprovado em vistoria realizada pelo órgão municipal competente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A execução de obra não prevista no Decreto nº 12.715, de 23 de março de 2000, e em legislação municipal pertinente, sem prévio licenciamento, será imediatamente embargada, e ao infrator, proprietário, possuidor ou detentor será aplicada multa de 861,2014 (oitocentos e sessenta e um inteiros e dois mil e quatorze décimos de milésimos) a 4.306,007 (quatro mil, trezentos e seis inteiros e sete centésimos) UFMs.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na aplicação das penalidades previstas nos arts. 17 e 19 desta Lei Complementar, será observada a gravidade do dano, o valor do imóvel protegido e eventual reincidência, observado o disposto nos §§ 1º e 2º deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/par-1",
+   "pai": "art-22",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Constitui reincidência a prática de nova infração contra a preservação do patrimônio cultural no prazo de 5 (cinco) anos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22/par-2",
+   "pai": "art-22",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A multa aplicada no caso de reincidência poderá ter seu valor calculado por meio da majoração de até o dobro das penas máximas previstas nesta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município de Porto Alegre publicará anualmente a área preferencial de abrangência para os imóveis inventariados interessados em participar do programa de incentivos previstos nesta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-1",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Serão fixados o montante de índices construtivos disponibilizados e o valor destinado aos incentivos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-2",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os critérios para definição dos imóveis selecionados para o programa de incentivos serão definidos pelos órgãos municipais competentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-24",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 24.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 39600,
+    "rotulo": "Lei Complementar municipal nº 743, de 02 de setembro de 2014"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
+  }
+ ],
+ "aConferir": []
+}

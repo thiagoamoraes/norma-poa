@@ -1,0 +1,81 @@
+{
+ "geradoEm": "2026-11-19T09:26:05.323Z",
+ "idSapl": 38893,
+ "rotulo": "Lei Complementar municipal nº 714, de 27 de maio de 2013",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 714/2013@2013-05-27",
+   "data": "2013-05-27",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 714/2013@2014-01-07",
+   "data": "2014-01-07",
+   "fonte": {
+    "idSapl": 39221,
+    "rotulo": "Lei Complementar municipal nº 727, de 07 de janeiro de 2014"
+   },
+   "comandosAplicados": 1
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o caput do art. 1º da Lei Complementar nº 666,de dezembro de 2010, conforme segue: “Art.1º Ficam definidos os seguintes índices de aproveitamento para os terrenospretenda implantar projetos de reformas, adequações ou ampliações de centrosesportivos, clubes, equipamentos administrativos, hospitais, clínicas médicas,hotéis, apart-hotéis, centros de eventos, centros comerciais, shoppingcenters, escolas, universidades e templos religiosos ou filosóficos dequalquer natureza, com pedidos de aprovação protocolados perante a AdministraçãoMunicipal até 30 de junho de 2013, conforme segue:” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Ficam definidos os seguintes índices de aproveitamento para os terrenosnos quais se tenha a finalidade de implantar projetos de reformas, adequações ouampliações de centros esportivos, clubes, equipamentos administrativos,hospitais, clínicas médicas, hotéis, apart-hotéis, centros de eventos, centroscomerciais, shopping centers, escolas, universidades e templos religiososou filosóficos de qualquer natureza, todos com pedidos de aprovaçãoprotocolizados perante a Administração Municipal, até 31 de março de 2014,conforme segue:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 727/2014"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 39221,
+    "rotulo": "Lei Complementar municipal nº 727, de 07 de janeiro de 2014"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "endereço \"art. 9º\" não encontrado na versão atual — não há o que revogar",
+   "enderecos": [
+    "art-9"
+   ]
+  }
+ ],
+ "aConferir": []
+}

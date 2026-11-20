@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Norma — conferir com a compilação</title>
+<style>
+  :root {
+    --fundo: #f6f4ef; --papel: #ffffff; --tinta: #1f2328; --suave: #5b6470; --linha: #dcd8cf;
+    --marca: #7a3e1d; --marca-fraca: #f1e6dd; --ok: #1f6f43; --ok-fraca: #e3f1e8;
+    --alerta: #8a5a00; --alerta-fraca: #fbf0d6; --erro: #a12a2a; --erro-fraca: #f8e1e1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --fundo: #16181b; --papel: #1e2125; --tinta: #e6e3dc; --suave: #a0a7b0; --linha: #33383f;
+      --marca: #e0a57e; --marca-fraca: #3a2a20; --ok: #7fcf9f; --ok-fraca: #1c3327;
+      --alerta: #e6c36a; --alerta-fraca: #3a3016; --erro: #f0a0a0; --erro-fraca: #3d2020; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fundo); color: var(--tinta); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header, main { max-width: 1300px; margin: 0 auto; padding: 16px; }
+  main { padding-top: 0; padding-bottom: 48px; display: grid; gap: 14px; }
+  h1 { font: 600 1.3rem/1.25 Georgia, serif; margin: 0 0 4px; }
+  header p { margin: 0 0 6px; color: var(--suave); font-size: .9rem; max-width: 95ch; }
+  .aviso { padding: 8px 12px; background: var(--alerta-fraca); border-left: 3px solid var(--alerta); border-radius: 4px; font-size: .88rem; max-width: 100ch; }
+  a { color: var(--marca); }
+  button, select, input, textarea { font: inherit; color: inherit; }
+  button { color: var(--marca); background: var(--papel); border: 1px solid var(--linha); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
+  button.principal { background: var(--marca); color: var(--papel); border-color: var(--marca); }
+  button:disabled { opacity: .5; cursor: default; }
+  button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--marca); outline-offset: 2px; }
+  input[type=text], select, textarea { background: var(--papel); border: 1px solid var(--linha); border-radius: 6px; padding: 8px 10px; width: 100%; }
+  textarea { min-height: 11em; resize: vertical; font: .82rem/1.45 ui-monospace, Menlo, Consolas, monospace; }
+  .passo { background: var(--papel); border: 1px solid var(--linha); border-radius: 8px; padding: 14px; display: grid; gap: 8px; }
+  .passo h2 { margin: 0; font-size: .95rem; }
+  .linha { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .num { display: flex; flex-direction: column; min-width: 90px; }
+  .num b { font: 600 1.35rem/1.1 system-ui; font-variant-numeric: tabular-nums; }
+  .num span { font-size: .75rem; color: var(--suave); }
+  .num.ok b { color: var(--ok); } .num.er b { color: var(--erro); } .num.al b { color: var(--alerta); }
+  .selo { display: inline-block; font-size: .72rem; padding: 0 8px; border-radius: 999px; background: var(--marca-fraca); color: var(--marca); }
+  .selo.ok { background: var(--ok-fraca); color: var(--ok); } .selo.er { background: var(--erro-fraca); color: var(--erro); } .selo.al { background: var(--alerta-fraca); color: var(--alerta); }
+  details.item { border: 1px solid var(--linha); border-radius: 6px; margin-bottom: 4px; background: var(--papel); }
+  details.item summary { cursor: pointer; padding: 7px 10px; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; font-size: .9rem; }
+  .duas { display: grid; gap: 8px; padding: 6px 10px 10px; }
+  @media (min-width: 900px) { .duas { grid-template-columns: 1fr 1fr; } }
+  .cx { font: .88rem/1.5 Georgia, serif; white-space: pre-wrap; border-left: 3px solid var(--linha); padding: 2px 8px; }
+  .cx b { display: block; font: 600 .72rem system-ui; color: var(--suave); text-transform: uppercase; letter-spacing: .04em; }
+  mark.m { background: var(--erro-fraca); color: inherit; border-radius: 2px; padding: 0 1px; }
+  mark.c { background: var(--alerta-fraca); color: inherit; border-radius: 2px; padding: 0 1px; }
+  .ajuda { font-size: .8rem; color: var(--suave); }
+  #lista { max-height: 70vh; overflow: auto; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Norma — conferir com a compilação (leis.org)</h1>
+  <p>Escolha uma lei, cole a compilação dela (copiada à mão) e veja onde o texto vigente apurado pelo motor e a compilação divergem. <a href="revisao.html">Voltar à revisão</a> · <a href="index.html">Consulta</a></p>
+  <p class="aviso">A compilação é só <b>auxílio de conferência</b>, não gabarito (LC 611/2009, art. 19: compilação não tem processo legislativo). Onde ela diverge do texto da lei, <b>vale o texto da lei</b>: aqui as diferenças são apenas listadas, nada é corrigido. O texto colado fica no seu navegador; nada é enviado.</p>
+</header>
+<main>
+  <section class="passo">
+    <h2>1. Lei</h2>
+    <input type="text" id="busca" placeholder="Buscar por número ou ano (ex.: 320, 1994)" aria-label="Buscar lei">
+    <select id="lei" size="6" aria-label="Leis com histórico apurado"></select>
+    <div class="ajuda" id="lei-info">Leis com ao menos uma alteração aplicada, em ordem de nº de versões.</div>
+  </section>
+  <section class="passo">
+    <h2>2. Compilação colada</h2>
+    <textarea id="texto" placeholder="Cole aqui o texto compilado da lei (com os artigos, parágrafos, incisos…)" aria-label="Texto da compilação"></textarea>
+    <div class="linha"><button class="principal" id="comparar" disabled>Comparar</button><span class="ajuda" id="estado"></span></div>
+  </section>
+  <section class="passo" id="resultado" hidden>
+    <h2>3. Resultado</h2>
+    <div class="linha" id="resumo"></div>
+    <div class="linha"><label class="ajuda">Mostrar <select id="filtro" style="width:auto"><option value="dif">Só diferenças</option><option value="todos">Todos</option></select></label><button id="baixar">Baixar divergências (.md)</button></div>
+    <div id="lista"></div>
+  </section>
+</main>
+<script type="module">
+import { compararComCompilacao } from './js/ingestao/revisao-compilacao.mjs';
+const $ = (id) => document.getElementById(id);
+const el = (t, a = {}, ...f) => { const e = document.createElement(t); for (const [k, v] of Object.entries(a)) { if (k === 'class') e.className = v; else if (k.startsWith('on')) e.addEventListener(k.slice(2), v); else if (v != null && v !== false) e.setAttribute(k, v === true ? '' : v); } for (const x of f.flat()) if (x != null) e.append(x.nodeType ? x : document.createTextNode(x)); return e; };
+const ROTULO = { diferente: ['er', 'diferente'], so_no_motor: ['al', 'só no motor'], so_na_compilacao: ['al', 'só na compilação'], igual: ['ok', 'igual'] };
+const AJUDA = { diferente: 'Texto diferente. Vale o texto da lei: confira na norma que alterou o dispositivo.', so_no_motor: 'O motor tem o dispositivo e a compilação não (ou a compilação não o trouxe).', so_na_compilacao: 'A compilação traz um dispositivo que o motor não tem: possível alteração não aplicada.' };
+let leis = [], atual = null, resultado = null;
+
+function norm(s) { return String(s || '').toLowerCase(); }
+function pintarLeis() {
+  const q = norm($('busca').value).replace(/\D/g, '') ? norm($('busca').value) : norm($('busca').value);
+  const l = leis.filter((x) => !q || norm(x.rotulo).includes(q) || String(x.idSapl).includes(q));
+  $('lei').replaceChildren(...l.slice(0, 200).map((x) => el('option', { value: x.idSapl }, `${x.rotulo.replace(/ municipal/i, '')} — ${x.versoes} versões`)));
+}
+function habilitar() { $('comparar').disabled = !(atual && $('texto').value.trim().length > 50); }
+
+// diferença por palavras (LCS) — só para destacar; texto longo demais fica sem destaque
+function destacar(a, b) {
+  const A = String(a || '').split(/(\s+)/), B = String(b || '').split(/(\s+)/);
+  const ta = A.filter((x) => x.trim()), tb = B.filter((x) => x.trim());
+  if (ta.length * tb.length > 250000) return [[document.createTextNode(a || '')], [document.createTextNode(b || '')]];
+  const n = ta.length, m = tb.length, L = Array.from({ length: n + 1 }, () => new Uint16Array(m + 1));
+  const f = (w) => w.toLowerCase().replace(/[“”]/g, '"').replace(/[–—]/g, '-').replace(/[.;:,]+$/, '');
+  for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--) L[i][j] = f(ta[i]) === f(tb[j]) ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+  const ma = new Set(), mb = new Set(); let i = 0, j = 0;
+  while (i < n && j < m) { if (f(ta[i]) === f(tb[j])) { i++; j++; } else if (L[i + 1][j] >= L[i][j + 1]) { ma.add(i++); } else { mb.add(j++); } }
+  while (i < n) ma.add(i++); while (j < m) mb.add(j++);
+  const pa = A, pb = B;
+  let ka = 0, kb = 0;
+  return [pa.map((w) => (w.trim() ? (ma.has(ka++) ? el('mark', { class: 'm' }, w) : document.createTextNode(w)) : document.createTextNode(w))), pb.map((w) => (w.trim() ? (mb.has(kb++) ? el('mark', { class: 'c' }, w) : document.createTextNode(w)) : document.createTextNode(w)))];
+}
+
+function pintarResultado() {
+  const r = resultado, f = $('filtro').value;
+  const n = (v, rot, cls) => el('div', { class: 'num ' + cls }, el('b', {}, String(v)), el('span', {}, rot));
+  $('resumo').replaceChildren(n(r.resumo.igual, 'iguais', 'ok'), n(r.resumo.diferente, 'diferentes', r.resumo.diferente ? 'er' : ''), n(r.resumo.so_no_motor, 'só no motor', r.resumo.so_no_motor ? 'al' : ''), n(r.resumo.so_na_compilacao, 'só na compilação', r.resumo.so_na_compilacao ? 'al' : ''));
+  const itens = r.itens.filter((i) => f === 'todos' || i.estado !== 'igual');
+  $('lista').replaceChildren(...[
+    r.naoMapeadas.length ? el('p', { class: 'aviso' }, `${r.naoMapeadas.length} dispositivo(s) da compilação não puderam ser casados com o motor (endereço fora do padrão): ${r.naoMapeadas.slice(0, 8).join(' · ')}${r.naoMapeadas.length > 8 ? '…' : ''}`) : null,
+    itens.length ? null : el('p', {}, 'Nenhuma diferença. 🎉'),
+    ...itens.map((i) => {
+      const [cls, rot] = ROTULO[i.estado];
+      const [dm, dc] = i.motor != null && i.compilado != null ? destacar(i.motor, i.compilado) : [[document.createTextNode(i.motor ?? '(não existe)')], [document.createTextNode(i.compilado ?? '(não existe)')]];
+      return el('details', { class: 'item', open: i.estado !== 'igual' && itens.length <= 12 }, el('summary', {}, el('span', { class: 'selo ' + cls }, rot), el('b', {}, i.rotulo || i.id), el('span', { class: 'ajuda' }, i.id), i.situacaoMotor && i.situacaoMotor !== 'vigente' ? el('span', { class: 'selo' }, 'motor: ' + i.situacaoMotor) : null),
+        el('div', { class: 'duas' }, el('div', { class: 'cx' }, el('b', {}, 'Texto vigente apurado pelo motor'), dm), el('div', { class: 'cx' }, el('b', {}, 'Compilação colada'), dc)),
+        AJUDA[i.estado] ? el('p', { class: 'ajuda', style: 'margin:0;padding:0 10px 8px' }, AJUDA[i.estado]) : null);
+    })].filter((x) => x != null));
+}
+
+function baixar() {
+  const r = resultado, dif = r.itens.filter((i) => i.estado !== 'igual');
+  const L = [`# Divergências: ${atual.rotulo}`, '', 'Compilação colada pelo revisor, usada só como auxílio de conferência; onde diverge do texto da lei, vale a lei.', '',
+    `Iguais ${r.resumo.igual} · diferentes ${r.resumo.diferente} · só no motor ${r.resumo.so_no_motor} · só na compilação ${r.resumo.so_na_compilacao}`, ''];
+  for (const i of dif) L.push(`## ${i.rotulo || i.id} (${i.id}) — ${ROTULO[i.estado][1]}`, '', `- motor: ${(i.motor ?? '(não existe)').replace(/\s+/g, ' ')}`, `- compilação: ${(i.compilado ?? '(não existe)').replace(/\s+/g, ' ')}`, '');
+  const a = el('a', { href: URL.createObjectURL(new Blob([L.join('\n')], { type: 'text/markdown' })), download: `divergencias-${atual.idSapl}.md` }); document.body.append(a); a.click(); a.remove();
+}
+
+$('busca').addEventListener('input', pintarLeis);
+$('texto').addEventListener('input', habilitar);
+$('filtro').addEventListener('change', () => resultado && pintarResultado());
+$('baixar').addEventListener('click', baixar);
+$('lei').addEventListener('change', async () => {
+  const id = Number($('lei').value); const meta = leis.find((x) => x.idSapl === id); if (!meta) return;
+  $('estado').textContent = 'Carregando o histórico da lei…'; atual = null; habilitar();
+  try { atual = await (await fetch(`dados/revisao/historico/${id}.json`)).json(); $('lei-info').textContent = `${atual.rotulo} — ${atual.versoes.length} versões, ${atual.dispositivos.length} dispositivos.`; $('estado').textContent = ''; }
+  catch (e) { $('estado').textContent = 'Não consegui carregar o histórico: ' + e.message; }
+  habilitar();
+});
+$('comparar').addEventListener('click', () => {
+  try { resultado = compararComCompilacao(atual, $('texto').value); $('resultado').hidden = false; pintarResultado(); $('resultado').scrollIntoView(); }
+  catch (e) { $('estado').textContent = 'Não consegui comparar: ' + e.message; }
+});
+try { leis = await (await fetch('dados/revisao/historico-lista.json')).json(); pintarLeis(); }
+catch (e) { $('lei-info').textContent = 'Não consegui carregar a lista (' + e.message + '). Abra pelo endereço publicado, não pelo arquivo local.'; }
+</script>
+</body>
+</html>

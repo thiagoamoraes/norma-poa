@@ -1,0 +1,4143 @@
+{
+ "geradoEm": "2026-11-20T09:25:05.689Z",
+ "idSapl": 41098,
+ "rotulo": "Lei Complementar municipal nº 810, de 04 de janeiro de 2017",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 810/2017@2017-01-04",
+   "data": "2017-01-04",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 810/2017@2017-08-30",
+   "data": "2017-08-30",
+   "fonte": {
+    "idSapl": 41342,
+    "rotulo": "Lei Complementar municipal nº 817, de 30 de agosto de 2017"
+   },
+   "comandosAplicados": 16
+  },
+  {
+   "indice": 2,
+   "id": "lc 810/2017@2021-01-15",
+   "data": "2021-01-15",
+   "fonte": {
+    "idSapl": 42994,
+    "rotulo": "Lei Complementar municipal nº 897, de 15 de janeiro de 2021"
+   },
+   "comandosAplicados": 108
+  },
+  {
+   "indice": 3,
+   "id": "lc 810/2017@2023-07-14",
+   "data": "2023-07-14",
+   "fonte": {
+    "idSapl": 46756,
+    "rotulo": "Lei Complementar municipal nº 980, de 14 de julho de 2023"
+   },
+   "comandosAplicados": 1
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Administração Pública Municipal, orientada pelos princípios constitucionais da legalidade, da moralidade, da impessoalidade, da publicidade, da razoabilidade e da eficiência, atuará por meio de políticas públicas para o desenvolvimento humano no Município de Porto Alegre, com vistas à inovação, à melhoria dos indicadores sociais e à redução das desigualdades locais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para a consecução dos objetivos de que trata o art. 1º desta Lei Complementar, o Executivo Municipal, sem prejuízo da observância das diretrizes de equilíbrio fiscal e observando as melhores práticas de gestão, adotará o modelo transversal e sistêmico orientado pelas diretrizes de colaboração institucional e de intersetorialidade no âmbito governamental e extragovernamental; de transparência administrativa e participação social; de qualidade do gasto, eficiência e compartilhamento na gestão; e de melhoria dos indicadores institucionais, administrativos, econômicos, sociais e humanos, com ênfase nas prioridades estratégicas para o Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam criadas, na Administração Direta do Município de Porto Alegre:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Desenvolvimento Social (SMDS);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "a Secretaria Municipal de Desenvolvimento Social e Esporte (SMDSE);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Desenvolvimento Social (SMDS);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Desenvolvimento Econômico (SMDE);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Desenvolvimento Econômico e Turismo (SMDET);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal do Meio Ambiente e da Sustentabilidade (Smams);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal do Meio Ambiente, Urbanismo e Sustentabilidade (Smamus);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Serviços Urbanos (SMSUrb);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Infraestrutura e Mobilidade Urbana (SMIM);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Obras e Infraestrutura (SMOI);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-VI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Planejamento e Gestão (SMPG);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Planejamento e Assuntos Estratégicos (SMPAE);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-VII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Parcerias Estratégicas (SMPE); 1",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Parcerias (SMP);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-VIII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Transparência e Controladoria Geral (SMTC); e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "a Secretaria Municipal de Transparência e Controladoria (SMTC); e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IX",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Relações Institucionais (SMRI).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Governança Local e Coordenação Política (Smgov);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-X",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Administração e Patrimônio (SMAP);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-XI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Mobilidade Urbana (SMMU);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-XII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Esporte, Lazer e Juventude (SMELJ); e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-XIII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Habitação e Regularização Fundiária (Smharf).”",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São competências:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMDS:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "da SMDSE:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I/ali-a",
+   "pai": "art-4/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "formular, coordenar, fiscalizar, planejar e controlar políticas públicas municipais voltadas para a acessibilidade e a inclusão social das pessoas com deficiência e para a promoção de trabalho, emprego e renda;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I/ali-b",
+   "pai": "art-4/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover o esporte, a recreação e o lazer;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I/ali-c",
+   "pai": "art-4/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "definir, articular e executar políticas de preservação e ampliação de ações dirigidas aos direitos humanos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I/ali-d",
+   "pai": "art-4/inc-I",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "coordenar e controlar políticas públicas voltadas à mulher, à igualdade racial, à diversidade sexual, à juventude e aos idosos, bem como a outros interesses cuja proteção e promoção se integrem a políticas de direitos humanos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMDE:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II/ali-a",
+   "pai": "art-4/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "planejar, formular, implementar, coordenar, fiscalizar articular e controlar as políticas voltadas para as áreas do desenvolvimento agropecuário, industrial e comercial, com atuação no setor econômico;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II/ali-b",
+   "pai": "art-4/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "coordenar e acompanhar os processos de licenciamento ambiental, urbano e de regularização fundiária de forma integrada;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II/ali-c",
+   "pai": "art-4/inc-II",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "desenvolver as políticas públicas de turismo; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II/ali-d",
+   "pai": "art-4/inc-II",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "formular, implementar, articular e executar as políticas públicas de fomento à inovação e ao desenvolvimento científico e tecnológico no Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II/ali-e",
+   "pai": "art-4/inc-II",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "promover o desenvolvimento urbano envolvendo o controle e o uso do solo, a viabilidade e o impacto de obras e empreendimentos, a aplicação dos instrumentos de regulação do uso do solo e o licenciamento, a manutenção e a vistoria dos projetos de edificação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da Smams:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III/ali-a",
+   "pai": "art-4/inc-III",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "planejar, coordenar, articular e controlar as políticas voltadas para as áreas de proteção ambiental do Município de Porto Alegre, com atuação na prevenção e na conservação do ambiente natural;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III/ali-b",
+   "pai": "art-4/inc-III",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "conceder licenciamento ambiental; 2",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III/ali-c",
+   "pai": "art-4/inc-III",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "manter e conservar parques, praças e balneários;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III/ali-d",
+   "pai": "art-4/inc-III",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover, implantar e conservar espaços verdes urbanos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III/ali-e",
+   "pai": "art-4/inc-III",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover a saúde, a proteção, a defesa e o bem-estar dos animais no âmbito do Município de Porto Alegre; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III/ali-f",
+   "pai": "art-4/inc-III",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover o desenvolvimento urbano envolvendo o controle do uso do solo, a viabilidade e o impacto de obras e empreendimentos, a fiscalização da correta aplicação da legislação pertinente e outras questões vinculadas à gestão da evolução física sustentável do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "promover o planejamento urbano, a elaboração e a atualização do Plano Diretor de Desenvolvimento Urbano Ambiental, bem como a fiscalização da correta aplicação da legislação urbano-ambiental; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III/ali-g",
+   "pai": "art-4/inc-III",
+   "tipo": "alinea",
+   "rotulo": "g)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "promover o planejamento da política de resíduos sólidos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMSUrb: formular, planejar, coordenar, articular e controlar a política de prestação de serviços urbanos e de iluminação pública;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "da SMSUrb:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV/ali-a",
+   "pai": "art-4/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "formular, planejar, coordenar, articular e controlar a política de prestação de serviços urbanos, limpeza urbana e coleta de resíduos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV/ali-b",
+   "pai": "art-4/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "manter a coleta e o tratamento de esgoto; 2",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV/ali-c",
+   "pai": "art-4/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "prover a iluminação pública e manter e conservar as redes de águas pluviais; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV/ali-d",
+   "pai": "art-4/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "conservar e manter praças, jardins e balneários e promover o manejo, a poda e a supressão de arbóreos em vias urbanas, em coordenação com a Smams, obedecida a legislação ambiental;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMIM:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-V/ali-a",
+   "pai": "art-4/inc-V",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "formular, planejar, coordenar, articular e controlar as políticas voltadas para as atividades relativas à execução, à conservação e à fiscalização de obras públicas municipais e sistema de esgotos pluviais; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "formular, planejar, coordenar, articular e controlar as políticas voltadas para as atividades relativas ao projeto e à execução de obras públicas municipais, incluindo sistema viário, edificações e obras relacionadas ao abastecimento de água, esgotamento sanitário e manejo de águas pluviais urbanas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-V/ali-b",
+   "pai": "art-4/inc-V",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estruturar e fiscalizar a circulação de pessoas, veículos e mercadorias no Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-V/ali-c",
+   "pai": "art-4/inc-V",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "formular, planejar, coordenar, articular e prover a conservação de vias urbanas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMPG:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VI/ali-a",
+   "pai": "art-4/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "planejar, coordenar, articular e controlar as políticas voltadas para os sistemas de recursos humanos, desenvolvimento, documentação, transporte dos servidores, modernização administrativa, qualidade de vida no trabalho e serviços;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VI/ali-b",
+   "pai": "art-4/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "formular, integrar e acompanhar a execução do planejamento estratégico e do modelo de gestão adotado no Executivo Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VI/ali-c",
+   "pai": "art-4/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "elaborar as propostas do Plano Plurianual, as Diretrizes Orçamentárias e os Orçamentos Anuais da Administração Direta, bem como a promoção de sua consolidação com as propostas da Administração Indireta do Município de Porto Alegre; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VI/ali-d",
+   "pai": "art-4/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover a gestão geral de Governo, visando à garantia da eficiência dos serviços públicos municipais prestados à comunidade e à coordenação e ao acompanhamento de projetos estruturantes para o Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VI/ali-e",
+   "pai": "art-4/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "gerir o patrimônio imobiliário e mobiliário do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMPE: formular, planejar, coordenar, articular e controlar as políticas voltadas para a captação de recursos externos, articulação e fomento de: 3",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VII/ali-a",
+   "pai": "art-4/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "parcerias públicas ou privadas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VII/ali-b",
+   "pai": "art-4/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "organizações da sociedade civil com interesse público;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VII/ali-c",
+   "pai": "art-4/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "concessões; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VII/ali-d",
+   "pai": "art-4/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "demais parcerias de interesse de outros órgãos municipais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VIII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMTC:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VIII/ali-a",
+   "pai": "art-4/inc-VIII",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "planejar, coordenar, articular e controlar as políticas voltadas para auditoria preventiva, fiscalização e acompanhamento da gestão dos sistemas administrativos e operacionais do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VIII/ali-b",
+   "pai": "art-4/inc-VIII",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estabelecer normas e procedimentos de auditoria e correição;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VIII/ali-c",
+   "pai": "art-4/inc-VIII",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "incrementar a transparência pública; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VIII/ali-d",
+   "pai": "art-4/inc-VIII",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "realizar interface com a Procuradoria-Geral do Município, o Ministério Público do Estado do Rio Grande do Sul e o Tribunal de Contas do Estado do Rio Grande do Sul em casos de improbidade administrativa ou mal uso de recursos públicos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VIII/ali-e",
+   "pai": "art-4/inc-VIII",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "incrementar o Sistema de Controle Interno dos Poderes Executivo e Legislativo Municipais e implementá-lo por meio do órgão próprio de controladoria-geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IX",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMRI:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IX/ali-a",
+   "pai": "art-4/inc-IX",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "planejar, coordenar, articular e controlar as políticas interna e externa;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IX/ali-b",
+   "pai": "art-4/inc-IX",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "formular as políticas de governança institucional;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IX/ali-c",
+   "pai": "art-4/inc-IX",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "apoiar o prefeito municipal no relacionamento institucional; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IX/ali-d",
+   "pai": "art-4/inc-IX",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "gerir os processos vinculados ao ciclo anual de operação do Orçamento Participativo e a outras formas de democracia participativa local e a relação com os Conselhos Municipais e de governança local, por meio da identificação de demandas da sociedade, e desenvolver, implementar e supervisionar projetos locais e territoriais, por meio dos canais de atendimento e dos Centros Administrativos Regionais do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "gerir os processos vinculados ao ciclo anual de operação do Orçamento Participativo e a outras formas de democracia participativa local e a relação com os Conselhos Municipais e de governança local, por meio da identificação de demandas da sociedade, e desenvolver, implementar e supervisionar projetos locais e territoriais, por meio dos canais de atendimento e dos Centros de Relações Institucionais Participativos (CRIPs) do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 817/2017"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º-A",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "São competências:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-I",
+   "pai": "art-4-A",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "da SMDS:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-I/ali-a",
+   "pai": "art-4-A/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "definir, articular e executar políticas de preservação e ampliação de ações dirigidas aos direitos humanos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-I/ali-b",
+   "pai": "art-4-A/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "coordenar e controlar políticas públicas voltadas à mulher, à igualdade racial, à diversidade sexual, aos idosos, aos imigrantes, migrantes e refugiados, aos indígenas, bem como voltadas a outros interesses cuja proteção e promoção integrem-se a políticas de direitos humanos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-I/ali-c",
+   "pai": "art-4-A/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "formular, coordenar, fiscalizar, planejar e controlar políticas públicas municipais voltadas para a acessibilidade e a inclusão social das pessoas com deficiência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-I/ali-d",
+   "pai": "art-4-A/inc-I",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "formular, coordenar, fiscalizar, planejar e controlar políticas públicas municipais voltadas para a promoção de trabalho, emprego e renda; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-I/ali-e",
+   "pai": "art-4-A/inc-I",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "supervisionar os serviços prestados pela Fundação de Assistência Social e Cidadania (FASC);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-II",
+   "pai": "art-4-A",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "da SMDET:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-II/ali-a",
+   "pai": "art-4-A/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "planejar, formular, implementar, fomentar, coordenar, fiscalizar, articular, controlar e acompanhar as políticas gerais ou setoriais voltadas para o desenvolvimento econômico;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-II/ali-b",
+   "pai": "art-4-A/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "planejar, formular, coordenar e executar a política, a promoção e a exploração do turismo; 3",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-II/ali-c",
+   "pai": "art-4-A/inc-II",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "executar e promover apoio ou patrocínio a projetos ou eventos de interesse econômico, social, turístico, cultural, religioso e outros similares;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-II/ali-d",
+   "pai": "art-4-A/inc-II",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "formular políticas e diretrizes para o fomento do desenvolvimento territorial rural;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-II/ali-e",
+   "pai": "art-4-A/inc-II",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "promover, no Município de Porto Alegre, ações de defesa e representação dos consumidores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-II/ali-f",
+   "pai": "art-4-A/inc-II",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "elaborar estudos e pesquisas para acompanhamento da conjuntura econômica;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-II/ali-g",
+   "pai": "art-4-A/inc-II",
+   "tipo": "alinea",
+   "rotulo": "g)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "licenciar, quando exigido, as atividades econômicas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-II/ali-h",
+   "pai": "art-4-A/inc-II",
+   "tipo": "alinea",
+   "rotulo": "h)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "planejar, formular, coordenar e executar a política de atração de investimentos, de empreendedorismo e de competitividade; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-II/ali-i",
+   "pai": "art-4-A/inc-II",
+   "tipo": "alinea",
+   "rotulo": "i)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "elaborar, em conjunto com a Secretaria Municipal da Fazenda (SMF), a política tributária do Município de Porto Alegre concernente à atividade econômica;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-III",
+   "pai": "art-4-A",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "da Smamus:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-III/ali-a",
+   "pai": "art-4-A/inc-III",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "promover o planejamento urbano, a elaboração e a atualização do Plano Diretor de Desenvolvimento Urbano Ambiental (PDDUA), bem como a fiscalização da correta aplicação da legislação urbano-ambiental;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-III/ali-b",
+   "pai": "art-4-A/inc-III",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "promover o desenvolvimento urbano envolvendo o controle e o uso do solo, a viabilidade e o impacto de obras e empreendimentos, a aplicação dos instrumentos de regulação do uso do solo e o licenciamento e a manutenção e a vistoria dos projetos de edificação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-III/ali-c",
+   "pai": "art-4-A/inc-III",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "coordenar e acompanhar os processos de licenciamento ambiental, urbano e de regularização fundiária de forma integrada;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-III/ali-d",
+   "pai": "art-4-A/inc-III",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "planejar, coordenar, articular e controlar ações e políticas voltadas para as áreas de patrimônio histórico, cultural e paisagístico do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-III/ali-e",
+   "pai": "art-4-A/inc-III",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "conceder licenciamento urbanístico e ambiental;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-III/ali-f",
+   "pai": "art-4-A/inc-III",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "planejar, coordenar, articular e controlar as políticas voltadas para as áreas de proteção ambiental do Município de Porto Alegre, com atuação na prevenção e na conservação do ambiente natural;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-III/ali-g",
+   "pai": "art-4-A/inc-III",
+   "tipo": "alinea",
+   "rotulo": "g)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "realizar o planejamento, a implantação e a gestão de áreas verdes, parques, praças e verdes complementares; e 4",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-III/ali-h",
+   "pai": "art-4-A/inc-III",
+   "tipo": "alinea",
+   "rotulo": "h)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "promover o planejamento da política de resíduos sólidos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-IV",
+   "pai": "art-4-A",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "da SMSUrb:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-IV/ali-a",
+   "pai": "art-4-A/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "formular, planejar, coordenar, articular e controlar a política de prestação de serviços urbanos de zeladoria;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-IV/ali-b",
+   "pai": "art-4-A/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "prover a iluminação pública;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-IV/ali-c",
+   "pai": "art-4-A/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "executar a conservação e a manutenção de áreas verdes, parques, praças e verdes complementares;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-IV/ali-d",
+   "pai": "art-4-A/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "promover o manejo, a poda e a supressão de arbóreos em áreas públicas e, excepcionalmente, em áreas privadas, em coordenação com a Smamus, obedecida a legislação ambiental;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-IV/ali-e",
+   "pai": "art-4-A/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "realizar serviços de manutenção, conservação e reparação de vias urbanas e passeios públicos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-IV/ali-f",
+   "pai": "art-4-A/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "supervisionar os serviços prestados pelo Departamento Municipal de Limpeza Urbana (DMLU);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-V",
+   "pai": "art-4-A",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "da SMOI:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-V/ali-a",
+   "pai": "art-4-A/inc-V",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "formular, planejar, coordenar, articular e fiscalizar as atividades relativas aos projetos e à execução de obras públicas municipais, sendo eles de construção, reforma e manutenção, nos termos propostos pelos órgãos da Administração Direta, e por cooperação técnica com os órgãos e as entidades da Administração Indireta; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-V/ali-b",
+   "pai": "art-4-A/inc-V",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "formular, coordenar, articular e executar projetos e obras de implantação, estruturação e revitalização de vias urbanas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VI",
+   "pai": "art-4-A",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "da SMPAE:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VI/ali-a",
+   "pai": "art-4-A/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "formular, integrar e acompanhar a execução do planejamento estratégico e do modelo de gestão adotado no Executivo Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VI/ali-b",
+   "pai": "art-4-A/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "promover a gestão de governo, visando à garantia da eficiência dos serviços públicos municipais prestados à comunidade por meio do acompanhamento e do monitoramento de projetos, entregas e indicadores do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VI/ali-c",
+   "pai": "art-4-A/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "formular, integrar, coordenar e acompanhar projetos estratégicos, considerando a transversalidade, a relevância e a prioridade dos assuntos tratados; 5",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VI/ali-d",
+   "pai": "art-4-A/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "elaborar as propostas do Plano Plurianual, das Diretrizes Orçamentárias e dos Orçamentos Anuais da Administração Direta, bem como promover sua consolidação com as propostas da Administração Indireta do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VI/ali-e",
+   "pai": "art-4-A/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "promover a relação com os demais entes federados, com entidades públicas e privadas e com o segmento empresarial;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VI/ali-f",
+   "pai": "art-4-A/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "prospectar oportunidades, analisar ou elaborar projetos e programas, bem como realizar os procedimentos necessários para a captação de recursos junto à União, ao Estado e a entidades financeiras nacionais e internacionais; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VI/ali-g",
+   "pai": "art-4-A/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "g)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "prover e coordenar as políticas e os programas de governança de tecnologia da informação e supervisionar os serviços prestados pela Companhia de Processamento de Dados do Município de Porto Alegre (Procempa);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VII",
+   "pai": "art-4-A",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "da SMP articular e fomentar parcerias públicas ou privadas, organizações da sociedade civil com interesse público, concessões e demais parcerias de interesse de outros órgãos municipais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VIII",
+   "pai": "art-4-A",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "da SMTC:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VIII/ali-a",
+   "pai": "art-4-A/inc-VIII",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "planejar, coordenar, articular e controlar as políticas voltadas para auditoria preventiva, fiscalização e acompanhamento da gestão dos sistemas administrativos e operacionais do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VIII/ali-b",
+   "pai": "art-4-A/inc-VIII",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "estabelecer normas e procedimentos de auditoria e correição;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VIII/ali-c",
+   "pai": "art-4-A/inc-VIII",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "incrementar a transparência pública;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VIII/ali-d",
+   "pai": "art-4-A/inc-VIII",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "realizar interface com a Procuradoria-Geral do Município (PGM), o Ministério Público do Estado do Rio Grande do Sul e o Tribunal de Contas do Estado do Rio Grande do Sul em casos de improbidade administrativa ou mau uso de recursos públicos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VIII/ali-e",
+   "pai": "art-4-A/inc-VIII",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "incrementar o Sistema de Controle Interno dos Poderes Executivo e Legislativo Municipais e implementá-lo por meio do órgão próprio de controladoria-geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VIII/ali-f",
+   "pai": "art-4-A/inc-VIII",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "desenvolver atividades voltadas à conformidade da Administração Pública Municipal com a legislação de proteção de dados pessoais e fomentar a política de proteção de dados pessoais no âmbito do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 980/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-IX",
+   "pai": "art-4-A",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "da Smgov:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-IX/ali-a",
+   "pai": "art-4-A/inc-IX",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "planejar, coordenar, articular e controlar as políticas interna e externa;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-IX/ali-b",
+   "pai": "art-4-A/inc-IX",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "formular as políticas de governança institucional;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-IX/ali-c",
+   "pai": "art-4-A/inc-IX",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "apoiar o prefeito no relacionamento institucional; 6",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-IX/ali-d",
+   "pai": "art-4-A/inc-IX",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "gerir os processos vinculados ao ciclo anual de operação do Orçamento Participativo e a outras formas de democracia participativa local e a relação com os Conselhos Municipais e de governança local, por meio da identificação de demandas da sociedade; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-IX/ali-e",
+   "pai": "art-4-A/inc-IX",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "desenvolver, implementar e supervisionar projetos locais e territoriais, por meio das Prefeituras nos Bairros;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-X",
+   "pai": "art-4-A",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "da SMAP:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-X/ali-a",
+   "pai": "art-4-A/inc-X",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "gerenciar o patrimônio imobiliário e mobiliário do Município de Porto Alegre com otimização do seu uso;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-X/ali-b",
+   "pai": "art-4-A/inc-X",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "planejar, executar, coordenar, articular e controlar as políticas e ações voltadas para recursos humanos e gestão de pessoas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-X/ali-c",
+   "pai": "art-4-A/inc-X",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "elaborar e controlar a estrutura organizacional visando à modernização administrativa, realizar mapeamento de processos, guardar e arquivar a documentação pública;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-X/ali-d",
+   "pai": "art-4-A/inc-X",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "planejar, identificar necessidades e oferecer capacitações aos servidores da Administração Direta e da Administração Indireta, promovendo o desenvolvimento de competências funcionais; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-X/ali-e",
+   "pai": "art-4-A/inc-X",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "gerir e controlar a aquisição de bens, materiais, serviços, obras e serviços de engenharia por meio de licitações para a Administração Direta e a Administração Indireta do Município de Porto Alegre; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-X/ali-f",
+   "pai": "art-4-A/inc-X",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "planejar, executar, coordenar, articular e controlar as políticas e ações voltadas para o desenvolvimento e a preservação da saúde e da qualidade de vida do servidor;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XI",
+   "pai": "art-4-A",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "da SMMU:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XI/ali-a",
+   "pai": "art-4-A/inc-XI",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "formular, planejar, coordenar, articular e controlar as políticas voltadas para as atividades relativas ao Sistema Municipal de Transporte Público e de Circulação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XI/ali-b",
+   "pai": "art-4-A/inc-XI",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "elaborar e implementar políticas públicas para otimizar a mobilidade urbana, em conformidade com as disposições da Lei Federal nº 12.587, de 3 de janeiro de 2012, e alterações posteriores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XI/ali-c",
+   "pai": "art-4-A/inc-XI",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "formular, planejar, coordenar, articular e controlar as políticas voltadas para as atividades relativas ao projeto e à execução envolvendo o sistema viário e à gestão do mobiliário urbano da mobilidade;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XI/ali-d",
+   "pai": "art-4-A/inc-XI",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "realizar projetos, estudos e iniciativas que colaborem para o desenvolvimento da logística e dos meios de infraestrutura e transporte, propiciando aos usuários os meios de locomoção social mais adequados; 7",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XI/ali-e",
+   "pai": "art-4-A/inc-XI",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "proporcionar a modicidade tarifária aos usuários do Sistema Municipal de Transporte Público e de Circulação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XI/ali-f",
+   "pai": "art-4-A/inc-XI",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "supervisionar as demandas relativas ao controle e à operação da mobilidade da Empresa Pública de Transporte e Circulação (EPTC); e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XI/ali-g",
+   "pai": "art-4-A/inc-XI",
+   "tipo": "alinea",
+   "rotulo": "g)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "supervisionar as demandas relativas ao serviço público prestado pela Companhia Carris Porto Alegrense (Carris);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XII",
+   "pai": "art-4-A",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "da SMELJ:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XII/ali-a",
+   "pai": "art-4-A/inc-XII",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "coordenar e executar a política municipal de esporte, objetivando a difusão das atividades físicas e desportivas formais e não formais, visando à inclusão social;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XII/ali-b",
+   "pai": "art-4-A/inc-XII",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "promover o esporte, a recreação e o lazer;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XII/ali-c",
+   "pai": "art-4-A/inc-XII",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "promover, incentivar e fomentar o esporte em todas as categorias e modalidades, com projetos próprios e em parceria com entidades afins;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XII/ali-d",
+   "pai": "art-4-A/inc-XII",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "garantir à população o acesso universal ao esporte e ao lazer; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XII/ali-e",
+   "pai": "art-4-A/inc-XII",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "promover, elaborar, discutir, executar e propor políticas públicas que permitam e garantam a integração e a participação do jovem no processo social, econômico e político do Município de Porto Alegre; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XIII",
+   "pai": "art-4-A",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "da Smharf:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XIII/ali-a",
+   "pai": "art-4-A/inc-XIII",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "formular, planejar, coordenar e articular a política de habitação de interesse social e de desenvolvimento urbano, com o objetivo de promover a universalização do acesso à moradia;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XIII/ali-b",
+   "pai": "art-4-A/inc-XIII",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "executar, em parceria com o Departamento Municipal de Habitação (Demhab), as políticas de habitação e regularização fundiária, definidas pela Secretaria;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XIII/ali-c",
+   "pai": "art-4-A/inc-XIII",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "promover a regularização fundiária na forma da legislação em vigor;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XIII/ali-d",
+   "pai": "art-4-A/inc-XIII",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "coordenar a política de remoção e o reassentamento de pessoas localizadas em áreas de risco, a partir da coordenação de projetos habitacionais e de política de Bônus-Moradia;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XIII/ali-e",
+   "pai": "art-4-A/inc-XIII",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "planejar e coordenar a política de melhorias urbanísticas em áreas de ocupação irregular; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-XIII/ali-f",
+   "pai": "art-4-A/inc-XIII",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "estabelecer critério de prioridade de demanda da política habitacional no âmbito do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 1º-A da Lei nº 9.056, de 27 de dezembro de 2002, e alterações posteriores, conforme segue: “Art. 1º-A São finalidades básicas da SMSeg a definição, a articulação e a operação de políticas de segurança pública no âmbito do Município de Porto Alegre, com a integração, o monitoramento e a ação em situações de crise ou em eventos que interfiram na execução de serviços públicos municipais como segurança, mobilidade e transporte, saúde, limpeza urbana, defesa civil, fenômenos climáticos e outros, aumentando a capacidade de 4 intervenção municipal e a respectiva qualificação na prestação de serviços, respeitadas as competências de órgãos públicos que atuam no segmento da segurança pública nas esferas estadual e federal e, ainda, o planejamento, a orientação, a coordenação e o controle das atividades permanentes, destinadas a prevenir ou minimizar as consequências nocivas de eventos desastrosos, dando suporte administrativo-financeiro e operacional ao Sistema Municipal de Defesa Civil do Município de Porto Alegre.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam criados 9 (nove) cargos de Secretários Municipais a serem lotados nas secretarias municipais criadas nos incisos do caput do art. 3º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-IX",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Desenvolvimento Social (SMDS);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-X",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Desenvolvimento Econômico e Turismo (SMDET);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XI",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal do Meio Ambiente, Urbanismo e Sustentabilidade (Smamus);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XIII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Obras e Infraestrutura (SMOI);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XIV",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Planejamento e Assuntos Estratégicos (SMPAE);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XV",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XV –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Parcerias (SMP);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XVII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XVII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Governança Local e Coordenação Política (Smgov); 2",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XVIII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XVIII –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Administração e Patrimônio (SMAP);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XIX",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XIX –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Mobilidade Urbana (SMMU);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XX",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XX –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Esporte, Lazer e Juventude (SMELJ); e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-XXI",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XXI –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "a Secretaria Municipal de Habitação e Regularização Fundiária (Smharf).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-1",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Integram a estrutura do Gabinete do Prefeito (GP) o Gabinete do Vice-Prefeito (GVP), o Gabinete da Inovação (GI) e o Gabinete da Causa Animal (GCA).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Serão extintas por lei, em até 120 (cento e vinte dias), contados da data de publicação desta Lei Complementar:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-I",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Acessibilidade e Inclusão Social (Smacis);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-II",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal dos Direitos Humanos (SMDH);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-III",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Esportes, Recreação e Lazer (SME);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-IV",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Trabalho e Emprego (SMTE);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-V",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal da Juventude (SMJ);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-VI",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal da Produção, Indústria e Comércio (SMIC);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-VII",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Turismo (SMTur);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-VIII",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Urbanismo (Smurb);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-IX",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal do Meio Ambiente (Smam);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-X",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Especial dos Direitos Animais (SEDA);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-XI",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Obras e Viação (SMOV);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-XII",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Transportes (SMT);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-XIII",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Administração (SMA);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-XIV",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Planejamento Estratégico e Orçamento (SMPEO);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-XV",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "XV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Gestão (SMGes); e 5",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-XVI",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "XVI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Secretaria Municipal de Governança Local (SMGL).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-unico",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam extintos os cargos de Secretário Municipal das secretarias municipais referidas nos incisos do caput deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Até que ocorra a extinção referida no art. 7º desta Lei Complementar, ficam conferidas ao Secretário Municipal titular da:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "SMDS, as atribuições de direção superior:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I/ali-a",
+   "pai": "art-8/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMACIS;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I/ali-b",
+   "pai": "art-8/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMDH;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I/ali-c",
+   "pai": "art-8/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SME;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I/ali-d",
+   "pai": "art-8/inc-I",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMTE; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I/ali-e",
+   "pai": "art-8/inc-I",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMJ;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-II",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "SMDE, as atribuições de direção superior:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-II/ali-a",
+   "pai": "art-8/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMIC;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-II/ali-b",
+   "pai": "art-8/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMTur;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-II/ali-c",
+   "pai": "art-8/inc-II",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "do Escritório-Geral de Licenciamento e Regularização Fundiária (EdificaPOA); e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-II/ali-d",
+   "pai": "art-8/inc-II",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "do Gabinete de Inovação e Tecnologia (Inovapoa/GP);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-III",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Smams, as atribuições de direção superior:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-III/ali-a",
+   "pai": "art-8/inc-III",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da Smurb;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-III/ali-b",
+   "pai": "art-8/inc-III",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da Smam; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-III/ali-c",
+   "pai": "art-8/inc-III",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SEDA;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-IV",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "SMIM, as atribuições de direção superior:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-IV/ali-a",
+   "pai": "art-8/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMOV;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-IV/ali-b",
+   "pai": "art-8/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMT; e 6",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-IV/ali-c",
+   "pai": "art-8/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "do Departamento Esgotos Pluviais (DEP);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-V",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "SMPG, as atribuições de direção superior:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-V/ali-a",
+   "pai": "art-8/inc-V",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMA;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-V/ali-b",
+   "pai": "art-8/inc-V",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMPEO; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-V/ali-c",
+   "pai": "art-8/inc-V",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMGes;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-VI",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "SMPE, as atribuições de direção superior do Gabinete de Desenvolvimento e Assuntos Especiais (Gades);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-VII",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "SMRI, as atribuições de direção superior:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-VII/ali-a",
+   "pai": "art-8/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da SMGL; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-VII/ali-b",
+   "pai": "art-8/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da Coordenadoria-Geral de Atenção ao Cidadão (Centros Administrativos Regionais);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-VIII",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "SMSeg, as atribuições de direção superior:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-VIII/ali-a",
+   "pai": "art-8/inc-VIII",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "do Centro Integrado de Comando da Cidade de Porto Alegre (Ceic); e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-VIII/ali-b",
+   "pai": "art-8/inc-VIII",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "do Gabinete de Defesa Civil (Gadec).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Executivo Municipal, no prazo de 120 (cento e vinte) dias, contados da data de publicação desta Lei Complementar, encaminhará projeto de lei de reforma administrativa.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/par-unico",
+   "pai": "art-9",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As gratificações decorrentes do local de atuação dos servidores permanecem inalteradas nos termos das leis que as instituíram, ficando vedada qualquer extensão ou equiparação em face da nova e transitória subordinação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As despesas decorrentes da aplicação desta Lei Complementar correrão à conta de dotações orçamentárias próprias, ficando o Executivo Municipal autorizado a remanejar e a transformar as unidades orçamentárias em função das disposições contidas nesta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 2º da Lei nº 1.516, de 2 de dezembro de 1955, conforme segue: 7 “Art. 2º Fica criado o cargo de Secretário do Município, na Secretaria Municipal da Fazenda.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação, produzindo efeitos a contar de 1º de janeiro de 2017.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam revogados:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-I",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o art. 4º da Lei nº 9.782, de 6 de julho de 2005;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-II",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o art. 4º da Lei nº 9.722, de 27 de janeiro de 2005;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-III",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o art. 4º da Lei nº 11.399, de 27 de dezembro de 2012;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-IV",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o art. 3º da Lei nº 7.330, de 5 de outubro de 1993;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-V",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o art. 3º da Lei nº 11.135, de 3 de outubro de 2011;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-VI",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o art. 6º da Lei nº 1.621, de 16 de julho de 1956;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-VII",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o art. 4º da Lei nº 10.266, de 10 de outubro de 2007;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-VIII",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o art. 4º da Lei nº 4.050, de 1º de dezembro de 1975;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-IX",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o art. 6º, da Lei nº 4.235, de 21 de dezembro de 1976;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-X",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o art. 5º da Lei nº 11.101, de 25 de julho de 2011;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-XI",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o art. 3º da Lei nº 11.401, de 27 de dezembro de 2012; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-XII",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os arts. 3º e 10 da Lei nº 9.693, de 29 de dezembro de 2004.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 41342,
+    "rotulo": "Lei Complementar municipal nº 817, de 30 de agosto de 2017"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 3 de julho de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 810/2017)",
+   "enderecos": [
+    "art-4/par-4/inc-III/par-4/inc-III"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 42994,
+    "rotulo": "Lei Complementar municipal nº 897, de 15 de janeiro de 2021"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "endereço-pai \"art. 18\" não encontrado — não é possível inserir \"§ 9º do art. 18\" | endereço-pai \"art. 18\" não encontrado — não é possível inserir \"§ 12 do art. 18\" | endereço-pai \"art. 18\" não encontrado — não é possível inserir \"§ 13 do art. 18\" | endereço-pai \"art. 35\" não encontrado — não é possível inserir \"§ 4º do art. 35\" | endereço-pai \"art. 35\" não encontrado — não é possível inserir \"§ 5º do art. 35\" | endereço-pai \"art. 34\" não encontrado — não é possível inserir \"§ 3º do art. 34\" | endereço-pai \"art. 34\" não encontrado — não é possível inserir \"§ 4º do art. 34\" | endereço-pai \"art. 34\" não encontrado — não é possível inserir \"§ 3º do art. 34\" | endereço-pai \"art. 34\" não encontrado — não é possível inserir \"§ 4º do art. 34\" | endereço-pai \"art. 36\" não encontrado — não é possível inserir \"§ 3º do art. 36\" | endereço-pai \"art. 36\" não encontrado — não é possível inserir \"§ 4º do art. 36\" | endereço-pai \"art. 24\" não encontrado — não é possível inserir \"§ 2º do art. 24\" | endereço-pai \"art. 24\" não encontrado — não é possível inserir \"§ 3º do art. 24\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 12.501, de 24 de janeiro de 2019\",\"tipoAto\":\"LEI\",\"numero\":\"12501\",\"ano\":\"2019\",\"chave\":\"l 12501/2019\"}, versão: lc 810/2017)",
+   "enderecos": [
+    "art-18/par-9",
+    "art-18/par-12",
+    "art-18/par-13",
+    "art-35/par-4",
+    "art-35/par-5",
+    "art-34/par-3",
+    "art-34/par-4",
+    "art-36/par-3",
+    "art-36/par-4",
+    "art-24/par-2",
+    "art-24/par-3",
+    "art-6"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 43967,
+    "rotulo": "Lei municipal nº 13.131, de 01 de junho de 2022"
+   },
+   "motivo": "texto_indisponivel",
+   "detalhe": "o texto desta alteradora ainda não foi baixado ou extraído",
+   "enderecos": []
+  },
+  {
+   "alteradora": {
+    "idSapl": 44066,
+    "rotulo": "Lei municipal nº 13.179, de 08 de julho de 2022"
+   },
+   "motivo": "texto_indisponivel",
+   "detalhe": "o texto desta alteradora ainda não foi baixado ou extraído",
+   "enderecos": []
+  },
+  {
+   "alteradora": {
+    "idSapl": 47274,
+    "rotulo": "Lei municipal nº 13.641, de 29 de setembro de 2023"
+   },
+   "motivo": "texto_indisponivel",
+   "detalhe": "o texto desta alteradora ainda não foi baixado ou extraído",
+   "enderecos": []
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-6",
+   "desde": "2021-01-15"
+  },
+  {
+   "id": "art-6/inc-IX",
+   "desde": "2021-01-15"
+  },
+  {
+   "id": "art-6/inc-X",
+   "desde": "2021-01-15"
+  },
+  {
+   "id": "art-6/inc-XI",
+   "desde": "2021-01-15"
+  },
+  {
+   "id": "art-6/inc-XIII",
+   "desde": "2021-01-15"
+  },
+  {
+   "id": "art-6/inc-XIV",
+   "desde": "2021-01-15"
+  },
+  {
+   "id": "art-6/inc-XV",
+   "desde": "2021-01-15"
+  },
+  {
+   "id": "art-6/inc-XVII",
+   "desde": "2021-01-15"
+  },
+  {
+   "id": "art-6/inc-XVIII",
+   "desde": "2021-01-15"
+  },
+  {
+   "id": "art-6/inc-XIX",
+   "desde": "2021-01-15"
+  },
+  {
+   "id": "art-6/inc-XX",
+   "desde": "2021-01-15"
+  },
+  {
+   "id": "art-6/inc-XXI",
+   "desde": "2021-01-15"
+  },
+  {
+   "id": "art-6/par-1",
+   "desde": "2021-01-15"
+  }
+ ]
+}

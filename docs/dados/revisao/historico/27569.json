@@ -1,0 +1,1601 @@
+{
+ "geradoEm": "2026-11-20T09:25:03.916Z",
+ "idSapl": 27569,
+ "rotulo": "Lei Complementar municipal nº 320, de 02 de maio de 1994",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 320/1994@1994-05-02",
+   "data": "1994-05-02",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 320/1994@1996-09-04",
+   "data": "1996-09-04",
+   "fonte": {
+    "idSapl": 28616,
+    "rotulo": "Lei Complementar municipal nº 384, de 04 de setembro de 1996"
+   },
+   "comandosAplicados": 2
+  },
+  {
+   "indice": 2,
+   "id": "lc 320/1994@1998-03-24",
+   "data": "1998-03-24",
+   "fonte": {
+    "idSapl": 29309,
+    "rotulo": "Lei Complementar municipal nº 412, de 24 de março de 1998"
+   },
+   "comandosAplicados": 4
+  },
+  {
+   "indice": 3,
+   "id": "lc 320/1994@2002-05-21",
+   "data": "2002-05-21",
+   "fonte": {
+    "idSapl": 31893,
+    "rotulo": "Lei Complementar municipal nº 474, de 21 de maio de 2002"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 4,
+   "id": "lc 320/1994@2004-12-28",
+   "data": "2004-12-28",
+   "fonte": {
+    "idSapl": 33599,
+    "rotulo": "Lei Complementar municipal nº 514, de 28 de dezembro de 2004"
+   },
+   "comandosAplicados": 2
+  },
+  {
+   "indice": 5,
+   "id": "lc 320/1994@2005-07-07",
+   "data": "2005-07-07",
+   "fonte": {
+    "idSapl": 33812,
+    "rotulo": "Lei Complementar municipal nº 525, de 07 de julho de 2005"
+   },
+   "comandosAplicados": 4
+  },
+  {
+   "indice": 6,
+   "id": "lc 320/1994@2012-03-29",
+   "data": "2012-03-29",
+   "fonte": {
+    "idSapl": 38117,
+    "rotulo": "Lei Complementar municipal nº 692, de 29 de março de 2012"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 7,
+   "id": "lc 320/1994@2015-04-09",
+   "data": "2015-04-09",
+   "fonte": {
+    "idSapl": 39977,
+    "rotulo": "Lei Complementar municipal nº 761, de 09 de abril de 2015"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 8,
+   "id": "lc 320/1994@2019-04-11",
+   "data": "2019-04-11",
+   "fonte": {
+    "idSapl": 42024,
+    "rotulo": "Lei Complementar municipal nº 849, de 11 de abril de 2019"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 9,
+   "id": "lc 320/1994@2022-10-04",
+   "data": "2022-10-04",
+   "fonte": {
+    "idSapl": 44396,
+    "rotulo": "Lei Complementar municipal nº 958, de 04 de outubro de 2022"
+   },
+   "comandosAplicados": 50
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica estabelecida a denominação de logradouros e equipamentos públicos, observado o disposto nesta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os logradouros e equipamentos públicos podem receber a denominação de pessoas, datas e fatos históricos e geográficos ou outros reconhecidos pela comunidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "A denominação dos logradouros e equipamentos públicos deverá observar um percentual mínimo de 30% (trinta por cento) e um máximo de 70% (setenta por cento) para cada sexo, quando recair sobre nome de pessoas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 514/2004"
+     },
+     "ocupouPosicaoDeVetado": true
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "Cada Vereador deverá observar, em relação às suas proposições, os percentuais referidos no parágrafo anterior.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 514/2004"
+     },
+     "ocupouPosicaoDeVetado": true
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-3",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "Para as denominações de que trata o \"caput\" deste artigo não será permitido que uma mesma pessoa, data, fato histórico e geográfico ou outro reconhecido pela comunidade, sejam homenageados mais de uma vez.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 384/1996"
+     },
+     "renumerado": {
+      "de": "Parágrafo único",
+      "lei": "Lei Complementar nº 514/2004"
+     }
+    },
+    {
+     "desde": 5,
+     "texto": "Não será permitido que mais de um logradouro ou mais de um equipamento público receba a denominação de uma mesma pessoa, data, fato histórico e geográfico ou outro reconhecido pela comunidade",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 525/2005"
+     },
+     "renumerado": {
+      "de": "Parágrafo único",
+      "lei": "Lei Complementar nº 514/2004"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-4",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 8,
+     "texto": "Fica vedada a denominação de logradouros públicos e equipamentos públicos com nome de pessoa que tenha contra si ação julgada procedente em decisão transitada em julgado por crime de corrupção de qualquer espécie.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 849/2019"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Para as denominações de que trata o \"caput\" deste artigo não será permitido que uma mesma pessoa, data, fato histórico e geográfico ou outro reconhecido pela comunidade, sejam homenageados mais de uma vez.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 384/1996"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "",
+     "situacao": "renumerado",
+     "origem": {
+      "operacao": "renumber_node",
+      "lei": "Lei Complementar nº 514/2004"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É vedado denominar logradouros ou equipamentos públicos com nomes de pessoas vivas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Somente após 90 (noventa) dias de seu falecimento, poderá ser homenageada, para efeito desta Lei Complementar, qualquer pessoa.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-2",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Não será exigida a apresentação de Certidão de Óbito quando o mesmo for de notório conhecimento público.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É proibida a duplicidade de logradouros ou equipamentos públicos com a mesma denominação, sob pena de nulidade do ato que atribuir a denominação dúplice.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "É proibida a duplicidade de logradouros ou equipamentos públicos com a mesma denominação, inclusive quando estes pertencerem a diferentes categorias, sob pena de nulidade do ato que atribuir a denominação dúplice.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 384/1996"
+     }
+    },
+    {
+     "desde": 5,
+     "texto": "É defeso atribuir mesma denominação a mais de um logradouro, inclusive quando pertencentes a diferentes categorias, bem como atribuir mesma denominação a mais de um equipamento público, sob pena de nulidade do ato que atribuir a denominação dúplice.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 525/2005"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Câmara Municipal, através de ofício, informara ao órgão competente do Executivo Municipal sempre que for protocolado projeto de lei denominando logradouro ou equipamento público.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 5,
+     "texto": "Os projetos de lei de denominação de logradouros públicos de que trata esta Lei Complementar, quando de sua apresentação, deverão conter documentos de identificação do logradouro a ser denominado (croqui, aero ou outro), fornecidos pela Secretaria do Planejamento Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 525/2005"
+     }
+    },
+    {
+     "desde": 9,
+     "texto": "Os projetos de lei de denominação de logradouros públicos de que trata esta Lei Complementar, quando de sua apresentação, deverão conter os seguintes documentos de identificação:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "croqui; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-II",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "informações cadastrais do logradouro.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-unico",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "O croqui que acompanha a lei de denominação deve ser elaborado em planta padrão e as informações cadastrais do logradouro serão fornecidos pela Secretaria Municipal do Meio Ambiente, Urbanismo e Sustentabilidade (Smamus).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É permitida a denominação de logradouros irregulares ou clandestinos de uso público, não implicando oficialização do logradouro de que se tratar, e destinando-se, exclusivamente, para fins de possibilitar a identificação da residencial dos munícipes e orientar os serviços públicos implantados na área.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-1",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As certidões expedidas pela municipalidade, que possuam qualquer referência aos logradouros denominados na forma deste artigo, conterão referência expressa ao seu caráter irregular ou clandestino, bem como aos objetivos específicos de sua denominação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-2",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam vedadas, em qualquer hipótese, até a oficialização dos logradouros denominados na forma deste artigo, a expedição de certidões para fins de averbação da abertura de rua no Ofício Imobiliário competente, na forma da legislação relativa aos registros públicos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A denominação de logradouros públicos de que trata o artigo anterior depende de manifestação favorável da comunidade, expressa através de votação, abaixo-assinado ou qualquer outro meio capaz de expressar a vontade da maioria dos moradores do logradouro a ser denominado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 9,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-1",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nas demais denominações de logradouros poderá haver a oitiva da comunidade circunvizinha.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 9,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-2",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 9,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A alteração da denominação de logradouros é permitida através de plebiscito, nos termos do art. 99 da Lei Orgânica do Município e parágrafo único do art. 2º da Lei Complementar nº 282, de 16 de outubro de 1992, cabendo à Câmara Municipal organizá-lo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "A alteração da denominação de logradouros é permitida, mediante consulta prévia aos moradores domiciliados nos limites do logradouro do qual é pleiteada a mudança de denominação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 412/1998"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-1",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "A consulta deverá ser prévia e amplamente divulgada na região abrangida, devendo ser promovida pelo autor da proposta de alteração ou por entidade popular representativa dos moradores do local, através de votação, abaixo-assinado ou qualquer outro meio capaz de expressar a vontade favorável de, no mínimo, 2/3 (dois terços) dos moradores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 412/1998"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-2",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Estarão aptos a participar da consulta todos os cidadãos eleitores que comprovarem domicílio nos limites do logradouro.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 412/1998"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-3",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "O ato de auscultar a vontade popular deverá ser acompanhado e fiscalizado pela entidade geral representativa das associações de moradores de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 412/1998"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-4",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 7,
+     "texto": "As placas denominativas de logradouros cujas denominações consagradas pelo uso forem objeto de alteração nos termos do caput deste artigo poderão conter, ao serem identificadas com a nova nomenclatura, a denominação anterior logo abaixo da nova.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 761/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As denominações de logradouros e equipamentos públicos serão objeto de lei de iniciativa do Prefeito Municipal ou dos Vereadores, utilizando-se para os logradouros a terminologia das categorias estrada, avenida, rua, praça, acesso, largo, rótula, esplanada, travessa e parque.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 5,
+     "texto": "As denominações de logradouros e equipamentos públicos se rão objeto de lei de iniciativa do Prefeito Municipal ou dos Vereadores, utilizando se para os logradouros a terminologia das categorias estrada, avenida, rua, pra ça, acesso, largo, rótula, esplanada, travessa, servidão, parque, espaço e miran te.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 525/2005"
+     }
+    },
+    {
+     "desde": 9,
+     "texto": "As denominações de logradouros e equipamentos públicos serão objeto de lei de iniciativa do prefeito municipal ou dos vereadores, utilizando-se as seguintes categorias para os logradouros:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-I",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "acesso;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-II",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "alameda;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-III",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "avenida;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-IV",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "beco;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-V",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "ciclovia;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-VI",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "elevada;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-VII",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "esplanada;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-VIII",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "estrada;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-IX",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "largo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-X",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "parque;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-XI",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "passagem subterrânea;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-XII",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "praça;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-XIII",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "rua;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-XIV",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "rua de pedestres;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-XV",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "XV –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "rótula;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-XVI",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "XVI –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "travessa;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-XVII",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "XVII –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "viaduto;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-XVIII",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "XVIII –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "viela;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-XIX",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "XIX –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "via de acesso; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-XX",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "XX –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "via de tráfego.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º-A",
+   "estados": [
+    {
+     "desde": 6,
+     "texto": "O Executivo Municipal,a publicação de lei que denomine ou altere denominação de logradouro, oficiaráao cartório de registro de imóveis da zona a que pertence esse logradouro,que proceda à devida anotação nas matrículas dos imóveis nele localizados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 692/2012"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os logradouros públicos receberão, para efeito de aprovação de projetos de parcelamento do solo e demais registros, uma identificação sob forma numérica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-unico",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A identificação de que trata este artigo se constituirá de um número de 4 (quatro) algarismos que utilizará a divisão territorial da Lei Complementar nº 43, de 21 de julho de 1979 (I Plano Diretor de Desenvolvimento Urbano de Porto Alegre), sendo os dois primeiros indicativos da Unidade Territorial Seccional (UTS) respectiva e os dois seguintes indicativos de ordem.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 3,
+     "texto": "A identificação de que trata o “caput” constituir-se-á de um número de 04 (quatro) algarismos que utilizará a divisão territorial constante na Lei Complementar n- 434, de 1- de dezembro de 1999 (Plano Diretor de Desenvolvimento Urbano Ambiental), sendo o primeiro, indicativo da Macrozona (MZ) respectiva, e os três seguintes, indicativos de ordem",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 474/2002"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Todos os projetos de parcelamento do solo, ou qualquer forma de alteração do sistema viário, deverão obedecer aos critérios estabelecidos por esta Lei Complementar, quer sejam executados pelo Poder Público ou particulares.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Executivo Municipal definirá as testadas de todos os logradouros, indicando, em plantas ou outros meios necessários, os pontos de início e fim de cada denominação, bem como a numeração dos imóveis neles existentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/par-unico",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A praça não determinará a numeração dos imóveis, exceto quando a mesma for o único acesso ao imóvel.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12-A",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "Monumentos e espaços físicos no interior de determinado logradouro não necessitam de croqui para acompanhar a lei de denominação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12-B",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "Para fins do disposto nesta Lei Complementar, considera-se a seguinte descrição para as categorias de logradouros:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-I",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "acesso a via de uso particular, normalmente existente em condomínios e conjuntos residenciais, podendo sua largura ser inferior aos perfis estipulados pela Lei Complementar nº 434, de 1º de dezembro de 1999 – Plano Diretor de Desenvolvimento Urbano Ambental (PDDUA) –, e alterações posteriores, para logradouros públicos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-II",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "alameda a rua densamente arborizada, especialmente utilizada para trânsito de pessoas e espaço de convivência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-III",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "avenida os logradouros que possuam largura equivalente a 2 (duas) pistas com canteiro central, cujos perfis viários encontram-se representados no Anexo 9.3 do PDDUA;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-IV",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "beco a rua estreita, podendo ser sem saída e de chão batido, pouco própria para o trânsito veicular;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-V",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "ciclovia a via com características geométricas e infraestruturais próprias para o uso de bicicletas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-VI",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "elevada a via rodoviária ou ferroviária que se situa acima do nível do solo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-VII",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "esplanada o terreno plano, largo e descoberto, caracterizando-se por ser um local de convivência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-VIII",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "estrada o logradouro público caracterizado por encontrar-se em zona rural;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-IX",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "largo a área urbana espaçosa na confluência entre ruas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-X",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "parque o terreno extenso, arborizado e destinado à recreação, comumente chamado de área verde, podendo ser público ou privado;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-XI",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "passagem de pedestres o lograduro público com características infraestruturais e paisagísticas próprias de espaços abertos de uso de pedestres;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-XII",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "passagem subterrânea o logradouro destinado à transposição de vias, em desnível subterrâneo, e ao uso de pedestres ou veículos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-XIII",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "praça o espaço público urbanizado, livre de edificações e que propicie convivência ou recreação para seus usuários;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-XIV",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "rua o logradouro que possua largura de pista única, em via urbana, cujo perfil viário encontra-se representado no Anexo 9.3 do PDDUA;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-XV",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "XV –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "rua de pedestres o logradouro público com características infraestruturais e paisagísticas próprias de espaços abertos, de uso de pedestres e com eventual tráfego veicular;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-XVI",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "XVI –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "rótula a praça ou o largo de forma circular em que desembocam várias ruas e no qual o trânsito se processa em sentido giratório;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-XVII",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "XVII –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "travessa a rua estreita, secundária e transversal a 2 (duas) outras ruas principais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-XVIII",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "XVIII –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "viaduto a obra destinada a transpor uma depressão de terreno ou servir de passagem superior;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-XIX",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "XIX –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "viela o logradouro aberto à circulação pública, situado em zonas urbanas, caracterizado por possuir imóveis edificados em sua extensão;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-XX",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "XX –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "via de acesso o logradouro de caráter coletor, ou seja, caracterizado por interseções em nível não semaforizadas, destinadas apenas ao acesso local ou a áreas restritas; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/inc-XXI",
+   "pai": "art-12-B",
+   "tipo": "inciso",
+   "rotulo": "XXI –",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "via de tráfego compartilhada o logradouro público com caracerísticas infraestruturais e paisagísticas próprias de espaços abertos de uso de pedestres e tráfego veicular.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12-B/par-unico",
+   "pai": "art-12-B",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 9,
+     "texto": "Os acessos referidos no inc. I do caput deste artigo, mediante análise, poderão ser considerados de uso público.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 958/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Revogam-se as disposições em contrário, especialmente a Lei nº 172, de 29 de dezembro de 1948; a Lei Complementar nº 3, de 05 de janeiro de 1973; a Lei Complementar nº 40, de 30 de novembro de 1978; a Lei Complementar nº 72, de 06 de janeiro de 1982; a Lei Complementar nº 107, de 27 de julho de 1984; a Lei Complementar nº 137, de 22 de julho de 1986, e a Lei Complementar nº 225, de 05 de junho de 1990.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 30599,
+    "rotulo": "Lei Complementar municipal nº 449, de 19 de junho de 2000"
+   },
+   "motivo": "comando_recusado",
+   "detalhe": "já existe artigo com o rótulo de \"art. 5\" — insert_node não pode criar um segundo; se a intenção era dar nova redação, o endereço na alteradora não foi reconhecido como o do artigo existente",
+   "enderecos": [
+    "art-5"
+   ]
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-5",
+   "desde": "2000-06-19"
+  },
+  {
+   "id": "art-5/inc-I",
+   "desde": "2000-06-19"
+  },
+  {
+   "id": "art-5/inc-II",
+   "desde": "2000-06-19"
+  },
+  {
+   "id": "art-5/par-unico",
+   "desde": "2000-06-19"
+  }
+ ]
+}

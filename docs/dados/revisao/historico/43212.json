@@ -1,0 +1,424 @@
+{
+ "geradoEm": "2026-11-18T09:25:55.402Z",
+ "idSapl": 43212,
+ "rotulo": "Lei Complementar municipal nº 906, de 15 de junho de 2021",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 906/2021@2021-06-15",
+   "data": "2021-06-15",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 906/2021@2023-04-11",
+   "data": "2023-04-11",
+   "fonte": {
+    "idSapl": 45807,
+    "rotulo": "Lei Complementar municipal nº 970, de 11 de abril de 2023"
+   },
+   "comandosAplicados": 3
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica instituído o Programa Municipal de Incentivo ao Desenvolvimento de Setores Estratégicos de Alta Tecnologia (Programa Creative) com os objetivos de fomentar o desenvolvimento de empresas de base tecnológica e instituições de ciência e tecnologia e de difundir a cultura do conhecimento e inovação de setores estratégicos de alta tecnologia no Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para os efeitos desta Lei Complementar, consideram-se setores estratégicos de alta tecnologia:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "O fomento mencionado no caput deste artigo se dará por meio da concessão de redução da alíquota do Imposto Sobre Serviços de Qualquer Natureza (ISSQN), na forma do disposto nesta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 970/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-I",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "fabricação e desenvolvimento em sistemas de telecomunicações;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-II",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "fabricação de equipamentos e serviços de informática;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-III",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pesquisa e desenvolvimento tecnológicos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-IV",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "design em sistemas de tecnologia;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-V",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "laboratórios de ensaios e testes de qualidade;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-VI",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "instrumentos de precisão e de automação industrial;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-VII",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "biotecnologia, nanotecnologia, novos materiais, tecnologias em saúde e em meio ambiente; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-VIII",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "outros setores produtivos, quando seus produtos ou serviços forem considerados atividades tecnológicas inovadoras.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As empresas que obtiverem certificação de enquadramento e aprovação de seus projetos junto ao Programa Creative passam a contar com alíquota de 2% (dois por cento) de Imposto Sobre Serviços (ISS).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A certificação prevista no caput deste artigo e o benefício dela decorrente serão concedidos pelo prazo de 10 (dez) anos, permitidas renovações por igual período.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica a cargo do Gabinete de Inovação (GI), órgão subordinado ao Gabinete do Prefeito, o gerenciamento do Programa Creative e a emissão das certificações para as empresas de alta tecnologia referidas no art. 1º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica a cargo do Gabinete de Inovação (GI), órgão subordinado ao Gabinete do Prefeito, o gerenciamento do Programa Creative e a emissão das certificações para as empresas referidas no art. 1º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 970/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A certificação depende de aprovação de enquadramento de empresas nos termos do art. 1º desta Lei Complementar, pelo voto da maioria absoluta de colegiado formado por 3 (três) membros titulares e seus respectivos suplentes, composto da seguinte forma:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1/inc-I",
+   "pai": "art-3/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) representante do Gabinete de Inovação (GI);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1/inc-II",
+   "pai": "art-3/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) representante da Secretaria Municipal da Fazenda (SMF); e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1/inc-III",
+   "pai": "art-3/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (um) representante da Secretaria Municipal de Desenvolvimento Econômico e Turismo (SMDET).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-2",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam dispensadas do processo de certificação as empresas que já são beneficiárias da alíquota de 2% (dois por cento) conforme inc. II do art. 21 da Lei Complementar nº 7, de 7 de dezembro de 1973, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Executivo Municipal regulamentará esta Lei Complementar por meio de decreto quanto à execução do Programa Creative e ao processo de certificação para gozo de redução de alíquota de ISS.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O valor global da renúncia fiscal anual decorrente do Programa Creative terá como limite prudencial o valor correspondente a 3% (três por cento) da arrecadação do ISS verificada no ano imediatamente anterior, sujeito à redução por decreto do prefeito municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Superado o limite referido no caput deste artigo, é vedada a concessão de novas certificações a partir do segundo mês subsequente ao da competência da ultrapassagem.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-2",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A renúncia de receita referida no caput deste artigo será calculada considerando o incremento da arrecadação auferido a novos contribuintes aderentes do Programa Creative.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação, produzindo efeitos em relação ao seu art. 2º para fatos geradores ocorridos a partir de 1º de janeiro de 2022.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 45807,
+    "rotulo": "Lei Complementar municipal nº 970, de 11 de abril de 2023"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
+  }
+ ],
+ "aConferir": []
+}

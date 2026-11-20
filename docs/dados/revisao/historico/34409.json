@@ -1,0 +1,635 @@
+{
+ "geradoEm": "2026-11-19T09:26:04.673Z",
+ "idSapl": 34409,
+ "rotulo": "Lei Complementar municipal nº 554, de 11 de julho de 2006",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 554/2006@2006-07-11",
+   "data": "2006-07-11",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 554/2006@2011-01-19",
+   "data": "2011-01-19",
+   "fonte": {
+    "idSapl": 37132,
+    "rotulo": "Lei Complementar municipal nº 669, de 19 de janeiro de 2011"
+   },
+   "comandosAplicados": 2
+  },
+  {
+   "indice": 2,
+   "id": "lc 554/2006@2020-03-03",
+   "data": "2020-03-03",
+   "fonte": {
+    "idSapl": 42460,
+    "rotulo": "Lei Complementar municipal nº 876, de 03 de março de 2020"
+   },
+   "comandosAplicados": 2
+  },
+  {
+   "indice": 3,
+   "id": "lc 554/2006@2023-07-21",
+   "data": "2023-07-21",
+   "fonte": {
+    "idSapl": 46833,
+    "rotulo": "Lei Complementar municipal nº 983, de 21 de julho de 2023"
+   },
+   "comandosAplicados": 2
+  },
+  {
+   "indice": 4,
+   "id": "lc 554/2006@2025-01-21",
+   "data": "2025-01-21",
+   "fonte": {
+    "idSapl": 49716,
+    "rotulo": "Lei Complementar municipal nº 1.034, de 21 de janeiro de 2025"
+   },
+   "comandosAplicados": 2
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica instituída a Autorização para o Funcionamento de Atividades Econômicas no Município de Porto Alegre, que se constitui em licença provisória, concedida a título precário, para o exercício de atividades de natureza comercial, industrial, de prestação de serviços e afins.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As autorizações de que trata o “caput” deste artigo serão expedidas pela Secretaria Municipal da Produção, Indústria e Comércio – SMIC –, nos termos da regulamentação, e terão vigência de 01 (um) ano, sujeita à renovação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "AAutorização para o Funcionamento de Atividades Econômicas será expedida pelaSecretaria Municipal da Produção, Indústria e Comércio – SMIC –, nos termosda regulamentação desta Lei, e terá vigência de 1 (um) ano e 6 (seis) meses, podendoser renovada por igual período, até o limite de 2 (duas) vezes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 669/2011"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Aplica-se o disposto neste artigo:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2/inc-I",
+   "pai": "art-1/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "às atividades econômicas localizadas nos Núcleos ou Ocupações Irregulares Consolidadas, nas áreas do Departamento Municipal de Habitação DEMHAB – e nas Áreas Especiais de Interesse Social – AEIS;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2/inc-II",
+   "pai": "art-1/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "às atividades relacionadas no Anexo 5.3 da Lei Complementar nº 434, de 1º de dezembro de 1999 – Plano Diretor de Desenvolvimento Urbano Ambiental – PDDUA –, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Sem prejuízo do disposto no parágrafo anterior, poderão ser autorizadas as demais atividades econômicas localizadas no Município de Porto Alegre, desde que atendido o disposto nesta Lei Complementar e em sua regulamentação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-4",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A renovação de que trata o § 1º deste artigo poderá ser dada por, no máximo, mais dois períodos consecutivos de 01 (um) ano, quando a atividade econômica se localizar fora das áreas definidas no inc. I do § 2º deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1-A",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º-A",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Ficamos órgãos públicos municipais competentes obrigados a prestar informaçõesacerca dasituação dos respectivos processos, bem como dos motivos que impossibilitam a suaconclusão, no prazo máximo de 10 (dez) dias, contados do protocolo do pedido deinformação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 669/2011"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º-A",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "As atividades econômicas de baixo risco são dispensadas da necessidade de Autorização para o Funcionamento de Atividades Econômicas no Município de Porto Alegre, observado o disposto na legislação vigente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 876/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-unico",
+   "pai": "art-1-A",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "As atividades dedicadas à operação de desmanche de veículos, de fundições, de galpões de reciclagem, de compra e venda de sucata e de peças usadas de veículos automotores, mesmo que de baixo risco, necessitarão de emissão de autorização para funcionamento no Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 983/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para a solicitação da Autorização para o Funcionamento de Atividades Econômicas no Município de Porto Alegre, deverá o interessado:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "protocolar requerimento na SMIC, anexando:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I/ali-a",
+   "pai": "art-2/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Termo de Responsabilidade, firmado pelo responsável legal da sociedade empresária, afirmando que a edificação na qual será exercida a atividade é apropriada e adequada para o fim comercial a que se destina e que serão adotadas medidas necessárias à regularização de sua atividade junto aos órgãos públicos competentes;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I/ali-b",
+   "pai": "art-2/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "comprovante do trâmite da regularização da edificação junto à Secretaria Municipal de Obras e Viação – SMOV – ou protocolo do Estudo de Viabilidade Urbanística – EVU – junto à Secretaria de Planejamento Municipal ou, ainda, pedido de licenciamento ambiental junto à Secretaria Municipal do Meio Ambiente– SMAM –, em conformidade com a análise inicial da SMIC;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I/ali-c",
+   "pai": "art-2/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "observar o atendimento das exigências específicas da rotina de licenciamento da SMIC.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O disposto na al. “a” do inc. I deste artigo não se aplica às atividades localizadas nas áreas de que trata o inc. I do § 2º do art. 1º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As atividades de que trata o inc. II do § 2º do art. 1º desta Lei Complementar devem possuir EVU aprovado, exceto as atividades de creche, escola maternal, centro de cuidados e estabelecimentos de ensino pré-escolar, hortomercado e supermercado de até 1.000m² (mil metros quadrados) de área construída, apresentar alvará ou certidão emitidos pelo Comando Regional de Bombeiros da Brigada Militar, Seção de Prevenção de Incêndios, e atender às normas de prevenção e segurança contra incêndios.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 4,
+     "texto": "As atividades de que trata o inc. II do § 2º do art. 1º desta Lei Complementar devem possuir EVU aprovado, exceto as atividades de salões exclusivos para festas de caráter familiar, creche, escola maternal, centro de cuidados e estabelecimentos de ensino pré-escolar, hortomercado e supermercado de até 1.000m² (mil metros quadrados) de área construída, apresentar alvará ou certidão emitidos pelo Comando Regional de Bombeiros da Brigada Militar, Seção de Prevenção de Incêndios, e atender às normas de prevenção e segurança contra incêndios.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.034/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-3",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "As atividades de salões exclusivos para festas de caráter familiar, tais como casamentos, aniversários e festas infantis, atendendo à legislação de impacto ambiental do Município de Porto Alegre, terão seu horário de funcionamento permitido até as 03h00min (três horas da manhã).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.034/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os estabelecimentos que exercerem atividades para as quais se façam necessários a adequação e o uso de equipamentos que atendam à legislação de impacto ambiental do Município de Porto Alegre terão seu horário de funcionamento restringido em conformidade com a legislação em vigor.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica vedada a expedição da Autorização de que trata esta Lei Complementar nos casos:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "de atividades localizadas em áreas consideradas de risco ou em próprios municipais, ressalvados, neste último caso, os estabelecimentos que possuírem Termo de Permissão de Uso em vigor;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "em que constar, no endereço da atividade, no Boletim Informativo sobre o imóvel, a expressão “SMOV/DCON e/ou PGM – Imóvel Bloqueado para Fins de Alvará”;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "em que, pela SMOV, tiver sido emitida notificação para o endereço da atividade, em virtude de irregularidade no tocante às normas de prevenção e segurança contra incêndio, excetuados aqueles casos em que houver liberação expressa atualizada da SMOV ou for apresentado alvará ou certidão emitidos pelo Comando Regional de Bombeiros da Brigada Militar, Seção de Prevenção de Incêndios, dando conta do atendimento das normas de prevenção e segurança contra incêndio.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Todo estabelecimento autorizado na forma desta Lei Complementar, considerada a precariedade da Autorização para o Funcionamento de Atividades Econômicas, cujo exercício da atividade vier a se constituir, comprovadamente, em ameaça à segurança, em perturbação ao sossego e ao bem-estar público ou risco à saúde terá a Autorização cancelada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-unico",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O cancelamento da Autorização para o Funcionamento de Atividades Econômicas dar-se-á em conformidade com o disposto nos Capítulos II e V da Lei Complementar nº 12, de 7 de janeiro de 1975, e alterações posteriores, e mediante processo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Aplicam-se, no que couberem, os preceitos insertos na Lei Complementar nº 12, de 1975, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-3",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Excetuados os casos em que a atividade tenha grau de risco considerado alto ou seja efetiva ou potencialmente poluidora, as atividades econômicas independerão de atos públicos de liberação, observado o disposto na legislação vigente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 876/2020"
+     }
+    },
+    {
+     "desde": 3,
+     "texto": "O ato normativo que reduza exigências, obrigações, restrições, requerimentos, especificações ou outros trâmites burocráticos, com o intuito de diminuir ônus para o contribuinte, não será objeto de análise de impacto regulatório.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 983/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar será regulamentada no prazo de 90 (no venta) dias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 39713,
+    "rotulo": "Lei Complementar municipal nº 748, de 04 de novembro de 2014"
+   },
+   "motivo": "comando_recusado",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº699, de 19 de janeiro de 2011\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"699\",\"ano\":\"2011\",\"chave\":\"lc 699/2011\"}, versão: lc 554/2006) | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
+   "enderecos": [
+    "art-1/par-1",
+    "art-1/par-4"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 42460,
+    "rotulo": "Lei Complementar municipal nº 876, de 03 de março de 2020"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "endereço-pai \"art. 9º\" não encontrado — não é possível inserir \"§ 4º do art. 9º\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.212, de 31 de janeiro de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11212\",\"ano\":\"2012\",\"chave\":\"l 11212/2012\"}, versão: lc 554/2006) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 12, de 7 de janeiro de 1975\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"12\",\"ano\":\"1975\",\"chave\":\"lc 12/1975\"}, versão: lc 554/2006)",
+   "enderecos": [
+    "art-9/par-4",
+    "art-4",
+    "art-29/par-2"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 46833,
+    "rotulo": "Lei Complementar municipal nº 983, de 21 de julho de 2023"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 876, de 3 de março de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"876\",\"ano\":\"2020\",\"chave\":\"lc 876/2020\"}, versão: lc 554/2006) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 876, de 3 de março de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"876\",\"ano\":\"2020\",\"chave\":\"lc 876/2020\"}, versão: lc 554/2006) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 876, de 3 de março de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"876\",\"ano\":\"2020\",\"chave\":\"lc 876/2020\"}, versão: lc 554/2006) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 876, de 3 de março de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"876\",\"ano\":\"2020\",\"chave\":\"lc 876/2020\"}, versão: lc 554/2006) | operação \"revoke_lei\" não gera alteração na árvore desta lei",
+   "enderecos": [
+    "art-4/inc-XI",
+    "art-4/par-1",
+    "art-4/par-8",
+    "art-4/par-9"
+   ]
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-1/par-1",
+   "desde": "2014-11-04"
+  },
+  {
+   "id": "art-1/par-4",
+   "desde": "2014-11-04"
+  },
+  {
+   "id": "art-4",
+   "desde": "2020-03-03"
+  },
+  {
+   "id": "art-4/inc-I",
+   "desde": "2020-03-03"
+  },
+  {
+   "id": "art-4/inc-II",
+   "desde": "2020-03-03"
+  },
+  {
+   "id": "art-4/inc-III",
+   "desde": "2020-03-03"
+  }
+ ]
+}

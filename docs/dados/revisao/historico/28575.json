@@ -1,0 +1,471 @@
+{
+ "geradoEm": "2026-11-20T09:25:03.961Z",
+ "idSapl": 28575,
+ "rotulo": "Lei Complementar municipal nº 382, de 24 de julho de 1996",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 382/1996@1996-07-24",
+   "data": "1996-07-24",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 382/1996@2021-08-05",
+   "data": "2021-08-05",
+   "fonte": {
+    "idSapl": 43286,
+    "rotulo": "Lei Complementar municipal nº 909, de 05 de agosto de 2021"
+   },
+   "comandosAplicados": 3
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "“ Ficam instituídas as audiências públicas concedidas pelo Executivo ou Legislativo Municipais, representadas pelo Prefeito. Vice-Prefeito, Secretários de Governo, Presidente da Câmara Municipal ou Vereador componente de sua Mesa Diretora, para esclarecimentos sobre projetos, obras e outras matérias submetidas à competência dos Poderes Executivo e Legislativo Municipais, nos ter mos do artigo 103 da Lei Orgânica Municipal. f !•",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A audiência pública destina-se à informação, esclarecimento e posicionamento sobre projetos, obras ou matérias em discussão, implantação e execução, seus impactos sócio-econômicos, ambientais e culturais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Poderão requerer audiência pública as enti dades de âmbito municipal, ou se não forem, aqueles que possuam mais de 3.000 (três mil) associados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os pedidos de audiência pública deverão ser feitos por escrito, junto ao protocolo do Gabinete do Prefeito, no Paço Municipal ou no Protocolo da Câmara Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-2",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-3",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "A solicitação de Audiência Pública deverá ser realizada antes de o Projeto de Lei ingressar na ordem do dia na Câmara Municipal",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 909/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica o Poder Executivo ou o Poder Legisla tivo. conforme o caso. obrigado a realizar a audiência pública no prazo de 30 dias a contar da data de entrega do requerimento publicando edital em Diário Oficial e em jornal de grande circulação local, com 20 (vinte) dias. no mínimo, de antecedência da realização da audiência pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica o Poder Executivo ou o Poder Legislativo, conforme o caso, obrigado a realizar a audiência pública no prazo de 21 (vinte e um) dias, contados da data de entrega do requerimento, publicando edital no Diário Oficial Eletrônico de Porto Alegre (DOPA-",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 909/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-unico",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Constará no,edital mencionado no “caput” deste artigo:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-unico/inc-I",
+   "pai": "art-4/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "data, local e hora da audiência pública;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-unico/inc-II",
+   "pai": "art-4/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "endereço completo do local onde se encontra - à disposição das entidades e movimentos da sociedade civil documentação relativa ao assuntos - a contar de 10 (dez) dias da data do pedido até o momento da realização da audiência.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/ali-e",
+   "pai": "art-4",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "e em jornal de grande circulação local, com 7 (sete) dias, no mínimo, de antecedência da realização da audiência pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 909/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "“ - Correrão por conta do proponente do projeto, obra ou matéria em discussão todas as despesas referentes à realiza ção da audiência pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "“ - A audiência pública será organizada pelo ór gão diretamente responsável pela iniciativa do projeto, obra ou matéria em discussão.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A audiência pública obedecerá, além das normas estatuídas na Legislação Federal e Estadual pertinentes, às seguintes condições:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-I",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "leitura e apresentação obrigatória, pela equipe técnica responsável, do projeto, obra ou matéria em discussão;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-II",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "apresentação de informações a respeito da área de influência do projeto, obra ou matéria em discussão",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-III",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "utilização de uma linguagem acessível, ilustrada por mapas, gráficos e demais técnicas de comunicação e visual, de modo que se possam entender e analisar os impactos bem como as conseqüências de sua implantação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-IV",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a audiência pública terá a duração mínima de 01 (uma) hora, garantindo-se a manifestação oral daqueles que o deseja rem pelo prazo máximo de 05 (cinco) minutos vedada a cessão de tempo sob qualquer hipótese;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-V",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "continuidade dos trabalhos da audiência pública, se caso 1/3 (um terço ou mais dos inscritos não puderem, por qualquer motivo, se manifestar durante o tempo de duração da mesma, em dia e hera definidos pelo organizador;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-VI",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "0 órgão público responsável deverá comunicar a :ontinuidade da audiência pública na forma do artigo 4° com um prazo T.ínimo de 03 (três) e máximo de 10 (dez) dias antes da realização da 'ova sessão de audiência pública;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-VII",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "as pessoas físicas ou jurídicas poderão in dagar ou posicionar-se perante o órgão licenciador, tanto oralmente, quanto por escrito, ou ambas, a sua escolha, não podendo o referido órgão, no entanto, decidir pelas mesmas ou substituir uma forma ou outra.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-VIII",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "no processo de discussão deverão ser analisadas as questões técnicas, legais, ecológico-ambientais, culturais, sociais e econômicas do projeto, obra ou matéria em discussão.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica assegurada a presença, na mesa diretora dos trabalhos, de pelo menos uma entidade não governamental, legalmente constituída e publicamente reconhecida.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-1",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O representante da entidade referida no “caput” do presente artigo terá garantida a sua participação no de bate. com direito a emitir parecer sobre o projeto, obra ou matéria em discussão.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-2",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A representação dar-se-á através de indicação unânime ou sorteio entre as entidades presentes à audiência pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Revogam-se as disposições em contrário",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

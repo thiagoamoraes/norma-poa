@@ -10,6 +10,8 @@ import fs from 'node:fs';
 import { estruturarNorma } from './ingestao/estrutura.mjs';
 import { prepararTextoExtraido } from './ingestao/extracao-texto.mjs';
 import { ancorarConferencia } from './ingestao/revisao-ancoras.mjs';
+import { descreverComandos } from './ingestao/revisao-comandos.mjs';
+import { compararComCompilacao, normalizarParaComparar } from './ingestao/revisao-compilacao.mjs';
 import { validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao, situacaoHumana, resumoHumano, listaParaOMotor, CATEGORIAS_HUMANAS } from './ingestao/revisao.mjs';
 
 let passou = 0, falhou = 0;
@@ -104,6 +106,59 @@ const base = { idSapl: 48003, decisao: 'aceitar', sha256Origem: 'abc', versaoEst
   const md = listaParaOMotor([nA, nR], m);
   ok('lista para o motor: só os encaminhados, com o rótulo, os motivos reais e a nota', /Casos: 1/.test(md) && md.includes('LC 1.005/2024') && md.includes('rotulo_nao_confere_com_a_origem') && md.includes('§ 1º sozinho na lei') && !md.includes('LC 689/2012'));
   ok('lista para o motor: decisão desatualizada não entra', /Casos: 0/.test(listaParaOMotor([{ ...nR, sha256Origem: 'outro' }], m)));
+}
+
+// --- F2: comando × resultado (alteradoras) -------------------------------------
+{
+  const lc320 = { registro: reg(6, '320'), texto: fs.readFileSync('./lc320.txt', 'utf8') };
+  const comBase = (chave) => (chave === 'lc 320/1994' ? lc320 : null);
+  const fonte = (n, data) => ({ tipoAto: 'LEI COMPLEMENTAR', numero: n, ano: data.slice(0, 4), dataPublicacao: data });
+
+  const r412 = descreverComandos(fs.readFileSync('./lc412.txt', 'utf8'), fonte('412', '1998-03-24'), comBase);
+  ok('LC 412/1998 (real, comando misto) com a LC 320 na base: classificação confiável; o caput do art. 8º é substituição e os §§ 1º a 3º são inserção',
+    r412.classificacaoConfiavel && r412.comandos.map((k) => `${k.operacao}:${k.dispositivo}`).join('|') === 'replace_text:art. 8º|insert_node:§ 1º do art. 8º|insert_node:§ 2º do art. 8º|insert_node:§ 3º do art. 8º');
+  const art8 = r412.comandos[0];
+  ok('LC 412/1998: o art. 8º tem antes e depois, e o depois é o texto novo da alteradora', art8.situacao === 'aplicavel' && art8.antes && art8.depois && art8.antes !== art8.depois);
+  ok('LC 412/1998: o parágrafo inserido não tinha "antes" e passa a ter texto', r412.comandos[1].antes === undefined && r412.comandos[1].depois.length > 20 && r412.comandos[1].situacao === 'aplicavel');
+  ok('LC 412/1998: o comando aponta a lei-alvo na base (LC 320)', art8.alvoNaBase.idSapl === reg(6, '320').idSapl && art8.chave === 'lc 320/1994');
+
+  const r514 = descreverComandos(fs.readFileSync('./fixtures/lc320/lc514.txt', 'utf8'), fonte('514', '2004-12-28'), comBase);
+  const p1 = r514.comandos.find((k) => k.dispositivo === '§ 1º do art. 2º');
+  ok('LC 514/2004 (real): o § 1º do art. 2º da LC 320 era VETADO e passa a ter texto da alteradora', p1.situacao === 'aplicavel' && p1.antes === 'VETADO.' && p1.antesVetado === true && p1.depois.length > 30);
+  const ren = r514.comandos.find((k) => k.operacao === 'renumber_node');
+  ok('LC 514/2004: a renumeração do parágrafo único não acha o alvo no TEXTO ORIGINAL (só existe depois de alteração anterior): sinaliza, não inventa', ren.situacao === 'dispositivo_nao_encontrado' && /não encontrado/.test(ren.erro));
+
+  const semBase = descreverComandos(fs.readFileSync('./lc412.txt', 'utf8'), fonte('412', '1998-03-24'), () => null);
+  ok('LC 412/1998 sem a LC 320 na base: nenhum antes/depois inventado, tudo "alvo_fora_da_base", classificação NÃO confiável', !semBase.classificacaoConfiavel && semBase.comandos.length > 0 && semBase.comandos.every((k) => k.situacao === 'alvo_fora_da_base' && k.antes === undefined && k.depois === undefined));
+
+  const r1005 = descreverComandos(fs.readFileSync('./fixtures/textos/lc1005_2024.txt', 'utf8'), fonte('1005', '2024-08-29'), () => null);
+  const alt = r1005.comandos.filter((k) => k.dispositivo === '§ 1º do art. 6º');
+  ok('LC 1.005/2024 (real, com "(NR)" truncado): o bloco que engoliu os arts. 10 e 11 aparece como comando com texto de OUTRO artigo ("Ficam criados…") — o defeito fica visível ao revisor', alt.length >= 2 && alt.some((k) => /^Ficam criados na letra c/.test(k.novo)) && alt.some((k) => /^Integram a estrutura/.test(k.novo)));
+  ok('LC 1.005/2024: as leis-alvo são identificadas pelo nome, mesmo fora da base', r1005.comandos.every((k) => k.chave) && r1005.comandos.some((k) => k.chave === 'lc 817/2017'));
+  ok('texto que não é lei não derruba a descrição', descreverComandos('lixo', fonte('1', '2000-01-01'), () => null).comandos.length === 0);
+}
+
+// --- F3: comparação com a compilação colada (leis.org) -------------------------
+{
+  // histórico REAL da LC 320 (saída de gerar-historico.mjs) × compilação REAL (lc320_compilado_leisorg.txt)
+  const h = JSON.parse(fs.readFileSync('./fixtures/historico/lc320_historico.json', 'utf8'));
+  const compilado = fs.readFileSync('./lc320_compilado_leisorg.txt', 'utf8');
+  const r = compararComCompilacao(h, compilado);
+  ok('LC 320 × compilação do leis.org: 72 iguais, 6 diferentes, 1 só no motor, 0 só na compilação', r.resumo.igual === 72 && r.resumo.diferente === 6 && r.resumo.so_no_motor === 1 && r.resumo.so_na_compilacao === 0 && r.naoMapeadas.length === 0);
+  const dif = r.itens.filter((i) => i.estado === 'diferente').map((i) => i.id).sort().join(' ');
+  ok('as 6 diferenças são exatamente as já nomeadas em teste_versionamento (art. 7º e §§ revogados pela LC 958; art. 9º-A e par. único do art. 10 com defeito do arquivo; inc. I do art. 12-B com travessão)', dif === ['art-10/par-unico', 'art-12-B/inc-I', 'art-7', 'art-7/par-1', 'art-7/par-2', 'art-9-A'].sort().join(' '));
+  const a7 = r.itens.find((i) => i.id === 'art-7');
+  ok('art. 7º: o motor traz "(Revogado)" (a lei revoga) e a compilação ainda traz o texto — vale a lei; a diferença só é listada, nunca "corrigida"', a7.motor === '(Revogado)' && a7.situacaoMotor === 'revogado' && /^A denominação de logradouros/.test(a7.compilado));
+  const so = r.itens.find((i) => i.estado === 'so_no_motor');
+  ok('o único "só no motor" é o parágrafo único do art. 2º, renumerado pela LC 514 (a posição segue na árvore)', so.id === 'art-2/par-unico');
+  // sintéticos: o que o revisor cola pode ter diferenças próprias
+  const maiusculas = compilado.replace('Cada Vereador deverá', 'CADA VEREADOR DEVERÁ');
+  ok('(sintético) só maiúscula/minúscula muda na compilação → continua igual (a troca de fato aconteceu no texto)', maiusculas !== compilado && compararComCompilacao(h, maiusculas).resumo.diferente === 6);
+  const trocado = compararComCompilacao(h, compilado.replace(/§ 2º Cada Vereador deverá/, '§ 2º Cada Prefeito deverá'));
+  ok('(sintético) palavra trocada na compilação → vira "diferente" (7 no total)', trocado.resumo.diferente === 7 && trocado.itens.some((i) => i.estado === 'diferente' && /Prefeito/.test(i.compilado || '')));
+  const vazio = compararComCompilacao(h, '');
+  ok('(sintético) compilação vazia: nada some em silêncio — todo dispositivo do motor aparece como "só no motor"', vazio.resumo.so_no_motor === h.dispositivos.length && vazio.resumo.igual === 0);
+  ok('normalização: espaço, travessão, aspas curvas e anotação de redação não contam', normalizarParaComparar('“A”  – B (Redação dada pela LC 1)') === normalizarParaComparar('"A" - B'));
 }
 
 // --- acervo inteiro: as âncoras concordam com o veredito do estruturador -----

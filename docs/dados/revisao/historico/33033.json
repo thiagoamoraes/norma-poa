@@ -1,0 +1,112 @@
+{
+ "geradoEm": "2026-11-20T09:25:05.290Z",
+ "idSapl": 33033,
+ "rotulo": "Lei Complementar municipal nº 502, de 16 de janeiro de 2004",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 502/2004@2004-01-16",
+   "data": "2004-01-16",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 502/2004@2018-01-05",
+   "data": "2018-01-05",
+   "fonte": {
+    "idSapl": 41528,
+    "rotulo": "Lei Complementar municipal nº 828, de 05 de janeiro de 2018"
+   },
+   "comandosAplicados": 2
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica permitido que as escolas de samba do Município realizem um evento por mês, com horário fixado até às 04 (quatro) horas do dia seguinte.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica permitido às associações e às entidades carnavalescas no Município de Porto Alegre realizarem, em suas quadras, enquanto não estiverem implementados sistemas de proteção sonora, 2 (dois) eventos por mês, com duração fixada até às 4 (quatro) horas do dia seguinte, relacionados à cultura popular em geral, com a finalidade de captar recursos destinados ao financiamento de seus desfiles e à adaptação de suas quadras à legislação ambiental.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 828/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "A realização dos eventos referidos no caput deste artigo poderá ocorrer em parceria com empresas produtoras de eventos, que responderão solidariamente pelas penalidades em caso de descumprimento do disposto nesta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 828/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nos 90 (noventa) dias que antecedem o carnaval, os ensaios das associações carnavalescas deverão obedecer ao seguinte horário: de domingo a quinta-feira, até às 24 (vinte e quatro) horas e, na sexta-feira e no sábado, até às 02 (duas) horas do dia seguinte; nos 60 (sessenta) dias anteriores ao carnaval, nas sextas-feiras e nos sábados, esses ensaios poderão estender-se até às 04 (quatro) horas do dia seguinte.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 41528,
+    "rotulo": "Lei Complementar municipal nº 828, de 05 de janeiro de 2018"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
+  }
+ ],
+ "aConferir": []
+}

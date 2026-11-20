@@ -1,0 +1,214 @@
+{
+ "geradoEm": "2026-11-20T09:25:03.924Z",
+ "idSapl": 27882,
+ "rotulo": "Lei Complementar municipal nº 332, de 02 de dezembro de 1994",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 332/1994@1994-12-02",
+   "data": "1994-12-02",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 332/1994@2003-08-08",
+   "data": "2003-08-08",
+   "fonte": {
+    "idSapl": 32648,
+    "rotulo": "Lei Complementar municipal nº 492, de 08 de agosto de 2003"
+   },
+   "comandosAplicados": 1
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É obrigatória acolocação de numeração predial em posição que facilite a visualização da mesmapelos transeuntes que passam pelo logradouro localizado em frente ao imóvel.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "A numeração predial conterá as dimensões mínimas de 11cm (onze centímetros) de altura por 7cm (sete centímetros) de largura, com coloração contrastante ao fundo em que for afixada, ressalvados os prédios integrantes do Patrimônio Cultural do Município, circunstâncias em que as dimensões serão determinadas pelo Executivo Municipal, através do setor competente",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 492/2003"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica determinadocomo local padrão para colocação de numeração a parte frontal do \"hall\" deentrada do edifício e a parte frontal das residências.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A numeração deveráapresentar os seguintes requisitos: nitidez, local iluminado, tamanho suficientepara atender o expresso no art. 1º desta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica estipulada amulta de 6,2672 UFMs no caso da não observância desta Lei e 12,5345 UFMs noscasos de reincidência.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Será concedido oprazo de 90 (noventa) dias, a partir da data de publicação desta Lei, paraadequações necessárias à mesma.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-unico",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Afiscalização caberá à Secretaria Municipal de Obras e Viação – SMOV, através dosetor competente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra emvigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Revogam-se asdisposições em contrário. PREFEITURA MUNICIPALDEPORTO ALEGRE, 02 de dezembro de 1994. Raul Pont, Prefeito em exercício. Estilac Xavier, Secretário Municipal de Obras e Viação. Registre-se e publique-se. Sônia Berenice Rösler, Secretário do Governo Municipal, respondendo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 36741,
+    "rotulo": "Lei Complementar municipal nº 643, de 18 de maio de 2010"
+   },
+   "motivo": "comando_recusado",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 492,de 8 de agosto de 2003\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"492\",\"ano\":\"2003\",\"chave\":\"lc 492/2003\"}, versão: lc 332/1994)",
+   "enderecos": [
+    "art-2"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 41179,
+    "rotulo": "Lei Complementar municipal nº 813, de 20 de março de 2017"
+   },
+   "motivo": "comando_nao_reconhecido",
+   "detalhe": "nenhum comando de alteração foi extraído do texto desta norma",
+   "enderecos": [
+    "art-5",
+    "art-4"
+   ]
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-2",
+   "desde": "2010-05-18"
+  },
+  {
+   "id": "art-4",
+   "desde": "2017-03-20"
+  },
+  {
+   "id": "art-5",
+   "desde": "2017-03-20"
+  },
+  {
+   "id": "art-5/par-unico",
+   "desde": "2017-03-20"
+  }
+ ]
+}

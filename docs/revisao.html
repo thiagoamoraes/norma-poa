@@ -95,6 +95,19 @@
   .st.bad { color: var(--erro); } .st.nl { color: var(--alerta); }
   .disp.n1 { margin-left: 1.2em; } .disp.n2 { margin-left: 2.4em; } .disp.n3 { margin-left: 3.6em; } .disp.n4 { margin-left: 4.8em; }
   .esp { font-size: .8rem; color: var(--suave); padding: 4px 8px; }
+  #comandos { margin-top: 14px; border: 1px solid var(--linha); border-radius: 8px; }
+  #comandos > h3 { margin: 0; font-size: .85rem; font-weight: 600; padding: 7px 10px; border-bottom: 1px solid var(--linha); background: var(--fundo); border-radius: 8px 8px 0 0; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; justify-content: space-between; }
+  #comandos .corpo { padding: 8px 10px; max-height: 60vh; overflow: auto; }
+  #comandos .aviso { font-size: .82rem; color: var(--suave); margin: 0 0 8px; }
+  #comandos details { border: 1px solid var(--linha); border-radius: 6px; margin-bottom: 4px; }
+  #comandos summary { cursor: pointer; padding: 6px 10px; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; font-size: .88rem; }
+  #comandos summary .op { font: .78rem ui-monospace, monospace; color: var(--suave); }
+  #comandos .det { padding: 6px 10px 10px; display: grid; gap: 8px; }
+  @media (min-width: 900px) { #comandos .det.dois { grid-template-columns: 1fr 1fr; } }
+  #comandos .cx { font: .85rem/1.45 Georgia, serif; white-space: pre-wrap; border-left: 3px solid var(--linha); padding: 2px 8px; }
+  #comandos .cx b { display: block; font: 600 .72rem system-ui; color: var(--suave); text-transform: uppercase; letter-spacing: .04em; }
+  #comandos .erro { font-size: .82rem; color: var(--erro); }
+  .selo.cinza { background: transparent; border: 1px solid var(--linha); color: var(--suave); }
   #toast { position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%); background: var(--tinta); color: var(--papel); padding: 8px 14px; border-radius: 6px; font-size: .88rem; opacity: 0; pointer-events: none; transition: opacity .2s; }
   #toast.ver { opacity: 1; }
   kbd { font: .75rem ui-monospace, monospace; border: 1px solid var(--linha); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; background: var(--papel); }
@@ -103,7 +116,7 @@
 <body>
 <header>
   <h1>Norma — revisão humana</h1>
-  <p>Normas <b>recentes</b> (sancionadas a partir da LC 611/2009) que o leitor automático não aceitou. Confira o ponto reprovado nos dois lados e registre a decisão. A decisão <b>não altera</b> a leitura do motor: fica numa camada à parte, amarrada à versão do texto. Projeto experimental e sem caráter oficial. <a href="index.html">Voltar à consulta</a></p>
+  <p>Normas <b>recentes</b> (sancionadas a partir da LC 611/2009) que o leitor automático não aceitou. Confira o ponto reprovado nos dois lados e registre a decisão. A decisão <b>não altera</b> a leitura do motor: fica numa camada à parte, amarrada à versão do texto. Projeto experimental e sem caráter oficial. <a href="compara.html">Conferir uma lei com a compilação do leis.org</a> · <a href="index.html">Voltar à consulta</a></p>
   <div id="painel" aria-live="polite"></div>
   <div id="aviso-export" role="status"></div>
 </header>
@@ -204,7 +217,7 @@ function pintarFila() {
     const selo = s === 'revisada' ? el('span', { class: 'selo ok' }, '✓ ' + ROTULO_DECISAO[d.decisao]) : s === 'desatualizada' ? el('span', { class: 'selo er' }, '⚠ desatualizada') : null;
     return el('li', { tabindex: 0, 'data-id': n.idSapl, 'aria-current': estado.norma?.idSapl === n.idSapl ? 'true' : 'false', onclick: () => abrir(n.idSapl), onkeydown: (e) => { if (e.key === 'Enter') abrir(n.idSapl); } },
       el('div', { class: 't' }, n.rotulo.replace(/ municipal/i, ''), selo, n.ocr ? el('span', { class: 'selo al' }, 'OCR') : null),
-      el('div', { class: 'm' }, n.motivos.join(' · '), n.pontos ? ` — ${n.pontos} ponto(s)` : ''));
+      el('div', { class: 'm' }, n.motivos.join(' · '), n.pontos ? ` — ${n.pontos} ponto(s)` : '', n.comandos ? ` · ${n.comandos} comando(s)` : ''));
   }));
 }
 
@@ -234,8 +247,10 @@ function pintarNorma() {
     el('div', { id: 'paineis' },
       el('div', { class: 'painel' }, el('h3', {}, el('span', {}, 'Texto de origem (como extraído)'), el('span', { class: 'leg' }, el('i', { style: 'background:var(--erro-fraca);border-bottom:2px solid var(--erro)' }), 'rótulo não confere  ', el('i', { style: 'background:var(--alerta-fraca);border-bottom:2px dashed var(--alerta)' }), 'fora da árvore')), el('div', { class: 'rolagem', id: 'rol-origem', tabindex: 0 }, el('div', { id: 'origem' }))),
       el('div', { class: 'painel' }, el('h3', {}, el('span', {}, `Árvore do leitor (${n.dispositivos.length} dispositivos)`), el('span', { class: 'leg' }, 'clique para localizar no texto')), el('div', { class: 'rolagem', id: 'rol-arvore' }, arvore()))));
+  $('norma').append(el('section', { id: 'comandos', hidden: true }));
   pintarOrigem();
   pintarDecisao();
+  pintarComandos(n);
 }
 function arvore() {
   const n = estado.norma;
@@ -277,6 +292,52 @@ function selecionar(id, rolarOrigem) {
   const no = document.querySelector(`#rol-arvore .disp[data-id="${CSS.escape(id)}"]`);
   if (no && !rolarOrigem) no.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   if (estado.formAberto === 'corrigir') abrirForm('corrigir');
+}
+
+// ── comandos (F2): o que o extrator entendeu, e antes/depois quando a lei-alvo está na base ──
+const SITUACAO_CMD = {
+  aplicavel: ['ok', '✓ aplicável (antes/depois)'],
+  alvo_fora_da_base: ['cinza', 'lei-alvo fora da base'],
+  alvo_nao_identificado: ['al', '⚠ lei-alvo não identificada'],
+  dispositivo_nao_encontrado: ['al', '⚠ dispositivo não achado no texto original'],
+  recusado: ['er', '✗ recusado pelo motor'],
+  sem_aplicacao: ['cinza', 'sem aplicação automática'],
+};
+const AVER = ['alvo_nao_identificado', 'dispositivo_nao_encontrado', 'recusado'];
+async function carregarComandos(id) {
+  if (estado.cmd?.has(id)) return estado.cmd.get(id);
+  estado.cmd = estado.cmd || new Map();
+  let r = null; try { const x = await fetch(`dados/revisao/n/${id}.cmd.json`); if (x.ok) r = await x.json(); } catch { /* sem comandos */ }
+  estado.cmd.set(id, r); return r;
+}
+async function pintarComandos(n) {
+  const cmd = await carregarComandos(n.idSapl);
+  const sec = $('comandos'); if (!sec || estado.norma?.idSapl !== n.idSapl) return;
+  if (!cmd || !cmd.comandos.length) { sec.hidden = true; return; }
+  sec.hidden = false;
+  const lista = el('div', { class: 'corpo' });
+  const filtro = el('select', { 'aria-label': 'Filtrar comandos', onchange: () => desenhar() },
+    el('option', { value: '' }, `Todos (${cmd.comandos.length})`), el('option', { value: 'aver' }, `A ver (${cmd.comandos.filter((k) => AVER.includes(k.situacao)).length})`), el('option', { value: 'aplicavel' }, `Aplicáveis (${cmd.comandos.filter((k) => k.situacao === 'aplicavel').length})`));
+  function desenhar() {
+    const f = filtro.value;
+    const ks = cmd.comandos.filter((k) => !f || (f === 'aver' ? AVER.includes(k.situacao) : k.situacao === f));
+    lista.replaceChildren(
+      el('p', { class: 'aviso' }, 'Antes/depois: cada comando é aplicado sozinho sobre o texto ORIGINAL da lei-alvo (sem as alterações intermediárias); serve para ver o que o comando entendeu, não é o texto vigente da época. ', cmd.classificacaoConfiavel ? 'Classificação confiável (a lei-alvo está na base).' : 'Sem a lei-alvo na base, a classificação entre substituir e incluir é aproximada.'),
+      ...ks.slice(0, 400).map((k) => {
+        const [cls, rot] = SITUACAO_CMD[k.situacao] || ['cinza', k.situacao];
+        const det = el('div', { class: 'det' + (k.antes != null || k.depois != null ? ' dois' : '') });
+        if (k.novo != null) det.append(el('div', { class: 'cx' }, el('b', {}, 'Texto novo dado pelo comando' + (k.novoTruncado ? ' (cortado)' : '')), k.novo));
+        if (k.antes != null || k.depois != null) { det.append(el('div', { class: 'cx' }, el('b', {}, 'Antes (texto original da lei-alvo)' + (k.antesVetado ? ' · vetado' : '')), k.antes ?? '(não existia)'), el('div', { class: 'cx' }, el('b', {}, 'Depois'), k.depois ?? '—')); }
+        if (k.erro) det.append(el('div', { class: 'erro' }, k.erro));
+        if (k.alvoNaBase) det.append(el('div', { class: 'ajuda' }, 'Lei-alvo na base: ' + k.alvoNaBase.rotulo));
+        const irPara = k.artigoOrigem != null ? el('button', { type: 'button', onclick: (e) => { e.preventDefault(); const id = `art-${k.artigoOrigem}`; if (estado.norma.dispositivos.some((d) => d.id === id)) { selecionar(id, false); $('rol-arvore').scrollIntoView({ block: 'nearest' }); } } }, `Ir ao art. ${k.artigoOrigem} da alteradora`) : null;
+        if (irPara) det.append(irPara);
+        return el('details', {}, el('summary', {}, el('span', { class: 'selo ' + cls }, rot), el('span', { class: 'op' }, k.operacao), el('span', {}, `${k.dispositivo || '(dispositivo?)'}${k.lei ? ' · ' + k.lei : ''}`), k.artigoOrigem != null ? el('span', { class: 'ajuda' }, `art. ${k.artigoOrigem}`) : null), det);
+      }),
+      ...(ks.length > 400 ? [el('p', { class: 'aviso' }, `Mostrando 400 de ${ks.length}; use o filtro.`)] : []));
+  }
+  sec.replaceChildren(el('h3', {}, el('span', {}, `Comandos da alteradora (${cmd.comandos.length}; ${cmd.semEfeito} dispositivo(s) da própria lei sem efeito sobre outra)`), filtro), lista);
+  desenhar();
 }
 
 // ── decisão ───────────────────────────────────────────────────────────────────

@@ -1,0 +1,793 @@
+{
+ "geradoEm": "2026-11-19T09:26:04.957Z",
+ "idSapl": 38330,
+ "rotulo": "Lei Complementar municipal nº 700, de 03 de julho de 2012",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 700/2012@2012-07-03",
+   "data": "2012-07-03",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 700/2012@2015-07-08",
+   "data": "2015-07-08",
+   "fonte": {
+    "idSapl": 40111,
+    "rotulo": "Lei Complementar municipal nº 765, de 08 de julho de 2015"
+   },
+   "comandosAplicados": 27
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 1º da LeiComplementar nº 625, de 3 de julho de 2009, conforme segue: “Art. 1º Fica instituído, no Municípiode Porto Alegre, o Sistema de Controle Interno dos poderes Executivo eLegislativo Municipal , com atuação prévia, concomitante e posterior aos atos daAdministração, nos termos do art. 31 da Constituição Federal e dos arts. 61 e 64da Lei Orgânica do Município de Porto Alegre – LOMPA –, visando ao controle e àfiscalização das contas públicas municipais, que serão exercidos com basenasescriturações e nas demonstrações contábeis, nos relatórios de execução eacompanhamento de projetos e atividades e em outros procedimentos e instrumentosestabelecidos nas normas pertinentes em vigor.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o caput doart.2º da Lei Complementar nº 625, de 2009, conforme segue: “Art. 2º IntegramoSistema de Controle Interno dos poderes Executivo e Legislativo Municipale aele se submetem todos os órgãos, as entidades e os agentes públicos daAdministração Pública Municipal. .........................................................................................”(NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam alterados o caput do §4º, o § 5º e o caput do art. 4º da Lei Complementar nº 625, de 2009, conformesegue: “Art. 4º Fica criada como Órgão Centraldo Sistema de Controle Interno dos poderes Executivo e Legislativo Municipal aControladoria-Geral do Município de Porto Alegre (CGM), órgão vinculado àSecretaria Municipal da Fazenda (SMF), com atribuições de coordenar, fiscalizare avaliar as atividades de controle interno da Administração. ...................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os relatórios emitidos pelaUnidade de Auditoria-Geral ficarão arquivados em suas dependências e terãoobrigatoriamente cópias destinadas: ...................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-2",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica autorizada a organização, pormeio de decreto, de Equipes Seccionais da CGM, estruturas responsáveis pelaexecução de ações setoriais do Sistema de Controle Interno, integradas porservidores da CGM, subordinados técnica e administrativamente ao GabinetedoControlador-Geral.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam alterados os incs.III aVIII do art. 6º da Lei Complementar nº 625, de 2009, conforme segue: “Art. 6º..................................................................................... ...................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "O Quadro dos Cargos de Provimento Efetivo é estruturado nos grupos a seguir, conforme a natureza das respectivas atribuições, destinadas a atender às atividades essenciais e gerais necessárias à consecução dos fins da Administração Centralizada:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Unidade de Contabilidade-Geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "AA – Grupo Apoio à Administração;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Unidade de Auditoria-Geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "OP – Grupo Operacional;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Unidade de Informações LegaisGerenciais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "AC – Grupo Atividades Complementares;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Unidade de Normas Técnicas eOrientação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "CO – Grupo Comunicação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Unidade de Gestão Financeira; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "LC – Grupo Lazer e Cultura;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Unidade de Despesa Pública. .........................................................................................”(NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "FV – Grupo Fiscalização e Vigilância;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "OB – Grupo Obras;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VIII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "SA – Grupo Saúde e Assistência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IX",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "TP – Grupo Técnico-Profissional;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-X",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "ES – Grupo Executivo e Assessoramento Superior;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "ESM – Grupo Especialidade Médica; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "AT – Grupo Administração Tributária.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 7º da LeiComplementar nº 625, de 2009, conforme segue: “Art. 7º Ao Gabinete doControlador-Geral compete a coordenaçãogeral das atividades exercidas pelasUnidades referidas nos incs. III a VIII do art. 6º desta Lei Complementar.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-XI",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "executar, por meio da Divisão de Auditoria-Geral, auditorias especiais solicitadas pelas autoridades municipais; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 9º da LeiComplementar nº 625, de 2009, conforme segue: “Art. 9º À Unidade deContabilidade-Geral competem a execução da contabilidade e o controle da DívidaPública dos órgãos da Administração, com exceção das empresas estatais, tendopor objetivo principal a uniformidade de procedimentos visando à consolidaçãodas demonstrações contábeis.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-III",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Divisão de Contabilidade-Geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-IV",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Divisão de Auditoria-Geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-V",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Divisão de Informações Legais e Gerenciais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-VI",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Divisão de Despesa Pública;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 10 da LeiComplementar nº 625, de 2009, conforme segue: “Art. 10. À Unidade de Auditoria-Geralcompetem a fiscalização e a avaliação dos controles internos nos órgãos daAdministração, inclusive a Controladoria-Geral do Município de Porto Alegre (CGM),ficando garantidas as prerrogativas do art. 20 desta Lei Complementar.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Ao Gabinete do Controlador-Geral compete a coordenação geral das atividades exercidas pelas Divisões referidas nos incisos III a VI do caput do art. 6º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o caput doart.11 da Lei Complementar nº 625, de 2009, conforme segue: “Art. 11. À Unidade de InformaçõesLegais e Gerenciais compete: .........................................................................................”(NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o caput doart.12 da Lei Complementar nº 625, de 2009, conforme segue: “Art. 12. À Unidade de Normas Técnicase Orientação compete: .........................................................................................”(NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "À Divisão de Contabilidade-Geral competem: 25",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-I",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "a execução da contabilidade e o registro da dívida pública da Administração, com exceção das empresas estatais, tendo por objetivo principal a uniformidade de procedimentos visando à consolidação das demonstrações contábeis; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-II",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "a coordenação das Seccionais de Contabilidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o caput do13 da Lei Complementar nº 625, de 2009, conforme segue: “Art. 13. À Unidade de GestãoFinanceira compete: .........................................................................................”(NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "À Divisão de Auditoria-Geral competem a fiscalização e a avaliação dos controles internos da Administração, inclusive na própria CGM, ficando garantidas as prerrogativas do art. 20 desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 14da LeiComplementar nº 625, de 2009, conforme segue: “Art. 14. À Unidade de Despesa Públicacompete coordenar, orientar e controlar as atividades de execução orçamentária eextraorçamentária da Administração Direta, das autarquias e da fundação edoPoder Legislativo.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "À Divisão de Informações Legais e Gerenciais compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o caput do16 da Lei Complementar nº 625, de 2009, conforme segue: “Art. 16. Os integrantes dos Sistema deControle Interno dos Poderes Executivo e Legislativo Municipais deverão apoiar oÓrgão de Controle Externo, no exercício de sua missão institucional, competindoà CGM coordenar,                     fiscalizar                      e                  avaliar            a prestação desse apoio..........................................................................................”(NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 18da LeiComplementar nº 625, de 2009, conforme segue: “Art. 18. O Conselho Superior seráintegrado pelos servidores ocupantes das chefias das Unidades da CGM e presididopelo Controlador-Geral.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 19da LeiComplementar nº 625, de 2009, conforme segue: “Art. 19. São condições para a assunçãoda função de Chefe de Unidade:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "À Divisão de Despesa Pública compete:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14/inc-I",
+   "pai": "art-14",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "possuir obrigatoriamente cargo deContador para as Unidades de Contabilidade-Geral, Auditoria-Geral, InformaçõesLegais e Gerenciais, Normas Técnicas e Orientação e Despesa Pública; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "controlar e orientar as atividades de execução da despesa orçamentária e extraorçamentária da Administração Direta, das autarquias, da fundação de direito público e do Legislativo Municipal; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14/inc-II",
+   "pai": "art-14",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "possuir obrigatoriamente cargo deAdministrador, Economista ou Contador para a Unidade de Gestão Financeira.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "coordenar as Seccionais de Controle da Despesa Pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 765/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra emvigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 40111,
+    "rotulo": "Lei Complementar municipal nº 765, de 08 de julho de 2015"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "endereço-pai \"parágrafo único do art. 4º\" não encontrado — não é possível inserir \"inc. xii do parágrafo único do art. 4º\" | artigo-base \"art. 39º\" não encontrado — não é possível posicionar \"art. 39\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 625, de 3 de julho de 2009\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"625\",\"ano\":\"2009\",\"chave\":\"lc 625/2009\"}, versão: lc 700/2012) | endereço-pai \"parágrafo único do inc. i do parágrafo único do art. 17\" não encontrado — não é possível inserir \"inc. i do parágrafo único do inc. i do parágrafo único do art. 17\" | artigo-base \"art. 18º\" não encontrado — não é possível posicionar \"art. 18\" | artigo-base \"art. 19º\" não encontrado — não é possível posicionar \"art. 19\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 534, de 28 de dezembro de 2005\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"534\",\"ano\":\"2005\",\"chave\":\"lc 534/2005\"}, versão: lc 700/2012)",
+   "enderecos": [
+    "art-4/par-unico/inc-XII",
+    "art-39",
+    "art-4/par-4",
+    "art-17/par-unico/inc-I/par-unico/inc-I",
+    "art-18",
+    "art-19",
+    "art-20/par-4"
+   ]
+  }
+ ],
+ "aConferir": []
+}

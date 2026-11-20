@@ -1,0 +1,705 @@
+{
+ "geradoEm": "2026-11-20T09:25:05.341Z",
+ "idSapl": 34066,
+ "rotulo": "Lei Complementar municipal nº 535, de 28 de dezembro de 2005",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 535/2005@2005-12-28",
+   "data": "2005-12-28",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 535/2005@2019-09-03",
+   "data": "2019-09-03",
+   "fonte": {
+    "idSapl": 42216,
+    "rotulo": "Lei Complementar municipal nº 859, de 03 de setembro de 2019"
+   },
+   "comandosAplicados": 11
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O valor da Unidade Financeira Municipal (UFM) será atualizado, anualmente, com base na variação do Índice Nacional de Preços ao Consumidor Amplo (IPCA), calculado pelo Instituto Brasileiro de Geografia e Estatística (IBGE) ou, no caso de sua extinção, pelo índice que venha a substituí-lo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Não havendo índice que substitua o IPCA, o valor da UFM será atualizado pelo Índice de Preços ao Consumidor do Município de São Paulo (IPC), calculado pela Fundação Instituto de Pesquisas Econômicas (FIPE), ou, na falta deste, pelo Índice Nacional de Preços ao Consumidor (INPC), calculado pelo IBGE, conforme dispuser decreto do Poder Executivo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O valor da UFM terá vigência de 1° de janeiro a 31 de dezembro de cada ano e será atualizado tendo por base a variação acumulada do Índice previs to neste artigo, ocorrida no período de dezembro do segundo ano anterior a sua vigência até novembro do ano imediatamente anterior a sua vigência.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "O valor da UFM terá vigência de 1º de janeiro a 31 de dezembro de cada ano e será atualizado tendo por base a variação acumulada do índice previsto neste artigo ocorrida no período de novembro do segundo ano anterior à sua vigência até outubro do ano imediatamente anterior a sua vigência.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 859/2019"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O IPCA será utilizado, no mínimo, nos próximos 04 (quatro) anos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica facultado ao Poder Executivo estabelecer a possibilidade de pagamento do Imposto sobre a Propriedade Predial e Territorial Urbana (IPTU), da Taxa de Coleta de Lixo (TCL) e do Imposto sobre Serviços de Qualquer Natureza, relativo à prestação de serviços sob a forma de trabalho pessoal do próprio contri buinte (ISSQN – TP), até o primeiro dia útil do mês de janeiro, sem a aplicação da variação da UFM de que trata o § 2º do art. 1º desta Lei Complementar, relativa ao período.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterada a redação do “caput” e seus incs. I e II e acrescen tados o inc. III e os §§ 1º a 4° ao art. 82 da Lei Complementar n° 7, de 7 de dezembro de 1973, e alterações posteriores, com redação dada pelas Leis Com plementares nos 209, de 28 de dezembro de 1989, e alterações posteriores, e 482, de 26 de dezembro de 2002, conforme segue: “Art. 82. Fica facultada ao Poder Executivo a concessão de redução no valor do Imposto sobre a Propriedade Predial e Territorial Urbana (IPTU), da Taxa de Coleta de Lixo (TCL) e do Imposto sobre Serviços de Qualquer Natureza, rela tivo à prestação de serviços sob a forma de trabalho pessoal do próprio contribu inte (ISSQN – TP), quando for efetuado o pagamento do imposto do exercício, mediante parcela única, da seguinte forma:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "20% (vinte por cento) de redução, se o pagamento for efetuado até o primeiro dia útil de janeiro;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "10% (dez por cento) de redução, se o pagamento for efetuado até 10 de fevereiro;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "5% (cinco por cento) de redução, se o pagamento for efetuado até 10 de março.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A redução prevista no inciso I deste artigo também será facultada aos contribuintes em relação aos valores lançados por meio de cargas comple mentares, ao longo do ano, desde que o pagamento ocorra em parcela única, conforme definido no Calendário Fiscal de Arrecadação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-2",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Optando o contribuinte pelo não pagamento em parcela única, o valor do tributo será parcelado, nos termos fixados no Calendário Fiscal de Arre cadação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-3",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica estabelecido o valor mínimo de 05 (cinco) UFMs para cadaparcela, na hipótese do parcelamento previsto no parágrafo anterior.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-4",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ocorrendo atraso nos pagamentos do parcelamento a que se refe re o § 2° deste artigo, incidirá multa conforme o disposto nos §§ 3° e 5°-A do artigo 69 desta Lei Complementar.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterada a redação do parágrafo único do art. 9° da Lei Complementar n° 7, de 1973, e alterações posteriores, com redação dada pela Lei Complementar n° 263, de 28 de dezembro de 1991, conforme segue: “Art. 9º ... ...",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-unico",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Somente em decorrência de Lei específica, as altera ções de preços e de definições dos tipos de construção previstas no “caput” deste artigo poderão determinar crescimento nominal do imposto, entre dois exercícios subseqüentes, em coeficiente superior ao da inflação do período, representada pela variação da Unidade Financeira Municipal (UFM).” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam acrescentados os §§ 3° e 4° no art. 16 da Lei Complemen tar n° 7, de 1973, e alterações posteriores, conforme segue: “Art. 16. ... ...",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica facultado à Administração Fazendária efetuar lançamentos inferiores a:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-I",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "10 (dez) UFMs;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-II",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "100 (cem) UFMs, quando se tratar de lançamento de diferença de Imposto sobre a Propriedade Predial e Territorial Urbana (IPTU) e Taxa de Coleta de Lixo (TCL).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-2",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No caso de não ocorrência do lançamento previsto no parágrafo anterior, os valores poderão ser acumulados até atingir o limite, quando então deverá ser efetuado o lançamento.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam incluídos os incs. I e II no § 7º e alterada a redação do § 8º do art. 69 da Lei Complementar n° 7, de 1973, e alterações posteriores, com reda ção alterada pela Lei Complementar n° 408, de 6 de agosto de 1998, conforme segue: “Art. 69. ... ...",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-1",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam dispensados do pagamento dos juros de mora os contribuin tes do IPTU, TCL e ISSQN, relativo à prestação de serviços sob a forma de traba lho pessoal do próprio contribuinte, que efetuarem o pagamento desses tributos até o último dia útil do:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-1/inc-I",
+   "pai": "art-6/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ano do lançamento do tributo, quando for efetuado no início do exer cício, por meio de carga geral;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-1/inc-II",
+   "pai": "art-6/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "mês do vencimento da última parcela do pagamento, quando se tra tar de lançamento por cargas complementares.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-2",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No caso de não pagamento do débito até as datas previstas no parágrafo anterior, os juros de mora serão restabelecidos desde a data menciona da no § 6° deste artigo.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O IPTU, a TCL e o ISSQN – TP, relativos ao exercício de 2006, terão um desconto equivalente à diferença de variação do IPCA/IBGE e Índice Geral de Preços de Mercado da Fundação Getúlio Vargas (IGP-M/FGV), calcula da na forma do § 2º do art. 1º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-unico",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O desconto de que trata o “caput” deste artigo não se aplica na hipótese de pagamento efetuado na forma do inc. I, do art. 82 da Lei Complementar nº 7, de 1973, e alterações posteriores, na forma do art. 3º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam revogados a Lei Complementar no 48, 28 de dezembro de 1979; e alterações posteriores, o inciso IX do art. 1º da Lei Complementar n° 482, de 26 de dezembro de 2002; o art. 5° da Lei Complementar n° 212, de 29 de dezembro de 1989, e os §§ 2° a 5° do art. 2° da Lei Complementar n° 303, de 20 de dezembro de 1993, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-unico",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "De acordo com o ano-base de construção dos imóveis, atendendo à depreciação física e funcional e ao estado de conservação, o valor venal relativo aos diversos tipos de construções tem as reduções conforme as faixas constantes na Tabela XI desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 859/2019"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º-A",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Fica reduzida nos seguintes percentuais, para fins de cálculo do valor venal, a área do imóvel territorial, independentemente da divisão fiscal em que estiver localizado, com profundidade média superior a 80m (oitenta metros):",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 859/2019"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8-A/inc-I",
+   "pai": "art-8-A",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "18% (dezoito por cento) para áreas entre 10.000 m2 (dez mil metros quadrados) e 15.000 m2 (quinze mil metros quadrados);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 859/2019"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8-A/inc-II",
+   "pai": "art-8-A",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "27% (vinte e sete por cento) para áreas superiores a 15.000 m2 (quinze mil metros quadrados) e inferiores ou iguais a 20.000 m2 (vinte mil metros quadrados);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 859/2019"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8-A/inc-III",
+   "pai": "art-8-A",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "32% (trinta e dois por cento) para áreas superiores a 20.000 m2 (vinte mil metros quadrados) e inferiores ou iguais a 25.000 m2 (vinte e cinco mil metros quadrados);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 859/2019"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8-A/inc-IV",
+   "pai": "art-8-A",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "36% (trinta e seis por cento), para áreas superiores a 25.000 m2 (vinte e cinco mil metros quadrados) e inferiores ou iguais a 30.000 m2 (trinta mil metros quadrados);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 859/2019"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8-A/inc-V",
+   "pai": "art-8-A",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "45% (quarenta e cinco por cento) para áreas superiores a 30.000 m2 (trinta mil metros quadrados) e inferiores ou iguais a 50.000 m2 (cinquenta mil metros quadrados);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 859/2019"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8-A/inc-VI",
+   "pai": "art-8-A",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "55% (cinquenta e cinco por cento) para áreas superiores a 50.000 m2 (cinquenta mil metros quadrados) e inferiores ou iguais a 80.000 m 2 (oitenta mil metros quadrados); e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 859/2019"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8-A/inc-VII",
+   "pai": "art-8-A",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "63% (sessenta e três por cento) para áreas superiores a 80.000 m2 (oitenta mil metros quadrados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 859/2019"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8-A/par-unico",
+   "pai": "art-8-A",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "No caso de imóvel encravado, a área corrigida de acordo com caput deste artigo será reduzida em mais 20% (vinte por cento).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 859/2019"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publica ção, produzindo seus efeitos a partir de 1° de janeiro de 2006.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 42216,
+    "rotulo": "Lei Complementar municipal nº 859, de 03 de setembro de 2019"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "endereço-pai \"art. 10\" não encontrado — não é possível inserir \"§ 1º do art. 10\" | endereço-pai \"art. 10\" não encontrado — não é possível inserir \"§ 2º do art. 10\" | endereço-pai \"art. 10\" não encontrado — não é possível inserir \"§ 3º do art. 10\" | endereço-pai \"art. 10\" não encontrado — não é possível inserir \"§ 4º do art. 10\" | endereço-pai \"§ 6º do art. 67\" não encontrado — não é possível inserir \"al. a) do § 6º do art. 67\" | endereço-pai \"art. 70\" não encontrado — não é possível inserir \"inc. xvii do art. 70\" | endereço-pai \"al. a) do inc. i do art. 72\" não encontrado — não é possível inserir \"1 do al. a) do inc. i do art. 72\" | endereço-pai \"al. a) do inc. i do art. 72\" não encontrado — não é possível inserir \"4 do al. a) do inc. i do art. 72\" | endereço-pai \"al. a) do inc. i do art. 72\" não encontrado — não é possível inserir \"5 do al. a) do inc. i do art. 72\" | endereço-pai \"al. a) do inc. i do art. 72\" não encontrado — não é possível inserir \"6 do al. a) do inc. i do art. 72\" | endereço-pai \"al. a) do inc. i do art. 72\" não encontrado — não é possível inserir \"7 do al. a) do inc. i do art. 72\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 312, de 29 de dezembro de 1993\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"312\",\"ano\":\"1993\",\"chave\":\"lc 312/1993\"}, versão: lc 535/2005)",
+   "enderecos": [
+    "art-10/par-1",
+    "art-10/par-2",
+    "art-10/par-3",
+    "art-10/par-4",
+    "art-67/par-6/ali-a",
+    "art-70/inc-XVII",
+    "art-20",
+    "art-20/inc-I",
+    "art-20/inc-II",
+    "art-20/par-2",
+    "art-20/par-2/inc-I",
+    "art-20/par-2/inc-II",
+    "art-20/par-3",
+    "art-20/par-3/inc-I",
+    "art-20/par-3/inc-II",
+    "art-20/par-3/inc-III",
+    "art-20/par-5",
+    "art-20/par-5/inc-I",
+    "art-20/par-5/inc-II",
+    "art-20/par-5/inc-III",
+    "art-20/par-5/inc-IV",
+    "art-20/par-5/inc-V",
+    "art-20/par-5/inc-VI"
+   ]
+  }
+ ],
+ "aConferir": []
+}

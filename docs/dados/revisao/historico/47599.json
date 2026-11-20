@@ -1,0 +1,6079 @@
+{
+ "geradoEm": "2026-11-18T09:25:55.380Z",
+ "idSapl": 47599,
+ "rotulo": "Lei Complementar municipal nº 992, de 07 de novembro de 2023",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 992/2023@2023-11-07",
+   "data": "2023-11-07",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 992/2023@2024-09-06",
+   "data": "2024-09-06",
+   "fonte": {
+    "idSapl": 49195,
+    "rotulo": "Lei Complementar municipal nº 1.021, de 06 de setembro de 2024"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 2,
+   "id": "lc 992/2023@2025-06-12",
+   "data": "2025-06-12",
+   "fonte": {
+    "idSapl": 50190,
+    "rotulo": "Lei Complementar municipal nº 1.043, de 12 de junho de 2025"
+   },
+   "comandosAplicados": 5
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam estabelecidas, nos termos desta Lei Complementar, normas gerais para o processo administrativo no âmbito da Administração Municipal Direta e da Administração Municipal Indireta e normas especiais para a constituição de créditos não tributários no Município de Porto Alegre, visando, em especial, à garantia dos direitos dos administrados e à persecução dos fins da Administração Pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "titulo",
+     "numero": "I",
+     "titulo": "DAS DISPOSIÇÕES PRELIMINARES"
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As normas gerais desta Lei Complementar aplicam-se aos órgãos do Executivo Municipal e às respectivas autarquias e fundações, bem como aos órgãos do Legislativo Municipal, quando no desempenho de função administrativa.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O processo administrativo municipal deve tramitar, sempre que possível, em formato eletrônico, admitindo-se a prática de atos processuais por meio de videoconferência ou outro recurso tecnológico de transmissão de sons e imagens em tempo real.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Administração Pública deve obedecer, dentre outros, aos princípios da legalidade, da finalidade, da motivação, da razoabilidade, da impessoalidade, da proporcionalidade, da moralidade, da ampla defesa, do contraditório, da segurança jurídica, do interesse público, da eficiência e da publicidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "titulo",
+     "numero": "II",
+     "titulo": "DAS NORMAS GERAIS PARA O PROCESSO ADMINISTRATIVO NO ÂMBITO DA ADMINISTRAÇÃO MUNICIPAL DIRETA E DA ADMINISTRAÇÃO MUNICIPAL INDIRETA"
+    },
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DOS PRINCÍPIOS QUE REGEM O PROCESSO ADMINISTRATIVO"
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No processo administrativo serão observados, dentre outros, os critérios de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-I",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "atuação conforme a lei e o direito;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-II",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "atendimento a fins de interesse geral, vedada a renúncia total ou parcial de poderes ou competências, salvo autorização em lei;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-III",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "objetividade no atendimento do interesse público, vedada a promoção pessoal de agentes ou autoridades;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-IV",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "atuação segundo padrões éticos de probidade, decoro e boa-fé;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-V",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "divulgação dos atos administrativos, ressalvadas as hipóteses de sigilo previstas na Constituição Federal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-VI",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "adequação entre meios e fins, vedada a imposição de obrigações, restrições e sanções em medida superior àquelas estritamente necessárias ao atendimento do interesse público;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-VII",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "indicação dos pressupostos de fato e de direito que determinarem a decisão;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-VIII",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "observância das formalidades essenciais à garantia dos direitos dos administrados;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-IX",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "adoção de formas suficientes para propiciar adequado grau de certeza, segurança e respeito aos direitos dos administrados;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-X",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "garantia dos direitos à comunicação, à produção de provas e à interposição de recursos nos processos administrativos de que possam resultar sanções e nas situações de litígio;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-XI",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "proibição de cobrança de despesas processuais, ressalvadas as previstas em lei;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-XII",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "interpretação da norma administrativa da forma que melhor garanta o atendimento do fim público a que se dirige, vedada aplicação retroativa de nova interpretação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-XIII",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a desburocratização dos procedimentos administrativos, inclusive mediante a simplificação de formalidades ou exigências desnecessárias ou superpostas, cujo custo econômico ou social, tanto para o erário quanto para o cidadão, seja superior ao eventual risco de fraude;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-XIV",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o uso de linguagem clara e compreensível a qualquer cidadão;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-XV",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "XV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover, sempre que possível, a solução consensual dos conflitos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico/inc-XVI",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "XVI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a prestação digital dos serviços públicos deverá ocorrer por meio de tecnologias de amplo acesso pela população, sem prejuízo do direito do cidadão a atendimento presencial.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O administrado tem os seguintes direitos perante a Administração Pública, sem prejuízo de outros que lhe sejam assegurados:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "II",
+     "titulo": "DOS DIREITOS E DEVERES DOS ADMINISTRADOS"
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ser tratado com respeito pelas autoridades e pelos servidores, que deverão facilitar o exercício de seus direitos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "acompanhar os processos administrativos em que figure como interessado, mediante obtenção de credencial de acesso ou cópia dos documentos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "não ser surpreendido por decisão administrativa que lhe retire ou limite direitos, sem que seja previamente comunicado;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "formular alegações e apresentar documentos antes da decisão, os quais serão objeto de consideração pelo órgão competente;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "fazer-se assistir, facultativamente, por advogado, salvo quando obrigatória a representação, por força de lei;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-VI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a razoável duração do processo e os meios que garantam a celeridade de sua tramitação; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-VII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a proteção dos dados pessoais, na forma da lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São deveres do administrado perante a Administração Pública, sem prejuízo de outros previstos em lei:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "expor os fatos conforme a verdade;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "proceder com lealdade, urbanidade e boa-fé;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "não agir de modo temerário;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "prestar as informações que lhe forem solicitadas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "colaborar para o esclarecimento dos fatos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "manter dados pessoais atualizados, tendo o ônus de informar alterações de seu endereço.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-1",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No processo administrativo municipal, o administrado deverá ser informado de que em caso de declaração de informações falsas responderá seu autor por falsidade ideológica, nos termos do Código Penal Brasileiro.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-2",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Considera-se agir temerário, exemplificativamente, para os fins desta Lei Complementar:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-2/inc-I",
+   "pai": "art-4/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "apresentar requerimento ou defesa contra texto expresso de lei ou fato incontroverso;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-2/inc-II",
+   "pai": "art-4/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "alterar a verdade dos fatos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-2/inc-III",
+   "pai": "art-4/par-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "usar do processo para conseguir objetivo ilegal; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-2/inc-IV",
+   "pai": "art-4/par-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "opor resistência injustificada ao andamento do processo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A competência é irrenunciável e se exerce pelos órgãos administrativos a que foi atribuída como própria, salvo os casos de delegação e avocação legalmente admitidos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "III",
+     "titulo": "DA COMPETÊNCIA"
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os órgãos administrativos poderão, se não houver impedimento legal, desde que mediante justificativa expressa, delegar parte da sua competência a outros órgãos administrativos, ainda que estes não lhe sejam hierarquicamente subordinados, quando for conveniente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-unico",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O disposto no caput deste artigo aplica-se à delegação de competência dos órgãos colegiados aos respectivos presidentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Não podem ser objeto de delegação:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-I",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a edição de atos de caráter normativo; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-II",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "as matérias de competência exclusiva do órgão ou da autoridade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O ato de delegação e sua revogação deverão ser publicizados por meio de divulgação no Diário Oficial Eletrônico de Porto Alegre (DOPA-e).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-1",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O ato de delegação especificará as matérias e os poderes transferidos, os limites da atuação do delegado, a duração e os objetivos da delegação e o recurso cabível, podendo conter ressalva de exercício da atribuição delegada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-2",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O ato de delegação é revogável a qualquer tempo pela autoridade delegante.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-3",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As decisões adotadas por delegação devem mencionar explicitamente essa qualidade e considerar-se-ão editadas pelo delegado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Será permitida, em caráter excepcional e por motivos relevantes devidamente justificados, a avocação temporária de competência atribuída a órgão hierarquicamente inferior.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Inexistindo competência legal específica, o processo administrativo deverá ser iniciado perante a autoridade de menor grau hierárquico para decidir.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São legitimados como interessados no processo administrativo:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "IV",
+     "titulo": "DOS INTERESSADOS"
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-I",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pessoas físicas ou jurídicas que o iniciem como titulares de direitos ou de interesses individuais ou que estejam no exercício do direito de representação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-II",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "aqueles que, sem terem iniciado o processo administrativo, têm direitos ou interesses que possam ser afetados pela decisão a ser adotada;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-III",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "organizações e associações representativas, no tocante a direitos e interesses coletivos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-IV",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pessoas ou associações legalmente constituídas quanto a direitos ou interesses difusos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/par-1",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A atuação no processo administrativo, nos casos de organizações, associações e entidades de classes, referidas nos incs. III e IV deste artigo, dependerá de comprovação de pertinência temática entre a matéria discutida no processo e suas finalidades institucionais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/par-2",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Será admitida a intervenção de terceiro no processo, por decisão de autoridade competente para o seu julgamento, quando comprovado seu interesse jurídico.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A capacidade, para fins de processo administrativo municipal, observará os termos da legislação civil.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Há impedimento de atuar em processo administrativo do servidor ou da autoridade que:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "V",
+     "titulo": "DOS IMPEDIMENTOS E DA SUSPEIÇÃO"
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-I",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "tenha interesse direto ou indireto na matéria;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-II",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "tenha participado ou venha a participar como perito, testemunha ou representante, bem como se tais situações ocorrerem com o respectivo cônjuge, companheiro, parente ou afins até o terceiro grau; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-III",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "esteja litigando judicial ou administrativamente com o interessado ou o respectivo cônjuge ou companheiro.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A autoridade ou o servidor que incorrer em impedimento deve comunicar o fato à autoridade competente, abstendo-se de atuar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Há suspeição de autoridade ou de servidor que tenha amizade íntima ou inimizade notória com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes ou afins até o terceiro grau.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15/par-unico",
+   "pai": "art-15",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O indeferimento de alegação de suspeição poderá ser objeto de recurso, sem efeito suspensivo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os atos do processo administrativo não dependem de forma determinada, salvo quando a norma expressamente a exigir.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "VI",
+     "titulo": "DA FORMA E DO LUGAR DOS ATOS DO PROCESSO ADMINISTRATIVO"
+    }
+   ]
+  },
+  {
+   "id": "art-16/par-1",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os atos do processo serão formalizados, tramitados, comunicados e transmitidos, preferencialmente, em formato eletrônico, na forma do regulamento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16/par-2",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Consideram-se válidos os atos que, embora realizados de outro modo, preencham a finalidade essencial.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os atos do processo administrativo devem ser produzidos por escrito, em língua portuguesa, indicando a data e o local de sua realização, as identificações nominal e funcional e a assinatura da autoridade responsável.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na relação dos órgãos e das entidades da Administração Pública Municipal com o cidadão, é dispensada a exigência de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18/inc-I",
+   "pai": "art-18",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "reconhecimento de firma, devendo o agente administrativo, confrontando a assinatura com aquela constante do documento de identidade do signatário, ou estando este presente e assinando o documento diante do agente, lavrar sua autenticidade no próprio documento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18/inc-II",
+   "pai": "art-18",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "autenticação de cópia de documento, cabendo ao agente administrativo, mediante a comparação entre o original e a cópia, atestar a autenticidade;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18/inc-III",
+   "pai": "art-18",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "juntada de documento pessoal do usuário, que poderá ser substituído por cópia autenticada pelo próprio agente administrativo; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18/inc-IV",
+   "pai": "art-18",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "apresentação de certidão de nascimento, que poderá ser substituída por cédula de identidade, expedida por conselho regional de fiscalização profissional, carteira de trabalho, certificado de prestação ou de isenção de serviço militar, passaporte ou identidade funcional expedida por órgão público.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A prática de atos do processo administrativo municipal eletrônico pode ocorrer em qualquer horário até as 24 (vinte e quatro) horas do último dia do prazo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/par-unico",
+   "pai": "art-19",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No caso da prática de atos presenciais, estes poderão ser concluídos depois do horário normal de expediente, se já iniciados, quando o adiamento prejudique o curso regular do procedimento ou cause danos ao interessado ou à Administração Pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os atos do processo administrativo serão realizados, preferencialmente, de forma virtual ou, não sendo possível, na sede do órgão.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Todo assunto submetido ao conhecimento da Administração Pública será formalizado pela via de processo administrativo, preferencialmente no formato eletrônico.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "VII",
+     "titulo": "DO INÍCIO DO PROCESSO ADMINISTRATIVO"
+    }
+   ]
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O processo administrativo poderá ser iniciado de ofício pela autoridade competente ou a requerimento do interessado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O requerimento inicial do interessado poderá ser efetuado por solicitação verbal reduzida a termo pela autoridade, por meio de preenchimento de formulário online, pelo preenchimento de formulário disponibilizado nos setores de atendimento ao público ou em petição própria, desde que legível.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-1",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Quando por escrito, o requerimento deverá ser legível e indicar, no mínimo:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-1/inc-I",
+   "pai": "art-23/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o órgão, entidade ou autoridade administrativa a que se dirige;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-1/inc-II",
+   "pai": "art-23/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a identificação do interessado ou de quem o represente, assim como de seu advogado, caso constituído;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-1/inc-III",
+   "pai": "art-23/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o domicílio do requerente ou local para recebimento de comunicações;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-1/inc-IV",
+   "pai": "art-23/par-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o endereço eletrônico ou contato telefônico para recebimento de comunicações;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-1/inc-V",
+   "pai": "art-23/par-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a formulação do pedido, com exposição dos fatos e de seus fundamentos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-1/inc-VI",
+   "pai": "art-23/par-1",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a data e a assinatura do requerente ou de seu representante.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-2",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É vedada à Administração Pública recursar o recebimento de requerimentos ou documentos de prova imotivadamente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-3",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A autoridade poderá rejeitar, de ofício, requerimentos ilegíveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23/par-4",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Executivo Municipal, bem como suas autarquias e suas fundações, disponibilizará formulário padronizado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-24",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 24.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de o pedido de uma pluralidade de interessados apresentar conteúdo e fundamentos idênticos, poderá ser formulado 1 (um) único requerimento, salvo preceito legal em contrário, ocasião em que será dispensado o uso do formulário padronizado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 25.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os órgãos administrativos, mesmo que o processo administrativo seja instaurado por iniciativa do interessado, podem proceder às diligências que considerem convenientes para a instrução.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 26.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A comunicação dos atos processuais dar-se-á por meio de notificação, nas seguintes situações:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "VIII",
+     "titulo": "DA COMUNICAÇÃO DOS ATOS"
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-I",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "dos atos e termos do processo, para que faça ou deixe de fazer alguma coisa; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26/inc-II",
+   "pai": "art-26",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "das decisões que defiram ou reconheçam direitos, bem como das que resultem na imposição de deveres, sanções, ônus ou restrições ao exercício de direitos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 27.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A notificação deverá conter, dentre outros elementos:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27/inc-I",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a identificação do notificado e o nome do órgão ou da entidade administrativa;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27/inc-II",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a finalidade do ato;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27/inc-III",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a data, a hora e o local em que o interessado deverá comparecer, se for o caso, ou praticar ato de outra natureza;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27/inc-IV",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a informação da continuidade do processo independentemente do seu comparecimento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27/inc-V",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a indicação dos fatos e dos fundamentos legais analisados; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27/inc-VI",
+   "pai": "art-27",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a indicação dos dispositivos legais violados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27/par-1",
+   "pai": "art-27",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A notificação feita sem observância das prescrições legais será inválida, mas o comparecimento espontâneo do administrado supre sua falta ou irregularidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27/par-2",
+   "pai": "art-27",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Se o notificado não souber ou não puder assinar, ou se recusar a receber a notificação, o servidor público certificará nos autos o fato, dando-a por realizada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 28.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A notificação realizar-se-á, sempre que possível, por correio eletrônico, por ferramenta de troca de mensagem instantânea, ou por qualquer outro meio eletrônico que permita a confirmação da identidade do destinatário.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/par-unico",
+   "pai": "art-28",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Quando a notificação for realizada por ferramenta de troca instantânea de mensagens e quando houver dúvida acerca da identificação do destinatário, poderá a Administração Pública exigir o envio:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/par-unico/inc-I",
+   "pai": "art-28/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "de registro do documento de identificação do administrado;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/par-unico/inc-II",
+   "pai": "art-28/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "de termo de ciência do ato assinado de próprio punho; ou",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/par-unico/inc-III",
+   "pai": "art-28/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "de qualquer outro documento que confirme a identidade do destinatário.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-29",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 29.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Quando não realizadas por meio eletrônico, as notificações serão feitas aos interessados, aos seus representantes legais ou aos advogados constituídos, pelo correio, mediante aviso de recebimento, ou, se presentes na repartição, diretamente por servidor do órgão ou da entidade administrativa.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-29/par-1",
+   "pai": "art-29",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Presumem-se válidas as intimações dirigidas ao endereço constante dos autos ou obtidas em bancos de dados oficial, ainda que não recebidas pessoalmente pelo interessado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-29/par-2",
+   "pai": "art-29",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os prazos fluem a partir do recebimento da comunicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-30",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 30.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No caso de o interessado estar em lugar incerto ou não sabido, a notificação deve ser efetuada por meio de edital publicado no DOPA-e.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-30/par-unico",
+   "pai": "art-30",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Aplica-se o disposto no caput deste artigo quando a notificação for dirigida a interessados indeterminados, desconhecidos ou com domicílio indefinido.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 31.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A notificação deverá observar a antecedência mínima de 5 (cinco) dias quanto à data de comparecimento ou da obrigação de realizar ato, contados da data em que o administrado for considerado notificado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 32.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O desatendimento da comunicação não importa em confissão dos fatos, nem a renúncia a direito pelo administrado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-unico",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No prosseguimento do processo, o interessado poderá intervir em qualquer fase, recebendo-o no estado em que se encontrar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 33.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As atividades de instrução destinadas a averiguar e comprovar os dados necessários à tomada de decisão realizar-se-ão de ofício ou mediante impulsionamento do órgão responsável pelo processo administrativo, sem prejuízo do direito de os interessados proporem atuações probatórias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "IX",
+     "titulo": "DA INSTRUÇÃO DO PROCESSO ADMINISTRATIVO"
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-1",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O órgão competente para a instrução fará constar dos autos os dados necessários à decisão do processo administrativo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-2",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os atos de instrução que exijam a atuação dos interessados devem realizar-se do modo menos oneroso para estes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-34",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 34.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São inadmissíveis, no processo administrativo, as provas obtidas por meios ilícitos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-34/par-unico",
+   "pai": "art-34",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Somente poderão ser recusadas, mediante decisão fundamentada, as provas propostas pelos interessados que forem ilícitas, impertinentes, desnecessárias ou protelatórias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-35",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 35.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Cabe ao interessado a prova dos fatos que tenha alegado, sem prejuízo do dever atribuído ao órgão competente para a instrução e do disposto no art. 36 desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-36",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 36.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de o interessado declarar que fatos e dados estão registrados em documentos existentes no órgão responsável pelo processo administrativo ou em outro órgão administrativo do Executivo Municipal, o setor competente para a instrução proverá, de ofício, a obtenção dos documentos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-37",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 37.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de ser necessária a prestação de informações ou a apresentação de provas pelos interessados ou por terceiros, serão expedidas comunicações para esse fim, mencionando-se data, prazo, forma e condições de atendimento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-38",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 38.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de dados, atuações ou documentos solicitados ao interessado serem necessários à apreciação de pedido formulado, o não atendimento no prazo fixado pela Administração Pública para a respectiva apresentação implicará desconsideração fundamentada daquele e o arquivamento do processo administrativo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-39",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 39.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os interessados serão intimados de prova ou diligência ordenada, com notificação de, no mínimo, 7 (sete) dias de antecedência da data prevista para a prova ou a diligência, mencionando-se data, hora e local de sua realização.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-40",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 40.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nos casos em que deva ser ouvido órgão consultivo, o seu parecer deverá ser emitido no prazo máximo de 90 (noventa) dias, salvo norma especial ou comprovada, motivadamente, necessidade de maior prazo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-41",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 41.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nos casos em que, por disposição de ato normativo, devam ser obtidos, previamente, laudos técnicos de órgãos administrativos, e estes não cumprirem o encargo no prazo assinalado, o órgão responsável pela instrução deverá solicitar laudo técnico de outro órgão dotado de qualificação e capacidade técnica equivalentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-42",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 42.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Quando houver a instrução probatória, o interessado será intimado para que, no prazo de 10 (dez) dias, contados da data da notificação, apresente suas razões finais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-43",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 43.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de risco iminente, a Administração Pública poderá, motivadamente, adotar providências acauteladoras sem a prévia manifestação do interessado, abrindo-se posteriormente prazo para defesa e contraditório.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 44.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os interessados têm direito à vista do processo administrativo e a obter certidões ou cópias digitalizadas, nos termos da Lei de Acesso à Informação (LAI) e da Lei Geral de Proteção de Dados (LGPD).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-44/par-unico",
+   "pai": "art-44",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em havendo impossibilidade de digitalização, as cópias de processos administrativos serão pagas por meio de guia própria para este fim, o que deverá ficar registrado nos seus autos. OUTROS MEIOS DE PARTICIPAÇÃO",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-45",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 45.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de a matéria do processo administrativo envolver assunto de interesse geral, o órgão competente poderá, mediante despacho motivado, abrir período de consulta pública para manifestação de terceiros, antes da decisão do pedido, se não houver prejuízo para a parte interessada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "X",
+     "titulo": "DA AUDIÊNCIA PÚBLICA, DA CONSULTA PÚBLICA E DE"
+    }
+   ]
+  },
+  {
+   "id": "art-45/par-1",
+   "pai": "art-45",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A abertura da consulta pública será objeto de divulgação pelos meios oficiais, a fim de que pessoas físicas ou jurídicas possam examinar os autos, fixando-se prazo para oferecimento de alegações escritas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-45/par-2",
+   "pai": "art-45",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O comparecimento à consulta pública não confere, por si, a condição de interessado no processo administrativo, mas confere o direito de obter da Administração Pública resposta fundamentada, que poderá ser comum a todas as alegações substancialmente iguais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-46",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 46.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Antes da tomada de decisão, a juízo da autoridade, diante da relevância da questão, poderá ser realizada audiência pública para debates sobre a matéria do processo administrativo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-47",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 47.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os órgãos e as entidades administrativas, em matéria relevante, poderão estabelecer outros meios de participação de interessados, diretamente ou por meio de organizações e associações legalmente reconhecidas e de conselhos municipais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-48",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 48.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os resultados de consultas, de audiências públicas e de outros meios de participação de administrados deverão ser objeto de avaliação pelo órgão competente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-49",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 49.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A audiência de outros órgãos ou entidades administrativas poderá ser realizada em reunião conjunta, com a participação dos órgãos competentes, lavrando-se a respectiva ata, a ser juntada aos autos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-50",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 50.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A edição de atos normativos por autoridade administrativa poderá ser precedida de consulta pública para manifestação de interessados, preferencialmente por meio eletrônico.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-50/par-1",
+   "pai": "art-50",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A decisão pela convocação de consulta pública será motivada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-50/par-2",
+   "pai": "art-50",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A convocação de consulta pública conterá a minuta do ato normativo, disponibilizará a motivação do ato e fixará o prazo e as demais condições.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-50/par-3",
+   "pai": "art-50",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A autoridade decisória não será obrigada a comentar ou considerar individualmente as manifestações apresentadas e poderá agrupar manifestações por conexão e eliminar aquelas repetitivas ou de conteúdo não conexo ou irrelevante para a matéria em apreciação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-51",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 51.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Administração Pública tem o dever de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XI",
+     "titulo": "DO DEVER DE DECIDIR E DA RESPONSABILIDADE PELA NÃO DELIBERAÇÃO"
+    }
+   ]
+  },
+  {
+   "id": "art-51/inc-I",
+   "pai": "art-51",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "emitir decisão nos processos administrativos, em caso de haver necessidade de deliberação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-51/inc-II",
+   "pai": "art-51",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "responder às solicitações; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-51/inc-III",
+   "pai": "art-51",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "notificar o interessado da decisão e das intimações de prova ou de manifestação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 52.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As decisões administrativas que exijam a participação de 3 (três) ou mais setores, órgãos ou entidades poderão ser tomadas mediante decisão coordenada, sempre que:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XII",
+     "titulo": "DA DECISÃO COORDENADA"
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-I",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "for justificável pela relevância da matéria; ou",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/inc-II",
+   "pai": "art-52",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "houver discordância que prejudique a celeridade do processo administrativo decisório.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/par-1",
+   "pai": "art-52",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para os fins desta Lei Complementar, considera-se decisão coordenada a instância de natureza interinstitucional ou intersetorial que atua de forma compartilhada com a finalidade de simplificar o processo administrativo mediante participação concomitante de todas as autoridades e agentes decisórios e dos responsáveis pela instrução técnico-jurídica, observada a natureza do objeto e a compatibilidade do procedimento e de sua formalização com a legislação pertinente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/par-2",
+   "pai": "art-52",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A decisão coordenada não exclui a responsabilidade originária de cada órgão ou autoridade envolvida.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/par-3",
+   "pai": "art-52",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A decisão coordenada obedecerá aos princípios da legalidade, da eficiência e da transparência, com utilização, sempre que necessário, da simplificação do procedimento e da concentração das instâncias decisórias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/par-4",
+   "pai": "art-52",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Não se aplica a decisão coordenada aos processos administrativos:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/par-4/inc-I",
+   "pai": "art-52/par-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "de licitação; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-52/par-4/inc-II",
+   "pai": "art-52/par-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "relacionados ao poder sancionador em processo administrativo disciplinar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-53",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 53.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Poderão habilitar-se a participar da decisão coordenada, na qualidade de ouvintes, os interessados de que trata o art. 11 desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-53/par-1",
+   "pai": "art-53",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A participação na reunião, que poderá incluir direito a voz, será deferida por decisão irrecorrível da autoridade responsável pela convocação da decisão coordenada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-53/par-2",
+   "pai": "art-53",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os interessados deverão ser notificados para participar do ato mediante despacho nos autos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-54",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 54.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Cada órgão ou entidade participante é responsável pela elaboração de documento específico sobre o tema atinente à respectiva competência, a fim de subsidiar os trabalhos e integrar o processo da decisão coordenada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-54/par-unico",
+   "pai": "art-54",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O documento previsto no caput deste artigo abordará a questão objeto da decisão coordenada e eventuais precedentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-55",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 55.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Eventual dissenso na solução do objeto da decisão coordenada deverá ser manifestado durante as reuniões, de forma fundamentada, acompanhado das propostas de solução e de alteração necessárias para a resolução da questão.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-55/par-unico",
+   "pai": "art-55",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Não poderá ser arguida matéria estranha ao objeto da convocação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-56",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 56.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A conclusão dos trabalhos da decisão coordenada será consolidada em ata, que conterá as seguintes informações:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-56/inc-I",
+   "pai": "art-56",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "relato sobre os itens da pauta;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-56/inc-II",
+   "pai": "art-56",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "síntese dos fundamentos aduzidos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-56/inc-III",
+   "pai": "art-56",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "síntese das teses pertinentes ao objeto da convocação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-56/inc-IV",
+   "pai": "art-56",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "registro das orientações, das diretrizes, das soluções ou das propostas de atos governamentais relativos ao objeto da convocação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-56/inc-V",
+   "pai": "art-56",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "posicionamento dos participantes para subsidiar futura atuação governamental em matéria idêntica ou similar; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-56/inc-VI",
+   "pai": "art-56",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "decisão de cada órgão ou entidade relativa à matéria sujeita à sua competência.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-56/par-1",
+   "pai": "art-56",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Até a assinatura da ata, poderá ser complementada a fundamentação da decisão da autoridade ou do agente a respeito de matéria de competência do órgão ou da entidade representada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-56/par-2",
+   "pai": "art-56",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O extrato da ata será publicado no DOPA-e, do qual deverão constar os dados identificadores da decisão coordenada, o órgão e o local em que se encontra a ata em seu inteiro teor, para conhecimento dos interessados, sem prejuízo da utilização de outros meios de publicidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-57",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 57.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os atos administrativos, discricionários ou vinculados, deverão ser motivados, com indicação dos fatos e dos fundamentos jurídicos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XIII",
+     "titulo": "DA MOTIVAÇÃO"
+    }
+   ]
+  },
+  {
+   "id": "art-58",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 58.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O interessado poderá, mediante manifestação escrita, desistir, total ou parcialmente, do pedido formulado ou renunciar a direitos disponíveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XIV",
+     "titulo": "DA EXTINÇÃO DO PROCESSO ADMINISTRATIVO"
+    }
+   ]
+  },
+  {
+   "id": "art-58/par-1",
+   "pai": "art-58",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Havendo vários interessados, a desistência ou a renúncia atinge somente quem a tenha formulado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-58/par-2",
+   "pai": "art-58",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A desistência ou a renúncia do interessado, conforme o caso, não prejudica o prosseguimento do processo administrativo, se a Administração Pública considerar que o interesse público assim o exige.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-59",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 59.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O órgão competente poderá declarar extinto o processo administrativo nos casos em que sua finalidade for exaurida ou o objeto da decisão se tornar impossível, inútil ou prejudicado por fato superveniente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-59/par-unico",
+   "pai": "art-59",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O interessado deve ser notificado da decisão de extinção do processo administrativo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-60",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 60.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Administração Pública deve anular seus próprios atos em caso de vício de legalidade e pode revogá-los por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XV",
+     "titulo": "DA ANULAÇÃO, DA REVOGAÇÃO E DA CONVALIDAÇÃO"
+    }
+   ]
+  },
+  {
+   "id": "art-61",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 61.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O direito de a Administração Pública anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em 5 (cinco) anos, contados da data em que foram praticados, salvo comprovada má-fé.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-61/par-1",
+   "pai": "art-61",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No caso de efeitos patrimoniais contínuos, o prazo de decadência contar-se-á da percepção do primeiro pagamento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-61/par-2",
+   "pai": "art-61",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Considera-se exercício do direito anular qualquer medida de autoridade administrativa preparatória ou tendente à impugnação da validade do ato.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-61/par-3",
+   "pai": "art-61",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Enquanto o ato estiver submetido a órgão de controle externo, o prazo referido no caput deste artigo não fluirá.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-62",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 62.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de se evidenciarem, no processo administrativo, atos ou omissões que não acarretem lesão ao interesse público nem prejuízo a terceiros, esses poderão ser convalidados, motivadamente, pela Administração Pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-63",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 63.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Das decisões administrativas, cabe recurso em face de razões de constitucionalidade, legalidade e mérito.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XVI",
+     "titulo": "DOS RECURSOS"
+    },
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Do Direito ao Recurso e da Competência para Decidir"
+    }
+   ]
+  },
+  {
+   "id": "art-63/par-unico",
+   "pai": "art-63",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de norma legal não dispor de outro modo, será competente para conhecer do recurso:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-63/par-unico/inc-I",
+   "pai": "art-63/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na Administração Centralizada, o secretário municipal do órgão no qual tramitou o processo administrativo; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-63/par-unico/inc-II",
+   "pai": "art-63/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na Administração Descentralizada, o dirigente superior da pessoa jurídica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-64",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 64.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Da petição de recurso deverá constar:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-64/inc-I",
+   "pai": "art-64",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a autoridade recorrida;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-64/inc-II",
+   "pai": "art-64",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a indicação do processo administrativo em que consta a decisão recorrida;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-64/inc-III",
+   "pai": "art-64",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "nome, qualificação, endereço residencial, endereço eletrônico, número do aplicativo de mensagens instantâneas e telefone celular do recorrente; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-64/inc-IV",
+   "pai": "art-64",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a exposição das razões e dos fundamentos da inconformidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-65",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 65.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O prazo para apresentação de recurso será de 30 (trinta) dias, contados da data de comunicação do ato.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-66",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 66.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Conhecer-se-á do recurso erroneamente designado quando de seu conteúdo resultar induvidosa a impugnação do ato.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-67",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 67.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O recurso será recebido com efeito suspensivo, salvo quando:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Dos Efeitos dos Recursos"
+    }
+   ]
+  },
+  {
+   "id": "art-67/inc-I",
+   "pai": "art-67",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "houver previsão legal em contrário; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-67/inc-II",
+   "pai": "art-67",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da inexecução da penalidade puder resultar a ineficácia da decisão final.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-67/par-unico",
+   "pai": "art-67",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nos casos referidos nos incs. I e II do caput deste artigo, a autoridade administrativa declarará os efeitos do recebimento do recurso.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-68",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 68.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A decisão de recurso não poderá, no mesmo procedimento, agravar a restrição produzida pelo ato ao interesse do recorrente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-69",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 69.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os prazos processuais começam a contar a partir da data da notificação, excluindo-se da contagem o dia do recebimento e incluindo-se o dia do vencimento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XVII",
+     "titulo": "DOS PRAZOS"
+    }
+   ]
+  },
+  {
+   "id": "art-69/par-1",
+   "pai": "art-69",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Prorrogar-se-á o prazo até o primeiro dia útil seguinte nos casos em que o vencimento cair em dia em que não haja expediente ou esse for encerrado antes da hora normal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-69/par-2",
+   "pai": "art-69",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os prazos processuais serão contados em dias úteis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-69/par-3",
+   "pai": "art-69",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os prazos fixados em meses ou anos contam-se de data a data, sendo que, no mês do vencimento em que não houver o dia equivalente àquele do início do prazo, se tem como termo o último dia do mês.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-69-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 69-A",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Concluída a instrução do processo administrativo, a Administração tem o prazo de até 45 (quarenta e cinco) dias para decidir, prorrogável por igual período, havendo motivo justificado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.043/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 70.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Salvo motivo de força maior devidamente comprovado ou disposição expressa em contrário, os prazos processuais não se suspendem.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 70-A",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Os prazos para interposição de recursos e para a prática de atos processuais, pelas partes e seus advogados, no âmbito de processos administrativos, ficam suspensos nos dias compreendidos entre 20 de dezembro e 20 de janeiro, inclusive.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.043/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70-A/par-1",
+   "pai": "art-70-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Durante o período de suspensão de prazos de que trata o caput deste artigo, fica igualmente suspensa a realização de audiências e de sessões de julgamento de órgãos colegiados no âmbito dos processos administrativos, exceto nos casos considerados urgentes e inadiáveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.043/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70-A/par-2",
+   "pai": "art-70-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "A suspensão de prazos de que trata o caput deste artigo não impede a prática de atos pela Administração Pública, especialmente aqueles considerados urgentes e inadiáveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.043/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-70-A/par-3",
+   "pai": "art-70-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Ressalvadas as hipóteses de afastamentos legais e regulamentares, as autoridades administrativas, civis e militares, os servidores públicos e os membros da Advocacia Pública exercerão suas atribuições durante o período previsto no caput deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.043/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-71",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 71.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A prescrição ocorre em 5 (cinco) anos, contados do conhecimento do fato pela Administração Pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-72",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 72.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Incide a prescrição intercorrente no processo administrativo paralisado por mais de 3 (três) anos, pendente de julgamento ou despacho.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-73",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 73.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Terão prioridade na tramitação, em qualquer órgão ou instância, os processos administrativos em que figure como parte ou interessado:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "XVIII",
+     "titulo": "DA TRAMITAÇÃO PRIORITÁRIA"
+    }
+   ]
+  },
+  {
+   "id": "art-73/inc-I",
+   "pai": "art-73",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pessoa com idade igual ou superior a 60 (sessenta) anos, nos termos da Lei Federal nº 10.741, de 1º de outubro de 2003;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-73/inc-II",
+   "pai": "art-73",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pessoa com deficiência; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-73/inc-III",
+   "pai": "art-73",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pessoa com doença grave, com base em conclusão da medicina especializada, mesmo que a doença tenha sido contraída após o início do processo administrativo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-73/par-1",
+   "pai": "art-73",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A pessoa interessada na obtenção do benefício, juntando prova de sua condição, deverá requerê-lo à autoridade administrativa competente, que determinará as providências a serem cumpridas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-73/par-2",
+   "pai": "art-73",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Deferida a prioridade, os autos receberão identificação própria que evidencie o regime de tramitação prioritária. CAPÍTULO ÚNICO DISPOSIÇÕES ESPECIAIS PARA CONSTITUIÇÃO DE CRÉDITO NÃO TRIBUTÁRIO",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-73/inc-IV",
+   "pai": "art-73",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "pessoa cadastrada no Cadastro Único para Programas Sociais (CadÚnico), em processo relativo à supressão, à poda, ao manejo ou ao transplante de vegetais arbóreos ou arbustivos, em área pública ou privada, desde que constatada situação de risco iminente à vida humana ou à propriedade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.021/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-74",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 74.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica disciplinado, neste Capítulo, o processo administrativo para a constituição de crédito não tributário, ressalvados aqueles previstos em lei especial, decorrente de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "titulo",
+     "numero": "III",
+     "titulo": "DAS NORMAS ESPECIAIS PARA A CONSTITUIÇÃO DE CRÉDITOS NÃO TRIBUTÁRIOS NO MUNICÍPIO DE PORTO ALEGRE"
+    },
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Das Espécies de Crédito Não Tributário"
+    }
+   ]
+  },
+  {
+   "id": "art-74/inc-I",
+   "pai": "art-74",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "aplicação de penalidades por infração a leis cuja competência fiscalizatória seja do Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-74/inc-II",
+   "pai": "art-74",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pagamentos indevidos a servidores, ex-servidores, segurados ou terceiros; ou",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-74/inc-III",
+   "pai": "art-74",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "interpelação extrajudicial para os demais casos, inclusive os previstos no art. 39 da Lei Federal nº 4.320, de 17 de março de 1964, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-75",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 75.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O procedimento terá início com a emissão sucessiva de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Do Procedimento"
+    },
+    {
+     "tipo": "subsecao",
+     "numero": "I",
+     "titulo": "Do Procedimento de Aplicação de Penalidades por Infração à Lei"
+    }
+   ]
+  },
+  {
+   "id": "art-75/inc-I",
+   "pai": "art-75",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "notificação prévia; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-75/inc-II",
+   "pai": "art-75",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "auto de infração.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 76.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A notificação prévia, aplicável nos procedimentos de fiscalização, é o ato pelo qual se dá conhecimento à parte por escrito, de providência ou medida que a ela incumbe realizar, de obrigação de fazer ou não fazer.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76/par-1",
+   "pai": "art-76",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O não atendimento da notificação prévia no prazo fixado ensejará a lavratura do auto de infração.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76/par-2",
+   "pai": "art-76",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Não será emitida a notificação prévia referida no inc. I do art. 75 desta Lei Complementar nos casos em que:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76/par-2/inc-I",
+   "pai": "art-76/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a infração seja insanável;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76/par-2/inc-II",
+   "pai": "art-76/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o notificado seja reincidente, nos termos do art. 86 desta Lei Complementar; ou",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76/par-2/inc-III",
+   "pai": "art-76/par-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a infração acarrete risco, conforme norma regulamentadora.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76/par-3",
+   "pai": "art-76",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Será concedido prazo para regularização da infração sanável, de acordo com sua gravidade e possibilidade de reparação, que poderá ser:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76/par-3/inc-I",
+   "pai": "art-76/par-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "simples, se passível de resolução em até 15 (quinze) dias;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76/par-3/inc-II",
+   "pai": "art-76/par-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "média, se passível de resolução em até 30 (trinta) dias; ou",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76/par-3/inc-III",
+   "pai": "art-76/par-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "complexa, caso sua resolução exija prazo superior a 30 (trinta) dias ou dependa de atuação de outros órgãos para a regularização, caso em que o notificado deverá fornecer declaração ou projeto que especifique as medidas necessárias e o prazo respectivo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76/par-4",
+   "pai": "art-76",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O prazo previsto no § 3º deste artigo poderá ser prorrogado 1 (uma) única vez, por igual período.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-76/par-5",
+   "pai": "art-76",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em situações emergenciais, as quais ocasionem distúrbio à comunidade local, a regularização deverá ser feita imediatamente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-77",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 77.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Responde pela infração quem, por ação ou omissão, lhe deu causa, concorreu para sua prática ou dela se beneficiou.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-78",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 78.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Auto de infração é o documento pelo qual o agente competente narra a infração à legislação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-78/par-unico",
+   "pai": "art-78",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O auto de infração poderá ser preenchido de forma manuscrita ou eletrônica e sem entrelinhas, rasuras, emendas ou espaços em branco.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-79",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 79.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São elementos do auto de infração:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-79/inc-I",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "dia, mês, ano, hora e local de sua lavratura;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-79/inc-II",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "nome do autuado ou do responsável e seu número de inscrição no Cadastro de Pessoa Física (CPF) ou no Cadastro Nacional de Pessoas Jurídicas (CNPJ);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-79/inc-III",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "endereço do autuado ou do responsável;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-79/inc-IV",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "endereço eletrônico, número de aplicativo de mensagem instantânea ou contato telefônico para recebimento de notificações, sempre que possível, nos termos desta Lei Complementar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-79/inc-V",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "descrição da irregularidade constatada e indicação do dispositivo legal infringido;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-79/inc-VI",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "indicação dos perigos iminentes, em caso de haver medida cautelar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-79/inc-VII",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "indicação de animais, coisas ou produtos apreendidos, se houver;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-79/inc-VIII",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "legislação que prevê as penalidades eventualmente aplicáveis;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-79/inc-IX",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "prazo para apresentação de impugnação e a forma de encaminhamento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-79/inc-X",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "matrícula e assinatura de quem lavrou o auto de infração; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-79/inc-XI",
+   "pai": "art-79",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "assinatura do autuado, de seu representante ou de preposto, ressalvada a hipótese prevista no § 2º do art. 27 desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-79/par-unico",
+   "pai": "art-79",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A descrição da irregularidade de que trata o inc. V deste artigo poderá ser acompanhada de todos os elementos probatórios em direito admitidos, tais como gravações ambientais e levantamentos fotográficos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 80.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam estabelecidas as seguintes penalidades aplicáveis pela autoridade municipal, sem prejuízo de outras sanções previstas em legislação especial:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/inc-I",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "advertência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/inc-II",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "multa simples;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/inc-III",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "multa diária;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/inc-IV",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "apreensão de animal, coisa ou produto;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/inc-V",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "embargo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/inc-VI",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "demolição;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/inc-VII",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "interdição, total ou parcial, de estabelecimento, atividade, obra ou produto;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/inc-VIII",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "inutilização do produto;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/inc-IX",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "reparação do dano ao patrimônio público;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/inc-X",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "suspensão do fornecimento ou da fabricação do produto;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/inc-XI",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "fechamento de estabelecimento ou encerramento de atividade, cumulado com cassação do alvará, quando houver;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/inc-XII",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "remoção ou obstrução de uso de bens móveis que estejam em desacordo com a legislação municipal; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/inc-XIII",
+   "pai": "art-80",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "demolição de bens imóveis que estejam em desacordo com a legislação municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/par-1",
+   "pai": "art-80",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As penalidades referidas neste artigo serão aplicadas de acordo com a gravidade da infração, podendo ser cominadas cumulativamente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/par-2",
+   "pai": "art-80",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O disposto nos incs. VII e XI deste artigo permanecerá até que o autuado apresente requisição de nova vistoria após regularização.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-80/par-3",
+   "pai": "art-80",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A multa diária será aplicada sempre que o cometimento da infração se prolongar no tempo, limitada ao período máximo de 90 (noventa) dias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-81",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 81.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na definição do valor das multas, o julgador deverá observar a gravidade da infração, o dano causado, a capacidade econômica do infrator, a reincidência, em caso de haver, e as circunstâncias agravantes ou atenuantes estabelecidas nesta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-82",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 82.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nos casos de iminente risco à saúde, à segurança das pessoas ou ao meio ambiente, será procedida, de modo sumário e cautelar, a apreensão de animal, produto ou coisa ou a interdição de equipamentos, atividade, estabelecimento ou obra, abrindo-se, posteriormente, prazo para a defesa e o contraditório.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-82/par-unico",
+   "pai": "art-82",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Verificado pela fiscalização o descumprimento de medidas previstas no caput deste artigo, serão adotadas, isolada ou cumulativamente, de acordo com as peculiaridades do caso concreto, as seguintes medidas:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-82/par-unico/inc-I",
+   "pai": "art-82/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "nova autuação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-82/par-unico/inc-II",
+   "pai": "art-82/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "nova interdição; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-82/par-unico/inc-III",
+   "pai": "art-82/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "aplicação de multa no valor de 1.000 (mil) Unidades Financeiras Municipais (UFMs), ou o dobro da multa aplicada se mais gravosa.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-83",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 83.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As penalidades aplicadas ao autuado serão objeto de registro após sua aplicação em definitivo, a fim de permitir a aferição da reincidência, conforme regulamento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-84",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 84.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São circunstâncias que atenuam a aplicação das penalidades:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-84/inc-I",
+   "pai": "art-84",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a ação do agente não ter sido fundamental para a consecução da infração;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-84/inc-II",
+   "pai": "art-84",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a equivocada compreensão da norma, admitida como escusável;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-84/inc-III",
+   "pai": "art-84",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a incapacidade de o agente entender o caráter ilícito do fato;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-84/inc-IV",
+   "pai": "art-84",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o agente ter:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-84/inc-IV/ali-a",
+   "pai": "art-84/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "procurado, por sua espontânea vontade e com eficiência, evitar ou minorar as consequências da infração ou reparar o dano; ou",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-84/inc-IV/ali-b",
+   "pai": "art-84/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "cometido a infração sob coação ou indução ou no cumprimento de ordem de autoridade superior; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-84/inc-V",
+   "pai": "art-84",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o agente não ser reincidente na prática de infrações.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 85.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São circunstâncias que agravam a aplicação das penalidades:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-I",
+   "pai": "art-85",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "infração cometida por:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-I/ali-a",
+   "pai": "art-85/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ocasião de calamidade pública, assim declarada pelo Poder Público;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-I/ali-b",
+   "pai": "art-85/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "servidor público; ou",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-I/ali-c",
+   "pai": "art-85/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pessoa jurídica;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-II",
+   "pai": "art-85",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "reincidência na prática de infrações, nos termos do art. 86 desta Lei Complementar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-III",
+   "pai": "art-85",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o agente ter cometido a infração:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-III/ali-a",
+   "pai": "art-85/inc-III",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "com dolo ou má-fé; ou",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-III/ali-b",
+   "pai": "art-85/inc-III",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "com o fim de obter vantagem para si ou para outrem; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-IV",
+   "pai": "art-85",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o agente ter:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-IV/ali-a",
+   "pai": "art-85/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "retardado ou deixado de adotar as providências de sua alçada, a fim de evitar ou sanar ato ou fato lesivo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-IV/ali-b",
+   "pai": "art-85/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "coagido ou induzido outrem à execução material da infração;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-IV/ali-c",
+   "pai": "art-85/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "instigado ou determinado alguém sujeito à sua autoridade a cometer a infração;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-IV/ali-d",
+   "pai": "art-85/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "prejudicado o meio ambiente; ou",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/inc-IV/ali-e",
+   "pai": "art-85/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "realizado a infração à noite.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-85/par-unico",
+   "pai": "art-85",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para fins deste artigo, excluem-se do conceito de pessoa jurídica as micro e pequenas empresas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-86",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 86.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Verifica-se a reincidência quando o infrator comete nova infração administrativa depois de decisão definitiva que o tenha condenado por infração anterior.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-86/par-1",
+   "pai": "art-86",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Verificada a reincidência do infrator, a multa deverá ser aplicada em dobro.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-86/par-2",
+   "pai": "art-86",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para efeito de caracterização de reincidência, não prevalece a condenação anterior se, entre a data do cumprimento ou da extinção da penalidade e a data da infração posterior, houver decorrido período de tempo superior a 3 (três) anos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-87",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 87.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Prescreve em 5 (cinco) anos a ação punitiva da Administração Municipal, Direta e Indireta, no exercício do poder fiscalizatório, objetivando apurar infração à legislação em vigor, contados da prática do ato ou, no caso de infração permanente e continuada, do dia em que tiver cessado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-88",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 88.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Constatado o pagamento indevido a servidores, ex-servidores, segurados ou terceiros, por meio da prestação de remuneração, subsídios, proventos ou outros benefícios devidos pelo Município de Porto Alegre, será aberto processo administrativo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "II",
+     "titulo": "Do Procedimento para Ressarcimento por Pagamentos Indevidos a Servidores, Ex-Servidores, Segurados ou Terceiros"
+    }
+   ]
+  },
+  {
+   "id": "art-88/par-unico",
+   "pai": "art-88",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O processo administrativo será instruído com a memória de cálculo do pagamento feito a maior e com a notificação do administrado, em que deverá constar os fundamentos legais aplicáveis ao ressarcimento, prazo de impugnação e as condições para o pagamento, desconto em folha ou parcelamento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-89",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 89.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A interpelação extrajudicial é o meio pelo qual a Administração Pública notifica o interpelado para que cumpra obrigação pecuniária não relacionada às Subseções I e II desta Seção.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "III",
+     "titulo": "Do Procedimento por Interpelação Extrajudicial"
+    }
+   ]
+  },
+  {
+   "id": "art-90",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 90.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nas hipóteses do inc. III do art. 74 desta Lei Complementar, o órgão demandante deverá instaurar novo processo administrativo, relacionado ao processo originário, o qual será instruído e encaminhado à Procuradoria-Geral do Município (PGM), com relatório contendo, no mínimo, os seguintes dados:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-90/inc-I",
+   "pai": "art-90",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a identificação da pessoa física ou jurídica a ser interpelada;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-90/inc-II",
+   "pai": "art-90",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a exposição sucinta dos fatos relativos ao pagamento, ressarcimento, indenização, o nexo de causalidade e seus fundamentos, acompanhada da documentação comprobatória já existente;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-90/inc-III",
+   "pai": "art-90",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "as finalidades da interpelação extrajudicial; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-90/inc-IV",
+   "pai": "art-90",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o valor líquido e atualizado do crédito a ser pago ou indenizado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-90/par-unico",
+   "pai": "art-90",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nos casos em que a obrigação pecuniária seja de valor atualizado inferior a 500 (quinhentas) UFMs, fica dispensado o processamento da interpelação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-91",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 91.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São instâncias do processo administrativo para constituição do crédito não tributário:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "titulo",
+     "numero": "IV",
+     "titulo": "DAS DISPOSIÇÕES COMUNS E FINAIS"
+    }
+   ]
+  },
+  {
+   "id": "art-91/inc-I",
+   "pai": "art-91",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os órgãos responsáveis pelo julgamento dos processos, previstos no art. 74 desta Lei Complementar; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-91/inc-II",
+   "pai": "art-91",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os titulares das secretarias, autarquias ou fundação, onde realizado o julgamento de primeira instância.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-91/par-unico",
+   "pai": "art-91",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A competência prevista no inc. II deste artigo poderá ser delegada a servidor ou a servidores por meio de portaria com prazo determinado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-92",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 92.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O prazo para o oferecimento de impugnação será de 30 (trinta) dias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-93",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 93.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A impugnação deverá conter, no mínimo:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-93/inc-I",
+   "pai": "art-93",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a identificação do subscritor, inclusive, nome, CPF ou CNPJ, endereço residencial ou profissional, endereço eletrônico, número de aplicativo de mensagem instantânea ou contato telefônico para recebimento de notificações, sempre que possível;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-93/inc-II",
+   "pai": "art-93",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o instrumento de mandato, no caso de a defesa ser subscrita por procurador do interpelado;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-93/inc-III",
+   "pai": "art-93",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a descrição dos fatos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-93/inc-IV",
+   "pai": "art-93",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a fundamentação fática e jurídica da tese defensiva apresentada;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-93/inc-V",
+   "pai": "art-93",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o pedido de acolhimento total ou parcial da defesa; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-93/inc-VI",
+   "pai": "art-93",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "as provas do interpelado, se já existentes, ou, em caso negativo, o pedido específico para a produção da prova necessária à comprovação do alegado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-93/par-unico",
+   "pai": "art-93",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A falta de algum dos elementos dos incs. I a VI deste artigo não poderá servir de óbice ao exame da impugnação pelo órgão competente, se for compreensível.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-94",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 94.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A análise e o julgamento do processo administrativo serão efetuados em manifestação que apreciará os requisitos de admissibilidade, as provas e a tese defensiva, quando houver.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-94/par-unico",
+   "pai": "art-94",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Caso verificada inconsistência ou lacuna de dados essenciais à decisão, o órgão decisor poderá solicitar diligências.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-95",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 95.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A decisão prolatada por ocasião do exame de impugnação será comunicada ao interessado para que este possa exercer direito à apresentação de recurso.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-96",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 96.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A decisão que anular o processo, reconhecer sua caducidade, revogar ato administrativo ou for, de qualquer forma, favorável ao interessado, será objeto de comunicação a este pela via menos onerosa ao ente público, e no DOPA-e.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-97",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 97.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Apreciada a impugnação, o impugnante será notificado para, em sendo o caso, cumprir a decisão ou apresentar recurso.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-98",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 98.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Da decisão cabe recurso no prazo de 30 (trinta) dias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-99",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 99.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O recurso será recebido com efeito suspensivo, salvo quando:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-99/inc-I",
+   "pai": "art-99",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "houver previsão legal em contrário; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-99/inc-II",
+   "pai": "art-99",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "da inexecução da penalidade puder resultar a ineficácia da decisão final.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-99/par-unico",
+   "pai": "art-99",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Nos casos referidos nos incs. I e II do caput deste artigo, a autoridade administrativa declarará os efeitos do recebimento do recurso.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-100",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 100.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os recursos das decisões serão examinados pelos titulares das respectivas pastas, ressalvada a hipótese do parágrafo único do art. 91 desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-101",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 101.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O administrado será notificado da decisão que julgar o recurso.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-101/par-unico",
+   "pai": "art-101",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A notificação será acompanhada de Documento de Arrecadação Municipal (DAM) para pagamento no prazo de 30 (trinta) dias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-102",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 102.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Poderá ser autorizado o parcelamento do valor devido a qualquer momento, na forma do regulamento, hipótese em que o processo ficará suspenso até a quitação integral.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-103",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 103.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Poderá ser concedido desconto no caso de quitação do valor devido, se efetuada até o prazo do art. 98 desta Lei Complementar, conforme regulamento, caso em que o processo será extinto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-104",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 104.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A qualquer momento é possível a utilização dos meios consensuais previstos na Lei nº 12.003, de 27 de janeiro de 2016, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-105",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 105.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O órgão julgador de origem, após decisões reiteradas sobre determinado tema, poderá, de ofício ou por provocação, propor súmulas, as quais serão submetidas à aprovação dos titulares das respectivas pastas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-105/par-1",
+   "pai": "art-105",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As súmulas serão encaminhadas à PGM para arquivamento e publicidade, sem prejuízo de análise jurídica prévia, quando couber.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-105/par-2",
+   "pai": "art-105",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A revisão ou o cancelamento de súmula dar-se-á por deliberação unânime do órgão julgador de origem, confirmada pela instância recursal, mediante parecer fundamentado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-106",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 106.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em se tratando de crédito pecuniário, o processo será encaminhado ao setor competente para a emissão de guia para recolhimento do valor devido ou ao órgão pagador para desconto em folha de vencimentos ou de benefícios.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-107",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 107.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de não pagamento da guia no prazo estabelecido ou de não ser efetuado o desconto do indébito em folha de pagamento, o valor devido atualizado será inscrito em dívida ativa e encaminhado para cobrança administrativa ou, se for o caso, para execução fiscal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-108",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 108.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica o Executivo Municipal autorizado a não ajuizar ação de cobrança de crédito não tributário, aplicando-se, para tal fim, os parâmetros estabelecidos em relação ao crédito tributário.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-108/par-unico",
+   "pai": "art-108",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Admite-se o envio da certidão de dívida ativa ao cartório de protesto de títulos, ou ainda, a busca pela solução consensual menos onerosa para as partes, desde que resguardado o interesse público e a eficiência dos processos envolvidos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-109",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 109.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os valores inscritos em dívida ativa informarão, por força desta Lei Complementar, a Certidão Geral de Débitos, que incluirá as dívidas tributárias e não tributárias, a ser emitida pela Secretaria Municipal da Fazenda.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-110",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 110.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Aplicam-se subsidiariamente a esta Lei Complementar:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-110/inc-I",
+   "pai": "art-110",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o Decreto-Lei Federal nº 4.657, de 4 de setembro de 1942 – Lei de Introdução às Normas do Direito Brasileiro –, e alterações posteriores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-110/inc-II",
+   "pai": "art-110",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Lei Federal nº 10.406, de 10 de janeiro de 2002 – Código Civil Brasileiro –, e alterações posteriores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-110/inc-III",
+   "pai": "art-110",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Lei Federal nº 12.527, de 18 de novembro de 2011 – Lei de Acesso à Informação –, e alterações posteriores; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-110/inc-IV",
+   "pai": "art-110",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a Lei Federal nº 13.105, de 16 de março de 2015 – Código de Processo Civil Brasileiro –, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-111",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 111.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os prazos referentes ao processo tributário seguem regidos pela Lei Complementar nº 7, de 7 dezembro de 1973, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-112",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 112.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor em 90 (noventa) dias, contados da data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-113",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 113.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica revogada a Lei Complementar nº 790, de 10 de fevereiro de 2016.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

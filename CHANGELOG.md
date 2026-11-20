@@ -1500,6 +1500,16 @@ Plano e decisões da entrevista com o mantenedor em `PLANO-REVISAO.md`. Fase 1 e
 - **Atenção:** como a decisão amarra `versaoEstruturador`, **todo `VERSAO_ESTRUTURADOR` novo reabre todas as decisões** (viram "desatualizadas"). É o desenho (princípio 2 do `PLANO-REVISAO.md`); por isso não subir a versão sem necessidade depois que houver revisão feita.
 - Fica para depois: sobreposições de rótulo valerem na página de consulta (com aviso).
 
+## Rodada 29 — dashboard de revisão, fases 2 e 3 (20/11/2026)
+
+**F2, comando × resultado nas alteradoras.** `ingestao/revisao-comandos.mjs` (puro): `descreverComandos` mostra, para cada comando que o extrator entendeu, a operação, a lei-alvo, o dispositivo-alvo e o texto novo; com a lei-alvo na base, o antes e o depois (cada comando aplicado sozinho sobre o texto ORIGINAL da lei-alvo, aviso na tela). Com uma só lei-alvo na base, refaz a extração com `leiBaseIndex` (única forma confiável de separar substituir × incluir). `gerar-revisao.mjs` grava `n/<id>.cmd.json`; a página ganhou a seção "Comandos da alteradora" (filtro, expandir, ir ao artigo). Das 135 recentes em revisão, 82 são alteradoras (1.414 comandos).
+- **Achado do extrator (não corrigido nesta rodada):** 1.154 dos 1.414 comandos saem **sem lei-alvo identificada**. Causa verificada: `extrairReferenciasLei` não reconhece "Lei Complementar nº 12, **de 1975**" (só o ano, sem dia e mês — forma comum nas leis recentes), e também não resolve alteração da Lei Orgânica ("na Lei Orgânica do Município"). Com a data por extenso ("nº 12, de 7 de janeiro de 1975") reconhece. Candidato nº 1 para a próxima rodada de core.
+
+**F3, comparação com a compilação do leis.org.** `ingestao/revisao-compilacao.mjs` (puro): `compararComCompilacao` compara o estado final de cada dispositivo do histórico apurado com uma compilação colada. A compilação é só auxílio (vale o texto da lei); a comparação lista, não corrige. Página nova `docs/compara.html` (escolher a lei entre as 99 com alteração aplicada, colar, comparar, destaque por palavras, baixar as divergências em `.md`); o texto colado não sai do navegador. `gerar-revisao.mjs` publica os históricos em `docs/dados/revisao/historico/` (8 MB).
+- Critério de aceite da F3 cumprido: a LC 320 contra `lc320_compilado_leisorg.txt` reproduz exatamente as 6 divergências já nomeadas em `teste_versionamento` (72 iguais; art. 7º e §§ 1º e 2º, art. 9º-A, parágrafo único do art. 10 e inc. I do art. 12-B diferentes) e acusa 1 dispositivo só no motor (parágrafo único do art. 2º, renumerado pela LC 514).
+
+`teste_revisao.mjs` 35 → 53 (casos reais: LC 412 e LC 514 sobre a LC 320, LC 1.005/2024; histórico real da LC 320 em `fixtures/historico/`; um teste que eu havia escrito vácuo foi detectado e refeito). Conferido no Chromium nas duas páginas. `normateste.mjs` idêntico; core intocado; demais testes sem mudança.
+
 ## Passagem de sessão (20/11/2026)
 
 Sem mudança de código. Registrado: estado da tarefa 1 (62,6% aceitas em 823 textos),

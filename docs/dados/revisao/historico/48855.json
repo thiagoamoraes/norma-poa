@@ -1,0 +1,512 @@
+{
+ "geradoEm": "2026-11-18T09:25:55.386Z",
+ "idSapl": 48855,
+ "rotulo": "Lei Complementar municipal nº 1.017, de 08 de julho de 2024",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 1017/2024@2024-07-08",
+   "data": "2024-07-08",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 1017/2024@2024-07-31",
+   "data": "2024-07-31",
+   "fonte": {
+    "idSapl": 48987,
+    "rotulo": "Lei Complementar municipal nº 1.018, de 31 de julho de 2024"
+   },
+   "comandosAplicados": 22
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica suspensa por 60 (sessenta) dias a obrigatoriedade do cumprimento das obrigações tributárias acessórias pelo sujeito passivo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Excetuam-se da suspensão prevista no caput deste artigo: – emissão da Nota Fiscal de Serviços Eletrônica (NFS-e), prevista no inc. I do art. 32 da Lei Complementar nº 7, de 7 dezembro 1973; – escrituração e apresentação da Declaração Mensal do Imposto sobre Serviços de Qualquer Natureza (DECWEB), previstas nos incs. II e IV do art. 32 da Lei Complementar nº 7, de 1973; e – apresentação do demonstrativo da receita operacional, prevista no § 4º do art. 6º da Lei Complementar nº 197, de 21 de março de 1989.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As instituições financeiras de que trata a Lei Complementar nº 956, de 28 de setembro de 2022, não estão contempladas pela suspensão disposta no caput deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º-A",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Ficam aplicadas, como medidas complementares de enfrentamento à calamidade pública causada pela enchente de maio de 2024, a remissão e o crédito de compensação do Imposto sobre a Propriedade Predial e Territorial Urbana (IPTU) e da Taxa de Coleta de Lixo (TCL), exclusivamente aos imóveis edificados atingidos direta ou indiretamente, e do Imposto Sobre Serviços de qualquer Natureza (ISSQN), nos casos relativos à prestação de serviços sob a forma de trabalho pessoal do próprio contribuinte (profissionais autônomos), para os prestadores estabelecidos nos imóveis identificados no § 1º deste artigo, e a isenção do Imposto sobre a transmissão “inter-vivos”, por ato oneroso, de bens imóveis e de direitos reais a eles relativos (ITBI), no caso em que especifica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-1",
+   "pai": "art-1-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Os imóveis atingidos estão compreendidos no modelo georreferenciado de inundação constante no Anexo I desta Lei Complementar, a ser regulamentado em decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-2",
+   "pai": "art-1-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Para efeitos desta Lei Complementar, considera-se:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-2/inc-I",
+   "pai": "art-1-A/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "imóveis edificados diretamente atingidos as unidades imobiliárias efetivamente alagadas; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-2/inc-II",
+   "pai": "art-1-A/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "imóveis edificados indiretamente atingidos as unidades imobiliárias em que não houve alagamento na unidade, tais como apartamentos em andares superiores não atingidos pelo nível da água.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-B",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º-B",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Ficam remitidos os créditos tributários, assim como os juros e os demais consectários legais insertos na composição desses créditos tributários, e ficam anistiadas as multas de mora, referentes às parcelas do IPTU e TCL do exercício de 2024, conforme segue:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-B/inc-I",
+   "pai": "art-1-B",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "para os imóveis edificados diretamente atingidos, o valor correspondente à totalidade das parcelas com vencimento original nos meses de maio a dezembro do ano de 2024, conforme estabelecido nas als. c a j do inc. II do art. 4º do Decreto nº 22.376, de 19 de dezembro de 2023; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-B/inc-II",
+   "pai": "art-1-B",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "para os imóveis edificados indiretamente atingidos, o valor correspondente ao percentual de 20% (vinte por cento) de cada parcela com vencimento original nos meses de maio a dezembro, conforme estabelecido nas als. c a j do inc. II do art. 4º do Decreto nº 22.376, de 2023;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-B/par-1",
+   "pai": "art-1-B",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "O benefício previsto no caput deste artigo também se aplica aos demais créditos tributários do IPTU e TCL do exercício de 2024, com o mesmo percentual de redução previsto nos incs. I e II do caput deste artigo, a depender se o imóvel é direta ou indiretamente atingido.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-B/par-2",
+   "pai": "art-1-B",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Nos casos em que o parcelamento previsto no inc. II do art. 4º do Decreto nº 22.376, de 2023, contenha menos de 10 (dez) parcelas, aplicar-se-á o benefício previsto no caput deste artigo, em relação ao crédito lançado, no mesmo percentual previsto nos incs. I e II do caput, a depender se o imóvel é atingido direta ou indiretamente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-B/par-3",
+   "pai": "art-1-B",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Por meio do benefício previsto neste artigo, todas as unidades imobiliárias atingidas terão o mesmo percentual de redução em seu lançamento do IPTU e da TCL do exercício de 2024, diferenciando-se apenas em relação ao grau de atingimento, se direta ou indiretamente atingidos, conforme descrito no art. 1º-A desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-C",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º-C",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Fica concedida a compensação do crédito tributário do IPTU e da TCL no lançamento da carga geral do exercício de 2025 e subsequentes, se for o caso, dos valores pagos de IPTU e TCL referentes ao exercício 2024 que excederem o valor remanescente do lançamento do exercício após a redução disposta no art. 1º-B desta Lei Complementar, e na mesma proporção dos juros e multa de mora, quando recolhidos, a ser realizada sempre que possível na mesma inscrição imobiliária, ou nas dela derivadas, atualizando-se conforme a legislação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-C/par-unico",
+   "pai": "art-1-C",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Para viabilizar a compensação prevista no caput deste artigo, o lançamento da carga geral do IPTU e da TCL do exercício de 2024 será reduzido no mesmo percentual da redução prevista nos incs. I e II do caput do art. 1º-B desta Lei Complementar, a depender se o imóvel é direta ou indiretamente atingido.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-D",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º-D",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Ficam remitidos os créditos tributários, assim como os juros e os demais consectários legais insertos na composição desses créditos tributários, e ficam anistiadas as multas de mora, correspondentes às parcelas com vencimento original nos meses de maio a dezembro do ano de 2024 do ISSQN, referentes ao lançamento do exercício de 2024, nos casos relativos à prestação de serviços sob a forma de trabalho pessoal do próprio contribuinte (profissionais autônomos), de que trata a al. b do inc. I do art. 5º e a al. d do inc. III e o § 3º do art. 7º, todos do Decreto nº 22.376, de 2023, para os prestadores estabelecidos nos imóveis identificados no § 1º do art. 1º-A desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-D/par-1",
+   "pai": "art-1-D",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "A remissão disposta no caput deste artigo aplicar-se-á também aos lançamentos posteriores à data da publicação desta Lei Complementar, que se refiram a fatos geradores do exercício de 2024.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-D/par-2",
+   "pai": "art-1-D",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Nos casos de pagamento à vista ou de pagamento de parcelas remitidas do ISSQN dos prestadores dispostos no caput deste artigo, fica concedida a compensação do valor correspondente à remissão, e na mesma proporção dos juros e multa de mora, a ser realizada no lançamento do ISSQN do exercício de 2025, atualizando-se conforme a legislação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-E",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º-E",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Fica permitida nova concessão de isenção do ITBI de que tratam as alíneas c e d do inc. I do art. 8º da Lei Complementar nº 197, de 21 de março de 1989, em caso de inutilização total para moradia de imóvel anteriormente adquirido por meio do bônus moradia ou de programa governamental de habitação, podendo a nova aquisição ser adquirida em qualquer região da Cidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-F",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º-F",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Os benefícios previstos nos arts. 1º-B a 1º-D desta Lei Complementar dependem de requerimento para sua obtenção, a ser realizado até o dia 31 de outubro de 2024, nos termos do decreto regulamentador.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-G",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º-G",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Os arts. 1º-B a 1º-E serão implementados na forma disposta pelo decreto regulamentador, o qual estabelecerá as normas e os procedimentos necessários para a sua execução.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-H",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º-H",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Ficam remitidos os créditos, assim como os juros e os demais consectários legais insertos na composição desses créditos, e ficam anistiadas as multas de mora, correspondentes às outorgas mensais com vencimento original nos meses de maio a dezembro do ano de 2024 dos Termos de Permissão de Uso (TPUs) de próprios municipais celebrados com os permissionários, nos termos do Decreto nº 20.355, de 13 de setembro de 2019, estabelecidos nos imóveis diretamente atingidos pela enchente de maio de 2024, que estão compreendidos no modelo georreferenciado de inundação constante no Anexo I desta Lei Complementar, a ser regulamentado em decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-H/par-1",
+   "pai": "art-1-H",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Em relação aos TPUs cujos próprios municipais foram indiretamente atingidos pela enchente de maio de 2024, desde que estejam compreendidos no modelo georreferenciado de inundação constante no Anexo I desta Lei Complementar, ficam remitidos, no mínimo, o valor correspondente a 20% (vinte por cento) da outorga mensal devida pelos permissionários, com vencimento original nos meses de maio a dezembro de 2024.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-H/par-2",
+   "pai": "art-1-H",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Fica concedida a compensação das outorgas mensais dos TPUs no exercício de 2025 e subsequentes, se for o caso, dos valores pagos pelos permissionários nos meses referidos neste artigo, assim como os juros e multa de mora, quando pagos e relativos a estes meses.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO Art. 3º VETADO Art. 4º VETADO Art. 5º VETADO Art. 6º VETADO Art. 7º VETADO Art. 8º VETADO Art. 9º VETADO Art. 10. VETADO",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar entra em vigor na data de sua publicação. PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de julho de 2024. Sebastião Melo, Prefeito de Porto Alegre. Registre-se e publique-se. Roberto Silva da Rocha, Procurador-Geral do Município.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 48987,
+    "rotulo": "Lei Complementar municipal nº 1.018, de 31 de julho de 2024"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 7 de dezembro de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 1017/2024) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 7 de dezembro de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 1017/2024) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 7 de dezembro de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 1017/2024)",
+   "enderecos": [
+    "art-10/par-3",
+    "art-10/par-4",
+    "art-10/par-5"
+   ]
+  }
+ ],
+ "aConferir": []
+}

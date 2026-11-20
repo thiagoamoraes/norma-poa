@@ -1,0 +1,461 @@
+{
+ "geradoEm": "2026-11-20T09:25:05.245Z",
+ "idSapl": 30749,
+ "rotulo": "Lei Complementar municipal nº 455, de 01 de setembro de 2000",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 455/2000@2000-09-01",
+   "data": "2000-09-01",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 455/2000@2010-07-14",
+   "data": "2010-07-14",
+   "fonte": {
+    "idSapl": 36824,
+    "rotulo": "Lei Complementar municipal nº 645, de 14 de julho de 2010"
+   },
+   "comandosAplicados": 17
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "® Fica criado o Conselho Municipal de Alimentação Escolar - CAE, órgão deliberativo, fiscalizador e de assessoramento e controle da aplicação dos recursos destinados á merenda escolar do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "* O CAE será constituído por sete membros titulares e seus respectivos suplentes, um suplente por titular, do mesmo segmento por este representado, nomeados pelo Prefeito Municipal, compondo-se da seguinte forma:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "O CAE será constituído por 7 (sete) membros,conforme segue:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante do Poder Executivo, indicado pelo Chefe deste Poder;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "1 (um) representante doExecutivo Municipal, indicado pelo Prefeito Municipal;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante do Poder Legislativo, indicado pela Mesa Diretora deste Poder; 111 - dois representantes dos professores, indicados pelo respectivo órgão de classe;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "2 (dois) representantesdas entidades de trabalhadores da Educação e de discentes, indicados pelorespectivoórgão de representação, a serem escolhidos por meio de assembleia específica;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "dois representantes de pais de alunos, indicados pelos Conselhos Escolares;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "2 (dois) representantesde pais de alunos, indicados pelos Conselhos Escolares, Associações de Pais e Mestres ouentidades similares, escolhidos por meio de assembleia específica; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "um representante do corpo discente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "2 (dois) representantesindicados por entidades civis organizadas, escolhidos em assembleia específica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "® Poderá a composição do CAE ser de até três vezes o número estipulado no'caput\"deste artigo, obedecida a proporcionalidade alí definida, quando o Município contar com mais de cem es colas de ensino fundamental.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Mediante lei, quando o Município de Porto Alegrecontar com mais de 100 (cem) escolas de Ensino Fundamental, a composição do CAE poderáser de até 3 (três) vezes o número estipulado no “caput” desteartigo, obedecida à proporcionalidade ali definida.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-4",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Os membros do CAE terão mandato de 4 (quatro)anos, podendo ser reconduzidos 1 (uma) vez.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-5",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "O exercício do mandato de Conselheiro do CAE éconsiderado serviço público relevante e não será remunerado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-6",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 6º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Apresidência e a vice-presidência do CAE somente poderão ser exercidas porrepresentantes referidos nos incs. II, III e IV deste artigo, sendo o período de seusmandatos estabelecidos no Regimento do CAE.”",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "® Os membros e Presidente do CAE terão mandato de dois anos, podendo ser reconduzidos uma vez.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Alémdos membros titulares, cada segmento referido nos incisos do “caput” desteartigo indicará os respectivos suplentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-3",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O exercício do mandato de Conselheiro do CAE é considerado serviço público relevante e não será remunerado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Os Conselheiros serão nomeados por atoassinadopelo Prefeito Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "* São competências do CAE:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Compete ao CAE:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "acompanhar a aplicação dos recursos federais transferidos à conta do Programa Nacional de Alimentação Escolar - PNAE;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "acompanhar e fiscalizar ocumprimento das diretrizes estabelecidas na legislação federal aplicável ao tema;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "zelar pela qualidade dos produtos, em todos os níveis, desde a aquisição até a distribuição, observando as boas práticas higiênicas e sanitárias; lil - receber, analisar e remeter ao Fundo Nacional de Desenvolvimento da Educação - FNDE, com parecer conclusivo acerca da regularidade, as prestações de contas do PNAE, encaminhadas pelo Município, na forma da legislação federai em vigor",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "acompanhar efiscalizara aplicação dos recursos destinados à alimentação escolar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Sem prejuízo das competências acima estabelecidas, o funcionamento, a forma e o'quorurTr'para as deliberações do CAE, bem como suas demais competências, serio definidas pelo Conselho Deliberativo do FNDE.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "O CAE poderá desenvolver suas atribuições emregime de cooperação com os Conselhos de Segurança Alimentar e Nutricionalde outros municípios e demais Conselhos afins.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "zelar pela qualidadedos alimentos, em especial quanto às condições higiênicas, bem como pelaaceitabilidade dos cardápios oferecidos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "receber o relatórioanual de gestão do Programa Nacional de Alimentação Escolar e emitir parecer conclusivoa respeito, aprovando ou reprovando a execução do Programa.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 645/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar será regulamentada pelo Executivo no prazo de noventa dias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "® Esta Lei Complementar entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

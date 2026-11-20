@@ -84,3 +84,56 @@ export function resumoDaRevisao(fila, decisoes) {
   }
   return r;
 }
+
+// ── F4: efeito das decisões nos relatórios ────────────────────────────────────
+
+/** Categorias da situação humana, na ordem em que o relatório as mostra. */
+export const CATEGORIAS_HUMANAS = ['aceita_motor', 'aceita_humano', 'corrigida', 'defeito_de_fonte', 'encaminhada', 'pendente', 'desatualizada'];
+
+/**
+ * Situação de uma norma somando o que o motor concluiu e o que o revisor decidiu.
+ *  - `norma`: { situacao: 'aceita'|'revisar', sha256Origem, versaoEstruturador }
+ *  - decisão da MESMA versão vale; de versão diferente → 'desatualizada' (a norma volta à fila).
+ *  - "aceitar" sobre norma que o motor já aceitou só a confirma (continua `aceita_motor`).
+ */
+export function situacaoHumana(norma, decisao) {
+  const s = situacaoDaDecisao(decisao, norma);
+  if (s === 'desatualizada') return 'desatualizada';
+  if (s === 'pendente') return norma.situacao === 'aceita' ? 'aceita_motor' : 'pendente';
+  switch (decisao.decisao) {
+    case 'aceitar': return norma.situacao === 'aceita' ? 'aceita_motor' : 'aceita_humano';
+    case 'corrigir': return 'corrigida';
+    case 'defeito_de_fonte': return 'defeito_de_fonte';
+    default: return 'encaminhada';
+  }
+}
+
+/** Contagens por época e geral. `normas`: [{ idSapl, epoca, situacao, sha256Origem, versaoEstruturador }]. */
+export function resumoHumano(normas, decisoes) {
+  const vazio = () => Object.fromEntries(CATEGORIAS_HUMANAS.map((c) => [c, 0]));
+  const r = { geral: vazio(), recente: vazio(), antiga: vazio(), indefinida: vazio() };
+  for (const n of normas) {
+    const c = situacaoHumana(n, decisoes.get(n.idSapl));
+    r.geral[c]++;
+    (r[n.epoca] || r.indefinida)[c]++;
+  }
+  return r;
+}
+
+/** Markdown da lista de casos que o revisor encaminhou ao motor (forma legítima ainda desconhecida). */
+export function listaParaOMotor(normas, decisoes) {
+  const itens = [];
+  for (const n of normas) {
+    const d = decisoes.get(n.idSapl);
+    if (d?.decisao === 'encaminhar_ao_motor' && situacaoDaDecisao(d, n) === 'revisada') itens.push({ n, d });
+  }
+  itens.sort((a, b) => a.d.idSapl - b.d.idSapl);
+  const L = ['# Casos encaminhados ao motor', '',
+    'Gerado a partir de `dados/revisao/decisoes.jsonl`. Não editar à mão. Cada caso é uma norma REAL que o revisor marcou como forma legítima de redação que o motor ainda não conhece: candidata a fixture e a tarefa do ROTEIRO.', '',
+    `Casos: ${itens.length}`, ''];
+  for (const { n, d } of itens) {
+    L.push(`- **${n.rotulo}** (\`${n.idSapl}\`, ${n.epoca}) — motivos: ${(n.motivos || []).join(', ') || '—'}`);
+    L.push(`  - o que o motor não conhece: ${d.nota}`);
+  }
+  return L.join('\n') + '\n';
+}
