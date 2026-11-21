@@ -2,8 +2,8 @@
  "idSapl": 35934,
  "rotulo": "Lei Complementar municipal nº 607, de 29 de dezembro de 2008",
  "sha256Origem": "9eab19b6e6fd97bf7d5a42d78a86ea56aaf9217c0b2b9313e7653e475f380cb3",
- "estruturadoEm": "2026-11-21T14:59:51.987Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:04.097Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "607",
@@ -280,12 +280,15 @@
  "verificacao": {
   "situacao": "aceita",
   "motivos": [],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 30,
    "dispositivos": 33,
    "cobertura": 0.988,
    "blocosDeAlteracao": 26,
+   "revogacoesNaoLidas": 2,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

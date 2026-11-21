@@ -2,8 +2,8 @@
  "idSapl": 44071,
  "rotulo": "Lei Complementar municipal nº 945, de 08 de julho de 2022",
  "sha256Origem": "d2896c1fc8987c1886f7a3ba8af9eba7e5ffa390b196dce5981a36308f3d15ae",
- "estruturadoEm": "2026-11-21T14:59:48.136Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:00.272Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "945",
@@ -223,12 +223,15 @@
  "verificacao": {
   "situacao": "aceita",
   "motivos": [],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 21,
    "dispositivos": 26,
    "cobertura": 0.984,
    "blocosDeAlteracao": 18,
+   "revogacoesNaoLidas": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

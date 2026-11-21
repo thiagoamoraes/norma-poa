@@ -2,8 +2,8 @@
  "idSapl": 39249,
  "rotulo": "Lei Complementar municipal nº 731, de 21 de janeiro de 2014",
  "sha256Origem": "4425845a70e63bb5e694360a51660159d3abd5688473339e6339dd382f09c4d2",
- "estruturadoEm": "2026-11-21T14:59:50.124Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:02.254Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "731",
@@ -165,13 +165,15 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "cabecalho_fora_do_padrao"
+   "cabecalho_fora_do_padrao",
+   "revogacao_nao_interpretada"
   ],
   "metricas": {
    "artigos": 13,
    "dispositivos": 19,
    "cobertura": 0.984,
    "blocosDeAlteracao": 7,
+   "revogacoesNaoLidas": 2,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

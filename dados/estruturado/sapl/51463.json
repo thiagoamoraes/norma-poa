@@ -2,8 +2,8 @@
  "idSapl": 51463,
  "rotulo": "Lei Complementar municipal nº 1.074, de 09 de julho de 2026",
  "sha256Origem": "5b536361cb45e8078cdca1bbc6c0c392c64e57f638bb2a7ed73a2459db4e2f45",
- "estruturadoEm": "2026-11-21T14:59:46.898Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:27:58.907Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1074",
@@ -222,12 +222,15 @@
    "bloco_sem_fechamento_de_aspas",
    "aspa_de_abertura_ausente"
   ],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 23,
    "dispositivos": 25,
    "cobertura": 0.994,
    "blocosDeAlteracao": 21,
+   "revogacoesNaoLidas": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [],

@@ -2,8 +2,8 @@
  "idSapl": 34067,
  "rotulo": "Lei Complementar municipal nº 536, de 28 de dezembro de 2005",
  "sha256Origem": "00fae5968bfb0b3a463792280cdbbe7e9f21d8d282e5eeabd37f4f8249d0c55e",
- "estruturadoEm": "2026-11-21T14:59:52.400Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:04.488Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "536",
@@ -161,12 +161,15 @@
  "verificacao": {
   "situacao": "aceita",
   "motivos": [],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 3,
    "dispositivos": 18,
    "cobertura": 0.989,
    "blocosDeAlteracao": 12,
+   "revogacoesNaoLidas": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

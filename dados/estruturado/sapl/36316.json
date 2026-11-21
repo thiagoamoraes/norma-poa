@@ -2,8 +2,8 @@
  "idSapl": 36316,
  "rotulo": "Lei Complementar municipal nº 628, de 17 de agosto de 2009",
  "sha256Origem": "87550d6e43e12b2a4c75b3eb7f86e79d66f59963a1fa4bb6f90e8ba98eaafc07",
- "estruturadoEm": "2026-11-21T14:59:51.801Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:03.872Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "628",
@@ -3616,12 +3616,15 @@
   "motivos": [
    "rotulo_nao_confere_com_a_origem"
   ],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 144,
    "dispositivos": 479,
    "cobertura": 0.952,
    "blocosDeAlteracao": 0,
+   "revogacoesNaoLidas": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

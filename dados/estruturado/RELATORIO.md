@@ -1,6 +1,6 @@
 # Estruturação — relatório
 
-Gerado em 2026-11-21T15:00:04.467Z por `ingestao/estruturar.mjs` (versão do estruturador: 22). Não editar à mão.
+Gerado em 2026-11-21T16:28:17.869Z por `ingestao/estruturar.mjs` (versão do estruturador: 23). Não editar à mão.
 
 Uma norma só é **aceita** quando passa em todas as conferências: cabeçalho igual ao do catálogo (número, data, tipo), artigos numerados sem salto, rótulos iguais aos do texto de origem, nenhum texto fora da árvore, fecho presente. O resto vai para **revisar**, com o motivo.
 
@@ -117,6 +117,7 @@ A fonte liga o mesmo texto a mais de um registro; o catálogo não é corrigido 
 | `tem_anexo` | 94 | 8.5% |
 | `texto_de_ocr` | 68 | 6.1% |
 | `anexo_preservado_nao_interpretado` | 51 | 4.6% |
+| `revogacao_nao_interpretada` | 44 | 4% |
 | `anexo_grafico_nao_lido` | 42 | 3.8% |
 | `paragrafo_numerado_sem_irmao` | 20 | 1.8% |
 | `dispositivo_muito_longo` | 15 | 1.4% |

@@ -2,8 +2,8 @@
  "idSapl": 43937,
  "rotulo": "Lei Complementar municipal nº 942, de 25 de maio de 2022",
  "sha256Origem": "eeb816d9344e3b504997fa05a91833eb9f1e0437c0e527500f4ab0170de414a1",
- "estruturadoEm": "2026-11-21T14:59:48.162Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:00.297Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "942",
@@ -980,12 +980,15 @@
  "verificacao": {
   "situacao": "aceita",
   "motivos": [],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 36,
    "dispositivos": 126,
    "cobertura": 0.979,
    "blocosDeAlteracao": 5,
+   "revogacoesNaoLidas": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

@@ -2,8 +2,8 @@
  "idSapl": 45238,
  "rotulo": "Lei Complementar municipal nº 963, de 07 de dezembro de 2022",
  "sha256Origem": "615707d6f32448e342961f1ca66642a84f4cda6eb83accedb1b0bb066b1c827f",
- "estruturadoEm": "2026-11-21T14:59:47.977Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:00.123Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "963",
@@ -103,12 +103,15 @@
  "verificacao": {
   "situacao": "aceita",
   "motivos": [],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 9,
    "dispositivos": 11,
    "cobertura": 0.977,
    "blocosDeAlteracao": 3,
+   "revogacoesNaoLidas": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

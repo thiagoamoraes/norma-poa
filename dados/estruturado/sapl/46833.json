@@ -2,8 +2,8 @@
  "idSapl": 46833,
  "rotulo": "Lei Complementar municipal nº 983, de 21 de julho de 2023",
  "sha256Origem": "ea719f450cf3712a15f5c8e65fe278f10a0978bfbee1894f2a7f05519240fc33",
- "estruturadoEm": "2026-11-21T14:59:47.876Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:00.033Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "983",
@@ -90,12 +90,15 @@
  "verificacao": {
   "situacao": "aceita",
   "motivos": [],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 9,
    "dispositivos": 9,
    "cobertura": 0.992,
    "blocosDeAlteracao": 4,
+   "revogacoesNaoLidas": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

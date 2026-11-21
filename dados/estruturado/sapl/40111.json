@@ -2,8 +2,8 @@
  "idSapl": 40111,
  "rotulo": "Lei Complementar municipal nº 765, de 08 de julho de 2015",
  "sha256Origem": "80c274883e245bf73988117e891940c7d1527a0138f6b1ff3aab99588a69b90f",
- "estruturadoEm": "2026-11-21T14:59:49.688Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:01.896Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "765",
@@ -2590,6 +2590,7 @@
   "motivos": [],
   "avisos": [
    "tem_anexo",
+   "revogacao_nao_interpretada",
    "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
@@ -2597,6 +2598,7 @@
    "dispositivos": 342,
    "cobertura": 0.969,
    "blocosDeAlteracao": 14,
+   "revogacoesNaoLidas": 1,
    "anexos": [
     {
      "cabecalho": "ANEXO",

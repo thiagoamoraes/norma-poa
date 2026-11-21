@@ -2,8 +2,8 @@
  "idSapl": 39821,
  "rotulo": "Lei Complementar municipal nº 751, de 30 de dezembro de 2014",
  "sha256Origem": "9e1bf069a4a5227a80d51a8e83f38f4357b98ece5e5017350d71202c4a24a51a",
- "estruturadoEm": "2026-11-21T14:59:49.962Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:02.120Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "751",
@@ -91,12 +91,15 @@
  "verificacao": {
   "situacao": "aceita",
   "motivos": [],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 7,
    "dispositivos": 9,
    "cobertura": 0.977,
    "blocosDeAlteracao": 5,
+   "revogacoesNaoLidas": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

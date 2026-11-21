@@ -318,6 +318,7 @@ function pintarNorma() {
     n.urlFonte ? el('a', { href: n.urlFonte, target: '_blank', rel: 'noopener' }, 'Arquivo original na fonte ↗') : el('span', {}, 'sem link da fonte'),
     n.avisos.includes('texto_de_ocr') ? el('span', { class: 'selo al' }, 'texto de OCR: confira no original') : null,
     n.avisos.includes('anexo_preservado_nao_interpretado') ? el('span', { class: 'selo al', title: 'O anexo (texto ou tabela) foi guardado como bloco, com o rótulo escrito; o motor não interpreta o conteúdo.' }, 'anexo preservado, não interpretado') : null,
+    n.avisos.includes('revogacao_nao_interpretada') ? el('span', { class: 'selo al', title: 'Há revogação que o motor reconhece mas não interpreta (lista com item ilegível, tabela, caput isolado, intervalo sem lei-base ou revogação condicionada). A norma segue aceita; os pontos aparecem como a conferir no histórico das leis afetadas.' }, 'revogação não interpretada') : null,
     n.avisos.includes('anexo_grafico_nao_lido') ? el('span', { class: 'selo al', title: 'O anexo é só título/figura (mapa, planta, croqui) ou carimbo; o motor não lê imagem.' }, 'anexo gráfico, não lido') : null,
     n.textoIgualA?.length ? el('span', { class: 'selo al', title: 'A fonte ligou o mesmo texto a mais de um registro; o catálogo não é corrigido aqui.' }, 'texto idêntico ao da norma ' + n.textoIgualA.join(', ')) : null,
     el('span', { id: 'link-compara' }));

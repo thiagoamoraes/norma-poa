@@ -2,8 +2,8 @@
  "idSapl": 37042,
  "rotulo": "Lei Complementar municipal nº 661, de 07 de dezembro de 2010",
  "sha256Origem": "807a3e74a55a2dbf1fda9b357472667d800c2675985c14a6d45b4ae5cc8184e0",
- "estruturadoEm": "2026-11-21T14:59:51.294Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:03.348Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "661",
@@ -564,12 +564,15 @@
   "motivos": [
    "rotulo_nao_confere_com_a_origem"
   ],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 17,
    "dispositivos": 77,
    "cobertura": 0.959,
    "blocosDeAlteracao": 0,
+   "revogacoesNaoLidas": 2,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

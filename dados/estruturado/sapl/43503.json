@@ -2,8 +2,8 @@
  "idSapl": 43503,
  "rotulo": "Lei Complementar municipal nº 922, de 29 de novembro de 2021",
  "sha256Origem": "4ed9eff432fe3737f816a3a2b92bd2168d36928cd1a671b1ff966b24b73ad7be",
- "estruturadoEm": "2026-11-21T14:59:48.342Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:00.490Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "922",
@@ -69,12 +69,15 @@
  "verificacao": {
   "situacao": "aceita",
   "motivos": [],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 6,
    "dispositivos": 6,
    "cobertura": 0.976,
    "blocosDeAlteracao": 4,
+   "revogacoesNaoLidas": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

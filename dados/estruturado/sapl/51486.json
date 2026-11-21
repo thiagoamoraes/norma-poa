@@ -2,8 +2,8 @@
  "idSapl": 51486,
  "rotulo": "Lei Complementar municipal nº 1.076, de 14 de julho de 2026",
  "sha256Origem": "80e1459d07a324e1a3d75ad5e85295a1ee7260a9ca7229e1eb453c13988bc622",
- "estruturadoEm": "2026-11-21T14:59:46.619Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:27:58.604Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1076",
@@ -3825,12 +3825,15 @@
  "verificacao": {
   "situacao": "aceita",
   "motivos": [],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 126,
    "dispositivos": 521,
    "cobertura": 0.973,
    "blocosDeAlteracao": 0,
+   "revogacoesNaoLidas": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

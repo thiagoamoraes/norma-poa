@@ -2,8 +2,8 @@
  "idSapl": 36529,
  "rotulo": "Lei Complementar municipal nº 633, de 29 de dezembro de 2009",
  "sha256Origem": "936d7e26ce347da62e5f45c35bc42442249936b921daec80dc29c0c9bba9c3ec",
- "estruturadoEm": "2026-11-21T14:59:51.695Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:03.800Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "633",
@@ -223,12 +223,15 @@
  "verificacao": {
   "situacao": "aceita",
   "motivos": [],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 23,
    "dispositivos": 26,
    "cobertura": 0.985,
    "blocosDeAlteracao": 18,
+   "revogacoesNaoLidas": 2,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

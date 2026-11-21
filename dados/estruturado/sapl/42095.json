@@ -2,8 +2,8 @@
  "idSapl": 42095,
  "rotulo": "Lei Complementar municipal nº 851, de 12 de junho de 2019",
  "sha256Origem": "5cd27214cebe89b47932a16cc89ba979108013c4bb50d15e6a59c31d77357116",
- "estruturadoEm": "2026-11-21T14:59:49.012Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:01.266Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "851",
@@ -231,12 +231,15 @@
  "verificacao": {
   "situacao": "aceita",
   "motivos": [],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 12,
    "dispositivos": 29,
    "cobertura": 0.979,
    "blocosDeAlteracao": 5,
+   "revogacoesNaoLidas": 8,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

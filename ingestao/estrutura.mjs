@@ -16,7 +16,7 @@
 // Uma norma só é 'aceita' quando passa em TODAS as conferências. O resto vai
 // para 'revisar' com o motivo — nada é aceito em silêncio.
 
-import { parseLeiPublicada, atribuirDesFixoOriginal, detectNRCandidates, extrairReferenciasLei, extrairReferenciaLeiOrganica } from '../norma-core.js';
+import { parseLeiPublicada, atribuirDesFixoOriginal, detectNRCandidates, extrairReferenciasLei, extrairReferenciaLeiOrganica, extrairComandosLei } from '../norma-core.js';
 
 /**
  * Corte de época (orientação do mantenedor, 20/11/2026): a LC 611/2009, sancionada
@@ -55,7 +55,7 @@ export function introsDeAlteracaoSemBloco(artigos) {
 }
 
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
-export const VERSAO_ESTRUTURADOR = 22;
+export const VERSAO_ESTRUTURADOR = 23;
 
 export const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');
@@ -397,6 +397,11 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
   if (numeradoSemIrmao) avisos.push('paragrafo_numerado_sem_irmao');
   if (opcoes.ocr) avisos.push('texto_de_ocr'); // lido de imagem: pode ter troca de caracteres
   if (/^\s*ANEXO\b/m.test(texto)) avisos.push('tem_anexo');
+  // Revogação que o motor reconhece como revogação mas não interpreta (lista com item ilegível, Tabela, caput isolado, intervalo sem lei-base,
+  // revogação condicionada…): só aviso, a norma segue aceita (decisão 48). Cada ponto vira `indeterminado` com `codigoMotivo` `revogacao_*`.
+  let revogacoesNaoLidas = 0;
+  try { revogacoesNaoLidas = extrairComandosLei(doc, {}).filter((k) => k.operacao === 'indeterminado' && /^revogacao_/.test(k.codigoMotivo || '')).length; } catch { /* o leitor de comandos nunca derruba a estruturação */ }
+  if (revogacoesNaoLidas) avisos.push('revogacao_nao_interpretada');
   const anexosDoFecho = anexosLidos;
   if (anexosDoFecho.some((x) => !x.graficoOuTitulo)) avisos.push('anexo_preservado_nao_interpretado');
   if (anexosDoFecho.some((x) => x.graficoOuTitulo)) avisos.push('anexo_grafico_nao_lido');
@@ -422,6 +427,7 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
         cobertura: Math.round(cons.cobertura * 1000) / 1000,
         blocosDeAlteracao: blocos.length,
         ...(tabelaDoCorpo ? { tabelaNoCorpo: tabelaDoCorpo } : {}),
+        ...(revogacoesNaoLidas ? { revogacoesNaoLidas } : {}),
         ...(anexosDoFecho.length ? { anexos: anexosDoFecho.slice(0, 12).map((x) => ({ cabecalho: x.rotulo, linhas: x.linhas, caracteres: x.caracteres, graficoOuTitulo: x.graficoOuTitulo, ...(x.vetado ? { vetado: true } : {}) })), totalDeAnexos: anexosDoFecho.length } : {}),
         lacunas: lacunasReais.slice(0, 5), naoLocalizados: cons.naoLocalizados.slice(0, 5), rotulosDivergentes: cons.rotulosDivergentes.slice(0, 5),
         ...(fronteirasInferidas.length ? { fronteirasInferidas } : {}),

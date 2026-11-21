@@ -2,8 +2,8 @@
  "idSapl": 34642,
  "rotulo": "Lei Complementar municipal nº 556, de 08 de dezembro de 2006",
  "sha256Origem": "5f00396e60a45bbb6312c2a24435bc9a62e6aae22d6ce84aaab304abc2d9b26c",
- "estruturadoEm": "2026-11-21T14:59:52.288Z",
- "versaoEstruturador": 22,
+ "estruturadoEm": "2026-11-21T16:28:04.399Z",
+ "versaoEstruturador": 23,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "556",
@@ -291,12 +291,15 @@
  "verificacao": {
   "situacao": "aceita",
   "motivos": [],
-  "avisos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
   "metricas": {
    "artigos": 17,
    "dispositivos": 36,
    "cobertura": 0.986,
    "blocosDeAlteracao": 16,
+   "revogacoesNaoLidas": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []
