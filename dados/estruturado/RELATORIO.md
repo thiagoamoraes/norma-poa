@@ -1,6 +1,6 @@
 # Estruturação — relatório
 
-Gerado em 2026-11-21T00:21:28.081Z por `ingestao/estruturar.mjs` (versão do estruturador: 17). Não editar à mão.
+Gerado em 2026-11-21T00:34:42.051Z por `ingestao/estruturar.mjs` (versão do estruturador: 18). Não editar à mão.
 
 Uma norma só é **aceita** quando passa em todas as conferências: cabeçalho igual ao do catálogo (número, data, tipo), artigos numerados sem salto, rótulos iguais aos do texto de origem, nenhum texto fora da árvore, fecho presente. O resto vai para **revisar**, com o motivo.
 
@@ -8,8 +8,8 @@ Textos baixados: 834 · com texto extraído e estruturados: 823
 
 | Situação | Normas | % |
 |---|---|---|
-| aceita | 611 | 74.2% |
-| revisar | 212 | 25.8% |
+| aceita | 614 | 74.6% |
+| revisar | 209 | 25.4% |
 
 ## Por época (corte: sanção da LC 611, 03/02/2009)
 
@@ -17,7 +17,7 @@ Antes do corte a técnica legislativa era outra: falhas de compilação são esp
 
 | Época | Aceitas | A revisar | Taxa de aceitação |
 |---|---|---|---|
-| recente | 417 | 61 | 87.2% |
+| recente | 420 | 58 | 87.9% |
 | antiga | 194 | 151 | 56.2% |
 
 ## Revisão humana
@@ -26,12 +26,12 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 
 | Situação | Recentes | Antigas | Total |
 |---|---|---|---|
-| aceita motor | 417 | 194 | 611 |
+| aceita motor | 420 | 194 | 614 |
 | aceita humano | 0 | 0 | 0 |
 | corrigida | 0 | 0 | 0 |
 | defeito de fonte | 0 | 0 | 0 |
 | encaminhada | 0 | 0 | 0 |
-| pendente | 61 | 151 | 212 |
+| pendente | 58 | 151 | 209 |
 | desatualizada | 0 | 0 | 0 |
 
 
@@ -42,17 +42,16 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 |---|---|
 | `rotulo_nao_confere_com_a_origem` | 39 |
 | `sem_fecho` | 13 |
-| `cabecalho_nao_reconhecido` | 11 |
+| `cabecalho_nao_reconhecido` | 10 |
 | `sem_artigos` | 8 |
-| `trecho_nao_localizado_na_origem` | 6 |
 | `data_diverge_do_catalogo` | 6 |
-| `texto_fora_da_arvore` | 5 |
 | `bloco_de_alteracao_sem_dono` | 4 |
+| `texto_fora_da_arvore` | 4 |
+| `trecho_nao_localizado_na_origem` | 4 |
 | `aspa_de_abertura_ausente` | 3 |
 | `alteracao_sem_aspas_nao_delimitada` | 3 |
 | `promulgacao_parcial` | 2 |
 | `numero_diverge_do_catalogo` | 1 |
-| `tipo_diverge_do_catalogo` | 1 |
 
 ## Motivos de revisão (todas as épocas)
 
@@ -61,11 +60,11 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 | Motivo | Normas | % do total |
 |---|---|---|
 | `rotulo_nao_confere_com_a_origem` | 141 | 17.1% |
-| `cabecalho_nao_reconhecido` | 96 | 11.7% |
+| `cabecalho_nao_reconhecido` | 95 | 11.5% |
 | `sem_fecho` | 73 | 8.9% |
-| `trecho_nao_localizado_na_origem` | 38 | 4.6% |
-| `texto_fora_da_arvore` | 31 | 3.8% |
+| `trecho_nao_localizado_na_origem` | 36 | 4.4% |
 | `bloco_de_alteracao_sem_dono` | 30 | 3.6% |
+| `texto_fora_da_arvore` | 30 | 3.6% |
 | `sem_artigos` | 16 | 1.9% |
 | `bloco_sem_fechamento_de_aspas` | 12 | 1.5% |
 | `promulgacao_parcial` | 11 | 1.3% |
@@ -74,7 +73,6 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 | `alteracao_sem_aspas_nao_delimitada` | 4 | 0.5% |
 | `aspa_de_abertura_ausente` | 3 | 0.4% |
 | `numero_diverge_do_catalogo` | 1 | 0.1% |
-| `tipo_diverge_do_catalogo` | 1 | 0.1% |
 
 ## Textos idênticos em registros diferentes
 
@@ -129,7 +127,6 @@ A fonte liga o mesmo texto a mais de um registro; o catálogo não é corrigido 
 - Lei Complementar municipal nº 872, de 10 de janeiro de 2020 (`42401`): promulgacao_parcial, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 868, de 10 de dezembro de 2019 (`42356`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 859, de 03 de setembro de 2019 (`42216`): rotulo_nao_confere_com_a_origem
-- Lei Complementar municipal nº 848, de 22 de março de 2019 (`42014`): cabecalho_nao_reconhecido, tipo_diverge_do_catalogo
 - Lei Complementar municipal nº 835, de 26 de julho de 2018 (`41723`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 822, de 12 de dezembro de 2017 (`41463`): data_diverge_do_catalogo
 - Lei Complementar municipal nº 818, de 11 de setembro de 2017 (`41347`): sem_fecho, alteracao_sem_aspas_nao_delimitada
@@ -146,14 +143,12 @@ A fonte liga o mesmo texto a mais de um registro; o catálogo não é corrigido 
 - Lei Complementar municipal nº 738, de 02 de maio de 2014 (`39395`): cabecalho_nao_reconhecido, sem_artigos, sem_fecho
 - Lei Complementar municipal nº 733, de 24 de janeiro de 2014 (`39258`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 721, de 29 de novembro de 2013 (`39138`): rotulo_nao_confere_com_a_origem
-- Lei Complementar municipal nº 701, de 18 de julho de 2012 (`38364`): trecho_nao_localizado_na_origem
 - Lei Complementar municipal nº 694, de 21 de maio de 2012 (`38249`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 690, de 17 de fevereiro de 2012 (`38051`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 688, de 15 de fevereiro de 2012 (`38041`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 679, de 26 de agosto de 2011 (`37517`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 678, de 22 de agosto de 2011 (`37491`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 677, de 19 de julho de 2011 (`37422`): rotulo_nao_confere_com_a_origem
-- Lei Complementar municipal nº 670, de 20 de janeiro de 2011 (`37136`): texto_fora_da_arvore, trecho_nao_localizado_na_origem
 - Lei Complementar municipal nº 663, de 28 de dezembro de 2010 (`37090`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 662, de 07 de dezembro de 2010 (`37043`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 661, de 07 de dezembro de 2010 (`37042`): rotulo_nao_confere_com_a_origem

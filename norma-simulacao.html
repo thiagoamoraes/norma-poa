@@ -531,7 +531,7 @@ const semAcento = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
 export function extrairCabecalhoLeiPublicada(raw) {
   const lines = raw.split(/\r?\n/).map(l => l.trim()).filter(Boolean).slice(0, 8);
-  const reCab = /^LEI\s+(COMPLEMENTAR\s+)?N[º°O]\s*([\d.]+)\s*,?\s*DE\s+(\d{1,2})\s*(?:[ºO°]?)\s+DE\s+([A-ZÇÃÕÁÉÍÓÚÂÊÔ]+)\s+DE\s+(\d{4})\s*\.?\s*$/i;
+  const reCab = /^LEI\s+(?:N[º°O]\s*)?(COMPLEMENTAR\s+)?N[º°O]\s*([\d.]+)\s*,?\s*DE\s+(\d{1,2})\s*(?:[ºO°]?)\s+DE\s+([A-ZÇÃÕÁÉÍÓÚÂÊÔ]+)\s+DE\s+(\d{4})\s*\.?\s*$/i;
   for (const line of lines) {
     const m = line.match(reCab);
     if (!m) continue;
@@ -745,7 +745,7 @@ export function parseMinuta(raw, nrRanges) {
         // se não terminar em Art. ou agrupador, fica como estava (decisão 23, 20/11/2026).
         const ini = skipUntil >= li ? skipUntil + 1 : li + 1;
         const extra = []; let k = ini;
-        while (k < lines.length && k - ini < 8) {
+        while (k < lines.length && extra.length <= 3 && k - ini < 40) {
           const t = (lines[k] || "").trim();
           if (!t) { k++; continue; }
           if (reArt.test(t) || reGrupo.test(t)) break;

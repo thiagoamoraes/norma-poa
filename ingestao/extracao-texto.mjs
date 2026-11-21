@@ -237,7 +237,7 @@ export function desfazerHifenizacao(texto) {
  * linha é desfeita. O arquivo .txt guardado NÃO é alterado.
  */
 export function prepararTextoExtraido(texto) {
-  return removerCopiasDoDocumento(restaurarFechoComEspacamentoEstragado(juntarFechoQuebrado(juntarAberturaDeBlocoPartida(desfazerHifenizacao(removerRuidoDePagina(separarArtigoDoPreambulo(cp1252ParaUnicode(String(texto)))).replace(/\f/g, '\n')).texto)))).texto;
+  return removerCopiasDoDocumento(restaurarFechoComEspacamentoEstragado(juntarFechoQuebrado(juntarAberturaDeBlocoPartida(desfazerHifenizacao(removerRuidoDePagina(colarPontoDoArtigo(separarArtigoDoPreambulo(cp1252ParaUnicode(String(texto))))).replace(/\f/g, '\n')).texto)))).texto;
 }
 
 /**
@@ -406,4 +406,13 @@ export function restaurarFechoComEspacamentoEstragado(texto) {
     fechoVisto = true; i = fim;
   }
   return saida.join('\n');
+}
+
+/**
+ * "Art .10." (espaço ANTES do ponto e número colado depois) — grafia que a extração do PDF produziu na
+ * LC 670/2011 (id 37136). Vira "Art. 10." Só quando o número vem colado ao ponto: "Art . 59 -" (espaço dos
+ * dois lados, como nos escaneados antigos) fica como está. A conferência ignora espaço e pontuação.
+ */
+export function colarPontoDoArtigo(texto) {
+  return String(texto).replace(/^([ \t]*Art) \.(?=\d)/gm, '$1. ');
 }

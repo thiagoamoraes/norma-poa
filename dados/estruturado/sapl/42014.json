@@ -2,13 +2,13 @@
  "idSapl": 42014,
  "rotulo": "Lei Complementar municipal nº 848, de 22 de março de 2019",
  "sha256Origem": "17087957e183529cb15098198ee33aced782d85b2972f90d5fb32a53b0e846cc",
- "estruturadoEm": "2026-11-21T00:21:20.844Z",
- "versaoEstruturador": 17,
+ "estruturadoEm": "2026-11-21T00:34:34.644Z",
+ "versaoEstruturador": 18,
  "cabecalho": {
-  "tipoAto": "LEI",
-  "numero": null,
-  "ano": null,
-  "data": null,
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "848",
+  "ano": "2019",
+  "data": "2019-03-22",
   "epigrafe": "LEI Nº COMPLEMENTAR Nº 848, DE 22 DE MARÇO DE 2019.",
   "proveniencia": {
    "promulgadoPor": "PREFEITO",
@@ -67,11 +67,8 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "cabecalho_nao_reconhecido",
-   "tipo_diverge_do_catalogo"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
    "artigos": 6,

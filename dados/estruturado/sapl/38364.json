@@ -2,8 +2,8 @@
  "idSapl": 38364,
  "rotulo": "Lei Complementar municipal nº 701, de 18 de julho de 2012",
  "sha256Origem": "afd05bf584b641a46c34b2331d0369d857684afbf2ff5243076ae32aa0011bcf",
- "estruturadoEm": "2026-11-21T00:21:22.046Z",
- "versaoEstruturador": 17,
+ "estruturadoEm": "2026-11-21T00:34:35.799Z",
+ "versaoEstruturador": 18,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "701",
@@ -1561,7 +1561,7 @@
    "pai": "art-41",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
-   "texto": "Somente será admitida a distribuição se oscandidatos estiverem com suas atividades em dia e assim declararem norequerimento, informação esta que deverá ser referendada por seu superiorhierárquico imediato. DOS DEVERES, DAS PROIBIÇÕES, DOSIMPEDIMENTOS, DOS DIREITOS, DAS GARANTIAS, DASPRERROGATIVAS E DAS NORMAS DISCIPLINARES"
+   "texto": "Somente será admitida a distribuição se oscandidatos estiverem com suas atividades em dia e assim declararem norequerimento, informação esta que deverá ser referendada por seu superiorhierárquico imediato."
   },
   {
    "id": "art-42",
@@ -1573,7 +1573,7 @@
     {
      "tipo": "titulo",
      "numero": "II",
-     "titulo": ""
+     "titulo": "DOS DEVERES, DAS PROIBIÇÕES, DOSIMPEDIMENTOS, DOS DIREITOS, DAS GARANTIAS, DASPRERROGATIVAS E DAS NORMAS DISCIPLINARES"
     },
     {
      "tipo": "capitulo",
@@ -3757,22 +3757,18 @@
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
    "cabecalho_fora_do_padrao"
   ],
   "metricas": {
    "artigos": 140,
    "dispositivos": 490,
-   "cobertura": 0.955,
+   "cobertura": 0.96,
    "blocosDeAlteracao": 0,
    "lacunas": [],
-   "naoLocalizados": [
-    "Somente será admitida a distribuição se oscandidatos estiverem com suas atividad"
-   ],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }

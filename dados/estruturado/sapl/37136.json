@@ -2,8 +2,8 @@
  "idSapl": 37136,
  "rotulo": "Lei Complementar municipal nº 670, de 20 de janeiro de 2011",
  "sha256Origem": "1cad7edeccd57e026ea9d74c588cd5c36aae38294de32bdbc19aed6a09d8235a",
- "estruturadoEm": "2026-11-21T00:21:22.586Z",
- "versaoEstruturador": 17,
+ "estruturadoEm": "2026-11-21T00:34:36.329Z",
+ "versaoEstruturador": 18,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "670",
@@ -88,31 +88,28 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 9º",
-   "texto": "Ficaincluído art. 134-A no Título IV – DasDisposições Gerais e Finais – da Lei Complementar nº478, de 2002, e alterações posteriores, conforme segue: Art .10. Esta Lei Complementar entra em vigor na data desua publicação.",
+   "texto": "Ficaincluído art. 134-A no Título IV – DasDisposições Gerais e Finais – da Lei Complementar nº478, de 2002, e alterações posteriores, conforme segue:",
    "blocoDeAlteracao": "“Art. 134-A. Os exames médico-periciais e os respectivos laudos médicos periciaisexpedidos,\npara fins previdenciários, permanecerão sob responsabilidade daMédica do Município de Porto Alegre por\naté 180(cento e oitenta) dias, prorrogáveis por igual período.”"
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "texto": "Esta Lei Complementar entra em vigor na data desua publicação."
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [],
   "metricas": {
-   "artigos": 9,
-   "dispositivos": 9,
-   "cobertura": 0.922,
+   "artigos": 10,
+   "dispositivos": 10,
+   "cobertura": 0.975,
    "blocosDeAlteracao": 9,
-   "lacunas": [
-    {
-     "tamanho": 57,
-     "amostra": "Art10EstaLeiComplementarentraemvigornadatadesuapublicaçãoPREFEITURAMUNICIPALDEPO"
-    }
-   ],
-   "naoLocalizados": [
-    "Ficaincluído art. 134-A no Título IV – DasDisposições Gerais e Finais – da Lei C"
-   ],
+   "lacunas": [],
+   "naoLocalizados": [],
    "rotulosDivergentes": []
   }
  }
