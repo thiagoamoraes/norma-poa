@@ -135,6 +135,40 @@ export function removerRepeticaoDeTexto(texto) {
   return { texto: linhas.slice(0, ultima + 1).join('\n') + '\n', repeticoes };
 }
 
+
+/**
+ * Documento repetido no mesmo arquivo, com diferença só de espaçamento (arquivos do SIREL de 2010 a 2014:
+ * o HTML traz a lei 3 vezes, e o espaço entre palavras muda de uma cópia para outra). Devolve { texto,
+ * repeticoes }: só a 1ª cópia. Regra estrita (a igualdade de removerRepeticaoIntegral continua valendo):
+ *  - a epígrafe ("LEI COMPLEMENTAR Nº N, DE …") tem de aparecer 2+ vezes, igual depois de tirar tudo que
+ *    não é letra nem algarismo;
+ *  - cada cópia vai da epígrafe até a epígrafe seguinte (a última, até o fim), SEM as linhas finais do
+ *    timbre da cópia seguinte (brasão, "Prefeitura Municipal de Porto Alegre"): só palavras do timbre;
+ *  - as cópias têm de ser IGUAIS entre si (letras e algarismos), sem tolerância. Qualquer diferença: não mexe.
+ */
+const PALAVRAS_DE_TIMBRE = new Set(['brasao', 'g', 'brasao.g', '(2807', '2807', 'bytes)', 'bytes', 'prefeitura', 'municipal', 'de', 'porto', 'alegre']);
+const soAlnum = (s) => String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+export function removerCopiasDoDocumento(texto) {
+  const linhas = String(texto).split('\n');
+  const reEpigrafe = /^\s*(?:LEI|EMENDA|RESOLU[ÇC][ÃA]O|DECRETO|ORDEM)\b.*\d/i;
+  const norm = linhas.map((l) => (reEpigrafe.test(l) ? soAlnum(l) : ''));
+  const contagem = new Map();
+  norm.forEach((n) => { if (n) contagem.set(n, (contagem.get(n) || 0) + 1); });
+  const alvo = norm.find((n) => n && contagem.get(n) >= 2);
+  if (!alvo) return { texto, repeticoes: 1 };
+  const inicios = [];
+  norm.forEach((n, i) => { if (n === alvo) inicios.push(i); });
+  const ehTimbre = (l) => { const ps = l.trim().toLowerCase().split(/\s+/).filter(Boolean); return ps.length > 0 && ps.every((p) => PALAVRAS_DE_TIMBRE.has(p) || /^brasao\.\w+$/.test(p)); };
+  const copias = inicios.map((ini, i) => {
+    let fim = i + 1 < inicios.length ? inicios[i + 1] : linhas.length;
+    // tira o timbre da cópia seguinte (e linhas em branco) do fim desta
+    while (fim > ini + 1 && (!linhas[fim - 1].trim() || (i + 1 < inicios.length && ehTimbre(linhas[fim - 1])))) fim--;
+    return { ini, fim, chave: soAlnum(linhas.slice(ini, fim).join(' ')) };
+  });
+  if (!copias.every((c) => c.chave === copias[0].chave)) return { texto, repeticoes: 1 };
+  return { texto: linhas.slice(0, copias[0].fim).join('\n') + '\n', repeticoes: copias.length };
+}
+
 // ─── Hifenização de fim de linha ──────────────────────────────────────────────
 
 // Depois do hífen, estas formas são pronome ou desinência ligados por hífen de
@@ -203,7 +237,7 @@ export function desfazerHifenizacao(texto) {
  * linha é desfeita. O arquivo .txt guardado NÃO é alterado.
  */
 export function prepararTextoExtraido(texto) {
-  return juntarFechoQuebrado(juntarAberturaDeBlocoPartida(desfazerHifenizacao(removerRuidoDePagina(separarArtigoDoPreambulo(cp1252ParaUnicode(String(texto)))).replace(/\f/g, '\n')).texto));
+  return removerCopiasDoDocumento(restaurarFechoComEspacamentoEstragado(juntarFechoQuebrado(juntarAberturaDeBlocoPartida(desfazerHifenizacao(removerRuidoDePagina(separarArtigoDoPreambulo(cp1252ParaUnicode(String(texto)))).replace(/\f/g, '\n')).texto)))).texto;
 }
 
 /**
@@ -311,4 +345,65 @@ export function removerRuidoDePagina(texto) {
  */
 export function separarArtigoDoPreambulo(texto) {
   return String(texto).replace(/^(.*\bseguinte (?:Lei(?: Complementar)?|Emenda[^:\n]*)):[ \t]+(Art\. ?1[º°o]?\b)/gm, '$1:\n$2');
+}
+
+/**
+ * Fecho com o ESPAÇAMENTO estragado pela extração do PDF (decisão 29, 21/11/2026): é um dos 4 fechos já
+ * reconhecidos, só com espaços trocados ou a linha quebrada em até 3 pedaços — "PREFEITURAMUNICIPAL DE PORTO
+ * ALEGRE, 5 de agosto de 2014.", "PORTOALEGRE", "M UN ICIPA L", "6 d e ju lho de" / "201 1." — e, em DOCX, o
+ * fecho colado ao fim da linha do último artigo. Regra estrita: só depois do 1º "Art.", só se ainda não há fecho
+ * legível, só a partir de uma das 4 cabeças institucionais e só com mês válido e ano de 4 dígitos. Devolve a
+ * linha no formato canônico preservando o que a fonte escreveu (inclusive o "º" do dia). Fecho ilegível por OCR
+ * (mês "MAJO") NÃO é recuperado: a norma continua "a revisar". O .txt guardado não muda.
+ */
+const MESES_FECHO = { janeiro: 'janeiro', fevereiro: 'fevereiro', marco: 'março', 'março': 'março', abril: 'abril', maio: 'maio', junho: 'junho', julho: 'julho', agosto: 'agosto', setembro: 'setembro', outubro: 'outubro', novembro: 'novembro', dezembro: 'dezembro' };
+const CABECAS_FECHO = [
+  ['PREFEITURAMUNICIPALDEPORTOALEGRE', 'PREFEITURA MUNICIPAL DE PORTO ALEGRE'],
+  ['GABINETEDAPRESIDÊNCIADACÂMARAMUNICIPALDEPORTOALEGRE', 'GABINETE DA PRESIDÊNCIA DA CÂMARA MUNICIPAL DE PORTO ALEGRE'],
+  ['GABINETEDAPRESIDENCIADACAMARAMUNICIPALDEPORTOALEGRE', 'GABINETE DA PRESIDÊNCIA DA CÂMARA MUNICIPAL DE PORTO ALEGRE'],
+  ['CÂMARAMUNICIPALDEPORTOALEGRE', 'CÂMARA MUNICIPAL DE PORTO ALEGRE'],
+  ['CAMARAMUNICIPALDEPORTOALEGRE', 'CÂMARA MUNICIPAL DE PORTO ALEGRE'],
+  ['PORTOALEGRE', 'Porto Alegre'],
+];
+const RE_FECHO_LEGIVEL = /^(?:(?:PREFEITURA\s+MUNIC\s?IPAL\s+DE\s+PORTO\s+ALEGRE|GABINETE\s+DA\s+PRESID[ÊE]NCIA\s+DA\s+C[ÂA]MARA\s+MUNICIPAL)\b|C[ÂA]MARA\s+MUNICIPAL\s+DE\s+PORTO\s+ALEGRE\s*,\s*\d{1,2}\s*[º°]?\s+de\s+[A-Za-zÀ-ú]+\s+de\s+\d{4}\s*\.?\s*$|PORTO\s+ALEGRE\s*,\s*\d{1,2}\s*[º°]?\s+de\s+[A-Za-zÀ-ú]+\s+de\s+\d{4}\s*\.?\s*$)/i;
+export function restaurarFechoComEspacamentoEstragado(texto) {
+  const L = String(texto).split('\n');
+  const reCompacto = /^(.+?),(\d{1,2})([º°o]?)de([A-Za-zÀ-ú]{3,9})de(\d{4})\.?$/i;
+  const saida = [];
+  let viuArtigo = false, fechoVisto = false;
+  for (let i = 0; i < L.length; i++) {
+    let linha = L[i];
+    if (/^\s*Art/.test(linha)) viuArtigo = true;
+    if (viuArtigo && !fechoVisto && RE_FECHO_LEGIVEL.test(linha.trim())) fechoVisto = true;
+    if (!viuArtigo || fechoVisto) { saida.push(linha); continue; }
+    // fecho (só das 3 cabeças institucionais em maiúsculas) colado ao fim da linha do último artigo
+    const mCola = /^(.*\S)\s+((?:PREFEITURA MUNICIPAL DE PORTO ALEGRE|GABINETE DA PRESIDÊNCIA DA CÂMARA MUNICIPAL DE PORTO ALEGRE|CÂMARA MUNICIPAL DE PORTO ALEGRE),\s*\d{1,2}\s*[º°]?\s+de\s+[A-Za-zÀ-ú]+\s+de\s+\d{4}\.?)\s*$/.exec(linha);
+    if (mCola && /^\s*Art/.test(linha) && RE_FECHO_LEGIVEL.test(mCola[2])) { saida.push(mCola[1], mCola[2]); fechoVisto = true; continue; }
+    const c0 = linha.replace(/\s+/g, '');
+    const up = c0.toUpperCase();
+    if (!c0 || !CABECAS_FECHO.some(([h]) => up.startsWith(h.slice(0, Math.min(h.length, 9))) || h.startsWith(up))) { saida.push(linha); continue; }
+    let acum = c0, fim = i, pecas = 1, achado = null;
+    for (;;) {
+      const m = reCompacto.exec(acum);
+      if (m) {
+        const cab = CABECAS_FECHO.find(([k]) => k === m[1].toUpperCase());
+        const mes = MESES_FECHO[m[4].toLowerCase()];
+        if (cab && mes) achado = { cab: cab[1], dia: m[2] + m[3].replace(/^o$/i, 'º'), mes: m[4], ano: m[5] };
+        break;
+      }
+      if (pecas >= 3) break;
+      let k = fim + 1; while (k < L.length && !L[k].trim()) k++;
+      if (k >= L.length) break;
+      if (/\d{4}/.test(acum) && !/de$/i.test(acum)) break;
+      const prox = L[k].replace(/\s+/g, '');
+      if (acum.length + prox.length > 140) break;
+      acum += prox; fim = k; pecas++;
+    }
+    if (!achado) { saida.push(linha); continue; }
+    const cabeca = achado.cab;
+    const de = achado.mes === achado.mes.toUpperCase() ? 'DE' : 'de';
+    saida.push(`${cabeca}, ${achado.dia} ${de} ${achado.mes} ${de} ${achado.ano}.`);
+    fechoVisto = true; i = fim;
+  }
+  return saida.join('\n');
 }
