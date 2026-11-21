@@ -2,8 +2,8 @@
  "idSapl": 22961,
  "rotulo": "Lei Complementar municipal nº 114, de 28 de dezembro de 1984",
  "sha256Origem": "085abbfe796f196d5a0319563acbf6c0f7ba5786a28cd71a57a4124a08e29f63",
- "estruturadoEm": "2026-11-21T09:25:20.261Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:07.920Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -60,7 +60,8 @@
   "motivos": [
    "cabecalho_nao_reconhecido",
    "rotulo_nao_confere_com_a_origem",
-   "bloco_de_alteracao_sem_dono"
+   "bloco_de_alteracao_sem_dono",
+   "anexo_nao_lido"
   ],
   "avisos": [
    "texto_de_ocr",
@@ -71,6 +72,15 @@
    "dispositivos": 5,
    "cobertura": 0.999,
    "blocosDeAlteracao": 1,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO 3",
+     "linhas": 1455,
+     "caracteres": 32964,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

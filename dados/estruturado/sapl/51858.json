@@ -2,8 +2,8 @@
  "idSapl": 51858,
  "rotulo": "Lei municipal nº 14.681, de 15 de outubro de 2026",
  "sha256Origem": "d30b3bc958c6b57c384821ad77112646d75194cdd73ff903550192f47f71297a",
- "estruturadoEm": "2026-11-21T09:25:20.701Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:08.799Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14681",
@@ -197,8 +197,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -207,6 +209,15 @@
    "dispositivos": 25,
    "cobertura": 0.967,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 13,
+     "caracteres": 552,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

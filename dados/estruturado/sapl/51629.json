@@ -2,8 +2,8 @@
  "idSapl": 51629,
  "rotulo": "Lei municipal nº 14.629, de 13 de agosto de 2026",
  "sha256Origem": "c04d0c6c4ef0a1ff7d6b0e044331d18bbb7b95bd5673cfb50ebc7c2f2ff7449a",
- "estruturadoEm": "2026-11-21T09:25:20.770Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:09.011Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14629",
@@ -64,8 +64,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "cabecalho_fora_do_padrao",
    "tem_anexo"
@@ -75,6 +77,15 @@
    "dispositivos": 6,
    "cobertura": 0.981,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 15,
+     "caracteres": 710,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

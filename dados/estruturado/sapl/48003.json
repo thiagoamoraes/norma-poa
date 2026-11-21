@@ -2,8 +2,8 @@
  "idSapl": 48003,
  "rotulo": "Lei Complementar municipal nº 1.005, de 08 de fevereiro de 2024",
  "sha256Origem": "348fd1522feb9515cdfa3eb6596435182b586720bd3a4e9a69d721ae977668bd",
- "estruturadoEm": "2026-11-21T00:57:51.966Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:52.666Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1005",
@@ -226,8 +226,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -236,6 +238,15 @@
    "dispositivos": 29,
    "cobertura": 0.96,
    "blocosDeAlteracao": 2,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 8,
+     "caracteres": 723,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

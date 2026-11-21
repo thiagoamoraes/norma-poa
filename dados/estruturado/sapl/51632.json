@@ -2,8 +2,8 @@
  "idSapl": 51632,
  "rotulo": "Lei municipal nº 14.632, de 13 de agosto de 2026",
  "sha256Origem": "b7624a93d36f38976bfdaf9bc257dd7d47dfcf12bd005f01a187569193b823e6",
- "estruturadoEm": "2026-11-21T09:25:20.766Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:08.996Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14632",
@@ -35,8 +35,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -45,6 +47,15 @@
    "dispositivos": 2,
    "cobertura": 0.981,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 12,
+     "caracteres": 491,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

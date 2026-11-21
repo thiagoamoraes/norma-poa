@@ -2,8 +2,8 @@
  "idSapl": 51873,
  "rotulo": "Lei municipal nº 14.683, de 26 de outubro de 2026",
  "sha256Origem": "f4bdbef3d4b0b9014e1fbd474c5ea27a479b35d9f653c3103a54476befdcf4c0",
- "estruturadoEm": "2026-11-21T09:25:20.699Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:08.792Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14683",
@@ -38,13 +38,23 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 2,
    "dispositivos": 2,
    "cobertura": 0.974,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 66,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

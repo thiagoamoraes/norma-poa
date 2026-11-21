@@ -2,8 +2,8 @@
  "idSapl": 51552,
  "rotulo": "Lei municipal nº 14.608, de 30 de julho de 2026",
  "sha256Origem": "b792e7065ac0203f7d254dbcdd1aa619a2da8fa3d3f78851db656465715a6264",
- "estruturadoEm": "2026-11-21T09:25:20.794Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:09.100Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14608",
@@ -35,8 +35,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -45,6 +47,15 @@
    "dispositivos": 2,
    "cobertura": 0.963,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 11,
+     "caracteres": 439,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

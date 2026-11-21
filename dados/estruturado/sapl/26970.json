@@ -2,8 +2,8 @@
  "idSapl": 26970,
  "rotulo": "Lei Complementar municipal nº 293, de 28 de abril de 1993",
  "sha256Origem": "ab1d8764fb223089f59178615f14076591bb4c65367928135914a1af462c8fe6",
- "estruturadoEm": "2026-11-21T00:58:09.851Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:06.146Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "293",
@@ -51,8 +51,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "cabecalho_fora_do_padrao",
    "tem_anexo"
@@ -62,6 +64,15 @@
    "dispositivos": 4,
    "cobertura": 0.975,
    "blocosDeAlteracao": 1,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO   I",
+     "linhas": 22,
+     "caracteres": 865,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

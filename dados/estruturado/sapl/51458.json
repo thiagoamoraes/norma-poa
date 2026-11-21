@@ -2,8 +2,8 @@
  "idSapl": 51458,
  "rotulo": "Lei municipal nº 14.579, de 02 de julho de 2026",
  "sha256Origem": "ae8e60669a2e0fc15bbe53d0d556fb046b51b55afdc7bb9db0bd535407fc2180",
- "estruturadoEm": "2026-11-21T09:25:20.837Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:09.213Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14579",
@@ -119,13 +119,59 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 4,
    "dispositivos": 13,
    "cobertura": 0.968,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO I",
+     "linhas": 3,
+     "caracteres": 60,
+     "graficoOuTitulo": true
+    },
+    {
+     "cabecalho": "ANEXO II",
+     "linhas": 3,
+     "caracteres": 61,
+     "graficoOuTitulo": true
+    },
+    {
+     "cabecalho": "ANEXO III",
+     "linhas": 3,
+     "caracteres": 62,
+     "graficoOuTitulo": true
+    },
+    {
+     "cabecalho": "ANEXO IV",
+     "linhas": 3,
+     "caracteres": 61,
+     "graficoOuTitulo": true
+    },
+    {
+     "cabecalho": "ANEXO V",
+     "linhas": 3,
+     "caracteres": 60,
+     "graficoOuTitulo": true
+    },
+    {
+     "cabecalho": "ANEXO VI",
+     "linhas": 3,
+     "caracteres": 61,
+     "graficoOuTitulo": true
+    },
+    {
+     "cabecalho": "ANEXO VII",
+     "linhas": 3,
+     "caracteres": 62,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 7,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

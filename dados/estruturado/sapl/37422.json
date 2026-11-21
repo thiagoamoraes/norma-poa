@@ -2,8 +2,8 @@
  "idSapl": 37422,
  "rotulo": "Lei Complementar municipal nº 677, de 19 de julho de 2011",
  "sha256Origem": "42ae1d68d39d20a1836c933553ea4fb13d508432564a9b54b12040323e4fdaf1",
- "estruturadoEm": "2026-11-21T00:57:55.145Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:55.934Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "677",
@@ -338,7 +338,8 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+   "rotulo_nao_confere_com_a_origem",
+   "anexo_nao_lido"
   ],
   "avisos": [
    "tem_anexo"
@@ -348,6 +349,21 @@
    "dispositivos": 44,
    "cobertura": 0.985,
    "blocosDeAlteracao": 7,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO I à Lei Complementar nº 677.",
+     "linhas": 93,
+     "caracteres": 9046,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO II À Lei Comple menta r nº 677 .",
+     "linhas": 9,
+     "caracteres": 747,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 2,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

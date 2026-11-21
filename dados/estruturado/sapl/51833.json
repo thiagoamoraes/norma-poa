@@ -2,8 +2,8 @@
  "idSapl": 51833,
  "rotulo": "Lei municipal nº 14.677, de 02 de outubro de 2026",
  "sha256Origem": "07c28c6d381298073bc446b4821a8668d8c78125f4a0147ee4688485edd588ee",
- "estruturadoEm": "2026-11-21T09:25:20.710Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:08.822Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14677",
@@ -61,13 +61,23 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 5,
    "dispositivos": 5,
    "cobertura": 0.971,
    "blocosDeAlteracao": 2,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 61,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

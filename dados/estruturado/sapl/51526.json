@@ -2,8 +2,8 @@
  "idSapl": 51526,
  "rotulo": "Lei municipal nº 14.597, de 24 de julho de 2026",
  "sha256Origem": "08bb5028ab3798d667af7779ff6e0445ded1449161f0882addb3609ea3a9bcf6",
- "estruturadoEm": "2026-11-21T09:25:20.813Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:09.147Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14597",
@@ -63,8 +63,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -73,6 +75,21 @@
    "dispositivos": 6,
    "cobertura": 0.996,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO I",
+     "linhas": 281,
+     "caracteres": 18419,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO II",
+     "linhas": 12,
+     "caracteres": 826,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 2,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

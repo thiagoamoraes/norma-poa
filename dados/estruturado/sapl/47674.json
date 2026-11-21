@@ -2,8 +2,8 @@
  "idSapl": 47674,
  "rotulo": "Lei Complementar municipal nº 994, de 23 de novembro de 2023",
  "sha256Origem": "a69c7f95dca862e346595e2e5b1321f898d3b80a611ee923a904481984abd737",
- "estruturadoEm": "2026-11-21T00:57:52.044Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:52.755Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "994",
@@ -105,8 +105,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -115,6 +117,15 @@
    "dispositivos": 11,
    "cobertura": 0.993,
    "blocosDeAlteracao": 7,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 394,
+     "caracteres": 9963,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

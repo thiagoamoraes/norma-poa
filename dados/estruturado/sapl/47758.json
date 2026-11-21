@@ -2,8 +2,8 @@
  "idSapl": 47758,
  "rotulo": "Lei Complementar municipal nº 995, de 11 de dezembro de 2023",
  "sha256Origem": "7b3844b3ab154cd3d9647b275b52c942b0d7ada56a84a2ead4434956c5748f5d",
- "estruturadoEm": "2026-11-21T00:57:52.037Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:52.747Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "995",
@@ -35,8 +35,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -45,6 +47,15 @@
    "dispositivos": 2,
    "cobertura": 0.972,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 25,
+     "caracteres": 1881,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

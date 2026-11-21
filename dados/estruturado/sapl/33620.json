@@ -2,8 +2,8 @@
  "idSapl": 33620,
  "rotulo": "Lei Complementar municipal nº 519, de 29 de dezembro de 2004",
  "sha256Origem": "666cd3bfd9710fd6acc17d992f4ab86a2dcc9d32c46265f13415b25b7f7b7344",
- "estruturadoEm": "2026-11-21T00:57:56.516Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:57.523Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "519",
@@ -53,7 +53,8 @@
   "situacao": "revisar",
   "motivos": [
    "trecho_nao_localizado_na_origem",
-   "rotulo_nao_confere_com_a_origem"
+   "rotulo_nao_confere_com_a_origem",
+   "anexo_nao_lido"
   ],
   "avisos": [
    "tem_anexo"
@@ -63,6 +64,15 @@
    "dispositivos": 4,
    "cobertura": 0.966,
    "blocosDeAlteracao": 1,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO I",
+     "linhas": 21,
+     "caracteres": 969,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [
     "desistência das ações judiciais movidas pelo proprietário dos imóveis, que tenha"

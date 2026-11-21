@@ -2,8 +2,8 @@
  "idSapl": 42407,
  "rotulo": "Lei Complementar municipal nº 875, de 21 de janeiro de 2020",
  "sha256Origem": "1490c3d11489e0a5f9a50ea263e35f3543eda8328abca1051a76e91efcda103e",
- "estruturadoEm": "2026-11-21T00:57:53.076Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:53.867Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "875",
@@ -1099,8 +1099,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -1109,6 +1111,15 @@
    "dispositivos": 147,
    "cobertura": 0.977,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 14,
+     "caracteres": 592,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

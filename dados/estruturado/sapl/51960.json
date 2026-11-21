@@ -2,8 +2,8 @@
  "idSapl": 51960,
  "rotulo": "Lei municipal nº 14.690, de 12 de novembro de 2026",
  "sha256Origem": "36a75af0689682a1289410b4795b5b6870c08f829f919f0ae189c4665c34018a",
- "estruturadoEm": "2026-11-21T09:25:20.664Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:08.713Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14690",
@@ -45,13 +45,23 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 2,
    "dispositivos": 3,
    "cobertura": 0.96,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 62,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

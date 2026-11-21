@@ -2,8 +2,8 @@
  "idSapl": 21280,
  "rotulo": "Lei Complementar municipal nº 49, de 02 de dezembro de 1980",
  "sha256Origem": "b5bf401f0fcf9f89b07f462fb22a2c59c42bbc3030ca817758962b84e5e280c2",
- "estruturadoEm": "2026-11-21T09:25:20.449Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:08.293Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -48,7 +48,8 @@
    "cabecalho_nao_reconhecido",
    "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem",
-   "rotulo_nao_confere_com_a_origem"
+   "rotulo_nao_confere_com_a_origem",
+   "anexo_nao_lido"
   ],
   "avisos": [
    "texto_de_ocr",
@@ -59,6 +60,15 @@
    "dispositivos": 3,
    "cobertura": 0.887,
    "blocosDeAlteracao": 1,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 95,
+     "caracteres": 867,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [
     {
      "tamanho": 441,

@@ -2,8 +2,8 @@
  "idSapl": 43471,
  "rotulo": "Lei Complementar municipal nº 919, de 17 de novembro de 2021",
  "sha256Origem": "7a90c557a177370ea151b52623108cae38a0d6e52f05cd874ccfc79420902baa",
- "estruturadoEm": "2026-11-21T00:57:52.656Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:53.411Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "919",
@@ -136,13 +136,23 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 4,
    "dispositivos": 16,
    "cobertura": 0.979,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO À LEI COMPLEMENTAR Nº 919, DE 17 DE NOVEMBRO DE 2021.",
+     "linhas": 1,
+     "caracteres": 108,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

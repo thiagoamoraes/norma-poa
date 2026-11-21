@@ -2,8 +2,8 @@
  "idSapl": 51962,
  "rotulo": "Lei municipal nº 14.688, de 12 de novembro de 2026",
  "sha256Origem": "0032456169e9b86d9b738a1e65219f42f264f00a5fc8ff289ebfe62d7e035aff",
- "estruturadoEm": "2026-11-21T09:25:20.663Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:08.710Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14688",
@@ -45,13 +45,23 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 2,
    "dispositivos": 3,
    "cobertura": 0.945,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 59,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

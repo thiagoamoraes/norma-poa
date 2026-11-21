@@ -2,8 +2,8 @@
  "idSapl": 51150,
  "rotulo": "Lei Complementar municipal nº 1.069, de 20 de março de 2026",
  "sha256Origem": "ea1fc55973075986c429c97902cad7eb38cf2ae43728ddbff6c883b36f2a1af5",
- "estruturadoEm": "2026-11-21T00:57:51.284Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:51.840Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1069",
@@ -2591,8 +2591,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -2601,6 +2603,45 @@
    "dispositivos": 338,
    "cobertura": 0.976,
    "blocosDeAlteracao": 2,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO I",
+     "linhas": 6,
+     "caracteres": 387,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO II",
+     "linhas": 6,
+     "caracteres": 369,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO III",
+     "linhas": 147,
+     "caracteres": 9258,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO IV",
+     "linhas": 18,
+     "caracteres": 593,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO V",
+     "linhas": 16,
+     "caracteres": 546,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO VI",
+     "linhas": 72,
+     "caracteres": 3631,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 6,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

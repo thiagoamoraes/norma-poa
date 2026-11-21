@@ -2,8 +2,8 @@
  "idSapl": 51747,
  "rotulo": "Lei municipal nº 14.648, de 14 de setembro de 2026",
  "sha256Origem": "01f6f15945a502dd93fc0d06c59e0db0b5e7d0983f7e5f215120eb4a4c26f42c",
- "estruturadoEm": "2026-11-21T09:25:20.743Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:08.925Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14648",
@@ -38,13 +38,23 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 2,
    "dispositivos": 2,
    "cobertura": 0.942,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 66,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

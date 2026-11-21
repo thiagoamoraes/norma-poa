@@ -2,8 +2,8 @@
  "idSapl": 38982,
  "rotulo": "Lei Complementar municipal nº 716, de 24 de julho de 2013",
  "sha256Origem": "04ba8f294d5ad061ba32196bfa97d9d688b99cade619c41485ef7659d021205c",
- "estruturadoEm": "2026-11-21T00:57:54.445Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:55.200Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "716",
@@ -290,13 +290,23 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 8,
    "dispositivos": 38,
    "cobertura": 0.954,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

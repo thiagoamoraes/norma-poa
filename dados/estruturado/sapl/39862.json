@@ -2,8 +2,8 @@
  "idSapl": 39862,
  "rotulo": "Lei Complementar municipal nº 757, de 14 de janeiro de 2015",
  "sha256Origem": "17d23fec8164559743b126bc913086f7b45f1aa6b3e63534deec6881785f5a40",
- "estruturadoEm": "2026-11-21T00:57:54.052Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:54.788Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "757",
@@ -2474,7 +2474,8 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+   "rotulo_nao_confere_com_a_origem",
+   "anexo_nao_lido"
   ],
   "avisos": [
    "tem_anexo"
@@ -2484,6 +2485,21 @@
    "dispositivos": 335,
    "cobertura": 0.974,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO I",
+     "linhas": 55,
+     "caracteres": 3249,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO II",
+     "linhas": 19,
+     "caracteres": 881,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 2,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

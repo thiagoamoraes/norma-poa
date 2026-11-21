@@ -2,8 +2,8 @@
  "idSapl": 51527,
  "rotulo": "Lei municipal nº 14.598, de 24 de julho de 2026",
  "sha256Origem": "4f738881c07ac7464a444122a3a657747a8b0ad45e043e7fef0bdce4089db9f1",
- "estruturadoEm": "2026-11-21T09:25:20.807Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:09.136Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14598",
@@ -266,8 +266,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -276,6 +278,15 @@
    "dispositivos": 35,
    "cobertura": 0.974,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 34,
+     "caracteres": 1777,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

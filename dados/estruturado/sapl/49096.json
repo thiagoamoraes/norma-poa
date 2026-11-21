@@ -2,8 +2,8 @@
  "idSapl": 49096,
  "rotulo": "Lei Complementar municipal nº 1.019, de 13 de agosto de 2024",
  "sha256Origem": "a2023cc0efc939631546013b5654480a2e12097ac0ac322506880e042a4d389a",
- "estruturadoEm": "2026-11-21T00:57:51.841Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:52.515Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1019",
@@ -122,13 +122,23 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 5,
    "dispositivos": 14,
    "cobertura": 0.969,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

@@ -2,8 +2,8 @@
  "idSapl": 51572,
  "rotulo": "Lei municipal nº 14.612, de 31 de julho de 2026",
  "sha256Origem": "774ccc5873b6bd247e7f6ea81493117742bc7be17df6bc271b7a67eb0f7896b0",
- "estruturadoEm": "2026-11-21T09:25:20.791Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:09.083Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14612",
@@ -38,13 +38,23 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 2,
    "dispositivos": 2,
    "cobertura": 0.971,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 60,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

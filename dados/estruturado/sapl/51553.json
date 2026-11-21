@@ -2,8 +2,8 @@
  "idSapl": 51553,
  "rotulo": "Lei municipal nº 14.609, de 30 de julho de 2026",
  "sha256Origem": "fcfeb5c27dc6996d0024a6ddf8de3f3c1fd1a1f9bcb5ca74822938d1f8143715",
- "estruturadoEm": "2026-11-21T09:25:20.793Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:09.095Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14609",
@@ -45,13 +45,23 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 2,
    "dispositivos": 3,
    "cobertura": 0.96,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 66,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

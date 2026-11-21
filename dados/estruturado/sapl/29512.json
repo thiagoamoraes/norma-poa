@@ -2,8 +2,8 @@
  "idSapl": 29512,
  "rotulo": "Lei Complementar municipal nº 420, de 25 de agosto de 1998",
  "sha256Origem": "945c774864c5ebce83ab5aaf572bae33bfe92760f7f910507567f3054285d7f5",
- "estruturadoEm": "2026-11-21T00:58:09.058Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:05.342Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "420",
@@ -7845,6 +7845,7 @@
   "avisos": [
    "cabecalho_fora_do_padrao",
    "tem_anexo",
+   "anexo_grafico_nao_lido",
    "dispositivo_muito_longo"
   ],
   "metricas": {
@@ -7852,6 +7853,51 @@
    "dispositivos": 1022,
    "cobertura": 0.965,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO 1 – Padrão para indicação visual das saídas alternativas",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    },
+    {
+     "cabecalho": "ANEXO 2 – Padrões para placas de sinalização de saídas",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    },
+    {
+     "cabecalho": "ANEXO 3 – Padrão para sinalização dos extintores de incêndio",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    },
+    {
+     "cabecalho": "ANEXO 4 – Padrão para reservatório misto – consumo e hidrantes/mangotinhos",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    },
+    {
+     "cabecalho": "ANEXO 5 – Padrão para abrigo da central de gás",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    },
+    {
+     "cabecalho": "ANEXO 6 – Padrão para aviso de proibição de fumar",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    },
+    {
+     "cabecalho": "ANEXO 7 – Padrões para convenções a serem utilizadas nos projetos",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 7,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

@@ -55,7 +55,7 @@ export function introsDeAlteracaoSemBloco(artigos) {
 }
 
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
-export const VERSAO_ESTRUTURADOR = 19;
+export const VERSAO_ESTRUTURADOR = 20;
 
 export const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');
@@ -82,6 +82,25 @@ function numeroDoArtigo(rotulo) {
 }
 
 const TIPO_ATO_ESPERADO = { 2: 'EMENDA À LEI ORGÂNICA', 5: 'LEI', 6: 'LEI COMPLEMENTAR' };
+
+/**
+ * Anexos que o leitor NÃO leu (decisões 34 a 36, 21/11/2026): depois do fecho o leitor guarda tudo em `doc.fecho` e a
+ * conferência de conservação o conta como coberto, de modo que um anexo inteiro (tabela, lista, glossário) passava
+ * despercebido numa norma "aceita". Aqui o fecho é varrido atrás de cabeçalhos estritos de anexo ("ANEXO", "ANEXO I",
+ * "ANEXO 2 – título"); cada anexo é a faixa até o próximo cabeçalho. É "gráfico/título" (mapa, planta, croqui em imagem,
+ * carimbo de assinatura) o anexo com no máximo 6 linhas e 160 caracteres; os demais são "com conteúdo" (texto ou tabela).
+ */
+export function classificarAnexosNoFecho(fecho) {
+  const L = String(fecho || '').split('\n');
+  const re = /^\s*ANEXO\b(?:\s+(?:[IVXLCDM]+|\d+[A-Z]?|ÚNICO|UNICO))?\b/;
+  const idx = [];
+  L.forEach((l, k) => { if (re.test(l) && l.trim().length <= 140) idx.push(k); });
+  return idx.map((k, n) => {
+    const corpo = L.slice(k + 1, idx[n + 1] ?? L.length).filter((x) => x.trim());
+    const chars = corpo.join('').length;
+    return { cabecalho: L[k].trim(), linhas: corpo.length, caracteres: chars, graficoOuTitulo: corpo.length <= 6 && chars <= 160 };
+  });
+}
 
 /**
  * Conservação do texto: cada trecho que a árvore guarda tem de aparecer no
@@ -273,6 +292,9 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
   if (numeradoSemIrmao) avisos.push('paragrafo_numerado_sem_irmao');
   if (opcoes.ocr) avisos.push('texto_de_ocr'); // lido de imagem: pode ter troca de caracteres
   if (/^\s*ANEXO\b/m.test(texto)) avisos.push('tem_anexo');
+  const anexosDoFecho = classificarAnexosNoFecho(doc.fecho);
+  if (anexosDoFecho.some((x) => !x.graficoOuTitulo)) motivos.push('anexo_nao_lido');
+  else if (anexosDoFecho.length) avisos.push('anexo_grafico_nao_lido');
   const maior = dispositivos.reduce((m, d) => Math.max(m, (d.texto || '').length), 0);
   if (maior > 4000) avisos.push('dispositivo_muito_longo');
   if (dispositivos.some((d) => /\s(?:Art\.\s*\d+\s*[º°.]|§\s*\d+\s*[º°]|Parágrafo único\s*[.\-–])\s+[A-ZÀ-Ú]/.test(d.texto || ''))) avisos.push('possivel_dispositivo_embutido');
@@ -294,6 +316,7 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
         artigos: artigos.length, dispositivos: dispositivos.length,
         cobertura: Math.round(cons.cobertura * 1000) / 1000,
         blocosDeAlteracao: blocos.length,
+        ...(anexosDoFecho.length ? { anexos: anexosDoFecho.slice(0, 12), totalDeAnexos: anexosDoFecho.length } : {}),
         lacunas: lacunasReais.slice(0, 5), naoLocalizados: cons.naoLocalizados.slice(0, 5), rotulosDivergentes: cons.rotulosDivergentes.slice(0, 5),
         ...(fronteirasInferidas.length ? { fronteirasInferidas } : {}),
       },

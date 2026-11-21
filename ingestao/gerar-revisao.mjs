@@ -78,6 +78,7 @@ for (const f of (await readdir(DIR_EST)).filter((f) => /^\d+\.json$/.test(f))) {
     sha256Origem: reg.sha256Origem, versaoEstruturador: reg.versaoEstruturador,
     contexto: {
       datas: { catalogo: cat.data || null, cabecalho: reg.cabecalho?.data || null, fecho: dataDoFecho(reg.fecho), publicacaoCatalogo: cat.dataPublicacao || null },
+      anexos: reg.verificacao.metricas.anexos || [],
       arquivo: { nome: decodeURIComponent((urlFonte || '').split('/').pop() || ''), caracteres: a.texto.length, linhas: a.texto.split('\n').length, metodo: reg.verificacao.avisos.includes('texto_de_ocr') ? 'OCR (digitalização)' : 'camada de texto', ementa: String(cat.ementa || '').replace(/\s+/g, ' ').slice(0, 280), outrosLinks: [...new Set(String(cat.observacao || '').match(/https?:[^\s"'<>]+/g) || [])].filter((l) => l !== urlFonte).slice(0, 4) },
     },
     resumo: a.resumo, texto: a.texto, dispositivos, especiais, lacunas: a.lacunas.filter((l) => !l.esperada),

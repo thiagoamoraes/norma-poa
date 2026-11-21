@@ -28,7 +28,7 @@ const motivo = (e, m) => e.verificacao.motivos.includes(m);
 {
   const { e, blocos } = carregar(26970);
   ok('LC 293/1993 (real): a aspa simples de \'jetton\'. no fim da linha NÃO fecha o bloco; ele vai até o § 3º (1 bloco, fecha em aspa dupla)', blocos.length === 1 && blocos[0].endIdx - blocos[0].startIdx >= 10);
-  ok('LC 293/1993: a lei-alvo NÃO vira dispositivo da alteradora (só art-1 a art-4) e a norma é aceita', ids(e) === 'art-1 art-2 art-3 art-4' && e.verificacao.situacao === 'aceita');
+  ok('LC 293/1993: a lei-alvo NÃO vira dispositivo da alteradora (só art-1 a art-4) e o articulado é aceito (o único motivo, se houver, é o anexo não lido)', ids(e) === 'art-1 art-2 art-3 art-4' && e.verificacao.motivos.every((m) => m === 'anexo_nao_lido'));
   for (const [id, rot] of [[36136, 'LC 615/2009'], [35006, 'LC 575/2007']]) {
     const r = carregar(id);
     ok(`${rot} (real, guarda): aspas simples dentro do texto não quebram o bloco que fecha em (NR): 1 bloco, aceita, sem fronteira inferida`, r.blocos.length === 1 && r.blocos[0].semNR === false && r.e.verificacao.situacao === 'aceita' && !r.e.verificacao.metricas.fronteirasInferidas);
@@ -64,7 +64,7 @@ const motivo = (e, m) => e.verificacao.motivos.includes(m);
     ok(`${rot} (real): bloco que abre com "Art. N ......" (sem aspa) é delimitado com confiança média; a norma sai "a revisar" com aspa_de_abertura_ausente`, !!b && b.confianca === 'media' && b.semNR === false && motivo(e, 'aspa_de_abertura_ausente') && e.verificacao.situacao === 'revisar');
   }
   const r5 = carregar(37945);
-  ok('LC 685/2011 (real, negativa R5): cabeçalho sem pontos não delimita nada além dos blocos com aspas; segue aceita', !r5.blocos.some((b) => b.sem_abertura) && r5.e.verificacao.situacao === 'aceita');
+  ok('LC 685/2011 (real, negativa R5): cabeçalho sem pontos não delimita nada além dos blocos com aspas; segue aceita no articulado (o único motivo, se houver, é o anexo não lido)', !r5.blocos.some((b) => b.sem_abertura) && r5.e.verificacao.motivos.every((m) => m === 'anexo_nao_lido'));
   const sint = 'Art. 2º Fica alterado o art. 3º da Lei Complementar nº 12, de 1975, conforme segue:\n\nArt. 3º ...........................\n\n§ 1º Novo texto.\n\n..........................” (NR)\n\nArt. 3º Esta Lei entra em vigor.';
   ok('(sintético) cabeçalho com pontos cujo número é o do PRÓXIMO artigo da alteradora ("Art. 3º ......" logo depois do art. 2º) é ambíguo: nunca delimita', !detectNRCandidates(sint).some((b) => b.sem_abertura));
   const sint2 = 'Art. 2º Fica alterado o art. 7º da Lei Complementar nº 12, de 1975, conforme segue:\n\nArt. 7º ...........................\n\n§ 1º Novo texto.\n\nArt. 3º Esta Lei entra em vigor.';

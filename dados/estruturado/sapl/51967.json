@@ -2,8 +2,8 @@
  "idSapl": 51967,
  "rotulo": "Lei municipal nº 14.695, de 13 de novembro de 2026",
  "sha256Origem": "7e4d10bec5649ec67ec1afc2826877457cb915b6235189abcabcfdc91d397009",
- "estruturadoEm": "2026-11-21T09:25:20.656Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:08.692Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14695",
@@ -35,8 +35,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -45,6 +47,15 @@
    "dispositivos": 2,
    "cobertura": 0.951,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 8,
+     "caracteres": 92,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

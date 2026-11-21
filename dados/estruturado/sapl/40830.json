@@ -2,8 +2,8 @@
  "idSapl": 40830,
  "rotulo": "Lei Complementar municipal nº 802, de 13 de setembro de 2016",
  "sha256Origem": "19aaeed2c126fb76408a2584e53182e9774fe892cf47e7a644cc3d5b18dcc656",
- "estruturadoEm": "2026-11-21T00:57:53.732Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:54.462Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "802",
@@ -43,8 +43,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -53,6 +55,21 @@
    "dispositivos": 3,
    "cobertura": 0.973,
    "blocosDeAlteracao": 1,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO I",
+     "linhas": 9,
+     "caracteres": 245,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO II",
+     "linhas": 19,
+     "caracteres": 317,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 2,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

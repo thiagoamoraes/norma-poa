@@ -2,8 +2,8 @@
  "idSapl": 49707,
  "rotulo": "Lei Complementar municipal nº 1.033, de 21 de janeiro de 2025",
  "sha256Origem": "2f176109d33cfc45b20663956ae4c4dbbdba2310f8ad42dbd9f5d796d32c18b0",
- "estruturadoEm": "2026-11-21T00:57:51.736Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:52.415Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1033",
@@ -919,8 +919,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -929,6 +931,57 @@
    "dispositivos": 119,
    "cobertura": 0.982,
    "blocosDeAlteracao": 2,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO I",
+     "linhas": 35,
+     "caracteres": 1775,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO II",
+     "linhas": 35,
+     "caracteres": 1742,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO III",
+     "linhas": 35,
+     "caracteres": 1744,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO IV",
+     "linhas": 35,
+     "caracteres": 1746,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO V",
+     "linhas": 106,
+     "caracteres": 7438,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO VI",
+     "linhas": 140,
+     "caracteres": 7380,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO VII",
+     "linhas": 24,
+     "caracteres": 578,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO VIII",
+     "linhas": 12,
+     "caracteres": 278,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 8,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

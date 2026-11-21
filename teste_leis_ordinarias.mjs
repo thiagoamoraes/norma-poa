@@ -27,7 +27,7 @@ const TODAS = ['11213', '11575', '12458', '12615', '13203', '11229', '12854', '1
 // --- estruturação --------------------------------------------------------------
 {
   const e = Object.fromEntries(TODAS.map((n) => [n, estruturarNorma(texto(n), reg(n))]));
-  ok('as 9 leis (7 PDF, 2 DOCX) são aceitas pela verificação', TODAS.every((n) => e[n].verificacao.situacao === 'aceita'));
+  ok('as 9 leis (7 PDF, 2 DOCX) são aceitas pela verificação no articulado (o único motivo, se houver, é o anexo não lido)', TODAS.every((n) => e[n].verificacao.motivos.every((m) => m === 'anexo_nao_lido')));
   ok('fecho "PREFEITURA MUNIC IPAL DE PORTO ALEGRE" (grafia do arquivo, 2012–2015) é reconhecido: Leis 11.229/2012 e 11.575/2014', /^PREFEITURA MUNIC IPAL/.test(e['11229'].fecho) && /^PREFEITURA MUNIC IPAL/.test(e['11575'].fecho));
   ok('…e as assinaturas não grudam no último artigo (art. 12 da Lei 11.229: só a cláusula de vigência)', /^Esta Lei entra em vigor na data de sua publicação\.$/.test(e['11229'].dispositivos.find((d) => d.id === 'art-12').texto));
   ok('hifenização desfeita no texto estruturado (Lei 11.213, art. 3º: "poderão", "programas")', /poderão ser realizados eventos ou campanhas de assistência social, saúde ou programas governamentais/.test(e['11213'].dispositivos.find((d) => d.id === 'art-3').texto));

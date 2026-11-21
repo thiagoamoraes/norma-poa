@@ -2,8 +2,8 @@
  "idSapl": 51575,
  "rotulo": "Lei municipal nº 14.615, de 31 de julho de 2026",
  "sha256Origem": "c1a56bc4811f2d3f981cfbe55da5c59141768b5060267e7a5f8a9abb7949042d",
- "estruturadoEm": "2026-11-21T09:25:20.788Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:09.074Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14615",
@@ -38,13 +38,23 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 2,
    "dispositivos": 2,
    "cobertura": 0.972,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 61,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

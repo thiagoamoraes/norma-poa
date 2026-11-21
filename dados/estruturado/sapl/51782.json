@@ -2,8 +2,8 @@
  "idSapl": 51782,
  "rotulo": "Lei municipal nº 14.662, de 21 de setembro de 2026",
  "sha256Origem": "8fd3cdee45204b01e8e4cf7a86b7e2c0b02732d44f55b2a97a428c617b7ce182",
- "estruturadoEm": "2026-11-21T09:25:20.730Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:08.882Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14662",
@@ -35,8 +35,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -45,6 +47,15 @@
    "dispositivos": 2,
    "cobertura": 0.978,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 8,
+     "caracteres": 336,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

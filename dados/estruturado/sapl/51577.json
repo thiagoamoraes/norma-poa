@@ -2,8 +2,8 @@
  "idSapl": 51577,
  "rotulo": "Lei municipal nº 14.617, de 31 de julho de 2026",
  "sha256Origem": "110af0a2e5e14c4587c8265c165392ef26e608d36c37405a525cc13e06cefc3f",
- "estruturadoEm": "2026-11-21T09:25:20.785Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:09.064Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14617",
@@ -84,8 +84,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -94,6 +96,15 @@
    "dispositivos": 9,
    "cobertura": 0.97,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 8,
+     "caracteres": 589,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

@@ -2,8 +2,8 @@
  "idSapl": 43346,
  "rotulo": "Lei Complementar municipal nº 912, de 10 de setembro de 2021",
  "sha256Origem": "8f868bbdee6359cabdf5d9bf1cf6421b3a1a2d8c9ff0365885a369909d752b53",
- "estruturadoEm": "2026-11-21T00:57:52.734Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:53.486Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "912",
@@ -88,8 +88,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -98,6 +100,15 @@
    "dispositivos": 9,
    "cobertura": 0.985,
    "blocosDeAlteracao": 4,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 53,
+     "caracteres": 1555,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

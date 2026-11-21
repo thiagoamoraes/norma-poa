@@ -2,8 +2,8 @@
  "idSapl": 38673,
  "rotulo": "Lei Complementar municipal nº 705, de 14 de dezembro de 2012",
  "sha256Origem": "ec4ba131b808ea721371d9172d90f37e16e5b021eacbb2e3a19221023f1b2ac6",
- "estruturadoEm": "2026-11-21T00:57:54.508Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:55.272Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "705",
@@ -45,13 +45,23 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 2,
    "dispositivos": 3,
    "cobertura": 0.95,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

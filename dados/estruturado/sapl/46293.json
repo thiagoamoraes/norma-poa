@@ -2,8 +2,8 @@
  "idSapl": 46293,
  "rotulo": "Lei Complementar municipal nº 975, de 02 de junho de 2023",
  "sha256Origem": "066f02159defa11691b6cbbfe924e29552f89d9cccf137a61b3656758526257b",
- "estruturadoEm": "2026-11-21T00:57:52.185Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:52.928Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "975",
@@ -78,8 +78,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -88,6 +90,15 @@
    "dispositivos": 8,
    "cobertura": 0.967,
    "blocosDeAlteracao": 1,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 7,
+     "caracteres": 636,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

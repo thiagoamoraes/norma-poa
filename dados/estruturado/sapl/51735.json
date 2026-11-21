@@ -2,8 +2,8 @@
  "idSapl": 51735,
  "rotulo": "Lei Complementar municipal nº 1.081, de 10 de setembro de 2026",
  "sha256Origem": "6aad1c22fa5acf72801d17881f0b9f2abf845b391040461a31999a495fd1a43d",
- "estruturadoEm": "2026-11-21T00:57:50.856Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:51.187Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1081",
@@ -74,8 +74,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -84,6 +86,15 @@
    "dispositivos": 7,
    "cobertura": 0.996,
    "blocosDeAlteracao": 4,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 13,
+     "caracteres": 977,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

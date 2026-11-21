@@ -2,8 +2,8 @@
  "idSapl": 38217,
  "rotulo": "Lei Complementar municipal nº 693, de 08 de maio de 2012",
  "sha256Origem": "0a5a17dd781cba5f742814a58adbcee44eb9f6a84b9cddb309cc4226d7f36131",
- "estruturadoEm": "2026-11-21T00:57:54.911Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:55.686Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "693",
@@ -35,8 +35,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -45,6 +47,15 @@
    "dispositivos": 2,
    "cobertura": 0.996,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO À LEI COMPLEMENTAR Nº 693.",
+     "linhas": 304,
+     "caracteres": 21927,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

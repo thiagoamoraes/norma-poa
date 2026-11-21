@@ -193,6 +193,14 @@ export function roteiroDeConferencia(motivos, texto, dispositivos = [], contexto
     const f = fichaDoArquivo(contexto.arquivo);
     out.push({ chave: 'arquivo', titulo: 'O que o arquivo parece ser', instrucao: f.instrucao, trecho: f.ficha });
   }
+  if (ms.has('anexo_nao_lido')) {
+    const an = contexto.anexos || [];
+    const i = L.findIndex((l) => /^\s*ANEXO\b/.test(l) && L.findIndex((x, k) => k < L.indexOf(l) && /Registre-se|publique-se/i.test(x)) >= 0);
+    const lista = an.map((x) => `${x.cabecalho} — ${x.linhas} linha(s), ${x.caracteres} caracteres${x.graficoOuTitulo ? ' (só título/gráfico)' : ''}`).join('\n');
+    out.push({ chave: 'anexos', titulo: 'Anexo que o motor não leu',
+      instrucao: 'O articulado foi lido e conferido; o ANEXO (texto ou tabela) vem depois do fecho e o motor não lê anexos. Confira no original se o anexo existe, se é o que a ementa descreve e se não é um anexo vetado ou de outra lei. Aceitar significa só "o articulado está certo".',
+      trecho: lista + (i >= 0 ? '\n\n' + L.slice(i, i + 14).join('\n') : '') });
+  }
   if (ms.has('rotulo_nao_confere_com_a_origem')) {
     const grupos = agruparDeslocamentos(dispositivos);
     if (grupos.length) {
@@ -304,6 +312,7 @@ export const TITULOS_DE_MOTIVO = {
   numeracao_de_artigos_com_salto: 'Numeração dos artigos com salto',
   erro_do_leitor: 'O leitor falhou neste texto',
   bloco_sem_fechamento_de_aspas: 'Fim do bloco de alteração foi inferido',
+  anexo_nao_lido: 'Anexo com texto ou tabela que o motor não leu',
   aspa_de_abertura_ausente: 'Bloco de alteração sem aspa de abertura',
   alteracao_sem_aspas_nao_delimitada: 'Alteração anunciada, mas o bloco não foi lido',
 };

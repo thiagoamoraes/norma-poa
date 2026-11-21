@@ -2,8 +2,8 @@
  "idSapl": 42994,
  "rotulo": "Lei Complementar municipal nº 897, de 15 de janeiro de 2021",
  "sha256Origem": "dac2f2358c1af5a6baec560d80cda77faacc1dd8bde9a43196803f3839d14839",
- "estruturadoEm": "2026-11-21T00:57:52.819Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:53.578Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "897",
@@ -563,8 +563,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -573,6 +575,51 @@
    "dispositivos": 73,
    "cobertura": 0.988,
    "blocosDeAlteracao": 10,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO I",
+     "linhas": 8,
+     "caracteres": 258,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO II",
+     "linhas": 8,
+     "caracteres": 259,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO III",
+     "linhas": 8,
+     "caracteres": 264,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO IV",
+     "linhas": 8,
+     "caracteres": 263,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO V",
+     "linhas": 8,
+     "caracteres": 261,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO VI",
+     "linhas": 17,
+     "caracteres": 975,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO VII",
+     "linhas": 22,
+     "caracteres": 1392,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 7,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

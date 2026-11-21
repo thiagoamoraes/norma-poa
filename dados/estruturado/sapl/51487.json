@@ -2,8 +2,8 @@
  "idSapl": 51487,
  "rotulo": "Lei municipal nº 14.582, de 14 de julho de 2026",
  "sha256Origem": "b93320ff84771671267d13187bf231b14aac659be7d390ff5503f83e896c6ab2",
- "estruturadoEm": "2026-11-21T09:25:20.832Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:09.201Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14582",
@@ -42,8 +42,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -52,6 +54,15 @@
    "dispositivos": 3,
    "cobertura": 0.968,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 13,
+     "caracteres": 491,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

@@ -2,8 +2,8 @@
  "idSapl": 37945,
  "rotulo": "Lei Complementar municipal nº 685, de 28 de dezembro de 2011",
  "sha256Origem": "fafd94f6645f76d4bbf9acdf6fb1d5aafdb9aa5fb57722c28935fc58798b0950",
- "estruturadoEm": "2026-11-21T00:57:54.990Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:55.771Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "685",
@@ -88,8 +88,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -98,6 +100,15 @@
    "dispositivos": 9,
    "cobertura": 0.994,
    "blocosDeAlteracao": 4,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO À LEI Nº 685.",
+     "linhas": 309,
+     "caracteres": 20960,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

@@ -2,8 +2,8 @@
  "idSapl": 40426,
  "rotulo": "Lei Complementar municipal nº 786, de 24 de dezembro de 2015",
  "sha256Origem": "6d6e6ea4a79e9d284155c9b7c1d35fe91b97b101451335d111c3f42ad7f129f1",
- "estruturadoEm": "2026-11-21T00:57:53.815Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:54.545Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "786",
@@ -43,8 +43,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -53,6 +55,15 @@
    "dispositivos": 3,
    "cobertura": 0.981,
    "blocosDeAlteracao": 1,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 9,
+     "caracteres": 352,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

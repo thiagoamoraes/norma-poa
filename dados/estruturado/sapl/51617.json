@@ -2,8 +2,8 @@
  "idSapl": 51617,
  "rotulo": "Lei municipal nº 14.626, de 11 de agosto de 2026",
  "sha256Origem": "706c07f57128cd319a98499aa2ff477ec2d096098e21ad0d785d462f5db639ac",
- "estruturadoEm": "2026-11-21T09:25:20.776Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:09.029Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14626",
@@ -46,13 +46,23 @@
   "situacao": "aceita",
   "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 3,
    "dispositivos": 3,
    "cobertura": 0.965,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 60,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

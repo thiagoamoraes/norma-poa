@@ -2,8 +2,8 @@
  "idSapl": 23829,
  "rotulo": "Lei Complementar municipal nº 158, de 22 de julho de 1987",
  "sha256Origem": "91942540e99c74f09e22abc08f63627843f478c156fe618ff93a83999dcb7c20",
- "estruturadoEm": "2026-11-21T09:25:20.015Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:07.233Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -83,7 +83,8 @@
    "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem",
-   "bloco_de_alteracao_sem_dono"
+   "bloco_de_alteracao_sem_dono",
+   "anexo_nao_lido"
   ],
   "avisos": [
    "tem_anexo"
@@ -93,6 +94,27 @@
    "dispositivos": 8,
    "cobertura": 0.375,
    "blocosDeAlteracao": 22,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO - 1 MODELO ESPACIAL - ALTURAS",
+     "linhas": 139,
+     "caracteres": 5530,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO   1 - MODELO         ESPACIAL   - ALTURAS",
+     "linhas": 78,
+     "caracteres": 4606,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO    1 - MODELO    ESPACIAL    - DENSIDADE   E APROVEITAMENTO",
+     "linhas": 1247,
+     "caracteres": 44569,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 3,
    "lacunas": [
     {
      "tamanho": 34025,

@@ -2,8 +2,8 @@
  "idSapl": 37090,
  "rotulo": "Lei Complementar municipal nº 663, de 28 de dezembro de 2010",
  "sha256Origem": "4440d9505442b7af065239441dd2d09edc6f6d411dfa990124ca8089536d73f6",
- "estruturadoEm": "2026-11-21T00:57:55.278Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:56.101Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "663",
@@ -114,7 +114,8 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+   "rotulo_nao_confere_com_a_origem",
+   "anexo_nao_lido"
   ],
   "avisos": [
    "tem_anexo",
@@ -125,6 +126,81 @@
    "dispositivos": 13,
    "cobertura": 0.998,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO 4",
+     "linhas": 9,
+     "caracteres": 266,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO 5",
+     "linhas": 22,
+     "caracteres": 162,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO 6’’",
+     "linhas": 48,
+     "caracteres": 379,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO 9",
+     "linhas": 36,
+     "caracteres": 367,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO 10",
+     "linhas": 10,
+     "caracteres": 70,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO 11",
+     "linhas": 28,
+     "caracteres": 498,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO 12",
+     "linhas": 12,
+     "caracteres": 295,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO                      13",
+     "linhas": 21,
+     "caracteres": 319,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO’14",
+     "linhas": 78,
+     "caracteres": 813,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO 18",
+     "linhas": 15,
+     "caracteres": 266,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO                          19",
+     "linhas": 21,
+     "caracteres": 313,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO 20",
+     "linhas": 18,
+     "caracteres": 233,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 34,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

@@ -22,7 +22,7 @@ ok('id 36373 (real): "conforme" / "segue:" em duas linhas não esconde o bloco e
 ok('LC 838/2018 (real): idem (cue partido)', sem(roda('./fixtures/textos/ruido_41876.txt', regsB.find((r) => r.idSapl === 41876))));
 ok('id 40111 (real): "milési-" / "mo)" é uma palavra hifenizada, não marcador de alínea', sem(roda('./fixtures/textos/rotulo_40111.txt', regsA.find((r) => r.idSapl === 40111))));
 const v1005 = roda('./fixtures/textos/lc1005_2024.txt', regsC.find((r) => r.tipoSapl === 6 && r.numero === '1005'));
-ok('LC 1.005/2024 (real): "( NR)" com espaço fecha o bloco; os arts. 10 a 12 não são mais engolidos', sem(v1005) && v1005.situacao === 'aceita');
+ok('LC 1.005/2024 (real): "( NR)" com espaço fecha o bloco; os arts. 10 a 12 não são mais engolidos; o único motivo que sobra é o anexo não lido (8 anexos depois do fecho)', sem(v1005) && v1005.motivos.every((m) => m === 'anexo_nao_lido'));
 
 // negativo (a conferência continua acusando erro real): sobre a LC 1.005, apagar o artigo 11 inteiro desloca os seguintes
 const t = prepararTextoExtraido(fs.readFileSync('./fixtures/textos/lc1005_2024.txt', 'utf8'));

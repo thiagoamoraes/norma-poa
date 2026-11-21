@@ -2,8 +2,8 @@
  "idSapl": 42401,
  "rotulo": "Lei Complementar municipal nº 872, de 10 de janeiro de 2020",
  "sha256Origem": "27da6f9c52bb78cedb5beaeae0703abc7687544d2111ebf37793bfbd9af470d8",
- "estruturadoEm": "2026-11-21T00:57:53.118Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:53.916Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "872",
@@ -235,7 +235,8 @@
   "situacao": "revisar",
   "motivos": [
    "promulgacao_parcial",
-   "rotulo_nao_confere_com_a_origem"
+   "rotulo_nao_confere_com_a_origem",
+   "anexo_nao_lido"
   ],
   "avisos": [
    "paragrafo_numerado_sem_irmao",
@@ -246,6 +247,15 @@
    "dispositivos": 30,
    "cobertura": 0.997,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 184,
+     "caracteres": 12678,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

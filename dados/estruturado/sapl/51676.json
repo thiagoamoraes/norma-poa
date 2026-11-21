@@ -2,8 +2,8 @@
  "idSapl": 51676,
  "rotulo": "Lei municipal nº 14.634, de 25 de agosto de 2026",
  "sha256Origem": "ef759796d1253027da7ad37aa40aa7cf9022b70d4fc7a0765d8d033705192eb6",
- "estruturadoEm": "2026-11-21T09:25:20.763Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:20:08.986Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14634",
@@ -91,8 +91,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -101,6 +103,15 @@
    "dispositivos": 10,
    "cobertura": 0.98,
    "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 24,
+     "caracteres": 961,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

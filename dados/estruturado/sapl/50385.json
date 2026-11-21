@@ -2,8 +2,8 @@
  "idSapl": 50385,
  "rotulo": "Lei Complementar municipal nº 1.049, de 08 de agosto de 2025",
  "sha256Origem": "2fbcef272180c803ae504293141cb12722ea9d877dc4c062881e07fae3793bc4",
- "estruturadoEm": "2026-11-21T00:57:51.518Z",
- "versaoEstruturador": 19,
+ "estruturadoEm": "2026-11-21T10:19:52.140Z",
+ "versaoEstruturador": 20,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1049",
@@ -2460,8 +2460,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "anexo_nao_lido"
+  ],
   "avisos": [
    "tem_anexo"
   ],
@@ -2470,6 +2472,57 @@
    "dispositivos": 332,
    "cobertura": 0.986,
    "blocosDeAlteracao": 5,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO I",
+     "linhas": 6,
+     "caracteres": 428,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO II",
+     "linhas": 12,
+     "caracteres": 713,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO III",
+     "linhas": 396,
+     "caracteres": 23696,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO IV",
+     "linhas": 14,
+     "caracteres": 972,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO V",
+     "linhas": 24,
+     "caracteres": 1364,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO VI",
+     "linhas": 91,
+     "caracteres": 3637,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO VII",
+     "linhas": 232,
+     "caracteres": 12489,
+     "graficoOuTitulo": false
+    },
+    {
+     "cabecalho": "ANEXO VIII",
+     "linhas": 9,
+     "caracteres": 281,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 8,
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []
