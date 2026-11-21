@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T16:20:12.264Z",
+ "geradoEm": "2026-11-21T16:27:19.487Z",
  "idSapl": 43212,
  "rotulo": "Lei Complementar municipal nº 906, de 15 de junho de 2021",
  "baseConferida": true,
@@ -18,7 +18,7 @@
     "idSapl": 45807,
     "rotulo": "Lei Complementar municipal nº 970, de 11 de abril de 2023"
    },
-   "comandosAplicados": 3
+   "comandosAplicados": 11
   }
  ],
  "dispositivos": [
@@ -76,6 +76,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 970/2023"
+     }
     }
    ]
   },
@@ -91,6 +100,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 970/2023"
      }
     }
    ]
@@ -108,6 +126,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 970/2023"
+     }
     }
    ]
   },
@@ -123,6 +150,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 970/2023"
      }
     }
    ]
@@ -140,6 +176,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 970/2023"
+     }
     }
    ]
   },
@@ -155,6 +200,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 970/2023"
      }
     }
    ]
@@ -172,6 +226,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 970/2023"
+     }
     }
    ]
   },
@@ -187,6 +250,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 970/2023"
      }
     }
    ]
@@ -416,48 +488,9 @@
     "rotulo": "Lei Complementar municipal nº 970, de 11 de abril de 2023"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei",
-   "enderecos": [
-    "art-1/par-unico"
-   ]
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
   }
  ],
- "aConferir": [
-  {
-   "id": "art-1/par-unico",
-   "desde": "2023-04-11"
-  },
-  {
-   "id": "art-1/par-unico/inc-I",
-   "desde": "2023-04-11"
-  },
-  {
-   "id": "art-1/par-unico/inc-II",
-   "desde": "2023-04-11"
-  },
-  {
-   "id": "art-1/par-unico/inc-III",
-   "desde": "2023-04-11"
-  },
-  {
-   "id": "art-1/par-unico/inc-IV",
-   "desde": "2023-04-11"
-  },
-  {
-   "id": "art-1/par-unico/inc-V",
-   "desde": "2023-04-11"
-  },
-  {
-   "id": "art-1/par-unico/inc-VI",
-   "desde": "2023-04-11"
-  },
-  {
-   "id": "art-1/par-unico/inc-VII",
-   "desde": "2023-04-11"
-  },
-  {
-   "id": "art-1/par-unico/inc-VIII",
-   "desde": "2023-04-11"
-  }
- ]
+ "aConferir": []
 }

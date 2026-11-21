@@ -1822,6 +1822,33 @@ export function interpretarObjetosRevogados(frase) {
   return { ok: true, chaves: unicas, intervalos };
 }
 
+/**
+ * expandirIntervaloNaBase(intervalo, leiBaseIndex) → chaves[] | null   (decisão 47)
+ * `intervalo` = { nivel, de, ate, pai } (saída de interpretarObjetosRevogados). Devolve as chaves da lei-base, na ordem do texto,
+ * do mesmo nível e do mesmo pai, entre os dois extremos (inclusive; inclui "-A"). Extremo que não existe na base → null
+ * (o chamador emite `indeterminado`): o motor nunca inventa o intervalo.
+ */
+export function expandirIntervaloNaBase(intervalo, leiBaseIndex) {
+  const nl = (k) => String(k).toLowerCase().replace(/[º°]/g, "").replace(/\s+/g, " ").trim();
+  const pref = { art: "art. ", par: "§ ", inc: "inc. ", al: "al. " }[intervalo.nivel];
+  if (!pref || !leiBaseIndex) return null;
+  const pai = nl(intervalo.pai || "");
+  const cand = [];
+  for (const k of Object.keys(leiBaseIndex)) {
+    const n = nl(k);
+    if (!n.startsWith(pref)) continue;
+    let rot;
+    if (pai) { if (!n.endsWith(" do " + pai)) continue; rot = n.slice(pref.length, n.length - (" do " + pai).length); }
+    else { if (n.includes(" do ")) continue; rot = n.slice(pref.length); }
+    if (!rot || rot.includes(" do ")) continue;
+    cand.push({ k, rot: rot.replace(/\)$/, "") });
+  }
+  const norm = (r) => nl(r).replace(/\)$/, "");
+  const i = cand.findIndex((x) => x.rot === norm(intervalo.de)), j = cand.findIndex((x) => x.rot === norm(intervalo.ate));
+  if (i < 0 || j < 0 || j < i) return null;
+  return cand.slice(i, j + 1).map((x) => x.k);
+}
+
 // ─── PEÇA 2: RESOLVEDOR DE REFERÊNCIA INTERLEGISLATIVA ────────────────────────
 /**
  * chaveLei(tipoAto, numero, ano) → "lc 320/1994"
@@ -2230,10 +2257,22 @@ export function extrairComandosLei(docAlteradora, opts) {
             }
             const g = interpretarObjetosRevogados(fr);
             if (!g.ok) { indet(g.codigo, g.motivo); return out; }
-            if (g.intervalos.length) { indet("revogacao_intervalo_sem_lei_base", "intervalo de dispositivos (\"a\" … \"a\"): só se expande contra a lei-alvo, ainda não disponível aqui"); return out; }
             if (!leiDoItem) { indet("revogacao_lista_nao_interpretada", "revogação de dispositivo sem lei-alvo numerada no caput nem no item"); return out; }
             const leiRes = resolverReferenciaLei(leiDoItem, indiceColecao);
-            g.chaves.forEach(chave => out.push({ artigoOrigem: i+1, operacao: "revoke_node", leiAlvo: leiDoItem, leiAlvoResolvida: leiRes, dispositivoAlvo: chave, raw: T, origemFormaPlural: true, ...extra }));
+            let chavesFinais = g.chaves;
+            if (g.intervalos.length) {
+              // intervalo ("arts. 43 a 61"): só se expande contra a lei-alvo, e só quando o índice entregue é DESTA lei (decisão 47)
+              if (!leiBaseIndex || !opts.leiBaseConfere || !opts.leiBaseConfere(leiDoItem)) { indet("revogacao_intervalo_sem_lei_base", "intervalo de dispositivos: só se expande contra a lei-alvo, que não está disponível"); return out; }
+              const extras = [];
+              for (const iv of g.intervalos) {
+                const ex = expandirIntervaloNaBase(iv, leiBaseIndex);
+                if (!ex || !ex.length) { indet("revogacao_intervalo_sem_lei_base", `extremo do intervalo (${iv.de} a ${iv.ate}) não existe na lei-alvo`); return out; }
+                extras.push(...ex);
+              }
+              chavesFinais = [...new Set([...g.chaves, ...extras])];
+              chavesFinais = chavesFinais.filter(k => !chavesFinais.some(a => a !== k && k.endsWith(" do " + a)));
+            }
+            chavesFinais.forEach(chave => out.push({ artigoOrigem: i+1, operacao: "revoke_node", leiAlvo: leiDoItem, leiAlvoResolvida: leiRes, dispositivoAlvo: chave, raw: T, origemFormaPlural: true, ...extra }));
             return out;
           };
           if (lista) {

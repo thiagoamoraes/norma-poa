@@ -60,7 +60,7 @@ export function descreverComandos(textoAlteradora, fonteAlteradora, resolverBase
   const base = (chave) => { if (!bases.has(chave)) { const b = resolverBase ? resolverBase(chave) : null; let v0 = null; if (b) { try { v0 = c.criarVersaoOriginal(c.parseMinuta(limpar(b.texto)), fonteDoRegistroCatalogo(b.registro)); } catch { v0 = null; } } bases.set(chave, v0 ? { v0, registro: b.registro } : null); } return bases.get(chave); };
   let confiavel = false;
   if (alvos.length === 1 && base(alvos[0])) {
-    try { comandos = c.extrairComandosLei(doc, { leiBaseIndex: c.indexarVersao(base(alvos[0]).v0) }); confiavel = true; } catch { /* mantém a 1ª passagem */ }
+    try { comandos = c.extrairComandosLei(doc, { leiBaseIndex: c.indexarVersao(base(alvos[0]).v0), leiBaseConfere: (ref) => !!ref && ref.chave === alvos[0] }); confiavel = true; } catch { /* mantém a 1ª passagem */ }
   }
 
   const saida = [];
