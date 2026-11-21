@@ -76,6 +76,31 @@ de `npm ci`.)
 
 ## 1. Afinar o leitor pelo relatório de estruturação  ← comece aqui
 
+### Passagem de sessão — estado em 21/11/2026 (leia primeiro)
+
+**Tudo está na `main` (último commit: rodada 59).** Rodadas 31–59 documentadas no `CHANGELOG.md`; decisões 1–52 no `CLAUDE.md`; planos em `PLANO-*.md` (anexos: `PLANO-ANEXOS-ORDEM.md` consolida F0–F3; revogação: `PLANO-REVOGACAO-PLURAL*.md`; UX: `PLANO-UX-*.md`). Acervo: 1.109 normas estruturadas (750 aceitas, 359 a revisar; recentes ≈ 547 aceitas / 64 em revisão); `VERSAO_ESTRUTURADOR` 30.
+
+**O que esta sessão fez (resumo):** anexos como nó e tabela no corpo (decisões 33–44); lista de prioridade de download das orçamentárias (`dados/catalogo/prioridade-download.txt`); revogação no plural, em lista e em intervalo (rodadas 50–54, decisões 45–48); recall do detector de anexo alterado (55); avisos de anexo na consulta (56, decisões 49–51); preâmbulo de Mesa/Câmara, "Faço saber" e cabeça de preâmbulo com OCR nunca são ementa (57–58); carimbo, timbre e epígrafe fora da ementa (59, decisão 52).
+
+**Pendências, em ordem:**
+1. **Orçamentárias (depende de texto):** conferir em `dados/textos/sapl/_indice.jsonl` se chegaram 50787, 50559, 50442, 49635, 49391 e 50246 (coletas de 22 e 23/11). Se sim, rodar o roteiro de medição da Fase 0 (`PLANO-ANEXOS-F0-ORCAMENTO.md`, seção 3) e planejar o tratamento só dos anexos que forem **alterados depois** (decisões 37, 41, 44; regras 11 e 12). O lembrete automático ficou preso à sessão antiga: **faça a conferência à mão.**
+2. **Anexo na árvore de versões e no histórico** (hoje só o estruturador carrega o anexo): entrevista da Rodada 2 em `PLANO-ANEXOS-ORDEM.md` (seção 3), depois Rodadas 3 e 4.
+3. Nó `tabela` com marcador (decisão 42: só depois da Fase 0); guarda do falso `replace_text` em lista anexa (ids 31027, 32301) quando a LC 7 tiver texto (hoje é `.doc` sem extração).
+4. Resolução de Mesa e Ordem de Serviço: sem texto real / "RESOLVE:" e "DETERMINA:" não são âncora (CLAUDE.md). Veto derrubado, republicação, inconstitucional/execução suspensa seguem aguardando exemplo e decisão.
+5. `decisoes.jsonl` ainda vazio: nenhuma norma foi decidida pelo revisor.
+
+**Lições práticas (custaram tempo nesta sessão):**
+- **O estruturador só reprocessa se `VERSAO_ESTRUTURADOR` mudar.** Mexeu em `norma-core.js` ou `estrutura.mjs` e rodou `estruturar.mjs` sem subir a versão: "0 processadas" e você mede o código velho. Suba a versão a cada mudança de leitura.
+- **Prova de que o teste novo falha no código antigo:** `git stash -- arquivo-do-core`, rodar o teste, `git stash pop`. Não use `sed` num teste ainda não commitado antes do stash.
+- **Medir mudança de comandos no acervo inteiro:** extrair `extrairComandosLei` dos 1.1xx textos antes e depois (um `.tsv` por rodada, `diff`), e conferir à mão **todas** as mudanças de `revoke_*`; foi assim que apareceram falsos positivos (id 41342, 35288). Scripts de medição ficam no scratchpad e se perdem: refaça-os (são curtos).
+- **Veredito antes × depois:** comparar `verificacao.situacao` e `motivos` de cada `dados/estruturado/sapl/*.json` com o `git show HEAD:` do mesmo arquivo.
+- **`\w` e `\b` não veem letra acentuada** (ç, ã…): em regex use `[A-Za-zÀ-ÿ]`. Já causou 3 bugs (revogação, "serviços", "revogados").
+- **Testar a página sem servidor:** o ambiente nega `python3 -m http.server` em segundo plano. Use Playwright com `page.route('http://norma.test/**', …)` servindo os arquivos do disco (raiz do repositório = `/`), abra `http://norma.test/docs/index.html`. `file://` não deixa a página buscar os JSON.
+- **Agentes de planejamento (`Plan`) não escrevem arquivos:** o relatório vem como texto; salve condensado com `Write`. A resposta é insumo: confira à mão o que sustenta decisão (o achado do falso `revoke_node` foi confirmado rodando o código).
+- **`norma-simulacao.html` embute cópia do core:** as rodadas 50–54 (revogação) e 57–58 (preâmbulo) foram espelhadas; a `parseLeiPublicada` embutida é antiga (já divergia) e não foi atualizada.
+- **Entrevista antes de decisão do mantenedor (regra 11):** cada resposta vira decisão numerada no `CLAUDE.md` na mesma rodada.
+- **Não commitar entre 04:00 e 09:40 UTC;** sempre `git pull --rebase origin main` antes do push.
+
 **Estado em 20/11/2026 (leia antes de começar).** Feitas as rodadas 22 (Emenda à Lei Orgânica: cabeçalho) e 23 (`(NR)` na linha seguinte ao fecha-aspas); tudo na `main`. Acervo estruturado: 823 textos, 515 aceitos (62,6%) e 308 em revisão. A taxa **caiu** de 74% (18/11) porque chegaram textos mais difíceis — não é regressão (as rodadas 22 e 23 comparadas norma a norma: nenhuma deixou de ser aceita). Motivos hoje: `rotulo_nao_confere_com_a_origem` 174 · `cabecalho_nao_reconhecido` 119 · `trecho_nao_localizado_na_origem` 98 · `sem_fecho` 97 · `texto_fora_da_arvore` 71 · `bloco_de_alteracao_sem_dono` 50. **Orientação de 20/11/2026 (CLAUDE.md, "Época da norma"): normas de antes da LC 611 (03/02/2009) têm técnica diferente e revisão humana esperada; a LC 611 vale da sanção em diante (corte fixo em 03/02/2009; fila e taxa do relatório já separadas por época); para normas de peso (LC 7) a conferência é a compilação do leis.org.** Ao analisar um motivo, separar sempre "antigo (≤ ~2005)" de "recente": só o recente é defeito do leitor a perseguir.
 
 **Rodada 24 (20/11/2026): `rotulo_nao_confere_com_a_origem` analisado** (famílias e contagens no CHANGELOG, rodada 24); 1ª correção: `“Art.` partido em duas linhas pela extração (`juntarAberturaDeBlocoPartida`, `VERSAO_ESTRUTURADOR` 6; a coleta noturna reprocessa). O resto desse motivo é defeito de fonte/OCR, ou depende de decisão (seção 9: "§ 1º" sozinho; alteradora sem aspas). **Rodada 31 (20/11/2026): blocos de alteração mal delimitados (R1–R4) + detector de falso aceite; aceitas 541 → 537 (5 erros silenciosos expostos, 1 ganho); decisões 9–12 no CLAUDE.md. Próximo: `trecho_nao_localizado_na_origem` e `texto_fora_da_arvore` nas recentes (agente de amostragem), e a sua revisão no dashboard.**
