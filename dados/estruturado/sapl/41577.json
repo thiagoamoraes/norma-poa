@@ -2,8 +2,8 @@
  "idSapl": 41577,
  "rotulo": "Lei Complementar municipal nº 832, de 09 de março de 2018",
  "sha256Origem": "011eda6a5a1b21eef546be88750f0bec516733c88b2a12bf8a91a7d631d66463",
- "estruturadoEm": "2026-11-21T10:19:54.271Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:07.162Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "832",
@@ -17,7 +17,7 @@
  },
  "ementa": "Dispõe sobre medidas de polícia administrativa de competência do Município de Porto Alegre; altera a descrição analítica das atribuições do cargo de provimento efetivo de Guarda Municipal no Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores; e altera os incs. IV, VI, IX, XII, XX e XXIX do caput do art. 18, os incs. I, II e IV do caput do art. 20 e o art. 27, inclui inc. XXXI no caput do art. 18, inc. V no caput e § 2º no art. 20, art. 27-A, § 6º no art. 91-A, art. 91-B, art. 91-C e art. 91-D e renomeia o parágrafo único para § 1º no art. 20, todos na Lei Complementar nº 12, de 7 de janeiro de 1975 – que institui posturas para o Município de Porto Alegre e dá outras providências –, e alterações posteriores.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de março de 2018.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.\nANEXO\n“CLASSE: GUARDA MUNICIPAL\n....................................................................................................................................\nb) Descrição Analítica: exercer vigilância em locais previamente determinados;\nconduzir veículos oficiais quando em serviços de vigilância; realizar ronda de inspeção em\nintervalos fixados, adotando providencias tendentes a evitar roubos, incêndios, danificações em\nedifícios, praças, jardins, materiais sob sua guarda, etc.; controlar a entrada e a saída de pessoas e\nveículos pelos portões de acesso sob sua vigilância, verificando, quando necessário, as\nautorizações de ingresso; verificar se as portas, as janelas e as demais vias de acesso estão\ndevidamente fechadas; investigar quaisquer condições anormais que tenha observado; responder\nàs chamadas telefônicas e anotar recados; levar ao imediato conhecimento das autoridades\ncompetentes qualquer irregularidade verificada; acompanhar funcionários, quando necessário, no\nexercício de suas funções; exercer a fiscalização e a lavratura de auto de infração; e executar\ntarefas afins.\n........................................................................................................................ ” (NR)",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de março de 2018.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -364,19 +364,25 @@
    "tipo": "artigo",
    "rotulo": "Art. 22.",
    "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“CLASSE: GUARDA MUNICIPAL\n....................................................................................................................................\nb) Descrição Analítica: exercer vigilância em locais previamente determinados;\nconduzir veículos oficiais quando em serviços de vigilância; realizar ronda de inspeção em\nintervalos fixados, adotando providencias tendentes a evitar roubos, incêndios, danificações em\nedifícios, praças, jardins, materiais sob sua guarda, etc.; controlar a entrada e a saída de pessoas e\nveículos pelos portões de acesso sob sua vigilância, verificando, quando necessário, as\nautorizações de ingresso; verificar se as portas, as janelas e as demais vias de acesso estão\ndevidamente fechadas; investigar quaisquer condições anormais que tenha observado; responder\nàs chamadas telefônicas e anotar recados; levar ao imediato conhecimento das autoridades\ncompetentes qualquer irregularidade verificada; acompanhar funcionários, quando necessário, no\nexercício de suas funções; exercer a fiscalização e a lavratura de auto de infração; e executar\ntarefas afins.\n........................................................................................................................ ” (NR)"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 22,
-   "dispositivos": 48,
+   "dispositivos": 49,
    "cobertura": 0.978,
    "blocosDeAlteracao": 8,
    "anexos": [

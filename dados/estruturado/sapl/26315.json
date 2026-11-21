@@ -2,8 +2,8 @@
  "idSapl": 26315,
  "rotulo": "Lei Complementar municipal nº 268, de 21 de janeiro de 1992",
  "sha256Origem": "87a8007169344dd918a541d9acc4e99eb4330cd9683bbe3853f263ca0f83b01d",
- "estruturadoEm": "2026-11-21T10:20:06.571Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:20.336Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "268",
@@ -87,6 +87,7 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
+   "fecho_com_texto_demais",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [

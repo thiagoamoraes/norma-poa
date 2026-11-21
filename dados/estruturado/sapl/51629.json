@@ -2,8 +2,8 @@
  "idSapl": 51629,
  "rotulo": "Lei municipal nº 14.629, de 13 de agosto de 2026",
  "sha256Origem": "c04d0c6c4ef0a1ff7d6b0e044331d18bbb7b95bd5673cfb50ebc7c2f2ff7449a",
- "estruturadoEm": "2026-11-21T10:20:09.011Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.459Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14629",
@@ -18,7 +18,7 @@
  },
  "ementa": "LEI Nº 14.629, DE 13 AGOSTO DE 2026. Inclui o evento Semana do Morro da Cruz no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, nos finais de semana anterior e posterior ao dia 20 de março.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de agosto de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nMARÇO\nPERÍODO               EVENTO              DESCRIÇÃO E LOCAL DO EVENTO\nNos      finais  de Semana do Morro da Cruz O evento é voltado à valorização da\nsemana anterior e                           memória, da cultura e da identidade\nposterior ao dia 20                         comunitária do Morro da Cruz, em Porto\nde março                                    Alegre. A celebração ocorrerá sempre nos\nfinais de semana anterior e posterior ao dia\n20 de março, data simbólica que marca a\nocupação do morro. Em 1960, os moradores\nrealizaram a primeira procissão da Capela\nSão José até o alto do morro, carregando\numa cruz de eucalipto que foi fincada no\nsolo, gesto que deu origem ao nome Morro\nda Cruz.\nLocal: Morro da Cruz",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de agosto de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -61,20 +61,26 @@
    "tipo": "artigo",
    "rotulo": "Art. 4º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nMARÇO\nPERÍODO               EVENTO              DESCRIÇÃO E LOCAL DO EVENTO\nNos      finais  de Semana do Morro da Cruz O evento é voltado à valorização da\nsemana anterior e                           memória, da cultura e da identidade\nposterior ao dia 20                         comunitária do Morro da Cruz, em Porto\nde março                                    Alegre. A celebração ocorrerá sempre nos\nfinais de semana anterior e posterior ao dia\n20 de março, data simbólica que marca a\nocupação do morro. Em 1960, os moradores\nrealizaram a primeira procissão da Capela\nSão José até o alto do morro, carregando\numa cruz de eucalipto que foi fincada no\nsolo, gesto que deu origem ao nome Morro\nda Cruz.\nLocal: Morro da Cruz"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
    "cabecalho_fora_do_padrao",
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 4,
-   "dispositivos": 6,
+   "dispositivos": 7,
    "cobertura": 0.981,
    "blocosDeAlteracao": 0,
    "anexos": [

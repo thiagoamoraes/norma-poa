@@ -2,8 +2,8 @@
  "idSapl": 16471,
  "rotulo": "Lei Orgânica nº 1, de 15 de dezembro de 1970",
  "sha256Origem": "125910fc5a07c71ab85e4d6def16d9a1ce964f06c63a9930f34cdfb4b296c686",
- "estruturadoEm": "2026-11-21T10:19:50.315Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:03.369Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -1972,6 +1972,7 @@
   "motivos": [
    "cabecalho_nao_reconhecido",
    "tipo_sem_suporte",
+   "fecho_com_texto_demais",
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem",
    "bloco_de_alteracao_sem_dono"

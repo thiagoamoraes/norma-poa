@@ -2,8 +2,8 @@
  "idSapl": 51960,
  "rotulo": "Lei municipal nº 14.690, de 12 de novembro de 2026",
  "sha256Origem": "36a75af0689682a1289410b4795b5b6870c08f829f919f0ae189c4665c34018a",
- "estruturadoEm": "2026-11-21T10:20:08.713Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.216Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14690",
@@ -17,7 +17,7 @@
  },
  "ementa": "LEI Nº 14.690, DE 12 DE NOVEMBRO DE 2026. Denomina Benjamin Boezzio o logradouro conhecido como Via de Acesso Quatro – Cefer Dois, localizado no Bairro Jardim Carvalho.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de novembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.690\n26.0.000167117-0                12.11.2026",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de novembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -39,6 +39,14 @@
    "tipo": "artigo",
    "rotulo": "Art. 2º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n14.690\n26.0.000167117-0                12.11.2026",
+   "semTexto": true
   }
  ],
  "verificacao": {
@@ -50,7 +58,7 @@
   ],
   "metricas": {
    "artigos": 2,
-   "dispositivos": 3,
+   "dispositivos": 4,
    "cobertura": 0.96,
    "blocosDeAlteracao": 0,
    "anexos": [

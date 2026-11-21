@@ -2,8 +2,8 @@
  "idSapl": 49638,
  "rotulo": "Lei Complementar municipal nº 1.030, de 30 de dezembro de 2024",
  "sha256Origem": "ea2c9dc9877608f9622a4668e38101c4bfa0d96afe963fec1b752c3f1ef3b200",
- "estruturadoEm": "2026-11-21T10:19:52.450Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:05.398Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1030",
@@ -17,7 +17,7 @@
  },
  "ementa": "Altera o caput do art. 17-B, o § 2º do art. 71 e o subitem 19.01 da Tabela XII; e inclui §§ 6º e 7º no art. 55 e item 8 na al. c do inc. III do art. 56, todos na Lei Complementar nº 7, de 1973 – que institui e disciplina os tributos do Município –, para especificar o requerimento à Secretaria Municipal da Fazenda (SMF), para adequar aquela Lei Complementar às alterações da Lei Federal nº 5.172, de 25 de outubro de 1966 (Código Tributário Nacional), promovidas pela Lei Complementar Federal nº 208, de 2 de julho de 2024, para prorrogar a isenção do Imposto Sobre Serviços de Qualquer Natureza (ISSQN) para o serviço público de transporte coletivo por ônibus e seletivo por lotação até 31 de dezembro de 2026 e para alterar a alíquota que especifica.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.\nANEXO\n“Tabela XII\n...........................................................................................................................................................\nServiços de distribuição e venda de bilhetes e\ndemais produtos de loteria, bingos, cartões, pules 2% até 31 de dezembro de 2036\nou cupons de apostas, sorteios, prêmios,\n19.01            inclusive os decorrentes de títulos de\ncapitalização e congêneres.\n................................................................................................................................................” (NR)",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -71,19 +71,25 @@
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
    "texto": "Excetua-se do disposto no caput deste artigo o art. 5º, que entra em vigor em 1º de janeiro de 2025."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“Tabela XII\n...........................................................................................................................................................\nServiços de distribuição e venda de bilhetes e\ndemais produtos de loteria, bingos, cartões, pules 2% até 31 de dezembro de 2036\nou cupons de apostas, sorteios, prêmios,\n19.01            inclusive os decorrentes de títulos de\ncapitalização e congêneres.\n................................................................................................................................................” (NR)"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 6,
-   "dispositivos": 7,
+   "dispositivos": 8,
    "cobertura": 0.969,
    "blocosDeAlteracao": 4,
    "anexos": [

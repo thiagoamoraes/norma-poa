@@ -2,8 +2,8 @@
  "idSapl": 41578,
  "rotulo": "Lei Complementar municipal nº 833, de 09 de março de 2018",
  "sha256Origem": "2646738ee74e4345f584d554baaa492dd069616393d12f0b021d096ff8d31eb6",
- "estruturadoEm": "2026-11-21T10:19:54.262Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:07.151Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "833",
@@ -17,7 +17,7 @@
  },
  "ementa": "Altera os limites da Área Especial de Interesse Institucional constituída pelo conjunto de terrenos ocupados pelo Complexo Hospitalar Conceição e altera o Anexo 1.1, o caput do art. 74-A e os incs. I, II, III, IV, caput e als. a, b e c, e V do parágrafo único do art. 74-A e inclui als. d no inc. IV e a e b no inc. V do parágrafo único do art. 74-A, todos na Lei Complementar nº 434, de 1º de dezembro de 1999 – Plano Diretor de Desenvolvimento Urbano Ambiental de Porto Alegre –, e alterações posteriores.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de março de 2018.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.\nANEXO",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de março de 2018.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -47,6 +47,14 @@
    "tipo": "artigo",
    "rotulo": "Art. 4º",
    "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO",
+   "semTexto": true
   }
  ],
  "verificacao": {
@@ -58,7 +66,7 @@
   ],
   "metricas": {
    "artigos": 4,
-   "dispositivos": 4,
+   "dispositivos": 5,
    "cobertura": 0.976,
    "blocosDeAlteracao": 1,
    "anexos": [

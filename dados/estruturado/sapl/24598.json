@@ -2,8 +2,8 @@
  "idSapl": 24598,
  "rotulo": "Lei Complementar municipal nº 189, de 27 de dezembro de 1988",
  "sha256Origem": "ba868355650f20aee8e5d360f32536c1837d0af8b581e752bd5508cb5cca613e",
- "estruturadoEm": "2026-11-21T10:20:07.062Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:20.835Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -72,7 +72,8 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido"
+   "cabecalho_nao_reconhecido",
+   "fecho_com_texto_demais"
   ],
   "avisos": [
    "texto_de_ocr"

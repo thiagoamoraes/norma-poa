@@ -16,7 +16,7 @@ const reg = (id) => regs.find((r) => r.idSapl === id);
 const roda = (id, arq) => estruturarNorma(prepararTextoExtraido(fs.readFileSync(arq, 'utf8')), reg(id)).verificacao;
 
 const v1 = roda(38364, './dados/textos/sapl/38364.txt');
-ok('id 38364 (real, 5 cópias, título depois de várias linhas em branco): sem "trecho_nao_localizado" nem "texto_fora_da_arvore" e aceita', !v1.motivos.includes('trecho_nao_localizado_na_origem') && !v1.motivos.includes('texto_fora_da_arvore') && v1.situacao === 'aceita');
+ok('id 38364 (real, 5 cópias, título depois de várias linhas em branco): sem "trecho_nao_localizado" nem "texto_fora_da_arvore"; o único motivo que sobra é a tabela no corpo (decisão 39)', !v1.motivos.includes('trecho_nao_localizado_na_origem') && !v1.motivos.includes('texto_fora_da_arvore') && v1.motivos.every((m) => m === 'tabela_no_corpo'));
 const v2 = roda(37136, './fixtures/textos/residuo_37136.txt');
 ok('id 37136 (real, "Art .10."): aceita, sem motivos', v2.situacao === 'aceita' && v2.motivos.length === 0);
 ok('"Art .10." vira "Art. 10." e "Art . 59 -" (espaço dos dois lados) fica como está (sintético)', colarPontoDoArtigo('  Art .10. Texto\n  Art . 59 - Outro') === '  Art. 10. Texto\n  Art . 59 - Outro');

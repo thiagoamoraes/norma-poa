@@ -2,8 +2,8 @@
  "idSapl": 24152,
  "rotulo": "Lei Complementar municipal nº 176, de 29 de janeiro de 1988",
  "sha256Origem": "ba8f77c63446135fedccfb9edcc6d3d349ecfcdc2733df88324da394455eef23",
- "estruturadoEm": "2026-11-21T10:20:07.125Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:20.909Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -37,7 +37,8 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido"
+   "cabecalho_nao_reconhecido",
+   "fecho_com_texto_demais"
   ],
   "avisos": [
    "texto_de_ocr"

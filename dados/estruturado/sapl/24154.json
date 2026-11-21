@@ -2,8 +2,8 @@
  "idSapl": 24154,
  "rotulo": "Lei Complementar municipal nº 177, de 03 de fevereiro de 1988",
  "sha256Origem": "0aced265c43b367367792c050c03fa639d80ae380922efd82a74933f57ad788e",
- "estruturadoEm": "2026-11-21T10:20:07.107Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:20.889Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -179,6 +179,7 @@
   "motivos": [
    "cabecalho_nao_reconhecido",
    "sem_fecho",
+   "tabela_no_corpo",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [
@@ -189,6 +190,10 @@
    "dispositivos": 22,
    "cobertura": 0.979,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 4,
+    "ate": 426
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

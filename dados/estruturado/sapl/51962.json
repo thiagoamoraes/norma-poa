@@ -2,8 +2,8 @@
  "idSapl": 51962,
  "rotulo": "Lei municipal nº 14.688, de 12 de novembro de 2026",
  "sha256Origem": "0032456169e9b86d9b738a1e65219f42f264f00a5fc8ff289ebfe62d7e035aff",
- "estruturadoEm": "2026-11-21T10:20:08.710Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.213Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14688",
@@ -17,7 +17,7 @@
  },
  "ementa": "Denomina Orlandina Alves o logradouro conhecido como Acesso N – Superquadra Quatro, Primeira Unidade Vicinal – Vila Nova Restinga, localizado no Bairro Restinga.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de novembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.688\n26.0.000167105-6             12.11.2026",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de novembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -39,6 +39,14 @@
    "tipo": "artigo",
    "rotulo": "Art. 2º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n14.688\n26.0.000167105-6             12.11.2026",
+   "semTexto": true
   }
  ],
  "verificacao": {
@@ -50,7 +58,7 @@
   ],
   "metricas": {
    "artigos": 2,
-   "dispositivos": 3,
+   "dispositivos": 4,
    "cobertura": 0.945,
    "blocosDeAlteracao": 0,
    "anexos": [

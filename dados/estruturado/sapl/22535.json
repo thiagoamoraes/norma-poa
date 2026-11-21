@@ -2,8 +2,8 @@
  "idSapl": 22535,
  "rotulo": "Lei Complementar municipal nº 87, de 08 de novembro de 1983",
  "sha256Origem": "25dee27076717d30eee155453557ad8dd9daca4f6763111f094cc6e1bdf9dbf7",
- "estruturadoEm": "2026-11-21T10:20:08.067Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:21.618Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -51,7 +51,8 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido"
+   "cabecalho_nao_reconhecido",
+   "fecho_com_texto_demais"
   ],
   "avisos": [
    "texto_de_ocr"

@@ -2,8 +2,8 @@
  "idSapl": 22711,
  "rotulo": "Lei Complementar municipal nº 106, de 27 de abril de 1984",
  "sha256Origem": "fcb434e447a5c363d8099acc21c9b7676e58fcb2f4b1af1d36dc37d9a74cff62",
- "estruturadoEm": "2026-11-21T10:20:07.983Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:21.539Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -59,6 +59,7 @@
   "situacao": "revisar",
   "motivos": [
    "cabecalho_nao_reconhecido",
+   "tabela_no_corpo",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
@@ -67,6 +68,10 @@
    "dispositivos": 5,
    "cobertura": 0.974,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 11,
+    "ate": 33
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

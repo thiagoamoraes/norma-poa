@@ -2,8 +2,8 @@
  "idSapl": 51765,
  "rotulo": "Lei municipal nº 14.652, de 16 de setembro de 2026",
  "sha256Origem": "5468ce33f683d39993073ee0517f8fb7b543970b3ced368c5cf7d01abc282a89",
- "estruturadoEm": "2026-11-21T10:20:08.910Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.378Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14652",
@@ -17,7 +17,7 @@
  },
  "ementa": "Denomina Helio Francisco Fabricio de Souza o logradouro conhecido como Acesso Cento e Vinte e Dois, localizado no Bairro Chapéu do Sol, e altera sua categoria para Rua.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 16 de setembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.652\n26.0.000133937-0              16.09.2026",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 16 de setembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -47,6 +47,14 @@
    "tipo": "artigo",
    "rotulo": "Art. 3º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n14.652\n26.0.000133937-0              16.09.2026",
+   "semTexto": true
   }
  ],
  "verificacao": {
@@ -58,7 +66,7 @@
   ],
   "metricas": {
    "artigos": 3,
-   "dispositivos": 4,
+   "dispositivos": 5,
    "cobertura": 0.933,
    "blocosDeAlteracao": 0,
    "anexos": [

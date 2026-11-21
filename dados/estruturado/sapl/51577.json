@@ -2,8 +2,8 @@
  "idSapl": 51577,
  "rotulo": "Lei municipal nº 14.617, de 31 de julho de 2026",
  "sha256Origem": "110af0a2e5e14c4587c8265c165392ef26e608d36c37405a525cc13e06cefc3f",
- "estruturadoEm": "2026-11-21T10:20:09.064Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.500Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14617",
@@ -17,7 +17,7 @@
  },
  "ementa": "LEI Nº 14.617, DE 31 DE JULHO DE 2026. Cria 10 (dez) cargos de Fonoaudiólogo e extingue 9 (nove) cargos de Laboratorista de Solos e Asfalto, 17 (dezessete) cargos de Operário Especializado e 18 (dezoito) cargos de Operador de Rede, todos de provimento efetivo, no Quadro dos Cargos de Provimento Efetivo da Administração Centralizada do Município de Porto Alegre, constante da letra “a” do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\n“ANEXO I\n............................................................................................................................\nES - GRUPO EXECUTIVO E ASSESSORAMENTO SUPERIOR\nFonoaudiólogo, código ES-1.37.NS, referências A, B, C e D: 33 cargos\n...........................................................................................................................\nOB - GRUPO OBRAS\nOperário Especializado, código OB-1.07.02, referência A, B, C e D: 233 cargos\n.........................................................................................................................” (NR)",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -81,19 +81,25 @@
    "tipo": "artigo",
    "rotulo": "Art. 5º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“ANEXO I\n............................................................................................................................\nES - GRUPO EXECUTIVO E ASSESSORAMENTO SUPERIOR\nFonoaudiólogo, código ES-1.37.NS, referências A, B, C e D: 33 cargos\n...........................................................................................................................\nOB - GRUPO OBRAS\nOperário Especializado, código OB-1.07.02, referência A, B, C e D: 233 cargos\n.........................................................................................................................” (NR)"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 5,
-   "dispositivos": 9,
+   "dispositivos": 10,
    "cobertura": 0.97,
    "blocosDeAlteracao": 0,
    "anexos": [

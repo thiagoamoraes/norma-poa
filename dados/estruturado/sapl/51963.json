@@ -2,8 +2,8 @@
  "idSapl": 51963,
  "rotulo": "Lei municipal nº 14.689, de 12 de novembro de 2026",
  "sha256Origem": "9e9bdf20276185f73c812dd2760a2d13b4c216d6895509e4ea7b3eefcdce03a6",
- "estruturadoEm": "2026-11-21T10:20:08.707Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.210Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14689",
@@ -17,7 +17,7 @@
  },
  "ementa": "Denomina Vitor Hugo Xavier Branco o logradouro conhecido como Praça Dois – Superquadra Três, Segunda Unidade Vicinal – Vila Nova Restinga, localizado no Bairro Restinga.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de novembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.689\n26.0.000166644-3               12.11.2026",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de novembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -39,6 +39,14 @@
    "tipo": "artigo",
    "rotulo": "Art. 2º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n14.689\n26.0.000166644-3               12.11.2026",
+   "semTexto": true
   }
  ],
  "verificacao": {
@@ -50,7 +58,7 @@
   ],
   "metricas": {
    "artigos": 2,
-   "dispositivos": 3,
+   "dispositivos": 4,
    "cobertura": 0.94,
    "blocosDeAlteracao": 0,
    "anexos": [

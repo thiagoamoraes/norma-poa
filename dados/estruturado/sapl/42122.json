@@ -2,8 +2,8 @@
  "idSapl": 42122,
  "rotulo": "Lei Complementar municipal nº 853, de 02 de julho de 2019",
  "sha256Origem": "149ece298dd636f887ae56e24109cd3896974a6dbfd3308759359e16b74e3603",
- "estruturadoEm": "2026-11-21T10:19:54.088Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:06.964Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "853",
@@ -17,7 +17,7 @@
  },
  "ementa": "Cria as Subunidades 05 e 06 na Unidade de Estruturação Urbana (UEU) 92 da Macrozona (MZ) 3, altera os limites definidos da Área de Interesse Institucional (AII) localizada na Subunidade 01 e os limites da Subunidade 02 na UEU 92 da MZ 3 e define os Regimes Urbanísticos para as Subunidades 05 e 06, alterando os Anexos 1.1 e 1.2 da Lei Complementar nº 434, de 1º de dezembro de 1999 – que dispõe sobre o desenvolvimento urbano no Município de Porto Alegre, institui o Plano Diretor de Desenvolvimento Urbano Ambiental de Porto Alegre e dá outras providências –, e alterações    posteriores,  e    estabelece  a Transferência de Potencial Construtivo (TPC) para a área que especifica.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de julho de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.\nANEXO",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de julho de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -60,20 +60,34 @@
    "tipo": "artigo",
    "rotulo": "Art. 5º",
    "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO",
+   "semTexto": true
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "tabela_no_corpo"
+  ],
   "avisos": [
    "tem_anexo",
    "anexo_grafico_nao_lido"
   ],
   "metricas": {
    "artigos": 5,
-   "dispositivos": 6,
+   "dispositivos": 7,
    "cobertura": 0.967,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 5,
+    "ate": 46
+   },
    "anexos": [
     {
      "cabecalho": "ANEXO",

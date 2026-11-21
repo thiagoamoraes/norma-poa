@@ -2,8 +2,8 @@
  "idSapl": 51748,
  "rotulo": "Lei municipal nº 14.649, de 14 de setembro de 2026",
  "sha256Origem": "6bdd4c697c715583d672a5f4971a540962e9ee1f5985251d8225ff73cd664dfc",
- "estruturadoEm": "2026-11-21T10:20:08.922Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.387Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14649",
@@ -17,7 +17,7 @@
  },
  "ementa": "LEI Nº 14.649, DE 14 DE SETEMBRO DE 2026. Denomina Azusa o logradouro conhecido como Beco Um Rua Porto Rico, localizado no Bairro Lomba do Pinheiro.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 14 de setembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.649\n26.0.000136651-2                14.09.2026",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 14 de setembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -39,6 +39,14 @@
    "tipo": "artigo",
    "rotulo": "Art. 2º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n14.649\n26.0.000136651-2                14.09.2026",
+   "semTexto": true
   }
  ],
  "verificacao": {
@@ -50,7 +58,7 @@
   ],
   "metricas": {
    "artigos": 2,
-   "dispositivos": 3,
+   "dispositivos": 4,
    "cobertura": 0.958,
    "blocosDeAlteracao": 0,
    "anexos": [

@@ -2,8 +2,8 @@
  "idSapl": 21358,
  "rotulo": "Lei Complementar municipal nº 53, de 29 de dezembro de 1980",
  "sha256Origem": "aec5f6790c0ee7a56485ad1621de701ddd19d6741ee138551c6447eb55568bee",
- "estruturadoEm": "2026-11-21T10:20:08.284Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:21.822Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -32,6 +32,7 @@
   "motivos": [
    "cabecalho_nao_reconhecido",
    "sem_fecho",
+   "tabela_no_corpo",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
@@ -40,6 +41,10 @@
    "dispositivos": 1,
    "cobertura": 0.99,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 4,
+    "ate": 35
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

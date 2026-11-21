@@ -2,8 +2,8 @@
  "idSapl": 8079,
  "rotulo": "Lei Orgânica-PMPA nº 1, de 05 de março de 1936",
  "sha256Origem": "40556e2685206e64bc86810079fece731dd9d60cd64141e2baf87a71e6301a51",
- "estruturadoEm": "2026-11-21T10:19:50.728Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:03.736Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -634,6 +634,7 @@
    "cabecalho_nao_reconhecido",
    "tipo_sem_suporte",
    "sem_fecho",
+   "tabela_no_corpo",
    "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem",
@@ -648,6 +649,10 @@
    "dispositivos": 83,
    "cobertura": 0.838,
    "blocosDeAlteracao": 2,
+   "tabelaNoCorpo": {
+    "linhas": 7,
+    "ate": 672
+   },
    "lacunas": [
     {
      "tamanho": 1684,

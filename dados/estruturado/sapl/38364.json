@@ -2,8 +2,8 @@
  "idSapl": 38364,
  "rotulo": "Lei Complementar municipal nº 701, de 18 de julho de 2012",
  "sha256Origem": "afd05bf584b641a46c34b2331d0369d857684afbf2ff5243076ae32aa0011bcf",
- "estruturadoEm": "2026-11-21T10:19:55.427Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:08.646Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "701",
@@ -3757,8 +3757,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "tabela_no_corpo"
+  ],
   "avisos": [
    "cabecalho_fora_do_padrao"
   ],
@@ -3767,6 +3769,10 @@
    "dispositivos": 490,
    "cobertura": 0.96,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 4,
+    "ate": 2510
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

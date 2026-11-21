@@ -2,8 +2,8 @@
  "idSapl": 49096,
  "rotulo": "Lei Complementar municipal nº 1.019, de 13 de agosto de 2024",
  "sha256Origem": "a2023cc0efc939631546013b5654480a2e12097ac0ac322506880e042a4d389a",
- "estruturadoEm": "2026-11-21T10:19:52.515Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:05.463Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1019",
@@ -17,7 +17,7 @@
  },
  "ementa": "PLCL Nº 019/24 SEI Nº 039.00047/2024-21 LEI COMPLEMENTAR Nº 1.019, DE 13 DE AGOSTO DE 2024. Altera os limites das Subunidades 1 e 3 da Unidade de Estruturação Urbana (UEU) 48 da Macrozona (MZ) 8, cria a Subunidade 8 na UEU 48 da MZ 8 e define seu regime urbanístico, incluindo-os nos Anexos 1.1 e 1.2 da Lei Complementar nº 434, de 1º de dezembro de 1999 – Plano Diretor de Desenvolvimento Urbano e Ambiental (PDDUA). O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei Complementar nº 1.019, de 13 de agosto de 2024, como segue:",
  "preambulo": null,
- "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 13 DE AGOSTO DE 2024.\nANEXO",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 13 DE AGOSTO DE 2024.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -116,6 +116,14 @@
    "tipo": "artigo",
    "rotulo": "Art. 5º",
    "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO",
+   "semTexto": true
   }
  ],
  "verificacao": {
@@ -127,7 +135,7 @@
   ],
   "metricas": {
    "artigos": 5,
-   "dispositivos": 14,
+   "dispositivos": 15,
    "cobertura": 0.969,
    "blocosDeAlteracao": 0,
    "anexos": [

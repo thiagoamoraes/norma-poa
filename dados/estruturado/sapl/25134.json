@@ -2,8 +2,8 @@
  "idSapl": 25134,
  "rotulo": "Lei Complementar municipal nº 204, de 28 de dezembro de 1989",
  "sha256Origem": "dca1aee52e96bf583efea354573d10357e7f8a0b4266e50eeece8f5aef2d8a0b",
- "estruturadoEm": "2026-11-21T10:20:06.994Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:20.751Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -98,6 +98,7 @@
   "motivos": [
    "cabecalho_nao_reconhecido",
    "sem_fecho",
+   "tabela_no_corpo",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
@@ -106,6 +107,10 @@
    "dispositivos": 10,
    "cobertura": 0.986,
    "blocosDeAlteracao": 3,
+   "tabelaNoCorpo": {
+    "linhas": 11,
+    "ate": 115
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

@@ -2,8 +2,8 @@
  "idSapl": 26970,
  "rotulo": "Lei Complementar municipal nº 293, de 28 de abril de 1993",
  "sha256Origem": "ab1d8764fb223089f59178615f14076591bb4c65367928135914a1af462c8fe6",
- "estruturadoEm": "2026-11-21T10:20:06.146Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:19.919Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "293",
@@ -18,7 +18,7 @@
  },
  "ementa": "oL; OO..d1 t; IJ .•L t1~~ LEI      COMPLEMENTAR    Nº 293 Altera o art. 13 da Lei Complementar nº 267, de 16 de janeiro de 1992, e institui a gratifica ção sob a forma de \"jetton\" aos representantes de Conselhos Municipais.",
  "preambulo": "O PREFEITO         MUNICIPAL    DE PORTO ALEGRE. Faço saber que a Câmara                  Municipal    aprovou           e eu san ciono a seguinte Lei Complementar:",
- "fecho": "PREFEITURA   MUNICIPAL DE PORTO ALEGRE\nr\n.....                                                                          2\nArt.   5º - Revogam-se   as disposições   em contrário.\nPREFEITURA   MUNICIPAL   DE PORTO ALEGRE,   28 de   abril\nde 1993.\nTarso~,\nPrefeito.\nJorge Santos Buchabqui,\nSecretário Municipal de Administração.\ne publique-se.\nRaul Pont,\nSecretário    do Governo      Municipal.\nI\nI\nI\nI\nL\n/KO\n\"'REF~TURA MUNICiPAL DE PORTO ALEGRE\n037\n-,\nr\nANEXO   I\nCONSELHOS    COM A PREVISÃO   DE \"JETTON\"\n(§   22 DO ART.    13 DA LEI COMPLEMENTAR   Nº 267/92)\n_ Conselho Municipal de Administração  de Pessoal (COMAP)\n_ Conselho Municipal de Contribuintes  (CMC)\n_ Conselho Municipal de Compras (COMP)\n_ Conselho Municipal de Saúde e Bem-Estar Social (COMSABES)\n_ Conselho Municipal\" de Turismo (CONTUR)\n_ Conselho Municipal dos TransEortes Ur9anos (COMTU)\n_ Conselho Municipal do Patrimonio Historico e Cultural (COMPAHC)\nConselho Municipal do Plano Diretor de Desenvolvimento Urba-no (CMPDDU)\n_ Conselho Deliberativo  do DMAE\n_ Conselho Deliberativo do DMLU\n_ Conselho Deliberativo  do DEMHAB\n_ comissão Consultiva para Proteção contra Incêndio\n_ Comissão de Alienação de Imóveis\nComissão Consultiva do Código de Edificações\n_ Conselho Municipal de Educação\nI\nI\nI\nI                                                                             --'\nL",
+ "fecho": "PREFEITURA   MUNICIPAL DE PORTO ALEGRE\nr\n.....                                                                          2\nArt.   5º - Revogam-se   as disposições   em contrário.\nPREFEITURA   MUNICIPAL   DE PORTO ALEGRE,   28 de   abril\nde 1993.\nTarso~,\nPrefeito.\nJorge Santos Buchabqui,\nSecretário Municipal de Administração.\ne publique-se.\nRaul Pont,\nSecretário    do Governo      Municipal.\nI\nI\nI\nI\nL\n/KO\n\"'REF~TURA MUNICiPAL DE PORTO ALEGRE\n037\n-,\nr",
  "dispositivos": [
   {
    "id": "art-1",
@@ -48,20 +48,26 @@
    "tipo": "artigo",
    "rotulo": "Art. 4º",
    "texto": "Esta                Lei Complementar        entra    em vigor                 na data de sua publicação. -@r L                                                                                                 J ...   ..• PROCESSO     ~     ~     RUBRICA FONH                               pAG .93.    x"
+  },
+  {
+   "id": "anexo-i",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO   I",
+   "texto": "ANEXO   I\nCONSELHOS    COM A PREVISÃO   DE \"JETTON\"\n(§   22 DO ART.    13 DA LEI COMPLEMENTAR   Nº 267/92)\n_ Conselho Municipal de Administração  de Pessoal (COMAP)\n_ Conselho Municipal de Contribuintes  (CMC)\n_ Conselho Municipal de Compras (COMP)\n_ Conselho Municipal de Saúde e Bem-Estar Social (COMSABES)\n_ Conselho Municipal\" de Turismo (CONTUR)\n_ Conselho Municipal dos TransEortes Ur9anos (COMTU)\n_ Conselho Municipal do Patrimonio Historico e Cultural (COMPAHC)\nConselho Municipal do Plano Diretor de Desenvolvimento Urba-no (CMPDDU)\n_ Conselho Deliberativo  do DMAE\n_ Conselho Deliberativo do DMLU\n_ Conselho Deliberativo  do DEMHAB\n_ comissão Consultiva para Proteção contra Incêndio\n_ Comissão de Alienação de Imóveis\nComissão Consultiva do Código de Edificações\n_ Conselho Municipal de Educação\nI\nI\nI\nI                                                                             --'\nL"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
    "cabecalho_fora_do_padrao",
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 4,
-   "dispositivos": 4,
+   "dispositivos": 5,
    "cobertura": 0.975,
    "blocosDeAlteracao": 1,
    "anexos": [

@@ -2,8 +2,8 @@
  "idSapl": 23237,
  "rotulo": "Lei Complementar municipal nº 128, de 27 de novembro de 1985",
  "sha256Origem": "1895b1c2d45c881b2e01fad222364e5e9449a1a01bba575b605d545ef1a359d1",
- "estruturadoEm": "2026-11-21T10:20:07.884Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:21.452Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -395,6 +395,7 @@
   "situacao": "revisar",
   "motivos": [
    "cabecalho_nao_reconhecido",
+   "tabela_no_corpo",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
@@ -403,6 +404,10 @@
    "dispositivos": 53,
    "cobertura": 0.975,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 4,
+    "ate": 110
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

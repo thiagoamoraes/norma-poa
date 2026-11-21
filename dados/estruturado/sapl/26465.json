@@ -2,8 +2,8 @@
  "idSapl": 26465,
  "rotulo": "Lei Complementar municipal nº 277, de 20 de maio de 1992",
  "sha256Origem": "3e58f78baac0c55af1d2bc10897ff44eb8633757d6a9f48c13a817c79294518e",
- "estruturadoEm": "2026-11-21T10:20:06.503Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:20.259Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "277",
@@ -87,6 +87,7 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
+   "fecho_com_texto_demais",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [

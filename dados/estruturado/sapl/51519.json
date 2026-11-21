@@ -2,8 +2,8 @@
  "idSapl": 51519,
  "rotulo": "Lei municipal nº 14.590, de 24 de julho de 2026",
  "sha256Origem": "2d1c7408a50349f0ea438dfb117f81eda981aef5a3ef68c2232240508decd783",
- "estruturadoEm": "2026-11-21T10:20:09.176Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.610Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14590",
@@ -17,7 +17,7 @@
  },
  "ementa": "Denomina Recanto das Aves o logradouro conhecido como Travessa Caxias, localizado no Bairro Partenon.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 24 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.590\n26.0.000109665-5             24.07.2026",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 24 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -32,6 +32,14 @@
    "tipo": "artigo",
    "rotulo": "Art. 2º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n14.590\n26.0.000109665-5             24.07.2026",
+   "semTexto": true
   }
  ],
  "verificacao": {
@@ -43,7 +51,7 @@
   ],
   "metricas": {
    "artigos": 2,
-   "dispositivos": 2,
+   "dispositivos": 3,
    "cobertura": 0.944,
    "blocosDeAlteracao": 0,
    "anexos": [

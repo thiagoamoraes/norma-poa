@@ -2,8 +2,8 @@
  "idSapl": 25132,
  "rotulo": "Lei Complementar municipal nº 202, de 28 de dezembro de 1989",
  "sha256Origem": "e352ca94bcfad2ad03a6b68a923b790d537e5c5ff3f53a77cf6be15899d02bf3",
- "estruturadoEm": "2026-11-21T10:20:07.003Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:20.765Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "202",
@@ -139,6 +139,7 @@
   "situacao": "revisar",
   "motivos": [
    "promulgacao_parcial",
+   "tabela_no_corpo",
    "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem",
@@ -152,6 +153,10 @@
    "dispositivos": 16,
    "cobertura": 0.71,
    "blocosDeAlteracao": 1,
+   "tabelaNoCorpo": {
+    "linhas": 5,
+    "ate": 94
+   },
    "lacunas": [
     {
      "tamanho": 713,

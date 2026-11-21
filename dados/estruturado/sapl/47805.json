@@ -2,8 +2,8 @@
  "idSapl": 47805,
  "rotulo": "Lei Complementar municipal nº 998, de 21 de dezembro de 2023",
  "sha256Origem": "24c4930629ccccf1269bb24e16aed09acc819adb9d11c1950fdb38e6036ea325",
- "estruturadoEm": "2026-11-21T10:19:52.729Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:05.634Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "998",
@@ -17,7 +17,7 @@
  },
  "ementa": "Altera o § 11 do art. 20 e os subitens 7.02 e 7.05 da Tabela XII e revoga o item 3 da al. a do § 1º do art. 20 e o inc. I com suas alíneas e o inc. II do § 11 do art. 20, todos da Lei Complementar nº 7, de 7 de dezembro de 1973, e alterações posteriores, que institui e disciplina os tributos de competência do Município, para dispor acerca da base de cálculo dos serviços a que se refere o subitem 22.01, da revogação da receita presumida como preço do serviço para os serviços enquadrados nos subitens 7.02 e 7.05 da Lista de Serviços, e da redução das alíquotas dos serviços enquadrados nos subitens 7.02 e 7.05 para 2,5% até 31 de dezembro de 2038.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de dezembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.\nANEXO\n“Tabela XII\n........................................................................................................................................................\n7.02\nExecução, por administração, empreitada ou subempreitada, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).\n2,5% até 31 de dezembro de 2038\n........................................................................................................................................................\n7.05\nReparação, conservação e reforma de edifícios, estradas, pontes, portos e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).\n2,5% até 31 de dezembro de 2038\n.......................................................................................................................” (NR)",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de dezembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -61,19 +61,25 @@
    "tipo": "inciso",
    "rotulo": "II –",
    "texto": "o inc. I com suas alíneas e o inc. II do § 11 do art. 20."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“Tabela XII\n........................................................................................................................................................\n7.02\nExecução, por administração, empreitada ou subempreitada, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).\n2,5% até 31 de dezembro de 2038\n........................................................................................................................................................\n7.05\nReparação, conservação e reforma de edifícios, estradas, pontes, portos e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).\n2,5% até 31 de dezembro de 2038\n.......................................................................................................................” (NR)"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 4,
-   "dispositivos": 6,
+   "dispositivos": 7,
    "cobertura": 0.971,
    "blocosDeAlteracao": 1,
    "anexos": [

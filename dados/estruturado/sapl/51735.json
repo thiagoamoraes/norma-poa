@@ -2,8 +2,8 @@
  "idSapl": 51735,
  "rotulo": "Lei Complementar municipal nº 1.081, de 10 de setembro de 2026",
  "sha256Origem": "6aad1c22fa5acf72801d17881f0b9f2abf845b391040461a31999a495fd1a43d",
- "estruturadoEm": "2026-11-21T10:19:51.187Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:04.197Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1081",
@@ -17,7 +17,7 @@
  },
  "ementa": "LEI COMPLEMENTAR Nº 1.081, DE 10 DE SETEMBRO DE 2026. Inclui inc. X no caput do art. 2º e altera o inc. X do caput do art. 3º da Lei nº 5.994, de 25 de novembro de 1987, dispondo sobre o Fundo Municipal para Restauração, Reforma e Manutenção do Patrimônio Imobiliário do Município de Porto Alegre; e inclui Capítulo IV-A com arts. 29-A a 29-I, art. 33-B e itens 7 a 11 no Anexo III, todos na Lei Complementar nº 942, de 25 de maio de 2022, dispondo sobre as permissões, concessões e autorizações de uso de bens públicos e sobre a alienação de imóveis municipais.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de setembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\n“ANEXO III\n....................................................................................................................................\nITEM LOGRADOURO                  BAIRRO                   Nº            ÁREA            MATRÍCULA ZONA                               PD\n7     Av. Farrapos             Navegantes              4731            627,82               212.723                   4ª         0086 e\n1786\n8     Av. Ipiranga                Menino                310          2.225,15                20.943                   5ª         2345.3\nDeus\n9    Rua Tamandaré                 Cristal              250            495,35               235.938                   3ª          7963\n10    Rua Dr. João             Navegantes 247/257 1.056,00                                    5.819                   1ª         7980.1\nInácio\n11    Rua Dr. João             Navegantes               267            864,51                 5.818                   1ª         7980.2\nInácio\n” (NR)",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de setembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -71,19 +71,25 @@
    "tipo": "artigo",
    "rotulo": "Art. 7º",
    "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“ANEXO III\n....................................................................................................................................\nITEM LOGRADOURO                  BAIRRO                   Nº            ÁREA            MATRÍCULA ZONA                               PD\n7     Av. Farrapos             Navegantes              4731            627,82               212.723                   4ª         0086 e\n1786\n8     Av. Ipiranga                Menino                310          2.225,15                20.943                   5ª         2345.3\nDeus\n9    Rua Tamandaré                 Cristal              250            495,35               235.938                   3ª          7963\n10    Rua Dr. João             Navegantes 247/257 1.056,00                                    5.819                   1ª         7980.1\nInácio\n11    Rua Dr. João             Navegantes               267            864,51                 5.818                   1ª         7980.2\nInácio\n” (NR)"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 7,
-   "dispositivos": 7,
+   "dispositivos": 8,
    "cobertura": 0.996,
    "blocosDeAlteracao": 4,
    "anexos": [

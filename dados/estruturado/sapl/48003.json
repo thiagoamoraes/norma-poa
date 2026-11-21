@@ -2,8 +2,8 @@
  "idSapl": 48003,
  "rotulo": "Lei Complementar municipal nº 1.005, de 08 de fevereiro de 2024",
  "sha256Origem": "348fd1522feb9515cdfa3eb6596435182b586720bd3a4e9a69d721ae977668bd",
- "estruturadoEm": "2026-11-21T10:19:52.666Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:05.579Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1005",
@@ -17,7 +17,7 @@
  },
  "ementa": "Cria o Sistema Municipal de Proteção e Defesa Civil, a Defesa Civil de Porto Alegre (DCPA) no Gabinete do Prefeito (GP) e dá outras providências.",
  "preambulo": null,
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de fevereiro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.\nANEXO\n“ANEXO I\n....................................................................................................................................\nc) ..............................................................................................................................\nI – .............................................................................................................................\n1. ...............................................................................................................................\nDiretor-Geral – CC8 (1.1.2.8) - 39;\nCoordenador – CC7 (1.1.2.7) - 69;\n.........................................................................................................................” (NR)",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de fevereiro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -223,19 +223,25 @@
    "tipo": "artigo",
    "rotulo": "Art. 14.",
    "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“ANEXO I\n....................................................................................................................................\nc) ..............................................................................................................................\nI – .............................................................................................................................\n1. ...............................................................................................................................\nDiretor-Geral – CC8 (1.1.2.8) - 39;\nCoordenador – CC7 (1.1.2.7) - 69;\n.........................................................................................................................” (NR)"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 14,
-   "dispositivos": 29,
+   "dispositivos": 30,
    "cobertura": 0.96,
    "blocosDeAlteracao": 2,
    "anexos": [

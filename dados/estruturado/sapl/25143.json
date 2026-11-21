@@ -2,8 +2,8 @@
  "idSapl": 25143,
  "rotulo": "Lei Complementar municipal nº 213, de 28 de dezembro de 1989",
  "sha256Origem": "5e2b293045f123278520cc926a41c6fb361ff6d9a67ba89b1a5a8f938345d510",
- "estruturadoEm": "2026-11-21T10:20:06.898Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:20.654Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "213",
@@ -101,6 +101,7 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
+   "fecho_com_texto_demais",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [

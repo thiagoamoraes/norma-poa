@@ -2,8 +2,8 @@
  "idSapl": 11440,
  "rotulo": "Lei Orgânica nº 1, de 21 de setembro de 1956",
  "sha256Origem": "96cf87f3c17ebc4ac7a1798e394468bd8c27c085b0f1f584b480c9316e851440",
- "estruturadoEm": "2026-11-21T10:19:50.505Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:03.557Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -2544,6 +2544,7 @@
    "cabecalho_nao_reconhecido",
    "tipo_sem_suporte",
    "sem_fecho",
+   "tabela_no_corpo",
    "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
@@ -2556,6 +2557,10 @@
    "dispositivos": 352,
    "cobertura": 0.963,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 11,
+    "ate": 964
+   },
    "lacunas": [
     {
      "tamanho": 440,

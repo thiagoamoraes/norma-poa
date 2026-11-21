@@ -193,13 +193,15 @@ export function roteiroDeConferencia(motivos, texto, dispositivos = [], contexto
     const f = fichaDoArquivo(contexto.arquivo);
     out.push({ chave: 'arquivo', titulo: 'O que o arquivo parece ser', instrucao: f.instrucao, trecho: f.ficha });
   }
-  if (ms.has('anexo_nao_lido')) {
-    const an = contexto.anexos || [];
-    const i = L.findIndex((l) => /^\s*ANEXO\b/.test(l) && L.findIndex((x, k) => k < L.indexOf(l) && /Registre-se|publique-se/i.test(x)) >= 0);
-    const lista = an.map((x) => `${x.cabecalho} — ${x.linhas} linha(s), ${x.caracteres} caracteres${x.graficoOuTitulo ? ' (só título/gráfico)' : ''}`).join('\n');
-    out.push({ chave: 'anexos', titulo: 'Anexo que o motor não leu',
-      instrucao: 'O articulado foi lido e conferido; o ANEXO (texto ou tabela) vem depois do fecho e o motor não lê anexos. Confira no original se o anexo existe, se é o que a ementa descreve e se não é um anexo vetado ou de outra lei. Aceitar significa só "o articulado está certo".',
-      trecho: lista + (i >= 0 ? '\n\n' + L.slice(i, i + 14).join('\n') : '') });
+  if (ms.has('fecho_com_texto_demais')) {
+    out.push({ chave: 'fecho_longo', titulo: 'Confira o que vem depois da assinatura',
+      instrucao: 'O fecho (local, data e assinaturas) tem em regra uns 200 caracteres; este tem mais de 600 fora do carimbo de assinatura eletrônica. Pode ser texto de outro ato, tabela ou quadro sem cabeçalho de anexo, ou lixo da extração. Se for parte da lei, aceitar significa "o articulado está certo"; se for outro texto, marque "defeito de fonte".',
+      trecho: L.slice(-24).join('\n') });
+  }
+  if (ms.has('tabela_no_corpo') && contexto.tabela) {
+    out.push({ chave: 'tabela', titulo: 'Tabela no meio do ato',
+      instrucao: `Foram achadas ${contexto.tabela.linhas} ou mais linhas com colunas (tabela de PDF) no articulado. O motor não lê tabelas: o texto da tabela ficou colado ao dispositivo anterior. Confira no original a tabela e o dispositivo que a introduz; aceitar significa que o articulado e a tabela estão preservados na ordem certa.`,
+      trecho: contexto.tabela.trecho || '' });
   }
   if (ms.has('rotulo_nao_confere_com_a_origem')) {
     const grupos = agruparDeslocamentos(dispositivos);
@@ -312,7 +314,8 @@ export const TITULOS_DE_MOTIVO = {
   numeracao_de_artigos_com_salto: 'Numeração dos artigos com salto',
   erro_do_leitor: 'O leitor falhou neste texto',
   bloco_sem_fechamento_de_aspas: 'Fim do bloco de alteração foi inferido',
-  anexo_nao_lido: 'Anexo com texto ou tabela que o motor não leu',
+  fecho_com_texto_demais: 'Texto demais depois do fecho (assinatura)',
+  tabela_no_corpo: 'Tabela no meio do ato, colada ao dispositivo anterior',
   aspa_de_abertura_ausente: 'Bloco de alteração sem aspa de abertura',
   alteracao_sem_aspas_nao_delimitada: 'Alteração anunciada, mas o bloco não foi lido',
 };

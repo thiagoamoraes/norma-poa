@@ -2,8 +2,8 @@
  "idSapl": 42407,
  "rotulo": "Lei Complementar municipal nº 875, de 21 de janeiro de 2020",
  "sha256Origem": "1490c3d11489e0a5f9a50ea263e35f3543eda8328abca1051a76e91efcda103e",
- "estruturadoEm": "2026-11-21T10:19:53.867Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:06.742Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "875",
@@ -17,7 +17,7 @@
  },
  "ementa": "Cria os cargos públicos de Agente Comunitário de Saúde (ACS) e Agente de Combate às Endemias (ACE) e dispõe sobre o processo seletivo público no âmbito do Executivo Municipal.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de janeiro de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município.\nANEXO\nCARGOS PÚBLICOS DE PROVIMENTO POR PROCESSO SELETIVO\nABREVIATURA        CARGA HORÁRIA Nº DE\nCARGO\nDO CARGO           SEMANAL       VAGAS\nAgente Comunitário de Saúde     ACS                40 HORAS      752\nAgente Combate às Endemias      ACE                40 HORAS      112\nTABELA DE VENCIMENTOS\nVencimento    Vencimento    Vencimento\nDENOMINAÇÃO DO CARGO\nPadrão    Básico        Básico        Básico\nPÚBLICO\n2019          2020          2021\nAgente Comunitário de Saúde     AC        R$ 1.250,00   R$ 1.400,00   R$ 1.550,00\nAgente de Combate às Endemias   AC        R$ 1.250,00   R$ 1.400,00   R$ 1.550,00",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de janeiro de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -1096,19 +1096,25 @@
    "tipo": "artigo",
    "rotulo": "Art. 27.",
    "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nCARGOS PÚBLICOS DE PROVIMENTO POR PROCESSO SELETIVO\nABREVIATURA        CARGA HORÁRIA Nº DE\nCARGO\nDO CARGO           SEMANAL       VAGAS\nAgente Comunitário de Saúde     ACS                40 HORAS      752\nAgente Combate às Endemias      ACE                40 HORAS      112\nTABELA DE VENCIMENTOS\nVencimento    Vencimento    Vencimento\nDENOMINAÇÃO DO CARGO\nPadrão    Básico        Básico        Básico\nPÚBLICO\n2019          2020          2021\nAgente Comunitário de Saúde     AC        R$ 1.250,00   R$ 1.400,00   R$ 1.550,00\nAgente de Combate às Endemias   AC        R$ 1.250,00   R$ 1.400,00   R$ 1.550,00"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 27,
-   "dispositivos": 147,
+   "dispositivos": 148,
    "cobertura": 0.977,
    "blocosDeAlteracao": 0,
    "anexos": [

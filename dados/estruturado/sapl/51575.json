@@ -2,8 +2,8 @@
  "idSapl": 51575,
  "rotulo": "Lei municipal nº 14.615, de 31 de julho de 2026",
  "sha256Origem": "c1a56bc4811f2d3f981cfbe55da5c59141768b5060267e7a5f8a9abb7949042d",
- "estruturadoEm": "2026-11-21T10:20:09.074Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.511Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14615",
@@ -17,7 +17,7 @@
  },
  "ementa": "LEI Nº 14.615, DE 31 DE JULHO DE 2026. Denomina Lino Pereira Leite o logradouro conhecido como Rua Três Mil e Noventa e Nove, localizado no Bairro Santa Rosa de Lima.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.615\n26.0.000109698-1               31.07.2026",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -32,6 +32,14 @@
    "tipo": "artigo",
    "rotulo": "Art. 2º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n14.615\n26.0.000109698-1               31.07.2026",
+   "semTexto": true
   }
  ],
  "verificacao": {
@@ -43,7 +51,7 @@
   ],
   "metricas": {
    "artigos": 2,
-   "dispositivos": 2,
+   "dispositivos": 3,
    "cobertura": 0.972,
    "blocosDeAlteracao": 0,
    "anexos": [

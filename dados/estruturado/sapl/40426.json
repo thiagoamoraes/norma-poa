@@ -2,8 +2,8 @@
  "idSapl": 40426,
  "rotulo": "Lei Complementar municipal nº 786, de 24 de dezembro de 2015",
  "sha256Origem": "6d6e6ea4a79e9d284155c9b7c1d35fe91b97b101451335d111c3f42ad7f129f1",
- "estruturadoEm": "2026-11-21T10:19:54.545Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:07.435Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "786",
@@ -17,7 +17,7 @@
  },
  "ementa": "Inclui Capítulo IX, com arts. 52-S a 52-X, no Título III da Lei Complementar nº 7, de 7 de dezembro de 1973 – que institui e disciplina os tributos de competência do Município e estabelece normas gerais de direito tributário – e alterações posteriores, criando a Taxa de Fiscalização de Abertura do Pavimento das Vias Públicas e das Calçadas e dando outras providências.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 24 de dezembro de 2015.\nSebastião Melo,\nPrefeito, em exercício.\nJorge Luis Tonetto,\nSecretário Municipal da Fazenda.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.\nANEXO\nTabela VIII – Taxa de Fiscalização de Abertura do Pavimento das Vias Públicas e das Calçadas\nFaixas em m²     Valor por Licença em UFMs\n0 – 100                   100\n101 – 200                   200\n201 – 300                   300\n301 – 400                   400\n401 – 500                   500\n501 – 1000                 1.000\n1001 – acima                2.000",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 24 de dezembro de 2015.\nSebastião Melo,\nPrefeito, em exercício.\nJorge Luis Tonetto,\nSecretário Municipal da Fazenda.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -40,19 +40,25 @@
    "tipo": "artigo",
    "rotulo": "Art. 3º",
    "texto": "Esta Lei Complementar entra em vigor em 90 (noventa) dias, contados da data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nTabela VIII – Taxa de Fiscalização de Abertura do Pavimento das Vias Públicas e das Calçadas\nFaixas em m²     Valor por Licença em UFMs\n0 – 100                   100\n101 – 200                   200\n201 – 300                   300\n301 – 400                   400\n401 – 500                   500\n501 – 1000                 1.000\n1001 – acima                2.000"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 3,
-   "dispositivos": 3,
+   "dispositivos": 4,
    "cobertura": 0.981,
    "blocosDeAlteracao": 1,
    "anexos": [

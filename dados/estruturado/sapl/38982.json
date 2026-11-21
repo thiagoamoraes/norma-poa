@@ -2,8 +2,8 @@
  "idSapl": 38982,
  "rotulo": "Lei Complementar municipal nº 716, de 24 de julho de 2013",
  "sha256Origem": "04ba8f294d5ad061ba32196bfa97d9d688b99cade619c41485ef7659d021205c",
- "estruturadoEm": "2026-11-21T10:19:55.200Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:08.351Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "716",
@@ -17,7 +17,7 @@
  },
  "ementa": "Cria e declara como Áreas de Interesse Especial (AEIS), na categoria III, e altera limites de subunidades em Unidades de Estruturação Urbana (UEU) das Macrozonas 01 e 04, define regimes urbanísticos para as subunidades criadas e dá outras providências.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei Complementar:",
- "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 19 de julho de 2013.\nJosé Fortunati,\nPrefeito.\nCristiano Tatsch,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.\nANEXO",
+ "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 19 de julho de 2013.\nJosé Fortunati,\nPrefeito.\nCristiano Tatsch,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -284,6 +284,14 @@
    "tipo": "artigo",
    "rotulo": "Art. 8º",
    "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO",
+   "semTexto": true
   }
  ],
  "verificacao": {
@@ -295,7 +303,7 @@
   ],
   "metricas": {
    "artigos": 8,
-   "dispositivos": 38,
+   "dispositivos": 39,
    "cobertura": 0.954,
    "blocosDeAlteracao": 0,
    "anexos": [

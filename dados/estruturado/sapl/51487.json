@@ -2,8 +2,8 @@
  "idSapl": 51487,
  "rotulo": "Lei municipal nº 14.582, de 14 de julho de 2026",
  "sha256Origem": "b93320ff84771671267d13187bf231b14aac659be7d390ff5503f83e896c6ab2",
- "estruturadoEm": "2026-11-21T10:20:09.201Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.635Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14582",
@@ -17,7 +17,7 @@
  },
  "ementa": "Inclui o evento Caminhada do Amor no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, no mês de outubro.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 14 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nOUTUBRO\nPERÍODO           EVENTO              DESCRIÇÃO E LOCAL DO EVENTO\nNo mês    CAMINHADA DO AMOR        A Caminhada do Amor é uma atividade que\nreúne cidadãos, famílias, instituições e\norganizações em um momento de\ncelebração de valores essenciais para a\nconstrução de uma sociedade mais justa,\nempática e unida. Realizada em outubro, em\nsintonia com a programação nacional, busca\ndespertar na população a importância da\nsolidariedade, da paz e do fortalecimento\ndos vínculos comunitários.\nLocal: *",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 14 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -39,19 +39,25 @@
    "tipo": "artigo",
    "rotulo": "Art. 3º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nOUTUBRO\nPERÍODO           EVENTO              DESCRIÇÃO E LOCAL DO EVENTO\nNo mês    CAMINHADA DO AMOR        A Caminhada do Amor é uma atividade que\nreúne cidadãos, famílias, instituições e\norganizações em um momento de\ncelebração de valores essenciais para a\nconstrução de uma sociedade mais justa,\nempática e unida. Realizada em outubro, em\nsintonia com a programação nacional, busca\ndespertar na população a importância da\nsolidariedade, da paz e do fortalecimento\ndos vínculos comunitários.\nLocal: *"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 3,
-   "dispositivos": 3,
+   "dispositivos": 4,
    "cobertura": 0.968,
    "blocosDeAlteracao": 0,
    "anexos": [

@@ -2,8 +2,8 @@
  "idSapl": 28387,
  "rotulo": "Lei Complementar municipal nº 370, de 16 de janeiro de 1996",
  "sha256Origem": "7f28b541170be580c08b27505c9fe075fe3729bcc21213eb98b28941b30cb504",
- "estruturadoEm": "2026-11-21T10:20:05.688Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:19.492Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -172,6 +172,7 @@
   "motivos": [
    "cabecalho_nao_reconhecido",
    "sem_fecho",
+   "tabela_no_corpo",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
@@ -180,6 +181,10 @@
    "dispositivos": 21,
    "cobertura": 0.982,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 3,
+    "ate": 103
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

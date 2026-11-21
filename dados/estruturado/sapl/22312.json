@@ -2,8 +2,8 @@
  "idSapl": 22312,
  "rotulo": "Lei Complementar municipal nº 86, de 27 de janeiro de 1983",
  "sha256Origem": "0c9e1abc4ba6706416fe4bc8020f370b42ee0f022a90275ac3696049c4886661",
- "estruturadoEm": "2026-11-21T10:20:08.076Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:21.627Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -151,6 +151,7 @@
   "motivos": [
    "cabecalho_nao_reconhecido",
    "sem_fecho",
+   "tabela_no_corpo",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
@@ -159,6 +160,10 @@
    "dispositivos": 18,
    "cobertura": 0.979,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 8,
+    "ate": 53
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

@@ -2,8 +2,8 @@
  "idSapl": 51499,
  "rotulo": "Lei municipal nº 14.585, de 17 de julho de 2026",
  "sha256Origem": "c860517d9ee89bdd30e5868298d31c378280a33ba1ba8b992db391fabd2e7511",
- "estruturadoEm": "2026-11-21T10:20:09.192Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.625Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14585",
@@ -17,7 +17,7 @@
  },
  "ementa": "LEI Nº 14.585, DE 17 DE JULHO DE 2026. Denomina Anapio Rolim de Barros o logradouro conhecido como Beco A Rua Alvaristo Rodrigues, localizado no Bairro Coronel Aparício Borges, e altera sua categoria para Rua.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.585\n26.0.000097975-8             17.07.2026",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -40,6 +40,14 @@
    "tipo": "artigo",
    "rotulo": "Art. 3º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n14.585\n26.0.000097975-8             17.07.2026",
+   "semTexto": true
   }
  ],
  "verificacao": {
@@ -51,7 +59,7 @@
   ],
   "metricas": {
    "artigos": 3,
-   "dispositivos": 3,
+   "dispositivos": 4,
    "cobertura": 0.968,
    "blocosDeAlteracao": 0,
    "anexos": [

@@ -2,8 +2,8 @@
  "idSapl": 25294,
  "rotulo": "Lei Complementar municipal nº 223, de 23 de abril de 1990",
  "sha256Origem": "dd6a66c9c80fa4611f9c17cc894b5e4e279e2eb462a659dd007955e2eb3bc5df",
- "estruturadoEm": "2026-11-21T10:20:06.833Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:20.598Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -54,6 +54,7 @@
   "motivos": [
    "cabecalho_nao_reconhecido",
    "sem_fecho",
+   "tabela_no_corpo",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
@@ -62,6 +63,10 @@
    "dispositivos": 4,
    "cobertura": 0.988,
    "blocosDeAlteracao": 1,
+   "tabelaNoCorpo": {
+    "linhas": 3,
+    "ate": 56
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

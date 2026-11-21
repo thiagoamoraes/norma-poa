@@ -2,8 +2,8 @@
  "idSapl": 40111,
  "rotulo": "Lei Complementar municipal nº 765, de 08 de julho de 2015",
  "sha256Origem": "80c274883e245bf73988117e891940c7d1527a0138f6b1ff3aab99588a69b90f",
- "estruturadoEm": "2026-11-21T10:19:54.706Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:07.644Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "765",
@@ -17,7 +17,7 @@
  },
  "ementa": "Cria o Tesouro Municipal; cria e extingue cargos em comissão e funções gratificadas no Quadro dos Cargos em Comissão e Funções Gratificadas, constante da letra c do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores; cria a Superintendência da Tecnologia da Informação (STI); dispõe sobre normas gerais de organização da administração tributária do Município de Porto Alegre; cria a Receita Municipal; altera a denominação dos cargos das classes de Agente Fiscal da Receita Municipal e Exator Municipal para, respectivamente, Auditor-Fiscal da Receita Municipal e Exator da Receita Municipal; altera o caput do art. 4º e o art. 39 e inclui inc. XII no parágrafo único do art. 4º da Lei nº 6.309, de 1988, e alterações posteriores, incluindo o grupo AT – Grupo Administração Tributária e dando outras providências; exclui do grupo ES – Grupo Executivo e Assessoramento Superior, as classes de Agente Fiscal da Receita Municipal e Exator Municipal; cria a Gratificação de Atividade Tributária (GAT); altera o caput do § 4º do art. 4º, o inc. XI do caput do art. 5º, os incs. I a VI do caput do art. 6º, o art. 7º, o caput do art. 9º, o art. 10, o caput do art. 11, o caput do art. 14, o inc. I do parágrafo único do art. 17, o art. 18 e o caput do art. 19 e inclui incs. I e II no caput do art. 9º e incs. I e II no caput do art. 14, todos da Lei Complementar nº 625, de 3 de julho de 2009, alterada pela Lei Complementar nº 700, de 3 de julho de 2012, alterando a estrutura da Secretaria Municipal da Fazenda (SMF); inclui § 4º no art. 20 da Lei Complementar nº 534, de 28 de dezembro de 2005, e alterações posteriores, dispon- do sobre gratificação ao vice-presidente do Tribunal Administrativo de Recursos Tributários do Município de Porto Alegre (TART); cria a Central de Licitações (Celic); cria a Gratificação de Pregoeiro; altera os requisitos de recrutamento da classe de Auditor-Fiscal da Receita Municipal, constante no Grupo AT – Grupo Administração Tributária da letra b – Especificações de Classes do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores; revoga os incs. IV e V do caput do art. 5º, os incs. VII e VIII do caput e o parágrafo único do art. 6º, os art. 12 e 13 e os incs. I e II do caput do art. 19 da Lei Complementar nº 625, de 3 de julho de 2009, o inc. XXXVIII do caput do art. 1º da Lei nº 11.404, de 27 de dezembro de 2012, e o art. 47 da Lei nº 6.309, de 28 de dezembro de 1988; e dá outras providências.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 8 de julho de 2015.\nJosé Fortunati,\nPrefeito.\nJorge Luís Tonetto,\nSecretário Municipal da Fazenda.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.\nANEXO\n“RECRUTAMENTO\n...................................................................................................\nb) Requisitos:\n1) conclusão de curso de nível superior completo em qualquer área\nde atividade, bacharelado ou licenciatura plena;\n2) aprovação em concurso público de provas ou de provas e títulos,\ncom ou sem subdivisão por área de especialização, conforme estabelecido no\nrespectivo edital de abertura, de acordo com as necessidades da Administração;\n3) idade mínima de 21 (vinte e um) anos completos; e\n4) outros, conforme instruções reguladoras do processo seletivo.”\n(NR)",
+ "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 8 de julho de 2015.\nJosé Fortunati,\nPrefeito.\nJorge Luís Tonetto,\nSecretário Municipal da Fazenda.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -2576,19 +2576,25 @@
    "tipo": "inciso",
    "rotulo": "III –",
    "texto": "o art. 47 da Lei nº 6.309, de 28 de dezembro de 1988."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“RECRUTAMENTO\n...................................................................................................\nb) Requisitos:\n1) conclusão de curso de nível superior completo em qualquer área\nde atividade, bacharelado ou licenciatura plena;\n2) aprovação em concurso público de provas ou de provas e títulos,\ncom ou sem subdivisão por área de especialização, conforme estabelecido no\nrespectivo edital de abertura, de acordo com as necessidades da Administração;\n3) idade mínima de 21 (vinte e um) anos completos; e\n4) outros, conforme instruções reguladoras do processo seletivo.”\n(NR)"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 73,
-   "dispositivos": 341,
+   "dispositivos": 342,
    "cobertura": 0.969,
    "blocosDeAlteracao": 14,
    "anexos": [

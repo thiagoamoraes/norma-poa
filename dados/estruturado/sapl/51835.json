@@ -2,8 +2,8 @@
  "idSapl": 51835,
  "rotulo": "Lei municipal nº 14.676, de 02 de outubro de 2026",
  "sha256Origem": "7c3578a6b6f4a7c0f484a1d351986c59b9c64d2039297e8ec4f635a589cd532e",
- "estruturadoEm": "2026-11-21T10:20:08.818Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.298Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14676",
@@ -17,7 +17,7 @@
  },
  "ementa": "Altera a ementa e o caput do art. 1º e inclui Anexo na Lei nº 7.815, de 8 de junho de 1996 – que denomina logradouro público no Bairro Ponta Grossa –, para incluir homenagem a Marino França Vieira.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de outubro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.676\n26.0.000136837-0                 02.10.2026",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de outubro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -48,6 +48,14 @@
    "tipo": "artigo",
    "rotulo": "Art. 4º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n14.676\n26.0.000136837-0                 02.10.2026",
+   "semTexto": true
   }
  ],
  "verificacao": {
@@ -59,7 +67,7 @@
   ],
   "metricas": {
    "artigos": 4,
-   "dispositivos": 4,
+   "dispositivos": 5,
    "cobertura": 0.953,
    "blocosDeAlteracao": 2,
    "anexos": [

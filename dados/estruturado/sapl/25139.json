@@ -2,8 +2,8 @@
  "idSapl": 25139,
  "rotulo": "Lei Complementar municipal nº 209, de 28 de dezembro de 1989",
  "sha256Origem": "f51556f8d743625b351aacc3e038360da82382acb84d3e44daad66daa28b2be5",
- "estruturadoEm": "2026-11-21T10:20:06.939Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:20.688Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "209",
@@ -62,6 +62,7 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
+   "fecho_com_texto_demais",
    "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem",

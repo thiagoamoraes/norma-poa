@@ -2,8 +2,8 @@
  "idSapl": 25226,
  "rotulo": "Lei Complementar municipal nº 221, de 31 de janeiro de 1990",
  "sha256Origem": "7b6c9f576a110ecc97d3bbc802df6c23ec14fc975b4c51dbf79e58f34b7661d5",
- "estruturadoEm": "2026-11-21T10:20:06.846Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:20.608Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -52,6 +52,7 @@
   "situacao": "revisar",
   "motivos": [
    "cabecalho_nao_reconhecido",
+   "tabela_no_corpo",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
@@ -60,6 +61,10 @@
    "dispositivos": 4,
    "cobertura": 0.98,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 6,
+    "ate": 41
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

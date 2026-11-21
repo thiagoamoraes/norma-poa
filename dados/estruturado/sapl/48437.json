@@ -2,8 +2,8 @@
  "idSapl": 48437,
  "rotulo": "Lei Complementar municipal nº 1.011, de 10 de maio de 2024",
  "sha256Origem": "11b4f72b5cd20ba4b5fcc74954ae7d48bcd673bc9b24d6375628e32e0a926e1d",
- "estruturadoEm": "2026-11-21T10:19:52.593Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:05.520Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1011",
@@ -17,7 +17,7 @@
  },
  "ementa": "Altera o inc. II do art. 3º, o caput do art. 7º, o art. 12, o inc. III do art. 14, os §§ 1º, 2º e 3º do art. 15, o art. 16, o parágrafo único do art. 17; inclui § 2º no art. 3º, § 4º no art. 15 e Anexo III; renumera o parágrafo único para § 1º no art. 3º e revoga itens 36 e 68 do Anexo I, todos na Lei Complementar nº 942, de 25 de maio de 2022; altera os incs. I, III, V e VII e revoga o inc. XII do art. 3º da Lei nº 5.994, de 25 de novembro de 1987; e revoga a Lei nº 8.449, de 30 de dezembro de 1999.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de maio de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.\nANEXO",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de maio de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -132,6 +132,14 @@
    "tipo": "inciso",
    "rotulo": "III –",
    "texto": "os itens 36 e 68 do Anexo I da Lei Complementar nº 942, de 25 de maio de 2022."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO",
+   "semTexto": true
   }
  ],
  "verificacao": {
@@ -145,7 +153,7 @@
   ],
   "metricas": {
    "artigos": 12,
-   "dispositivos": 15,
+   "dispositivos": 16,
    "cobertura": 0.98,
    "blocosDeAlteracao": 9,
    "anexos": [

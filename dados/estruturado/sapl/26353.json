@@ -2,8 +2,8 @@
  "idSapl": 26353,
  "rotulo": "Lei Complementar municipal nº 270, de 20 de fevereiro de 1992",
  "sha256Origem": "4cc140ba439679776bb24dd347a62c57a67a5242409d80c636d3e3fe7985a25b",
- "estruturadoEm": "2026-11-21T10:20:06.552Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:20.319Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -66,6 +66,7 @@
   "situacao": "revisar",
   "motivos": [
    "cabecalho_nao_reconhecido",
+   "tabela_no_corpo",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
@@ -74,6 +75,10 @@
    "dispositivos": 6,
    "cobertura": 0.974,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 7,
+    "ate": 44
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

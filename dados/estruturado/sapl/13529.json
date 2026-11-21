@@ -2,8 +2,8 @@
  "idSapl": 13529,
  "rotulo": "Lei Orgânica nº 1, de 24 de setembro de 1962",
  "sha256Origem": "b20331606bc0d501f5ddef795b0dc727efbb70926d9479458ab086f1d683575e",
- "estruturadoEm": "2026-11-21T10:19:50.401Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:03.464Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -1978,6 +1978,7 @@
    "cabecalho_nao_reconhecido",
    "tipo_sem_suporte",
    "sem_fecho",
+   "tabela_no_corpo",
    "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem",
@@ -1991,6 +1992,10 @@
    "dispositivos": 272,
    "cobertura": 0.721,
    "blocosDeAlteracao": 2,
+   "tabelaNoCorpo": {
+    "linhas": 4,
+    "ate": 1419
+   },
    "lacunas": [
     {
      "tamanho": 9610,

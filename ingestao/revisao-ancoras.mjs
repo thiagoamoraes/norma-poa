@@ -38,12 +38,14 @@ export function ancorarConferencia(textoPreparado, reg) {
   const poe = (item, ref) => { trechos.push(item); refs.push(ref); };
   poe(reg.ementa || '', { ref: 'ementa' });
   poe(reg.preambulo || '', { ref: 'preambulo' });
-  for (const d of reg.dispositivos || []) {
+  for (const d of (reg.dispositivos || []).filter((x) => x.tipo !== 'anexo')) {
     for (const g of d.agrupadores || []) poe(g.titulo || '', { ref: 'agrupador', id: d.id });
     poe({ texto: d.texto || '', rotulo: d.rotulo }, { ref: 'dispositivo', id: d.id, rotulo: d.rotulo || null });
     if (Object.prototype.hasOwnProperty.call(d, 'blocoDeAlteracao')) poe(d.blocoDeAlteracao || '', { ref: 'bloco', id: d.id });
   }
   poe(reg.fecho || '', { ref: 'fecho' });
+  // anexos (nós da raiz) vêm DEPOIS do fecho no texto: mesma ordem da conferência do estruturador
+  for (const d of (reg.dispositivos || []).filter((x) => x.tipo === 'anexo')) poe(d.texto || '', { ref: 'dispositivo', id: d.id, rotulo: null });
 
   const cons = conferirConservacao(base, trechos);
   const idx = mapaAlnum(base);

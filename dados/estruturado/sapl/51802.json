@@ -2,8 +2,8 @@
  "idSapl": 51802,
  "rotulo": "Lei municipal nº 14.665, de 25 de setembro de 2026",
  "sha256Origem": "0034bf57d63ebf4627d16bf61a4ed1963f229123d8bc808577dc9e1269807028",
- "estruturadoEm": "2026-11-21T10:20:08.862Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.332Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14665",
@@ -17,7 +17,7 @@
  },
  "ementa": "LEI Nº 14.665, DE 25 DE SETEMBRO DE 2026. Inclui o evento The Twelve Beers no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, no mês de abril.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 25 de setembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nABRIL\nPERÍODO             EVENTO             DESCRIÇÃO E LOCAL DO EVENTO\nNo mês    The Twelve Beers           O evento The Twelve Beers é uma\ncelebração anual da cultura cervejeira\nartesanal, que ocorre no bairro 4º\nDistrito, reunindo 12 bares e\ncervejarias locais, bem como em outras\nseis         capitais       brasileiras,\nproporcionando experiência única de\ndegustação e convivência e fomenta a\neconomia local, o turismo e a\nintegração comunitária.\nLocal: (*)",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 25 de setembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -32,19 +32,25 @@
    "tipo": "artigo",
    "rotulo": "Art. 2º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nABRIL\nPERÍODO             EVENTO             DESCRIÇÃO E LOCAL DO EVENTO\nNo mês    The Twelve Beers           O evento The Twelve Beers é uma\ncelebração anual da cultura cervejeira\nartesanal, que ocorre no bairro 4º\nDistrito, reunindo 12 bares e\ncervejarias locais, bem como em outras\nseis         capitais       brasileiras,\nproporcionando experiência única de\ndegustação e convivência e fomenta a\neconomia local, o turismo e a\nintegração comunitária.\nLocal: (*)"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 2,
-   "dispositivos": 2,
+   "dispositivos": 3,
    "cobertura": 0.98,
    "blocosDeAlteracao": 0,
    "anexos": [

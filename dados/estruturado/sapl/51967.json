@@ -2,8 +2,8 @@
  "idSapl": 51967,
  "rotulo": "Lei municipal nº 14.695, de 13 de novembro de 2026",
  "sha256Origem": "7e4d10bec5649ec67ec1afc2826877457cb915b6235189abcabcfdc91d397009",
- "estruturadoEm": "2026-11-21T10:20:08.692Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.198Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14695",
@@ -17,7 +17,7 @@
  },
  "ementa": "Denomina Radialista Milton Ferretti Jung o logradouro conhecido como Rótula da Av. Amynthas Jacques de Moraes e da Av. José Aloísio Filho, localizado no Bairro Humaitá.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de novembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\n14.695\n14.695\n13.11.2026\n13.11.2026\n26.0.000173748-0\n26.0.000173748-0\nSebastião Melo\nSebastião Melo",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de novembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -32,19 +32,25 @@
    "tipo": "artigo",
    "rotulo": "Art. 2º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n14.695\n14.695\n13.11.2026\n13.11.2026\n26.0.000173748-0\n26.0.000173748-0\nSebastião Melo\nSebastião Melo"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 2,
-   "dispositivos": 2,
+   "dispositivos": 3,
    "cobertura": 0.951,
    "blocosDeAlteracao": 0,
    "anexos": [

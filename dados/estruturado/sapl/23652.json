@@ -2,8 +2,8 @@
  "idSapl": 23652,
  "rotulo": "Lei Complementar municipal nº 150, de 12 de janeiro de 1987",
  "sha256Origem": "0e27e1ab5106149ed6f671a41041d5fb4e1242ac49a67d57e9ea3014934ea7ba",
- "estruturadoEm": "2026-11-21T10:20:07.331Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:21.110Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -45,6 +45,7 @@
   "situacao": "revisar",
   "motivos": [
    "cabecalho_nao_reconhecido",
+   "fecho_com_texto_demais",
    "rotulo_nao_confere_com_a_origem",
    "bloco_de_alteracao_sem_dono"
   ],

@@ -2,8 +2,8 @@
  "idSapl": 26363,
  "rotulo": "Lei Complementar municipal nº 258, de 28 de fevereiro de 1992",
  "sha256Origem": "ffa04ef742777520c4d20dad76015882601320a8b20839cb81378fe90e30e880",
- "estruturadoEm": "2026-11-21T10:20:06.547Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:20.311Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -113,6 +113,7 @@
   "motivos": [
    "promulgacao_parcial",
    "cabecalho_nao_reconhecido",
+   "tabela_no_corpo",
    "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem",
    "bloco_de_alteracao_sem_dono"
@@ -123,6 +124,10 @@
    "dispositivos": 12,
    "cobertura": 0.736,
    "blocosDeAlteracao": 1,
+   "tabelaNoCorpo": {
+    "linhas": 3,
+    "ate": 84
+   },
    "lacunas": [
     {
      "tamanho": 668,

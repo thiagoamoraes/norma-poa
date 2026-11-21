@@ -2,8 +2,8 @@
  "idSapl": 28339,
  "rotulo": "Lei Complementar municipal nº 363, de 28 de dezembro de 1995",
  "sha256Origem": "beae35a3372fca4a870d7c2faafb3b2cc31a62a992aa2299929d2bd61d956ccd",
- "estruturadoEm": "2026-11-21T10:20:05.736Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:19.528Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -136,6 +136,7 @@
   "situacao": "revisar",
   "motivos": [
    "cabecalho_nao_reconhecido",
+   "tabela_no_corpo",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
@@ -144,6 +145,10 @@
    "dispositivos": 16,
    "cobertura": 0.981,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 3,
+    "ate": 55
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

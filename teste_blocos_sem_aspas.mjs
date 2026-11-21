@@ -28,7 +28,7 @@ const motivo = (e, m) => e.verificacao.motivos.includes(m);
 {
   const { e, blocos } = carregar(26970);
   ok('LC 293/1993 (real): a aspa simples de \'jetton\'. no fim da linha NÃO fecha o bloco; ele vai até o § 3º (1 bloco, fecha em aspa dupla)', blocos.length === 1 && blocos[0].endIdx - blocos[0].startIdx >= 10);
-  ok('LC 293/1993: a lei-alvo NÃO vira dispositivo da alteradora (só art-1 a art-4) e o articulado é aceito (o único motivo, se houver, é o anexo não lido)', ids(e) === 'art-1 art-2 art-3 art-4' && e.verificacao.motivos.every((m) => m === 'anexo_nao_lido'));
+  ok('LC 293/1993: a lei-alvo NÃO vira dispositivo da alteradora (só art-1 a art-4) e a norma é aceita, com o anexo guardado como nó (decisão 38)', e.dispositivos.filter((d) => d.tipo !== 'anexo').map((d) => d.id).join(' ') === 'art-1 art-2 art-3 art-4' && e.verificacao.situacao === 'aceita' && e.dispositivos.some((d) => d.tipo === 'anexo'));
   for (const [id, rot] of [[36136, 'LC 615/2009'], [35006, 'LC 575/2007']]) {
     const r = carregar(id);
     ok(`${rot} (real, guarda): aspas simples dentro do texto não quebram o bloco que fecha em (NR): 1 bloco, aceita, sem fronteira inferida`, r.blocos.length === 1 && r.blocos[0].semNR === false && r.e.verificacao.situacao === 'aceita' && !r.e.verificacao.metricas.fronteirasInferidas);

@@ -2,8 +2,8 @@
  "idSapl": 38309,
  "rotulo": "Lei Complementar municipal nº 698, de 25 de junho de 2012",
  "sha256Origem": "5408544dabecf2291c1b09a46debf3fd336e496794aa68db039ae77d1ea7e8db",
- "estruturadoEm": "2026-11-21T10:19:55.587Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:08.815Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "698",
@@ -98,14 +98,20 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "tabela_no_corpo"
+  ],
   "avisos": [],
   "metricas": {
    "artigos": 3,
    "dispositivos": 11,
    "cobertura": 0.965,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 8,
+    "ate": 40
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []

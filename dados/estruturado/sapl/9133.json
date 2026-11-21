@@ -2,8 +2,8 @@
  "idSapl": 9133,
  "rotulo": "Lei Orgânica nº 1, de 03 de abril de 1948",
  "sha256Origem": "455f41e83cf477e2125839d7573d42a7064cf119484158451b44f20256da586d",
- "estruturadoEm": "2026-11-21T10:19:50.614Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:03.649Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -1392,6 +1392,7 @@
    "cabecalho_nao_reconhecido",
    "tipo_sem_suporte",
    "sem_fecho",
+   "tabela_no_corpo",
    "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
@@ -1404,6 +1405,10 @@
    "dispositivos": 193,
    "cobertura": 0.968,
    "blocosDeAlteracao": 1,
+   "tabelaNoCorpo": {
+    "linhas": 7,
+    "ate": 1290
+   },
    "lacunas": [
     {
      "tamanho": 451,

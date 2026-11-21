@@ -2,8 +2,8 @@
  "idSapl": 51965,
  "rotulo": "Lei municipal nº 14.691, de 12 de novembro de 2026",
  "sha256Origem": "1116b3d306f50ba1398d5421fd429e260b99a0fcd352964a9cfa5e805a49c75f",
- "estruturadoEm": "2026-11-21T10:20:08.698Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.203Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14691",
@@ -17,7 +17,7 @@
  },
  "ementa": "Denomina Leon Eberto Rodriguez Marquez o logradouro conhecido como Acesso B – Superquadra Seis, Terceira Unidade Vicinal – Vila Nova Restinga, localizado no Bairro Restinga, e altera sua categoria para Rua.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de novembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.691\n26.0.000166585-4            12.11.2026",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de novembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -40,6 +40,14 @@
    "tipo": "artigo",
    "rotulo": "Art. 3º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n14.691\n26.0.000166585-4            12.11.2026",
+   "semTexto": true
   }
  ],
  "verificacao": {
@@ -51,7 +59,7 @@
   ],
   "metricas": {
    "artigos": 3,
-   "dispositivos": 3,
+   "dispositivos": 4,
    "cobertura": 0.945,
    "blocosDeAlteracao": 0,
    "anexos": [

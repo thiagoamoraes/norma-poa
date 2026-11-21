@@ -2,8 +2,8 @@
  "idSapl": 30209,
  "rotulo": "Lei Complementar municipal nº 434, de 01 de dezembro de 1999",
  "sha256Origem": "46c2d5b1c4df2339d816ebb00e2384b7e606747c7f3804fba1c689d5f6087adc",
- "estruturadoEm": "2026-11-21T10:20:00.661Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:14.021Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "434",
@@ -10041,6 +10041,8 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
+   "fecho_com_texto_demais",
+   "tabela_no_corpo",
    "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
@@ -10056,6 +10058,10 @@
    "dispositivos": 1330,
    "cobertura": 0.313,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 6,
+    "ate": 6688
+   },
    "lacunas": [
     {
      "tamanho": 155,

@@ -2,8 +2,8 @@
  "idSapl": 51858,
  "rotulo": "Lei municipal nº 14.681, de 15 de outubro de 2026",
  "sha256Origem": "d30b3bc958c6b57c384821ad77112646d75194cdd73ff903550192f47f71297a",
- "estruturadoEm": "2026-11-21T10:20:08.799Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:22.280Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14681",
@@ -17,7 +17,7 @@
  },
  "ementa": "LEI Nº 14.681, DE 15 DE OUTUBRO DE 2026. Inclui o evento Noite das Livrarias de Porto Alegre no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, na última semana de março.",
  "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
- "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 15 de outubro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nMARÇO\nPERÍODO            EVENTO           DESCRIÇÃO E LOCAL DO EVENTO\nÚltima     NOITE DAS LIVRARIAS DE O evento é voltado a fortalecer a cadeia\nsemana     PORTO ALEGRE           literária local, integrando cultura, economia\ncriativa e desenvolvimento econômico, e\ninserindo Porto Alegre no rol de cidades\nlatino-americanas a realizar esse tipo de\natividade. Objetiva estimular a circulação\nnoturna em livrarias e espaços culturais,\naliando a democratização da leitura ao\ndesenvolvimento sustentável do comércio.\nLocal: Na cidade, em livrarias e espaços\nculturais.",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 15 de outubro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
  "dispositivos": [
   {
    "id": "art-1",
@@ -194,19 +194,25 @@
    "tipo": "artigo",
    "rotulo": "Art. 8º",
    "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nMARÇO\nPERÍODO            EVENTO           DESCRIÇÃO E LOCAL DO EVENTO\nÚltima     NOITE DAS LIVRARIAS DE O evento é voltado a fortalecer a cadeia\nsemana     PORTO ALEGRE           literária local, integrando cultura, economia\ncriativa e desenvolvimento econômico, e\ninserindo Porto Alegre no rol de cidades\nlatino-americanas a realizar esse tipo de\natividade. Objetiva estimular a circulação\nnoturna em livrarias e espaços culturais,\naliando a democratização da leitura ao\ndesenvolvimento sustentável do comércio.\nLocal: Na cidade, em livrarias e espaços\nculturais."
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "anexo_nao_lido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
   "avisos": [
-   "tem_anexo"
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
   ],
   "metricas": {
    "artigos": 8,
-   "dispositivos": 25,
+   "dispositivos": 26,
    "cobertura": 0.967,
    "blocosDeAlteracao": 0,
    "anexos": [

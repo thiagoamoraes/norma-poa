@@ -2,8 +2,8 @@
  "idSapl": 27459,
  "rotulo": "Lei Complementar municipal nº 315, de 06 de janeiro de 1994",
  "sha256Origem": "a50d433b639bd14c2e93c08389c99a5dbec87fac3702fd993387b039b22e5db9",
- "estruturadoEm": "2026-11-21T10:20:06.079Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:19.861Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "315",
@@ -192,6 +192,7 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
+   "fecho_com_texto_demais",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [

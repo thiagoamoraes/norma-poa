@@ -55,7 +55,7 @@ export function introsDeAlteracaoSemBloco(artigos) {
 }
 
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
-export const VERSAO_ESTRUTURADOR = 20;
+export const VERSAO_ESTRUTURADOR = 21;
 
 export const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');
@@ -100,6 +100,65 @@ export function classificarAnexosNoFecho(fecho) {
     const chars = corpo.join('').length;
     return { cabecalho: L[k].trim(), linhas: corpo.length, caracteres: chars, graficoOuTitulo: corpo.length <= 6 && chars <= 160 };
   });
+}
+
+/**
+ * Anexo como nó (decisões 35 e 38, 21/11/2026): o `doc.fecho` do leitor traz tudo o que vem depois da data/assinatura.
+ * Aqui ele é dividido no PRIMEIRO cabeçalho estrito de anexo: antes, o fecho de verdade (local, data, assinaturas); dali em
+ * diante, os anexos, cada um com rótulo ESCRITO ("ANEXO I", "ANEXO 1.2", "ANEXO"), título (resto da linha do cabeçalho),
+ * texto bruto preservado (linhas exatas, sem interpretar células) e `vetado` quando o corpo é só "VETADO.". Não interpreta
+ * tabela nem lê imagem; só dá identidade e fronteira.
+ */
+export function dividirFechoEAnexos(fecho) {
+  const L = String(fecho || '').split('\n');
+  const re = /^\s*ANEXO\b(?:\s+(?:[IVXLCDM]+|\d+[A-Z]?(?:\.\d+)*|ÚNICO|UNICO))?\b/;
+  const idx = [];
+  L.forEach((l, k) => { if (re.test(l) && l.trim().length <= 140) idx.push(k); });
+  if (!idx.length) return { fecho: String(fecho || ''), anexos: [] };
+  const anexos = idx.map((k, n) => {
+    const linhas = L.slice(k, idx[n + 1] ?? L.length);
+    const cab = L[k].trim();
+    const m = re.exec(cab);
+    const rotulo = m[0].trim();
+    const titulo = cab.slice(m[0].length).replace(/^[\s–—:.-]+/, '').trim() || null;
+    const corpo = linhas.slice(1).filter((x) => x.trim());
+    const chars = corpo.join('').length;
+    return { rotulo, titulo, bruto: linhas.join('\n').replace(/\s+$/, ''), linhas: corpo.length, caracteres: chars,
+      graficoOuTitulo: corpo.length <= 6 && chars <= 160, vetado: corpo.length > 0 && corpo.every((x) => /^\(?\s*VETAD[OA]\.?\s*\)?$/i.test(x.trim())) };
+  });
+  return { fecho: L.slice(0, idx[0]).join('\n').replace(/\s+$/, ''), anexos };
+}
+
+/** Endereço do anexo pelo rótulo escrito: "ANEXO I" → "anexo-i"; "ANEXO 1.2" → "anexo-1-2"; "ANEXO" → "anexo". */
+export const slugDoAnexo = (rotulo) => String(rotulo || 'anexo').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'anexo';
+
+/**
+ * Tamanho do fecho SEM o carimbo de assinatura eletrônica (decisão 40): na Câmara, a lei sai com "Documento assinado
+ * eletronicamente por …", "A autenticidade deste documento pode ser conferida …" e a linha "… (CMPA) 123 SEI … / pg. 2";
+ * isso é carimbo, não texto de lei. O que sobra acima de 600 caracteres é texto depois da assinatura que ninguém leu.
+ */
+export function tamanhoDoFechoSemCarimbo(fecho) {
+  const L = String(fecho || '').split('\n');
+  const i = L.findIndex((l) => /^\s*(?:Documento assinado eletronicamente|Assinado (?:eletronicamente|digitalmente)|A autenticidade deste documento)/i.test(l) || /\(CMPA\)\s+\d+\s+SEI\b/.test(l));
+  return (i >= 0 ? L.slice(0, i) : L).join('\n').trim().length;
+}
+
+/** Linha de tabela de PDF: 3 ou mais colunas separadas por 3+ espaços, cada célula curta. */
+const linhaTabular = (l) => { const c = String(l).trim().split(/\s{3,}/).filter(Boolean); return c.length >= 3 && !c.some((x) => x.length > 60) && c.filter((x) => x.length <= 30).length >= 2; };
+
+/**
+ * Tabela no meio do ato (decisão 39): 3 ou mais linhas tabulares seguidas, DENTRO do articulado (depois do 1º artigo, antes do
+ * fecho) e FORA de bloco de alteração (a tabela dentro do bloco fica guardada com o bloco). O leitor funde essas linhas ao
+ * dispositivo anterior; por isso a norma sai "a revisar" com `tabela_no_corpo`.
+ */
+export function tabelaNoCorpo(linhas, blocos, iInicio, iFim) {
+  const dentro = (i) => (blocos || []).some((b) => i >= b.startIdx && i <= b.endIdx);
+  let corrida = 0, melhor = 0, onde = -1;
+  for (let i = Math.max(iInicio, 0); i < iFim; i++) {
+    if (!linhas[i]) continue;
+    if (!dentro(i) && linhaTabular(linhas[i])) { corrida++; if (corrida >= 3 && corrida > melhor) { melhor = corrida; onde = i; } } else corrida = 0;
+  }
+  return melhor >= 3 ? { linhas: melhor, ate: onde } : null;
 }
 
 /**
@@ -223,7 +282,21 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
     }
   };
   andar(doc.artigos, null);
-  trechos.push(doc.fecho || '');
+  const { fecho: fechoReal, anexos: anexosLidos } = dividirFechoEAnexos(doc.fecho);
+  trechos.push(fechoReal || '');
+  // anexos: nó próprio na raiz, texto bruto preservado, rótulo ESCRITO (decisões 35 e 38)
+  for (const x of anexosLidos) {
+    let id = slugDoAnexo(x.rotulo);
+    const vezes = (vistos.get(id) || 0) + 1;
+    vistos.set(id, vezes);
+    if (vezes > 1) id += `~${vezes}`;
+    const d = { id, pai: null, tipo: 'anexo', rotulo: x.rotulo, texto: x.bruto };
+    if (x.titulo) d.titulo = x.titulo;
+    if (x.vetado) d.vetado = true;
+    if (x.graficoOuTitulo) d.semTexto = true;
+    dispositivos.push(d);
+    trechos.push(x.bruto);
+  }
 
   // ── conferências ───────────────────────────────────────────────────────────
   if (doc.promulgacaoParcial?.parcial) motivos.push('promulgacao_parcial');
@@ -261,7 +334,16 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
   }
   const artigos = dispositivos.filter((d) => d.tipo === 'artigo');
   if (!artigos.length) motivos.push('sem_artigos');
+  let tabelaDoCorpo = null;
   if (!doc.fecho) motivos.push('sem_fecho');
+  if (doc.fecho && tamanhoDoFechoSemCarimbo(fechoReal) > 600) motivos.push('fecho_com_texto_demais');
+  {
+    const iArt = linhasOrigem.findIndex((l) => /^Art\.?\s*1/.test(l));
+    const primeira = (fechoReal || '').split('\n')[0]?.trim();
+    let iFecho = primeira ? linhasOrigem.findIndex((l, i) => i > iArt && l === primeira) : -1;
+    if (iFecho < 0) iFecho = linhasOrigem.length;
+    if (iArt >= 0) { tabelaDoCorpo = tabelaNoCorpo(linhasOrigem, blocos, iArt, iFecho); if (tabelaDoCorpo) motivos.push('tabela_no_corpo'); }
+  }
   if (semRotulo) motivos.push('dispositivo_sem_rotulo');
   if ([...vistos.values()].some((v) => v > 1)) motivos.push('endereco_repetido');
 
@@ -292,12 +374,12 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
   if (numeradoSemIrmao) avisos.push('paragrafo_numerado_sem_irmao');
   if (opcoes.ocr) avisos.push('texto_de_ocr'); // lido de imagem: pode ter troca de caracteres
   if (/^\s*ANEXO\b/m.test(texto)) avisos.push('tem_anexo');
-  const anexosDoFecho = classificarAnexosNoFecho(doc.fecho);
-  if (anexosDoFecho.some((x) => !x.graficoOuTitulo)) motivos.push('anexo_nao_lido');
-  else if (anexosDoFecho.length) avisos.push('anexo_grafico_nao_lido');
-  const maior = dispositivos.reduce((m, d) => Math.max(m, (d.texto || '').length), 0);
+  const anexosDoFecho = anexosLidos;
+  if (anexosDoFecho.some((x) => !x.graficoOuTitulo)) avisos.push('anexo_preservado_nao_interpretado');
+  if (anexosDoFecho.some((x) => x.graficoOuTitulo)) avisos.push('anexo_grafico_nao_lido');
+  const maior = dispositivos.filter((d) => d.tipo !== 'anexo').reduce((m, d) => Math.max(m, (d.texto || '').length), 0);
   if (maior > 4000) avisos.push('dispositivo_muito_longo');
-  if (dispositivos.some((d) => /\s(?:Art\.\s*\d+\s*[º°.]|§\s*\d+\s*[º°]|Parágrafo único\s*[.\-–])\s+[A-ZÀ-Ú]/.test(d.texto || ''))) avisos.push('possivel_dispositivo_embutido');
+  if (dispositivos.filter((d) => d.tipo !== 'anexo').some((d) => /\s(?:Art\.\s*\d+\s*[º°.]|§\s*\d+\s*[º°]|Parágrafo único\s*[.\-–])\s+[A-ZÀ-Ú]/.test(d.texto || ''))) avisos.push('possivel_dispositivo_embutido');
 
   return {
     versaoEstruturador: VERSAO_ESTRUTURADOR,
@@ -306,7 +388,7 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
       : { tipoAto: doc.tipoAto || null, numero: doc.numero || null, ano: doc.ano || null, data: doc.dataPublicacao || null, epigrafe: doc.epigrafe || null, proveniencia: doc.proveniencia || null },
     ementa: doc.ementa?.texto || null,
     preambulo: doc.preambulo || null,
-    fecho: doc.fecho || null,
+    fecho: fechoReal || null,
     dispositivos,
     verificacao: {
       situacao: motivos.length ? 'revisar' : 'aceita',
@@ -316,7 +398,8 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
         artigos: artigos.length, dispositivos: dispositivos.length,
         cobertura: Math.round(cons.cobertura * 1000) / 1000,
         blocosDeAlteracao: blocos.length,
-        ...(anexosDoFecho.length ? { anexos: anexosDoFecho.slice(0, 12), totalDeAnexos: anexosDoFecho.length } : {}),
+        ...(tabelaDoCorpo ? { tabelaNoCorpo: tabelaDoCorpo } : {}),
+        ...(anexosDoFecho.length ? { anexos: anexosDoFecho.slice(0, 12).map((x) => ({ cabecalho: x.rotulo, linhas: x.linhas, caracteres: x.caracteres, graficoOuTitulo: x.graficoOuTitulo, ...(x.vetado ? { vetado: true } : {}) })), totalDeAnexos: anexosDoFecho.length } : {}),
         lacunas: lacunasReais.slice(0, 5), naoLocalizados: cons.naoLocalizados.slice(0, 5), rotulosDivergentes: cons.rotulosDivergentes.slice(0, 5),
         ...(fronteirasInferidas.length ? { fronteirasInferidas } : {}),
       },

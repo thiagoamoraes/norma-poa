@@ -2,8 +2,8 @@
  "idSapl": 40350,
  "rotulo": "Lei Complementar municipal nº 780, de 20 de novembro de 2015",
  "sha256Origem": "8ad80e55c8ed6f9df2b4d2ed5544f55c56dcf6302790450207c9547b41edfa7f",
- "estruturadoEm": "2026-11-21T10:19:54.580Z",
- "versaoEstruturador": 20,
+ "estruturadoEm": "2026-11-21T12:13:07.479Z",
+ "versaoEstruturador": 21,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "780",
@@ -532,14 +532,20 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "tabela_no_corpo"
+  ],
   "avisos": [],
   "metricas": {
    "artigos": 17,
    "dispositivos": 73,
    "cobertura": 0.979,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 3,
+    "ate": 48
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": []
