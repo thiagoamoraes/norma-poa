@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T09:25:27.266Z",
+ "geradoEm": "2026-11-21T16:20:11.872Z",
  "idSapl": 39862,
  "rotulo": "Lei Complementar municipal nº 757, de 14 de janeiro de 2015",
  "baseConferida": false,
@@ -5842,6 +5842,40 @@
    ]
   }
  ],
- "naoAplicadas": [],
- "aConferir": []
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 41982,
+    "rotulo": "Lei Complementar municipal nº 846, de 12 de fevereiro de 2019"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": [
+    "art-4/par-13",
+    "art-8/par-1"
+   ]
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-4/par-13",
+   "desde": "2019-02-12"
+  },
+  {
+   "id": "art-4/par-13/inc-I",
+   "desde": "2019-02-12"
+  },
+  {
+   "id": "art-4/par-13/inc-II",
+   "desde": "2019-02-12"
+  },
+  {
+   "id": "art-4/par-13/inc-III",
+   "desde": "2019-02-12"
+  },
+  {
+   "id": "art-4/par-13/inc-IV",
+   "desde": "2019-02-12"
+  }
+ ]
 }

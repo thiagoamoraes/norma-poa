@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T11:56:41.722Z",
+ "geradoEm": "2026-11-21T16:20:11.794Z",
  "idSapl": 39422,
  "rotulo": "Lei Complementar municipal nº 740, de 16 de maio de 2014",
  "baseConferida": true,
@@ -1006,6 +1006,17 @@
  "naoAplicadas": [
   {
    "alteradora": {
+    "idSapl": 39697,
+    "rotulo": "Lei Complementar municipal nº 745, de 29 de outubro de 2014"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": [
+    "art-4/par-2"
+   ]
+  },
+  {
+   "alteradora": {
     "idSapl": 46106,
     "rotulo": "Lei Complementar municipal nº 973, de 11 de maio de 2023"
    },
@@ -1014,7 +1025,12 @@
    "enderecos": []
   }
  ],
- "aConferir": [],
+ "aConferir": [
+  {
+   "id": "art-4/par-2",
+   "desde": "2014-10-29"
+  }
+ ],
  "anexosAlterados": [
   {
    "alteradora": {

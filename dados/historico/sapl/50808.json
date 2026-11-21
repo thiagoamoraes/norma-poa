@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-17T17:22:08.961Z",
+ "geradoEm": "2026-11-21T16:20:12.577Z",
  "idSapl": 50808,
  "rotulo": "Lei Complementar municipal nº 1.064, de 29 de dezembro de 2025",
  "baseConferida": true,
@@ -474,6 +474,55 @@
    ]
   }
  ],
- "naoAplicadas": [],
- "aConferir": []
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 51276,
+    "rotulo": "Lei Complementar municipal nº 1.073, de 07 de maio de 2026"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": [
+    "art-4"
+   ]
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-4",
+   "desde": "2026-05-07"
+  },
+  {
+   "id": "art-4/inc-I",
+   "desde": "2026-05-07"
+  },
+  {
+   "id": "art-4/inc-II",
+   "desde": "2026-05-07"
+  },
+  {
+   "id": "art-4/inc-III",
+   "desde": "2026-05-07"
+  },
+  {
+   "id": "art-4/inc-IV",
+   "desde": "2026-05-07"
+  },
+  {
+   "id": "art-4/par-unico",
+   "desde": "2026-05-07"
+  },
+  {
+   "id": "art-4/par-unico/inc-I",
+   "desde": "2026-05-07"
+  },
+  {
+   "id": "art-4/par-unico/inc-II",
+   "desde": "2026-05-07"
+  },
+  {
+   "id": "art-4/inc-V",
+   "desde": "2026-05-07"
+  }
+ ]
 }

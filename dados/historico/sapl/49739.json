@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T15:58:09.830Z",
+ "geradoEm": "2026-11-21T16:20:12.540Z",
  "idSapl": 49739,
  "rotulo": "Lei Complementar municipal nº 1.037, de 02 de fevereiro de 2025",
  "baseConferida": false,
@@ -18,7 +18,7 @@
     "idSapl": 50481,
     "rotulo": "Lei Complementar municipal nº 1.051, de 16 de setembro de 2025"
    },
-   "comandosAplicados": 1
+   "comandosAplicados": 3
   }
  ],
  "dispositivos": [
@@ -1153,6 +1153,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.051/2025"
+     }
     }
    ]
   },
@@ -1168,6 +1177,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.051/2025"
      }
     }
    ]

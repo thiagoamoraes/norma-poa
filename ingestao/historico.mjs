@@ -115,7 +115,14 @@ export function apurarHistorico(base, alteradoras) {
       const idxDepois = indexarVersao(r.versaoFinal);
       const reais = recusados.filter((l) => !(/já existe/.test(l.erro || '') && l.comando.novoTexto && Object.values(idxDepois).includes(l.comando.novoTexto)));
       if (reais.length) {
-        const enderecos = [...new Set(reais.map((l) => chaveParaId(l.comando.dispositivoAlvo || '')).filter(Boolean))];
+        // comando indeterminado de revogação plural/lista traz `dispositivosCitados` (melhor esforço): entram como "a conferir" só
+        // quando a lei citada é a desta base (senão marcaria dispositivo de outra lei)
+        const daBase = (ref) => !!ref && (ref.chave === chaveBase || (ref.numero === base.registro.numero && (ref.anosCandidatos || []).includes(base.registro.ano)));
+        const enderecos = [...new Set(reais.flatMap((l) => {
+          const k = l.comando;
+          if (k.dispositivoAlvo) return [chaveParaId(k.dispositivoAlvo)];
+          return daBase(k.leiAlvoDaCitacao) ? (k.dispositivosCitados || []).map(chaveParaId) : [];
+        }).filter(Boolean))];
         naoAplicadas.push({ alteradora: quem, motivo: 'aplicada_em_parte', detalhe: reais.map((l) => l.erro).join(' | '), enderecos });
         enderecos.forEach((e) => duvida(e, alt.registro.data));
       }

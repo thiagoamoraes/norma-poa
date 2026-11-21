@@ -26,8 +26,8 @@ ok('negativo (real, id 36177): "Fica revogado o § … do art. …" completo con
 const pd = cmds(prepararTextoExtraido(fs.readFileSync('./dados/textos/sapl/30209.txt', 'utf8'))).filter((k) => k.operacao === 'revoke_lei').map((k) => k.leiAlvo.chave);
 ok('negativo (real, Plano Diretor id 30209): revogação de lei inteira segue revoke_lei', pd.includes('lc 43/1979') && pd.includes('lc 182/1988'));
 const sint = (frase) => cmds(`LEI Nº 1\nEmenta.\nO PREFEITO MUNICIPAL\nFaço saber que a Câmara Municipal aprovou e eu sanciono a seguinte Lei:\nArt. 1º ${frase}\nArt. 2º Esta Lei entra em vigor na data de sua publicação.\nPREFEITURA MUNICIPAL DE PORTO ALEGRE, 1º de março de 2020.\nFulano,\nPrefeito.`).filter((k) => /revog/i.test(k.raw || ''));
-ok('(sintético) "Revogam-se os incs. II e III do art. 4º da LC 7" não revoga o art. 4º inteiro', sint('Revogam-se os incs. II e III do art. 4º da Lei Complementar nº 7, de 7 de dezembro de 1973.').every((k) => k.operacao === 'indeterminado'));
-ok('(sintético) "Ficam revogados os §§ 1º e 2º do art. 4º da LC 7" não revoga o art. 4º inteiro', sint('Revogam-se os §§ 1º e 2º do art. 4º da Lei Complementar nº 7, de 7 de dezembro de 1973.').every((k) => k.operacao === 'indeterminado'));
+ok('(sintético) "Revogam-se os incs. II e III do art. 4º da LC 7" não revoga o art. 4º inteiro', sint('Revogam-se os incs. II e III do art. 4º da Lei Complementar nº 7, de 7 de dezembro de 1973.').every((k) => k.dispositivoAlvo !== 'art. 4º' && k.operacao !== 'revoke_lei'));
+ok('(sintético) "Ficam revogados os §§ 1º e 2º do art. 4º da LC 7" não revoga o art. 4º inteiro', sint('Revogam-se os §§ 1º e 2º do art. 4º da Lei Complementar nº 7, de 7 de dezembro de 1973.').every((k) => k.dispositivoAlvo !== 'art. 4º' && k.operacao !== 'revoke_lei'));
 ok('(sintético) negativo: "Fica revogado o § 2º do art. 4º da LC 7" continua revoke_node', sint('Fica revogado o § 2º do art. 4º da Lei Complementar nº 7, de 7 de dezembro de 1973.').some((k) => k.operacao === 'revoke_node' && k.dispositivoAlvo === '§ 2º do art. 4º'));
 console.log(`\n${passou} ok, ${falhou} falha(s)`);
 process.exit(falhou ? 1 : 0);

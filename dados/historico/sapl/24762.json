@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T15:58:02.582Z",
+ "geradoEm": "2026-11-21T16:20:04.853Z",
  "idSapl": 24762,
  "rotulo": "Lei Complementar municipal nº 197, de 21 de março de 1989",
  "baseConferida": true,
@@ -158,7 +158,7 @@
     "idSapl": 47674,
     "rotulo": "Lei Complementar municipal nº 994, de 23 de novembro de 2023"
    },
-   "comandosAplicados": 10
+   "comandosAplicados": 12
   },
   {
    "indice": 16,
@@ -1881,6 +1881,15 @@
       "operacao": "insert_node",
       "lei": "Lei Complementar nº 823/2017"
      }
+    },
+    {
+     "desde": 15,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 994/2023"
+     }
     }
    ]
   },
@@ -1897,6 +1906,15 @@
      "origem": {
       "operacao": "insert_node",
       "lei": "Lei Complementar nº 823/2017"
+     }
+    },
+    {
+     "desde": 15,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 994/2023"
      }
     }
    ]
@@ -3801,8 +3819,8 @@
     "idSapl": 34067,
     "rotulo": "Lei Complementar municipal nº 536, de 28 de dezembro de 2005"
    },
-   "motivo": "comando_nao_reconhecido",
-   "detalhe": "nenhum comando de alteração foi extraído do texto desta norma",
+   "motivo": "comando_recusado",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
    "enderecos": []
   },
   {

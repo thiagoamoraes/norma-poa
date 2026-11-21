@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T09:25:21.773Z",
+ "geradoEm": "2026-11-21T16:20:04.637Z",
  "idSapl": 23346,
  "rotulo": "Lei Complementar municipal nº 133, de 31 de dezembro de 1985",
  "baseConferida": false,
@@ -288,7 +288,7 @@
     "idSapl": 42663,
     "rotulo": "Lei Complementar municipal nº 886, de 10 de julho de 2020"
    },
-   "comandosAplicados": 2
+   "comandosAplicados": 4
   },
   {
    "indice": 29,
@@ -9981,6 +9981,15 @@
       "operacao": "insert_node",
       "lei": "Lei Complementar nº 499/2003"
      }
+    },
+    {
+     "desde": 28,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 886/2020"
+     }
     }
    ]
   },
@@ -9997,6 +10006,15 @@
      "origem": {
       "operacao": "insert_node",
       "lei": "Lei Complementar nº 499/2003"
+     }
+    },
+    {
+     "desde": 28,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 886/2020"
      }
     }
    ]
@@ -17750,8 +17768,13 @@
     "rotulo": "Lei Complementar municipal nº 957, de 28 de setembro de 2022"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei",
-   "enderecos": []
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": [
+    "art-76",
+    "art-148/par-2",
+    "art-153",
+    "art-154-A/par-1"
+   ]
   },
   {
    "alteradora": {
@@ -17759,11 +17782,13 @@
     "rotulo": "Lei Complementar municipal nº 1.041, de 17 de abril de 2025"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 701, de 18 de julho de 2012\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"701\",\"ano\":\"2012\",\"chave\":\"lc 701/2012\"}, versão: lc 133/1985) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 701, de 18 de julho de 2012\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"701\",\"ano\":\"2012\",\"chave\":\"lc 701/2012\"}, versão: lc 133/1985) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 701, de 18 de julho de 2012\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"701\",\"ano\":\"2012\",\"chave\":\"lc 701/2012\"}, versão: lc 133/1985)",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 701, de 18 de julho de 2012\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"701\",\"ano\":\"2012\",\"chave\":\"lc 701/2012\"}, versão: lc 133/1985) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 701, de 18 de julho de 2012\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"701\",\"ano\":\"2012\",\"chave\":\"lc 701/2012\"}, versão: lc 133/1985) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 701, de 18 de julho de 2012\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"701\",\"ano\":\"2012\",\"chave\":\"lc 701/2012\"}, versão: lc 133/1985) | endereço \"§ 1º do art. 165\" não encontrado na versão atual — não há o que revogar | endereço \"§ 2º do art. 165\" não encontrado na versão atual — não há o que revogar",
    "enderecos": [
     "art-59",
     "art-59/par-2",
-    "art-59/par-5"
+    "art-59/par-5",
+    "art-165/par-1",
+    "art-165/par-2"
    ]
   },
   {
@@ -17967,8 +17992,24 @@
    "desde": "1988-01-20"
   },
   {
+   "id": "art-153",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-153/par-1",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-153/par-2",
+   "desde": "2022-09-28"
+  },
+  {
    "id": "art-76/inc-VII",
    "desde": "2016-06-10"
+  },
+  {
+   "id": "art-154-A/par-1",
+   "desde": "2022-09-28"
   },
   {
    "id": "art-37-A",
