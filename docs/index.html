@@ -377,8 +377,11 @@ function montarHistorico(h, n) {
     : ult === 0 ? '<div class="estado al"><strong>Texto original.</strong> Nenhuma norma alteradora foi apurada para esta lei: este é o texto como foi publicado, não necessariamente o vigente. A base pode não conhecer todas as alterações; confira na fonte.</div>'
     : '<div class="estado ok">Todas as normas alteradoras conhecidas foram aplicadas. Apuração automática: confira na fonte.</div>';
   const corpo = $('corpo');
+  // Anexo alterado por norma posterior (decisão 37): o motor não apura anexos; só avisa, com a norma e a data.
+  const anexoAlterado = (h.anexosAlterados || []).length
+    ? `<div class="estado al"><strong>Anexo alterado.</strong> ${h.anexosAlterados.map((x) => `A ${esc(x.alteradora.rotulo.replace(/ municipal/, ''))} (art. ${x.artigo}, ${dataBr(x.data)}) altera anexo desta lei`).join('; ')}. O texto vigente apurado abaixo <strong>não traz o anexo</strong>; confira o anexo no original.</div>` : '';
   const base = h.baseConferida === false ? '<div class="estado al">A leitura automática do texto ORIGINAL desta lei não passou em todas as conferências; o histórico abaixo parte dele e pode trazer o mesmo defeito.</div>' : '';
-  corpo.innerHTML = `${pend}${base}<div class="controles"><label>Versão <select id="versao">${opcoes}</select></label><label class="caixa"><input type="checkbox" id="marcar" checked> Destacar o que esta versão mudou</label><label class="caixa"><input type="checkbox" id="antigas"> Mostrar redações anteriores</label></div><div id="hist-corpo"></div>
+  corpo.innerHTML = `${pend}${anexoAlterado}${base}<div class="controles"><label>Versão <select id="versao">${opcoes}</select></label><label class="caixa"><input type="checkbox" id="marcar" checked> Destacar o que esta versão mudou</label><label class="caixa"><input type="checkbox" id="antigas"> Mostrar redações anteriores</label></div><div id="hist-corpo"></div>
 <details id="minuta"><summary>Redigir lei alteradora (piloto)</summary>
 <p class="vazio">Monta, na forma da LC 611/2009, o projeto que altera esta lei a partir do <strong>texto vigente apurado</strong>. O texto novo é seu; a ferramenta só dá a forma (artigo alterador, aspas, linha pontilhada, "(NR)", numeração) e confere se o resultado é lido de volta como você pediu. Não substitui a revisão.</p>
 <div class="form">

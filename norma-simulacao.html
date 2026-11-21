@@ -2122,6 +2122,19 @@ export function extrairComandosLei(docAlteradora, opts) {
         }));
         return;
       }
+      // "Revogam-se as disposições em contrário, mantidas as condições … na Lei nº N": a lei só aparece numa RESSALVA —
+      // não é revogação dela (LC 27976, Lei 6.309/1988). Cláusula genérica, sem efeito.
+      if (/^\s*Revogam[\s-–—]*se\s+as\s+disposi[çc][õo]es\s+em\s+contr[aá]rio\b[^.]*\b(?:mantid[oa]s?|ressalvad[oa]s?|exceto|salvo)\b/i.test(textoIntro)) {
+        comandos.push({ artigoOrigem: i+1, operacao: "clausula_generica_sem_efeito", raw: textoIntro });
+        return;
+      }
+      // revogação de PARTE da lei sem endereço de dispositivo ("o item 4 do Anexo I da Lei Complementar nº 942"): nunca é
+      // revoke_lei (revogaria a lei inteira). Falha alto: indeterminado, para o humano (id 47547).
+      if (refsLei.length && /\b(?:itens?|anexos?|tabelas?|quadros?|planilhas?|mapas?|linhas?)\b[^.;]{0,80}\b(?:da|do|das|dos)\s+(?:Lei|Decreto|Emenda|Resolu[çc][ãa]o)/i.test(textoIntro)) {
+        comandos.push({ artigoOrigem: i+1, operacao: "indeterminado",
+          motivo: "revogação de parte da lei (item, anexo ou tabela) sem endereço de dispositivo reconhecido: não age sobre a lei inteira", raw: textoIntro });
+        return;
+      }
       if (refsLei.length) {
         refsLei.forEach(r => comandos.push({
           artigoOrigem: i+1, operacao: "revoke_lei", leiAlvo: r,

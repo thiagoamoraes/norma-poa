@@ -47,6 +47,25 @@ export function chaveParaId(chave) {
 }
 
 /**
+ * Artigos da alteradora que mexem em ANEXO da lei-base (decisão 37, 21/11/2026). O motor não lê anexos (decisão 33): a
+ * lei de denominação de logradouro, p.ex., traz o anexo como imagem e o anexo quase nunca é alterado — mas, havendo
+ * alteração, o texto vigente apurado NÃO a traz. Aqui só se DETECTA: artigo cuja frase de introdução cita "anexo" e a
+ * lei-base (pela chave de citação). Devolve [{ artigo, trecho }]; nada é aplicado, nada é inventado.
+ */
+export function artigosQueMexemEmAnexo(artigos, chaveBase) {
+  const out = [];
+  (artigos || []).forEach((a, i) => {
+    // só a frase de introdução (até as aspas do bloco ou os dois-pontos): "anexo" dentro do texto novo citado não conta
+    const intro = String(visText(a) || '').replace(/\s+/g, ' ').split(/[“"”:]/)[0].slice(0, 400);
+    // "anexo" tem de apontar para a lei-base ("Anexo I da Lei…", "Anexo na Lei…"); "conforme o Anexo desta Lei" é anexo da própria alteradora
+    if (!/\banexos?\b[^.;]{0,80}?\b(?:da|do|das|dos|na|no|à|ao)\s+(?:Lei|Decreto)/i.test(intro)) return;
+    if (!extrairReferenciasLei(intro).some((r) => r.chave === chaveBase)) return;
+    out.push({ artigo: i + 1, trecho: intro.slice(0, 220) });
+  });
+  return out;
+}
+
+/**
  * base: { registro, texto } · alteradoras: [{ registro, texto }] — `registro` é o do
  * catálogo (identidade); a ordem de aplicação é a da data da norma.
  */
@@ -57,6 +76,7 @@ export function apurarHistorico(base, alteradoras) {
   const versoes = [{ indice: 0, id: v0.id, data: base.registro.data, fonte: null }];
   const naoAplicadas = [];
   const descartadas = [];
+  const anexosAlterados = []; // alteradora, data e trecho de cada artigo que mexe em anexo desta lei (o motor não apura anexos)
   const aConferir = new Map(); // id → data mais antiga a partir da qual há dúvida
   const duvida = (id, data) => { if (!aConferir.has(id) || data < aConferir.get(id)) aConferir.set(id, data); };
   let v = v0;
@@ -75,6 +95,7 @@ export function apurarHistorico(base, alteradoras) {
     // dispositivos da lei-base que a alteradora cita nos artigos que não viraram alteração
     const citados = (artigos) => [...new Set(artigos.flatMap((a) => extrairCitacoesExternas(visText(a)).map((c) => chaveParaId(c.chave)).filter(Boolean)))];
     const chaveBase = chaveLei(fonteDoRegistro(base.registro).tipoAto, base.registro.numero, String(base.registro.ano));
+    for (const x of artigosQueMexemEmAnexo(doc.artigos, chaveBase)) anexosAlterados.push({ alteradora: quem, data: alt.registro.data, artigo: x.artigo, trecho: x.trecho });
     const miraEstaLei = comandos.some((k) => k.leiAlvo && (k.leiAlvo.chave === chaveBase || (k.leiAlvo.numero === base.registro.numero && (k.leiAlvo.anosCandidatos || []).includes(base.registro.ano))));
     if (r.versaoFinal === v && alt.candidataPelaEmenta && !miraEstaLei && efetivos.length) {
       // Candidata achada só pela ementa, e os comandos que ela traz miram OUTRA lei:
@@ -149,7 +170,7 @@ export function apurarHistorico(base, alteradoras) {
     const datas = [...aConferir].filter(([e]) => id === e || id.startsWith(e + '/')).map(([, d]) => d);
     if (datas.length) conferir.push({ id, desde: datas.sort()[0] });
   }
-  return { versoes, dispositivos: ordem.map((id) => porId.get(id)), naoAplicadas, aConferir: conferir, ...(descartadas.length ? { descartadas } : {}) };
+  return { versoes, dispositivos: ordem.map((id) => porId.get(id)), naoAplicadas, aConferir: conferir, ...(anexosAlterados.length ? { anexosAlterados } : {}), ...(descartadas.length ? { descartadas } : {}) };
 }
 
 // ─── Quais leis têm histórico a apurar: dos vínculos da fonte ──────────────────

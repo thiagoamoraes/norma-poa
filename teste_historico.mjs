@@ -6,8 +6,9 @@
 // (fixtures/sapl/registros_lc320.json). Sem rede. Uso: node teste_historico.mjs
 
 import fs from 'node:fs';
-import { apurarHistorico, chaveParaId, montarListaDeHistoricos, alteradorasPelaEmenta } from './ingestao/historico.mjs';
+import { apurarHistorico, artigosQueMexemEmAnexo, chaveParaId, montarListaDeHistoricos, alteradorasPelaEmenta } from './ingestao/historico.mjs';
 import { normalizarVinculoSapl } from './ingestao/sapl-comum.mjs';
+import { parseMinuta, detectNRCandidates, limparMarkdownLinks } from './norma-core.js';
 
 let passou = 0, falhou = 0;
 const ok = (desc, cond) => { cond ? passou++ : falhou++; console.log(`${cond ? '✓' : '✗'} ${desc}`); };
@@ -76,6 +77,20 @@ ok('chaveParaId: chave do motor → endereço', chaveParaId('§ 3º do art. 2º'
     texto: 'LEI COMPLEMENTAR Nº 9.999, DE 1º DE JANEIRO DE 2020.\nInclui § 9º no art. 1º da Lei Complementar nº 611, de 3 de fevereiro de 2009.\nArt. 1º Fica incluído § 9º no art. 1º da Lei Complementar nº 611, de 3 de fevereiro de 2009, conforme segue:\n“Art. 1º ......\n§ 9º Texto.” (NR)\nArt. 2º Esta Lei Complementar entra em vigor na data de sua publicação.', candidataPelaEmenta: true };
   const h2 = apurarHistorico({ registro: reg('320'), texto: fs.readFileSync('./lc320.txt', 'utf8') }, [outra]);
   ok('(sintético) candidata pela ementa que altera outra lei: descartada, não conta como alteradora não aplicada', h2.versoes.length === 1 && h2.naoAplicadas.length === 0 && h2.descartadas.length === 1);
+}
+
+{
+  // anexo alterado por norma posterior (decisão 37): só detecta e avisa; o motor não apura anexos
+  const t = limparMarkdownLinks(fs.readFileSync('./fixtures/textos/revoga_47547.txt', 'utf8'));
+  const doc = parseMinuta(t, detectNRCandidates(t));
+  const x = artigosQueMexemEmAnexo(doc.artigos, 'lc 942/2022');
+  ok('Lei Complementar municipal nº 989 (id 47547, real): o art. 6º ("revogado o item 4 do Anexo I da LC 942/2022") é detectado como artigo que mexe em ANEXO da LC 942/2022', x.length === 1 && x[0].artigo === 6 && /Anexo I/.test(x[0].trecho));
+  ok('(real) negativo: a mesma norma não mexe em anexo da LC 320/1994 (outra lei) nem cita anexo nos demais artigos', artigosQueMexemEmAnexo(doc.artigos, 'lc 320/1994').length === 0);
+  ok('(real) negativo: nenhuma das 10 alteradoras reais da LC 320 mexe em anexo — o histórico não traz `anexosAlterados`', h.anexosAlterados === undefined);
+  const alt = { registro: { ...reg('849'), idSapl: 2, numero: '9998', ano: 2020, data: '2020-02-01', rotulo: 'Lei Complementar municipal nº 9.998, de 01 de fevereiro de 2020' },
+    texto: 'LEI COMPLEMENTAR Nº 9.998, DE 1º DE FEVEREIRO DE 2020.\nSubstitui o Anexo I da Lei Complementar nº 320, de 20 de dezembro de 1994.\nArt. 1º Fica substituído o Anexo I da Lei Complementar nº 320, de 20 de dezembro de 1994, pelo Anexo desta Lei.\nArt. 2º Esta Lei entra em vigor na data de sua publicação.' };
+  const h3 = apurarHistorico({ registro: reg('320'), texto: fs.readFileSync('./lc320.txt', 'utf8') }, [alt]);
+  ok('(sintético) alteradora que substitui o Anexo I da LC 320: o histórico registra `anexosAlterados` com a norma, a data e o artigo, sem aplicar nada', Array.isArray(h3.anexosAlterados) && h3.anexosAlterados.length === 1 && h3.anexosAlterados[0].artigo === 1 && h3.anexosAlterados[0].data === '2020-02-01' && h3.anexosAlterados[0].alteradora.idSapl === 2);
 }
 
 console.log('='.repeat(70));
