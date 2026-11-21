@@ -8,6 +8,7 @@ import { readFile, writeFile, mkdir, readdir, copyFile, unlink } from 'node:fs/p
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { lerJsonl, agora } from './sapl-io.mjs';
+import { VINCULOS_QUE_ALTERAM, alteradorasPelaEmenta } from './historico.mjs';
 
 const NOMES = { 1: 'Lei Orgânica', 2: 'Emenda à Lei Orgânica', 6: 'Lei Complementar', 5: 'Lei' };
 const ultimo = new Map();
@@ -32,6 +33,20 @@ const normas = [...ultimo.values()]
     existsSync(`./dados/historico/sapl/${r.idSapl}.json`) ? 1 : 0,
     revogadas[r.idSapl] || 0]);
 
+// ── Quem altera quem (consulta: "Altera: …" na alteradora, "Leis que a alteraram" na lei-base) ──
+// a: pares dos vínculos da fonte; p: pares só deduzidos da ementa (a página os marca "provável").
+{
+  const a = {}, p = {}, tem = new Set();
+  const poe = (obj, alt, base) => { (obj[alt] ||= []).push(base); tem.add(`${alt}>${base}`); };
+  for (const v of await lerJsonl('./dados/catalogo/sapl/vinculos.jsonl')) {
+    if (!VINCULOS_QUE_ALTERAM.has(v.tipoVinculo)) continue;
+    const alt = ultimo.get(v.principal), base = ultimo.get(v.relacionada);
+    if (!alt || !base || tem.has(`${v.principal}>${v.relacionada}`)) continue;
+    poe(a, v.principal, v.relacionada);
+  }
+  for (const { base, alteradora } of alteradorasPelaEmenta(ultimo)) if (!tem.has(`${alteradora}>${base}`)) poe(p, alteradora, base);
+  await writeFile('./docs/dados/vinculos.json', JSON.stringify({ geradoEm: agora(), a, p }) + '\n');
+}
 await writeFile('./docs/dados/catalogo.json', JSON.stringify({ geradoEm: agora(), tipos: NOMES, normas }) + '\n');
 // ── Texto dos dispositivos, para a busca dentro do texto ───────────────────────
 // Uma linha por dispositivo VIGENTE: [idSapl, idDispositivo, texto]. De onde vem:

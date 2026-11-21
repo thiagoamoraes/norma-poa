@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%237a3e1d%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-size=%2722%27 font-family=%27Georgia,serif%27 font-weight=%27700%27 text-anchor=%27middle%27 fill=%27white%27%3EN%3C/text%3E%3C/svg%3E">
 <title>Norma — revisão humana</title>
 <style>
   :root {
@@ -18,10 +19,12 @@
       --borda-ctl: #7b838c; }
   }
   * { box-sizing: border-box; }
+  .pular { position: absolute; left: -9999px; top: 0; } .pular:focus { left: 8px; top: 8px; z-index: 30; background: var(--papel); border: 2px solid var(--marca); border-radius: 6px; padding: 8px 12px; }
   html { -webkit-text-size-adjust: 100%; }
   body { margin: 0; background: var(--fundo); color: var(--tinta); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  header { padding: 16px 16px 8px; max-width: 1500px; margin: 0 auto; }
-  h1 { font: 600 1.3rem/1.25 Georgia, "Times New Roman", serif; margin: 0 0 4px; }
+  header { padding: 10px 16px 4px; max-width: 1500px; margin: 0 auto; }
+  h1 { font: 600 1.15rem/1.25 Georgia, "Times New Roman", serif; margin: 0 0 2px; }
+  details.sobre { font-size: .85rem; color: var(--suave); } details.sobre summary { cursor: pointer; display: inline-block; } details.sobre p { margin: 4px 0; }
   header p { margin: 0; color: var(--suave); font-size: .88rem; max-width: 90ch; }
   a { color: var(--marca); }
   button, select, input, textarea { font: inherit; color: inherit; }
@@ -32,13 +35,13 @@
   input[type=text], select, textarea { background: var(--papel); border: 1px solid var(--borda-ctl); border-radius: 6px; padding: 7px 10px; width: 100%; }
   textarea { resize: vertical; min-height: 3.2em; }
 
-  #painel { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-top: 10px; }
-  .num { display: flex; flex-direction: column; min-width: 78px; }
-  .num b { font: 600 1.35rem/1.1 system-ui; font-variant-numeric: tabular-nums; }
-  .num span { font-size: .75rem; color: var(--suave); }
+  #painel { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: center; margin-top: 6px; }
+  .num { display: flex; flex-direction: row; align-items: baseline; gap: 5px; }
+  .num b { font: 600 1.1rem/1.1 system-ui; font-variant-numeric: tabular-nums; }
+  .num span { font-size: .8rem; color: var(--suave); }
   .num.al b { color: var(--alerta); } .num.ok b { color: var(--ok); } .num.er b { color: var(--erro); }
   #acoes-gerais { margin-left: auto; display: flex; gap: 8px; flex-wrap: wrap; }
-  #aviso-export { display: none; margin: 10px 0 0; padding: 8px 12px; background: var(--alerta-fraca); border-left: 3px solid var(--alerta); border-radius: 4px; font-size: .88rem; }
+  #aviso-export { display: none; margin: 10px 0 0; padding: 6px 12px; background: var(--alerta-fraca); border-left: 3px solid var(--alerta); border-radius: 4px; font-size: .85rem; }
   #aviso-export.ver { display: block; }
 
   main { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; padding: 8px 16px 48px; max-width: 1500px; margin: 0 auto; }
@@ -63,9 +66,16 @@
   .porque li { padding: 6px 10px; border-radius: 4px; background: var(--alerta-fraca); }
   .porque code { font-size: .78rem; }
 
-  #decisao { border: 1px solid var(--linha); border-radius: 8px; padding: 10px 12px; margin-bottom: 14px; background: var(--fundo); }
-  #decisao .linha { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-  #decisao .estado { font-size: .85rem; margin: 8px 0 0; }
+  #decisao { position: sticky; bottom: 0; z-index: 5; max-height: 70vh; overflow: auto; border: 1px solid var(--borda-ctl); border-radius: 8px; padding: 8px 12px; margin-top: 14px; background: var(--fundo); box-shadow: 0 -3px 10px rgba(0,0,0,.14); }
+  #pontos { position: sticky; top: 0; z-index: 4; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; padding: 6px 10px; margin: 0 0 10px; border: 1px solid var(--linha); border-radius: 8px; background: var(--fundo); font-size: .9rem; }
+  #pontos .desc { flex: 1 1 16em; color: var(--suave); }
+  #origem .pt-atual { outline: 3px solid var(--marca); }
+  @media (pointer: coarse) { button, select, summary { min-height: 44px; } input[type=checkbox] { width: 22px; height: 22px; } }
+  #decisao .linha { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; }
+  #decisao .linha button { padding: 6px 10px; }
+  #decisao .estado { font-size: .85rem; margin: 6px 0 0; }
+  @media (max-width: 700px) { #decisao .linha { display: grid; grid-template-columns: 1fr 1fr; } #decisao .linha button { padding: 4px 6px; font-size: .88rem; } #decisao { padding: 6px 8px; } #pontos .desc, .at { display: none; } #pontos { flex-wrap: nowrap; gap: 6px; } #pontos button { padding: 4px 8px; font-size: .88rem; } #pontos b { font-size: .85rem; white-space: nowrap; } }
+  @media (pointer: coarse) and (max-width: 700px) { #decisao .linha button, #pontos button { min-height: 40px; } }
   #decisao .estado.des { color: var(--erro); font-weight: 600; }
   #form { display: none; margin-top: 10px; gap: 8px; }
   #form.ver { display: grid; }
@@ -130,15 +140,17 @@
   .roteiro pre.trecho { margin: 4px 0 10px; padding: 8px 10px; background: var(--fundo); border: 1px solid var(--linha); border-radius: 4px; font: .8rem/1.45 ui-monospace, Menlo, Consolas, monospace; white-space: pre-wrap; word-break: break-word; max-height: 16em; overflow: auto; }
   .atalhos { display: flex; gap: 6px; align-items: center; font-size: .85rem; color: var(--suave); }
   @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
-  #toast { position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%); background: var(--tinta); color: var(--papel); padding: 8px 14px; border-radius: 6px; font-size: .88rem; opacity: 0; pointer-events: none; transition: opacity .2s; }
+  #toast { position: fixed; bottom: 5.5rem; left: 50%; transform: translateX(-50%); background: var(--tinta); color: var(--papel); padding: 8px 14px; border-radius: 6px; font-size: .88rem; opacity: 0; pointer-events: none; transition: opacity .2s; }
   #toast.ver { opacity: 1; }
   kbd { font: .75rem ui-monospace, monospace; border: 1px solid var(--linha); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; background: var(--papel); }
 </style>
 </head>
 <body>
+<a class="pular" href="#norma">Ir para a norma</a>
 <header>
   <h1>Norma — revisão humana</h1>
-  <p>Normas <b>recentes</b> (sancionadas a partir da LC 611/2009) que o leitor automático não aceitou. Confira o ponto reprovado nos dois lados e registre a decisão. A decisão <b>não altera</b> a leitura do motor: fica numa camada à parte, amarrada à versão do texto. Ferramenta de trabalho, experimental e sem caráter oficial. <a href="compara.html">Conferir uma lei com a compilação do leis.org</a> · <a href="index.html">Voltar à consulta</a></p>
+  <p><strong>Ferramenta de trabalho, experimental e sem caráter oficial.</strong> Confira cada ponto marcado nos dois lados e registre a decisão. <a href="compara.html">Conferir uma lei com a compilação do leis.org</a> · <a href="index.html">Voltar à consulta</a></p>
+  <details class="sobre"><summary>Como funciona</summary><p>Normas <b>recentes</b> (sancionadas a partir da LC 611/2009) que o motor não aceitou. A decisão <b>não altera</b> a leitura do motor: fica numa camada à parte, amarrada à versão do texto.</p></details>
   <div id="painel" aria-live="polite"></div>
   <div id="aviso-export" role="status"></div>
 </header>
@@ -157,9 +169,9 @@
     </div>
     <div id="contagem"></div>
     <ul id="fila"></ul>
-    <p class="ajuda" id="ajuda-teclas">Teclas: <kbd>J</kbd>/<kbd>K</kbd> próxima/anterior · <kbd>A</kbd> aceitar · <kbd>D</kbd> defeito de fonte · <kbd>C</kbd> corrigir rótulo · <kbd>E</kbd> encaminhar ao motor</p>
+    <p class="ajuda" id="ajuda-teclas">Teclas: <kbd>J</kbd>/<kbd>K</kbd> próxima/anterior norma · <kbd>N</kbd>/<kbd>P</kbd> próximo/anterior ponto · <kbd>A</kbd> aceitar · <kbd>D</kbd> defeito de fonte · <kbd>C</kbd> corrigir rótulo · <kbd>E</kbd> encaminhar ao motor</p>
   </details>
-  <section id="norma"><p class="vazio">Carregando a fila…</p></section>
+  <section id="norma" tabindex="-1"><p class="vazio">Carregando a fila…</p></section>
 </main>
 <div id="toast" role="status"></div>
 <div id="anuncio" class="so-leitor" aria-live="polite"></div>
@@ -172,7 +184,7 @@ const CHAVE_EXPORT = 'norma-revisao-exportado-em-v1';
 const ROTULO_DECISAO = { aceitar: 'Aceita como está', defeito_de_fonte: 'Defeito de fonte', corrigir: 'Correção de rótulo', encaminhar_ao_motor: 'Encaminhada ao motor' };
 const ROTULO_DEFEITO = { aspas_faltando: 'aspas de fechamento faltando', aspas_fechando_cedo: 'aspas fechando cedo demais', nr_truncado: '"(NR)" truncado', numeracao_errada: 'numeração errada na própria lei', ocr: 'texto de OCR / digitalização', outro: 'outro' };
 const MOTIVOS = {
-  rotulo_nao_confere_com_a_origem: 'O rótulo que o leitor deu (por posição) não é o que está escrito antes do trecho no arquivo.',
+  rotulo_nao_confere_com_a_origem: 'O rótulo que o motor deu (por posição) não é o que está escrito antes do trecho no arquivo.',
   trecho_nao_localizado_na_origem: 'Um trecho da árvore não aparece no texto de origem, na ordem esperada.',
   bloco_sem_fechamento_de_aspas: 'O fim do bloco de alteração foi INFERIDO (faltam as aspas de fechamento): confira o trecho em azul.',
   fecho_com_texto_demais: 'Há mais de 600 caracteres depois do fecho (fora do carimbo de assinatura eletrônica): texto depois da assinatura que o motor não leu como parte da lei.',
@@ -190,9 +202,9 @@ const MOTIVOS = {
   data_diverge_do_catalogo: 'A data do arquivo difere da do catálogo.',
   numero_diverge_do_catalogo: 'O número do arquivo difere do do catálogo.',
   tipo_diverge_do_catalogo: 'O tipo do arquivo difere do do catálogo.',
-  tipo_sem_suporte: 'Tipo de ato que o leitor ainda não suporta.',
+  tipo_sem_suporte: 'Tipo de ato que o motor ainda não suporta.',
   numeracao_de_artigos_com_salto: 'A numeração dos artigos tem salto.',
-  erro_do_leitor: 'O leitor falhou ao processar o texto.',
+  erro_do_leitor: 'O motor falhou ao processar o texto.',
 };
 
 const CHAVE_ATALHOS = 'norma-revisao-atalhos-v1';
@@ -227,6 +239,7 @@ function el(tag, attrs = {}, ...filhos) {
   for (const f of filhos.flat()) if (f != null) e.append(f.nodeType ? f : document.createTextNode(f));
   return e;
 }
+const fmtData = (d) => (d ? new Date(d + 'T12:00:00').toLocaleDateString('pt-BR') : '—');
 const sit = (n) => situacaoDaDecisao(estado.decisoes.get(n.idSapl), n);
 
 // ── painel e fila ─────────────────────────────────────────────────────────────
@@ -306,15 +319,14 @@ async function abrir(id) {
   pintarNorma(); pintarFila();
   if (tinhaFoco) $('fila').querySelector('[aria-current="true"]')?.focus({ preventScroll: true });
   $('anuncio').textContent = `Norma aberta: ${estado.norma.rotulo}`;
-  const sugestao = estado.norma.dispositivos.find((d) => d.situacao !== 'ok');
-  if (sugestao) selecionar(sugestao.id, false);
+  if (estado.pontos.length) irAoPonto(0, false);
   if (window.innerWidth < 1000) { $('fila-col').open = false; $('norma').scrollIntoView(); } else window.scrollTo({ top: 0 });
 }
 function pintarNorma() {
   const n = estado.norma;
   const porque = el('ul', { class: 'porque' }, n.motivos.map((m) => el('li', {}, el('b', {}, mot(m)), ' — ', MOTIVOS[m] || 'Motivo ainda sem descrição.')));
   const meta = el('div', { class: 'meta' },
-    el('span', {}, n.tipo + ' nº ' + n.numero), el('span', {}, 'data ' + (n.data || '—')),
+    el('span', {}, n.tipo + ' nº ' + n.numero), el('span', {}, 'data ' + fmtData(n.data)),
     n.urlFonte ? el('a', { href: n.urlFonte, target: '_blank', rel: 'noopener' }, 'Arquivo original na fonte ↗') : el('span', {}, 'sem link da fonte'),
     n.avisos.includes('texto_de_ocr') ? el('span', { class: 'selo al' }, 'texto de OCR: confira no original') : null,
     n.avisos.includes('anexo_preservado_nao_interpretado') ? el('span', { class: 'selo al', title: 'O anexo (texto ou tabela) foi guardado como bloco, com o rótulo escrito; o motor não interpreta o conteúdo.' }, 'anexo preservado, não interpretado') : null,
@@ -327,16 +339,17 @@ function pintarNorma() {
   const roteiro = roteiros.length || !pontos ? el('details', { class: 'roteiro', open: true }, el('summary', {}, 'O que conferir nesta norma'),
     ...roteiros.map((r) => el('div', {}, el('b', {}, r.titulo), el('p', { class: 'ajuda' }, r.instrucao), el('pre', { class: 'trecho', tabindex: 0 }, r.trecho))),
     !roteiros.length ? el('p', { class: 'ajuda' }, ROTEIRO_GENERICO) : null) : null;
-  const fmt = (d) => (d ? new Date(d + 'T12:00:00').toLocaleDateString('pt-BR') : '—');
+  const fmt = fmtData;
   const datas = n.datas ? el('p', { class: 'datas' }, `Datas divergentes: catálogo ${fmt(n.datas.catalogo)} · escrita no arquivo ${fmt(n.datas.arquivo)}. Decida caso a caso qual está certa (o motor não escolhe): se o arquivo tem razão, é erro de cadastro; se o catálogo tem razão, é defeito do arquivo ou data de outro ato.`) : null;
   $('norma').replaceChildren(
     ...[el('h2', {}, n.rotulo), meta, porque, roteiro, datas,
       n.fronteiras?.length ? el('p', { class: 'fr-nota' }, `Fronteira inferida pelo motor (confiança ${[...new Set(n.fronteiras.map((f) => f.confianca))].join('/')}): ${n.fronteiras.length} trecho(s) em azul no texto de origem. Aqui o revisor só ACEITA ou marca defeito de fonte; a decisão não muda o que o motor lê.`) : null,
-      blocoDecisao(),
+    blocoPontos(),
     el('div', { id: 'paineis' },
       el('div', { class: 'painel' }, el('h3', {}, el('span', {}, 'Texto de origem (como extraído)'), el('span', { class: 'leg' }, el('i', { style: 'background:var(--erro-fraca);border-bottom:2px solid var(--erro)' }), 'rótulo não confere  ', el('i', { style: 'background:var(--alerta-fraca);border-bottom:2px dashed var(--alerta)' }), 'fora da árvore  ', el('i', { style: 'background:color-mix(in srgb,#3b82c4 18%,transparent);border-bottom:2px solid #3b82c4' }), 'fronteira inferida')), el('div', { class: 'rolagem', id: 'rol-origem', tabindex: 0 }, el('div', { id: 'origem' }))),
-      el('div', { class: 'painel' }, el('h3', {}, el('span', {}, `Árvore do leitor (${n.dispositivos.length} dispositivos)`), el('span', { class: 'leg' }, 'clique para localizar no texto')), el('div', { class: 'rolagem', id: 'rol-arvore' }, arvore())))].filter((x) => x != null));
-  $('norma').append(el('section', { id: 'comandos', hidden: true }));
+      el('div', { class: 'painel' }, el('h3', {}, el('span', {}, `Árvore lida pelo motor (${n.dispositivos.length} dispositivos)`), el('span', { class: 'leg' }, 'clique para localizar no texto')), el('div', { class: 'rolagem', id: 'rol-arvore' }, arvore())))].filter((x) => x != null));
+  $('norma').append(el('section', { id: 'comandos', hidden: true }), blocoDecisao()); // a barra de decisão fica por último e cola no rodapé da tela (position: sticky)
+  estado.pontos = pontosLista(n); estado.pt = -1;
   pintarOrigem();
   pintarDecisao();
   pintarComandos(n);
@@ -372,12 +385,46 @@ function arvore() {
   if (nodes[0]) nodes[0].tabIndex = 0; // uma só parada de Tab na lista; as setas andam dentro dela
   return caixa;
 }
+// ── pontos a conferir: ◀ ▶ (teclas P/N); J/K continuam entre normas ──────────────
+function pontosLista(n) {
+  const l = [];
+  for (const d of n.dispositivos) if (d.situacao === 'rotulo_diverge') l.push({ tipo: 'disp', id: d.id, texto: `Numeração: o motor numerou «${d.rotulo}», no arquivo está «${d.naOrigem || '?'}»` });
+  else if (d.situacao === 'nao_localizado') l.push({ tipo: 'disp', id: d.id, texto: `Trecho não localizado no texto de origem: ${d.rotulo || d.id}` });
+  for (const e of n.especiais) if (e.situacao === 'nao_localizado') l.push({ tipo: 'esp', texto: `${e.ref} não localizado no texto de origem` });
+  for (const x of n.lacunas) l.push({ tipo: 'lac', ini: x.ini, texto: 'Trecho do arquivo que ficou fora da árvore (em amarelo)' });
+  for (const f of n.fronteiras || []) l.push({ tipo: 'fr', ini: f.ini, texto: 'Fronteira inferida pelo motor (em azul)' });
+  return l;
+}
+function blocoPontos() {
+  const n = estado.norma, t = pontosLista(n).length;
+  if (!t) return null;
+  return el('div', { id: 'pontos', role: 'group', 'aria-label': 'Pontos a conferir' },
+    el('button', { type: 'button', id: 'pt-ant', onclick: () => irAoPonto(estado.pt - 1), title: 'Ponto anterior (tecla P)' }, '◀ Anterior', el('span', { class: 'at' }, ' (P)')),
+    el('b', { id: 'pt-num' }, `${t} ponto(s) a conferir`),
+    el('button', { type: 'button', id: 'pt-prox', onclick: () => irAoPonto(estado.pt + 1), title: 'Próximo ponto (tecla N)' }, 'Próximo', el('span', { class: 'at' }, ' (N)'), ' ▶'),
+    el('span', { class: 'desc', id: 'pt-desc' }));
+}
+function irAoPonto(k, foco = true) {
+  const l = estado.pontos || []; if (!l.length) return;
+  k = Math.max(0, Math.min(l.length - 1, k)); estado.pt = k; const q = l[k];
+  document.querySelectorAll('#origem .pt-atual').forEach((e) => e.classList.remove('pt-atual'));
+  if (q.tipo === 'disp') selecionar(q.id, false);
+  else if (q.ini != null) {
+    const rol = $('rol-origem'), marca = document.querySelector(`#origem [data-ponto="${k}"]`);
+    if (marca) { marca.classList.add('pt-atual'); const dentro = marca.getBoundingClientRect().top - rol.getBoundingClientRect().top + rol.scrollTop; rol.scrollTo({ top: Math.max(0, dentro - rol.clientHeight / 3), behavior: 'auto' }); }
+    else rol.scrollTo({ top: Math.max(0, q.ini / Math.max(1, estado.norma.texto.length) * rol.scrollHeight - rol.clientHeight / 3), behavior: 'auto' });
+  }
+  $('pt-num').textContent = `Ponto ${k + 1} de ${l.length}`;
+  $('pt-desc').textContent = q.texto;
+  $('pt-ant').disabled = k === 0; $('pt-prox').disabled = k === l.length - 1;
+  $('anuncio').textContent = `Ponto ${k + 1} de ${l.length}: ${q.texto}`;
+}
 function pintarOrigem() {
   const n = estado.norma, o = $('origem'); o.replaceChildren();
   const marcas = [];
   for (const d of n.dispositivos) if (d.ini != null && d.fim > d.ini) marcas.push({ ini: d.ini, fim: d.fim, cls: 'd' + (d.situacao === 'rotulo_diverge' ? ' bad' : ''), id: d.id });
-  for (const l of n.lacunas) if (l.fim > l.ini) marcas.push({ ini: l.ini, fim: l.fim, cls: 'lac' });
-  for (const f of n.fronteiras || []) if (f.fim > f.ini) marcas.push({ ini: f.ini, fim: f.fim, cls: 'fr' });
+  for (const l of n.lacunas) if (l.fim > l.ini) marcas.push({ ini: l.ini, fim: l.fim, cls: 'lac', ponto: estado.pontos.findIndex((q) => q.tipo === 'lac' && q.ini === l.ini) });
+  for (const f of n.fronteiras || []) if (f.fim > f.ini) marcas.push({ ini: f.ini, fim: f.fim, cls: 'fr', ponto: estado.pontos.findIndex((q) => q.tipo === 'fr' && q.ini === f.ini) });
   marcas.sort((a, b) => a.ini - b.ini);
   let p = 0;
   for (const m of marcas) {
@@ -385,12 +432,15 @@ function pintarOrigem() {
     if (m.ini > p) o.append(document.createTextNode(n.texto.slice(p, m.ini)));
     const s = el('span', { class: m.cls }, n.texto.slice(m.ini, m.fim));
     if (m.id) { s.dataset.id = m.id; s.addEventListener('click', () => selecionar(m.id, false)); }
+    if (m.ponto >= 0) s.dataset.ponto = m.ponto;
     o.append(s); p = m.fim;
   }
   if (p < n.texto.length) o.append(document.createTextNode(n.texto.slice(p)));
 }
 function selecionar(id, rolarOrigem) {
   estado.sel = id;
+  const kp = (estado.pontos || []).findIndex((q) => q.tipo === 'disp' && q.id === id);
+  if (kp >= 0 && kp !== estado.pt && $('pt-num')) { estado.pt = kp; $('pt-num').textContent = `Ponto ${kp + 1} de ${estado.pontos.length}`; $('pt-desc').textContent = estado.pontos[kp].texto; $('pt-ant').disabled = kp === 0; $('pt-prox').disabled = kp === estado.pontos.length - 1; }
   document.querySelectorAll('#rol-arvore .disp').forEach((e) => e.setAttribute('aria-selected', String(e.dataset.id === id)));
   document.querySelectorAll('#origem .sel').forEach((e) => e.classList.remove('sel'));
   const marca = document.querySelector(`#origem [data-id="${CSS.escape(id)}"]`);
@@ -451,7 +501,7 @@ async function pintarComandos(n) {
 function blocoDecisao() {
   return el('div', { id: 'decisao' },
     el('div', { class: 'linha' },
-      ...DECISOES.map((d) => el('button', { type: 'button', 'data-d': d, 'aria-pressed': 'false', onclick: () => abrirForm(d) }, { aceitar: 'Aceitar como está (A)', defeito_de_fonte: 'Defeito de fonte (D)', corrigir: 'Corrigir rótulo (C)', encaminhar_ao_motor: 'Encaminhar ao motor (E)' }[d])),
+      ...DECISOES.map((d) => el('button', { type: 'button', 'data-d': d, 'aria-pressed': 'false', onclick: () => abrirForm(d) }, { aceitar: 'Aceitar como está', defeito_de_fonte: 'Defeito de fonte', corrigir: 'Corrigir rótulo', encaminhar_ao_motor: 'Encaminhar ao motor' }[d], el('span', { class: 'at' }, ' (' + { aceitar: 'A', defeito_de_fonte: 'D', corrigir: 'C', encaminhar_ao_motor: 'E' }[d] + ')'))),
       el('button', { type: 'button', onclick: limparDecisao, id: 'limpar' }, 'Limpar decisão')),
     el('p', { class: 'estado', id: 'estado-decisao' }),
     el('div', { id: 'form' }));
@@ -459,7 +509,7 @@ function blocoDecisao() {
 function pintarDecisao() {
   const n = estado.norma, d = estado.decisoes.get(n.idSapl), s = sit(n);
   const p = $('estado-decisao'); p.className = 'estado' + (s === 'desatualizada' ? ' des' : '');
-  p.textContent = !d ? 'Sem decisão.' : s === 'desatualizada' ? `⚠ Decisão desatualizada (${ROTULO_DECISAO[d.decisao]}): o texto ou o leitor mudou desde então. Revise de novo.` : `Decisão: ${ROTULO_DECISAO[d.decisao]} · ${new Date(d.em).toLocaleString('pt-BR')}${d.nota ? ' · ' + d.nota : ''}`;
+  p.textContent = !d ? 'Sem decisão.' : s === 'desatualizada' ? `⚠ Decisão desatualizada (${ROTULO_DECISAO[d.decisao]}): o texto ou o motor mudou desde então. Revise de novo.` : `Decisão: ${ROTULO_DECISAO[d.decisao]} · ${new Date(d.em).toLocaleString('pt-BR')}${d.nota ? ' · ' + d.nota : ''}`;
   document.querySelectorAll('#decisao [data-d]').forEach((b) => b.setAttribute('aria-pressed', String(!!d && s === 'revisada' && b.dataset.d === d.decisao)));
   $('limpar').disabled = !d;
 }
@@ -480,7 +530,7 @@ function abrirForm(tipo) {
   } else if (tipo === 'defeito_de_fonte') {
     const sel = window.getSelection()?.toString().trim().slice(0, 300) || '';
     const d = estado.norma.dispositivos.find((x) => x.id === estado.sel);
-    f.append(el('p', { class: 'ajuda' }, 'O erro está no arquivo da fonte, não no leitor. O motor não muda; a norma sai da fila com o motivo registrado.'),
+    f.append(el('p', { class: 'ajuda' }, 'O erro está no arquivo da fonte, não no motor. O motor não muda; a norma sai da fila com o motivo registrado.'),
       el('label', {}, 'Tipo do defeito', el('select', { id: 'def-tipo' }, TIPOS_DE_DEFEITO.map((t) => el('option', { value: t }, ROTULO_DEFEITO[t])))),
       el('label', {}, 'Trecho do arquivo que está errado (selecione no texto de origem antes de abrir, ou digite)', el('textarea', { id: 'def-trecho', maxlength: 300 }, sel || (d?.naOrigem ? '' : ''))),
       nota(false), salvar('Registrar: defeito de fonte'));
@@ -489,7 +539,7 @@ function abrirForm(tipo) {
     f.append(el('p', { class: 'ajuda' }, 'Só o RÓTULO é corrigível, e a correção fica numa camada à parte; o texto da lei nunca é reescrito. Selecione o dispositivo na árvore.'));
     if (!d) { f.append(el('p', {}, 'Selecione um dispositivo na árvore ou no texto de origem.')); }
     else {
-      f.append(el('div', {}, el('b', {}, d.id), ` — rótulo do leitor: «${d.rotulo}»${d.naOrigem ? ` · escrito no arquivo: «${d.naOrigem}»` : ''}`),
+      f.append(el('div', {}, el('b', {}, d.id), ` — rótulo do motor: «${d.rotulo}»${d.naOrigem ? ` · escrito no arquivo: «${d.naOrigem}»` : ''}`),
         el('label', {}, 'Rótulo correto (como está escrito na lei, ex.: "Art. 12.", "§ 1º", "Parágrafo único.")', el('input', { type: 'text', id: 'cor-para', maxlength: 40 })),
         el('button', { type: 'button', onclick: () => { const para = $('cor-para').value.trim(); if (!para || para === d.rotulo) { toast('Informe um rótulo diferente do atual.'); return; } estado.rascunho = estado.rascunho.filter((c) => c.endereco !== d.id).concat({ endereco: d.id, campo: 'rotulo', de: d.rotulo, para }); abrirForm('corrigir'); } }, 'Adicionar à lista'));
     }
@@ -538,6 +588,7 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape' && estado.formAberto) { $('form').classList.remove('ver'); estado.formAberto = null; document.querySelectorAll('#decisao [data-d]').forEach((b) => b.setAttribute('aria-pressed', 'false')); pintarDecisao(); return; }
   if (!estado.atalhos || e.ctrlKey || e.metaKey || e.altKey || /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
   const k = e.key.toLowerCase();
+  if ((k === 'n' || k === 'p') && estado.norma && !e.target.closest('button, a, summary')) { irAoPonto(estado.pt + (k === 'n' ? 1 : -1)); e.preventDefault(); return; }
   if (k === 'j' || k === 'k') {
     const l = filtrada(); if (!l.length) return;
     const i = l.findIndex((n) => n.idSapl === estado.norma?.idSapl);
