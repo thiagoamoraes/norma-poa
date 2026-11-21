@@ -1,0 +1,97 @@
+{
+ "idSapl": 23172,
+ "rotulo": "Lei Complementar municipal nº 123, de 09 de outubro de 1985",
+ "sha256Origem": "b1b8a824fbbc4610d49e2cc4d42b975b8826b25a11a3f17f696d4f3825d06690",
+ "estruturadoEm": "2026-11-21T09:25:20.253Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "t '",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": ",.- , \\ .,.~' ~ ••••• ••••   71/11 1/8'         no88 Reduz as aliquotas do Imposto Sobre Serviços de Qualquer N~ tureza incidente sobre hospitais, sanatórios  e casas   de saúde e dá outras   providências. Faço saber que a Câmara Municipal      aprovou   e eu san ciono a seguinte Lei Complementar: Art. lQ - Ao art. 81, da Lei Complementar nQ 7, de 7 de dezembro de 1973, aI terado pela Lei Complementar nQ 97, de 30 de dezembro de 1983, é acrescentado   o inciso IX, com vigência a contar de lQ de janeiro do corrente ano, como segue:",
+ "preambulo": null,
+ "fecho": "PREFEITURA       MUNICIPAL   DE PORTO ALEGRE,   a~   de outu-\nJaime Oscar Silva Ungaretti,\nSecretário Municipal da Fazenda.\nL\n/DP",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Q - A partir do exercicio de 1986, os hospitais gerais, com um minimo de 100 (cem) leitos hospitalares     em um único local e que mantenham convênio regular com o INAMPS, terão direito à aliquota reduzida de 0,85% (oitenta e cinco   centésimos por cento) no Imposto Predial e Territorial Urbano incidente sobre o prédio, regular perante o Municipio, no qual se realize sua atividade principal, mediante requerimento e prova das condições exigidas neste artigo, nos prazos regulamentares."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Q - As entidades hospitalares   que mantenham convênio regular com o INAMPS e referidas na Lei Complementar nQ 38, de 15 de setembro de 1978, terão 90 (noventa) dias para saldar seus débitos fiscais anteriores, sem a incidência de correção mone tária sobre os mesmos."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A partir de 12 de janeiro de 1986,  fica \"y;revogacta            a Lei Complementar nQ 38, de 15 de setembro de 1978, bem I I 0089 -, como as regulamentações       dela decorrentes."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei Complementar         entra em vigor     na data de sua publicação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Revogam-se   as disposições   em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem",
+   "bloco_de_alteracao_sem_dono"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.921,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "demaisreceitas30Art2"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art3"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art42"
+    },
+    {
+     "rotulo": "Art. 4º",
+     "naOrigem": "Art52"
+    },
+    {
+     "rotulo": "Art. 5º",
+     "naOrigem": "Art62"
+    }
+   ]
+  }
+ }
+}

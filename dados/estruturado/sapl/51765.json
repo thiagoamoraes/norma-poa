@@ -1,0 +1,68 @@
+{
+ "idSapl": 51765,
+ "rotulo": "Lei municipal nº 14.652, de 16 de setembro de 2026",
+ "sha256Origem": "5468ce33f683d39993073ee0517f8fb7b543970b3ced368c5cf7d01abc282a89",
+ "estruturadoEm": "2026-11-21T09:25:20.739Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14652",
+  "ano": "2026",
+  "data": "2026-09-16",
+  "epigrafe": "LEI Nº 14.652, DE 16 DE SETEMBRO DE 2026.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Helio Francisco Fabricio de Souza o logradouro conhecido como Acesso Cento e Vinte e Dois, localizado no Bairro Chapéu do Sol, e altera sua categoria para Rua.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 16 de setembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.652\n26.0.000133937-0              16.09.2026",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Helio Francisco Fabricio de Souza o logradouro conhecido como Acesso Cento e Vinte e Dois, localizado no Bairro Chapéu do Sol, com base na Lei Complementar nº 320, de 2 de maio de 1994, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Líder comunitário, íntegro e solidário."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.933,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

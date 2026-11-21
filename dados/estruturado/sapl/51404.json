@@ -1,0 +1,51 @@
+{
+ "idSapl": 51404,
+ "rotulo": "Lei municipal nº 14.566, de 15 de junho de 2026",
+ "sha256Origem": "8571f8a936d78ab907db041ca09de9fb56239cc196254edbe432c6e235c0a179",
+ "estruturadoEm": "2026-11-21T09:25:20.858Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14566",
+  "ano": "2026",
+  "data": "2026-06-15",
+  "epigrafe": "PLE Nº 006/26",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.566, DE 15 DE JUNHO DE 2026. Declara de utilidade pública o Instituto de Planejamento e Estudos Socioambientais – IPES.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 15 de junho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica declarado de utilidade pública o Instituto de Planejamento e Estudos Socioambientais – IPES, com base na Lei nº 2.926, de 12 de julho de 1966."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

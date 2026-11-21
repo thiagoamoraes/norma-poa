@@ -1,0 +1,109 @@
+{
+ "idSapl": 23453,
+ "rotulo": "Lei Complementar municipal nº 139, de 22 de julho de 1986",
+ "sha256Origem": "98cff1027bc05793e526b0694cbe9bd826162c0c8f80228caa0d87a10ae12900",
+ "estruturadoEm": "2026-11-21T09:25:20.087Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": ".aoc: ••• 1412/\"",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "PREFEITURA MUNICIPAL   DE PORTO ALEGRE ••• ....'1\" LEI COMPLEMENTAR      NQ   i39 Concede anistia fiscal do IPTU, Taxa de Lixo, ISSQN, anteriores a janeiro de 1986, como medida de recuperação das finanças públicas municipais    e dá outras providências. Faço saber que a Câmara Municipal         aprovou   e eu san ciono a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Q - Os créditos tributários provenientes  do Imposto Predial e Territorial Urbano, Taxa de Lixo e Imposto  Sobre Serviços de Qualquer Natureza, anteriores a 1Q de janeiro  de 1986, inscritos em Divida Ativa ou não, ainda que ajuizados, pod~ rão ser pagos da seguinte forma:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "Até Cz$ 20,00, o valor principal por exercicio, serão dispensados a correção monetária, a multa e os juros de mora; 11 - de Cz$ 20,01 até Cz$ 400,00 o valor  principal por exercicio, será dispensado de 70% da correção monetária e do mesmo percentual da multa e juros de mora; 111 - de Cz$ 400,01 até Cz$ 1.000,00, o valor princi paI por exercicio, será dispensado de 40% da correção monetária; do mesmo percentual da multa e juros de mora;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "acima de Cz$ 1.000,00, o valor principal   por exercicio, será dispensado de 20% de correção monetária e do mesmo percentual da multa e juros de mora."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Q - Os beneficios previstos no artigo 1Q serão concedidos ao contribuinte cujo débito seja satisfeito de uma só vez e dentro do prazo de 45 (quarenta e cinco) dias, a contar da vigência da presente Lei Complementar, desde que esteja atuali zado com os pagamentos dos tributos do exercicio de 1986."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Q - No caso de parcelamento, em no máximo de 6 parcelas mensais, iguais e consecutivas, o contribuinte terá so I I mente a dispensa do percentual da correção monetária prevista nos nl~ I ,., itens lI, III e IV, do arte lQ, nao fazendo-             jus a dispensa     do pe~ centual de multa e juros de mora."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Q - O disposto no artigo anterior    aplica-se nos saldos dos créditos tributários, existentes na data da publicação desta Lei Complementar, decorrentes de parcelamentos concedidos na esfera administrativa ou judicial, cujos pagamentos este jam sendo efetuados na forma ajustada e com regularidade."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Q - Nos casos de créditos tributários ajuiz~ dos, os beneficios instituidos por esta Lei Complementar não   implicam dispensa das custas e despesas processuais."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Q - Esta Lei Complementar              entra em vigor      na data de sua publicação."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Q   -         Revogam-se    as disposições   em contrário. PREFEITURA           MUNICIPAL     E PORTO ALEGRE,   2Z de    julho \"} ecretária e-puoTlque-se. Valdir Fraga, Secretário do Governo    Municipal."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 9,
+   "cobertura": 0.981,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "II –",
+     "naOrigem": "IV"
+    }
+   ]
+  }
+ }
+}

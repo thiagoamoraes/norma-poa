@@ -1,0 +1,61 @@
+{
+ "idSapl": 51498,
+ "rotulo": "Lei municipal nº 14.584, de 17 de julho de 2026",
+ "sha256Origem": "cce4b71ede5d3f01fb2c5f1453d9d6c7d58ad8063e9f2e4bf404812b8d8e78aa",
+ "estruturadoEm": "2026-11-21T09:25:20.830Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14584",
+  "ano": "2026",
+  "data": "2026-07-17",
+  "epigrafe": "PLL Nº 051/26",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.584, DE 17 DE JULHO DE 2026. Denomina Dejalmo Nogueira Machado o logradouro conhecido como Beco Nove Vila Asa Branca, localizado no Bairro Sarandi, e altera sua categoria para Rua.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.584\n26.0.000098319-4               17.07.2026",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Dejalmo Nogueira Machado o logradouro conhecido como Beco Nove Vila Asa Branca, localizado no Bairro Sarandi, com base na Lei Complementar nº 320, de 2 de maio de 1994, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "idSapl": 25207,
+ "rotulo": "Lei Complementar municipal nº 219, de 19 de janeiro de 1990",
+ "sha256Origem": "62a81985b2c97a9ca245c4d0ab602f0fea69871a57a60e61344a0b0f4101e71f",
+ "estruturadoEm": "2026-11-21T09:25:19.830Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": ",/3 /y:f/'J:, :~",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "tJp/Ó) r--- I COMPLEMENTAR     N2 '.~   ! Gi Dispõe sobre a utilização de espaço nos passeios públicos para a construçio de guaritas.",
+ "preambulo": "O PREFEITO    MUNICIPAL    DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu san ciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA     MUNICIPAL   DE PORTO ALEGRE,     J5   de janeiro   de 1990.\nNewton Burmeister,\nSecretário Municipal         de Obras     e Viação.\nRegistre-se   e publique-se.\n. ,fO~lr~~~,.\n/lavio ,Koutzii,\nI\nSecretario do Governo          Municipal,\n;respondendo.\ni\n/NSC",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Parte do espaço risico dos passeios públicos municipais poderá ser destinado para a construçio de gua ritas de segurança para as comunidades dos bairros de Porto Ale gre e destinadas aos serviços de vigilância particular."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Poder Executivo regulamentará, através de Decreto, o modelo padronizado de guarita, bem como a autorização de localizaçio das mesmas no passeio público."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Poder Executivo não terá qualquer ônus na instalaçio, manutenção e renovaçio das guaritas, que ocorrerão às custas das comunidades interessadas."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta I,.ei. será regulamentada no prazo                de 30 (trinta) dias a contar da data de sua publicaçio, ouvidos                 os órgãos de segurança pública."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor         na data de   sua"
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Revogam-se   as disposições     em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 6,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art12"
+    },
+    {
+     "rotulo": "Art. 5º",
+     "naOrigem": "Art52"
+    },
+    {
+     "rotulo": "Art. 6º",
+     "naOrigem": "Art62"
+    }
+   ]
+  }
+ }
+}

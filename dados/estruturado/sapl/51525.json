@@ -1,0 +1,51 @@
+{
+ "idSapl": 51525,
+ "rotulo": "Lei municipal nº 14.596, de 24 de julho de 2026",
+ "sha256Origem": "0a8d2555b16a118842bbc511d408b2dac8c69660083c4fbbfb9b12781ff113e2",
+ "estruturadoEm": "2026-11-21T09:25:20.820Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14596",
+  "ano": "2026",
+  "data": "2026-07-24",
+  "epigrafe": "PLL Nº 263/26",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.596, DE 24 DE JULHO DE 2026. Concede o título de Cidadão de Porto Alegre ao senhor Jorge Luiz Winckler.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 24 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica concedido o título de Cidadão de Porto Alegre ao senhor Jorge Luiz Winckler, com base na Lei nº 9.659, de 22 de dezembro de 2004."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

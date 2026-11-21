@@ -1,0 +1,69 @@
+{
+ "idSapl": 51835,
+ "rotulo": "Lei municipal nº 14.676, de 02 de outubro de 2026",
+ "sha256Origem": "7c3578a6b6f4a7c0f484a1d351986c59b9c64d2039297e8ec4f635a589cd532e",
+ "estruturadoEm": "2026-11-21T09:25:20.709Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14676",
+  "ano": "2026",
+  "data": "2026-10-02",
+  "epigrafe": "LEI Nº 14.676, DE 2 DE OUTUBRO DE 2026.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a ementa e o caput do art. 1º e inclui Anexo na Lei nº 7.815, de 8 de junho de 1996 – que denomina logradouro público no Bairro Ponta Grossa –, para incluir homenagem a Marino França Vieira.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de outubro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.676\n26.0.000136837-0                 02.10.2026",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei nº 7.815, de 8 de junho de 1996, conforme segue:",
+   "blocoDeAlteracao": "“Denomina Rua Túnel Verde – Marino França Vieira um logradouro localizado\nno Bairro Ponta Grossa.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o caput do art. 1º da Lei nº 7.815, de 1996, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica denominado Rua Túnel Verde – Marino França Vieira o logradouro,\natualmente conhecido como ‘Túnel Verde’, localizado no Bairro Ponta Grossa, com base na Lei\nComplementar nº 320, de 2 de maio de 1994, conforme Anexo desta Lei.\n………………………………………………………………………………” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica incluído Anexo na Lei nº 7.815, de 1996, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.953,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

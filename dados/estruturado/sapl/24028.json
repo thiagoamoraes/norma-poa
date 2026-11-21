@@ -1,0 +1,76 @@
+{
+ "idSapl": 24028,
+ "rotulo": "Lei Complementar municipal nº 162, de 17 de dezembro de 1987",
+ "sha256Origem": "541408cb6867bfb55600c7dfcbb8447521e60bf5ab350c46b03ca488075a4e54",
+ "estruturadoEm": "2026-11-21T09:25:19.982Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "D",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "t~-         ~-1 ~0 !cr') p/..< a-       oS)Jf}:. Altera dispositivos  da L~i Complementar n'? 133, de 3L de r10/.0mbr'ode 1985, e d~ outras provid~ncias.",
+ "preambulo": "o PREfEITO          MUNICIPAL       DE PORTO ALEGRE. faço sabet' que a C~lInara r'1unicipal apt'ovo\\] C' eu Selll c io n o a s('g u i n t e Lc i C o m pIe m C' n ta r-: At~l. 1º -!I allnea \"i\" do inciso V elo ar-L. 110 do Lei Complementar   nº 133, de 31 de dezembro  de 1985, passa a vigorar com a seguinte    redaç~o:",
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica substituida,    no Ilcaput\" do at~t. 180, ela Lei Complementar   nº 133, de 31 de dezembro     de 1985, restabelecido pela Lei Complementar    nº 147, de 16 de dezembro      ele 1986, acx pressão \"do Agente Administrativo      em atividades   tl~ibut~t'ias, arr~ caelél.cloras ou de preparo de pagamento\",    por \"dos detentores      de ca.!: go até o padrão 9, - VETADO - dos grupos de Administração             Geral e Técnico-Profissional    em atividades   tribut~rias,   arrecadadorasou de preparo de pagamento    - VETADO -       li."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As despesas   decorrentes das                aplicações desta Lei Complementar  correrão  à conta das dotações                 orçamentarias proprias."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta       Lei Complementar       entra   em vigor   na data   de sua publicação. L Í\\ r' t..   ') o. - !\\evogarn- ~-)e as d.i. ~)posi c;oc::; crn c.:orl t, r'ilc i. o. DE: 1)()I\\'l'O j\\LLcnj,:, \\:;. ele clc;',é''';- P f; l~:F E I TU n j\\ [;1U rI I C LP :\\ L Gabriel   Pauli FadeI. SecreLár'io r'1unicipal de !lcJlnlni~)Ll'aç~lo. !\\cCistrc-se       e_publioue-se          . ..      ~?c::.,                   • /        .. / ?-'--- l Vr:~ii;F r'aga • Secretário        do Governo         Municipal."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem",
+   "bloco_de_alteracao_sem_dono"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.858,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "pagamentoVETADOArt2º"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art3º"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art4º"
+    }
+   ]
+  }
+ }
+}

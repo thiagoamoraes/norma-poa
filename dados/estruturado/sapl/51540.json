@@ -1,0 +1,58 @@
+{
+ "idSapl": 51540,
+ "rotulo": "Lei municipal nº 14.602, de 28 de julho de 2026",
+ "sha256Origem": "a3738a1b71a5579ab394c6de71903745aa9d270ae90589a151d9d948476d5e2e",
+ "estruturadoEm": "2026-11-21T09:25:20.800Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14602",
+  "ano": "2026",
+  "data": "2026-07-28",
+  "epigrafe": "PLL Nº 629/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.602, DE 28 DE JULHO DE 2026. Denomina Calçadão Marcio Louzada Carpena o trecho da Orla do Guaíba, localizado entre o nº 3.890 da Avenida Edvaldo Pereira Paiva e o nº 1.978 da Avenida Padre Cacique, no bairro Praia de Belas.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Calçadão Marcio Louzada Carpena o trecho da Orla do Guaíba, localizado entre o nº 3.890 da Avenida Edvaldo Pereira Paiva e o nº 1.978 da Avenida Padre Cacique, no bairro Praia de Belas, com base na Lei Complementar nº 320, de 2 de maio de 1994."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Advogado, professor e empreendedor."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

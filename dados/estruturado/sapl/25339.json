@@ -1,0 +1,68 @@
+{
+ "idSapl": 25339,
+ "rotulo": "Lei Complementar municipal nº 225, de 05 de junho de 1990",
+ "sha256Origem": "2974f979e54d48f2726e23ea83b98578e48642fb7bb4866f7cb766d298a94cf7",
+ "estruturadoEm": "2026-11-21T09:25:19.810Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "?1<0 (.",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "p\"-CL Altera o artigo 11 da Lei Complementar nº 72, de 06 de janeiro de 1982, que regula a denominação de logradouros e equipamentos públicos, disciplina a numeração de imóveis e dá outras providências.",
+ "preambulo": "o PREFEITO       MUNICIPAL   DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou              e eu san ciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA     MUNICIPAL   DE PORTO ALEGRE, 05    de junho\nLaerte Meliga,\nSecretário do Planejamento      Municipal,\nrespondendo.\nRegistre-se     e publique~se.\nJ r\nç'\n,San\nc etári\nfyl.    /lf~ '\\\ns B~~i,\ndo Governo      Municipal,\nesponden     o.\nL",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O artigo 11 da Lei Complementar              nº 72, de 06 de janeiro de 1982, passa a vigorar com a seguinte               redação:",
+   "blocoDeAlteracao": "\"Art. 11 - Para a denominação de logradouro,   somente serão utilizadas as terminologias de estrada, avenida, rua,\npraça, acesso, largo, rótula, esplanada, travesE:a e parque.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Executivo Municipal, no prazo de cento e vinte (120) dias, regulamentará a presente Lei Complementar, definindo as categorias dos logradouros referidos no artigo 11."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Revogam-se as disposições em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.975,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

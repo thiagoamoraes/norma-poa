@@ -1,0 +1,89 @@
+{
+ "idSapl": 26130,
+ "rotulo": "Lei Complementar municipal nº 255, de 24 de outubro de 1991",
+ "sha256Origem": "040eda7c491410bfebe4aca2d78ac9927f05a0c8828accb20b13e99bcb8ff5c7",
+ "estruturadoEm": "2026-11-21T09:25:19.725Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "255",
+  "ano": "1991",
+  "data": "1991-10-24",
+  "epigrafe": "LEI COMPLEMENTAR Nº 255",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Regulamenta o artigo 111 da Lei Orgânica do Município e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono a seguinte LeiComplementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 24 de outubro de 1991.\nOlívio Dutra,\nPrefeito.\nJorge Santos Buchabqui,\nSecretário Municipal de Administração.\nRegistre-se e publique-se.\nHélio Corbellini,\nSecretário do Governo Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecido em 30% (trinta por cento)o percentual de que trata o artigo 111 da Lei Orgânica Municipal."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A inconformidade do contribuinte ou usuário,referir."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Fica suspenso o pagamento da taxa ou tarifa, em discussão, até aserviços."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Procedente a reclamação, terá, o contribuinte ou usuário, reaberto o prazo de pagamento, que não será inferior ao do lançamento original."
+  },
+  {
+   "id": "art-2/par-3",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Improcedente a reclamação, o contribuinte ou usuário ficará sujeito à correção monetária e juros de mora desde a data do vencimento original e ao pagamento imediato do débito."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Revogam-se as disposições em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 7,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "idSapl": 22669,
+ "rotulo": "Lei Complementar municipal nº 101, de 11 de janeiro de 1984",
+ "sha256Origem": "9be8523569fc3a5e491cb32fb837add6cd3dcaf45fe870e839fd27da6d45e6d6",
+ "estruturadoEm": "2026-11-21T09:25:20.314Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "0001",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "PROC. N9 1236/88 PLCE. N9    05/83 LEI COMPLEMENTAR         Nº   JOJ Autoriza o Executivo Municipal a criar a função de Office Boy (MaE2 dalete) regida pela Consolidação das Leis do Trabalho. Faço saber que a Câmara Municipal             aprovou e eu san ciono a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o Executivo Municipal autorizado a, por decreto, criar a função de Office Boy (Mandalete), destinada à contratação de menores com idade entre dezesseis (16) e dezoito (18) anos para o desempenho de atividades auxiliares de apoio administrativo  sob regime da Consolidação das Leis do Trabalho, num limite máximo de duzentas (200) vagas. Parágrafo 6nico - O preenchimento da função                 de Of fice Boy será por menores carentes e órfãos carentes."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O contrato de trabalho para a função de que trata o artigo anterior terá seu periodo máximo de   duração fixado em dois (2) anos, findo os quais será obrigatória e automaticamente rescindido, não se admitindo, em hipótese   nenhuma, prorrogação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar              entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Revogam-se         as disposições      em contrário. PREFEITURA     MUNICIPAL     DE PORTO ALEGR~, ~A      de jane! / \"-<J;;-ã~--A~tô~ni o Di b , __ E~.e-:fe±-t0-.------ Valter Luiz de Lemos, Secretário Municipal de Administração. Registre-se   e publique-se. Adau9_~Pinto- Filippi, Sêeretário do Governo    Municipal."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.977,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

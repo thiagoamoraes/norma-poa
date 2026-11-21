@@ -1,0 +1,59 @@
+{
+ "idSapl": 25770,
+ "rotulo": "Lei Complementar municipal nº 244, de 14 de janeiro de 1991",
+ "sha256Origem": "cfa7d8819b2c099287488adaaa4648e87b81b74a1c9fe41a4410d2374d6cb75f",
+ "estruturadoEm": "2026-11-21T09:25:19.755Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": ".-'   ;.' ,'.,,\\",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": ".~_. v ..••• _:\\.. CAMARA MUNICIPAL DE PORTO ALEGRE PROC. NQ 2491/90 Av. Loureiro da Silva, 255 - Fone • 28-6055 RIO GRANDE DO SUL                                 PLCL    Nº     34/90 Altera a redação do art. lQ da Lei Municipal 6014, de 07 de dezembro de 1987. Faço saber, no uso das atribuições que me obriga o §7º, do art. 77, da Lei Orgânica, que a Câmara Municipal manteve e eu promulgo a seguinte             Lei Complementar: Art. lº - O artigo lº da Lei Municipal nº 6014/87 passa a           vigorar com a seguinte redação:",
+ "preambulo": null,
+ "fecho": "Gabinete da Presidência da Câmara Municipal de Porto Alegre, 14 de\n~~\nAntonio Hohlf/ldt:,\nPresidente.\nRegistre-se\ne.PUb;;;~~\nSecretario.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Revogam~se as disposições em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "texto_fora_da_arvore",
+   "rotulo_nao_confere_com_a_origem",
+   "bloco_de_alteracao_sem_dono"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 1,
+   "dispositivos": 1,
+   "cobertura": 0.529,
+   "blocosDeAlteracao": 1,
+   "lacunas": [
+    {
+     "tamanho": 429,
+     "amostra": "ArtlºOsservidoresmunicipaisdaAdministraçãodiretaeindiretaatingidosporDecretosexa"
+    }
+   ],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "espectivasaçõesArt3º"
+    }
+   ]
+  }
+ }
+}

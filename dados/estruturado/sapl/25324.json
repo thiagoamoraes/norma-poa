@@ -1,0 +1,70 @@
+{
+ "idSapl": 25324,
+ "rotulo": "Lei Complementar municipal nº 224, de 25 de maio de 1990",
+ "sha256Origem": "f7b5629bc2f6ac4533964ea71fd6fbf8d1db65e8673691ece1f844d63affaa34",
+ "estruturadoEm": "2026-11-21T09:25:19.811Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "of    6f,/rrr.,.,.'\">",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "o   'J/ 'J\"   l, Altera dispositivos do artigo 24 da Lei Complementar nº 12, de 07-01-75, e dá outras  pro vidências.                  - Faço saber que a Câmara Municipal    aprovou eu sanciono     a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Passa o inciso XXXIII do artigo   24 da Lei Complementar nº 12, de 07-01-1975, a ter a seguinte re dação:",
+   "blocoDeAlteracao": "\"XXXIII - Trafegar o veiculo de transporte co\nletivo sem ter afixada, em local visivel em seu interior,      a\ntabela horária oficial da linha.\nPena: multa de uma a duas Unidades de Referên\ncia Munic ipal (URM) .\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Passa o inciso XXIV do artigo 24 da L~i Complementar nº 12, de 07-01-1975, a ter a seguinte redaçao:",
+   "blocoDeAlteracao": "\"XXIV - A falta de cumprimento da tabela horá\nria oficial das linhas de transporte coletivo, que constará a\nfixada juntamente com o itinerário, em local determinado pela\nSMT, nos terminais de linha e nas estaç~es dos corredores     de\nônibus.\nPena: multa de cinco a quatorze Unidades de Re\nferência fvlunicipal (URM).\""
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Revogam-se as disposiç~es em contrá Diógenes   liveira, Secretário Municipal   dos Transportes. ublique-se. Registre-se    e , r. J S   (I g tari §an do r sp nden o. s Buc   bqui, rno Municipal,"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.971,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

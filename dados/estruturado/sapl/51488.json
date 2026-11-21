@@ -1,0 +1,93 @@
+{
+ "idSapl": 51488,
+ "rotulo": "Lei municipal nº 14.583, de 14 de julho de 2026",
+ "sha256Origem": "198e9002b6f8af97e76eb2640a0f517e944ac310bb7cd48a44d34fba16d663dd",
+ "estruturadoEm": "2026-11-21T09:25:20.831Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14583",
+  "ano": "2026",
+  "data": "2026-07-14",
+  "epigrafe": "PLL Nº 089/26",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.583, DE 14 DE JULHO DE 2026. Inclui a efeméride Semana Municipal do Cérebro no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, na semana que compreender o feriado de Corpus Christi, em anos ímpares.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 14 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Semana Municipal do Cérebro no Anexo da Lei nº 10.904, de 31 de maio de 2010, na semana que compreender o feriado de Corpus Christi, em anos ímpares."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Excepcionalmente, a primeira edição da Semana Municipal do Cérebro ocorrerá no ano de 2026."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Durante a Semana Municipal do Cérebro deverão ser fomentadas atividades científicas, educacionais e de conscientização sobre saúde mental, tais como:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "congressos, palestras e debates abertos à comunidade;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "programações descentralizadas e gratuitas em escolas, universidades, hospitais e espaços culturais; e"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "campanhas focadas na prevenção e educação sobre transtornos do neurodesenvolvimento, dependência química, uso de telas, saúde mental no trabalho e envelhecimento saudável."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Executivo Municipal poderá firmar parcerias com universidades, hospitais, centros de inovação e iniciativa privada para viabilizar as atividades de que trata o art. 2º desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 8,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

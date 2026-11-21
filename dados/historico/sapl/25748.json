@@ -1,0 +1,107 @@
+{
+ "geradoEm": "2026-11-21T09:25:22.104Z",
+ "idSapl": 25748,
+ "rotulo": "Lei Complementar municipal nº 242, de 09 de janeiro de 1991",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 242/1991@1991-01-09",
+   "data": "1991-01-09",
+   "fonte": null
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": ", da Lei Orgânica, que a Câmara Municipal manteve e eu promulgo dispositivos da Lei Complementar nº 242, de 09 de janeiro de 1991;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As áreas de uso comum do povo e as de uso especial               que se encontram na situação referida no artigo lº do Ato das Disposições Orgânicas Gerais e Transitórias, não incluidas nas situações previstas nos                    incisos e alineas deste artigo, deverão ser objeto de processo de desafetação e transformadas em áreas dominiais incorporadas ao Banco de Terra para fins de concessão do Direito Real de Uso\".",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 25978,
+    "rotulo": "Lei Complementar municipal nº 251, de 25 de julho de 1991"
+   },
+   "motivo": "comando_recusado",
+   "detalhe": "artigo-base \"art. 22º\" não encontrado — não é possível posicionar \"art. 22\" | endereço-pai \"art. 22\" não encontrado — não é possível inserir \"inc. i do art. 22\" | endereço-pai \"art. 22\" não encontrado — não é possível inserir \"§ 22 do art. 22\" | endereço-pai \"art. 22\" não encontrado — não é possível inserir \"§ 32 do art. 22\"",
+   "enderecos": [
+    "art-22"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 30483,
+    "rotulo": "Lei Complementar municipal nº 445, de 19 de abril de 2000"
+   },
+   "motivo": "comando_recusado",
+   "detalhe": "já existe artigo com o rótulo de \"art. 1\" — insert_node não pode criar um segundo; se a intenção era dar nova redação, o endereço na alteradora não foi reconhecido como o do artigo existente | endereço-pai \"art. 7º\" não encontrado — não é possível inserir \"parágrafo único do art. 7º\" | artigo-base \"art. 6º\" não encontrado — não é possível posicionar \"art. 6\"",
+   "enderecos": [
+    "art-1",
+    "art-7",
+    "art-3",
+    "art-5",
+    "art-12",
+    "art-6"
+   ]
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-1",
+   "desde": "2000-04-19"
+  },
+  {
+   "id": "art-1/par-1",
+   "desde": "2000-04-19"
+  },
+  {
+   "id": "art-1/par-2",
+   "desde": "2000-04-19"
+  }
+ ]
+}

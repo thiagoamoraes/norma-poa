@@ -1,0 +1,53 @@
+{
+ "idSapl": 51782,
+ "rotulo": "Lei municipal nº 14.662, de 21 de setembro de 2026",
+ "sha256Origem": "8fd3cdee45204b01e8e4cf7a86b7e2c0b02732d44f55b2a97a428c617b7ce182",
+ "estruturadoEm": "2026-11-21T09:25:20.730Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14662",
+  "ano": "2026",
+  "data": "2026-09-21",
+  "epigrafe": "PLL Nº 561/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.662, DE 21 DE SETEMBRO DE 2026. Inclui o evento Feira do Livro da Restinga no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, na segunda semana de abril.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de setembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nABRIL\nPERÍODO            EVENTO            DESCRIÇÃO E LOCAL DO EVENTO\nSegunda    FEIRA   DO   LIVRO    DA A Feira do Livro da Restinga é um evento\nsemana     RESTINGA                 que tem como objetivos a democratização\ndo acesso ao livro e o fomento e a\nvalorização da prática da leitura, de forma\ndescentralizada.\nLocal: Bairro Restinga.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Feira do Livro da Restinga no Anexo II da Lei nº 10.903, de 31 de maio de 2010, na segunda semana de abril, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.978,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

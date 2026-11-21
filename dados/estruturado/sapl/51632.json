@@ -1,0 +1,53 @@
+{
+ "idSapl": 51632,
+ "rotulo": "Lei municipal nº 14.632, de 13 de agosto de 2026",
+ "sha256Origem": "b7624a93d36f38976bfdaf9bc257dd7d47dfcf12bd005f01a187569193b823e6",
+ "estruturadoEm": "2026-11-21T09:25:20.766Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14632",
+  "ano": "2026",
+  "data": "2026-08-13",
+  "epigrafe": "PLL Nº 210/26",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.632, DE 13 DE AGOSTO DE 2026. Inclui o Programa Kilombinho de Verão no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, no mês de janeiro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de agosto de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nJANEIRO\nPERÍODO          EVENTO              DESCRIÇÃO E LOCAL DO EVENTO\nNo mês    PROGRAMA KILOMBINHO DE O evento promove a cultura afro-brasileira, o\nVERÃO                   desenvolvimento infantil e o combate ao\nracismo por meio de vivências culturais,\nartísticas,    espirituais,   corporais     e\ntecnológicas,     contribuindo     para     o\nfortalecimento identitário, a construção da\nautoestima, da segurança emocional e da\nconsciência histórica e cultural das crianças\nparticipantes.\nLocal: *",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o Programa Kilombinho de Verão no Anexo II da Lei nº 10.903, de 31 de maio de 2010, no mês de janeiro, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.981,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

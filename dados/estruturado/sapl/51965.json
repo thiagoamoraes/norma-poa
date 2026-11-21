@@ -1,0 +1,61 @@
+{
+ "idSapl": 51965,
+ "rotulo": "Lei municipal nº 14.691, de 12 de novembro de 2026",
+ "sha256Origem": "1116b3d306f50ba1398d5421fd429e260b99a0fcd352964a9cfa5e805a49c75f",
+ "estruturadoEm": "2026-11-21T09:25:20.658Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14691",
+  "ano": "2026",
+  "data": "2026-11-12",
+  "epigrafe": "LEI Nº 14.691, DE 12 DE NOVEMBRO DE 2026.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Leon Eberto Rodriguez Marquez o logradouro conhecido como Acesso B – Superquadra Seis, Terceira Unidade Vicinal – Vila Nova Restinga, localizado no Bairro Restinga, e altera sua categoria para Rua.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de novembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.691\n26.0.000166585-4            12.11.2026",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Leon Eberto Rodriguez Marquez o logradouro conhecido como Acesso B – Superquadra Seis, Terceira Unidade Vicinal – Vila Nova Restinga, localizado no Bairro Restinga, com base na Lei Complementar nº 320, de 2 de maio de 1994, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.945,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

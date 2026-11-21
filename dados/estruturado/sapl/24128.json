@@ -1,0 +1,83 @@
+{
+ "idSapl": 24128,
+ "rotulo": "Lei Complementar municipal nº 174, de 13 de janeiro de 1988",
+ "sha256Origem": "e04b01ed77a5a9d657339f094c28594325db5d6b8e0e8f4eb7cfc247165c2b91",
+ "estruturadoEm": "2026-11-21T09:25:19.961Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "flilJe J,ftJIJ,",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "jJttt=           Ilf/!Y :'  ,.\" ~!:1 ...l Altera o § 1º e restabelece com nova redação o § 5º do artigo 181 da Lei Complementar nº 133, de 31 de dezembro de 1985, e dá outras   providências.",
+ "preambulo": "o PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou     e eu san ciono a seguinte Lei Complementar:",
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O § 1º do artigo 181 da Lei Complementar nº 133, de 31 de dezembro de 1985, passa a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 181 - •••\n§ 1º - Para os efeitos deste artigo, as gratificações por serviço extraordinário, a contar de 04 de abril de 1957,\ne aulas excedentes, terão como base de cálculo a média mensal    do\nnúmero de horas ou aulas percebidas durante o periodo considerado\npara incorporação, adequada à nova carga horária do cargo e obser\nvados os limites vigentes à época.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Restabelece, com nova redação, o § 5º do artigo   181 da Lei Complementar nº 133, de 31 de dezembro de 1985:",
+   "blocoDeAlteracao": "\"Art. 181 - ••.\n§ 5º - Para os fins previstos neste artigo, a média do serviço extraordinário, a partir de abril de 1957, será ap~\nrada de cinco em cinco ou de dez em dez anos, conforme o caso,co~\nputando-se para efei tos de incorporação ao provento aquela que for\nmais favorável ao funcionário.\""
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As despesas decorrentes da aplicação des ta Lei Complementar correrão à conta das dotações    orçamentária~ próprias."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei Complementar entrará em   vigor na data de sua publicação, retroagindo seus efeitos a 09 de janei I I I                                                                        •   •    • I L                                                                                 ~ I ro de 1986, data da vigência   da Lei Complementar   nº 133, de 31 dezembro de 1985."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Revogam-se      disposições em contrário. PREFEITURA MUNICIPAL      EORTO ALEGRE, J 3 de janei- Gabriel Pauli FadeI, Secretário Municipal de Administração. publique-se. Valdir Fraga, Secretário do Governo Municipal."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.973,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 5º",
+     "naOrigem": "Art52"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "idSapl": 25378,
+ "rotulo": "Lei Complementar municipal nº 227, de 19 de junho de 1990",
+ "sha256Origem": "196932ea2f21c503f29f68c8054e86689cb5a38b7ef636063b718e6cb1f15f20",
+ "estruturadoEm": "2026-11-21T09:25:19.808Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "?  Rt7é·    ,(crOJ.// f",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "\\.J       .' ..> \\.., ~'\".' .•.~ ,?.LCL     /c//5 Dá nova redação ao inciso XVIII do artigo 24, da Lei CompleTentar nº 12, de 07-01-75, e da ou tras providências.",
+ "preambulo": "o PREFEITO     MUNICIPAL    DE PORTO ALEGRE. Faço saber que a Câmara        Municipal     aprovou sanciono   a seguinte Lei Complementar:",
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O inciso XVIII do artigo 24 da Lei Complementar nQ 12, de 07 de janeiro de 1975, passa a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "\"XVIII - trafegar o veiculo de transporte coletivo por ;nibus sem a indicação, isolada e colocada acima de    sua\npart~ fronteira, do n~mero da linha, ou com a luz do letreiro ou\ndo numero da linha apagada;\nPena: multa de cinco URM (Unidade de Referência\nMunicipal).\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os permissionários  do transporte coleti vo por ;nibus em Porto Alegre disporão de cento e oitenta   dias-;- a contar da ~ublicação da presente Lei Complementar,   para  adequar seus veiculos ao nela disposto."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar             entra em na data de \"sua publicação.                 ."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Revogam-se   as disposições     em contrário. Diógenes   liveira, Secretário Municipal       dos Transportes. t:f:~ Registre-se   e publique-se. J71ri Sa os~~qUi, tár o do Governo Municipal, nde do."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art32"
+    },
+    {
+     "rotulo": "Art. 4º",
+     "naOrigem": "Art42"
+    }
+   ]
+  }
+ }
+}

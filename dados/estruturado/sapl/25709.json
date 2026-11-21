@@ -1,0 +1,71 @@
+{
+ "idSapl": 25709,
+ "rotulo": "Lei Complementar municipal nº 238, de 26 de dezembro de 1990",
+ "sha256Origem": "616e4bae21603130fe4005c3093b70910707ac40600dd25a486d1b9c8bdcae52",
+ "estruturadoEm": "2026-11-21T09:25:19.773Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "~ (f)   '\"'",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "Lv i. tJ 1.' CAMARA MUNICIPAL DE PORTO ALEGRE Av .. Jureiro da Silva. 255 - Fone • 28-6055                       PROC. n2 2250/88 RIO GRANDE DO SUL PLCL   nº    15/88 Altera disposições contidas na      Lei Complementar n2 124, de 22 de outubro       de 1985, e dá outras providências. Faço saber, no uso das atribuições que me obriga o §7º, do art. 77, da Lei Orgânica, que a Câmara Municipal manteve e eu promulgo a seguinte              Lei Complementar: Art. lº - O parágrafo 2º, do art. lº, da Lei Complementar nº 124,              de 22 de outubro de 1985, passa a ter a seguinte redação:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O artigo 2º e seu parágrafo unico, da Lei Complementar              nº 124, de 22 de outubro de 1985, passam a ter a seguinte redação: - çao.",
+   "blocoDeAlteracao": "\"§2º - As permissionárias dos serviços de transporte coletivo deverão,\natravés de licença especial, nominal e intransferivel, indicar empresa especializada que se encarregará de comercializar os anúncios de propaga~da              ~ln\ntodos os veiculos de:frota de ônibus da Cidade.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Revogam-se as disposições em contrário. Gabinete da Presidéncia      da Câmara Municipal de Porto Alegre, 26 de de zembro de 1990."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "texto_fora_da_arvore",
+   "trecho_nao_localizado_na_origem",
+   "rotulo_nao_confere_com_a_origem",
+   "bloco_de_alteracao_sem_dono"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.427,
+   "blocosDeAlteracao": 2,
+   "lacunas": [
+    {
+     "tamanho": 971,
+     "amostra": "Art2ºOartigo2ºeseuparágrafounicodaLeiComplementarnº124de22deoutubrode1985passama"
+    }
+   ],
+   "naoLocalizados": [
+    "O artigo 2º e seu parágrafo unico, da Lei Complementar              nº 124, de 2"
+   ],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "aessalicençaçaoArt42"
+    }
+   ]
+  }
+ }
+}

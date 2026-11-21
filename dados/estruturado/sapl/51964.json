@@ -1,0 +1,53 @@
+{
+ "idSapl": 51964,
+ "rotulo": "Lei municipal nº 14.694, de 12 de novembro de 2026",
+ "sha256Origem": "a4462cf48d5e96fa3d6e80772ec538036164d05e6d6f6365365e8b16624176a1",
+ "estruturadoEm": "2026-11-21T09:25:20.660Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14694",
+  "ano": "2026",
+  "data": "2026-11-12",
+  "epigrafe": "PLL Nº 231/26",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.694, DE 12 DE NOVEMBRO DE 2026. Inclui o evento Sunset Jump Run – Corrida de Rua do Kangoo no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, na última semana de novembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de novembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nNOVEMBRO\nPERÍODO           EVENTO           DESCRIÇÃO E LOCAL DO EVENTO\nÚltima     SUNSET   JUMP  RUN  – A Sunset Jump Run destaca-se por unir\nsemana     CORRIDA   DE  RUA  DO esporte, lazer, entretenimento e incentivo à\nKANGOO                qualidade de vida, promovendo a ocupação\nsaudável dos espaços públicos e fomentando\nhábitos saudáveis na população portoalegrense. É um evento esportivo voltado à\npromoção da saúde, do bem-estar, da\nintegração social e da prática de atividades\nfísicas ao ar livre.\nLocal: A ser definido pela organização.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Sunset Jump Run – Corrida de Rua do Kangoo no Anexo II da Lei nº 10.903, de 31 de maio de 2010, na última semana de novembro, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.982,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

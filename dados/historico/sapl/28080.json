@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-20T13:58:19.542Z",
+ "geradoEm": "2026-11-21T09:25:22.319Z",
  "idSapl": 28080,
  "rotulo": "Lei Complementar municipal nº 347, de 30 de maio de 1995",
  "baseConferida": false,
@@ -18,7 +18,7 @@
     "idSapl": 37040,
     "rotulo": "Lei Complementar municipal nº 659, de 07 de dezembro de 2010"
    },
-   "comandosAplicados": 11
+   "comandosAplicados": 34
   }
  ],
  "dispositivos": [
@@ -541,6 +541,389 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Compete ao Comdim:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "elaborar o seu regimento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "formular diretrizes e promover políticas em todos os níveis da Administração Pública Municipal, direta e indireta, visando à eliminação das discriminações que atingem a mulher;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "criar instrumentos concretos que assegurem a participação da mulher em todos os níveis e setores da atividade municipal, ampliando as alternativas de emprego para a mulher;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "estimular, apoiar e desenvolver estudos, projetos e debates relativos à condição da mulher, bem como propor medidas ao Governo, objetivando eliminar toda e qualquer forma de discriminação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "auxiliar e acompanhar os demais órgãos e entidades da Administração no planejamento e na execução de programas e ações referentes à mulher;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "promover intercâmbios e convênios com instituições e organismos nacionais e internacionais de interesse público ou privado com a finalidade de implementar as políticas, as medidas e as ações objeto do Comdim;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "estabelecer e manter canais de relação com os movimentos de mulheres inscritos no Fórum Municipal da Mulher, apoiando o desenvolvimento de atividades de grupos autônomos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-VIII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "fiscalizar o funcionamento dos programas municipais de albergagem para mulher vítima de violência, com a participação de entidades civis e governamentais que desenvolvam ações sociais de atendimento à mulher;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IX",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "realizar campanhas educativas de conscientização da violência contra a mulher;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-X",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "propor a criação e fiscalizar a execução de mecanismos para coibir a violência doméstica;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "estimular a instituição de serviços de apoio às mulheres vítimas de violência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "acompanhar e fiscalizar o cumprimento da legislação e de convenções coletivas que assegurem e protejam os direitos da mulher;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XIII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "receber denúncias relativas à questão da mulher e encaminhálas aos órgãos competentes, exigindo providências efetivas; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XIV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "garantir o desenvolvimento de programas dirigidos às mulheres, especialmente nas áreas de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XIV/ali-a",
+   "pai": "art-4/inc-XIV",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "atenção integral à saúde da mulher;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XIV/ali-b",
+   "pai": "art-4/inc-XIV",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "prevenção à violência contra a mulher;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XIV/ali-c",
+   "pai": "art-4/inc-XIV",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "assistência e abrigo às mulheres vítimas de violência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XIV/ali-d",
+   "pai": "art-4/inc-XIV",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "educação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XIV/ali-e",
+   "pai": "art-4/inc-XIV",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "trabalho;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XIV/ali-f",
+   "pai": "art-4/inc-XIV",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "habitação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XIV/ali-g",
+   "pai": "art-4/inc-XIV",
+   "tipo": "alinea",
+   "rotulo": "g)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "planejamento urbano; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-XIV/ali-h",
+   "pai": "art-4/inc-XIV",
+   "tipo": "alinea",
+   "rotulo": "h)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "lazer e cultura.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 659/2010"
      }
     }
    ]

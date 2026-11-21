@@ -1,0 +1,67 @@
+{
+ "idSapl": 25504,
+ "rotulo": "Lei Complementar municipal nº 231, de 05 de setembro de 1990",
+ "sha256Origem": "f961eec4010a6cbf9f1f45f8307e23b34ff16863edba77e7aba1fb4bd6574ac2",
+ "estruturadoEm": "2026-11-21T09:25:19.803Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "CAMARA      MUNICIPAL       DE PORTO      ALEGRE                                                 !'    ,.",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "Av. Loureiro   da Silva,   255 -   Fone   * 28-6055                            PROC. nº '-4Wj.igO: ~'. RIO GRANDE DO SUL PLCL       nº   03/90 Altera redação do artigo 12 da Lei Complementar nº 196, de 09 de fevereiro de 1989,                  que institui o imposto municipal sobre vendas a varejo de combustiveis       liquidos e gasosos. Faço saber, no uso das atribuições           que me obriga o §7º, do art.77, da Lei Orgânica, que a Câmara Municipal manteve e eu promulgo a                           seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": "Gabinete da Presidência da Câmara Municipal de P~rt{rAlegl~                           05\nde setembro de 1990. '                                         /I\"                    /\n~\n/:--~/     Valdir Fraga,",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O artigo 12 da Lei Complmentar              nº 196, de 09 de fevereiro de 1989, passa a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 12   -   Fica instituido,     no Munidpio,     o imposto sobre vendas a\nvarejo de combustiveis         liquidos e gasosos IVV, exceto óleo diesel.\n§lº - Fica excluido do disposto neste artigo o gás liquefeito                       de\npetróleo, fornecido         à pessoa fisica, para consumo domiciliar-familiar.\n§2º - Fica isenta do imposto a Cooperativa               dos Proprietários\\de       rá\nxi da Região Metropolitana          de Porto Alegre Ltda.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar             entra em vigor na data de sua            publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se        as disposições     em contrário. , ;J"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.954,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art12"
+    }
+   ]
+  }
+ }
+}

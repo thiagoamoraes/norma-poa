@@ -1,0 +1,53 @@
+{
+ "idSapl": 51520,
+ "rotulo": "Lei municipal nº 14.591, de 24 de julho de 2026",
+ "sha256Origem": "a4cdf2b7c78f2193d74675671ba2fde0f1b631ee67426a26e86bd3d0d9f827b4",
+ "estruturadoEm": "2026-11-21T09:25:20.823Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14591",
+  "ano": "2026",
+  "data": "2026-07-24",
+  "epigrafe": "LEI Nº 14.591, DE 24 DE JULHO DE 2026.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Osmar Nunes da Silva o logradouro conhecido como Rua E – Vila Senhor do Bom Fim, localizado no Bairro Sarandi.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 24 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.591\n26.0.000109712-0              24.07.2026",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Osmar Nunes da Silva o logradouro conhecido como Rua E – Vila Senhor do Bom Fim, localizado no Bairro Sarandi, com base na Lei Complementar nº 320, de 2 de maio de 1994, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.946,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

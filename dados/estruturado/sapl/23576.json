@@ -1,0 +1,64 @@
+{
+ "idSapl": 23576,
+ "rotulo": "Lei Complementar municipal nº 147, de 16 de dezembro de 1986",
+ "sha256Origem": "db8175fb635a7b51247989c24aeb5a63120ac424bfb64b11a85c10eab607d2f1",
+ "estruturadoEm": "2026-11-21T09:25:20.076Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": null,
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "Altera dispositivos da Lei Complementar nº 133, de 31 de dezembro de 1985 e dá outras providências. Faço saber que a C~mara    Municipal   aprovou e eu san ciono   a seguinte Lei:",
+ "preambulo": null,
+ "fecho": "PREFEITURA   MUNICIPAL   DE PORTO ALEGRE,    lb de dezem-\nGabriel Pauli FadeI,\nSecretário Municipal    de Administração.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam alterados na Lei Complementar    nº 133, de 31 de dezembro de 1985, os dispositivos abaixo discrimina dos, que passam a vigorar com a seguinte redação: 1) Art. 38 - altera    parágrafo   único \"Parágrafo lmico - Considerar-se-á ainda extraordi nário o trabalho realizado em horas ou dias em que não houver expediente, quando não compensado por folga, facultada a opção     do servidor no limite do art. 40.\" 2) Art. 40 - inclui parágrafo      unico .------....           ,,§ 3º - Em se tratando de serviço extraordinário e aulas excedentes, o acréscimo será calculado tendo como base o va lar da respectiva média mensal do número de horas ou aulas perce= s~ft0--exercicio não podendo, entretanto, ultrapassar o limite ------bA--'t-i-FdHia .•.... 03~ ,             \"§ 52 - É extensiva a gratificação natalina aos fun cionarios    afastados de suas funções com ônus para o Município.\" 4) Art.   99 5) Art. 118 - restabelece o parágrafo único,      que será o 12, com nova redação, e inclui § 22 035 8) Art. 180 - restabelece    o \"caput\"     do artigo,mantendo os parágrafo-s--- ---",
+   "blocoDeAlteracao": "\"Parágrafo único - O limite de que trata este art.:!:.\ngo não se aplica na hip6tese de necessidade de prestação de serv.:!:.\nço, caracterizada pela excepcional idade e emergência, para atividade de natureza essencial, observado o procedimento previsto   no\nartigo 118.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Revogadas as disposições em contrário,e~ ta Lei Complementar entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "texto_fora_da_arvore",
+   "trecho_nao_localizado_na_origem",
+   "bloco_de_alteracao_sem_dono"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.15,
+   "blocosDeAlteracao": 8,
+   "lacunas": [
+    {
+     "tamanho": 2617,
+     "amostra": "2ºOvalordagratificaçãodequetrataesteartigoseráacrescidodeatécemporcento100naprop"
+    }
+   ],
+   "naoLocalizados": [
+    "Ficam alterados na Lei Complementar    nº 133, de 31 de dezembro de 1985, os dis"
+   ],
+   "rotulosDivergentes": []
+  }
+ }
+}

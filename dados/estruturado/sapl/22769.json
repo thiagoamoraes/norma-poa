@@ -1,0 +1,75 @@
+{
+ "idSapl": 22769,
+ "rotulo": "Lei Complementar municipal nº 107, de 27 de julho de 1984",
+ "sha256Origem": "20da1833fb9e5ecbb15d71c18bc81117c33d1c9e54c95e2d72f2948cd5753229",
+ "estruturadoEm": "2026-11-21T09:25:20.285Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "PROC.N9 86184                   002i",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "PLCL N9 01/a4 LEI COMPLEMENTAR        N9    lQ-:( Altera a Lei Complementar  n9 72, de 06 de janeiro de 1982, que re gula a denominação de   logradou= ros e equipamentos públicos, dis ciplina a numeração dos   imóveis e dá outras providências. Faço saber que a Câmara                      Municipal      aprovou °eeu san ciono      a seguinte Lei Compleme~tar:",
+ "preambulo": null,
+ "fecho": "PREFEITURA    MUNICIPAL    DE PORTO ALEGRE,              2~de        julho\n~ntôniO\nPrefeuo.\nL·P /\n,9J:b,       '.\n-\n-====\nWladimir Romualdo Alberto Sohne,\nSecretário Municipal de Obras e Viação.\ny--~\nAI   /Í'«             ,\n..' /~'~,>,,~~;::~\n~?P=±rrfff          Frt'ippi,\n~~~--   :secr~rio              do Governo       Municipal.\nI",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O artigo 49 da Lei Complementar                                     n9     72, de 06 de janeiro de 1982, passa a vigorar com a seguinte                                           redaçao:",
+   "blocoDeAlteracao": "\"Art. 49 - As denominações de logradouros e equipa\nmentos públicos serão objetos de Lei de iniciativa do PrefeitoMU\nnicipal ou dos Vereadores.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar                       entra em vigor na publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se     as disposições              em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.958,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art19"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art29"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art39"
+    }
+   ]
+  }
+ }
+}

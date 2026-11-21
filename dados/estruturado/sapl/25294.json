@@ -1,0 +1,87 @@
+{
+ "idSapl": 25294,
+ "rotulo": "Lei Complementar municipal nº 223, de 23 de abril de 1990",
+ "sha256Origem": "dd6a66c9c80fa4611f9c17cc894b5e4e279e2eb462a659dd007955e2eb3bc5df",
+ "estruturadoEm": "2026-11-21T09:25:19.817Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "r,",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "\"\\' /'~\" '\\iJ. CAMARA MUNICIPAL DE PORTO ALEGRE Av. Loureiro da Silva, 255 - RIO GRANDE DO SUL Fone ••.28-6055 PROC. NO 2094/89 PLCL     NO       19/89 Cria Projetos-Padrões             para licenciamento        de construção         de casa popular        (casaprópria),        dan do nova redação         ao     artigo     170 da Lei nO 3615, de 10 de janeiro de 1972, e dá outras                providências. (IJt!t~I'''0T/T{/('1'0 l/i:; L - flCcHh f)'-\"...i. .:J--l ••. a ~ \" •....          /1// ;',~ ~. Faço saber,      no uso das atribuições              que me obriga          o S 70, do arte 77, da Lei Orgânica,                 que a Cãmara        Municipal       mante ve e eu promulgo       a seguinte      Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O artigo      170 da Lei nO 3615, de 10 de janeiro de 1972, passa         a vigorar     com a seguinte           redação:",
+   "blocoDeAlteracao": "\"Art. 170 - O Executivo             Municipal      colocará      a dispo-S1çao da população        de baixa     renda Projetos-Padrões                para constru\nção da casa pn~ria        do tipo popular.\nS 10 - Terá acesso aos projetos-Padrões                      toda a pessoa física, mediante         requerimento         e pagamento       de taxa específica, que comprove        renda máxima      de 7(sete)         salários       mínimos    e que\nseja proprietário,        ou promitente         comprador      do terreno       onde     será construída      a moradia.\nS 20 - Os Projetos-Padrões               serao elaborados           pela Se\ncretaria    Municipal     de Obras e Viação           em três categorias:             A, B e\nC, para a construção         de moradias     do tipo popular de 1 (um),   2\n(dois) e 3 (três) dormitórios,                            2     2      2\ncom áreas de 30m , 40m e 50m ,\nrespectivamente,        de acordo     com as especificações              técnicas      estipuladas    nas Secções      I e 11 do Capítulo            XIV, do Código        de     Obras\ndo Município.\nS 30 - O prédio construído               nos termos        deste artigo\ndeverá    destinar-se     exclusivamente          ao uso residencial,             unifamiliar.\nCAMARA MUNICIPAL DE PORTO ALEGRE                           PROC. NO 2094/89\nAv. Loureiro da Silva, 255 - Fone • 28-6055\nPLCL    NO      19/89\nRIO GRANDE DO SUL\nconstrução    de casas populares,        que nao se enquadrarem           no   'caput'\ndeste artigo     e no seu § 10, seguirão          o trâmite     normal    recomendado nesta Lei e serao       feitos pelo mesmo        despacho,     o qual terá validade pelo prazo de 1 (um) ano.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Executivo       Municipal,    no prazo de 120 (cen to e vinte)    dias,    a contar    da data de entrada         em vigor    da presen te Lei Complementar,       tomará    as medidas     necessárias      para implemen tá-la    e regulamentá-Ia."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar          entra em vigor        na da ta de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Revogam-se        as disposições      em contrário. Gabinete    da Presidência to Alegre,    23 de abril de 1990."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.988,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art10"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art20"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art30"
+    },
+    {
+     "rotulo": "Art. 4º",
+     "naOrigem": "Art40"
+    }
+   ]
+  }
+ }
+}

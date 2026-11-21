@@ -1,23 +1,23 @@
 # Histórico — relatório
 
-Gerado em 2026-11-20T16:24:24.476Z por `ingestao/gerar-historico.mjs`. Não editar à mão.
+Gerado em 2026-11-21T09:25:27.672Z por `ingestao/gerar-historico.mjs`. Não editar à mão.
 
-Vínculos lidos: 24000 · pares (lei, alteradora) propostos pelas ementas: 1689 · leis com alteradoras conhecidas ou candidatas: 1177
+Vínculos lidos: 26223 · pares (lei, alteradora) propostos pelas ementas: 1689 · leis com alteradoras conhecidas ou candidatas: 1192
 
 | Situação | Leis |
 |---|---|
-| histórico apurado, todas as alteradoras aplicadas | 41 |
-| histórico apurado, mas incompleto (alguma alteradora não aplicada por inteiro) | 111 |
-| ainda sem o texto da lei-base | 1025 |
+| histórico apurado, todas as alteradoras aplicadas | 42 |
+| histórico apurado, mas incompleto (alguma alteradora não aplicada por inteiro) | 161 |
+| ainda sem o texto da lei-base | 989 |
 | erro do leitor | 0 |
 
-Leis revogadas por inteiro, segundo os vínculos da fonte: 1029
+Leis revogadas por inteiro, segundo os vínculos da fonte: 1560
 
-Vínculos com norma fora do catálogo do escopo (decretos, por exemplo): 597 · vínculos com datas invertidas (não aplicados): 11
+Vínculos com norma fora do catálogo do escopo (decretos, por exemplo): 600 · vínculos com datas invertidas (não aplicados): 11
 
 ## Aguardando o texto da lei-base
 
-Mostrando 200 de 1025.
+Mostrando 200 de 989.
 
 - Lei municipal-Intendência nº 17, de 17 de dezembro de 1895
 - Lei municipal-Intendência nº 69, de 28 de dezembro de 1925
@@ -83,6 +83,7 @@ Mostrando 200 de 1025.
 - Lei municipal nº 617, de 02 de julho de 1951
 - Lei municipal nº 618, de 02 de julho de 1951
 - Lei municipal nº 629, de 11 de julho de 1951
+- Lei municipal nº 640, de 14 de agosto de 1951
 - Lei municipal nº 658, de 14 de setembro de 1951
 - Lei municipal nº 667, de 21 de setembro de 1951
 - Lei municipal nº 674, de 27 de setembro de 1951
@@ -218,4 +219,3 @@ Mostrando 200 de 1025.
 - Lei municipal nº 2.902, de 30 de dezembro de 1965
 - Lei municipal nº 2.904, de 30 de dezembro de 1965
 - Lei municipal nº 2.905, de 30 de dezembro de 1965
-- Lei municipal nº 2.915, de 16 de junho de 1966

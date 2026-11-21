@@ -1,0 +1,60 @@
+{
+ "idSapl": 51455,
+ "rotulo": "Lei municipal nº 14.573, de 02 de julho de 2026",
+ "sha256Origem": "0a4949636f154aad98d46f99371ad2950ddd2c8ca7966f43b3334740cc701f83",
+ "estruturadoEm": "2026-11-21T09:25:20.840Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14573",
+  "ano": "2026",
+  "data": "2026-07-02",
+  "epigrafe": "LEI Nº 14.573, DE 2 DE JULHO DE 2026.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput e o § 1º do art. 2º e o parágrafo único do art. 4º, e inclui incs. I a III e § 3º no art. 2º da Lei nº 9.941, de 25 de janeiro de 2006, que institui os Centros Populares de Compras no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam alterados o caput e o § 1º do art. 2º, e ficam incluídos os incs. I a III no caput e o § 3º no art. 2º, todos da Lei nº 9.941, de 25 de janeiro de 2006, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º Ficam instituídos, no Município de Porto Alegre, os Centros Populares\nde Compras, prioritariamente destinados aos comerciantes populares, pessoas físicas ou jurídicas\nque exerçam a atividade de comércio na modalidade anteriormente denominada camelôs, definida\npelo § 3º do art. 1º da Lei nº 3.187, de 24 de outubro de 1968, bem como fica permitida, em caso de\nvacância, a ocupação por outras categorias profissionais, tais como:\nI – empresários individuais;\nII – Microempreendedores Individuais (MEIs);\nIII – outros prestadores de serviço com constituição societária simplificada.\n§ 1º Os comerciantes populares de que trata esta Lei, cadastrados pela Secretaria\nMunicipal de Desenvolvimento Econômico, Turismo e Eventos (SMDETE), que exercem suas\natividades no Bairro Centro, cujos limites se encontram definidos pela Lei nº 12.112, de 22 de\nagosto 2016, passarão a exercê-las exclusivamente nos referidos Centros Populares de Compras,\ndentro de prazos estabelecidos por regulamento do Poder Executivo e nas condições de ingresso\nprevistas na legislação sobre o tema.\n............................................................................................................\n§ 3º Na hipótese de vacância de estandes ou módulos e após esgotadas as\npossibilidades de ocupação pelos comerciantes populares de que trata este artigo, os Centros\nPopulares de Compras poderão destinar espaços aos profissionais elencados nos incs. I, II e III do\ncaput deste artigo, observadas a legislação específica de cada categoria e as condições estabelecidas\nem regulamento para ingresso e ocupação no local.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o parágrafo único do art. 4º da Lei nº 9.941, de 2006, conforme segue:",
+   "blocoDeAlteracao": "“Art. 4º …….........................................................................................................................\nParágrafo único. A prioridade de ocupação pelos comerciantes populares será\nassegurada em todas as etapas de destinação de estandes e módulos, em observância ao art. 2º desta\nLei.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.981,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

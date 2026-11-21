@@ -1,0 +1,68 @@
+{
+ "idSapl": 23364,
+ "rotulo": "Lei Complementar municipal nº 134, de 13 de janeiro de 1986",
+ "sha256Origem": "3c11bc9646dc74a3a2e3405f8c36d0d40aaa99456c1f9f5ebdaae3544b9ee141",
+ "estruturadoEm": "2026-11-21T09:25:20.095Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "PRoc.N9     2747/86",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "'LCE N9       12/85 Dispõe sobre a renovação dos membros do Conselho   Municipal do Plano Diretor de Desenvolvimento Urbano e dá ou tras providências. Faço saber que a Câmara     Municipal     aprovou    e eu san ciono a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "A primeira renovação do terceiro    terço dos membros do Conselho Municipal do Plano Diretor de Desenvolvimento Urbano, na forma estabelecida no artigo 15 da Lei Complemen tar nº 43, de 21 de julho de 1979, far-se-á até 31 de março     d; 1986."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para efeito de renovação bienal   subseqüente a que se refere o artigo 1º desta Lei Complementar, contar- -se-á o prazo de 2 (dois) anos, a partir da data dos atos de designação relativos à renovação do terceiro terço."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar        entra em vigor       na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Revogam-se   as disposições     em contrário. Gabriel Pauli FadeI, Secretário Municipal   de Administração. __~e:ist~s~UbliqUe-se. ~aga~- Secretário   do Governo   Municipal."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.958,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

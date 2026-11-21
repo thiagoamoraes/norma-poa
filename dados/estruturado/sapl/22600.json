@@ -1,0 +1,71 @@
+{
+ "idSapl": 22600,
+ "rotulo": "Lei Complementar municipal nº 92, de 21 de dezembro de 1983",
+ "sha256Origem": "f36ecc770a4ffb6ad55180ff0af63c55f1a1a1ecdc8990d477b31795e777489a",
+ "estruturadoEm": "2026-11-21T09:25:20.323Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "PROC.N' 551/83",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "PLCL Nt       01/53    '\"'.   130 1,1': 1    COMPLEMENTAR N9                     0 Z Altera   dispositivos        do ar tigo   24 da Lei Complemen-= tar   n9 12, de       07.01.1975 e dá outras     providências. Faço salx~r que a Câmara                             Municipal        aprovou          e eu   san cjono    d   seguinte       Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "(! - Fica acrescentado                                  ao artigo    24 da Lei Com plementar  n9       12, d(~ 07.01.1975,    :Lnciso,                               indicado   pelo numeral XXXIII; com a seguinte        redaçâo: \"XXXLJ    J   -   'l'rdfeqdr               o veículo         de transporte      coletivo sem ter               clfixddu,         em local    visível      em seu interior,                 os     horários    iniciais      da linha. Pena;    mu I ta         ele       doi.s     décimos           de um salário-mínimo.\" At-t. :L9 - Pa~;~·;d o inciso        XXIV do artigo    24    da                               Lei Complemen tar       Il<')  12, de ()\"7. O 1 . 1<) 7 '), a ter a seguinte    redaçâo: \"XXJV    -    A LII Ld (JL; cumprimento    de     horário      inicial da s 1Lnlld~; de transporte      coletivo,     que cons Lar\"l ,lf iXddo em local    visível     no terminal      de pclr Lj da, l)(~mcomo nas estações         dos  corredo ros de õnibus.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "l~sLd Le i COlllplementar                        entra     em      vigor    na data    de   sua   publjcaçâo."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Ht!VoYdm-se as                     disposições           em contrário. PH.EFEI'l'Ul~AMUNICIPAL [)l~ POJ{'I'OA~G~E,                                  Zlde      dezembro ,TUdO        Antônjo          l)iiJ, Pn'C~iLo. /\\rt   til     Pau lu /\\raúju            L,dnella, ~;('(Tl'     t i-I I i U   MUIl   i C ipa I dos   'I'ransportes."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.973,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art39"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art49"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "idSapl": 51885,
+ "rotulo": "Lei municipal nº 14.684, de 29 de outubro de 2026",
+ "sha256Origem": "89d589ff56490b06889557e5667ceefd92bbd79dc6b50402b4a3034d2d2b98a1",
+ "estruturadoEm": "2026-11-21T09:25:20.698Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14684",
+  "ano": "2026",
+  "data": "2026-10-29",
+  "epigrafe": "PLE Nº 024/26",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.684, DE 29 DE OUTUBRO DE 2026. Altera a ementa e o art. 1º da Lei nº 14.048, de 3 de setembro de 2024, para substituir o agente financeiro da operação de crédito externo nela autorizada.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 29 de outubro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei nº 14.048, de 3 de setembro de 2024, conforme segue:",
+   "blocoDeAlteracao": "“Autoriza o Poder Executivo a contratar operação de crédito externo junto ao\nBanco Asiático de Investimento em Infraestrutura – AIIB (Asian Infrastructure Investment\nBank), com a garantia da União, até o valor de US$ 160.000.000,00 (cento e sessenta milhões de\ndólares).” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o art. 1º da Lei nº 14.048, de 2024, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica o Poder Executivo autorizado a contratar operação de crédito\nexterno junto ao Banco Asiático de Investimento em Infraestrutura – AIIB (Asian Infrastructure\nInvestment Bank), com a garantia da União, até o valor de US$ 160.000.000,00 (cento e sessenta\nmilhões de dólares), destinados à execução do Programa de Reconstrução e Adaptação às\nMudanças Climáticas em Porto Alegre (SUPERAPOA), observada a legislação vigente, em\nespecial as disposições da Lei Complementar Federal nº 101, de 4 de maio de 2000.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.98,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

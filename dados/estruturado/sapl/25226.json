@@ -1,0 +1,85 @@
+{
+ "idSapl": 25226,
+ "rotulo": "Lei Complementar municipal nº 221, de 31 de janeiro de 1990",
+ "sha256Origem": "7b6c9f576a110ecc97d3bbc802df6c23ec14fc975b4c51dbf79e58f34b7661d5",
+ "estruturadoEm": "2026-11-21T09:25:19.822Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "~",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": ":.~. .!••...... ~.\" '.,'-.-. \" .' : CÂMARA MUNICIPAL DE PORTO ALEGRE Av. Loureiro da Silva, 255 - Fone * 28-6055 RIO GRANDE DO SUL Proc. n92769/89 PLCL n9 25/89 Dá nova redação                                ao inciso               II do art. 121, da Lei Complementar                                                       n9 133, de 31 de dezembro                                             de 1985, alterada                   pela Lei Complementar n9 186, de 12 de dezembro de 1988. (;./        .._.- '-T~-'(    .-; ,'-\\ /.    _    ,..., ..,~ --..         ,: .   0/     I '.I/-L.                              -                                           • / Faço    saber,    no uso das atribuições                           que me obriga                            o § 59,do art. 47, da Lei Orgânica,                 que a Câmara             Municipal                        manteve                 e eu promu! go a seguinte            Lei Complementar:",
+ "preambulo": null,
+ "fecho": "Gabinete      da Presidência          da câmara                Municipal                                  Porto Alegre,     31 de janeiro      de 1990.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O inciso        II do art. 121, da Lei Complementar                                                            n9 133, de 31 de dezembro               de 1985, alterada                pela Lei Complementar                                                  n9 ... 186, de 12 de dezembro               de 1988, passa               a vigorar                 com a seguinte                           reda çao: \"I1 - O valor        do padrão 1 (um) referencia1                                       será fixado mensalmente       e seus reajustes          serão iguais,              no minimo,                          aos indices                  oficiais de inflação             no respectivo           periodo.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica assegurado            aos servidores                                 municipais              o rece bimento,         até 31 de janeiro          de 1990, do reajuste                             bimestral de que trata a Lei Complementar              n9 186, de 12.12.88,                      relativo                    aos meses              de           no vembro        e dezembro      de 1989."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar                      entra              em vigor                       na data           de sua publicação       e surte     seus efeitos        a partir                   de 19                de janeiro                          de 1990."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Revogam-se         as disposições                      em contrã~o. I"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.98,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art19"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art29"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art39"
+    },
+    {
+     "rotulo": "Art. 4º",
+     "naOrigem": "Art49"
+    }
+   ]
+  }
+ }
+}

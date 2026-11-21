@@ -1,0 +1,102 @@
+{
+ "idSapl": 51577,
+ "rotulo": "Lei municipal nº 14.617, de 31 de julho de 2026",
+ "sha256Origem": "110af0a2e5e14c4587c8265c165392ef26e608d36c37405a525cc13e06cefc3f",
+ "estruturadoEm": "2026-11-21T09:25:20.785Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14617",
+  "ano": "2026",
+  "data": "2026-07-31",
+  "epigrafe": "PLE Nº 008/26",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.617, DE 31 DE JULHO DE 2026. Cria 10 (dez) cargos de Fonoaudiólogo e extingue 9 (nove) cargos de Laboratorista de Solos e Asfalto, 17 (dezessete) cargos de Operário Especializado e 18 (dezoito) cargos de Operador de Rede, todos de provimento efetivo, no Quadro dos Cargos de Provimento Efetivo da Administração Centralizada do Município de Porto Alegre, constante da letra “a” do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\n“ANEXO I\n............................................................................................................................\nES - GRUPO EXECUTIVO E ASSESSORAMENTO SUPERIOR\nFonoaudiólogo, código ES-1.37.NS, referências A, B, C e D: 33 cargos\n...........................................................................................................................\nOB - GRUPO OBRAS\nOperário Especializado, código OB-1.07.02, referência A, B, C e D: 233 cargos\n.........................................................................................................................” (NR)",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam criados 10 (dez) cargos de Fonoaudiólogo, código ES-1.37.NS, Grupo Executivo e Assessoramento Superior, na letra “a” do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam extintos os seguintes cargos de provimento efetivo, constantes da letra “a” do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "9 (nove) cargos de Laboratorista de Solos e Asfalto, código OB-1.03.06, referências A, B, C e D, OB – Grupo Obras;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "17 (dezessete) cargos de Operário Especializado, código OB-1.07.02, referências A, B, C e D, OB – Grupo Obras; e"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "18 (dezoito) cargos de Operador de Rede, código OB-1.04.05, referências A, B, C e D, OB – Grupo Obras."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Por ocasião da extinção de todos os cargos de Laboratorista de Solos e Asfalto e Operador de Rede, referidos nos incs. I e III do caput deste artigo, ficam excluídas suas respectivas classes de cargos e suas especificações do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica alterado o Anexo I da Lei nº 6.309, de 1988, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As despesas decorrentes da aplicação desta Lei correrão à conta de dotações orçamentárias próprias."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 9,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

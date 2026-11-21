@@ -1,0 +1,61 @@
+{
+ "idSapl": 23254,
+ "rotulo": "Lei Complementar municipal nº 131, de 10 de dezembro de 1985",
+ "sha256Origem": "ff91511be1cbf717939527bfcd8cd6beaf851b1063c60cfe2aa3824d642e487d",
+ "estruturadoEm": "2026-11-21T09:25:20.234Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "Proc.n9 1891/65",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "I) () o q PLCL n9     11/85 ,!'t\\!f~ :       \"   (   . ',. ,,,'   '--.,~ Dá nova redação ao inciso 11 do art. 24 da Lei Complementar nº 12. Faço saber que a Câmara Municipal               aprovou e eu sanciono a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": "PREFEITURA   MUNICIPAL   DE PORTO ALEGRE, lO de dezem-\n~-,            Ayrton Moraes Teixeira,\n/          !\n/       Secretário Municipal dos Transportes.\n/        ,1/\n-=-\n_.~~/\n\"--/./   -\n--_~blique-se.\n'\",/~.~-c--~\n--~A&:~e-s--~--'-                  -\nW-Se6retário     do Governo         Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O inciso 11 do art. 24 da Lei Complementar nº 12 passa a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "\"11 - fumar ou conduzir, acesos, cigarros                ou assemelhados   em veiculos de transporte coletivos e táxis.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar                entra em vigor      na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se     as disposições   em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

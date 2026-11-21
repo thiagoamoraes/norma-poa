@@ -1,0 +1,82 @@
+{
+ "idSapl": 22858,
+ "rotulo": "Lei Complementar municipal nº 110, de 23 de novembro de 1984",
+ "sha256Origem": "f59755e705eb39124d886a3f1a450d3e9d1108b5c58d3d6d01fc8cd831893841",
+ "estruturadoEm": "2026-11-21T09:25:20.282Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "c~     F     \")'",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "J' 'í.// .' ....\".. ... ~ \\' PNo.n9     tl0/'\" PLeL n9     01/ ••• Acrescenta artigo ao Capítulo IX, Título 11, da Lei Complementar n9 12, de ü7-ül-75,que institui posturas para o Muni cípio de Porto Alegre    e da outras providências. Faço saber que a Câmara   Municipal    aprovou e eu san ciono a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica acrescido ao Capítulo       IX, do Título 11, da Lei Complementar n9 12/75, artigo, com o        nume~al  73, com a seguinte redação, renumerando-se os demais:",
+   "blocoDeAlteracao": "\"Art. 73 - Os animais de tração apreendidos, temporariamente ou definitivamente,   serão guardados em local  proprio, gozando da assistência necessária à manutenção de um bom\nestado, inclusive veterinária\"."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O artigo 69 da Lei Complementar n9   12/ 75 passará   a vigorar com a seguinte redação, com um único   paragrafo: deste artigo deverá ser realizado até 15 (quinze) dias após o fim do prazo para a retirada dos animais\".",
+   "blocoDeAlteracao": "\"Art. 69 - Tratando-se de outros animais, corno eqüinos, bovinos, ovinos, caprinos, etc., não retirados no prazo\nde 15 (quinze) dias, deverá o Município efetuar a sua venda     em\nleilão.\nParágrafo único - O leilão de que trata o   \"capu't\""
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar       entra em vigor na data de sua publicação. L_ 0027 João Antônio   Dib, Prefeito. Valter Luiz de Lemos, Secretário Municipal de Administração. / ./"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "texto_fora_da_arvore",
+   "trecho_nao_localizado_na_origem",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.815,
+   "blocosDeAlteracao": 2,
+   "lacunas": [
+    {
+     "tamanho": 87,
+     "amostra": "desteartigodeveráserrealizadoaté15quinzediasapósofimdoprazoparaaretiradadosanima"
+    }
+   ],
+   "naoLocalizados": [
+    "O artigo 69 da Lei Complementar n9   12/ 75 passará   a vigorar com a seguinte r"
+   ],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art19"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "iradadosanimaisArt39"
+    }
+   ]
+  }
+ }
+}

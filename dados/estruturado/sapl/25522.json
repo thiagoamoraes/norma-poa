@@ -1,0 +1,96 @@
+{
+ "idSapl": 25522,
+ "rotulo": "Lei Complementar municipal nº 232, de 21 de setembro de 1990",
+ "sha256Origem": "e5f5266fb98d8a868117aa53b29efbb3a41316519a88257c27d16d2c83138557",
+ "estruturadoEm": "2026-11-21T09:25:19.801Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "--",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "._.-lI> --- ..... ~ CAMARA MUNICIPAL DE PORTO ALEGRE . ..•.. ~             \\.'     Av. Loureiro da Silva, 255 - Fone • 28-6055 RIO GRANDE DO SUL PROC. n2 0418/90 PLCL   n2   02/90 ~ Altera os incisos XIII e XIV e §42 do arte 70 da Lei Complementar n2 07, de 07 de dezembro de 1973, com redação dada pela Lei Complementar n2 169, de 29       de dezembro de 1987. Faço saber, no uso das atribuições que me obriga o §72,          do art.77, da Lei Orgânica, que a Câmara Municipal manteve e eu promulgo          a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": "Gabinete da Presidência da Câmara Municipal de Porto Alegre.\n21 de setembro de 1990.\nValdir Fraga.\nPresidente.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Os incisos XIII e XIV do artigo 70 da Lei Comp1eme~ tar n2 07, de 07 de dezembro de 1973, com a redação dada pela Lei        Complementar n9 169, de 29 de dezembro de 1987, passa a ter a seguinte redação:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "ex-combatente que tenha efetivamente participado        de operações bélicas durante a Segunda Guerra Mundial, nos termos da Lei Fede ra1 n2 5315, de 12 de setembro de 1967;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "viúva de ex-combatente, conforme definido no incisiso an terior e enquanto semantiver neste estado civil.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "oâ nova redação ao §42 do arte 70 da Lei Complementar n2 07, de 07 de dezembro de 1973, com a redação dada pela Lei        Complementar   n9 169, de 29 de dezembro de 1987, como segue: r                                                   \"§42 - A isenção prevista nos incisos XIII e XIV, cessa por 0- ~                                     casiao da morte dos respectivos beneficiados.\" ~ I ~    ,c,            Mod.   9 _ 25.080 _ ollM 1~ j} CAMARA MUNICIPAL DE PORTO ALEGRE Av. Loureiro da Silva, 255 - Fone • 28-6055 RIO GRANDE DO SUL publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se as disposições em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.982,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art12"
+    },
+    {
+     "rotulo": "I –",
+     "naOrigem": "XIII"
+    },
+    {
+     "rotulo": "II –",
+     "naOrigem": "XIV"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art22"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art42"
+    }
+   ]
+  }
+ }
+}

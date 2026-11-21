@@ -1,0 +1,53 @@
+{
+ "idSapl": 51552,
+ "rotulo": "Lei municipal nº 14.608, de 30 de julho de 2026",
+ "sha256Origem": "b792e7065ac0203f7d254dbcdd1aa619a2da8fa3d3f78851db656465715a6264",
+ "estruturadoEm": "2026-11-21T09:25:20.794Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14608",
+  "ano": "2026",
+  "data": "2026-07-30",
+  "epigrafe": "LEI Nº 14.608, DE 30 DE JULHO DE 2026.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Cidade da Advocacia – OAB/RS no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, no mês de agosto.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nAGOSTO\nPERÍODO           EVENTO           DESCRIÇÃO E LOCAL DO EVENTO\nNo mês    CIDADE DA ADVOCACIA – O evento Cidade da Advocacia é o maior\nOAB/RS                evento jurídico gratuito do sul do Brasil.\nPromovido pela OAB/RS e CAARS, já é\ntradicional no calendário da advocacia do\nRio Grande do Sul. Com palestras voltadas\nàs mais diversas áreas do Direito, o evento\nconta com atrações focadas em inovação,\nempreendedorismo e tecnologia.\nLocal: *",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Cidade da Advocacia – OAB/RS no Anexo II da Lei nº 10.903, de 31 de maio de 2010, no mês de agosto, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.963,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

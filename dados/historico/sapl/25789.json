@@ -1,0 +1,624 @@
+{
+ "geradoEm": "2026-11-21T09:25:22.113Z",
+ "idSapl": 25789,
+ "rotulo": "Lei Complementar municipal nº 248, de 23 de janeiro de 1991",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 248/1991@1991-01-23",
+   "data": "1991-01-23",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 248/1991@2010-12-07",
+   "data": "2010-12-07",
+   "fonte": {
+    "idSapl": 37041,
+    "rotulo": "Lei Complementar municipal nº 660, de 07 de dezembro de 2010"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 2,
+   "id": "lc 248/1991@2016-05-13",
+   "data": "2016-05-13",
+   "fonte": {
+    "idSapl": 40662,
+    "rotulo": "Lei Complementar municipal nº 795, de 13 de maio de 2016"
+   },
+   "comandosAplicados": 9
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica criado o Conselho Municipal de Educação de Porto Alegre, órgão política, financeira e administrativamente autônomo, de caráter deliberativo e consultivo acerca dos temas que forem de sua competência.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Conselho Municipal    de Educação                  será constituído   por 15 (quinze) membros, nomeados    pelo Executivo               Muni c ipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "O Conselho Municipal de Educação será constituído por 22 (vinte e dois) membros, nomeados pelo Executivo Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 795/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Não ocorrendo a nomeação no prazo de 60 (ses senta)dias após a escolha dos Conselheiros pelos devidos    segmen~ tos, os mesmos serão homologados por ato do Conselho Municipal de Educação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É vedado o exercício simultâneo da     função de Conselheiro com cargo de Secretário do Município ou de Diretor de Autarquia, com cargo de provimento em comissão ou funç~o    gratificada ou, ainda, com mandato legislativo municipal,    estadual ou federal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "É vedado o exercício simultâneo da função de Conselheiro com cargo de Secretário do Município, de Diretor de Autarquia ou de provimento em comissão, bem como com mandato legislativo municipal, estadual ou federal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 795/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-3",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A nomeação dos membros do Conselho   Municipal de Educação será feita respeitando-se  a seguinte proporção: a) três membros escolhidos pelo Prefeito Municipal; b) sete membros escolhidos pela entidade dos professores municipais; c) um membro escolhido pelos estudantes do Município, através de sua entidade; d) um membro escolhido pelo movimento comunitário, através de sua entidade; e) dois membros escolhidos pelos pais de através de sua entidade; f) um membro escolhido pelos funcionários de esco- ~as municipais. I L.__ 1              ,   ~ a:x::e53. 91. q       x ~t   ~.A_~ '.   V...&- :••t C I .....",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/ali-g",
+   "pai": "art-2",
+   "tipo": "alinea",
+   "rotulo": "g)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) membro escolhido pela Associação de Apoio ao Fórum Municipal dos Direitos da Criança e do Adolescente – Asafom –;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 795/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/ali-h",
+   "pai": "art-2",
+   "tipo": "alinea",
+   "rotulo": "h)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) membro escolhido pelo Sindicato dos Estabelecimentos do Ensino Privado no Rio Grande do Sul – Sinepe/RS –;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 795/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/ali-i",
+   "pai": "art-2",
+   "tipo": "alinea",
+   "rotulo": "i)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) membro do Sindicato dos Empregados em Entidades Culturais, Recreativas, de Assistência Social, de Orientação e Formação Profissional no Rio Grande do Sul – Senalba/RS –;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 795/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/ali-j",
+   "pai": "art-2",
+   "tipo": "alinea",
+   "rotulo": "j)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) membro do Sindicato das Entidades Culturais, Recreativas, de Assistência Social, de Orientação e Formação Profissional no Estado do Rio Grande do Sul – SECRASO/RS –;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 795/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/ali-k",
+   "pai": "art-2",
+   "tipo": "alinea",
+   "rotulo": "k)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) membro da Associação dos Supervisores de Educação do Estado do Rio Grande do Sul – Assers –;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 795/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/ali-l",
+   "pai": "art-2",
+   "tipo": "alinea",
+   "rotulo": "l)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) membro da Associação dos Orientadores Educacionais do Rio Grande do Sul – AOERGS –; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 795/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/ali-m",
+   "pai": "art-2",
+   "tipo": "alinea",
+   "rotulo": "m)",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "1 (um) membro do Sindicato Intermunicipal dos Estabelecimentos de Educação Infantil do Estado do Rio Grande do Sul – Sindicreches.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 795/2016"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o mandato de cada membro        do Conselho       Municipal    terá duração de 06 (seis) anos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "De 02 (dois) em 02 (dois) anos, cessará                      0 mandato de 1/3 (um terço) dos membros do Conselho Municipal                      de Educação, sendo permitida a recondução por uma só vez.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-2",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ao ser constituldo o Conselho Municipal    de Educação, 1/3 (um terço) de seus membros terá mandato de 02(dois) anos e 1/3 (um terço) terá mandato de 04 (quatro) anos,    situação a ser regulamentada pelo referido Conselho.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-3",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ocorrendo   vaga no Conselho Municipal de Edu cação,    será nomeado    novo membro   que completará o mandato do ante= rior.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-4",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Necessitando um Conselheiro afastar-se  por prazo superior a 06 (seis) meses, será designado um substituto en quanto durar seu impedimento.                                   -",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os membros do Conselho Municipal         de Educação    deverão   residir no Municlpio de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Conselho Municipal de Educação                 será dividido em tantas comissões quantas forem necessárias ao               estudo e à deliberação sobre assuntos pertinentes ao ensino.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-unico",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Conselho Municipal de Educação realizará    reuniões de acordo com o estabelecido em seu regimento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ao Conselho     Municipal   de Educação    compe- a) elaborar o seu regimento interno; b) zelar e incentivar o aprimoramento  da qualidade de ensino no Municlpio; c) promover o estudo da comunidade, tendo em vista os problemas educacionais; d) estabelecer critérios para a conservação e, quan do necessário, ampliação da rede de escolas a serem mantidas pelo Municipio; e) estudar e sugerir medidas que visem à expansão e ao aperfeiçoamento  do ensino no Municlpio; f) traçar normas para os planos municipais de plicação de recursos em educação; g) emitir parecer sobre:' - assuntos e questões de natureza educacional   que lhe forem submetidos pelo Poder Executivo Municipal; - concessão de auxilios e subvenções educacionais; - convênios, acordos ou contratos relativos a assuntos educacionais que o Poder Público Municipal pretenda    celebrar; h) estabelecer critérios para 'concessão de I de estudo a serem custeadas I I I L com recursos municipais; ..f~1 ,   f·'   ...\" •       '        I ~ V ..•.•~ ...J:... -,  3 i) manter   intercâmbio com o Conselho Estadual                de Educação   e com os demais   conselhos municipais de educação; j) exercer as atribuiç~es     que   lhe forem   delegadas pelo Conselho    Estadual de Educação; 1) aprovar e fiscalizar a aplicação trimestral dos recursos destinados à manutenção e ao custeio do ensino em confor midade com o § 22 do art. 183 da Lei Orgânica Municipal;         - _           m) traçar normas para os planos municieais de educaçao, conforme o art. 216, § 2º e § 4º da Constituiçao Estadual, bem como o art. 34, inciso 111 das Disposições Transitórias     da mesma; n) deliberar sobre alterações no curriculo escolar respeitando o disposto na Lei de Diretrizes e Bases da Educação e do Conselho Estadual de Educação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Conselho Municipal de Educação contará com infra-estrutura  para o atendimento de seus serviços   técnicos e administrativos,  devendo ser previstos recursos   orçamentários próprios para tal fim.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º-A",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Os membros do Conselho Municipal de Educação perceberão, a título de representação, uma gratificação pela presença nas reuniões, na forma de jetom, observando-se os valores e os limites estabelecidos na Lei que dispõe sobre as normas gerais para os Conselhos Municipais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 660/2010"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei Complementar          entra em vigor          na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Revogam-se    as disposiç~es   em contrário. Esther Pillar Grossi, Secretária Municipal de Educação. Registre-se     e publique-se. ~ , io Corbellini, ecretário do Governo     Municipal. I I I I L                                                                                       _I /KO",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 37041,
+    "rotulo": "Lei Complementar municipal nº 660, de 07 de dezembro de 2010"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 20 de maio de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 20 de maio de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 277, de 1992\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"277\",\"ano\":\"1992\",\"chave\":\"lc 277/1992\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 28 de março de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 28 de março de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 318, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"318\",\"ano\":\"1994\",\"chave\":\"lc 318/1994\"}, versão: lc 248/1991) | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 325, de 1994\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"325\",\"ano\":\"1994\",\"chave\":\"lc 325/1994\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 352, de 8 de agosto de 1995\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"352\",\"ano\":\"1995\",\"chave\":\"lc 352/1995\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 352, de 8 de agosto de 1995\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"352\",\"ano\":\"1995\",\"chave\":\"lc 352/1995\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 352, de 1995\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"352\",\"ano\":\"1995\",\"chave\":\"lc 352/1995\"}, versão: lc 248/1991) | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 399, de 1997\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"399\",\"ano\":\"1997\",\"chave\":\"lc 399/1997\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 434, de 1º de dezembro de 1999\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"434\",\"ano\":\"1999\",\"chave\":\"lc 434/1999\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 434, de 1999\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"434\",\"ano\":\"1999\",\"chave\":\"lc 434/1999\"}, versão: lc 248/1991) | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 444, de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"444\",\"ano\":\"2000\",\"chave\":\"lc 444/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 447, de 10 de maio de 2000\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"447\",\"ano\":\"2000\",\"chave\":\"lc 447/2000\"}, versão: lc 248/1991) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 585, de 28 de dezembro de 2007\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"585\",\"ano\":\"2007\",\"chave\":\"lc 585/2007\"}, versão: lc 248/1991)",
+   "enderecos": [
+    "art-3",
+    "art-3/par-unico",
+    "art-4/inc-I",
+    "art-1",
+    "art-1/par-unico",
+    "art-6",
+    "art-9-A",
+    "art-3/inc-IV",
+    "art-3/inc-IX",
+    "art-3/inc-X",
+    "art-5/inc-I",
+    "art-5/inc-IV",
+    "art-5/inc-X/ali-b",
+    "art-5/inc-X/ali-c",
+    "art-5/inc-X/ali-d",
+    "art-5/inc-X/ali-f",
+    "art-5/inc-X/ali-g",
+    "art-5/inc-X/ali-h",
+    "art-5/inc-X/ali-o",
+    "art-5/inc-X/ali-p",
+    "art-6/inc-II",
+    "art-6/inc-III",
+    "art-6/inc-IV",
+    "art-6/inc-V",
+    "art-6/inc-VI",
+    "art-6/inc-VII",
+    "art-6/inc-VIII",
+    "art-6/inc-IX",
+    "art-6/inc-X",
+    "art-6/inc-XI",
+    "art-6/inc-XII",
+    "art-6/inc-XIII",
+    "art-6/par-unico",
+    "art-8",
+    "art-8/par-unico",
+    "art-10",
+    "art-9/inc-I",
+    "art-9/inc-VI",
+    "art-11",
+    "art-1/inc-VI",
+    "art-2",
+    "art-2/inc-II",
+    "art-2/inc-III",
+    "art-2/inc-III/ali-a",
+    "art-2/inc-III/ali-b",
+    "art-2/inc-III/ali-c",
+    "art-2/inc-III/ali-d",
+    "art-2/inc-III/ali-e",
+    "art-2/inc-III/ali-f",
+    "art-2/inc-III/ali-g",
+    "art-2/inc-III/ali-h",
+    "art-2/inc-III/ali-i",
+    "art-2/inc-III/ali-j",
+    "art-2/inc-III/ali-k",
+    "art-2/inc-III/ali-l",
+    "art-40/par-5",
+    "art-41",
+    "art-1-A",
+    "art-1-A/par-unico",
+    "art-1-A/par-unico/inc-I",
+    "art-1-A/par-unico/inc-II",
+    "art-1-A/par-unico/inc-III",
+    "art-1-A/par-unico/inc-V",
+    "art-1-A/par-unico/inc-VI",
+    "art-2/inc-VI",
+    "art-2/inc-VII",
+    "art-2/inc-VIII",
+    "art-2/inc-IX",
+    "art-3/inc-I",
+    "art-3/inc-II",
+    "art-15-A",
+    "art-2/inc-V"
+   ]
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-1",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-2",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-2/par-1",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-2/par-2",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-2/par-3",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-3",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-3/par-1",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-3/par-2",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-3/par-3",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-3/par-4",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-6",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-8",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-2/ali-g",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-2/ali-h",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-2/ali-i",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-2/ali-j",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-2/ali-k",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-2/ali-l",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-2/ali-m",
+   "desde": "2010-12-07"
+  }
+ ]
+}

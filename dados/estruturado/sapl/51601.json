@@ -1,0 +1,51 @@
+{
+ "idSapl": 51601,
+ "rotulo": "Lei municipal nº 14.620, de 06 de agosto de 2026",
+ "sha256Origem": "e20082f1798cf3190a159336e7072512d967b32760ca3bf5bf6a8b2142e7aad7",
+ "estruturadoEm": "2026-11-21T09:25:20.781Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14620",
+  "ano": "2026",
+  "data": "2026-08-06",
+  "epigrafe": "LEI Nº 14.620, DE 6 DE AGOSTO DE 2026.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Declara de utilidade pública o Sindicato dos Motociclistas Profissionais do RS – Sindimoto.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 6 de agosto de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica declarado de utilidade pública o Sindicato dos Motociclistas Profissionais do RS – Sindimoto, com base na Lei nº 2.926, de 12 de julho de 1966."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.936,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

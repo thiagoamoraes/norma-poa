@@ -1,0 +1,78 @@
+{
+ "idSapl": 24368,
+ "rotulo": "Lei Complementar municipal nº 180, de 18 de agosto de 1988",
+ "sha256Origem": "47d708e94e39c0f9cabb2998eaf02c630fee8447d8d525461ea475208bd3e714",
+ "estruturadoEm": "2026-11-21T09:25:19.935Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "LEI COMPLEMENTAR     Nº -'\"&0",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "Altera dispositivos da Lei Co~ plementar nº 170, de 31 de dezembro de 1987 que   estabelece normas de instalações hidross~ nitárias e tarifárias para     o serviço de abastecimento de água e coleta de esgotos no Municipio de Porto Alegre. Faço saber que a Câmara Municipal         aprovou eeu san ciono a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": "PREFEITURA         MUNICIPAL   DE PORTO ALEGRE, j~   de ago~\nLuiz Alberto da Costa Chaves,\nSecretário Municipal de Administração.\nRegistre-se          e publique-se.\n!   L/\\.) J /11 - aVaa\nGer Ido Noguei\nC1111l/Y'\nGama,\nsecuetário do             overno Municipal.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Os artigos 10, § 1º, 24, § 1º, 36, 37, 38, 39, 48, § 2º, 49, 52 e 58 da Lei Complementar nº 170, de 31 de dezembro de 1987, passam a vigorar com a seguinte redação:"
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os serviços referidos no \"caput\" deste a.!:. tigo serão executados às expensas do proprietário que os solici tar ou deles se beneficiar, se executados pelo DMAE independentemente de solicitação, a bem da saúde pública\". , Art. 2º - Fica acrescentado ao artigo 34 o segui~ te parágrafo unico: [ ....",
+   "blocoDeAlteracao": "\"Art. 24 -\n§ 1º - Os serviçosreferidos no \"caput\" deste a.!:.\ntigo serão executados às expensas do proprietário ou usuário que\no solicitar ou deles se beneficiar, se executados pelo DMAE independentemente de solicitação, a bem da saúde pública.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação, revogadBs as disposições em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "texto_fora_da_arvore",
+   "trecho_nao_localizado_na_origem",
+   "rotulo_nao_confere_com_a_origem",
+   "bloco_de_alteracao_sem_dono",
+   "alteracao_sem_aspas_nao_delimitada"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.184,
+   "blocosDeAlteracao": 10,
+   "lacunas": [
+    {
+     "tamanho": 3447,
+     "amostra": "Art36Atarifamensaldeáguaserácalculadaatravésdepreçosbásicospormetrocúbicoeporcat"
+    }
+   ],
+   "naoLocalizados": [
+    "Os serviços referidos no \"caput\" deste a.!:. tigo serão executados às expensas d"
+   ],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "çãodohidrômetroArt3º"
+    }
+   ]
+  }
+ }
+}

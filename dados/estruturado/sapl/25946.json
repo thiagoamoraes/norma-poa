@@ -1,0 +1,72 @@
+{
+ "idSapl": 25946,
+ "rotulo": "Lei Complementar municipal nº 250, de 11 de julho de 1991",
+ "sha256Origem": "46ea452c7b437be591f44b9920a62f1f74db3a500c50e67770e0f7a01ff66248",
+ "estruturadoEm": "2026-11-21T09:25:19.742Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "250",
+  "ano": "1991",
+  "data": "1991-07-11",
+  "epigrafe": "“o me",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Pao + PREFEITURA MUNICIPAL DE PORTO ALEGRE RE ON m | 1 LEI COMPLEMENTAR Nº 250 Altera a redação do artigo 36 da Lei Complementar nº 170, de 31 de dezembro de 1987, alterada pela Lei Complementar nº 180, de 18 de agosto de 1988, e da outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu san ciono a seguinte Lei Complementar:",
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Inclui parágrafo Sº e altera a redação do parágrafo 4º do art. 36 da Lei Complementar nº 170, de 31 de dezembro de 1987, alterada pela Lei Complementar nº 180, de 18 des agosto de 1988, como segue:",
+   "blocoDeAlteracao": "\"Art. 36 — ...\n$ 4º - A fixação do preço básico tera, como parôme\ntro para seu reajustamento, o índice Geral de Preços (Mercado) -\nIGP (M) -, da Fundação Getúlio Vargas aplicado, mensalmente, acs\nvalores vigentes a partir desta Lei.\n$ 5º — VETADO.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A aplicação do IGP (M) terá início 2 par tir do mês de maio de 1991."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Revogam-se as disposições em contrario. PREFEITURA MUNICIPAL E PORTO ALEGRE, 11 de julho de 1991. io Dutra, ito. Jorge Santós Buchabqui, Secretari Municipal de Administração. 1 R > | ' “ Vá tio Corbellini, Secretário do Governo Municipal. 1! «a PUBLICAÇÃO REPUBLICAÇÃO tu a FONTE DATA PAG |FONTE DATA pAG| \"MOCESSO Jã | E | AUBRICA (DOE| 12-07-91] 30 CEO13B,911 AB ) ACMA MOD GM 29"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "sem_fecho"
+  ],
+  "avisos": [
+   "cabecalho_fora_do_padrao",
+   "texto_de_ocr"
+  ],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.978,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

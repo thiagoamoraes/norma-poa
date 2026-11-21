@@ -1,0 +1,61 @@
+{
+ "idSapl": 51617,
+ "rotulo": "Lei municipal nº 14.626, de 11 de agosto de 2026",
+ "sha256Origem": "706c07f57128cd319a98499aa2ff477ec2d096098e21ad0d785d462f5db639ac",
+ "estruturadoEm": "2026-11-21T09:25:20.776Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14626",
+  "ano": "2026",
+  "data": "2026-08-11",
+  "epigrafe": "PLL Nº 025/26",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.626, DE 11 DE AGOSTO DE 2026. Denomina Alvoir Bonfim Ferraz o logradouro conhecido como Beco B Avenida do Lami, localizado no Bairro Boa Vista do Sul, e altera sua categoria para Rua.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de agosto de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.626\n26.0.000112654-6              11.08.2026",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Alvoir Bonfim Ferraz o logradouro conhecido como Beco B Avenida do Lami, localizado no Bairro Boa Vista do Sul, com base na Lei Complementar nº 320, de 2 de maio de 1994."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

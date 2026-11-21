@@ -1,0 +1,111 @@
+{
+ "idSapl": 23540,
+ "rotulo": "Lei Complementar municipal nº 144, de 14 de novembro de 1986",
+ "sha256Origem": "acd6045507f77883649d545352a22709bfe852237c59da019515c97f08233c77",
+ "estruturadoEm": "2026-11-21T09:25:20.079Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "~c.      <Lc,8     I~ ~         l g~",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "'PLC L.        :,-f Q-   f 029 r'\" Institui normas a respeito da expedição de alvará de    lice~ ça para estabelecimento   prestador de serviços   funerários e dá outras providências. Faço saber que a Câmara   Municipal    aprovou      e eu san ciono   a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O número de alvarás de licença para a 10 calização e o funcionamento de estabelecimento  prestador de ser= viços funerários e de comércio de artigos mortuários não   excede rá, ressalvados os direitos adquiridos, de 1 (um) para cada 100.000 (cem mil) habitantes do Municlpio, obedecido o Plano Diretor de Desenvolvimento  Urbano."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A localização do estabelecimento mencionado nesta Lei Complementar obedecerá a distância não inferior a '\" 500m (quinhentos metros) de outro seu congenere   e de hospitais, lato senso."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Á alteração da razão social contida    em aIvará de licença será permitida nos casos de sucessão previstos no Código Comercial Brasileiro."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Sem prejulzo ao Plano Diretor de                  Desenvolvimento Urbano, será admitida a mudança de localização                 de es tabelecimento licenciado, observado o artigo 22•"
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Além dos demais requisitos previstos em lei, o licenciamento de agências funerárias obedecerá às normas regulamentares. L.._ I   I   I . I \"     I I ) 046919.86.4 X 030"
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "O Executivo, mediante Decreto e no prazo de 90 (noventa) dias consecutivos,   regulamentará a presente Lei Complementar."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei Comple~entar    entra em vigor   na data de sua publicação. Nereu D'Ávila, Secretário Municipal da Produção, Indústria e Comércio. E-egistr ;se ~lJque::;;l;)e. ___ -~C~ Valdir Fraga, Secretário do Governo   Municipal."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 7,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art12"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art22"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art32"
+    },
+    {
+     "rotulo": "Art. 4º",
+     "naOrigem": "Art42"
+    },
+    {
+     "rotulo": "Art. 5º",
+     "naOrigem": "Art52"
+    }
+   ]
+  }
+ }
+}

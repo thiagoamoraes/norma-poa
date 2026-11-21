@@ -1,0 +1,93 @@
+{
+ "idSapl": 22675,
+ "rotulo": "Lei Complementar municipal nº 103, de 16 de janeiro de 1984",
+ "sha256Origem": "66b9cbdef3bf0045a4b38ff795def35b91adf125fb7fae7cebe06bb1ab4bf200",
+ "estruturadoEm": "2026-11-21T09:25:20.300Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "103",
+  "ano": "1984",
+  "data": "1984-01-16",
+  "epigrafe": "ev",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "ço A a Da 0909 CÂMARA MUNICIPAL DE PORTO ALEGRE RIO GRANDE DO SUL Proc. n9 1492/83 PLCL nº 17/83 LEI COMPLEMENTAR Nº 103 Acrescenta item e um parágrafo à Lei Complementar nº 43, de 21 de julho de 1979 - I PDDU/PA para implantar programa de cultivo de hortos e pomares e da outras providências. O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE. Faço saber, no uso das atribuições que me confere o 8 29, do Art. 47, da Lei Orgânica, que a Câmara Municipal apro vou e eu promulgo a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": "Gabinete da Presidência da Câmara Municipal de Por\nPá ,,\nto Alegre, 16 de janeiro de 1984.\nq o valdie Fria,\n. Presidente.\nRegistre>\n; Fá ,\nMas ea QU\ncretario. =»",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "São introduzidas as seguintes alterações. na Lei Complementar nº 43, de 21 de julho de 1979:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "É acrescentado ao art. 230, o seguinte item:",
+   "blocoDeAlteracao": "\"Xx- ao aproveitamento das àreas livres de proprie\ndade do Município para implantação de hortos e\npomares.”"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "É acrescentado ao artigo 230, o seguinte pará grafo único:",
+   "blocoDeAlteracao": "\"Paragrafo único - O programa a que se refere o i\ntem X serã objeto de Lei Especial.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se as disposições em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [
+   "cabecalho_fora_do_padrao",
+   "texto_de_ocr"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.978,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art19"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art29"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art39"
+    }
+   ]
+  }
+ }
+}

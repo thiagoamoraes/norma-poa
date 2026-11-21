@@ -1,0 +1,92 @@
+{
+ "idSapl": 24140,
+ "rotulo": "Lei Complementar municipal nº 175, de 20 de janeiro de 1988",
+ "sha256Origem": "1b29461a2eb259a791f2b40120ccb8114b150a7fc592cf6c16174a58508fe7a2",
+ "estruturadoEm": "2026-11-21T09:25:19.960Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "~",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "CAMARA MUNICIPAL DE PORTO ALEGRE                              PROC. N~ 272/87 RIO GRANDE DO SUL                                   PLCL   N~    01/87 Dã nova redação ao artigo 132, da Lei Complementar n9 133, de 31 de dezembro de 1985. Faço saber, no uso das atribuições    que me confere o § 29, do art. 47, da Lei Orgânica,   que a Câmara Municipal   aprovou e eu promulgo a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": "Gabinete da Presidência       da   Câmara     Municipal        de Porto\nAlegre,   20 de janeiro de 1988.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O artigo 132, da Lei Complementar   n9 133, de 31 de dezembro de 1985, passa a ter a seguinte redação: IIArt. 132 - O funcionãrio   em Regime Especial de Trabalho de tempo integral      ou suplementar,     por perTodo superior a dois anos consecutivos     ou cinco intercalados,    sõ poderã ter cessada a convocaçao    quando:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "requerer  dispensa do regime a qualquer tempo; 11 - for o regime suprimido no serviço publico municipal;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "for provido   em cargo incompatTvel  com a modalidade de regime. 1I Parãgrafo   unico - Para completar o biênio, desde que sem ~solução    de continuidade,   ou o quinqOenio,   poderão ser computados os perTodos em que o funcionãrio     esteve convO'cado para outras modalidades   de Regime Especial,    de igualou   superior gratificação."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar              entra   em vigor     na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se     as disposições      em contrãrio."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.981,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art19"
+    },
+    {
+     "rotulo": "II –",
+     "naOrigem": "III"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art29"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art39"
+    }
+   ]
+  }
+ }
+}

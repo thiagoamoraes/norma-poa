@@ -1,0 +1,62 @@
+{
+ "idSapl": 25446,
+ "rotulo": "Lei Complementar municipal nº 230, de 24 de julho de 1990",
+ "sha256Origem": "144d022feff781811b305d6bc7e6c9ba2775a404b0bafe002310ea66c37e9bf3",
+ "estruturadoEm": "2026-11-21T09:25:19.804Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "5?J1/1Ay 1:,J :",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "10/10 Dá nova redação ao art. 2Q da Lei Complementar nQ 144, de 14 de novembro de 1986. Faço saber que a C~mara Municipal            aprovou    e eu sanciono a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Q - O art. 2Q da Lei Complementar nQ 144,de 14 de novembro   de 1986, passa a vigorar com a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 2Q - A localização do estabelecimento menciona\ndo nesta Lei Complementar obedecerá a distância não inferior a 500;\n(quinhen tos metros) de outro seu congênere e de hospi tais, \"lato se!2\nso\", ressalvadas as localizações requeridas em ruas adjacentes      ao\nperimetro das necrópoles (cemitérios) existentes.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Q ta de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Q   -   Revogam-se       as disposições   em contrário. José Luiz Viana Moraes, Secretário Municipal da Produção,Indú~ tria e Comércio. Registre-se   e publique-se. -lh._ L~. /;4(l;:-~orbellir.i, 'Secretario do Governo   Municipal. ( I' '\" I \\ \"\"j' .. _\"."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

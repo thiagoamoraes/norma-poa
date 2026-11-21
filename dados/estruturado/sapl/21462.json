@@ -1,0 +1,65 @@
+{
+ "idSapl": 21462,
+ "rotulo": "Lei Complementar municipal nº 60, de 25 de maio de 1981",
+ "sha256Origem": "388f0328c7b932a215d6f64f3035ae9e2351c4c7dbe1a735299b4b9633c1b5ba",
+ "estruturadoEm": "2026-11-21T09:25:20.435Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "CÂMARA MUNICIPAL DE PORTO ALEGRE                                                         '- . 02",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "RIO GRANDE DO SUL                              PRoC. N9 1266/79 PLCL    N9       8/79 Altera    redação     de artigo d Lei Complementar     n9 7, de 31.12 73, que institui     e disciplina           o tributos   de competência         do Muni cIpio. Faço saber,       no uso das atribuições        que me confere        o 29, do Art.                47 da Lei Orgânica,         que a câmara    Municipal     aprovou           E eu promulgo                a seguinte     Lei:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Dá nova redação         ao Art. 37, da Lei Compleme~ tar n9 7, passando                    o mesmo    a viger com a seguinte         redação:",
+   "blocoDeAlteracao": "\"Art. 37 - A Taxa de Coleta de Lixo é devida                  pelo proprietário              titular       de domlnio   útil ou possuidor       a qualquer        títu-lo, de imóvel ou usuário                    de próprio     municipal,     que sejam beneficiados,             efetiva        ou potencialmente,     pelo serviço\"."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar             entra em vigor na data de sua publicação. GABINETE       DA PRESID~NCIA    DA CÂMARA     MUNICIPAL     DE ALEGRE,             25 de maio de 1981. ,. Regist~e~se                e publique-se: ~J&~ wf~on Ar~: 19 Secretário. MI)/~I? 900~   c   ~J\"'\" ,   ~UT    540"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.944,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art19"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art29"
+    }
+   ]
+  }
+ }
+}

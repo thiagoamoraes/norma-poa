@@ -1,0 +1,40 @@
+{
+ "idSapl": 17547,
+ "rotulo": "Lei Complementar municipal nº 10, de 22 de março de 1974",
+ "sha256Origem": "fa08477ba487028d8ab503f6f831a90fa6616852cbbb0d2cf28ebe07ec51ad42",
+ "estruturadoEm": "2026-11-21T09:25:20.651Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "lc10",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "lc10 lc10 lc10 lc10",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_artigos",
+   "sem_fecho"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 0,
+   "dispositivos": 0,
+   "cobertura": 0.8,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "idSapl": 51579,
+ "rotulo": "Lei municipal nº 14.619, de 31 de julho de 2026",
+ "sha256Origem": "7c7c69cb74d79e4a2fd5f28083a6509a4ee79b7fe84fee472cad015c45526661",
+ "estruturadoEm": "2026-11-21T09:25:20.782Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14619",
+  "ano": "2026",
+  "data": "2026-08-03",
+  "epigrafe": "PLL Nº 404/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.619, DE 3 DE AGOSTO DE 2026. Assegura, no âmbito do Município de Porto Alegre, o direito ao uso do nome social e à identidade de gênero de travestis e demais pessoas transexuais nas cerimônias funerárias, nas lápides de seus túmulos e nos jazigos, bem como     nos   registros   administrativos    de sepultamento,    cremação     e    tanatopraxia realizados em cemitérios e crematórios, mesmo quando distintos daqueles constantes do registro civil.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 3 de agosto de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica assegurado, no âmbito do Município de Porto Alegre, o direito ao reconhecimento do nome social e da identidade de gênero de travestis e demais pessoas transexuais nas cerimônias funerárias, nas lápides de seus túmulos e nos jazigos, bem como nos registros administrativos de sepultamento, cremação e tanatopraxia realizados em cemitérios e crematórios, mesmo quando distintos daqueles constantes do registro civil, observada a legislação federal aplicável aos registros públicos, sem alteração dos dados constantes do registro civil oficial."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para fins desta Lei, o respeito à identidade de gênero inclui o reconhecimento da forma como a pessoa se expressava por meio de sua aparência pessoal e das vestimentas utilizadas ao final de sua vida."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica determinado o uso do nome social póstumo, se solicitado, sendo este o único nome a constar em lápides, jazigos ou urnas funerárias, ficando o nome de registro restrito aos documentos internos."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A solicitação de uso do nome social póstumo poderá ser realizada pela família, por companheiro ou companheira, por responsável legal ou por pessoa que, independentemente da anuência da família, apresente manifestação de vontade expressa da pessoa falecida em testamento, codicilo ou declaração escrita registrada em vida."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Os cemitérios e crematórios localizados no Município deverão garantir o cumprimento do disposto nesta Lei, adequando seus regulamentos internos e sistemas de informação para assegurar a dignidade póstuma de travestis e demais pessoas transexuais."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "O descumprimento do disposto nesta Lei sujeitará os responsáveis às sanções administrativas previstas na legislação municipal, sem prejuízo de eventuais responsabilidades civis ou penais."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "data_diverge_do_catalogo"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 7,
+   "cobertura": 0.975,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "geradoEm": "2026-11-21T09:25:22.094Z",
+ "idSapl": 25709,
+ "rotulo": "Lei Complementar municipal nº 238, de 26 de dezembro de 1990",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "lc 238/1990@1990-12-26",
+   "data": "1990-12-26",
+   "fonte": null
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O artigo 2º e seu parágrafo unico, da Lei Complementar              nº 124, de 22 de outubro de 1985, passam a ter a seguinte redação: \"Art. 2º - A receita proveniente dos anúncios de propaganda deverá cobrir todos os custos para a prestação de progama suplementar de           assistência médico-hospital para os empregados das empresas de ônibus e seus dependentes que autorizem a colocação destes anúncios. - O programa suplementar de assistência médico-hospitalar          de que ar igo deverá proporcionar, em complementação aos serviços prest~ gãos oficiais, atendimento ambulatorial, acrescido de internação m acomodações semiprivativas para casos comprovados de -cirúrgicas e pediátricas. \"§2º - A empresa responsável pela comercialização dos anúncios de propaganda deverá providenciar para que o          inicio dos serviços de ~ ,..~ .~_v .•.•oJ :.. . ., *.~.-- CAMARA MUNICIPAL DE PORTO ALEGRE Av. Loureiro da Silva. 255 - Fone • 28-6055 RIO GRANDE DO SUL PROC. nº 2250/88 PLCL   nº       15/88 médico-hospitalar de que trata o 'caput' deste artigo dé-se no prazo maximo            de 180 (cento e oitenta) dias após a autorização da empresa de ónibus, referida no",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-22",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 22.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": ", do artigo 12 desta Lei Complementar. O não cumprimento deste prazo tornari nula essa licença.\" - çao.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Revogam-se as disposições em contrário. Gabinete da Presidéncia      da Câmara Municipal de Porto Alegre, 26 de de zembro de 1990.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 28340,
+    "rotulo": "Lei Complementar municipal nº 364, de 28 de dezembro de 1995"
+   },
+   "motivo": "comando_recusado",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 124, de 22 de outubro de 1985\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"124\",\"ano\":\"1985\",\"chave\":\"lc 124/1985\"}, versão: lc 238/1990) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 124, de 22 de outubro de 1985\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"124\",\"ano\":\"1985\",\"chave\":\"lc 124/1985\"}, versão: lc 238/1990) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 124, de 22 de outubro de 1985\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"124\",\"ano\":\"1985\",\"chave\":\"lc 124/1985\"}, versão: lc 238/1990)",
+   "enderecos": [
+    "art-1",
+    "art-2",
+    "art-3",
+    "art-6"
+   ]
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-1",
+   "desde": "1995-12-28"
+  },
+  {
+   "id": "art-1/par-22",
+   "desde": "1995-12-28"
+  },
+  {
+   "id": "art-2",
+   "desde": "1995-12-28"
+  }
+ ]
+}

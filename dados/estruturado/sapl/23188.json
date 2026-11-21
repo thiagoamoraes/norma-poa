@@ -1,0 +1,99 @@
+{
+ "idSapl": 23188,
+ "rotulo": "Lei Complementar municipal nº 124, de 22 de outubro de 1985",
+ "sha256Origem": "4ee8aa2d00ce201f591df085b1f1f9feabd85c1a34c7907b738e03c9326ed919",
+ "estruturadoEm": "2026-11-21T09:25:20.251Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "I",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "1. ~.   / )ll; '., 0070 :r;.J Dispõe sobre a colocação de anúncios de propaganda     em veiculos de transporte cole tivo e dá outras   providên= cias. Faço saber que a Câmara Municipal     aprovou   e eu san ciono a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Autoriza as empresas permissionárias   ou concessionárias  do serviço de transporte coletivo no Município   a utilizar as faces laterais externas e internas dos veiculos    para a exposição de anúncios de propaganda."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A fixação de todo e qualquer anúncio de pro paganda obedecerá as normas estabelecidas na Lei Complementar   nº 12, de 07 de janeiro de 1975, e demais legislação vigente, no que respeita à matéria."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A autorização para as empresas de transporte coletivo afixarem anúncios de propaganda nas faces laterais ex A            A             ,        _       T ternas e internas de onibus, microonibus e taxi-lotaçao, far-se-a através de licença especial, nominal, instransferivel e individua lizada."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A renda liquida auferida pelas empresas de transporte coletivo com essa publicidade será deduzida dos cál los de majoração de tarifas."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O cumprimento do que dispõe     o terá acompanhamento e fiscalização da Secretaria   Munici-Transportes - SMT . . Art. 3º - O Executivo   deverá   regulamentar   a prese~ L ~ - c;:   ti:   RUBRICA X 0071 te Lei Complementar,   no prazo de 60 (sessenta) dias."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei Complementar       entra em vigor     na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Revogam-se as disposições em contrário, especialmente o art. 12, da Lei n!! 2758, de 04 de dezembro de 1964 e seu parágrafo único, acrescentado pela Lei nQ 4403, de 05 de j~ neiro de 1978. PREFEITURA    MUNICIPAL   DE PORTO ÀLEGRE,c2~   de   outu- .?/ ~, ~ntonio          Dib, ,--------'~. Prefei to .. Ayrton Moraes Teixeira, Secretário Municipal dos Transportes. L /AB"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 7,
+   "cobertura": 0.971,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art42"
+    },
+    {
+     "rotulo": "Art. 4º",
+     "naOrigem": "Art52"
+    }
+   ]
+  }
+ }
+}

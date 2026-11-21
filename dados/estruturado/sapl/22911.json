@@ -1,0 +1,76 @@
+{
+ "idSapl": 22911,
+ "rotulo": "Lei Complementar municipal nº 111, de 18 de dezembro de 1984",
+ "sha256Origem": "c405c368d934daa6e12adb0c631881377e015bbea6b19ec237227f7b1c69a0df",
+ "estruturadoEm": "2026-11-21T09:25:20.281Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "cerca",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "a A, PREFEITURA MUNICIPAL DE PORTO ALEGRE f) 0 2 8 proc.n” 1525/04 pLCE nº 06/84 LEI COMPLEMENTAR NO À dA pPixa, pad O oxcrcIicio de 198, o valor da Unidade du Rofuron- cia Padrão.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu san ciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, LE de dezem\nbro de 1984,\n”\nº\nAo o no\n“Joao Antonio Dib,\neme Prefeito.\nJaime Oscar Silva Ungaretti,\nSecretario Municipal da Fazenda.\n/8LB\nCYHEBLCA,4 x",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "A Unidade de Referência Padrão (URP), de que trata a Lei Complementar nº 15, de 17 de novembro de 1975, fica fixada em Cr$ 113,730 (cento c treze mil, setecentos e trin- ta cruzeiros)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar entra Um vigor na data de sua publicação e produzirá cíecitos a partir de 19 de janeiro de 1985."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se as disposições em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [
+   "texto_de_ocr"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art19"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art29"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art39"
+    }
+   ]
+  }
+ }
+}

@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-19T09:26:05.122Z",
+ "geradoEm": "2026-11-21T09:25:27.342Z",
  "idSapl": 40706,
  "rotulo": "Lei Complementar municipal nº 798, de 10 de junho de 2016",
  "baseConferida": true,
@@ -19,6 +19,16 @@
     "rotulo": "Lei Complementar municipal nº 880, de 27 de março de 2020"
    },
    "comandosAplicados": 18
+  },
+  {
+   "indice": 2,
+   "id": "lc 798/2016@2025-01-21",
+   "data": "2025-01-21",
+   "fonte": {
+    "idSapl": 49707,
+    "rotulo": "Lei Complementar municipal nº 1.033, de 21 de janeiro de 2025"
+   },
+   "comandosAplicados": 4
   }
  ],
  "dispositivos": [
@@ -373,7 +383,7 @@
    "estados": [
     {
      "desde": 0,
-     "texto": "executar atividades e tarefas de baixa e média complexidade necessárias ao planejamento, à execução e ao controle dos resultados dos programas estratégicos municipais; 2",
+     "texto": "executar atividades e tarefas de baixa e média complexidade necessárias ao planejamento, à execução e ao controle dos resultados dos programas estratégicos municipais;",
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
@@ -635,10 +645,19 @@
    "estados": [
     {
      "desde": 0,
-     "texto": "13 (treze) servidores em atividades especiais PE1; 3",
+     "texto": "13 (treze) servidores em atividades especiais PE1;",
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "3 (três) servidores em atividades especiais PE1;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.033/2025"
      }
     }
    ]
@@ -656,6 +675,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "4 (quatro) servidores em atividades especiais PE2;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.033/2025"
+     }
     }
    ]
   },
@@ -672,6 +700,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "13 (treze) servidores em atividades especiais PE3; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.033/2025"
+     }
     }
    ]
   },
@@ -687,6 +724,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "1 (um) servidor em atividades especiais PE4, cuja atividade especial está descrita no inc. VII do art. 4º desta Lei Complementar.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.033/2025"
      }
     }
    ]
@@ -932,7 +978,7 @@
    "estados": [
     {
      "desde": 0,
-     "texto": "na Lei nº 11.405, de 27 de dezembro de 2012. 4",
+     "texto": "na Lei nº 11.405, de 27 de dezembro de 2012.",
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
@@ -1150,7 +1196,7 @@
    "estados": [
     {
      "desde": 0,
-     "texto": "A GAPE, com suas PB e PE, será incorporada aos proventos de aposentadoria do servidor efetivo investido em cargo de nível fundamental ou médio dos quadros 5 da PMPA, desde que designado para CC com requisito de nível superior, na SMPEO, respeitado o caput deste artigo e atendido o requisito temporal previsto no inc. III do caput deste artigo, integralmente nesta condição, com valor calculado conforme previsto no art. 2º desta Lei Complementar, no que couber.",
+     "texto": "A GAPE, com suas PB e PE, será incorporada aos proventos de aposentadoria do servidor efetivo investido em cargo de nível fundamental ou médio dos quadros da PMPA, desde que designado para CC com requisito de nível superior, na SMPEO, respeitado o caput deste artigo e atendido o requisito temporal previsto no inc. III do caput deste artigo, integralmente nesta condição, com valor calculado conforme previsto no art. 2º desta Lei Complementar, no que couber.",
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
@@ -1314,6 +1360,17 @@
    "motivo": "aplicada_em_parte",
    "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
    "enderecos": []
+  },
+  {
+   "alteradora": {
+    "idSapl": 49707,
+    "rotulo": "Lei Complementar municipal nº 1.033, de 21 de janeiro de 2025"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 10.087, de 16 de novembro de 2006\",\"tipoAto\":\"LEI\",\"numero\":\"10087\",\"ano\":\"2006\",\"chave\":\"l 10087/2006\"}, versão: lc 798/2016)",
+   "enderecos": [
+    "art-1-A/par-4"
+   ]
   }
  ],
  "aConferir": []

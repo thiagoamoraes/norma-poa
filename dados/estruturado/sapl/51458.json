@@ -1,0 +1,134 @@
+{
+ "idSapl": 51458,
+ "rotulo": "Lei municipal nº 14.579, de 02 de julho de 2026",
+ "sha256Origem": "ae8e60669a2e0fc15bbe53d0d556fb046b51b55afdc7bb9db0bd535407fc2180",
+ "estruturadoEm": "2026-11-21T09:25:20.837Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14579",
+  "ano": "2026",
+  "data": "2026-07-02",
+  "epigrafe": "PLL Nº 635/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.579, DE 2 DE JULHO DE 2026 Denomina os logradouros que especifica, localizados no Bairro Lomba do Pinheiro, e altera categorias para Travessa e Acesso.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de julho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO I\nSebastião Melo\n14.579\n26.0.000089499-0              02.07.2026\nANEXO II\nSebastião Melo\n14.579\n26.0.000089499-0               02.07.2026\nANEXO III\nSebastião Melo\n14.579\n26.0.000089499-0                02.07.2026\nANEXO IV\nSebastião Melo\n14.579\n26.0.000089499-0               02.07.2026\nANEXO V\nSebastião Melo\n14.579\n26.0.000089499-0              02.07.2026\nANEXO VI\nSebastião Melo\n14.579\n26.0.000089499-0               02.07.2026\nANEXO VII\nSebastião Melo\n14.579\n26.0.000089499-0                02.07.2026",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam denominados, conforme segue, os logradouros localizados no Bairro Lomba do Pinheiro, com base na Lei Complementar nº 320, de 2 de maio de 1994:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "Cedália dos Santos Castilhos o conhecido como Rua A – Comunidade Nova Barreto, conforme Anexo I desta Lei;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "Bento Braga o conhecido como Rua B – Comunidade Nova Barreto, conforme Anexo II desta Lei;"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "Vladimir Ferreira da Silva o conhecido como Rua C – Comunidade Nova Barreto, conforme Anexo III desta Lei;"
+  },
+  {
+   "id": "art-1/inc-IV",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "Jane Beatriz Silveira de Aguiar o conhecido como Rua D – Comunidade Nova Barreto, conforme Anexo IV desta Lei;"
+  },
+  {
+   "id": "art-1/inc-V",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "Eduarda Solinara Monteiro da Silva o conhecido como Rua E – Comunidade Nova Barreto, conforme Anexo V desta Lei;"
+  },
+  {
+   "id": "art-1/inc-VI",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "Monica Pinto Soares o conhecido como Rua H – Comunidade Nova Barreto, conforme Anexo VI desta Lei;"
+  },
+  {
+   "id": "art-1/inc-VII",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-1/inc-VIII",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-1/inc-IX",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "Ilca Duarte o conhecido como Rua S – Comunidade Nova Barreto, conforme Anexo VII desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 13,
+   "cobertura": 0.968,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,11 +1,11 @@
 {
- "geradoEm": "2026-11-20T09:25:06.434Z",
+ "geradoEm": "2026-11-21T09:25:33.494Z",
  "estado": "em_carga",
  "alertas": [],
  "proximas": [
-  "308 norma(s) aguardam revisão da leitura automática (motivo mais frequente: `rotulo_nao_confere_com_a_origem`, 174): ROTEIRO.md, tarefa 1.",
-  "117 histórico(s) incompleto(s) e 0 com erro: ROTEIRO.md, tarefa 4.",
-  "10 arquivo(s) baixado(s) sem extração de texto (formato não suportado ou falha): conferir `dados/textos/sapl/_indice.jsonl`."
+  "351 norma(s) aguardam revisão da leitura automática (motivo mais frequente: `rotulo_nao_confere_com_a_origem`, 224): ROTEIRO.md, tarefa 1.",
+  "161 histórico(s) incompleto(s) e 0 com erro: ROTEIRO.md, tarefa 4.",
+  "11 arquivo(s) baixado(s) sem extração de texto (formato não suportado ou falha): conferir `dados/textos/sapl/_indice.jsonl`."
  ],
  "criterios": [
   {
@@ -15,13 +15,13 @@
   },
   {
    "nome": "Vínculos completos",
-   "ok": false,
-   "detalhe": "página 241 de 263"
+   "ok": true,
+   "detalhe": "completos"
   },
   {
    "nome": "Fila de textos vazia",
    "ok": false,
-   "detalhe": "7568 arquivo(s) a baixar"
+   "detalhe": "7281 arquivo(s) a baixar"
   },
   {
    "nome": "Últimas 3 execuções sem erro",
@@ -35,8 +35,8 @@
   }
  ],
  "ritmo": {
-  "baixados7": 834,
-  "mediaDia": 209,
-  "previsaoDias": 37
+  "baixados7": 1121,
+  "mediaDia": 224,
+  "previsaoDias": 33
  }
 }

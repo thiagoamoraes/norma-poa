@@ -1,0 +1,90 @@
+{
+ "idSapl": 25133,
+ "rotulo": "Lei Complementar municipal nº 203, de 28 de dezembro de 1989",
+ "sha256Origem": "62ccca383870bbd7685bc32f2447b204f7f7657313c7de52f17f2f5109ed4c81",
+ "estruturadoEm": "2026-11-21T09:25:19.888Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI COMPLEMENTAR",
+  "numero": "203",
+  "ano": "1989",
+  "data": "1989-12-28",
+  "epigrafe": "LEI COMPLEMENTAR Nº 203",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Dispõe sobre a remuneração dos serviços públicos quemenciona e dá outras providências. O PREFEITOMUNICIPAL DE PORTO ALEGRE. Faço saberque a Câmara Municipal aprovou e eu sanciono a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de dezembro de 1989.\nOlivio Dutra,\nPrefeito.\nJoão Acir Verle,\nSecretário Municipal da Fazenda.\nRegistre-se e publique-se.\nTarso Genro,\nSecretário do Governo Municipal,\nrespondendo.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "serviços do Município, de que resultem expedição de documentos, fornecimento deatestados e declarações em geral, cópias e autenticações, protocolização derequerimentos, fornecimento de coletâneas de legislação ou guias informativas delogradouros e serviços públicos, ou outros serviços congêneres, passam a serremunerados mediante a cobrança de preços públicos."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "fixação dos preços públicos referidos no art. 1º far-se-á - VETADO -por base a natureza do serviço, o seu custo e o valor de mercado para arealização do serviço igual ou semelhante."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "VETADO- os preços públicos serão fixados por Decreto do Executivo."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "valores dos preços públicos serão atualizados mensalmente, de acordo com avariação da URM - Unidade de Referência Municipal."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Revogam-se as disposições em contrário, especialmente o Capítulo I do Título IIIda Lei Complementar nº 7, de 07 de dezembro de 1973."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 7,
+   "cobertura": 0.958,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

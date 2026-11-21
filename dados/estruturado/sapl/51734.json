@@ -1,0 +1,576 @@
+{
+ "idSapl": 51734,
+ "rotulo": "Lei municipal nº 14.644, de 09 de setembro de 2026",
+ "sha256Origem": "8c358436a407a82233bb551c69b92645a880d0571e4e8383e89d26376e105999",
+ "estruturadoEm": "2026-11-21T09:25:20.750Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14644",
+  "ano": "2026",
+  "data": "2026-09-09",
+  "epigrafe": "PLE Nº 046/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.644, DE 9 DE SETEMBRO DE 2026. Dispõe sobre a governança, o uso ético e transparente da Inteligência Artificial no âmbito da Administração Pública Direta e Indireta do Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de setembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam estabelecidas as diretrizes para a utilização responsável e ética de sistemas de Inteligência Artificial (IA) pela Administração Pública Direta e Indireta do Município de Porto Alegre, assegurando a transparência, a segurança e o respeito aos direitos fundamentais, nos termos desta Lei.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Das Disposições Gerais"
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para os fins desta Lei, consideram-se:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "Inteligência Artificial (IA) o sistema baseado em tecnologia computacional projetado para operar com variados níveis de autonomia, podendo inferir, gerar recomendações, decisões ou previsões que influenciem ambientes físicos ou virtuais;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "Inteligência Artificial Generativa o sistema de IA baseado em modelos de linguagem de larga escala, Large Language Model (LLM), capaz de gerar textos, imagens, códigos e outros conteúdos de forma autônoma, a partir de comandos dados pelos usuários;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "Inteligência Artificial Responsiva o sistema de IA com capacidade de geração de conteúdo a partir de comandos dados pelos usuários, que opera em ambiente restrito e controlado, sem acessar fontes públicas externas ou LLMs;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "sistema de IA de alto risco qualquer aplicação de IA que possa impactar significativamente direitos fundamentais, privacidade, segurança pública ou tomada de decisões automatizadas de impacto socioeconômico;"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "governança algorítmica o conjunto de práticas e mecanismos que garantam a transparência, o controle e a auditoria dos sistemas de IA utilizados pela Administração Pública;"
+  },
+  {
+   "id": "art-2/inc-VI",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "viés algorítmico as distorções decorrentes do uso de IA que causem discriminação ou exclusão social, as quais devem ser mitigadas por mecanismos de controle; e"
+  },
+  {
+   "id": "art-2/inc-VII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "explicabilidade algorítmica a capacidade de um sistema de inteligência artificial de produzir, de forma compreensível para o agente público responsável pela decisão ou supervisão humana do sistema e para o cidadão afetado, justificativas inteligíveis sobre os fatores determinantes de um resultado ou uma recomendação, podendo ser implementada por métodos intrínsecos ao modelo ou por técnicas de interpretabilidade posteriores ao processamento decisório, desde que tecnicamente validadas e documentadas e passíveis de auditoria."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O uso da IA, no âmbito da Administração Pública Direta e Indireta do Município, tem como fundamentos:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Dos Fundamentos"
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o respeito aos direitos fundamentais e aos valores democráticos;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a promoção do bem-estar das pessoas de Porto Alegre;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "o desenvolvimento tecnológico e o estímulo à inovação no setor público, para o incremento da eficiência dos serviços prestados;"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "a participação e a supervisão humana em todas as etapas dos ciclos de desenvolvimento e de utilização das soluções que adotem técnicas de inteligência artificial, ressalvado o uso dessas tecnologias como ferramentas auxiliares para aumentar a eficiência e a automação de serviços meramente acessórios ou procedimentais;"
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "a identificação, classificação, monitoramento e mitigação de riscos;"
+  },
+  {
+   "id": "art-3/inc-VI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "a proteção de dados pessoais e de dados pessoais sensíveis, mediante o tratamento dessas informações que identificam ou tornam identificáveis pessoas naturais em conformidade com o inc. LXXIX do art. 5º da Constituição Federal, com a Lei Federal nº 13.709, de 14 de agosto de 2018, Lei Geral de Proteção de Dados Pessoais (LGPD), e com as demais normas relativas aos dados pessoais;"
+  },
+  {
+   "id": "art-3/inc-VII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "a governança de dados usados no desenvolvimento e no aprimoramento de IA adotando fontes de dados seguras, rastreáveis e auditáveis, preferencialmente governamentais, permitida a contratação de fontes privadas, desde que atendam aos requisitos de segurança e auditabilidade estabelecidos nesta Lei;"
+  },
+  {
+   "id": "art-3/inc-VIII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "a conscientização e a difusão do conhecimento sobre as soluções que adotam técnicas de IA, com capacitação contínua de servidores e usuários sobre as aplicações, mecanismos de funcionamento e riscos;"
+  },
+  {
+   "id": "art-3/inc-IX",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "a segurança da informação;"
+  },
+  {
+   "id": "art-3/inc-X",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "texto": "a supervisão humana efetiva, periódica e adequada no ciclo de vida da IA considerando o grau de risco envolvido, com possibilidade de ajuste dessa supervisão conforme o nível de automação e impacto da solução utilizada; e"
+  },
+  {
+   "id": "art-3/inc-XI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "texto": "o atendimento ao estabelecido pela Lei Complementar nº 1.009, de 3 de maio de 2024, que trata da Política de Governança de Dados e Informações Municipais (PGDIM), no que couber."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "A utilização de sistemas de IA, no âmbito da Administração Pública Direta e Indireta do Município, observará os seguintes princípios:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "III",
+     "titulo": "Dos Princípios"
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "transparência, eficiência, explicabilidade, contestabilidade, auditabilidade e confiabilidade das soluções que adotam técnicas de IA, atendendo à obrigação da administração pública de fornecer informações claras e acessíveis sobre o funcionamento de decisões automatizadas, realizando o direito das pessoas de conhecer os critérios de funcionamento dos sistemas de IA;"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "ética e compromisso com a equidade, a não discriminação e o respeito aos direitos humanos;"
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "prestação de contas, com responsabilidade dos órgãos públicos municipais pelos impactos das decisões automatizadas e dos conteúdos gerados com a utilização de IA;"
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "governança e controle, pela adoção de mecanismos internos para auditoria contínua dos sistemas de IA;"
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "participação social, mediante incentivo à consulta pública para aplicações de IA de alto impacto; e"
+  },
+  {
+   "id": "art-4/inc-VI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "prevenção, precaução e mitigação de riscos derivados do uso intencional ou não intencional de soluções que adotam técnicas de IA."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "A Administração Pública Municipal deverá, sempre que possível, priorizar a utilização de sistemas de IA responsiva em detrimento de modelos generativos, buscando garantir maior controle, previsibilidade e segurança na tomada de decisões automatizadas.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "IV",
+     "titulo": "Dos Modelos de IA Generativa e Responsiva"
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-unico",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Sempre que a finalidade puder ser plenamente atendida sem identificação do titular, os órgãos ou entidades responsáveis adotarão técnicas de anonimização ou pseudonimização, observados:"
+  },
+  {
+   "id": "art-5/par-unico/inc-I",
+   "pai": "art-5/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "os princípios da finalidade e da necessidade, previstos no art. 6º, incs. I e III da LGPD;"
+  },
+  {
+   "id": "art-5/par-unico/inc-II",
+   "pai": "art-5/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "as normas de segurança da informação vigentes; e"
+  },
+  {
+   "id": "art-5/par-unico/inc-III",
+   "pai": "art-5/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "os casos em que legislação específica determine a guarda integral ou o sigilo da informação, hipótese em que se aplicam as salvaguardas técnicas e organizacionais adequadas."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "O uso de modelos de IA generativa pela Administração Pública Direta e Indireta do Município deverá obedecer aos seguintes requisitos:"
+  },
+  {
+   "id": "art-6/inc-I",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "indicar, de forma clara e acessível, quando um conteúdo foi gerado, parcial ou totalmente, por IA;"
+  },
+  {
+   "id": "art-6/inc-II",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "evitar a disseminação de informações falsas ou manipuladas por meio de IA generativa;"
+  },
+  {
+   "id": "art-6/inc-III",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "assegurar que os modelos de IA generativa sigam diretrizes de transparência, ética e não discriminação;"
+  },
+  {
+   "id": "art-6/inc-IV",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "restringir o uso de IA generativa em processos decisórios críticos, salvo se acompanhados de revisão humana obrigatória;"
+  },
+  {
+   "id": "art-6/inc-V",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "publicar relatório periódico sobre a implementação de sistemas de IA, contendo finalidade, funcionamento, impactos socioeconômicos e medidas de mitigação de riscos;"
+  },
+  {
+   "id": "art-6/inc-VI",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "utilizar, preferencialmente, código aberto ou possibilitar a auditoria externa para garantir a transparência dos algoritmos utilizados;"
+  },
+  {
+   "id": "art-6/inc-VII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "implementar mecanismos para contestação e revisão de decisões automatizadas que afetem diretamente as pessoas;"
+  },
+  {
+   "id": "art-6/inc-VIII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "desenvolver medidas de mitigação de vieses discriminatórios em sistemas de IA;"
+  },
+  {
+   "id": "art-6/inc-IX",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "capacitar, continuamente, os servidores públicos para a compreensão e para o uso responsável da IA;"
+  },
+  {
+   "id": "art-6/inc-X",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "texto": "avaliar o impacto algorítmico antes da implantação de qualquer sistema de IA que interfira em políticas públicas, serviços essenciais ou direitos fundamentais;"
+  },
+  {
+   "id": "art-6/inc-XI",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "texto": "realizar auditorias regulares nos sistemas de IA para garantir sua conformidade com as diretrizes desta Lei, da Lei Complementar nº 1.009, de 2024, e de legislações correlatas; e"
+  },
+  {
+   "id": "art-6/inc-XII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "texto": "garantir, nos sistemas de alto risco, que a explicabilidade algorítmica seja implementada de modo que o cidadão afetado possa compreender os principais fatores, variáveis ou parâmetros relevantes que influenciam o resultado automatizado, sendo vedada a utilização exclusiva de justificativas genéricas, abstratas ou incapazes de individualizar minimamente o caso concreto."
+  },
+  {
+   "id": "art-6/par-unico",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A exigência de explicabilidade observará critérios de proporcionalidade, complexidade técnica do sistema, grau de risco e impacto potencial sobre direitos fundamentais."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Compete ao comitê para governança de dados e informações municipais, instituído nos termos do art. 12 da Lei Complementar nº 1.009, de 2024, o exercício das seguintes competências no que diz respeito à IA:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "V",
+     "titulo": "Do Controle, da Transparência e da Responsabilização"
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-I",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "fiscalizar e monitorar o uso da IA no âmbito da Administração Pública Direta e Indireta do Município de Porto Alegre;"
+  },
+  {
+   "id": "art-7/inc-II",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "estabelecer diretrizes para o desenvolvimento e a implementação de ações e de projetos com o uso de IA na Administração Pública Direta e Indireta do Município de Porto Alegre;"
+  },
+  {
+   "id": "art-7/inc-III",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "garantir a conformidade das aplicações de IA com princípios éticos e regulatórios;"
+  },
+  {
+   "id": "art-7/inc-IV",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "emitir pareceres técnicos sobre a adoção de novas tecnologias baseadas em IA; e"
+  },
+  {
+   "id": "art-7/inc-V",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "fomentar a participação da sociedade civil na construção de políticas públicas sobre IA."
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "Antes da implantação de qualquer sistema de IA classificado como de alto risco, nos termos do inc. IV do art. 2º desta Lei, o órgão responsável deverá realizar e publicar Avaliação de Impacto Algorítmico (AIA), observados, no mínimo, os seguintes elementos:"
+  },
+  {
+   "id": "art-8/inc-I",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "descrição da finalidade do sistema e do contexto decisório em que será utilizado;"
+  },
+  {
+   "id": "art-8/inc-II",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "identificação dos grupos populacionais potencialmente afetados, com atenção especial aos grupos historicamente vulneráveis;"
+  },
+  {
+   "id": "art-8/inc-III",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "análise de riscos de vieses, discriminação algorítmica ou distorções estatísticas relevantes nos dados de treinamento e operação;"
+  },
+  {
+   "id": "art-8/inc-IV",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "descrição da arquitetura técnica do modelo e dos critérios de desempenho utilizados;"
+  },
+  {
+   "id": "art-8/inc-V",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "avaliação dos riscos à proteção de dados pessoais, à não discriminação e aos direitos fundamentais;"
+  },
+  {
+   "id": "art-8/inc-VI",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "mecanismos de mitigação para cada risco identificado; e"
+  },
+  {
+   "id": "art-8/inc-VII",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "indicação do responsável técnico, do responsável administrativo pelo sistema e da unidade responsável pela governança do sistema."
+  },
+  {
+   "id": "art-8/par-1",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A AIA será submetida ao comitê competente, nos termos do art. 7º desta Lei, que emitirá parecer antes da autorização de uso."
+  },
+  {
+   "id": "art-8/par-2",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A AIA será publicada no Portal Transparência Porto Alegre e revisada periodicamente, em prazo não superior a 2 (dois) anos, ou sempre que houver alteração substancial do sistema, da finalidade ou do contexto de uso."
+  },
+  {
+   "id": "art-8/par-3",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Sistemas de alto risco não podem tomar decisões exclusivamente automatizadas que produzam efeitos jurídicos sobre cidadãos sem possibilidade de revisão humana."
+  },
+  {
+   "id": "art-8/par-4",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "As obrigações da AIA deverão ser proporcionais à finalidade, ao contexto e ao impacto potencial do sistema."
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "texto": "O descumprimento das disposições desta Lei poderá implicar a determinação da suspensão ou da descontinuidade do uso do sistema de IA, a determinação de medidas corretivas e de aprimoramento do sistema e a aplicação de sanções previstas no ordenamento municipal.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "VI",
+     "titulo": "Das Medidas Preventivas e Sanções"
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "texto": "O Município incentivará a pesquisa e o desenvolvimento de IA responsável, promovendo parcerias com universidades, centros de pesquisa e organizações da sociedade civil.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "VII",
+     "titulo": "Disposições Finais"
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "texto": "Deverá ser incentivada a realização de projetos, convênios e parcerias com órgãos públicos e privados para o letramento digital e o uso ético da IA nas escolas da rede pública municipal."
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "texto": "O Executivo Municipal regulamentará esta Lei no prazo de 180 (cento e oitenta) dias, contados da data de sua publicação, estabelecendo normas complementares para sua implementação."
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 13,
+   "dispositivos": 70,
+   "cobertura": 0.974,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

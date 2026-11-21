@@ -1,0 +1,70 @@
+{
+ "idSapl": 22552,
+ "rotulo": "Lei Complementar municipal nº 89, de 25 de novembro de 1983",
+ "sha256Origem": "d87f27cae6e039300ce86ca9772051703805aeccfacda2f751d182b067027387",
+ "estruturadoEm": "2026-11-21T09:25:20.325Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "Proc.N' 118R/SJ                         .126",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "PLCL N9      11/83 LEI        COMPLEMENrl'AI~2~Ç)     '3:1 Disp6e sobre o pl~ntio de ár vo rc ~; f r eJ t í f e r d s na~; v LI s     e lo]radouros pGblicos no Muni c1pio de Porto Alegre.- Faço sar)er que a Câmara                                          Municipal     aprovou          C'   eu san ciono     a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE,ZS                               de\n//João Antônio        Dih,\n.P L-ef e.i to .~.\nCarlos Rafael dos Santos,\nSecretário Nunicipal do Me1.0 Arnbiente.\nRec,istre-se                     e lêlQqUe-se.\n//   1 '         .·1 /\n\"/··/1/\"\n~         '\"\n./              ,     /\n,-__-----/; /:!I--/~.);;J-<:::==~\ni Ada Ul-1 j)1 nyb -t; i íi pp i ,\nl\n_>§..e-erêEáril do Coverno                                   r1unicipal .\n--.\n.     :                      /\n./\n/",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica acrescentado ao artigo 230 da Lei Complementar   n9 43, de 21 de julho de 1979, parágrafo, com a se- <}uinte redação:"
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Vinte por cento,                                                     11() m í ;'l í. n1\\) , arborização das vias ou loqrddouro~; púb L i cos scr:i                                                  dc ~;t i n a li- \\ plantio de árvores frutiferas\"."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Est~ Lei Complementar                                                    entra em vigor               na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.942,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art19"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art29"
+    }
+   ]
+  }
+ }
+}

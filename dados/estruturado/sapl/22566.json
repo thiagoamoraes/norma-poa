@@ -1,0 +1,76 @@
+{
+ "idSapl": 22566,
+ "rotulo": "Lei Complementar municipal nº 91, de 13 de dezembro de 1983",
+ "sha256Origem": "66a485cc21a625da59bddb7d65bd6ef56eb30b5a301a9fde12a10022adc6f269",
+ "estruturadoEm": "2026-11-21T09:25:20.324Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "CAMARA           MUNICIPAL          DE PORTO AlEGIH:                                     ..-.129",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "RiO GRANDE       DO SUL                               PROC. N? 1186/83 PLCL     N9      ll/H3 Disp6e    sobre a demoliçâo          de pr~ dias na área centré11 no t-lunlcípiode Porto Alegre      e dá outras          provid~nclas. Faço saber,          no uso das atribuiç6es           que me confere            o § 29, do Art.                    47, da Lei Orgânica         do Municipio      de Porto Alegre, que a Câmara                    Hunicipal     aprovou     e eu promulgo       a seguinte Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica     acrescentado     ao art. 256 da Lei           Complementar               n9 43, de 21 de julho de 1979, um parágrafo,                         que sera único,                   com a seguinte     redaçâo:",
+   "blocoDeAlteracao": "\"Parágrafo         único     - Qualquer     sc1i ficac;ão ou       demolição\nde prédio              público      municipal,        na área central,        dependerá         de\nprévia          autorização          da Cámara        Municipal,   excetuando-se,          na hi\no6tese          de demolição,           C3    casos    de calamidade     pGblica      ou    iminente         risco de vida\"."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar          entra em vigor          na da ta de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se        as disposições     em contrári:o. Gabinete     da Presidªncia        da C~mara     Municipal       de Porto Alegre,               13 de dezembrc' de 1983. /MCA ce!   9 - 35 'cé)O - 9,' BO - Rctcrmund   60126"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.943,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art19"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art29"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art39"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "idSapl": 22537,
+ "rotulo": "Lei Complementar municipal nº 88, de 10 de novembro de 1983",
+ "sha256Origem": "f6621cf91b39db84dea7dfd092506c1f2edf168e20b0692a645e670acf83dd69",
+ "estruturadoEm": "2026-11-21T09:25:20.326Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "CÂMARA MUNICIPAL       DE PORTO ALEGRE",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "'- .125 Proc. N9 1031/83 RIO GRANDE DO SUL P.L.C.L.      N908/83 Dá nova redação             ao artigo    48 da Lei Complementar             n9 12, de     07. 01.75. Faço saber,    no uso das atribuições                 que me confere    o §29, do Art.     47, da Lei Orgânica        do Município          de Porto Alegre,         que a Câmara    Municipal    aprovou    e eu promulgo            a seguinte    Lei Complementar:",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O artigo      48 da Lei Complemetar              n9 12, de 07. 01.75,    passa   a vigorar   com a seguinte          redação:",
+   "blocoDeAlteracao": "\"Art. 48 - Os elevadores         deverão          funcionar    com obrigatória e permanente        assistência    de ascensorista,             quando:\nI - o comando      não for automatizadoi\n11 - embora      com comando        automatizado,        o elevador\nestiver     instalado     em hotel,         edifício    de escri\ntórios,    consultórios        ou mistos.\nA infração     do disposto     neste    artigo         acarretará    a pena de\nmulta    de um a cinco salários-mínimos\"."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar              entra em vigor na         data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se       as disposições            em contrário. GABINETE     DA PRESID~NCIA     DA CÂMARA MUNICIPAL             DE PORTO ALEGRE,     10   de novembro   de 1983. ------ / ------              -~-~ publiQUe-'-'      ~.~ .. -' Valdir         Fraga,"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.948,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art19"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art29"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art39"
+    }
+   ]
+  }
+ }
+}

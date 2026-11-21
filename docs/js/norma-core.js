@@ -79,6 +79,12 @@ export const resetIdCounter = () => { _id = 1; };
 export const ROM = ["","I","II","III","IV","V","VI","VII","VIII","IX","X",
   "XI","XII","XIII","XIV","XV","XVI","XVII","XVIII","XIX","XX",
   "XXI","XXII","XXIII","XXIV","XXV"];
+// além de XXV (rótulo "XXVI –" … "XXXVIII –" existe em lei real): completa a tabela até 399, sem lacuna
+for (let n = ROM.length; n < 400; n++) {
+  let r = "", k = n;
+  for (const [v, t] of [[100,"C"],[90,"XC"],[50,"L"],[40,"XL"],[10,"X"],[9,"IX"],[5,"V"],[4,"IV"],[1,"I"]]) while (k >= v) { r += t; k -= v; }
+  ROM.push(r);
+}
 export const roman       = n => ROM[n] || String(n);
 export const romanToInt  = r => { const i = ROM.indexOf((r||"").toUpperCase()); return i > 0 ? i : null; };
 export const romVal      = r => { const i = ROM.indexOf(r.toUpperCase()); return i > 0 ? i : null; };
@@ -254,7 +260,7 @@ const semAcento = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
  */
 export function extrairCabecalhoLeiPublicada(raw) {
   const lines = raw.split(/\r?\n/).map(l => l.trim()).filter(Boolean).slice(0, 8);
-  const reCab = /^LEI\s+(COMPLEMENTAR\s+)?N[º°O]\s*([\d.]+)\s*,?\s*DE\s+(\d{1,2})\s*(?:[ºO°]?)\s+DE\s+([A-ZÇÃÕÁÉÍÓÚÂÊÔ]+)\s+DE\s+(\d{4})\s*\.?\s*$/i;
+  const reCab = /^LEI\s+(?:N[º°O]\s*)?(COMPLEMENTAR\s+)?N[º°O]\s*([\d.]+)\s*,?\s*DE\s+(\d{1,2})\s*(?:[ºO°]?)\s+DE\s+([A-ZÇÃÕÁÉÍÓÚÂÊÔ]+)\s+DE\s+(\d{4})\s*\.?\s*$/i;
   for (const line of lines) {
     const m = line.match(reCab);
     if (!m) continue;
@@ -579,7 +585,7 @@ export function parseMinuta(raw, nrRanges) {
     dataSessao: "", assinatura: "", sigla: "PLL", ementa: null, preambulo: null, artigos: [],
     fecho: ""
   };
-  let stage = "epigrafe", last = { a:null, p:null, i:null, al:null }, emMode = false;
+  let stage = "epigrafe", last = { a:null, p:null, i:null, al:null, it:null }, emMode = false;
   let fechoBuf = [];
   // Fecho de lei já publicada (local/data de promulgação + bloco de assinaturas).
   // Sem isso, essas linhas caem no fallback genérico (linha 453-ish) e grudam
@@ -617,14 +623,14 @@ export function parseMinuta(raw, nrRanges) {
   // único" em minúscula é continuação de frase quebrada — caso real: LC 514/2004,
   // "…renumerando o atual / parágrafo único para § 3º, com o seguinte teor:".
   const rePUn = /^P(?:ar[áa]grafo|AR[ÁA]GRAFO)\s+[úuÚU](?:nico|NICO)\s*[.\-–—:]*\s*(.*)$/;
-  const reInc = /^([IVXLCDM]{1,6}(?:-[A-Z])?)\s*[-–—]\s*(.*)$/;
+  const reInc = /^([IVXLCDM]{1,9}(?:-[A-Z])?)\s*[-–—]\s*(.*)$/;
   const reAli = /^([a-z]{1,2}(?:-[a-z]{1,2})?)\)\s*(.*)$/;
   const reIte = /^(\d{1,2}(?:-[A-Z])?)\.\s+(.*)$/;
   const rePre = /(C[ÂA]MARA\s+MUNICIPAL.*DECRETA|DECRETA\s*:?\s*$|O\s+PREFEITO\s+MUNICIPAL)/i;
   const reEmentaVerbo = /^(institui|disp[õo]e\s+sobre|altera|estabelece|autoriza|cria|fixa|regulamenta|revoga|extingue|denomina|concede|declara|reconhece|d[áa]|acrescenta|inclui|suspende|pro[íi]be|veda|permite|assegura|garante|institucionaliza|reorganiza|transforma|desafeta|regula|torna|obriga|determina)\b/i;
   const reEM  = /^(EXPOSI[ÇC][ÃA]O\s+DE\s+MOTIVOS|JUSTIFICATIVA|JUSTIFICA[ÇC][ÃA]O)\s*:?$/i;
   const reEpig = /^(MINUTA\s+DE\s+)?PROJETO\s+DE\s+(LEI|RESOLU[ÇC][ÃA]O)(\s+COMPLEMENTAR)?\b\s*:?\s*(.*)$/i;
-  const reGrupo = /^(T[ÍI]TULO|CAP[ÍI]TULO|SE[ÇC][ÃA]O|SUBSE[ÇC][ÃA]O|PARTE|LIVRO)\s+([IVXLCDM]+)\b\s*[-–—:]?\s*(.*)$/i;
+  const reGrupo = /^(T[ÍI]TULO|CAP[ÍI]TULO|SE[ÇC][ÃA]O|SUBSE[ÇC][ÃA]O|PARTE|LIVRO)\s+([IVXLCDM]+|[ÚU]NICO)\b\s*[-–—:]?\s*(.*)$/i;
   const GRUPO_TIPO = {
     "título":"titulo","titulo":"titulo","capítulo":"capitulo","capitulo":"capitulo",
     "seção":"secao","secao":"secao","subseção":"subsecao","subsecao":"subsecao",
@@ -670,7 +676,9 @@ export function parseMinuta(raw, nrRanges) {
       doc.em.push(mk("em", line)); continue;
     }
     let m;
-    if (m = line.match(reGrupo)) {
+    // agrupador: só depois do preâmbulo e com título que não começa por minúscula/pontuação
+    // (linha de frase "Seção IV do Capítulo II; e revoga…" não é agrupador — decisão 23, 20/11/2026)
+    if ((m = line.match(reGrupo)) && (stage === "corpo" || doc.preambulo) && !/^[a-zà-ÿ,;.)]/.test((m[3]||"").trim())) {
       const tipo = GRUPO_TIPO[m[1].toLowerCase()] || "capitulo";
       let titulo = (m[3] || "").trim();
       if (!titulo) {
@@ -682,12 +690,31 @@ export function parseMinuta(raw, nrRanges) {
         const prox = (lines[li + 1] || "").trim();
         if (prox && !reGrupo.test(prox) && !reArt.test(prox)) { titulo = prox; skipUntil = li + 1; }
       }
+      {
+        // Título em até 3 linhas a mais (e/ou separado por linha em branco ou quebra de página):
+        // vale tudo até o próximo Art. ou agrupador, até 200 caracteres, sem "Art. N"/"§ N" dentro;
+        // se não terminar em Art. ou agrupador, fica como estava (decisão 23, 20/11/2026).
+        const ini = skipUntil >= li ? skipUntil + 1 : li + 1;
+        const extra = []; let k = ini;
+        while (k < lines.length && extra.length <= 3 && k - ini < 40) {
+          const t = (lines[k] || "").trim();
+          if (!t) { k++; continue; }
+          if (reArt.test(t) || reGrupo.test(t)) break;
+          extra.push([k, t]); k++;
+        }
+        const partes = [titulo, ...extra.map(e => e[1])];
+        const fim = (lines[k] || "").trim();
+        if (extra.length && extra.length <= 3 && partes.join(" ").length <= 200 &&
+            !partes.some(t => /\bAr?t?\.?\s*\d|§\s*\d/.test(t)) && (reArt.test(fim) || reGrupo.test(fim))) {
+          titulo = partes.join(" ").trim(); skipUntil = extra[extra.length - 1][0];
+        }
+      }
       pendGrupos.push({ id:nid(), tipo, numero:m[2].toUpperCase(), titulo }); continue;
     }
     if (m = line.match(reArt)) {
       const n = mk("artigo", m[2], line.slice(0, line.length-m[2].length).trim());
       if (pendGrupos.length) { n.gruposAntes = pendGrupos; pendGrupos = []; }
-      doc.artigos.push(n); last = { a:n, p:null, i:null, al:null }; stage = "corpo"; continue;
+      doc.artigos.push(n); last = { a:n, p:null, i:null, al:null, it:null }; stage = "corpo"; continue;
     }
     if (stage !== "corpo") {
       // Preâmbulo em mais de uma linha ("O PREFEITO MUNICIPAL DE PORTO ALEGRE." /
@@ -726,12 +753,20 @@ export function parseMinuta(raw, nrRanges) {
       doc.ementa = doc.ementa ? { ...doc.ementa, texto: doc.ementa.texto+" "+line } : mk("ementa", line);
       continue;
     }
-    if (m = line.match(rePUn)) { const n=mk("paragrafo",m[1],"Parágrafo único"); last.a&&last.a.children.push(n); last.p=n; last.i=null; last.al=null; continue; }
-    if (m = line.match(rePar)) { const n=mk("paragrafo",m[2],line.slice(0,line.length-m[2].length).trim()); last.a&&last.a.children.push(n); last.p=n; last.i=null; last.al=null; continue; }
-    if (m = line.match(reInc)) { const n=mk("inciso",m[2]); (last.p||last.a)&&(last.p||last.a).children.push(n); last.i=n; last.al=null; continue; }
-    if ((m = line.match(reAli)) && last.i) { const n=mk("alinea",m[2]); last.i.children.push(n); last.al=n; continue; }
-    if ((m = line.match(reIte)) && last.al) { const n=mk("item",m[2]); last.al.children.push(n); continue; }
-    const t = last.al||last.i||last.p||last.a; if (t) t.texto = (t.texto+" "+line).trim();
+    if (m = line.match(rePUn)) { const n=mk("paragrafo",m[1],"Parágrafo único"); last.a&&last.a.children.push(n); last.p=n; last.i=null; last.al=null; last.it=null; continue; }
+    // "§ N" no INÍCIO DE LINHA que é só citação: a linha anterior termina em artigo/preposição/conjunção
+    // ("…e do" / "§ 1º deste artigo.") e o que vem depois do número começa em minúscula. Rótulo de
+    // parágrafo vem depois de frase completa e seguido de maiúscula.
+    const citacaoDeParagrafo = (mm) => {
+      if (!mm || !/^[a-zà-ÿ]/.test(mm[2] || "")) return false;
+      let q = li - 1; while (q >= 0 && !lines[q]) q--;
+      return q >= 0 && /(?:^|[\s,])(?:o|a|os|as|do|da|dos|das|no|na|nos|nas|ao|aos|à|às|e|ou|pelo|pela|pelos|pelas)\s*$/i.test(lines[q]);
+    };
+    if ((m = line.match(rePar)) && !citacaoDeParagrafo(m)) { const n=mk("paragrafo",m[2],line.slice(0,line.length-m[2].length).trim()); last.a&&last.a.children.push(n); last.p=n; last.i=null; last.al=null; last.it=null; continue; }
+    if (m = line.match(reInc)) { const n=mk("inciso",m[2]); (last.p||last.a)&&(last.p||last.a).children.push(n); last.i=n; last.al=null; last.it=null; continue; }
+    if ((m = line.match(reAli)) && last.i) { const n=mk("alinea",m[2],m[1]); last.i.children.push(n); last.al=n; last.it=null; continue; }
+    if ((m = line.match(reIte)) && last.al) { const n=mk("item",m[2]); last.al.children.push(n); last.it=n; continue; }
+    const t = last.it||last.al||last.i||last.p||last.a; if (t) t.texto = (t.texto+" "+line).trim();
   }
   if (!doc.ementa) doc.ementa = mk("ementa","");
   if (fechoBuf.length) doc.fecho = fechoBuf.join("\n");
@@ -820,14 +855,26 @@ export function parseLeiPublicada(raw, nrRanges) {
  */
 export function detectNRCandidates(raw) {
   const lines = raw.split(/\r?\n/).map(l => l.trim());
-  const out = []; let prev = "";
-  const CMD_CUE = /(passa\s+a\s+vigorar|passa\s+a\s+ter\s+a\s+seguinte\s+reda[çc][ãa]o|fica\s+acrescid[oa]|nova\s+reda[çc][ãa]o|seguintes?\s+reda[çc][ãa]o|altera\w*\s+a\s+reda[çc][ãa]o|conforme\s+segue)/i;
+  const out = []; let prev = "", prev2 = "";
+  const CMD_CUE = /(passa\s+a\s+vigorar|passa\s+a\s+ter\s+a\s+seguinte\s+reda[çc][ãa]o|fica\s+acrescid[oa]|nova\s+reda[çc][ãa]o|seguintes?\s+reda[çc][ãa]o|altera\w*\s+a\s+reda[çc][ãa]o|conforme\s*segue)/i;
+  // R41 (P2): introdução do PRÓXIMO artigo da alteradora dentro de um bloco ainda aberto ("Art. (n+1) … conforme segue:"
+  // seguida de abertura de aspas). Se o fecho do bloco sumiu (veto, truncamento, ruído), o bloco não pode engolir esse artigo.
+  const introDoProximoArtigo = (j, n) => {
+    if (!n) return false;
+    const rePro = new RegExp('^Art(?:igo)?\\.?\\s*' + (n + 1) + '(?![0-9])\\s*(?:[º°®]|\\.|[-–—])');
+    if (!rePro.test(lines[j])) return false;
+    let junto = '', k = j, vistas = 0;
+    for (; k < lines.length && vistas < 4; k++) { if (!lines[k]) continue; junto += ' ' + lines[k]; vistas++; if (/^["“”'‘’„‚]/.test(lines[k]) && k > j) break; }
+    const ultima = lines[k] || '';
+    return CMD_CUE.test(junto.replace(/\s+/g, ' ')) && /^["“”'‘’„‚]\s*(?:Art(?:igo)?\.?\s*\d|[§$]|Par[áa]grafo\s+[úu]nico|[IVXLCDM]{1,9}\s*[-–—])/i.test(ultima);
+  };
+  const artigoDaIntro = (i) => { for (let q = i - 1; q >= 0 && q > i - 40; q--) { const mm = /^Art(?:igo)?\.?\s*(\d+)/.exec(lines[q]); if (mm) return +mm[1]; } return 0; };
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
     if (!line) { continue; }
     const isQuoteStart = /^["“”'‘’„‚]/.test(line);
-    const introCue = CMD_CUE.test(prev) || CMD_CUE.test(line.replace(/^["“”']+/,"").slice(0,80));
-    const looksLikeDispositivo = /^["“”']\s*(Art(?:igo)?\.?\s*\d|[§$]|Par[áa]grafo\s+[úu]nico|[IVXLCDM]{1,6}\s*[-–—])/i.test(line);
+    const introCue = CMD_CUE.test(prev) || CMD_CUE.test(line.replace(/^["“”']+/,"").slice(0,80)) || (!!prev2 && (/conforme\s*segue/i.test(prev2 + " " + prev) || /conforme\s*segue/i.test(prev2 + prev)));
+    const looksLikeDispositivo = /^["“”']\s*(Art(?:igo)?\.?\s*\d|[§$]|Par[áa]grafo\s+[úu]nico|[IVXLCDM]{1,9}\s*[-–—])/i.test(line);
     // Bloco SEM aspas de abertura, que começa pelo cabeçalho do artigo-alvo com reticências ("Art. 4º ......"),
     // técnica recente (LC 897/2022, LC 1.011/2024, LC 1.074/2026). Delimita só com TRÊS sinais juntos (decisão do
     // mantenedor, 20/11/2026): (1) 3+ pontos no cabeçalho; (2) logo depois de uma introdução de alteração que
@@ -842,10 +889,13 @@ export function detectNRCandidates(raw) {
       const N = +mCab[1];
       const citaN = new RegExp("\\bart(?:igo|\\.)?\\s*" + N + "\\b", "i").test(intro.replace(/^Art(?:igo)?\.?\s*\d+\S*/i, ""));
       if (n && CMD_CUE.test(intro) && citaN && N !== n + 1) {
-        let fim = -1;
-        for (let j = i + 1; j < Math.min(lines.length, i + 300); j++) { if (/\(NR\)\s*["“”'‘’]*\s*\.?\s*$/.test(lines[j]) || /(?:["“”]|['‘’]{2})\s*\.?\s*$/.test(lines[j])) { fim = j; break; } }
+        let fim = -1, cortou = false;
+        for (let j = i + 1; j < Math.min(lines.length, i + 300); j++) {
+          if (introDoProximoArtigo(j, n)) { fim = j - 1; while (fim > i && !lines[fim]) fim--; cortou = true; break; }
+          if (/\(\s*N\s*R\s*\)\s*["“”'‘’]*\s*\.?\s*$/.test(lines[j]) || /(?:["“”]|['‘’]{2})\s*\.?\s*$/.test(lines[j])) { fim = j; break; }
+        }
         if (fim >= 0) {
-          out.push({ startIdx:i, endIdx:fim, semNR:false, sem_fecho:false, sem_abertura:true, confianca:"media", preview: line.slice(0,64)+(fim>i?"… "+lines[fim].slice(-50):"") });
+          out.push({ startIdx:i, endIdx:fim, semNR:cortou, sem_fecho:cortou, sem_abertura:true, confianca:cortou?"baixa":"media", preview: line.slice(0,64)+(fim>i?"… "+lines[fim].slice(-50):"") });
           i = fim; continue;
         }
       }
@@ -856,24 +906,30 @@ export function detectNRCandidates(raw) {
       const duplo = /["“”„]/.test(abre);
       // fechamento PAREADO com a abertura: abertura dupla só fecha com aspas duplas (ou par de simples,
       // "''"/"’’", que a extração faz de aspas duplas); abertura simples só fecha com simples.
-      const reFechaNR = /\(NR\)\s*["“”'‘’]*\s*\.?\s*$/;
+      const reFechaNR = /\(\s*N\s*R\s*\)\s*["“”'‘’]*\s*\.?\s*$/;
       const reFechaDup = /(?:["“”]|['‘’]{2})\s*\.?\s*$/;
       const reFechaSim = /['‘’]\s*\.?\s*$/;
+      const nIntro = introCue ? artigoDaIntro(i) : 0;
+      let cortou = false;
       for (let j = i; j < Math.min(lines.length, i+300); j++) {
+        if (j > i && nIntro && introDoProximoArtigo(j, nIntro)) { end = j - 1; while (end > i && !lines[end]) end--; semNR = true; sem_fecho = true; cortou = true; break; }
         if (reFechaNR.test(lines[j])) { end=j; semNR=false; break; }
-        if ((duplo ? reFechaDup : reFechaSim).test(lines[j]) && (j > i || lines[j].length > 25)) { end=j; semNR=true; break; }
+        if ((duplo ? reFechaDup : reFechaSim).test(lines[j]) && (j > i || lines[j].length > 25)) {
+          // aspas EQUILIBRADAS na própria linha (“contact centers” no fim da linha de um inciso): o ” fecha a citação da linha, não o bloco
+          if (duplo && j > i && (lines[j].match(/[“„]/g) || []).length >= (lines[j].match(/”/g) || []).length && /”\s*\.?\s*$/.test(lines[j])) continue;
+          end=j; semNR=true; break; }
       }
       // "(NR)" sozinho na linha SEGUINTE ao fecha-aspas (visto em LCs reais de 2017 em diante,
       // ex. LC 804/2017): o bloco acaba nele; senão o "(NR)" sobra e gruda no dispositivo que introduz.
-      if (end >= 0 && semNR) {
+      if (end >= 0 && semNR && !cortou) {
         let k = end + 1;
         while (k < lines.length && k <= end + 3 && !lines[k]) k++;
-        if (k < lines.length && /^\(NR\)\s*["“”']?\s*\.?\s*$/.test(lines[k])) { end = k; semNR = false; }
+        if (k < lines.length && /^\(\s*N\s*R\s*\)\s*["“”']?\s*\.?\s*$/.test(lines[k])) { end = k; semNR = false; }
       }
       if (end < 0 && introCue) {
         let n = 0;
         for (let q = i - 1; q >= 0 && q > i - 40; q--) { const mm = /^Art(?:igo)?\.?\s*(\d+)/.exec(lines[q]); if (mm) { n = +mm[1]; break; } }
-        if (n) for (let j = i + 1; j < Math.min(lines.length, i + 120); j++) { if (new RegExp('^Art(?:igo)?\\.?\\s*' + (n + 1) + '\\s*[º°®o2]?\\s*[-–—.]').test(lines[j])) { end = j - 1; semNR = true; sem_fecho = true; break; } }
+        if (n) for (let j = i + 1; j < Math.min(lines.length, i + 120); j++) { if (new RegExp('^Art(?:igo)?\\.?\\s*' + (n + 1) + '\\s*[º°®o2]?\\s*[-–—.]').test(lines[j]) || new RegExp('^Art(?:igo)?\\.?\\s*' + (n + 1) + '\\s*[º°]\\s+(?=[A-ZÀ-Ú])').test(lines[j])) { end = j - 1; semNR = true; sem_fecho = true; break; } }
       }
       if (end >= 0) {
         const bloco = { startIdx:i, endIdx:end, semNR, sem_fecho, preview: line.replace(/^["“”']/,"").slice(0,64)+(end>i?"… "+lines[end].slice(-50):"") };
@@ -882,7 +938,7 @@ export function detectNRCandidates(raw) {
         i = end; continue;
       }
     }
-    prev = line;
+    prev2 = prev; prev = line;
   }
   return out;
 }
@@ -900,7 +956,7 @@ export function extrairRedacaoAlterada(blockLines) {
   const lns = blockLines.slice();
   lns[0] = lns[0].replace(/^["“”']+\s*/,"");
   let temNR = false; const last2idx = lns.length-1; let lastLine = lns[last2idx];
-  const mNR = lastLine.match(/\(NR\)\s*["“”']?\s*\.?\s*$/);
+  const mNR = lastLine.match(/\(\s*N\s*R\s*\)\s*["“”']?\s*\.?\s*$/);
   if (mNR) { temNR=true; lastLine=lastLine.slice(0,mNR.index).trim(); }
   // Tira só as aspas de fechamento (e o ponto que às vezes vem DEPOIS delas:
   // 'comunidade”. (NR)' — LC 525/2005). O ponto final do próprio dispositivo,
@@ -919,7 +975,7 @@ export function extrairRedacaoAlterada(blockLines) {
   const reArtX = /^Art(?:igo)?\.?\s*(\d+\s*[º°]?(?:-[A-Z])?)\s*(.*)$/i;
   const rePUnX = /^Par[áa]grafo\s+[úu]nico\s*(.*)$/i;
   const rePX   = /^§\s*(\d+\s*[º°]?(?:-[A-Z])?)\s*(.*)$/;
-  const reIncX = /^([IVXLCDM]{1,6}(?:-[A-Z])?)\s*[-–—]\s*(.*)$/;
+  const reIncX = /^([IVXLCDM]{1,9}(?:-[A-Z])?)\s*[-–—]\s*(.*)$/;
   const reAliX = /^([a-z]{1,2}(?:-[a-z]{1,2})?)\)\s*(.*)$/;
   const reIteX = /^(\d{1,2}(?:-[A-Z])?)\.\s+(.*)$/;
   const reOmissao     = /^[.…]{3,}$|^\(\s*\.{3}\s*\)$|^\[\s*\.{3}\s*\]$/;
@@ -1176,7 +1232,12 @@ export function atribuirDesFixoOriginal(doc) {
         if (n.children && n.children.length) {
           const alineas = n.children.filter(c => c.tipo === "alinea");
           n.children.forEach(c => {
-            if (c.tipo === "alinea") c.desFixo = alphaLabel(alineas.indexOf(c)) + ")";
+            if (c.tipo === "alinea") {
+              // depois do "z" a lei de Porto Alegre usa duas práticas ("aa, bb, cc" e "aa, ab, ac"): o motor segue o
+              // rótulo ESCRITO quando são duas letras (decisão 26, 20/11/2026); antes do "z" continua a posição.
+              const idxAl = alineas.indexOf(c);
+              c.desFixo = (idxAl >= 26 && /^[a-z]{2}$/.test(c.rawL || "") ? c.rawL : alphaLabel(idxAl)) + ")";
+            }
             const itens = c.children ? c.children.filter(x => x.tipo === "item") : [];
             (c.children || []).forEach(it => { if (it.tipo === "item") it.desFixo = String(itens.indexOf(it)+1) + "."; });
           });
@@ -1559,7 +1620,7 @@ function walkLeiAlvo(raw, put) {
   // "…renumerando o atual / parágrafo único para § 3º, com o seguinte teor:".
   const rePUn = /^P(?:ar[áa]grafo|AR[ÁA]GRAFO)\s+[úuÚU](?:nico|NICO)\s*[.\-–—:]*\s*(.*)$/;
   const rePar = /^§\s*(\d+\s*[º°]?(?:-[A-Z])?)\s*[.\-–—:]*\s*(.*)$/;
-  const reInc = /^([IVXLCDM]{1,6}(?:-[A-Z])?)\s*[-–—]\s*(.*)$/;
+  const reInc = /^([IVXLCDM]{1,9}(?:-[A-Z])?)\s*[-–—]\s*(.*)$/;
   const reAli = /^([a-z]{1,2}(?:-[a-z]{1,2})?)\)\s*(.*)$/;
   lines.forEach(raw2 => {
     const line = raw2.trim(); if (!line) return;

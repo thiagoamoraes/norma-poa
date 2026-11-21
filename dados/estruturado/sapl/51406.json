@@ -1,0 +1,93 @@
+{
+ "idSapl": 51406,
+ "rotulo": "Lei municipal nº 14.568, de 15 de junho de 2026",
+ "sha256Origem": "7fc06ff6a4bcbc508db6808bbf099bbde6b2fe72605953fd84b97acdf75670c4",
+ "estruturadoEm": "2026-11-21T09:25:20.857Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14568",
+  "ano": "2026",
+  "data": "2026-06-15",
+  "epigrafe": "PLE Nº 061/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.568, DE 15 DE JUNHO DE 2026. Cria e extingue Funções Gratificadas na letra “c” do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 15 de junho de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam criadas, na letra “c” do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, 6 (seis) Funções Gratificadas (FGs) de Responsável por Atividades III – FG3 (1.1.1.3)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam extintas, na letra “c” do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "1 (uma) FG2 de Responsável por Atividades II – FG2 (1.1.1.2);"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "2 (duas) FG5 de Gerente de Atividades V – FG5 (1.1.1.5); e"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "1 (uma) FG6 de Chefe de Unidade – FG6 (1.1.1.6)."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão à conta de dotações orçamentárias próprias do Executivo Municipal."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As alterações decorrentes desta Lei serão regulamentadas por decreto, no que couber."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 8,
+   "cobertura": 0.957,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

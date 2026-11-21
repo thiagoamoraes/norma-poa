@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-20T13:47:05.860Z",
+ "geradoEm": "2026-11-21T09:25:27.364Z",
  "idSapl": 41098,
  "rotulo": "Lei Complementar municipal nº 810, de 04 de janeiro de 2017",
  "baseConferida": false,
@@ -37,6 +37,16 @@
    "fonte": {
     "idSapl": 46756,
     "rotulo": "Lei Complementar municipal nº 980, de 14 de julho de 2023"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 4,
+   "id": "lc 810/2017@2024-05-03",
+   "data": "2024-05-03",
+   "fonte": {
+    "idSapl": 48382,
+    "rotulo": "Lei Complementar municipal nº 1.009, de 03 de maio de 2024"
    },
    "comandosAplicados": 1
   }
@@ -248,7 +258,7 @@
    "estados": [
     {
      "desde": 0,
-     "texto": "a Secretaria Municipal de Parcerias Estratégicas (SMPE); 1",
+     "texto": "a Secretaria Municipal de Parcerias Estratégicas (SMPE);",
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
@@ -625,7 +635,7 @@
    "estados": [
     {
      "desde": 0,
-     "texto": "conceder licenciamento ambiental; 2",
+     "texto": "conceder licenciamento ambiental;",
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
@@ -773,7 +783,7 @@
    "estados": [
     {
      "desde": 1,
-     "texto": "manter a coleta e o tratamento de esgoto; 2",
+     "texto": "manter a coleta e o tratamento de esgoto;",
      "situacao": "vigente",
      "origem": {
       "operacao": "insert_node",
@@ -995,7 +1005,7 @@
    "estados": [
     {
      "desde": 0,
-     "texto": "da SMPE: formular, planejar, coordenar, articular e controlar as políticas voltadas para a captação de recursos externos, articulação e fomento de: 3",
+     "texto": "da SMPE: formular, planejar, coordenar, articular e controlar as políticas voltadas para a captação de recursos externos, articulação e fomento de:",
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
@@ -1414,7 +1424,7 @@
    "estados": [
     {
      "desde": 2,
-     "texto": "planejar, formular, coordenar e executar a política, a promoção e a exploração do turismo; 3",
+     "texto": "planejar, formular, coordenar e executar a política, a promoção e a exploração do turismo;",
      "situacao": "vigente",
      "origem": {
       "operacao": "insert_node",
@@ -1669,7 +1679,7 @@
    "estados": [
     {
      "desde": 2,
-     "texto": "realizar o planejamento, a implantação e a gestão de áreas verdes, parques, praças e verdes complementares; e 4",
+     "texto": "realizar o planejamento, a implantação e a gestão de áreas verdes, parques, praças e verdes complementares; e",
      "situacao": "vigente",
      "origem": {
       "operacao": "insert_node",
@@ -1924,7 +1934,7 @@
    "estados": [
     {
      "desde": 2,
-     "texto": "formular, integrar, coordenar e acompanhar projetos estratégicos, considerando a transversalidade, a relevância e a prioridade dos assuntos tratados; 5",
+     "texto": "formular, integrar, coordenar e acompanhar projetos estratégicos, considerando a transversalidade, a relevância e a prioridade dos assuntos tratados;",
      "situacao": "vigente",
      "origem": {
       "operacao": "insert_node",
@@ -1997,6 +2007,23 @@
      "origem": {
       "operacao": "insert_node",
       "lei": "Lei Complementar nº 897/2021"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-VI/ali-h",
+   "pai": "art-4-A/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "h)",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "planejar, articular e coordenar os processos de trabalho inerentes à implantação e à manutenção da operação transversal da Política de Governança de Dados e Informações Municipais (PGDIM);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 1.009/2024"
      }
     }
    ]
@@ -2196,7 +2223,7 @@
    "estados": [
     {
      "desde": 2,
-     "texto": "apoiar o prefeito no relacionamento institucional; 6",
+     "texto": "apoiar o prefeito no relacionamento institucional;",
      "situacao": "vigente",
      "origem": {
       "operacao": "insert_node",
@@ -2434,7 +2461,7 @@
    "estados": [
     {
      "desde": 2,
-     "texto": "realizar projetos, estudos e iniciativas que colaborem para o desenvolvimento da logística e dos meios de infraestrutura e transporte, propiciando aos usuários os meios de locomoção social mais adequados; 7",
+     "texto": "realizar projetos, estudos e iniciativas que colaborem para o desenvolvimento da logística e dos meios de infraestrutura e transporte, propiciando aos usuários os meios de locomoção social mais adequados;",
      "situacao": "vigente",
      "origem": {
       "operacao": "insert_node",
@@ -2723,7 +2750,7 @@
    "estados": [
     {
      "desde": 0,
-     "texto": "Fica alterado o art. 1º-A da Lei nº 9.056, de 27 de dezembro de 2002, e alterações posteriores, conforme segue: “Art. 1º-A São finalidades básicas da SMSeg a definição, a articulação e a operação de políticas de segurança pública no âmbito do Município de Porto Alegre, com a integração, o monitoramento e a ação em situações de crise ou em eventos que interfiram na execução de serviços públicos municipais como segurança, mobilidade e transporte, saúde, limpeza urbana, defesa civil, fenômenos climáticos e outros, aumentando a capacidade de 4 intervenção municipal e a respectiva qualificação na prestação de serviços, respeitadas as competências de órgãos públicos que atuam no segmento da segurança pública nas esferas estadual e federal e, ainda, o planejamento, a orientação, a coordenação e o controle das atividades permanentes, destinadas a prevenir ou minimizar as consequências nocivas de eventos desastrosos, dando suporte administrativo-financeiro e operacional ao Sistema Municipal de Defesa Civil do Município de Porto Alegre.” (NR)",
+     "texto": "Fica alterado o art. 1º-A da Lei nº 9.056, de 27 de dezembro de 2002, e alterações posteriores, conforme segue: “Art. 1º-A São finalidades básicas da SMSeg a definição, a articulação e a operação de políticas de segurança pública no âmbito do Município de Porto Alegre, com a integração, o monitoramento e a ação em situações de crise ou em eventos que interfiram na execução de serviços públicos municipais como segurança, mobilidade e transporte, saúde, limpeza urbana, defesa civil, fenômenos climáticos e outros, aumentando a capacidade de intervenção municipal e a respectiva qualificação na prestação de serviços, respeitadas as competências de órgãos públicos que atuam no segmento da segurança pública nas esferas estadual e federal e, ainda, o planejamento, a orientação, a coordenação e o controle das atividades permanentes, destinadas a prevenir ou minimizar as consequências nocivas de eventos desastrosos, dando suporte administrativo-financeiro e operacional ao Sistema Municipal de Defesa Civil do Município de Porto Alegre.” (NR)",
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
@@ -2995,7 +3022,7 @@
    "estados": [
     {
      "desde": 0,
-     "texto": "a Secretaria Municipal de Gestão (SMGes); e 5",
+     "texto": "a Secretaria Municipal de Gestão (SMGes); e",
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
@@ -3331,7 +3358,7 @@
    "estados": [
     {
      "desde": 0,
-     "texto": "da SMT; e 6",
+     "texto": "da SMT; e",
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
@@ -3587,7 +3614,7 @@
    "estados": [
     {
      "desde": 0,
-     "texto": "Fica alterado o art. 2º da Lei nº 1.516, de 2 de dezembro de 1955, conforme segue: 7 “Art. 2º Fica criado o cargo de Secretário do Município, na Secretaria Municipal da Fazenda.” (NR)",
+     "texto": "Fica alterado o art. 2º da Lei nº 1.516, de 2 de dezembro de 1955, conforme segue: “Art. 2º Fica criado o cargo de Secretário do Município, na Secretaria Municipal da Fazenda.” (NR)",
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"

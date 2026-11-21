@@ -1,0 +1,66 @@
+{
+ "idSapl": 51749,
+ "rotulo": "Lei municipal nº 14.650, de 14 de setembro de 2026",
+ "sha256Origem": "370a886d222b79cce92991a9b975005730247b4aca926ea6331e2602d82890d5",
+ "estruturadoEm": "2026-11-21T09:25:20.741Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14650",
+  "ano": "2026",
+  "data": "2026-09-14",
+  "epigrafe": "PLE Nº 003/26",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.650, DE 14 DE SETEMBRO DE 2026. Altera o caput do art. 39 da Lei nº 6.151, de 19 de dezembro de 1988, para dispor sobre a gratificação devida aos professores e especialistas em educação que atuam na área da educação especial.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 14 de setembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o caput do art. 39 da Lei nº 6.151, de 19 de dezembro de 1988, conforme segue:",
+   "blocoDeAlteracao": "“Art. 39. O professor ou especialista em educação, devidamente habilitado, que\nexerça atividades na área da educação especial, em atuação direta com alunos em classe especial\nou no desempenho de funções técnicas, pedagógicas, de coordenação, supervisão, assessoramento,\nplanejamento ou gestão, exclusivamente no âmbito da unidade administrativa da Secretaria\nMunicipal de Educação formalmente responsável pela política de educação especial, perceberá\ngratificação calculada sobre o valor básico da classe de professor, conforme segue:\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As despesas decorrentes da aplicação desta Lei correrão à conta de dotações orçamentárias próprias."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica o Executivo Municipal autorizado a abrir créditos suplementares necessários à execução desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.976,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

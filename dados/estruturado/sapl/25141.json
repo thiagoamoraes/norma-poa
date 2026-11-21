@@ -1,0 +1,125 @@
+{
+ "idSapl": 25141,
+ "rotulo": "Lei Complementar municipal nº 211, de 28 de dezembro de 1989",
+ "sha256Origem": "67a43bb1e3d48d53bba2df73e752cccd3f71635a79f5b9969dd05d460d975765",
+ "estruturadoEm": "2026-11-21T09:25:19.851Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": null,
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "Institui             a Taxa de Socorros                       Públicos.                                                              , C)é C; t,)7 1/P.');-' J-VcIJN'>TI TtJ Ó c A-f I   /fCC'ífP~1J ..!5.JÍ· fU)",
+ "preambulo": "O PREFEITO MUNICIPAL  DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou                               e eu san ciono a Seguinte Lei Complementar:",
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituida a Taxa de Socorros   Públicos   no Município de Porto Alegre, que tem como fato   gerador a utilização, efetiva ou potencial, dos serviços de prevenção     e combate a incêndios, transporte, manuseio e armazenamento de car gas perigosas, socorros públicos de emergência e defesa civil, ; apuração de infrações penais deles decorrentes."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A Taxa de Prevenção e Combate a Incêndios incide sobre os imóveis edificados de natureza não residencial situados na zona urbana do Municipio."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "sujeito passivo da Taxa é o proprietário, o titular do dominio útil ou o possuidor dos imoveis meneio nados no arte 22."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "A Taxa é diferenciada em razão da área do imóvel e calculada com base na Unidade de Referência  Municipal (URM), de acordo com os valores abaixo: ÁREA DO IMÓVEL      (em m2 )                                             VALOR        (em URM) até    50                                                          1,5 acima   de     50 e até 100                                                            2,0 acima   de    100 e até 200                                                            3,0 acima   de    200 e até 400                                                            4,0 acima   de    400 e até 1000                                                           5,0 acima   de   1000 e até 2000                                                           7,0 acima   de   2000 e até 5000                                                          10,0 acima   de 5000                                                          20,0 ,"
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "A Taxa, lançada anualmente, sera exigida na forma e prazos previstos em Decreto do Executivo."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Fica o Poder Executivo autorizado a ce-I lebrar  convênio _         com o Estado do Rio Grande do Sul, objetivando a I prestaçao  dos serviços enumerados no arte 12• I I L :\" ,(.\") ,,~ ••.. 1    J \\j ';.,:"
+  },
+  {
+   "id": "art-6/par-unico",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Convênio de que trata o \"caput\" deste artigo será submetido à apreciação da Câmara de Vere~ dores, devendo ser acompanhado de parecer da Comissão Consultiva de Proteção Contra Incêndio."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação, produzindo os seus efeitos a partirde 12 de janeiro de 1990."
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "Revogam-se   as disposições   em contrário. João Acir Verle, Secretário Municipal   da Fazenda. Registre-se   e publique-se. Tarso Gen~../ secretári~-~;/Governo   Municipal, respondendo."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 8,
+   "dispositivos": 9,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art12"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art22"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art32"
+    },
+    {
+     "rotulo": "Art. 5º",
+     "naOrigem": "Art52"
+    },
+    {
+     "rotulo": "Art. 6º",
+     "naOrigem": "Art62"
+    }
+   ]
+  }
+ }
+}

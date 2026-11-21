@@ -1,0 +1,51 @@
+{
+ "idSapl": 51723,
+ "rotulo": "Lei municipal nº 14.637, de 02 de setembro de 2026",
+ "sha256Origem": "bfce419dd7872fcebc49b58f21b2492923cedc0161313413a3b342f2e9d9055e",
+ "estruturadoEm": "2026-11-21T09:25:20.760Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14637",
+  "ano": "2026",
+  "data": "2026-09-02",
+  "epigrafe": "PLL Nº 151/26",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.637, DE 2 DE SETEMBRO DE 2026. Declara de utilidade pública o Instituto Paulo Lima.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de setembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica declarado de utilidade pública o Instituto Paulo Lima, com base na Lei nº 2.926, de 12 de julho de 1966."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.962,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

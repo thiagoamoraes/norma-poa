@@ -1,0 +1,76 @@
+{
+ "idSapl": 51833,
+ "rotulo": "Lei municipal nº 14.677, de 02 de outubro de 2026",
+ "sha256Origem": "07c28c6d381298073bc446b4821a8668d8c78125f4a0147ee4688485edd588ee",
+ "estruturadoEm": "2026-11-21T09:25:20.710Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14677",
+  "ano": "2026",
+  "data": "2026-10-02",
+  "epigrafe": "PLL Nº 291/26",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.677, DE 2 DE OUTUBRO DE 2026. Altera a ementa e o caput do art. 1º e o Anexo da Lei nº 12.783, de 13 de novembro de 2020 – que denomina logradouro no Bairro Ponta Grossa –, para unificar os logradouros que especifica, e revoga a Lei nº 10.054, de 22 de setembro de 2006.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de outubro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.\nANEXO\nSebastião Melo\n14.677\n26.0.000136308-4               02.10.2026",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei nº 12.783, de 13 de novembro de 2020, conforme segue:",
+   "blocoDeAlteracao": "“Denomina Rua Comissário Paulo Pires os logradouros conhecidos como Beco\nCinco – Estrada Retiro da Ponta Grossa, Rua Campesina e Rua Biguá, localizados no Bairro\nPonta Grossa.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o caput do art. 1º da Lei nº 12.783, de 2020, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Ficam denominados Rua Comissário Paulo Pires os logradouros\nconhecidos como Beco Cinco – Estrada Retiro da Ponta Grossa, Rua Campesina e Rua Biguá,\nlocalizados no Bairro Ponta Grossa, com base na Lei Complementar nº 320, de 2 de maio de\n1994, conforme Anexo desta Lei.\n………………………………………………………………………………” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica alterado o Anexo da Lei nº 12.783, de 2020, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Fica revogada a Lei nº 10.054, de 22 de setembro de 2006."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo"
+  ],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.971,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

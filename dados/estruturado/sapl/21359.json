@@ -1,0 +1,96 @@
+{
+ "idSapl": 21359,
+ "rotulo": "Lei Complementar municipal nº 54, de 29 de dezembro de 1980",
+ "sha256Origem": "9c64c2ff970a377a345b09d790d735054ebdc24f05a86178ebefcf8776cf3e7f",
+ "estruturadoEm": "2026-11-21T09:25:20.444Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "CÂMARA MUNICIPAL DE PORTO ALEGRE",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "RIO GRANDE DO SUL                                 PROC.N91160/80 PLCL N90008/80 r; /) r', ., f, \\j t, .;. . ...' ,.1 Altera    a Lei Complementar        n9 43, de 21 de julho de 1979. Faço saber, no uso das atribuições             que me confere              o § 29, do art. 47 da Lei Orgânica,            que a Câmara Municipal           aprovou e eu promulgo         a seguinte    Lei Complementar:",
+ "preambulo": null,
+ "fecho": "Gabinete    da Presidência     da Câmara Municipal       de Porto\nAlegre,    29 de dezembro      de 1980.\n~-_\n~~eom\n:lz·\nGuatimozim,    \\t'\nPresidente.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado       o Anexo    7/2 da Lei Comp1emen tar n9 43, de 21 ~          julho de 1979, pela exclusão,        nos grupame~ tos das atividades         (UTPS) 09, 11 e 13, dos serviços           domiciliares motéis."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Aplica-se       o Art.   19 desta Lei Complementar aos Grupamentos      de Unidades       Territoriais    Residenciais      (UTR) 01, 07, 09 e 39 da UTSI 63; UTR 05, 19, 21, 23, 27, 29, 31 e 33 da UTSI 43 e UTR 11, 15, 17, 25 e 35 da UTSI 45 e demais                   unidades integrantes     da Zona Comunitária       Quatro."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Incluem-se       nesta Lei Complementar        os Grup~ mentos    dos corredores      de comércio     e serviços    integrantes                 da Zona Comunitária     Quatro."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei C9mp1ementar            entra em vigor na da ta de sua publicação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Revogam-se         as disposições     em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.94,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art19"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art29"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art39"
+    },
+    {
+     "rotulo": "Art. 4º",
+     "naOrigem": "Art49"
+    },
+    {
+     "rotulo": "Art. 5º",
+     "naOrigem": "Art59"
+    }
+   ]
+  }
+ }
+}

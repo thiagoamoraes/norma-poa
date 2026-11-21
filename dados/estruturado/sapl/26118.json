@@ -1,0 +1,96 @@
+{
+ "idSapl": 26118,
+ "rotulo": "Lei Complementar municipal nº 254, de 22 de outubro de 1991",
+ "sha256Origem": "208573406442659c466b3da1fd01622b1d45b266157df0f26b0ca5666f6f54ad",
+ "estruturadoEm": "2026-11-21T09:25:19.733Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "P          R o C O5g                            .ss/..tfi.;'",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "?) cL o;IIJ -\"\"' Inclui par~grafos no artigo 30 da Lei Complementar nº 12, de 07 de janeiro de 1975, e dá outras providências.",
+ "preambulo": "o PREFEITO MUNICIPAL                         DE PORTO ALEGRE. F'8ÇO     saber que a Câmara Municipal                              aprovou              e eu san ciono a seguinte          Le1 Complementar:",
+ "fecho": null,
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam incluidos os parágrafos 1º e    2º no artigo 30 da Lei Complementar nº 12, de 07 de janeiro de 1975: li § 1º _.Ficam obrigados os restauré1fltes, bares e casas de chá a destirlarem locais especificos para uso exclusivo de fumantes, devendo, os proprietários, providenr~iarem os refedos locais num prazo de seis meses, a partir da ~igência daLe!. Pena: multa de 2/10 a 5 URMs."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "' - As disposições     do parf.lgrafoanterior se·rào aplicadas somente          aos locais com área de atendimento ao p~blico maior que 100m2•"
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Ç ... Excluem-se elas disposições do parágrafo' 1 º os bare~ e, as casas noturnas que ofereçam 'shows I musicais ou dan ças, apos as 22 horas."
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Em todos os estabelecimentus                  previstos nes te artigo serão colocados                    cartazeE'.com diz.eres subre os prejuizos que o fumo traz à sa~de.\""
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar                                     ertra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se                         disposições Em contrário. PREFr:l'I~RA               MU~L              DE PORTO ALEGHE, ? 2 de ou tu- ;.~,.ÚV'.~. Dutra, ...···...Pr f i to. ~       ..-.- .. ;- .,/.';-/ .             José Luiz Via Ia Morais, Secretário e Comércio. ~t.re~;:::t:~t:~:U?ique-·se. / elio Corbellinl, ..~- ª ~ecretário    do Governo         Municipal. ( l'oNU \\-_. PUBlICACAo DATA -- REPUBlICACAo DATA - =:.E' pAc       PROCESSO A.l41.91.\" ~ ;;:;;: ~ RUBRICA -- _.-             ."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_fecho",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 6,
+   "cobertura": 0.971,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "§ 1º",
+     "naOrigem": "21"
+    },
+    {
+     "rotulo": "§ 2º",
+     "naOrigem": "3"
+    },
+    {
+     "rotulo": "§ 3º",
+     "naOrigem": "4º"
+    }
+   ]
+  }
+ }
+}

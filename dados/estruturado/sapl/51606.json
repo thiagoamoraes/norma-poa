@@ -1,0 +1,52 @@
+{
+ "idSapl": 51606,
+ "rotulo": "Lei municipal nº 14.625, de 06 de agosto de 2026",
+ "sha256Origem": "f51a408091af01c02927be4558d58c2849caa5510e09eace34237fe07a97ed7a",
+ "estruturadoEm": "2026-11-21T09:25:20.777Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14625",
+  "ano": "2026",
+  "data": "2026-08-06",
+  "epigrafe": "LEI Nº 14.625, DE 6 DE AGOSTO DE 2026.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o inc. I do caput e o § 1º do art. 37 da Lei nº 13.956, de 24 de junho de 2024 – que institui o Regulamento de Mídia Externa e Paisagem Urbana de Porto Alegre –, para excepcionar a vedação aos veículos de divulgação e anúncios que tratarem de prevenção do suicídio nos locais que especifica.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 6 de agosto de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam alterados o inc. I do caput e o § 1º do art. 37 da Lei nº 13.956, de 24 de junho de 2024, conforme segue:",
+   "blocoDeAlteracao": "“Art. 37. ....................................................................................................................\nI – nos logradouros públicos, viadutos, túneis, pontes, elevadas, monumentos, pistas de rolamentos de tráfego, muros, fachadas e empenas cegas, excetuando-se as previsões legais e os casos em que o conteúdo dos veículos de divulgação tratar de prevenção do suicídio;\n....................................................................................................................................\n§ 1º VETADO.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.96,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

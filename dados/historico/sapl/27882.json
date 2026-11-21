@@ -1,8 +1,8 @@
 {
- "geradoEm": "2026-11-20T09:25:03.924Z",
+ "geradoEm": "2026-11-21T09:25:22.300Z",
  "idSapl": 27882,
  "rotulo": "Lei Complementar municipal nº 332, de 02 de dezembro de 1994",
- "baseConferida": false,
+ "baseConferida": true,
  "versoes": [
   {
    "indice": 0,
@@ -17,6 +17,16 @@
    "fonte": {
     "idSapl": 32648,
     "rotulo": "Lei Complementar municipal nº 492, de 08 de agosto de 2003"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 2,
+   "id": "lc 332/1994@2017-03-20",
+   "data": "2017-03-20",
+   "fonte": {
+    "idSapl": 41179,
+    "rotulo": "Lei Complementar municipal nº 813, de 20 de março de 2017"
    },
    "comandosAplicados": 1
   }
@@ -116,6 +126,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "Verificado o descumprimento ao disposto nesta Lei Complementar, e antes da cominação prevista no seu art. 4º, será lavrada pelo agente fiscalizador advertência por escrito, na qual constará descrição dos ajustes necessários, sendo concedido prazo de 90 (noventa) dias para a sua adequação. CRMCL CRECI PLC UNE SL LESSONS UNLESS SUL U CU ELSE ESA RUI U UU LCA A SO Rs A RU O UU aa na sa a sans n asas",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 813/2017"
+     }
     }
    ]
   },
@@ -159,7 +178,7 @@
    "estados": [
     {
      "desde": 0,
-     "texto": "Revogam-se asdisposições em contrário. PREFEITURA MUNICIPALDEPORTO ALEGRE, 02 de dezembro de 1994. Raul Pont, Prefeito em exercício. Estilac Xavier, Secretário Municipal de Obras e Viação. Registre-se e publique-se. Sônia Berenice Rösler, Secretário do Governo Municipal, respondendo.",
+     "texto": "Revogam-se asdisposições em contrário.",
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
@@ -179,36 +198,12 @@
    "enderecos": [
     "art-2"
    ]
-  },
-  {
-   "alteradora": {
-    "idSapl": 41179,
-    "rotulo": "Lei Complementar municipal nº 813, de 20 de março de 2017"
-   },
-   "motivo": "comando_nao_reconhecido",
-   "detalhe": "nenhum comando de alteração foi extraído do texto desta norma",
-   "enderecos": [
-    "art-5",
-    "art-4"
-   ]
   }
  ],
  "aConferir": [
   {
    "id": "art-2",
    "desde": "2010-05-18"
-  },
-  {
-   "id": "art-4",
-   "desde": "2017-03-20"
-  },
-  {
-   "id": "art-5",
-   "desde": "2017-03-20"
-  },
-  {
-   "id": "art-5/par-unico",
-   "desde": "2017-03-20"
   }
  ]
 }

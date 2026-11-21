@@ -1,0 +1,64 @@
+{
+ "idSapl": 22979,
+ "rotulo": "Lei Complementar municipal nº 117, de 09 de janeiro de 1985",
+ "sha256Origem": "716945042f76cdc2c0777add8920b8c101a0e0e54f9cdcc5217fdf4cb053b9de",
+ "estruturadoEm": "2026-11-21T09:25:20.254Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "PROC.N9   1893/84",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "PLCL N9      24/84 n05f LEI COMPLEMENTAR    Nº l.~ 7 Altera dispositivos da Lei Complementar nº 43, de 21- 07-79. Faço saber que a Câmara Municipal         aprovou       e eu san ciono a seguinte Lei Complementar: Art. lº - Fica acrescentado parágrafo 2º ao artigo 230 da Lei Complementar nº 43, de 21 de julho de 1979, com a seguinte redação, passando o parágrafo único, com a redação dada p~ la Lei Complementar nº 103, de 16-01-84, do mesmo artigo a § lº.",
+ "preambulo": null,
+ "fecho": "PREFEITURA    MUNICIPAL     DE PORTO ALEGRE,    CJ<i\nLotário Lourenço Skolaude,\nSecretário do Planejamento        Municipal.\n~;~~~~r~~~~~~e-se.\nSecretario/do\n/\nGoverno    Municipal,\nresponde!1do.\n/",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Esta Lei Complementar          entra em vigor        na data de sua publicação."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Revogam-se         as disposições   em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem",
+   "bloco_de_alteracao_sem_dono"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.806,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "voresfrutiferasArt2º"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art3º"
+    }
+   ]
+  }
+ }
+}

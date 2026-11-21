@@ -1,0 +1,93 @@
+{
+ "idSapl": 51808,
+ "rotulo": "Lei municipal nº 14.669, de 29 de setembro de 2026",
+ "sha256Origem": "5dd34788e6773f69ca7f0f12b9f0df8b1d7ab41797801414accd3680a9e156e8",
+ "estruturadoEm": "2026-11-21T09:25:20.717Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14669",
+  "ano": "2026",
+  "data": "2026-09-29",
+  "epigrafe": "PLL Nº 201/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "LEI Nº 14.669, DE 29 DE SETEMBRO DE 2026. Institui a Patrulha de Atendimento à Mulher (Patam) como política pública permanente da Guarda Civil Metropolitana.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 29 de setembro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída a Patrulha de Atendimento à Mulher (Patam) como política pública permanente da Guarda Civil Metropolitana, voltada para a prevenção e o combate à violência contra a mulher."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Executivo Municipal poderá estabelecer parcerias com órgãos do Sistema Único de Segurança Pública e do Sistema de Justiça para fortalecer a execução da Patam."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Executivo Municipal poderá destinar servidores para o atendimento integral às mulheres vítimas de violência, os quais:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "serão preferencialmente do sexo feminino; e"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "receberão capacitação contínua para garantir atendimento especializado."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A destinação de que trata o caput deste artigo tem como objetivo o fortalecimento da política pública municipal instituída por esta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 8,
+   "cobertura": 0.958,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

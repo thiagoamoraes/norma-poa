@@ -1,0 +1,74 @@
+{
+ "idSapl": 22821,
+ "rotulo": "Lei Complementar municipal nº 109, de 22 de outubro de 1984",
+ "sha256Origem": "ac78dfad47cbd54178fe411a162a32b48586f532e14cff5027b031e3140e3cea",
+ "estruturadoEm": "2026-11-21T09:25:20.283Z",
+ "versaoEstruturador": 19,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "0025",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "Fixa o valor de instrumento de controle urbanistico para parte da Unidade Territo rial de Planejamento 19, da Unidade Territorial Seccional Intensiva 33, e dá outras providências.",
+ "preambulo": "o PREFEITO      MUNICIPAL   DE PORTO ALEGRE. Faço saber que a Câmara Municipal       aprovou   e eu san ciono a seguinte Lei Complementar:",
+ "fecho": "PREFEITURA      MUNICIPAL   DE PORTO ALEGRE, 2.2 de outu-\nLotário Lourenço Skolaude,\nSecretário do Planejamento     Municipal.\nue-se.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecida para a Unidade Territo rial de Planejamento 19, da Unidade Territorial Seccional IntensI va 33, na área destinada ã edificaç~o do Forum de Porto    Alegre, compreendida no quarteir~o formado pelas Avenidas Aureliano de Fi gueiredo Pinto, Beira Rio, Ruas Dr. Vicente de Paula Dutra e Ce= leste Gobbato, a altura máxima de 10 (dez) pavimentos."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei Complementar        entra em vigor       na data de sua publicaç~o."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Revogam-se      as disposições   em contrário."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.974,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art19"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art29"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art39"
+    }
+   ]
+  }
+ }
+}
