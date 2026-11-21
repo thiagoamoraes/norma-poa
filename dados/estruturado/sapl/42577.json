@@ -2,8 +2,8 @@
  "idSapl": 42577,
  "rotulo": "Lei Complementar municipal nº 878, de 15 de maio de 2020",
  "sha256Origem": "0aa647797b53fb60a5a656cb44363234a2a8cf0722a2749faa11dd3363cdea49",
- "estruturadoEm": "2026-11-21T18:16:09.567Z",
- "versaoEstruturador": 24,
+ "estruturadoEm": "2026-11-21T18:24:07.095Z",
+ "versaoEstruturador": 27,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "878",
@@ -15,8 +15,8 @@
    "motivoProvavel": "promulgacao_propria"
   }
  },
- "ementa": "Institui a Política Municipal de Controle Populacional de Animais Domésticos (PMCPAD) e dá outras providências. O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obriga os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a seguinte Lei Complementar nº 878, de 12 de março de 2020, como segue: CAPÍTULO I DISPOSIÇÕES PRELIMINARES",
- "preambulo": null,
+ "ementa": "Institui a Política Municipal de Controle Populacional de Animais Domésticos (PMCPAD) e dá outras providências.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obriga os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a seguinte Lei Complementar nº 878, de 12 de março de 2020, como segue:",
  "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 12 DE MARÇO DE 2020.\nVer. Reginaldo Pujol,\nPresidente.\nRegistre-se e publique-se:\nVer. João Carlos Nedel,\n1º Secretário.\nJPCP",
  "dispositivos": [
   {
@@ -24,7 +24,14 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "Fica instituída a Política Municipal de Controle Populacional de Animais Domésticos (PMCPAD)."
+   "texto": "Fica instituída a Política Municipal de Controle Populacional de Animais Domésticos (PMCPAD).",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DISPOSIÇÕES PRELIMINARES"
+    }
+   ]
   },
   {
    "id": "art-2",
@@ -776,7 +783,7 @@
   "metricas": {
    "artigos": 24,
    "dispositivos": 97,
-   "cobertura": 0.968,
+   "cobertura": 0.967,
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],

@@ -2,8 +2,8 @@
  "idSapl": 26402,
  "rotulo": "Lei Complementar municipal nº 267, de 30 de março de 1992",
  "sha256Origem": "b51f7c27feafdaf3e77aca4cd172abda8ca317d49d3dfa366c6fdbf037217397",
- "estruturadoEm": "2026-11-21T18:16:23.528Z",
- "versaoEstruturador": 24,
+ "estruturadoEm": "2026-11-21T18:24:20.994Z",
+ "versaoEstruturador": 27,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "267",
@@ -17,8 +17,8 @@
   },
   "fonte": "catalogo"
  },
- "ementa": "Regulamenta os Conselhos Municipais criados peloartigo 101 da Lei Orgânica do Município de Porto Alegre. O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE. Faço saber, no uso das atribuições que me obrigam os parágrafos 5º e 7º, doart.77, da Lei Orgânica, que a Câmara Municipal manteve e eu promulgo dispositivos daLei Complementar n.º 267, de 16 de janeiro de 1992. Gabinete da Presidência da Câmara Municipal de Porto Alegre, 30 de março de 1992. DILAMAR MACHADO, Presidente. Registre-se e publique-se: Leão de Medeiros. 1º Secretário.",
- "preambulo": null,
+ "ementa": "Regulamenta os Conselhos Municipais criados peloartigo 101 da Lei Orgânica do Município de Porto Alegre.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE. Faço saber, no uso das atribuições que me obrigam os parágrafos 5º e 7º, doart.77, da Lei Orgânica, que a Câmara Municipal manteve e eu promulgo dispositivos daLei Complementar n.º 267, de 16 de janeiro de 1992. Gabinete da Presidência da Câmara Municipal de Porto Alegre, 30 de março de 1992. DILAMAR MACHADO, Presidente. Registre-se e publique-se: Leão de Medeiros. 1º Secretário.",
  "fecho": null,
  "dispositivos": [],
  "verificacao": {
@@ -36,17 +36,17 @@
   "metricas": {
    "artigos": 0,
    "dispositivos": 0,
-   "cobertura": 0,
+   "cobertura": 0.097,
    "blocosDeAlteracao": 2,
    "lacunas": [
     {
-     "tamanho": 921,
-     "amostra": "LEICOMPLEMENTARNº267RegulamentaosConselhosMunicipaiscriadospeloartigo101daLeiOrg",
+     "tamanho": 812,
+     "amostra": "OPRESIDENTEDACÂMARAMUNICIPALDEPORTOALEGREFaçosabernousodasatribuiçõesquemeobriga",
      "noFim": true
     }
    ],
    "naoLocalizados": [
-    "Regulamenta os Conselhos Municipais criados peloartigo 101 da Lei Orgânica do Mu"
+    "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE. Faço saber, no uso das atribui"
    ],
    "rotulosDivergentes": []
   }

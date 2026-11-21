@@ -2,8 +2,8 @@
  "idSapl": 27049,
  "rotulo": "Lei Complementar municipal nº 282, de 22 de junho de 1993",
  "sha256Origem": "8a2e8f1cd9a67b86da2989270c744c189e567d949856a69457230e0438abd7b6",
- "estruturadoEm": "2026-11-21T18:16:23.010Z",
- "versaoEstruturador": 24,
+ "estruturadoEm": "2026-11-21T18:24:20.532Z",
+ "versaoEstruturador": 27,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "282",
@@ -17,8 +17,8 @@
   },
   "fonte": "catalogo"
  },
- "ementa": "Institui consulta plebiscitária sobre assuntos deinteresse do Município. O PRESIDENTE DA CÂMARA MUNICIPALDE PORTO ALEGRE Faço saber, no uso dasatribuições que me obrigam os parágrafos 5º e 7º, do art. 77, da Lei Orgânica,que a Câmara Municipal manteve e eu promulgo dispositivos da Lei Complementar nº282, de 16 de outubro de 1992: GABINETE DA PRESIDÊNCIA DACÂMARA MUNICIPAL DE PORTO ALEGRE, 22 DE JUNHO DE 1993. WILTON ARAÚJO, Presidente. Registre-se e publique-se: AIRTO FERRONATO, 1º Secretário.",
- "preambulo": null,
+ "ementa": "Institui consulta plebiscitária sobre assuntos deinteresse do Município.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPALDE PORTO ALEGRE Faço saber, no uso dasatribuições que me obrigam os parágrafos 5º e 7º, do art. 77, da Lei Orgânica,que a Câmara Municipal manteve e eu promulgo dispositivos da Lei Complementar nº282, de 16 de outubro de 1992: GABINETE DA PRESIDÊNCIA DACÂMARA MUNICIPAL DE PORTO ALEGRE, 22 DE JUNHO DE 1993. WILTON ARAÚJO, Presidente. Registre-se e publique-se: AIRTO FERRONATO, 1º Secretário.",
  "fecho": null,
  "dispositivos": [],
  "verificacao": {
@@ -37,17 +37,17 @@
   "metricas": {
    "artigos": 0,
    "dispositivos": 0,
-   "cobertura": 0,
+   "cobertura": 0.058,
    "blocosDeAlteracao": 1,
    "lacunas": [
     {
-     "tamanho": 1101,
-     "amostra": "LEICOMPLEMENTARNº282InstituiconsultaplebiscitáriasobreassuntosdeinteressedoMunic",
+     "tamanho": 1017,
+     "amostra": "OPRESIDENTEDACÂMARAMUNICIPALDEPORTOALEGREFaçosabernousodasatribuiçõesquemeobriga",
      "noFim": true
     }
    ],
    "naoLocalizados": [
-    "Institui consulta plebiscitária sobre assuntos deinteresse do Município. O PRESI"
+    "O PRESIDENTE DA CÂMARA MUNICIPALDE PORTO ALEGRE Faço saber, no uso dasatribuiçõe"
    ],
    "rotulosDivergentes": []
   }

@@ -2,8 +2,8 @@
  "idSapl": 25305,
  "rotulo": "Lei Complementar municipal nº 203, de 02 de maio de 1990",
  "sha256Origem": "132faa71405b4a9f42cffe6ce95ac7115eb6279fd26e1428bd2e926b450ff859",
- "estruturadoEm": "2026-11-21T18:16:23.822Z",
- "versaoEstruturador": 24,
+ "estruturadoEm": "2026-11-21T18:24:21.249Z",
+ "versaoEstruturador": 27,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "203",
@@ -16,8 +16,8 @@
   },
   "fonte": "catalogo"
  },
- "ementa": "Dispõe sobre a remuneração dos serviços públicos quemenciona e dá outras providências. O PRESIDENTE DA CÂMARAMUNICIPAL DE PORTO ALEGRE. Faço saber, no uso dasatribuições que me obriga o §7º, do art. 77, da Lei Orgânica, que a CâmaraMunicipal manteve e eu promulgo dispositivos da Lei Complementar nº 203, de 28de dezembro de 1989. Gabinete da Presidência daCâmara Municipal de Porto Alegre, 02 de maio de 1990. Registre-se e publique-se. Secretário.",
- "preambulo": null,
+ "ementa": "Dispõe sobre a remuneração dos serviços públicos quemenciona e dá outras providências.",
+ "preambulo": "O PRESIDENTE DA CÂMARAMUNICIPAL DE PORTO ALEGRE. Faço saber, no uso dasatribuições que me obriga o §7º, do art. 77, da Lei Orgânica, que a CâmaraMunicipal manteve e eu promulgo dispositivos da Lei Complementar nº 203, de 28de dezembro de 1989. Gabinete da Presidência daCâmara Municipal de Porto Alegre, 02 de maio de 1990. Registre-se e publique-se. Secretário.",
  "fecho": null,
  "dispositivos": [],
  "verificacao": {
@@ -36,17 +36,17 @@
   "metricas": {
    "artigos": 0,
    "dispositivos": 0,
-   "cobertura": 0,
+   "cobertura": 0.136,
    "blocosDeAlteracao": 1,
    "lacunas": [
     {
-     "tamanho": 544,
-     "amostra": "LEICOMPLEMENTARNº203Dispõesobrearemuneraçãodosserviçospúblicosquemencionaedáoutr",
+     "tamanho": 450,
+     "amostra": "OPRESIDENTEDACÂMARAMUNICIPALDEPORTOALEGREFaçosabernousodasatribuiçõesquemeobriga",
      "noFim": true
     }
    ],
    "naoLocalizados": [
-    "Dispõe sobre a remuneração dos serviços públicos quemenciona e dá outras providê"
+    "O PRESIDENTE DA CÂMARAMUNICIPAL DE PORTO ALEGRE. Faço saber, no uso dasatribuiçõ"
    ],
    "rotulosDivergentes": []
   }

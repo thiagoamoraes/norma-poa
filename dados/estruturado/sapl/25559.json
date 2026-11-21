@@ -2,8 +2,8 @@
  "idSapl": 25559,
  "rotulo": "Lei Complementar municipal nº 234, de 10 de outubro de 1990",
  "sha256Origem": "d91786ad656e3a74f000cde7034fdf7c8ad1573bd2b22d73a91193c14746bc06",
- "estruturadoEm": "2026-11-21T18:16:23.746Z",
- "versaoEstruturador": 24,
+ "estruturadoEm": "2026-11-21T18:24:21.181Z",
+ "versaoEstruturador": 27,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "234",
@@ -17,8 +17,8 @@
   },
   "fonte": "catalogo"
  },
- "ementa": "Institui, em Porto Alegre, o Código Municipal de LimpezaUrbana. O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obriga o § 7º, do art. 77, daOrgânica, que a Câmara Municipal manteve e eu promulgo a seguinte Lei Complementar: CÓDIGO DE LIMPEZA URBANA CAPITULO I DAS DISPOSIÇÕES PRELIMINARES",
- "preambulo": null,
+ "ementa": "Institui, em Porto Alegre, o Código Municipal de LimpezaUrbana.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obriga o § 7º, do art. 77, daOrgânica, que a Câmara Municipal manteve e eu promulgo a seguinte Lei Complementar: CÓDIGO DE LIMPEZA URBANA",
  "fecho": "Gabinete da Presidência da Câmara Municipal de Porto Alegre, 10 de outubro de 1990.\nValdir Fraga,\nPresidente.\nRegistre-se e publique-se.",
  "dispositivos": [
   {
@@ -26,7 +26,14 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "Os serviços de limpeza urbana serão regidos pelasdisposições desta Lei e, salvo exceções, executados pelo Departamento Municipal deLimpeza Urbana – DMLU, por meios próprios ou adjudicando-os a terceiros gratuita ouremuneradamente."
+   "texto": "Os serviços de limpeza urbana serão regidos pelasdisposições desta Lei e, salvo exceções, executados pelo Departamento Municipal deLimpeza Urbana – DMLU, por meios próprios ou adjudicando-os a terceiros gratuita ouremuneradamente.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DAS DISPOSIÇÕES PRELIMINARES"
+    }
+   ]
   },
   {
    "id": "art-2",
@@ -1170,7 +1177,7 @@
   "metricas": {
    "artigos": 66,
    "dispositivos": 144,
-   "cobertura": 0.963,
+   "cobertura": 0.962,
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],

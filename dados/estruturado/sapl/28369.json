@@ -2,8 +2,8 @@
  "idSapl": 28369,
  "rotulo": "Lei Complementar municipal nº 368, de 08 de janeiro de 1996",
  "sha256Origem": "020bc53865850dfb9426bfbe1a4f74ae8f325d2bfd6b2340c32bb4b97a3c9368",
- "estruturadoEm": "2026-11-21T18:16:22.583Z",
- "versaoEstruturador": 24,
+ "estruturadoEm": "2026-11-21T18:24:20.115Z",
+ "versaoEstruturador": 27,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -15,8 +15,8 @@
    "motivoProvavel": "indeterminado"
   }
  },
- "ementa": ".' '!) CAMARAMUNlCIPAL           DE PORTO ALEGRE                         PROC. Nº 1425/95 AV. LOUREIRO      DA SILVA, 266 - FONE .~                         PLCL Nº 011 /95 RIO GRANDE DO SUL \\ ,  [' Acrescenta artigo ao Capitulo I, do Titulo 11, da Lei Complementar nº 12, de 07 de janeiro de 1975 e dá outras providências. Faço saber, no uso das atribuições que me obriga o parágrafo 3º, do art. 77, da Lei Orgânica, que a Câmara Municipal aprovou e eu promulgo a seguinte Lei Complementar: Art. lº. Fica acrescido ao Capitulo I, do Titulo 11, da Lei Complementar nº 12, de 07 de janeiro de 1975, o artigo 19 com a seguinte redação, renumerando-se o atual artigo 19 para 20, e assim os demais, sucessivamente: N gaçao.",
- "preambulo": null,
+ "ementa": ".' '!) CAMARAMUNlCIPAL           DE PORTO ALEGRE                         PROC. Nº 1425/95 AV. LOUREIRO      DA SILVA, 266 - FONE .~                         PLCL Nº 011 /95 RIO GRANDE DO SUL \\ ,  [' Acrescenta artigo ao Capitulo I, do Titulo 11, da Lei Complementar nº 12, de 07 de janeiro de 1975 e dá outras providências.",
+ "preambulo": "Faço saber, no uso das atribuições que me obriga o parágrafo 3º, do art. 77, da Lei Orgânica, que a Câmara Municipal aprovou e eu promulgo a seguinte Lei Complementar: Art. lº. Fica acrescido ao Capitulo I, do Titulo 11, da Lei Complementar nº 12, de 07 de janeiro de 1975, o artigo 19 com a seguinte redação, renumerando-se o atual artigo 19 para 20, e assim os demais, sucessivamente: N gaçao.",
  "fecho": null,
  "dispositivos": [
   {
@@ -41,16 +41,16 @@
   "metricas": {
    "artigos": 1,
    "dispositivos": 1,
-   "cobertura": 0.118,
+   "cobertura": 0.309,
    "blocosDeAlteracao": 1,
    "lacunas": [
     {
-     "tamanho": 862,
-     "amostra": "1lCAMARAMUNlCIPALDEPORTOALEGREPROCNº142595AVLOUREIRODASILVA266FONEPLCLNº01195RIO"
+     "tamanho": 673,
+     "amostra": "Façosabernousodasatribuiçõesquemeobrigaoparágrafo3ºdoart77daLeiOrgânicaqueaCâmar"
     }
    ],
    "naoLocalizados": [
-    ".' '!) CAMARAMUNlCIPAL           DE PORTO ALEGRE                         PROC. N"
+    "Faço saber, no uso das atribuições que me obriga o parágrafo 3º, do art. 77, da "
    ],
    "rotulosDivergentes": [
     {

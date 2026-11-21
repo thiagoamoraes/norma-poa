@@ -629,8 +629,13 @@ export function parseMinuta(raw, nrRanges) {
   // Preâmbulo = nunca ementa. Além de "A CÂMARA MUNICIPAL … DECRETA" e "O PREFEITO MUNICIPAL": "… PROMULGA" (Câmara/Mesa promulgando) e a Mesa
   // que abre em maiúsculas ("A MESA DIRETORA DA CÂMARA MUNICIPAL…, no uso das atribuições…, promulga a seguinte Emenda…"; Emendas à LO, ids 49145, 27350).
   // A forma "A MESA" só vale em MAIÚSCULAS (ementa é frase em caixa mista) e só antes de existir preâmbulo.
-  const rePre = /(C[ÂA]MARA\s+MUNICIPAL.*(?:DECRETA|PROMULGA)|(?:DECRETA|PROMULGA)\s*:?\s*$|O\s+PREFEITO\s+MUNICIPAL)/i;
+  const rePre = /(C[ÂA]MARA\s+MUNICIPAL.*(?:DECRETA|PROMULGA)(?![A-Za-zÀ-ÿ])|(?:DECRETA|PROMULGA)(?![A-Za-zÀ-ÿ])\s*:?\s*$)/i; // "O PREFEITO MUNICIPAL" saiu daqui: com /i e sem âncora, "…determinando que o Prefeito Municipal, nos 60 dias…" (ementa da EC 28) virava preâmbulo — ver rePreCabeca
   const rePreMesa = /^\s*A\s+MESA(?:\s+DIRETORA)?\b(?:\s+DA\s+C[ÂA]MARA|\s+(?:DECRETA|PROMULGA)|,)/;
+  // Cabeça de preâmbulo em MAIÚSCULAS no INÍCIO da linha, com os espaços que a extração/OCR come ("O PREFEITOMUNICIPAL", "O PREFEITO DE PORTO ALEGRE.",
+  // "O PRESIDENTE DA CÂMARA MUNICIPAL…" — Resolução, Lei promulgada pela Câmara) e a própria frase "Faço saber…" (que ancora o preâmbulo mesmo quando a cabeça
+  // se perdeu). Antes, 213 normas levavam "Faço saber que a Câmara Municipal aprovou e eu sanciono/promulgo a seguinte…" para o fim da ementa.
+  const rePreCabeca = /(?:^|[.;:]\s+)\s*[oO]\s*PRE[Ff]EITO\s*(?:MUNICIPAL|DE\s+PORTO)|^\s*[oO]\s+PRESIDENTE\s+DA\s+C[ÂA]MARA\s*MUNICIPAL/; // sem /i de propósito: a cabeça é maiúscula (o "o" inicial do OCR pode ser minúsculo); frase de ementa em caixa mista não casa
+  const rePreFacoSaber = /^[\s:;.,\-–—]{0,4}Fa[cç]o\s*saber\b/i;
   const reEmentaVerbo = /^(institui|disp[õo]e\s+sobre|altera|estabelece|autoriza|cria|fixa|regulamenta|revoga|extingue|denomina|concede|declara|reconhece|d[áa]|acrescenta|inclui|suspende|pro[íi]be|veda|permite|assegura|garante|institucionaliza|reorganiza|transforma|desafeta|regula|torna|obriga|determina)\b/i;
   const reEM  = /^(EXPOSI[ÇC][ÃA]O\s+DE\s+MOTIVOS|JUSTIFICATIVA|JUSTIFICA[ÇC][ÃA]O)\s*:?$/i;
   const reEpig = /^(MINUTA\s+DE\s+)?PROJETO\s+DE\s+(LEI|RESOLU[ÇC][ÃA]O)(\s+COMPLEMENTAR)?\b\s*:?\s*(.*)$/i;
@@ -727,7 +732,7 @@ export function parseMinuta(raw, nrRanges) {
       // 2ª linha caía na ementa, que passava a terminar com "Faço saber…".
       // Depois que o preâmbulo começou, o que vier antes do 1º artigo é preâmbulo.
       if (doc.preambulo) { doc.preambulo = doc.preambulo + " " + line; continue; }
-      if (rePre.test(line) || rePreMesa.test(line)) { doc.preambulo = line; continue; }
+      if (rePre.test(line) || rePreMesa.test(line) || rePreCabeca.test(line) || rePreFacoSaber.test(line)) { doc.preambulo = line; continue; }
       if (!doc.epigrafe && /PROJETO|REDA[ÇC][ÃA]O\s+FINAL|\bPLL\b|\bPLCL\b|\bPLE\b|\bPLCE\b|\bPELO\b|\bPR\b/i.test(line)) {
         doc.epigrafe = line;
         const sg = line.match(/\b(PLCL|PLCE|PLL|PLE|PELO|PR)\b/i); if (sg) doc.sigla = sg[1].toUpperCase();

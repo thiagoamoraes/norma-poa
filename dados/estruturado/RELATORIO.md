@@ -1,6 +1,6 @@
 # Estruturação — relatório
 
-Gerado em 2026-11-21T18:16:26.403Z por `ingestao/estruturar.mjs` (versão do estruturador: 24). Não editar à mão.
+Gerado em 2026-11-21T18:24:23.697Z por `ingestao/estruturar.mjs` (versão do estruturador: 27). Não editar à mão.
 
 Uma norma só é **aceita** quando passa em todas as conferências: cabeçalho igual ao do catálogo (número, data, tipo), artigos numerados sem salto, rótulos iguais aos do texto de origem, nenhum texto fora da árvore, fecho presente. O resto vai para **revisar**, com o motivo.
 

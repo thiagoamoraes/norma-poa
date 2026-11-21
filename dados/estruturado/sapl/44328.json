@@ -2,8 +2,8 @@
  "idSapl": 44328,
  "rotulo": "Lei Orgânica-Intendência nº 1, de 14 de outubro de 1892",
  "sha256Origem": "3580002f2c00b9d634e124d921be0636ef74163ee3248dd77b13895381ead2d5",
- "estruturadoEm": "2026-11-21T18:16:06.227Z",
- "versaoEstruturador": 24,
+ "estruturadoEm": "2026-11-21T18:24:04.346Z",
+ "versaoEstruturador": 27,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -15,8 +15,8 @@
    "motivoProvavel": "indeterminado"
   }
  },
- "ementa": "Acto n, 1 Alfredo Augusto de Azevedo, intendente municipal de Porto Alegre: Faço saber, em cumprimento do disposto no art. 64 da Constituição do Estado, que o Conselho Municipal da capital decretou no dia lodo corrente e eu promulgo a seguinte LEI OBGAN'ICA DO Município de Porto Alegre TITULO I DO MUNICIPIO",
- "preambulo": null,
+ "ementa": "Acto n, 1 Alfredo Augusto de Azevedo, intendente municipal de Porto Alegre:",
+ "preambulo": "Faço saber, em cumprimento do disposto no art. 64 da Constituição do Estado, que o Conselho Municipal da capital decretou no dia lodo corrente e eu promulgo a seguinte LEI OBGAN'ICA DO Município de Porto Alegre",
  "fecho": null,
  "dispositivos": [
   {
@@ -24,7 +24,14 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "O município de Porto Alegre, parte integrante do Estado do Rio Grande da Sul, organisa na presente le o seu regimen de governo autonomo, de accordo com as bases estatuidas na Constituição do Estado."
+   "texto": "O município de Porto Alegre, parte integrante do Estado do Rio Grande da Sul, organisa na presente le o seu regimen de governo autonomo, de accordo com as bases estatuidas na Constituição do Estado.",
+   "agrupadores": [
+    {
+     "tipo": "titulo",
+     "numero": "I",
+     "titulo": "DO MUNICIPIO"
+    }
+   ]
   },
   {
    "id": "art-2",
@@ -711,7 +718,7 @@
   "metricas": {
    "artigos": 47,
    "dispositivos": 91,
-   "cobertura": 0.966,
+   "cobertura": 0.965,
    "blocosDeAlteracao": 0,
    "tabelaNoCorpo": {
     "linhas": 3,

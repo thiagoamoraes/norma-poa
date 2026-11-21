@@ -2,8 +2,8 @@
  "idSapl": 17878,
  "rotulo": "Lei Complementar municipal nº 12, de 07 de janeiro de 1975",
  "sha256Origem": "b93617ff107573baa8dd50279b5699035180b116cea01999f033c02e27510734",
- "estruturadoEm": "2026-11-21T18:16:25.690Z",
- "versaoEstruturador": 24,
+ "estruturadoEm": "2026-11-21T18:24:23.055Z",
+ "versaoEstruturador": 27,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "12",
@@ -16,8 +16,8 @@
   },
   "fonte": "catalogo"
  },
- "ementa": "LEI COMPLEMENTAR Nº 12 (ALTERAÇÕESINSERIDAS NO TEXTO ATÉ A LC 702/12) Institui posturas para o Município de Porto Alegre e dá outras providên­cias. O PREFEITOMUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono aseguinte Lei Complementar: TÍTULO I CAPÍTULO I DAS DISPOSIÇÕESPRELIMINARES",
- "preambulo": null,
+ "ementa": "LEI COMPLEMENTAR Nº 12 (ALTERAÇÕESINSERIDAS NO TEXTO ATÉ A LC 702/12) Institui posturas para o Município de Porto Alegre e dá outras providên­cias.",
+ "preambulo": "O PREFEITOMUNICIPAL DE PORTO ALEGRE. Faço saber que a Câmara Municipal aprovou e eu sanciono aseguinte Lei Complementar:",
  "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 07 de janeiro de 1975.\nTelmo Thompson Flores,\nPrefeito.\nAntenorWink Brum\nSecretárioMunicipal da Fazenda.\nPlínio Oliveira Almeida,\nSecretário Municipal de Obras e Viação.\nHélio Costa Meira,\nSecretário Municipal dos Transportes.\nOsmar Francisco Liz Alfonso,\nSecretário Municipal da Produção e\nAbastecimento.\nRegistre-se epublique-se.\nRoberto GeraldoCoelho Silva,\nSecretárioGoverno Municipal.",
  "dispositivos": [
   {
@@ -25,7 +25,19 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "Esta Lei contém medidas de polícia administrativa acargo do Município, estatuindo as necessárias relações entre este e a população."
+   "texto": "Esta Lei contém medidas de polícia administrativa acargo do Município, estatuindo as necessárias relações entre este e a população.",
+   "agrupadores": [
+    {
+     "tipo": "titulo",
+     "numero": "I",
+     "titulo": ""
+    },
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DAS DISPOSIÇÕESPRELIMINARES"
+    }
+   ]
   },
   {
    "id": "art-2",
@@ -2316,7 +2328,7 @@
   "metricas": {
    "artigos": 97,
    "dispositivos": 308,
-   "cobertura": 0.965,
+   "cobertura": 0.964,
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],

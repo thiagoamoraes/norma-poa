@@ -2,8 +2,8 @@
  "idSapl": 25132,
  "rotulo": "Lei Complementar municipal nº 202, de 28 de dezembro de 1989",
  "sha256Origem": "e352ca94bcfad2ad03a6b68a923b790d537e5c5ff3f53a77cf6be15899d02bf3",
- "estruturadoEm": "2026-11-21T18:16:24.031Z",
- "versaoEstruturador": 24,
+ "estruturadoEm": "2026-11-21T18:24:21.409Z",
+ "versaoEstruturador": 27,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "202",
@@ -17,8 +17,8 @@
   },
   "fonte": "catalogo"
  },
- "ementa": "Av. Loureiro da Silva, 255 - Fone * 28-6055                                                                 pROC. Nº 2689,'89 RIO GRANDE DO SUL PLCE        Nº           05/89 Institui a Unidade de Referência Municipal (URM) em substituição à Unid! de de Referência Padrão (URP) e dá outras providências. '-\"   i-         i-,r\"'\" /~ /:.;   ::/:. \":,,./ ,-,           >.   ~': /   .• JI}.              _/'      /    \",,-'v                   ). rCt/í,':»                       ..},\"       .f.j   ;li O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE. Faço saber, no uso das atribuições que me obriga o §7Q, do art. 77,                                                                da Lei Orgânica, que a Câmara Municipal manteve e eu promulgo dispositivos                                                                  da Lei Complementar nº 202, de 28 de dezembro de 1989. Gabinete da Presidência da Câmara Municipal de Porto Alegre, 02 de maio de 1990. sec~ tário. Pn-ec _2~ ~9/~~ ('LeG. O~tg9~ Insti tui a Unidade de Referência Municipal (URM) em substituição à Uni dade de Referência Padrão (URP)     e dá outras providências.",
- "preambulo": "o PREFEITO   MUNICIPAL   DE PORTO ALEGRE. Faço saber que a Câmara            Municipal   aprovou   e     eu sanciono   a seguinte Lei Complementar:",
+ "ementa": "Av. Loureiro da Silva, 255 - Fone * 28-6055                                                                 pROC. Nº 2689,'89 RIO GRANDE DO SUL PLCE        Nº           05/89 Institui a Unidade de Referência Municipal (URM) em substituição à Unid! de de Referência Padrão (URP) e dá outras providências. '-\"   i-         i-,r\"'\" /~ /:.;   ::/:. \":,,./ ,-,           >.   ~': /   .• JI}.              _/'      /    \",,-'v                   ). rCt/í,':»                       ..},\"       .f.j   ;li",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE. Faço saber, no uso das atribuições que me obriga o §7Q, do art. 77,                                                                da Lei Orgânica, que a Câmara Municipal manteve e eu promulgo dispositivos                                                                  da Lei Complementar nº 202, de 28 de dezembro de 1989. Gabinete da Presidência da Câmara Municipal de Porto Alegre, 02 de maio de 1990. sec~ tário. Pn-ec _2~ ~9/~~ ('LeG. O~tg9~ Insti tui a Unidade de Referência Municipal (URM) em substituição à Uni dade de Referência Padrão (URP)     e dá outras providências. o PREFEITO   MUNICIPAL   DE PORTO ALEGRE. Faço saber que a Câmara            Municipal   aprovou   e     eu sanciono   a seguinte Lei Complementar:",
  "fecho": "PREFEITURA     MUNICIPAL    DE PORTO ALEGRE,    ~i de dezem\nJoão Acir Verle,\nSecretário Municipal       da Fazenda.\nRegistre-se     e publique-se.\nTarso Genro,~\nSecretário do G verno Municipal,\nrespondendo.",
  "dispositivos": [
   {
@@ -150,21 +150,21 @@
   "metricas": {
    "artigos": 6,
    "dispositivos": 16,
-   "cobertura": 0.71,
+   "cobertura": 0.74,
    "blocosDeAlteracao": 1,
    "lacunas": [
     {
-     "tamanho": 713,
-     "amostra": "CAMARAMUNICIPALDEPOtnOALEGREAvLoureirodaSilva255Fone286055pROCNº268989RIOGRANDED"
+     "tamanho": 608,
+     "amostra": "OPRESIDENTEDACÂMARAMUNICIPALDEPORTOALEGREFaçosabernousodasatribuiçõesquemeobriga"
     }
    ],
    "naoLocalizados": [
-    "Av. Loureiro da Silva, 255 - Fone * 28-6055                                     "
+    "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE. Faço saber, no uso das atribui"
    ],
    "rotulosDivergentes": [
     {
      "rotulo": "Art. 1º",
-     "naOrigem": "Art12"
+     "naOrigem": "LeiComplementarArt12"
     },
     {
      "rotulo": "Art. 2º",
