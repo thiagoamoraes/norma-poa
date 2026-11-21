@@ -830,10 +830,40 @@ export function parseLeiPublicada(raw, nrRanges) {
       if (mesNum) doc.dataPublicacao = `${md[3]}-${String(mesNum).padStart(2,"0")}-${md[1].padStart(2,"0")}`;
     }
   }
+  // Carimbo, timbre e epígrafe não são ementa (decisão 52): saem do começo da ementa para `doc.cabecalhoTexto`
+  if (doc.ementa && doc.ementa.texto) {
+    const sep = separarCabecalhoDaEmenta(doc.ementa.texto);
+    if (sep.cabecalho) { doc.cabecalhoTexto = sep.cabecalho; doc.ementa = { ...doc.ementa, texto: sep.ementa }; }
+  }
   doc.proveniencia = extrairProvenienciaPromulgacao(raw);
   doc.promulgacaoParcial = detectarPromulgacaoParcial(raw);
   marcarEstadosEspeciais(doc);
   return doc;
+}
+
+/**
+ * separarCabecalhoDaEmenta(texto) → { cabecalho, ementa }   (decisão 52)
+ * O carimbo de processo ("PROC. Nº 0541/24", "PELO Nº 004/24", "PLCE Nº 025/23"), o timbre ("CÂMARA MUNICIPAL DE PORTO ALEGRE", "AV. …", "RIO GRANDE
+ * DO SUL") e a EPÍGRAFE ("EMENDA À LEI ORGÂNICA Nº 51, DE 28 DE AGOSTO DE 2024.") não fazem parte da ementa. O leitor os acumula no começo da ementa; aqui
+ * se corta, na 1ª epígrafe em MAIÚSCULAS dos 300 primeiros caracteres, tudo até o fim dela — mas só quando o que vem ANTES dela é só carimbo/timbre
+ * (senão não corta: o motor nunca perde nem inventa texto). Sem epígrafe reconhecível, a ementa fica como está.
+ */
+export function separarCabecalhoDaEmenta(texto) {
+  const t = String(texto || "");
+  const reEpi = /(?:EMENDA\s+À\s+LEI\s+ORG[ÂA]NICA|LEI\s+ORG[ÂA]NICA|LEI\s+COMPLEMENTAR|DECRETO\s+LEGISLATIVO|RESOLU[ÇC][ÃA]O(?:\s+DE\s+MESA)?|ORDEM\s+DE\s+SERVI[ÇC]O|LEI)\s+(?:N[º°o.]*\s*)?\d[\d.]*\s*(?:\([^)]{0,120}\)\s*)?(?:[,\-–]?\s*DE\s+[^.]{0,40}?\d{4}\s*\.?)?/; // a data aceita OCR ("DEFEVEREIRO"): de "DE" até o ano
+  const m = reEpi.exec(t.slice(0, 700));
+  if (!m || m.index > 300) return { cabecalho: "", ementa: t };
+  const antes = t.slice(0, m.index);
+  // só carimbo, timbre e resíduo de página do SIREL ("(2807 bytes)" do brasão, "Prefeitura Municipal de Porto Alegre", "Divulgação: … Publicação: …")
+  const resto = antes
+    .replace(/PROC\.?\s*N[º°o.]?\s*[\d/.\s]+/gi, " ").replace(/\b(?:PLCL|PLCE|PLL|PLE|PELO|PR)\s*N[º°o.]?\s*[\d/.\s]+/g, " ")
+    .replace(/Divulga[çc][ãa]o:[^]*?Publica[çc][ãa]o:[^]*?\d{4}/i, " ")
+    .replace(/\b(?:ALEGRE|PORTO|PREFEITURA|MUNICIPAL|C[ÂA]MARA|BYTES?|RIO|GRANDE|SUL|AV|LOUREIRO|SILVA|FONE|DE|DA|DO|DOS|E)\b/gi, " ");
+  if ((resto.match(/[A-Za-zÀ-ú]/g) || []).length > 4) return { cabecalho: "", ementa: t };
+  const fim = m.index + m[0].length;
+  const ementa = t.slice(fim).trim();
+  if (!ementa) return { cabecalho: "", ementa: t }; // a epígrafe era a última coisa: nada de ementa a separar
+  return { cabecalho: t.slice(0, fim).trim(), ementa };
 }
 
 // ─── DETECTOR DE BLOCOS NR ────────────────────────────────────────────────────

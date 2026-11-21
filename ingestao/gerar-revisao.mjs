@@ -69,7 +69,7 @@ for (const f of (await readdir(DIR_EST)).filter((f) => /^\d+\.json$/.test(f))) {
     if (b) o.bloco = { situacao: b.situacao, ini: b.ini, fim: b.fim };
     return o;
   });
-  const especiais = a.itens.filter((i) => ['ementa', 'preambulo', 'fecho'].includes(i.ref)).map((i) => ({ ref: i.ref, situacao: i.situacao, ini: i.ini, fim: i.fim }));
+  const especiais = a.itens.filter((i) => ['cabecalho', 'ementa', 'preambulo', 'fecho'].includes(i.ref)).map((i) => ({ ref: i.ref, situacao: i.situacao, ini: i.ini, fim: i.fim }));
   const urlFonte = cat.texto?.url || null;
   const norma = {
     idSapl: reg.idSapl, rotulo: reg.rotulo, tipo: NOMES[cat.tipoSapl] || String(cat.tipoSapl), numero: cat.numero, data: cat.data,

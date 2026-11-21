@@ -36,6 +36,7 @@ export function ancorarConferencia(textoPreparado, reg) {
   const refs = [];
   const trechos = [];
   const poe = (item, ref) => { trechos.push(item); refs.push(ref); };
+  if (reg.cabecalhoTexto) poe(reg.cabecalhoTexto, { ref: 'cabecalho' }); // carimbo + epígrafe, fora da ementa (decisão 52); mesma ordem das conferências do estruturador
   poe(reg.ementa || '', { ref: 'ementa' });
   poe(reg.preambulo || '', { ref: 'preambulo' });
   for (const d of (reg.dispositivos || []).filter((x) => x.tipo !== 'anexo')) {

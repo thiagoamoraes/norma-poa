@@ -55,7 +55,7 @@ export function introsDeAlteracaoSemBloco(artigos) {
 }
 
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
-export const VERSAO_ESTRUTURADOR = 27;
+export const VERSAO_ESTRUTURADOR = 30;
 
 export const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');
@@ -276,7 +276,7 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
   const vistos = new Map();
   let semRotulo = 0;
   let numeradoSemIrmao = false; // "§ 1º" escrito sozinho na lei: o endereço segue o rótulo escrito (aviso, não reprova)
-  const trechos = [doc.ementa?.texto || '', doc.preambulo || ''];
+  const trechos = [doc.cabecalhoTexto || '', doc.ementa?.texto || '', doc.preambulo || '']; // carimbo/timbre/epígrafe (decisão 52) vêm antes da ementa; entram na conferência de conservação
   const andar = (nos, pai) => {
     for (const n of nos || []) {
       const slug = slugDoRotulo(n.tipo, n.desFixo);
@@ -414,6 +414,7 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
     cabecalho: cabecalhoDoCatalogo
       ? { tipoAto: TIPO_ATO_ESPERADO[registro.tipoSapl], numero: registro.numero, ano: String(registro.ano), data: registro.data, epigrafe: doc.epigrafe || null, proveniencia: doc.proveniencia || null, fonte: 'catalogo' }
       : { tipoAto: doc.tipoAto || null, numero: doc.numero || null, ano: doc.ano || null, data: doc.dataPublicacao || null, epigrafe: doc.epigrafe || null, proveniencia: doc.proveniencia || null },
+    ...(doc.cabecalhoTexto ? { cabecalhoTexto: doc.cabecalhoTexto } : {}), // carimbo de processo + epígrafe, fora da ementa (decisão 52)
     ementa: doc.ementa?.texto || null,
     preambulo: doc.preambulo || null,
     fecho: fechoReal || null,
