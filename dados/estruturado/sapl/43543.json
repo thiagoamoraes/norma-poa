@@ -2,8 +2,8 @@
  "idSapl": 43543,
  "rotulo": "Lei Complementar municipal nº 925, de 20 de dezembro de 2021",
  "sha256Origem": "9d0131c3927d79395aa4d2fd5c5af25f75f30aff6f3abf3259c445e184c7a0e5",
- "estruturadoEm": "2026-11-20T22:44:09.290Z",
- "versaoEstruturador": 14,
+ "estruturadoEm": "2026-11-21T00:01:04.195Z",
+ "versaoEstruturador": 16,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "925",
@@ -50,8 +50,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "rotulo_nao_confere_com_a_origem"
+  ],
   "avisos": [],
   "metricas": {
    "artigos": 3,
@@ -60,7 +62,12 @@
    "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": []
+   "rotulosDivergentes": [
+    {
+     "rotulo": "I –",
+     "naOrigem": "XXXI"
+    }
+   ]
   }
  }
 }

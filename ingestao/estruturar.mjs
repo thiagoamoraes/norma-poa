@@ -13,10 +13,12 @@
 
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { estruturarNorma, epocaDaNorma, VERSAO_ESTRUTURADOR } from './estrutura.mjs';
 import { lerJsonl, agora } from './sapl-io.mjs';
 import { prepararTextoExtraido } from './extracao-texto.mjs';
+import { alnum } from './estrutura.mjs';
 import { lerDecisoesJsonl, resumoHumano, situacaoHumana, listaParaOMotor, CATEGORIAS_HUMANAS } from './revisao.mjs';
 
 const DIR_TEXTO = './dados/textos/sapl';
@@ -39,6 +41,7 @@ const todas = []; // para a revisão humana (F4)
 const porEpoca = { recente: { aceita: 0, revisar: 0, motivos: {} }, antiga: { aceita: 0, revisar: 0, motivos: {} }, indefinida: { aceita: 0, revisar: 0, motivos: {} } };
 let refeitos = 0;
 let comErro = 0;
+const porConteudo = new Map(); // hash do texto lido (só letras e algarismos) → ids: a fonte às vezes liga o MESMO texto a mais de um registro
 
 for (const [id, ind] of baixados) {
   const arqTexto = path.join(DIR_TEXTO, `${id}.txt`);
@@ -62,6 +65,11 @@ for (const [id, ind] of baixados) {
     await writeFile(arqSaida, JSON.stringify(reg, null, 1) + '\n');
     refeitos++;
   }
+  {
+    const h = createHash('sha256').update(alnum(prepararTextoExtraido(await readFile(arqTexto, 'utf8'))).toLowerCase()).digest('hex');
+    if (!porConteudo.has(h)) porConteudo.set(h, []);
+    porConteudo.get(h).push(id);
+  }
   const v = reg.verificacao;
   situacao[id] = v.situacao;
   contagem[v.situacao]++;
@@ -75,6 +83,11 @@ for (const [id, ind] of baixados) {
 }
 
 await writeFile('./dados/estruturado/_situacao.json', JSON.stringify(situacao) + '\n');
+// Textos idênticos em registros diferentes (decisão 27, 20/11/2026): o catálogo da fonte não é corrigido; o
+// dashboard mostra o aviso. Cada id aponta para os outros que têm o mesmo texto.
+const textosIguais = {};
+for (const ids of porConteudo.values()) if (ids.length > 1) for (const id of ids) textosIguais[id] = ids.filter((x) => x !== id);
+await writeFile('./dados/estruturado/_textos_iguais.json', JSON.stringify(textosIguais) + '\n');
 
 // ── revisão humana (F4): as decisões em dados/revisao/decisoes.jsonl são uma camada à parte;
 // nunca alteram a leitura acima, só o que o relatório conta como "pendente".
@@ -103,6 +116,8 @@ const L = ['# Estruturação — relatório', '', `Gerado em ${agora()} por \`in
   '### Motivos de revisão nas recentes', '', '| Motivo | Normas |', '|---|---|',
   ...Object.entries(porEpoca.recente.motivos).sort((a, b) => b[1] - a[1]).map(([k, v]) => `| \`${k}\` | ${v} |`), '',
   '## Motivos de revisão (todas as épocas)', '', '(uma norma pode ter mais de um)', '', '| Motivo | Normas | % do total |', '|---|---|---|', ...tabela(motivos), '',
+  '## Textos idênticos em registros diferentes', '', Object.keys(textosIguais).length ? 'A fonte liga o mesmo texto a mais de um registro; o catálogo não é corrigido e o dashboard avisa.' : 'Nenhum.', '',
+  ...Object.entries(textosIguais).map(([id, outros]) => `- \`${id}\` = ${outros.map((o) => `\`${o}\``).join(', ')}`), '',
   '## Avisos (não reprovam)', '', '| Aviso | Normas | % do total |', '|---|---|---|', ...tabela(avisos), '',
   '## Fila de revisão — recentes (prioridade; só pendentes e desatualizadas)', '', ...fila.filter((f) => f.epoca !== 'antiga' && pendentesDaFila.has(f.id)).map((f) => `- ${f.rotulo} (\`${f.id}\`): ${f.motivos.join(', ')}`), '',
   '## Fila de revisão — antigas (antes da LC 611; revisão humana esperada)', '', fila.filter((f) => f.epoca === 'antiga' && pendentesDaFila.has(f.id)).length > 300 ? `Mostrando 300 de ${fila.filter((f) => f.epoca === 'antiga' && pendentesDaFila.has(f.id)).length}.` : '', '',

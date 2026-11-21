@@ -2,8 +2,8 @@
  "idSapl": 28014,
  "rotulo": "Lei Complementar municipal nº 342, de 09 de março de 1995",
  "sha256Origem": "88ad29021a5539fa0b771bb074a068b42d08009ca500937cb374d08445057462",
- "estruturadoEm": "2026-11-20T22:44:13.716Z",
- "versaoEstruturador": 14,
+ "estruturadoEm": "2026-11-21T00:01:11.339Z",
+ "versaoEstruturador": 16,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -45,7 +45,8 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "cabecalho_nao_reconhecido"
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
   "metricas": {
@@ -55,7 +56,12 @@
    "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": []
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art22"
+    }
+   ]
   }
  }
 }

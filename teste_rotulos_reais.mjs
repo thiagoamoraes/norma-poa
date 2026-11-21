@@ -30,5 +30,8 @@ const i11 = t.search(/^\s*Art\.\s*11[.º°]?\s/m), i12 = t.search(/^\s*Art\.\s*1
 const bruto = t.slice(0, i11) + t.slice(i12);
 const vNeg = estruturarNorma(bruto, regsC.find((r) => r.tipoSapl === 6 && r.numero === '1005')).verificacao;
 ok('(sintético) negativo: sem o artigo 11 no texto (deslocamento real), o rótulo que não confere continua acusado', i11 > 0 && i12 > i11 && vNeg.motivos.includes('rotulo_nao_confere_com_a_origem'));
+// (decisão 25) fronteira do rótulo: o sufixo do texto não basta ("I" onde está escrito "XXXI")
+const v43543 = roda('./fixtures/textos/rotulo_43543.txt', regsA.find((r) => r.idSapl === 43543));
+ok('LC 925/2021 (real): o inciso "XXXI" lido como "I" deixa de ser aceito por terminar igual (falso aceite)', !sem(v43543) && v43543.situacao === 'revisar' && v43543.metricas.rotulosDivergentes.some((d) => d.rotulo === 'I –' && /XXXI$/.test(d.naOrigem)));
 console.log(`\n${passou} ok, ${falhou} falha(s)`);
 process.exit(falhou ? 1 : 0);

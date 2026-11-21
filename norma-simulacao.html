@@ -813,7 +813,7 @@ export function parseMinuta(raw, nrRanges) {
     };
     if ((m = line.match(rePar)) && !citacaoDeParagrafo(m)) { const n=mk("paragrafo",m[2],line.slice(0,line.length-m[2].length).trim()); last.a&&last.a.children.push(n); last.p=n; last.i=null; last.al=null; last.it=null; continue; }
     if (m = line.match(reInc)) { const n=mk("inciso",m[2]); (last.p||last.a)&&(last.p||last.a).children.push(n); last.i=n; last.al=null; last.it=null; continue; }
-    if ((m = line.match(reAli)) && last.i) { const n=mk("alinea",m[2]); last.i.children.push(n); last.al=n; last.it=null; continue; }
+    if ((m = line.match(reAli)) && last.i) { const n=mk("alinea",m[2],m[1]); last.i.children.push(n); last.al=n; last.it=null; continue; }
     if ((m = line.match(reIte)) && last.al) { const n=mk("item",m[2]); last.al.children.push(n); last.it=n; continue; }
     const t = last.it||last.al||last.i||last.p||last.a; if (t) t.texto = (t.texto+" "+line).trim();
   }
@@ -1251,7 +1251,12 @@ export function atribuirDesFixoOriginal(doc) {
         if (n.children && n.children.length) {
           const alineas = n.children.filter(c => c.tipo === "alinea");
           n.children.forEach(c => {
-            if (c.tipo === "alinea") c.desFixo = alphaLabel(alineas.indexOf(c)) + ")";
+            if (c.tipo === "alinea") {
+              // depois do "z" a lei de Porto Alegre usa duas práticas ("aa, bb, cc" e "aa, ab, ac"): o motor segue o
+              // rótulo ESCRITO quando são duas letras (decisão 26, 20/11/2026); antes do "z" continua a posição.
+              const idxAl = alineas.indexOf(c);
+              c.desFixo = (idxAl >= 26 && /^[a-z]{2}$/.test(c.rawL || "") ? c.rawL : alphaLabel(idxAl)) + ")";
+            }
             const itens = c.children ? c.children.filter(x => x.tipo === "item") : [];
             (c.children || []).forEach(it => { if (it.tipo === "item") it.desFixo = String(itens.indexOf(it)+1) + "."; });
           });

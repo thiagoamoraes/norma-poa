@@ -2,8 +2,8 @@
  "idSapl": 34079,
  "rotulo": "Lei Complementar municipal nº 540, de 29 de dezembro de 2005",
  "sha256Origem": "53e5862d0ff74f8980592844211bd807ab364bc09dfaae4a0ca4e0160b313556",
- "estruturadoEm": "2026-11-20T22:44:11.297Z",
- "versaoEstruturador": 14,
+ "estruturadoEm": "2026-11-21T00:01:07.966Z",
+ "versaoEstruturador": 16,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "540",
@@ -58,8 +58,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "rotulo_nao_confere_com_a_origem"
+  ],
   "avisos": [],
   "metricas": {
    "artigos": 4,
@@ -68,7 +70,12 @@
    "blocosDeAlteracao": 2,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": []
+   "rotulosDivergentes": [
+    {
+     "rotulo": "I –",
+     "naOrigem": "XVI"
+    }
+   ]
   }
  }
 }

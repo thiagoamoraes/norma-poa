@@ -2,8 +2,8 @@
  "idSapl": 35288,
  "rotulo": "Lei Complementar municipal nº 584, de 27 de dezembro de 2007",
  "sha256Origem": "ce835736e56287211c56fd9b2ced0685befd103821f4df74643fbd878f88f574",
- "estruturadoEm": "2026-11-20T22:44:11.183Z",
- "versaoEstruturador": 14,
+ "estruturadoEm": "2026-11-21T00:01:07.761Z",
+ "versaoEstruturador": 16,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "584",
@@ -177,8 +177,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "rotulo_nao_confere_com_a_origem"
+  ],
   "avisos": [],
   "metricas": {
    "artigos": 15,
@@ -187,7 +189,12 @@
    "blocosDeAlteracao": 9,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": []
+   "rotulosDivergentes": [
+    {
+     "rotulo": "I –",
+     "naOrigem": "VI"
+    }
+   ]
   }
  }
 }

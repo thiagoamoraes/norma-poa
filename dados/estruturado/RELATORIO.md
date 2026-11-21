@@ -1,6 +1,6 @@
 # Estruturação — relatório
 
-Gerado em 2026-11-20T22:44:14.071Z por `ingestao/estruturar.mjs` (versão do estruturador: 14). Não editar à mão.
+Gerado em 2026-11-21T00:01:12.003Z por `ingestao/estruturar.mjs` (versão do estruturador: 16). Não editar à mão.
 
 Uma norma só é **aceita** quando passa em todas as conferências: cabeçalho igual ao do catálogo (número, data, tipo), artigos numerados sem salto, rótulos iguais aos do texto de origem, nenhum texto fora da árvore, fecho presente. O resto vai para **revisar**, com o motivo.
 
@@ -8,8 +8,8 @@ Textos baixados: 834 · com texto extraído e estruturados: 823
 
 | Situação | Normas | % |
 |---|---|---|
-| aceita | 582 | 70.7% |
-| revisar | 241 | 29.3% |
+| aceita | 579 | 70.4% |
+| revisar | 244 | 29.6% |
 
 ## Por época (corte: sanção da LC 611, 03/02/2009)
 
@@ -18,7 +18,7 @@ Antes do corte a técnica legislativa era outra: falhas de compilação são esp
 | Época | Aceitas | A revisar | Taxa de aceitação |
 |---|---|---|---|
 | recente | 389 | 89 | 81.4% |
-| antiga | 193 | 152 | 55.9% |
+| antiga | 190 | 155 | 55.1% |
 
 ## Revisão humana
 
@@ -26,12 +26,12 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 
 | Situação | Recentes | Antigas | Total |
 |---|---|---|---|
-| aceita motor | 389 | 193 | 582 |
+| aceita motor | 389 | 190 | 579 |
 | aceita humano | 0 | 0 | 0 |
 | corrigida | 0 | 0 | 0 |
 | defeito de fonte | 0 | 0 | 0 |
 | encaminhada | 0 | 0 | 0 |
-| pendente | 89 | 152 | 241 |
+| pendente | 89 | 155 | 244 |
 | desatualizada | 0 | 0 | 0 |
 
 
@@ -60,7 +60,7 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 
 | Motivo | Normas | % do total |
 |---|---|---|
-| `rotulo_nao_confere_com_a_origem` | 137 | 16.6% |
+| `rotulo_nao_confere_com_a_origem` | 142 | 17.3% |
 | `cabecalho_nao_reconhecido` | 96 | 11.7% |
 | `sem_fecho` | 93 | 11.3% |
 | `bloco_de_alteracao_sem_dono` | 50 | 6.1% |
@@ -75,6 +75,23 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 | `aspa_de_abertura_ausente` | 3 | 0.4% |
 | `numero_diverge_do_catalogo` | 1 | 0.1% |
 | `tipo_diverge_do_catalogo` | 1 | 0.1% |
+
+## Textos idênticos em registros diferentes
+
+A fonte liga o mesmo texto a mais de um registro; o catálogo não é corrigido e o dashboard avisa.
+
+- `19330` = `29170`
+- `26196` = `26363`
+- `26363` = `26196`
+- `29170` = `19330`
+- `31822` = `33244`, `36914`, `36188`
+- `32299` = `32300`
+- `32300` = `32299`
+- `33244` = `36914`, `36188`, `31822`
+- `36188` = `33244`, `36914`, `31822`
+- `36914` = `33244`, `36188`, `31822`
+- `42987` = `43595`
+- `43595` = `42987`
 
 ## Avisos (não reprovam)
 
@@ -104,11 +121,11 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Lei Complementar municipal nº 957, de 28 de setembro de 2022 (`44376`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 951, de 17 de agosto de 2022 (`44158`): sem_artigos, sem_fecho
 - Lei Complementar municipal nº 932, de 06 de janeiro de 2022 (`43595`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 925, de 20 de dezembro de 2021 (`43543`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 915, de 29 de setembro de 2021 (`43376`): rotulo_nao_confere_com_a_origem, alteracao_sem_aspas_nao_delimitada
 - Lei Complementar municipal nº 896, de 05 de janeiro de 2021 (`42987`): numero_diverge_do_catalogo, data_diverge_do_catalogo, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 882, de 21 de maio de 2020 (`42586`): data_diverge_do_catalogo
 - Lei Complementar municipal nº 878, de 15 de maio de 2020 (`42577`): data_diverge_do_catalogo
-- Lei Complementar municipal nº 875, de 21 de janeiro de 2020 (`42407`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 872, de 10 de janeiro de 2020 (`42401`): promulgacao_parcial, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 868, de 10 de dezembro de 2019 (`42356`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 859, de 03 de setembro de 2019 (`42216`): rotulo_nao_confere_com_a_origem
@@ -212,7 +229,9 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Emenda à Lei Orgânica nº 11, de 15 de dezembro de 1970 (`16472`): cabecalho_nao_reconhecido, sem_fecho, texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 606, de 29 de dezembro de 2008 (`35933`): alteracao_sem_aspas_nao_delimitada
 - Lei Complementar municipal nº 604, de 29 de dezembro de 2008 (`35931`): data_diverge_do_catalogo
+- Lei Complementar municipal nº 584, de 27 de dezembro de 2007 (`35288`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 544, de 26 de janeiro de 2006 (`34142`): data_diverge_do_catalogo
+- Lei Complementar municipal nº 540, de 29 de dezembro de 2005 (`34079`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 534, de 28 de dezembro de 2005 (`34065`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 519, de 29 de dezembro de 2004 (`33620`): trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 501, de 30 de dezembro de 2003 (`32958`): texto_fora_da_arvore, trecho_nao_localizado_na_origem, rotulo_nao_confere_com_a_origem, bloco_de_alteracao_sem_dono
@@ -249,6 +268,7 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Lei Complementar municipal nº 412, de 24 de março de 1998 (`29309`): sem_fecho
 - Lei Complementar municipal nº 410, de 20 de janeiro de 1998 (`29259`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 404, de 14 de novembro de 1997 (`29125`): rotulo_nao_confere_com_a_origem
+- Lei Complementar municipal nº 402, de 25 de setembro de 1997 (`29061`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 400, de 27 de junho de 1997 (`28977`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 399, de 14 de janeiro de 1997 (`28863`): rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 398, de 13 de janeiro de 1997 (`28859`): bloco_sem_fechamento_de_aspas
@@ -282,7 +302,7 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Lei Complementar municipal nº 347, de 30 de maio de 1995 (`28080`): cabecalho_nao_reconhecido, sem_fecho, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 346, de 17 de abril de 1995 (`28047`): cabecalho_nao_reconhecido, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 344, de 20 de março de 1995 (`28021`): cabecalho_nao_reconhecido, sem_fecho, rotulo_nao_confere_com_a_origem
-- Lei Complementar municipal nº 342, de 09 de março de 1995 (`28014`): cabecalho_nao_reconhecido
+- Lei Complementar municipal nº 342, de 09 de março de 1995 (`28014`): cabecalho_nao_reconhecido, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 340, de 12 de janeiro de 1995 (`27973`): cabecalho_nao_reconhecido, sem_fecho, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 339, de 12 de janeiro de 1995 (`27972`): cabecalho_nao_reconhecido, sem_fecho
 - Lei Complementar municipal nº 338, de 12 de janeiro de 1995 (`27971`): cabecalho_nao_reconhecido, sem_fecho, texto_fora_da_arvore, trecho_nao_localizado_na_origem
@@ -334,4 +354,4 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 - Lei Complementar municipal nº 260, de 11 de dezembro de 1991 (`26224`): cabecalho_nao_reconhecido, sem_fecho, rotulo_nao_confere_com_a_origem
 - Lei Complementar municipal nº 258, de 29 de novembro de 1991 (`26196`): promulgacao_parcial, cabecalho_nao_reconhecido, texto_fora_da_arvore, trecho_nao_localizado_na_origem, bloco_de_alteracao_sem_dono
 - Lei Complementar municipal nº 257, de 27 de novembro de 1991 (`26189`): rotulo_nao_confere_com_a_origem
-- Lei Complementar municipal nº 256, de 06 de novembro de 1991 (`26156`): cabecalho_nao_reconhecido, sem_fecho
+- Lei Complementar municipal nº 256, de 06 de novembro de 1991 (`26156`): cabecalho_nao_reconhecido, sem_fecho, rotulo_nao_confere_com_a_origem

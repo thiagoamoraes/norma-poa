@@ -55,7 +55,7 @@ export function introsDeAlteracaoSemBloco(artigos) {
 }
 
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
-export const VERSAO_ESTRUTURADOR = 14;
+export const VERSAO_ESTRUTURADOR = 16;
 
 export const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');
@@ -100,6 +100,26 @@ export function conferirConservacao(textoOrigem, trechos, limiteLacuna = 40) {
   // Posições (aditivo, para o dashboard de revisão): em coordenadas do texto só com letras e algarismos.
   const ancoras = []; // uma por trecho, na ordem: { i, pos, len, situacao: 'ok' | 'rotulo_diverge' | 'nao_localizado' }
   const posLacunas = []; // paralela a `lacunas`: { ini, fim, noFim? }
+  // Fronteira do rótulo (decisão 25, 20/11/2026): "endsWith" sozinho aceitava "I" onde está escrito "XXXI" e "5" onde
+  // está "15". Depois que o sufixo confere, o caractere ANTES do rótulo, no texto original, não pode ser letra nem
+  // algarismo (salvo a palavra "Art"/"Artigo"/"Parágrafo" colada ao número, comum em extração ruim). Só restringe:
+  // nunca aceita o que antes recusava.
+  let mapaRaw = null;
+  const rawNFC = String(textoOrigem).normalize('NFC');
+  const fronteiraDoRotuloNoTexto = (marca, pos) => {
+    if (!mapaRaw) { mapaRaw = []; const re = /[\p{L}\p{N}]/gu; let m; while ((m = re.exec(rawNFC)) !== null) for (let k = 0; k < m[0].length; k++) mapaRaw.push(m.index + k); }
+    let j = pos - 1; // fim do rótulo em `origem`
+    if (j >= 0 && origem[j].toLowerCase() === 'o' && !marca.endsWith('o')) j--; // "5o" no lugar de "5º"
+    while (j >= 0 && /[º°ª]/u.test(origem[j])) j--;
+    let k = marca.length - 1;
+    for (; k >= 0 && j >= 0; j--) { if (/[º°ª]/u.test(origem[j])) continue; if (origem[j].toLowerCase() !== marca[k]) return true; k--; }
+    if (k >= 0) return true; // não deu para localizar: não restringe
+    const iraw = mapaRaw[j + 1];
+    if (iraw === undefined || iraw === 0) return true;
+    const c = rawNFC[iraw - 1];
+    if (!/[\p{L}\p{N}]/u.test(c)) return true;
+    return /(?:art|artigo|par[áa]grafo)$/i.test(rawNFC.slice(Math.max(0, iraw - 10), iraw));
+  };
   let indice = -1;
   for (const item of trechos) {
     indice++;
@@ -116,7 +136,7 @@ export function conferirConservacao(textoOrigem, trechos, limiteLacuna = 40) {
       const marca = fichaDoRotulo(rotulo);
       const antes = origem.slice(Math.max(cursor, pos - 30), pos).toLowerCase().replace(/[º°ª]/gu, '');
       // "Art. 5o" (letra "o" no lugar de "º") também vale
-      if (marca && !antes.endsWith(marca) && !antes.replace(/o$/, '').endsWith(marca)) { rotulosDivergentes.push({ rotulo, naOrigem: origem.slice(Math.max(cursor, pos - 20), pos) }); situacaoDoTrecho = 'rotulo_diverge'; }
+      if (marca && ((!antes.endsWith(marca) && !antes.replace(/o$/, '').endsWith(marca)) || !fronteiraDoRotuloNoTexto(marca, pos))) { rotulosDivergentes.push({ rotulo, naOrigem: origem.slice(Math.max(cursor, pos - 20), pos) }); situacaoDoTrecho = 'rotulo_diverge'; }
     }
     ancoras.push({ i: indice, pos, len: a.length, situacao: situacaoDoTrecho });
     if (!a) continue;

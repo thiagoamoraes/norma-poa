@@ -249,6 +249,13 @@ if (fs.existsSync(DIR) && fs.existsSync('./dados/textos/sapl')) {
   const motivosDoAcervo = new Set();
   for (const f of fs.readdirSync(DIR).filter((f) => /^\d+\.json$/.test(f))) for (const m of JSON.parse(fs.readFileSync(`${DIR}/${f}`, 'utf8')).verificacao.motivos) motivosDoAcervo.add(m);
   ok(`acervo: todos os ${motivosDoAcervo.size} motivos que o motor já produziu têm título em português (sem título: ${[...motivosDoAcervo].filter((m) => !TITULOS_DE_MOTIVO[m]).join(', ') || 'nenhum'})`, [...motivosDoAcervo].every((m) => TITULOS_DE_MOTIVO[m]));
+  // textos idênticos em registros diferentes (decisão 27): a LC 932/2022 (id 43595) e o registro da LC 896/2021 (id 42987)
+  // apontam para o mesmo arquivo da fonte, com o mesmo texto. O catálogo não é corrigido; o dashboard avisa.
+  const iguais = JSON.parse(fs.readFileSync('./dados/estruturado/_textos_iguais.json', 'utf8'));
+  ok('acervo (real): os ids 43595 e 42987, que a fonte liga ao mesmo texto, aparecem como textos idênticos um do outro', (iguais['43595'] || []).includes(42987) && (iguais['42987'] || []).includes(43595));
+  const fila = JSON.parse(fs.readFileSync('./docs/dados/revisao/fila.json', 'utf8')).normas;
+  const n42987 = fila.find((n) => n.idSapl === 42987);
+  ok('acervo: a norma 42987 na fila do dashboard traz o aviso textoIgualA = [43595]', !!n42987 && JSON.stringify(n42987.textoIgualA) === '[43595]');
 } else {
   console.log('(acervo ausente: seção pulada)');
 }

@@ -24,6 +24,7 @@ import { chaveLei } from '../norma-core.js';
 
 const DIR_EST = './dados/estruturado/sapl';
 const SAIDA = './docs/dados/revisao';
+const textosIguais = existsSync('./dados/estruturado/_textos_iguais.json') ? JSON.parse(readFileSync('./dados/estruturado/_textos_iguais.json', 'utf8')) : {}; // id → outros ids com o MESMO texto
 const NOMES = { 1: 'Lei Orgânica', 2: 'Emenda à Lei Orgânica', 5: 'Lei', 6: 'Lei Complementar' };
 
 const catalogo = new Map();
@@ -72,6 +73,7 @@ for (const f of (await readdir(DIR_EST)).filter((f) => /^\d+\.json$/.test(f))) {
   const norma = {
     idSapl: reg.idSapl, rotulo: reg.rotulo, tipo: NOMES[cat.tipoSapl] || String(cat.tipoSapl), numero: cat.numero, data: cat.data,
     motivos: reg.verificacao.motivos, avisos: reg.verificacao.avisos, urlFonte,
+    ...(textosIguais[reg.idSapl] ? { textoIgualA: textosIguais[reg.idSapl] } : {}),
     sha256Origem: reg.sha256Origem, versaoEstruturador: reg.versaoEstruturador,
     resumo: a.resumo, texto: a.texto, dispositivos, especiais, lacunas: a.lacunas.filter((l) => !l.esperada),
   };
@@ -94,6 +96,7 @@ for (const f of (await readdir(DIR_EST)).filter((f) => /^\d+\.json$/.test(f))) {
   if (cmd.comandos.length) await writeFile(path.join(SAIDA, 'n', `${reg.idSapl}.cmd.json`), JSON.stringify(cmd) + '\n');
   fila.push({
     idSapl: reg.idSapl, rotulo: reg.rotulo, tipo: norma.tipo, numero: norma.numero, data: norma.data, motivos: reg.verificacao.motivos,
+    ...(textosIguais[reg.idSapl] ? { textoIgualA: textosIguais[reg.idSapl] } : {}),
     ocr: reg.verificacao.avisos.includes('texto_de_ocr'), pontos: a.resumo.rotulosDivergentes + a.resumo.naoLocalizados + a.resumo.lacunasReais,
     sha256Origem: reg.sha256Origem, versaoEstruturador: reg.versaoEstruturador, urlFonte,
     comandos: cmd.comandos.length, comandosAVer: cmd.comandos.filter((k) => ['recusado', 'dispositivo_nao_encontrado', 'alvo_nao_identificado'].includes(k.situacao)).length,

@@ -315,6 +315,7 @@ function pintarNorma() {
     el('span', {}, n.tipo + ' nº ' + n.numero), el('span', {}, 'data ' + (n.data || '—')),
     n.urlFonte ? el('a', { href: n.urlFonte, target: '_blank', rel: 'noopener' }, 'Arquivo original na fonte ↗') : el('span', {}, 'sem link da fonte'),
     n.avisos.includes('texto_de_ocr') ? el('span', { class: 'selo al' }, 'texto de OCR: confira no original') : null,
+    n.textoIgualA?.length ? el('span', { class: 'selo al', title: 'A fonte ligou o mesmo texto a mais de um registro; o catálogo não é corrigido aqui.' }, 'texto idêntico ao da norma ' + n.textoIgualA.join(', ')) : null,
     el('span', { id: 'link-compara' }));
   const pontos = (n.resumo?.rotulosDivergentes || 0) + (n.resumo?.naoLocalizados || 0) + (n.resumo?.lacunasReais || 0) + (n.fronteiras?.length || 0);
   const roteiros = roteiroDeConferencia(n.motivos, n.texto);
