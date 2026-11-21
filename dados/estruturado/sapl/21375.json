@@ -2,8 +2,8 @@
  "idSapl": 21375,
  "rotulo": "Lei Complementar municipal nº 55, de 31 de dezembro de 1980",
  "sha256Origem": "a20c15ecfb133e53b6abc735b0c58172394a1069610a28e389024406429f32c7",
- "estruturadoEm": "2026-11-21T12:13:21.811Z",
- "versaoEstruturador": 21,
+ "estruturadoEm": "2026-11-21T15:00:03.493Z",
+ "versaoEstruturador": 22,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -77,7 +77,6 @@
   "situacao": "revisar",
   "motivos": [
    "cabecalho_nao_reconhecido",
-   "tabela_no_corpo",
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem"
   ],
@@ -87,10 +86,6 @@
    "dispositivos": 7,
    "cobertura": 0.989,
    "blocosDeAlteracao": 4,
-   "tabelaNoCorpo": {
-    "linhas": 3,
-    "ate": 94
-   },
    "lacunas": [],
    "naoLocalizados": [
     "Fica, doravante, denominado de \"§ 19\" o atual =:'1'#,.021 't."

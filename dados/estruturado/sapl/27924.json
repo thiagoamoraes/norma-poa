@@ -2,8 +2,8 @@
  "idSapl": 27924,
  "rotulo": "Lei Complementar municipal nº 334, de 27 de dezembro de 1994",
  "sha256Origem": "16f06d454d713b1eccbbcc956526ec4a24249f441d74333e345d3636650b736a",
- "estruturadoEm": "2026-11-21T12:13:19.701Z",
- "versaoEstruturador": 21,
+ "estruturadoEm": "2026-11-21T15:00:01.337Z",
+ "versaoEstruturador": 22,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -94,6 +94,7 @@
   "situacao": "revisar",
   "motivos": [
    "cabecalho_nao_reconhecido",
+   "tabela_no_corpo",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
@@ -102,6 +103,10 @@
    "dispositivos": 10,
    "cobertura": 0.97,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 3,
+    "ate": 66
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

@@ -2,8 +2,8 @@
  "idSapl": 28289,
  "rotulo": "Lei Complementar municipal nº 359, de 29 de novembro de 1995",
  "sha256Origem": "fce7ec49f0396165b76995eb47b0499d2ed5930d62ba74350f9d8f1763595f4f",
- "estruturadoEm": "2026-11-21T12:13:19.555Z",
- "versaoEstruturador": 21,
+ "estruturadoEm": "2026-11-21T15:00:01.190Z",
+ "versaoEstruturador": 22,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -144,7 +144,6 @@
   "motivos": [
    "cabecalho_nao_reconhecido",
    "sem_fecho",
-   "tabela_no_corpo",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],
@@ -153,10 +152,6 @@
    "dispositivos": 17,
    "cobertura": 0.978,
    "blocosDeAlteracao": 0,
-   "tabelaNoCorpo": {
-    "linhas": 3,
-    "ate": 88
-   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

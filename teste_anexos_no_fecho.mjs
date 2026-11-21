@@ -62,6 +62,18 @@ for (const [id, nome] of [[38309, 'id 38309 (real)'], [42122, 'id 42122 (real, M
   ok('(sintético) 3 linhas de colunas fora de bloco são tabela; 2 linhas não', !!tabelaNoCorpo(linhas, [], 0, linhas.length) && !tabelaNoCorpo(linhas.slice(0, 3), [], 0, 3) && !tabelaNoCorpo(linhas, [{ startIdx: 1, endIdx: 3 }], 0, linhas.length));
 }
 
+// (c2) decisão 42: tabela de 2 colunas (alinhadas) conta; incisos, texto justificado e ruído de OCR não
+{
+  const L = (f) => fs.readFileSync(`./fixtures/textos/${f}`, 'utf8').split('\n');
+  const tem = (f) => !!tabelaNoCorpo(L(f), [], 0, L(f).length);
+  ok('id 26743 (real, LC 284/1992: mínimos de vasos/lavatórios/chuveiros em 2 colunas): é tabela', tem('tabela2col_26743.txt'));
+  ok('id 27924 (real, LC 334/1994: quadro por Unidade Territorial): é tabela', tem('tabela2col_27924.txt'));
+  ok('id 16471 (real, incisos "XI -   texto" com espaçamento largo): NÃO é tabela', !tem('nao_tabela_incisos_16471.txt'));
+  ok('id 21359 (real, texto justificado de digitalização): NÃO é tabela', !tem('nao_tabela_justificado_21359.txt'));
+  ok('id 28339 (real, texto justificado de digitalização): NÃO é tabela', !tem('nao_tabela_justificado_28339.txt'));
+  ok('(sintético) 3 linhas de 2 colunas desalinhadas (2ª célula em lugares diferentes) não são tabela', !tabelaNoCorpo(['Vasos   05', 'Lavatórios            10', 'Chuveiros    10', 'Mictórios                  05'], [], 0, 4));
+}
+
 // unidades
 ok('(sintético) dividirFechoEAnexos: rótulo escrito, título do cabeçalho, bruto preservado e vetado', (() => { const r = dividirFechoEAnexos('PREFEITURA…, 1º de março de 2020.\nANEXO I – Mapa\nlinha A\nANEXO II\nVETADO.'); return r.fecho.startsWith('PREFEITURA') && r.anexos.length === 2 && r.anexos[0].rotulo === 'ANEXO I' && r.anexos[0].titulo === 'Mapa' && r.anexos[0].bruto === 'ANEXO I – Mapa\nlinha A' && r.anexos[1].vetado === true; })());
 ok('(sintético) slugDoAnexo: "ANEXO 1.2" → anexo-1-2; "ANEXO" → anexo; "ANEXO ÚNICO" → anexo-unico', slugDoAnexo('ANEXO 1.2') === 'anexo-1-2' && slugDoAnexo('ANEXO') === 'anexo' && slugDoAnexo('ANEXO ÚNICO') === 'anexo-unico');

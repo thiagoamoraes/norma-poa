@@ -2,8 +2,8 @@
  "idSapl": 22673,
  "rotulo": "Lei Complementar municipal nº 102, de 13 de janeiro de 1984",
  "sha256Origem": "d9943ae943cd27ebda2e7146b58114fd99de0d64f27facad44f850889c5616a2",
- "estruturadoEm": "2026-11-21T12:13:21.574Z",
- "versaoEstruturador": 21,
+ "estruturadoEm": "2026-11-21T15:00:03.233Z",
+ "versaoEstruturador": 22,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -262,6 +262,7 @@
   "situacao": "revisar",
   "motivos": [
    "cabecalho_nao_reconhecido",
+   "tabela_no_corpo",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [
@@ -272,6 +273,10 @@
    "dispositivos": 34,
    "cobertura": 0.986,
    "blocosDeAlteracao": 0,
+   "tabelaNoCorpo": {
+    "linhas": 3,
+    "ate": 158
+   },
    "lacunas": [],
    "naoLocalizados": [],
    "rotulosDivergentes": [

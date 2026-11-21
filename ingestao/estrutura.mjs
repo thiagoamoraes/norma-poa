@@ -55,7 +55,7 @@ export function introsDeAlteracaoSemBloco(artigos) {
 }
 
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
-export const VERSAO_ESTRUTURADOR = 21;
+export const VERSAO_ESTRUTURADOR = 22;
 
 export const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');
@@ -143,8 +143,26 @@ export function tamanhoDoFechoSemCarimbo(fecho) {
   return (i >= 0 ? L.slice(0, i) : L).join('\n').trim().length;
 }
 
-/** Linha de tabela de PDF: 3 ou mais colunas separadas por 3+ espaços, cada célula curta. */
-const linhaTabular = (l) => { const c = String(l).trim().split(/\s{3,}/).filter(Boolean); return c.length >= 3 && !c.some((x) => x.length > 60) && c.filter((x) => x.length <= 30).length >= 2; };
+/**
+ * Linha de tabela de PDF (decisões 39 e 42): 3 ou mais colunas separadas por 3+ espaços, cada célula curta; ou 2 colunas,
+ * ambas curtas (≤ 30). Devolve `{ n, off }` (nº de colunas e posição onde começa a 2ª célula) ou null.
+ */
+const colunasDaLinha = (l) => {
+  const t = String(l).trim();
+  const c = t.split(/\s{3,}/).filter(Boolean);
+  if (c.length < 2 || c.some((x) => x.length > 60)) return null;
+  const curtas = c.filter((x) => x.length <= 30).length;
+  if (curtas < 2) return null;
+  // não é tabela a linha que abre com rótulo de dispositivo ("XI -   texto", "Art. 5º   texto", "a)   texto")
+  if (/^(?:Art\b|§|Parágrafo|[IVXLC]+\s*[-–—.)]|[a-z]\)|\d+[.)º°Q])/i.test(c[0])) return null;
+  if (c.length === 2) {
+    // 2 colunas: células de pelo menos 2 caracteres e sem ruído de OCR
+    if (c.some((x) => x.length < 2)) return null;
+    if ((t.match(/[A-Za-zÀ-ÿ0-9]/g) || []).length < 0.7 * t.replace(/\s/g, '').length) return null;
+  }
+  return { n: c.length, off: String(l).indexOf(c[1], String(l).indexOf(c[0]) + c[0].length) };
+};
+const linhaTabular = (l) => colunasDaLinha(l) !== null;
 
 /**
  * Tabela no meio do ato (decisão 39): 3 ou mais linhas tabulares seguidas, DENTRO do articulado (depois do 1º artigo, antes do
@@ -153,10 +171,15 @@ const linhaTabular = (l) => { const c = String(l).trim().split(/\s{3,}/).filter(
  */
 export function tabelaNoCorpo(linhas, blocos, iInicio, iFim) {
   const dentro = (i) => (blocos || []).some((b) => i >= b.startIdx && i <= b.endIdx);
-  let corrida = 0, melhor = 0, onde = -1;
+  let corrida = 0, melhor = 0, onde = -1, anterior = null;
   for (let i = Math.max(iInicio, 0); i < iFim; i++) {
     if (!linhas[i]) continue;
-    if (!dentro(i) && linhaTabular(linhas[i])) { corrida++; if (corrida >= 3 && corrida > melhor) { melhor = corrida; onde = i; } } else corrida = 0;
+    const col = dentro(i) ? null : colunasDaLinha(linhas[i]);
+    // 2 colunas só contam se a 2ª célula começa no mesmo lugar da linha anterior da corrida (±2): tabela alinha; texto justificado não
+    const alinha = col && (col.n >= 3 || !anterior || anterior.n >= 3 || Math.abs(col.off - anterior.off) <= 2);
+    if (col && corrida > 0 && !alinha) { corrida = 1; anterior = col; continue; }
+    if (col) anterior = col;
+    if (col) { corrida++; if (corrida >= 3 && corrida > melhor) { melhor = corrida; onde = i; } } else corrida = 0;
   }
   return melhor >= 3 ? { linhas: melhor, ate: onde } : null;
 }

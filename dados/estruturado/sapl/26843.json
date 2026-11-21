@@ -2,8 +2,8 @@
  "idSapl": 26843,
  "rotulo": "Lei Complementar municipal nº 285, de 29 de dezembro de 1992",
  "sha256Origem": "7f0ee7b7e0411db74d9553b5ff06c51d48a6a5ab505702de3f47cf74a5a3ee28",
- "estruturadoEm": "2026-11-21T12:13:19.975Z",
- "versaoEstruturador": 21,
+ "estruturadoEm": "2026-11-21T15:00:01.676Z",
+ "versaoEstruturador": 22,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -152,6 +152,7 @@
   "situacao": "revisar",
   "motivos": [
    "cabecalho_nao_reconhecido",
+   "tabela_no_corpo",
    "texto_fora_da_arvore",
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem",
@@ -163,6 +164,10 @@
    "dispositivos": 18,
    "cobertura": 0.669,
    "blocosDeAlteracao": 7,
+   "tabelaNoCorpo": {
+    "linhas": 3,
+    "ate": 177
+   },
    "lacunas": [
     {
      "tamanho": 1645,
