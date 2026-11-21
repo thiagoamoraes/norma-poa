@@ -63,6 +63,9 @@ ok('contarAlfanumericos ignora pontuação e espaço ("º" conta como letra)', c
   ok('(sintético) sem falhas: LC primeiro, depois leis da mais recente para a mais antiga', filaDeDownload(regs, new Set()).map((r) => r.idSapl).join() === '3,4,1,2');
   ok('(sintético) a LC que falhou vai para o fim da fila; as leis seguem na ordem de sempre', filaDeDownload(regs, new Set(), new Map([[3, 1]])).map((r) => r.idSapl).join() === '4,1,2,3');
   ok('(sintético) quem falhou mais vezes fica depois de quem falhou menos', filaDeDownload(regs, new Set(), new Map([[3, 2], [4, 1]])).map((r) => r.idSapl).join() === '1,2,4,3');
+  ok('(sintético) prioridade fura a fila, na ordem dada', filaDeDownload(regs, new Set(), new Map(), [2, 1]).map((r) => r.idSapl).join() === '2,1,3,4');
+  ok('(sintético) prioridade com 3 falhas volta ao lugar normal', filaDeDownload(regs, new Set(), new Map([[2, 3]]), [2]).map((r) => r.idSapl).join() === '3,4,1,2');
+  ok('(sintético) prioridade com id inexistente, repetido ou inválido é ignorada', filaDeDownload(regs, new Set(), new Map(), [99, NaN, 4, 4]).map((r) => r.idSapl).join() === '4,3,1,2');
 }
 
 // --- extensaoDaUrl -------------------------------------------------------

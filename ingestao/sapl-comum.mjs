@@ -136,9 +136,15 @@ export function normalizarVinculoSapl(v) {
  * resolvidas. Ordem: Lei Orgânica, emendas, LCs, leis; dentro do tipo, da mais
  * recente para a mais antiga. `resolvidos`: Set de idSapl já baixados (ou com
  * erro definitivo). `falhasPorId`: Map idSapl → nº de noites em que o download
- * falhou (quem já falhou passa para o fim da fila).
+ * falhou (quem já falhou passa para o fim da fila). `prioridade`: lista de
+ * idSapl que furam a fila, na ordem dada (leis que o mantenedor quer ler já;
+ * ver `dados/catalogo/prioridade-download.txt`); quem falhou 3 vezes ou mais
+ * volta ao lugar normal, para um arquivo que a fonte não entrega não travar a fila.
  */
-export function filaDeDownload(registros, resolvidos, falhasPorId = new Map()) {
+export function filaDeDownload(registros, resolvidos, falhasPorId = new Map(), prioridade = []) {
+  const posicao = new Map();
+  for (const id of prioridade) if (Number.isFinite(id) && !posicao.has(id)) posicao.set(id, posicao.size);
+  const rank = (r) => ((falhasPorId.get(r.idSapl) || 0) < 3 && posicao.has(r.idSapl) ? posicao.get(r.idSapl) : Infinity);
   const ORDEM = { 1: 0, 2: 1, 6: 2, 5: 3 };
   const ultimo = new Map();
   for (const r of registros) ultimo.set(r.idSapl, r);
@@ -146,7 +152,7 @@ export function filaDeDownload(registros, resolvidos, falhasPorId = new Map()) {
     .filter((r) => r.texto && r.texto.url && !resolvidos.has(r.idSapl))
     // quem já falhou fica para o FIM da fila (e o que falhou mais vezes, mais ao fim):
     // um arquivo que a fonte não entrega não pode ser o primeiro da fila toda noite
-    .sort((a, b) => (falhasPorId.get(a.idSapl) || 0) - (falhasPorId.get(b.idSapl) || 0) || (ORDEM[a.tipoSapl] ?? 9) - (ORDEM[b.tipoSapl] ?? 9) || String(b.data).localeCompare(String(a.data)) || b.idSapl - a.idSapl);
+    .sort((a, b) => (rank(a) === rank(b) ? 0 : rank(a) < rank(b) ? -1 : 1) || (falhasPorId.get(a.idSapl) || 0) - (falhasPorId.get(b.idSapl) || 0) || (ORDEM[a.tipoSapl] ?? 9) - (ORDEM[b.tipoSapl] ?? 9) || String(b.data).localeCompare(String(a.data)) || b.idSapl - a.idSapl);
 }
 
 // ─── Conferência DOPA × catálogo ──────────────────────────────────────────────

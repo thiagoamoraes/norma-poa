@@ -15,7 +15,7 @@
 // Prazo: PRAZO_EPOCH (segundos). Atrás de proxy: NODE_USE_ENV_PROXY=1.
 // Requer `pdftotext` (poppler-utils) no PATH.
 
-import { writeFile, appendFile, mkdir, readdir } from 'node:fs/promises';
+import { writeFile, appendFile, mkdir, readdir, readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
@@ -88,7 +88,17 @@ async function main() {
   const resolvidos = new Set(indice.filter((l) => l.situacao === 'baixado' || l.situacao === 'erro_definitivo').map((l) => l.idSapl));
   const falhasPorId = new Map();
   for (const l of indice) if (l.situacao === 'falha_temporaria') falhasPorId.set(l.idSapl, (falhasPorId.get(l.idSapl) || 0) + 1);
-  const fila = filaDeDownload(catalogo, resolvidos, falhasPorId);
+  const prioridade = [];
+  try {
+    for (const linha of (await readFile('dados/catalogo/prioridade-download.txt', 'utf8')).split('\n')) {
+      const t = linha.replace(/#.*/, '').trim();
+      if (!t) continue;
+      if (/^\d+$/.test(t)) prioridade.push(Number(t)); else console.log(`${agora()} aviso: linha inválida em prioridade-download.txt: "${t}"`);
+    }
+  } catch { /* sem lista: ordem de sempre */ }
+  const fila = filaDeDownload(catalogo, resolvidos, falhasPorId, prioridade);
+  const ausentes = prioridade.filter((id) => !catalogo.some((r) => r.idSapl === id));
+  if (ausentes.length) console.log(`${agora()} aviso: id(s) de prioridade fora do catálogo: ${ausentes.join(', ')}`);
   console.log(`${agora()} fila: ${fila.length} arquivo(s) a baixar; ${resolvidos.size} já resolvido(s). OCR ${TEM_OCR ? 'disponível' : 'NÃO instalado (PDF digitalizado ficará sem texto)'}.`);
 
   let feitos = 0;
