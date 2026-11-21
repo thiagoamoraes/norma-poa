@@ -12,7 +12,7 @@ import { prepararTextoExtraido } from './ingestao/extracao-texto.mjs';
 import { ancorarConferencia } from './ingestao/revisao-ancoras.mjs';
 import { descreverComandos } from './ingestao/revisao-comandos.mjs';
 import { compararComCompilacao, normalizarParaComparar } from './ingestao/revisao-compilacao.mjs';
-import { valorDoRotulo, agruparDeslocamentos, fraseDoDeslocamento, validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao, situacaoHumana, resumoHumano, listaParaOMotor, CATEGORIAS_HUMANAS, roteiroDeConferencia, tituloDoMotivo, TITULOS_DE_MOTIVO, pontosDaNorma, LIMITE_PONTOS_CONFIRMACAO } from './ingestao/revisao.mjs';
+import { dataDoFecho, quadroDeDatas, fichaDoArquivo, valorDoRotulo, agruparDeslocamentos, fraseDoDeslocamento, validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao, situacaoHumana, resumoHumano, listaParaOMotor, CATEGORIAS_HUMANAS, roteiroDeConferencia, tituloDoMotivo, TITULOS_DE_MOTIVO, pontosDaNorma, LIMITE_PONTOS_CONFIRMACAO } from './ingestao/revisao.mjs';
 
 let passou = 0, falhou = 0;
 const ok = (desc, cond) => { cond ? passou++ : falhou++; console.log(`${cond ? '✓' : '✗'} ${desc}`); };
@@ -223,6 +223,20 @@ const base = { idSapl: 48003, decisao: 'aceitar', sha256Origem: 'abc', versaoEst
   const r = roteiroDeConferencia(['rotulo_nao_confere_com_a_origem'], a.texto, disp);
   ok('LC 810/2017: o roteiro "Confira a numeração da lei" traz o trecho do original com o salto (III … V)', r.length === 1 && r[0].chave === 'rotulos' && /III\s*–/.test(r[0].trecho) && /V\s*–\s*SMIM/.test(r[0].trecho));
   ok('(sintético) sem divergência não há roteiro de numeração; deslocamento −1 diz "REPETIR"', roteiroDeConferencia(['rotulo_nao_confere_com_a_origem'], 'x', []).length === 0 && /REPETIR/.test(fraseDoDeslocamento({ primeiro: { id: 'art-3', rotulo: 'Art. 8º', naOrigem: 'Art7' }, ultimo: { id: 'art-3' }, quantidade: 1, deslocamento: -1 })));
+}
+
+// --- datas lado a lado e ficha do arquivo (21/11/2026) ----------------------------------------------------------
+{
+  ok('dataDoFecho lê a 1ª linha do fecho: "… PORTO ALEGRE, 22 de dezembro de 2025." → 2025-12-22; "1º de março de 2011" → 2011-03-01; sem data → null', dataDoFecho('PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de dezembro de 2025.\nNome') === '2025-12-22' && dataDoFecho('PORTO ALEGRE, 1º de março de 2011.') === '2011-03-01' && dataDoFecho('Fim do texto') === null && dataDoFecho(null) === null);
+  // caso real (id 49654): cabeçalho e fecho = 30/12/2024; o catálogo diz 30/01/2025, posterior à publicação (03/01/2025)
+  const q = quadroDeDatas({ catalogo: '2025-01-30', cabecalho: '2024-12-30', fecho: '2024-12-30', publicacaoCatalogo: '2025-01-03' });
+  ok('id 49654 (real): o quadro mostra as quatro datas e diz que cabeçalho e fecho concordam e só o catálogo difere, com o alerta de data posterior à publicação', /30\/01\/2025/.test(q.quadro) && /30\/12\/2024/.test(q.quadro) && /concordam entre si; só o catálogo/.test(q.instrucao) && /POSTERIOR/.test(q.instrucao));
+  ok('(sintético) cabeçalho e fecho divergentes entre si: a frase manda conferir no original; sem fecho: "— (não há)"', /também divergem entre si/.test(quadroDeDatas({ catalogo: '2020-01-01', cabecalho: '2020-02-01', fecho: '2020-03-01' }).instrucao) && /não há/.test(quadroDeDatas({ catalogo: '2020-01-01', cabecalho: '2020-02-01' }).quadro));
+  const f = fichaDoArquivo({ nome: 'Lei Complementar 779.pdf', caracteres: 404, linhas: 14, metodo: 'camada de texto', ementa: 'TORNADA SEM EFEITO a publicação…', outrosLinks: ['https://exemplo.test/Norma_779.html'] });
+  ok('id 40318 (real): a ficha do arquivo traz nome, tamanho, extração, ementa do catálogo, o outro link e a frase de "muito curto: capa, placeholder ou aviso"', /Lei Complementar 779\.pdf/.test(f.ficha) && /404 caracteres/.test(f.ficha) && /TORNADA SEM EFEITO/.test(f.ficha) && /Norma_779\.html/.test(f.ficha) && /muito curto/.test(f.instrucao));
+  ok('(sintético) nome com "anexo/mapa/tabela" ganha o selo de anexo e a frase de anexo complexo tratado à parte', /sugere ANEXO/.test(fichaDoArquivo({ nome: 'Anexo_I_mapa.pdf', caracteres: 5000 }).ficha) && /tratado à parte/.test(fichaDoArquivo({ nome: 'Anexo_I_mapa.pdf', caracteres: 5000 }).instrucao));
+  const r = roteiroDeConferencia(['data_diverge_do_catalogo', 'sem_artigos'], 'x', [], { datas: { catalogo: '2025-01-30', cabecalho: '2024-12-30', fecho: '2024-12-30' }, arquivo: { nome: 'a.pdf', caracteres: 10 } });
+  ok('o roteiro traz os cartões "Confira as datas" e "O que o arquivo parece ser" quando há o motivo e o contexto; sem contexto, não traz', r.some((x) => x.chave === 'datas') && r.some((x) => x.chave === 'arquivo') && !roteiroDeConferencia(['data_diverge_do_catalogo'], 'x', [], {}).some((x) => x.chave === 'datas'));
 }
 
 // --- vocabulário e "aceitar" com muitos pontos (decisões de 20/11/2026) ------------------------------------

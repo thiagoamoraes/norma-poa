@@ -165,7 +165,7 @@ const linhasNaoVazias = (texto) => String(texto || '').split(/\r?\n/).map((l) =>
  *  - cabeçalho/artigos/tipo: início do arquivo;  - sem fecho: final do arquivo;  - promulgação parcial: o "promulgo".
  *  Sem nenhum desses motivos, devolve [] (a página usa o roteiro genérico só se a norma não tiver ponto nenhum).
  */
-export function roteiroDeConferencia(motivos, texto, dispositivos = []) {
+export function roteiroDeConferencia(motivos, texto, dispositivos = [], contexto = {}) {
   const ms = new Set(motivos || []);
   const L = linhasNaoVazias(texto);
   const out = [];
@@ -184,6 +184,14 @@ export function roteiroDeConferencia(motivos, texto, dispositivos = []) {
     out.push({ chave: 'promulgo', titulo: 'Confira o "promulgo"',
       instrucao: 'Promulgação parcial: o "promulgo" fala de dispositivo(s) de uma lei já existente, não de uma lei inteira. Confira o objeto e se o corpo traz só esses dispositivos.',
       trecho: (i >= 0 ? L.slice(i, i + 6) : L.slice(0, 8)).join('\n') });
+  }
+  if (ms.has('data_diverge_do_catalogo') && contexto.datas) {
+    const q = quadroDeDatas(contexto.datas);
+    out.push({ chave: 'datas', titulo: 'Confira as datas', instrucao: q.instrucao, trecho: q.quadro });
+  }
+  if (['sem_artigos', 'cabecalho_nao_reconhecido', 'tipo_sem_suporte'].some((m) => ms.has(m)) && contexto.arquivo) {
+    const f = fichaDoArquivo(contexto.arquivo);
+    out.push({ chave: 'arquivo', titulo: 'O que o arquivo parece ser', instrucao: f.instrucao, trecho: f.ficha });
   }
   if (ms.has('rotulo_nao_confere_com_a_origem')) {
     const grupos = agruparDeslocamentos(dispositivos);
@@ -239,6 +247,37 @@ export function trechoAoRedorDoDeslocamento(texto, grupo, dispositivos) {
   const d = (dispositivos || []).find((x) => x.id === grupo.primeiro.id);
   if (!texto || !d || !Number.isInteger(d.ini)) return '';
   return String(texto).slice(Math.max(0, d.ini - 160), Math.min(texto.length, d.ini + 160)).trim();
+}
+
+// ── Datas lado a lado e ficha do arquivo (decisão 2 do mantenedor: decide o revisor, caso a caso) ───────────
+
+const MESES = { janeiro: 1, fevereiro: 2, marco: 3, 'março': 3, abril: 4, maio: 5, junho: 6, julho: 7, agosto: 8, setembro: 9, outubro: 10, novembro: 11, dezembro: 12 };
+/** Data (AAAA-MM-DD) da primeira linha do fecho ("PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de dezembro de 2025."), ou null. */
+export function dataDoFecho(fecho) {
+  const m = /(\d{1,2})\s*[º°]?\s+de\s+([A-Za-zçÇ]+)\s+de\s+(\d{4})/i.exec(String(fecho || '').split('\n')[0]);
+  const mes = m && MESES[m[2].toLowerCase()];
+  return mes ? `${m[3]}-${String(mes).padStart(2, '0')}-${String(+m[1]).padStart(2, '0')}` : null;
+}
+const br = (iso) => (iso ? iso.split('-').reverse().join('/') : '— (não há)');
+/** Quadro com as datas lado a lado e a frase que diz de que lado está a divergência. O motor nunca escolhe. */
+export function quadroDeDatas(d) {
+  const linhas = [['Catálogo (data da norma)', d.catalogo], ['Cabeçalho do arquivo', d.cabecalho], ['Fecho do arquivo', d.fecho], ['Publicação (catálogo)', d.publicacaoCatalogo]];
+  const quadro = linhas.map(([k, v]) => `${k.padEnd(26)} ${br(v)}`).join('\n');
+  const arquivoCoerente = d.cabecalho && d.fecho && d.cabecalho === d.fecho;
+  let instrucao;
+  if (arquivoCoerente && d.catalogo && d.cabecalho !== d.catalogo) instrucao = 'O cabeçalho e o fecho do arquivo concordam entre si; só o catálogo da fonte difere. Em regra o arquivo é o que vale para o texto, mas a decisão é sua: se o catálogo estiver certo e o arquivo errado, marque "defeito de fonte".';
+  else if (d.cabecalho && d.fecho && !arquivoCoerente) instrucao = 'O cabeçalho e o fecho do arquivo também divergem entre si (pode ser promulgação em data posterior). Confira no original qual é a data da norma.';
+  else instrucao = 'Confira no original qual é a data da norma.';
+  if (d.catalogo && d.publicacaoCatalogo && d.catalogo > d.publicacaoCatalogo) instrucao += ' Atenção: no catálogo a data da norma é POSTERIOR à data de publicação, o que é incoerente.';
+  return { quadro, instrucao };
+}
+/** Ficha do arquivo para decidir rápido se é capa, placeholder, aviso ou anexo (nada é inventado: só o que o catálogo e o arquivo dizem). */
+export function fichaDoArquivo(a) {
+  const nome = a.nome || '—';
+  const parecAnexo = /anexo|mapa|tabela|quadro|planta/i.test(nome);
+  const ficha = [`Arquivo:    ${nome}${parecAnexo ? '   [o nome sugere ANEXO]' : ''}`, `Tamanho:    ${a.caracteres ?? '—'} caracteres, ${a.linhas ?? '—'} linhas`, `Extração:   ${a.metodo || '—'}`, `Ementa no catálogo: ${a.ementa ? a.ementa : '—'}`, ...(a.outrosLinks?.length ? ['Outros links na observação do catálogo:', ...a.outrosLinks.map((l) => '  ' + l)] : [])].join('\n');
+  const instrucao = (a.caracteres != null && a.caracteres < 800 ? 'O arquivo é muito curto: provavelmente capa, placeholder ou aviso, sem corpo de lei. ' : '') + (parecAnexo ? 'O nome sugere anexo (mapa, tabela ou quadro): anexo complexo será tratado à parte. ' : '') + 'Compare a ementa do catálogo com o início do arquivo; se o arquivo não é o texto da norma, marque "defeito de fonte".';
+  return { ficha, instrucao };
 }
 
 /** Roteiro genérico: norma sem nenhum ponto marcado e sem roteiro específico. */

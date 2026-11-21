@@ -19,6 +19,7 @@ import { lerJsonl, agora } from './sapl-io.mjs';
 import { epocaDaNorma } from './estrutura.mjs';
 import { prepararTextoExtraido } from './extracao-texto.mjs';
 import { ancorarConferencia } from './revisao-ancoras.mjs';
+import { dataDoFecho } from './revisao.mjs';
 import { descreverComandos, fonteDoRegistroCatalogo, TIPO_ATO_DO_CATALOGO } from './revisao-comandos.mjs';
 import { chaveLei } from '../norma-core.js';
 
@@ -75,6 +76,10 @@ for (const f of (await readdir(DIR_EST)).filter((f) => /^\d+\.json$/.test(f))) {
     motivos: reg.verificacao.motivos, avisos: reg.verificacao.avisos, urlFonte,
     ...(textosIguais[reg.idSapl] ? { textoIgualA: textosIguais[reg.idSapl] } : {}),
     sha256Origem: reg.sha256Origem, versaoEstruturador: reg.versaoEstruturador,
+    contexto: {
+      datas: { catalogo: cat.data || null, cabecalho: reg.cabecalho?.data || null, fecho: dataDoFecho(reg.fecho), publicacaoCatalogo: cat.dataPublicacao || null },
+      arquivo: { nome: decodeURIComponent((urlFonte || '').split('/').pop() || ''), caracteres: a.texto.length, linhas: a.texto.split('\n').length, metodo: reg.verificacao.avisos.includes('texto_de_ocr') ? 'OCR (digitalização)' : 'camada de texto', ementa: String(cat.ementa || '').replace(/\s+/g, ' ').slice(0, 280), outrosLinks: [...new Set(String(cat.observacao || '').match(/https?:[^\s"'<>]+/g) || [])].filter((l) => l !== urlFonte).slice(0, 4) },
+    },
     resumo: a.resumo, texto: a.texto, dispositivos, especiais, lacunas: a.lacunas.filter((l) => !l.esperada),
   };
   // fronteiras de bloco INFERIDAS (sem aspa de fechamento ou de abertura): deslocamentos no texto base da página
