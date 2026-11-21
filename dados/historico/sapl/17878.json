@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T09:25:21.313Z",
+ "geradoEm": "2026-11-21T15:58:01.530Z",
  "idSapl": 17878,
  "rotulo": "Lei Complementar municipal nº 12, de 07 de janeiro de 1975",
  "baseConferida": false,
@@ -358,7 +358,7 @@
     "idSapl": 44276,
     "rotulo": "Lei Complementar municipal nº 952, de 13 de setembro de 2022"
    },
-   "comandosAplicados": 2
+   "comandosAplicados": 1
   },
   {
    "indice": 36,
@@ -378,7 +378,7 @@
     "idSapl": 51463,
     "rotulo": "Lei Complementar municipal nº 1.074, de 09 de julho de 2026"
    },
-   "comandosAplicados": 103
+   "comandosAplicados": 124
   },
   {
    "indice": 38,
@@ -809,15 +809,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
-     }
     }
    ]
   },
@@ -836,12 +827,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "efetuar escavações, remover ou alterar a pavimentação, elevar ou rebaixar o pavimento, passeios ou meio-fio, sem a prévia licença do Município, sujeitando-se à multa de 500 (quinhentas) a 1.500 (mil e quinhentas) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -861,12 +852,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "fazer ou lançar condutos ou passagens de qualquer natureza, de superfície, subterrânea ou elevada, ocupando ou utilizando vias ou logradouros públicos, sem autorização expressa do Município, sujeitando-se à multa de 1.024 (mil e vinte e quatro) a 2.000 (duas mil) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -886,12 +877,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "obstruir ou concorrer, direta ou indiretamente, para a obstrução de valos, calhas, bueiros, ou bocas de lobo, ou impedir, por qualquer forma, o escoamento das águas, sujeitando-se à multa de 1.024 (mil e vinte e quatro) a 2.000 (duas mil) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -918,15 +909,6 @@
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 832/2018"
      }
-    },
-    {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
-     }
     }
    ]
   },
@@ -942,15 +924,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
      }
     }
    ]
@@ -977,15 +950,6 @@
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 832/2018"
      }
-    },
-    {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
-     }
     }
    ]
   },
@@ -1004,12 +968,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "deixar cair água de aparelhos de ar-condicionado sobre os passeios, sujeitando-se à multa de 170 (cento e setenta) a 500 (quinhentas) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1029,12 +993,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "efetuar reparos em veículos e substituição de pneus, excetuando-se os casos de emergência, bem como troca de óleo e lavagem, sujeitando-se à multa de 170 (cento e setenta) a 500 (quinhentas) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1072,12 +1036,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "embaraçar ou impedir, por qualquer meio, o livre trânsito de pedestres ou veículos nos logradouros públicos, bem como usar correntes ou artefatos de proteção nos canteiros centrais das vias públicas e nos equipamentos públicos referidos na Lei nº 13.741, de 24 de novembro de 2023, sujeitando-se à multa de 1.000 (mil) a 100.000 (cem mil) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1097,12 +1061,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "utilizar escadas, balaústres de escadas, balcões ou janelas com frente para a via pública, para secagem de roupa ou para colocação de vasos, floreiras ou quaisquer outros objetos que apresentem perigo para os transeuntes, sujeitando-se à multa de 150 (cento e cinquenta) a 250 (duzentas e cinquenta) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1119,15 +1083,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
      }
     }
    ]
@@ -1154,15 +1109,6 @@
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 832/2018"
      }
-    },
-    {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
-     }
     }
    ]
   },
@@ -1181,12 +1127,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "colocar mesas, cadeiras, bancas ou quaisquer outros objetos ou mercadorias, qualquer que seja a finalidade, excetuando-se os casos regulados por legislação específica, desde que previamente autorizados pelo Município, sujeitando-se à multa de 500 (quinhentas) a 1.000 (mil) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1206,12 +1152,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "colocar marquises ou toldos sobre os passeios, qualquer que seja o material empregado, sem prévia autorização do Município, sujeitando-se à multa de 500 (quinhentas) a 1.500 (mil e quinhentas) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1238,15 +1184,6 @@
       "operacao": "revoke_node",
       "lei": "Lei Complementar nº 620/2009"
      }
-    },
-    {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
-     }
     }
    ]
   },
@@ -1265,12 +1202,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "estacionar, por mais de 24h (vinte e quatro horas) seguidas, veículos equipados para atividade comercial, sujeitando-se à multa 500 (quinhentas) a 1.500 (mil e quinhentas) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1290,12 +1227,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "estacionar veículos sobre passeios e em áreas verdes, fora dos locais permitidos em parques, jardins ou praças, sujeitando-se à multa de 500 (quinhentas) a 1.000 (mil) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1315,12 +1252,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "capturar aves ou peixes nos parques, praças ou jardins, sujeitando-se à multa de 150 (cento e cinquenta) a 300 (trezentas) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1340,12 +1277,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "derrubar, podar, remover ou danificar árvores e quaisquer outras espécies de vegetais nos logradouros públicos, sujeitando-se à multa de 500 (quinhentas) a 1.500 (mil e quinhentas) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1381,15 +1318,6 @@
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 832/2018"
      }
-    },
-    {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
-     }
     }
    ]
   },
@@ -1408,12 +1336,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "utilizar os logradouros públicos para a prática de jogos ou desportos, fora dos locais determinados em praças ou parques; exclui-se da proibição a realização de competições esportivas, desde que com local ou itinerários predeterminados e autorizados pelo Município, sujeitando-se à multa de 100 (cem) a 300 (trezentas) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1433,12 +1361,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "praticar desportos, nos balneários, fora dos locais determinados, sujeitando-se à multa de 80 (oitenta) a 300 (trezentas) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1458,12 +1386,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "utilizar ou retirar, para qualquer finalidade, água das fontes, piscinas ou espelhos d’água localizados em logradouros públicos, sujeitando-se à multa de 50 (cinquenta) a 250 (duzentas e cinquenta) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1483,12 +1411,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "retirar areia das margens dos rios e arroios, fazer escavações, lançar condutos de águas servidas ou afluente cloacal ou detritos de qualquer natureza nas praias, sujeitando-se à multa de 1.250 (mil duzentas e cinquenta) a 3.000 (três mil) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1508,12 +1436,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "banhar animais ou lavar veículos nas zonas de balneários, sujeitando-se à multa de 50 (cinquenta) a 300 (trezentas) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1533,12 +1461,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "soltar balões, com mecha acesa, em toda a extensão do Município, sujeitando-se à multa de 500 (quinhentas) a 800 (oitocentas) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1555,15 +1483,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
      }
     }
    ]
@@ -1589,15 +1508,6 @@
      "origem": {
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 900/2021"
-     }
-    },
-    {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
      }
     }
    ]
@@ -1626,12 +1536,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "causar dano a bem do patrimônio público municipal, sujeitando-se à multa de 1.000 (mil) a 100.000 (cem mil) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1658,15 +1568,6 @@
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 642/2010"
      }
-    },
-    {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
-     }
     }
    ]
   },
@@ -1691,15 +1592,6 @@
      "origem": {
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 590/2008"
-     }
-    },
-    {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
      }
     }
    ]
@@ -1726,15 +1618,6 @@
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 590/2008"
      }
-    },
-    {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
-     }
     }
    ]
   },
@@ -1760,15 +1643,6 @@
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 620/2009"
      }
-    },
-    {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
-     }
     }
    ]
   },
@@ -1788,12 +1662,12 @@
      }
     },
     {
-     "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "desde": 37,
+     "texto": "urinar ou defecar, sujeitando-se à multa de 150 (cento e cinquenta) UFMs a 500 (quinhentas) UFMs;",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 952/2022"
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.074/2026"
      }
     }
    ]
@@ -1806,10 +1680,10 @@
    "estados": [
     {
      "desde": 35,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
+     "texto": "acender fogo fora dos locais determinados, excetuados aqueles para fins gastronômicos e culturais.",
+     "situacao": "vigente",
      "origem": {
-      "operacao": "revoke_node",
+      "operacao": "insert_node",
       "lei": "Lei Complementar nº 952/2022"
      }
     }
@@ -9857,11 +9731,20 @@
   },
   {
    "alteradora": {
+    "idSapl": 44276,
+    "rotulo": "Lei Complementar municipal nº 952, de 13 de setembro de 2022"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
+  },
+  {
+   "alteradora": {
     "idSapl": 46833,
     "rotulo": "Lei Complementar municipal nº 983, de 21 de julho de 2023"
    },
    "motivo": "comando_recusado",
-   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 554, de 11 de julho de 2006\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"554\",\"ano\":\"2006\",\"chave\":\"lc 554/2006\"}, versão: lc 12/1975) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 876, de 3 de março de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"876\",\"ano\":\"2020\",\"chave\":\"lc 876/2020\"}, versão: lc 12/1975) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 876, de 3 de março de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"876\",\"ano\":\"2020\",\"chave\":\"lc 876/2020\"}, versão: lc 12/1975) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 876, de 3 de março de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"876\",\"ano\":\"2020\",\"chave\":\"lc 876/2020\"}, versão: lc 12/1975) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 876, de 3 de março de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"876\",\"ano\":\"2020\",\"chave\":\"lc 876/2020\"}, versão: lc 12/1975) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 876, de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"876\",\"ano\":\"2020\",\"chave\":\"lc 876/2020\"}, versão: lc 12/1975) | operação \"revoke_lei\" não gera alteração na árvore desta lei",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 554, de 11 de julho de 2006\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"554\",\"ano\":\"2006\",\"chave\":\"lc 554/2006\"}, versão: lc 12/1975) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 876, de 3 de março de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"876\",\"ano\":\"2020\",\"chave\":\"lc 876/2020\"}, versão: lc 12/1975) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 876, de 3 de março de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"876\",\"ano\":\"2020\",\"chave\":\"lc 876/2020\"}, versão: lc 12/1975) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 876, de 3 de março de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"876\",\"ano\":\"2020\",\"chave\":\"lc 876/2020\"}, versão: lc 12/1975) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 876, de 3 de março de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"876\",\"ano\":\"2020\",\"chave\":\"lc 876/2020\"}, versão: lc 12/1975) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 876, de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"876\",\"ano\":\"2020\",\"chave\":\"lc 876/2020\"}, versão: lc 12/1975) | operação \"indeterminado\" não gera alteração na árvore desta lei",
    "enderecos": [
     "art-1-A",
     "art-4",
@@ -9887,29 +9770,8 @@
     "rotulo": "Lei Complementar municipal nº 1.074, de 09 de julho de 2026"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "endereço \"inc. i do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. ii do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. iii do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. vii do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. viii do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. ix do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. x do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. xiii do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. xiv do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. xvi do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. xvii do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. xviii do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. xix do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. xxi do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. xxii do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. xxiii do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. xxiv do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. xxv do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. xxvi do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. xxix do art. 18\" está revogado — não pode ser alvo de replace_text | endereço \"inc. xxxi do art. 18\" está revogado — não pode ser alvo de replace_text | endereço-pai \"parágrafo único do art. 22\" não encontrado — não é possível inserir \"inc. i do parágrafo único do art. 22\" | endereço-pai \"parágrafo único do art. 22\" não encontrado — não é possível inserir \"inc. ii do parágrafo único do art. 22\" | endereço-pai \"parágrafo único do art. 22\" não encontrado — não é possível inserir \"inc. iii do parágrafo único do art. 22\" | endereço-pai \"art. 29-a\" não encontrado — não é possível inserir \"§ 3º do art. 29-a\" | endereço-pai \"§ 1º do art. 29-d\" não encontrado — não é possível inserir \"inc. ii do § 1º do art. 29-d\" | endereço-pai \"§ 1º do art. 29-d\" não encontrado — não é possível inserir \"inc. iii do § 1º do art. 29-d\" | endereço-pai \"§ 1º do art. 29-d\" não encontrado — não é possível inserir \"inc. iv do § 1º do art. 29-d\"",
+   "detalhe": "endereço-pai \"parágrafo único do art. 22\" não encontrado — não é possível inserir \"inc. i do parágrafo único do art. 22\" | endereço-pai \"parágrafo único do art. 22\" não encontrado — não é possível inserir \"inc. ii do parágrafo único do art. 22\" | endereço-pai \"parágrafo único do art. 22\" não encontrado — não é possível inserir \"inc. iii do parágrafo único do art. 22\" | endereço-pai \"art. 29-a\" não encontrado — não é possível inserir \"§ 3º do art. 29-a\" | endereço-pai \"§ 1º do art. 29-d\" não encontrado — não é possível inserir \"inc. ii do § 1º do art. 29-d\" | endereço-pai \"§ 1º do art. 29-d\" não encontrado — não é possível inserir \"inc. iii do § 1º do art. 29-d\" | endereço-pai \"§ 1º do art. 29-d\" não encontrado — não é possível inserir \"inc. iv do § 1º do art. 29-d\"",
    "enderecos": [
-    "art-18/inc-I",
-    "art-18/inc-II",
-    "art-18/inc-III",
-    "art-18/inc-VII",
-    "art-18/inc-VIII",
-    "art-18/inc-IX",
-    "art-18/inc-X",
-    "art-18/inc-XIII",
-    "art-18/inc-XIV",
-    "art-18/inc-XVI",
-    "art-18/inc-XVII",
-    "art-18/inc-XVIII",
-    "art-18/inc-XIX",
-    "art-18/inc-XXI",
-    "art-18/inc-XXII",
-    "art-18/inc-XXIII",
-    "art-18/inc-XXIV",
-    "art-18/inc-XXV",
-    "art-18/inc-XXVI",
-    "art-18/inc-XXIX",
-    "art-18/inc-XXXI",
     "art-22/par-unico/inc-I",
     "art-22/par-unico/inc-II",
     "art-22/par-unico/inc-III",
@@ -9984,86 +9846,6 @@
   {
    "id": "art-15/par-unico",
    "desde": "2025-12-22"
-  },
-  {
-   "id": "art-18/inc-I",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-II",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-III",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-VII",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-VIII",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-IX",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-X",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-XIII",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-XIV",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-XVI",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-XVII",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-XVIII",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-XIX",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-XXI",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-XXII",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-XXIII",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-XXIV",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-XXV",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-XXVI",
-   "desde": "2026-07-09"
-  },
-  {
-   "id": "art-18/inc-XXIX",
-   "desde": "2026-07-09"
   },
   {
    "id": "art-21",
@@ -10184,10 +9966,6 @@
   {
    "id": "art-91-A/par-5",
    "desde": "2002-01-02"
-  },
-  {
-   "id": "art-18/inc-XXXI",
-   "desde": "2026-07-09"
   },
   {
    "id": "art-91-A/par-6",

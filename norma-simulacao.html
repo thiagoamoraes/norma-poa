@@ -2109,6 +2109,17 @@ export function extrairComandosLei(docAlteradora, opts) {
 
     if (RE_GATILHO_REVOGACAO.test(textoIntro)) {
       const citsDispositivo = extrairCitacoesExternas(textoIntro);
+      // Decisão 45: endereço com nível que o motor não entende ("al.", "incs.", "§§", "arts.", "caput", "item", Capítulo/Seção…)
+      // nunca vira revogação do artigo/inciso inteiro. Tira do texto o que as citações reconhecidas consumiram; se do verbo até a
+      // primeira lei citada sobrar palavra de endereço, a citação é incompleta. (ids 44276, 38944, 51556, 50842, 38695, 46833)
+      {
+        let resto = textoIntro.slice(Math.max(0, textoIntro.search(RE_GATILHO_REVOGACAO)));
+        citsDispositivo.forEach(c => { resto = resto.replace(c.raw, " "); });
+        const iLei = resto.search(/\b(?:Lei|Decreto|Emenda|Resolu[çc][ãa]o)\b/);
+        if (iLei >= 0) resto = resto.slice(0, iLei);
+        if (/(?:\b(?:arts|incs|als?|caput|itens?|cap[íi]tulos?|se[çc][ãa]o|se[çc][õo]es|subse[çc][ãa]o|t[íi]tulos?)\b|§§)/i.test(resto)) citsDispositivo.forEach(c => { c.incompleta = true; });
+        if (!citsDispositivo.length && /\b(?:cap[íi]tulos?|se[çc][ãa]o|se[çc][õo]es|subse[çc][ãa]o|t[íi]tulos?)\b/i.test(resto)) citsDispositivo.push({ raw: resto.trim(), chave: "", incompleta: true });
+      }
       if (citsDispositivo.some(c => c.incompleta)) {
         // não age sobre endereço parcialmente ilegível: o motor nunca chuta o dispositivo revogado
         comandos.push({ artigoOrigem: i+1, operacao: "indeterminado",
