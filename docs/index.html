@@ -265,7 +265,7 @@ function maisResultados() {
   for (let i = mostradas; i < ate; i++) {
     if (modoTexto) {
       const { n, d } = filtradas[i];
-      html.push(`<li tabindex="0" data-id="${n[0]}" data-d="${esc(d[1])}"><div class="rot">${esc(citarId(d[1]))} <span class="de">— ${esc(rotulo(n))}</span></div><div class="em tx">${trecho(d[2], consultaAtual)}</div></li>`);
+      html.push(`<li tabindex="0" data-id="${n[0]}" data-d="${esc(d[1])}"><div class="rot">${esc(citarId(d[1]))}${/^anexo/.test(d[1]) ? ' <span class="de">(anexo)</span>' : ''} <span class="de">— ${esc(rotulo(n))}</span></div><div class="em tx">${trecho(d[2], consultaAtual)}</div></li>`);
       continue;
     }
     const n = filtradas[i];
@@ -380,8 +380,11 @@ function montarHistorico(h, n) {
   // Anexo alterado por norma posterior (decisão 37): o motor não apura anexos; só avisa, com a norma e a data.
   const anexoAlterado = (h.anexosAlterados || []).length
     ? `<div class="estado al"><strong>Anexo alterado.</strong> ${h.anexosAlterados.map((x) => `A ${esc(x.alteradora.rotulo.replace(/ municipal/, ''))} (art. ${x.artigo}, ${dataBr(x.data)}) altera anexo desta lei`).join('; ')}. O texto vigente apurado abaixo <strong>não traz o anexo</strong>; confira o anexo no original.</div>` : '';
+  // Anexo(s) do arquivo original que o texto vigente apurado não traz (decisão 49)
+  const anexoNoOriginal = (h.anexosNoOriginal || []).length
+    ? `<div class="estado al"><strong>Anexo no original.</strong> Esta lei tem ${h.anexosNoOriginal.length === 1 ? 'um anexo' : h.anexosNoOriginal.length + ' anexos'} no original (${esc(h.anexosNoOriginal.slice(0, 6).map((x) => x.rotulo).join(', '))}${h.anexosNoOriginal.length > 6 ? '…' : ''}); o texto vigente apurado abaixo não os traz. Confira na fonte.</div>` : '';
   const base = h.baseConferida === false ? '<div class="estado al">A leitura automática do texto ORIGINAL desta lei não passou em todas as conferências; o histórico abaixo parte dele e pode trazer o mesmo defeito.</div>' : '';
-  corpo.innerHTML = `${pend}${anexoAlterado}${base}<div class="controles"><label>Versão <select id="versao">${opcoes}</select></label><label class="caixa"><input type="checkbox" id="marcar" checked> Destacar o que esta versão mudou</label><label class="caixa"><input type="checkbox" id="antigas"> Mostrar redações anteriores</label></div><div id="hist-corpo"></div>
+  corpo.innerHTML = `${pend}${anexoAlterado}${anexoNoOriginal}${base}<div class="controles"><label>Versão <select id="versao">${opcoes}</select></label><label class="caixa"><input type="checkbox" id="marcar" checked> Destacar o que esta versão mudou</label><label class="caixa"><input type="checkbox" id="antigas"> Mostrar redações anteriores</label></div><div id="hist-corpo"></div>
 <details id="minuta"><summary>Redigir lei alteradora (piloto)</summary>
 <p class="vazio">Monta, na forma da LC 611/2009, o projeto que altera esta lei a partir do <strong>texto vigente apurado</strong>. O texto novo é seu; a ferramenta só dá a forma (artigo alterador, aspas, linha pontilhada, "(NR)", numeração) e confere se o resultado é lido de volta como você pediu. Não substitui a revisão.</p>
 <div class="form">
@@ -448,6 +451,7 @@ async function abrir(id, rolar, idDisp) {
   for (const x of e.dispositivos) {
     for (const g of x.agrupadores || []) partes.push(`<div class="grupo">${esc(GRUPO[g.tipo] || g.tipo)} ${esc(g.numero)}${g.titulo ? '<br>' + esc(g.titulo) : ''}</div>`);
     partes.push(`<div class="disp n${NIVEL(x.id)}${x.vetado ? ' vet' : ''}${x.revogado ? ' rev' : ''}" id="d-${esc(x.id)}"><span class="r" data-ref="${esc(x.id)}" title="Copiar a referência a este dispositivo">${esc(x.rotulo || '')}</span><span class="t">${esc(x.texto)}</span></div>`);
+    if (x.tipo === 'anexo') partes.push(`<div class="estado al" style="margin:.2rem 0 .8rem">${x.semTexto ? 'Anexo gráfico (mapa, planta ou imagem): não lido aqui; veja no original.' : 'Anexo preservado, não interpretado; pode estar fora de formato. Veja no original.'}</div>`);
     if (x.blocoDeAlteracao) partes.push(`<div class="bloco">${esc(x.blocoDeAlteracao)}</div>`);
   }
   if (e.fecho) partes.push(`<div class="fecho">${esc(e.fecho)}</div>`);

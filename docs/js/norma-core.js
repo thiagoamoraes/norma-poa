@@ -1728,6 +1728,127 @@ export function extrairCitacoesExternas(texto) {
   return out;
 }
 
+// ─── REVOGAÇÃO NO PLURAL: gramática dos objetos (decisões 43, 45–48) ──────────
+/**
+ * interpretarObjetosRevogados(frase) → { ok, chaves[], intervalos[] } | { ok:false, codigo, motivo }
+ *
+ * `frase` = o trecho entre o verbo ("Ficam revogados") e a primeira lei citada, SEM a lei: "os arts. 59, 60, 61 e 62",
+ * "os §§ 1º e 2º do art. 165", "o § 4º do art. 45 e o art. 47", "o inc. VIII e o § 8º do art. 1º".
+ * Gramática fechada, tudo ou nada: cada objeto é uma cadeia "nível [do nível]*" (alínea < inciso < § < artigo); só o nível
+ * mais interno pode ser plural; "caput" só vale como passagem ("inc. IV do caput do art. 21"); objeto sem artigo herda o
+ * artigo do objeto seguinte. Qualquer sobra (item, Capítulo, Anexo, Tabela, "com seus", "todos"…) → falha com motivo, e o
+ * extrator emite `indeterminado`: o motor nunca chuta o dispositivo revogado. Intervalo ("arts. 43 a 61") devolve em
+ * `intervalos` ({ nivel, de, ate, pai }) para quem tiver a lei-alvo expandir; sem ela, é motivo de falha do chamador.
+ * As chaves saem no formato do motor ("art. 59", "§ 1º do art. 165", "inc. viii do art. 1º", "al. i) do inc. v do art. 13").
+ */
+export function interpretarObjetosRevogados(frase) {
+  const falha = (codigo, motivo) => ({ ok: false, codigo, motivo });
+  const f = String(frase || "").replace(/[“”"]/g, "").replace(/\s+/g, " ").trim().replace(/[,;:.]+$/, "").replace(/\s+d[oa]s?$/i, "").replace(/,?\s*todos?$|,?\s*todas?$/i, "").trim();
+  if (!f) return falha("revogacao_lista_nao_interpretada", "não há objeto de revogação reconhecível na frase");
+  if (/\b(?:anexos?|tabelas?|quadros?|planilhas?|mapas?)\b/i.test(f)) return falha("revogacao_de_anexo_ou_tabela", "revogação de anexo, tabela ou quadro: o motor não interpreta");
+  if (/\bdecretos?\b/i.test(f)) return falha("revogacao_de_ato_fora_do_acervo", "revogação de decreto ou outro ato fora do acervo de leis");
+  if (/\b(?:cap[íi]tulos?|se[çc][ãa]o|se[çc][õo]es|subse[çc][ãa]o|t[íi]tulos?|todos|todas|inteiro\s+teor|na\s+parte|naquilo|e\s+seguintes|com\s+seus|com\s+suas|e\s+seus|e\s+suas)\b/i.test(f))
+    return falha("revogacao_caput_ou_agrupador", "revogação de caput isolado, capítulo, seção, título ou \"com seus…\": decisão humana");
+  const partes = f.split(/\s*(?:,|\se)\s+(?=(?:o|a|os|as)\s+(?:arts?\b|artigos?\b|§|incs?\b|incisos?\b|als?\b|al[íi]neas?\b|par[áa]grafos?\b|caput\b|itens?\b|item\b))/i);
+  const objetos = [];
+  const lab = {
+    art: /^\d+\s*[º°o]?(?:\s*-\s*[A-Za-z])?$/, par: /^\d+\s*[º°o]?(?:\s*-\s*[A-Za-z])?$/,
+    inc: /^[IVXLCDM]{1,7}(?:\s*-\s*[A-Za-z])?$/i, al: /^[a-z]{1,2}\)?$/i
+  };
+  const norma = (k, s) => { let x = s.trim().replace(/\s+/g, "").replace(/°/g, "º").toLowerCase(); if (k === "art" || k === "par") x = x.replace(/^(\d+)o$/, "$1º"); if (k === "al" && !x.endsWith(")")) x += ")"; return x; };
+  for (const parte of partes) {
+    const segs = parte.replace(/^(?:o|a|os|as)\s+/i, "").split(/\s+d[oa]s?\s+/i);
+    const cadeia = [];
+    for (let k = 0; k < segs.length; k++) {
+      const m = /^(artigos?|arts?|§§|§|incisos?|incs?|al[íi]neas?|als?|par[áa]grafos?\s+[úu]nico|par[áa]grafos?|caput|itens?)\.?\s*(.*)$/i.exec(segs[k].trim());
+      if (!m) return falha("revogacao_lista_nao_interpretada", `trecho de endereço não reconhecido: "${segs[k].trim().slice(0, 60)}"`);
+      const w = m[1].toLowerCase().replace(/\s+/g, " ");
+      let nivel = /^art/.test(w) ? "art" : /^(§|par)/.test(w) ? (/único|unico/.test(w) ? "parunico" : "par") : /^inc/.test(w) ? "inc" : /^al/.test(w) ? "al" : w === "caput" ? "caput" : "item";
+      const plural = /^(arts|artigos|§§|incs|incisos|als|al[íi]neas|par[áa]grafos)$/.test(w.replace(/\s.*/, ""));
+      if (nivel === "item") return falha("revogacao_lista_nao_interpretada", "revogação de item: o motor não interpreta");
+      if (nivel === "caput" || nivel === "parunico") {
+        if (m[2].trim()) return falha("revogacao_lista_nao_interpretada", `sobra após "${w}": "${m[2].trim().slice(0, 40)}"`);
+        cadeia.push({ nivel, rotulos: [] }); continue;
+      }
+      const L = m[2].trim();
+      if (!L) return falha("revogacao_lista_nao_interpretada", `"${w}" sem rótulo`);
+      const mr = /^(.+?)\s+(?:a|ao|at[ée])\s+(?:o\s+)?(.+)$/i.exec(L);
+      if (mr && !/[,]/.test(L) && !/\se\s/i.test(L)) {
+        if (!plural || k > 0) return falha("revogacao_lista_nao_interpretada", "intervalo fora do nível mais interno");
+        if (!lab[nivel].test(mr[1].trim()) || !lab[nivel].test(mr[2].trim())) return falha("revogacao_lista_nao_interpretada", `intervalo ilegível: "${L}"`);
+        cadeia.push({ nivel, intervalo: [norma(nivel, mr[1]), norma(nivel, mr[2])] }); continue;
+      }
+      const rot = L.split(/\s*,\s*e\s+|\s*,\s*|\s+e\s+/i).filter(Boolean);
+      if (!rot.length || rot.some((r) => !lab[nivel].test(r.trim()))) return falha("revogacao_lista_nao_interpretada", `rótulo ilegível em "${segs[k].trim().slice(0, 60)}"`);
+      if (rot.length > 1 && (!plural || k > 0)) return falha("revogacao_lista_nao_interpretada", "lista de rótulos fora do nível mais interno");
+      cadeia.push({ nivel, rotulos: rot.map((r) => norma(nivel, r)) });
+    }
+    if (cadeia[0].nivel === "caput") return falha("revogacao_caput_ou_agrupador", "revogação de caput isolado: decisão humana");
+    const RANK = { al: 1, inc: 2, par: 3, parunico: 3, art: 4 };
+    const util = [];
+    for (let k = 0; k < cadeia.length; k++) {
+      if (cadeia[k].nivel === "caput") { if (!(k > 0 && ["inc", "al"].includes(cadeia[k - 1].nivel))) return falha("revogacao_caput_ou_agrupador", "\"caput\" fora de lugar"); continue; }
+      util.push(cadeia[k]);
+    }
+    for (let k = 1; k < util.length; k++) if (RANK[util[k].nivel] <= RANK[util[k - 1].nivel]) return falha("revogacao_lista_nao_interpretada", "ordem de níveis do endereço inesperada");
+    objetos.push(util);
+  }
+  // âncora herdada: objeto sem artigo usa o artigo do objeto seguinte ("o inc. VIII e o § 8º do art. 1º")
+  for (let i = objetos.length - 1; i >= 0; i--) {
+    const o = objetos[i];
+    if (o[o.length - 1].nivel === "art") continue;
+    const prox = objetos[i + 1];
+    const art = prox && prox[prox.length - 1].nivel === "art" ? prox[prox.length - 1] : null;
+    if (!art || art.rotulos.length !== 1) return falha("revogacao_lista_nao_interpretada", "objeto sem artigo e sem artigo do objeto seguinte para herdar");
+    o.push(art);
+  }
+  const chaves = [], intervalos = [];
+  for (const o of objetos) {
+    for (let k = 0; k < o.length; k++) {
+      const seg = o[k], seguinte = o[k + 1];
+      if (seg.nivel === "al" && !(seguinte && seguinte.nivel === "inc")) return falha("revogacao_lista_nao_interpretada", "alínea sem o inciso a que pertence");
+      if (seg.nivel === "inc" && !(seguinte && ["par", "parunico", "art"].includes(seguinte.nivel))) return falha("revogacao_lista_nao_interpretada", "inciso sem o artigo ou parágrafo a que pertence");
+      if (k > 0 && (seg.rotulos || []).length > 1) return falha("revogacao_lista_nao_interpretada", "lista de rótulos fora do nível mais interno");
+    }
+    const txt = (s, r) => ({ art: `art. ${r}`, par: `§ ${r}`, parunico: "parágrafo único", inc: `inc. ${r}`, al: `al. ${r}` })[s.nivel];
+    const pai = o.slice(1).map((s) => txt(s, (s.rotulos || [])[0])).join(" do ");
+    const ini = o[0];
+    if (ini.intervalo) { intervalos.push({ nivel: ini.nivel, de: ini.intervalo[0], ate: ini.intervalo[1], pai }); continue; }
+    const rots = ini.nivel === "parunico" ? [null] : ini.rotulos;
+    for (const r of rots) chaves.push([txt(ini, r), pai].filter(Boolean).join(" do "));
+  }
+  // um ancestral basta: o filho dele daria "já revogado"
+  const unicas = [...new Set(chaves)].filter((k) => !chaves.some((a) => a !== k && k.endsWith(" do " + a)));
+  return { ok: true, chaves: unicas, intervalos };
+}
+
+/**
+ * expandirIntervaloNaBase(intervalo, leiBaseIndex) → chaves[] | null   (decisão 47)
+ * `intervalo` = { nivel, de, ate, pai } (saída de interpretarObjetosRevogados). Devolve as chaves da lei-base, na ordem do texto,
+ * do mesmo nível e do mesmo pai, entre os dois extremos (inclusive; inclui "-A"). Extremo que não existe na base → null
+ * (o chamador emite `indeterminado`): o motor nunca inventa o intervalo.
+ */
+export function expandirIntervaloNaBase(intervalo, leiBaseIndex) {
+  const nl = (k) => String(k).toLowerCase().replace(/[º°]/g, "").replace(/\s+/g, " ").trim();
+  const pref = { art: "art. ", par: "§ ", inc: "inc. ", al: "al. " }[intervalo.nivel];
+  if (!pref || !leiBaseIndex) return null;
+  const pai = nl(intervalo.pai || "");
+  const cand = [];
+  for (const k of Object.keys(leiBaseIndex)) {
+    const n = nl(k);
+    if (!n.startsWith(pref)) continue;
+    let rot;
+    if (pai) { if (!n.endsWith(" do " + pai)) continue; rot = n.slice(pref.length, n.length - (" do " + pai).length); }
+    else { if (n.includes(" do ")) continue; rot = n.slice(pref.length); }
+    if (!rot || rot.includes(" do ")) continue;
+    cand.push({ k, rot: rot.replace(/\)$/, "") });
+  }
+  const norm = (r) => nl(r).replace(/\)$/, "");
+  const i = cand.findIndex((x) => x.rot === norm(intervalo.de)), j = cand.findIndex((x) => x.rot === norm(intervalo.ate));
+  if (i < 0 || j < 0 || j < i) return null;
+  return cand.slice(i, j + 1).map((x) => x.k);
+}
+
 // ─── PEÇA 2: RESOLVEDOR DE REFERÊNCIA INTERLEGISLATIVA ────────────────────────
 /**
  * chaveLei(tipoAto, numero, ano) → "lc 320/1994"
@@ -1984,6 +2105,8 @@ export function enderecarNrBloco(nrBloco, enderecoBase) {
 // Só o VERBO: em JS o "ç" não é caractere de palavra, então `\b` depois de "revoga" casava o substantivo
 // "revogação" ("Ocorrendo a revogação do parcelamento…") e emitia revoke_node falso (rodada 30).
 const RE_GATILHO_REVOGACAO   = /\brevoga(m|da|do|-se)?(?![A-Za-zÀ-ÿ])/i;
+// Verbo NO INÍCIO do artigo (plural "revogados/revogadas" incluído): só estas formas entram na gramática de revogação plural.
+const RE_REVOGACAO_ANCORADA = /^\s*(?:Ficam?\s+(?:ainda\s+|expressamente\s+)?revogad(?:os|as|o|a)|Revogam?[\s\-–—]*se)(?![A-Za-zÀ-ÿ])/i;
 const RE_GATILHO_INSERCAO    = /\bacrescent\w*|\bfica(m)?\s+acrescid\w*|\binclu(i|em|ído|ída)\w*/i;
 const RE_GATILHO_SUBSTITUICAO = /passa\s+a\s+(ter\s+a\s+seguinte\s+reda[çc][ãa]o|vigorar)|d[áa]\s+nova\s+reda[çc][ãa]o|nova\s+reda[çc][ãa]o/i;
 
@@ -2090,8 +2213,106 @@ export function extrairComandosLei(docAlteradora, opts) {
       return;
     }
 
+
+    // Revogação NO PLURAL ou em lista, com verbo no início do artigo ("Ficam revogados os arts. 59 e 60 da Lei X", "Revogam-se os §§ 1º e 2º…",
+    // "Ficam revogados, na Lei X:" + incisos): gramática fechada (decisões 43 e 45–48). O gatilho antigo não é alargado; singular simples segue no ramo abaixo.
+    // Lista em incisos (decisão 46): cada item é lido sozinho, com a lei do item (senão a do caput); o que não se lê vira `indeterminado` só naquele item.
+    // Frase única: tudo ou nada.
+    {
+      const filhos = (art.children || []).filter(f => String(visText(f) || "").trim());
+      const mV = RE_REVOGACAO_ANCORADA.exec(textoIntro);
+      const iLei = refsLei.length ? textoIntro.indexOf(refsLei[0].raw) : textoIntro.length;
+      const frase = mV && iLei > mV[0].length ? textoIntro.slice(mV[0].length, iLei) : "";
+      // lista = o caput só diz ONDE ("Ficam revogados, na Lei X:" / "Ficam revogados:") e os incisos trazem os objetos. Se o caput já traz o objeto
+      // ("Fica revogada a Lei X, … que:"), os incisos são condições, não objetos (caso real: id 35288, art. 15).
+      const lista = filhos.length > 0 && /:\s*$/.test(textoIntro.trim()) && /^[\s,:]*(?:(?:n[ao]s?|os\s+seguintes\s+(?:dispositivos|artigos|itens|trechos)\s+d[oa]s?)\s*)?[\s,:]*$/i.test(frase);
+      if (mV && !/disposi[çc][õo]es\s+em\s+contr[aá]rio/i.test(textoIntro) && (refsLei.length || lista)) {
+        const plural = /^\s*Ficam\s+(?:ainda\s+|expressamente\s+)?revogad(?:os|as)(?![A-Za-zÀ-ÿ])/i.test(textoIntro)
+          || /\b(?:arts|incs|als|artigos|incisos|al[íi]neas|par[áa]grafos)\b|§§|(?:,|\se)\s+(?:o|a|os|as)\s+(?:art|§|inc|al\b|par[áa]grafo)/i.test(frase);
+        const RE_ENDERECO = /\b(?:arts?|artigos?|§|incs?|incisos?|als?|al[íi]neas?|caput|itens?|anexos?|tabelas?|quadros?|par[áa]grafos?)\b|§/i;
+        if ((plural || lista) && iLei >= 0) {
+          // lê UMA frase de revogação (caput ou item): devolve os comandos dela; `ref0` = lei do caput para itens sem lei própria
+          const lerFrase = (T, ref0, itemDaLista) => {
+            const out = [];
+            const extra = itemDaLista ? { itemDaLista } : {};
+            const refs = extrairReferenciasLei(T);
+            const leiDoItem = refs[0] || ref0 || null;
+            const indet = (codigo, motivo) => out.push({ artigoOrigem: i+1, operacao: "indeterminado", motivo, codigoMotivo: codigo,
+              leiAlvoDaCitacao: leiDoItem, dispositivosCitados: [...new Set(extrairCitacoesExternas(T).map(c => c.chave))], raw: T, ...extra });
+            const iR = refs.length ? T.indexOf(refs[0].raw) : T.length;
+            let fr = (itemDaLista ? T : T.slice(mV[0].length)).slice(0, itemDaLista ? iR : Math.max(iR - mV[0].length, 0)).replace(/;\s*e\s*$/i, "");
+            const resto = refs.length ? T.slice(iR + refs[0].raw.length) : "";
+            const soLeis = refs.reduce((s2, r) => s2.replace(r.raw, " "), resto).replace(/[“"”][^“"”]*[“"”]/g, " ");
+            // revogação parcial ou condicionada ("na parte relativa a…", "a partir de…", "exceto…", "até…"): o motor não modela eficácia parcial ou diferida
+            if (/\b(?:na\s+parte|na\s+medida|naquilo|no\s+que|apenas|somente|exclusivamente|salvo|exceto|ressalvad[oa]s?|a\s+partir|permanecendo|enquanto|desde|quando|caso|at[ée]|ap[óo]s|depois)\b/i.test(soLeis) || /\b(?:na\s+parte|naquilo|exceto|salvo|ressalvad[oa]s?|a\s+partir|permanecendo)\b/i.test(fr))
+              { indet("revogacao_condicionada", "revogação parcial ou condicionada (parte, prazo ou ressalva): o motor não modela"); return out; }
+            if (RE_ENDERECO.test(soLeis)) { indet("revogacao_lista_nao_interpretada", "revogação em mais de uma lei, ou com texto de endereço depois da lei citada: o motor não interpreta"); return out; }
+            if (!fr.replace(/\b(?:a|as|o|os)\b/gi, "").replace(/[\s,;e.]/g, "") && refs.length) {
+              // só leis inteiras ("Ficam revogadas a Lei X e a Lei Y")
+              if (/^[\s,;.]*(?:(?:e|a|as|o|os)\s*)*(?:e\s+altera[çc][õo]es\s+posteriores)?[\s,;.]*$/i.test(soLeis)) {
+                refs.forEach(r => out.push({ artigoOrigem: i+1, operacao: "revoke_lei", leiAlvo: r, leiAlvoResolvida: resolverReferenciaLei(r, indiceColecao), raw: T, origemFormaPlural: true, ...extra }));
+                return out;
+              }
+              indet("revogacao_lista_nao_interpretada", "revogação de leis com texto que o motor não interpreta depois da citação"); return out;
+            }
+            const g = interpretarObjetosRevogados(fr);
+            if (!g.ok) { indet(g.codigo, g.motivo); return out; }
+            if (!leiDoItem) { indet("revogacao_lista_nao_interpretada", "revogação de dispositivo sem lei-alvo numerada no caput nem no item"); return out; }
+            const leiRes = resolverReferenciaLei(leiDoItem, indiceColecao);
+            let chavesFinais = g.chaves;
+            if (g.intervalos.length) {
+              // intervalo ("arts. 43 a 61"): só se expande contra a lei-alvo, e só quando o índice entregue é DESTA lei (decisão 47)
+              if (!leiBaseIndex || !opts.leiBaseConfere || !opts.leiBaseConfere(leiDoItem)) { indet("revogacao_intervalo_sem_lei_base", "intervalo de dispositivos: só se expande contra a lei-alvo, que não está disponível"); return out; }
+              const extras = [];
+              for (const iv of g.intervalos) {
+                const ex = expandirIntervaloNaBase(iv, leiBaseIndex);
+                if (!ex || !ex.length) { indet("revogacao_intervalo_sem_lei_base", `extremo do intervalo (${iv.de} a ${iv.ate}) não existe na lei-alvo`); return out; }
+                extras.push(...ex);
+              }
+              chavesFinais = [...new Set([...g.chaves, ...extras])];
+              chavesFinais = chavesFinais.filter(k => !chavesFinais.some(a => a !== k && k.endsWith(" do " + a)));
+            }
+            chavesFinais.forEach(chave => out.push({ artigoOrigem: i+1, operacao: "revoke_node", leiAlvo: leiDoItem, leiAlvoResolvida: leiRes, dispositivoAlvo: chave, raw: T, origemFormaPlural: true, ...extra }));
+            return out;
+          };
+          if (lista) {
+            if (RE_ENDERECO.test(frase.replace(/\bna\b/gi, ""))) {
+              comandos.push({ artigoOrigem: i+1, operacao: "indeterminado", motivo: "caput com objetos de revogação e lista de itens ao mesmo tempo: o motor não interpreta", codigoMotivo: "revogacao_lista_nao_interpretada",
+                leiAlvoDaCitacao: leiAlvoRef, dispositivosCitados: [...new Set(extrairCitacoesExternas(textoIntro).map(c => c.chave))], raw: textoIntro });
+              return;
+            }
+            const ref0 = refsLei[0] || null;
+            filhos.forEach((f, k) => {
+              const T = String(visText(f) || "").trim().replace(/^e\s+(?=(?:o|a|os|as)\s)/i, "");
+              if (/^VETADO\.?$/i.test(T)) return; // item vetado: nada a revogar (fica registrado no CHANGELOG)
+              if ((f.children || []).length) {
+                comandos.push({ artigoOrigem: i+1, operacao: "indeterminado", motivo: "item da lista de revogação com subitens: o motor não interpreta", codigoMotivo: "revogacao_lista_nao_interpretada",
+                  leiAlvoDaCitacao: extrairReferenciasLei(T)[0] || ref0, dispositivosCitados: [...new Set(extrairCitacoesExternas(T).map(c => c.chave))], raw: T, itemDaLista: { k: k+1, n: filhos.length } });
+                return;
+              }
+              comandos.push(...lerFrase(T, ref0, { k: k+1, n: filhos.length }));
+            });
+            return;
+          }
+          comandos.push(...lerFrase(textoIntro, null, null));
+          return;
+        }
+      }
+    }
+
     if (RE_GATILHO_REVOGACAO.test(textoIntro)) {
       const citsDispositivo = extrairCitacoesExternas(textoIntro);
+      // Decisão 45: endereço com nível que o motor não entende ("al.", "incs.", "§§", "arts.", "caput", "item", Capítulo/Seção…)
+      // nunca vira revogação do artigo/inciso inteiro. Tira do texto o que as citações reconhecidas consumiram; se do verbo até a
+      // primeira lei citada sobrar palavra de endereço, a citação é incompleta. (ids 44276, 38944, 51556, 50842, 38695, 46833)
+      {
+        let resto = textoIntro.slice(Math.max(0, textoIntro.search(RE_GATILHO_REVOGACAO)));
+        citsDispositivo.forEach(c => { resto = resto.replace(c.raw, " "); });
+        const iLei = resto.search(/\b(?:Lei|Decreto|Emenda|Resolu[çc][ãa]o)\b/);
+        if (iLei >= 0) resto = resto.slice(0, iLei);
+        if (/(?:\b(?:arts|incs|als?|caput|itens?|cap[íi]tulos?|se[çc][ãa]o|se[çc][õo]es|subse[çc][ãa]o|t[íi]tulos?)\b|§§)/i.test(resto)) citsDispositivo.forEach(c => { c.incompleta = true; });
+        if (!citsDispositivo.length && /\b(?:cap[íi]tulos?|se[çc][ãa]o|se[çc][õo]es|subse[çc][ãa]o|t[íi]tulos?)\b/i.test(resto)) citsDispositivo.push({ raw: resto.trim(), chave: "", incompleta: true });
+      }
       if (citsDispositivo.some(c => c.incompleta)) {
         // não age sobre endereço parcialmente ilegível: o motor nunca chuta o dispositivo revogado
         comandos.push({ artigoOrigem: i+1, operacao: "indeterminado",
@@ -2103,6 +2324,19 @@ export function extrairComandosLei(docAlteradora, opts) {
           artigoOrigem: i+1, operacao: "revoke_node", leiAlvo: leiAlvoRef, leiAlvoResolvida,
           dispositivoAlvo: c.chave, raw: textoIntro
         }));
+        return;
+      }
+      // "Revogam-se as disposições em contrário, mantidas as condições … na Lei nº N": a lei só aparece numa RESSALVA —
+      // não é revogação dela (LC 27976, Lei 6.309/1988). Cláusula genérica, sem efeito.
+      if (/^\s*Revogam[\s-–—]*se\s+as\s+disposi[çc][õo]es\s+em\s+contr[aá]rio\b[^.]*\b(?:mantid[oa]s?|ressalvad[oa]s?|exceto|salvo)\b/i.test(textoIntro)) {
+        comandos.push({ artigoOrigem: i+1, operacao: "clausula_generica_sem_efeito", raw: textoIntro });
+        return;
+      }
+      // revogação de PARTE da lei sem endereço de dispositivo ("o item 4 do Anexo I da Lei Complementar nº 942"): nunca é
+      // revoke_lei (revogaria a lei inteira). Falha alto: indeterminado, para o humano (id 47547).
+      if (refsLei.length && /\b(?:itens?|anexos?|tabelas?|quadros?|planilhas?|mapas?|linhas?)\b[^.;]{0,80}\b(?:da|do|das|dos)\s+(?:Lei|Decreto|Emenda|Resolu[çc][ãa]o)/i.test(textoIntro)) {
+        comandos.push({ artigoOrigem: i+1, operacao: "indeterminado",
+          motivo: "revogação de parte da lei (item, anexo ou tabela) sem endereço de dispositivo reconhecido: não age sobre a lei inteira", raw: textoIntro });
         return;
       }
       if (refsLei.length) {

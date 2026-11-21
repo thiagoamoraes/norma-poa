@@ -129,6 +129,9 @@ Valem como regra; mudar só com nova decisão dele. Cada uma tem teste com texto
 46. **Lista de revogação em incisos:** **por item** (o que se lê limpo vira revogação; o resto fica `indeterminado` com aviso). Lista na mesma frase ("arts. 3º e 5º") vale **tudo ou nada**. (21/11/2026)
 47. **Intervalo ("arts. 43 a 61", "incs. I a VIII"):** **expande contra a lei-alvo** (todos os dispositivos existentes entre os extremos, inclusive "-A"); sem a lei-alvo, `indeterminado`. (21/11/2026)
 48. **Revogação plural que o motor não lê:** só **aviso** (`revogacao_nao_interpretada`) e ponto a conferir no histórico; a norma segue aceita. Reavaliar com a contagem real do resíduo. (21/11/2026)
+49. **Consulta: lei COM histórico e anexo no arquivo original** (18 leis; o texto vigente apurado não traz o anexo): **aviso no topo**, só nessas ("Esta lei tem anexo(s) … o texto vigente apurado não os traz; confira na fonte"). Sem selo na lista e sem aviso nas leis de denominação sem histórico. (21/11/2026)
+50. **Consulta: lei sem histórico (texto estruturado aceito):** o anexo ganha **nota dentro do próprio bloco** (gráfico: "não lido aqui; veja no original"; preservado: "preservado, não interpretado; pode estar fora de formato"). **Retifica a decisão 36**: no lugar do selo "anexo gráfico não apurado" na lista, a nota fica onde o leitor precisa dela. (21/11/2026)
+51. **Busca no texto:** o texto dos anexos continua pesquisável, e o resultado vindo de anexo traz a marca "(anexo)". (21/11/2026)
 
 **Armadilha de JavaScript (causou erro real):** `\b` não reconhece letra acentuada como caractere de palavra — `/\brevoga\b/` casava "revogação" (substantivo) e emitia `revoke_node` falso. Para "só o verbo", use `(?![A-Za-zÀ-ÿ])`. Revogação com citação de dispositivo **incompleta** (endereço parcialmente ilegível, ex. OCR "$ 1º" no lugar de "§ 1º") vira `indeterminado`, nunca `revoke_node` do artigo inteiro.
 

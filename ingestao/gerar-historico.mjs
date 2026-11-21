@@ -79,9 +79,13 @@ for (const [base, e] of leis) {
     }
     const h = apurarHistorico({ registro, texto: tBase }, alts);
     for (const x of semTexto) h.naoAplicadas.push({ alteradora: { idSapl: x.registro.idSapl, rotulo: x.registro.rotulo }, motivo: 'texto_indisponivel', detalhe: 'o texto desta alteradora ainda não foi baixado ou extraído', enderecos: [] });
+    // anexos do arquivo ORIGINAL da lei (nós `anexo` da estruturação): o texto vigente apurado não os traz (decisão 35); a consulta avisa (decisão 49)
+    let anexosNoOriginal = [];
+    try { const est = JSON.parse(await readFile(path.join('dados', 'estruturado', 'sapl', `${base}.json`), 'utf8')); anexosNoOriginal = (est.dispositivos || []).filter((x) => x.tipo === 'anexo').map((x) => ({ rotulo: x.rotulo, grafico: !!x.semTexto })); } catch { /* ainda não estruturada */ }
     const corpo = { idSapl: base, rotulo: registro.rotulo,
       // a árvore da lei-base só é confiável se a estruturação dela foi aceita (quando já foi estruturada)
       baseConferida: estruturacao[base] ? estruturacao[base] === 'aceita' : null,
+      ...(anexosNoOriginal.length ? { anexosNoOriginal } : {}),
       ...h };
     const arqSaida = path.join(DIR, 'sapl', `${base}.json`);
     let igual = false;
