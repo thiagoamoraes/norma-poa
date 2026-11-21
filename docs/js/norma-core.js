@@ -626,7 +626,11 @@ export function parseMinuta(raw, nrRanges) {
   const reInc = /^([IVXLCDM]{1,9}(?:-[A-Z])?)\s*[-–—]\s*(.*)$/;
   const reAli = /^([a-z]{1,2}(?:-[a-z]{1,2})?)\)\s*(.*)$/;
   const reIte = /^(\d{1,2}(?:-[A-Z])?)\.\s+(.*)$/;
-  const rePre = /(C[ÂA]MARA\s+MUNICIPAL.*DECRETA|DECRETA\s*:?\s*$|O\s+PREFEITO\s+MUNICIPAL)/i;
+  // Preâmbulo = nunca ementa. Além de "A CÂMARA MUNICIPAL … DECRETA" e "O PREFEITO MUNICIPAL": "… PROMULGA" (Câmara/Mesa promulgando) e a Mesa
+  // que abre em maiúsculas ("A MESA DIRETORA DA CÂMARA MUNICIPAL…, no uso das atribuições…, promulga a seguinte Emenda…"; Emendas à LO, ids 49145, 27350).
+  // A forma "A MESA" só vale em MAIÚSCULAS (ementa é frase em caixa mista) e só antes de existir preâmbulo.
+  const rePre = /(C[ÂA]MARA\s+MUNICIPAL.*(?:DECRETA|PROMULGA)|(?:DECRETA|PROMULGA)\s*:?\s*$|O\s+PREFEITO\s+MUNICIPAL)/i;
+  const rePreMesa = /^\s*A\s+MESA(?:\s+DIRETORA)?\b(?:\s+DA\s+C[ÂA]MARA|\s+(?:DECRETA|PROMULGA)|,)/;
   const reEmentaVerbo = /^(institui|disp[õo]e\s+sobre|altera|estabelece|autoriza|cria|fixa|regulamenta|revoga|extingue|denomina|concede|declara|reconhece|d[áa]|acrescenta|inclui|suspende|pro[íi]be|veda|permite|assegura|garante|institucionaliza|reorganiza|transforma|desafeta|regula|torna|obriga|determina)\b/i;
   const reEM  = /^(EXPOSI[ÇC][ÃA]O\s+DE\s+MOTIVOS|JUSTIFICATIVA|JUSTIFICA[ÇC][ÃA]O)\s*:?$/i;
   const reEpig = /^(MINUTA\s+DE\s+)?PROJETO\s+DE\s+(LEI|RESOLU[ÇC][ÃA]O)(\s+COMPLEMENTAR)?\b\s*:?\s*(.*)$/i;
@@ -723,7 +727,7 @@ export function parseMinuta(raw, nrRanges) {
       // 2ª linha caía na ementa, que passava a terminar com "Faço saber…".
       // Depois que o preâmbulo começou, o que vier antes do 1º artigo é preâmbulo.
       if (doc.preambulo) { doc.preambulo = doc.preambulo + " " + line; continue; }
-      if (rePre.test(line)) { doc.preambulo = line; continue; }
+      if (rePre.test(line) || rePreMesa.test(line)) { doc.preambulo = line; continue; }
       if (!doc.epigrafe && /PROJETO|REDA[ÇC][ÃA]O\s+FINAL|\bPLL\b|\bPLCL\b|\bPLE\b|\bPLCE\b|\bPELO\b|\bPR\b/i.test(line)) {
         doc.epigrafe = line;
         const sg = line.match(/\b(PLCL|PLCE|PLL|PLE|PELO|PR)\b/i); if (sg) doc.sigla = sg[1].toUpperCase();

@@ -58,7 +58,13 @@ export function artigosQueMexemEmAnexo(artigos, chaveBase) {
     // só a frase de introdução (até as aspas do bloco ou os dois-pontos): "anexo" dentro do texto novo citado não conta
     const intro = String(visText(a) || '').replace(/\s+/g, ' ').split(/[“"”:]/)[0].slice(0, 400);
     // "anexo" tem de apontar para a lei-base ("Anexo I da Lei…", "Anexo na Lei…"); "conforme o Anexo desta Lei" é anexo da própria alteradora
-    if (!/\banexos?\b[^.;]{0,80}?\b(?:da|do|das|dos|na|no|à|ao)\s+(?:Lei|Decreto)/i.test(intro)) return;
+    // Além da forma antiga, vale (rodada 55) o objeto de anexo com número que tem ponto ("Anexo 1.2", "Anexo 9.1"), "Tabela IV", "Lista de Serviços",
+    // "Quadro IV", desde que haja VERBO de alteração na frase ("e alterações posteriores" não conta): "de acordo com o Anexo 5.3 da LC 434" é só remissão.
+    const introSemRessalva = intro.replace(/e\s+altera[çc][õo]es\s*posteriores/gi, '');
+    const ehAnexo = /\banexos?\b[^.;]{0,80}?\b(?:da|do|das|dos|na|no|à|ao)\s+(?:Lei|Decreto)/i.test(intro)
+      || (/\b(?:alter\w+|inclu[ií]\w*|acrescent\w+|criad\w+|substitu\w+|nova\s+reda\w+|passa(?:m)?\s+a|revog\w+|renumer\w+|suprimid\w+|modific\w+|retific\w+|exclu[ií]d\w+|extint\w+)/i.test(introSemRessalva)
+        && /\b(?:anexos?|tabelas?|listas?\s+de\s+servi[A-Za-zÀ-ÿ]+|quadros?\s+(?:[IVX]+|\d+|anexo)|planilhas?)\b[^;]{0,140}?\b(?:da|do|das|dos|na|no|à|ao)\s+(?:Lei|Decreto)\b/i.test(intro));
+    if (!ehAnexo) return;
     if (!extrairReferenciasLei(intro).some((r) => r.chave === chaveBase)) return;
     out.push({ artigo: i + 1, trecho: intro.slice(0, 220) });
   });
