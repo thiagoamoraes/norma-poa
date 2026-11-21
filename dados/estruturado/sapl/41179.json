@@ -2,8 +2,8 @@
  "idSapl": 41179,
  "rotulo": "Lei Complementar municipal nº 813, de 20 de março de 2017",
  "sha256Origem": "db30cde1546154d1c2912aa35e8a232e3277aba8be1f0c52940919ddab276384",
- "estruturadoEm": "2026-11-21T00:34:34.866Z",
- "versaoEstruturador": 18,
+ "estruturadoEm": "2026-11-21T00:57:53.656Z",
+ "versaoEstruturador": 19,
  "cabecalho": {
   "tipoAto": null,
   "numero": null,
@@ -32,7 +32,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 2º",
-   "texto": "Fica alterado o caput do art. 5º da Lei Complementar nº 332, de 1994, e alterações posteriores, conforme segue: “Art. 5º Verificado o descumprimento ao disposto nesta Lei Complementar, e antes da cominação prevista no seu art. 4º, será lavrada pelo agente fiscalizador advertência por escrito, na qual constará descrição dos ajustes necessários, sendo concedido prazo de 90 (noventa) dias para a sua adequação. CRMCL CRECI PLC UNE SL LESSONS UNLESS SUL U CU ELSE ESA RUI U UU LCA A SO Rs A RU O UU aa na sa a sans n asas"
+   "texto": "Fica alterado o caput do art. 5º da Lei Complementar nº 332, de 1994, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 5º Verificado o descumprimento ao disposto nesta Lei Complementar, e\nantes da cominação prevista no seu art. 4º, será lavrada pelo agente fiscalizador advertência por\nescrito, na qual constará descrição dos ajustes necessários, sendo concedido prazo de 90\n(noventa) dias para a sua adequação.\nCRMCL CRECI PLC UNE SL LESSONS UNLESS SUL U CU ELSE ESA RUI U UU LCA A SO Rs A RU O UU aa na sa a sans n asas"
   },
   {
    "id": "art-3",
@@ -46,7 +47,8 @@
   "situacao": "revisar",
   "motivos": [
    "cabecalho_nao_reconhecido",
-   "sem_fecho"
+   "sem_fecho",
+   "bloco_sem_fechamento_de_aspas"
   ],
   "avisos": [
    "texto_de_ocr"
@@ -55,10 +57,18 @@
    "artigos": 3,
    "dispositivos": 3,
    "cobertura": 0.962,
-   "blocosDeAlteracao": 0,
+   "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": []
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 20,
+     "linhaFim": 26,
+     "confianca": "baixa"
+    }
+   ]
   }
  }
 }

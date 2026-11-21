@@ -2,8 +2,8 @@
  "idSapl": 39258,
  "rotulo": "Lei Complementar municipal nº 733, de 24 de janeiro de 2014",
  "sha256Origem": "d87edeedf0c59120c5ef5e605c690a6ad5e69eeb29f29fb85ca62f7ae2a77911",
- "estruturadoEm": "2026-11-21T00:34:35.465Z",
- "versaoEstruturador": 18,
+ "estruturadoEm": "2026-11-21T00:57:54.280Z",
+ "versaoEstruturador": 19,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "733",
@@ -25,22 +25,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "No art. 15 da Lei Complementar nº 170, de 31 de dezembro de 1987, ealterações posteriores, fica alterado o § 1º, e fica incluído § 5º, conformesegue: “Art. 15....................................................................................."
-  },
-  {
-   "id": "art-1/par-1",
-   "pai": "art-1",
-   "tipo": "paragrafo",
-   "rotulo": "§ 1º",
-   "texto": "A interrupção poderá ser efetivada, no caso do inc. I do caput desteartigo, após 5 (cinco) dias úteis subsequentes à entrega do Aviso de CorteFornecimento de Água. ..................................................................................................."
-  },
-  {
-   "id": "art-1/par-2",
-   "pai": "art-1",
-   "tipo": "paragrafo",
-   "rotulo": "§ 2º",
-   "texto": "VETADO.",
-   "vetado": true
+   "texto": "No art. 15 da Lei Complementar nº 170, de 31 de dezembro de 1987, ealterações posteriores, fica alterado o § 1º, e fica incluído § 5º, conformesegue:",
+   "blocoDeAlteracao": "“Art. 15.....................................................................................\n§1º A interrupção poderá ser efetivada, no caso do inc. I do caput desteartigo, após 5 (cinco)\ndias úteis subsequentes à entrega do Aviso de CorteFornecimento de Água.\n...................................................................................................\n§5º VETADO."
   },
   {
    "id": "art-2",
@@ -53,22 +39,25 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+   "bloco_sem_fechamento_de_aspas"
   ],
   "avisos": [
    "cabecalho_fora_do_padrao"
   ],
   "metricas": {
    "artigos": 2,
-   "dispositivos": 4,
-   "cobertura": 0.946,
-   "blocosDeAlteracao": 0,
+   "dispositivos": 2,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 1,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
     {
-     "rotulo": "§ 2º",
-     "naOrigem": "5º"
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 21,
+     "linhaFim": 28,
+     "confianca": "baixa"
     }
    ]
   }

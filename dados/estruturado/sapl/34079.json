@@ -2,8 +2,8 @@
  "idSapl": 34079,
  "rotulo": "Lei Complementar municipal nº 540, de 29 de dezembro de 2005",
  "sha256Origem": "53e5862d0ff74f8980592844211bd807ab364bc09dfaae4a0ca4e0160b313556",
- "estruturadoEm": "2026-11-21T00:34:37.461Z",
- "versaoEstruturador": 18,
+ "estruturadoEm": "2026-11-21T00:57:56.439Z",
+ "versaoEstruturador": 19,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "540",
@@ -40,14 +40,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 3º",
-   "texto": "Fica incluído o inc. XVI no art. 1º da Lei Complementar nº 306, de 23 de dezembro de 1993, e alterações posteriores, conforme segue: “Art. 1º ... ..."
-  },
-  {
-   "id": "art-3/inc-I",
-   "pai": "art-3",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "as empresas de mídia, pelo imposto devido sobre as comissões relativas aos serviços previstos nos subitens 10.08 e 17.06 da lista anexa à Lei Complementar nº 7, de 1973, e alterações posteriores."
+   "texto": "Fica incluído o inc. XVI no art. 1º da Lei Complementar nº 306, de 23 de dezembro de 1993, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º ...\n...\nXVI – as empresas de mídia, pelo imposto devido sobre as comissões\nrelativas aos serviços previstos nos subitens 10.08 e 17.06 da lista anexa à Lei\nComplementar nº 7, de 1973, e alterações posteriores."
   },
   {
    "id": "art-4",
@@ -60,20 +54,23 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+   "bloco_sem_fechamento_de_aspas"
   ],
   "avisos": [],
   "metricas": {
    "artigos": 4,
-   "dispositivos": 5,
-   "cobertura": 0.951,
-   "blocosDeAlteracao": 2,
+   "dispositivos": 4,
+   "cobertura": 0.953,
+   "blocosDeAlteracao": 3,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
     {
-     "rotulo": "I –",
-     "naOrigem": "XVI"
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 30,
+     "linhaFim": 34,
+     "confianca": "baixa"
     }
    ]
   }

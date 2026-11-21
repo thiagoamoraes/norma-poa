@@ -2,8 +2,8 @@
  "idSapl": 51463,
  "rotulo": "Lei Complementar municipal nº 1.074, de 09 de julho de 2026",
  "sha256Origem": "5b536361cb45e8078cdca1bbc6c0c392c64e57f638bb2a7ed73a2459db4e2f45",
- "estruturadoEm": "2026-11-21T00:34:32.528Z",
- "versaoEstruturador": 18,
+ "estruturadoEm": "2026-11-21T00:57:51.209Z",
+ "versaoEstruturador": 19,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1074",
@@ -177,32 +177,40 @@
    "tipo": "artigo",
    "rotulo": "Art. 20.",
    "texto": "Ficam alterados os incs. II, III e IV do § 4º do art. 89-A da Lei Complementar nº 12, de 1975, conforme segue:",
-   "blocoDeAlteracao": "Art. 89-A. .................................................................................................................\n....................................................................................................................................\n§ 4º .............................................................................................................................\n....................................................................................................................................\nII – multa de 500 (quinhentas) UFMs;\nIII – multa de 1.000 (mil) UFMs, na primeira reincidência; e\nIV – multa de 3.000 (trez mil) UFMs e interdição de todas as atividades, a partir\nda segunda reincidência.\nArt. 21. Ficam alterados os incs. I a III do art. 91 da Lei Complementar nº 12, de\n1975, conforme segue:\n“Art. 91. ....................................................................................................................\nI – as indústrias e oficinas depositarem ou encaminharem a cursos d'água, lagos e\nreservatórios de água os resíduos ou detritos provenientes de suas atividades, sem obediência a\nregulamentos municipais, sujeitando-se à multa de 1.280 (mil duzentas e oitenta) a 2.560 (duas\nmil quinhentas e sessenta) UFMs;\nII – canalizar esgotos para a rede destinada ao escoamento de águas pluviais,\nsujeitando-se à multa de 1.280 (mil duzentas e oitenta) a 2.560 (duas mil quinhentas e sessenta)\nUFMs;\nIII – localizar estábulos, pocilgas e estabelecimentos semelhantes nas\nproximidades de cursos d'água, fontes, represas e lagos, de forma a propiciar a poluição das\náguas, sujeitando-se à multa de 1.280 (mil duzentas e oitenta) a 2.560 (duas mil quinhentas e\nsessenta) UFMs;\n.........................................................................................................................” (NR)"
+   "blocoDeAlteracao": "Art. 89-A. .................................................................................................................\n....................................................................................................................................\n§ 4º .............................................................................................................................\n....................................................................................................................................\nII – multa de 500 (quinhentas) UFMs;\nIII – multa de 1.000 (mil) UFMs, na primeira reincidência; e\nIV – multa de 3.000 (trez mil) UFMs e interdição de todas as atividades, a partir\nda segunda reincidência."
   },
   {
    "id": "art-21",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 21.",
-   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+   "texto": "Ficam alterados os incs. I a III do art. 91 da Lei Complementar nº 12, de 1975, conforme segue:",
+   "blocoDeAlteracao": "“Art. 91. ....................................................................................................................\nI – as indústrias e oficinas depositarem ou encaminharem a cursos d'água, lagos e\nreservatórios de água os resíduos ou detritos provenientes de suas atividades, sem obediência a\nregulamentos municipais, sujeitando-se à multa de 1.280 (mil duzentas e oitenta) a 2.560 (duas\nmil quinhentas e sessenta) UFMs;\nII – canalizar esgotos para a rede destinada ao escoamento de águas pluviais,\nsujeitando-se à multa de 1.280 (mil duzentas e oitenta) a 2.560 (duas mil quinhentas e sessenta)\nUFMs;\nIII – localizar estábulos, pocilgas e estabelecimentos semelhantes nas\nproximidades de cursos d'água, fontes, represas e lagos, de forma a propiciar a poluição das\náguas, sujeitando-se à multa de 1.280 (mil duzentas e oitenta) a 2.560 (duas mil quinhentas e\nsessenta) UFMs;\n.........................................................................................................................” (NR)"
   },
   {
    "id": "art-22",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 22.",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
    "texto": "Ficam revogados da Lei Complementar nº 12, de 7 de janeiro de 1975:"
   },
   {
-   "id": "art-22/inc-I",
-   "pai": "art-22",
+   "id": "art-23/inc-I",
+   "pai": "art-23",
    "tipo": "inciso",
    "rotulo": "I –",
    "texto": "o art. 25; e"
   },
   {
-   "id": "art-22/inc-II",
-   "pai": "art-22",
+   "id": "art-23/inc-II",
+   "pai": "art-23",
    "tipo": "inciso",
    "rotulo": "II –",
    "texto": "o parágrafo único do art. 28."
@@ -211,27 +219,18 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "rotulo_nao_confere_com_a_origem",
+   "bloco_sem_fechamento_de_aspas",
    "aspa_de_abertura_ausente"
   ],
   "avisos": [],
   "metricas": {
-   "artigos": 22,
-   "dispositivos": 24,
+   "artigos": 23,
+   "dispositivos": 25,
    "cobertura": 0.994,
-   "blocosDeAlteracao": 20,
+   "blocosDeAlteracao": 21,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "Art. 21.",
-     "naOrigem": "Art22"
-    },
-    {
-     "rotulo": "Art. 22.",
-     "naOrigem": "Art23"
-    }
-   ],
+   "rotulosDivergentes": [],
    "fronteirasInferidas": [
     {
      "tipo": "sem_abertura_de_aspas",
@@ -240,10 +239,10 @@
      "confianca": "media"
     },
     {
-     "tipo": "sem_abertura_de_aspas",
+     "tipo": "sem_fechamento_de_aspas",
      "linhaIni": 699,
-     "linhaFim": 737,
-     "confianca": "media"
+     "linhaFim": 712,
+     "confianca": "baixa"
     }
    ]
   }

@@ -2,8 +2,8 @@
  "idSapl": 36316,
  "rotulo": "Lei Complementar municipal nº 628, de 17 de agosto de 2009",
  "sha256Origem": "87550d6e43e12b2a4c75b3eb7f86e79d66f59963a1fa4bb6f90e8ba98eaafc07",
- "estruturadoEm": "2026-11-21T00:34:36.947Z",
- "versaoEstruturador": 18,
+ "estruturadoEm": "2026-11-21T00:57:55.835Z",
+ "versaoEstruturador": 19,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "628",
@@ -2564,125 +2564,132 @@
    "pai": "art-100",
    "tipo": "paragrafo",
    "rotulo": "§ 4º",
-   "texto": "As urnas que tiverem votos impugnados deverão ser devidamente apuradas e, ao final, lacradas, sendo que os votos impugnados deverão ser reme tidos em separado à Comissão Eleitoral. Art. 101. A Junta Eleitoral expedirá boletim de apuração de cada urna apurada, o qual deverá conter:"
-  },
-  {
-   "id": "art-100/par-4/inc-I",
-   "pai": "art-100/par-4",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "a data da eleição;"
-  },
-  {
-   "id": "art-100/par-4/inc-II",
-   "pai": "art-100/par-4",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "texto": "o número de votantes;"
-  },
-  {
-   "id": "art-100/par-4/inc-III",
-   "pai": "art-100/par-4",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "texto": "as seções eleitorais correspondentes;"
-  },
-  {
-   "id": "art-100/par-4/inc-IV",
-   "pai": "art-100/par-4",
-   "tipo": "inciso",
-   "rotulo": "IV –",
-   "texto": "o local em que funcionou a mesa receptora de votos;"
-  },
-  {
-   "id": "art-100/par-4/inc-V",
-   "pai": "art-100/par-4",
-   "tipo": "inciso",
-   "rotulo": "V –",
-   "texto": "o número de votos impugnados;"
-  },
-  {
-   "id": "art-100/par-4/inc-VI",
-   "pai": "art-100/par-4",
-   "tipo": "inciso",
-   "rotulo": "VI –",
-   "texto": "o número de votos por candidato; e"
-  },
-  {
-   "id": "art-100/par-4/inc-VII",
-   "pai": "art-100/par-4",
-   "tipo": "inciso",
-   "rotulo": "VII –",
-   "texto": "o número de votos brancos, nulos e válidos."
-  },
-  {
-   "id": "art-100/par-5",
-   "pai": "art-100",
-   "tipo": "paragrafo",
-   "rotulo": "§ 5º",
-   "texto": "Cópia do boletim de apuração será afixada em local onde possa ser consultada pelo público."
+   "texto": "As urnas que tiverem votos impugnados deverão ser devidamente apuradas e, ao final, lacradas, sendo que os votos impugnados deverão ser reme tidos em separado à Comissão Eleitoral."
   },
   {
    "id": "art-101",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 101.",
-   "texto": "Encerrada a apuração, as Juntas Eleitorais entregarão o bole tim e a ata de apuração e devolverão o material utilizado na eleição à Comissão Eleitoral."
+   "texto": "A Junta Eleitoral expedirá boletim de apuração de cada urna apurada, o qual deverá conter:"
+  },
+  {
+   "id": "art-101/inc-I",
+   "pai": "art-101",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a data da eleição;"
+  },
+  {
+   "id": "art-101/inc-II",
+   "pai": "art-101",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o número de votantes;"
+  },
+  {
+   "id": "art-101/inc-III",
+   "pai": "art-101",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "as seções eleitorais correspondentes;"
+  },
+  {
+   "id": "art-101/inc-IV",
+   "pai": "art-101",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "o local em que funcionou a mesa receptora de votos;"
+  },
+  {
+   "id": "art-101/inc-V",
+   "pai": "art-101",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "o número de votos impugnados;"
+  },
+  {
+   "id": "art-101/inc-VI",
+   "pai": "art-101",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "o número de votos por candidato; e"
+  },
+  {
+   "id": "art-101/inc-VII",
+   "pai": "art-101",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "o número de votos brancos, nulos e válidos."
+  },
+  {
+   "id": "art-101/par-unico",
+   "pai": "art-101",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Cópia do boletim de apuração será afixada em local onde possa ser consultada pelo público."
   },
   {
    "id": "art-102",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 102.",
-   "texto": "Após as urnas serem apuradas e lacradas, não poderão ser novamente abertas."
+   "texto": "Encerrada a apuração, as Juntas Eleitorais entregarão o bole tim e a ata de apuração e devolverão o material utilizado na eleição à Comissão Eleitoral."
   },
   {
    "id": "art-103",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 103.",
-   "texto": "A Comissão Eleitoral decidirá em definitivo os recursos refe rentes às impugnações de votos e de urnas."
+   "texto": "Após as urnas serem apuradas e lacradas, não poderão ser novamente abertas."
   },
   {
    "id": "art-104",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 104.",
-   "texto": "Para resolver situação de empate entre candidatos, será rea lizado sorteio público."
+   "texto": "A Comissão Eleitoral decidirá em definitivo os recursos refe rentes às impugnações de votos e de urnas."
   },
   {
    "id": "art-105",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 105.",
-   "texto": "A Comissão Eleitoral, computados os dados constantes dos boletins de apuração, publicará edital dando conhecimento do resultado da elei ção."
+   "texto": "Para resolver situação de empate entre candidatos, será rea lizado sorteio público."
   },
   {
    "id": "art-106",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 106.",
-   "texto": "Do resultado final cabe recurso ao CMDCA, o qual deverá ser apresentado em até 3 (três) dias úteis, a contar da publicação do edital."
-  },
-  {
-   "id": "art-106/par-1",
-   "pai": "art-106",
-   "tipo": "paragrafo",
-   "rotulo": "§ 1º",
-   "texto": "O recurso deverá ser feito por escrito e devidamente fundamenta do."
-  },
-  {
-   "id": "art-106/par-2",
-   "pai": "art-106",
-   "tipo": "paragrafo",
-   "rotulo": "§ 2º",
-   "texto": "O CMDCA decidirá os recursos em reunião convocada exclusiva mente para esse fim."
+   "texto": "A Comissão Eleitoral, computados os dados constantes dos boletins de apuração, publicará edital dando conhecimento do resultado da elei ção."
   },
   {
    "id": "art-107",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 107.",
+   "texto": "Do resultado final cabe recurso ao CMDCA, o qual deverá ser apresentado em até 3 (três) dias úteis, a contar da publicação do edital."
+  },
+  {
+   "id": "art-107/par-1",
+   "pai": "art-107",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O recurso deverá ser feito por escrito e devidamente fundamenta do."
+  },
+  {
+   "id": "art-107/par-2",
+   "pai": "art-107",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O CMDCA decidirá os recursos em reunião convocada exclusiva mente para esse fim."
+  },
+  {
+   "id": "art-108",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 108.",
    "texto": "Ficam criados 50 (cinquenta) cargos em comissão de Conse lheiro Tutelar, código 2.1.2.5, no Quadro de Cargos em Comissão e Funções Gratificadas da Administração Centralizada do Município de Porto Alegre, cons tante da letra “c” do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, e altera ções posteriores.",
    "agrupadores": [
     {
@@ -2693,52 +2700,52 @@
    ]
   },
   {
-   "id": "art-107/par-1",
-   "pai": "art-107",
+   "id": "art-108/par-1",
+   "pai": "art-108",
    "tipo": "paragrafo",
    "rotulo": "§ 1º",
    "texto": "Os cargos serão lotados na SMCPGL, nas unidades de trabalho denominadas Conselhos Tutelares."
   },
   {
-   "id": "art-107/par-2",
-   "pai": "art-107",
+   "id": "art-108/par-2",
+   "pai": "art-108",
    "tipo": "paragrafo",
    "rotulo": "§ 2º",
    "texto": "Os Conselheiros Tutelares serão, por ato do Prefeito, nomeados e, ao final de seus mandatos ou nos casos previstos nesta Lei Complementar, exonerados."
   },
   {
-   "id": "art-107/par-3",
-   "pai": "art-107",
+   "id": "art-108/par-3",
+   "pai": "art-108",
    "tipo": "paragrafo",
    "rotulo": "§ 3º",
    "texto": "O exercício do cargo em comissão de Conselheiro Tutelar será em Regime de Dedicação Exclusiva, e o vencimento básico corresponderá ao nível técnico-científico."
-  },
-  {
-   "id": "art-108",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 108.",
-   "texto": "No que couber, os cargos em comissão de Conselheiro Tutelar serão regidos pela Lei Complementar nº 133, de 31 de dezembro de 1985, e alte rações posteriores."
-  },
-  {
-   "id": "art-108/par-unico",
-   "pai": "art-108",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "texto": "O Conselheiro Tutelar não fará jus às licenças previs tas nos incs. II, VII, VIII e IX do art. 141 da Lei Complementar nº 133, de 1985, e alterações posteriores."
   },
   {
    "id": "art-109",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 109.",
-   "texto": "A requerimento de Conselheiro Tutelar, será concedida licença não remunerada, pelo período mínimo de 3 (três) e máximo de 6 (seis) meses, renovável por igual período."
+   "texto": "No que couber, os cargos em comissão de Conselheiro Tutelar serão regidos pela Lei Complementar nº 133, de 31 de dezembro de 1985, e alte rações posteriores."
+  },
+  {
+   "id": "art-109/par-unico",
+   "pai": "art-109",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Conselheiro Tutelar não fará jus às licenças previs tas nos incs. II, VII, VIII e IX do art. 141 da Lei Complementar nº 133, de 1985, e alterações posteriores."
   },
   {
    "id": "art-110",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 110.",
+   "texto": "A requerimento de Conselheiro Tutelar, será concedida licença não remunerada, pelo período mínimo de 3 (três) e máximo de 6 (seis) meses, renovável por igual período."
+  },
+  {
+   "id": "art-111",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 111.",
    "texto": "Os suplentes serão convocados nos seguintes casos:",
    "agrupadores": [
     {
@@ -2749,59 +2756,59 @@
    ]
   },
   {
-   "id": "art-110/inc-I",
-   "pai": "art-110",
+   "id": "art-111/inc-I",
+   "pai": "art-111",
    "tipo": "inciso",
    "rotulo": "I –",
    "texto": "férias do titular;"
   },
   {
-   "id": "art-110/inc-II",
-   "pai": "art-110",
+   "id": "art-111/inc-II",
+   "pai": "art-111",
    "tipo": "inciso",
    "rotulo": "II –",
    "texto": "quando as licenças a que fizerem jus os titulares excederem a 15 (quinze) dias;"
   },
   {
-   "id": "art-110/inc-III",
-   "pai": "art-110",
+   "id": "art-111/inc-III",
+   "pai": "art-111",
    "tipo": "inciso",
    "rotulo": "III –",
    "texto": "na hipótese de licença não remunerada prevista no art. 110 desta Lei Complementar; e"
   },
   {
-   "id": "art-110/inc-IV",
-   "pai": "art-110",
+   "id": "art-111/inc-IV",
+   "pai": "art-111",
    "tipo": "inciso",
    "rotulo": "IV –",
    "texto": "no caso de renúncia do titular."
   },
   {
-   "id": "art-110/par-1",
-   "pai": "art-110",
+   "id": "art-111/par-1",
+   "pai": "art-111",
    "tipo": "paragrafo",
    "rotulo": "§ 1º",
    "texto": "Reassumindo o titular, encerra-se a convocação do suplente."
   },
   {
-   "id": "art-110/par-2",
-   "pai": "art-110",
+   "id": "art-111/par-2",
+   "pai": "art-111",
    "tipo": "paragrafo",
    "rotulo": "§ 2º",
    "texto": "O suplente de Conselheiro Tutelar perceberá a remuneração e os direitos decorrentes do exercício do cargo quando substituir o titular."
   },
   {
-   "id": "art-110/par-3",
-   "pai": "art-110",
+   "id": "art-111/par-3",
+   "pai": "art-111",
    "tipo": "paragrafo",
    "rotulo": "§ 3º",
    "texto": "A convocação do suplente obedecerá à ordem resultante da eleição do respectivo Conselho Tutelar."
   },
   {
-   "id": "art-111",
+   "id": "art-112",
    "pai": null,
    "tipo": "artigo",
-   "rotulo": "Art. 111.",
+   "rotulo": "Art. 112.",
    "texto": "Fica criada a Coordenação dos Conselhos Tutelares, órgão que disciplina a organização interna dos Conselhos Tutelares no Município de Porto Alegre.",
    "agrupadores": [
     {
@@ -2817,80 +2824,80 @@
    ]
   },
   {
-   "id": "art-111/par-unico",
-   "pai": "art-111",
+   "id": "art-112/par-unico",
+   "pai": "art-112",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
    "texto": "A Coordenação dos Conselhos Tutelares será cons tituída por 1 (um) Conselheiro Tutelar de cada Conselho Tutelar."
-  },
-  {
-   "id": "art-112",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 112.",
-   "texto": "Compete à Coordenação dos Conselhos Tutelares:"
-  },
-  {
-   "id": "art-112/inc-I",
-   "pai": "art-112",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "elaborar o regimento dos Conselhos Tutelares, estabelecendo sua forma de funcionamento e sua organização interna;"
-  },
-  {
-   "id": "art-112/inc-II",
-   "pai": "art-112",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "texto": "ordenar a forma de distribuição dos casos e o modo de decisão coletiva dos casos que lhe forem submetidos;"
-  },
-  {
-   "id": "art-112/inc-III",
-   "pai": "art-112",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "texto": "uniformizar procedimentos, orientações e condutas dos Conselhos Tutelares;"
-  },
-  {
-   "id": "art-112/inc-IV",
-   "pai": "art-112",
-   "tipo": "inciso",
-   "rotulo": "IV –",
-   "texto": "manifestar-se, em nome dos Conselheiros Tutelares, em matéria que afete o Órgão;"
-  },
-  {
-   "id": "art-112/inc-V",
-   "pai": "art-112",
-   "tipo": "inciso",
-   "rotulo": "V –",
-   "texto": "representar publicamente ou designar representante dos Conselhos Tutelares junto à sociedade e ao Poder Público, quando entender conveniente;"
-  },
-  {
-   "id": "art-112/inc-VI",
-   "pai": "art-112",
-   "tipo": "inciso",
-   "rotulo": "VI –",
-   "texto": "decidir sobre os conflitos de competência entre os Conselhos Tute lares;"
-  },
-  {
-   "id": "art-112/inc-VII",
-   "pai": "art-112",
-   "tipo": "inciso",
-   "rotulo": "VII –",
-   "texto": "organizar o horário de trabalho dos Conselheiros Tutelares; e"
-  },
-  {
-   "id": "art-112/inc-VIII",
-   "pai": "art-112",
-   "tipo": "inciso",
-   "rotulo": "VIII –",
-   "texto": "prestar contas, anualmente, dos trabalhos realizados, mediante relatório circunstanciado, a ser remetido aos Poderes Executivo e Legislativo Mu nicipais e ao CMDCA."
   },
   {
    "id": "art-113",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 113.",
+   "texto": "Compete à Coordenação dos Conselhos Tutelares:"
+  },
+  {
+   "id": "art-113/inc-I",
+   "pai": "art-113",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "elaborar o regimento dos Conselhos Tutelares, estabelecendo sua forma de funcionamento e sua organização interna;"
+  },
+  {
+   "id": "art-113/inc-II",
+   "pai": "art-113",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "ordenar a forma de distribuição dos casos e o modo de decisão coletiva dos casos que lhe forem submetidos;"
+  },
+  {
+   "id": "art-113/inc-III",
+   "pai": "art-113",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "uniformizar procedimentos, orientações e condutas dos Conselhos Tutelares;"
+  },
+  {
+   "id": "art-113/inc-IV",
+   "pai": "art-113",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "manifestar-se, em nome dos Conselheiros Tutelares, em matéria que afete o Órgão;"
+  },
+  {
+   "id": "art-113/inc-V",
+   "pai": "art-113",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "representar publicamente ou designar representante dos Conselhos Tutelares junto à sociedade e ao Poder Público, quando entender conveniente;"
+  },
+  {
+   "id": "art-113/inc-VI",
+   "pai": "art-113",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "decidir sobre os conflitos de competência entre os Conselhos Tute lares;"
+  },
+  {
+   "id": "art-113/inc-VII",
+   "pai": "art-113",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "organizar o horário de trabalho dos Conselheiros Tutelares; e"
+  },
+  {
+   "id": "art-113/inc-VIII",
+   "pai": "art-113",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "prestar contas, anualmente, dos trabalhos realizados, mediante relatório circunstanciado, a ser remetido aos Poderes Executivo e Legislativo Mu nicipais e ao CMDCA."
+  },
+  {
+   "id": "art-114",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 114.",
    "texto": "Fica criada a Corregedoria dos Conselhos Tutelares, órgão de controle e fiscalização da atuação dos Conselhos Tutelares.",
    "agrupadores": [
     {
@@ -2901,87 +2908,87 @@
    ]
   },
   {
-   "id": "art-114",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 114.",
-   "texto": "A Corregedoria dos Conselhos Tutelares será composta por:"
-  },
-  {
-   "id": "art-114/inc-I",
-   "pai": "art-114",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "2 (dois) Conselheiros Tutelares;"
-  },
-  {
-   "id": "art-114/inc-II",
-   "pai": "art-114",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "texto": "1 (um) representante do CMDCA;"
-  },
-  {
-   "id": "art-114/inc-III",
-   "pai": "art-114",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "texto": "1 (um) representante do Fórum Municipal dos Direitos da Criança e do Adolescente;"
-  },
-  {
-   "id": "art-114/inc-IV",
-   "pai": "art-114",
-   "tipo": "inciso",
-   "rotulo": "IV –",
-   "texto": "2 (dois) representantes do Legislativo Municipal; e"
-  },
-  {
-   "id": "art-114/inc-V",
-   "pai": "art-114",
-   "tipo": "inciso",
-   "rotulo": "V –",
-   "texto": "2 (dois) representantes do Executivo Municipal."
-  },
-  {
    "id": "art-115",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 115.",
-   "texto": "Compete à Corregedoria dos Conselhos Tutelares:"
+   "texto": "A Corregedoria dos Conselhos Tutelares será composta por:"
   },
   {
    "id": "art-115/inc-I",
    "pai": "art-115",
    "tipo": "inciso",
    "rotulo": "I –",
-   "texto": "fiscalizar a efetividade, o cumprimento do regime de trabalho, do ho rário e dos plantões dos Conselheiros Tutelares, de forma a garantir o atendimen to à população 24 (vinte e quatro) horas por dia;"
+   "texto": "2 (dois) Conselheiros Tutelares;"
   },
   {
    "id": "art-115/inc-II",
    "pai": "art-115",
    "tipo": "inciso",
    "rotulo": "II –",
-   "texto": "instaurar e proceder sindicância para apurar eventual falta grave cometida por Conselheiro Tutelar no desempenho de suas funções;"
+   "texto": "1 (um) representante do CMDCA;"
   },
   {
    "id": "art-115/inc-III",
    "pai": "art-115",
    "tipo": "inciso",
    "rotulo": "III –",
-   "texto": "remeter a decisão condenatória proferida nas sindicâncias ao Pre feito Municipal em reexame necessário e, nas hipóteses previstas no art. 134 des ta Lei Complementar, também ao Ministério Público;"
+   "texto": "1 (um) representante do Fórum Municipal dos Direitos da Criança e do Adolescente;"
   },
   {
    "id": "art-115/inc-IV",
    "pai": "art-115",
    "tipo": "inciso",
    "rotulo": "IV –",
-   "texto": "aplicar as penalidades previstas no art. 121 desta Lei Complemen tar."
+   "texto": "2 (dois) representantes do Legislativo Municipal; e"
+  },
+  {
+   "id": "art-115/inc-V",
+   "pai": "art-115",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "2 (dois) representantes do Executivo Municipal."
   },
   {
    "id": "art-116",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 116.",
+   "texto": "Compete à Corregedoria dos Conselhos Tutelares:"
+  },
+  {
+   "id": "art-116/inc-I",
+   "pai": "art-116",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "fiscalizar a efetividade, o cumprimento do regime de trabalho, do ho rário e dos plantões dos Conselheiros Tutelares, de forma a garantir o atendimen to à população 24 (vinte e quatro) horas por dia;"
+  },
+  {
+   "id": "art-116/inc-II",
+   "pai": "art-116",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "instaurar e proceder sindicância para apurar eventual falta grave cometida por Conselheiro Tutelar no desempenho de suas funções;"
+  },
+  {
+   "id": "art-116/inc-III",
+   "pai": "art-116",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "remeter a decisão condenatória proferida nas sindicâncias ao Pre feito Municipal em reexame necessário e, nas hipóteses previstas no art. 134 des ta Lei Complementar, também ao Ministério Público;"
+  },
+  {
+   "id": "art-116/inc-IV",
+   "pai": "art-116",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "aplicar as penalidades previstas no art. 121 desta Lei Complemen tar."
+  },
+  {
+   "id": "art-117",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 117.",
    "texto": "É vedado aos Conselheiros Tutelares:",
    "agrupadores": [
     {
@@ -2997,171 +3004,171 @@
    ]
   },
   {
-   "id": "art-116/inc-I",
-   "pai": "art-116",
+   "id": "art-117/inc-I",
+   "pai": "art-117",
    "tipo": "inciso",
    "rotulo": "I –",
    "texto": "receber, a qualquer título, honorários;"
   },
   {
-   "id": "art-116/inc-II",
-   "pai": "art-116",
+   "id": "art-117/inc-II",
+   "pai": "art-117",
    "tipo": "inciso",
    "rotulo": "II –",
    "texto": "divulgar, por qualquer meio, notícia a respeito de fato que possa identificar a criança, o adolescente ou sua família, salvo autorização judicial, nos termos do ECA; e"
   },
   {
-   "id": "art-116/inc-III",
-   "pai": "art-116",
+   "id": "art-117/inc-III",
+   "pai": "art-117",
    "tipo": "inciso",
    "rotulo": "III –",
    "texto": "deixar de atender, no exercício do cargo, aos requisitos constantes nos incs. I, III e VII do art. 48 desta Lei Complementar."
-  },
-  {
-   "id": "art-117",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 117.",
-   "texto": "Perderá o mandato o Conselheiro Tutelar que for condenado por sentença irrecorrível pela prática de crime doloso ou pela prática dos crimes e infrações administrativos previstos no ECA."
   },
   {
    "id": "art-118",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 118.",
-   "texto": "São impedidos de servir, no mesmo Conselho Tutelar, cônju ge, ascendente e descendente, sogro e genro ou nora, irmãos, cunhados, durante o cunhadio, tio e sobrinho, padrasto ou madrasta e enteado."
-  },
-  {
-   "id": "art-118/par-unico",
-   "pai": "art-118",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "texto": "Estende-se o impedimento constante no “caput” des te artigo ao Conselheiro Tutelar em relação à autoridade judiciária e ao represen tante do Ministério Público com atuação na Justiça da Infância e da Juventude em exercício na comarca, foro regional ou distrital local."
+   "texto": "Perderá o mandato o Conselheiro Tutelar que for condenado por sentença irrecorrível pela prática de crime doloso ou pela prática dos crimes e infrações administrativos previstos no ECA."
   },
   {
    "id": "art-119",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 119.",
-   "texto": "Constituem faltas graves do Conselheiro Tutelar:"
+   "texto": "São impedidos de servir, no mesmo Conselho Tutelar, cônju ge, ascendente e descendente, sogro e genro ou nora, irmãos, cunhados, durante o cunhadio, tio e sobrinho, padrasto ou madrasta e enteado."
   },
   {
-   "id": "art-119/inc-I",
+   "id": "art-119/par-unico",
    "pai": "art-119",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "usar de sua função para benefício próprio;"
-  },
-  {
-   "id": "art-119/inc-II",
-   "pai": "art-119",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "texto": "romper o sigilo em relação aos casos analisados pelo Conselho Tu telar do qual faz parte;"
-  },
-  {
-   "id": "art-119/inc-III",
-   "pai": "art-119",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "texto": "exceder-se no exercício da função, de modo a exorbitar sua compe tência, abusando da autoridade que lhe foi conferida;"
-  },
-  {
-   "id": "art-119/inc-IV",
-   "pai": "art-119",
-   "tipo": "inciso",
-   "rotulo": "IV –",
-   "texto": "recusar-se a prestar atendimento;"
-  },
-  {
-   "id": "art-119/inc-V",
-   "pai": "art-119",
-   "tipo": "inciso",
-   "rotulo": "V –",
-   "texto": "aplicar medida de proteção sem a decisão do Conselho Tutelar do qual faz parte;"
-  },
-  {
-   "id": "art-119/inc-VI",
-   "pai": "art-119",
-   "tipo": "inciso",
-   "rotulo": "VI –",
-   "texto": "omitir-se quanto ao exercício de suas atribuições;"
-  },
-  {
-   "id": "art-119/inc-VII",
-   "pai": "art-119",
-   "tipo": "inciso",
-   "rotulo": "VII –",
-   "texto": "deixar de comparecer no horário de trabalho estabelecido; e"
-  },
-  {
-   "id": "art-119/inc-VIII",
-   "pai": "art-119",
-   "tipo": "inciso",
-   "rotulo": "VIII –",
-   "texto": "exercer atividade incompatível com a dedicação exclusiva."
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Estende-se o impedimento constante no “caput” des te artigo ao Conselheiro Tutelar em relação à autoridade judiciária e ao represen tante do Ministério Público com atuação na Justiça da Infância e da Juventude em exercício na comarca, foro regional ou distrital local."
   },
   {
    "id": "art-120",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 120.",
-   "texto": "Constatada a falta grave, o Conselheiro Tutelar ficará sujeito às seguintes penalidades:"
+   "texto": "Constituem faltas graves do Conselheiro Tutelar:"
   },
   {
    "id": "art-120/inc-I",
    "pai": "art-120",
    "tipo": "inciso",
    "rotulo": "I –",
-   "texto": "advertência, nas hipóteses previstas nos incs. II a VIII do art. 120 desta Lei Complementar;"
+   "texto": "usar de sua função para benefício próprio;"
   },
   {
    "id": "art-120/inc-II",
    "pai": "art-120",
    "tipo": "inciso",
    "rotulo": "II –",
-   "texto": "suspensão não remunerada:"
-  },
-  {
-   "id": "art-120/inc-II/ali-a",
-   "pai": "art-120/inc-II",
-   "tipo": "alinea",
-   "rotulo": "a)",
-   "texto": "nas hipóteses previstas nos incs. II, IV e V do art. 120 desta Lei Com plementar, desde que caracterizado o irreparável prejuízo pelo cometimento da falta grave;"
-  },
-  {
-   "id": "art-120/inc-II/ali-b",
-   "pai": "art-120/inc-II",
-   "tipo": "alinea",
-   "rotulo": "b)",
-   "texto": "na hipótese prevista no inc. I do art. 120 desta Lei Complementar; e"
-  },
-  {
-   "id": "art-120/inc-II/ali-c",
-   "pai": "art-120/inc-II",
-   "tipo": "alinea",
-   "rotulo": "c)",
-   "texto": "na reincidência de falta;"
+   "texto": "romper o sigilo em relação aos casos analisados pelo Conselho Tu telar do qual faz parte;"
   },
   {
    "id": "art-120/inc-III",
    "pai": "art-120",
    "tipo": "inciso",
    "rotulo": "III –",
-   "texto": "perda da função, quando, após a aplicação de suspensão não remu nerada, o Conselheiro Tutelar cometer falta grave constatada em sindicância."
+   "texto": "exceder-se no exercício da função, de modo a exorbitar sua compe tência, abusando da autoridade que lhe foi conferida;"
   },
   {
-   "id": "art-120/par-unico",
+   "id": "art-120/inc-IV",
    "pai": "art-120",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "texto": "Considera-se reincidência quando constatada falta grave em sindicância anterior."
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "recusar-se a prestar atendimento;"
+  },
+  {
+   "id": "art-120/inc-V",
+   "pai": "art-120",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "aplicar medida de proteção sem a decisão do Conselho Tutelar do qual faz parte;"
+  },
+  {
+   "id": "art-120/inc-VI",
+   "pai": "art-120",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "omitir-se quanto ao exercício de suas atribuições;"
+  },
+  {
+   "id": "art-120/inc-VII",
+   "pai": "art-120",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "deixar de comparecer no horário de trabalho estabelecido; e"
+  },
+  {
+   "id": "art-120/inc-VIII",
+   "pai": "art-120",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "exercer atividade incompatível com a dedicação exclusiva."
   },
   {
    "id": "art-121",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 121.",
+   "texto": "Constatada a falta grave, o Conselheiro Tutelar ficará sujeito às seguintes penalidades:"
+  },
+  {
+   "id": "art-121/inc-I",
+   "pai": "art-121",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "advertência, nas hipóteses previstas nos incs. II a VIII do art. 120 desta Lei Complementar;"
+  },
+  {
+   "id": "art-121/inc-II",
+   "pai": "art-121",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "suspensão não remunerada:"
+  },
+  {
+   "id": "art-121/inc-II/ali-a",
+   "pai": "art-121/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "nas hipóteses previstas nos incs. II, IV e V do art. 120 desta Lei Com plementar, desde que caracterizado o irreparável prejuízo pelo cometimento da falta grave;"
+  },
+  {
+   "id": "art-121/inc-II/ali-b",
+   "pai": "art-121/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "na hipótese prevista no inc. I do art. 120 desta Lei Complementar; e"
+  },
+  {
+   "id": "art-121/inc-II/ali-c",
+   "pai": "art-121/inc-II",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "na reincidência de falta;"
+  },
+  {
+   "id": "art-121/inc-III",
+   "pai": "art-121",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "perda da função, quando, após a aplicação de suspensão não remu nerada, o Conselheiro Tutelar cometer falta grave constatada em sindicância."
+  },
+  {
+   "id": "art-121/par-unico",
+   "pai": "art-121",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Considera-se reincidência quando constatada falta grave em sindicância anterior."
+  },
+  {
+   "id": "art-122",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 122.",
    "texto": "As irregularidades e as faltas graves cometidas por Conselhei ros Tutelares serão apuradas por meio de sindicância.",
    "agrupadores": [
     {
@@ -3172,136 +3179,136 @@
    ]
   },
   {
-   "id": "art-122",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 122.",
-   "texto": "Ficam assegurados ao Conselheiro Tutelar, no processo de sindicância, o contraditório e a ampla defesa com os meios e recursos a ela ine rentes."
-  },
-  {
    "id": "art-123",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 123.",
-   "texto": "A sindicância será instaurada por iniciativa de um dos mem bros da Corregedoria dos Conselhos Tutelares, de ofício, ou a partir de denúncia de qualquer cidadão."
-  },
-  {
-   "id": "art-123/par-unico",
-   "pai": "art-123",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "texto": "A denúncia poderá ser encaminhada por qualquer cidadão à Corregedoria dos Conselhos Tutelares, desde que escrita, fundamenta da e indicando as provas a serem produzidas."
+   "texto": "Ficam assegurados ao Conselheiro Tutelar, no processo de sindicância, o contraditório e a ampla defesa com os meios e recursos a ela ine rentes."
   },
   {
    "id": "art-124",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 124.",
-   "texto": "O processo de sindicância é sigiloso, devendo ser concluído em 60 (sessenta) dias após sua instauração, salvo impedimento justificado."
+   "texto": "A sindicância será instaurada por iniciativa de um dos mem bros da Corregedoria dos Conselhos Tutelares, de ofício, ou a partir de denúncia de qualquer cidadão."
+  },
+  {
+   "id": "art-124/par-unico",
+   "pai": "art-124",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A denúncia poderá ser encaminhada por qualquer cidadão à Corregedoria dos Conselhos Tutelares, desde que escrita, fundamenta da e indicando as provas a serem produzidas."
   },
   {
    "id": "art-125",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 125.",
-   "texto": "Instaurada a sindicância, o indiciado deverá ser notificado pre viamente da data em que será ouvido pela Corregedoria dos Conselhos Tutelares."
-  },
-  {
-   "id": "art-125/par-unico",
-   "pai": "art-125",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "texto": "A ausência injustificada do indiciado não interrompe rá os trabalhos da sindicância."
+   "texto": "O processo de sindicância é sigiloso, devendo ser concluído em 60 (sessenta) dias após sua instauração, salvo impedimento justificado."
   },
   {
    "id": "art-126",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 126.",
-   "texto": "Depois de ouvido, o indiciado terá até 3 (três) dias para apre sentar sua defesa prévia, sendo-lhe facultada a consulta aos autos."
+   "texto": "Instaurada a sindicância, o indiciado deverá ser notificado pre viamente da data em que será ouvido pela Corregedoria dos Conselhos Tutelares."
   },
   {
    "id": "art-126/par-unico",
    "pai": "art-126",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
-   "texto": "Na defesa prévia, serão anexados os documentos, indicadas as provas a serem produzidas e relacionadas as testemunhas, no máxi mo de 3 (três) por fato imputado."
+   "texto": "A ausência injustificada do indiciado não interrompe rá os trabalhos da sindicância."
   },
   {
    "id": "art-127",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 127.",
-   "texto": "Na oitiva das testemunhas, serão ouvidas, primeiramente, as de acusação."
+   "texto": "Depois de ouvido, o indiciado terá até 3 (três) dias para apre sentar sua defesa prévia, sendo-lhe facultada a consulta aos autos."
   },
   {
    "id": "art-127/par-unico",
    "pai": "art-127",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
-   "texto": "As testemunhas de defesa comparecerão indepen dentemente de intimação, e a falta injustificada dessas não obstará o prossegui mento da instrução."
+   "texto": "Na defesa prévia, serão anexados os documentos, indicadas as provas a serem produzidas e relacionadas as testemunhas, no máxi mo de 3 (três) por fato imputado."
   },
   {
    "id": "art-128",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 128.",
-   "texto": "Concluída a fase instrutória, dar-se-á vista dos autos à defesa para produzir alegações finais, no prazo de 10 (dez) dias."
+   "texto": "Na oitiva das testemunhas, serão ouvidas, primeiramente, as de acusação."
+  },
+  {
+   "id": "art-128/par-unico",
+   "pai": "art-128",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As testemunhas de defesa comparecerão indepen dentemente de intimação, e a falta injustificada dessas não obstará o prossegui mento da instrução."
   },
   {
    "id": "art-129",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 129.",
-   "texto": "Apresentadas as alegações finais, a Corregedoria dos Conse lhos Tutelares terá 15 (quinze) dias para concluir a sindicância, pronunciando-se pelo arquivamento do processo ou pela aplicação de penalidade."
+   "texto": "Concluída a fase instrutória, dar-se-á vista dos autos à defesa para produzir alegações finais, no prazo de 10 (dez) dias."
   },
   {
    "id": "art-130",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 130.",
-   "texto": "Não será instaurada mais de uma sindicância sobre o mesmo fato, salvo no caso de arquivamento por falta de provas, mediante a indicação de nova prova."
+   "texto": "Apresentadas as alegações finais, a Corregedoria dos Conse lhos Tutelares terá 15 (quinze) dias para concluir a sindicância, pronunciando-se pelo arquivamento do processo ou pela aplicação de penalidade."
   },
   {
    "id": "art-131",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 131.",
-   "texto": "Da decisão da Corregedoria dos Conselhos Tutelares que apli car a penalidade haverá reexame necessário do Prefeito Municipal."
-  },
-  {
-   "id": "art-131/par-1",
-   "pai": "art-131",
-   "tipo": "paragrafo",
-   "rotulo": "§ 1º",
-   "texto": "O indiciado poderá interpor recurso, devidamente fundamentado, da decisão da Corregedoria dos Conselhos Tutelares no prazo de 15 (quinze) dias, contados da intimação pessoal do indiciado ou de seu procurador."
-  },
-  {
-   "id": "art-131/par-2",
-   "pai": "art-131",
-   "tipo": "paragrafo",
-   "rotulo": "§ 2º",
-   "texto": "O recurso será interposto junto à Corregedoria dos Conselhos Tute lares e acompanhará os autos que serão remetidos ao Prefeito Municipal."
+   "texto": "Não será instaurada mais de uma sindicância sobre o mesmo fato, salvo no caso de arquivamento por falta de provas, mediante a indicação de nova prova."
   },
   {
    "id": "art-132",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 132.",
-   "texto": "Ao denunciante será dado conhecimento da conclusão da sindicância."
+   "texto": "Da decisão da Corregedoria dos Conselhos Tutelares que apli car a penalidade haverá reexame necessário do Prefeito Municipal."
+  },
+  {
+   "id": "art-132/par-1",
+   "pai": "art-132",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O indiciado poderá interpor recurso, devidamente fundamentado, da decisão da Corregedoria dos Conselhos Tutelares no prazo de 15 (quinze) dias, contados da intimação pessoal do indiciado ou de seu procurador."
+  },
+  {
+   "id": "art-132/par-2",
+   "pai": "art-132",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O recurso será interposto junto à Corregedoria dos Conselhos Tute lares e acompanhará os autos que serão remetidos ao Prefeito Municipal."
   },
   {
    "id": "art-133",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 133.",
-   "texto": "Concluída a sindicância pela incidência de uma das hipóteses previstas nos arts. 228 a 258 do ECA, os autos serão remetidos ao Ministério Público, sem prejuízo das sanções administrativas cabíveis."
+   "texto": "Ao denunciante será dado conhecimento da conclusão da sindicância."
   },
   {
    "id": "art-134",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 134.",
+   "texto": "Concluída a sindicância pela incidência de uma das hipóteses previstas nos arts. 228 a 258 do ECA, os autos serão remetidos ao Ministério Público, sem prejuízo das sanções administrativas cabíveis."
+  },
+  {
+   "id": "art-135",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 135.",
    "texto": "Fica instituída a Semana Municipal de Luta contra a Violência e a Exploração Sexual de Crianças e de Adolescentes, a realizar-se anualmente, no período compreendido entre os dias 12 e 18 de maio.",
    "agrupadores": [
     {
@@ -3317,31 +3324,31 @@
    ]
   },
   {
-   "id": "art-134/par-unico",
-   "pai": "art-134",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "texto": "Na Semana, poderão ser desenvolvidos, entre outras atividades correlatas, debates, palestras e cursos."
-  },
-  {
-   "id": "art-135",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 135.",
-   "texto": "A Semana será coordenada por uma comissão composta por representantes dos Poderes Executivo e Legislativo Municipais."
-  },
-  {
    "id": "art-135/par-unico",
    "pai": "art-135",
    "tipo": "paragrafo",
    "rotulo": "Parágrafo único.",
-   "texto": "A comissão organizadora da Semana poderá contar com a parceria de conselhos municipais, de entidades da sociedade civil que de senvolvam trabalhos voltados à defesa da criança e do adolescente e de munícipes comprometidos com a luta em defesa da criança e do adolescente."
+   "texto": "Na Semana, poderão ser desenvolvidos, entre outras atividades correlatas, debates, palestras e cursos."
   },
   {
    "id": "art-136",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 136.",
+   "texto": "A Semana será coordenada por uma comissão composta por representantes dos Poderes Executivo e Legislativo Municipais."
+  },
+  {
+   "id": "art-136/par-unico",
+   "pai": "art-136",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A comissão organizadora da Semana poderá contar com a parceria de conselhos municipais, de entidades da sociedade civil que de senvolvam trabalhos voltados à defesa da criança e do adolescente e de munícipes comprometidos com a luta em defesa da criança e do adolescente."
+  },
+  {
+   "id": "art-137",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 137.",
    "texto": "Fica instituída a Semana em Defesa da Criança e do Adoles cente, a realizar-se anualmente, no mês de julho, no período em que se comemo ra o aniversário do ECA.",
    "agrupadores": [
     {
@@ -3352,73 +3359,73 @@
    ]
   },
   {
-   "id": "art-136/par-1",
-   "pai": "art-136",
+   "id": "art-137/par-1",
+   "pai": "art-137",
    "tipo": "paragrafo",
    "rotulo": "§ 1º",
    "texto": "O evento de que trata o “caput” deste artigo integra o Calendário Oficial de Eventos do Município de Porto Alegre."
   },
   {
-   "id": "art-136/par-2",
-   "pai": "art-136",
+   "id": "art-137/par-2",
+   "pai": "art-137",
    "tipo": "paragrafo",
    "rotulo": "§ 2º",
    "texto": "O Executivo Municipal, por meio de seus órgãos competentes, fica autorizado a divulgar os eventos da Semana."
-  },
-  {
-   "id": "art-137",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 137.",
-   "texto": "A Semana será organizada por comissão composta por repre sentantes do CMDCA, do Fórum Municipal da Criança e do Adolescente e dos Conselhos Tutelares e contará com a parceria de entidades da sociedade civil que desenvolvam trabalhos voltados à defesa da criança e do adolescente."
-  },
-  {
-   "id": "art-137/par-unico",
-   "pai": "art-137",
-   "tipo": "paragrafo",
-   "rotulo": "Parágrafo único.",
-   "texto": "A comissão organizadora da Semana poderá contar com a participação de munícipes comprometidos com a luta em defesa da criança e do adolescente."
   },
   {
    "id": "art-138",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 138.",
-   "texto": "A Semana em Defesa da Criança e do Adolescente tem por objetivo:"
+   "texto": "A Semana será organizada por comissão composta por repre sentantes do CMDCA, do Fórum Municipal da Criança e do Adolescente e dos Conselhos Tutelares e contará com a parceria de entidades da sociedade civil que desenvolvam trabalhos voltados à defesa da criança e do adolescente."
   },
   {
-   "id": "art-138/inc-I",
+   "id": "art-138/par-unico",
    "pai": "art-138",
-   "tipo": "inciso",
-   "rotulo": "I –",
-   "texto": "divulgar o ECA;"
-  },
-  {
-   "id": "art-138/inc-II",
-   "pai": "art-138",
-   "tipo": "inciso",
-   "rotulo": "II –",
-   "texto": "capacitar os agentes que lidam com a questão da criança e do ado lescente; e"
-  },
-  {
-   "id": "art-138/inc-III",
-   "pai": "art-138",
-   "tipo": "inciso",
-   "rotulo": "III –",
-   "texto": "promover a reflexão com a sociedade sobre a implementação do ECA."
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A comissão organizadora da Semana poderá contar com a participação de munícipes comprometidos com a luta em defesa da criança e do adolescente."
   },
   {
    "id": "art-139",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 139.",
-   "texto": "Na Semana, poderão ser desenvolvidos, entre outras ativida des correlatas, seminários, exposições e oficinas."
+   "texto": "A Semana em Defesa da Criança e do Adolescente tem por objetivo:"
+  },
+  {
+   "id": "art-139/inc-I",
+   "pai": "art-139",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "divulgar o ECA;"
+  },
+  {
+   "id": "art-139/inc-II",
+   "pai": "art-139",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "capacitar os agentes que lidam com a questão da criança e do ado lescente; e"
+  },
+  {
+   "id": "art-139/inc-III",
+   "pai": "art-139",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "promover a reflexão com a sociedade sobre a implementação do ECA."
   },
   {
    "id": "art-140",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 140.",
+   "texto": "Na Semana, poderão ser desenvolvidos, entre outras ativida des correlatas, seminários, exposições e oficinas."
+  },
+  {
+   "id": "art-141",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 141.",
    "texto": "O Executivo Municipal, por meio de seus órgãos competentes, fiscalizará a execução desta Lei Complementar.",
    "agrupadores": [
     {
@@ -3429,176 +3436,176 @@
    ]
   },
   {
-   "id": "art-141",
+   "id": "art-142",
    "pai": null,
    "tipo": "artigo",
-   "rotulo": "Art. 141.",
+   "rotulo": "Art. 142.",
    "texto": "Na contagem dos prazos previstos nesta Lei Complementar, salvo disposição em contrário, computam-se os prazos excluindo o dia do começo e incluindo o do vencimento."
   },
   {
-   "id": "art-141/par-1",
-   "pai": "art-141",
+   "id": "art-142/par-1",
+   "pai": "art-142",
    "tipo": "paragrafo",
    "rotulo": "§ 1º",
    "texto": "Os prazos começarão a correr do primeiro dia útil após a intimação."
   },
   {
-   "id": "art-141/par-2",
-   "pai": "art-141",
+   "id": "art-142/par-2",
+   "pai": "art-142",
    "tipo": "paragrafo",
    "rotulo": "§ 2º",
    "texto": "Considera-se prorrogado o prazo até o primeiro dia útil, se o venci mento cair em feriado, sábado ou domingo."
-  },
-  {
-   "id": "art-142",
-   "pai": null,
-   "tipo": "artigo",
-   "rotulo": "Art. 142.",
-   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
   },
   {
    "id": "art-143",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 143.",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-144",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 144.",
    "texto": "Ficam revogados:"
   },
   {
-   "id": "art-143/inc-I",
-   "pai": "art-143",
+   "id": "art-144/inc-I",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "I –",
    "texto": "Lei nº 6.787, de 11 de janeiro de 1991;"
   },
   {
-   "id": "art-143/inc-II",
-   "pai": "art-143",
+   "id": "art-144/inc-II",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "II –",
    "texto": "Lei nº 7.207, de 30 de dezembro de 1992;"
   },
   {
-   "id": "art-143/inc-III",
-   "pai": "art-143",
+   "id": "art-144/inc-III",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "III –",
    "texto": "Lei nº 7.394, de 28 de dezembro de 1993;"
   },
   {
-   "id": "art-143/inc-IV",
-   "pai": "art-143",
+   "id": "art-144/inc-IV",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "IV –",
    "texto": "Lei nº 7.453, de 6 de julho de 1994;"
   },
   {
-   "id": "art-143/inc-V",
-   "pai": "art-143",
+   "id": "art-144/inc-V",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "V –",
    "texto": "Lei nº 7.497, de 21 de setembro de 1994;"
   },
   {
-   "id": "art-143/inc-VI",
-   "pai": "art-143",
+   "id": "art-144/inc-VI",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "VI –",
    "texto": "Lei nº 7.595, de 17 de janeiro de 1995;"
   },
   {
-   "id": "art-143/inc-VII",
-   "pai": "art-143",
+   "id": "art-144/inc-VII",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "VII –",
    "texto": "Lei nº 7.697, de 10 de novembro de 1995;"
   },
   {
-   "id": "art-143/inc-VIII",
-   "pai": "art-143",
+   "id": "art-144/inc-VIII",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "VIII –",
    "texto": "Lei nº 7.707, de 23 de novembro 1995;"
   },
   {
-   "id": "art-143/inc-IX",
-   "pai": "art-143",
+   "id": "art-144/inc-IX",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "IX –",
    "texto": "Lei nº 7.859, de 8 de outubro de 1996;"
   },
   {
-   "id": "art-143/inc-X",
-   "pai": "art-143",
+   "id": "art-144/inc-X",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "X –",
    "texto": "Lei nº 8.067, de 18 de novembro de 1997;"
   },
   {
-   "id": "art-143/inc-XI",
-   "pai": "art-143",
+   "id": "art-144/inc-XI",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "XI –",
    "texto": "Lei nº 8.098, de 22 de dezembro de 1997;"
   },
   {
-   "id": "art-143/inc-XII",
-   "pai": "art-143",
+   "id": "art-144/inc-XII",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "XII –",
    "texto": "Lei nº 8.162, de 20 de maio de 1998;"
   },
   {
-   "id": "art-143/inc-XIII",
-   "pai": "art-143",
+   "id": "art-144/inc-XIII",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "XIII –",
    "texto": "Lei nº 8.554, de 13 de julho de 2000;"
   },
   {
-   "id": "art-143/inc-XIV",
-   "pai": "art-143",
+   "id": "art-144/inc-XIV",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "XIV –",
    "texto": "Lei nº 9.126, de 27 de maio de 2003;"
   },
   {
-   "id": "art-143/inc-XV",
-   "pai": "art-143",
+   "id": "art-144/inc-XV",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "XV –",
    "texto": "Lei nº 9.432, de 20 de abril de 2004;"
   },
   {
-   "id": "art-143/inc-XVI",
-   "pai": "art-143",
+   "id": "art-144/inc-XVI",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "XVI –",
    "texto": "Lei nº 9.632, de 7 de dezembro de 2004;"
   },
   {
-   "id": "art-143/inc-XVII",
-   "pai": "art-143",
+   "id": "art-144/inc-XVII",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "XVII –",
    "texto": "Lei nº 9.689, de 28 de dezembro de 2004;"
   },
   {
-   "id": "art-143/inc-XVIII",
-   "pai": "art-143",
+   "id": "art-144/inc-XVIII",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "XVIII –",
    "texto": "art. 13 da Lei nº 9.693, de 29 de dezembro de 2004;"
   },
   {
-   "id": "art-143/inc-XIX",
-   "pai": "art-143",
+   "id": "art-144/inc-XIX",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "XIX –",
    "texto": "Lei nº 9.895, de 23 de dezembro de 2005; e"
   },
   {
-   "id": "art-143/inc-XX",
-   "pai": "art-143",
+   "id": "art-144/inc-XX",
+   "pai": "art-144",
    "tipo": "inciso",
    "rotulo": "XX –",
    "texto": "Lei nº 10.179, de 21 de março de 2007."
@@ -3609,13 +3616,11 @@
   "motivos": [
    "rotulo_nao_confere_com_a_origem"
   ],
-  "avisos": [
-   "possivel_dispositivo_embutido"
-  ],
+  "avisos": [],
   "metricas": {
-   "artigos": 143,
-   "dispositivos": 478,
-   "cobertura": 0.953,
+   "artigos": 144,
+   "dispositivos": 479,
+   "cobertura": 0.952,
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],
@@ -3627,18 +3632,6 @@
     {
      "rotulo": "b)",
      "naOrigem": "c"
-    },
-    {
-     "rotulo": "§ 5º",
-     "naOrigem": "Parágrafoúnico"
-    },
-    {
-     "rotulo": "Art. 101.",
-     "naOrigem": "Art102"
-    },
-    {
-     "rotulo": "Art. 102.",
-     "naOrigem": "Art103"
     }
    ]
   }

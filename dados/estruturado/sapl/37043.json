@@ -2,8 +2,8 @@
  "idSapl": 37043,
  "rotulo": "Lei Complementar municipal nº 662, de 07 de dezembro de 2010",
  "sha256Origem": "44c4d82a3c20242d29bf0353a48bbd851393ffae75b18f09cb3f564bf6b6e181",
- "estruturadoEm": "2026-11-21T00:34:36.444Z",
- "versaoEstruturador": 18,
+ "estruturadoEm": "2026-11-21T00:57:55.334Z",
+ "versaoEstruturador": 19,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "662",
@@ -430,20 +430,28 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 15.",
-   "texto": "O Fundo do Comad é de responsabilidade da SMS e será gerido por uma Junta Administrativa composta por 3 (três) membros e seus respectivos suplentes, indicados pelo Prefeito Municipal, representando as Secretarias Municipais de Saúde, da Fazenda e de Educação. § 1º VETADO."
+   "texto": "O Fundo do Comad é de responsabilidade da SMS e será gerido por uma Junta Administrativa composta por 3 (três) membros e seus respectivos suplentes, indicados pelo Prefeito Municipal, representando as Secretarias Municipais de Saúde, da Fazenda e de Educação."
   },
   {
    "id": "art-15/par-1",
    "pai": "art-15",
    "tipo": "paragrafo",
    "rotulo": "§ 1º",
-   "texto": "Os membros da Junta Administrativa, bem como seus suplentes, terão mandato de 2 (dois) anos, permitida somente 1 (uma) recondução consecutiva, como titular ou suplente, por igual período."
+   "texto": "VETADO.",
+   "vetado": true
   },
   {
    "id": "art-15/par-2",
    "pai": "art-15",
    "tipo": "paragrafo",
    "rotulo": "§ 2º",
+   "texto": "Os membros da Junta Administrativa, bem como seus suplentes, terão mandato de 2 (dois) anos, permitida somente 1 (uma) recondução consecutiva, como titular ou suplente, por igual período."
+  },
+  {
+   "id": "art-15/par-3",
+   "pai": "art-15",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
    "texto": "Os membros titulares da Junta Administrativa serão substituídos, em caso de faltas, impedimentos ou demais vacâncias, por seus respectivos suplentes."
   },
   {
@@ -584,45 +592,35 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 20.",
-   "texto": "Fica o Executivo Municipal autorizado a abrir crédito suplementar para as despesas decorrentes desta Lei Complementar. Art. 21. Esta Lei Complementar entra em vigor na data de sua publicação. ro de 1991. bro de 2010."
+   "texto": "Fica o Executivo Municipal autorizado a abrir crédito suplementar para as despesas decorrentes desta Lei Complementar."
   },
   {
    "id": "art-21",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 21.",
+   "texto": "Esta Lei Complementar entra em vigor na data de sua publicação. ro de 1991. bro de 2010."
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
    "texto": "Fica revogada a Lei Complementar nº 241, de 4 de janeiro"
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
-  ],
-  "avisos": [
-   "possivel_dispositivo_embutido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
   "metricas": {
-   "artigos": 21,
-   "dispositivos": 82,
+   "artigos": 22,
+   "dispositivos": 84,
    "cobertura": 0.966,
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "§ 1º",
-     "naOrigem": "2º"
-    },
-    {
-     "rotulo": "§ 2º",
-     "naOrigem": "3º"
-    },
-    {
-     "rotulo": "Art. 21.",
-     "naOrigem": "Art22"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

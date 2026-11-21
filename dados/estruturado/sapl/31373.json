@@ -2,8 +2,8 @@
  "idSapl": 31373,
  "rotulo": "Lei Complementar municipal nº 465, de 23 de agosto de 2001",
  "sha256Origem": "cfe546135c8834ad33f56355a533faaeed5566bc87b0983dee10f0796407d672",
- "estruturadoEm": "2026-11-21T00:34:37.820Z",
- "versaoEstruturador": 18,
+ "estruturadoEm": "2026-11-21T00:57:56.732Z",
+ "versaoEstruturador": 19,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "465",
@@ -25,24 +25,33 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 1º",
-   "texto": "® Ficam alterados o \"caput\" e o § 1® do art. 3® da Lei Complementar n® 409, de 13 de janeiro de 1998, que passam a ter a seguinte redação: Art, 3® Esta Lei Complementar entra em vigor na data de sua publicação. 2001.",
-   "blocoDeAlteracao": "\"Art. 3® Além dos benefícios mencionados nos arts. 1 ® e 2® desta Lei\nComplementar para os imóveis mencionados, será permitido transferir a totalidade do potencial construtivo da área atingida para qualquer outra região da\nCidade.\n§ 1® Não será permitida a transferência de que trata este artigo para\nas Unidades de Estruturação Urbana que sejam consideradas saturadas por\nocasião da operação de transferência, conforme o art. 52 e parágrafos da Lei\nComplementar n® 434, de 1® de dezembro de 1999.\nArt. 2® Fica incluído, na Lei Complementar n® 409, de 13 de janeiro de\n1998, 0 art. 4®-A, com a seguinte redação:\n\"Art. 4®-A Os benefícios desta Lei Complementar ficam estendidos a\ntodos os imóveis atingidos pelo traçado da III Perimetral, permutados sob a\négide desta Lei Complementar\"."
+   "texto": "® Ficam alterados o \"caput\" e o § 1® do art. 3® da Lei Complementar n® 409, de 13 de janeiro de 1998, que passam a ter a seguinte redação:",
+   "blocoDeAlteracao": "\"Art. 3® Além dos benefícios mencionados nos arts. 1 ® e 2® desta Lei\nComplementar para os imóveis mencionados, será permitido transferir a totalidade do potencial construtivo da área atingida para qualquer outra região da\nCidade.\n§ 1® Não será permitida a transferência de que trata este artigo para\nas Unidades de Estruturação Urbana que sejam consideradas saturadas por\nocasião da operação de transferência, conforme o art. 52 e parágrafos da Lei\nComplementar n® 434, de 1® de dezembro de 1999."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "® Fica incluído, na Lei Complementar n® 409, de 13 de janeiro de 1998, 0 art. 4®-A, com a seguinte redação: Art, 3® Esta Lei Complementar entra em vigor na data de sua publicação. 2001.",
+   "blocoDeAlteracao": "\"Art. 4®-A Os benefícios desta Lei Complementar ficam estendidos a\ntodos os imóveis atingidos pelo traçado da III Perimetral, permutados sob a\négide desta Lei Complementar\"."
   }
  ],
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
    "texto_fora_da_arvore",
-   "trecho_nao_localizado_na_origem"
+   "trecho_nao_localizado_na_origem",
+   "bloco_sem_fechamento_de_aspas"
   ],
   "avisos": [
    "cabecalho_fora_do_padrao"
   ],
   "metricas": {
-   "artigos": 1,
-   "dispositivos": 1,
-   "cobertura": 0.831,
-   "blocosDeAlteracao": 1,
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.845,
+   "blocosDeAlteracao": 2,
    "lacunas": [
     {
      "tamanho": 60,
@@ -50,9 +59,17 @@
     }
    ],
    "naoLocalizados": [
-    "® Ficam alterados o \"caput\" e o § 1® do art. 3® da Lei Complementar n® 409, de 1"
+    "® Fica incluído, na Lei Complementar n® 409, de 13 de janeiro de 1998, 0 art. 4®"
    ],
-   "rotulosDivergentes": []
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 7,
+     "linhaFim": 13,
+     "confianca": "baixa"
+    }
+   ]
   }
  }
 }

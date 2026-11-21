@@ -2,8 +2,8 @@
  "idSapl": 38297,
  "rotulo": "Emenda à Lei Orgânica nº 35, de 18 de junho de 2012",
  "sha256Origem": "ba02c7f860e2498979d9acc174ddd9b18b9cc373474eaf64d580dbd8872a6aac",
- "estruturadoEm": "2026-11-21T00:34:31.960Z",
- "versaoEstruturador": 18,
+ "estruturadoEm": "2026-11-21T00:57:50.695Z",
+ "versaoEstruturador": 19,
  "cabecalho": {
   "tipoAto": "EMENDA À LEI ORGÂNICA",
   "numero": "35",
@@ -25,35 +25,46 @@
    "tipo": "artigo",
    "rotulo": "Art. 1º",
    "texto": "Fica alterado o caput do art. 61 da Lei Orgânica do Município de Porto Alegre — LOMPA -, conforme segue:",
-   "blocoDeAlteracao": "“Art. 61. A fiscalização contábil, financeira, orçamentária, operacional e patrimonial do Município de Porto Alegre, quanto à legalidade, à moralidade, à publicidade, à impessoalidade e à economicidade, será exercida pela Câmara Municipal de Porto Alegre, mediante\ncontrole externo, e pelo sistema de controle interno unificado dos Poderes Legislativo e Executivo, observado o disposto na legislação federal e estadual, bem como pelos conselhos populares.\nCO COL CL LOL LDO LOCO DLLONL CADA COOL UCL ON OLLL CCC OOONOC COOL ONO ONOR DOOU NELORE COR Ones see e sas sas Oda\nArt. 2º Fica alterado o art. 64 da LOMPA, conforme segue:\n“Art. 64. Os Poderes Legislativo e Executivo manterão, de forma unificada, o sis-\ntema de controle interno, com as atribuições estabelecidas no art. 74 da Constituição Federal, a-\ndaptadas ao Município de Porto Alegre.” (NR)"
+   "blocoDeAlteracao": "“Art. 61. A fiscalização contábil, financeira, orçamentária, operacional e patrimonial do Município de Porto Alegre, quanto à legalidade, à moralidade, à publicidade, à impessoalidade e à economicidade, será exercida pela Câmara Municipal de Porto Alegre, mediante\ncontrole externo, e pelo sistema de controle interno unificado dos Poderes Legislativo e Executivo, observado o disposto na legislação federal e estadual, bem como pelos conselhos populares.\nCO COL CL LOL LDO LOCO DLLONL CADA COOL UCL ON OLLL CCC OOONOC COOL ONO ONOR DOOU NELORE COR Ones see e sas sas Oda"
   },
   {
    "id": "art-2",
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 2º",
+   "texto": "Fica alterado o art. 64 da LOMPA, conforme segue:",
+   "blocoDeAlteracao": "“Art. 64. Os Poderes Legislativo e Executivo manterão, de forma unificada, o sis-\ntema de controle interno, com as atribuições estabelecidas no art. 74 da Constituição Federal, a-\ndaptadas ao Município de Porto Alegre.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
    "texto": "Esta Emenda à LOMPA entra em vigor na data de sua publicação."
   }
  ],
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
-   "rotulo_nao_confere_com_a_origem"
+   "bloco_sem_fechamento_de_aspas"
   ],
   "avisos": [
    "texto_de_ocr"
   ],
   "metricas": {
-   "artigos": 2,
-   "dispositivos": 2,
-   "cobertura": 0.977,
-   "blocosDeAlteracao": 1,
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.974,
+   "blocosDeAlteracao": 2,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
     {
-     "rotulo": "Art. 2º",
-     "naOrigem": "Art3º"
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 22,
+     "linhaFim": 25,
+     "confianca": "baixa"
     }
    ]
   }

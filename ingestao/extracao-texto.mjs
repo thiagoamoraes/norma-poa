@@ -237,7 +237,7 @@ export function desfazerHifenizacao(texto) {
  * linha é desfeita. O arquivo .txt guardado NÃO é alterado.
  */
 export function prepararTextoExtraido(texto) {
-  return removerCopiasDoDocumento(restaurarFechoComEspacamentoEstragado(juntarFechoQuebrado(juntarAberturaDeBlocoPartida(desfazerHifenizacao(removerRuidoDePagina(colarPontoDoArtigo(separarArtigoDoPreambulo(cp1252ParaUnicode(String(texto))))).replace(/\f/g, '\n')).texto)))).texto;
+  return removerCopiasDoDocumento(restaurarFechoComEspacamentoEstragado(juntarFechoQuebrado(separarDispositivosEmbutidos(juntarAberturaDeBlocoPartida(desfazerHifenizacao(removerRuidoDePagina(colarPontoDoArtigo(separarArtigoDoPreambulo(cp1252ParaUnicode(String(texto))))).replace(/\f/g, '\n')).texto))))).texto;
 }
 
 /**
@@ -415,4 +415,49 @@ export function restaurarFechoComEspacamentoEstragado(texto) {
  */
 export function colarPontoDoArtigo(texto) {
   return String(texto).replace(/^([ \t]*Art) \.(?=\d)/gm, '$1. ');
+}
+
+/**
+ * Dispositivo EMBUTIDO no meio da linha (decisão 30, 21/11/2026): o DOCX/PDF junta o fim de um dispositivo com o
+ * marcador do seguinte ("… Educação. § 1º VETADO." / "… Comissão Eleitoral. Art. 101. A Junta …" / "(NR) Art. 23. Fica …" /
+ * "Art. 2º VETADO Art. 3º VETADO …"). Quebra a linha ANTES do marcador SÓ quando ele é exatamente o SUCESSOR do que
+ * veio antes: "Art. N+1" depois do artigo N, "§ N+1" depois do § N (do mesmo artigo; "§ 1º" se ainda não houve
+ * parágrafo). Marcador que não é o sucessor (citação, número de outra lei) nunca é tocado. "Art."/"§" têm de vir
+ * depois de algo e antes de maiúscula. SÓ Art. e § (incisos e alíneas embutidos NÃO são separados: a versão com
+ * incisos errou na id 50200). Só quebra de linha: letras e algarismos idênticos. O .txt guardado não muda.
+ */
+export function separarDispositivosEmbutidos(texto) {
+  const saida = [];
+  let ultArt = 0, ultPar = 0;
+  const atualiza = (l) => {
+    let m;
+    if ((m = /^\s*[“"']?\s*Art\.?\s*(\d+)\s*[º°o.]?(?![\dA-Za-zÀ-ú-])/.exec(l)) && /^\s*Art/.test(l)) { ultArt = +m[1]; ultPar = 0; return; }
+    if ((m = /^\s*§\s*(\d+)\s*[º°o.]?(?![\dA-Za-zÀ-ú])/.exec(l))) { ultPar = +m[1]; return; }
+    if (/^\s*Par[áa]grafo\s+[úu]nico/i.test(l)) { ultPar = 99; }
+  };
+  const reArt = /(?<=\S\s)(Art\.\s*(\d+)\s*[º°]?\.?)\s+(?=[A-ZÀ-Ú])/;
+  const rePar = /(?<=\S\s)(§\s*(\d+)\s*[º°]?\.?)\s+(?=[A-ZÀ-Ú])/;
+  for (const original of String(texto).split('\n')) {
+    let l = original;
+    atualiza(l);
+    for (let guarda = 0; guarda < 60; guarda++) {
+      const corpo = l.replace(/^\s*(?:[“"']\s*)?(?:Art\.?\s*\d+\s*[º°o.]?|§\s*\d+\s*[º°o.]?|Par[áa]grafo\s+[úu]nico\.?)/, (x) => ' '.repeat(x.length));
+      let corte = -1;
+      for (const [re, tipo] of [[reArt, 'a'], [rePar, 'p']]) {
+        const g = new RegExp(re.source, 'g');
+        let m;
+        while ((m = g.exec(corpo))) {
+          const n = +m[2];
+          const ok = tipo === 'a' ? n === ultArt + 1 : n === ultPar + 1 && ultPar < 99;
+          if (ok && m.index > 0) { if (corte < 0 || m.index < corte) corte = m.index; break; }
+        }
+      }
+      if (corte < 0) break;
+      saida.push(l.slice(0, corte).trimEnd());
+      l = l.slice(corte);
+      atualiza(l);
+    }
+    saida.push(l);
+  }
+  return saida.join('\n');
 }

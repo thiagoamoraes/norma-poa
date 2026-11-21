@@ -2,8 +2,8 @@
  "idSapl": 48855,
  "rotulo": "Lei Complementar municipal nº 1.017, de 08 de julho de 2024",
  "sha256Origem": "481e6aa9a5f255f14d75228bb531371feff0168f45d1f33984c338a88acaddb8",
- "estruturadoEm": "2026-11-21T00:34:33.140Z",
- "versaoEstruturador": 18,
+ "estruturadoEm": "2026-11-21T00:57:51.857Z",
+ "versaoEstruturador": 19,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "1017",
@@ -45,7 +45,8 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 2º",
-   "texto": "VETADO Art. 3º VETADO Art. 4º VETADO Art. 5º VETADO Art. 6º VETADO Art. 7º VETADO Art. 8º VETADO Art. 9º VETADO Art. 10. VETADO"
+   "texto": "VETADO",
+   "vetado": true
   },
   {
    "id": "art-3",
@@ -60,34 +61,85 @@
    "pai": null,
    "tipo": "artigo",
    "rotulo": "Art. 4º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
    "texto": "Esta Lei Complementar entra em vigor na data de sua publicação."
   }
  ],
  "verificacao": {
-  "situacao": "revisar",
-  "motivos": [
-   "rotulo_nao_confere_com_a_origem"
-  ],
-  "avisos": [
-   "possivel_dispositivo_embutido"
-  ],
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
   "metricas": {
-   "artigos": 4,
-   "dispositivos": 6,
-   "cobertura": 0.977,
+   "artigos": 12,
+   "dispositivos": 14,
+   "cobertura": 0.963,
    "blocosDeAlteracao": 0,
    "lacunas": [],
    "naoLocalizados": [],
-   "rotulosDivergentes": [
-    {
-     "rotulo": "Art. 3º",
-     "naOrigem": "Art11"
-    },
-    {
-     "rotulo": "Art. 4º",
-     "naOrigem": "Art12"
-    }
-   ]
+   "rotulosDivergentes": []
   }
  }
 }

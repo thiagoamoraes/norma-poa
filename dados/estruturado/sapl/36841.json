@@ -2,8 +2,8 @@
  "idSapl": 36841,
  "rotulo": "Lei Complementar municipal nº 646, de 22 de julho de 2010",
  "sha256Origem": "79cce454824fa85cd1c413489fa640f66d5124c9d5539b352e6da23b27353e2f",
- "estruturadoEm": "2026-11-21T00:34:36.644Z",
- "versaoEstruturador": 18,
+ "estruturadoEm": "2026-11-21T00:57:55.513Z",
+ "versaoEstruturador": 19,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "646",
@@ -86,6 +86,7 @@
    "trecho_nao_localizado_na_origem",
    "rotulo_nao_confere_com_a_origem",
    "bloco_de_alteracao_sem_dono",
+   "bloco_sem_fechamento_de_aspas",
    "alteracao_sem_aspas_nao_delimitada"
   ],
   "avisos": [],
@@ -93,7 +94,7 @@
    "artigos": 4,
    "dispositivos": 8,
    "cobertura": 0.978,
-   "blocosDeAlteracao": 52,
+   "blocosDeAlteracao": 62,
    "lacunas": [
     {
      "tamanho": 1009,
@@ -134,6 +135,80 @@
     {
      "rotulo": "I –",
      "naOrigem": "XII"
+    }
+   ],
+   "fronteirasInferidas": [
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 115,
+     "linhaFim": 120,
+     "confianca": "baixa"
+    },
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 209,
+     "linhaFim": 209,
+     "confianca": "baixa"
+    },
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 390,
+     "linhaFim": 409,
+     "confianca": "baixa"
+    },
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 413,
+     "linhaFim": 414,
+     "confianca": "baixa"
+    },
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 448,
+     "linhaFim": 467,
+     "confianca": "baixa"
+    },
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 471,
+     "linhaFim": 474,
+     "confianca": "baixa"
+    },
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 539,
+     "linhaFim": 542,
+     "confianca": "baixa"
+    },
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 547,
+     "linhaFim": 549,
+     "confianca": "baixa"
+    },
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 671,
+     "linhaFim": 671,
+     "confianca": "baixa"
+    },
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 1006,
+     "linhaFim": 1080,
+     "confianca": "baixa"
+    },
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 1286,
+     "linhaFim": 1291,
+     "confianca": "baixa"
+    },
+    {
+     "tipo": "sem_fechamento_de_aspas",
+     "linhaIni": 1296,
+     "linhaFim": 1296,
+     "confianca": "baixa"
     }
    ]
   }
