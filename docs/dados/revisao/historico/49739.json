@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T09:25:27.575Z",
+ "geradoEm": "2026-11-21T16:20:12.540Z",
  "idSapl": 49739,
  "rotulo": "Lei Complementar municipal nº 1.037, de 02 de fevereiro de 2025",
  "baseConferida": false,
@@ -18,17 +18,7 @@
     "idSapl": 50481,
     "rotulo": "Lei Complementar municipal nº 1.051, de 16 de setembro de 2025"
    },
-   "comandosAplicados": 1
-  },
-  {
-   "indice": 2,
-   "id": "lc 1037/2025@2026-07-30",
-   "data": "2026-07-30",
-   "fonte": {
-    "idSapl": 51556,
-    "rotulo": "Lei Complementar municipal nº 1.078, de 30 de julho de 2026"
-   },
-   "comandosAplicados": 1
+   "comandosAplicados": 3
   }
  ],
  "dispositivos": [
@@ -1163,6 +1153,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.051/2025"
+     }
     }
    ]
   },
@@ -1178,6 +1177,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.051/2025"
      }
     }
    ]
@@ -1995,15 +2003,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 2,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 1.078/2026"
-     }
     }
    ]
   },
@@ -2019,15 +2018,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 2,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 1.078/2026"
      }
     }
    ]
@@ -2045,15 +2035,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 2,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 1.078/2026"
-     }
     }
    ]
   },
@@ -2069,15 +2050,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 2,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 1.078/2026"
      }
     }
    ]
@@ -2095,15 +2067,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 2,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 1.078/2026"
-     }
     }
    ]
   },
@@ -2119,15 +2082,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 2,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 1.078/2026"
      }
     }
    ]
@@ -2145,15 +2099,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 2,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 1.078/2026"
-     }
     }
    ]
   },
@@ -2169,15 +2114,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 2,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 1.078/2026"
      }
     }
    ]
@@ -2195,15 +2131,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 2,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 1.078/2026"
-     }
     }
    ]
   },
@@ -2220,15 +2147,6 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
-    },
-    {
-     "desde": 2,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 1.078/2026"
-     }
     }
    ]
   },
@@ -2244,15 +2162,6 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
-     }
-    },
-    {
-     "desde": 2,
-     "texto": "(Revogado)",
-     "situacao": "revogado",
-     "origem": {
-      "operacao": "revoke_node",
-      "lei": "Lei Complementar nº 1.078/2026"
      }
     }
    ]
@@ -5350,12 +5259,74 @@
     "idSapl": 51556,
     "rotulo": "Lei Complementar municipal nº 1.078, de 30 de julho de 2026"
    },
-   "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 701, de 18 de julho de 2012\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"701\",\"ano\":\"2012\",\"chave\":\"lc 701/2012\"}, versão: lc 1037/2025)",
+   "motivo": "comando_recusado",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 701, de 18 de julho de 2012\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"701\",\"ano\":\"2012\",\"chave\":\"lc 701/2012\"}, versão: lc 1037/2025) | operação \"indeterminado\" não gera alteração na árvore desta lei",
    "enderecos": [
-    "art-5/inc-XXVIII"
+    "art-5",
+    "art-13/inc-V"
    ]
   }
  ],
- "aConferir": []
+ "aConferir": [
+  {
+   "id": "art-5",
+   "desde": "2026-07-30"
+  },
+  {
+   "id": "art-5/par-1",
+   "desde": "2026-07-30"
+  },
+  {
+   "id": "art-5/par-2",
+   "desde": "2026-07-30"
+  },
+  {
+   "id": "art-5/par-3",
+   "desde": "2026-07-30"
+  },
+  {
+   "id": "art-13/inc-V",
+   "desde": "2026-07-30"
+  },
+  {
+   "id": "art-13/inc-V/ali-a",
+   "desde": "2026-07-30"
+  },
+  {
+   "id": "art-13/inc-V/ali-b",
+   "desde": "2026-07-30"
+  },
+  {
+   "id": "art-13/inc-V/ali-c",
+   "desde": "2026-07-30"
+  },
+  {
+   "id": "art-13/inc-V/ali-d",
+   "desde": "2026-07-30"
+  },
+  {
+   "id": "art-13/inc-V/ali-e",
+   "desde": "2026-07-30"
+  },
+  {
+   "id": "art-13/inc-V/ali-f",
+   "desde": "2026-07-30"
+  },
+  {
+   "id": "art-13/inc-V/ali-g",
+   "desde": "2026-07-30"
+  },
+  {
+   "id": "art-13/inc-V/ali-h",
+   "desde": "2026-07-30"
+  },
+  {
+   "id": "art-13/inc-V/ali-i",
+   "desde": "2026-07-30"
+  },
+  {
+   "id": "art-13/inc-V/ali-j",
+   "desde": "2026-07-30"
+  }
+ ]
 }

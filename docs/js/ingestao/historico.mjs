@@ -87,14 +87,16 @@ export function apurarHistorico(base, alteradoras) {
     const fonte = fonteDoRegistro(alt.registro);
     const quem = { idSapl: alt.registro.idSapl, rotulo: alt.registro.rotulo };
     const doc = parseMinuta(raw, detectNRCandidates(raw));
-    const comandos = extrairComandosLei(doc, { leiBaseIndex: indexarVersao(v) });
+    const chaveBase = chaveLei(fonteDoRegistro(base.registro).tipoAto, base.registro.numero, String(base.registro.ano));
+    // a lei citada é a desta base? (intervalo "arts. 43 a 61" só se expande contra a lei certa; também decide `dispositivosCitados` abaixo)
+    const daBase = (ref) => !!ref && (ref.chave === chaveBase || (ref.numero === base.registro.numero && (ref.anosCandidatos || []).includes(base.registro.ano)));
+    const comandos = extrairComandosLei(doc, { leiBaseIndex: indexarVersao(v), leiBaseConfere: daBase });
     const r = apurarTextoVigente(v, [{ fonteAlteradora: fonte, comandos }]);
     const efetivos = comandos.filter((k) => ['replace_text', 'insert_node', 'revoke_node'].includes(k.operacao));
     const recusados = r.log.filter((l) => !['nao_classificado', 'clausula_generica_sem_efeito'].includes(l.comando.operacao));
 
     // dispositivos da lei-base que a alteradora cita nos artigos que não viraram alteração
     const citados = (artigos) => [...new Set(artigos.flatMap((a) => extrairCitacoesExternas(visText(a)).map((c) => chaveParaId(c.chave)).filter(Boolean)))];
-    const chaveBase = chaveLei(fonteDoRegistro(base.registro).tipoAto, base.registro.numero, String(base.registro.ano));
     for (const x of artigosQueMexemEmAnexo(doc.artigos, chaveBase)) anexosAlterados.push({ alteradora: quem, data: alt.registro.data, artigo: x.artigo, trecho: x.trecho });
     const miraEstaLei = comandos.some((k) => k.leiAlvo && (k.leiAlvo.chave === chaveBase || (k.leiAlvo.numero === base.registro.numero && (k.leiAlvo.anosCandidatos || []).includes(base.registro.ano))));
     if (r.versaoFinal === v && alt.candidataPelaEmenta && !miraEstaLei && efetivos.length) {
@@ -115,7 +117,13 @@ export function apurarHistorico(base, alteradoras) {
       const idxDepois = indexarVersao(r.versaoFinal);
       const reais = recusados.filter((l) => !(/já existe/.test(l.erro || '') && l.comando.novoTexto && Object.values(idxDepois).includes(l.comando.novoTexto)));
       if (reais.length) {
-        const enderecos = [...new Set(reais.map((l) => chaveParaId(l.comando.dispositivoAlvo || '')).filter(Boolean))];
+        // comando indeterminado de revogação plural/lista traz `dispositivosCitados` (melhor esforço): entram como "a conferir" só
+        // quando a lei citada é a desta base (senão marcaria dispositivo de outra lei)
+        const enderecos = [...new Set(reais.flatMap((l) => {
+          const k = l.comando;
+          if (k.dispositivoAlvo) return [chaveParaId(k.dispositivoAlvo)];
+          return daBase(k.leiAlvoDaCitacao) ? (k.dispositivosCitados || []).map(chaveParaId) : [];
+        }).filter(Boolean))];
         naoAplicadas.push({ alteradora: quem, motivo: 'aplicada_em_parte', detalhe: reais.map((l) => l.erro).join(' | '), enderecos });
         enderecos.forEach((e) => duvida(e, alt.registro.data));
       }

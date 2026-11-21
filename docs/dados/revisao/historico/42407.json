@@ -1,8 +1,8 @@
 {
- "geradoEm": "2026-11-21T11:56:42.149Z",
+ "geradoEm": "2026-11-21T16:24:19.728Z",
  "idSapl": 42407,
  "rotulo": "Lei Complementar municipal nº 875, de 21 de janeiro de 2020",
- "baseConferida": false,
+ "baseConferida": true,
  "versoes": [
   {
    "indice": 0,
@@ -2518,13 +2518,24 @@
     "rotulo": "Lei Complementar municipal nº 963, de 07 de dezembro de 2022"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 932, de 2022\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"932\",\"ano\":\"2022\",\"chave\":\"lc 932/2022\"}, versão: lc 875/2020) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 932, de 2022\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"932\",\"ano\":\"2022\",\"chave\":\"lc 932/2022\"}, versão: lc 875/2020) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 932, de 2022\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"932\",\"ano\":\"2022\",\"chave\":\"lc 932/2022\"}, versão: lc 875/2020)",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 932, de 2022\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"932\",\"ano\":\"2022\",\"chave\":\"lc 932/2022\"}, versão: lc 875/2020) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 932, de 2022\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"932\",\"ano\":\"2022\",\"chave\":\"lc 932/2022\"}, versão: lc 875/2020) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 932, de 2022\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"932\",\"ano\":\"2022\",\"chave\":\"lc 932/2022\"}, versão: lc 875/2020) | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | operação \"indeterminado\" não gera alteração na árvore desta lei",
    "enderecos": [
     "art-5/inc-I",
     "art-5/inc-II",
-    "art-5/inc-III"
+    "art-5/inc-III",
+    "art-5/inc-VII",
+    "art-17"
    ]
   }
  ],
- "aConferir": []
+ "aConferir": [
+  {
+   "id": "art-17",
+   "desde": "2022-12-07"
+  },
+  {
+   "id": "art-17/par-unico",
+   "desde": "2022-12-07"
+  }
+ ]
 }

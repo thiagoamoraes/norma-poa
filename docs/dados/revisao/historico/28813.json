@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T09:25:22.379Z",
+ "geradoEm": "2026-11-21T16:24:13.383Z",
  "idSapl": 28813,
  "rotulo": "Lei Complementar municipal nº 395, de 26 de dezembro de 1996",
  "baseConferida": false,
@@ -49,6 +49,16 @@
     "rotulo": "Lei Complementar municipal nº 712, de 19 de fevereiro de 2013"
    },
    "comandosAplicados": 2
+  },
+  {
+   "indice": 5,
+   "id": "lc 395/1996@2022-09-28",
+   "data": "2022-09-28",
+   "fonte": {
+    "idSapl": 44374,
+    "rotulo": "Lei Complementar municipal nº 955, de 28 de setembro de 2022"
+   },
+   "comandosAplicados": 1
   }
  ],
  "dispositivos": [
@@ -2518,6 +2528,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 5,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 955/2022"
+     }
     }
    ]
   },
@@ -2533,6 +2552,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 5,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 955/2022"
      }
     }
    ]
@@ -2550,6 +2578,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 5,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 955/2022"
+     }
     }
    ]
   },
@@ -2566,6 +2603,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 5,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 955/2022"
+     }
     }
    ]
   },
@@ -2581,6 +2627,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 5,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 955/2022"
      }
     }
    ]
@@ -11568,41 +11623,285 @@
     "idSapl": 44374,
     "rotulo": "Lei Complementar municipal nº 955, de 28 de setembro de 2022"
    },
-   "motivo": "comando_nao_reconhecido",
-   "detalhe": "nenhum comando de alteração foi extraído do texto desta norma",
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
    "enderecos": [
-    "art-8",
+    "art-2",
     "art-3"
    ]
   }
  ],
  "aConferir": [
   {
+   "id": "art-2",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-I",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-II",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-III",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-V",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-VI",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-VII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-VIII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-IX",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-X",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XI",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XIII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XIV",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XV",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XVI",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XVII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XVIII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XIX",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XX",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXI",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXIII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXIV",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXV",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXVI",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXVII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXVIII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXIX",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXX",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXXI",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXXII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXXIII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXXIV",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXXV",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXXVI",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXXVII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXXVIII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XXXIX",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XL",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XLI",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XLII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XLIII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XLIV",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XLV",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XLVI",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XLVII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XLVIII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-XLIX",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-L",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LI",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LIII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LIV",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LV",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LVI",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LVII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LVIII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LIX",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LX",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LXI",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LXII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LXIII",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LXIV",
+   "desde": "2022-09-28"
+  },
+  {
+   "id": "art-2/inc-LXV",
+   "desde": "2022-09-28"
+  },
+  {
    "id": "art-3",
    "desde": "2022-09-28"
   },
   {
    "id": "art-3/par-unico",
-   "desde": "2022-09-28"
-  },
-  {
-   "id": "art-8",
-   "desde": "2022-09-28"
-  },
-  {
-   "id": "art-8/inc-I",
-   "desde": "2022-09-28"
-  },
-  {
-   "id": "art-8/inc-II",
-   "desde": "2022-09-28"
-  },
-  {
-   "id": "art-8/inc-III",
-   "desde": "2022-09-28"
-  },
-  {
-   "id": "art-8/inc-IV",
    "desde": "2022-09-28"
   }
  ]

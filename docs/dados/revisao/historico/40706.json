@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T09:25:27.342Z",
+ "geradoEm": "2026-11-21T16:24:19.603Z",
  "idSapl": 40706,
  "rotulo": "Lei Complementar municipal nº 798, de 10 de junho de 2016",
  "baseConferida": true,
@@ -18,7 +18,7 @@
     "idSapl": 42519,
     "rotulo": "Lei Complementar municipal nº 880, de 27 de março de 2020"
    },
-   "comandosAplicados": 18
+   "comandosAplicados": 22
   },
   {
    "indice": 2,
@@ -255,6 +255,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 880/2020"
      }
     }
    ]
@@ -750,6 +759,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 880/2020"
+     }
     }
    ]
   },
@@ -1169,6 +1187,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 880/2020"
+     }
     }
    ]
   },
@@ -1250,6 +1277,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 880/2020"
      }
     }
    ]

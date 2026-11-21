@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T09:25:27.016Z",
+ "geradoEm": "2026-11-21T16:20:11.396Z",
  "idSapl": 38249,
  "rotulo": "Lei Complementar municipal nº 694, de 21 de maio de 2012",
  "baseConferida": false,
@@ -128,7 +128,7 @@
     "idSapl": 50386,
     "rotulo": "Lei Complementar municipal nº 1.050, de 11 de agosto de 2025"
    },
-   "comandosAplicados": 3
+   "comandosAplicados": 5
   },
   {
    "indice": 13,
@@ -1357,6 +1357,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 12,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.050/2025"
+     }
     }
    ]
   },
@@ -1372,6 +1381,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 12,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.050/2025"
      }
     }
    ]

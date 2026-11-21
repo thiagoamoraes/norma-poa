@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T09:25:21.773Z",
+ "geradoEm": "2026-11-21T16:24:12.302Z",
  "idSapl": 23346,
  "rotulo": "Lei Complementar municipal nº 133, de 31 de dezembro de 1985",
  "baseConferida": false,
@@ -252,6 +252,16 @@
   },
   {
    "indice": 25,
+   "id": "lc 133/1985@2016-06-10",
+   "data": "2016-06-10",
+   "fonte": {
+    "idSapl": 40706,
+    "rotulo": "Lei Complementar municipal nº 798, de 10 de junho de 2016"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 26,
    "id": "lc 133/1985@2016-08-19",
    "data": "2016-08-19",
    "fonte": {
@@ -261,7 +271,7 @@
    "comandosAplicados": 1
   },
   {
-   "indice": 26,
+   "indice": 27,
    "id": "lc 133/1985@2017-01-19",
    "data": "2017-01-19",
    "fonte": {
@@ -271,7 +281,7 @@
    "comandosAplicados": 2
   },
   {
-   "indice": 27,
+   "indice": 28,
    "id": "lc 133/1985@2019-06-12",
    "data": "2019-06-12",
    "fonte": {
@@ -281,17 +291,17 @@
    "comandosAplicados": 10
   },
   {
-   "indice": 28,
+   "indice": 29,
    "id": "lc 133/1985@2020-07-10",
    "data": "2020-07-10",
    "fonte": {
     "idSapl": 42663,
     "rotulo": "Lei Complementar municipal nº 886, de 10 de julho de 2020"
    },
-   "comandosAplicados": 2
+   "comandosAplicados": 4
   },
   {
-   "indice": 29,
+   "indice": 30,
    "id": "lc 133/1985@2022-01-10",
    "data": "2022-01-10",
    "fonte": {
@@ -301,17 +311,17 @@
    "comandosAplicados": 2
   },
   {
-   "indice": 30,
+   "indice": 31,
    "id": "lc 133/1985@2022-09-28",
    "data": "2022-09-28",
    "fonte": {
     "idSapl": 44376,
     "rotulo": "Lei Complementar municipal nº 957, de 28 de setembro de 2022"
    },
-   "comandosAplicados": 53
+   "comandosAplicados": 56
   },
   {
-   "indice": 31,
+   "indice": 32,
    "id": "lc 133/1985@2025-02-04",
    "data": "2025-02-04",
    "fonte": {
@@ -321,7 +331,7 @@
    "comandosAplicados": 4
   },
   {
-   "indice": 32,
+   "indice": 33,
    "id": "lc 133/1985@2025-04-17",
    "data": "2025-04-17",
    "fonte": {
@@ -331,7 +341,7 @@
    "comandosAplicados": 6
   },
   {
-   "indice": 33,
+   "indice": 34,
    "id": "lc 133/1985@2025-08-08",
    "data": "2025-08-08",
    "fonte": {
@@ -341,7 +351,7 @@
    "comandosAplicados": 4
   },
   {
-   "indice": 34,
+   "indice": 35,
    "id": "lc 133/1985@2025-12-03",
    "data": "2025-12-03",
    "fonte": {
@@ -351,7 +361,7 @@
    "comandosAplicados": 2
   },
   {
-   "indice": 35,
+   "indice": 36,
    "id": "lc 133/1985@2026-04-14",
    "data": "2026-04-14",
    "fonte": {
@@ -619,7 +629,7 @@
      }
     },
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Precederá o ingresso no serviço público municipal a inspeção de saúde realizada por órgão competente do Município ou por serviço por ele designado, à exceção dos cargos em comissão, que terão trinta (30) dias para realizá-la.",
      "situacao": "vigente",
      "origem": {
@@ -1899,7 +1909,7 @@
    "rotulo": "Art. 37-A",
    "estados": [
     {
-     "desde": 27,
+     "desde": 28,
      "texto": "As gratificações por regime especial de trabalho não poderão ser majoradas por quaisquer acréscimos decorrentes de tempo de serviço.",
      "situacao": "vigente",
      "origem": {
@@ -3436,11 +3446,10 @@
     },
     {
      "desde": 31,
-     "texto": "A designação para exercício de função gratificada poderá ser atribuída a servidores de outra entidade pública, à disposição do Município, sem prejuízo de seus vencimentos.",
+     "texto": "0 ...:...Quando houver impossibilidade de assumir o substituto automãtico, em função gratifica da ou cargo em comissão, poderã ser designado outro funcionãrio efetivo.",
      "situacao": "vigente",
      "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 1.038/2025"
+      "operacao": "promulgacao_original"
      }
     },
     {
@@ -3517,6 +3526,24 @@
     },
     {
      "desde": 35,
+     "texto": "® - Excepcionalmente, para viabilizar a implantação do Sistema Único de Saúde, poderão ser atribuídas funções gratifica das da Secretaria Municipal de Saúde a funcionários públicos detento res de cargo de provimento efetivo, de outra esfera governamental que estejam cedidos ao Município.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 407/1998"
+     }
+    },
+    {
+     "desde": 36,
+     "texto": "A designação para exercício de função gratificada poderá ser atribuída a servidores de outra entidade pública, à disposição do Município, sem prejuízo de seus vencimentos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.038/2025"
+     }
+    },
+    {
+     "desde": 36,
      "texto": "® - Excepcionalmente, para viabilizar a implantação do Sistema Único de Saúde, poderão ser atribuídas funções gratifica das da Secretaria Municipal de Saúde a funcionários públicos detento res de cargo de provimento efetivo, de outra esfera governamental que estejam cedidos ao Município.",
      "situacao": "vigente",
      "origem": {
@@ -3874,11 +3901,10 @@
     },
     {
      "desde": 31,
-     "texto": "Os servidores de outras esferas governamentais, quando investidos em função gratificada do Município, farão jus às gratificações e às demais parcelas inerentes ao exercício da respectiva função.",
+     "texto": "° - O substituto perceberá o vencimento ou a gratificação durante o período de afastamento do titular.",
      "situacao": "vigente",
      "origem": {
-      "operacao": "replace_text",
-      "lei": "Lei Complementar nº 1.038/2025"
+      "operacao": "promulgacao_original"
      }
     },
     {
@@ -3955,6 +3981,24 @@
     },
     {
      "desde": 35,
+     "texto": "As funções gratificadas atribuídas aos funcioná rios de outra esfera governamental, nos termos do parágrafo anterior, não serão incorporáveis aos vencimentos ou proventos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 407/1998"
+     }
+    },
+    {
+     "desde": 36,
+     "texto": "Os servidores de outras esferas governamentais, quando investidos em função gratificada do Município, farão jus às gratificações e às demais parcelas inerentes ao exercício da respectiva função.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.038/2025"
+     }
+    },
+    {
+     "desde": 36,
      "texto": "As funções gratificadas atribuídas aos funcioná rios de outra esfera governamental, nos termos do parágrafo anterior, não serão incorporáveis aos vencimentos ou proventos.",
      "situacao": "vigente",
      "origem": {
@@ -4223,11 +4267,11 @@
     },
     {
      "desde": 31,
-     "texto": "As funções gratificadas, as gratificações e as demais parcelas inerentes ao exercício da respectiva função, atribuídas ou concedidas aos servidores de outra esfera governamental, nos termos dos §§ 1º e 2º, não serão incorporáveis aos vencimentos ou proventos.",
+     "texto": "Poderá ser atribuída função gratificada especial pelo desempenho de atribuições de chefia, direção e assessoramento a servidores detentores de cargo de provimento efetivo do Município ou de outra esfera governamental, cedi dos para o Município, com ônus para o órgão de origem, com ou sem ressarcimento pelo Município.",
      "situacao": "vigente",
      "origem": {
       "operacao": "replace_text",
-      "lei": "Lei Complementar nº 1.038/2025"
+      "lei": "Lei Complementar nº 592/2008"
      }
     },
     {
@@ -4304,6 +4348,24 @@
     },
     {
      "desde": 35,
+     "texto": "Poderá ser atribuída função gratificada especial pelo desempenho de atribuições de chefia, direção e assessoramento a servidores detentores de cargo de provimento efetivo do Município ou de outra esfera governamental, cedi dos para o Município, com ônus para o órgão de origem.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 549/2006"
+     }
+    },
+    {
+     "desde": 36,
+     "texto": "As funções gratificadas, as gratificações e as demais parcelas inerentes ao exercício da respectiva função, atribuídas ou concedidas aos servidores de outra esfera governamental, nos termos dos §§ 1º e 2º, não serão incorporáveis aos vencimentos ou proventos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei Complementar nº 1.038/2025"
+     }
+    },
+    {
+     "desde": 36,
      "texto": "Poderá ser atribuída função gratificada especial pelo desempenho de atribuições de chefia, direção e assessoramento a servidores detentores de cargo de provimento efetivo do Município ou de outra esfera governamental, cedi dos para o Município, com ônus para o órgão de origem.",
      "situacao": "vigente",
      "origem": {
@@ -4336,6 +4398,15 @@
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 707/2012"
      }
+    },
+    {
+     "desde": 25,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 798/2016"
+     }
     }
    ]
   },
@@ -4346,7 +4417,7 @@
    "rotulo": "§ 5º",
    "estados": [
     {
-     "desde": 31,
+     "desde": 32,
      "texto": "Aos servidores no Município ou em outra esfera governamental, à disposição do Município, sem prejuízo de seus vencimentos, quando investidos em cargo em comissão, poderá ser atribuída função gratificada especial pelo desempenho de atribuições de cargo em comissão de chefia, direção e assessoramento, nos termos de lei específica.",
      "situacao": "vigente",
      "origem": {
@@ -5116,7 +5187,7 @@
    "rotulo": "XVIII –",
    "estados": [
     {
-     "desde": 29,
+     "desde": 30,
      "texto": "participação em reunião no estabelecimento escolar em que estude dependente, mediante comprovação; e",
      "situacao": "vigente",
      "origem": {
@@ -5125,7 +5196,7 @@
      }
     },
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "participação em reunião no estabelecimento escolar em que estude dependente, desde que devidamente atestada pela escola, nos termos do regulamento;",
      "situacao": "vigente",
      "origem": {
@@ -5142,12 +5213,21 @@
    "rotulo": "XIX –",
    "estados": [
     {
-     "desde": 29,
+     "desde": 30,
      "texto": "acompanhamento de dependente em consultas, terapias ou procedimentos de saúde, mediante comprovação.",
      "situacao": "vigente",
      "origem": {
       "operacao": "insert_node",
       "lei": "Lei Complementar nº 934/2022"
+     }
+    },
+    {
+     "desde": 31,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 957/2022"
      }
     }
    ]
@@ -5303,7 +5383,7 @@
    "rotulo": "§ 4º",
    "estados": [
     {
-     "desde": 26,
+     "desde": 27,
      "texto": "É facultado o gozo de férias em 2 (dois) períodos de, no mínimo, 10 (dez) dias consecutivos cada.",
      "situacao": "vigente",
      "origem": {
@@ -5320,7 +5400,7 @@
    "rotulo": "§ 6º",
    "estados": [
     {
-     "desde": 26,
+     "desde": 27,
      "texto": "As férias dos integrantes do Magistério que estejam em funções de regência de classe nos estabelecimentos da rede municipal de ensino coincidirão com o período de férias escolares e serão gozadas em 1 (um) único período.",
      "situacao": "vigente",
      "origem": {
@@ -5961,7 +6041,7 @@
    "rotulo": "Art. 93-A",
    "estados": [
     {
-     "desde": 34,
+     "desde": 35,
      "texto": "A servidora gestante ou lactante, enquanto durar a gestação e a lactação, será afastada das atividades e dos locais considerados insalubres ou perigosos, sem prejuízo de sua remuneração, na forma de regulamento.",
      "situacao": "vigente",
      "origem": {
@@ -5978,7 +6058,7 @@
    "rotulo": "Parágrafo único.",
    "estados": [
     {
-     "desde": 34,
+     "desde": 35,
      "texto": "Os adicionais de insalubridade ou de periculosidade são assegurados durante o período de afastamento referido no caput deste artigo.",
      "situacao": "vigente",
      "origem": {
@@ -6844,7 +6924,7 @@
      }
     },
     {
-     "desde": 33,
+     "desde": 34,
      "texto": "A. Subsídio é o valor pecuniário fixado em parcela única pelo efetivo exercício do cargo.",
      "situacao": "vigente",
      "origem": {
@@ -6861,7 +6941,7 @@
    "rotulo": "§ 1º",
    "estados": [
     {
-     "desde": 33,
+     "desde": 34,
      "texto": "Os cargos organizados em carreira serão remunerados por subsídio quando a lei assim dispuser.",
      "situacao": "vigente",
      "origem": {
@@ -6878,7 +6958,7 @@
    "rotulo": "§ 2º",
    "estados": [
     {
-     "desde": 33,
+     "desde": 34,
      "texto": "Ao valor percebido a título de subsídio é vedado o acréscimo de qualquer gratificação, avanço, adicional, abono, prêmio, verba de representação ou outra espécie remuneratória, exceto parcelas remuneratórias decorrentes de direitos garantidos pela Constituição Federal, nos termos da lei.",
      "situacao": "vigente",
      "origem": {
@@ -6943,7 +7023,7 @@
    "rotulo": "VI –",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Salário-família;",
      "situacao": "vigente",
      "origem": {
@@ -7474,7 +7554,7 @@
      }
     },
     {
-     "desde": 27,
+     "desde": 28,
      "texto": "O titular de cargo de provimento efetivo ou em comissão terá acréscimos de 5% (por cento) sobre o vencimento básico, denominados avanços, cuja concessão automática se processará por triênio de serviço público municipal.",
      "situacao": "vigente",
      "origem": {
@@ -7491,7 +7571,7 @@
    "rotulo": "Art. 122-A",
    "estados": [
     {
-     "desde": 27,
+     "desde": 28,
      "texto": "O titular de cargo de provimento efetivo ou em comissão terá acréscimos de 3% (três por cento) sobre o vencimento básico, denominados avanços, cuja concessão automática se processará por quinquênio de serviço público prestado exclusivamente no Município de Porto Alegre, considerado o tempo com efetiva contribuição para fins de benefícios previdenciários.",
      "situacao": "vigente",
      "origem": {
@@ -7702,7 +7782,7 @@
      }
     },
     {
-     "desde": 33,
+     "desde": 34,
      "texto": "A gratificação de função será percebida cumulativamente com o vencimento, com o subsídio ou com o provento do servidor em disponibilidade.",
      "situacao": "vigente",
      "origem": {
@@ -8023,7 +8103,7 @@
    "rotulo": "Art. 129-A",
    "estados": [
     {
-     "desde": 27,
+     "desde": 28,
      "texto": "Fica assegurada ao titular de cargo de provimento efetivo, pelo exercício de função gratificada no serviço público no Município de Porto Alegre no período mínimo de 10 (dez) anos contínuos ou intercalados, inclusive quando exercida como cargo em comissão, a concessão de parcela remuneratória com valor a ser calculado na razão de 4% (quatro por cento) do valor da gratificação de função para cada ano de exercício, até o limite de 100% (cem por cento), desde que observado o cumprimento das exigências para a aposentadoria voluntária.",
      "situacao": "vigente",
      "origem": {
@@ -8040,7 +8120,7 @@
    "rotulo": "§ 1º",
    "estados": [
     {
-     "desde": 27,
+     "desde": 28,
      "texto": "O valor da gratificação de função a ser considerado como base de cálculo da parcela remuneratória a que se refere o caput deste artigo corresponderá à função gratificada estabelecida para o regime normal de trabalho, inclusive quando exercida como cargo em comissão.",
      "situacao": "vigente",
      "origem": {
@@ -8057,7 +8137,7 @@
    "rotulo": "§ 2º",
    "estados": [
     {
-     "desde": 27,
+     "desde": 28,
      "texto": "A parcela remuneratória referida no caput deste artigo será calculada sobre a função gratificada de maior valor e exercida por, no mínimo, 2 (dois) anos ou, em caso de não ocorrer tal hipótese, sobre a função gratificada com valor imediatamente inferior e exercida por, no mínimo, 1 (um) ano, sendo permitida alteração ao nível maior por meio de revisão anual, desde que observados os requisitos estabelecidos neste parágrafo.",
      "situacao": "vigente",
      "origem": {
@@ -8074,7 +8154,7 @@
    "rotulo": "§ 3º",
    "estados": [
     {
-     "desde": 27,
+     "desde": 28,
      "texto": "O servidor que esteja percebendo valor de função gratificada incorporada ou a parcela remuneratória referida no caput deste artigo e esteja em exercício de função gratificada fará jus:",
      "situacao": "vigente",
      "origem": {
@@ -8091,7 +8171,7 @@
    "rotulo": "I –",
    "estados": [
     {
-     "desde": 27,
+     "desde": 28,
      "texto": "à diferença do valor das gratificações de função, caso a função gratificada em exercício seja maior que a incorporada ou concedida em parcela remuneratória; ou",
      "situacao": "vigente",
      "origem": {
@@ -8108,7 +8188,7 @@
    "rotulo": "II –",
    "estados": [
     {
-     "desde": 27,
+     "desde": 28,
      "texto": "a 20% (vinte por cento) do valor referente à função gratificada em exercício, quando esta for de menor ou igual valor àquela incorporada ou concedida em parcela remuneratória.",
      "situacao": "vigente",
      "origem": {
@@ -8125,7 +8205,7 @@
    "rotulo": "§ 4º",
    "estados": [
     {
-     "desde": 27,
+     "desde": 28,
      "texto": "Sobre o valor da parcela remuneratória a que se refere o caput deste artigo não incidirão quaisquer outras vantagens pecuniárias percentuais, salvos os percentuais relativos às revisões gerais dos vencimentos.",
      "situacao": "vigente",
      "origem": {
@@ -8784,7 +8864,7 @@
    "rotulo": "XI –",
    "estados": [
     {
-     "desde": 35,
+     "desde": 36,
      "texto": "Maria da Penha, conforme Seção XI do Capítulo VIII desta Lei Complementar.",
      "situacao": "vigente",
      "origem": {
@@ -8817,7 +8897,7 @@
    "rotulo": "Art. 142-A",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Será concedida, a pedido ou de ofício, licença para tratamento de saúde ao servidor temporariamente incapacitado para o trabalho, com base em inspeção médica a cargo do órgão de perícia médica do Município ou de serviço por ele designado.",
      "situacao": "vigente",
      "origem": {
@@ -8834,7 +8914,7 @@
    "rotulo": "§ 1º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Quando o servidor residir no Município e for impossível seu comparecimento ao órgão pericial de que trata o caput deste artigo, a inspeção será realizada em domicílio.",
      "situacao": "vigente",
      "origem": {
@@ -8851,7 +8931,7 @@
    "rotulo": "§ 2º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "A licença somente terá início na data do pedido caso o servidor se apresente para exame nas 24 (vinte e quatro) horas subsequentes.",
      "situacao": "vigente",
      "origem": {
@@ -8868,7 +8948,7 @@
    "rotulo": "§ 3º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "O servidor não poderá recusar-se à inspeção médica, sob pena de suspensão do pagamento de sua retribuição pecuniária até que se realize a inspeção.",
      "situacao": "vigente",
      "origem": {
@@ -8885,7 +8965,7 @@
    "rotulo": "§ 4º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Quando for negada a licença, as faltas correrão à exclusiva responsabilidade do servidor.",
      "situacao": "vigente",
      "origem": {
@@ -8902,7 +8982,7 @@
    "rotulo": "Art. 142-B",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "A inspeção será efetuada:",
      "situacao": "vigente",
      "origem": {
@@ -8919,7 +8999,7 @@
    "rotulo": "I –",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "por um médico, nos casos de:",
      "situacao": "vigente",
      "origem": {
@@ -8936,7 +9016,7 @@
    "rotulo": "a)",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "licença para tratamento de saúde até 90 (noventa) dias;",
      "situacao": "vigente",
      "origem": {
@@ -8953,7 +9033,7 @@
    "rotulo": "b)",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "licença-gestante; e",
      "situacao": "vigente",
      "origem": {
@@ -8970,7 +9050,7 @@
    "rotulo": "c)",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "isenção do imposto de renda;",
      "situacao": "vigente",
      "origem": {
@@ -8987,7 +9067,7 @@
    "rotulo": "II –",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "por junta constituída de 3 (três) médicos, nos demais casos.",
      "situacao": "vigente",
      "origem": {
@@ -9004,7 +9084,7 @@
    "rotulo": "Parágrafo único.",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Os pedidos de reconsideração deverão ser realizados por meio de processo administrativo, em até 30 (trinta) dias, contados da decisão, e serão avaliados por junta médica constituída por 3 (três) médicos.",
      "situacao": "vigente",
      "origem": {
@@ -9021,7 +9101,7 @@
    "rotulo": "Art. 142-C",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Quando o servidor se encontrar fora do Município, legalmente afastado do exercício do cargo, poderá ser acolhido laudo de outro serviço médico oficial de até 30 (trinta) dias, para fins de licença.",
      "situacao": "vigente",
      "origem": {
@@ -9038,7 +9118,7 @@
    "rotulo": "§ 1º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Será, excepcionalmente, admitido atestado de médico particular quando ficar comprovada a inexistência de serviço médico oficial na localidade.",
      "situacao": "vigente",
      "origem": {
@@ -9055,7 +9135,7 @@
    "rotulo": "§ 2º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "O atestado de médico particular só produzirá efeito depois de examinado e referendado pelo órgão de perícia médica do Município.",
      "situacao": "vigente",
      "origem": {
@@ -9072,7 +9152,7 @@
    "rotulo": "Art. 142-D",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "O servidor em licença para tratamento de saúde deverá abster-se de atividade remunerada ou não compatível com o seu estado, sob pena de suspensão imediata da licença.",
      "situacao": "vigente",
      "origem": {
@@ -9089,7 +9169,7 @@
    "rotulo": "§ 1º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "O servidor que tiver conhecimento de possível irregularidade na concessão ou na manutenção de licença para tratamento de saúde tem o dever de comunicá-la à Administração.",
      "situacao": "vigente",
      "origem": {
@@ -9106,7 +9186,7 @@
    "rotulo": "§ 2º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Existindo indícios do exercício de atividade ou de comportamento incompatível com seu estado de saúde pelo servidor em licença para tratamento de saúde, a Administração deverá instaurar procedimento administrativo disciplinar.",
      "situacao": "vigente",
      "origem": {
@@ -9123,7 +9203,7 @@
    "rotulo": "Art. 142-E",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Findo o prazo do benefício, o servidor retornará ao serviço, salvo em caso de necessidade de nova inspeção médica indicada pelo órgão de perícia médica do Município.",
      "situacao": "vigente",
      "origem": {
@@ -9140,7 +9220,7 @@
    "rotulo": "§ 1º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Em caso de nova inspeção médica, poderá ser decidido:",
      "situacao": "vigente",
      "origem": {
@@ -9157,7 +9237,7 @@
    "rotulo": "I –",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "pelo retorno ao serviço, com aptidão total ou aptidão com restrições;",
      "situacao": "vigente",
      "origem": {
@@ -9174,7 +9254,7 @@
    "rotulo": "II –",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "pela prorrogação do auxílio-doença; ou",
      "situacao": "vigente",
      "origem": {
@@ -9191,7 +9271,7 @@
    "rotulo": "III –",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "pelo encaminhamento do servidor ao órgão previdenciário do Município, para avaliação quanto à concessão de aposentadoria por invalidez.",
      "situacao": "vigente",
      "origem": {
@@ -9208,7 +9288,7 @@
    "rotulo": "§ 2º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Caso a conclusão médica seja pelo retorno ao serviço na condição apto com restrições, o servidor será encaminhado ao seu órgão de origem para a adoção dos procedimentos necessários.",
      "situacao": "vigente",
      "origem": {
@@ -9225,7 +9305,7 @@
    "rotulo": "Art. 142-F",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Para concessão da licença em razão de:",
      "situacao": "vigente",
      "origem": {
@@ -9242,7 +9322,7 @@
    "rotulo": "I –",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "acidente em serviço, é indispensável a comprovação detalhada da ocorrência, no prazo de 8 (oito) dias, mediante processo de ofício; e",
      "situacao": "vigente",
      "origem": {
@@ -9259,7 +9339,7 @@
    "rotulo": "II –",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "moléstia profissional, o laudo médico deverá estabelecer sua rigorosa caracterização.",
      "situacao": "vigente",
      "origem": {
@@ -9276,7 +9356,7 @@
    "rotulo": "Art. 142-G",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "As moléstias passíveis de tratamento ambulatorial compatíveis com o exercício do cargo não darão motivo a licença.",
      "situacao": "vigente",
      "origem": {
@@ -9293,7 +9373,7 @@
    "rotulo": "Parágrafo único.",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Os afastamentos para consulta ou exames médicos durante o expediente não dão motivo a licença saúde, ficando autorizada a saída do serviço pelo tempo necessário, mediante comprovação à chefia, nos termos do regulamento.",
      "situacao": "vigente",
      "origem": {
@@ -9310,7 +9390,7 @@
    "rotulo": "Art. 142-H",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Se concedida nova licença decorrente da mesma doença dentro dos 60 (sessenta) dias seguintes à cessação da licença, esta será prorrogada.",
      "situacao": "vigente",
      "origem": {
@@ -9487,7 +9567,7 @@
    "rotulo": "Art. 148",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Será integralmente assegurada a retribuição pecuniária ao servidor licenciado para tratamento de saúde, acidentado em serviço, vítima de agressão não provocada no exercício de suas atribuições ou acometido de moléstia profissional.",
      "situacao": "vigente",
      "origem": {
@@ -9504,7 +9584,7 @@
    "rotulo": "§ 1º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "O pagamento de gratificações devidas ao servidor obedecerá ao previsto nas respectivas leis de criação.",
      "situacao": "vigente",
      "origem": {
@@ -9601,7 +9681,7 @@
    "rotulo": "§ 3º",
    "estados": [
     {
-     "desde": 25,
+     "desde": 26,
      "texto": "Ao funcionário é concedida licença-paternidade por 20 (vinte) dias consecutivos, contados da data de nascimento do filho, mediante a apresentação da respectiva certidão de nascimento.",
      "situacao": "vigente",
      "origem": {
@@ -9618,7 +9698,7 @@
    "rotulo": "§ 4º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Ocorrendo o falecimento da gestante e a sobrevivência da criança, será concedida licença-paternidade de 180 (cento e oitenta) dias, mediante apresentação da certidão de óbito.",
      "situacao": "vigente",
      "origem": {
@@ -9635,7 +9715,7 @@
    "rotulo": "Art. 152-A",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Será devido salário-maternidade à servidora gestante, em gozo de licença para repouso à gestante e à puérpera, por 180 (cento e oitenta) dias consecutivos, com início entre 28 (vinte e oito) dias antes do parto e a data de ocorrência deste.",
      "situacao": "vigente",
      "origem": {
@@ -9652,7 +9732,7 @@
    "rotulo": "§ 1º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "O salário-maternidade consistirá numa renda mensal igual ao subsídio ou totalidade da remuneração da servidora.",
      "situacao": "vigente",
      "origem": {
@@ -9669,7 +9749,7 @@
    "rotulo": "§ 2º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Em caso de aborto não criminoso, comprovado mediante atestado médico, a servidora terá direito à licença e ao salário-maternidade por 15 (quinze) dias.",
      "situacao": "vigente",
      "origem": {
@@ -9686,7 +9766,7 @@
    "rotulo": "Art. 152-B",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "O salário-maternidade não poderá ser acumulado com benefício por incapacidade.",
      "situacao": "vigente",
      "origem": {
@@ -9703,7 +9783,7 @@
    "rotulo": "Art. 152-C",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Os casos patológicos, verificados antes ou depois do parto ou deste decorrentes, serão considerados objeto de licença para tratamento de saúde.",
      "situacao": "vigente",
      "origem": {
@@ -9744,6 +9824,15 @@
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 593/2008"
      }
+    },
+    {
+     "desde": 31,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 957/2022"
+     }
     }
    ]
   },
@@ -9760,6 +9849,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 31,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 957/2022"
+     }
     }
    ]
   },
@@ -9775,6 +9873,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 31,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 957/2022"
      }
     }
    ]
@@ -9794,7 +9901,7 @@
      }
     },
     {
-     "desde": 28,
+     "desde": 29,
      "texto": "Ao funcionário que adotar criança ou adolescente com idade de até 18 (dezoito) anos, ﬁca estendida a licença-paternidade, na forma do disposto nos §§ 3º e 4º do art. 152 desta Lei Complementar.",
      "situacao": "vigente",
      "origem": {
@@ -9803,7 +9910,7 @@
      }
     },
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Ao servidor que adotar ou que obtiver guarda judicial para fins de adoção de criança ou adolescente com até 18 (dezoito) anos de idade, será concedida licença-paternidade pelo período de 20 (vinte) dias, observado o disposto neste artigo.",
      "situacao": "vigente",
      "origem": {
@@ -9837,7 +9944,7 @@
    "rotulo": "§ 1º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Durante a licença a que se refere este artigo, é assegurada ao servidor a percepção de sua retribuição pecuniária total.",
      "situacao": "vigente",
      "origem": {
@@ -9854,7 +9961,7 @@
    "rotulo": "§ 2º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Nos casos de adoção por casal homoafetivo, será concedida licença:",
      "situacao": "vigente",
      "origem": {
@@ -9871,7 +9978,7 @@
    "rotulo": "I –",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "pelo período de 180 (cento e oitenta) dias, quando o companheiro ou cônjuge não obtiver afastamento igual ou superior a 120 (cento e vinte) dias, mediante comprovação; ou",
      "situacao": "vigente",
      "origem": {
@@ -9888,7 +9995,7 @@
    "rotulo": "II –",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "pelo período de 20 (vinte) dias, nos demais casos.",
      "situacao": "vigente",
      "origem": {
@@ -9905,7 +10012,7 @@
    "rotulo": "§ 3º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Nos casos de adoção por servidor solteiro, será concedida licença de 180 (cento e oitenta) dias.",
      "situacao": "vigente",
      "origem": {
@@ -9922,7 +10029,7 @@
    "rotulo": "§ 4º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "A licença terá início a partir do trânsito em julgado da sentença de adoção, salvo se precedido de termo de guarda para fins de adoção, quando então terá início a partir deste, e, em quaisquer das hipóteses, desde que não haja transcorrido prazo de convivência de fato, por tempo igual ou superior ao período de licença previsto.",
      "situacao": "vigente",
      "origem": {
@@ -9948,7 +10055,7 @@
      }
     },
     {
-     "desde": 28,
+     "desde": 29,
      "texto": "À funcionária que adotar ou ob ver legi mação ado va de criança ou adolescente com até 18 (dezoito) anos de idade será concedida, em caráter assistencial, licença complementar à licença-maternidade pelo período de 120 (cento e vinte) dias.",
      "situacao": "vigente",
      "origem": {
@@ -9957,7 +10064,7 @@
      }
     },
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "À servidora que adotar ou que obtiver guarda judicial para fins de adoção de criança ou adolescente com até 18 (dezoito) anos de idade será concedida licença-maternidade pelo período de 180 (cento e oitenta) dias, observado o disposto neste artigo.",
      "situacao": "vigente",
      "origem": {
@@ -9981,6 +10088,15 @@
       "operacao": "insert_node",
       "lei": "Lei Complementar nº 499/2003"
      }
+    },
+    {
+     "desde": 29,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 886/2020"
+     }
     }
    ]
   },
@@ -9998,6 +10114,15 @@
       "operacao": "insert_node",
       "lei": "Lei Complementar nº 499/2003"
      }
+    },
+    {
+     "desde": 29,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 886/2020"
+     }
     }
    ]
   },
@@ -10014,6 +10139,15 @@
      "origem": {
       "operacao": "insert_node",
       "lei": "Lei Complementar nº 499/2003"
+     }
+    },
+    {
+     "desde": 31,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 957/2022"
      }
     }
    ]
@@ -10042,7 +10176,7 @@
    "rotulo": "§ 3º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "Nos casos de adoção por casal homoafetivo, será concedida licença:",
      "situacao": "vigente",
      "origem": {
@@ -10059,7 +10193,7 @@
    "rotulo": "I –",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "pelo período de que trata o caput deste artigo, quando a companheira ou cônjuge não obtiver afastamento igual ou superior a 120 (cento e vinte) dias, mediante comprovação; ou",
      "situacao": "vigente",
      "origem": {
@@ -10076,7 +10210,7 @@
    "rotulo": "II –",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "pelo período de 20 (vinte) dias, nos demais casos.",
      "situacao": "vigente",
      "origem": {
@@ -10093,7 +10227,7 @@
    "rotulo": "§ 4º",
    "estados": [
     {
-     "desde": 30,
+     "desde": 31,
      "texto": "A licença terá a partir do trânsito em julgado da sentença de adoção, salvo se precedido de termo de guarda para fins de adoção, quando então terá início a partir deste, e, em quaisquer das hipóteses, desde que não haja transcorrido prazo de convivência de fato, por tempo igual ou superior ao período de licença previsto.",
      "situacao": "vigente",
      "origem": {
@@ -10646,7 +10780,7 @@
      }
     },
     {
-     "desde": 32,
+     "desde": 33,
      "texto": "A licença-prêmio adquirida pelo servidor deverá, no todo ou em parte, ser:",
      "situacao": "vigente",
      "origem": {
@@ -10663,7 +10797,7 @@
    "rotulo": "II –",
    "estados": [
     {
-     "desde": 32,
+     "desde": 33,
      "texto": "indenizada, nas situações de rompimento do vínculo funcional decorrentes de aposentadoria, exoneração ou falecimento;",
      "situacao": "vigente",
      "origem": {
@@ -10680,7 +10814,7 @@
    "rotulo": "III –",
    "estados": [
     {
-     "desde": 32,
+     "desde": 33,
      "texto": "convertida em dinheiro, 1/3 (um terço) ao ano a partir de cada quinquênio, para o servidor em efetiva atividade e a critério do respectivo Poder ao qual ele se encontre vinculado;",
      "situacao": "vigente",
      "origem": {
@@ -10697,7 +10831,7 @@
    "rotulo": "§ 3º",
    "estados": [
     {
-     "desde": 32,
+     "desde": 33,
      "texto": "É vedada a acumulação de licença-prêmio, salvo por absoluta necessidade de serviço ou motivo justo, até o máximo de 90 (noventa) dias.",
      "situacao": "vigente",
      "origem": {
@@ -10714,7 +10848,7 @@
    "rotulo": "§ 4º",
    "estados": [
     {
-     "desde": 32,
+     "desde": 33,
      "texto": "A licença-prêmio deverá ser usufruída no quinquênio subsequente ao da sua aquisição, em parcelas não inferiores a 15 (quinze) dias.",
      "situacao": "vigente",
      "origem": {
@@ -10731,7 +10865,7 @@
    "rotulo": "§ 5º",
    "estados": [
     {
-     "desde": 32,
+     "desde": 33,
      "texto": "As condições para usufruir a licença-prêmio, descritas neste artigo, serão regulamentadas por Decreto.",
      "situacao": "vigente",
      "origem": {
@@ -11998,6 +12132,23 @@
       "operacao": "insert_node",
       "lei": "Lei Complementar nº 425/1998"
      }
+    },
+    {
+     "desde": 36,
+     "texto": "0 - O prazo prescricional terá início na data da publicação do ato impugnado ou quando este for de natureza reservada, naquela em que tiver ciência o interessado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 36,
+     "texto": "Para os efeitos deste artigo as gratificações a serem incorporadas, que não poderão exceder a média dos últimos doze meses efetivamente percebidos, terão como base de cálculo, no período considerado para incorporação:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 425/1998"
+     }
     }
    ]
   },
@@ -12476,6 +12627,23 @@
     },
     {
      "desde": 35,
+     "texto": "® - Os períodos não concomitantes de percepção das gratificações por atividades insalubres ou perigosas serão soma dos para inteirar o período necessário para a incorporação ao provento na forma deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 425/1998"
+     }
+    },
+    {
+     "desde": 36,
+     "texto": "° - O pedido de reconsideração e o recurso interrompem a prescrição administrativa.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 36,
      "texto": "® - Os períodos não concomitantes de percepção das gratificações por atividades insalubres ou perigosas serão soma dos para inteirar o período necessário para a incorporação ao provento na forma deste artigo.",
      "situacao": "vigente",
      "origem": {
@@ -12966,6 +13134,24 @@
     },
     {
      "desde": 35,
+     "texto": "® - Para efeito de incorporação ao provento de gratificação de insalubridade ou periculosidade, considera-se como período de percepção aquele em que tenha o funcionário efetívamente exercido função insalubre ou perigosa, independentemente do fato de ter ou não percebido os pagamentos correspondentes quando em ativi dade ou por ocasião da aposentadoria.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 425/1998"
+     }
+    },
+    {
+     "desde": 36,
+     "texto": "Para efeito de incorporação ao provento da gratificação de insalubridade ou periculosidade,   considera-se como poriodo de percepção aquele em q.e tenha o funcionário cfetiv~ mente exercido função insalubre ou perigosa, independentemente    do fato de ter ou não percebido os pagamentos correspondentes,    quando em atividade ou na ocasião da aposentadoria.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei Complementar nº 217/1990"
+     }
+    },
+    {
+     "desde": 36,
      "texto": "® - Para efeito de incorporação ao provento de gratificação de insalubridade ou periculosidade, considera-se como período de percepção aquele em que tenha o funcionário efetívamente exercido função insalubre ou perigosa, independentemente do fato de ter ou não percebido os pagamentos correspondentes quando em ativi dade ou por ocasião da aposentadoria.",
      "situacao": "vigente",
      "origem": {
@@ -17727,11 +17913,9 @@
     "idSapl": 40706,
     "rotulo": "Lei Complementar municipal nº 798, de 10 de junho de 2016"
    },
-   "motivo": "comando_nao_reconhecido",
-   "detalhe": "nenhum comando de alteração foi extraído do texto desta norma",
-   "enderecos": [
-    "art-76"
-   ]
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"revoke_lei\" não gera alteração na árvore desta lei",
+   "enderecos": []
   },
   {
    "alteradora": {
@@ -17739,7 +17923,7 @@
     "rotulo": "Lei Complementar municipal nº 851, de 12 de junho de 2019"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 133/1985)",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 133/1985) | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei",
    "enderecos": [
     "art-39-A"
    ]
@@ -17750,8 +17934,10 @@
     "rotulo": "Lei Complementar municipal nº 957, de 28 de setembro de 2022"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei",
-   "enderecos": []
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | endereço \"§ 2º do art. 148\" não encontrado na versão atual — não há o que revogar",
+   "enderecos": [
+    "art-148/par-2"
+   ]
   },
   {
    "alteradora": {
@@ -17759,11 +17945,13 @@
     "rotulo": "Lei Complementar municipal nº 1.041, de 17 de abril de 2025"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 701, de 18 de julho de 2012\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"701\",\"ano\":\"2012\",\"chave\":\"lc 701/2012\"}, versão: lc 133/1985) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 701, de 18 de julho de 2012\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"701\",\"ano\":\"2012\",\"chave\":\"lc 701/2012\"}, versão: lc 133/1985) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 701, de 18 de julho de 2012\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"701\",\"ano\":\"2012\",\"chave\":\"lc 701/2012\"}, versão: lc 133/1985)",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 701, de 18 de julho de 2012\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"701\",\"ano\":\"2012\",\"chave\":\"lc 701/2012\"}, versão: lc 133/1985) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 701, de 18 de julho de 2012\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"701\",\"ano\":\"2012\",\"chave\":\"lc 701/2012\"}, versão: lc 133/1985) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 701, de 18 de julho de 2012\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"701\",\"ano\":\"2012\",\"chave\":\"lc 701/2012\"}, versão: lc 133/1985) | endereço \"§ 1º do art. 165\" não encontrado na versão atual — não há o que revogar | endereço \"§ 2º do art. 165\" não encontrado na versão atual — não há o que revogar",
    "enderecos": [
     "art-59",
     "art-59/par-2",
-    "art-59/par-5"
+    "art-59/par-5",
+    "art-165/par-1",
+    "art-165/par-2"
    ]
   },
   {
@@ -17923,14 +18111,6 @@
    "desde": "2025-04-17"
   },
   {
-   "id": "art-76",
-   "desde": "2016-06-10"
-  },
-  {
-   "id": "art-76/par-unico",
-   "desde": "2016-06-10"
-  },
-  {
    "id": "art-90",
    "desde": "1998-09-18"
   },
@@ -17967,20 +18147,8 @@
    "desde": "1988-01-20"
   },
   {
-   "id": "art-76/inc-VII",
-   "desde": "2016-06-10"
-  },
-  {
    "id": "art-37-A",
    "desde": "2011-07-19"
-  },
-  {
-   "id": "art-76/inc-XVIII",
-   "desde": "2016-06-10"
-  },
-  {
-   "id": "art-76/inc-XIX",
-   "desde": "2016-06-10"
   }
  ]
 }

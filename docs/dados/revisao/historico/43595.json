@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-20T13:47:05.948Z",
+ "geradoEm": "2026-11-21T16:24:19.842Z",
  "idSapl": 43595,
  "rotulo": "Lei Complementar municipal nº 932, de 06 de janeiro de 2022",
  "baseConferida": false,
@@ -18,7 +18,7 @@
     "idSapl": 45238,
     "rotulo": "Lei Complementar municipal nº 963, de 07 de dezembro de 2022"
    },
-   "comandosAplicados": 3
+   "comandosAplicados": 4
   }
  ],
  "dispositivos": [
@@ -510,6 +510,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 963/2022"
+     }
     }
    ]
   },
@@ -937,7 +946,7 @@
     "rotulo": "Lei Complementar municipal nº 963, de 07 de dezembro de 2022"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 875, de 21 de janeiro de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"875\",\"ano\":\"2020\",\"chave\":\"lc 875/2020\"}, versão: lc 932/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 875, de 21 de janeiro de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"875\",\"ano\":\"2020\",\"chave\":\"lc 875/2020\"}, versão: lc 932/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 875, de 21 de janeiro de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"875\",\"ano\":\"2020\",\"chave\":\"lc 875/2020\"}, versão: lc 932/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 875, de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"875\",\"ano\":\"2020\",\"chave\":\"lc 875/2020\"}, versão: lc 932/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 875, de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"875\",\"ano\":\"2020\",\"chave\":\"lc 875/2020\"}, versão: lc 932/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 875, de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"875\",\"ano\":\"2020\",\"chave\":\"lc 875/2020\"}, versão: lc 932/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 875, de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"875\",\"ano\":\"2020\",\"chave\":\"lc 875/2020\"}, versão: lc 932/2022)",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 875, de 21 de janeiro de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"875\",\"ano\":\"2020\",\"chave\":\"lc 875/2020\"}, versão: lc 932/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 875, de 21 de janeiro de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"875\",\"ano\":\"2020\",\"chave\":\"lc 875/2020\"}, versão: lc 932/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 875, de 21 de janeiro de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"875\",\"ano\":\"2020\",\"chave\":\"lc 875/2020\"}, versão: lc 932/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 875, de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"875\",\"ano\":\"2020\",\"chave\":\"lc 875/2020\"}, versão: lc 932/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 875, de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"875\",\"ano\":\"2020\",\"chave\":\"lc 875/2020\"}, versão: lc 932/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 875, de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"875\",\"ano\":\"2020\",\"chave\":\"lc 875/2020\"}, versão: lc 932/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 875, de 2020\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"875\",\"ano\":\"2020\",\"chave\":\"lc 875/2020\"}, versão: lc 932/2022) | operação \"indeterminado\" não gera alteração na árvore desta lei",
    "enderecos": [
     "art-15/inc-I",
     "art-15/inc-II",
