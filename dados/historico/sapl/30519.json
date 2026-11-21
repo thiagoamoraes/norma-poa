@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-20T09:25:05.244Z",
+ "geradoEm": "2026-11-21T16:24:18.099Z",
  "idSapl": 30519,
  "rotulo": "Lei Complementar municipal nº 447, de 10 de maio de 2000",
  "baseConferida": false,
@@ -28,7 +28,7 @@
     "idSapl": 47235,
     "rotulo": "Lei Complementar municipal nº 985, de 21 de setembro de 2023"
    },
-   "comandosAplicados": 1
+   "comandosAplicados": 8
   }
  ],
  "dispositivos": [
@@ -420,6 +420,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 985/2023"
+     }
     }
    ]
   },
@@ -477,6 +486,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 985/2023"
+     }
     }
    ],
    "agrupadores": [
@@ -500,6 +518,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 985/2023"
+     }
     }
    ]
   },
@@ -515,6 +542,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 985/2023"
      }
     }
    ]
@@ -541,6 +577,15 @@
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 587/2008"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 985/2023"
+     }
     }
    ]
   },
@@ -565,6 +610,15 @@
      "origem": {
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 587/2008"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 985/2023"
      }
     }
    ]
@@ -591,6 +645,15 @@
       "operacao": "replace_text",
       "lei": "Lei Complementar nº 587/2008"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 985/2023"
+     }
     }
    ]
   },
@@ -607,6 +670,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 985/2023"
+     }
     }
    ]
   },
@@ -622,6 +694,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 985/2023"
      }
     }
    ]
@@ -785,19 +866,166 @@
     "rotulo": "Lei Complementar municipal nº 985, de 21 de setembro de 2023"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 3 de fevereiro de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 447/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 3 de fevereiro de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 447/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 3 de fevereiro de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 447/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 3 de fevereiro de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 447/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 7.328, de 4 de outubro de 1993\",\"tipoAto\":\"LEI\",\"numero\":\"7328\",\"ano\":\"1993\",\"chave\":\"l 7328/1993\"}, versão: lc 447/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 7.328, de 4 de outubro de 1993\",\"tipoAto\":\"LEI\",\"numero\":\"7328\",\"ano\":\"1993\",\"chave\":\"l 7328/1993\"}, versão: lc 447/2000)",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 3 de fevereiro de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 447/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 3 de fevereiro de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 447/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 3 de fevereiro de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 447/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 3 de fevereiro de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 447/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 7.328, de 4 de outubro de 1993\",\"tipoAto\":\"LEI\",\"numero\":\"7328\",\"ano\":\"1993\",\"chave\":\"l 7328/1993\"}, versão: lc 447/2000) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 7.328, de 4 de outubro de 1993\",\"tipoAto\":\"LEI\",\"numero\":\"7328\",\"ano\":\"1993\",\"chave\":\"l 7328/1993\"}, versão: lc 447/2000) | operação \"revoke_lei\" não gera alteração na árvore desta lei | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | endereço \"art. 13-a\" não encontrado na versão atual — não há o que revogar | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
    "enderecos": [
     "art-9",
     "art-9/inc-I",
     "art-9/inc-VI",
     "art-9/inc-VII",
-    "art-3/inc-I"
+    "art-3/inc-I",
+    "art-1",
+    "art-2",
+    "art-3",
+    "art-4",
+    "art-5",
+    "art-6",
+    "art-7",
+    "art-8",
+    "art-10-A",
+    "art-14",
+    "art-15",
+    "art-17",
+    "art-18",
+    "art-19",
+    "art-19-A",
+    "art-16/inc-II",
+    "art-13-A",
+    "art-9/inc-II",
+    "art-3/inc-II"
    ]
   }
  ],
  "aConferir": [
   {
+   "id": "art-1",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-2",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-3",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-4",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-5",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-5/par-1",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-5/par-2",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-5/par-3",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-5/par-4",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-5/par-5",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-5/par-6",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-6",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-7",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-7/inc-I",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-7/inc-II",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-7/inc-III",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-7/inc-IV",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-7/inc-V",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-7/inc-VI",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-7/inc-VII",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-7/inc-VIII",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-7/inc-IX",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-7/inc-X",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-7/inc-XI",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-7/par-unico",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-8",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-8/par-unico",
+   "desde": "2023-09-21"
+  },
+  {
    "id": "art-9",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-14",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-15",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-17",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-18",
+   "desde": "2023-09-21"
+  },
+  {
+   "id": "art-19",
    "desde": "2023-09-21"
   }
  ]

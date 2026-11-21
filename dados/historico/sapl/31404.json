@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T09:25:26.578Z",
+ "geradoEm": "2026-11-21T16:24:18.140Z",
  "idSapl": 31404,
  "rotulo": "Lei Complementar municipal nº 466, de 06 de setembro de 2001",
  "baseConferida": false,
@@ -9,6 +9,16 @@
    "id": "lc 466/2001@2001-09-06",
    "data": "2001-09-06",
    "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 466/2001@2009-10-01",
+   "data": "2009-10-01",
+   "fonte": {
+    "idSapl": 36373,
+    "rotulo": "Lei Complementar municipal nº 631, de 01 de outubro de 2009"
+   },
+   "comandosAplicados": 4
   }
  ],
  "dispositivos": [
@@ -1209,6 +1219,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 631/2009"
+     }
     }
    ]
   },
@@ -1224,6 +1243,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 631/2009"
      }
     }
    ]
@@ -1241,6 +1269,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 631/2009"
+     }
     }
    ]
   },
@@ -1256,6 +1293,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 631/2009"
      }
     }
    ]
@@ -1411,119 +1457,99 @@
     "idSapl": 36373,
     "rotulo": "Lei Complementar municipal nº 631, de 01 de outubro de 2009"
    },
-   "motivo": "comando_recusado",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 505, de 28 de maio de 2004\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"505\",\"ano\":\"2004\",\"chave\":\"lc 505/2004\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 505, de 28 de maio de 2004\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"505\",\"ano\":\"2004\",\"chave\":\"lc 505/2004\"}, versão: lc 466/2001)",
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 26 de setembro de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 478, de 2002\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"478\",\"ano\":\"2002\",\"chave\":\"lc 478/2002\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 505, de 28 de maio de 2004\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"505\",\"ano\":\"2004\",\"chave\":\"lc 505/2004\"}, versão: lc 466/2001) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 505, de 28 de maio de 2004\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"505\",\"ano\":\"2004\",\"chave\":\"lc 505/2004\"}, versão: lc 466/2001) | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
    "enderecos": [
-    "art-5",
-    "art-7",
-    "art-8",
-    "art-9",
-    "art-12",
+    "art-5/par-3",
+    "art-5/par-6",
+    "art-5/par-7",
+    "art-7/inc-I",
+    "art-7/inc-II",
+    "art-7/inc-III",
+    "art-8/par-1",
+    "art-8/par-2",
+    "art-9/inc-II",
+    "art-9/inc-III",
+    "art-12/par-1",
+    "art-12/par-2",
+    "art-12/par-3",
     "art-15",
+    "art-15/inc-III",
+    "art-15/inc-V",
+    "art-15/inc-VI",
+    "art-15/inc-VII",
+    "art-15/par-unico",
     "art-15-A",
+    "art-15-A/par-1",
+    "art-15-A/par-2",
     "art-15-B",
     "art-25/par-9",
     "art-25-A",
+    "art-25-A/par-unico",
     "art-33",
+    "art-33/inc-I",
+    "art-33/inc-II",
+    "art-33/inc-III",
+    "art-33/inc-IV",
+    "art-33/inc-V",
+    "art-33/inc-VI",
+    "art-33/inc-VII",
+    "art-33/inc-VIII",
+    "art-33/inc-IX",
+    "art-33/inc-X",
+    "art-33/inc-XI",
+    "art-33/inc-XII",
+    "art-33/inc-XIII",
+    "art-33/inc-XIV",
+    "art-33/par-1",
+    "art-33/par-2",
     "art-34/par-4",
     "art-36/par-2",
     "art-38-A",
     "art-38-B",
-    "art-40",
+    "art-40/inc-I",
+    "art-40/par-6",
+    "art-40/par-6/inc-I",
+    "art-40/par-6/inc-II",
+    "art-40/par-7",
     "art-53",
     "art-63",
+    "art-63/inc-I",
+    "art-63/inc-II",
+    "art-63/par-unico",
     "art-65/par-unico",
-    "art-70",
-    "art-71",
-    "art-87",
+    "art-70/inc-IV",
+    "art-71/par-1",
+    "art-71/par-2",
+    "art-87/inc-V",
+    "art-87/par-1",
+    "art-87/par-2",
+    "art-87/par-4",
     "art-91",
+    "art-91/par-unico",
     "art-95",
     "art-96",
+    "art-96/inc-XI",
+    "art-96/inc-XII",
+    "art-96/inc-XIII",
+    "art-96/inc-XIV",
+    "art-96/inc-XV",
+    "art-96/inc-XVI",
+    "art-96/par-unico",
     "art-116-A",
     "art-127-A",
-    "art-3"
+    "art-3/par-3",
+    "art-3/par-4",
+    "art-8/inc-XVI",
+    "art-34/par-2",
+    "art-34/par-3",
+    "art-100"
    ]
   }
  ],
  "aConferir": [
   {
-   "id": "art-3",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-3/par-1",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-3/par-2",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-5",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-5/inc-I",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-5/inc-II",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-5/inc-III",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-5/inc-IV",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-5/inc-V",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-5/inc-VI",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-5/par-1",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-5/par-2",
-   "desde": "2009-10-01"
-  },
-  {
    "id": "art-5/par-3",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-7",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-7/par-1",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-7/par-2",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-7/par-3",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-7/par-4",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-7/par-5",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-8",
    "desde": "2009-10-01"
   },
   {
@@ -1532,30 +1558,6 @@
   },
   {
    "id": "art-8/par-2",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-8/par-3",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-8/par-4",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-8/par-5",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-8/par-6",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-9",
-   "desde": "2009-10-01"
-  },
-  {
-   "id": "art-12",
    "desde": "2009-10-01"
   },
   {

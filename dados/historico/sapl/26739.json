@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-20T09:25:05.826Z",
+ "geradoEm": "2026-11-21T16:24:20.203Z",
  "idSapl": 26739,
  "rotulo": "Lei Complementar municipal nº 283, de 23 de outubro de 1992",
  "baseConferida": false,
@@ -461,15 +461,22 @@
    ]
   }
  ],
- "naoAplicadas": [],
- "aConferir": [],
- "descartadas": [
+ "naoAplicadas": [
   {
    "alteradora": {
     "idSapl": 41723,
     "rotulo": "Lei Complementar municipal nº 835, de 26 de julho de 2018"
    },
-   "motivo": "a ementa cita esta lei, mas os comandos de alteração são de outra"
+   "motivo": "comando_recusado",
+   "detalhe": "endereço-pai \"§ 4º do art. 20\" não encontrado — não é possível inserir \"inc. ii do § 4º do art. 20\" | endereço-pai \"art. 20\" não encontrado — não é possível inserir \"al. k) do art. 20\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 283/1992) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 283/1992) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 283/1992) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 283/1992) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 7, de 1973\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"7\",\"ano\":\"1973\",\"chave\":\"lc 7/1973\"}, versão: lc 283/1992) | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei",
+   "enderecos": [
+    "art-20",
+    "art-21/inc-XXVII",
+    "art-21-A",
+    "art-25",
+    "art-59/par-1"
+   ]
   }
- ]
+ ],
+ "aConferir": []
 }

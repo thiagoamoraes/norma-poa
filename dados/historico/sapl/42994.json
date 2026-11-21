@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T15:57:45.898Z",
+ "geradoEm": "2026-11-21T16:24:19.825Z",
  "idSapl": 42994,
  "rotulo": "Lei Complementar municipal nº 897, de 15 de janeiro de 2021",
  "baseConferida": true,
@@ -9,6 +9,16 @@
    "id": "lc 897/2021@2021-01-15",
    "data": "2021-01-15",
    "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "lc 897/2021@2026-03-20",
+   "data": "2026-03-20",
+   "fonte": {
+    "idSapl": 51150,
+    "rotulo": "Lei Complementar municipal nº 1.069, de 20 de março de 2026"
+   },
+   "comandosAplicados": 1
   }
  ],
  "dispositivos": [
@@ -1872,6 +1882,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.069/2026"
+     }
     }
    ]
   },
@@ -3144,15 +3163,14 @@
     "idSapl": 51150,
     "rotulo": "Lei Complementar municipal nº 1.069, de 20 de março de 2026"
    },
-   "motivo": "comando_recusado",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.037, de 2 de fevereiro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1037\",\"ano\":\"2025\",\"chave\":\"lc 1037/2025\"}, versão: lc 897/2021) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.037, de 2 de fevereiro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1037\",\"ano\":\"2025\",\"chave\":\"lc 1037/2025\"}, versão: lc 897/2021) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.037, de 2 de fevereiro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1037\",\"ano\":\"2025\",\"chave\":\"lc 1037/2025\"}, versão: lc 897/2021) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.060, de 22 de dezembro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1060\",\"ano\":\"2025\",\"chave\":\"lc 1060/2025\"}, versão: lc 897/2021)",
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.037, de 2 de fevereiro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1037\",\"ano\":\"2025\",\"chave\":\"lc 1037/2025\"}, versão: lc 897/2021) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.037, de 2 de fevereiro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1037\",\"ano\":\"2025\",\"chave\":\"lc 1037/2025\"}, versão: lc 897/2021) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.037, de 2 de fevereiro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1037\",\"ano\":\"2025\",\"chave\":\"lc 1037/2025\"}, versão: lc 897/2021) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.060, de 22 de dezembro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1060\",\"ano\":\"2025\",\"chave\":\"lc 1060/2025\"}, versão: lc 897/2021) | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | operação \"revoke_lei\" não gera alteração na árvore desta lei",
    "enderecos": [
-    "art-13/inc-XIX",
-    "art-3",
+    "art-13/inc-XIX/ali-m",
+    "art-13/inc-XIX/ali-n",
+    "art-13/inc-XIX/ali-o",
     "art-53",
-    "art-29",
-    "art-58",
-    "art-58/par-1"
+    "art-2"
    ]
   },
   {
@@ -3167,347 +3185,55 @@
  ],
  "aConferir": [
   {
-   "id": "art-3",
+   "id": "art-2",
    "desde": "2026-03-20"
   },
   {
-   "id": "art-3/inc-I",
+   "id": "art-2/inc-I",
    "desde": "2026-03-20"
   },
   {
-   "id": "art-3/inc-I/ali-a",
+   "id": "art-2/inc-II",
    "desde": "2026-03-20"
   },
   {
-   "id": "art-3/inc-I/ali-b",
+   "id": "art-2/inc-III",
    "desde": "2026-03-20"
   },
   {
-   "id": "art-3/inc-I/ali-c",
+   "id": "art-2/inc-IV",
    "desde": "2026-03-20"
   },
   {
-   "id": "art-3/inc-I/ali-d",
+   "id": "art-2/inc-V",
    "desde": "2026-03-20"
   },
   {
-   "id": "art-3/inc-I/ali-e",
+   "id": "art-2/inc-VI",
    "desde": "2026-03-20"
   },
   {
-   "id": "art-3/inc-II",
+   "id": "art-2/inc-VII",
    "desde": "2026-03-20"
   },
   {
-   "id": "art-3/inc-II/ali-a",
+   "id": "art-2/inc-VIII",
    "desde": "2026-03-20"
   },
   {
-   "id": "art-3/inc-II/ali-b",
+   "id": "art-2/inc-IX",
    "desde": "2026-03-20"
   },
   {
-   "id": "art-3/inc-II/ali-c",
+   "id": "art-2/inc-X",
    "desde": "2026-03-20"
   },
   {
-   "id": "art-3/inc-II/ali-d",
+   "id": "art-2/inc-XI",
    "desde": "2026-03-20"
   },
   {
-   "id": "art-3/inc-II/ali-e",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-II/ali-f",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-II/ali-g",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-II/ali-h",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-II/ali-i",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-III",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-III/ali-a",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-III/ali-b",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-III/ali-c",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-III/ali-d",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-III/ali-e",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-III/ali-f",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-III/ali-g",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-III/ali-h",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-IV",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-IV/ali-a",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-IV/ali-b",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-IV/ali-c",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-IV/ali-d",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-IV/ali-e",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-IV/ali-f",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-V",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-V/ali-a",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-V/ali-b",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VI",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VI/ali-a",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VI/ali-b",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VI/ali-c",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VI/ali-d",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VI/ali-e",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VI/ali-f",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VI/ali-g",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VII",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VIII",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VIII/ali-a",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VIII/ali-b",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VIII/ali-c",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VIII/ali-d",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-VIII/ali-e",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-IX",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-IX/ali-a",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-IX/ali-b",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-IX/ali-c",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-IX/ali-d",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-IX/ali-e",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-X",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-X/ali-a",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-X/ali-b",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-X/ali-c",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-X/ali-d",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-X/ali-e",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-X/ali-f",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XI",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XI/ali-a",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XI/ali-b",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XI/ali-c",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XI/ali-d",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XI/ali-e",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XI/ali-f",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XI/ali-g",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XII",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XII/ali-a",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XII/ali-b",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XII/ali-c",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XII/ali-d",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XII/ali-e",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XIII",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XIII/ali-a",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XIII/ali-b",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XIII/ali-c",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XIII/ali-d",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XIII/ali-e",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-3/inc-XIII/ali-f",
-   "desde": "2026-03-20"
-  },
-  {
-   "id": "art-29",
+   "id": "art-2/par-1",
    "desde": "2026-03-20"
   }
  ]

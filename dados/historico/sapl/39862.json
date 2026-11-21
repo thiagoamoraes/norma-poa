@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T16:20:11.872Z",
+ "geradoEm": "2026-11-21T16:24:19.456Z",
  "idSapl": 39862,
  "rotulo": "Lei Complementar municipal nº 757, de 14 de janeiro de 2015",
  "baseConferida": false,
@@ -28,7 +28,7 @@
     "idSapl": 41982,
     "rotulo": "Lei Complementar municipal nº 846, de 12 de fevereiro de 2019"
    },
-   "comandosAplicados": 15
+   "comandosAplicados": 19
   },
   {
    "indice": 3,
@@ -292,6 +292,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 846/2019"
+     }
     }
    ]
   },
@@ -307,6 +316,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 846/2019"
      }
     }
    ]
@@ -324,6 +342,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 846/2019"
+     }
     }
    ]
   },
@@ -340,6 +367,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 846/2019"
+     }
     }
    ]
   },
@@ -355,6 +391,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 846/2019"
      }
     }
    ]
@@ -397,6 +442,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 846/2019"
+     }
     }
    ]
   },
@@ -412,6 +466,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 846/2019"
      }
     }
    ]
@@ -429,6 +492,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 846/2019"
+     }
     }
    ]
   },
@@ -445,6 +517,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 846/2019"
+     }
     }
    ]
   },
@@ -460,6 +541,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 846/2019"
      }
     }
    ]
@@ -5849,33 +5939,11 @@
     "rotulo": "Lei Complementar municipal nº 846, de 12 de fevereiro de 2019"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "detalhe": "endereço \"§ 1º do art. 8º\" não encontrado na versão atual — não há o que revogar",
    "enderecos": [
-    "art-4/par-13",
     "art-8/par-1"
    ]
   }
  ],
- "aConferir": [
-  {
-   "id": "art-4/par-13",
-   "desde": "2019-02-12"
-  },
-  {
-   "id": "art-4/par-13/inc-I",
-   "desde": "2019-02-12"
-  },
-  {
-   "id": "art-4/par-13/inc-II",
-   "desde": "2019-02-12"
-  },
-  {
-   "id": "art-4/par-13/inc-III",
-   "desde": "2019-02-12"
-  },
-  {
-   "id": "art-4/par-13/inc-IV",
-   "desde": "2019-02-12"
-  }
- ]
+ "aConferir": []
 }

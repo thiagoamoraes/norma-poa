@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T16:20:12.016Z",
+ "geradoEm": "2026-11-21T16:24:19.566Z",
  "idSapl": 40111,
  "rotulo": "Lei Complementar municipal nº 765, de 08 de julho de 2015",
  "baseConferida": true,
@@ -6464,9 +6464,12 @@
     "rotulo": "Lei Complementar municipal nº 877, de 06 de março de 2020"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.180, de 2011\",\"tipoAto\":\"LEI\",\"numero\":\"11180\",\"ano\":\"2011\",\"chave\":\"l 11180/2011\"}, versão: lc 765/2015)",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.180, de 2011\",\"tipoAto\":\"LEI\",\"numero\":\"11180\",\"ano\":\"2011\",\"chave\":\"l 11180/2011\"}, versão: lc 765/2015) | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
    "enderecos": [
-    "art-2"
+    "art-2",
+    "art-9",
+    "art-10",
+    "art-4"
    ]
   },
   {
@@ -6593,6 +6596,46 @@
   },
   {
    "id": "art-2/inc-XXVII",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-4",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-4/inc-I",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-4/inc-II",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-4/inc-III",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-4/inc-IV",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-4/inc-V",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-4/inc-VI",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-4/inc-VII",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-9",
+   "desde": "2020-03-06"
+  },
+  {
+   "id": "art-10",
    "desde": "2020-03-06"
   }
  ]

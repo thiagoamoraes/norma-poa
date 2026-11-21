@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T15:58:08.151Z",
+ "geradoEm": "2026-11-21T16:24:18.377Z",
  "idSapl": 34409,
  "rotulo": "Lei Complementar municipal nº 554, de 11 de julho de 2006",
  "baseConferida": true,
@@ -558,12 +558,16 @@
     "rotulo": "Lei Complementar municipal nº 876, de 03 de março de 2020"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "endereço-pai \"art. 9º\" não encontrado — não é possível inserir \"§ 4º do art. 9º\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.212, de 31 de janeiro de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11212\",\"ano\":\"2012\",\"chave\":\"l 11212/2012\"}, versão: lc 554/2006) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.212, de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11212\",\"ano\":\"2012\",\"chave\":\"l 11212/2012\"}, versão: lc 554/2006) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 12, de 7 de janeiro de 1975\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"12\",\"ano\":\"1975\",\"chave\":\"lc 12/1975\"}, versão: lc 554/2006)",
+   "detalhe": "endereço-pai \"art. 9º\" não encontrado — não é possível inserir \"§ 4º do art. 9º\" | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.212, de 31 de janeiro de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11212\",\"ano\":\"2012\",\"chave\":\"l 11212/2012\"}, versão: lc 554/2006) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.212, de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11212\",\"ano\":\"2012\",\"chave\":\"l 11212/2012\"}, versão: lc 554/2006) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 12, de 7 de janeiro de 1975\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"12\",\"ano\":\"1975\",\"chave\":\"lc 12/1975\"}, versão: lc 554/2006) | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | operação \"indeterminado\" não gera alteração na árvore desta lei | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei",
    "enderecos": [
     "art-9/par-4",
     "art-4",
     "art-6/par-3",
-    "art-29/par-2"
+    "art-29/par-2",
+    "art-6/par-1",
+    "art-6/par-4",
+    "art-1/par-2",
+    "art-47/par-6"
    ]
   },
   {
@@ -586,6 +590,18 @@
   {
    "id": "art-1/par-1",
    "desde": "2014-11-04"
+  },
+  {
+   "id": "art-1/par-2",
+   "desde": "2020-03-03"
+  },
+  {
+   "id": "art-1/par-2/inc-I",
+   "desde": "2020-03-03"
+  },
+  {
+   "id": "art-1/par-2/inc-II",
+   "desde": "2020-03-03"
   },
   {
    "id": "art-1/par-4",

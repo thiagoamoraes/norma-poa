@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T16:20:12.519Z",
+ "geradoEm": "2026-11-21T16:24:20.048Z",
  "idSapl": 49707,
  "rotulo": "Lei Complementar municipal nº 1.033, de 21 de janeiro de 2025",
  "baseConferida": true,
@@ -18,7 +18,7 @@
     "idSapl": 49739,
     "rotulo": "Lei Complementar municipal nº 1.037, de 02 de fevereiro de 2025"
    },
-   "comandosAplicados": 7
+   "comandosAplicados": 8
   }
  ],
  "dispositivos": [
@@ -1714,6 +1714,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
     }
    ]
   },
@@ -2196,7 +2205,7 @@
     "rotulo": "Lei Complementar municipal nº 1.037, de 02 de fevereiro de 2025"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.005, de 2024\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1005\",\"ano\":\"2024\",\"chave\":\"lc 1005/2024\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.005, de 2024\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1005\",\"ano\":\"2024\",\"chave\":\"lc 1005/2024\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.405, de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11405\",\"ano\":\"2012\",\"chave\":\"l 11405/2012\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.405, de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11405\",\"ano\":\"2012\",\"chave\":\"l 11405/2012\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.405, de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11405\",\"ano\":\"2012\",\"chave\":\"l 11405/2012\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.979, de 22 de dezembro de 2015\",\"tipoAto\":\"LEI\",\"numero\":\"11979\",\"ano\":\"2015\",\"chave\":\"l 11979/2015\"}, versão: lc 1033/2025)",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.005, de 2024\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1005\",\"ano\":\"2024\",\"chave\":\"lc 1005/2024\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.005, de 2024\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1005\",\"ano\":\"2024\",\"chave\":\"lc 1005/2024\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: lc 1033/2025) | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.405, de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11405\",\"ano\":\"2012\",\"chave\":\"l 11405/2012\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.405, de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11405\",\"ano\":\"2012\",\"chave\":\"l 11405/2012\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.405, de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11405\",\"ano\":\"2012\",\"chave\":\"l 11405/2012\"}, versão: lc 1033/2025) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.979, de 22 de dezembro de 2015\",\"tipoAto\":\"LEI\",\"numero\":\"11979\",\"ano\":\"2015\",\"chave\":\"l 11979/2015\"}, versão: lc 1033/2025) | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | operação \"revoke_lei\" não gera alteração na árvore desta lei | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
    "enderecos": [
     "art-6/par-unico",
     "art-1",
@@ -2210,7 +2219,23 @@
     "art-8/inc-II",
     "art-2",
     "art-6/inc-I",
-    "art-16/par-2"
+    "art-16/par-2",
+    "art-1/par-4",
+    "art-1/par-5",
+    "art-3",
+    "art-4",
+    "art-5",
+    "art-15",
+    "art-16",
+    "art-17",
+    "art-18",
+    "art-20",
+    "art-21",
+    "art-6",
+    "art-7",
+    "art-8",
+    "art-9",
+    "art-10"
    ]
   },
   {
@@ -2219,7 +2244,7 @@
     "rotulo": "Lei Complementar municipal nº 1.044, de 16 de junho de 2025"
    },
    "motivo": "comando_recusado",
-   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei | operação \"indeterminado\" não gera alteração na árvore desta lei",
    "enderecos": [
     "art-43/par-1"
    ]
@@ -2264,7 +2289,215 @@
    "desde": "2025-02-02"
   },
   {
+   "id": "art-3",
+   "desde": "2025-02-02"
+  },
+  {
    "id": "art-3/inc-I",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-3/inc-II",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-3/par-unico",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/inc-I",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/inc-II",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/inc-III",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/inc-IV",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/inc-V",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-1",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-1/inc-I",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-1/inc-II",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-1/inc-II/ali-a",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-1/inc-II/ali-b",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-2",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-2/inc-I",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-2/inc-II",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-2/inc-III",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-3",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-3/inc-I",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-3/inc-II",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-3/inc-III",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-3/inc-IV",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-4",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4/par-5",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-5",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-6",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-6/par-1",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-6/par-2",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-7",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-7/par-unico",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-8",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-9",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-9/par-1",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-9/par-2",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-10",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-10/par-1",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-10/par-2",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-15",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-15/inc-I",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-15/inc-II",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-16",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-16/par-1",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-16/par-1/inc-I",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-16/par-1/inc-II",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-16/par-1/inc-II/ali-a",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-16/par-1/inc-II/ali-b",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-16/par-1/inc-II/ali-c",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-16/par-1/inc-III",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-16/par-1/inc-III/ali-a",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-16/par-1/inc-III/ali-b",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-16/par-1/inc-III/ali-c",
    "desde": "2025-02-02"
   },
   {
@@ -2313,6 +2546,122 @@
   },
   {
    "id": "art-16/par-2/inc-III/ali-c",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-16/par-3",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-16/par-4",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-16/par-5",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-17",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-17/par-1",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-17/par-1/inc-I",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-17/par-1/inc-II",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-17/par-2",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-17/par-3",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-18",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-18/inc-I",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-18/inc-II",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-18/inc-III",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-18/inc-IV",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-18/par-1",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-18/par-2",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-18/par-3",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-18/par-4",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-20",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-20/par-unico",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-21",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-21/par-unico",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-9/par-3",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-9/par-3/inc-I",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-9/par-3/inc-II",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-9/par-3/inc-III",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-9/par-4",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-18/inc-V",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-18/par-5",
    "desde": "2025-02-02"
   }
  ],

@@ -67,9 +67,9 @@ export function descreverComandos(textoAlteradora, fonteAlteradora, resolverBase
   let semEfeito = 0;
   for (const k of comandos) {
     if (SEM_EFEITO.includes(k.operacao)) { semEfeito++; continue; }
-    const item = { artigoOrigem: k.artigoOrigem ?? null, operacao: k.operacao, lei: k.leiAlvo?.raw ?? null, chave: k.leiAlvo?.chave ?? null, dispositivo: k.dispositivoAlvo ?? null, temNR: !!k.temNR };
+    const item = { artigoOrigem: k.artigoOrigem ?? null, operacao: k.operacao, lei: (k.leiAlvo ?? k.leiAlvoDaCitacao)?.raw ?? null, chave: (k.leiAlvo ?? k.leiAlvoDaCitacao)?.chave ?? null, dispositivo: k.dispositivoAlvo ?? null, temNR: !!k.temNR };
     if (k.novoTexto != null) Object.assign(item, { novo: corta(k.novoTexto).texto, novoTruncado: corta(k.novoTexto).truncado });
-    if (!OPERACOES_COM_EFEITO.includes(k.operacao)) { item.situacao = k.leiAlvo ? 'sem_aplicacao' : 'alvo_nao_identificado'; saida.push(item); continue; }
+    if (!OPERACOES_COM_EFEITO.includes(k.operacao)) { item.situacao = (k.leiAlvo ?? k.leiAlvoDaCitacao) ? 'sem_aplicacao' : 'alvo_nao_identificado'; saida.push(item); continue; }
     if (!k.leiAlvo?.chave) { item.situacao = 'alvo_nao_identificado'; saida.push(item); continue; }
     if (k.leiAlvo.presumida) {
       item.presumido = true; // "Lei Orgânica do Município", sem número na frase: resolvida PARA a LO de 1990 (decisão de 20/11/2026)

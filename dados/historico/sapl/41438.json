@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T16:20:12.119Z",
+ "geradoEm": "2026-11-21T16:24:19.661Z",
  "idSapl": 41438,
  "rotulo": "Lei Complementar municipal nº 821, de 21 de novembro de 2017",
  "baseConferida": true,
@@ -415,11 +415,36 @@
     "rotulo": "Lei Complementar municipal nº 1.008, de 16 de abril de 2024"
    },
    "motivo": "aplicada_em_parte",
-   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 985, de 21 de setembro de 2023\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"985\",\"ano\":\"2023\",\"chave\":\"lc 985/2023\"}, versão: lc 821/2017) | operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 985, de 21 de setembro de 2023\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"985\",\"ano\":\"2023\",\"chave\":\"lc 985/2023\"}, versão: lc 821/2017) | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
    "enderecos": [
-    "art-19"
+    "art-19",
+    "art-1/inc-VII",
+    "art-1/inc-VIII",
+    "art-7",
+    "art-8",
+    "art-9",
+    "art-10",
+    "art-11",
+    "art-12",
+    "art-13",
+    "art-14",
+    "art-18/inc-VII",
+    "art-18/inc-VIII"
    ]
   }
  ],
- "aConferir": []
+ "aConferir": [
+  {
+   "id": "art-7",
+   "desde": "2024-04-16"
+  },
+  {
+   "id": "art-8",
+   "desde": "2024-04-16"
+  },
+  {
+   "id": "art-9",
+   "desde": "2024-04-16"
+  }
+ ]
 }
