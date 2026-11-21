@@ -318,7 +318,7 @@ function pintarNorma() {
     n.textoIgualA?.length ? el('span', { class: 'selo al', title: 'A fonte ligou o mesmo texto a mais de um registro; o catálogo não é corrigido aqui.' }, 'texto idêntico ao da norma ' + n.textoIgualA.join(', ')) : null,
     el('span', { id: 'link-compara' }));
   const pontos = (n.resumo?.rotulosDivergentes || 0) + (n.resumo?.naoLocalizados || 0) + (n.resumo?.lacunasReais || 0) + (n.fronteiras?.length || 0);
-  const roteiros = roteiroDeConferencia(n.motivos, n.texto);
+  const roteiros = roteiroDeConferencia(n.motivos, n.texto, n.dispositivos);
   const roteiro = roteiros.length || !pontos ? el('details', { class: 'roteiro', open: true }, el('summary', {}, 'O que conferir nesta norma'),
     ...roteiros.map((r) => el('div', {}, el('b', {}, r.titulo), el('p', { class: 'ajuda' }, r.instrucao), el('pre', { class: 'trecho', tabindex: 0 }, r.trecho))),
     !roteiros.length ? el('p', { class: 'ajuda' }, ROTEIRO_GENERICO) : null) : null;

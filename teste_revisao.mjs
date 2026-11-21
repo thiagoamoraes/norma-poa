@@ -12,7 +12,7 @@ import { prepararTextoExtraido } from './ingestao/extracao-texto.mjs';
 import { ancorarConferencia } from './ingestao/revisao-ancoras.mjs';
 import { descreverComandos } from './ingestao/revisao-comandos.mjs';
 import { compararComCompilacao, normalizarParaComparar } from './ingestao/revisao-compilacao.mjs';
-import { validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao, situacaoHumana, resumoHumano, listaParaOMotor, CATEGORIAS_HUMANAS, roteiroDeConferencia, tituloDoMotivo, TITULOS_DE_MOTIVO, pontosDaNorma, LIMITE_PONTOS_CONFIRMACAO } from './ingestao/revisao.mjs';
+import { valorDoRotulo, agruparDeslocamentos, fraseDoDeslocamento, validarDecisao, lerDecisoesJsonl, paraJsonl, situacaoDaDecisao, resumoDaRevisao, situacaoHumana, resumoHumano, listaParaOMotor, CATEGORIAS_HUMANAS, roteiroDeConferencia, tituloDoMotivo, TITULOS_DE_MOTIVO, pontosDaNorma, LIMITE_PONTOS_CONFIRMACAO } from './ingestao/revisao.mjs';
 
 let passou = 0, falhou = 0;
 const ok = (desc, cond) => { cond ? passou++ : falhou++; console.log(`${cond ? '✓' : '✗'} ${desc}`); };
@@ -207,6 +207,22 @@ const base = { idSapl: 48003, decisao: 'aceitar', sha256Origem: 'abc', versaoEst
   const lc1075 = fs.readFileSync('./lc1075_promulgacao_parcial.txt', 'utf8');
   const rp = roteiroDeConferencia(['promulgacao_parcial'], lc1075);
   ok('LC 1.075/2026 (real), promulgação parcial: o recorte começa no "Faço saber/promulgo" e traz "dispositivo"', rp.length === 1 && /fa[çc]o saber|promulg/i.test(rp[0].trecho.split('\n')[0]) && /dispositivo/i.test(rp[0].trecho));
+}
+
+// --- rótulos que não conferem: a cascata de deslocamento vira uma frase (21/11/2026) --------------------------
+{
+  ok('valorDoRotulo lê romano, número e letra: "IV –"=4, "Art. 12."=12, "§ 3º"=3, "c)"=3, "XXXVIII –"=38', valorDoRotulo('IV –') === 4 && valorDoRotulo('Art. 12.') === 12 && valorDoRotulo('§ 3º') === 3 && valorDoRotulo('c)') === 3 && valorDoRotulo('XXXVIII –') === 38 && valorDoRotulo('texto') === null);
+  const texto = prepararTextoExtraido(fs.readFileSync('./fixtures/textos/lc810_2017.txt', 'utf8'));
+  const e = estruturarNorma(texto, JSON.parse(fs.readFileSync('./fixtures/textos/lc810_2017.json', 'utf8')));
+  const a = ancorarConferencia(texto, e);
+  const disp = e.dispositivos.map((d) => { const it = a.itens.find((i) => i.ref === 'dispositivo' && i.id === d.id); return it ? { ...d, situacao: it.situacao, ini: it.ini, fim: it.fim, naOrigem: it.naOrigem } : d; });
+  const gr = agruparDeslocamentos(disp);
+  ok('LC 810/2017 (real): os 5 rótulos deslocados viram UM grupo, deslocamento +1 (a lei pula o inciso IV)', gr.length === 1 && gr[0].quantidade === 5 && gr[0].deslocamento === 1 && gr[0].primeiro.id === 'art-8/inc-IV');
+  const fr = fraseDoDeslocamento(gr[0]);
+  ok('LC 810/2017: a frase diz o que o motor numerou, o que está escrito, que parece PULAR um número e quantos seguem deslocados', /«IV –»/.test(fr) && /«V»/.test(fr) && /PULAR/.test(fr) && /outros 4 dispositivos/.test(fr) && !/\.\s+e os outros/.test(fr));
+  const r = roteiroDeConferencia(['rotulo_nao_confere_com_a_origem'], a.texto, disp);
+  ok('LC 810/2017: o roteiro "Confira a numeração da lei" traz o trecho do original com o salto (III … V)', r.length === 1 && r[0].chave === 'rotulos' && /III\s*–/.test(r[0].trecho) && /V\s*–\s*SMIM/.test(r[0].trecho));
+  ok('(sintético) sem divergência não há roteiro de numeração; deslocamento −1 diz "REPETIR"', roteiroDeConferencia(['rotulo_nao_confere_com_a_origem'], 'x', []).length === 0 && /REPETIR/.test(fraseDoDeslocamento({ primeiro: { id: 'art-3', rotulo: 'Art. 8º', naOrigem: 'Art7' }, ultimo: { id: 'art-3' }, quantidade: 1, deslocamento: -1 })));
 }
 
 // --- vocabulário e "aceitar" com muitos pontos (decisões de 20/11/2026) ------------------------------------

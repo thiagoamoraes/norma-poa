@@ -165,7 +165,7 @@ const linhasNaoVazias = (texto) => String(texto || '').split(/\r?\n/).map((l) =>
  *  - cabeçalho/artigos/tipo: início do arquivo;  - sem fecho: final do arquivo;  - promulgação parcial: o "promulgo".
  *  Sem nenhum desses motivos, devolve [] (a página usa o roteiro genérico só se a norma não tiver ponto nenhum).
  */
-export function roteiroDeConferencia(motivos, texto) {
+export function roteiroDeConferencia(motivos, texto, dispositivos = []) {
   const ms = new Set(motivos || []);
   const L = linhasNaoVazias(texto);
   const out = [];
@@ -185,7 +185,60 @@ export function roteiroDeConferencia(motivos, texto) {
       instrucao: 'Promulgação parcial: o "promulgo" fala de dispositivo(s) de uma lei já existente, não de uma lei inteira. Confira o objeto e se o corpo traz só esses dispositivos.',
       trecho: (i >= 0 ? L.slice(i, i + 6) : L.slice(0, 8)).join('\n') });
   }
+  if (ms.has('rotulo_nao_confere_com_a_origem')) {
+    const grupos = agruparDeslocamentos(dispositivos);
+    if (grupos.length) {
+      out.push({ chave: 'rotulos', titulo: 'Confira a numeração da lei', instrucao: grupos.map(fraseDoDeslocamento).join(' '), trecho: trechoAoRedorDoDeslocamento(texto, grupos[0], dispositivos) });
+    }
+  }
   return out;
+}
+
+// ── Rótulos que não conferem: a cascata de deslocamento vira UMA frase (21/11/2026) ───────────────────────────
+
+const ROMANOS = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
+/** Valor numérico de um rótulo ("IV –", "Art. 12.", "§ 3º", "c)") ou null. Só para comparar deslocamento. */
+export function valorDoRotulo(rotulo) {
+  const t = String(rotulo || '').replace(/[–—-]\s*$/, '').replace(/^\s*(?:Art\.?|§)\s*/i, '').replace(/[º°ª.)\s]+$/g, '').trim();
+  if (/^\d+/.test(t)) return parseInt(t, 10);
+  if (/^[IVXLCDM]+$/.test(t)) { let v = 0; for (let i = 0; i < t.length; i++) { const a = ROMANOS[t[i]], b = ROMANOS[t[i + 1]]; v += b && b > a ? -a : a; } return v; }
+  if (/^[a-z]$/.test(t)) return t.charCodeAt(0) - 96;
+  return null;
+}
+
+/**
+ * Agrupa os rótulos divergentes CONSECUTIVOS que têm o mesmo pai e o mesmo deslocamento (o número escrito menos o
+ * número que o motor deu). Um inciso que a lei pulou desloca todos os seguintes pelo mesmo valor: isso é UM ponto a
+ * conferir, não uma lista de N. Devolve [{ pai, primeiro, ultimo, quantidade, deslocamento|null }].
+ */
+export function agruparDeslocamentos(dispositivos) {
+  const div = (dispositivos || []).filter((d) => d.situacao === 'rotulo_diverge');
+  const grupos = [];
+  for (const d of div) {
+    const esc = valorDoRotulo(d.naOrigem), mot = valorDoRotulo(d.rotulo);
+    const desl = esc != null && mot != null ? esc - mot : null;
+    const g = grupos[grupos.length - 1];
+    if (g && g.pai === d.pai && g.deslocamento === desl && desl != null) { g.ultimo = d; g.quantidade++; }
+    else grupos.push({ pai: d.pai, primeiro: d, ultimo: d, quantidade: 1, deslocamento: desl });
+  }
+  return grupos;
+}
+
+/** Frase em português para um grupo de deslocamento, sem inventar redação da lei. */
+export function fraseDoDeslocamento(g) {
+  const onde = `em «${g.primeiro.id}»`;
+  const dado = `O motor numerou «${String(g.primeiro.rotulo).trim()}», mas no texto está escrito «${String(g.primeiro.naOrigem).trim()}»`;
+  const resto = g.quantidade > 1 ? `; os outros ${g.quantidade - 1} dispositivos seguintes (até «${g.ultimo.id}») ficam deslocados do mesmo modo.` : '.';
+  if (g.deslocamento === 1) return `${dado} ${onde}: a lei parece PULAR um número (o motor não achou o dispositivo que vem antes do escrito)${resto} Confira no original se esse dispositivo existe; se a lei realmente pula, é defeito de fonte.`;
+  if (g.deslocamento === -1) return `${dado} ${onde}: a lei parece REPETIR um número, ou o motor leu um dispositivo a mais${resto} Confira se há dois dispositivos com o mesmo rótulo no original.`;
+  return `${dado} ${onde}${resto} Confira a sequência dos rótulos no original.`;
+}
+
+/** Trecho do texto de origem ao redor do primeiro deslocamento (para o revisor ver o contexto sem procurar). */
+export function trechoAoRedorDoDeslocamento(texto, grupo, dispositivos) {
+  const d = (dispositivos || []).find((x) => x.id === grupo.primeiro.id);
+  if (!texto || !d || !Number.isInteger(d.ini)) return '';
+  return String(texto).slice(Math.max(0, d.ini - 160), Math.min(texto.length, d.ini + 160)).trim();
 }
 
 /** Roteiro genérico: norma sem nenhum ponto marcado e sem roteiro específico. */
