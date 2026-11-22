@@ -1,0 +1,70 @@
+{
+ "idSapl": 50313,
+ "rotulo": "Lei municipal nº 14.280, de 21 de julho de 2025",
+ "sha256Origem": "06765508329ff781e28cb3918a808d59c062bbb015624e81cbfe796fc1229f2a",
+ "estruturadoEm": "2026-11-22T15:51:59.142Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14280",
+  "ano": "2025",
+  "data": "2025-07-21",
+  "epigrafe": "LEI Nº 14.280, DE 21 DE JULHO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Festival de Natal do Extremo Sul no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, na primeira quinzena do mês de dezembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de julho de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Festival de Natal do Extremo Sul no Anexo II da Lei nº 10.903, de 31 de maio de 2010, na primeira quinzena do mês de dezembro."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nDEZEMBRO\nPERÍODO           EVENTO           DESCRIÇÃO E LOCAL DO EVENTO\nPrimeira   FESTIVAL DE NATAL DO O evento promove a integração comunitária\nquinzena   EXTREMO SUL           e fortalece o sentido de pertencimento da\npopulação local, além de incentivar o turismo\nna região e colaborar com o desenvolvimento\nda economia local durante o período natalino.\nPossui uma programação diversificada que\ninclui atrações musicais, apresentações\ncircenses, brinquedos para as crianças e a\ntradicional chegada do papai Noel.\nLocal: Praça Central de Belém Novo"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 12,
+     "caracteres": 539,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

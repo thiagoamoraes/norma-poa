@@ -1,0 +1,129 @@
+{
+ "idSapl": 51209,
+ "rotulo": "Lei municipal nº 14.537, de 13 de abril de 2026",
+ "sha256Origem": "0e516b7df70533d6c947809b04ef174c919edf9fb1569fd6df1e626445c99dc9",
+ "estruturadoEm": "2026-11-22T15:51:58.421Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14537",
+  "ano": "2026",
+  "data": "2026-04-13",
+  "epigrafe": "PLL Nº 326/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.537, DE 13 DE ABRIL DE 2026.",
+ "ementa": "Dispõe sobre a obrigatoriedade de preenchimento de formulário PAR-Q para a participação em eventos de corrida de rua no Município de Porto Alegre e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de abril de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "A participação em eventos esportivos de corrida de rua, realizados em vias públicas do Município, fica condicionada ao preenchimento do formulário PAR-Q (Physical Activity Readiness Questionnaire) pelo participante."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Conjuntamente ao formulário PAR-Q, deverá o participante declarar se já positivou para covid-19 e se contraiu sequelas ou comorbidades após a doença."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O formulário poderá ser apresentado:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "fisicamente, no ato da inscrição presencial; ou"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "digitalmente, no caso de inscrições online, devendo ser validado pelo organizador do evento."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Ficam excluídos da exigência de que trata o art. 1º desta Lei os participantes de eventos de caráter exclusivamente recreativo, sem fins competitivos, com percurso inferior a 3km (três quilômetros), desde que não incentivem performance."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Os organizadores dos eventos deverão informar de maneira clara, nos materiais de divulgação e inscrição, a obrigatoriedade do preenchimento do formulário e as condições descritas nesta Lei."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Os eventos esportivos de corrida de rua, realizados em vias públicas do Município, deverão, obrigatoriamente, fornecer ambulância equipada com desfibrilador para pronto atendimento."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "O descumprimento do disposto no art. 4º desta Lei por parte dos organizadores acarretará:"
+  },
+  {
+   "id": "art-6/inc-I",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "advertência escrita, na primeira infração;"
+  },
+  {
+   "id": "art-6/inc-II",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "multa de 900 (novecentas) Unidades Financeiras Municipais (UFMs), na segunda infração; e"
+  },
+  {
+   "id": "art-6/inc-III",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "suspensão, por 2 (dois) anos, da emissão de alvará para eventos esportivos, na terceira infração."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei entra em vigor em 180 (cento e oitenta) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 13,
+   "cobertura": 0.963,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

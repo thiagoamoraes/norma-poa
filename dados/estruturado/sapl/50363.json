@@ -1,0 +1,52 @@
+{
+ "idSapl": 50363,
+ "rotulo": "Lei municipal nº 14.301, de 06 de agosto de 2025",
+ "sha256Origem": "83a147b7985eda7099fd7a87ecf610d1232c6aca20feadb16df1d9d6862416a0",
+ "estruturadoEm": "2026-11-22T15:51:59.067Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14301",
+  "ano": "2025",
+  "data": "2025-08-06",
+  "epigrafe": "LEI Nº 14.301, DE 6 DE AGOSTO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o inc. III do art. 6º da Lei nº 13.218, de 6 de setembro de 2022, que dispõe sobre o Sistema Municipal de Ensino de Porto Alegre, incluindo as escolas de ensino médio como integrantes do Sistema Municipal de Ensino.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 6 de agosto de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o inc. III do art. 6º da Lei nº 13.218, de 6 de setembro de 2022, conforme segue:",
+   "blocoDeAlteracao": "“Art. 6º .....................................................................................................................\n……………………….……………………………………………………………...\nIII – as escolas de educação infantil, ensino fundamental, ensino médio, educação\nespecial e educação de jovens e adultos mantidas pelo Poder Público Municipal; e\n…………………………………………….…………………………………” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.952,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

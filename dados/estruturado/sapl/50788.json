@@ -1,0 +1,75 @@
+{
+ "idSapl": 50788,
+ "rotulo": "Lei municipal nº 14.430, de 22 de dezembro de 2025",
+ "sha256Origem": "346bc48aee0ab71a1a3056c0a37f3d32da69d85fabec8662c110a0b539854dd7",
+ "estruturadoEm": "2026-11-22T15:51:58.720Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14430",
+  "ano": "2025",
+  "data": "2025-12-22",
+  "epigrafe": "PLE Nº 64/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.430, DE 22 DE DEZEMBRO DE 2025.",
+ "ementa": "Altera o art. 72-B, o caput e o § 1º do art. 72-C e revoga o art. 72-A da Lei nº 6.309, de 28 de dezembro de 1988, prorrogando até 31 de dezembro de 2026 os efeitos da gratificação de produtividade do Departamento Municipal de Habitação (Demhab).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de dezembro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam prorrogados até 31 de dezembro de 2026 os efeitos das gratificações referidas nos arts. 72-B e 72-C da Lei nº 6.309, de 28 de dezembro de 1988."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o art. 72-B da Lei nº 6.309, de 1988, conforme segue:",
+   "blocoDeAlteracao": "“Art. 72-B. Aos servidores lotados e em exercício no Departamento Municipal de\nHabitação (Demhab), em atividades precípuas às atribuições do Departamento, será devida\ngratificação relativa à produtividade e enquanto mantiverem as condições e os critérios a serem\nestabelecidos por decreto, equivalente, no seu valor máximo, a 60% (sessenta por cento) do\nvencimento base do cargo na referência “A”.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica alterado o caput e o § 1º do art. 72-C da Lei nº 6.309, de 1988, conforme segue:",
+   "blocoDeAlteracao": "“Art. 72-C. O valor das gratificações referidas no art. 72-B desta Lei\ncorresponderá ao percentual de alcance de metas de resultado, cujos critérios de aferição serão\nestabelecidos por decreto.\n§ 1º As gratificações referidas no caput deste artigo serão incorporadas aos\nproventos de aposentadoria dos servidores em atividade no Demhab, nos termos do art.\n40, caput e § 1º, da Lei Complementar nº 478, de 2002, e alterações posteriores.\n.......................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Fica revogado o art. 72-A da Lei nº 6.309, de 28 de dezembro de 1988."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.978,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "idSapl": 50848,
+ "rotulo": "Lei municipal nº 14.458, de 08 de janeiro de 2026",
+ "sha256Origem": "3da0e528dfea8bc2e5de18877232786f44c3be10c3def9497689959f39943bc4",
+ "estruturadoEm": "2026-11-22T15:51:58.631Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14458",
+  "ano": "2026",
+  "data": "2026-01-08",
+  "epigrafe": "PLL Nº 660/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.458, DE 8 DE JANEIRO DE 2026.",
+ "ementa": "Revoga a Lei nº 11.502, de 13 de novembro de 2013, que declara de utilidade pública o Instituto Urbis Porto Alegre - Cidadania e Participação Popular.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de janeiro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica revogada a Lei nº 11.502, de 13 de novembro de 2013."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

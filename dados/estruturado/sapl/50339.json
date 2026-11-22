@@ -1,0 +1,149 @@
+{
+ "idSapl": 50339,
+ "rotulo": "Lei municipal nº 14.295, de 28 de julho de 2025",
+ "sha256Origem": "37bd4b0f68c788a7bd165b1f20aac5c6c90b302fa3f5b4c04c18a00ae044362b",
+ "estruturadoEm": "2026-11-22T15:51:59.092Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14295",
+  "ano": "2025",
+  "data": "2025-07-28",
+  "epigrafe": "LEI Nº 14.295, DE 28 DE JULHO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Programa Permanente em Saúde Mental, destinado à comunidade escolar das escolas públicas da Rede Municipal de Ensino.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de julho de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa Permanente em Saúde Mental, destinado à comunidade escolar das escolas públicas da Rede Municipal de Ensino."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para os efeitos desta Lei, consideram-se integrantes da comunidade escolar os alunos, seus pais e responsáveis e os professores e profissionais que atuam na escola."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "São objetivos do Programa instituído por esta Lei:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "promover a saúde mental da comunidade escolar;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "garantir aos integrantes da comunidade escolar o acesso à atenção psicossocial;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "informar e sensibilizar a sociedade sobre a importância de cuidados psicossociais na comunidade escolar; e"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "promover a educação permanente de gestores e profissionais da educação na área da saúde mental, capacitando-os a identificarem problemas relacionados à saúde mental."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Programa instituído por esta Lei consistirá em:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "garantia de oferta de serviços de atenção psicossocial para a comunidade escolar;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "distribuição à comunidade escolar de materiais didático-informativos em formato digital ou impresso; e"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "realização anual, pela Secretaria Municipal de Educação, de palestras, oficinas e grupos de educação em saúde mental que deverão abordar, dentre outros temas:"
+  },
+  {
+   "id": "art-3/inc-III/ali-a",
+   "pai": "art-3/inc-III",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "quando voltados aos alunos, maneiras de lidar com emoções e condições emocionais ou mentais; e"
+  },
+  {
+   "id": "art-3/inc-III/ali-b",
+   "pai": "art-3/inc-III",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "quando voltados aos demais membros da comunidade escolar, maneiras de observar e manejar sinais, sintomas e condições emocionais ou mentais."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As ações referidas neste artigo serão embasadas em informações cientificamente verificadas e buscarão esclarecer informações incorretas."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As despesas decorrentes da implantação do Programa instituído por esta Lei correrão por conta de dotação orçamentária própria."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 16,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

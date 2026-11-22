@@ -1,0 +1,128 @@
+{
+ "idSapl": 50780,
+ "rotulo": "Lei municipal nº 14.423, de 22 de dezembro de 2025",
+ "sha256Origem": "bfeda3a300ee2befc667e244653ef0f0c954283a801465c9b77caeb6f1180bab",
+ "estruturadoEm": "2026-11-22T15:51:58.734Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14423",
+  "ano": "2025",
+  "data": "2025-12-22",
+  "epigrafe": "LEI Nº 14.423, DE 22 DE DEZEMBRO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o selo Empresa com Estacionamento Inclusivo no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de dezembro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o selo Empresa com Estacionamento Inclusivo no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O selo Empresa com Estacionamento Inclusivo será concedido às empresas que demonstrarem práticas exemplares de inclusão social e respeito aos direitos das pessoas com deficiência e dos idosos, com ênfase na correta utilização e fiscalização das vagas de estacionamento destinadas a esses públicos."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O selo Empresa com Estacionamento Inclusivo será concedido às empresas que atenderem aos seguintes requisitos:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "cumprimento das normas do Código de Trânsito Brasileiro (CTB) no que se refere à sinalização e destinação de vagas de estacionamento para idosos e pessoas com deficiência em áreas privadas de uso coletivo;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "solicitação formal à Empresa Pública de Transporte e Circulação (EPTC) para que realize fiscalização em suas dependências, assegurando o respeito às vagas destinadas aos idosos e às pessoas com deficiência;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "realização de visita técnica pela EPTC para verificar a conformidade da sinalização das vagas com as normas do CTB;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "disponibilização de canais acessíveis de denúncia e resolução de conflitos relacionados ao uso indevido das vagas, conforme orientações da EPTC; e"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "promoção de ações de conscientização e educação sobre a importância da inclusão e do respeito aos direitos das pessoas com deficiência e dos idosos entre seus funcionários e clientes."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A empresa que atender aos requisitos estabelecidos no art. 2º poderá solicitar o selo Empresa com Estacionamento Inclusivo junto à Secretaria Municipal de Desenvolvimento Social (SMDS)."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "A SMDS avaliará a solicitação referida no art. 3º e, caso a defira, concederá certificação válida por 2 (dois) anos."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "A empresa que obtiver o selo Empresa com Estacionamento Inclusivo poderá utilizar a marca do selo em materiais publicitários, em suas dependências e em sua comunicação institucional, demonstrando seu compromisso com a inclusão e o respeito aos direitos das pessoas com deficiência e dos idosos."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "A fiscalização e a regulamentação das condições para a obtenção e manutenção do selo Empresa com Estacionamento Inclusivo serão realizadas pela EPTC e pela SMDS."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 13,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

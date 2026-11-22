@@ -1,0 +1,79 @@
+{
+ "idSapl": 50672,
+ "rotulo": "Lei municipal nº 14.375, de 25 de novembro de 2025",
+ "sha256Origem": "45a2f37fc76e94bdefcc324226a7b12be020bfda92ed962135dc5f9057207e43",
+ "estruturadoEm": "2026-11-22T15:51:58.873Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14375",
+  "ano": "2025",
+  "data": "2025-11-25",
+  "epigrafe": "LEI Nº 14.375, DE 25 DE NOVEMBRO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza a realização de Intervalo Bíblico, por iniciativa voluntária de estudantes, em instituições públicas e privadas de ensino no Município de Porto Alegre",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 25 de novembro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica autorizada a realização do Intervalo Bíblico, por iniciativa voluntária de estudantes, em instituições públicas e privadas de ensino no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Entende-se por Intervalo Bíblico os momentos de reflexão, leitura da Bíblia, oração e compartilhamento de experiências pessoais, embasados em valores bíblicos, conduzidos de forma voluntária pelos próprios estudantes."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A participação no Intervalo Bíblico é inteiramente voluntária e espontânea, garantindo-se o pleno exercício da liberdade de consciência e de crença, conforme disposto no art. 5º, inc. VI, da Constituição Federal."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Será garantida a liberdade de expressão e manifestação religiosa durante o Intervalo Bíblico, assegurando-se o direito de os estudantes realizarem as reuniões, sem qualquer tipo de censura prévia ou interferência indevida por parte da administração da instituição de ensino."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O Intervalo Bíblico será realizado em horários previamente acordados com a administração da instituição de ensino, como nos intervalos regulares ou outro momento em que não prejudique o andamento das atividades escolares."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 6,
+   "cobertura": 0.953,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "idSapl": 50331,
+ "rotulo": "Lei municipal nº 14.287, de 28 de julho de 2025",
+ "sha256Origem": "90ada645e76d06b1f9871aee1227edb552f6663dedde4271ce282772f19aecae",
+ "estruturadoEm": "2026-11-22T15:51:59.127Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14287",
+  "ano": "2025",
+  "data": "2025-07-28",
+  "epigrafe": "LEI Nº 14.287, DE 28 DE JULHO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria 246 (duzentos e quarenta e seis) cargos de Técnico em Enfermagem e extingue 290 (duzentos e noventa) cargos de Auxiliar de Enfermagem, todos de provimento efetivo, no Quadro dos Cargos de Provimento Efetivo da Administração Centralizada do Município de Porto Alegre, constante da letra a do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de julho de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam criados 246 (duzentos e quarenta e seis) cargos de Técnico em Enfermagem, código TP-1.07.07, TP - Grupo Técnico-Profissional, na letra a do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam extintos 290 (duzentos e noventa) cargos de Auxiliar de Enfermagem, código AS-1.01.06, SA - Grupo Saúde e Assistência, na letra a do Anexo I da Lei nº 6.309, de 1988."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica atualizado o quantitativo de cargos no Anexo I da Lei nº 6.309, de 1988, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão à conta de dotações orçamentárias próprias."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“ANEXO I\n....................................................................................................................................\nTP - GRUPO TÉCNICO-PROFISSIONAL\nTécnico em Enfermagem, código TP - 1.07.07, referências A, B, C e D: 1.127\ncargos\n....................................................................................................................................\nSA - GRUPO SAÚDE E ASSISTÊNCIA\nAuxiliar de Enfermagem, código SA-1.01.06, referências A, B, C e D: 358 cargos\n.........................................................................................................................” (NR)"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 6,
+   "cobertura": 0.96,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 9,
+     "caracteres": 618,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

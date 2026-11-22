@@ -1,0 +1,87 @@
+{
+ "idSapl": 50783,
+ "rotulo": "Lei municipal nº 14.426, de 22 de dezembro de 2025",
+ "sha256Origem": "9d78499de0605c98ee9cc0fc1d1dbf5f932aaec2581fd249057832ba37c8742a",
+ "estruturadoEm": "2026-11-22T15:51:58.729Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14426",
+  "ano": "2025",
+  "data": "2025-12-22",
+  "epigrafe": "PLL Nº 031/20",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.426, DE 22 DE DEZEMBRO DE 2025.",
+ "ementa": "Institui o Programa de Separação de Resíduos Sólidos Recicláveis na Rede Municipal de Ensino.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de dezembro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa de Separação de Resíduos Sólidos Recicláveis na Rede Municipal de Ensino."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "As escolas da Rede Municipal de Ensino realizarão, de forma gradativa, a separação de seus resíduos sólidos recicláveis na origem e disponibilizarão recipientes de coleta seletiva com capacidade suficiente para suprir a demanda gerada, posicionados em locais visíveis e de fácil acesso ao recolhimento."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Os recipientes descritos no § 1º deste artigo serão identificados com letreiros de fácil leitura e da seguinte forma, divididos, no mínimo, em:"
+  },
+  {
+   "id": "art-1/par-2/inc-I",
+   "pai": "art-1/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "resíduo reciclável; e"
+  },
+  {
+   "id": "art-1/par-2/inc-II",
+   "pai": "art-1/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "resíduo orgânico e rejeito."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As despesas decorrentes desta Lei correrão por conta de dotações orçamentárias próprias."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor em 120 (cento e vinte) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 7,
+   "cobertura": 0.971,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

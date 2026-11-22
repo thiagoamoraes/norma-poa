@@ -1,0 +1,100 @@
+{
+ "idSapl": 50588,
+ "rotulo": "Lei municipal nº 14.351, de 31 de outubro de 2025",
+ "sha256Origem": "897169e2f7d008bd05e27503ee12cfc908b27a6ce7c8b395a89e83cf76e0c110",
+ "estruturadoEm": "2026-11-22T15:51:58.935Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14351",
+  "ano": "2025",
+  "data": "2025-10-31",
+  "epigrafe": "LEI Nº 14.351, DE 31 DE OUTUBRO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Assegura o direito a atendimento especializado para as pessoas com Transtorno do Espectro Autista (TEA) e demais pessoas neurodivergentes nos concursos públicos e processos seletivos públicos realizados no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de outubro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEduardo Gomes Tedesco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica assegurado o direito a atendimento especializado para as pessoas com Transtorno do Espectro Autista (TEA) e demais pessoas neurodivergentes nos concursos públicos e processos seletivos públicos realizados no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O atendimento especializado de que trata esta Lei consiste em:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "tempo adicional de 1 (uma) hora para a realização das provas;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "disponibilização de profissional ledor para auxiliar na leitura das provas, se solicitado pelo candidato;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "disponibilização de profissional transcritor para auxiliar na escrita e no preenchimento do cartão-resposta, se solicitado pelo candidato; e"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "sala diferenciada para os candidatos que solicitarem profissional ledor ou transcritor."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O atendimento especializado de que trata esta Lei será disponibilizado aos candidatos que comprovarem sua condição de neurodivergência, mediante laudo médico, relatório multiprofissional ou, no caso das pessoas com TEA, também pela Carteira de Identificação da Pessoa com Transtorno do Espectro Autista (CIPTEA)."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Os editais de concursos públicos e processos seletivos públicos realizados no Município de Porto Alegre deverão informar as normas que regem a necessidade de atendimento especializado aos candidatos com TEA, com a finalidade de assegurar a concorrência em igualdade de condições com os demais inscritos, nos termos do art. 2º desta Lei"
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 9,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

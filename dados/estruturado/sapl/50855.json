@@ -1,0 +1,53 @@
+{
+ "idSapl": 50855,
+ "rotulo": "Lei municipal nº 14.465, de 09 de janeiro de 2026",
+ "sha256Origem": "19cbf10084bcba96c7a4a3315abb32666c37cac309344ffcc3f35a285e1828b5",
+ "estruturadoEm": "2026-11-22T15:51:58.613Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14465",
+  "ano": "2026",
+  "data": "2026-01-09",
+  "epigrafe": "PLL Nº 113/23",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.465, DE 9 DE JANEIRO DE 2026.",
+ "ementa": "Altera o caput e inclui parágrafo único no art. 24 da Lei nº 8.133, de 12 de janeiro de 1998 – que dispõe sobre o Sistema de Transporte e Circulação no Município de Porto Alegre, adequando a legislação municipal à federal, em especial, ao Código de Trânsito Brasileiro e dá outras providências –, permitindo a autorização para operação em caráter experimental do serviço de transporte de passageiros por vans, micro-ônibus ou veículos assemelhados por tempo não superior a 36 (trinta e seis) meses.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de janeiro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o caput e fica incluído parágrafo único no art. 24 da Lei nº 8.133, de 12 de janeiro de 1998, conforme segue:",
+   "blocoDeAlteracao": "“Art. 24 Sem prejuízo do que trata o art. 23 desta Lei, o Município poderá\nautorizar serviço de transporte de passageiros, em caráter experimental, por tempo não superior a\n36 (trinta e seis) meses.\nParágrafo único. A autorização prevista no caput deste artigo observará, quando\npossível, vans, micro-ônibus ou veículos assemelhados.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.983,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

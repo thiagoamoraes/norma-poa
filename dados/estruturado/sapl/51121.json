@@ -1,0 +1,135 @@
+{
+ "idSapl": 51121,
+ "rotulo": "Lei municipal nº 14.503, de 11 de março de 2026",
+ "sha256Origem": "ffbf8baeb26512745536a6495a84cbb2c8cf2b23d1642504855815c66b2f4bb9",
+ "estruturadoEm": "2026-11-22T15:51:58.513Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14503",
+  "ano": "2026",
+  "data": "2026-03-11",
+  "epigrafe": "LEI Nº 14.503, DE 11 DE MARÇO DE 2026.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui   o     Programa      Educativo    para Desenvolvimento de Habilidades Socioemocionais para Lidar com Desastres, Crises e Emergências, destinado a servidores públicos municipais.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de março de 2026.\nBetina Worm,\nPrefeita, em exercício.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa Educativo para Desenvolvimento de Habilidades Socioemocionais para Lidar com Desastres, Crises e Emergências, destinado a servidores públicos municipais."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Programa instituído por esta Lei tem os seguintes objetivos:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "capacitar servidores públicos municipais para lidar de forma eficaz e resolutiva com situações de desastres, crises e emergências, desenvolvendo habilidades socioemocionais, tais como empatia, resiliência, gestão do estresse e trabalho em equipe; e"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "oferecer suporte emocional a servidores públicos, abordando estratégias de prevenção e promoção da saúde mental, visando fortalecer seu bem-estar."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Programa instituído por esta Lei será desenvolvido pelo Executivo Municipal, por meio de suas secretarias competentes, podendo ser em parceria com instituições de ensino, organizações não governamentais e especialistas em psicologia e gestão de crises."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As atividades do Programa instituído por esta Lei serão desenvolvidas de forma contínua e abrangerão:"
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "capacitações presenciais ou online sobre gestão de emoções em situações de crise;"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "palestras e treinamentos práticos de comunicação eficaz e trabalho em equipe em cenários de emergência;"
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "sessões de acompanhamento psicológico individual ou em grupo, visando ao bem-estar e à saúde mental dos servidores;"
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "simulações e exercícios práticos para desenvolver habilidades de tomada de decisão sob pressão; e"
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "material educativo e informativo sobre prevenção e resposta a desastres e emergências, adaptado à realidade local."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "O Programa instituído por esta Lei será destinado a todos os servidores públicos municipais, independentemente da área de atuação, devendo ser realizado durante o período de treinamento admissional e de forma periódica ao longo do vínculo empregatício."
+  },
+  {
+   "id": "art-5/par-unico",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Serão priorizados nas atividades do Programa os servidores públicos municipais das áreas da saúde, da educação, da assistência social, da habitação e da segurança pública, especialmente aqueles que atuam em áreas diretamente afetadas por desastres naturais."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 14,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

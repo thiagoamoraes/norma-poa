@@ -1,0 +1,86 @@
+{
+ "idSapl": 50638,
+ "rotulo": "Lei municipal nº 14.360, de 13 de novembro de 2025",
+ "sha256Origem": "654a1ff76f05a71f9d8ec5eaf270defca59d43719d4d996e7b43dc67e7648c0d",
+ "estruturadoEm": "2026-11-22T15:51:58.910Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14360",
+  "ano": "2025",
+  "data": "2025-11-13",
+  "epigrafe": "LEI Nº 14.360, DE 13 DE NOVEMBRO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Veda      a   contratação    de    técnicos    de desenvolvimento infantil para o exercício de funções de competência exclusiva de professores nas instituições parceirizadas de educação infantil no Município de Porto Alegre e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de novembro de 2025.\nNádia Gerhard,\nPrefeita, em exercício.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica vedada a contratação de técnicos de desenvolvimento infantil para o exercício de funções de competência exclusiva de professores nas instituições parceirizadas de educação infantil no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As instituições referidas no art. 1º que possuírem, em seus quadros de funcionários, técnicos de desenvolvimento infantil exercendo funções de competência exclusiva de professores terão o prazo de 60 (sessenta) dias, contados da data de publicação desta Lei, para a adequação às suas disposições, migrando os funcionários do cargo de técnico de desenvolvimento infantil para o cargo de professor."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Após o transcurso do prazo referido no art. 2º desta Lei, as instituições que ainda mantiverem em seus quadros técnicos de desenvolvimento infantil exercendo funções de competência exclusiva de professores estarão sujeitas às seguintes penalidades:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "multa de 500 (quinhentas) Unidades Financeiras Municipais (UFMs) por profissional desviado da função; e"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "descredenciamento junto ao Conselho Municipal de Educação (CME) e desparceirização junto à Secretaria Municipal de Educação (SMED)."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O Executivo Municipal e o CME serão responsáveis pela fiscalização do cumprimento desta Lei, bem como o Executivo Municipal será responsável pela aplicação das penalidades previstas."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 7,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

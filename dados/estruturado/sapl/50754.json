@@ -1,0 +1,136 @@
+{
+ "idSapl": 50754,
+ "rotulo": "Lei municipal nº 14.409, de 16 de dezembro de 2025",
+ "sha256Origem": "a8b9665429729c27d7cfeeaec0d53f1a8bf6f2111e3be70b05857fb985e3ecea",
+ "estruturadoEm": "2026-11-22T15:51:58.760Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14409",
+  "ano": "2025",
+  "data": "2025-12-16",
+  "epigrafe": "LEI Nº 14.409, DE 16 DE DEZEMBRO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece a obrigatoriedade de capacitação e reciclagem anual em primeiros socorros, manobra de Heimlich e reanimação cardiopulmonar (RCP) para servidores públicos efetivos e comissionados e para funcionários terceirizados do Executivo Municipal.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 16 de dezembro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecida a obrigatoriedade de capacitação e reciclagem anuais em primeiros socorros, manobra de Heimlich e reanimação cardiopulmonar (RCP) para servidores públicos efetivos e comissionados e para funcionários terceirizados do Executivo Municipal."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A capacitação será realizada por meio de oficinas e treinamentos práticos, utilizando o método de multiplicadores de conhecimento, em moldes semelhantes aos da Comissão de Saúde e Segurança no Trabalho (CSST), de modo a garantir que o aprendizado seja transmitido de forma eficaz e acessível, incluindo os seguintes tópicos:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "conceitos e práticas de primeiros socorros em situações de emergência;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "manobra de Heimlich e sua aplicação em casos de engasgamento;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "procedimentos para a realização de RCP em adultos e em crianças;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "protocolos de ação em situações de acidentes, paradas cardiorrespiratórias e outras emergências médicas; e"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "treinamento prático com simulações de situações reais."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A responsabilidade pela organização e execução dos cursos de que trata esta Lei será atribuída ao órgão ou entidade pública competente, que deverá contar com instrutores qualificados na área de saúde e emergências médicas, preferencialmente com formação em enfermagem, medicina ou resgate de emergência."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "A capacitação deverá ser realizada em todas as esferas de atuação do Poder Público, considerando as especificidades dos serviços prestados."
+  },
+  {
+   "id": "art-4/par-1",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A realização da capacitação será obrigatória para os servidores públicos e os funcionários terceirizados que atuem em áreas de maior risco ou em cargos de responsabilidade, tais como unidades de saúde, educação, segurança pública e transportes."
+  },
+  {
+   "id": "art-4/par-2",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Os profissionais de educação física ou os professores em exercício nas escolas municipais deverão, obrigatoriamente, ser capacitados."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Fica o Poder Público autorizado a instituir parcerias com entidades da sociedade civil, associações profissionais e empresas especializadas para a execução e o monitoramento das capacitações."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 14,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

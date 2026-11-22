@@ -1,0 +1,53 @@
+{
+ "idSapl": 50890,
+ "rotulo": "Lei municipal nº 14.488, de 19 de janeiro de 2026",
+ "sha256Origem": "3b14b367cee7ae2c4a566e5b419b618d92aab02d90def5afe5df71d40c6273bb",
+ "estruturadoEm": "2026-11-22T15:51:58.549Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14488",
+  "ano": "2026",
+  "data": "2026-01-19",
+  "epigrafe": "PLL Nº 252/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.488, DE 19 DE JANEIRO DE 2026.",
+ "ementa": "Altera a al. d do art. 1º da Lei nº 2.926, de 12 de julho de 1966, que estabelece as condições pelas quais são as sociedades declaradas de utilidade pública, reduzindo de 3 (três) para 2 (dois) anos o tempo de prestação de serviços relevantes a ser comprovado.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 19 de janeiro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a al. d do art. 1º da Lei nº 2.926, de 12 de julho de 1966, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º ……………………………………………………………………………..\n………………………………………………………………………………………\nd) que servem desinteressadamente à coletividade, comprovando tal fato mediante\na relação circunstanciada dos serviços relevantes prestados à coletividade, durante 2 (dois) anos\nininterruptos, além do atestado fornecido pelo órgão policial competente do Estado ou quaisquer\noutros meios de prova, fornecidos por autoridades federais, estaduais ou municipais.\n……………………………………………………………………………….” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.979,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

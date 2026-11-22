@@ -1,0 +1,69 @@
+{
+ "idSapl": 50648,
+ "rotulo": "Lei municipal nº 14.356, de 07 de novembro de 2025",
+ "sha256Origem": "ecc227d5b3e968c1b41056f8a87dc071b917cc683d1b9cb2b2558e062805289c",
+ "estruturadoEm": "2026-11-22T15:51:58.916Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14356",
+  "ano": "2025",
+  "data": "2025-11-07",
+  "epigrafe": "PROC. Nº 1276/21",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  },
+  "fonte": "catalogo"
+ },
+ "cabecalhoTexto": "PLL Nº 568/21 LEI Nº LEI Nº 14.356, DE 07 DE NOVEMBRO DE 2025.",
+ "ementa": "Destina espaço para a construção do Pedestal da Bandeira junto à Avenida Edvaldo Pereira Paiva e ao Trecho 3 da Orla do Guaíba, no eixo cívico do Parque Marinha do Brasil, localizado na região da Praça do Canhão e do Monumento a Plácido de Castro. A PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 14.356, de 07 de novembro de 2025, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 07 DE NOVEMBRO DE 2025.\nDocumento assinado eletronicamente por Moisés da Silva Barboza, Presidente em Exercício, em\n14/11/2025, às 13:56, conforme horário oficial de Brasília, com fundamento no Art. 10, § 2º da\nMedida Provisória nº 2200-2/2001 e nas Resoluções de Mesa nºs 491/15, 495/15 e 504/15 da\nCâmara Municipal de Porto Alegre.\nDocumento assinado eletronicamente por Tiago Jose Albrecht, Vereador, em 17/11/2025, às 14:51,\nconforme horário oficial de Brasília, com fundamento no Art. 10, § 2º da Medida Provisória nº 2200-\n2/2001 e nas Resoluções de Mesa nºs 491/15, 495/15 e 504/15 da Câmara Municipal de Porto\nAlegre.\nA autenticidade deste documento pode ser conferida no site https://sei.camarapoa.rs.gov.br,\ninformando o código verificador 0992821 e o código CRC 0A472556.\nReferência: Processo nº 037.00466/2021-11                                                                SEI nº 0992821",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica destinado espaço para a construção do Pedestal da Bandeira junto à Avenida Edvaldo Pereira Paiva e ao Trecho 3 da Orla do Guaíba, no eixo cívico do Parque Marinha do Brasil, localizado na região da Praça do Canhão e do Monumento a Plácido de Castro."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "No Pedestal referido no caput deste artigo, será erguido um mastro, com altura entre 60m (sessenta metros) e 100m (cem metros), destinado ao hasteamento da Bandeira do Brasil."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para a elaboração dos projetos e a execução da obra de que trata esta Lei, poderão ser firmados convênios com entidades públicas e privadas, com a intervenção da Liga da Defesa Nacional do Estado do Rio Grande do Sul."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.977,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

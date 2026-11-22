@@ -1,0 +1,121 @@
+{
+ "idSapl": 50374,
+ "rotulo": "Lei municipal nº 14.303, de 08 de agosto de 2025",
+ "sha256Origem": "ea42fbd1a6c4562a9a73b6b2d9d212a0868a6c0e1a9998874206cb69e0e11f93",
+ "estruturadoEm": "2026-11-22T15:51:59.060Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14303",
+  "ano": "2025",
+  "data": "2025-08-08",
+  "epigrafe": "LEI Nº 14.303, DE 8 DE AGOSTO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza o Executivo Municipal a remover, diretamente ou por meio de delegação, a fiação instalada até 4m (quatro metros) do solo nas situações que especifica.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de agosto de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o Executivo Municipal autorizado a remover, diretamente ou por meio de delegação, a fiação instalada até 4m (quatro metros) do solo, nas seguintes situações:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "fiação solta;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "fiação exposta;"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "fiação rompida;"
+  },
+  {
+   "id": "art-1/inc-IV",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "fiação excedente; e"
+  },
+  {
+   "id": "art-1/inc-V",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "fiação abandonada."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Em caso de delegação do serviço, a empresa contratada ficará responsável por registrar a situação anterior e posterior a cada recolhimento, com o objetivo de comprovar a efetividade, a eficiência e a quantidade de material removido."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Nos casos dos incs. IV e V do caput deste artigo que não sejam caracterizados como de perigo iminente, a empresa responsável será notificada para que regularize a situação em até 15 (quinze) dias, sendo autorizada a remoção da fiação pelo Executivo Municipal após o decurso do prazo."
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "A autorização de que trata o caput aplica-se, também, à fiação instalada em altura inferior a 4,40m (quatro metros e quarenta centímetros) nas vias destinadas à circulação de veículos, visando à ampliação da segurança viária e à eficiência do sistema de transporte terrestre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A fiação avariada ou inutilizada retirada dos postes pelo Executivo Municipal passará a ser de propriedade do Município após 30 (trinta) dias da remoção, podendo a empresa responsável reivindicá-la antes do decurso deste prazo."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Executivo Municipal deverá dar o destino adequado à fiação referida no caput deste artigo, podendo comercializar o material e reverter o valor arrecadado para investimentos na zeladoria do Município."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 12,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

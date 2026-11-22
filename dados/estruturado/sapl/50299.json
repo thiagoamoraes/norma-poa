@@ -1,0 +1,65 @@
+{
+ "idSapl": 50299,
+ "rotulo": "Lei municipal nº 14.273, de 17 de julho de 2025",
+ "sha256Origem": "560a07521087f43f45c947508a210e3180927d13dad110544d52c5b5421d7ef1",
+ "estruturadoEm": "2026-11-22T15:51:59.166Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14273",
+  "ano": "2025",
+  "data": "2025-07-17",
+  "epigrafe": "LEI Nº 14.273, DE 17 DE JULHO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece que o Município não poderá recusar laudo médico pericial que ateste esquizofrenia ou outras psicoses crônicas em razão da data de sua emissão.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de julho de 2025.\nSebastião Melo\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecido que o Município não poderá recusar laudo médico pericial que ateste esquizofrenia ou outras psicoses crônicas em razão da data de sua emissão."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O laudo deverá ser emitido por instituição pública ou por empresas e profissionais de saúde credenciados pela Administração Pública."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Em caso de laudo particular, deverá ser verificado se o estabelecimento ou o profissional emitente é credenciado pela Administração Pública, compreendida como o Sistema Único de Saúde, o Instituto Nacional do Seguro Social, as secretarias de saúde, entre outros."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.958,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

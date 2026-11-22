@@ -1,0 +1,52 @@
+{
+ "idSapl": 50671,
+ "rotulo": "Lei municipal nº 14.374, de 25 de novembro de 2025",
+ "sha256Origem": "e4743e6b83e111e34cc2d0eb64c3bf003bbcce38018b3ffbf0af875ca2add63b",
+ "estruturadoEm": "2026-11-22T15:51:58.875Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14374",
+  "ano": "2025",
+  "data": "2025-11-25",
+  "epigrafe": "PLL Nº 358/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.374, DE 25 DE NOVEMBRO DE 2025.",
+ "ementa": "Inclui a efeméride Semana do Médico de Família e Comunidade no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, na semana compreendida entre 5 e 12 de junho de cada ano.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 25 de novembro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Semana do Médico de Família e Comunidade no Anexo da Lei nº 10.904, de 31 de maio de 2010, na semana compreendida entre 5 e 12 de junho de cada ano."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.973,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

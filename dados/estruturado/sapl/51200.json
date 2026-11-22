@@ -1,0 +1,122 @@
+{
+ "idSapl": 51200,
+ "rotulo": "Lei municipal nº 14.533, de 02 de abril de 2026",
+ "sha256Origem": "0a1bb3179e56b5b16da8d220ed2e8c2cf6648b05573444cbad2930eee0bd6516",
+ "estruturadoEm": "2026-11-22T15:51:58.430Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14533",
+  "ano": "2026",
+  "data": "2026-04-02",
+  "epigrafe": "PLL Nº 304/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.533, DE 2 DE ABRIL DE 2026.",
+ "ementa": "Institui o Programa de Treinamento e Qualificação (PCD+POA) no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de abril de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa de Treinamento e Qualificação (PCD+POA) no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O PCD+POA tem como objetivos:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "conscientizar e humanizar o atendimento ao público em geral e preparar a recepção de novos servidores e colaboradores, com atenção especial às pessoas com deficiência; e"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "capacitar todos os servidores efetivos e comissionados do Município de Porto Alegre, em exercício ou recém nomeados, para o atendimento adequado e humanizado às pessoas com deficiência nos serviços de saúde, educação, transporte público e nos demais serviços básicos ofertados ao cidadão, garantindo um ambiente inclusivo, receptivo e igualitário."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "São ações do PCD+POA:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "treinamento permanente, mediante disponibilidade orçamentária, por meio de capacitação contínua de todos os servidores, independentemente de suas funções, sobre os aspectos técnicos e exigências específicas de atendimento de cada tipo de deficiência;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "preparação para recepção de novos colaboradores, por meio de formação específica para receber servidores e colaboradores com deficiência, garantindo sua inclusão e retenção no ambiente de trabalho;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "desenvolvimento de materiais educativos, por meio de elaboração de materiais didáticos e informativos que orientem os servidores sobre a melhor forma de se relacionar com pessoas com deficiência; e"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "realização de rodadas de debates e palestras, com a participação de pessoas com deficiência e especialistas da área, visando à troca de experiências e ao aprimoramento das práticas de inclusão."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As ações previstas no PCD+POA deverão ser desenvolvidas em todas as esferas da Administração Pública Municipal, incluindo, mas não se limitando a, secretarias, autarquias, empresas públicas e demais entidades e órgãos públicos do Município de Porto Alegre."
+  },
+  {
+   "id": "art-4/par-unico",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Programa instituído por esta Lei deverá ser visto como um compromisso de todos os agentes públicos, não se restringindo à responsabilidade do departamento de recursos humanos, voltado ao desenvolvimento de uma cultura de inclusão e ao aprimoramento do ambiente de atendimento ao cidadão de Porto Alegre."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 12,
+   "cobertura": 0.973,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

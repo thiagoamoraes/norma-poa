@@ -1,15 +1,15 @@
 # Estruturação — relatório
 
-Gerado em 2026-11-21T18:43:05.114Z por `ingestao/estruturar.mjs` (versão do estruturador: 30). Não editar à mão.
+Gerado em 2026-11-22T15:51:59.192Z por `ingestao/estruturar.mjs` (versão do estruturador: 30). Não editar à mão.
 
 Uma norma só é **aceita** quando passa em todas as conferências: cabeçalho igual ao do catálogo (número, data, tipo), artigos numerados sem salto, rótulos iguais aos do texto de origem, nenhum texto fora da árvore, fecho presente. O resto vai para **revisar**, com o motivo.
 
-Textos baixados: 1121 · com texto extraído e estruturados: 1109
+Textos baixados: 1427 · com texto extraído e estruturados: 1415
 
 | Situação | Normas | % |
 |---|---|---|
-| aceita | 750 | 67.6% |
-| revisar | 359 | 32.4% |
+| aceita | 1045 | 73.9% |
+| revisar | 370 | 26.1% |
 
 ## Por época (corte: sanção da LC 611, 03/02/2009)
 
@@ -17,7 +17,7 @@ Antes do corte a técnica legislativa era outra: falhas de compilação são esp
 
 | Época | Aceitas | A revisar | Taxa de aceitação |
 |---|---|---|---|
-| recente | 547 | 64 | 89.5% |
+| recente | 842 | 75 | 91.8% |
 | antiga | 203 | 295 | 40.8% |
 
 ## Revisão humana
@@ -26,12 +26,12 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 
 | Situação | Recentes | Antigas | Total |
 |---|---|---|---|
-| aceita motor | 547 | 203 | 750 |
+| aceita motor | 842 | 203 | 1045 |
 | aceita humano | 0 | 0 | 0 |
 | corrigida | 0 | 0 | 0 |
 | defeito de fonte | 0 | 0 | 0 |
 | encaminhada | 0 | 0 | 0 |
-| pendente | 64 | 295 | 359 |
+| pendente | 75 | 295 | 370 |
 | desatualizada | 0 | 0 | 0 |
 
 
@@ -40,21 +40,21 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 
 | Motivo | Normas |
 |---|---|
-| `rotulo_nao_confere_com_a_origem` | 28 |
+| `rotulo_nao_confere_com_a_origem` | 29 |
 | `sem_fecho` | 13 |
+| `promulgacao_parcial` | 11 |
 | `cabecalho_nao_reconhecido` | 10 |
 | `bloco_sem_fechamento_de_aspas` | 10 |
 | `data_diverge_do_catalogo` | 8 |
 | `sem_artigos` | 8 |
-| `fecho_com_texto_demais` | 5 |
+| `fecho_com_texto_demais` | 6 |
+| `bloco_de_alteracao_sem_dono` | 5 |
 | `tabela_no_corpo` | 5 |
-| `bloco_de_alteracao_sem_dono` | 4 |
 | `trecho_nao_localizado_na_origem` | 4 |
 | `texto_fora_da_arvore` | 3 |
 | `aspa_de_abertura_ausente` | 3 |
 | `alteracao_sem_aspas_nao_delimitada` | 3 |
-| `promulgacao_parcial` | 2 |
-| `numero_diverge_do_catalogo` | 1 |
+| `numero_diverge_do_catalogo` | 2 |
 | `endereco_repetido` | 1 |
 
 ## Motivos de revisão (todas as épocas)
@@ -63,23 +63,23 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 
 | Motivo | Normas | % do total |
 |---|---|---|
-| `rotulo_nao_confere_com_a_origem` | 224 | 20.2% |
-| `cabecalho_nao_reconhecido` | 222 | 20% |
-| `sem_fecho` | 144 | 13% |
-| `trecho_nao_localizado_na_origem` | 58 | 5.2% |
-| `bloco_de_alteracao_sem_dono` | 49 | 4.4% |
-| `texto_fora_da_arvore` | 48 | 4.3% |
-| `fecho_com_texto_demais` | 45 | 4.1% |
-| `tabela_no_corpo` | 39 | 3.5% |
-| `sem_artigos` | 38 | 3.4% |
-| `bloco_sem_fechamento_de_aspas` | 27 | 2.4% |
-| `promulgacao_parcial` | 15 | 1.4% |
-| `data_diverge_do_catalogo` | 11 | 1% |
-| `tipo_sem_suporte` | 8 | 0.7% |
-| `alteracao_sem_aspas_nao_delimitada` | 6 | 0.5% |
-| `aspa_de_abertura_ausente` | 3 | 0.3% |
-| `endereco_repetido` | 3 | 0.3% |
-| `numero_diverge_do_catalogo` | 1 | 0.1% |
+| `rotulo_nao_confere_com_a_origem` | 225 | 15.9% |
+| `cabecalho_nao_reconhecido` | 222 | 15.7% |
+| `sem_fecho` | 144 | 10.2% |
+| `trecho_nao_localizado_na_origem` | 58 | 4.1% |
+| `bloco_de_alteracao_sem_dono` | 50 | 3.5% |
+| `texto_fora_da_arvore` | 48 | 3.4% |
+| `fecho_com_texto_demais` | 46 | 3.3% |
+| `tabela_no_corpo` | 39 | 2.8% |
+| `sem_artigos` | 38 | 2.7% |
+| `bloco_sem_fechamento_de_aspas` | 27 | 1.9% |
+| `promulgacao_parcial` | 24 | 1.7% |
+| `data_diverge_do_catalogo` | 11 | 0.8% |
+| `tipo_sem_suporte` | 8 | 0.6% |
+| `alteracao_sem_aspas_nao_delimitada` | 6 | 0.4% |
+| `aspa_de_abertura_ausente` | 3 | 0.2% |
+| `endereco_repetido` | 3 | 0.2% |
+| `numero_diverge_do_catalogo` | 2 | 0.1% |
 
 ## Textos idênticos em registros diferentes
 
@@ -113,15 +113,15 @@ A fonte liga o mesmo texto a mais de um registro; o catálogo não é corrigido 
 
 | Aviso | Normas | % do total |
 |---|---|---|
-| `cabecalho_fora_do_padrao` | 196 | 17.7% |
-| `tem_anexo` | 94 | 8.5% |
-| `texto_de_ocr` | 68 | 6.1% |
-| `anexo_preservado_nao_interpretado` | 51 | 4.6% |
-| `revogacao_nao_interpretada` | 44 | 4% |
-| `anexo_grafico_nao_lido` | 42 | 3.8% |
-| `paragrafo_numerado_sem_irmao` | 20 | 1.8% |
-| `dispositivo_muito_longo` | 15 | 1.4% |
-| `possivel_dispositivo_embutido` | 15 | 1.4% |
+| `cabecalho_fora_do_padrao` | 197 | 13.9% |
+| `tem_anexo` | 181 | 12.8% |
+| `anexo_grafico_nao_lido` | 107 | 7.6% |
+| `anexo_preservado_nao_interpretado` | 73 | 5.2% |
+| `texto_de_ocr` | 68 | 4.8% |
+| `revogacao_nao_interpretada` | 44 | 3.1% |
+| `paragrafo_numerado_sem_irmao` | 21 | 1.5% |
+| `dispositivo_muito_longo` | 15 | 1.1% |
+| `possivel_dispositivo_embutido` | 15 | 1.1% |
 
 ## Fila de revisão — recentes (prioridade; só pendentes e desatualizadas)
 
@@ -189,6 +189,17 @@ A fonte liga o mesmo texto a mais de um registro; o catálogo não é corrigido 
 - Lei municipal nº 14.667, de 25 de setembro de 2026 (`51804`): rotulo_nao_confere_com_a_origem
 - Lei municipal nº 14.619, de 31 de julho de 2026 (`51579`): data_diverge_do_catalogo
 - Lei municipal nº 14.578, de 02 de julho de 2026 (`51452`): trecho_nao_localizado_na_origem
+- Lei municipal nº 14.504, de 11 de março de 2026 (`51122`): promulgacao_parcial, rotulo_nao_confere_com_a_origem
+- Lei municipal nº 14.481, de 14 de janeiro de 2026 (`50876`): promulgacao_parcial, bloco_de_alteracao_sem_dono
+- Lei municipal nº 14.456, de 07 de janeiro de 2026 (`50841`): fecho_com_texto_demais
+- Lei municipal nº 14.433, de 05 de janeiro de 2026 (`50929`): numero_diverge_do_catalogo
+- Lei municipal nº 14.337, de 03 de outubro de 2025 (`50525`): promulgacao_parcial
+- Lei municipal nº 14.325, de 22 de setembro de 2025 (`50526`): promulgacao_parcial
+- Lei municipal nº 14.321, de 15 de setembro de 2025 (`50521`): promulgacao_parcial
+- Lei municipal nº 14.310, de 13 de agosto de 2025 (`50477`): promulgacao_parcial
+- Lei municipal nº 14.309, de 13 de agosto de 2025 (`50476`): promulgacao_parcial
+- Lei municipal nº 14.272, de 09 de julho de 2025 (`50408`): promulgacao_parcial
+- Lei municipal nº 14.271, de 09 de julho de 2025 (`50359`): promulgacao_parcial
 
 ## Fila de revisão — antigas (antes da LC 611; revisão humana esperada)
 

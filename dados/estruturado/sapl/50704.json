@@ -1,0 +1,53 @@
+{
+ "idSapl": 50704,
+ "rotulo": "Lei municipal nº 14.391, de 03 de dezembro de 2025",
+ "sha256Origem": "3e0e8f4030dd2b221ce04fd80adb8fa6545eee6986052ecf9c6b6ce9a6cdf793",
+ "estruturadoEm": "2026-11-22T15:51:58.795Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14391",
+  "ano": "2025",
+  "data": "2025-12-03",
+  "epigrafe": "PLL Nº 455/23",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.391, DE 3 DE DEZEMBRO DE 2025.",
+ "ementa": "Altera o inc. III do parágrafo único do art. 2º da Lei nº 11.533, de 2 janeiro de 2014, que cria o Programa Parada Segura, reduzindo as exceções à aplicação do disposto no art. 2º da referida Lei.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 3 de dezembro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o inc. III do parágrafo único do art. 2º da Lei nº 11.533, de 2 janeiro de 2014, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º ……………………………………….……………………………………\nParágrafo único. ………………………………………………….….….….….….\n………………………………………………………………………………………\nIII – na Avenida Farrapos;\n…………………………………………………………………………….…” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "idSapl": 50380,
+ "rotulo": "Lei municipal nº 14.308, de 11 de agosto de 2025",
+ "sha256Origem": "181e01bd0b24804758be7e8fe5bea320d29ee00f794cfcd5299bce31886a693c",
+ "estruturadoEm": "2026-11-22T15:51:59.043Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14308",
+  "ano": "2025",
+  "data": "2025-08-11",
+  "epigrafe": "LEI Nº 14.308, DE 11 DE AGOSTO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Programa Pequenos Atletas.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de agosto de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa Pequenos Atletas, com o objetivo de reconhecer crianças com habilidades esportivas no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Programa criado por esta Lei consiste em conjugações de ações e parcerias entre o Executivo Municipal e clubes esportivos e outras instituições privadas para possibilitar aos alunos da rede municipal de ensino a demonstração de suas habilidades em eventuais patrocínios e competições."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Executivo Municipal promoverá competições esportivas no âmbito das escolas da rede municipal de ensino voltadas ao reconhecimento de alunos com habilidades esportivas."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Os alunos selecionados para as competições poderão receber incentivos por meio de programas sociais e parcerias com a iniciativa privada."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

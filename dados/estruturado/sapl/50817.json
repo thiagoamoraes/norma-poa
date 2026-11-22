@@ -1,0 +1,71 @@
+{
+ "idSapl": 50817,
+ "rotulo": "Lei municipal nº 14.437, de 29 de dezembro de 2025",
+ "sha256Origem": "975b7b04c23a0ad80cac0db38e38b7964aa47746163274d4e0dde0f70b6140a8",
+ "estruturadoEm": "2026-11-22T15:51:58.702Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14437",
+  "ano": "2025",
+  "data": "2025-12-29",
+  "epigrafe": "PLL Nº 005/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.437, DE 29 DE DEZEMBRO DE 2025.",
+ "ementa": "Inclui o evento Feira de Famílias Atípicas Empreendedoras no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, na última segunda, terça e quarta-feira do mês de agosto.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 29 de dezembro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Feira de Famílias Atípicas Empreendedoras no Anexo II da Lei nº 10.903, de 31 de maio de 2010, na última segunda, terça e quarta-feira do mês de agosto, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nAGOSTO\nPERÍODO                EVENTO                   DESCRIÇÃO E LOCAL DO EVENTO\nÚltima        Feira  de   Famílias   Atípicas A feira busca valorizar o trabalho dos(as)\nsegunda,      Empreendedoras                  empreendedores(as), pais atípicos e mães\nterça       e                                 atípicas, constituindo-se em uma alternativa\nquarta-feira.                                 para o comércio de produtos e serviços\nfornecidos pelas famílias, permitindo a troca\nde experiências e a geração de novos\nnegócios, além de trazer maior visibilidade\nao trabalho dessas pessoas na Cidade.\nLocal: Câmara Municipal de Porto Alegre"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.983,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 11,
+     "caracteres": 629,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

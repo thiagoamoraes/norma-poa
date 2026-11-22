@@ -1,0 +1,66 @@
+{
+ "idSapl": 50847,
+ "rotulo": "Lei municipal nº 14.457, de 08 de janeiro de 2026",
+ "sha256Origem": "ad7f631bf91195e349541da27b0a90b0f919452d107ca9981f79d79246e1bb9c",
+ "estruturadoEm": "2026-11-22T15:51:58.632Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14457",
+  "ano": "2026",
+  "data": "2026-01-08",
+  "epigrafe": "PLL Nº 756/23",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.457, DE 8 DE JANEIRO DE 2026.",
+ "ementa": "Assegura o atendimento prioritário às pessoas com diabetes na realização de exames complementares de diagnóstico que exijam jejum prévio, coletas de sangue e ultrassonografia de abdômen nos serviços públicos e privados de saúde no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de janeiro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica assegurado o atendimento prioritário às pessoas com diabetes na realização de exames complementares de diagnóstico que exijam jejum prévio, coletas de sangue e ultrassonografia de abdômen nos serviços públicos e privados de saúde no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O atendimento prioritário será realizado de acordo com as regras do atendimento preferencial destinado a idosos, gestantes e pessoas com deficiência e com a classificação de risco para atendimento aos pacientes, especialmente nos casos de urgência e emergência."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para fins de cumprimento desta Lei, a pessoa com diabetes deverá informar sua condição no ato do agendamento dos exames e comprová-la no momento do atendimento mediante apresentação de laudo médico, documento médico equivalente ou resultado de exame prévio que comprove a patologia."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor em 90 (noventa) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.971,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

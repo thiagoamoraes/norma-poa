@@ -1,0 +1,79 @@
+{
+ "idSapl": 50352,
+ "rotulo": "Lei municipal nº 14.298, de 01 de agosto de 2025",
+ "sha256Origem": "cb759d21fc13473a76a21034e430aaa26919fd93aa6636089dc8e5685feb3373",
+ "estruturadoEm": "2026-11-22T15:51:59.081Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14298",
+  "ano": "2025",
+  "data": "2025-08-01",
+  "epigrafe": "LEI Nº 14.298, DE 1º DE AGOSTO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Obriga as empresas que fornecem energia elétrica, telefonia, comunicação de dados, televisão por assinatura ou outro serviço por meio de cabos, em rede aérea ou subterrânea, a realizar a identificação de seu cabeamento.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 1º de agosto de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam as empresas que fornecem energia elétrica, telefonia, comunicação de dados, televisão por assinatura ou outro serviço por meio de cabos, em rede aérea ou subterrânea, obrigadas a realizar a identificação de seu cabeamento."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O descumprimento ao disposto nesta Lei sujeitará os infratores à multa entre 1.000 (mil) e 100.000 (cem mil) Unidades Financeiras Municipais (UFMs), calculada conforme a gravidade da infração."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Os valores das multas constantes no caput deste artigo serão aplicados em dobro, em caso de reincidência."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A aplicação da multa prevista no caput deste artigo dar-se-á sem prejuízo da aplicação das sanções de natureza administrativa, civil ou penal, ou daquelas definidas em normas específicas."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O cabeamento já instalado, quando da sua manutenção, deverá ser adequado às disposições desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor em 90 (noventa) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 6,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

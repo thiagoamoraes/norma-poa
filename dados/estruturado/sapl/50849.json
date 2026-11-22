@@ -1,0 +1,101 @@
+{
+ "idSapl": 50849,
+ "rotulo": "Lei municipal nº 14.459, de 08 de janeiro de 2026",
+ "sha256Origem": "2037d117b0e3df1c37e5b2d2668340da42da6f9fde4b56780fed4b8a6d0562aa",
+ "estruturadoEm": "2026-11-22T15:51:58.628Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14459",
+  "ano": "2026",
+  "data": "2026-01-08",
+  "epigrafe": "PLL Nº 336/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.459, DE 8 DE JANEIRO DE 2026.",
+ "ementa": "Cria o Selo Empresa Amiga da Doação de Órgãos.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de janeiro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criado o Selo Empresa Amiga da Doação de Órgãos, a ser concedido a empresas públicas ou privadas que comprovarem a realização de atividades, para funcionários ou clientes, direcionadas ao incentivo da doação de órgãos."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Selo Empresa Amiga da Doação de Órgãos será representado por uma logomarca acompanhada do Brasão de Porto Alegre, e poderá ser utilizado em materiais institucionais, publicitários ou de propaganda da empresa que o obtiver."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Selo Empresa Amiga da Doação de Órgãos tem por objetivos:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "promover a conscientização da população sobre a importância da doação de órgãos;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "incentivar as pessoas a se declararem doadoras e a conversarem com seus familiares sobre o seu desejo de ter seus órgãos doados após a morte;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "esclarecer as famílias sobre a importância da doação de órgãos; e"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "aumentar a disponibilidade de órgãos para doação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A concessão do Selo de que trata esta Lei não implica em qualquer benefício financeiro ou tributário por parte do Município."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 9,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

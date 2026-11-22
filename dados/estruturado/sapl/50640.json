@@ -1,0 +1,114 @@
+{
+ "idSapl": 50640,
+ "rotulo": "Lei municipal nº 14.361, de 13 de novembro de 2025",
+ "sha256Origem": "c6c90586a79119129e45bf57ed61615e09fb244c59d6b60b05fbfe9ea29b15b2",
+ "estruturadoEm": "2026-11-22T15:51:58.903Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14361",
+  "ano": "2025",
+  "data": "2025-11-13",
+  "epigrafe": "LEI Nº 14.361, DE 13 DE NOVEMBRO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Selo         Estabelecimento Amigo   da Segurança.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de novembro de 2025.\nNádia Gerhard,\nPrefeita, em exercício.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Selo Estabelecimento Amigo da Segurança, a ser concedido a estabelecimentos comerciais que disponibilizem, no mínimo, 3 (três) dos seguintes itens aos servidores da segurança pública:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "acesso a banheiros;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "fornecimento de água filtrada e café gratuitos;"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "acesso a rede wi-fi gratuita;"
+  },
+  {
+   "id": "art-1/inc-IV",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "descontos especiais em produtos e serviços; e"
+  },
+  {
+   "id": "art-1/inc-V",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "espaços de descanso ou áreas de convivência."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para os fins desta Lei, o disposto nos incisos do caput deste artigo se destina exclusivamente aos integrantes da Guarda Civil Metropolitana, da Brigada Militar, da Polícia Civil, da Polícia Penal e do Instituto Geral de Perícias que estiverem devidamente fardados ou portando identificação funcional."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O estabelecimento contemplado com o Selo Estabelecimento Amigo da Segurança poderá utilizá-lo em materiais institucionais, publicitários, mídias sociais e demais canais de divulgação, devendo também fixá-lo em local visível ao público em suas dependências."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A concessão do Selo instituído por esta Lei será regulamentada pelo Executivo Municipal e terá validade de 12 (doze) meses, podendo ser renovada anualmente mediante comprovação do cumprimento dos requisitos estabelecidos em decreto."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 11,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

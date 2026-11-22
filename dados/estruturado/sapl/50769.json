@@ -1,0 +1,70 @@
+{
+ "idSapl": 50769,
+ "rotulo": "Lei municipal nº 14.414, de 22 de dezembro de 2025",
+ "sha256Origem": "cdf8e2c07c84b6b4d43f4bc2a2f1fee23eb03f7c0d537532cb7f4e185b4c9743",
+ "estruturadoEm": "2026-11-22T15:51:58.749Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14414",
+  "ano": "2025",
+  "data": "2025-12-22",
+  "epigrafe": "LEI Nº 14.414, DE 22 DE DEZEMBRO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Romaria Arquidiocesana ao Santuário Mãe de Deus no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, no último domingo do mês de maio.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de dezembro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Romaria Arquidiocesana ao Santuário Mãe de Deus no Anexo II da Lei nº 10.903, de 31 de maio de 2010, no último domingo do mês de maio, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nMAIO\nPERÍODO           EVENTO              DESCRIÇÃO E LOCAL DO EVENTO\nÚltimo     ROMARIA ARQUIDIOCESANA O Santuário Mãe de Deus é ponto de\ndomingo do AO SANTUÁRIO MÃE DE DEUS encontro para a evangelização e promoção\nmês.                                da vida cristã. Romarias regulares,\nencontros de formação e celebrações\nlitúrgicas reforçam seu papel como espaço\nde espiritualidade e comunidade. O\ntradicional evento anual em honra à\npadroeira é o momento alto da devoção\nlocal, celebração que expressa a fé popular e\na vivência comunitária da Igreja, além de\npromover o encontro entre gerações,\nvalorizando a tradição e renovando o\ncompromisso cristão.\nLocal: R. Santuário, 400 - Belém Velho,\nPorto Alegre – RS."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.968,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 17,
+     "caracteres": 700,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

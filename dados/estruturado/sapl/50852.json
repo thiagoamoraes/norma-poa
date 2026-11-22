@@ -1,0 +1,102 @@
+{
+ "idSapl": 50852,
+ "rotulo": "Lei municipal nº 14.462, de 08 de janeiro de 2026",
+ "sha256Origem": "91b1f3cf31fa2d1bebba01178c9083c672ea8f565e73046b714c7a064dd0f835",
+ "estruturadoEm": "2026-11-22T15:51:58.618Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14462",
+  "ano": "2026",
+  "data": "2026-01-08",
+  "epigrafe": "PLL Nº 307/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.462, DE 8 DE JANEIRO DE 2026.",
+ "ementa": "Inclui a efeméride Semana Municipal de Informação e Divulgação da Pesquisa Clínica no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, na semana que compreender o dia 20 de maio.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de janeiro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Semana Municipal de Informação e Divulgação da Pesquisa Clínica no Anexo da Lei nº 10.904, de 31 de maio de 2010, na semana que compreender o dia 20 de maio."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para fins do desenvolvimento das atividades alusivas à Semana Municipal de Informação e Divulgação da Pesquisa Clínica, o Executivo Municipal poderá buscar a implementação dos seguintes objetivos:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "promover e divulgar amplamente a efeméride nos meios de comunicação, respeitado o disposto no § 1º do art. 37 da Constituição Federal;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "celebrar parcerias com universidades, sindicatos, laboratórios farmacêuticos, hospitais e demais entidades da sociedade civil, para a organização de debates e palestras sobre os parâmetros, os objetivos e o desenvolvimento da pesquisa clínica;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "celebrar convênios ou outros ajustes com as secretarias municipais e estaduais de saúde e de educação, bem como com o Ministério da Saúde; e"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "realizar outros procedimentos úteis à execução desta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão à conta de dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 9,
+   "cobertura": 0.972,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

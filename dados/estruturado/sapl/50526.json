@@ -1,0 +1,83 @@
+{
+ "idSapl": 50526,
+ "rotulo": "Lei municipal nº 14.325, de 22 de setembro de 2025",
+ "sha256Origem": "38b1399b857c26485021486bad5c9c2f901c765347757897866c6e10c1284e60",
+ "estruturadoEm": "2026-11-22T15:51:59.004Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14325",
+  "ano": "2025",
+  "data": "2025-09-22",
+  "epigrafe": "PROC. Nº 0156/22",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "veto_derrubado",
+   "baseLegal": null
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 082/22 LEI Nº 14.325, DE 22 DE SETEMBRO DE 2025.",
+ "ementa": "Dispõe sobre a reserva às pessoas transexuais e travestis de 1% (um por cento) das vagas oferecidas nos concursos públicos para provimento de cargos efetivos e empregos públicos no Município de Porto Alegre. A PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 5º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal manteve e eu promulgo o dispositivo da Lei nº 14.325, de 22 de setembro de 2025, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 22 DE SETEMBRO DE 2025.\nDocumento assinado eletronicamente por Nadia Rodrigues Silveira Gerhard, Presidente, em\n24/09/2025, às 09:22, conforme horário oficial de Brasília, com fundamento no Art. 10, § 2º da\nMedida Provisória nº 2200-2/2001 e nas Resoluções de Mesa nºs 491/15, 495/15 e 504/15 da\nCâmara Municipal de Porto Alegre.\nDocumento assinado eletronicamente por Alexandre Bublitz, Vereador (a), em 06/10/2025, às 16:49,\nconforme horário oficial de Brasília, com fundamento no Art. 10, § 2º da Medida Provisória nº 2200-\n2/2001 e nas Resoluções de Mesa nºs 491/15, 495/15 e 504/15 da Câmara Municipal de Porto\nAlegre.\nA autenticidade deste documento pode ser conferida no site https://sei.camarapoa.rs.gov.br,\ninformando o código verificador 0966635 e o código CRC CDC80767.\nReferência: Processo nº 238.00002/2021-76                                                                SEI nº 0966635",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam reservadas às pessoas transexuais e travestis 1% (um por cento) das vagas oferecidas nos concursos públicos para provimento de cargos efetivos e empregos públicos no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O percentual previsto no caput deste artigo aplica-se também à contratação de estágio profissional."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para os efeitos desta Lei, consideram-se pessoas transexuais e travestis aquelas que não se identificam com o gênero que lhes foi atribuído quando de seu nascimento, a partir do critério da autodeclaração."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A fim de atestar a veracidade da autodeclaração de que trata o caput deste artigo, serão instituídas comissões de heteroidentificação que atuarão preliminarmente à investidura dos candidatos em cargos efetivos."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Em caso de não preenchimento do percentual de que trata esta Lei para ingresso por meio de concurso público, as vagas remanescentes serão distribuídas aos demais candidatos."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "promulgacao_parcial"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 6,
+   "cobertura": 0.969,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

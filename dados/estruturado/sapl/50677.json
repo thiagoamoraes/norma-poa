@@ -1,0 +1,70 @@
+{
+ "idSapl": 50677,
+ "rotulo": "Lei municipal nº 14.376, de 27 de novembro de 2025",
+ "sha256Origem": "1dea36cfdb131c4cef4d8cba73fc6a078dc2027642d926b4f838e9fa40245895",
+ "estruturadoEm": "2026-11-22T15:51:58.848Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14376",
+  "ano": "2025",
+  "data": "2025-11-27",
+  "epigrafe": "LEI Nº 14.376, DE 27 DE NOVEMBRO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Arraiá da Redenção no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, no terceiro domingo do mês de junho.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de novembro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Arraiá da Redenção no Anexo II da Lei nº 10.903, de 31 de maio de 2010, no terceiro domingo do mês de junho, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nJUNHO\nPERÍODO             EVENTO                 DESCRIÇÃO E LOCAL DO EVENTO\nTerceiro    ARRAIÁ DA REDENÇÃO           O evento proporciona um ambiente de\ndomingo do                               convivência plural, onde a diversidade\nmês      de                              cultural se manifesta por meio da música,\njunho                                    dança, culinária e expressões artísticas,\ndespertando o senso de pertencimento e\nidentidade dos cidadãos porto-alegrenses\nLocal: Parque Farroupilha"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.96,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 9,
+     "caracteres": 497,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

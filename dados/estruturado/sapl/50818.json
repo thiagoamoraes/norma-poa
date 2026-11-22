@@ -1,0 +1,60 @@
+{
+ "idSapl": 50818,
+ "rotulo": "Lei municipal nº 14.438, de 29 de dezembro de 2025",
+ "sha256Origem": "588a6e14d977513051a041d5f13d240ba309d82446fd17368fb952cf92255607",
+ "estruturadoEm": "2026-11-22T15:51:58.699Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14438",
+  "ano": "2025",
+  "data": "2025-12-29",
+  "epigrafe": "PLE Nº 063/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.438, DE 29 DE DEZEMBRO DE 2025.",
+ "ementa": "Inclui o § 2º no art. 1º, os Anexos I e II e renumera o parágrafo único para § 1º no art. 1º da Lei nº 13.377, de 6 de março de 2023, excluindo da cessão de uso ao Município de Viamão os equipamentos públicos de lazer identificados  como     campos     de  futebol “Pinheirinho” e “Santa Helena”, que passam à gestão do Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 29 de dezembro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica renumerado o parágrafo único para § 1º e incluído o § 2º no art. 1º da Lei nº 13.377, de 6 de março de 2023, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º .....................................................................................................................\n§ 1º ...........................................................................................................................\n§ 2º Excluem-se da cessão de uso autorizada no § 1º as áreas destinadas aos\nequipamentos públicos de lazer identificados como os campos de futebol “Pinheirinho” e “Santa\nHelena”, descritos nos Anexos I e II desta Lei, os quais permanecerão sob a gestão, manutenção\ne conservação do Município de Porto Alegre.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam incluídos os Anexos I e II na Lei nº 13.377, de 2023, conforme os Anexos I e II desta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.977,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

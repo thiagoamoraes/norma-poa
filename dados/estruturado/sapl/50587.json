@@ -1,0 +1,107 @@
+{
+ "idSapl": 50587,
+ "rotulo": "Lei municipal nº 14.350, de 31 de outubro de 2025",
+ "sha256Origem": "93b8208b89f6f14981020f9a563bf07babefcb40588f1633c66e2cea06cc9c46",
+ "estruturadoEm": "2026-11-22T15:51:58.937Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14350",
+  "ano": "2025",
+  "data": "2025-10-31",
+  "epigrafe": "LEI Nº 14.350, DE 31 DE OUTUBRO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza o Departamento Municipal de Habitação (DEMHAB) a outorgar os direitos sobre contratos de compra e venda de imóveis de sua propriedade a possuidor diverso do contratante original ou seus sucessores, mediante chamamento público, para fins de regularização fundiária.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de outubro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEduardo Gomes Tedesco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o Departamento Municipal de Habitação (DEMHAB) autorizado a outorgar os direitos sobre contratos de compra e venda de imóveis de sua propriedade a possuidor diverso do contratante original ou seus sucessores, nos termos desta Lei."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "São requisitos para fins da outorga disposta no caput deste artigo:"
+  },
+  {
+   "id": "art-1/par-1/inc-I",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o imóvel de propriedade do DEMHAB objeto do contrato deverá possuir matrícula individualizada;"
+  },
+  {
+   "id": "art-1/par-1/inc-II",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o imóvel objeto do contrato deverá integrar área com Regularização Fundiária Urbana de Interesse Social (Reurb-S) instaurada;"
+  },
+  {
+   "id": "art-1/par-1/inc-III",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "não deverão constar dívidas contratuais referentes ao imóvel;"
+  },
+  {
+   "id": "art-1/par-1/inc-IV",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "deverá ser realizado prévio chamamento público aos contratantes do imóvel originais ou seus sucessores para eventual manifestação quanto à transferência dos direitos; e"
+  },
+  {
+   "id": "art-1/par-1/inc-V",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "o possuidor atual do imóvel deverá comprovar sua posse consolidada para fins de moradia de, no mínimo, 5 (cinco) anos."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Para fins deste artigo, deverá ser realizado chamamento público dos contratantes originais ou seus sucessores, de forma nominal e com ampla divulgação, para que, no prazo de 60 (sessenta) dias, apresentem objeção à transferência contratual, sob pena de concordância."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica o DEMHAB autorizado a outorgar certificado de quitação em nome de possuidor diverso do contratante original ou seus sucessores em relação a contratos de compra e venda de imóveis de sua propriedade já quitados, nos termos desta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 10,
+   "cobertura": 0.968,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

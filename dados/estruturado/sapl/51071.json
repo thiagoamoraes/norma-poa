@@ -1,0 +1,73 @@
+{
+ "idSapl": 51071,
+ "rotulo": "Lei municipal nº 14.494, de 27 de fevereiro de 2026",
+ "sha256Origem": "2526b5b671f1f69e828199c52a7c7608ae0fd119c3515fd0f433b6a0b7c4d916",
+ "estruturadoEm": "2026-11-22T15:51:58.537Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14494",
+  "ano": "2026",
+  "data": "2026-02-27",
+  "epigrafe": "PLL Nº 378/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.494, DE 27 DE FEVEREIRO DE 2026.",
+ "ementa": "Assegura o registro integral em áudio e vídeo das provas práticas realizadas em concursos públicos promovidos     pela     Administração     Pública Municipal Direta e Indireta.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de fevereiro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica assegurado o registro integral, em áudio e vídeo, das provas práticas realizadas nos concursos públicos promovidos pela Administração Pública Municipal Direta e Indireta, com o objetivo de garantir a autenticidade, a integridade e a fidedignidade da apresentação dos candidatos para fins de transparência e controle da avaliação."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A gravação da prova prática permanecerá sob a guarda da respectiva comissão do concurso pelo prazo necessário à interposição e ao julgamento de eventuais recursos administrativos."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Será garantido aos candidatos o acesso à respectiva gravação mediante requerimento formal e exclusivamente para fins de fundamentação de recurso."
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "O tratamento dos dados pessoais decorrentes da gravação observará os princípios e as disposições da Lei Federal nº 13.709, de 14 de agosto de 2018 – Lei Geral de Proteção de Dados Pessoais (LGPD) –, garantida a finalidade, a segurança e a confidencialidade das informações."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor em 120 (cento e vinte) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 5,
+   "cobertura": 0.981,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "idSapl": 50869,
+ "rotulo": "Lei municipal nº 14.478, de 13 de janeiro de 2026",
+ "sha256Origem": "80f94707b35bae9bd372368f4e822f93136cf777aa575b10e46d020b2c05f47f",
+ "estruturadoEm": "2026-11-22T15:51:58.585Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14478",
+  "ano": "2026",
+  "data": "2026-01-13",
+  "epigrafe": "PLL Nº 394/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.478, DE 13 DE JANEIRO DE 2026.",
+ "ementa": "Denomina      Esquina     Mario     Pirata  o entroncamento da Avenida José Bonifácio com a Rua Vieira de Castro, junto ao Brique da Redenção, localizado no Bairro Farroupilha.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de janeiro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Esquina Mario Pirata o entroncamento da Avenida José Bonifácio com a Rua Vieira de Castro, junto ao Brique da Redenção, localizado no Bairro Farroupilha."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

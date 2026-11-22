@@ -1,0 +1,95 @@
+{
+ "idSapl": 51190,
+ "rotulo": "Lei municipal nº 14.529, de 01 de abril de 2026",
+ "sha256Origem": "80e55aa096f4d257dfd112bbc6ee0047a34c297c08b5119f2b45f2463b00e30b",
+ "estruturadoEm": "2026-11-22T15:51:58.443Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14529",
+  "ano": "2026",
+  "data": "2026-04-01",
+  "epigrafe": "PLL Nº 535/21",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.529, DE 1º DE ABRIL DE 2026.",
+ "ementa": "Oficializa como locais de prática de skate os espaços que especifica e os reconhece como Patrimônio Cultural do Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 1º de abril de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam oficializados como locais de prática de skate os seguintes espaços no Município de Porto Alegre:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "Viaduto do Brooklyn, localizado na parte inferior do Viaduto Imperatriz Leopoldina, no Bairro Farroupilha;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "Praça Júlio Andreatta, localizada no Bairro São Geraldo;"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "Praça Zenaide, localizada no Bairro Petrópolis; e"
+  },
+  {
+   "id": "art-1/inc-IV",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "Praça Professor Jorge dos Santos Rosa, localizada no Bairro Parque dos Maias."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os espaços de que trata este artigo serão reconhecidos como Patrimônio Cultural do Município de Porto Alegre, devendo ser preservadas as estruturas instaladas para a prática do skate e ser priorizado o desenvolvimento de ações comunitárias culturais, esportivas e de lazer."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 8,
+   "cobertura": 0.957,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "idSapl": 50692,
+ "rotulo": "Lei municipal nº 14.384, de 28 de novembro de 2025",
+ "sha256Origem": "a8fc88f08551f261c2f19b17e9081ab35936a95f4a866dd50302f128a25336c2",
+ "estruturadoEm": "2026-11-22T15:51:58.834Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14384",
+  "ano": "2025",
+  "data": "2025-11-28",
+  "epigrafe": "LEI Nº 14.384, DE 28 DE NOVEMBRO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria 2 (dois) Cargos em Comissão para a Corregedoria-Geral do Município e Ouvidoria-Geral do Município.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de novembro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam criados 2 (dois) CC18 (CC.3.1.2.18), distribuídos no Grupo Especial (EP.3.1.2.18) no Anexo I da Lei Complementar nº 1.033, de 21 de janeiro de 2025, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os Cargos em Comissão (CCs) referidos no caput deste artigo ficam lotados, respectivamente, na Corregedoria-Geral do Município (CGMUNI) e na Ouvidoria-Geral do Município (OGM), unidades vinculadas à Secretaria Municipal de Transparência e Controladoria (SMTC)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“ANEXO I\nCARGOS EM COMISSÃO CRIADOS NO QUADRO DA ADMINISTRAÇÃO DIRETA\nI – Quadro de Cargos em Comissão (CC):\n....................................................................................................................................\nNível                    Denominação Geral                                 Código                          Quantidade\n18                               CC 18                               CC.3.1.2.18                                 74\n.........................................................................................................................” (NR)"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.945,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 7,
+     "caracteres": 597,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

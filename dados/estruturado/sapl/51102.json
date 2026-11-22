@@ -1,0 +1,53 @@
+{
+ "idSapl": 51102,
+ "rotulo": "Lei municipal nº 14.498, de 06 de março de 2026",
+ "sha256Origem": "563271bcab016dff3cacef9f63206a93ab606cb5e52cae1ad04c0bfc4d50bcf5",
+ "estruturadoEm": "2026-11-22T15:51:58.531Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14498",
+  "ano": "2026",
+  "data": "2026-03-06",
+  "epigrafe": "PLL Nº 221/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.498, DE 6 DE MARÇO DE 2026.",
+ "ementa": "Altera o caput e inclui §§ 1º e 2º no art. 7º da Lei nº 10.866, de 26 de março de 2010 – que dispõe sobre o desenvolvimento de política antibullying por instituições de ensino e de educação infantil públicas municipais ou privadas, com ou sem fins lucrativos –, criando o Selo de Combate ao Bullying e definindo seu prazo de utilização.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 6 de março de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "No art. 7º da Lei nº 10.866, de 26 de março de 2010, fica alterado o caput e ficam incluídos §§ 1º e 2º, conforme segue:",
+   "blocoDeAlteracao": "“Art. 7º Na regulamentação desta Lei, a Secretaria Municipal de Educação criará\no Selo de Combate ao Bullying, a ser conferido às instituições de ensino e de educação infantil\npúblicas municipais ou privadas que comprovadamente adotarem as práticas previstas nos arts.\n3º, 4º e 5º desta Lei.\n§ 1º A regulamentação da concessão do Selo previsto no caput deste artigo\ndar‑se‑á conjuntamente com a sociedade civil, a Comissão de Educação, Cultura, Esporte e\nJuventude da Câmara Municipal de Porto Alegre e especialistas no tema, ou entidades que atuem\nno combate ao bullying.\n§ 2º O Selo instituído no caput deste artigo poderá ser utilizado pelo período de 2\n(dois) anos, contados da data de sua concessão, em materiais e veículos de divulgação.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.985,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

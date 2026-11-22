@@ -1,0 +1,143 @@
+{
+ "idSapl": 50805,
+ "rotulo": "Lei municipal nº 14.435, de 29 de dezembro de 2025",
+ "sha256Origem": "3c021f58803055f5dd892305b2306321472e6a6e8f0703fe7250abb7a427e2d7",
+ "estruturadoEm": "2026-11-22T15:51:58.714Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14435",
+  "ano": "2025",
+  "data": "2025-12-29",
+  "epigrafe": "PLE Nº 66/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.435, DE 29 DE DEZEMBRO DE 2025.",
+ "ementa": "Cria e extingue Funções Gratificadas na letra “c” do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, que estabelece o plano de carreira dos funcionários da Administração Centralizada do Município.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 29 de dezembro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam criadas, na letra “c” do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, as seguintes Funções Gratificadas (FGs):"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "18 (dezoito) FGs de Gerente de Atividades IV – FG4 (1.1.1.4);"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "17 (dezessete) FGs de Chefe de Equipe – FG5 (1.1.1.5);"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "8 (oito) FGs de Chefe de Unidade – FG6 (1.1.1.6);"
+  },
+  {
+   "id": "art-1/inc-IV",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "5 (cinco) FGs de Coordenador – FG7 (1.1.1.7); e"
+  },
+  {
+   "id": "art-1/inc-V",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "7 (sete) FGs de Diretor-Geral – FG8 (1.1.1.8)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam extintas, na letra “c” do Anexo I da Lei nº 6.309, de 1988, as seguintes FGs:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "26 (vinte e seis) FGs de Responsável por Atividades II – FG2 (1.1.1.2);"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "2 (duas) FGs de Chefe de Unidade – FG6 (1.1.1.6);"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "12 (doze) FGs de Responsável por Atividades III – FG3 (1.1.1.3); e"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "56 (cinquenta e seis) FGs de Secretário de Escola – FG4 (2.1.1.4)."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A transição das FGs ocorrerá sem prejuízo das atividades essenciais, cabendo às Secretarias organizar o remanejamento interno necessário à continuidade dos serviços prestados."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As despesas decorrentes da aplicação desta Lei correrão à conta de dotações orçamentárias próprias do Executivo Municipal."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "As alterações decorrentes desta Lei serão regulamentadas por decreto, no que couber."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 15,
+   "cobertura": 0.96,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

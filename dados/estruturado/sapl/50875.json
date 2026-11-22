@@ -1,0 +1,66 @@
+{
+ "idSapl": 50875,
+ "rotulo": "Lei municipal nº 14.480, de 14 de janeiro de 2026",
+ "sha256Origem": "4a141a877d01f5fa8fb2b3bd0c476d16e456fa8b777d52033194a19ff3b6fb27",
+ "estruturadoEm": "2026-11-22T15:51:58.582Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14480",
+  "ano": "2026",
+  "data": "2026-01-14",
+  "epigrafe": "PLL Nº 693/23",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.480, DE 14 DE JANEIRO DE 2026.",
+ "ementa": "Institui homenagem à história da imigração italiana no Estado do Rio Grande do Sul, por meio da instalação de escultura alusiva, na Orla do Guaíba.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 14 de janeiro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída homenagem à história da imigração italiana no Estado do Rio Grande do Sul, por meio da instalação de escultura alusiva, na Orla do Guaíba."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O modo, o material e as especificações de elaboração da escultura, bem como o local exato de sua instalação, ficarão sob responsabilidade da Secretaria Municipal da Cultura."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As despesas decorrentes da aplicação desta Lei correrão à conta de programação incluída por meio da aprovação de emendas individuais do Legislativo Municipal ao Projeto de Lei Orçamentária Anual, na forma do art. 116-A da Lei Orgânica do Município de Porto Alegre."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.962,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

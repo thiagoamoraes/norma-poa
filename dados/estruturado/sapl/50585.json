@@ -1,0 +1,84 @@
+{
+ "idSapl": 50585,
+ "rotulo": "Lei municipal nº 14.348, de 30 de outubro de 2025",
+ "sha256Origem": "7ebbca68ef2cc06e44fee20b0b980977eb9ab0f6e14274d7d5c3d72f967a6b2b",
+ "estruturadoEm": "2026-11-22T15:51:58.941Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14348",
+  "ano": "2025",
+  "data": "2025-10-30",
+  "epigrafe": "LEI Nº 14.348, DE 30 DE OUTUBRO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Meia Maratona do Mercado Público no Anexo I da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, no domingo mais próximo ao dia 3 de outubro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de outubro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEduardo Gomes Tedesco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Meia Maratona do Mercado Público no Anexo I da Lei nº 10.903, de 31 de maio de 2010, no domingo mais próximo ao dia 3 de outubro, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A Meia Maratona do Mercado Público terá o percurso oficial de 21km (vinte e um quilômetros), com partida e chegada no Mercado Público Central de Porto Alegre."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Quaisquer alterações no trajeto deverão ser comunicadas previamente aos participantes pela organização do evento."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nEVENTOS ANUAIS SEM DATA FIXA\nPERÍODO               EVENTO            DESCRIÇÃO E LOCAL DO EVENTO\nEntre o final de   MEIA MARATONA DO Maratona idealizada para sensibilizar a\nsetembro e o       MERCADO PÚBLICO       população sobre o aniversário do Mercado\ninício        de                         Público, celebrado em 3 de outubro,\noutubro,      no                         servindo também como uma manifestação\ndomingo mais                             de apoio popular e de celebração de um\npróximo ao dia                           espaço que simboliza humanização e\n3 de outubro.                            solidariedade no Município.\nLocal: Mercado Público Central de Porto\nAlegre, com trajeto definido anualmente\npelos organizadores."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.96,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 12,
+     "caracteres": 725,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "idSapl": 50887,
+ "rotulo": "Lei municipal nº 14.485, de 19 de janeiro de 2026",
+ "sha256Origem": "38c31f3d5fd94d59cbf1988cafbf3ce6833363caab16a86414036ca2ff8f0989",
+ "estruturadoEm": "2026-11-22T15:51:58.559Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14485",
+  "ano": "2026",
+  "data": "2026-01-19",
+  "epigrafe": "PLL Nº 199/23",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.485, DE 19 DE JANEIRO DE 2026.",
+ "ementa": "Institui o Selo de Responsabilidade Social às empresas e demais instituições que aderirem ao Projeto de Orientação Profissional (POP) FGTAS Verde-Oliva no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 19 de janeiro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Selo de Responsabilidade Social às empresas e demais instituições que aderirem ao Projeto de Orientação Profissional (POP) FGTAS Verde-Oliva, por meio de parceria com a Fundação Gaúcha do Trabalho e Ação Social (FGTAS), no Município de Porto Alegre, com o objetivo de reinserir ao meio civil os militares licenciados ao término do serviço militar obrigatório."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para obtenção do Selo instituído por esta Lei, a interessada deverá realizar ao menos 1 (uma) das seguintes ações:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "contratação de militares licenciados ao término do serviço militar obrigatório;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "desenvolvimento ou apoio ao desenvolvimento de ações de capacitação de entidades sociais para atuação e qualificação de militares licenciados ao término do serviço militar obrigatório; ou"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "incremento de ações de capacitação e formação em metodologias aplicáveis à qualificação de militares licenciados ao término do serviço militar obrigatório."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Executivo Municipal regulamentará os procedimentos para concessão e monitoramento do Selo instituído por esta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O registro do Selo instituído por esta Lei será encaminhado por meio eletrônico, acompanhado de ofício e certificado, informando o ano em que foi estabelecida a parceria."
+  },
+  {
+   "id": "art-4/par-unico",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O modelo do selo e do certificado ficará a critério do Executivo Municipal."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Caberá ao Executivo Municipal verificar o preenchimento e a manutenção das condições necessárias à concessão do Selo."
+  },
+  {
+   "id": "art-5/par-1",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O posto de trabalho deverá manter-se ocupado pelo período de 6 (seis) meses, podendo a instituição substituir o contratado no prazo de 30 (trinta) dias, contados da data de sua demissão."
+  },
+  {
+   "id": "art-5/par-2",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A instituição que não atender ao disposto nesta Lei perderá o direito ao uso do selo e deverá retirá-lo de qualquer material de divulgação no prazo de 3 (três) meses, contados da data do Aviso de Recebimento comunicando a revogação da concessão."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 12,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

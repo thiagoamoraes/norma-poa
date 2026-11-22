@@ -1,0 +1,94 @@
+{
+ "idSapl": 51216,
+ "rotulo": "Lei municipal nº 14.505, de 12 de março de 2026",
+ "sha256Origem": "f6cbd6bd06a60ded3e2f1877e0824673ee46ab8be9a7dd65a42f8abb07cbb7ef",
+ "estruturadoEm": "2026-11-22T15:51:58.505Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14505",
+  "ano": "2026",
+  "data": "2026-03-12",
+  "epigrafe": "PROC. Nº 0102/25",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 012/25 SEI Nº 234.00004/2025-92 LEI Nº 14.505 DE 12 DE MARÇO DE 2026.",
+ "ementa": "Determina que o Executivo Municipal antecipe ou postergue o trabalho ao ar livre de servidores públicos municipais e trabalhadores terceirizados atuantes na Administração Pública Municipal em dias de calor extremo.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 14.505, de 12 de março de 2026, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 13 DE MARÇO DE 2026.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica determinado que o Executivo Municipal deverá antecipar ou postergar o trabalho ao ar livre de servidores públicos municipais e trabalhadores terceirizados atuantes na Administração Pública Municipal em dias de calor extremo, a fim de evitar sua exposição no período de temperatura extrema do dia, salvo justificativa que impeça a sua eficiência."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O disposto no caput deste artigo não se aplica aos servidores e trabalhadores terceirizados que atuam em serviços essenciais e em casos de flagrante necessidade."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Não haverá descontos salariais quando aplicada a disposição do caput deste artigo."
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "A Administração Pública Municipal deverá fornecer vestimentas compatíveis com o clima da estação, especialmente nos casos de temperaturas extremas, bem como exigir, nos contratos com empresas terceirizadas, seu fornecimento e sua utilização."
+  },
+  {
+   "id": "art-1/par-4",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "Com intuito de amenizar os impactos das altas temperaturas, o Município ou a empresa terceirizada deverá fornecer hidratação aos seus colaboradores, bem como pausas mais frequentes e proteção solar."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para os fins desta Lei, considera-se calor extremo o fenômeno climático que se caracteriza por temperaturas muito mais altas do que a média para um determinado local e uma determinada época do ano, bem como a situação que coloca em risco a saúde humana em decorrência da elevação da temperatura e do índice de radiação solar, observados os alertas da Defesa Civil."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Diretrizes específicas para a implementação, fiscalização e aplicação de penalidades desta Lei serão estabelecidas pelo Executivo Municipal por meio de decreto."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 8,
+   "cobertura": 0.979,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "idSapl": 50815,
+ "rotulo": "Lei municipal nº 14.434, de 29 de dezembro de 2025",
+ "sha256Origem": "472852de3cc02e8f43353d42d3c47e79750a32697a8dfa3020446cd0cf7b7103",
+ "estruturadoEm": "2026-11-22T15:51:58.706Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14434",
+  "ano": "2025",
+  "data": "2025-12-29",
+  "epigrafe": "PLL Nº 90/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.434, DE 29 DE DEZEMBRO DE 2025.",
+ "ementa": "Estabelece preferência de vagas para irmãos e irmãos socioafetivos em escolas da rede pública municipal de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 29 de dezembro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecida a preferência de vagas para irmãos e irmãos socioafetivos no mesmo estabelecimento de ensino em todas as escolas da rede pública municipal de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para efeitos desta Lei, considera-se irmão aquele que possui relação de parentesco consanguíneo ou por adoção comprovada."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Para fins de preferência das vagas de que trata esta Lei, a comprovação de vínculo entre irmãos deverá ser realizada mediante apresentação de documentos que atestem a relação de parentesco, tais como certidão de nascimento ou documento equivalente."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 6,
+   "cobertura": 0.952,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

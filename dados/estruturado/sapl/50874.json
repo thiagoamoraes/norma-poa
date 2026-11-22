@@ -1,0 +1,52 @@
+{
+ "idSapl": 50874,
+ "rotulo": "Lei municipal nº 14.479, de 14 de janeiro de 2026",
+ "sha256Origem": "83a0a2b84eda8fda2f48f13390e1aba050c8f9a6dc006c38fc6855128e3b960b",
+ "estruturadoEm": "2026-11-22T15:51:58.584Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14479",
+  "ano": "2026",
+  "data": "2026-01-14",
+  "epigrafe": "PLL Nº 410/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.479, DE 14 DE JANEIRO DE 2026.",
+ "ementa": "Declara de utilidade pública a Escola Superior dos Oficiais da Brigada Militar e do Corpo de Bombeiros Militar – ESBM.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 14 de janeiro de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica declarada de utilidade pública a Escola Superior dos Oficiais da Brigada Militar e do Corpo de Bombeiros Militar – ESBM, com base na Lei nº 2.926, de 12 de julho de 1966."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.968,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

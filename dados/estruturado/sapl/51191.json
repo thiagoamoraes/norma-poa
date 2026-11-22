@@ -1,0 +1,101 @@
+{
+ "idSapl": 51191,
+ "rotulo": "Lei municipal nº 14.530, de 01 de abril de 2026",
+ "sha256Origem": "095b87a3cf5cddc7e3c866bb972526420936eac3b8fc059b68a1f87faebd7e6d",
+ "estruturadoEm": "2026-11-22T15:51:58.441Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14530",
+  "ano": "2026",
+  "data": "2026-04-01",
+  "epigrafe": "PLL Nº 237/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.530, DE 1º DE ABRIL DE 2026.",
+ "ementa": "Estabelece proibições a condenados pelos crimes de feminicídio, estupro ou organização criminosa, após o trânsito em julgado de suas decisões judiciais condenatórias.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 1º de abril de 2026.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam estabelecidas as seguintes proibições a condenados pelos crimes de feminicídio, estupro ou organização criminosa, após o trânsito em julgado de suas decisões judiciais condenatórias:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "assumir cargo público no Município;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "participar de programas sociais e de incentivos da Prefeitura de Porto Alegre; e"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "receber homenagens, honrarias, prêmios ou nomeações públicas municipais."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A Administração Pública Municipal poderá criar convênio com o órgão federal e estadual competente pela administração do banco de dados para consultas."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Qualquer cidadão poderá denunciar o descumprimento desta Lei, devendo o condenado perder o cargo, a homenagem ou a participação em programa."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As proibições estabelecidas no art. 1º desta Lei vigorarão pelo prazo de 5 (cinco) anos, a contar da data de cumprimento ou extinção da pena do condenado."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 9,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}
