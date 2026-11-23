@@ -1,0 +1,787 @@
+{
+ "idSapl": 49765,
+ "rotulo": "Lei municipal nº 14.190, de 23 de janeiro de 2025",
+ "sha256Origem": "4a7c530bab1b485d24101dd69beae4aecfeef96f306374b1b7db3fc26cfb30a2",
+ "estruturadoEm": "2026-11-23T09:26:29.592Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14190",
+  "ano": "2025",
+  "data": "2025-01-23",
+  "epigrafe": "PROC. Nº 0067/24",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "cabecalhoTexto": "PLL   Nº 038/24 LEI Nº 14.190, DE 23 DE JANEIRO DE 2025.",
+ "ementa": "Institui a Política Municipal de Atenção Integral a Crianças e Adolescentes em Situação de Rua e na Rua. A PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 14.190, de 23 de janeiro de 2025, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 23 DE JANEIRO DE 2025.\nDocumento assinado eletronicamente por Nadia Rodrigues Silveira Gerhard, Presidente, em 04/02/2025, às\n16:51, conforme horário oficial de Brasília, com fundamento no Art. 10, § 2º da Medida Provisória nº 2200-2/2001 e\nnas Resoluções de Mesa nºs 491/15, 495/15 e 504/15 da Câmara Municipal de Porto Alegre.\nLei (CMPA) 0845367         SEI 299.00177/2023-94 / pg. 5\nDocumento assinado eletronicamente por Tiago Jose Albrecht, Vereador, em 06/02/2025, às 12:16, conforme\nhorário oficial de Brasília, com fundamento no Art. 10, § 2º da Medida Provisória nº 2200-2/2001 e nas Resoluções\nde Mesa nºs 491/15, 495/15 e 504/15 da Câmara Municipal de Porto Alegre.\nA autenticidade deste documento pode ser conferida no site https://sei.camarapoa.rs.gov.br, informando o código\nverificador 0845367 e o código CRC 93EC6C5D.\nReferência: Processo nº 299.00177/2023-94                                                                          SEI nº 0845367\nLei (CMPA) 0845367     SEI 299.00177/2023-94 / pg. 6",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída a Política Municipal de Atenção Integral a Crianças e Adolescentes em Situação de Rua e na Rua, com seus princípios, suas diretrizes e seus objetivos estabelecidos nesta Lei, em consonância com a Constituição Federal, o Estatuto da Criança e do Adolescente e outras legislações pertinentes."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para os fins desta Lei, considera-se crianças e adolescentes em situação de rua e na rua aqueles indivíduos com menos de 18 (dezoito) anos de idade, que estão em processo de desenvolvimento, com seus direitos sendo desrespeitados, que se encontram em uma condição de vulnerabilidade ou risco pessoal e social devido ao rompimento ou fragilidade dos laços familiares e comunitários, que vivem em situação de pobreza ou extrema pobreza, têm dificuldade em acessar ou se manter nas políticas públicas e que se destacam pela sua diversidade."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para os fins desta Lei, reconhece-se como crianças e adolescentes em situação de rua o grupo populacional heterogêneo que utiliza logradouros públicos ou áreas degradadas como espaço de moradia de forma permanente ou intermitente, sozinhas ou junto de seus familiares ou responsáveis."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Para os fins desta Lei, reconhece-se como crianças e adolescentes na rua o grupo populacional heterogêneo que utiliza logradouros públicos e áreas degradadas como espaço de sobrevivência e trabalho de forma permanente ou intermitente."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "São princípios da Política instituída por esta Lei:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a compreensão da criança e do adolescente em situação de rua e na rua como sujeitos de direitos, reconhecendo seu contexto social e familiar, suas trajetórias de vida, suas demandas e interesses como dimensões interdependentes e buscando uma atuação intersetorial na garantia da proteção integral;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a promoção dos direitos das crianças e dos adolescentes em situação de rua e na rua mediante atendimento humanizado integral e proteção contra todas as formas de violência;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "o reconhecimento da rua como espaço de violação de direitos e de extremo risco, que exige atuação integrada do Poder Público;"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "o respeito às particularidades e variações individuais, abrangendo todas as fases da vida, origem étnica, raça, identidade de gênero, orientação sexual, identidade territorial, nacionalidade, afiliação política, crença religiosa, presença de deficiências e diversos outros aspectos, com o propósito de fortalecer a própria identidade e os laços de pertencimento sociocultural;"
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "o reconhecimento de que crianças e adolescentes em situação de rua e na rua estão mais sujeitos a serem vítimas da prática de trabalho infantil, sendo elas:"
+  },
+  {
+   "id": "art-3/inc-V/ali-a",
+   "pai": "art-3/inc-V",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "qualquer tipo de escravização ou atividades análogas à escravidão, tais como a comercialização e tráfico de crianças e adolescentes, submissão por motivo de dívida, servidão, trabalho forçado ou compulsório, incluindo o recrutamento forçado ou compulsório de crianças e adolescentes para participação em conflitos armados;"
+  },
+  {
+   "id": "art-3/inc-V/ali-b",
+   "pai": "art-3/inc-V",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "utilização, demanda e oferta de crianças e adolescentes para fins de prostituição, produção de pornografia ou atuações pornográficas;"
+  },
+  {
+   "id": "art-3/inc-V/ali-c",
+   "pai": "art-3/inc-V",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "utilização, recrutamento e oferta de crianças e adolescentes para atividades ilícitas, particularmente para a produção e tráfico de entorpecentes conforme definidos nos tratados internacionais pertinentes; e"
+  },
+  {
+   "id": "art-3/inc-V/ali-d",
+   "pai": "art-3/inc-V",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "texto": "trabalhos que, por sua natureza ou pelas circunstâncias em que são executados, são suscetíveis de prejudicar a saúde, a segurança e a moral de crianças e adolescentes;"
+  },
+  {
+   "id": "art-3/inc-VI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "o reconhecimento do direito à sexualidade segura, ao planejamento reprodutivo e à proteção da Lei (CMPA) 0845367         SEI 299.00177/2023-94 / pg. 1 dignidade sexual;"
+  },
+  {
+   "id": "art-3/inc-VII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "o reconhecimento dos direitos, do livre-arbítrio e da autonomia de gestantes em situação de rua;"
+  },
+  {
+   "id": "art-3/inc-VIII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "a promoção do direito à convivência familiar e comunitária de crianças e adolescentes em situação de rua e na rua, bem como proteção integral da família em situação de vulnerabilidade social; e"
+  },
+  {
+   "id": "art-3/inc-IX",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "a corresponsabilidade entre Estado, iniciativa privada e sociedade civil na proteção integral a crianças e adolescentes, especialmente em espaços de acesso público administrados por organizações privadas."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "São diretrizes da Política instituída por esta Lei:"
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "priorizar o atendimento de crianças e adolescentes em situação de rua e na rua nas políticas, assegurando acesso e permanência em programas, planos, projetos e serviços municipais;"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "promover a execução ampla de políticas públicas que sejam interdisciplinares e interligadas, com ações em nível territorial e que atravessem várias áreas, com o objetivo de lidar com situações de vulnerabilidade pessoal e social;"
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "integrar colaborações junto a outros entes federativos, sistema de proteção de direitos, organizações da sociedade civil e instituições acadêmicas e de pesquisa, a fim de desenvolver, implementar, monitorar e avaliar políticas públicas;"
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "reconhecer as particularidades de cada território, levando em conta as capacidades e os ativos locais ao formular, implementar, supervisionar e avaliar as políticas públicas;"
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "promover o enfrentamento do preconceito e da discriminação por meio de campanhas, ações educativas e outras estratégias que favoreçam oportunidades efetivas de inclusão cidadã, familiar e de acolhimento humanizado;"
+  },
+  {
+   "id": "art-4/inc-VI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "consolidar ações de educação permanente dos agentes públicos para ampliar o acesso a direitos e serviços e qualificar o atendimento a crianças e adolescentes em situação de rua e na rua;"
+  },
+  {
+   "id": "art-4/inc-VII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "possibilitar a participação da sociedade na fiscalização dos direitos de crianças e adolescentes em situação de rua e na rua, estimulando a comunicação e a colaboração com as organizações de participação social e os processos de escuta das crianças e dos adolescentes;"
+  },
+  {
+   "id": "art-4/inc-VIII",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "consolidar procedimentos de direcionamento e acompanhamento da rede de proteção completa; e"
+  },
+  {
+   "id": "art-4/inc-IX",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "considerar os princípios, as diretrizes, os objetivos e as ações da Política instituída por esta Lei na elaboração dos instrumentos municipais de planejamento e de orçamento."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "São objetivos da Política instituída por esta Lei:"
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "promover, em todas as suas dimensões, os direitos de crianças e adolescentes em situação de rua e na rua;"
+  },
+  {
+   "id": "art-5/inc-II",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "garantir a proteção e a promoção dos direitos das famílias de crianças e adolescentes em situação de rua e na rua;"
+  },
+  {
+   "id": "art-5/inc-III",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "enfrentar o trabalho infantil, considerando a pluralidade das demandas das famílias das crianças e dos adolescentes envolvidos;"
+  },
+  {
+   "id": "art-5/inc-IV",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "qualificar permanentemente os agentes públicos e orientar os serviços para o desenvolvimento de metodologias de educação social de rua e outras abordagens de atendimento;"
+  },
+  {
+   "id": "art-5/inc-V",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "viabilizar a gestão da informação voltada para a integração intersetorial das informações produzidas nos atendimentos e para a produção de indicadores e metas que possibilitem seu monitoramento e sua avaliação;"
+  },
+  {
+   "id": "art-5/inc-VI",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "produzir conhecimento e incentivar a realização de diálogos e pesquisas sobre a temática de crianças e adolescentes em situação de rua e na rua; e"
+  },
+  {
+   "id": "art-5/inc-VII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "promover ações para prevenção do uso de álcool e de outras drogas, bem como fortalecer estratégias de cuidado junto a crianças e adolescentes que façam uso dessas substâncias."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Para a consecução dos objetivos desta Lei, o Poder Público promoverá políticas setoriais e intersetoriais, de forma transversal e articulada com os demais entes federativos, sistema de garantia de direitos, sociedade civil e instituições de ensino e pesquisa, ofertando serviços diversos, complementares e direcionados para as especificidades e necessidades de crianças e adolescentes em situação de rua e na rua."
+  },
+  {
+   "id": "art-6/par-1",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O Poder Público poderá rever, expandir e criar serviços, programas e projetos para reforçar a proteção social e assegurar direitos a crianças e adolescentes em situação de rua e na rua, respeitando os ritos e os regulamentos específicos de cada política pública, os resultados e os territórios identificados na pesquisa censitária sobre essa população, bem como outros estudos e diagnósticos."
+  },
+  {
+   "id": "art-6/par-2",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Para os fins do caput deste artigo, deverão ser realizadas ações conjuntas para criação de instrumentos e ferramentas que facilitem a comunicação intersecretarial e o compartilhamento de informações sobre o atendimento de cada criança e adolescente em situação de rua e na rua, por meio de:"
+  },
+  {
+   "id": "art-6/par-2/inc-I",
+   "pai": "art-6/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "protocolos integrados de identificação, de atendimento e de encaminhamento;"
+  },
+  {
+   "id": "art-6/par-2/inc-II",
+   "pai": "art-6/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "ofertas de capacitação; e"
+  },
+  {
+   "id": "art-6/par-2/inc-III",
+   "pai": "art-6/par-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "estratégias de acompanhamento especializado, individualizado e específico."
+  },
+  {
+   "id": "art-6/par-3",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Os protocolos integrados deverão:"
+  },
+  {
+   "id": "art-6/par-3/inc-I",
+   "pai": "art-6/par-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "garantir o compartilhamento de informações entre os órgãos municipais competentes; e"
+  },
+  {
+   "id": "art-6/par-3/inc-II",
+   "pai": "art-6/par-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "contemplar a comunicação ao Conselho Tutelar e ao Ministério Público nas hipóteses de trabalho infantil, exploração sexual e outras violações de direitos."
+  },
+  {
+   "id": "art-6/par-4",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "Serão desenvolvidas ações preventivas à situação de rua de crianças e adolescentes a partir de iniciativas intersetoriais que promovam a proteção social a famílias em situação de risco e vulnerabilidade social devido à insuficiência de renda, insegurança alimentar e nutricional, situações de violência intrafamiliar, Lei (CMPA) 0845367         SEI 299.00177/2023-94 / pg. 2 vulnerabilidades territoriais, condições de saúde e de segurança, entre outras."
+  },
+  {
+   "id": "art-6/par-5",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "texto": "O Poder Público produzirá anualmente, por meio de estrutura que assegure transparência e controle social, relatório de execução orçamentária dos recursos destinados a projetos e programas das diferentes políticas públicas voltadas para crianças e adolescentes em situação de rua e na rua."
+  },
+  {
+   "id": "art-6/par-6",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 6º",
+   "texto": "O Poder Público viabilizará o acesso de famílias de crianças e adolescentes em situação de rua e na rua a programas de transferência de renda e outros benefícios, garantindo sua orientação e acompanhamento, a fim de promover a segurança de sobrevivência por meio da renda e da autonomia."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Fica assegurado a crianças e adolescentes em situação de rua e na rua o direito à convivência familiar e comunitária, cabendo ao Poder Público ofertar serviços, programas, projetos e benefícios com vistas à proteção integral da família em situação de vulnerabilidade e risco social, considerando sempre os melhores interesses da criança e do adolescente em condição de liberdade e dignidade."
+  },
+  {
+   "id": "art-7/par-1",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "As crianças e os adolescentes em situação de rua e na rua, incluindo as em situação de trabalho infantil, constituem público prioritário para os serviços de convivência e fortalecimentos de vínculos familiares e comunitários."
+  },
+  {
+   "id": "art-7/par-2",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Os serviços de assistência social devem buscar a garantia dos direitos de crianças e adolescentes em situação de rua e na rua, promovendo reflexões sobre a situação de risco atual junto à família, construindo estratégias para sua superação e intervindo em situações de trabalho infantil e demais violações de direito, com os encaminhamentos necessários."
+  },
+  {
+   "id": "art-7/par-3",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Os serviços de assistência social devem orientar, apoiar e acompanhar o acesso prioritário de famílias de crianças e adolescentes em situação de rua e na rua aos programas de transferência de renda e outros benefícios, a fim de promover a segurança de sobrevivência por meio da renda e da autonomia."
+  },
+  {
+   "id": "art-7/par-4",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "A abordagem dos serviços de assistência social deverá propor os encaminhamentos emergenciais necessários e enfatizar os serviços de acolhimento para famílias como alternativa para maior proteção social."
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "O atendimento social deverá ser realizado de maneira personalizada e específica, objetivando a construção de um projeto de vida, junto à criança ou ao adolescente em situação de rua e na rua, que oportunize a saída da situação de rua e viabilize o exercício de seus direitos, respeitando suas singularidades e histórias de vida e compreendendo:"
+  },
+  {
+   "id": "art-8/inc-I",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o estabelecimento progressivo de relações de confiança por meio da combinação de brincadeiras e métodos educacionais;"
+  },
+  {
+   "id": "art-8/inc-II",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a escuta qualificada e sensível combinada com uma postura de empatia e apoio, que estimula a reflexão sobre a atual situação de perigo e a busca por maneiras de superá-la;"
+  },
+  {
+   "id": "art-8/inc-III",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "o exame das situações e das sugestões de direcionamento em colaboração com a equipe e os colaboradores da rede de políticas públicas, visando assegurar o cuidado integral de crianças e adolescentes;"
+  },
+  {
+   "id": "art-8/inc-IV",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "o acompanhamento individualizado, com a alocação apropriada de pessoal especializado, com o objetivo de facilitar a entrada e a permanência nos serviços, programas e projetos a que as crianças e adolescentes em situação de rua e suas famílias estão associados; e"
+  },
+  {
+   "id": "art-8/inc-V",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "a garantia do protagonismo da criança e do adolescente na construção do plano de atendimento."
+  },
+  {
+   "id": "art-8/par-1",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A abordagem social a crianças e adolescentes será executada de forma constante, envolvendo uma equipe multidisciplinar altamente qualificada e direcionada, iniciando com a avaliação da área geográfica e a procura ativa."
+  },
+  {
+   "id": "art-8/par-2",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A abordagem social a crianças e adolescentes desacompanhados ocorrerá de maneira integrada à rede socioassistencial e às demais políticas públicas, promovendo a atenção e proteção integrais, articulando-se particularmente com os serviços especializados de atendimento a esta população."
+  },
+  {
+   "id": "art-8/par-3",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "O Poder Público deverá fornecer serviços completos, em instalações bem equipadas, que assegurem a crianças e adolescentes em situação de rua e na rua o acesso a alimentação, higiene pessoal, espaços para socialização, juntamente com atendimento qualificado, acompanhamento individual e em grupo, atividades de caráter educativo, apoio às famílias, análise das necessidades, sugestões de direcionamento e coordenação para facilitar o retorno para casa, atuando de forma coordenada com os serviços de abordagem, acolhimento e outras políticas sociais."
+  },
+  {
+   "id": "art-8/par-4",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "Aplica-se o disposto nos incisos I a V do caput deste artigo ao atendimento a crianças e adolescentes em situação de rua e na rua acompanhados pelos serviços de proteção social a vítimas de violência."
+  },
+  {
+   "id": "art-8/par-5",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "texto": "Os adolescentes em situação de rua e na rua nos termos previstos nos incisos I a V do caput deste artigo que se encontram em cumprimento de medidas socioeducativas serão monitorados pelas equipes especializadas da rede de assistência social."
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "texto": "Cabe ao Poder Público garantir a educação continuada de profissionais dos serviços e dos equipamentos socioassistenciais que atendam crianças e adolescentes em situação de rua e na rua."
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "texto": "Serão desenvolvidas estratégias e ações de enfrentamento ao trabalho infantil em espaços de acesso público administrados por organizações privadas. Lei (CMPA) 0845367       SEI 299.00177/2023-94 / pg. 3"
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "texto": "A política de direitos humanos e cidadania irá coordenar, de forma abrangente e interdisciplinar, a execução de políticas, programas, serviços e iniciativas que visem garantir os direitos de crianças e adolescentes em situação de rua e na rua, bem como suas famílias, em apoio à rede de proteção social estabelecida por esta Lei."
+  },
+  {
+   "id": "art-11/par-1",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "As ações de articulação garantirão a formação de agentes públicos sobre o tema, suas singularidades e especificidades, seus direitos e a rede de atendimento municipal."
+  },
+  {
+   "id": "art-11/par-2",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "As ações de articulação contarão com campanhas educativas e preventivas para a divulgação dos direitos das crianças e dos adolescentes."
+  },
+  {
+   "id": "art-11/par-3",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "As políticas municipais de direitos humanos deverão atingir de forma abrangente, em suas atividades e estratégias, questões relacionadas à diversidade, tais como raça, etnia, identidade de gênero, orientação sexual, consumo de substâncias, crença religiosa, origem, estágios de vida, desaparecimento e ensino sobre direitos humanos."
+  },
+  {
+   "id": "art-11/par-4",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "Os Conselhos Tutelares de Porto Alegre desenvolverão ações de fortalecimento da rede de proteção e defesa dos direitos das crianças e dos adolescentes em situação de rua e na rua."
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "texto": "O Poder Público dará preferência, nas políticas de habitação, à inclusão de famílias com crianças e adolescentes em situação de rua, fornecendo soluções de moradia de longo prazo e levando em consideração as particularidades de cada família, seu nível de independência e organização."
+  },
+  {
+   "id": "art-12/par-unico",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O atendimento habitacional a famílias com crianças e adolescentes em situação de rua deverá ser articulado com outras políticas setoriais, especialmente com ações de geração de renda, saúde, educação, direitos humanos e assistência e desenvolvimento social."
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "texto": "Será incentivada a atuação dos profissionais de saúde, com base na Política Nacional de Práticas Integrativas e Complementares no Sistema Único de Saúde (SUS), como forma de favorecer a visão ampliada do processo saúde-doença e da promoção integral da saúde."
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "texto": "A política municipal de saúde deverá possibilitar a implementação de iniciativas e programas para lidar com questões de saúde enfrentadas por gestantes, crianças e adolescentes em situação de rua, juntamente com suas famílias, abordando problemas de saúde, transtornos mentais, deficiências, situações de risco, vulnerabilidade, violência e o uso de substâncias como álcool e drogas."
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "texto": "As equipes das Unidades Básicas de Saúde deverão elaborar estratégias colaborativas com os serviços de assistência social para supervisionar o bem-estar de saúde de crianças e adolescentes em situação de rua e na rua, juntamente com suas famílias."
+  },
+  {
+   "id": "art-15/par-unico",
+   "pai": "art-15",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O planejamento das ações conjuntas previstas no caput deste artigo considerará o compartilhamento de informações com outros órgãos quando pertinente, sobretudo em casos de trabalho infantil, exploração sexual e outras violações de direito."
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "texto": "A política de saúde municipal implementará medidas para assegurar que as gestantes em situação de rua e na rua recebam cuidados humanizados ao longo de todas as fases da gestação, pré-natal, parto e período pósparto, e ao planejar sua saúde reprodutiva após o parto."
+  },
+  {
+   "id": "art-16/par-unico",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Em caso de situações de risco à gestante ou ao bebê durante qualquer etapa da gestação, no pré-natal, no parto ou no puerpério, deverão ser acionados os órgãos responsáveis para garantir a atenção à gestante e à sua rede de apoio."
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "texto": "Serão realizadas medidas de prevenção da gravidez na adolescência e de infecções sexualmente transmissíveis (ISTs), com foco nos direitos sexuais e reprodutivos."
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "texto": "Serão desenvolvidas abordagens para garantir que crianças e adolescentes em situação de rua tenham acesso a cuidados odontológicos preventivos, restauradores e de emergência."
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "texto": "A política de saúde deverá acompanhar indicadores de cuidados de saúde e promover fóruns de diálogo com outras políticas públicas para, periodicamente, analisar e debater estratégias de combate à situação de rua."
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "texto": "As equipes de atenção básica ou consultório na rua deverão articular as práticas de enfrentamento aos casos de violência, que deverão ser compartilhados com as equipes multidisciplinares encarregadas de colaborar com os órgãos públicos que fazem parte da rede de proteção."
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "texto": "A criança e o adolescente em situação de rua e na rua têm direito à educação, com o objetivo de garantir seu desenvolvimento integral, prepará-los para serem cidadãos ativos e capacitá-los para o mercado de trabalho, sendo-lhes assegurado:"
+  },
+  {
+   "id": "art-21/inc-I",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "acesso, permanência e aprendizagem na educação básica (regular ou na modalidade Educação de Jovens e Adultos – EJA) por meio de adoção de procedimentos administrativos específicos que contemplem as especificidades deste público;"
+  },
+  {
+   "id": "art-21/inc-II",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "abordagens pedagógicas que promovam desenvolvimento intelectual, físico, social, emocional e cultural; e"
+  },
+  {
+   "id": "art-21/inc-III",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "acesso ao atendimento  educacional Lei (CMPA) 0845367 especializado na perspectiva SEI 299.00177/2023-94     da4educação especial inclusiva e do / pg. desenho universal."
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "texto": "A política de educação deve elaborar táticas para conscientizar a comunidade escolar a respeito de crianças e adolescentes em situação de rua e na rua no Município, destacando os prejuízos decorrentes do trabalho infantil e de outras formas de violência."
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "texto": "Em nenhum caso a instituição de ensino poderá negar a matrícula devido à ausência de documentos ou à falta de comprovação de endereço de residência."
+  },
+  {
+   "id": "art-23/par-1",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Na ausência de documentação referida no caput deste artigo, os responsáveis serão orientados sobre a obtenção e entrega posterior à unidade educacional."
+  },
+  {
+   "id": "art-23/par-2",
+   "pai": "art-23",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Caso solicitada a transferência de unidade educacional pelos responsáveis durante o ano letivo, caberá ao órgão competente priorizar e garantir a continuidade de atendimento."
+  },
+  {
+   "id": "art-24",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 24.",
+   "texto": "A política de educação promoverá, por meio do apoio e da supervisão de equipes formadas por profissionais multidisciplinares, métodos, recursos e práticas pedagógicas que possibilitem a permanência, o desenvolvimento e a aprendizagem de crianças e adolescentes em situação de rua e na rua que enfrentem obstáculos consideráveis em seu progresso educacional."
+  },
+  {
+   "id": "art-24/par-unico",
+   "pai": "art-24",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para atender o disposto no caput deste artigo, a política de educação articulará ações de busca ativa e de atendimento intersetorial para a prevenção e o enfrentamento da evasão e exclusão escolar de crianças e adolescentes em situação de rua e na rua."
+  },
+  {
+   "id": "art-25",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 25.",
+   "texto": "O Poder Público deverá promover e ampliar o acesso de crianças e adolescentes em situação de rua e na rua e seus familiares a atividades culturais, desportivas e de lazer, por meio de:"
+  },
+  {
+   "id": "art-25/inc-I",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "disponibilização de atividades culturais e educacionais organizadas pela política de cultura municipal, realizadas em locais culturais e em áreas com maior presença de crianças e adolescentes em situação de rua e na rua, bem como em suas comunidades de origem, com objetivo principal de promover a manutenção ou o reforço dos laços familiares e comunitários;"
+  },
+  {
+   "id": "art-25/inc-II",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "disponibilização de atividades de esporte e lazer promovidas pela política de esporte e lazer em territórios de maior concentração de crianças e adolescentes em situação de rua e na rua e nos seus territórios de origem;"
+  },
+  {
+   "id": "art-25/inc-III",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "sensibilização de profissionais de esporte e lazer para realização de ações voltadas para crianças e adolescentes em situação de rua e na rua em parceria com a rede de serviços públicos; e"
+  },
+  {
+   "id": "art-25/inc-IV",
+   "pai": "art-25",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "estabelecimento de parcerias com outros órgãos e entes federativos visando à disponibilização de ingressos gratuitos a eventos culturais, desportivos e de lazer realizados na cidade."
+  },
+  {
+   "id": "art-26",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 26.",
+   "texto": "O Poder Público promoverá políticas de geração de renda e empregabilidade para famílias de crianças, adolescentes e jovens em situação de rua e na rua."
+  },
+  {
+   "id": "art-26/par-1",
+   "pai": "art-26",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Serão ofertados, por meio de projetos intersecretariais, cursos de qualificação profissional e geração de renda para famílias de crianças e adolescentes em situação de rua e na rua."
+  },
+  {
+   "id": "art-26/par-2",
+   "pai": "art-26",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Serão ofertados, por meio de projetos intersecretariais, cursos de qualificação profissional e geração de renda para adolescentes a partir de 16 (dezesseis) anos em situação de rua e na rua."
+  },
+  {
+   "id": "art-26/par-3",
+   "pai": "art-26",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Será promovido, aos adolescentes a partir dos 14 (quatorze) anos de idade envolvidos em trabalho infantil, o acesso a programas de aprendizagem que estejam conectados a iniciativas de incentivo à escolarização, à prevenção da defasagem idade-série e ao acompanhamento do progresso e da aprendizagem, com o objetivo de reforçar sua permanência na escola."
+  },
+  {
+   "id": "art-26/par-4",
+   "pai": "art-26",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "Serão empreendidas iniciativas, em colaboração com empresas privadas, com o propósito de aumentar o acesso, a continuidade e a retenção de adolescentes nos programas de aprendizagem."
+  },
+  {
+   "id": "art-27",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 27.",
+   "texto": "As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias, suplementadas se necessário, observado o art. 6º desta Lei."
+  },
+  {
+   "id": "art-27/par-unico",
+   "pai": "art-27",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para a consecução dos objetivos desta Lei, poderão ser recebidas verbas de outros entes federados."
+  },
+  {
+   "id": "art-28",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 28.",
+   "texto": "O Poder Executivo regulamentará esta Lei em até 90 (noventa) dias, contados da data de sua publicação."
+  },
+  {
+   "id": "art-29",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 29.",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 29,
+   "dispositivos": 107,
+   "cobertura": 0.982,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

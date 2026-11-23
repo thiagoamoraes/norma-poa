@@ -1,0 +1,115 @@
+{
+ "idSapl": 49752,
+ "rotulo": "Lei municipal nº 14.192, de 31 de janeiro de 2025",
+ "sha256Origem": "7e6ddd974b4fd95d93631bf87864cdec2ee3ee2b1d4d6903cac4af4ffd87f23a",
+ "estruturadoEm": "2026-11-23T09:26:29.579Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14192",
+  "ano": "2025",
+  "data": "2025-01-31",
+  "epigrafe": "PLE Nº 1/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.192, DE 31 DE JANEIRO DE 2025.",
+ "ementa": "Cria Verba de Representação aos Titulares dos Cargos em Comissão e Funções Gratificadas que menciona e revoga a Lei nº 11.404, de 27 de dezembro de 2012.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de janeiro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída a verba de representação para os ocupantes dos Cargos em Comissão e Funções Gratificadas de Direção, Chefia e Assessoramento alocados em projetos estratégicos, conforme regramento previsto nesta Lei."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Os projetos estratégicos e possíveis casos de concessão automática das verbas de representação criadas deverão ser regulamentados por Decreto."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Os valores das verbas de representação de que trata esta Lei serão reajustados nas mesmas datas e pelos mesmos índices aplicáveis aos vencimentos dos servidores municipais."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A verba de representação será concedida aos titulares dos Cargos em Comissão ou aos servidores efetivos das Funções Gratificadas que seguem, lotados em órgãos ou entidades da Administração Direta ou da Administração Indireta do Executivo Municipal, por portaria, nas seguintes quantidades e valores:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "até 22 (vinte e duas) verbas de representação, no valor de R$ 3.000,00 (três mil reais), em designações para as funções gratificadas de nível 8 e nomeações para cargos em comissão de nível 18 de alta complexidade ou especialistas;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "até 38 (trinta e oito) verbas de representação, no valor de R$ 2.000,00 (dois mil reais), em designações para as funções gratificadas dos níveis 7 e 8 e nomeações para cargos em comissão dos níveis 17 e 18;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "até 49 (quarenta e nove) verbas de representação, no valor de R$ 1.000,00 (mil reais), em designações para as funções gratificadas a partir do nível 5 e nomeações para cargos em comissão a partir do nível 15."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "É incompatível a percepção de mais de uma das verbas de representação referidas nos incs. I, II e III do caput deste artigo."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As despesas decorrentes da aplicação desta Lei correrão à conta de dotações orçamentárias próprias."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação, produzindo efeitos a contar de 1º de fevereiro de 2025."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Fica revogada a Lei nº 11.404, de 27 de dezembro de 2012."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 11,
+   "cobertura": 0.972,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "idSapl": 49677,
+ "rotulo": "Lei municipal nº 14.168, de 08 de janeiro de 2025",
+ "sha256Origem": "a7235070ffc5a86b52faf2cc577bd5e71c36512d03d0cfd2d0f85256c9bff513",
+ "estruturadoEm": "2026-11-23T09:26:29.681Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14168",
+  "ano": "2025",
+  "data": "2025-01-08",
+  "epigrafe": "PLL Nº 111/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.168, DE 8 DE JANEIRO DE 2025.",
+ "ementa": "Altera o caput do art. 4º e os §§ 1º e § 2º do art. 10, e inclui art 4º-A, todos na Lei nº 12.934, de 23 de dezembro de 2021, que institui Programa de Recuperação de débitos e dá outras providências, reduzindo para 1 (um) ano o prazo mínimo a ser comprovado de residência no local, estabelecendo as vias pelas quais poderá ser feita a comprovação da cadeia sucessória contratual e ampliando a vigência daquela Lei até o dia 31 de dezembro de 2030.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de janeiro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluído art. 4º-A na Lei nº 12.934, de 2021, conforme segue:",
+   "blocoDeAlteracao": "“Art. 4º-A. A comprovação da cadeia sucessória de que trata o art. 4º desta Lei\npoderá ser feita pelas seguintes vias:\nI – documental;\nII – declaratória; ou\nIII – testemunhal.”"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Ficam alterados os §§ 1º e 2º do art. 10 da Lei nº 12.934, de 2021, conforme segue:",
+   "blocoDeAlteracao": "“Art. 10. ..….….……………………………………………………………………\n§ 1º Excetua-se ao disposto no caput deste artigo os arts. 4º, 4º-A e 8º, que entram\nem vigor na data da sua publicação.\n§ 2º Esta Lei terá vigência até o dia 31 de dezembro de 2030.” (NR)"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.974,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

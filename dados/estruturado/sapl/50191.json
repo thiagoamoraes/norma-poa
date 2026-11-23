@@ -1,0 +1,52 @@
+{
+ "idSapl": 50191,
+ "rotulo": "Lei municipal nº 14.251, de 12 de junho de 2025",
+ "sha256Origem": "6bdc0da7caa53d3b46f36da18e39bcb2011dd0e405fc29538f091a3e5a78f6cb",
+ "estruturadoEm": "2026-11-23T09:26:29.358Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14251",
+  "ano": "2025",
+  "data": "2025-06-12",
+  "epigrafe": "PLL Nº 369/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.251, DE 12 DE JUNHO DE 2025.",
+ "ementa": "Declara de utilidade pública a Associação Instituto Ecoa.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de junho de 2025.\nSebastião Melo\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica declarada de utilidade pública a Associação Instituto Ecoa, com base na Lei nº 2.926, de 12 de julho de 1966."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.962,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

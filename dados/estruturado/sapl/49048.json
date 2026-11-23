@@ -1,0 +1,60 @@
+{
+ "idSapl": 49048,
+ "rotulo": "Lei municipal nº 14.018, de 09 de agosto de 2024",
+ "sha256Origem": "d264e0eef85686818ba41616a0c97d4d141cfe47ed6d6d0f6a5a8afc7fdc2fc5",
+ "estruturadoEm": "2026-11-23T09:26:29.967Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14018",
+  "ano": "2024",
+  "data": "2024-08-09",
+  "epigrafe": "LEI Nº 14.018, DE 9 DE AGOSTO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui arts. 2º-A e 2º-B na Lei nº 11.874, de 16 de julho de 2015, assegurando o uso do nome social em solenidades do Município de Porto Alegre sem a obrigatoriedade da apresentação de Carteira de Nome Social.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de agosto de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído art. 2º-A na Lei nº 11.874, de 16 de julho de 2015, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º-A Fica assegurado o uso do nome social em solenidades do Município de Porto Alegre, sem a obrigatoriedade de apresentação da Carteira de Nome Social, quando a identificação precisa da pessoa não for necessidade intrínseca à solenidade, ou quando não houver a atribuição de direitos subjetivos decorrentes.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluído art. 2º-B na Lei nº 11.874, de 2015, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º-B Quando a apresentação de documento de identificação for necessária devido a normas legais, ficará assegurado que durante as solenidades o cerimonial apresentará a pessoa pelo nome social.\nParágrafo único. Caberá à organização da solenidade, no momento de entrada ou credenciamento, registrar o nome social pelo qual a pessoa deseja ser identificada.”"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

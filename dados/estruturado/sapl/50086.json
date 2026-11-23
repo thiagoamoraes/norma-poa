@@ -1,0 +1,604 @@
+{
+ "idSapl": 50086,
+ "rotulo": "Lei municipal nº 14.232, de 09 de maio de 2025",
+ "sha256Origem": "dae92c39d90a7b09160a5f5f9c77e55bce3704809067f2b4eb3b061dda79166e",
+ "estruturadoEm": "2026-11-23T09:26:29.420Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14232",
+  "ano": "2025",
+  "data": "2025-05-09",
+  "epigrafe": "LEI Nº 14.232, DE 9 DE MAIO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza o Poder Executivo Municipal a contratar 14 (quatorze) Auxiliares de Farmácia, 1 (um) Biomédico, 23 (vinte e três) Enfermeiros, 8 (oito) Farmacêuticos, 2 (dois) Fisioterapeutas, 2 (dois) Médicos Especialistas Emergencistas, 81 (oitenta e um) Técnicos em Enfermagem, 4 (quatro) Técnicos em Laboratório e Análises Clínicas e 1 (um) Técnico em Nutrição e Dietética, por prazo determinado, para atender necessidade temporária de excepcional interesse público de recursos humanos para a Secretaria Municipal de Saúde (SMS) durante a Operação Inverno de 2025.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de maio de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o Executivo Municipal autorizado a contratar, por prazo determinado, para atender necessidade temporária de excepcional interesse público durante a Operação Inverno de 2025, nos termos do inc. IX do art. 37 da Constituição Federal, do inc. II do art. 17 da Lei Orgânica do Município de Porto Alegre e dos incs. II e IV do art. 2º da Lei nº 7.770, de 19 de janeiro de 1996, e alterações posteriores:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "para atuarem no Hospital Materno Infantil Presidente Vargas (HMIPV):"
+  },
+  {
+   "id": "art-1/inc-I/ali-a",
+   "pai": "art-1/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "4 (quatro) Enfermeiros, 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-I/ali-b",
+   "pai": "art-1/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "13 (treze) Técnicos em Enfermagem, 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "para atuarem no Hospital de Pronto Socorro (HPS):"
+  },
+  {
+   "id": "art-1/inc-II/ali-a",
+   "pai": "art-1/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "6 (seis) Enfermeiros, 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-II/ali-b",
+   "pai": "art-1/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "28 (vinte e oito) Técnicos em Enfermagem, 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-II/ali-c",
+   "pai": "art-1/inc-II",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "3 (três) Farmacêuticos, 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-II/ali-d",
+   "pai": "art-1/inc-II",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "texto": "2 (dois) Auxiliares de Farmácia, até 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-II/ali-e",
+   "pai": "art-1/inc-II",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "texto": "2 (dois) Fisioterapeutas, até 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-II/ali-f",
+   "pai": "art-1/inc-II",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "texto": "2 (dois) Técnicos em Laboratório e Análises Clínicas, 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-II/ali-g",
+   "pai": "art-1/inc-II",
+   "tipo": "alinea",
+   "rotulo": "g)",
+   "texto": "1 (um) Técnico em Nutrição e Dietética, 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-II/ali-h",
+   "pai": "art-1/inc-II",
+   "tipo": "alinea",
+   "rotulo": "h)",
+   "texto": "2 (dois) Médicos Especialistas Emergencistas, até 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "para atuarem no Pronto Atendimento Cruzeiro do Sul (DAAHU/PACS):"
+  },
+  {
+   "id": "art-1/inc-III/ali-a",
+   "pai": "art-1/inc-III",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "8 (oito) Enfermeiros, 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-III/ali-b",
+   "pai": "art-1/inc-III",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "30 (trinta) Técnicos em Enfermagem, 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-III/ali-c",
+   "pai": "art-1/inc-III",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "3 (três) Farmacêuticos, 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-IV",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "para atuarem na Coordenação de Assistência Laboratorial (DAAHU/CAL):"
+  },
+  {
+   "id": "art-1/inc-IV/ali-a",
+   "pai": "art-1/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "1 (um) Biomédico, 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-IV/ali-b",
+   "pai": "art-1/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "2 (dois) Técnicos em Laboratório e Análises Clínicas, 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-V",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "para atuarem na Atenção Primária (DAPS):"
+  },
+  {
+   "id": "art-1/inc-V/ali-a",
+   "pai": "art-1/inc-V",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "5 (cinco) Enfermeiros, 30 (trinta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-V/ali-b",
+   "pai": "art-1/inc-V",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "10 (dez) Técnicos em Enfermagem, 30 (trinta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-V/ali-c",
+   "pai": "art-1/inc-V",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "2 (dois) Farmacêuticos, 40 (quarenta) horas semanais;"
+  },
+  {
+   "id": "art-1/inc-V/ali-d",
+   "pai": "art-1/inc-V",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "texto": "12 (doze) Auxiliares de Farmácia, 40 (quarenta) horas semanais."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para efeitos desta Lei, o excepcional interesse público e a necessidade temporária das contratações ficam caracterizados pelo expressivo aumento da demanda por atendimento nos hospitais e unidades de saúde no período do inverno."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "As contratações previstas neste artigo vigorarão pelo prazo de até 120 (cento e vinte) dias, contados da assinatura do contrato e, havendo comprovada necessidade, poderão ser prorrogadas por mais 60 (sessenta) dias."
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "A contratação de profissionais que exerçam cargos acumuláveis constitucionalmente fica condicionada à compatibilidade horária."
+  },
+  {
+   "id": "art-1/par-4",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "No caso de rescisão antecipada do contrato, a pedido do contratado ou a critério da Administração, fica o Município autorizado a realizar a substituição, mediante solicitação do titular da Secretaria Municipal de Saúde (SMS), ficando o novo contrato válido pelo período faltante ao cumprimento do contrato inicial de 120 (cento e vinte) dias, a contar da contratação, correndo as despesas à conta das dotações orçamentárias próprias."
+  },
+  {
+   "id": "art-1/par-5",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "texto": "A contratação temporária dos profissionais previstas neste artigo deverá ocorrer até a data limite de 31 de agosto de 2025."
+  },
+  {
+   "id": "art-1/par-6",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 6º",
+   "texto": "As funções temporárias elencadas neste artigo possuem atribuições idênticas às dos cargos efetivos correspondentes previstos na letra b do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os contratos firmados nos termos desta Lei terão natureza administrativa, ficando assegurados os seguintes direitos ao contratado:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "remuneração composta de:"
+  },
+  {
+   "id": "art-2/inc-I/ali-a",
+   "pai": "art-2/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "valor equivalente ao Vencimento Básico inicial (VB) do cargo efetivo constante na Lei nº 6.309, de 1988, e alterações posteriores, correspondente à função para a qual for contratado;"
+  },
+  {
+   "id": "art-2/inc-I/ali-b",
+   "pai": "art-2/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "gratificação de 110% (cento e dez por cento) sobre o VB, se lotado em Hospital ou Pronto Atendimento, gratificações de 25% (vinte e cinco por cento) e de 50% (cinquenta por cento), ambas sobre o VB, se lotado em Farmácia Distrital ou Unidades de Saúde subordinadas à Diretoria de Atenção Primária, ou gratificação de 100% (cem por cento) sobre VB, se lotado na sede, nos termos dos arts. 71 e 72 da Lei nº 6.309, de 1988, e dos arts. 1º e 3º da Lei nº 11.140, de 14 de outubro de 2011;"
+  },
+  {
+   "id": "art-2/inc-I/ali-c",
+   "pai": "art-2/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "adicional de insalubridade, conforme as atividades realizadas e laudo técnico oficial, expedido pela área competente, de 10% (dez por cento), 20% (vinte por cento) ou 40% (quarenta por cento) sobre o VB, nos termos do art. 61 da Lei nº 6.309, de 1988, e alterações posteriores;"
+  },
+  {
+   "id": "art-2/inc-I/ali-d",
+   "pai": "art-2/inc-I",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "texto": "adicional noturno de 25% (vinte e cinco por cento) calculado sobre o valor da hora normal diurna, se convocado para serviço noturno, nos termos do art. 57 da Lei nº 6.309, de 1988, e alterações posteriores;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "vale-transporte, mediante solicitação, nos termos da Lei nº 5.595, de 4 de julho de 1985, e alterações posteriores, e do Decreto nº 20.681, de 6 de agosto de 2020;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "vale-alimentação, nos termos da Lei nº 7.532, de 25 de outubro de 1994, e alterações posteriores;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "férias e gratificação natalina, proporcionais ao período da contratação, ao término do contrato;"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "inscrição no Regime Geral de Previdência Social (RGPS)."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para efeitos deste artigo, não se consideram como paradigma as vantagens de natureza individual dos servidores efetivos."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Para atendimento de necessidade da Administração, os contratados poderão ser convocados para cumprir Regime Especial de Trabalho de Tempo Integral (RTI), com carga horária semanal de 40 (quarenta) horas e acréscimo de 50% (cinquenta por cento) sobre o vencimento básico inicial, nos termos do art. 37 da Lei nº 6.309, de 1988, e alterações posteriores."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As contratações de que trata esta Lei serão realizadas:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "prioritariamente, mediante chamamento público dos selecionados em concurso público em validade, observada a ordem de classificação; e"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "subsidiariamente, mediante a realização de processo seletivo simplificado, quando não houver concurso público em validade para o cargo, ou quando o número de candidatos habilitados no concurso não seja suficiente para atender aos quantitativos referidos nos incs. I a V do caput do art. 1º desta Lei."
+  },
+  {
+   "id": "art-3/par-1",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "No caso de que trata o inc. II do caput deste artigo, fica autorizada a isenção de taxa de inscrição a todos os candidatos."
+  },
+  {
+   "id": "art-3/par-2",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O processo seletivo simplificado e o chamamento público sujeitam-se à ampla divulgação no sítio eletrônico do Executivo Municipal e no Diário Oficial Eletrônico de Porto Alegre (DOPA-e)."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O contratado deverá realizar exames admissionais e a aptidão nos exames é obrigatória para a sua admissão."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Os contratados nos termos desta Lei não poderão:"
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "receber funções ou encargos não previstos no respectivo ato de admissão;"
+  },
+  {
+   "id": "art-5/inc-II",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "ser nomeados ou designados, ainda que em título precário ou em substituição, para o exercício de Cargo em Comissão ou Função Gratificada; ou"
+  },
+  {
+   "id": "art-5/inc-III",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "formar banco de horas para utilização em período posterior, somente sendo autorizada a compensação de carga horária nos termos do art. 11 do Decreto nº 21.569, de 14 de julho de 2022, e alterações posteriores."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Aplicam–se aos contratados nos termos desta Lei os seguintes dispositivos da Lei Complementar nº 133, de 31 de dezembro de 1985, e alterações posteriores:"
+  },
+  {
+   "id": "art-6/inc-I",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "os incs. I, II, III, VI e XIV e as als. b, c, d, e, h e i, do inc. XVI do art. 76;"
+  },
+  {
+   "id": "art-6/inc-II",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "as als. a, b e f do inc. V do art. 110;"
+  },
+  {
+   "id": "art-6/inc-III",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "os incs. I, III, IV e X do art. 141;"
+  },
+  {
+   "id": "art-6/inc-IV",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "do art. 184 ao art. 190;"
+  },
+  {
+   "id": "art-6/inc-V",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "do art. 196 ao art. 202."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "O ato de admissão expedido de acordo com esta Lei extinguir-se-á sem direito a indenização:"
+  },
+  {
+   "id": "art-7/inc-I",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "por inaptidão permanente ou temporária nos exames admissionais;"
+  },
+  {
+   "id": "art-7/inc-II",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "pelo término de seu prazo;"
+  },
+  {
+   "id": "art-7/inc-III",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "por iniciativa do contratado admitido; ou"
+  },
+  {
+   "id": "art-7/inc-IV",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "por iniciativa da Administração Pública."
+  },
+  {
+   "id": "art-7/par-1",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O pedido de extinção do ato de admissão com base na hipótese do inc. III do caput deste artigo deverá ser expresso com antecedência mínima de 30 (trinta) dias."
+  },
+  {
+   "id": "art-7/par-2",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A inobservância do disposto no § 1º deste artigo implica desconto do valor correspondente aos 30 (trinta) últimos dias trabalhados, podendo o desconto recair sobre férias e gratificação natalina eventualmente devida."
+  },
+  {
+   "id": "art-7/par-3",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "A extinção do ato de admissão por iniciativa do órgão da Administração Pública, decorrente de conveniência administrativa, será comunicada com 30 (trinta) dias de antecedência."
+  },
+  {
+   "id": "art-7/par-4",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "A ausência de comunicação prévia, nos termos do § 3º deste artigo, importará no pagamento ao contratado de indenização correspondente ao valor de 1 (uma) remuneração equivalente ao último mês de exercício."
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "Findo o prazo de eficácia do ato de admissão, por quaisquer hipóteses previstas nesta Lei, será pago ao contratado:"
+  },
+  {
+   "id": "art-8/inc-I",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a título de férias, o valor correspondente a 1/12 (um doze avos) do valor da remuneração devida no último mês do exercício, por mês de efetividade, acrescido do terço constitucional; e"
+  },
+  {
+   "id": "art-8/inc-II",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "gratificação natalina correspondente a 1/12 (um doze avos) do valor da remuneração devida no último mês do exercício, por mês de efetividade."
+  },
+  {
+   "id": "art-8/par-unico",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para fins de pagamento dos valores estabelecidos no caput deste artigo, serão considerados os períodos superiores a 15 (quinze) dias."
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "texto": "Será concedida ao contratado admitido nos termos desta Lei uma gratificação natalina correspondente à sua remuneração mensal."
+  },
+  {
+   "id": "art-9/par-1",
+   "pai": "art-9",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A gratificação natalina corresponderá a 1/12 (um doze avos) do valor da remuneração devida no último mês do exercício, por mês de efetividade."
+  },
+  {
+   "id": "art-9/par-2",
+   "pai": "art-9",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Para fins de pagamento dos valores estabelecidos no caput deste artigo, serão considerados os períodos superiores a 15 (quinze dias)."
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "texto": "Os contratados nos termos desta Lei estarão sujeitos aos deveres funcionais, às proibições, às responsabilidades e às penas disciplinares previstas na Lei Complementar nº 133, de 1985, e alterações posteriores, no que couber."
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "texto": "Fica vedada a contratação, para as funções públicas de que trata esta Lei, de pessoas:"
+  },
+  {
+   "id": "art-11/inc-I",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "gestantes; e"
+  },
+  {
+   "id": "art-11/inc-II",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "lactantes."
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "texto": "As despesas decorrentes da execução desta Lei correrão à conta de dotações orçamentárias próprias."
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 13,
+   "dispositivos": 81,
+   "cobertura": 0.976,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

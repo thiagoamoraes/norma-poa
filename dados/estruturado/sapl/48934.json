@@ -1,0 +1,75 @@
+{
+ "idSapl": 48934,
+ "rotulo": "Lei municipal nº 14.002, de 23 de julho de 2024",
+ "sha256Origem": "ad7999bcda3752b6ea27a59c2e2773765c5c8503b3cf45648d80e122ccecae85",
+ "estruturadoEm": "2026-11-23T09:26:30.010Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14002",
+  "ano": "2024",
+  "data": "2024-07-23",
+  "epigrafe": "LEI Nº 14.002, DE 23 DE JULHO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a ementa e o art. 1º e inclui § 4º no art. 1º e incs. V e VI no caput e parágrafo único no art. 1º-A, todos na Lei nº 12.692, de 9 de março de 2020, obrigando a divulgação de lista informando a posição de espera para o atendimento de pacientes que aguardam pela realização de consultas com especialistas, exames ou cirurgias em estabelecimentos pertencentes à rede pública de saúde do Município de Porto Alegre ou a ela conveniados e incluindo dados no rol de informações que a lista deve conter, observando o disposto na Lei Federal nº 13.709, de 14 de agosto de 2018.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 23 de julho de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei nº 12.692, de 9 de março de 2020, conforme segue:",
+   "blocoDeAlteracao": "“Obriga a divulgação de lista informando a posição de espera para o atendimento de pacientes que aguardam pela realização de consultas com especialistas, exames ou cirurgias em estabelecimentos pertencentes à rede pública de saúde do Município de Porto Alegre ou a ela conveniados.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o caput e fica incluído § 4º no art. 1º da Lei nº 12.692, de 2020, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica obrigatória a divulgação de lista informando a posição de espera para o atendimento de pacientes que aguardam pela realização de consultas com especialistas, exames ou cirurgias em estabelecimentos pertencentes à rede pública de saúde do Município de Porto Alegre ou a ela conveniados.\n………………………………………………………………………………………\n§ 4º O Executivo Municipal aplicará técnicas de anonimização, conforme disposto na Lei Federal nº 13.709, de 14 de agosto de 2018, de forma a preservar dados pessoais sensíveis.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "No art. 1º-A da Lei nº 12.692, de 2020, ficam incluídos incs. V e VI no caput e fica incluído parágrafo único, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º-A .................................................................................................................\n....................................................................................................................................\nV – aviso do tempo médio previsto para atendimento aos inscritos; e\nVI – relação dos inscritos habilitados para o respectivo exame, a respectiva consulta ou procedimento cirúrgico.\nParágrafo único. As informações disponibilizadas deverão ser especificadas para o tipo de exame aguardado e abranger todos os candidatos inscritos nas Unidades de Saúde do Município, nas entidades conveniadas ou em qualquer outro prestador de serviço que receba recursos públicos municipais.” (NR)"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As despesas decorrentes da execução desta Lei poderão correr por conta de dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.977,
+   "blocosDeAlteracao": 3,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

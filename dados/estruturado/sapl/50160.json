@@ -1,0 +1,52 @@
+{
+ "idSapl": 50160,
+ "rotulo": "Lei municipal nº 14.243, de 02 de junho de 2025",
+ "sha256Origem": "a0e486645534682b806e5e2c9e93366f2bf0bc1475e03d25326eaa0fa1ae98cb",
+ "estruturadoEm": "2026-11-23T09:26:29.375Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14243",
+  "ano": "2025",
+  "data": "2025-06-02",
+  "epigrafe": "PLL Nº 367/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.243, DE 2 DE JUNHO DE 2025.",
+ "ementa": "Declara de utilidade pública o Rotary Club de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de junho de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica declarado de utilidade pública o Rotary Club de Porto Alegre, com base na Lei nº 2.926, de 12 de julho de 1966."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.962,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

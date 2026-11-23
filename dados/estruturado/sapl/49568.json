@@ -1,0 +1,121 @@
+{
+ "idSapl": 49568,
+ "rotulo": "Lei municipal nº 14.129, de 13 de dezembro de 2024",
+ "sha256Origem": "f74abb3a38497e2c18a6f4999e4593473eaa20da7e61c2d739d098a15662cfd4",
+ "estruturadoEm": "2026-11-23T09:26:29.808Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14129",
+  "ano": "2024",
+  "data": "2024-12-13",
+  "epigrafe": "LEI Nº 14.129, DE 13 DE DEZEMBRO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria o Programa de Atenção às Pessoas com Esquizofrenia no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de dezembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criado o Programa de Atenção às Pessoas com Esquizofrenia no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Programa de Atenção às Pessoas com Esquizofrenia tem por finalidade o atendimento integral às pessoas diagnosticadas com esquizofrenia, em todos os níveis de atenção à saúde atendidos pela Rede de Atenção Psicossocial (RAPS), e dar-se-á por meios das seguintes ações:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "defesa e garantia de direitos;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "proteção à saúde e prevenção de agravos;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "diagnóstico, tratamento e reabilitação psicossocial; e"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "inclusão, trabalho e geração de renda."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Para os efeitos desta Lei, considera-se pessoa com esquizofrenia (F20) aquela diagnosticada conforme a Classificação Internacional de Doenças (CID-10) por médico psiquiatra regularmente habilitado."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "São diretrizes do Programa de Atenção às Pessoas com Esquizofrenia:"
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "fortalecer o cuidado integral às pessoas com esquizofrenia em todos os pontos da rede de atenção à saúde, com a efetivação de projeto terapêutico singular, de caráter multiprofissional e centrado no paciente com participação dos familiares, amigos e cuidadores;"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "desenvolver atividades que visem à aquisição de conhecimentos específicos ao atendimento da pessoa com esquizofrenia e ao desenvolvimento de competências e habilidades das equipes de saúde, ampliando a rede de profissionais capacitados e aptos ao cuidado integral e à reabilitação da pessoa com esquizofrenia, em todas as fases de seu tratamento, a fim de garantir cuidados adequados e acessibilidade; e"
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "disseminar à população informações sobre a esquizofrenia como sintomas, tratamento, direitos, locais de atendimento, prevenção e psicoeducação, em diversos espaços públicos e com o auxílio de parcerias intersetoriais."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 12,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

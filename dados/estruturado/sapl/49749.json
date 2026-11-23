@@ -1,0 +1,69 @@
+{
+ "idSapl": 49749,
+ "rotulo": "Lei municipal nº 14.193, de 04 de fevereiro de 2025",
+ "sha256Origem": "d74ba608382ae71f57ae7f5b0f6733d8dd6ff6423ac9d6fef05dab41721bfd1b",
+ "estruturadoEm": "2026-11-23T09:26:29.575Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14193",
+  "ano": "2025",
+  "data": "2025-02-04",
+  "epigrafe": "PLE Nº 2/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.193, DE 4 DE FEVEREIRO DE 2025.",
+ "ementa": "Altera o art. 1º; inclui § 2º nos arts. 5º e 8º e renumera o parágrafo único para § 1º nos arts. 5º e 8º, todos na Lei nº 11.242, de 4 de abril de 2012.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 4 de fevereiro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o art. 1º da Lei nº 11.242, de 4 de abril de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica criada a Gratificação de Incentivo ao Desempenho (GID), devida\naos servidores que estejam em efetivo exercício nas unidades de trabalho abaixo listadas:\nI – Secretaria Municipal de Administração e Patrimônio (SMAP):\na) Gabinete do Secretário (GS);\nb) Escola de Gestão Pública (EGP) e suas unidades de trabalho;\nc) Comissão Permanente de Sindicância (CPS);\nd) Assessoria Técnica (ASSETEC);\ne) Diário Oficial Eletrônico de Porto Alegre (DOPA-e);\nf) Diretoria de Gestão de Pessoas (DGPES) e suas unidades de trabalho;\ng) Coordenação de Frota (CF) e suas unidades de trabalho, da Diretoria de Gestão\ndo Patrimônio (DGPAT);\nh) Coordenação de Estruturas Organizacionais e Processos (CEOP) e suas\nunidades de trabalho;\ni ) Coordenação de Gestão Documental (CGD) e suas unidades de trabalho;\nj) Coordenação de Administração e Serviços (CASE) e suas unidades de trabalho;\nk) Gerência de Saúde do Servidor Municipal (GSSM) e suas unidades de trabalho;\nl) Diretoria de Seleção e Provimento (DSP) e suas unidades de trabalho.\nII – Secretaria Municipal de Planejamento e Gestão (SMPG):\na) Gabinete do Secretário (GS);\nb) Assessoria Técnica (ASSETEC);\nc) Unidade de Administração e Serviços (UASE);\nd) Diretoria de Planejamento e Gestão de Tecnologias da Informação e\nComunicação (DGTI).\n……………………………………………………………………………….” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica renumerado o parágrafo único para § 1º e incluído § 2º ao art. 5º da Lei nº 11.242, de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 5º .....................................................................................................................\n....................................................................................................................................\n§ 1º ............................................................................................................................\n§ 2º O servidor investido no cargo de médico ou médico especialista,\nindependentemente da carga horária, perceberá valor da GID, no limite mensal máximo do\níndice 1 (um), aplicado sobre o vencimento básico inicial referência \"A\".” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica renumerado o parágrafo único para § 1º e incluído o § 2º ao art. 8º da Lei nº 11.242, de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 8º .....................................................................................................................\n§ 1º ............................................................................................................................\n§ 2º Para fins da incorporação prevista no caput deste artigo, em relação aos\nservidores que tiverem sua lotação alterada da Secretaria Municipal de Saúde para a Secretaria\nMunicipal de Administração e Patrimônio, em decorrência da transferência da GSSM, será\ncomputado o tempo de percepção da Gratificação de Incentivo à Qualidade da Gestão do SUS e\nda Gratificação de Incentivo à Qualidade da Atenção no SUS.” (NR)"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.988,
+   "blocosDeAlteracao": 3,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

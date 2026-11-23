@@ -1,0 +1,100 @@
+{
+ "idSapl": 49902,
+ "rotulo": "Lei municipal nº 14.196, de 19 de março de 2025",
+ "sha256Origem": "806492e22444fc79b87edec52df8bce3ed7b08041bd79847e2e6fae040ea4388",
+ "estruturadoEm": "2026-11-23T09:26:29.551Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14196",
+  "ano": "2025",
+  "data": "2025-03-19",
+  "epigrafe": "LEI Nº 14.196, DE 19 DE MARÇO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o POA FEST, evento anual a ser realizado no Município de Porto Alegre, para angariar recursos para a recuperação e a reconstrução das áreas afetadas pela catástrofe climática de 2024.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 19 de março de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o POA FEST, evento anual a ser realizado no Município de Porto Alegre, para angariar recursos para a recuperação e a reconstrução das áreas afetadas pela catástrofe climática de 2024."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O POA FEST será realizado em data a ser definida pelo Executivo Municipal, preferencialmente no período de maior fluxo turístico na Cidade, visando ampliar a captação de recursos e promover a divulgação dos esforços de reconstrução de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O POA FEST será realizado com o apoio do Executivo Municipal, por meio de órgão competente, em parceria com entidades da sociedade civil e empresas privadas interessadas em contribuir para a reconstrução da Cidade."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O POA FEST compreenderá uma programação diversificada de atividades culturais, artísticas, esportivas, gastronômicas e de entretenimento, a serem realizadas em espaços públicos e privados da Cidade, com a participação de artistas locais, nacionais e internacionais."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Os recursos arrecadados por meio do POA FEST serão destinados exclusivamente para a execução de projetos de reconstrução de infraestrutura urbana, de habitação, de assistência social e de apoio psicossocial às famílias afetadas pela catástrofe climática de 2024, conforme definido em regulamentação específica."
+  },
+  {
+   "id": "art-4/par-1",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Os recursos arrecadados serão destinados preferencialmente ao Fundo Municipal de Habitação de Interesse Social (FMHIS), instituído pela Lei Complementar nº 612, de 19 de fevereiro de 2009, ou ao fundo que vier substituí-lo."
+  },
+  {
+   "id": "art-4/par-2",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O Executivo Municipal publicará relatórios detalhados sobre a arrecadação e a aplicação dos recursos no site da Prefeitura de Porto Alegre ou no Portal Transparência Porto Alegre."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "O Executivo Municipal poderá firmar convênios, parcerias e patrocínios com empresas privadas, entidades sem fins lucrativos e organismos internacionais para viabilizar a realização e o financiamento do POA FEST."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 9,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

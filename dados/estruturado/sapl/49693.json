@@ -1,0 +1,122 @@
+{
+ "idSapl": 49693,
+ "rotulo": "Lei municipal nº 14.181, de 17 de janeiro de 2025",
+ "sha256Origem": "f495db39769e80ddcc525e0c5622b8595c15eaa624c739f5441845afc58b194b",
+ "estruturadoEm": "2026-11-23T09:26:29.640Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14181",
+  "ano": "2025",
+  "data": "2025-01-17",
+  "epigrafe": "PLL Nº 191/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.181, DE 17 DE JANEIRO DE 2025.",
+ "ementa": "Cria o Movimento AME – Articulação e Mobilização Evangélica.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de janeiro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criado o Movimento AME – Articulação e Mobilização Evangélica no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "São objetivos do Movimento criado por esta Lei:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "promover a articulação e a mobilização entre poder público, sociedade civil e demais organizações e entidades religiosas da cidade de Porto Alegre para prévia existência de ações de enfrentamento a desastres;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "prestar socorro às comunidades e famílias atingidas pelos impactos das mudanças climáticas por meio de ajuda humanitária antes, durante e após a ocorrência de eventos dessa natureza;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "solicitar ao Executivo Municipal a permanente atualização dos mapas de áreas de risco, consideradas a dinâmica habitacional da população e as variações de riscos nas diversas regiões da Cidade;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "apresentar espaços disponíveis para recebimento temporário de famílias desabrigadas;"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "promover o enquadramento de áreas de pequeno, médio e grande porte, para acolhimento de idosos, adultos, adolescentes, crianças e pessoas com deficiência (PCDs), conforme suas especificidades;"
+  },
+  {
+   "id": "art-2/inc-VI",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "promover a formalização do vínculo de atendimento por meio de cadastro, visando à manutenção da comunicação após o período de crise e objetivando facilitar a prestação do auxílio em futuros desastres climáticos; e"
+  },
+  {
+   "id": "art-2/inc-VII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "socializar a Ação Regimental do Movimento AME, com vistas às atividades a serem desenvolvidas, tais como limpeza, alimentação, atividades lúdicas, atendimento em saúde, contatos com familiares ou vizinhos, assessoria jurídica, dentre outras necessárias, com base em análise de casos concretos."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Para a consecução dos objetivos referidos no art. 2º desta Lei, serão realizados encontros de alinhamento entre Executivo Municipal e igrejas evangélicas, casas de religião de matriz africana, centros espíritas ou de qualquer outra religião, devidamente cadastrados e atuantes na circunscrição municipal, segundo a Lei nº 13.590, de 1º de agosto de 2023."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O Movimento criado por esta Lei terá o seu início quando cessar a vigência do Decreto nº 22.647, de 2 de maio de 2024, que declara estado de calamidade pública no Município de Porto Alegre."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 12,
+   "cobertura": 0.978,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "idSapl": 48990,
+ "rotulo": "Lei municipal nº 14.008, de 30 de julho de 2024",
+ "sha256Origem": "185fe48cdd321c1b538e7e215ab0d9e3dffa2199990f684095f000f91d91bcf0",
+ "estruturadoEm": "2026-11-23T09:26:29.995Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14008",
+  "ano": "2024",
+  "data": "2024-07-30",
+  "epigrafe": "LEI Nº 14.008, DE 30 DE JULHO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui art. 2º-A na Lei nº 13.065, de 28 de abril de 2022 – que institui o uso do colar de girassol como instrumento auxiliar de orientação para a identificação de pessoas com deficiência oculta no âmbito do Município de Porto Alegre –, dispondo sobre a distribuição do colar de girassol e dando outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de julho de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído art. 2º-A na Lei nº 13.065, de 28 de abril de 2022, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º-A A distribuição do colar de girassol e o cadastro daqueles que o solicitarem deverão ser realizados preferencialmente pela Secretaria Municipal de Saúde (SMS), em conjunto com a Secretaria Municipal de Desenvolvimento Social.\n§ 1º O colar de girassol somente poderá ser comercializado e distribuído por aqueles previamente autorizados pela SMS.\n§ 2º Para fins de controle de distribuição do colar de girassol, o distribuidor deverá reter uma cópia do laudo médico, que deverá ser assinada pelo responsável pela pessoa com deficiência oculta.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.968,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

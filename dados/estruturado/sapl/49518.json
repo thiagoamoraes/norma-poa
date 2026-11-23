@@ -1,0 +1,80 @@
+{
+ "idSapl": 49518,
+ "rotulo": "Lei municipal nº 14.116, de 29 de novembro de 2024",
+ "sha256Origem": "a568259a0a419860f02af25f797f190dd72f0ad4ba5a2f356dba4b9b01ca888c",
+ "estruturadoEm": "2026-11-23T09:26:29.828Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14116",
+  "ano": "2024",
+  "data": "2024-11-29",
+  "epigrafe": "PROC. Nº 1122/23",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 654/23 LEI Nº 14.116, DE 29 DE NOVEMBRO DE 2024.",
+ "ementa": "Obriga as empresas operadoras de telefonia, internet, televisão a cabo e assemelhados a realizar o agendamento dos atendimentos técnicos domiciliares com hora marcada, em horário a ser escolhido pelo cliente, e veda o agendamento por turnos no Município de Porto Alegre.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 14.116, de 29 de novembro de 2024, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 02 DE DEZEMBRO DE 2024.\nDocumento assinado eletronicamente por Gilsomar da Silva, Vereador, em 03/12/2024, às 10:45,\nconforme horário oficial de Brasília, com fundamento no Art. 10, § 2º da Medida Provisória nº 2200-\n2/2001 e nas Resoluções de Mesa nºs 491/15, 495/15 e 504/15 da Câmara Municipal de Porto\nAlegre.\nDocumento assinado eletronicamente por Mauro Roberto Pinheiro, Presidente, em 03/12/2024, às\n12:54, conforme horário oficial de Brasília, com fundamento no Art. 10, § 2º da Medida Provisória nº\n2200-2/2001 e nas Resoluções de Mesa nºs 491/15, 495/15 e 504/15 da Câmara Municipal de Porto\nAlegre.\nA autenticidade deste documento pode ser conferida no site https://sei.camarapoa.rs.gov.br,\ninformando o código verificador 0817819 e o código CRC 7CB8C772.\nReferência: Processo nº 032.00043/2023-68                                                                SEI nº 0817819",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam obrigadas as empresas operadoras de telefonia, internet, televisão a cabo e assemelhados a realizar o agendamento dos atendimentos técnicos domiciliares com hora marcada, em horário a ser escolhido pelo cliente."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica vedado o agendamento de atendimentos técnicos domiciliares por turno."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A empresa que descumprir o disposto nesta Lei incorrerá em infração administrativa e estará sujeita às seguintes penalidades:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "notificação do Executivo Municipal para adequação à norma no prazo de 30 (trinta) dias; e"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "multa de 1.000 (mil) Unidades Financeiras Municipais (UFMs), caso a empresa não realize a adequação no prazo estipulado."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 6,
+   "cobertura": 0.98,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

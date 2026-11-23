@@ -1,0 +1,73 @@
+{
+ "idSapl": 49666,
+ "rotulo": "Lei municipal nº 14.166, de 08 de janeiro de 2025",
+ "sha256Origem": "38e462abb900ad6b0790c7f670a5fec791f04575c767fbf0e9386378e2665266",
+ "estruturadoEm": "2026-11-23T09:26:29.701Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14166",
+  "ano": "2025",
+  "data": "2025-01-08",
+  "epigrafe": "PLL Nº 227/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.166, DE 8 DE JANEIRO DE 2025.",
+ "ementa": "Inclui a efeméride Agosto Lilás no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, no mês de agosto, e estabelece      ações      intersetoriais     para conscientização e esclarecimento sobre a violência contra a mulher, como o Projeto Banco Vermelho.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de janeiro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Agosto Lilás no Anexo da Lei nº 10.904, de 31 de maio de 2010, no mês de agosto."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Agosto Lilás será destinado à conscientização para o fim da violência contra a mulher."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Agosto Lilás contemplará ações intersetoriais, em conformidade com a Lei Federal nº 14.448, de 9 de setembro de 2022, esforços e campanhas de conscientização e esclarecimento sobre as diferentes formas de violência contra a mulher, como o Projeto Banco Vermelho."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Projeto Banco Vermelho consiste na instalação de pelo menos 1 (um) banco na cor vermelha em espaços públicos de grande circulação de pessoas, onde constarão frases que estimulem a reflexão sobre o tema e contatos de emergência para eventual denúncia e suporte para a vítima."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

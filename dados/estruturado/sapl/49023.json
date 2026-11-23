@@ -1,0 +1,59 @@
+{
+ "idSapl": 49023,
+ "rotulo": "Lei municipal nº 14.013, de 31 de julho de 2024",
+ "sha256Origem": "1a5815bb32f9c63b2ec87c5c24d465bfdda6cf720964ef11a6c60e5a82afc057",
+ "estruturadoEm": "2026-11-23T09:26:29.977Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14013",
+  "ano": "2024",
+  "data": "2024-07-31",
+  "epigrafe": "PLL Nº 208/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.013, DE 31 DE JULHO DE 2024.",
+ "ementa": "Denomina Corredor Humanitário o trecho da Rua da Conceição compreendido entre a elevada de conexão com a Avenida Presidente Castelo Branco e o Túnel da Conceição, localizado no Bairro Centro Histórico.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de julho de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Corredor Humanitário o trecho da Rua da Conceição compreendido entre a elevada de conexão com a Avenida Presidente Castelo Branco e o Túnel da Conceição, localizado no Bairro Centro Histórico, utilizado como acesso emergencial à cidade de Porto Alegre por veículos responsáveis pelo abastecimento da Cidade, da segurança pública e por profissionais da área médica em atividades essenciais, além dos ônibus intermunicipais e metropolitanos, durante a enchente de maio de 2024."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A placa denominativa conterá, abaixo do nome do trecho, os seguintes dizeres: Corredor Humanitário de Porto Alegre, via utilizada como acesso à Cidade na enchente de maio de 2024."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

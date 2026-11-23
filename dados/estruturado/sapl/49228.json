@@ -1,0 +1,100 @@
+{
+ "idSapl": 49228,
+ "rotulo": "Lei municipal nº 14.067, de 17 de setembro de 2024",
+ "sha256Origem": "e2f3bb69888f0956b828c71a74ac45856ce50c07eee9bd335279d2e8514dd603",
+ "estruturadoEm": "2026-11-23T09:26:29.896Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14067",
+  "ano": "2024",
+  "data": "2024-09-17",
+  "epigrafe": "LEI Nº 14.067, DE 17 DE SETEMBRO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria a Feira de Escambo de Brinquedos no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de setembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criada a Feira de Escambo de Brinquedos no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A Feira ocorrerá na Rua Décio Martins Costa, no Bairro Cidade Baixa, que terá placa com sua identificação, e funcionará no último sábado de cada mês, das 13h (treze horas) às 17h (dezessete horas), podendo permanecer, no horário de verão, até as 18h (dezoito horas)."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Serão objeto de escambo brinquedos usados, colecionáveis e curiosidades, em bom estado."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Poderá ser autorizado no local o comércio ambulante não concorrente com o objeto da Feira."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "A coordenação e a fiscalização da Feira de Escambo de Brinquedos ficará a cargo do Executivo Municipal, em conjunto com a Empresa Pública de Transporte e Circulação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "O Executivo Municipal tomará as providências relativas ao trânsito no entorno do local da Feira de Escambo de Brinquedos para o seu melhor funcionamento."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "A limpeza do espaço utilizado pela Feira de Escambo de Brinquedos dar-se-á nas sextas-feiras anteriores ao evento e nos sábados, após o encerramento das atividades, pelo órgão competente do Executivo Municipal."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "O Executivo Municipal regulamentará esta Lei no prazo de 90 (noventa) dias, contados da data de sua publicação."
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 8,
+   "dispositivos": 9,
+   "cobertura": 0.942,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

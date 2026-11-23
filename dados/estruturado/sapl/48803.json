@@ -1,0 +1,93 @@
+{
+ "idSapl": 48803,
+ "rotulo": "Lei municipal nº 13.960, de 27 de junho de 2024",
+ "sha256Origem": "b0389dc31d733ab37963cca06962163d51a51cc840fb4b0658cc22dc1eea3009",
+ "estruturadoEm": "2026-11-23T09:26:30.079Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13960",
+  "ano": "2024",
+  "data": "2024-06-27",
+  "epigrafe": "LEI Nº 13.960, DE 27 DE JUNHO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Programa Municipal de Identificação de Paradas de Ônibus da Região do Extremo Sul de Porto Alegre (Pexpoa).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de junho de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa Municipal de Identificação de Paradas de Ônibus da Região do Extremo Sul de Porto Alegre (Pexpoa)."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para fins desta Lei, a Região do Extremo Sul é compreendida pelos bairros Belém Novo, Chapéu do Sol, Lageado, Lami e Ponta Grossa."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "São objetivos do Programa de que trata esta Lei promover acessibilidade e informação a todos os usuários do transporte coletivo de passageiros na Região do Extremo Sul de Porto Alegre."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As paradas de ônibus que integram o Programa de que trata esta Lei serão guarnecidas com a informação do canal para acesso junto ao Executivo Municipal em local bem visível para possíveis reclamações de atraso ou assuntos atinentes ao tema, referentes às linhas que passam no respectivo local, colaborando com a eficiência do transporte público."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As paradas de ônibus que sejam conhecidas por nomes de uso comum ou nomes afetivos deverão ter suas denominações por costume descritas nos pontos."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "O Executivo Municipal regulamentará esta Lei por meio de decreto."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei entra em vigor em 90 (noventa) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 8,
+   "cobertura": 0.948,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

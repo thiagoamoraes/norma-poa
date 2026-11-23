@@ -1,0 +1,87 @@
+{
+ "idSapl": 50176,
+ "rotulo": "Lei municipal nº 14.249, de 09 de junho de 2025",
+ "sha256Origem": "41e1653de3794958455a1962e3f7080aeb069957aad75eba3c6ab799fdf6f6d4",
+ "estruturadoEm": "2026-11-23T09:26:29.363Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14249",
+  "ano": "2025",
+  "data": "2025-06-09",
+  "epigrafe": "PLE Nº 015/25",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.249, DE 9 DE JUNHO DE 2025.",
+ "ementa": "Autoriza a isenção parcial de pagamento das outorgas referentes aos Termos de Permissão de Uso Onerosa para os permissionários atingidos pelas enchentes de maio de 2024.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de junho de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica autorizada a isenção parcial do pagamento das outorgas mensais referentes aos Termos de Permissão de Uso Onerosa por parte dos permissionários direta e indiretamente atingidos pelas enchentes de maio de 2024, nos seguintes termos:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "50% (cinquenta por cento) de isenção para os permissionários cujos imóveis ou áreas de atuação comercial foram diretamente atingidos pelas enchentes, conforme a delimitação georreferenciada da mancha de inundação disponível no link oficial (https://storymaps.arcgis.com/stories/02d01e5f3a2b423893a2b2560fa8ecce) e o Anexo desta Lei;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "20% (vinte por cento) de isenção para os permissionários que operam em imóveis ou áreas indiretamente atingidas pelas enchentes, conforme estabelecido na delimitação mencionada no inc. I deste artigo."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para ter direito às isenções de que tratam os incs. I e II, os permissionários devem ter regularizado todos os débitos pendentes até a competência de abril de 2024, período anterior à enchente."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Não serão cobrados juros ou multa relativos às parcelas dos meses de maio de 2024 a maio de 2025 pagas em atraso pelos permissionários."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A isenção parcial prevista no art. 1º desta Lei terá vigência de janeiro a dezembro de 2025."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 7,
+   "cobertura": 0.979,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

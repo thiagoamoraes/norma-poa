@@ -1,0 +1,53 @@
+{
+ "idSapl": 50056,
+ "rotulo": "Lei municipal nº 14.222, de 30 de abril de 2025",
+ "sha256Origem": "9d6a489e476de9afea7a953bb0f676b34610ee08b0d7c8ecc58b32025c7c69c2",
+ "estruturadoEm": "2026-11-23T09:26:29.454Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14222",
+  "ano": "2025",
+  "data": "2025-05-02",
+  "epigrafe": "LEI Nº 14.222, DE 2 DE MAIO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui a efeméride Dia da Superação e da Solidariedade no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, no dia 3 de maio.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de maio de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Dia da Superação e da Solidariedade no Anexo da Lei nº 10.904, de 31 de maio de 2010, no dia 3 de maio."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "data_diverge_do_catalogo"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.945,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

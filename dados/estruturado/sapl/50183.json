@@ -1,0 +1,93 @@
+{
+ "idSapl": 50183,
+ "rotulo": "Lei municipal nº 14.250, de 11 de junho de 2025",
+ "sha256Origem": "f5d7e3a5098784e2996694991300333068f87dd6aeb3a21a93f4bdf8e7284a3f",
+ "estruturadoEm": "2026-11-23T09:26:29.360Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14250",
+  "ano": "2025",
+  "data": "2025-06-11",
+  "epigrafe": "LEI Nº 14.250, DE 11 DE JUNHO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece regras para a divulgação de preços promocionais por parte dos postos revendedores de combustíveis localizados no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de junho de 2025.\nSebastião Melo\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam estabelecidas regras para a divulgação de preços promocionais por parte dos postos revendedores de combustíveis localizados no Município de Porto Alegre, nos termos desta Lei."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Ficam os postos revendedores de combustíveis proibidos de fixar, no estabelecimento, cartazes ou anúncios contendo preços promocionais ou propagandas diversas em tamanho maior do que os anúncios que contenham o valor real dos combustíveis, ou seja, o valor sem desconto."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A divulgação dos preços promocionais ocorrerá da seguinte forma:"
+  },
+  {
+   "id": "art-1/par-2/inc-I",
+   "pai": "art-1/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o texto contendo a descrição da condição de pagamento deverá ter tamanho igual ou maior do que o do valor anunciado;"
+  },
+  {
+   "id": "art-1/par-2/inc-II",
+   "pai": "art-1/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a divulgação dos preços promocionais deverá ser afixada na mesma peça de divulgação dos valores reais; e"
+  },
+  {
+   "id": "art-1/par-2/inc-III",
+   "pai": "art-1/par-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "o preço promocional deverá informar o valor do desconto oferecido ao consumidor, em conformidade com o art. 2º, § 1º, inc. III, do Decreto Federal nº 10.634, de 22 de fevereiro de 2021."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O não cumprimento do disposto nesta Lei sujeitará o infrator à multa no valor correspondente a 1.000 (um mil) Unidades Financeiras Municipais (UFMs), aplicada em dobro no caso de reincidência."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 8,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

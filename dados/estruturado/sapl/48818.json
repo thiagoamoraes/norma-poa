@@ -1,0 +1,91 @@
+{
+ "idSapl": 48818,
+ "rotulo": "Lei municipal nº 13.967, de 01 de julho de 2024",
+ "sha256Origem": "c13ef513531f87cf4418b472dc7df39d9c37a0c6f909530d098107f9f1c4c17d",
+ "estruturadoEm": "2026-11-23T09:26:30.062Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13967",
+  "ano": "2024",
+  "data": "2024-07-01",
+  "epigrafe": "LEI Nº 13.967, DE 1º DE JULHO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o inc. I do art. 3º e o caput do art. 4º; inclui inc. IV no § 2º e § 3º no art. 1º, parágrafo único no art. 9º e art. 10-A; e revoga o parágrafo único do art. 4º, todos na Lei nº 11.229, de 6 de março de 2012 – que institui o Bônus-Moradia e dá outras providências –, modificando critérios relativos ao Bônus-Moradia e dando outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 1º de julho de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam incluídos inc. IV no § 2º e § 3º no art. 1º da Lei nº 11.229, de 6 de março de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º ................................................................................................................\n..............................................................................................................................\n§ 2º .......................................................................................................................\n..............................................................................................................................\nIV – chefiadas por mulheres.\n§ 3º No cadastramento da família, serão informados o procedimento para o benefício e os documentos relativos à aquisição do imóvel para avaliação.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o inc. I do art. 3º da Lei nº 11.229, de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º ................................................................................................................\nI – para aquisição de imóveis residenciais novos ou usados, situados fora de áreas de risco ou de preservação, adequados ao uso, devendo ser demonstrados a propriedade ou a posse do imóvel a ser adquirido e seu desembaraço de quaisquer ônus, conforme regulamentado por Decreto; e\n..................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica alterado o caput do art. 4º da Lei nº 11.229, de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 4º Todo imóvel a ser adquirido com a utilização de Bônus-Moradia deverá ser previamente avaliado quanto ao seu valor por profissional habilitado e devidamente credenciado junto ao Município de Porto Alegre.\n....................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica incluído parágrafo único no art. 9º da Lei nº 11.229, de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 9º .................................................................................................................\nParágrafo único. Fica excepcionalizada a vedação do caput deste artigo nos casos de inutilização total para moradia de imóvel adquirido anteriormente por meio do Bônus-Moradia, em virtude de situação de emergência ou estado de calamidade pública, conforme regulamentado em Decreto.” (NR)"
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Fica incluído art. 10-A na Lei nº 11.229, de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 10-A. Fica o Executivo Municipal autorizado a abrir crédito especial e extraordinário na Lei Orçamentária Anual (LOA), obedecidas as prescrições contidas nos incs. I a IV do § 1º do art. 43 da Lei Federal nº 4.320, de 17 de março de 1964, e alterações posteriores, para fazer frente às despesas com o benefício instituído por esta Lei, bem como proceder às alterações necessárias no Plano Plurianual (PPA) e na Lei de Diretrizes Orçamentárias (LDO).”"
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Fica revogado o parágrafo único do art. 4º da Lei nº 11.229, de 6 de março de 2012."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 7,
+   "cobertura": 0.972,
+   "blocosDeAlteracao": 5,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

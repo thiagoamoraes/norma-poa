@@ -1,0 +1,70 @@
+{
+ "idSapl": 49468,
+ "rotulo": "Lei municipal nº 14.103, de 19 de novembro de 2024",
+ "sha256Origem": "d4f5c82074133f24e4efc89fe0bd99f1e229f3b7d3ec248288fe65d6bbfc07e3",
+ "estruturadoEm": "2026-11-23T09:26:29.851Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14103",
+  "ano": "2024",
+  "data": "2024-11-19",
+  "epigrafe": "LEI Nº 14.103, DE 19 DE NOVEMBRO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Feira de Afroempreendedores no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, durante o mês de novembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 19 de novembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Feira de Afroempreendedores no Anexo II da Lei nº 10.903, de 31 de maio de 2010, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nNOVEMBRO\nPERÍODO\nEVENTO\nDESCRIÇÃO E LOCAL DO EVENTO\nDurante o mês\nFEIRA DE\nAFROEMPREENDEDORES\nA feira busca valorizar o trabalho dos empreendedores e empreendedoras negros e constituir-se numa alternativa para o comércio de produtos e serviços fornecidos por pessoas negras, permitindo a troca de experiência e a geração de novos negócios, além de trazer mais visibilidade ao seu trabalho na cidade de Porto Alegre.\nLocal: Câmara Municipal de Porto Alegre"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.962,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 9,
+     "caracteres": 447,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

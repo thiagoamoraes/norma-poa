@@ -1,0 +1,52 @@
+{
+ "idSapl": 49402,
+ "rotulo": "Lei municipal nº 14.095, de 31 de outubro de 2024",
+ "sha256Origem": "68490ad0e68c81e7209b13978b88679544480ead4745da78f65e141aa6b4bba6",
+ "estruturadoEm": "2026-11-23T09:26:29.859Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14095",
+  "ano": "2024",
+  "data": "2024-10-31",
+  "epigrafe": "LEI Nº 14.095, DE 31 DE OUTUBRO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o art. 1º da Lei nº 13.306, de 21 de novembro de 2022, que autoriza o Executivo Municipal a contratar operação de crédito externo junto ao Banco Interamericano de Desenvolvimento (BID), com a garantia da União, até o valor de US$ 150.000.000,00 (cento e cinquenta milhões de dólares), alterando o nome do Programa a ser executado.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de outubro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o art. 1º da Lei nº 13.306, de 21 de novembro de 2022, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica o Executivo Municipal autorizado a contratar operação de crédito externo junto ao Banco Interamericano de Desenvolvimento (BID), com a garantia da União, até o valor de US$ 150.000.000,00 (cento e cinquenta milhões de dólares), destinados à execução do Programa de Desenvolvimento e Recuperação da Infraestrutura Social do Município de Porto Alegre (POA+SOCIAL), observada a legislação vigente, em especial as disposições da Lei Complementar Federal nº 101, de 4 de maio de 2000.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

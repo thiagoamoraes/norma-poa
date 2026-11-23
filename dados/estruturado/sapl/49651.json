@@ -1,0 +1,87 @@
+{
+ "idSapl": 49651,
+ "rotulo": "Lei municipal nº 14.160, de 30 de dezembro de 2024",
+ "sha256Origem": "679eca023172891055364a4ebfab1f9e7408efe2919c7eb9cd9c4063d36dcca6",
+ "estruturadoEm": "2026-11-23T09:26:29.734Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14160",
+  "ano": "2024",
+  "data": "2024-12-30",
+  "epigrafe": "PLL Nº 323/22",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.160, DE 30 DE DEZEMBRO DE 2024.",
+ "ementa": "Institui o Programa Visão Melhor na Melhor Idade.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa Visão Melhor na Melhor Idade, que tem por objetivo garantir o acesso das pessoas idosas em estado de vulnerabilidade socioeconômica a exames oftalmológicos e ao tratamento necessário para correção da acuidade visual."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para efeitos desta Lei, considera-se em vulnerabilidade socioeconômica a pessoa idosa com renda familiar mensal per capita igual ou inferior a 1/4 (um quarto) do salário mínimo."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica garantido às pessoas idosas em estado de vulnerabilidade socioeconômica o direito a realizar, anual e gratuitamente, exames oftalmológicos na rede pública municipal de saúde."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Quando o exame oftalmológico de que trata o caput deste artigo indicar a necessidade de intervenção ou de uso de tecnologia corretiva, o paciente será encaminhado para o devido tratamento."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Quando o exame oftalmológico de que trata o caput deste artigo indicar a necessidade de uso de óculos de grau, estes serão disponibilizados gratuitamente ao paciente."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Os recursos para o desenvolvimento e a execução do Programa instituído por esta Lei provirão de dotações orçamentárias destinadas à Secretaria Municipal de Saúde, de recursos oriundos de convênios firmados com os governos federal ou estadual, por meio do Sistema Único de Saúde (SUS), ou com os setores da assistência social, estaduais ou federais, e de dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 7,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

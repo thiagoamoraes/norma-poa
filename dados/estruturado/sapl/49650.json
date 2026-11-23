@@ -1,0 +1,59 @@
+{
+ "idSapl": 49650,
+ "rotulo": "Lei municipal nº 14.159, de 30 de dezembro de 2024",
+ "sha256Origem": "c7b88b2297bfab1f7a65878a8bbba19b4cf15b80165957a3634b25439fffe5f5",
+ "estruturadoEm": "2026-11-23T09:26:29.736Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14159",
+  "ano": "2024",
+  "data": "2024-12-30",
+  "epigrafe": "PLL Nº 677/23",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.159, DE 30 DE DEZEMBRO DE 2024.",
+ "ementa": "Determina a adoção da definição de antissemitismo da Aliança Internacional para a Memória do Holocausto.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica determinada a adoção, no Município de Porto Alegre, da definição de antissemitismo da Aliança Internacional para a Memória do Holocausto."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para os fins desta Lei e de acordo com a Aliança Internacional para a Memória do Holocausto, antissemitismo é a percepção dos judeus que se pode exprimir como ódio, bem como as manifestações retóricas e físicas orientadas contra indivíduos judeus e não judeus, contra os seus bens e contra as instituições comunitárias e as instalações religiosas judaicas."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.963,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "idSapl": 49648,
+ "rotulo": "Lei municipal nº 14.157, de 30 de dezembro de 2024",
+ "sha256Origem": "5fe03c4f68f6aa237bb4e090a2175c82e5fdf379c0b0f556b5675fc169ffd362",
+ "estruturadoEm": "2026-11-23T09:26:29.739Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14157",
+  "ano": "2024",
+  "data": "2024-12-30",
+  "epigrafe": "PLL 113/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.157, DE 30 DE DEZEMBRO DE 2024.",
+ "ementa": "Equipara o paciente transplantado à pessoa com deficiência no âmbito do Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica equiparado o paciente transplantado à pessoa com deficiência no âmbito do Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para os fins desta Lei, considera-se paciente transplantado aquele que tenha passado por procedimento de transplante de órgão ou tecido, conforme definido pela legislação federal pertinente."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os pacientes transplantados terão direito aos mesmos benefícios e garantias assegurados às pessoas com deficiência, conforme legislação federal e estadual."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O disposto nesta Lei dar-se-á sem prejuízo de avaliação biopsicossocial, quando necessária, se o laudo médico elaborado pelo médico assistente, responsável pelo tratamento e acompanhamento do paciente, concluir que exista condição clínica crônica que promova impedimento de longo prazo de natureza física, mental, intelectual ou sensorial, o qual, em interação com uma ou mais barreiras, possa obstruir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O laudo médico elaborado pelo médico assistente do paciente transplantado será submetido à avaliação do Poder Público, conforme definido pelo Executivo Municipal."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 6,
+   "cobertura": 0.962,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

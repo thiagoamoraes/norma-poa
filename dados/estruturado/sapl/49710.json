@@ -1,0 +1,60 @@
+{
+ "idSapl": 49710,
+ "rotulo": "Lei municipal nº 14.185, de 20 de janeiro de 2025",
+ "sha256Origem": "865578dfbf1ef62e41e61f28291f7773fcde504c766bc150de2647d5229ea245",
+ "estruturadoEm": "2026-11-23T09:26:29.624Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14185",
+  "ano": "2025",
+  "data": "2025-01-20",
+  "epigrafe": "LEI Nº 14.185, DE 20 DE JANEIRO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a ementa e altera o caput e inclui parágrafo único no art. 1º, todos na Lei nº 12.856, de 24 de agosto de 2021, estabelecendo a divulgação pública e trimestral de lista com os candidatos inscritos, selecionados e suplentes a beneficiários de programas habitacionais de financiamento público e de regularização fundiária do Município de Porto Alegre, em ordem de classificação, conforme os critérios de prioridade, bem como com os candidatos desistentes.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 20 de janeiro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei nº 12.856, de 24 de agosto de 2021, conforme segue:",
+   "blocoDeAlteracao": "“Estabelece a divulgação pública e trimestral de lista com os candidatos inscritos,\nselecionados e suplentes a beneficiários de programas habitacionais de financiamento público e\nde regularização fundiária do Município de Porto Alegre, em ordem de classificação, conforme\nos critérios de prioridade, bem como com os candidatos desistentes.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o caput e fica incluído parágrafo único no art. 1º da Lei nº 12.856, de 2021, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica estabelecida a divulgação pública e trimestral de lista com os\ncandidatos inscritos, selecionados e suplentes a beneficiários de programas habitacionais de\nfinanciamento público e de regularização fundiária do Município de Porto Alegre, em ordem de\nclassificação, conforme os critérios de prioridade, bem como com os candidatos desistentes.\nParágrafo único.     As informações de que trata o caput deste artigo deverão\ncontemplar, entre outros:\nI – a localização que está sendo regularizada;\nII – o custo do programa;\nIII – a etapa em que se encontra o processo de regularização;\nIV – os dados, as informações e o tempo utilizado para a finalização das etapas\nanteriores; e\nV – a listagem dos beneficiados, o modo de seleção para ingresso no programa de\nregularização e o indicativo de eventual cadastro em algum programa social da Prefeitura\nMunicipal de Porto Alegre.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entre em vigor em 120 (cento e vinte) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.977,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

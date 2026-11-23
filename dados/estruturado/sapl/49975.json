@@ -1,0 +1,59 @@
+{
+ "idSapl": 49975,
+ "rotulo": "Lei municipal nº 14.209, de 10 de abril de 2025",
+ "sha256Origem": "a211f6f857d8fd8f8d7e5d04dd8d6e511b914b804777f428f775588d3f5cf8dc",
+ "estruturadoEm": "2026-11-23T09:26:29.487Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14209",
+  "ano": "2025",
+  "data": "2025-04-10",
+  "epigrafe": "PLL Nº 246/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.209, DE 10 DE ABRIL DE 2025.",
+ "ementa": "Obriga a identificação visual do tipo sanguíneo e do fator Rh nos crachás utilizados pelos funcionários das empresas que prestam serviço público de transporte coletivo no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de abril de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica obrigatória a identificação visual do tipo sanguíneo e do fator Rh nos crachás utilizados pelos funcionários das empresas que prestam serviço público de transporte coletivo no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As empresas terão o prazo de 120 (cento e vinte) dias para se adequarem ao disposto nesta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.969,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

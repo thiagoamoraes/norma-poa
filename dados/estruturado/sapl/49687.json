@@ -1,0 +1,69 @@
+{
+ "idSapl": 49687,
+ "rotulo": "Lei municipal nº 14.178, de 16 de janeiro de 2025",
+ "sha256Origem": "5117edfa270cb7ddae6946e88722c8983be0a53703e1c0f23367c219e9844f31",
+ "estruturadoEm": "2026-11-23T09:26:29.648Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14178",
+  "ano": "2025",
+  "data": "2025-01-16",
+  "epigrafe": "PLL Nº 013/23",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.178, DE 16 DE JANEIRO DE 2025.",
+ "ementa": "Inclui § 12 no art. 10 da Lei nº 11.582, de 21 de fevereiro de 2014, que institui o serviço público de transporte individual por táxi no Município de Porto Alegre e dá outras providências, autorizando o permissionário de transporte individual por táxi a exercer a atividade de condutor em outros modais de transporte de serviço público; e inclui § 6º no art. 5º e art. 13-A, ambos na Lei nº 12.656, de 27 de dezembro de 2019, que regulamenta o serviço de utilidade pública de transporte escolar no Município de Porto Alegre e dá outras providências, permitindo ao autorizatário do transporte escolar o exercício da atividade de condutor em outros modais de transporte de serviço público e autorizando, para fins de substituição de veículo escolar em operação, a utilização de veículos com até 10 (dez) anos, contados da data de sua fabricação ou da data de seu primeiro emplacamento.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 16 de janeiro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído § 12 no art. 10 da Lei nº 11.582, de 21 de fevereiro de 2014, conforme segue:",
+   "blocoDeAlteracao": "“Art. 10. ....................................................................................................................\n....................................................................................................................................\n§ 12. É autorizado ao permissionário exercer a atividade de condutor de outro\nmodal de transporte de serviço público, desde que respeitados a compatibilidade de horários e os\nlimites desta Lei.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluído § 6º no art. 5º da Lei nº 12.656, de 27 de dezembro de 2019, conforme segue:",
+   "blocoDeAlteracao": "“Art.                                                                                                                           5º\n......................................................................................................................\n....................................................................................................................................\n§ 6º É permitido ao autorizatário do serviço de Transporte Escolar exercer a\natividade de condutor de outro modal de transporte de serviço público, desde que respeitados a\ncompatibilidade de horários e os limites desta Lei.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.981,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

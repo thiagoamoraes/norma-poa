@@ -1,0 +1,78 @@
+{
+ "idSapl": 50168,
+ "rotulo": "Lei municipal nº 14.247, de 03 de junho de 2025",
+ "sha256Origem": "36f8fa4e4513c0e78519b61a0b34b7f248d5cf227eb7252aeddc4f9dc7b58e62",
+ "estruturadoEm": "2026-11-23T09:26:29.369Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14247",
+  "ano": "2025",
+  "data": "2025-06-03",
+  "epigrafe": "LEI Nº 14.247, DE 3 DE JUNHO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Rua Tenente-Coronel Aviador Alfeu de Alcântara Monteiro o logradouro conhecido como Rua Dois Mil Quarenta e Nove, localizado no Bairro Mário Quintana.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 3 de junho de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Tenente-Coronel Aviador Alfeu de Alcântara Monteiro o logradouro conhecido como Rua Dois Mil Quarenta e Nove, localizado no Bairro Mário Quintana, com base na Lei Complementar nº 320, de 2 de maio de 1994, conforme Anexo I desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Mártir da defesa da Democracia e da Pátria."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo-i",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO I",
+   "texto": "ANEXO I\nSebastião Melo\n14.247\n25.0.000068642-8                 03.06.2025",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.943,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO I",
+     "linhas": 3,
+     "caracteres": 63,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

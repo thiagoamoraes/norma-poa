@@ -1,0 +1,66 @@
+{
+ "idSapl": 49691,
+ "rotulo": "Lei municipal nº 14.179, de 17 de janeiro de 2025",
+ "sha256Origem": "7d711deab39d4b9352e7584554b15ffa8d6ac319c3d2d61c4aaf506c577469ba",
+ "estruturadoEm": "2026-11-23T09:26:29.646Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14179",
+  "ano": "2025",
+  "data": "2025-01-17",
+  "epigrafe": "PLL 101/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.179, DE 17 DE JANEIRO DE 2025.",
+ "ementa": "Cria o serviço S.O.S Idoso – 24h no âmbito do Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de janeiro de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criado o serviço S.O.S Idoso – 24h, destinado a receber denúncias, de forma ininterrupta, acerca de crimes e maus tratos praticados contra pessoas idosas no âmbito do Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O serviço S.O.S Idoso – 24h será regulamentado pelo Executivo Municipal, que criará um fluxo administrativo formal por meio da Coordenação de Direitos do Idoso (CDI)."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A CDI receberá as denúncias presencialmente, por meio de contato telefônico, e-mail ou qualquer outro meio eletrônico de comunicação, e tomará as decisões que forem de sua competência."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

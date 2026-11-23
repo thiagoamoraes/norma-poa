@@ -1,0 +1,94 @@
+{
+ "idSapl": 49649,
+ "rotulo": "Lei municipal nº 14.158, de 30 de dezembro de 2024",
+ "sha256Origem": "2ad0c5d6dacba5355f0f2769f6dffc4f4642f4719ea7531f6de1b9500861f50a",
+ "estruturadoEm": "2026-11-23T09:26:29.737Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14158",
+  "ano": "2024",
+  "data": "2024-12-30",
+  "epigrafe": "PLL 194/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.158, DE 30 DE DEZEMBRO DE 2024.",
+ "ementa": "Institui a obrigatoriedade de realização anual de exercícios de fechamento das comportas do Sistema de Proteção Contra Cheias no Município de Porto Alegre, sempre no dia 3 de maio.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída a obrigatoriedade de realização anual de exercícios de fechamento das comportas do Sistema de Proteção Contra Cheias no Município de Porto Alegre, sempre no dia 3 de maio."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Os exercícios de fechamento das comportas de que trata o caput deste artigo serão realizados em todo o Sistema de Proteção Contra Cheias, incluindo o Muro da Mauá, diques e casas de bombas."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Participarão dos exercícios de fechamento de que trata o caput deste artigo representantes acadêmicos, tais como hidrólogos, representantes militares, tais como integrantes do Corpo de Bombeiros Militar do Rio Grande do Sul (CBMRS), representantes do Executivo e do Legislativo Municipal, representantes do Executivo, do Legislativo e do Judiciário estaduais, e representante da União."
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Será facultativa a presença dos representantes do Estado e da União referidos no § 2º deste artigo."
+  },
+  {
+   "id": "art-1/par-4",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "Poderão ser convocados para o exercício de que trata o caput deste artigo servidores efetivos e comissionados do Executivo Municipal."
+  },
+  {
+   "id": "art-1/par-5",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "texto": "Os servidores convocados para o exercício de que trata o caput deste artigo que não façam parte do corpo técnico do Sistema de Proteção Contra Cheias deverão ser treinados previamente, em tempo hábil, por profissionais habilitados."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O resultado dos exercícios de que trata o caput do art. 1º desta Lei será divulgado no Diário Oficial Eletrônico de Porto Alegre (DOPA-e), respeitando o princípio da publicidade."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 8,
+   "cobertura": 0.981,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "idSapl": 50151,
+ "rotulo": "Lei municipal nº 14.241, de 30 de maio de 2025",
+ "sha256Origem": "902c5866fbe291734f6d2c727b5e370f294263ee029903efb12a18f258f611ba",
+ "estruturadoEm": "2026-11-23T09:26:29.378Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14241",
+  "ano": "2025",
+  "data": "2025-05-30",
+  "epigrafe": "LEI Nº 14.241, DE 30 DE MAIO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria e extingue Funções Gratificadas constantes na letra c do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, que estabelece o plano de carreira dos funcionários da Administração Centralizada do Município e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de maio de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam criadas, no item 1 do inc. II da letra c do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, 4 (quatro) Funções Gratificadas (FGs) de Coordenador – FG7 (1.1.1.7)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam extintas, no item 1 do inc. II da letra c do Anexo I da Lei nº 6.309, de 1988, as seguintes FGs:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "2 (duas) FGs de Responsável por Atividades II – FG2 (1.1.1.2);"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "3 (três) FGs de Responsável por Atividades III – FG3 (1.1.1.3);"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "3 (três) FGs de Chefe de Equipe – FG5 (1.1.1.5); e"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "1 (uma) FG de Chefe de Unidade – FG6 (1.1.1.6)."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica atualizado o quantitativo de FGs no item 1 do inc. II da letra c do Anexo I da Lei nº 6.309, de 1988, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão à conta de dotações orçamentárias próprias do Executivo Municipal."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "As alterações decorrentes desta Lei serão regulamentadas por decreto, no que couber."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“ANEXO I\n....................................................................................................................................\nc) ................................................................................................................................\n....................................................................................................................................\nII – .............................................................................................................................\n1. ...............................................................................................................................\nCoordenador – FG7 (1.1.1.7) – 45;\n.................................................................................................................................\nChefe de Unidade – FG6 (1.1.1.6) – 170;\n.................................................................................................................................\nChefe de Equipe – FG5 (1.1.1.5) – 281;\n.................................................................................................................................\nResponsável por Atividades III – FG3 (1.1.1.3) – 397;\nResponsável por Atividades II – FG2 (1.1.1.2) – 140;\n.........................................................................................................................” (NR)"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 11,
+   "cobertura": 0.953,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 15,
+     "caracteres": 1392,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

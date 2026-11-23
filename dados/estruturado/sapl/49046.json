@@ -1,0 +1,60 @@
+{
+ "idSapl": 49046,
+ "rotulo": "Lei municipal nº 14.016, de 08 de agosto de 2024",
+ "sha256Origem": "1a384bae0e6c4ba9b9a4786b92c40f41b85a9eb03da6f46f01b3d8493189b17e",
+ "estruturadoEm": "2026-11-23T09:26:29.970Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14016",
+  "ano": "2024",
+  "data": "2024-08-08",
+  "epigrafe": "LEI Nº 14.016, DE 8 DE AGOSTO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o inc. VIII do § 1º e inclui §§ 9º e 10 no art. 2º e altera o art. 101 na Lei nº 11.582, de 21 de fevereiro de 2014 – que institui o serviço público de transporte individual por táxi no Município de Porto Alegre –, reduzindo de 50h (cinquenta horas) para 28h (vinte e oito horas) a carga horária exigida no Curso de Formação Profissional, dispensando a realização desse Curso no caso de migração de permissionário para autorizatário, exigindo novo Curso de Formação Profissional para o profissional afastado por mais de 5 (cinco) anos e permitindo aos permissionários e aos autorizatários o registro como condutores auxiliares no prefixo em que seu cônjuge, ascendente, descendente ou colateral figurar como permissionário pessoa física.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de agosto de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o inc. VIII do § 1º e ficam incluídos §§ 9º e 10 no art. 2º da Lei nº 11.582, de 21 de fevereiro de 2014, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º ......................................................................................................................\n§ 1º ............................................................................................................................\n....................................................................................................................................\nVIII – apresentar comprovante de aprovação no Curso de Formação Profissional, com carga horária de 28h (vinte e oito horas), ministrado presencialmente ou por meio de educação a distância (EAD), conforme regulamentação; e\n....................................................................................................................................\n....................................................................................................................................\n§ 9º No caso de migração da categoria de permissionário para autorizatário, fica o interessado dispensado da realização do curso de que trata o inc. VIII do § 1º deste artigo.\n§ 10 Será necessária a realização de novo Curso de Formação Profissional em caso de afastamento das atividades profissionais por mais de 5 (cinco) anos.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o art. 101 da Lei nº 11.582, de 2014, conforme segue:",
+   "blocoDeAlteracao": "“Art. 101. Fica permitido aos permissionários descritos nos arts. 89 e 90 desta Lei e aos autorizatários o registro como condutores auxiliares no prefixo em que seu cônjuge, ascendente, descendente ou colateral figurar como permissionário pessoa física.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.977,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

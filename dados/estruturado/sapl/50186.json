@@ -1,0 +1,86 @@
+{
+ "idSapl": 50186,
+ "rotulo": "Lei municipal nº 14.248, de 05 de junho de 2025",
+ "sha256Origem": "2ad8e16640ffecdd5df1fad76727db0030fa08c47c99f6a4a8f8adea509bde94",
+ "estruturadoEm": "2026-11-23T09:26:29.366Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14248",
+  "ano": "2025",
+  "data": "2025-06-05",
+  "epigrafe": "Câmara Municipal",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "veto_derrubado",
+   "baseLegal": null
+  }
+ },
+ "cabecalhoTexto": "de Porto egre PROC. Nº 0182/25 PLL Nº 030/25 LEI Nº 14.248, DE 05 DE JUNHO DE 2025.",
+ "ementa": "Institui o Programa Patrulha Maria da Penha como política pública municipal permanente. A PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os 88 52 e 7º do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal manteve e eu promulgo o dispositivo da Lei nº 14.248, de 05 de junho de 2025, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 06 DE JUNHO DE 2025.\n| , “4 Documento assinado eletronicamente por Nadia Rodrigues Silveira Gerhard, Presidente, em\nsell o 06/06/2025, às 16:35, conforme horário oficial de Brasília, com fundamento no Art. 10, 8 2º da\nLá\namtnnura Medida Provisória nº 2200-2/2001 e nas Resoluções de Mesa nºs 491/15, 495/15 e 504/15 da\nEcec Câmara Municipal de Porto Alegre.\na: | Documento assinado eletronicamente por Tiago Jose Albrecht, Vereador, em 09/06/2025, às 19:25,\nsell RB conforme horário oficial de Brasília, com fundamento no Art. 10, 8 2º da Medida Provisória nº 2200-\nassinatura (L 2/2001 e nas Resoluções de Mesa nºs 491/15, 495/15 e 504/15 da Câmara Municipal de Porto\n| eletrônica\nAlegre.\nA autenticidade deste documento pode ser conferida no site https://sei.camarapoa.rs.gov.br,\n+ informando o código verificador 0913730 e o código CRC 8DBEF979.\nReferência: Processo nº 368.00019/2025-16 SEI nº 0913730",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa Patrulha Maria da Penha como política pública municipal permanente."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Programa Patrulha Maria da Penha será voltado à prevenção e ao combate à violência contra a mulher, mediante a fiscalização das medidas protetivas de urgência previstas na Lei Federal nº 11.340, de 7 de agosto de 2006 — Lei Maria da Penha."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Executivo Municipal poderá estabelecer parcerias com órgãos do Sistema Único de Segurança Pública e do Sistema de Justiça para fortalecer a execução do Programa de que trata esta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Executivo Municipal destinará servidores para o atendimento integral às mulheres vítimas de violência, com o objetivo de fortalecer a política pública municipal, os quais: |— serão preferencialmente do sexo feminino; e || — receberão capacitação contínua para garantir atendimento especializado."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "promulgacao_parcial",
+   "fecho_com_texto_demais"
+  ],
+  "avisos": [
+   "texto_de_ocr"
+  ],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 6,
+   "cobertura": 0.973,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

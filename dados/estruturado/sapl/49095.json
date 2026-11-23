@@ -1,0 +1,80 @@
+{
+ "idSapl": 49095,
+ "rotulo": "Lei municipal nº 14.025, de 13 de agosto de 2024",
+ "sha256Origem": "874554e85bfc7a44a6071e44f64350c92c47adde746922b3e16ed92f54b9ab44",
+ "estruturadoEm": "2026-11-23T09:26:29.954Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14025",
+  "ano": "2024",
+  "data": "2024-08-13",
+  "epigrafe": "PROC. Nº 0381/24",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 190/24 SEI Nº 025.00039/2024-98 LEI Nº 14.025, DE 13 DE AGOSTO DE 2024.",
+ "ementa": "Suspende, pelo período de 6 (seis) meses, o pagamento das parcelas referentes à aquisição de terrenos localizados no Parque Industrial da Restinga, em razão dos efeitos decorrentes do estado de calamidade pública de que trata o Decreto nº 22.647, de 2 de maio de 2024.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 14.025, de 13 de agosto de 2024, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 13 DE AGOSTO DE 2024.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica suspenso, pelo período de 6 (seis) meses, o pagamento das parcelas referentes à aquisição de terrenos localizados no Parque Industrial da Restinga, em razão dos efeitos decorrentes do estado de calamidade pública de que trata o Decreto nº 22.647, de 2 de maio de 2024."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O período de suspensão terá início nas parcelas vincendas no mês de maio do ano de 2024."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O período de suspensão de que trata o caput deste artigo poderá ser prorrogado caso perdure a situação de calamidade pública."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A suspensão de que trata o art. 1º desta Lei aplica-se a todas as parcelas com vencimento dentro do período estabelecido nesta Lei."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As parcelas de que trata o caput deste artigo terão seus vencimentos prorrogados para o final do cronograma de pagamento originalmente pactuado, sem a incidência de juros, multas ou quaisquer outros encargos adicionais."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 6,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

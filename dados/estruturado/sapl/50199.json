@@ -1,0 +1,69 @@
+{
+ "idSapl": 50199,
+ "rotulo": "Lei municipal nº 14.255, de 16 de junho de 2025",
+ "sha256Origem": "428e44db7e7a3836a79554d6b0d244c8bacbc88fc892f3b92d833576dd2543b2",
+ "estruturadoEm": "2026-11-23T09:26:29.346Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14255",
+  "ano": "2025",
+  "data": "2025-06-16",
+  "epigrafe": "PLL Nº 179/24",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.255, DE 16 DE JUNHO DE 2025.",
+ "ementa": "Altera o § 1º do art. 1º e inclui inc. IV e parágrafo único no art. 2º e § 8º no art. 3º, todos da Lei nº 13.640, de 29 de setembro de 2023 – que institui o Programa de Recuperação Emergencial e Auxílio Humanitário destinado à mitigação de danos à população afetada por situações de emergência ou calamidade pública, no Município de Porto Alegre –, acrescentando como objetivo do Programa promover treinamento de agentes políticos e de servidores públicos para atuação em situações de emergência ou de calamidade pública, com a possibilidade de estendê-lo à população civil conforme disponibilidade orçamentária, e estabelecendo a possibilidade de prorrogação, por até 12 (doze) meses, do benefício referido no inc. II do caput do art. 3º daquela Lei.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 16 de junho de 2025.\nSebastião Melo\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o § 1º do art. 1º da Lei nº 13.640, de 29 de setembro de 2023, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º ……………………………………………………………………………\n§ 1º A execução do Programa de que trata o caput deste artigo fica vinculada à\ndecretação de emergência ou calamidade pública, salvo o objetivo disposto no inc. IV do art. 2º e\no benefício disposto no inc. II do art. 3º desta Lei.\n……………………………………………………………………………….” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam incluídos inc. IV e parágrafo único no art. 2º da Lei nº 13.640, de 2023, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º …………………………………………………………………...……......\n………………………………………………………………………………………\nIV – promover, de forma continuada, o treinamento de agentes políticos e de\nservidores públicos, efetivos ou comissionados, para atuação em situações de emergência ou de\ncalamidade pública, podendo ser estendido à população civil, conforme disponibilidade\norçamentária.\nParágrafo único. O treinamento de que trata o inc. IV deste artigo será ministrado\npor entidades especializadas a serem determinadas pelo Executivo Municipal, preferencialmente\ncom participação de profissionais do Corpo de Bombeiros Militar do Rio Grande do Sul e da\nDefesa Civil.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica incluído § 8º no art. 3º da Lei nº 13.640, de 2023, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º ………………………………………………………………………….....\n………………………………………………………………………………………\n§ 8º O benefício referido no inc. II do caput deste artigo poderá ser prorrogado\npor até 12 (doze) meses, observando-se o valor previsto no § 3º deste artigo, conforme\nparâmetros a serem regulamentados por decreto.” (NR)"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.985,
+   "blocosDeAlteracao": 3,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

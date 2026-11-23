@@ -1,0 +1,52 @@
+{
+ "idSapl": 49227,
+ "rotulo": "Lei municipal nº 14.066, de 17 de setembro de 2024",
+ "sha256Origem": "98cf7301169bafbfaf8a68f473005fd6ed00c7f771f235a782039719bc9f7445",
+ "estruturadoEm": "2026-11-23T09:26:29.897Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14066",
+  "ano": "2024",
+  "data": "2024-09-17",
+  "epigrafe": "LEI Nº 14.066, DE 17 DE SETEMBRO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o § 2º do art. 2º da Lei nº 10.428, de 6 de maio de 2008, possibilitando estender o período de permanência do Acampamento Farroupilha até o domingo imediatamente subsequente ao dia 20 de setembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de setembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o § 2º do art. 2º da Lei nº 10.428, de 6 de maio de 2008, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º ......................................................................................................................\n....................................................................................................................................\n§ 2º A permanência do Acampamento Farroupilha deverá compreender o período de 25 de agosto a 20 de setembro, o qual poderá ser estendido até o domingo imediatamente subsequente, exceto quando o feriado estadual de 20 de setembro ocorrer em sábado, domingo ou segunda-feira.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.953,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

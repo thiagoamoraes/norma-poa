@@ -1,0 +1,625 @@
+{
+ "idSapl": 48993,
+ "rotulo": "Lei municipal nº 14.011, de 31 de julho de 2024",
+ "sha256Origem": "e61bb95f4494915e34a1832798f6735de4956397e13b6517695fb476d6acc3d2",
+ "estruturadoEm": "2026-11-23T09:26:29.982Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14011",
+  "ano": "2024",
+  "data": "2024-07-31",
+  "epigrafe": "LEI Nº 14.011, DE 31 DE JULHO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria a Política Municipal de Economia Solidária e o Sistema Municipal de Economia Solidária e sugere a criação do Conselho Municipal de Economia Solidária – Lei Paul Singer –, constituindo o Marco Regulatório Municipal da Economia Solidária.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de julho de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam criados a Política Municipal de Economia Solidária e o Sistema Municipal de Economia Solidária e fica sugerida a criação do Conselho Municipal de Economia Solidária – Lei Paul Singer –, constituindo o Marco Regulatório Municipal da Economia Solidária.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DAS DISPOSIÇÕES GERAIS"
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os Empreendimentos Econômicos Solidários (EESs) asseguram o direito ao trabalho associado e cooperativado, integrado às estratégias gerais de desenvolvimento sustentável e aos investimentos sociais que visam à promoção de atividades econômicas autogestionárias e sua integração em redes de cooperação na produção, comercialização e consumo de bens e serviços."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Para fins desta Lei, consideram-se atividades de Economia Solidária aquelas de organização da produção e da comercialização de bens e de serviços, da distribuição, do consumo e do crédito, tendo por base os seguintes princípios:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "autogestão, cooperação e solidariedade, com garantia de adesão livre e voluntária;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "administração democrática e participativa, busca da inserção comunitária e garantia da soberania assemblear;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "estabelecimento de condições de trabalho decentes e distribuição equitativa das riquezas produzidas coletivamente;"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "desenvolvimento local, regional e territorial integrado e sustentável, respeitando os ecossistemas e a conservação do meio ambiente;"
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "centralidade no ser humano, com o estabelecimento de relações igualitárias entre diferentes;"
+  },
+  {
+   "id": "art-3/inc-VI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "desenvolvimento das atividades em cooperação entre empreendimentos, fomentando-se a criação e a atuação em rede;"
+  },
+  {
+   "id": "art-3/inc-VII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "prática de preços justos, de acordo com o Sistema Nacional de Comércio Justo e Solidário (SCJS);"
+  },
+  {
+   "id": "art-3/inc-VIII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "garantia de direitos e promoção dos direitos humanos nas relações, notadamente com equidade de direitos de gênero, geração, raça, etnia, orientação sexual e identidade de gênero;"
+  },
+  {
+   "id": "art-3/inc-IX",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "transparência na gestão dos recursos e na justa distribuição dos resultados; e"
+  },
+  {
+   "id": "art-3/inc-X",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "texto": "estímulo à participação efetiva dos associados no fortalecimento de seus empreendimentos."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Em consonância com os princípios previstos no art. 3º desta Lei, são considerados EESs aqueles que possuem, concomitantemente, as seguintes características:"
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "ser uma organização coletiva e democrática, singular ou complexa, cujos participantes ou sócios são trabalhadores do meio urbano ou rural;"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "exercer atividades de natureza econômica como razão primordial de sua existência, tendo seus associados direta ou preponderantemente envolvidos na consecução de seu objetivo social;"
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "distribuir os resultados financeiros da atividade econômica de acordo com a deliberação prevista no ato constitutivo, considerando as operações econômicas realizadas pelo coletivo;"
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "realizar pelo menos 1 (uma) reunião ou assembleia trimestral para deliberação de questões relativas à organização das atividades realizadas pelo empreendimento; e"
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "não ter como objeto social a intermediação do trabalho subordinado como mão de obra."
+  },
+  {
+   "id": "art-4/par-1",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para efeitos desta Lei, os EESs podem assumir diferentes formas societárias, desde que contemplem as características do caput deste artigo e que se enquadrem nas disposições de empreendimento solidário definidas pelo Conselho Municipal de Economia Solidária (CMES), e seguindo as diretrizes do Cadastro Nacional de Empreendimentos Econômicos Solidários – CADSOL."
+  },
+  {
+   "id": "art-4/par-2",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Na medida em que se consolidam, os EESs podem destinar parte de seu resultado operacional líquido para auxiliar outros empreendimentos equivalentes que estejam em situação precária, com vistas ao seu desenvolvimento e à formação política, econômica e social de seus integrantes."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "A Política Municipal de Economia Solidária (PMES) constitui-se em instrumento pelo qual o Poder Público, com a participação ativa da sociedade civil organizada, formulará e implementará planos, programas e ações com vistas ao fomento da economia solidária.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "II",
+     "titulo": "DA POLÍTICA MUNICIPAL DE ECONOMIA SOLIDÁRIA"
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "São objetivos da PMES:"
+  },
+  {
+   "id": "art-6/inc-I",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "contribuir para a concretização dos preceitos constitucionais que garantam aos cidadãos o direito a uma vida digna, estimulando o trabalho, a organização e a participação social;"
+  },
+  {
+   "id": "art-6/inc-II",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "fortalecer e estimular o associativismo e o cooperativismo que se caracterize como empreendimento da economia solidária, atendendo ao § 2º do art. 174 da Constituição Federal, reconhecendo e fomentando as diferentes formas organizativas da economia solidária;"
+  },
+  {
+   "id": "art-6/inc-III",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "contribuir para a geração de riqueza, a melhoria da qualidade de vida e a promoção da justiça social, propiciando condições concretas para a participação efetiva de todos;"
+  },
+  {
+   "id": "art-6/inc-IV",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "promover e democratizar o acesso de iniciativas de economia solidária aos fundos públicos e instrumentos de fomento, aos meios de produção e às tecnologias sociais;"
+  },
+  {
+   "id": "art-6/inc-V",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "apoiar a utilização de moedas sociais em iniciativas de finanças solidárias, incluindo-se programas sociais de distribuição de renda do Município e premiações;"
+  },
+  {
+   "id": "art-6/inc-VI",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "fomentar a articulação em redes entre os grupos de economia solidária, arranjos produtivos e cadeias produtivas, que integrem grupos de consumidores, produtores e prestadores de serviços para as práticas de finanças solidárias, consumo ético, produção sustentável e do comércio justo solidário; e"
+  },
+  {
+   "id": "art-6/inc-VII",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "promover cursos de difusão das práticas e princípios da economia solidária para os servidores municipais, fomentando ainda a integração, a interação e a intersetorialidade das políticas públicas que apresentem a economia solidária como alternativa de geração de renda."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "A PMES organiza-se nos seguintes eixos de ações:"
+  },
+  {
+   "id": "art-7/inc-I",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "dimensão pedagógica, contemplando educação, formação, assistência técnica e qualificação social e profissional no meio rural e urbano e a divulgação da economia solidária no Município de Porto Alegre;"
+  },
+  {
+   "id": "art-7/inc-II",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "acesso ao crédito, preferencialmente por meio das finanças solidárias, tais como fundos rotativos solidários, cooperativas de crédito solidárias e bancos comunitários de desenvolvimento; e"
+  },
+  {
+   "id": "art-7/inc-III",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "fomento à comercialização, ao comércio justo e solidário, a compras e trocas solidárias e ao consumo responsável e aos circuitos de feiras de comercialização de produtos de EESs e Redes em espaços institucionais locais e equipamentos públicos de grande circulação."
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "A PMES beneficiará os EESs autônomos ou integrados a políticas públicas diversas desenvolvidas pelo Poder Público que atuem com a população em situação de vulnerabilidade social."
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "texto": "O Poder Público poderá implantar núcleos, centros públicos e incubadoras públicas de economia solidária em todas as regiões da cidade, voltados à assistência técnica, gerencial, de assessoria e ao acompanhamento dos EESs."
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "texto": "As ações de educação, formação, assistência técnica e qualificação previstas nesta Lei deverão incluir a elevação de escolaridade, a formação para a cidadania e para a prática da autogestão de EESs e Redes de Cooperação, de acordo com os princípios da educação popular.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Das Ações Pedagógicas, de Pesquisa e de Publicidade"
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-unico",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As ações a que se refere o caput deste artigo serão realizadas prioritariamente, de forma descentralizada, por instituições de ensino superior, entidades da sociedade civil sem fins lucrativos e instituições governamentais federais, estaduais e municipais."
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "texto": "Por meio de articulação com as instituições de ensino, iniciativa privada e organizações da sociedade civil, o Poder Público poderá oferecer cursos para trabalhadores dos EESs, a fim de garantir a profissionalização e a qualificação técnica e tecnológica necessárias ao desempenho de sua atividade."
+  },
+  {
+   "id": "art-11/par-unico",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Deverá ser garantido o apoio à pesquisa, ao desenvolvimento, à tecnociência solidária, à apropriação e à transferência de tecnologias voltadas ao empreendedorismo social, podendo ser celebradas parcerias e apoio de órgãos e entidades da Administração Pública Municipal."
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "texto": "A fim de promover o acesso a serviços de finanças e crédito, será fomentado o financiamento para capital de giro, custeio e aquisição de bens móveis e imóveis destinados à consecução das atividades econômicas fomentadas.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Do Acesso ao Crédito e do Fomento à Comercialização"
+    }
+   ]
+  },
+  {
+   "id": "art-12/par-unico",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Fica o Executivo Municipal autorizado a aportar recursos destinados a linhas de crédito para os EESs, baseado nas diretrizes de finanças solidárias."
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "texto": "As ações de fomento ao comércio justo e solidário e ao consumo responsável, previstas na Política criada por esta Lei, devem apoiar a constituição de redes cooperativas e de cadeias solidárias de produção, de serviço, de comercialização, de logística e de consumo solidários, o assessoramento técnico contínuo e sistemático à comercialização e a promoção do consumo responsável."
+  },
+  {
+   "id": "art-13/par-unico",
+   "pai": "art-13",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As ações referidas no caput deste artigo devem atender aos princípios e critérios do SCJS, definido pelo Decreto Federal nº 7.358, de 17 de novembro de 2010."
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "texto": "Os EESs e as Redes de Cooperação terão preferência de participação em agendas, eventos turísticos, institucionais e culturais e feiras, entre outros, obrigando-se o Executivo Municipal a convidá-los, quando for o caso, em todos os eventos que promova ou apoie."
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "texto": "O Sistema Municipal de Economia Solidária (Simes) tem por finalidade promover a consecução da PMES e a garantia do direito ao trabalho associado.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "III",
+     "titulo": "DO SISTEMA MUNICIPAL DE ECONOMIA SOLIDÁRIA"
+    }
+   ]
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "texto": "O Simes reger-se-á pelos mesmos princípios previstos na PMES, nos termos do art. 3º desta Lei, tendo como diretrizes:"
+  },
+  {
+   "id": "art-16/inc-I",
+   "pai": "art-16",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a promoção da intersetorialidade dos programas e das ações governamentais e não governamentais e da cooperação entre o setor público e as organizações da sociedade civil no desenvolvimento de atividades comuns de economia solidária;"
+  },
+  {
+   "id": "art-16/inc-II",
+   "pai": "art-16",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a descentralização das ações e da coordenação, em regime de colaboração, entre as diferentes esferas de governo, articulando os sistemas de informações existentes no âmbito federal, estadual e municipal; e"
+  },
+  {
+   "id": "art-16/inc-III",
+   "pai": "art-16",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a articulação entre orçamento e gestão, a fim de promover ações específicas e efetivas para o desenvolvimento da economia solidária."
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "texto": "O Simes tem por objetivos implementar a PMES, estimular a integração entre os entes federativos e entre governo e sociedade civil, bem como promover o acompanhamento, o monitoramento e a avaliação da Política."
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "texto": "São instrumentos da PMES:"
+  },
+  {
+   "id": "art-18/inc-I",
+   "pai": "art-18",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a Conferência Municipal de Economia Solidária;"
+  },
+  {
+   "id": "art-18/inc-II",
+   "pai": "art-18",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o CMES;"
+  },
+  {
+   "id": "art-18/inc-III",
+   "pai": "art-18",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a Temática de Desenvolvimento Econômico do Orçamento Participativo;"
+  },
+  {
+   "id": "art-18/inc-IV",
+   "pai": "art-18",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "os Centros Públicos e Incubadoras Municipais de Economia Solidária;"
+  },
+  {
+   "id": "art-18/inc-V",
+   "pai": "art-18",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "a Rede de Instituições Públicas das diferentes esferas de governo; e"
+  },
+  {
+   "id": "art-18/inc-VI",
+   "pai": "art-18",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "a Rede de Organizações Sociais da Economia Solidária;"
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "texto": "O CMES é a instância responsável pela proposição de ações e políticas públicas a partir das diretrizes e das prioridades aprovadas na Conferência Municipal de Economia Solidária de implementação na PMES e da avaliação do Simes."
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "texto": "Fica sugerida a Criação do Conselho Municipal de Economia Solidária (CMES), órgão de articulação e coordenação das políticas e ações desenvolvidas pelos integrantes do Simes, com as seguintes atribuições:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Do Conselho Municipal de Economia Solidária"
+    }
+   ]
+  },
+  {
+   "id": "art-20/inc-I",
+   "pai": "art-20",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "convocar a Conferência Municipal de Economia Solidária, com periodicidade não superior a 4 (quatro) anos, e definir seus parâmetros de composição, organização e funcionamento, por meio de regulamento próprio;"
+  },
+  {
+   "id": "art-20/inc-II",
+   "pai": "art-20",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "propor ao Executivo Municipal as diretrizes e prioridades da PMES;"
+  },
+  {
+   "id": "art-20/inc-III",
+   "pai": "art-20",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "articular, acompanhar e monitorar, em regime de colaboração com os demais integrantes do Sistema, a implementação e a convergência de ações inerentes à PMES;"
+  },
+  {
+   "id": "art-20/inc-IV",
+   "pai": "art-20",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "definir, em regimento, os critérios e procedimentos de adesão ao Simes, incluindo regras de certificação para enquadramento como EESs e ações de inclusão e apoio a empreendimentos em formação para este enquadramento;"
+  },
+  {
+   "id": "art-20/inc-V",
+   "pai": "art-20",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "instituir mecanismos permanentes de articulação com órgãos colegiados congêneres de economia solidária no estado e no âmbito federal, com a finalidade de promover o diálogo e a convergência das ações que integram o Simes; e"
+  },
+  {
+   "id": "art-20/inc-VI",
+   "pai": "art-20",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "mobilizar e apoiar entidades da sociedade civil na discussão e na implementação de ações públicas de economia solidária."
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "texto": "O CMES terá composição paritária tripartite entre o Poder Público, as organizações da sociedade civil da economia solidária e empreendimentos ou redes econômicas, sendo:"
+  },
+  {
+   "id": "art-21/inc-I",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "6 (seis) representantes do Poder Público;"
+  },
+  {
+   "id": "art-21/inc-II",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "6 (seis) representantes de organizações da sociedade civil; e"
+  },
+  {
+   "id": "art-21/inc-III",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "6 (seis) representantes de empreendimentos ou redes econômicas."
+  },
+  {
+   "id": "art-21/par-1",
+   "pai": "art-21",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A Coordenação do CMES será sempre alternada entre o Poder Público, a sociedade civil e empreendimentos, conforme regimento interno a ser definido na primeira reunião do CMES."
+  },
+  {
+   "id": "art-21/par-2",
+   "pai": "art-21",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A atuação dos conselheiros, efetivos e suplentes, será considerada serviço de relevante interesse público e não remunerada."
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "texto": "Fica autorizada a utilização de recursos de Fundo Municipal do Trabalho e Renda, a ser criado pelo Município de Porto Alegre, conforme regulamentação própria, com o objetivo de centralizar e gerenciar recursos provindos de financiamentos e recursos orçamentários para os programas estruturados no âmbito do Simes, destinados a implementar a PMES."
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "texto": "Poderão ser firmadas parcerias com órgãos e entidades da Administração Direta e Indireta, nas esferas federal, estadual e municipal, bem como entidades privadas, com o objetivo de implementar as atividades previstas nesta Lei, por meio de cooperação técnica, financeira, de gestão e científica.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "IV",
+     "titulo": "DISPOSIÇÕES FINAIS"
+    }
+   ]
+  },
+  {
+   "id": "art-24",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 24.",
+   "texto": "As despesas com a execução desta Lei correrão por conta de dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-25",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 25.",
+   "texto": "Para a consecução dos objetivos previstos nesta Lei poderão ser recebidas verbas de outros entes federados."
+  },
+  {
+   "id": "art-26",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 26.",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 26,
+   "dispositivos": 77,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

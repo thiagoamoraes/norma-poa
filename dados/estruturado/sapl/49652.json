@@ -1,0 +1,80 @@
+{
+ "idSapl": 49652,
+ "rotulo": "Lei municipal nº 14.161, de 30 de dezembro de 2024",
+ "sha256Origem": "d85a914fbf6d64b6d69609fb47313f1dd9fa395209054e1f5ed9f1579e8079a1",
+ "estruturadoEm": "2026-11-23T09:26:29.732Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14161",
+  "ano": "2024",
+  "data": "2024-12-30",
+  "epigrafe": "PLL 670/23",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.161, DE 30 DE DEZEMBRO DE 2024.",
+ "ementa": "Institui o Selo Autista a Bordo.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Selo Autista a Bordo."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Selo Autista a Bordo identificará os automóveis que transportam pessoas com Transtorno do Espectro Autista (TEA) no Município de Porto Alegre, com o objetivo de conscientizar a sociedade civil na forma de agir em situações de possível risco envolvendo os respectivos veículos."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Selo Autista a Bordo será concedido a pessoas com TEA e a seus responsáveis legais, desde que comprovada tal condição."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Município estabelecerá os procedimentos e o rol de documentos necessários para a concessão do Selo Autista a Bordo, podendo firmar convênios e parcerias para a sua confecção."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O Executivo Municipal, por meio de suas secretarias ou autarquias competentes, e juntamente com entidades civis, poderá planejar e desenvolver campanhas que visem à conscientização de motoristas sobre o objeto desta Lei."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 6,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "idSapl": 49047,
+ "rotulo": "Lei municipal nº 14.017, de 08 de agosto de 2024",
+ "sha256Origem": "c3f6cb2d6e3a47de567dd120e2dbabb7bb6527ae5a0156645928b81a36583ac1",
+ "estruturadoEm": "2026-11-23T09:26:29.969Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14017",
+  "ano": "2024",
+  "data": "2024-08-08",
+  "epigrafe": "LEI Nº 14.017, DE 8 DE AGOSTO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece a possibilidade de utilização do sinal luminoso amarelo intermitente no período noturno nos semáforos que especifica.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de agosto de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Os semáforos localizados nos pontos que não envolvem riscos de acidentes, assim considerados pelo órgão competente pela regulação do trânsito, poderão permanecer com o sinal luminoso amarelo intermitente no período noturno."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O período referido no caput deste artigo será, preferencialmente, da 0h (zero hora) às 5h (cinco horas), ressalvada a decisão da autoridade de trânsito que poderá estabelecer outros horários para o início e o término da operação em sistema de alerta, conforme as características de cada local."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.956,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

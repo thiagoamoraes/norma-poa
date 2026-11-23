@@ -1,0 +1,52 @@
+{
+ "idSapl": 50162,
+ "rotulo": "Lei municipal nº 14.245, de 02 de junho de 2025",
+ "sha256Origem": "31d728ef058bc68a675154a0c40860021235d4baef0d16f66bc2a75f03381dda",
+ "estruturadoEm": "2026-11-23T09:26:29.372Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14245",
+  "ano": "2025",
+  "data": "2025-06-02",
+  "epigrafe": "PLL Nº 673/23",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.245, DE 2 DE JUNHO DE 2025.",
+ "ementa": "Declara como bem cultural de natureza imaterial do Município de Porto Alegre a Banda de Música da Ajudância-Geral da Brigada Militar.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de junho de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica declarada como bem cultural de natureza imaterial do Município de Porto Alegre a Banda de Música da Ajudância-Geral da Brigada Militar."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

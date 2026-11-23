@@ -1,0 +1,52 @@
+{
+ "idSapl": 49555,
+ "rotulo": "Lei municipal nº 14.125, de 11 de dezembro de 2024",
+ "sha256Origem": "349c6ea98a36b6e36c5d7c3d01c7623e97dcf5f51a99ab30ca09d449ef75cbd8",
+ "estruturadoEm": "2026-11-23T09:26:29.813Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14125",
+  "ano": "2024",
+  "data": "2024-12-11",
+  "epigrafe": "LEI Nº 14.125, DE 11 DE DEZEMBRO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui §§ 1º e 2º no art. 1º da Lei nº 11.233, de 22 de março de 2012, que proíbe a cobrança para utilização de banheiros em estádios esportivos, terminais rodoviários, terminais metroviários e espaços públicos no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de dezembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam incluídos §§ 1º e 2º no art. 1º da Lei nº 11.233, de 22 de março de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º .....................................................................................................................\n§ 1º A vedação prevista no caput deste artigo não se aplica aos banheiros em locais que tenham finalidade de exploração comercial, dentre eles os próprios municipais geridos pelo Poder Público, bem como os espaços cedidos mediante consórcio, convênio, concessão, parceria público-privada ou qualquer outro instrumento ou forma de avença similar com o Poder Público Municipal.\n§ 2º Para o disposto no § 1º deste artigo, fica condicionado que no mesmo imóvel igualmente seja disponibilizado, no mínimo, 50% (cinquenta por cento) dos sanitários para uso gratuito, e que a receita arrecadada seja aplicada na manutenção e na conservação dos referidos espaços, incluindo fornecimento de materiais.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

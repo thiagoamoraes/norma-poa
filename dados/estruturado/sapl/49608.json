@@ -1,0 +1,100 @@
+{
+ "idSapl": 49608,
+ "rotulo": "Lei municipal nº 14.140, de 19 de dezembro de 2024",
+ "sha256Origem": "3efb285c12f0c34560f12fa72b68fdbdbda56df8a98781c09bdaae1413bbee8c",
+ "estruturadoEm": "2026-11-23T09:26:29.787Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14140",
+  "ano": "2024",
+  "data": "2024-12-19",
+  "epigrafe": "LEI Nº 14.140, DE 19 DE DEZEMBRO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Obriga a empresa concessionária ou permissionária de energia elétrica a realizar a manutenção, o alinhamento, a substituição e a retirada de fios e cabos de energia elétrica e de fibra ótica de telecomunicações avariados, inutilizados ou em desuso presentes nos postes de energia elétrica localizados no Município.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 19 de dezembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica a empresa concessionária ou permissionária de energia elétrica obrigada a realizar a manutenção, o alinhamento, a substituição e a retirada de fios e cabos de energia elétrica e de fibra ótica de telecomunicações avariados, inutilizados ou em desuso presentes nos postes de energia elétrica localizados no Município."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A obrigação imposta no caput deste artigo deverá ser realizada sem qualquer ônus para o Município."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A empresa concessionária ou permissionária de energia elétrica poderá notificar as demais empresas que utilizam os postes como suporte de seus cabeamentos a fim de que estas façam o alinhamento e a retirada de cabos e demais instrumentos que não estão mais sendo utilizados, sem prejuízo da obrigação principal constante no caput deste artigo."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Executivo Municipal notificará a empresa concessionária ou permissionária de energia elétrica para que atenda ao disposto no art. 1º desta Lei."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A notificação especificará o local onde foi verificada a necessidade de manutenção de fios e cabos, devendo ser atendida em até 30 (trinta) dias da data de sua ciência."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A empresa concessionária ou permissionária de energia elétrica que descumprir o prazo estipulado no § 1º deste artigo será multada em 1.000 (mil) Unidades Financeiras Municipais (UFMs), sendo a multa majorada em 500 (quinhentas) UFMs após transcorridos 60 (sessenta) dias do não atendimento à notificação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica a empresa concessionária ou permissionária de energia elétrica obrigada a enviar mensalmente ao Executivo Municipal relatório contendo informações a respeito dos atendimentos às notificações recebidas."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Para os fins desta Lei, será observado o disposto na Lei nº 11.870, de 7 de julho de 2015, e na Lei nº 13.402, de 21 de março de 2023."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 9,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

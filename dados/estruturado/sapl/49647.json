@@ -1,0 +1,115 @@
+{
+ "idSapl": 49647,
+ "rotulo": "Lei municipal nº 14.156, de 30 de dezembro de 2024",
+ "sha256Origem": "461826636683ff4002b7223efda647653808a48f8c97fe940efaf57f3c2b6ddc",
+ "estruturadoEm": "2026-11-23T09:26:29.742Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14156",
+  "ano": "2024",
+  "data": "2024-12-30",
+  "epigrafe": "PLL Nº 676/23",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 14.156, DE 30 DE DEZEMBRO DE 2024.",
+ "ementa": "Obriga os estabelecimentos comerciais que consertam ou vendem aparelhos celulares novos ou usados a manter cadastro atualizado dos aparelhos em sua posse ou propriedade.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica os estabelecimentos comerciais que consertam ou vendem aparelhos celulares novos ou usados obrigados a manter cadastro atualizado dos aparelhos em sua posse ou propriedade."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O cadastro, que deverá ser de acesso simples para conferência do Executivo Municipal, conterá:"
+  },
+  {
+   "id": "art-1/par-1/inc-I",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o nome completo, a assinatura, o CPF, o endereço e o número telefônico do cliente;"
+  },
+  {
+   "id": "art-1/par-1/inc-II",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a marca, o modelo e o número do International Mobile Equipment Identity (IMEI) do aparelho celular; e"
+  },
+  {
+   "id": "art-1/par-1/inc-III",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "cópia, digital ou impressa, de documento de identificação do cliente."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Inclui-se na disposição do caput deste artigo os estabelecimentos que, mesmo sem alvará de funcionamento específico para a atividade, prestam o serviço de conserto ou venda de aparelhos celulares."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O descumprimento do disposto nesta Lei sujeitará o infrator à aplicação das seguintes penalidades:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "multa de 500 (quinhentas) Unidades Financeiras Municipais (UFMs);"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "multa de 1.000 (um mil) UFMs, em caso de reincidência; e"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "interdição do estabelecimento comercial, em caso de segunda reincidência."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor em 60 (sessenta) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 11,
+   "cobertura": 0.971,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

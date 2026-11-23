@@ -1,0 +1,128 @@
+{
+ "idSapl": 49933,
+ "rotulo": "Lei municipal nº 14.200, de 28 de março de 2025",
+ "sha256Origem": "93e0ce95532b2f160ec3f0fe0cd2a6bc644fbb348fba06e0db52879a5da4d501",
+ "estruturadoEm": "2026-11-23T09:26:29.542Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14200",
+  "ano": "2025",
+  "data": "2025-03-28",
+  "epigrafe": "LEI Nº 14.200, DE 28 DE MARÇO DE 2025.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui a Política Municipal de Conscientização e Orientação quanto ao Uso Adequado da Internet e das Redes Sociais nas escolas públicas municipais de ensino fundamental.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de março de 2025.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nJhonny Prado,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída a Política Municipal de Conscientização e Orientação quanto ao Uso Adequado da Internet e das Redes Sociais, voltada aos educandos das escolas públicas municipais de ensino fundamental e a seus familiares."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "São diretrizes da Política instituída por esta Lei:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "orientar sobre o funcionamento da internet e das redes sociais, abordando seus benefícios e malefícios, bem como conscientizar sobre seu uso adequado;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "orientar sobre formas de identificação de conteúdos maliciosos, de violência, de pedofilia, de incentivo à formação de grupos extremistas de disseminação do ódio e de fake news (informações falsas) disseminadas na internet e em redes sociais;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "orientar sobre medidas para proteção dos dados de crianças e de adolescentes na internet e em redes sociais; e"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "prevenir e combater a dependência digital, elaborando estratégias para abordar o tema da saúde mental dos estudantes e de seu sofrimento psíquico, sua prevenção, e a disponibilização de espaços de escuta e de acolhimento, de acordo com o disposto no art. 4º da Lei Federal nº 15.100, de 13 de janeiro de 2025."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "São ações da Política instituída por esta Lei:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a realização de debates, painéis, palestras, cursos, oficinas e outras atividades afins sobre os temas de que trata esta Lei voltados aos educandos e seus familiares;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a formação continuada de educadores e demais profissionais da rede municipal de ensino sobre os temas de que trata esta Lei, bem como para identificação da dependência digital entre os educandos; e"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a realização de campanhas públicas de conscientização acerca do uso adequado da internet e das redes sociais, seus riscos e as medidas de prevenção para o combate à dependência digital."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Poderão ser incluídos no currículo das escolas públicas municipais de ensino fundamental os conteúdos de que trata esta Lei, após estudo realizado pelo Executivo Municipal e parecer conclusivo do Conselho Municipal de Educação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei observará, no que couber, as disposições da Lei Federal nº 15.100, de 2025, que trata da utilização, por estudantes, de aparelhos eletrônicos portáteis pessoais nos estabelecimentos públicos e privados de ensino da educação básica."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 13,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

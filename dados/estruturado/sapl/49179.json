@@ -1,0 +1,122 @@
+{
+ "idSapl": 49179,
+ "rotulo": "Lei municipal nº 14.041, de 30 de agosto de 2024",
+ "sha256Origem": "ac4c27b4e98eda750e03f886e0b570433d9845127f4bd3179eb92d93f4f65c5a",
+ "estruturadoEm": "2026-11-23T09:26:29.926Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "14041",
+  "ano": "2024",
+  "data": "2024-08-30",
+  "epigrafe": "PROC. Nº 1121/23",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 653/23 SEI Nº 032.00042/2023-13 LEI Nº 14.041, DE 30 DE AGOSTO DE 2024.",
+ "ementa": "Veda a disponibilização de cardápio em meio exclusivamente digital nos estabelecimentos de comércio alimentício no Município de Porto Alegre.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 14.041, de 30 de agosto de 2024, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 30 DE AGOSTO DE 2024.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica vedada a disponibilização de cardápio em meio exclusivamente digital nos estabelecimentos de comércio alimentício no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os cardápios físicos dos estabelecimentos de comércio alimentício localizados no Município de Porto Alegre deverão ser disponibilizados em meio impresso, em mural ou em placa."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "É obrigatório constar no cardápio físico:"
+  },
+  {
+   "id": "art-2/par-1/inc-I",
+   "pai": "art-2/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o nome do item; e"
+  },
+  {
+   "id": "art-2/par-1/inc-II",
+   "pai": "art-2/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o preço do item."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Os estabelecimentos de que trata o caput deste artigo que optarem por utilizar cardápio físico em meio impresso deverão disponibilizar quantitativo de, ao menos, 5% (cinco por cento) da capacidade de sua ocupação."
+  },
+  {
+   "id": "art-2/par-3",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Inclui-se no formato de cardápio físico que os estabelecimentos forneçam aparelhos eletrônicos como tablets, desde que com a disponibilidade de atendimento personalizado de um funcionário do local que auxilie o pedido do cliente."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O estabelecimento comercial que também optar por disponibilizar cardápio digital deverá fornecer aos seus clientes acesso gratuito à internet."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O estabelecimento que descumprir o disposto nesta Lei ficará sujeito às seguintes sanções:"
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "notificação para se adequar à norma no prazo de 30 (trinta) dias; e"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "multa de 100 (cem) Unidades Financeiras Municipais (UFMs), em caso de não adequação no prazo previsto no inc. I deste artigo."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 12,
+   "cobertura": 0.969,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

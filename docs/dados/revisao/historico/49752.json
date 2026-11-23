@@ -1,0 +1,230 @@
+{
+ "geradoEm": "2026-11-23T09:26:41.982Z",
+ "idSapl": 49752,
+ "rotulo": "Lei municipal nº 14.192, de 31 de janeiro de 2025",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 14192/2025@2025-01-31",
+   "data": "2025-01-31",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 14192/2025@2025-07-22",
+   "data": "2025-07-22",
+   "fonte": {
+    "idSapl": 50316,
+    "rotulo": "Lei municipal nº 14.283, de 22 de julho de 2025"
+   },
+   "comandosAplicados": 2
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica instituída a verba de representação para os ocupantes dos Cargos em Comissão e Funções Gratificadas de Direção, Chefia e Assessoramento alocados em projetos estratégicos, conforme regramento previsto nesta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os projetos estratégicos e possíveis casos de concessão automática das verbas de representação criadas deverão ser regulamentados por Decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os valores das verbas de representação de que trata esta Lei serão reajustados nas mesmas datas e pelos mesmos índices aplicáveis aos vencimentos dos servidores municipais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A verba de representação será concedida aos titulares dos Cargos em Comissão ou aos servidores efetivos das Funções Gratificadas que seguem, lotados em órgãos ou entidades da Administração Direta ou da Administração Indireta do Executivo Municipal, por portaria, nas seguintes quantidades e valores:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "até 22 (vinte e duas) verbas de representação, no valor de R$ 3.000,00 (três mil reais), em designações para as funções gratificadas de nível 8 e nomeações para cargos em comissão de nível 18 de alta complexidade ou especialistas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "até 38 (trinta e oito) verbas de representação, no valor de R$ 2.000,00 (dois mil reais), em designações para as funções gratificadas dos níveis 7 e 8 e nomeações para cargos em comissão dos níveis 17 e 18;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "até 49 (quarenta e nove) verbas de representação, no valor de R$ 1.000,00 (mil reais), em designações para as funções gratificadas a partir do nível 5 e nomeações para cargos em comissão a partir do nível 15.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É incompatível a percepção de mais de uma das verbas de representação referidas nos incs. I, II e III do caput deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "É incompatível a percepção de mais de uma das verbas de representação referidas nos incs. I, II, III e IV do caput deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 14.283/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "1 (uma) verba de representação, de natureza indenizatória, para fins de moradia e deslocamento, no valor de R$ 7.595,25 (sete mil, quinhentos e noventa e cinco reais e vinte e cinco centavos), destinada exclusivamente ao titular do cargo em comissão de nível 19 de Secretário-Executivo do Escritório de Brasília da Secretaria Municipal Geral de Governo (SMGG).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.283/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As despesas decorrentes da aplicação desta Lei correrão à conta de dotações orçamentárias próprias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação, produzindo efeitos a contar de 1º de fevereiro de 2025.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica revogada a Lei nº 11.404, de 27 de dezembro de 2012.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}
