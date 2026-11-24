@@ -1,0 +1,142 @@
+{
+ "idSapl": 47716,
+ "rotulo": "Lei municipal nº 13.746, de 30 de novembro de 2023",
+ "sha256Origem": "e9ceb6a693be9e69fdc8f43cb3fe7f926b2cf0f1e2d0745e6af5ddd4efaaeddd",
+ "estruturadoEm": "2026-11-24T09:29:53.484Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13746",
+  "ano": "2023",
+  "data": "2023-11-30",
+  "epigrafe": "LEI Nº 13.746, DE 30 DE NOVEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece que o Município de Porto Alegre disponibilizará Código de Barras Bidimensional Quick Response (QR Code) nas placas de obras públicas executadas por sua Administração Direta e Administração Indireta ou por empresas terceirizadas.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de novembro de 2023.\nRicardo Gomes,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecido que o Município de Porto Alegre disponibilizará Código de Barras Bidimensional Quick Response (QR Code) nas placas de obras públicas executadas por sua Administração Direta e Administração Indireta ou por empresas terceirizadas."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O QR Code deverá ser disponibilizado nas placas indicativas de obras públicas em tamanho e localização visíveis e de fácil acesso à população, permitindo a leitura por meio de dispositivos móveis."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O QR Code direcionará o cidadão para página específica no site da Prefeitura de Porto Alegre, no qual serão disponibilizadas, no mínimo, as seguintes informações sobre a obra pública:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "nome;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "objeto;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "investimento total;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "data de início;"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "cronograma;"
+  },
+  {
+   "id": "art-2/inc-VI",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "data prevista para conclusão;"
+  },
+  {
+   "id": "art-2/inc-VII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "empenhos, notas fiscais e eventuais aditivos contratuais lançados; e"
+  },
+  {
+   "id": "art-2/inc-VIII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "nome de seu responsável técnico com a respectiva Anotação de Responsabilidade Técnica (ART) ou Registro de Responsabilidade Técnica (RRT)."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "No caso de a obra não ser concluída na data prevista, a informação do inc. VI do caput deste artigo deverá ser atualizada com a nova data, contendo a justificativa e os documentos que atestem as causas que acarretaram a alteração da previsão anterior."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A página disponibilizada possibilitará ao cidadão a consulta das informações elencadas nos incs. I a VIII do caput deste artigo e o registro de denúncias e críticas relacionadas à execução da obra pública."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O cidadão que registrar denúncias ou críticas por meio da página de que trata o art. 2º desta Lei terá assegurado o direito ao sigilo de sua identidade."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 15,
+   "cobertura": 0.955,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

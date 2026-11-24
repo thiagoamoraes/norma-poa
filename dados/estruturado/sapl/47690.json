@@ -1,0 +1,60 @@
+{
+ "idSapl": 47690,
+ "rotulo": "Lei municipal nº 13.743, de 27 de novembro de 2023",
+ "sha256Origem": "5ad766b7ac6682565da8ddc9cbfcf497e12d7728b0fca97bb7c1f4cddc70e59c",
+ "estruturadoEm": "2026-11-24T09:29:53.486Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13743",
+  "ano": "2023",
+  "data": "2023-11-27",
+  "epigrafe": "LEI Nº 13.743, DE 27 DE NOVEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a ementa e o art. 1º da Lei nº 7.591, de 10 de janeiro de 1995, e alterações posteriores, obrigando os estabelecimentos comerciais e supermercados a manterem, nas condições que menciona, cadeiras de rodas à disposição de deficientes físicos e de pessoas circunstancialmente necessitadas e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de novembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei nº 7.591, de 10 de janeiro de 1995, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Obriga os estabelecimentos comerciais e supermercados a manterem, nas condições que menciona, cadeiras de rodas à disposição de deficientes físicos e de pessoas circunstancialmente necessitadas e dá outras providências.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o art. 1º da Lei nº 7.591, de 1995, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Ficam os estabelecimentos comerciais e supermercados obrigados a manter à disposição de deficientes físicos e de pessoas circunstancialmente necessitadas:\nI – no mínimo 2 (duas) cadeiras de rodas ou assemelhados nos estabelecimentos com área de loja – exposição e venda de produtos – entre 3.000m² (três mil metros quadrados) e 6.000m² (seis mil metros quadrados); e\nII – no mínimo 2 (duas) cadeiras de rodas motorizadas nos estabelecimentos com área construída superior a 6.000m² (seis mil metros quadrados).” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.968,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

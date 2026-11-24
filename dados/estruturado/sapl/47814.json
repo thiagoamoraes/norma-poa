@@ -1,0 +1,59 @@
+{
+ "idSapl": 47814,
+ "rotulo": "Lei municipal nº 13.780, de 22 de dezembro de 2023",
+ "sha256Origem": "f46dc1891cfd59e75fae489bf406333325c9c1e598292598bc115976bd007508",
+ "estruturadoEm": "2026-11-24T09:29:53.428Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13780",
+  "ano": "2023",
+  "data": "2023-12-22",
+  "epigrafe": "LEI Nº 13.780, DE 22 DE DEZEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Prorroga até 31 de dezembro de 2025 os efeitos das gratificações referidas nos arts. 72-A, 72-B e 72-C da Lei nº 6.309, de 28 de dezembro de 1988, e altera os incs. I e II do parágrafo único do art. 11 da Lei nº 12.941, de 23 de dezembro de 2021, prorrogando até 31 de dezembro de 2025 os efeitos dos seus arts. 7º, 8º e 9º.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de dezembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam prorrogados até 31 de dezembro de 2025 os efeitos das gratificações referidas nos arts. 72-A, 72-B e 72-C da Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam alterados os incs. I e II do parágrafo único do art. 11 da Lei nº 12.941, de 23 de dezembro de 2021, conforme segue:",
+   "blocoDeAlteracao": "“Art. 11. ....................................................................................................................\nParágrafo único. .......................................................................................................\nI – o art. 7º desta Lei, que entra em vigor em 1º de janeiro de 2022, produzindo efeitos até 31 de dezembro de 2025; e\nII – os arts. 8º e 9º desta Lei, que entram em vigor na data de sua publicação, produzindo efeitos até 31 de dezembro de 2025.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "idSapl": 47688,
+ "rotulo": "Lei municipal nº 13.742, de 27 de novembro de 2023",
+ "sha256Origem": "92c3817f6064fdd2458d2e15618f881429c3eb277a0aa3b9f3b3f9959d2e3428",
+ "estruturadoEm": "2026-11-24T09:29:53.488Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13742",
+  "ano": "2023",
+  "data": "2023-11-27",
+  "epigrafe": "LEI Nº 13.742, DE 27 DE NOVEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui a efeméride Semana de Conscientização e Proteção da Saúde Visual no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no mês de julho.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de novembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Semana de Conscientização e Proteção da Saúde Visual no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no mês de julho."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A Semana de que trata o art. 1º desta Lei será dedicada às ações de conscientização, incentivo ao cuidado e promoção da saúde visual."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As ações referidas no art. 2º desta Lei poderão ser desenvolvidas por meio de reuniões, palestras, cursos, oficinas, seminários, distribuição de material informativo, entre outros, priorizando:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a conscientização da população sobre a importância da saúde visual; e"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o incentivo ao engajamento de órgãos da Administração Pública Municipal, empresas, entidades de classe, associações, federações e da sociedade civil organizada nas campanhas sobre saúde visual."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 6,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

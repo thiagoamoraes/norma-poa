@@ -1,0 +1,86 @@
+{
+ "idSapl": 47908,
+ "rotulo": "Lei municipal nº 13.827, de 12 de janeiro de 2024",
+ "sha256Origem": "c43356f6728a0a2663f69d3132491ae73996432fb02978a8659bd2bac95bbfb7",
+ "estruturadoEm": "2026-11-24T09:29:53.332Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13827",
+  "ano": "2024",
+  "data": "2024-01-12",
+  "epigrafe": "LEI Nº 13.827, DE 12 DE JANEIRO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece a temática da Educação Antidrogas nas disciplinas do currículo escolar a partir do 5º ano do ensino fundamental nas escolas públicas e privadas localizadas no Município de Porto Alegre e cria o Selo Escola Sem Drogas.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de janeiro de 2024.\nMauro Pinheiro,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecida a temática da Educação Antidrogas nas disciplinas do currículo escolar, por meio de atividades realizadas como conteúdos transversais, a partir do 5º ano do ensino fundamental, nas escolas públicas e privadas localizadas no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para os fins desta Lei, o órgão competente poderá autorizar a exibição de vídeos educativos, com conteúdo sobre prevenção e combate ao uso de substâncias alucinógenas ou entorpecentes, nas escolas referidas neste artigo."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Os vídeos deverão informar sobre a existência do telefone 181 para denúncia sobre tráfico de drogas, bem como conter a informação de que a respectiva ligação não será identificada."
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "A criação, a projeção e as informações dos vídeos ficarão a critério do Executivo Municipal."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica criado o Selo Escola Sem Drogas para as instituições que realizarem as atividades previstas no art. 1º desta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor em 90 (noventa) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 7,
+   "cobertura": 0.962,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

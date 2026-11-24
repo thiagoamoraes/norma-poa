@@ -1,0 +1,108 @@
+{
+ "idSapl": 47907,
+ "rotulo": "Lei municipal nº 13.826, de 12 de janeiro de 2024",
+ "sha256Origem": "e0f247b4420cfdcba8669c83971f7fb7ccd33ea2799f496144cd85630d467336",
+ "estruturadoEm": "2026-11-24T09:29:53.334Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13826",
+  "ano": "2024",
+  "data": "2024-01-12",
+  "epigrafe": "PROC. Nº 0088/23",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 042/23 LEI Nº 13.826, DE 12 DE JANEIRO DE 2024.",
+ "ementa": "Obriga a substituição de sinais sonoros estridentes por sinais musicais ou visuais adequados a estudantes com Transtorno do Espectro Autista (TEA) nos estabelecimentos de ensino localizados no Município de Porto Alegre e estabelece que no perímetro dos estabelecimentos de ensino deverá haver sinalização adequada à proibição do uso de equipamentos sonoros, conforme prevê o art. 4º da Lei nº 3.698, de 6 de novembro de 1972.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de janeiro de 2024.\nMauro Pinheiro,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam os estabelecimentos de ensino localizados no Município de Porto Alegre obrigados a substituir sinais sonoros estridentes por sinais musicais ou visuais adequados a estudantes com Transtorno do Espectro Autista (TEA)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "No perímetro dos estabelecimentos de ensino referidos nesta Lei deverá haver sinalização adequada à proibição do uso de equipamentos sonoros, conforme prevê o art. 4º da Lei nº 3.698, de 6 de novembro de 1972."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas de sinalização deverão conter os símbolos de acessibilidade, conforme segue:"
+  },
+  {
+   "id": "art-2/par-unico/inc-I",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "deficiência auditiva;"
+  },
+  {
+   "id": "art-2/par-unico/inc-II",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "deficiência física;"
+  },
+  {
+   "id": "art-2/par-unico/inc-III",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "deficiência intelectual; e"
+  },
+  {
+   "id": "art-2/par-unico/inc-IV",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "deficiência visual."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Os estabelecimentos de ensino terão o prazo de 180 (cento e oitenta) dias, contados da data de publicação desta Lei, para a adequação às suas determinações."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O Executivo Municipal regulamentará esta Lei no que couber."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 10,
+   "cobertura": 0.96,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

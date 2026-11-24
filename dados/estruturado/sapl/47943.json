@@ -1,0 +1,93 @@
+{
+ "idSapl": 47943,
+ "rotulo": "Lei municipal nº 13.839, de 18 de janeiro de 2024",
+ "sha256Origem": "55a68b992a031f93460b46431791bced1870d0880af609a0f8b0708ed4673725",
+ "estruturadoEm": "2026-11-24T09:29:53.303Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13839",
+  "ano": "2024",
+  "data": "2024-01-18",
+  "epigrafe": "LEI Nº 13.839, DE 18 DE JANEIRO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui a Política de Atendimento e Acompanhamento Nutricional nos Bairros, no âmbito do Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 18 de janeiro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída a Política de Atendimento e Acompanhamento Nutricional nos Bairros, no âmbito do Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A Política instituída por esta Lei tem como objetivos:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "proporcionar à população ações de orientação nutricional;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "estimular a formação de hábitos alimentares saudáveis; e"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "fomentar a cultura nutricional, a boa alimentação e os hábitos positivos, especialmente no âmbito educacional e da assistência à saúde."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Os profissionais responsáveis pela execução das ações relacionadas à Política instituída por esta Lei deverão estar regularmente inscritos junto ao Conselho Regional de Nutricionistas."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As despesas oriundas da execução desta Lei correrão por conta de dotação orçamentária própria."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 8,
+   "cobertura": 0.947,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

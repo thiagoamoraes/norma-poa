@@ -1,0 +1,77 @@
+{
+ "idSapl": 48161,
+ "rotulo": "Lei municipal nº 13.856, de 08 de março de 2024",
+ "sha256Origem": "4f8820495b5903b1512984b777362d2d55164f352d80d6cf599081b23bb58d5e",
+ "estruturadoEm": "2026-11-24T09:29:53.268Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13856",
+  "ano": "2024",
+  "data": "2024-03-08",
+  "epigrafe": "LEI Nº 13.856, DE 8 DE MARÇO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Luzia Mateus da Silva o logradouro conhecido como Três Mil Noventa Sete, localizado no Bairro Santa Rosa de Lima.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de março de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Luzia Mateus da Silva o logradouro conhecido como Rua Três Mil Noventa Sete, localizado no Bairro Santa Rosa de Lima, com base na Lei Complementar nº 320, de 2 de maio de 1994, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Mulher forte, justa e bondosa."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n8.3.2024\n8.3.2024\n13.856\n13.856\n24.0.000028058-1\n24.0.000028058-1\nSebastião Melo\nSebastião Melo"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.941,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 8,
+     "caracteres": 88,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "idSapl": 47666,
+ "rotulo": "Lei municipal nº 13.737, de 23 de novembro de 2023",
+ "sha256Origem": "e5d4197b4c352772a0fcf7e860626237d6612746c333bced0e726f5feb8ee067",
+ "estruturadoEm": "2026-11-24T09:29:53.511Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13737",
+  "ano": "2023",
+  "data": "2023-11-23",
+  "epigrafe": "LEI Nº 13.737, DE 23 DE NOVEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Obriga as empresas contratadas pelo Poder Público para prestação de serviços que utilizem veículos automotores ou equipamentos automotores, para essa finalidade, e que sejam remuneradas por quilômetro rodado, por hora trabalhada ou por roteiro pré-determinado ou estimado a instalar, nesses veículos ou equipamentos, dispositivo de rastreamento e monitoramento via satélite.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 23 de novembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam as empresas contratadas pelo Poder Público para prestação de serviços que utilizem veículos automotores ou equipamentos automotores, para essa finalidade, e que sejam remuneradas por quilômetro rodado, por hora trabalhada ou por roteiro pré-determinado ou estimado obrigadas a instalar, nesses veículos ou equipamentos, dispositivo de rastreamento e monitoramento via satélite."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "As informações sobre o caminho percorrido pelo veículo ou equipamento, com detalhamento de paradas e de cada localização, deverão ser registradas pelo dispositivo referido no caput deste artigo, no máximo, a cada 10 (dez) minutos."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O dispositivo referido no caput deste artigo deverá ser homologado pela Agência Nacional de Telecomunicações (Anatel)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O relatório com as informações referidas no § 1º do art. 1º desta Lei servirá de base para a comprovação do serviço prestado a cada quinzena ou mês."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei aplica-se aos editais publicados após a sua entrada em vigor."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 6,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

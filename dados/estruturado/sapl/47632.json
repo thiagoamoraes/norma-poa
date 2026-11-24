@@ -1,0 +1,60 @@
+{
+ "idSapl": 47632,
+ "rotulo": "Lei municipal nº 13.722, de 14 de novembro de 2023",
+ "sha256Origem": "75f044365e89b55fb956dc69b78312304dd47196f7f26c1a6ea3aabe5667e2d8",
+ "estruturadoEm": "2026-11-24T09:29:53.532Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13722",
+  "ano": "2023",
+  "data": "2023-11-14",
+  "epigrafe": "LEI Nº 13.722, DE 14 DE NOVEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a ementa e o art. 1º da Lei 4.811 de 13 de novembro de 1980, alterando a denominação de Praça das Flores para Praça das Flores Itelmar Pierdona Gobbi.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 14 de novembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei nº 4.811, de 13 de novembro de 1980, conforme segue:",
+   "blocoDeAlteracao": "“Denomina Praça das Flores Itelmar Pierdona Gobbi a praça localizada na esquina formada pelas Ruas Dr. Ney de Almeida Brito e Pedro Jung, no Bairro Jardim Lindóia.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o art. 1º da Lei nº 4.811, de 1980, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica denominada Praça das Flores Itelmar Pierdona Gobbi a praça localizada na esquina formada pelas Ruas Dr. Ney de Almeida Brito e Pedro Jung, no Bairro Jardim Lindóia.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.951,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

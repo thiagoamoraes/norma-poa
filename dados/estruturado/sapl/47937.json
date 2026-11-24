@@ -1,0 +1,65 @@
+{
+ "idSapl": 47937,
+ "rotulo": "Lei municipal nº 13.834, de 18 de janeiro de 2024",
+ "sha256Origem": "8c31a8f8531eca7e47c5a3188160f3a0a7abbde36d5a85aab63461e3a5416ebe",
+ "estruturadoEm": "2026-11-24T09:29:53.312Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13834",
+  "ano": "2024",
+  "data": "2024-01-18",
+  "epigrafe": "LEI Nº 13.834, DE 18 DE JANEIRO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui homenagem à Imigração Italiana, constituída por um monumento a ser erigido na Praça Itália, localizada no bairro Praia de Belas.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 18 de janeiro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída homenagem à Imigração Italiana, constituída por um monumento a ser erigido na Praça Itália, localizada no Bairro Praia de Belas, em espaço a ser determinado pelo Executivo Municipal."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A definição do formato e a execução do monumento em homenagem à imigração italiana deverá ser realizada em conjunto com as entidades representativas dos imigrantes italianos em Porto Alegre, sob a coordenação do órgão responsável pelas políticas da área cultural do Executivo Municipal."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para a implementação do monumento instituído por esta Lei, poderá haver a colaboração financeira de entidades privadas."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.945,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

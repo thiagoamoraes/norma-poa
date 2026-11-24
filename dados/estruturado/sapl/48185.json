@@ -1,0 +1,100 @@
+{
+ "idSapl": 48185,
+ "rotulo": "Lei municipal nº 13.861, de 13 de março de 2024",
+ "sha256Origem": "a907424431dd73f0aa5d5a17d2b0d61734959302b0581fe25213c577e0d3add4",
+ "estruturadoEm": "2026-11-24T09:29:53.256Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13861",
+  "ano": "2024",
+  "data": "2024-03-13",
+  "epigrafe": "LEI Nº 13.861, DE 13 DE MARÇO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Garante acompanhamento psicológico a mulheres cujos filhos tenham sido vítimas fatais de crimes violentos.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de março de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica garantido, no Município de Porto Alegre, acompanhamento psicológico para mulheres cujos filhos tenham sido vítimas fatais de crimes violentos, nos termos desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O acompanhamento psicológico de que trata esta Lei será prestado por profissional devidamente habilitado que integre a rede pública municipal ou conveniada de atendimento em saúde mental."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O acompanhamento psicológico de que trata esta Lei deverá ser prestado também a homens, à família como um todo, cujos filhos tenham sido vítimas fatais de crimes violentos."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Município realizará as seguintes ações administrativas:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "incentivo à criação, nos Centros de Referência de Assistência Social, de grupos de apoio para mulheres cujos filhos tenham sido vítimas fatais de crimes violentos; e"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "capacitação dos agentes da rede pública municipal de atendimento em saúde mental para a adequada realização do acompanhamento psicológico de que trata esta Lei."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os grupos de apoio de que trata o inc. I deste artigo deverão ser destinados também a homens, à família como um todo, cujos filhos tenham sido vítimas fatais de crimes violentos."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 9,
+   "cobertura": 0.946,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

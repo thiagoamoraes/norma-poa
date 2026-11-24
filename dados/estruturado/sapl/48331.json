@@ -1,0 +1,77 @@
+{
+ "idSapl": 48331,
+ "rotulo": "Lei municipal nº 13.902, de 16 de abril de 2024",
+ "sha256Origem": "bb2e843bbef2b2a66f89a3e6fa7d075e9b5107ded53477b8c09b243318394992",
+ "estruturadoEm": "2026-11-24T09:29:53.186Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13902",
+  "ano": "2024",
+  "data": "2024-04-16",
+  "epigrafe": "LEI Nº 13.902, DE 16 DE ABRIL DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria 1 (um) cargo em comissão de Assessor da Escola do Legislativo Julieta Battistioli na Lei nº 5.811, de 8 de dezembro de 1986 – que estabelece o Sistema de Classificação de Cargos e Funções da Câmara Municipal de Porto Alegre e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 16 de abril de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criado 1 (um) cargo em comissão de Assessor da Escola do Legislativo Julieta Battistioli, código 2.1.2.7, no item Função Específica do Quadro dos Cargos em Comissão, constante no art. 20 da Lei nº 5.811, de 8 de dezembro de 1986."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As especificações do cargo criado por esta Lei ficam incluídas no Anexo I da Lei nº 5.811, de 1986, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“ANEXO I\n...........................................................................................................................................................\nESPECIFICAÇÕES DE CARGO EM COMISSÃO\nQUADRO: DE CARGOS EM COMISSÃO E FUNÇÕES GRATIFICADAS\nCARGO: ASSESSOR DA ESCOLA DO LEGISLATIVO JULIETA BATTISTIOLI\nFUNÇÃO: ESPECÍFICA\nCÓDIGO: 2.1.2.7\nDESCRIÇÃO SINTÉTICA DAS ATRIBUIÇÕES: prestar assessoramento à Presidência e à Direção da Escola do Legislativo Julieta Battistioli por meio de atividades que envolvam orientação, acompanhamento, informação, organização, entre outras, relacionadas ao desempenho das atribuições da Escola.\nDESCRIÇÃO ANALÍTICA DAS ATRIBUIÇÕES: prestar assessoramento à Presidência e à Direção da Escola do Legislativo Julieta Battistioli nas atividades de representação interna ou externa da Escola, na identificação, no provimento e na administração de recursos necessários ao funcionamento da Escola; realizar, sob demanda, estudos, análises e pesquisas relacionados a normas, orientações e decisões administrativas e de controle interno e externo acerca da Escola; auxiliar na estruturação da pauta e na condução das reuniões ordinárias e extraordinárias do Conselho Escolar, podendo propor temáticas a serem abordadas ou priorizadas; auxiliar na interpretação e aplicação dos dispositivos do Regimento da Escola e das demais normas internas e externas aplicáveis; assessorar a Direção da Escola no planejamento, na execução, no controle e na avaliação das ações destinadas a concretizar o respectivo projeto político-pedagógico; participar no acompanhamento e na orientação dos trabalhos do Coordenador de Curso e da Secretaria da Escola, na identificação de providências necessárias ao regular funcionamento da Escola, em especial as relacionadas ao gerenciamento do escopo, dos custos, dos prazos e dos recursos materiais dos projetos didáticos, no planejamento do levantamento das necessidades de qualificação na Câmara Municipal e na análise dos dados resultantes desse levantamento; assessorar na identificação, na análise curricular e na sondagem de professores, instrutores, palestrantes e conferencistas passíveis de recrutamento; auxiliar na identificação e na análise de convênios passíveis de serem propostos à Mesa Diretora, na análise de editais de concurso público a serem promovidos por esta Câmara Municipal e na compilação de dados e informações aptas a subsidiar a elaboração do relatório anual de atividades da Escola.\nCONDIÇÕES DE TRABALHO:\na) horário: 30 horas semanais;\nb) o exercício do cargo poderá exigir a prestação de serviços à noite e aos sábados, domingos e feriados.\nREQUISITOS PARA O RECRUTAMENTO: diploma de curso superior.\nFORMA DE RECRUTAMENTO: indicação do Presidente da Escola do Legislativo Julieta Battistioli dentre as pessoas que preencham os requisitos para o provimento.” (NR)"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.984,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 14,
+     "caracteres": 2841,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

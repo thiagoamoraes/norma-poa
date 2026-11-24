@@ -1,0 +1,98 @@
+{
+ "idSapl": 47588,
+ "rotulo": "Lei municipal nº 13.699, de 03 de novembro de 2023",
+ "sha256Origem": "9521bfec80ca150583b33f7ef1aff2ef468dce62bf1865fc543be3d0e140bb03",
+ "estruturadoEm": "2026-11-24T09:29:53.567Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13699",
+  "ano": "2023",
+  "data": "2023-11-03",
+  "epigrafe": "LEI Nº 13.699, DE 3 DE NOVEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Feira Vegana no Anexo I da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, a ser realizado, no primeiro domingo de cada mês, no Parque Farroupilha e, no terceiro domingo de cada mês, no Largo Zumbi dos Palmares, e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 3 de novembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Feira Vegana no Anexo I da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os expositores da Feira Vegana deverão estar adequados às exigências estabelecidas pelo Executivo Municipal para a comercialização de seus produtos."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O espaço destinado à realização da Feira Vegana deverá comportar, no mínimo, 10 (dez) bancas, cujas padronizações serão definidas pelo Executivo Municipal."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica garantida a ocupação de, no mínimo, 10% (dez por cento) das bancas existentes na Feira Vegana por pessoas com deficiência, independentemente das atividades que desenvolvam."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Fica permitida a participação de empresas da iniciativa privada nas bancas da Feira Vegana na forma de propaganda ou patrocínio."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nPERÍODO\nEVENTO\nDESCRIÇÃO E LOCAL DO EVENTO\nPrimeiro e terceiro domingo de cada mês\nFEIRA VEGANA\nReúne expositores, pequenos produtores locais, que comercializam os mais diversos tipos de produtos livres de exploração animal e não limitados à alimentação.\nLocal: no primeiro domingo de cada mês, é realizada no Parque Farroupilha e, no terceiro domingo de cada mês, no Largo Zumbi dos Palmares."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 7,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 7,
+     "caracteres": 387,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

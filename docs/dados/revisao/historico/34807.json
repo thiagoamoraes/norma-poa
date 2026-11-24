@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-21T16:20:10.809Z",
+ "geradoEm": "2026-11-24T09:29:59.280Z",
  "idSapl": 34807,
  "rotulo": "Lei Complementar municipal nº 563, de 30 de janeiro de 2007",
  "baseConferida": true,
@@ -35,13 +35,23 @@
    "id": "lc 563/2007@2023-09-29",
    "data": "2023-09-29",
    "fonte": {
+    "idSapl": 47274,
+    "rotulo": "Lei municipal nº 13.641, de 29 de setembro de 2023"
+   },
+   "comandosAplicados": 12
+  },
+  {
+   "indice": 4,
+   "id": "lc 563/2007@2023-09-29",
+   "data": "2023-09-29",
+   "fonte": {
     "idSapl": 47275,
     "rotulo": "Lei Complementar municipal nº 987, de 29 de setembro de 2023"
    },
    "comandosAplicados": 12
   },
   {
-   "indice": 4,
+   "indice": 5,
    "id": "lc 563/2007@2024-06-21",
    "data": "2024-06-21",
    "fonte": {
@@ -190,6 +200,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 3,
+     "texto": "O Procon/PMPA integrará a estrutura da Secretaria Municipal de Transparência e Controladoria (SMTC).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.641/2023"
      }
     }
    ]
@@ -454,6 +473,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 3,
+     "texto": "A fiscalização realizada pelo Procon/PMPA será efetivada pelos servidores do Quadro de Agentes de Fiscalização, lotados na SMTC.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.641/2023"
+     }
     }
    ]
   },
@@ -469,6 +497,23 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-unico",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "O Executivo Municipal criará 2 (duas) novas estruturas físicas de atendimento presencial ao público, preferencialmente nas Zonas Sul e Norte do Município.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.641/2023"
      }
     }
    ]
@@ -701,6 +746,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 3,
+     "texto": "1 (um) representante da Secretaria Municipal de Transparência e Controladoria (SMTC);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.641/2023"
+     }
     }
    ]
   },
@@ -781,6 +835,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 3,
+     "texto": "1 (um) representante de entidade civil de defesa dos direitos do consumidor sediada em Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.641/2023"
+     }
     }
    ]
   },
@@ -845,6 +908,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 3,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei nº 13.641/2023"
+     }
     }
    ]
   },
@@ -860,6 +932,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 3,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei nº 13.641/2023"
      }
     }
    ]
@@ -877,6 +958,15 @@
      "origem": {
       "operacao": "promulgacao_original"
      }
+    },
+    {
+     "desde": 3,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei nº 13.641/2023"
+     }
     }
    ]
   },
@@ -892,6 +982,15 @@
      "situacao": "vigente",
      "origem": {
       "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 3,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei nº 13.641/2023"
      }
     }
    ]
@@ -1005,6 +1104,57 @@
      "origem": {
       "operacao": "insert_node",
       "lei": "Lei Complementar nº 772/2015"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-7",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 7º",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "A presidência do Condecon será exercida pelo Coordenador do Procon/PMPA.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.641/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-8",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 8º",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "O vice-presidente será designado pelo prefeito, entre os conselheiros da representação dos órgãos governamentais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.641/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/par-9",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 9º",
+   "estados": [
+    {
+     "desde": 3,
+     "texto": "O secretário-geral será eleito por votação simples, pela maioria de votos, entre os conselheiros da representação das entidades privadas, eleito a cada 2 (dois) anos na consecução da aplicação do § 6º deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.641/2023"
      }
     }
    ]
@@ -1376,7 +1526,7 @@
      }
     },
     {
-     "desde": 3,
+     "desde": 4,
      "texto": "saldos de exercícios anteriores, quando não atingidos pela desvinculação de que tratam os arts. 18-A, 18-B e 18-C desta Lei Complementar;",
      "situacao": "vigente",
      "origem": {
@@ -1449,7 +1599,7 @@
      }
     },
     {
-     "desde": 3,
+     "desde": 4,
      "texto": "Os recursos arrecadados poderão ser aplicados no financiamento da implantação das obras de infraestrutura, das aquisições e das desapropriações, das despesas administrativas e judiciais dela decorrentes.",
      "situacao": "vigente",
      "origem": {
@@ -1610,7 +1760,7 @@
    "rotulo": "Art. 18-B",
    "estados": [
     {
-     "desde": 3,
+     "desde": 4,
      "texto": "Fica desvinculado o valor integral do superávit financeiro de 2022.",
      "situacao": "vigente",
      "origem": {
@@ -1627,7 +1777,7 @@
    "rotulo": "Art. 18-C",
    "estados": [
     {
-     "desde": 3,
+     "desde": 4,
      "texto": "A partir do resultado financeiro de 2023, fica desvinculado o superávit financeiro do FMDD, apurado ao final de cada exercício, conforme segue:",
      "situacao": "vigente",
      "origem": {
@@ -1644,7 +1794,7 @@
    "rotulo": "I –",
    "estados": [
     {
-     "desde": 3,
+     "desde": 4,
      "texto": "quando a execução financeira atingir 80% (oitenta por cento) ou mais, não haverá desvinculação;",
      "situacao": "vigente",
      "origem": {
@@ -1661,7 +1811,7 @@
    "rotulo": "II –",
    "estados": [
     {
-     "desde": 3,
+     "desde": 4,
      "texto": "quando a execução financeira atingir entre 50% (cinquenta por cento) e 80% (oitenta por cento), será executada a desvinculação de 50% (cinquenta por cento) do superávit financeiro do exercício; e",
      "situacao": "vigente",
      "origem": {
@@ -1678,7 +1828,7 @@
    "rotulo": "III –",
    "estados": [
     {
-     "desde": 3,
+     "desde": 4,
      "texto": "quando o índice de execução financeira for inferior a 50% (cinquenta por cento), será executada a desvinculação de 100% (cem por cento) do superávit financeiro do exercício.",
      "situacao": "vigente",
      "origem": {
@@ -1695,7 +1845,7 @@
    "rotulo": "§ 1º",
    "estados": [
     {
-     "desde": 3,
+     "desde": 4,
      "texto": "Entende-se por superávit financeiro a diferença positiva entre o ativo financeiro e o passivo financeiro, apurado no Balanço Patrimonial do exercício.",
      "situacao": "vigente",
      "origem": {
@@ -1712,7 +1862,7 @@
    "rotulo": "§ 2º",
    "estados": [
     {
-     "desde": 3,
+     "desde": 4,
      "texto": "Entende-se por índice de execução financeira o total da despesa empenhada, dividido pelo total da receita arrecadada no exercício.",
      "situacao": "vigente",
      "origem": {
@@ -1729,7 +1879,7 @@
    "rotulo": "§ 3º",
    "estados": [
     {
-     "desde": 3,
+     "desde": 4,
      "texto": "Compete à Contadoria-Geral do Município da Secretária Municipal da Fazenda (CTGM/SMF) apurar o índice de execução financeira.",
      "situacao": "vigente",
      "origem": {
@@ -1746,7 +1896,7 @@
    "rotulo": "§ 4º",
    "estados": [
     {
-     "desde": 3,
+     "desde": 4,
      "texto": "O superávit financeiro desvinculado da conta bancária específica deverá ser transferido para o Fundo de Reforma e Desenvolvimento Municipal (FRDM), do qual deverá ser direcionado exclusivamente para pagamento da dívida pública consolidada e para cobertura do déficit previdenciário do Regime Próprio de Previdência Social (RPPS).",
      "situacao": "vigente",
      "origem": {
@@ -1763,7 +1913,7 @@
    "rotulo": "Art. 18-D",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "Fica autorizado o Executivo Municipal a desvincular o valor dos saldos financeiros existentes e contabilizados em cada fundo público, na competência de abril de 2024, para atendimento às necessidades relacionadas ao Decreto nº 22.647, de 2 de maio de 2024.",
      "situacao": "vigente",
      "origem": {
@@ -1780,7 +1930,7 @@
    "rotulo": "§ 1º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "Entende-se por saldo financeiro o valor da disponibilidade financeira, subtraídos os valores dos compromissos constantes no Sistema Integrado de Gestão Fiscal (Sigef), tais quais as despesas pré-empenhadas, empenhadas e restos a pagar.",
      "situacao": "vigente",
      "origem": {
@@ -1797,7 +1947,7 @@
    "rotulo": "§ 2º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "Compete à Contadoria-Geral do Município da Secretaria Municipal da Fazenda (CTGM/SMF) apurar o saldo financeiro.",
      "situacao": "vigente",
      "origem": {
@@ -1814,7 +1964,7 @@
    "rotulo": "§ 3º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "O valor desvinculado da conta bancária específica deverá ser transferido para o Tesouro Municipal (TM), em conta bancária a ser por ele determinada, o qual direcionará os valores ao atendimento das despesas relacionadas à calamidade.",
      "situacao": "vigente",
      "origem": {
@@ -1831,7 +1981,7 @@
    "rotulo": "§ 4º",
    "estados": [
     {
-     "desde": 4,
+     "desde": 5,
      "texto": "Ficam excepcionalizados os recursos decorrentes de transferências do Governo Federal ou Estadual ou recebidos de outras pessoas de direito público ou privado com destinação específica prevista em lei, contrato, convênio e afins, salvo se forem aplicados na referida destinação, bem como os recursos oriundos dos Termos de Ajustamento de Conduta (TAC), condenações judiciais e transações penais.",
      "situacao": "vigente",
      "origem": {
@@ -1971,6 +2121,20 @@
   },
   {
    "alteradora": {
+    "idSapl": 47274,
+    "rotulo": "Lei municipal nº 13.641, de 29 de setembro de 2023"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 810, de 4 de janeiro de 2017\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"810\",\"ano\":\"2017\",\"chave\":\"lc 810/2017\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 10.479, de 2 de julho de 2008\",\"tipoAto\":\"LEI\",\"numero\":\"10479\",\"ano\":\"2008\",\"chave\":\"l 10479/2008\"}, versão: lc 563/2007) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.400, de 27 de dezembro de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11400\",\"ano\":\"2012\",\"chave\":\"l 11400/2012\"}, versão: lc 563/2007) | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
+   "enderecos": [
+    "art-4-A/inc-VIII/ali-g",
+    "art-1",
+    "art-14/inc-III",
+    "art-4-A/inc-II/ali-e"
+   ]
+  },
+  {
+   "alteradora": {
     "idSapl": 47275,
     "rotulo": "Lei Complementar municipal nº 987, de 29 de setembro de 2023"
    },
@@ -2034,15 +2198,6 @@
     "art-9-B/par-3",
     "art-9-B/par-4"
    ]
-  },
-  {
-   "alteradora": {
-    "idSapl": 47274,
-    "rotulo": "Lei municipal nº 13.641, de 29 de setembro de 2023"
-   },
-   "motivo": "texto_indisponivel",
-   "detalhe": "o texto desta alteradora ainda não foi baixado ou extraído",
-   "enderecos": []
   }
  ],
  "aConferir": [
@@ -2236,6 +2391,22 @@
   },
   {
    "id": "art-10/inc-XVII",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-7/par-unico",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/par-7",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/par-8",
+   "desde": "2010-12-07"
+  },
+  {
+   "id": "art-10/par-9",
    "desde": "2010-12-07"
   }
  ]

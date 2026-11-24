@@ -1,0 +1,94 @@
+{
+ "idSapl": 47904,
+ "rotulo": "Lei municipal nº 13.823, de 12 de janeiro de 2024",
+ "sha256Origem": "9f5a7a3c2cff468b73c6a1c8ef3d90ea015e36d314fd3a8f94abc931f5985323",
+ "estruturadoEm": "2026-11-24T09:29:53.346Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13823",
+  "ano": "2024",
+  "data": "2024-01-12",
+  "epigrafe": "PROC. Nº 0349/23",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 178/23 LEI Nº 13.823, DE 12 DE JANEIRO DE 2024.",
+ "ementa": "Estabelece o emprego da Terapia Assistida Animal (TAA) nas escolas municipais de educação infantil e de ensino fundamental.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de janeiro de 2024.\nMauro Pinheiro,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecido o emprego da Terapia Assistida Animal (TAA) nas escolas municipais de educação infantil e de ensino fundamental para auxiliar no desenvolvimento de crianças com quaisquer tipos de deficiências."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A TAA atenderá crianças com necessidades específicas, tais como síndrome de Down, Transtorno do Espectro Autista (TEA), dislexia, Transtorno de Déficit de Atenção e Hiperatividade (TDAH), e alunos com quadro de depressão ou dificuldades que afetem o desempenho escolar."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Os animais disponibilizados na TAA deverão respeitar rigorosamente o disposto na Lei Complementar nº 694, de 21 de maio de 2012, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "A TAA integrará o conjunto das ações de inclusão e auxílio pedagógico de educação infantil e de ensino fundamental das escolas municipais."
+  },
+  {
+   "id": "art-1/par-4",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "A elaboração das diretrizes para a realização da TAA e sua execução serão efetivadas pelo Executivo Municipal por meio de profissionais capacitados, designados pelas secretarias competentes."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A TAA poderá ser viabilizada por meio da realização de parcerias público-privadas (PPPs) desde que as diretrizes sejam previstas pelo Executivo Municipal, visando dar cumprimento ao disposto nesta Lei."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para fins do caput deste artigo, as PPPs firmadas ficam responsáveis pelos profissionais e pelos animais disponibilizados para cada projeto de TAA."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 8,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

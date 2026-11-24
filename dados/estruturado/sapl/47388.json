@@ -1,0 +1,70 @@
+{
+ "idSapl": 47388,
+ "rotulo": "Lei municipal nº 13.650, de 09 de outubro de 2023",
+ "sha256Origem": "bfe4be49c30b37058ebc5cebe35a700b050ff59557fd5012031891c0ac603287",
+ "estruturadoEm": "2026-11-24T09:29:53.677Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13650",
+  "ano": "2023",
+  "data": "2023-10-09",
+  "epigrafe": "LEI Nº 13.650, DE 9 DE OUTUBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Geraldo Lomando o logradouro cadastrado conhecido como Rua M – Vila Nova Santa Rosa, localizado no Bairro Santa Rosa de Lima.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de outubro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Geraldo Lomando o logradouro cadastrado conhecido como Rua M – Vila Nova Santa Rosa, localizado no Bairro Santa Rosa de Lima, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n09.10.2023\n09.10.2023\n13.650\n13.650\n23.0.000116308-6\n23.0.000116308-6\nSebastião Melo\nSebastião Melo"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.952,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 8,
+     "caracteres": 92,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

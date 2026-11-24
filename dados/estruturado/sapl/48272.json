@@ -1,0 +1,121 @@
+{
+ "idSapl": 48272,
+ "rotulo": "Lei municipal nº 13.884, de 10 de abril de 2024",
+ "sha256Origem": "878342c4e0dec2c63907bf6b7c71b87d4d7a8d5eff3954f52ab7fd0cd1ce9089",
+ "estruturadoEm": "2026-11-24T09:29:53.212Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13884",
+  "ano": "2024",
+  "data": "2024-04-10",
+  "epigrafe": "LEI Nº 13.884, DE 10 DE ABRIL DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui a Campanha Permanente de Conscientização sobre o Câncer Ocular Infantil – Retinoblastoma – no Município de Porto Alegre",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de abril de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída a Campanha Permanente de Conscientização sobre o Câncer Ocular Infantil – Retinoblastoma – no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A Campanha tem como objetivo informar, sensibilizar e promover a detecção precoce do retinoblastoma em crianças, visando à preservação da saúde ocular e à redução das taxas de morbidade e mortalidade associadas à doença."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A Campanha Permanente de Conscientização sobre o Câncer Ocular Infantil – Retinoblastoma – poderá ser coordenada pelo órgão de saúde competente do Município, em conjunto com organizações da sociedade civil, instituições de saúde, escolas, creches e demais entidades interessadas na promoção da conscientização sobre o retinoblastoma."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A Campanha promoverá ações educativas e informativas voltadas para a população em geral e, em especial, para os pais e responsáveis por crianças, podendo incluir:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "palestras informativas em escolas e creches municipais;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "distribuição de material informativo em unidades de saúde;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "campanhas de mídia, incluindo rádio, televisão, internet e redes sociais;"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "realização de exames oftalmológicos preventivos em crianças quando necessário e mediante a indicação de profissional de saúde; e"
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "campanhas de sensibilização e mobilização social."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O Executivo Municipal regulamentará esta Lei, estabelecendo as diretrizes e o cronograma de implementação da Campanha."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 12,
+   "cobertura": 0.955,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

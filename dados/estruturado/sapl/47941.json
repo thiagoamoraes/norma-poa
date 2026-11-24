@@ -1,0 +1,100 @@
+{
+ "idSapl": 47941,
+ "rotulo": "Lei municipal nº 13.837, de 18 de janeiro de 2024",
+ "sha256Origem": "cea6e9b7dc136d50462aa474bc9c09081326d494a0257ce46871a032d1dae451",
+ "estruturadoEm": "2026-11-24T09:29:53.306Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13837",
+  "ano": "2024",
+  "data": "2024-01-18",
+  "epigrafe": "LEI Nº 13.837, DE 18 DE JANEIRO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui a Política de Transparência do Índice de Cumprimento de Viagens (ICV) do Transporte Público no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 18 de janeiro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída a Política de Transparência do Índice de Cumprimento de Viagens (ICV) do Transporte Público no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A Política instituída por esta Lei é um instrumento de acessibilidade à informação, cujo conteúdo deve estar disponível permanentemente para consulta online por qualquer cidadão interessado, nos termos dos arts. 6º, 7º e 8º da Lei Federal nº 12.527, de 18 de novembro de 2011 – Lei de Acesso à Informação (LAI)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para os fins desta Lei, é dever do Município garantir o acesso às informações, de forma contínua, transparente, clara e em linguagem de fácil compreensão."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Para a consecução dos objetivos desta Lei, o Executivo Municipal deverá disponibilizar aos cidadãos, no sítio eletrônico da Prefeitura de Porto Alegre, as seguintes informações oriundas do Sistema de Avaliação da Qualidade do Serviço de Transporte Coletivo por Ônibus de Porto Alegre:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o Índice de Cumprimento de Viagens (ICV) apurado, discriminado por linha, sentido, região, lote e o índice geral;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "os dados-base que embasam o cálculo do ICV; e"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "informações sobre os dados que compõem o ICV."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As informações de que trata esta Lei deverão ser publicadas em formato de dados abertos, sem a necessidade de autorização prévia ou identificação do interessado, apuradas mensalmente e disponibilizadas ao final de cada trimestre."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor em 60 (sessenta) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 9,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

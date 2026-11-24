@@ -1,0 +1,72 @@
+{
+ "idSapl": 47942,
+ "rotulo": "Lei municipal nº 13.838, de 18 de janeiro de 2024",
+ "sha256Origem": "eb6d341bc731967574834ea0bddeb67d6c4b98327cf8c8c2ab10d124ed2c2a9f",
+ "estruturadoEm": "2026-11-24T09:29:53.305Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13838",
+  "ano": "2024",
+  "data": "2024-01-18",
+  "epigrafe": "LEI Nº 13.838, DE 18 DE JANEIRO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Obriga o nivelamento de tampões, caixas de inspeção e tampas metálicas de telefonia, de energia elétrica e de esgoto cloacal, por parte das empresas por eles responsáveis, nos locais em que forem executadas obras de pavimentação, recapeamento, reconstrução, tapa-buracos ou qualquer serviço de manutenção em passeios e vias públicas.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 18 de janeiro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica obrigatório o nivelamento de tampões, caixas de inspeção e tampas metálicas de telefonia, de energia elétrica e de esgoto cloacal, por parte das empresas por eles responsáveis, nos locais em que forem executadas obras de pavimentação, recapeamento, reconstrução, tapa-buracos ou qualquer serviço de manutenção em passeios e vias públicas."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para os fins desta Lei, o nivelamento será realizado pelas empresas responsáveis simultaneamente à execução, pelo Executivo Municipal, das obras referidas no caput deste artigo."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Para a consecução do disposto no § 1º deste artigo, o Executivo Municipal irá comunicar as empresas responsáveis para que, além de realizarem o nivelamento, acompanhem a realização da obra para evitar quaisquer tipos de risco."
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Em caso de o Executivo Municipal executar os serviços de nivelamento referentes a itens de responsabilidade das empresas, essas deverão ressarci-lo."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 5,
+   "cobertura": 0.969,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

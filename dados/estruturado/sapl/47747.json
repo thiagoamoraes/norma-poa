@@ -1,0 +1,40 @@
+{
+ "idSapl": 47747,
+ "rotulo": "Lei municipal nº 13.761, de 08 de dezembro de 2023",
+ "sha256Origem": "8cfc498066904db7d3aeeca3f4782b71987a0a86aa191c0580dbb8204f7d4233",
+ "estruturadoEm": "2026-11-24T09:29:53.463Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "A REDAÇÃO OFICIAL",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "TORNA SEM EFEITO a publicação da Lei nº 13.761, de 8 de dezembro de 2023, na edição do Diário Oficial de Porto Alegre, no EXECUTIVO, do dia 11 de dezembro de 2023, segunda-feira, Edição 6687, constante na página 2. Karina Lopes, Redação Oficial",
+ "preambulo": null,
+ "fecho": null,
+ "dispositivos": [],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "sem_artigos",
+   "sem_fecho"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 0,
+   "dispositivos": 0,
+   "cobertura": 0.927,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

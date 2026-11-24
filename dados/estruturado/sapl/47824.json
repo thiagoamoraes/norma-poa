@@ -1,0 +1,78 @@
+{
+ "idSapl": 47824,
+ "rotulo": "Lei municipal nº 13.783, de 27 de dezembro de 2023",
+ "sha256Origem": "ea4f830caa80bdfb705a279cfa35d3c76555eae259a5c1722120540558315494",
+ "estruturadoEm": "2026-11-24T09:29:53.423Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13783",
+  "ano": "2023",
+  "data": "2023-12-27",
+  "epigrafe": "LEI Nº 13.783, DE 27 DE DEZEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o inc. VII do art. 16 e o Anexo I da Lei nº 11.979, de 22 de dezembro de 2015, que regulamenta a Lei Complementar nº 701, de 18 de julho de 2012, ampliando para 2 (duas) as funções gratificadas de Procurador-Assessor no Distrito Federal.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de dezembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o inc. VII do art. 16 da Lei nº 11.979, de 22 de dezembro de 2015, conforme segue:",
+   "blocoDeAlteracao": "“Art. 16. ....................................................................................................................\n....................................................................................................................................\nVII – 2 (duas) de Procurador-Assessor no Distrito Federal;\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o Anexo I da Lei nº 11.979, de 22 de dezembro de 2015, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“ANEXO I\nFUNÇÕES GRATIFICADAS DA PGM\nQuantidade.\nFunção Gratificada\nCódigo\nNível\n3\nProcurador-Geral Adjunto\n1.1.1.8\nFG8\nCorregedor-Geral\n1.1.1.8\nFG8\n1\nProcurador-Coordenador\n1.1.1.7\nFG7\n1\nProcurador-Coordenador das Procuradorias Setoriais e das Especializadas\n1.1.1.7\nFG7\n1\nChefe de Gabinete da PGM\n1.1.1.7\nFG7\n1\nCoordenador Administrativo-Financeiro\n1.1.1.7\nFG7\n5\nCoordenador de Procuradoria Especializada\n1.1.1.6\nFG6\n1\nCoordenador de Gestão, Qualidade e Produtividade\n1.1.1.5\nFG5\n24\nProcurador-Chefe\n1.1.1.5\nFG5\n4\nProcurador para Assuntos Estratégicos\n2.1.1.5\nFG5\n2\nProcurador-Assessor no Distrito Federal\n2.1.1.5\nFG5\n1\nCoordenador do Centro de Estudos de Direito Municipal\n1.1.1.5\nFG5\n1\nPresidente da Comissão Permanente de Inquérito\n1.1.1.5\nFG5\n12\nProcurador-Gerente\n1.1.1.3\nFG3\n” (NR)"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.969,
+   "blocosDeAlteracao": 1,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 62,
+     "caracteres": 728,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

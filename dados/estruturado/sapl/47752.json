@@ -1,0 +1,100 @@
+{
+ "idSapl": 47752,
+ "rotulo": "Lei municipal nº 13.763, de 08 de dezembro de 2023",
+ "sha256Origem": "9a7a59098b7b6a3f12903224bd0e0d94968de538a02612e4898c157a21bfda01",
+ "estruturadoEm": "2026-11-24T09:29:53.460Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13763",
+  "ano": "2023",
+  "data": "2023-12-08",
+  "epigrafe": "LEI Nº 13.763, DE 8 DE DEZEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Programa Observatório da Pessoa Idosa no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de dezembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa Observatório da Pessoa Idosa, com os seguintes objetivos:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "cruzamento de dados consolidados dos diferentes cadastros existentes no Município de Porto Alegre;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "levantamento de indicadores que possibilitem a construção de banco de dados; e"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "fornecimento de subsídios para elaboração de políticas públicas municipais voltadas às pessoas idosas."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para a consecução dos objetivos do Programa criado nesta Lei, serão realizados levantamentos bienais para a obtenção atualizada de dados referentes à quantificação, à qualificação e à localização das pessoas idosas."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Os levantamentos de dados serão realizados a partir de informações constantes nos cadastros públicos municipais relativos a transporte, assistência e desenvolvimento social, educação, serviços de saúde e trabalho, dentre outros necessários para a complementação das informações."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O primeiro levantamento de dados será realizado no ano subsequente ao da publicação desta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Será produzido o Observatório da Pessoa Idosa do Município de Porto Alegre, documento consolidando os dados obtidos por meio dos levantamentos referidos no art. 2º desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 9,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "idSapl": 48640,
+ "rotulo": "Lei municipal nº 13.931, de 05 de junho de 2024",
+ "sha256Origem": "89327e4bb3c29b7fb22a74f2808a5ec101f92322fd196427e799909261ae96fc",
+ "estruturadoEm": "2026-11-24T09:29:53.137Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13931",
+  "ano": "2024",
+  "data": "2024-06-05",
+  "epigrafe": "LEI Nº 13.931, DE 5 DE JUNHO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina 08 de Maio o logradouro conhecido como Beco D Dois – Estr. Vila Maria, localizado no Bairro Camaquã.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 5 de junho de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado 08 de Maio o logradouro conhecido como Beco D Dois – Estr. Vila Maria, localizado no Bairro Camaquã, com base na Lei Complementar nº 320, de 2 de maio de 1994, conforme Anexo I desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo-i",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO I",
+   "texto": "ANEXO I\n13.931\n13.931\n5.06.2024\n5.06.2024\n24.0.000060001-2\n24.0.000060001-2\nSebastião Melo\nSebastião Melo"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO I",
+     "linhas": 8,
+     "caracteres": 90,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

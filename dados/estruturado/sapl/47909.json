@@ -1,0 +1,58 @@
+{
+ "idSapl": 47909,
+ "rotulo": "Lei municipal nº 13.828, de 12 de janeiro de 2024",
+ "sha256Origem": "e916ef59a2a3a1a1fa50b4b6b29ff7c926cbdd8ba9f824cc9a029ef29ab9fd2b",
+ "estruturadoEm": "2026-11-24T09:29:53.331Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13828",
+  "ano": "2024",
+  "data": "2024-01-12",
+  "epigrafe": "LEI Nº 13.828, DE 12 DE JANEIRO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Permite o funcionamento de entidades destinadas à prática e ao treinamento de tiro desportivo em horários determinados pelo Executivo Municipal e sem necessidade de distanciamento mínimo de quaisquer outras atividades exercidas no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de janeiro de 2024.\nMauro Pinheiro,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica permitido o funcionamento de entidades destinadas à prática e ao treinamento de tiro desportivo sem necessidade de distanciamento mínimo de quaisquer outras atividades exercidas no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As entidades referidas no caput deste artigo funcionarão em horários determinados pelo Executivo Municipal."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.941,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

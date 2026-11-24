@@ -1,0 +1,71 @@
+{
+ "idSapl": 47883,
+ "rotulo": "Lei municipal nº 13.816, de 05 de janeiro de 2024",
+ "sha256Origem": "a17c968164afa1299247023124a44e84929105aa393bb51614ba619d8f661256",
+ "estruturadoEm": "2026-11-24T09:29:53.357Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13816",
+  "ano": "2024",
+  "data": "2024-01-05",
+  "epigrafe": "REPUBLICAÇÃO",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 13.816, DE 5 DE JANEIRO DE 2024.",
+ "ementa": "Denomina Arisoly Bueno da Silva o logradouro não cadastrado conhecido como Beco I – Av. do Lami, localizado no Bairro Boa Vista do Sul.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 5 de janeiro de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Arisoly Bueno da Silva o logradouro não cadastrado conhecido como Beco I – Av. do Lami, localizado no Bairro Boa Vista do Sul, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n5.01.2024\n5.01.2024\n23.0.000160933-5\n23.0.000160933-5\n13.816\n13.816\nSebastião Melo\nSebastião Melo"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.972,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 8,
+     "caracteres": 90,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

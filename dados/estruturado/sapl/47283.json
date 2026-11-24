@@ -1,0 +1,135 @@
+{
+ "idSapl": 47283,
+ "rotulo": "Lei municipal nº 13.645, de 04 de outubro de 2023",
+ "sha256Origem": "8ae06128c38efc41b36e4fa5339acb28b1a2c851c3bb86a09c639bf8bce1d4ba",
+ "estruturadoEm": "2026-11-24T09:29:53.680Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13645",
+  "ano": "2023",
+  "data": "2023-10-04",
+  "epigrafe": "LEI Nº 13.645, DE 4 DE OUTUBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Programa de Orientação, Apoio e Atendimento Farmacêutico à População.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 4 de outubro de 2023.\nRicardo Gomes,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa de Orientação, Apoio e Atendimento Farmacêutico à População."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para os fins desta Lei, considera-se:"
+  },
+  {
+   "id": "art-1/par-unico/inc-I",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "anamnese farmacêutica o procedimento de coleta de dados sobre o paciente, realizado pelo farmacêutico por meio de entrevista, com a finalidade de conhecer sua história de saúde, elaborar seu perfil farmacoterapêutico e identificar suas necessidades relacionadas à saúde;"
+  },
+  {
+   "id": "art-1/par-unico/inc-II",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "consulta farmacêutica o atendimento realizado pelo farmacêutico ao paciente, respeitando os princípios éticos e profissionais, com a finalidade de obter os melhores resultados com a farmacoterapia e de promover o uso racional de medicamentos e de outras tecnologias em saúde;"
+  },
+  {
+   "id": "art-1/par-unico/inc-III",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "cuidado centrado no paciente a relação humanizada que envolve o respeito às crenças, expectativas, experiências, atitudes e preocupações do paciente ou de seus cuidadores quanto às suas condições de saúde e ao uso de medicamentos, na qual farmacêutico e paciente compartilham a tomada de decisão e a responsabilidade pelos resultados em saúde alcançados; e"
+  },
+  {
+   "id": "art-1/par-unico/inc-IV",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "intervenção farmacêutica o ato profissional planejado, documentado e realizado pelo farmacêutico com a finalidade de otimização da farmacoterapia, de promoção, de proteção e de recuperação da saúde, de prevenção de doenças e de outros problemas de saúde."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Programa instituído por esta Lei tem por objetivos:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "facilitar a anamnese farmacêutica;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "implementar a consulta farmacêutica;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "promover o cuidado centrado no paciente;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "promover a intervenção farmacêutica; e"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "garantir o uso seguro de medicamentos, com inexistência de injúria acidental ou evitável, por meio de atividades de prevenção e de minimização dos danos provocados por eventos adversos resultantes de seu uso."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As despesas decorrentes da implantação do Programa instituído por esta Lei correrão por conta de dotação orçamentária própria."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 14,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "idSapl": 47832,
+ "rotulo": "Lei municipal nº 13.791, de 27 de dezembro de 2023",
+ "sha256Origem": "080aeb5d2a7deaccd8d36ca04e0549e4964b8fe9b0531744d4e6c7fedc4dd6c2",
+ "estruturadoEm": "2026-11-24T09:29:53.388Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13791",
+  "ano": "2023",
+  "data": "2023-12-27",
+  "epigrafe": "LEI Nº 13.791, DE 27 DE DEZEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Extingue 1 (uma) função gratificada de Contador‑Geral, código 2.2.2.6, no Quadro de Funções Gratificadas constante do art. 20 da Lei nº 5.811, de 8 de dezembro de 1986 – que estabelece o Sistema de Classificação de Cargos e Funções da Câmara Municipal de Porto Alegre e dá outras providências –, e alterações posteriores; altera o caput e o § 5º do art. 50-J da Lei nº 5.811, de 1986, e alterações posteriores; e revoga o inc. VI do § 5º do art. 1º e o inc. XII, com suas alíneas, do art. 13, todos da Resolução nº 1.367, de 2 de janeiro de 1998 – que reorganiza os serviços administrativos da Câmara Municipal de Porto Alegre e dá outras providências –, e alterações posteriores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de dezembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica extinta 1 (uma) função gratificada de Contador-Geral, código 2.2.2.6, no Quadro de Funções Gratificadas constante do art. 20 da Lei nº 5.811, de 8 de dezembro de 1986, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Por ocasião da extinção referida neste artigo, ficam excluídas do Anexo I da Lei nº 5.811, de 1986, e alterações posteriores, as especificações da função gratificada de Contador-Geral."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam alterados o caput e o § 5º do art. 50-J da Lei nº 5.811, de 1986, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 50-J. Fica instituída Gratificação Especial pelo exercício de atividades de controle de gestão fiscal, no valor correspondente ao da função gratificada de nível 6 (seis), destinada aos servidores da Câmara Municipal detentores do cargo de provimento efetivo de Contador.\n....................................................................................................................................\n§ 5º A percepção da Gratificação de que trata este artigo é incompatível com a das gratificações previstas nos arts. 50-H, 50-I e 50-P desta Lei.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação, produzindo efeitos a contar de 1º de janeiro de 2024."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Ficam revogados os seguintes dispositivos da Resolução nº 1.367, de 2 de janeiro de 1998:"
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o inc. VI do § 5º do art. 1º; e"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o inc. XII, com suas alíneas, do art. 13."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 7,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

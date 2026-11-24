@@ -1,0 +1,60 @@
+{
+ "idSapl": 47533,
+ "rotulo": "Lei municipal nº 13.694, de 26 de outubro de 2023",
+ "sha256Origem": "125d63f4f9ba44397d4b5a5664d044a20d0cc8c964675c3c2c5bbff0967b2f16",
+ "estruturadoEm": "2026-11-24T09:29:53.600Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13694",
+  "ano": "2023",
+  "data": "2023-10-26",
+  "epigrafe": "LEI Nº 13.694, DE 26 DE OUTUBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput do art. 1º e o art. 2º da Lei nº 12.951, de 7 de janeiro de 2022, que autoriza o Executivo Municipal a contratar operação de crédito com o Banco Regional de Desenvolvimento do Extremo Sul (BRDE).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 26 de outubro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o caput do art. 1º da Lei nº 12.951, de 7 de janeiro de 2022, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica o Executivo Municipal autorizado a contratar operação de crédito junto ao Banco Regional de Desenvolvimento do Extremo Sul (BRDE), até o valor de R$ 45.000.000,00 (quarenta e cinco milhões de reais), destinados a investimentos em saneamento, observada a legislação vigente, em especial as disposições da Lei Complementar Federal nº 101, de 4 de maio de 2000, e alterações posteriores.\n….....................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o art. 2º da Lei nº 12.951, de 2022, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º Fica o Executivo Municipal autorizado a repassar, como forma de pagamento e em garantia das operações de crédito de que trata esta Lei, os recebíveis que se fizerem necessários, provenientes de produto da arrecadação tributária municipal, inclusive quotas-parte do Imposto sobre Operações Relativas à Circulação de Mercadorias e sobre Prestações de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação e do Fundo de Participação dos Municípios, bem como outras garantias em direito admitidas.” (NR)."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.969,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "idSapl": 47660,
+ "rotulo": "Lei municipal nº 13.733, de 22 de novembro de 2023",
+ "sha256Origem": "c3a2f6a68cee3177199b3e8735c1fd3279c6b6c36b2fcaaedcc5bf571050bff5",
+ "estruturadoEm": "2026-11-24T09:29:53.520Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13733",
+  "ano": "2023",
+  "data": "2023-11-22",
+  "epigrafe": "LEI Nº 13.733, DE 22 DE NOVEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria 24 (vinte e quatro) cargos de Fisioterapeuta e extingue 127 (cento e vinte e sete) cargos de Contínuo, todos de provimento efetivo, na Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de novembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam criados 24 (vinte e quatro) cargos de Fisioterapeuta, código ES-1.21.NS, ES – Grupo Executivo e Assessoramento Superior, na letra “a” do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam criadas as referências E e F para a classe de cargo referida no art. 1º desta Lei na letra “a” e na letra “b” do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Ficam extintos 127 (cento e vinte e sete) cargos de Contínuo, código AC-1.05.03, AC – Grupo Atividades Complementares, na letra “a” do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Ficam criadas as referências E e F para a classe de cargo referida no art. 3º desta Lei na letra “a” e na letra “b” do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Fica alterado o Anexo I da Lei nº 6.309, de 1988, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "As despesas decorrentes da aplicação desta Lei correrão à conta de dotações orçamentárias próprias."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“ANEXO I\n......................................................................................................................................\nAC - GRUPO ATIVIDADES COMPLEMENTARES\n......................................................................................................................................\nContínuo, código AC-1.05.03, referências A, B, C, D, E e F, 43 cargos\n......................................................................................................................................\nES - GRUPO EXECUTIVO E ASSESSORAMENTO SUPERIOR\n......................................................................................................................................\nFisioterapeuta, código ES-1.21.NS, referências A, B, C, D, E e F, 57 cargos\n.........................................................................................................................” (NR)"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 8,
+   "cobertura": 0.957,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 10,
+     "caracteres": 897,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

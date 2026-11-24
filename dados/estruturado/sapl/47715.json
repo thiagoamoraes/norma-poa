@@ -1,0 +1,54 @@
+{
+ "idSapl": 47715,
+ "rotulo": "Lei municipal nº 13.745, de 01 de dezembro de 2023",
+ "sha256Origem": "530d81045470575d543e9d1b109ba5f1c0f2c7d2c0e89e6a4217f1c26b748b98",
+ "estruturadoEm": "2026-11-24T09:29:53.481Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13745",
+  "ano": "2023",
+  "data": "2023-11-30",
+  "epigrafe": "LEI Nº 13.745, DE 30 DE NOVEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera os incs. X e XI do caput e inclui §§ 5º e 6º, todos no art. 10 da Lei nº 8.279, de 20 de janeiro de 1999 – que disciplina o uso do mobiliário urbano e veículos publicitários no Município –, e alterações posteriores, incluindo a possibilidade de fixação de painel mural e de tela em fachada na fachada frontal de edificações.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de novembro de 2023.\nRicardo Gomes,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "No art. 10 da Lei nº 8.279, de 20 de janeiro de 1999, e alterações posteriores, ficam alterados os incs. X e XI do caput e incluídos § 5º e § 6º, conforme segue:",
+   "blocoDeAlteracao": "“Art. 10. ....................................................................................................................\n....................................................................................................................................\nX – painel mural, luminoso ou iluminado, fixado sobre as fachadas laterais ou frontais de edificações, inclusive empenas cegas, confeccionado em material apropriado, destinado à veiculação de anúncios e mensagens artísticas ou publicitárias, com área de exposição de mídia limitada à área total da fachada em que estiver instalada, não podendo obstruir janelas e portas, independentemente do gabarito da via; e\nXI – tela em fachada, luminosa ou iluminada, fixada sobre fachadas laterais ou frontais de edificações, confeccionada em material apropriado para reprodução de imagens impressas ou por transmissão eletrônica, destinada à exibição de material publicitário ou artístico, ou de informação de utilidade pública, com área de exposição de mídia limitada à área total da fachada em que estiver instalada, podendo ser empenas ou empenas cegas, desde que não obstrua portas e janelas, salvo autorização expressa do condomínio para essa finalidade por período específico e com anuência dos condôminos registrada em ata, independentemente do gabarito da via.\n....................................................................................................................................\n§ 5º Nos equipamentos referidos nos incs. X e XI do caput, a base inferior do painel ou da tela, instalados em fachada frontal, deve estar posicionada a uma altura não inferior a 7m (sete metros) do leito viário;\n§ 6º Não devem ser instalados painéis ou telas, referidos nos incs. X e XI do caput, em fachadas frontais de prédios que se localizem na lateral ou na proximidade com bocas de túneis e viadutos, a fim de evitar ofuscamento dos condutores que trafegam por estas estruturas.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "data_diverge_do_catalogo"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.98,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

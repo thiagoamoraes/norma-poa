@@ -1,0 +1,54 @@
+{
+ "idSapl": 47507,
+ "rotulo": "Lei municipal nº 13.682, de 20 de outubro de 2023",
+ "sha256Origem": "69d83a6a4f45bbf17eba74bfe294e0d89e2e61e8ca94def849f870dca754f8ac",
+ "estruturadoEm": "2026-11-24T09:29:53.626Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13682",
+  "ano": "2023",
+  "data": "2023-10-20",
+  "epigrafe": "LEI Nº 13.682, DE 20 DEOUTUBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Declara de utilidade pública a Associação Atlética Recreativa e Cultural Lobos da Zona Sul.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 20 de outubro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica declarada de utilidade pública a Associação Atlética Recreativa e Cultural Lobos da Zona Sul, com sede nesta Capital, nos termos da Lei nº 2.926, de 12 de julho de 1966, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data da sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.938,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

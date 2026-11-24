@@ -1,0 +1,52 @@
+{
+ "idSapl": 47826,
+ "rotulo": "Lei municipal nº 13.785, de 27 de dezembro de 2023",
+ "sha256Origem": "dd0c6d1d2ec4448cc441cfa271003a3d6f756b82e218b516c701191ab25b9226",
+ "estruturadoEm": "2026-11-24T09:29:53.412Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13785",
+  "ano": "2023",
+  "data": "2023-12-27",
+  "epigrafe": "LEI Nº 13.785, DE 27 DE DEZEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o § 2º do art. 8º da Lei nº 12.662, de 21 de janeiro de 2020, – que institui o Programa de Residência Técnico-superior (PRTS) no âmbito do Município de Porto Alegre –, retirando a necessidade do preceptor ser um servidor do quadro efetivo.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de dezembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o § 2º do art. 8º da Lei nº 12.662, de 21 de janeiro de 2020, conforme segue:",
+   "blocoDeAlteracao": "“Art.8º ......................................................................................................................\n....................................................................................................................................\n§ 2º O titular da Secretaria a qual o residente estiver vinculado designará os preceptores, nos termos do caput deste artigo, os quais deverão possuir a mesma formação profissional do residente e estar vinculados com suas atividades práticas.” (NR)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.954,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

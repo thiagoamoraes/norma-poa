@@ -1,0 +1,100 @@
+{
+ "idSapl": 48186,
+ "rotulo": "Lei municipal nº 13.862, de 13 de março de 2024",
+ "sha256Origem": "0229e722077f64fc5cf69ca575660ccefe7f82c354e23683b1666cd6d7b48aed",
+ "estruturadoEm": "2026-11-24T09:29:53.254Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13862",
+  "ano": "2024",
+  "data": "2024-03-13",
+  "epigrafe": "LEI Nº 13.862, DE 13 DE MARÇO DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria o Cadastro Único das Pessoas com Transtorno do Espectro Autista (TEA), com Síndrome de Down ou com Transtorno do Déficit de Atenção com Hiperatividade (TDAH) no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de março de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criado o Cadastro Único das Pessoas com Transtorno do Espectro Autista (TEA), com Síndrome de Down ou com Transtorno do Déficit de Atenção com Hiperatividade (TDAH) no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Cadastro de que trata esta Lei será constituído a partir de informações apresentadas por hospitais, clínicas e unidades de saúde, das redes pública e privada, nas quais as pessoas referidas no art. 1º desta Lei recebam atendimento."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para complementar o Cadastro de que trata esta Lei, poderão ser obtidas informações junto a instituições que prestem atendimento às pessoas referidas no art. 1º desta Lei, tais como:"
+  },
+  {
+   "id": "art-2/par-unico/inc-I",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "entidades de direito privado;"
+  },
+  {
+   "id": "art-2/par-unico/inc-II",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "organizações da sociedade civil; e"
+  },
+  {
+   "id": "art-2/par-unico/inc-III",
+   "pai": "art-2/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "demais associações e centros que prestem atendimento a pacientes com TEA, Síndrome de Down ou TDAH."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Cadastro de que trata esta Lei tem por objetivo unificar as informações quantitativas, com intuito de identificar as pessoas referidas no art. 1º desta Lei, para fins de políticas públicas e disponibilização de atendimento na rede pública de saúde e de educação do Município de Porto Alegre. Paragráfo único. Deverão ser adotadas medidas efetivas para que não haja sobreposição no Cadastro de que trata esta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Para os efeitos desta Lei, será observado o disposto na Lei Federal nº 13.709, de 14 de agosto de 2018, preservando a privacidade e o sigilo das informações pessoais."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 9,
+   "cobertura": 0.957,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

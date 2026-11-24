@@ -1,0 +1,389 @@
+{
+ "geradoEm": "2026-11-24T09:30:00.304Z",
+ "idSapl": 47789,
+ "rotulo": "Lei municipal nº 13.773, de 18 de dezembro de 2023",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 13773/2023@2023-12-18",
+   "data": "2023-12-18",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 13773/2023@2026-01-20",
+   "data": "2026-01-20",
+   "fonte": {
+    "idSapl": 50894,
+    "rotulo": "Lei municipal nº 14.490, de 20 de janeiro de 2026"
+   },
+   "comandosAplicados": 1
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica criado o Programa de Banco de Materiais de Construção no Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Programa criado por esta Lei tem o objetivo de transformar as sobras de materiais da construção civil em benefício social, por meio do armazenamento e da redistribuição de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-I",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "sobras de matérias-primas da construção civil;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-II",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "resíduos sólidos que possam ser utilizados em obras; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-III",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "materiais doados por empresas, entidades não governamentais e comunidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O repasse dos materiais que integram o Banco de Materiais de Construção será realizado preferencialmente à população em situação de vulnerabilidade social inscritas no Cadastro Único (CadÚnico), a fim de garantir condições dignas de moradia, nas seguintes situações:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "construção, reforma ou recuperação de moradia própria, a fim de melhorar o nível de habitabilidade;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "recuperação de moradia em virtude de emergência ou calamidade; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "famílias em situação de regularização fundiária junto ao Executivo Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para os efeitos do disposto neste artigo, consideram-se emergência ou calamidade os incêndios, os desabamentos, os alagamentos, os deslizamentos, os vendavais, a queda de granizo e outros fenômenos que causem danos a habitações.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Para os efeitos do disposto neste artigo, consideram-se emergência ou calamidade os incêndios, os desabamentos, as enchentes, os alagamentos, os deslizamentos, os vendavais, a queda de granizo e outros fenômenos que causem danos a habitações.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 14.490/2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para a concessão do repasse, deverá ser preenchido cadastro socioeconômico e emitido laudo social, com parecer da autoridade competente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-3",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica vedado o repasse de materiais para famílias residentes em área de preservação ambiental, famílias que estejam ocupando de maneira irregular imóvel de propriedade de pessoa ou entidade privada ou imóvel de área pública do Município e para famílias que estejam em imóvel com processo judicial de reintegração de posse.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-4",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Terão preferência as moradias das famílias que se encontrem na situação descrita no inc. II deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os beneficiados por esta Lei terão o prazo de 30 (trinta) dias corridos para apresentarem a prestação de contas do material adquirido, sob pena de apreensão e recolhimento dos bens.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Decorrido o prazo estabelecido no caput deste artigo, os donatários serão notificados para que apresentem justificativa à autoridade competente no prazo de 15 (quinze) dias, sob pena de apreensão e recolhimento dos materiais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Banco de Materiais de Construção reserva-se o direito de selecionar os materiais a ele destinados, abstendo-se de receber entulhos ou materiais não passíveis de utilização.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica o Executivo Municipal autorizado, desde que se responsabilize pela fiscalização e pelo controle, a celebrar convênios com órgãos e entidades que aderirem ao Programa criado por esta Lei, inclusive para o gerenciamento das ações do Banco, condicionados à prestação de contas das partes conveniadas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para o acondicionamento dos materiais, o Executivo Municipal poderá utilizar espaços públicos como terrenos ou prédios e poderá firmar convênio com particulares para o uso de espaços de sua titularidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Executivo Municipal realizará campanhas publicitárias educativas a fim de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-I",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "incentivar a participação da população na doação dos materiais descritos no art. 1º desta Lei; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-II",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "divulgar o Programa criado por esta Lei para que famílias interessadas possam se cadastrar e receber as doações.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor em 90 (noventa) dias, contados da data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

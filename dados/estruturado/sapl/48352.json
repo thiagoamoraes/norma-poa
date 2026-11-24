@@ -1,0 +1,72 @@
+{
+ "idSapl": 48352,
+ "rotulo": "Lei municipal nº 13.910, de 23 de abril de 2024",
+ "sha256Origem": "024a9d2206b089cf62a32a8bb40d3bae44517bb20a6682a10a1ec613ef8d698d",
+ "estruturadoEm": "2026-11-24T09:29:53.178Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13910",
+  "ano": "2024",
+  "data": "2024-04-23",
+  "epigrafe": "LEI Nº 13.910, DE 23 DE ABRIL DE 2024.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui a efeméride Dia da Família no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, a ser comemorado juntamente com a celebração do Dia das Mães, do Dia dos Pais e do Dia dos Avós, nas redes de ensino pública e privada no Município de Porto Alegre .",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 23 de abril de 2024.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Dia da Família no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, a ser comemorado juntamente com a celebração do Dia das Mães, do Dia dos Pais e do Dia dos Avós, nas redes de ensino pública e privada no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A celebração do Dia da Família tem por objetivos:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a inclusão daqueles que têm o papel fundamental de vivenciar o verdadeiro papel da família na vida das crianças; e"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a conscientização de familiares, comunidade escolar e sociedade sobre a existência e a necessidade de respeito às diversas formações familiares."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.962,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

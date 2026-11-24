@@ -1,0 +1,79 @@
+{
+ "idSapl": 47590,
+ "rotulo": "Lei municipal nº 13.702, de 03 de novembro de 2023",
+ "sha256Origem": "5f2a478ad2f8f237b65ce7b534f03daa83e130ee4e6ae2b39a06fbdc22fdeca0",
+ "estruturadoEm": "2026-11-24T09:29:53.565Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13702",
+  "ano": "2023",
+  "data": "2023-11-03",
+  "epigrafe": "LEI Nº 13.702, DE 3 DE NOVEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza o tráfego, nas faixas exclusivas do transporte coletivo por ônibus, de veículos exclusivamente a serviço dos conselheiros tutelares.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 3 de novembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica autorizado o tráfego, nas faixas exclusivas do transporte coletivo por ônibus, de veículos a serviço dos conselheiros tutelares atuantes exclusivamente nas 10 (dez) Microrregiões de Porto Alegre, conforme regulamentação do órgão gestor de trânsito."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os veículos deverão estar devidamente identificados e equipados com dispositivos visuais que os caracterizem como veículos de conselheiros tutelares de Porto Alegre em serviço."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Os conselheiros tutelares que utilizarem as faixas exclusivas do transporte coletivo por ônibus deverão fazê-lo de maneira responsável, respeitando as normas de trânsito e garantindo a segurança dos demais usuários da via."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O órgão gestor de trânsito será responsável por fiscalizar e regulamentar a utilização das faixas exclusivas pelos veículos de conselheiros tutelares, estabelecendo diretrizes para sua identificação e seu uso adequado."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "O Executivo Municipal regulamentará esta Lei no prazo de 90 (noventa) dias, contados da data de sua publicação."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 6,
+   "cobertura": 0.957,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

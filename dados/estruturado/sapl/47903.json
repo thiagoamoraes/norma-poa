@@ -1,0 +1,143 @@
+{
+ "idSapl": 47903,
+ "rotulo": "Lei municipal nº 13.822, de 12 de janeiro de 2024",
+ "sha256Origem": "a3ebc7dd60a5db638798f6ee0e939a0e0005f1c4571748432e6a3c7fdc8c9e19",
+ "estruturadoEm": "2026-11-24T09:29:53.348Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13822",
+  "ano": "2024",
+  "data": "2024-01-12",
+  "epigrafe": "PROC. Nº 0732/14",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "PLL   Nº 071/14 LEI Nº 13.822, DE 12 DE JANEIRO DE 2024.",
+ "ementa": "Institui o     Programa           Municipal       de Empreendedorismo.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de janeiro de 2024.\nMauro Pinheiro,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa Municipal de Empreendedorismo, a ser desenvolvido no âmbito de escolas de nível fundamental do Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Programa Municipal de Empreendedorismo tem por objetivos:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "estimular o desenvolvimento do Município de Porto Alegre como um todo, bem como o desenvolvimento local;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "contribuir para a formação da base tecnológica;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "fomentar a atividade econômica; e"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "apoiar a criação e a gestão de pequenas empresas."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A implantação e a execução do Programa Municipal de Empreendedorismo terão como diretrizes:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "criar incubadoras empresariais dentro das escolas integradas;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "capacitar o corpo docente das escolas mencionadas;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "orientar o ensino para acompanhar novas tendências tecnológicas;"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "estimular a realização de pesquisas, experimentos e atividades que visem ao aprimoramento de ideias e à concretização e ao efetivo funcionamento dos negócios implementados;"
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "promover a entrada de novos produtos e serviços no mercado; e"
+  },
+  {
+   "id": "art-3/inc-VI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "realizar convênios e acordos de cooperação técnica com órgãos e instituições oficiais e privadas, visando a estabelecer parcerias e ações integradas para o desenvolvimento."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O custeio das atividades inerentes ao desenvolvimento dos objetivos previstos no art. 2º desta Lei, bem como o cumprimento das diretrizes estabelecidas em seu art. 3º, serão viabilizados mediante celebração de convênios entre as escolas aderentes e associações civis, organizações sociais, entidades sem fins lucrativos e demais pessoas jurídicas de direito privado."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 15,
+   "cobertura": 0.968,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}
