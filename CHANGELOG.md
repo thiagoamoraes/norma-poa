@@ -1732,3 +1732,6 @@ Plano em `PLANO-UX-2.md`; entrevista com o mantenedor (4 perguntas, regra 11) a 
 - **Comuns às três:** link "pular", ícone, alvos de 44 px em toque, lista de leis da comparação com 8 linhas e botão desabilitado legível (decisão 56d).
 - `teste_paginas.mjs` (29; Playwright, dados reais servidos do disco; pula sem Playwright) falha no código antigo (rc=1).
 - Pendente (fora desta rodada): tempo de primeira carga em conexão lenta; aviso por dispositivo na busca no texto; navegação por setas na fila; as orçamentárias (50787, 50559, 50442, 49635, 49391, 50246) ainda não chegaram: as coletas de 22 e 23/11 não rodaram.
+
+## Disparo da coleta: nova janela 22:00–06:30 Brasília (25/11/2026)
+Duas execuções em sequência (22:02 completa até 03:30; 03:36 só textos até 06:20), disparadas por `ingestao/disparar-coleta.sh` (`teste_disparar_coleta.sh`, 25 verificações) via 4 gatilhos; guarda do agendamento passa a parar às 06:20 BRT. Medido: 1 download/min; 313 → ~487 arquivos/noite. Verificado no GitHub real com 2 execuções de teste (parada vencida, sem acesso à fonte): entradas aceitas e a 2ª execução fica `pending` até a 1ª terminar. Causa da falha de 22/11 e lição no ROTEIRO 10-C. Motor, estruturador e dados não mudaram.
