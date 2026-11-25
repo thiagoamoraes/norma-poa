@@ -13,10 +13,10 @@
 # Regras (só para EVENTO=schedule; o disparo manual ou externo é livre):
 #   - fora de 03:00–10:00 UTC (00:00–07:00 em Brasília): pular;
 #   - já houve outra execução hoje (o disparo externo chegou antes): pular;
-#   - senão, seguir e parar às 09:50 UTC (06:50 em Brasília).
+#   - senão, seguir e parar às 09:20 UTC (06:20 em Brasília).
 agora="${AGORA_EPOCH:-$(date +%s)}"
 hora=$(date -u -d "@$agora" +%H)
 if [ "${EVENTO:-}" != "schedule" ]; then echo "seguir"; exit 0; fi
 if [ "$((10#$hora))" -lt 3 ] || [ "$((10#$hora))" -ge 10 ]; then echo "pular fora da madrugada de Brasília (agora $(date -u -d "@$agora" +%H:%M) UTC)"; exit 0; fi
 if [ "${EXECUCOES_HOJE:-0}" -gt 0 ]; then echo "pular já houve outra execução hoje"; exit 0; fi
-echo "seguir 09:50"
+echo "seguir 09:20"
