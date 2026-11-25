@@ -1,0 +1,92 @@
+{
+ "idSapl": 46278,
+ "rotulo": "Lei municipal nº 13.486, de 30 de maio de 2023",
+ "sha256Origem": "46a696888393861103e9bba2b83cb9fbd62f2b296c908abf0fc24a10da8b6a7f",
+ "estruturadoEm": "2026-11-25T09:26:16.704Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13486",
+  "ano": "2023",
+  "data": "2023-05-30",
+  "epigrafe": "LEI Nº 13.486, DE 30 DE MAIO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o inc. VIII do § 1º do art. 2º, o caput e os incs. I e II do § 2º do art. 15, o caput e os §§ 2º e 3º do art. 39, e repristina os efeitos do inc. III e dos §§ 1º, 2º e 3º do art. 42, todos na Lei nº 11.582, de 21 de fevereiro de 2014 – que institui o serviço público de transporte individual por táxi no Município de Porto Alegre e dá outras providências –, e alterações posteriores; e revoga a al. j do inc. VI do art. 35 da Lei nº 12.420, de 8 de junho de 2018, dispondo sobre apresentação de comprovante de aprovação no Curso de Formação Profissional e sobre prazos de quarentena para autorizatário desvinculado do serviço de táxi e dando outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de maio de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o inc. VIII do § 1º do art. 2º da Lei nº 11.582, de 21 de fevereiro de 2014, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º .....................................................................................................................\n§ 1º ............................................................................................................................\n....................................................................................................................................\nVIII – apresentar comprovante de aprovação no Curso de Formação Profissional, com carga horária de 50h (cinquenta horas), ministrado presencialmente ou por meio do ensino a distância (EAD), conforme regulamentação; e\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam alterados o caput e os incs. I e II do § 2º do art. 15 da Lei nº 11.582, de 2014, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "Art. 15. .....................................................................................................................\n....................................................................................................................................\n§ 2º O autorizatário desvinculado do serviço de táxi do Município de Porto Alegre deverá aguardar os seguintes prazos de quarentena:\nI – 60 (sessenta) meses, para se habilitar na função de condutor auxiliar ou participar de procedimento seletivo que vise a novamente investi-lo na condição de delegatário em caso de extinção da delegação em decorrência da aplicação da penalidade de cassação; e\nII – 36 (trinta e seis) meses, para participar de procedimento seletivo que vise a novamente investi-lo na condição de delegatário em caso de transferência da delegação.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "No art. 39 da Lei nº 11.582, de 2014, e alterações posteriores, ficam alterados o caput e os §§ 2º e 3º, conforme segue:",
+   "blocoDeAlteracao": "“Art. 39. O reajuste tarifário do transporte público individual poderá ser concedido anualmente, mediante requisição do sindicato da categoria, com a aplicação máxima do Índice Geral de Preços do Mercado (IGP-M) da Fundação Getúlio Vargas (FGV) calculado a contar do último reajuste.\n....................................................................................................................................\n§ 2º Caberá ao sindicato da categoria encaminhar o pedido de reajuste à EPTC.\n§ 3º O pedido de reajuste tarifário deverá indicar qual o percentual de reajuste que o sindicato da categoria entende ser devido e aplicável, facultada a apresentação de pedido inferior ao IGP-M apurado no período.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Fica revogada a al. j do inc. V do art. 35 da Lei nº 12.420, de 8 de junho de 2018."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Ficam repristinados os efeitos do inc. III e dos §§ 1º, 2º e 3º do art. 42 da Lei nº 11.582, de 21 de fevereiro de 2014."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "aspa_de_abertura_ausente"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 6,
+   "cobertura": 0.977,
+   "blocosDeAlteracao": 3,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [],
+   "fronteirasInferidas": [
+    {
+     "tipo": "sem_abertura_de_aspas",
+     "linhaIni": 12,
+     "linhaFim": 17,
+     "confianca": "media"
+    }
+   ]
+  }
+ }
+}

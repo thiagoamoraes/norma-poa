@@ -1,0 +1,154 @@
+{
+ "idSapl": 46438,
+ "rotulo": "Lei municipal nº 13.508, de 23 de junho de 2023",
+ "sha256Origem": "67318976a5d5c46b3f8b7633ccd9c3135fa7a367e2693394891d02de3f90fab9",
+ "estruturadoEm": "2026-11-25T09:26:16.655Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13508",
+  "ano": "2023",
+  "data": "2023-06-23",
+  "epigrafe": "LEI Nº 13.508, DE 23 DE JUNHO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Brasão da Guarda Municipal de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 23 de junho de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nCristiane da Costa Nery,\nProcuradora-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criado o Brasão de Armas da Guarda Municipal de Porto Alegre, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Brasão terá a descrição heráldica conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Brasão será usado:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "nos uniformes;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "nas dependências do Departamento;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "nos veículos oficiais da corporação;"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "nas carteiras de identidade funcional;"
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "nos documentos inerentes à corporação;"
+  },
+  {
+   "id": "art-3/inc-VI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "nas festividades oficiais da Guarda Municipal; e"
+  },
+  {
+   "id": "art-3/inc-VII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "nas insígnias, medalhas, placas e afins."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A utilização do Brasão para outras finalidades dependerá de prévia autorização do Secretário Municipal de Segurança."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O Brasão é de uso obrigatório por todos os Guardas Municipais, devendo estar afixado no uniforme, nos veículos e nos equipamentos utilizados pela Guarda Municipal."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "É vedado o uso comercial do Brasão, exceto para uso em propaganda institucional da Administração Pública."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data da sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nPaleta de cores:\nAzul: céu azul sereno do rio grande.\nVerde: representa as águas mansas do lago Guaíba e também as campinas verdejantes do sagrado solo Gaúcho.\nVermelho: significa a fé e o amor.\n... . Cor prata das estrelas: é a seriedade e o caráter nobre e altivo do povo, representa a paz, pureza e sinceridade.\nCor dourada: o ouro do escudo é o símbolo da fidelidade.\nSIGNIFICADO DAS ESTRELAS:\n- Comando-Geral\n- Serviço Preventivo\n- Serviço de Ensino\n- Serviço Operacional\n- Serviço Administrativo"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 15,
+   "cobertura": 0.946,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 12,
+     "caracteres": 490,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "idSapl": 47141,
+ "rotulo": "Lei municipal nº 13.619, de 04 de setembro de 2023",
+ "sha256Origem": "4293274f80614c92fd82b5cf830627e3ed1d6cbb5009949bd03e3f228fd8e225",
+ "estruturadoEm": "2026-11-25T09:26:16.490Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13619",
+  "ano": "2023",
+  "data": "2023-09-04",
+  "epigrafe": "LEI Nº 13.619, DE 4 DE SETEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui a Lei Federal nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha –, como sugestão de palestras a serem ministradas nas escolas da Rede Municipal de Ensino.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 4 de setembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a Lei Federal nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha –, como sugestão de palestras a serem ministradas nas escolas da Rede Municipal de Ensino."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A inclusão referida no caput deste artigo tem como objetivo conscientizar adolescentes, jovens, adultos, estudantes e professores que compõem a comunidade escolar acerca da importância de respeitar os direitos humanos, a fim de prevenir e evitar práticas de violência contra a mulher."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Caberá ao corpo diretivo da escola definir em qual disciplina será abordada a Lei Maria da Penha, observando o que segue:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "incentivo às reflexões sobre o combate à violência contra a mulher, divulgando o serviço Central de Atendimento à Mulher – Ligue 180; e"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "explicações sobre a necessidade da realização de registros de denúncias dos casos de violência contra a mulher nos órgãos competentes, onde quer que ela ocorra."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão por conta das dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 7,
+   "cobertura": 0.952,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

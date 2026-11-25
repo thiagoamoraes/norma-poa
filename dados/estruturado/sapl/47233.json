@@ -1,0 +1,75 @@
+{
+ "idSapl": 47233,
+ "rotulo": "Lei municipal nº 13.630, de 21 de setembro de 2023",
+ "sha256Origem": "41e28459644e87282d8ba4d56ddc63d0bcdb146ac3b79025f743b147b914fc04",
+ "estruturadoEm": "2026-11-25T09:26:16.457Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13630",
+  "ano": "2023",
+  "data": "2023-09-21",
+  "epigrafe": "LEI Nº 13.630, DE 21 DE SETEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o Anexo e inclui arts. 1º-A e 1º-B, todos na Lei nº 11.442, de 24 de junho de 2013, que inclui o evento Feira de Antiguidades do Mercado Público no Anexo II da Lei nº 10.903, de 31 de maio de 2010, e dá outras providências, alterando os meses de realização da Feira, instituindo-a como evento de natureza sociocultural e de turismo do Município de Porto Alegre e estabelecendo que, em datas especiais, poderá ter o período de sua realização alterado para compor outros eventos oficiais do Município.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de setembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado para de janeiro a dezembro, uma semana do mês, o período do evento no Anexo da Lei nº 11.442, de 24 de junho de 2013."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterada a ementa da Lei nº 11.442, de 2013, conforme segue:",
+   "blocoDeAlteracao": "“Inclui o evento Feira de Antiguidades do Mercado Público no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, realizado de janeiro a dezembro, em uma semana de cada mês, e dá outras providências.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica incluído art. 1º-A na Lei nº 11.442, de 2013, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º-A Fica a Feira de Antiguidades do Mercado Público instituída como evento de natureza sociocultural e de turismo do Município de Porto Alegre.”"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica incluído art. 1º-B na Lei nº 11.442, de 2013, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º-B A Feira de Antiguidades do Mercado Público, em datas especiais, poderá ter o período de sua realização alterado para compor outros eventos oficiais do Município de Porto Alegre.”"
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 3,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

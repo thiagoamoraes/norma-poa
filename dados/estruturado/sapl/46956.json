@@ -1,0 +1,72 @@
+{
+ "idSapl": 46956,
+ "rotulo": "Lei municipal nº 13.596, de 09 de agosto de 2023",
+ "sha256Origem": "1f4a6305e564356bd9e0f84923771ae01f2ab32f999dde79b87fa60fd9c32a4f",
+ "estruturadoEm": "2026-11-25T09:26:16.515Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13596",
+  "ano": "2023",
+  "data": "2023-08-09",
+  "epigrafe": "LEI Nº 13.596, DE 9 DE AGOSTO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Permite a apresentação da carteira de identidade como meio de prova para atestar deficiência permanente física, mental, intelectual, auditiva ou visual, bem como o Transtorno do Espectro Autista (TEA), perante os serviços públicos e para a concessão de benefícios que exijam comprovação de condições de saúde no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de agosto de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica permitida a apresentação da carteira de identidade como meio de prova para atestar deficiência permanente física, mental, intelectual, auditiva ou visual, bem como o Transtorno do Espectro Autista (TEA), perante os serviços públicos e para a concessão de benefícios que exijam comprovação de condições de saúde no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para a validade da comprovação de que trata o caput deste artigo, a carteira de identidade deverá estar dentro do prazo de validade e conter informação que comprove a condição de saúde por meio de Classificação Internacional de Doenças (CID) e do símbolo respectivo."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Na hipótese da não apresentação de carteira de identidade nos termos do caput do art. 1º desta Lei, poderá ser apresentado laudo médico pericial que ateste deficiência permanente física, mental, intelectual, auditiva ou visual, bem como o Transtorno do Espectro Autista (TEA)."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Fica vedado ao Município de Porto Alegre recusar, em razão da data do exame ou da emissão, o laudo referido no caput deste artigo."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data da sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.954,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "idSapl": 45415,
+ "rotulo": "Lei municipal nº 13.346, de 26 de dezembro de 2022",
+ "sha256Origem": "ab1b97e00ad83252f25a2d62a4b5101c54c55fc6e29f29c708b8d8f169197a15",
+ "estruturadoEm": "2026-11-25T09:26:16.940Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13346",
+  "ano": "2022",
+  "data": "2022-12-26",
+  "epigrafe": "LEI Nº 13.346, DE 26 DE DEZEMBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui campanha educativa de respeito e conscientização sobre o uso de assentos exclusivos ou preferenciais nos veículos de transporte coletivo no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 26 de dezembro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída campanha educativa de respeito e conscientização sobre o uso de assentos exclusivos ou preferenciais por idosos, pessoas com deficiência, gestantes, pessoas com mobilidade reduzida e obesos nos transportes coletivos públicos no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "São objetivos da campanha instituída por esta Lei:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "estimular o respeito e a conscientização das pessoas sobre o direito de uso de assentos exclusivos ou preferenciais nos transportes coletivos públicos; e"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "incentivar as pessoas a destinarem o uso dos demais assentos do ônibus às pessoas com deficiência, aos idosos, às gestantes, às pessoas com mobilidade reduzida e aos obesos, quando os assentos preferenciais já estiverem ocupados."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "São atividades da campanha instituída por esta Lei:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "divulgação, em redes sociais, terminais, paradas de ônibus, busdoor, interior de ônibus e de lotações e nos demais veículos de comunicação do Município, da importância e da reflexão sobre o uso de assentos exclusivos ou preferenciais nos transportes coletivos públicos;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "promoção de ações e eventos de conscientização sobre o uso de assentos exclusivos ou preferenciais nos transportes coletivos públicos pelos seus destinatários; e"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "incentivo a ações que assegurem a cedência dos assentos preferenciais aos usuários respectivos e dos demais assentos do veículo quando essas pessoas necessitarem."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Para a consecução dos objetivos desta Lei, o Executivo Municipal poderá firmar acordos ou convênios com entidades privadas e sem fins lucrativos, conselhos de classe, profissionais do ramo e outras entidades relacionadas ao tema."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 10,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "idSapl": 46771,
+ "rotulo": "Lei municipal nº 13.575, de 18 de julho de 2023",
+ "sha256Origem": "d9b9780d3251c3acbb94f632bec69a9e8ca585b395aef26485a253f88f13fce5",
+ "estruturadoEm": "2026-11-25T09:26:16.544Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13575",
+  "ano": "2023",
+  "data": "2023-07-18",
+  "epigrafe": "LEI Nº 13.575, DE 18 DE JULHO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Fixa os subsídios mensais do prefeito, do vice-prefeito e dos secretários municipais de Porto Alegre e do presidente da Câmara Municipal de Porto Alegre e demais vereadores para a XIX Legislatura, período de 1º de janeiro de 2025 a 31 de dezembro de 2028.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 18 de julho de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam fixados os seguintes subsídios mensais para a XIX Legislatura, período de 1º de janeiro de 2025 a 31 de dezembro de 2028, conforme segue:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "R$ 34.900,00 (trinta e quatro mil e novecentos reais) para o prefeito;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "R$ 23.428,64 (vinte e três mil quatrocentos e vinte e oito reais e sessenta e quatro centavos) para o vice-prefeito;"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "R$ 19.987,50 (dezenove mil novecentos e oitenta e sete reais e cinquenta centavos) para os secretários municipais; e"
+  },
+  {
+   "id": "art-1/inc-IV",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "R$ 23.428,64 (vinte e três mil quatrocentos e vinte e oito reais e sessenta e quatro centavos) para o presidente da Câmara Municipal de Porto Alegre (CMPA) e demais vereadores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O recebimento dos subsídios fixados pelos incs. II e III do caput do art. 1º desta Lei não poderá ser acumulado com aquele decorrente do exercício, em substituição, do cargo de Prefeito."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Os subsídios de que trata o art. 1º desta Lei poderão ser corrigidos anualmente mediante decreto, no caso dos incs. I, II e III, e mediante Resolução de Mesa, no caso do inc. IV, nos termos do inc. X do caput do art. 37 da Constituição Federal, a fim de recompor as perdas inflacionárias."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O prefeito, o vice-prefeito, os secretários municipais e o presidente da CMPA e demais vereadores perceberão, a título de 13º subsídio, em dezembro de cada ano da XIX Legislatura, o valor equivalente a 1 (um) subsídio mensal."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "As despesas decorrentes da aplicação desta Lei correrão à conta de dotações orçamentárias específicas."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação, produzindo efeitos de 1º de janeiro de 2025 a 31 de dezembro de 2028."
+  },
+  {
+   "id": "art-6/par-unico",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Excetua-se do caput deste artigo o disposto no inc. III do caput do art. 1º desta Lei, que produzirá efeitos a contar da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 11,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

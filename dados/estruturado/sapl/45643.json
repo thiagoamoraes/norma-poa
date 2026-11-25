@@ -1,0 +1,70 @@
+{
+ "idSapl": 45643,
+ "rotulo": "Lei municipal nº 13.385, de 07 de março de 2023",
+ "sha256Origem": "96681b640144162d6b30ae15fcbcf1b7944ce50e314484cb8347c9d676cd845f",
+ "estruturadoEm": "2026-11-25T09:26:16.878Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13385",
+  "ano": "2023",
+  "data": "2023-03-07",
+  "epigrafe": "LEI Nº 13.385, DE 7 DE MARÇO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o Salão Gaúcho do Artesanato no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, entre a primeira segunda-feira do mês de outubro e o dia 12 de outubro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de março de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Salão Gaúcho do Artesanato no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, entre a primeira segunda-feira do mês de outubro e o dia 12 de outubro, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nOUTUBRO\nPERÍODO\nEVENTO\nDESCRIÇÃO E LOCAL DO EVENTO\nEntre a primeira segunda-feira do mês e o dia 12.\nSALÃO GAÚCHO DO ARTESANATO\nOrganizado pela Federação de Artesãos do Rio Grande do Sul, o evento é voltado ao fomento e à valorização do artesanato, da arte e cultura popular e da economia solidária por meio da exposição e da comercialização do artesanato.\nLocal: Largo Glênio Peres."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.969,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 8,
+     "caracteres": 376,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

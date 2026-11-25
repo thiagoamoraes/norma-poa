@@ -1,0 +1,93 @@
+{
+ "idSapl": 46647,
+ "rotulo": "Lei municipal nº 13.529, de 05 de julho de 2023",
+ "sha256Origem": "126a16fabfbe038ee7b374fca4d0539f3c3aa659f20e8a6b27c5060a2b89b067",
+ "estruturadoEm": "2026-11-25T09:26:16.599Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13529",
+  "ano": "2023",
+  "data": "2023-07-05",
+  "epigrafe": "LEI Nº 13.529, DE 5 DE JULHO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria a casa de acolhimento para adultos com transtorno do espectro autista (TEA) e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 5 de julho de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criada a casa de acolhimento para adultos com transtorno do espectro autista (TEA)."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A casa de acolhimento para adultos com TEA será destinada às pessoas em situação de abandono ou de vulnerabilidade social e a órfãos."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Para as pessoas com TEA em situação de vulnerabilidade social será permitida a convivência de 1 (um) familiar ou tutor responsável pela pessoa com TEA."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O familiar ou tutor responsável pela pessoa com TEA poderá ser beneficiado por programas ou projetos sociais destinados à habitação para pessoas de baixa renda definidos por protocolo previamente estabelecido pelo Executivo Municipal."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A casa de acolhimento deverá estar em consonância com a Lei Federal nº 12.764, de 27 de dezembro de 2012 – Lei Berenice Piana."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Será ofertado atendimento pedagógico por meio de laboratórios e oficinas de aprendizagem e de atividades físicas e culturais, que deverão ser realizados por profissionais da área da saúde, da educação, do esporte e da cultura."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Para fins de execução desta Lei, poderão ser utilizados imóveis desabitados de propriedade do Município de Porto Alegre, bem como dotação orçamentaria própria da Fundação de Assistência Social e Cidadania (FASC), por meio da Lei Orçamentária Anual (LOA), e também por emendas à LOA destinadas pelo Legislativo Municipal."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 8,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

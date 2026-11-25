@@ -1,0 +1,65 @@
+{
+ "idSapl": 46547,
+ "rotulo": "Lei municipal nº 13.517, de 29 de junho de 2023",
+ "sha256Origem": "3b4d6a3c63362b2bc6c5738d93536148d97d2fe98449ce55f47d7dd59fb64551",
+ "estruturadoEm": "2026-11-25T09:26:16.646Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13517",
+  "ano": "2023",
+  "data": "2023-06-29",
+  "epigrafe": "LEI Nº 13.517, DE 29 DE JUNHO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui a efeméride Dia do Aniversário de Oxalá Elefã da Nação Cabinda, de Pai Cleon de Oxalá, no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no dia 6 de setembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE, Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 29 de junho de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Dia do Aniversário de Oxalá Elefã da Nação Cabinda, de Pai Cleon de Oxalá, no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no dia 6 de setembro."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Serão incentivadas ações de conscientização sobre a efeméride incluída no art. 1º desta Lei nas escolas municipais para o enfrentamento da intolerância religiosa e a prevenção das violências nas escolas."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.958,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art2º"
+    }
+   ]
+  }
+ }
+}

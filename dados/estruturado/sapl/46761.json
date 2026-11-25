@@ -1,0 +1,86 @@
+{
+ "idSapl": 46761,
+ "rotulo": "Lei municipal nº 13.565, de 17 de julho de 2023",
+ "sha256Origem": "f8aec4da59d654d0b68369bb891fb2a6e204cff583a3d39207b956525272bfbc",
+ "estruturadoEm": "2026-11-25T09:26:16.561Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13565",
+  "ano": "2023",
+  "data": "2023-07-17",
+  "epigrafe": "LEI Nº 13.565, DE 17 DE JULHO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Programa Infância a Salvo.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de julho de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa Infância a Salvo, voltado à prevenção de sequestros de crianças ou adolescentes."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Programa de que trata esta Lei consistirá no incentivo, pelo Poder Público, da adoção das seguintes práticas:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "sinalização, por crianças e adolescentes que necessitem de socorro, por meio do gesto de levantar a mão, com a palma voltada para outra pessoa, encostando o polegar na palma da mão e dobrando os dedos sobre o polegar;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "imediata comunicação, por pessoas que identificarem a sinalização referida no inc. I deste artigo, ao serviço de emergência da Brigada Militar; e"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "abordagem, por policiais ou guardas municipais que identificarem a sinalização referida no inc. I deste artigo, das crianças ou adolescentes e de seus acompanhantes, encaminhando-os às autoridades competentes e acionando o Conselho Tutelar."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Executivo Municipal poderá, de maneira independente ou por meio de parcerias com Secretarias e instituições da sociedade organizada, promover a divulgação do Programa instituído por esta Lei, visando à conscientização acerca da adoção da sinalização referida no inc. I do art. 2º desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 7,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

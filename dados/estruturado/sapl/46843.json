@@ -1,0 +1,75 @@
+{
+ "idSapl": 46843,
+ "rotulo": "Lei municipal nº 13.580, de 24 de julho de 2023",
+ "sha256Origem": "cd26ce095a38ffdc6c65a5abb3c87ff7a09ae7b3831ffa9393b9110618028562",
+ "estruturadoEm": "2026-11-25T09:26:16.537Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13580",
+  "ano": "2023",
+  "data": "2023-07-21",
+  "epigrafe": "LEI Nº 13.580, DE 21 DE JULHO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Obriga construtoras, incorporadoras e demais empresas prestadoras de serviços a repararem os danos que causarem a equipamentos públicos, vias e iluminação, pisos, calçamentos, calçadas ou paralelepípedos.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de julho de 2023.\nRicardo Gomes,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam construtoras, incorporadoras e demais empresas prestadoras de serviços obrigadas a reparar os danos que causarem a equipamentos públicos, vias e iluminação, pisos, calçamentos, calçadas ou paralelepípedos."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O reparo de que trata o caput deste artigo deverá reestabelecer à área afetada as mesmas condições anteriores aos danos causados."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "As construtoras, incorporadoras e demais empresas prestadoras de serviços de que trata o caput deste artigo deverão munir-se de todas as informações necessárias, tais como fotografias e laudos técnicos que comprovem o quanto modificaram o local da obra, para prestarem contas sobre as condições do reparo."
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "data_diverge_do_catalogo"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 5,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

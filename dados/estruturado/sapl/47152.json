@@ -1,0 +1,93 @@
+{
+ "idSapl": 47152,
+ "rotulo": "Lei municipal nº 13.625, de 06 de setembro de 2023",
+ "sha256Origem": "c4c5f284eb114dca231b3bfb0485ac939ea2c6bb0776d574b3f7481eeb5be7cb",
+ "estruturadoEm": "2026-11-25T09:26:16.478Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13625",
+  "ano": "2023",
+  "data": "2023-09-06",
+  "epigrafe": "LEI Nº 13.625, DE 6 DE SETEMBRO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece penalidade ao proprietário de linha telefônica que originar ligação fraudulenta para o Serviço de Atendimento Móvel de Urgência (SAMU – 192) ou para a Central de Atendimento ao Cidadão (118), da Empresa Pública de Transporte e Circulação, revoga a Lei nº 11.144, de 21 de outubro de 2011, e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 6 de setembro de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o proprietário de linha telefônica que originar ligação fraudulenta para o Serviço de Atendimento Móvel de Urgência (SAMU – 192) ou para a Central de Atendimento ao Cidadão (118), da Empresa Pública de Transporte e Circulação, sujeito à multa de 100 (cem) Unidades Financeiras Municipais (UFMs), independentemente de quem tenha sido responsável pela ligação."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para os fins desta Lei, considera-se ligação fraudulenta toda e qualquer ligação que noticie fato ou informação falsos."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A penalidade referida no caput do art. 1º desta Lei será aplicada pelo órgão competente a cada ligação fraudulenta, logo após a apuração da irregularidade e a identificação do número que originou a ligação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Os órgãos e as instituições públicas responsáveis pela prestação dos serviços elencados no caput do art. 1º desta Lei deverão providenciar ofício às empresas prestadoras de serviços telefônicos para que estas informem os dados do proprietário da linha telefônica."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As empresas prestadoras de serviços telefônicos terão o prazo de 30 (trinta) dias, a contar do recebimento do ofício, para fornecer as informações solicitadas, sob pena de multa de 20 (vinte) UFMs."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Os recursos financeiros derivados da aplicação da penalidade referida no caput do art. 1º desta Lei serão preferencialmente destinados à implantação de sistema de captação de ligações fraudulentas e ao Fundo Municipal de Saúde ou a campanhas educativas de trânsito."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Fica revogada a Lei nº 11.144, de 21 de outubro de 2011."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 8,
+   "cobertura": 0.955,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

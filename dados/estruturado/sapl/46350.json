@@ -1,0 +1,52 @@
+{
+ "idSapl": 46350,
+ "rotulo": "Lei municipal nº 13.499, de 12 de junho de 2023",
+ "sha256Origem": "87dbf2a4a71d464eefc0ea1c3f47d7530b30e31a3055baa124eeea5c100e3b5b",
+ "estruturadoEm": "2026-11-25T09:26:16.690Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13499",
+  "ano": "2023",
+  "data": "2023-06-12",
+  "epigrafe": "LEI Nº 13.499, DE 12 DE JUNHO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui art. 2º-A na Lei nº 2.926, de 12 de julho de 1966 – que estabelece as condições pelas quais são as sociedades declaradas de utilidade pública –, e alterações posteriores, definindo que as entidades e as organizações da sociedade civil que possuírem parceria com o Município de Porto Alegre e que visarem ao atendimento nas áreas de saúde, assistência social e educação sejam declaradas de utilidade pública, por meio de decreto publicado pelo Executivo Municipal.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de junho de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído art. 2º-A na Lei nº 2.926, de 12 de julho de 1966, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º-A As entidades e as organizações da sociedade civil que possuírem parceria com o Município de Porto Alegre, nos termos da Lei Federal nº 13.019, de 31 de julho de 2014, e alterações posteriores, e que visarem ao atendimento nas áreas de saúde, assistência social e educação serão declaradas de utilidade pública, por meio de decreto publicado pelo Executivo Municipal.\n§ 1º As entidades e as organizações da sociedade civil declaradas de utilidade pública por meio do decreto referido no caput deste artigo ficam desincumbidas das comprovações exigidas no art. 5º desta Lei.\n§ 2º O Executivo Municipal poderá editar decreto, ao longo de cada ano, revogando a declaração de utilidade pública da entidade ou da organização da sociedade civil com a qual sua parceria tenha sido rompida.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.975,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "idSapl": 46772,
+ "rotulo": "Lei municipal nº 13.576, de 18 de julho de 2023",
+ "sha256Origem": "747ce634daa2ab5b58e9789f225198cfaf1738ecdd3ca3e2bea4c655bdec9a87",
+ "estruturadoEm": "2026-11-25T09:26:16.543Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13576",
+  "ano": "2023",
+  "data": "2023-07-18",
+  "epigrafe": "LEI Nº 13.576, DE 18 DE JULHO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece a obrigatoriedade de fechamento de portões e demais pontos de acesso aos prédios e às áreas afins das escolas da Rede Municipal de Ensino (RME) e da Rede Parceirizada de Porto Alegre durante as atividades escolares.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 18 de julho de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecida a obrigatoriedade de fechamento de portões e demais pontos de acesso aos prédios e às áreas afins das escolas da Rede Municipal de Ensino (RME) e da Rede Parceirizada de Porto Alegre durante as atividades escolares."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os horários de abertura e de fechamento de portões e demais pontos de acesso aos prédios e às áreas afins das escolas serão determinados pela sua direção."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O acesso de pais, responsáveis legais e visitantes à escola somente será permitido após realizado o registro e concedida a autorização pela sua direção."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O registro de que trata o caput deste artigo compreenderá, no mínimo, o nome completo da pessoa e a data e o horário do acesso."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Cabe à diretoria da escola a manutenção e o controle das informações atinentes aos registros de acesso."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data da sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 6,
+   "cobertura": 0.951,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

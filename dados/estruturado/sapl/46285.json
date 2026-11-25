@@ -1,0 +1,107 @@
+{
+ "idSapl": 46285,
+ "rotulo": "Lei municipal nº 13.493, de 31 de maio de 2023",
+ "sha256Origem": "aaeeabf1de068c0ef804f48adcb45e446199de100b418a31b9bcee0cffccacaa",
+ "estruturadoEm": "2026-11-25T09:26:16.697Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13493",
+  "ano": "2023",
+  "data": "2023-05-31",
+  "epigrafe": "LEI Nº 13.493, DE 31 DE MAIO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Proíbe a comercialização, a publicação, a distribuição, a difusão e a circulação do conteúdo integral ou parcial da obra Mein Kampf (Minha Luta), de autoria de Adolf Hitler, no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de maio de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam proibidas a comercialização, a publicação, a distribuição, a difusão e a circulação do conteúdo integral ou parcial da obra Mein Kampf (Minha Luta), de autoria de Adolf Hitler, no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As proibições de que trata esta Lei aplicam-se igualmente às publicações em formato digital (e-book)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O descumprimento ao disposto nesta Lei sujeitará o infrator, independentemente da apuração da responsabilidade criminal, de forma sucessiva, a:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "apreensão material da obra que estiver em sua posse;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "advertência;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "multa;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "suspensão do Alvará de Localização e Funcionamento do estabelecimento; e"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "cassação do Alvará de Localização e Funcionamento do estabelecimento, em caso de reincidência."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Executivo Municipal regulamentará o disposto nesta Lei no prazo de 60 (sessenta) dias, contados da data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 10,
+   "cobertura": 0.945,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

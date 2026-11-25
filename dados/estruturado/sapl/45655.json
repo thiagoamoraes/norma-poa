@@ -1,0 +1,52 @@
+{
+ "idSapl": 45655,
+ "rotulo": "Lei municipal nº 13.382, de 06 de março de 2023",
+ "sha256Origem": "93da898419b5b4406f8caf9b21e084f1d87b92d5dd92feef3bd7666ce16fcd74",
+ "estruturadoEm": "2026-11-25T09:26:16.883Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13382",
+  "ano": "2023",
+  "data": "2023-03-06",
+  "epigrafe": "LEI Nº 13.382, DE 6 DE MARÇO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o inc. II do caput do art. 3º da Lei nº 10.531, de 10 de setembro de 2008 – que institui, no Município de Porto Alegre, o Programa de Redução Gradativa do Número de Veículos de Tração Animal e de Veículos de Tração Humana e dá outras providências –, e alterações posteriores, ampliando o prazo para a proibição da circulação de Veículos de Tração Humana (VTHs) no trânsito do Município de Porto Alegre para o dia 31 de dezembro de 2023, prorrogável por mais 6 (seis) meses.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 6 de março de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o inc. II do caput do art. 3º da Lei nº 10.531, de 10 de setembro de 2008, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º ......................................................................................................................\n....................................................................................................................................\nII – até o dia 31 de dezembro de 2023, no caso de VTHs, prorrogável por mais 6 (seis) meses.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

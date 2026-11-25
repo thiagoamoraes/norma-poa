@@ -1,0 +1,58 @@
+{
+ "idSapl": 46850,
+ "rotulo": "Lei municipal nº 13.584, de 25 de julho de 2023",
+ "sha256Origem": "b7319b4c031e8807e7756e7eee23e74950ee98b4acce998fad42d03b1fce00c9",
+ "estruturadoEm": "2026-11-25T09:26:16.536Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13584",
+  "ano": "2023",
+  "data": "2023-07-25",
+  "epigrafe": "LEI Nº 13.584, DE 25 DE JULHO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Tomba como patrimônio histórico-cultural do Município de Porto Alegre a imagem de Mãe Oxum localizada junto à orla do lago Guaíba, no Bairro Ipanema.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 25 de julho de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.\nPublicado no DOPA de 27/07/2023.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica tombada como patrimônio histórico-cultural do Município de Porto Alegre a imagem de Mãe Oxum localizada junto à orla do lago Guaíba, no Bairro Ipanema."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A imagem tombada por esta Lei não poderá ser extinta ou removida do local, mas poderá ser restaurada ou restituída."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.934,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

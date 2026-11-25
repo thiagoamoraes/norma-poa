@@ -1,0 +1,65 @@
+{
+ "idSapl": 45681,
+ "rotulo": "Lei municipal nº 13.389, de 10 de março de 2023",
+ "sha256Origem": "376a52cfc616d7b9729bc576c0ce1162f7a2a955b4212d15dd996fcee6289911",
+ "estruturadoEm": "2026-11-25T09:26:16.871Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13389",
+  "ano": "2023",
+  "data": "2023-03-10",
+  "epigrafe": "LEI Nº 13.389, DE 10 DE MARÇO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece, ao adquirente de espaço a ser utilizado para fins de construção, o dever de preservar o meio ambiente e a fauna local da área adquirida.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de março de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecido, ao adquirente de espaço a ser utilizado para fins de construção, o dever de preservar o meio ambiente e a fauna local da área adquirida."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para o fim do disposto no caput deste artigo, entende-se por fauna local os animais silvestres, domésticos, domesticados, nativos ou exóticos que habitem a referida área."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O adquirente, após identificar os animais domésticos que compõem a fauna local, deverá realizar as políticas de preservação, de doação, de castração ou de reinserção dos animais na natureza em conjunto com o Município de Porto Alegre."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.943,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

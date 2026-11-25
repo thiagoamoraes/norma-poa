@@ -1,0 +1,114 @@
+{
+ "idSapl": 45394,
+ "rotulo": "Lei municipal nº 13.342, de 21 de dezembro de 2022",
+ "sha256Origem": "6f48be081538a137b663889f673c7b1ea4c062a6f9892577fee4673b027c0a2f",
+ "estruturadoEm": "2026-11-25T09:26:16.949Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13342",
+  "ano": "2022",
+  "data": "2022-12-21",
+  "epigrafe": "LEI Nº 13.342, DE 21 DE DEZEMBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Reconhece o wheeling como prática esportiva no Município de Porto Alegre, bem como outras manobras de motocicletas ou práticas acrobáticas assemelhadas.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de dezembro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nCristiane da Costa Nery,\nProcuradora-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o wheeling reconhecido como prática esportiva no Município de Porto Alegre, bem como outras manobras de motocicletas ou práticas acrobáticas assemelhadas, desde que realizados em exibições típicas do segmento e em local devidamente destinado a essa finalidade."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O wheeling é a modalidade homologada pela Confederação Brasileira de Motociclismo (CBM) que consiste na realização de manobras e acrobacias de solo sobre duas rodas, denominadas “grau”, “RL” (Rear Lift) ou “Bob’s”, nas quais força e equilíbrio são exigidos ao máximo dos praticantes."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A prática esportiva de que trata esta Lei somente poderá ser praticada no Município de Porto Alegre em locais apropriados e devidamente licenciados para a exibição de shows ou competições, observadas as regras estabelecidas pela CBM."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os locais de que trata o caput deste artigo poderão ser públicos ou privados, observada a legislação vigente, e neles poderão ser realizados treinos, eventos, competições e demais encontros com o intuito de difundir a cultura e incentivar a prática segura das manobras de motocicleta de que trata esta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "São requisitos mínimos ao licenciamento para a prática esportiva de que trata esta Lei:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "pista com asfalto de qualidade e medidas mínimas de 80 (oitenta) metros de comprimento por 25 (vinte e cinco) metros de largura;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "local destinado ao público espectador, com observância dos mesmos requisitos de segurança implementados para modalidades esportivas semelhantes;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "comprovação, por parte dos organizadores do evento ou da competição, da implementação de todas as normas de segurança e proteção dos pilotos recomendadas pela CBM;"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "uso dos equipamentos obrigatórios de segurança, regulados pela Lei Federal nº 9.503, de 23 de setembro de 1997 – Código de Trânsito Brasileiro; e"
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "uso de motocicletas devidamente regulares e com licenciamento em vigor junto ao Departamento Estadual de Trânsito (DetranRS)."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 11,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

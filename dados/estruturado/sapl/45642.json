@@ -1,0 +1,107 @@
+{
+ "idSapl": 45642,
+ "rotulo": "Lei municipal nº 13.384, de 07 de março de 2023",
+ "sha256Origem": "e77829948e17804e43208bec538b145fa7be8c53de33156cf554f561c08e4a7f",
+ "estruturadoEm": "2026-11-25T09:26:16.879Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13384",
+  "ano": "2023",
+  "data": "2023-03-07",
+  "epigrafe": "LEI Nº 13.384, DE 7 DE MARÇO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza o Executivo Municipal a desafetar da destinação de uso comum do povo e a constituir servidão onerosa em relação ao próprio municipal que especifica em favor do Grêmio Náutico União (GNU).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de março de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o Executivo Municipal autorizado a desafetar da destinação de uso comum do povo e a constituir servidão onerosa em relação ao próprio municipal em favor do Grêmio Náutico União (GNU)."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O próprio municipal referido no caput deste artigo possui a seguinte descrição: “trecho da Rua Armando Pereira Câmara, esquina com a Rua Des. Augusto Loureiro Lima, com as seguintes medidas e confrontações: a Nordeste mede 22,00m limitando-se com o leito viário da Rua Armando Pereira Câmara; a Sudeste mede 90,00m limitando-se com fundos do imóvel nº 300 da Avenida João Obino; a Sudoeste mede 22,00m limitando-se com propriedade do Grêmio Náutico União; e, a Noroeste mede 90,00m limitando-se com próprio municipal (Praça Breno Vignoli); Quarteirão: Rua Armando Pereira Câmara, Rua Carvalho Monteiro, Avenida João Obino, Avenida Palmeira, Rua Sioma Breitman, Avenida Dr. Nilo Peçanha e Rua Desembargador Augusto Loureiro Lima; Bairro: Petrópolis, proveniente do loteamento Chácara Santos Neto, parte de um todo maior registrado sob o nº 74 do Cartório de Registro de Imóveis da 1ª Zona desta Capital”."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A servidão onerosa será acordada com o GNU, que tem imóvel lindeiro à área e dela necessita para acesso ao seu estacionamento."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A servidão onerosa deverá ter como contrapartida a manutenção e a conservação da Praça Breno Vignoli, lindeira à área desafetada."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "A área objeto desta Lei não poderá ser utilizada com finalidade comercial, exceto a exploração de estacionamento pelo GNU para obtenção de recursos destinados ao custeio da manutenção e da segurança da área e da Praça Breno Vignoli."
+  },
+  {
+   "id": "art-4/par-unico",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Fica proibida a terceirização da exploração da área objeto desta Lei."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "O prazo da servidão onerosa, a avaliação da contrapartida, incluindo a descrição dos serviços de manutenção e segurança da Praça Breno Vignoli, o índice de atualização monetária e a forma de pagamento constarão no instrumento a ser celebrado entre o Município e o GNU."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Eventuais despesas decorrentes do acordo serão suportadas pelo GNU."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "Fica revogada a Lei nº 10.820, de 19 de janeiro de 2010."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 8,
+   "dispositivos": 10,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

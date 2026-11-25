@@ -1,0 +1,128 @@
+{
+ "idSapl": 46063,
+ "rotulo": "Lei municipal nº 13.456, de 04 de maio de 2023",
+ "sha256Origem": "7754ac1aae914530687125548be6aac892d80b2a26c9ad58c5ee569e81f4675b",
+ "estruturadoEm": "2026-11-25T09:26:16.747Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13456",
+  "ano": "2023",
+  "data": "2023-05-04",
+  "epigrafe": "LEI Nº 13.456, DE 4 DE MAIO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui campanha municipal de orientação aos idosos contra fraudes e golpes no comércio eletrônico e na internet.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 4 de maio de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída campanha municipal de orientação aos idosos contra fraudes e golpes no comércio eletrônico e na internet."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A campanha de que trata esta Lei será realizada preferencialmente na semana iniciada pelo dia 1º de outubro de cada ano, Dia Internacional das Pessoas Idosas."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Para os efeitos desta Lei, considera-se idoso a pessoa com idade igual ou superior a 60 (sessenta) anos."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A campanha de que trata esta Lei constituir-se-á de ações educativas e preventivas."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "As ações educativas objetivarão orientar os idosos quanto aos riscos inerentes à:"
+  },
+  {
+   "id": "art-2/par-1/inc-I",
+   "pai": "art-2/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "navegação na internet; e"
+  },
+  {
+   "id": "art-2/par-1/inc-II",
+   "pai": "art-2/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "aquisição de bens, produtos e serviços por meio do comércio eletrônico."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "As ações preventivas objetivarão orientar os idosos quanto às práticas recomendáveis para:"
+  },
+  {
+   "id": "art-2/par-2/inc-I",
+   "pai": "art-2/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "evitar golpes e fraudes no âmbito do comércio eletrônico; e"
+  },
+  {
+   "id": "art-2/par-2/inc-II",
+   "pai": "art-2/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "garantir a segurança do tráfego de dados durante a navegação na internet."
+  },
+  {
+   "id": "art-2/par-3",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Os materiais e recursos utilizados na campanha de que trata esta Lei serão produzidos de forma objetiva, clara e de fácil compreensão por idosos."
+  },
+  {
+   "id": "art-2/par-4",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "A campanha de que trata esta Lei será realizada preferencialmente em locais, espaços e canais utilizados ou frequentados por idosos."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 13,
+   "cobertura": 0.96,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

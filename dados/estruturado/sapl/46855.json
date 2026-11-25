@@ -1,0 +1,93 @@
+{
+ "idSapl": 46855,
+ "rotulo": "Lei municipal nº 13.589, de 27 de julho de 2023",
+ "sha256Origem": "867a52ce4c8e30493d529f3bcf1056aa74fd80cc48b650590cdf1c3e1d6c3d55",
+ "estruturadoEm": "2026-11-25T09:26:16.523Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13589",
+  "ano": "2023",
+  "data": "2023-07-27",
+  "epigrafe": "LEI Nº 13.589, DE 27 DE JULHO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Obriga a implantação de sistema de monitoramento eletrônico em atividades dedicadas à operação de desmanche de veículos, de fundições, de galpões de reciclagem, de compra e venda de sucata e de peças novas e usadas de veículos automotores e de aquisição, de estocagem, de comercialização e reciclagem de produtos, bem como estabelecimentos comerciais assemelhados no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de julho de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.\nPublicado no DOPA de 28/07/2023.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica obrigatória a implantação de sistema de monitoramento eletrônico em atividades dedicadas à operação de desmanche de veículos, de fundições, de galpões de reciclagem, de compra e venda de sucata e de peças novas e usadas de veículos automotores e de aquisição, de estocagem, de comercialização e reciclagem de produtos, bem como estabelecimentos comerciais assemelhados no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os equipamentos de sistema de monitoramento eletrônico deverão ser instalados em todos os acessos dos estabelecimentos referidos no art. 1º desta Lei."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os equipamentos deverão funcionar de forma permanente."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As imagens coletadas por meio dos equipamentos deverão ficar à disposição do Executivo Municipal por 15 (quinze) dias."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O descumprimento do disposto nesta Lei sujeitará o infrator às seguintes sanções:"
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "multa, no valor de 1.500 (mil e quinhentas) Unidades Financeiras Municipais (UFMs); e"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "cassação do Alvará de Localização e Funcionamento, em caso de reincidência."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor em 60 (sessenta) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 8,
+   "cobertura": 0.957,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

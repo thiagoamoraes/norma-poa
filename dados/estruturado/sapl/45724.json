@@ -1,0 +1,51 @@
+{
+ "idSapl": 45724,
+ "rotulo": "Lei municipal nº 13.403, de 22 de março de 2023",
+ "sha256Origem": "bd7288b4b11da78688a29eed1552e44e42af4442fdd1b5edfd500a2f3097d893",
+ "estruturadoEm": "2026-11-25T09:26:16.850Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13403",
+  "ano": "2023",
+  "data": "2023-03-22",
+  "epigrafe": "LEI Nº 13.403, DE 22 DE MARÇO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Guilherme Socias Villela o Centro Administrativo Municipal localizado na Rua General João Manoel, nº 157, Bairro Centro Histórico.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de março de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Guilherme Socias Villela o Centro Administrativo Municipal localizado na Rua General João Manoel, nº 157, Bairro Centro Histórico, nos termos do inc. IX do art. 56 da Lei Orgânica do Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.946,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

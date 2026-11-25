@@ -1,0 +1,70 @@
+{
+ "idSapl": 46654,
+ "rotulo": "Lei municipal nº 13.537, de 07 de julho de 2023",
+ "sha256Origem": "749f79137a0292f026a1fdae65c9b5903faf7c588d74edfd5035d3523588b805",
+ "estruturadoEm": "2026-11-25T09:26:16.593Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13537",
+  "ano": "2023",
+  "data": "2023-07-07",
+  "epigrafe": "LEI Nº 13.537, DE 7 DE JULHO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Fevereiro Laranja, Promovendo a Conscientização Para o Diagnóstico Precoce e o Tratamento da Leucemia no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, no mês de fevereiro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de julho de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Fevereiro Laranja, Promovendo a Conscientização Para o Diagnóstico Precoce e o Tratamento da Leucemia no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, no mês de fevereiro, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nFEVEREIRO\nPERÍODO            EVENTO            DESCRIÇÃO E LOCAL DO EVENTO\nNo mês.   FEVEREIRO       LARANJA, Organizado pelos órgãos públicos. Durante o\nPROMOVENDO            A mês serão realizadas atividades com o\nCONSCIENTIZAÇÃO PARA O objetivo de conscientizar e prevenir a\nDIAGNÓSTICO PRECOCE E O leucemia com o diagnóstico precoce, bem\nTRATAMENTO DA LEUCEMIA como promover a doação de medula óssea\npor meio de ações ou eventos que promovam\na defesa e a divulgação de informações\npertinentes ao assunto.\nLocal: Ambientes (praças, parques, prédios)\npúblicos em geral, de segunda-feira a sextafeira, das 9h às 19h, e aos sábados, das 10h\nàs 16h."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.975,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 13,
+     "caracteres": 636,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

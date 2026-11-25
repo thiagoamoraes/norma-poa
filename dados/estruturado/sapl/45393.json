@@ -1,0 +1,72 @@
+{
+ "idSapl": 45393,
+ "rotulo": "Lei municipal nº 13.341, de 21 de dezembro de 2022",
+ "sha256Origem": "b20f6a0bfd1bb8265d053a9a99081f6c73208d829a4c28f01f91d30fab9ed1c7",
+ "estruturadoEm": "2026-11-25T09:26:16.950Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13341",
+  "ano": "2022",
+  "data": "2022-12-21",
+  "epigrafe": "LEI Nº 13.341, DE 21 DE DEZEMBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Tomba como patrimônio histórico-cultural do Município de Porto Alegre a Grutinha da Maria Degolada.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de dezembro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nCristiane da Costa Nery,\nProcuradora-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica tombada como patrimônio histórico-cultural do Município de Porto Alegre a Grutinha da Maria Degolada."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Compete ao Poder Público, na forma da lei, determinar as restrições necessárias à preservação do seu aspecto histórico-cultural original."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Deverão ser previamente analisadas e aprovadas pelo órgão competente quaisquer obras ou intervenções a serem realizadas na área tombada nos termos do art. 1º desta Lei, bem como no seu entorno."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Ficam vedadas escavações na área tombada por esta Lei, bem como a realização de obras ou procedimentos que alterem, modifiquem, removam, inutilizem, danifiquem ou descaracterizem a Grutinha da Maria Degolada."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 5,
+   "cobertura": 0.939,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

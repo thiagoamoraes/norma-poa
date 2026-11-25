@@ -1,0 +1,65 @@
+{
+ "idSapl": 46282,
+ "rotulo": "Lei municipal nº 13.490, de 30 de maio de 2023",
+ "sha256Origem": "ec1a2ed8dc06ab2eee20bc300387402ec98f796c8507f056538bb29c6775faf9",
+ "estruturadoEm": "2026-11-25T09:26:16.700Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13490",
+  "ano": "2023",
+  "data": "2023-05-30",
+  "epigrafe": "LEI Nº 13.490, DE 30 DE MAIO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui a efeméride Semana Municipal de Conscientização e de Enfrentamento ao Uso de Fogos de Artifício no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, na semana que incluir o dia 31 de dezembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de maio de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Semana Municipal de Conscientização e de Enfrentamento ao Uso de Fogos de Artifício no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, na semana que incluir o dia 31 de dezembro."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Durante a referida Semana, o Poder Público municipal deverá realizar ações de conscientização e de enfrentamento ao uso de fogos de artifício, tais como palestras, seminários, campanhas publicitárias e afins."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica o Poder Público municipal autorizado a estabelecer parcerias com outros órgãos federativos, organizações sociais, comunitárias, estabelecimentos públicos e privados de educação e saúde e empresas privadas para a consecução dos objetivos desta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.958,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

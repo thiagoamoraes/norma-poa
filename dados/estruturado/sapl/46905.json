@@ -1,0 +1,94 @@
+{
+ "idSapl": 46905,
+ "rotulo": "Lei municipal nº 13.583, de 25 de julho de 2023",
+ "sha256Origem": "14aebf1b4046d9e162d9214db9b5f7a95cb0f3d54cac398be8a72c1660661172",
+ "estruturadoEm": "2026-11-25T09:26:16.527Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13583",
+  "ano": "2023",
+  "data": "2023-07-25",
+  "epigrafe": "PROC. Nº 0727/21",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 299/21 SEI Nº 210.00325/2021-87 LEI Nº 13.583, DE 25 DE JULHO DE 2023.",
+ "ementa": "Garante acesso à internet, com fins educacionais, aos alunos e professores da Rede Municipal de Ensino (RME), com recursos assegurados pela União, por prazo estipulado, nos termos da Lei Federal nº 14.172, de 10 de junho de 2021.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 13.583, de 25 de julho de 2023, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 25 DE JULHO DE 2023.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica garantido o acesso à internet, com fins educacionais, aos alunos e aos professores da Rede Municipal de Ensino (RME), com recursos assegurados pela União, por prazo estipulado, nos termos da Lei Federal nº 14.172, de 10 de junho de 2021."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para os fins desta Lei, as empresas prestadoras de serviços de telefonia móvel pessoal deverão isentar o consumo ou adicionar quota de dados isenta de cobrança de qualquer natureza ao usuário do serviço, destinada aos alunos e professores referidos no art. 1º desta Lei, para a realização e o acompanhamento de atividades de educação remota, na forma do regulamento."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A consecução do disposto nesta Lei se dará por meio de cadastro nacional, realizado pelo Ministério da Educação, com dados de professores e de pais ou responsáveis pelos alunos da RME, com informações fornecidas pela Secretaria Municipal de Educação (Smed) e que sejam suficientes para identificar os terminais de acesso por estes utilizados."
+  },
+  {
+   "id": "art-3/par-1",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A inclusão no cadastro referido no caput deste artigo implica a obrigação da prestadora de serviço de telefonia móvel pessoal responsável pelo acesso de prover, para o professor ou para o aluno, a isenção ou a quota referidas no art. 2º desta Lei."
+  },
+  {
+   "id": "art-3/par-2",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A omissão em informar ou processar os dados de que trata este artigo ou o fornecimento de dados inverídicos importam em responsabilidade dos agentes públicos da Smed."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "A parcela dos custos das obrigações previstas nesta Lei que não possa ser compensada por compromissos ou contrapartidas assumidos pelas prestadoras de serviço de telefonia móvel pessoal será coberta pelo Fundo de Universalização dos Serviços de Telecomunicação (FUST), nos termos da Lei Federal nº 14.172, de 2021."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Caberá ao Executivo Municipal, por meio da Smed, a captação da verba federal, seu planejamento e sua gestão junto às instituições da RME."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação, produzindo efeitos enquanto durar o sistema de aulas remotas motivado pela pandemia de Covid-19."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 8,
+   "cobertura": 0.979,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

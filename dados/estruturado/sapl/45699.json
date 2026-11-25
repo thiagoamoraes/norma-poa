@@ -1,0 +1,67 @@
+{
+ "idSapl": 45699,
+ "rotulo": "Lei municipal nº 13.400, de 20 de março de 2023",
+ "sha256Origem": "491ad830d0c94f23f99af3af706e98f095d35670b2c60314c85702e9f1506413",
+ "estruturadoEm": "2026-11-25T09:26:16.859Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13400",
+  "ano": "2023",
+  "data": "2023-03-20",
+  "epigrafe": "LEI Nº 13.400, DE 20 DE MARÇO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a ementa e o caput do art. 1º, inclui §§ 4º e 5º no art. 1º e revoga os §§ 1º e 2º do art. 1º da Lei nº 7.494, de 15 de setembro de 1994 – que obriga as agências e os postos de serviços bancários em que haja cofre, guarda ou movimentação de numerário a instalarem porta eletrônica de segurança individualizada na forma de porta giratória ou de sistema de eclusa –, estabelecendo que a obrigatoriedade não se aplica se houver Plano de Segurança aprovado pela Polícia Federal e aos Postos de Atendimento (PA) e Postos de Atendimento Eletrônico (PAE).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 20 de março de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei nº 7.494, de 15 de setembro de 1994, conforme segue:",
+   "blocoDeAlteracao": "“Obriga as agências e os postos de serviços bancários em que haja cofre, guarda\nou movimentação de numerário a instalarem porta eletrônica de segurança individualizada na\nforma de porta giratória ou de sistema de eclusa.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "No art. 1º da Lei nº 7.494, de 1994, fica alterado o caput e ficam incluídos §§ 4º e 5º, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Ficam as agências e os postos de serviços bancários em que haja cofre,\nguarda ou movimentação de numerário obrigados a instalar porta eletrônica de segurança\nindividualizada na forma de porta giratória ou de sistema de eclusa.\n....................................................................................................................................\n§ 4º A obrigatoriedade de que trata o caput deste artigo não se aplica:\nI –VETADO; e\nII – aos Postos de Atendimento (PA) e Postos de Atendimento Eletrônico (PAE).\n§ 5º As agências dispensadas do uso de porta giratória deverão manter sistema de\nmonitoramento ininterrupto em regime de 24 (vinte e quatro) horas por 7 (sete) dias semanais,\nbem como alarme.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Ficam revogados os §§ 1º e 2º do art. 1º da Lei nº 7.494, de 15 de setembro de 1994."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.972,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

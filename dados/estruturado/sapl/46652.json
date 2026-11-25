@@ -1,0 +1,70 @@
+{
+ "idSapl": 46652,
+ "rotulo": "Lei municipal nº 13.536, de 07 de julho de 2023",
+ "sha256Origem": "670e63de622ccee41949dc74e62f2cd38c068af4fc5a8a4c1506553c482bb7cb",
+ "estruturadoEm": "2026-11-25T09:26:16.594Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13536",
+  "ano": "2023",
+  "data": "2023-07-07",
+  "epigrafe": "LEI Nº 13.536, DE 7 DE JULHO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Semana de Conscientização e Combate ao Mal de Alzheimer no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, na semana que incluir o dia 21 de setembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de julho de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Semana de Conscientização e Combate ao Mal de Alzheimer no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, na semana que incluir o dia 21 de setembro, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSETEMBRO\nPERÍODO            EVENTO             DESCRIÇÃO E LOCAL DO EVENTO\nNa semana SEMANA                DE Organizado pelos órgãos públicos. Durante a\nque incluir CONSCIENTIZAÇÃO      E semana serão realizadas ações com o\no dia 21.   COMBATE    AO  MAL  DE objetivo de conscientizar e combater o Mal\nALZHEIMER               de Alzheimer, organizando eventos que\npromovam a defesa e a divulgação de\ninformações e arrecadação de doações aos\nnecessitados, bem como às instituições\nengajadas com a causa.\nLocal: Ambientes (praças, parques, prédios)\npúblicos em geral, de segunda-feira a sextafeira, das 9h às 19h, e aos sábados, das 10h\nàs 16h."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.973,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 13,
+     "caracteres": 631,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

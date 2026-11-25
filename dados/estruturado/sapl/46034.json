@@ -1,0 +1,84 @@
+{
+ "idSapl": 46034,
+ "rotulo": "Lei municipal nº 13.454, de 02 de maio de 2023",
+ "sha256Origem": "729b3f1a400b816f25db8ac3d83a22a6dc021cc71a81a874803e966eb6090543",
+ "estruturadoEm": "2026-11-25T09:26:16.749Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13454",
+  "ano": "2023",
+  "data": "2023-05-02",
+  "epigrafe": "LEI Nº 13.454, DE 2 DE MAIO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput e as als. a, b e c do inc. II do art. 1º e o parágrafo único do art. 5º; inclui inc. V no caput do art. 1º; e revoga os §§ 1º a 6º do art. 10 e os arts. 13, 14 e 15, todos da Lei nº 10.087, de 16 de novembro de 2006 – que cria a Gratificação De Resultado Fazendário e De Programação Orçamentária (GRFPO) –, e revoga o art. 48 da Lei nº 6.309, de 28 de dezembro de 1988 – que estabelece o Plano De Carreira dos Funcionários da Administração Centralizada do Município.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de maio de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "No art. 1º da Lei nº 10.087, de 16 de novembro de 2006, e alterações posteriores, fica alterado o caput do inc. II e suas als. a, b e c e fica incluído inc. V, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º ......................................................................................................................\n....................................................................................................................................\nII – Secretaria Municipal de Administração e Patrimônio (SMAP), exclusivamente nas seguintes unidades de trabalho:\na) Diretoria de Gestão do Patrimônio (DGPAT), excetuando-se a Unidade de Frota (UF);\nb) Secretaria Executiva de Despesa de Pessoal (SEDPES); e\nc) Diretoria de Licitações e Contratos (DLC);\n....................................................................................................................................\nV – Secretaria Municipal de Planejamento e Assuntos Estratégicos (SMPAE), exclusivamente na Diretoria de Planejamento Orçamentário (DPO).” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o parágrafo único do art. 5º da Lei nº 10.087, de 2006, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 5º ......................................................................................................................\n....................................................................................................................................\nParágrafo único. Para fins de incorporação da GRFPO, será considerado o período de efetivo exercício no extinto Gabinete de Programação Orçamentária (GPO), do Gabinete do Prefeito (GP), no extinto Escritório-Geral de Programação Orçamentária (EGPO), da extinta Secretaria Municipal de Planejamento Estratégico e Orçamento (SMPEO), e na extinta Secretaria Municipal de Planejamento e Gestão (SMPG).” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Ficam revogados:"
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o art. 48 da Lei nº 6.309, de 28 de dezembro de 1988; e"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "os §§ 1º a 6º do art. 10 e os arts. 13, 14 e 15 da Lei nº 10.087, de 16 de novembro de 2006."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 6,
+   "cobertura": 0.973,
+   "blocosDeAlteracao": 2,
+   "revogacoesNaoLidas": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "idSapl": 46955,
+ "rotulo": "Lei municipal nº 13.595, de 09 de agosto de 2023",
+ "sha256Origem": "a28c2d373f76cd6d579e5faf8e8314d26a97d00db433723039284955f0c2263a",
+ "estruturadoEm": "2026-11-25T09:26:16.516Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13595",
+  "ano": "2023",
+  "data": "2023-08-09",
+  "epigrafe": "LEI Nº 13.595, DE 9 DE AGOSTO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Sistema Colaborativo de Recarga do Cartão do Sistema de Transporte Integrado (TRI) e implementa a modalidade de pagamento por Pix, por meio de leitura de QR Code, para aquisição de passagem nos serviços de transporte público do Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de agosto de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Sistema Colaborativo de Recarga do Cartão do Sistema de Transporte Integrado (TRI) no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Sistema instituído no caput deste artigo visa a descentralizar os locais em que são realizadas recargas do cartão do TRI."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica implementada a modalidade de pagamento por Pix, por meio de leitura de QR Code, para aquisição de passagem nos serviços de transporte público do Município de Porto Alegre."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Para a implementação desta Lei, o Executivo Municipal poderá firmar parceria com qualquer estabelecimento registrado que desenvolva atividade econômica no Município."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor em 180 (cento e oitenta) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 5,
+   "cobertura": 0.947,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

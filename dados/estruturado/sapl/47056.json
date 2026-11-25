@@ -1,0 +1,70 @@
+{
+ "idSapl": 47056,
+ "rotulo": "Lei municipal nº 13.606, de 28 de agosto de 2023",
+ "sha256Origem": "6bf8d0dd7bca36c0f0d8c8666090897ec67d9e35f73f2980f06ae774221e15f0",
+ "estruturadoEm": "2026-11-25T09:26:16.503Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13606",
+  "ano": "2023",
+  "data": "2023-08-28",
+  "epigrafe": "LEI Nº 13.606, DE 28 DE AGOSTO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Caminho dos Santuários no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, no terceiro sábado de maio.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de agosto de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Caminho dos Santuários no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, no terceiro sábado de maio, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nMAIO\nPERÍODO\nEVENTO\nDESCRIÇÃO E LOCAL DO EVENTO\nNo terceiro sábado.\nCAMINHO DOS SANTUÁRIOS\nDescrição: O Caminho dos Santuários é uma caminhada religiosa pelos santuários de Porto Alegre.\nLocal: A caminhada tem início na Igreja Nossa Senhora do Trabalho, passando pela Igreja São Vicente de Paula, Imaculada Coração de Maria, Santa Bárbara, Madre Teresa de Calcutá e terminando no Santuário Nossa Senhora de Fátima."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 8,
+     "caracteres": 407,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

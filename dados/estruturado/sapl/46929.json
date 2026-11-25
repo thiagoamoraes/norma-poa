@@ -1,0 +1,86 @@
+{
+ "idSapl": 46929,
+ "rotulo": "Lei municipal nº 13.590, de 01 de agosto de 2023",
+ "sha256Origem": "3e8edf22cb34409ee97644c402e9bcf37b3a9b3206267bfa94c03525767c2583",
+ "estruturadoEm": "2026-11-25T09:26:16.522Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13590",
+  "ano": "2023",
+  "data": "2023-08-01",
+  "epigrafe": "LEI Nº 13.590, DE 1º DE AGOSTO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece que o Município de Porto Alegre realizará o cadastro das instituições religiosas atuantes na circunscrição municipal e que, voluntariamente, estejam dispostas a contribuir com o Executivo Municipal no atendimento ao público vulnerável e em unidades de trabalho que prestem auxílio a comunidades em situação de emergência ou de calamidade pública.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 1º de agosto de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecido que o Município de Porto Alegre realizará o cadastro das instituições religiosas atuantes na circunscrição municipal e que, voluntariamente, estejam dispostas a contribuir com o Executivo Municipal no atendimento ao público vulnerável e em unidades de trabalho que prestem auxílio a comunidades em situação de emergência ou de calamidade pública."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para os fins desta Lei, as instituições religiosas que tiverem previsão estatutária de desenvolvimento de atividades secundárias nas áreas de saúde, educação e assistência social poderão, de acordo com o interesse público, celebrar termo de fomento ou acordo de cooperação com o Município de Porto Alegre, desde que estejam com a sua contabilidade regular e inscritas no Conselho Municipal de Assistência Social e atendam aos requisitos previstos na Lei Federal nº 13.019, de 31 de julho de 2014."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Executivo Municipal definirá a forma de cadastramento das instituições, o qual será desenvolvido para atingir as seguintes finalidades:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "fomentar o diálogo entre o Município de Porto Alegre e as instituições religiosas, com o fim de promover a construção de políticas públicas; e"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "criar base de dados das instituições religiosas interessadas em colaborar com o Executivo Municipal na realização das atividades voluntárias referidas no art. 1º desta Lei."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A base de dados do cadastro instituído por esta Lei, prevista no inc. II do caput deste artigo, poderá estabelecer integração com outras bases de dados da Administração Pública."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 7,
+   "cobertura": 0.963,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

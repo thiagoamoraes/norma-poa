@@ -1,0 +1,66 @@
+{
+ "idSapl": 45424,
+ "rotulo": "Lei municipal nº 13.349, de 28 de dezembro de 2022",
+ "sha256Origem": "9f7d9f0c6c3d8836e1dd41050b66be9919f3ae78986f30785a50a0288f4554d2",
+ "estruturadoEm": "2026-11-25T09:26:16.930Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13349",
+  "ano": "2022",
+  "data": "2022-12-28",
+  "epigrafe": "LEI Nº 13.349, DE 28 DE DEZEMBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput e o parágrafo único e revoga os incs. I, II, e III do art. 7º da Lei nº 12.952, de 7 de janeiro de 2022 – que autoriza a aquisição de vagas na Educação Infantil – Etapa Creche, junto a instituições e escolas privadas de ensino de educação infantil com fins lucrativos, para crianças em situação de vulnerabilidade socioeconômica –, estabelecendo que o valor a ser pago por vaga disponibilizada e ocupada a título do programa de aquisição de vagas de Educação Infantil – Etapa Creche será definido em edital de credenciamento e limitado à capacidade orçamentária do Município.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de dezembro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o caput e o parágrafo único do art. 7º da Lei nº 12.952, de 7 de janeiro de 2022, conforme segue:",
+   "blocoDeAlteracao": "“Art. 7º O valor a ser pago por vaga disponibilizada e ocupada a título do programa\nde aquisição de vagas de Educação Infantil – Etapa Creche será definido em edital de\ncredenciamento e limitado à capacidade orçamentária do Município.\n....................................................................................................................................\nParágrafo único. Os valores aos quais se refere o caput deste artigo poderão ser\nreajustados anualmente por índices estabelecidos no edital de credenciamento ou por critério de\nconveniência e oportunidade do Executivo Municipal por meio de decreto.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica o Executivo Municipal autorizado a abrir créditos adicionais na Lei Orçamentária Anual (LOA) para as despesas decorrentes da execução desta Lei, se necessário, obedecidas as prescrições contidas nos incs. I a IV do § 1º do art. 43 da Lei Federal nº 4.320, de 17 de março de 1964, e alterações posteriores, bem como proceder às alterações necessárias no Plano Plurianual (PPA) e na Lei de Diretrizes Orçamentárias (LDO)."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Ficam revogados os incs. I, II e III do caput do art. 7º da Lei nº 12.952, de 7 de janeiro de 2022."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.972,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

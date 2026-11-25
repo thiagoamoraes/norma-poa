@@ -1,0 +1,101 @@
+{
+ "geradoEm": "2026-11-25T09:26:23.413Z",
+ "idSapl": 45725,
+ "rotulo": "Lei municipal nº 13.404, de 22 de março de 2023",
+ "baseConferida": true,
+ "anexosNoOriginal": [
+  {
+   "rotulo": "ANEXO",
+   "grafico": false
+  }
+ ],
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 13404/2023@2023-03-22",
+   "data": "2023-03-22",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 13404/2023@2023-11-07",
+   "data": "2023-11-07",
+   "fonte": {
+    "idSapl": 47596,
+    "rotulo": "Lei municipal nº 13.704, de 07 de novembro de 2023"
+   },
+   "comandosAplicados": 1
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica denominado Generino e Vênus Tondo o logradouro público cadastrado conhecido como Praça 153/03, localizado no Bairro Vila Conceição, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme Anexo desta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica denominado Generino e Vênus Tondo o logradouro público cadastrado conhecido como Praça 5071, localizado no Bairro Vila Conceição, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.704/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Família, comunidade e cultura.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 47596,
+    "rotulo": "Lei municipal nº 13.704, de 07 de novembro de 2023"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
+  }
+ ],
+ "aConferir": []
+}

@@ -1,0 +1,60 @@
+{
+ "idSapl": 45682,
+ "rotulo": "Lei municipal nº 13.391, de 17 de março de 2023",
+ "sha256Origem": "6308b6e6317cf3e6f99347e4a01a0c54515d007a1cb2917fa12997f58a6b3444",
+ "estruturadoEm": "2026-11-25T09:26:16.870Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13391",
+  "ano": "2023",
+  "data": "2023-03-17",
+  "epigrafe": "LEI Nº 13.391, DE 17 DE MARÇO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a ementa e o art. 1º da Lei nº 8.130, de 8 de janeiro de 1998, modificando a denominação de Travessa da Luz para Passagem da Luz.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de março de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei nº 8.130, de 8 de janeiro de 1998, conforme segue:",
+   "blocoDeAlteracao": "“Denomina Passagem da Luz o logradouro paralelo às Ruas João Wallig e Roque\nCalage, compreendido no trecho entre as Ruas Sapé e Cipó, localizado no Bairro Passo da\nAreia.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o art. 1º da Lei nº 8.130, de 1998, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica denominado Passagem da Luz o logradouro paralelo às Ruas João\nWallig e Roque Calage, compreendido no trecho entre as Ruas Sapé e Cipó, localizado no Bairro\nPasso da Areia, nos termos da Lei Complementar nº 320, de 2 de maio de 1994.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.955,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

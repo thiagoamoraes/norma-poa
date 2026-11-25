@@ -1,0 +1,60 @@
+{
+ "idSapl": 46221,
+ "rotulo": "Lei municipal nº 13.477, de 19 de maio de 2023",
+ "sha256Origem": "4e1299c543806c45ce116e08fe170112e19c0639d5dc1113f1c984583bc731d5",
+ "estruturadoEm": "2026-11-25T09:26:16.722Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13477",
+  "ano": "2023",
+  "data": "2023-05-19",
+  "epigrafe": "LEI Nº 13.477, DE 19 DE MAIO DE 2023.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a ementa e o art. 1º da Lei nº 8.538 de 4 de julho de 2000, que declara de utilidade pública a Pastoral de Auxílio Comunitário ao Toxicômano, alterando o nome da entidade para PACTO/POA – Programa de Auxílio Comunitário Terapêutico de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 19 de maio de 2023.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei nº 8.538 de 4 de julho de 2000, conforme segue:",
+   "blocoDeAlteracao": "“Declara de utilidade pública a PACTO/POA – Programa de Auxílio Comunitário Terapêutico de Porto Alegre.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o art. 1º da Lei nº 8.538 de 2000, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica declarada de utilidade pública, nos termos da Lei nº 2.926, de 12 de julho de 1966, a PACTO/POA – Programa de Auxílio Comunitário Terapêutico de Porto Alegre, com sede e foro nesta Capital.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.957,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

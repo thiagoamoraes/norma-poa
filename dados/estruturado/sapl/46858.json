@@ -1,0 +1,59 @@
+{
+ "idSapl": 46858,
+ "rotulo": "Lei municipal nº 13.579, de 21 de julho de 2023",
+ "sha256Origem": "1f153206a8a96d95b6f5b2ba0c39a0dc72ce4a66dbb9589ef0b1727bb4a61fee",
+ "estruturadoEm": "2026-11-25T09:26:16.538Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13579",
+  "ano": "2023",
+  "data": "2023-07-21",
+  "epigrafe": "PROC. Nº 0898/22",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 437/22 SEI Nº 021.00255/2022-75 LEI Nº 13.579, DE 21 DE JULHO DE 2023.",
+ "ementa": "Obriga a fixação, nos veículos do sistema de transporte coletivo do Município de Porto Alegre, de placa, cartaz ou adesivo com informação sobre denúncia de importunação sexual.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 13.579, de 21 de julho de 2023, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 24 DE JULHO DE 2023.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica obrigatória a fixação, nos veículos do sistema de transporte coletivo do Município de Porto Alegre, de placa, cartaz ou adesivo com informação sobre denúncia de importunação sexual."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A placa de que trata o caput deste artigo conterá os seguintes dizeres: Importunação sexual é crime. NÃO SE CALE, disque 180 ou 190 e DENUNCIE!"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.955,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}
