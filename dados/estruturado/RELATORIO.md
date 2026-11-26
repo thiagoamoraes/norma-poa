@@ -1,15 +1,15 @@
 # Estruturação — relatório
 
-Gerado em 2026-11-25T09:26:16.975Z por `ingestao/estruturar.mjs` (versão do estruturador: 30). Não editar à mão.
+Gerado em 2026-11-26T06:29:21.037Z por `ingestao/estruturar.mjs` (versão do estruturador: 30). Não editar à mão.
 
 Uma norma só é **aceita** quando passa em todas as conferências: cabeçalho igual ao do catálogo (número, data, tipo), artigos numerados sem salto, rótulos iguais aos do texto de origem, nenhum texto fora da árvore, fecho presente. O resto vai para **revisar**, com o motivo.
 
-Textos baixados: 2363 · com texto extraído e estruturados: 2346
+Textos baixados: 2682 · com texto extraído e estruturados: 2664
 
 | Situação | Normas | % |
 |---|---|---|
-| aceita | 1947 | 83% |
-| revisar | 399 | 17% |
+| aceita | 2262 | 84.9% |
+| revisar | 402 | 15.1% |
 
 ## Por época (corte: sanção da LC 611, 03/02/2009)
 
@@ -17,7 +17,7 @@ Antes do corte a técnica legislativa era outra: falhas de compilação são esp
 
 | Época | Aceitas | A revisar | Taxa de aceitação |
 |---|---|---|---|
-| recente | 1744 | 104 | 94.4% |
+| recente | 2059 | 107 | 95.1% |
 | antiga | 203 | 295 | 40.8% |
 
 ## Revisão humana
@@ -26,12 +26,12 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 
 | Situação | Recentes | Antigas | Total |
 |---|---|---|---|
-| aceita motor | 1744 | 203 | 1947 |
+| aceita motor | 2059 | 203 | 2262 |
 | aceita humano | 0 | 0 | 0 |
 | corrigida | 0 | 0 | 0 |
 | defeito de fonte | 0 | 0 | 0 |
 | encaminhada | 0 | 0 | 0 |
-| pendente | 104 | 295 | 399 |
+| pendente | 107 | 295 | 402 |
 | desatualizada | 0 | 0 | 0 |
 
 
@@ -40,10 +40,10 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 
 | Motivo | Normas |
 |---|---|
-| `rotulo_nao_confere_com_a_origem` | 37 |
-| `data_diverge_do_catalogo` | 21 |
+| `rotulo_nao_confere_com_a_origem` | 38 |
+| `data_diverge_do_catalogo` | 23 |
 | `sem_fecho` | 14 |
-| `promulgacao_parcial` | 13 |
+| `promulgacao_parcial` | 14 |
 | `cabecalho_nao_reconhecido` | 11 |
 | `bloco_sem_fechamento_de_aspas` | 11 |
 | `fecho_com_texto_demais` | 10 |
@@ -63,18 +63,18 @@ O motor lê; o revisor decide em `docs/revisao.html`. **Aceita pelo motor** e **
 
 | Motivo | Normas | % do total |
 |---|---|---|
-| `rotulo_nao_confere_com_a_origem` | 233 | 9.9% |
-| `cabecalho_nao_reconhecido` | 223 | 9.5% |
-| `sem_fecho` | 145 | 6.2% |
-| `trecho_nao_localizado_na_origem` | 59 | 2.5% |
-| `fecho_com_texto_demais` | 50 | 2.1% |
-| `bloco_de_alteracao_sem_dono` | 50 | 2.1% |
-| `texto_fora_da_arvore` | 49 | 2.1% |
-| `tabela_no_corpo` | 39 | 1.7% |
-| `sem_artigos` | 39 | 1.7% |
-| `bloco_sem_fechamento_de_aspas` | 28 | 1.2% |
-| `promulgacao_parcial` | 26 | 1.1% |
-| `data_diverge_do_catalogo` | 24 | 1% |
+| `rotulo_nao_confere_com_a_origem` | 234 | 8.8% |
+| `cabecalho_nao_reconhecido` | 223 | 8.4% |
+| `sem_fecho` | 145 | 5.4% |
+| `trecho_nao_localizado_na_origem` | 59 | 2.2% |
+| `fecho_com_texto_demais` | 50 | 1.9% |
+| `bloco_de_alteracao_sem_dono` | 50 | 1.9% |
+| `texto_fora_da_arvore` | 49 | 1.8% |
+| `tabela_no_corpo` | 39 | 1.5% |
+| `sem_artigos` | 39 | 1.5% |
+| `bloco_sem_fechamento_de_aspas` | 28 | 1.1% |
+| `promulgacao_parcial` | 27 | 1% |
+| `data_diverge_do_catalogo` | 26 | 1% |
 | `tipo_sem_suporte` | 8 | 0.3% |
 | `alteracao_sem_aspas_nao_delimitada` | 7 | 0.3% |
 | `aspa_de_abertura_ausente` | 5 | 0.2% |
@@ -108,6 +108,8 @@ A fonte liga o mesmo texto a mais de um registro; o catálogo não é corrigido 
 - `36914` = `33244`, `36188`, `31822`
 - `42987` = `43595`
 - `43595` = `42987`
+- `43808` = `43809`
+- `43809` = `43808`
 - `45243` = `45261`
 - `45261` = `45243`
 - `47858` = `47859`
@@ -119,14 +121,14 @@ A fonte liga o mesmo texto a mais de um registro; o catálogo não é corrigido 
 
 | Aviso | Normas | % do total |
 |---|---|---|
-| `tem_anexo` | 469 | 20% |
-| `anexo_preservado_nao_interpretado` | 321 | 13.7% |
-| `cabecalho_fora_do_padrao` | 214 | 9.1% |
-| `anexo_grafico_nao_lido` | 148 | 6.3% |
-| `texto_de_ocr` | 74 | 3.2% |
-| `revogacao_nao_interpretada` | 51 | 2.2% |
-| `paragrafo_numerado_sem_irmao` | 22 | 0.9% |
-| `dispositivo_muito_longo` | 16 | 0.7% |
+| `tem_anexo` | 575 | 21.6% |
+| `anexo_preservado_nao_interpretado` | 363 | 13.6% |
+| `cabecalho_fora_do_padrao` | 215 | 8.1% |
+| `anexo_grafico_nao_lido` | 212 | 8% |
+| `texto_de_ocr` | 74 | 2.8% |
+| `revogacao_nao_interpretada` | 51 | 1.9% |
+| `paragrafo_numerado_sem_irmao` | 23 | 0.9% |
+| `dispositivo_muito_longo` | 17 | 0.6% |
 | `possivel_dispositivo_embutido` | 15 | 0.6% |
 
 ## Fila de revisão — recentes (prioridade; só pendentes e desatualizadas)
@@ -235,6 +237,9 @@ A fonte liga o mesmo texto a mais de um registro; o catálogo não é corrigido 
 - Lei municipal nº 13.473, de 19 de maio de 2023 (`46229`): rotulo_nao_confere_com_a_origem
 - Lei municipal nº 13.461, de 09 de maio de 2023 (`46079`): data_diverge_do_catalogo
 - Lei municipal nº 13.433, de 11 de abril de 2023 (`45810`): data_diverge_do_catalogo
+- Lei municipal nº 13.162, de 01 de julho de 2022 (`44038`): promulgacao_parcial, rotulo_nao_confere_com_a_origem
+- Lei municipal nº 13.051, de 29 de abril de 2022 (`43865`): data_diverge_do_catalogo
+- Lei municipal nº 12.954, de 07 de fevereiro de 2022 (`43710`): data_diverge_do_catalogo
 
 ## Fila de revisão — antigas (antes da LC 611; revisão humana esperada)
 

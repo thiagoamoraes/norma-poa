@@ -1,0 +1,93 @@
+{
+ "idSapl": 44370,
+ "rotulo": "Lei municipal nº 13.263, de 28 de setembro de 2022",
+ "sha256Origem": "e39b47ff2342cdc17be2e115952fd3a60d2f30b9c33972734db64cf714165b93",
+ "estruturadoEm": "2026-11-26T06:29:20.376Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13263",
+  "ano": "2022",
+  "data": "2022-09-28",
+  "epigrafe": "LEI Nº 13.263, DE 28 DE SETEMBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece a dispensa das aulas e a realização de avaliação em períodos alternativos aos estudantes atletas e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de setembro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nCristiane da Costa Nery,\nProcuradora-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecida, aos estudantes atletas integrantes de delegações que participam de eventos esportivos oficiais, a dispensa das aulas e a realização de avaliação em períodos alternativos, quando houver coincidência entre o calendário escolar o calendário esportivo."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para os efeitos desta Lei, considera-se estudante atleta aquele matriculado em estabelecimento público da rede municipal de ensino, que pratica uma modalidade esportiva e que representa o Município, o Estado, o País, clubes, federações esportivas ou o seu estabelecimento de ensino em eventos ou competições oficiais das entidades dirigentes do esporte regional, nacional e internacional."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Aos estudantes dispensados das aulas nos termos deste artigo serão assegurados o acesso aos conteúdos e o cumprimento da carga horária prevista em lei federal, mediante reposição de aulas na modalidade presencial ou não presencial, além da realização de provas em data ou horário alternativos, sem cobrança de qualquer taxa ou valor adicional."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O estudante atleta comprovará a participação nas competições a que se refere o art. 1º desta Lei por meio dos seguintes documentos:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "declaração de um de seus pais ou responsável; e"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "declaração da entidade de administração do desporto ou da entidade de prática desportiva à qual o estudante estiver vinculado."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica determinado que os pais ou responsáveis pelo estudante atleta informarão ao estabelecimento de ensino, com antecedência mínima de 30 (trinta) dias, o calendário da competição esportiva oficial da qual ele participará."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 8,
+   "cobertura": 0.969,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

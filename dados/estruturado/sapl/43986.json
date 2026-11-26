@@ -1,0 +1,142 @@
+{
+ "idSapl": 43986,
+ "rotulo": "Lei municipal nº 13.149, de 02 de junho de 2022",
+ "sha256Origem": "f84b2e418cc4c8f9fa6ede588a0e2d0e1bbfe586c6a77d586f7b858e47728a30",
+ "estruturadoEm": "2026-11-26T06:29:20.638Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13149",
+  "ano": "2022",
+  "data": "2022-06-02",
+  "epigrafe": "LEI Nº 13.149, DE 2 DE JUNHO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Revoga as Leis que especifica.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de junho de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam revogadas:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a Lei nº 1.758, de 11 de julho de 1957;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a Lei nº 1.832, de 28 de dezembro de 1957;"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a Lei nº 3.365, de 4 de janeiro de 1970;"
+  },
+  {
+   "id": "art-1/inc-IV",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "a Lei nº 4.656, de 30 de novembro de 1979;"
+  },
+  {
+   "id": "art-1/inc-V",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "a Lei nº 6.721, de 21 de novembro de 1990;"
+  },
+  {
+   "id": "art-1/inc-VI",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "a Lei nº 7.555, de 19 de dezembro de 1994;"
+  },
+  {
+   "id": "art-1/inc-VII",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "a Lei nº 7.594, de 12 de janeiro de 1995;"
+  },
+  {
+   "id": "art-1/inc-VIII",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "a Lei nº 8.494, de 22 de maio de 2000;"
+  },
+  {
+   "id": "art-1/inc-IX",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "a Lei nº 8.640, de 27 de novembro de 2000;"
+  },
+  {
+   "id": "art-1/inc-X",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "texto": "a Lei nº 8.705, de 9 de janeiro de 2001;"
+  },
+  {
+   "id": "art-1/inc-XI",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "texto": "a Lei nº 8.706, de 15 de janeiro de 2001;"
+  },
+  {
+   "id": "art-1/inc-XII",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "texto": "a Lei nº 8.878, de 16 de janeiro de 2002; e"
+  },
+  {
+   "id": "art-1/inc-XIII",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "texto": "a Lei nº 9.091, de 19 de março de 2003."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 15,
+   "cobertura": 0.92,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

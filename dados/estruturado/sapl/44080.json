@@ -1,0 +1,113 @@
+{
+ "idSapl": 44080,
+ "rotulo": "Lei municipal nº 13.182, de 14 de julho de 2022",
+ "sha256Origem": "61fc3104b88d9780677a2bea943cca208564957753cc541f54543b0c2893c498",
+ "estruturadoEm": "2026-11-26T06:29:20.555Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13182",
+  "ano": "2022",
+  "data": "2022-07-14",
+  "epigrafe": "LEI Nº 13.182, DE 14 DE JULHO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Rua Paulina de Jesus, Rua Osni dos Santos e Rua Solange Terezinha Barbieri, respectivamente, os logradouros públicos cadastrados conhecidos como Rua Três Mil e Noventa e Um – Loteamento Vila Dutra Jardim – , Rua Três Mil e Noventa e Dois – Loteamento Vila Dutra Jardim – e Rua Três Mil e Noventa e Três – Loteamento Vila Dutra Jardim –, localizados no Bairro Santa Rosa de Lima.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 14 de julho de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Paulina de Jesus o logradouro público cadastrado conhecido como Rua Três Mil e Noventa e Um – Loteamento Vila Dutra Jardim –, localizado no Bairro Santa Rosa de Lima, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme Anexo I desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica denominado Rua Osni dos Santos o logradouro público cadastrado conhecido como Rua Três Mil e Noventa e Dois – Loteamento Vila Dutra Jardim –, localizado no Bairro Santa Rosa de Lima, com base na Lei Complementar nº 320, de 1994, e alterações posteriores, conforme Anexo II desta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica denominado Rua Solange Terezinha Barbieri o logradouro público cadastrado conhecido como Rua Três Mil e Noventa e Três – Loteamento Vila Dutra Jardim –, localizado no Bairro Santa Rosa de Lima, com base na Lei Complementar nº 320, de 1994, e alterações posteriores, conforme Anexo III desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo-i",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO I",
+   "texto": "ANEXO I\nSebastião Melo\n13.182\n22.0.000079971-1                      14.07.2022",
+   "semTexto": true
+  },
+  {
+   "id": "anexo-ii",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO II",
+   "texto": "ANEXO II\nSebastião Melo\n13.182\n22.0.000079971-1                         14.07.2022",
+   "semTexto": true
+  },
+  {
+   "id": "anexo-iii",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO III",
+   "texto": "ANEXO III\nSebastião Melo\n13.182\n22.0.000079971-1                        14.07.2022",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 7,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO I",
+     "linhas": 3,
+     "caracteres": 68,
+     "graficoOuTitulo": true
+    },
+    {
+     "cabecalho": "ANEXO II",
+     "linhas": 3,
+     "caracteres": 71,
+     "graficoOuTitulo": true
+    },
+    {
+     "cabecalho": "ANEXO III",
+     "linhas": 3,
+     "caracteres": 70,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 3,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

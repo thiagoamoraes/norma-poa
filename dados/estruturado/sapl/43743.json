@@ -1,0 +1,58 @@
+{
+ "idSapl": 43743,
+ "rotulo": "Lei municipal nº 13.012, de 03 de março de 2022",
+ "sha256Origem": "7f96225f08950c40af3e31a37020d3dc4ceacd1dd5e27c2fa6a856febe8dd5f5",
+ "estruturadoEm": "2026-11-26T06:29:20.986Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13012",
+  "ano": "2022",
+  "data": "2022-03-03",
+  "epigrafe": "LEI Nº 13.012, DE 3 DE MARÇO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece que agentes de endemias poderão entrar em imóveis fechados ou abandonados, públicos ou privados, no Município de Porto Alegre, quando verificada situação de iminente perigo à saúde pública pela presença de mosquitos transmissores do vírus Zika e daqueles causadores de dengue, febre chikungunya e leishmaniose.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE,                    3 de março de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecido que agentes de endemias poderão entrar em imóveis fechados ou abandonados, públicos ou privados, no Município de Porto Alegre, quando verificada situação de iminente perigo à saúde pública pela presença de mosquitos transmissores do vírus Zika e daqueles causadores de dengue, febre chikungunya e leishmaniose."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os imóveis privados abandonados, fechados ou sem uso que possuam piscinas poderão ficar sujeitos ao ingresso dos agentes de endemias para inspeção da limpeza do pátio e dos locais de proliferação de mosquitos."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.963,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

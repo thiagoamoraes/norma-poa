@@ -1,0 +1,52 @@
+{
+ "idSapl": 44020,
+ "rotulo": "Lei municipal nº 13.159, de 22 de junho de 2022",
+ "sha256Origem": "094fb96b771f4f152b5c0c4170af25c6c3ff3fc9fcc581d7e3d5da6d0948a6c8",
+ "estruturadoEm": "2026-11-26T06:29:20.612Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13159",
+  "ano": "2022",
+  "data": "2022-06-22",
+  "epigrafe": "LEI Nº 13.159, DE 22 DE JUNHO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o parágrafo único do art. 1º da Lei nº 9.329, de 22 de dezembro de 2003 – que institui, no Município de Porto Alegre, a Contribuição para Custeio do Serviço de Iluminação Pública, prevista no art. 149-A da Constituição Federal –, e alterações posteriores, ampliando o rol de serviços custeados por essa Contribuição.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de junho de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o parágrafo único do art. 1º da Lei nº 9.329, de 22 de dezembro de 2003, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º ....................................................................................................................\nParágrafo único. O serviço prestado previsto no caput deste artigo compreende o\ncusteio dos seguintes serviços:\nI – fornecimento de iluminação pública em vias, logradouros e demais bens\npúblicos, além de outras atividades correlatas; e\nII – manutenção e expansão da rede de iluminação existente em vias públicas,\nlogradouros e demais bens públicos, bem como em cooperativas habitacionais cadastradas no\nDepartamento Municipal de Habitação – Demhab –, empreendimentos do Minha Casa Minha\nVida da faixa de 0 (zero) a 3 (três) salários-mínimos e condomínios residenciais do Demhab.”\n(NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

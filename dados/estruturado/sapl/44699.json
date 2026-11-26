@@ -1,0 +1,51 @@
+{
+ "idSapl": 44699,
+ "rotulo": "Lei municipal nº 13.290, de 28 de outubro de 2022",
+ "sha256Origem": "23923bf8b2e0740b91137d6fcf61510727744f9813a9d9375ddcd093fb3a8062",
+ "estruturadoEm": "2026-11-26T06:29:20.278Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13290",
+  "ano": "2022",
+  "data": "2022-10-28",
+  "epigrafe": "LEI Nº 13.290, DE 28 DE OUTUBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Declara de utilidade pública a Sociedade União da Vila dos Eucaliptos – SUVE.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de outubro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica declarada de utilidade pública a Sociedade União da Vila dos Eucaliptos – SUVE –, com sede nesta Capital, nos termos da Lei nº 2.926, de 12 de julho de 1966, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.935,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

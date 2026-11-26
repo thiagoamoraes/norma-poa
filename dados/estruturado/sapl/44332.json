@@ -1,0 +1,77 @@
+{
+ "idSapl": 44332,
+ "rotulo": "Lei municipal nº 13.243, de 23 de setembro de 2022",
+ "sha256Origem": "0ddcb7efe02be59c68c7e8549365948ca50ef2a533a6603b6e8d8621f16c7c10",
+ "estruturadoEm": "2026-11-26T06:29:20.404Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13243",
+  "ano": "2022",
+  "data": "2022-09-23",
+  "epigrafe": "LEI Nº 13.243, DE 23 DE SETEMBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Feira de Integração Artesanal (FIA) no Anexo I da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, em 1 (uma) semana de cada mês, e a institui como evento de natureza sociocultural e de turismo do Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 23 de setembro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nCristiane da Costa Nery,\nProcuradora-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Feira de Integração Artesanal (FIA) no Anexo I da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica a FIA instituída como evento de natureza sociocultural e de turismo do Município de Porto Alegre."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nPERÍODO\nEVENTO\nDESCRIÇÃO E LOCAL DO EVENTO\n1 (uma) semana de cada mês\nFEIRA DE INTEGRAÇÃO ARTESANAL (FIA)\nRealizada preferencialmente no primeiro andar do Mercado Público de Porto Alegre, a feira é um evento com comercialização de artesanatos oriundos de autogestão, cooperação, solidariedade e sustentabilidade. Ocorre de segunda a sábado, das 9h às 19h, de janeiro a dezembro.\nLocal: Mercado Público de Porto Alegre."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 7,
+     "caracteres": 412,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

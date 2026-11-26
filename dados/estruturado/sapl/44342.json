@@ -1,0 +1,70 @@
+{
+ "idSapl": 44342,
+ "rotulo": "Lei municipal nº 13.253, de 23 de setembro de 2022",
+ "sha256Origem": "cf19a868110653e22dad615a995512a6779abab8cfd6b6dc65eaaa1799569ca5",
+ "estruturadoEm": "2026-11-26T06:29:20.391Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13253",
+  "ano": "2022",
+  "data": "2022-09-23",
+  "epigrafe": "LEI Nº 13.253, DE 23 DE SETEMBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Mariante Fernandes Batista o logradouro não cadastrado conhecido como Acesso J – Superquadra Dois – Primeira Unidade Vicinal Vila Nova Restinga, localizado no Bairro Restinga.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 23 de setembro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nCristiane da Costa Nery,\nProcuradora-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Mariante Fernandes Batista o logradouro não cadastrado conhecido como Acesso J – Superquadra Dois – Primeira Unidade Vicinal Vila Nova Restinga, localizado no Bairro Restinga, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n22.0.000117553-3\n22.0.000117553-3\n13.253\n13.253\n23.09.2022\n23.09.2022\nSebastião Melo\nSebastião Melo"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.955,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 8,
+     "caracteres": 92,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

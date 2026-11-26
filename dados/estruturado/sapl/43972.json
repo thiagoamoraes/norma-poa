@@ -1,0 +1,65 @@
+{
+ "idSapl": 43972,
+ "rotulo": "Lei municipal nº 13.136, de 01 de junho de 2022",
+ "sha256Origem": "d2627ede40075a2bcc46248eb7af33ee3e23370830965238a2656bcfa3cea84b",
+ "estruturadoEm": "2026-11-26T06:29:20.663Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13136",
+  "ano": "2022",
+  "data": "2022-06-01",
+  "epigrafe": "LEI Nº 13.136, DE 1º DE JUNHO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui as efemérides Dia Municipal da Conscientização acerca da Pessoa com Transtorno Bipolar e Semana Municipal da Conscientização acerca da        Pessoa com Transtorno Bipolar no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no dia 30 de março e na última semana do mês de março, respectivamente.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 1º de junho de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Dia Municipal da Conscientização acerca da Pessoa com Transtorno Bipolar no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no dia 30 de março."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluída a efeméride Semana Municipal da Conscientização acerca da Pessoa com Transtorno Bipolar no Anexo da Lei nº 10.904, de 2010, e alterações posteriores, na última semana do mês de março."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A efeméride referida no caput deste artigo tem como finalidade promover campanhas publicitárias e institucionais, seminários, palestras e cursos sobre o Transtorno Bipolar."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.956,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

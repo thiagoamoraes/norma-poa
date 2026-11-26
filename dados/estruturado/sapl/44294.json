@@ -1,0 +1,121 @@
+{
+ "idSapl": 44294,
+ "rotulo": "Lei municipal nº 13.240, de 13 de setembro de 2022",
+ "sha256Origem": "83266f7aa1be0e295ecd2edea6377c91420ee44deaf3e1296da49cb9fb650ed2",
+ "estruturadoEm": "2026-11-26T06:29:20.410Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13240",
+  "ano": "2022",
+  "data": "2022-09-13",
+  "epigrafe": "LEI Nº 13.240, DE 13 DE SETEMBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Assegura a prioridade na vacinação contra pneumonia na rede pública de saúde do Município de Porto Alegre para os grupos que especifica.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de setembro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica assegurada a prioridade na vacinação contra pneumonia na rede pública de saúde do Município de Porto Alegre:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "aos idosos com idade igual ou superior a 60 (sessenta) anos;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "às crianças com idade igual ou inferior a 5 (cinco) anos;"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "às pessoas com asma ou outras doenças respiratórias crônicas, com hipertensão, com doenças cardiológicas, com hepatopatias crônicas, com fibrose cística, com trissomias, com diabetes ou imunodeprimidas;"
+  },
+  {
+   "id": "art-1/inc-IV",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "às gestantes; e"
+  },
+  {
+   "id": "art-1/inc-V",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "aos profissionais da área da saúde."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A rede pública de saúde poderá adicionar outros públicos prioritários aos referidos nos incs. do caput deste artigo."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para a consecução dos objetivos desta Lei, deverão ser promovidas:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "campanhas educativas, com materiais sobre o tema, para a conscientização da população acerca da importância e do benefício da vacina, bem como das formas de prevenção da doença; e"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "campanha anual de vacinação contra a pneumonia."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "No período da campanha anual de vacinação contra a pneumonia, as unidades de saúde, as unidades hospitalares ou de pronto atendimento, os asilos e as casas ou centros de acolhimento ou de repouso deverão disponibilizar a vacina aos seus assistidos."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data da sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 12,
+   "cobertura": 0.943,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

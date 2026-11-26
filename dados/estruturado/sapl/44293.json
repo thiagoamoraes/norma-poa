@@ -1,0 +1,114 @@
+{
+ "idSapl": 44293,
+ "rotulo": "Lei municipal nº 13.239, de 13 de setembro de 2022",
+ "sha256Origem": "199ed08ea5010b1df4c10cfabfeb7b9cbf7a802f83866d15d56dfcc6db5a3380",
+ "estruturadoEm": "2026-11-26T06:29:20.412Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13239",
+  "ano": "2022",
+  "data": "2022-09-13",
+  "epigrafe": "LEI Nº 13.239, DE 13 DE SETEMBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o ensino de educação digital no currículo escolar dos ensinos fundamental e médio da Rede Municipal de Ensino de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de setembro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o ensino de educação digital no currículo escolar dos ensinos fundamental e médio da Rede Municipal de Ensino de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A temática do ensino referido no caput deste artigo será denominada Cidadania Digital e deverá integrar as disciplinas do currículo escolar por meio de atividades realizadas como conteúdos transversais."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "São objetivos do ensino de Cidadania Digital:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "fomentar a filtragem do acesso à internet no ambiente escolar a fim de impedir a visualização de conteúdo inadequado por alunos e funcionários da escola;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "incentivar o comportamento apropriado, responsável e saudável com relação ao uso da tecnologia, incluindo alfabetização digital, ética, etiqueta, educação midiática e segurança;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "educar para a utilização segura de tecnologia e para a promoção da cidadania digital; e"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "incentivar os pais a ensinarem seus filhos a usar a internet com segurança e responsabilidade."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O ensino de Cidadania Digital contará com as seguintes ações:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "promover orientações em tempo real para professores sobre como trabalhar os conteúdos em sala de aula e possibilitar tirar dúvidas com psicólogos sobre formas de lidar com casos de cyberbullying, exposição dos alunos na internet, entre outros; e"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "realizar discussões com os alunos relacionadas a temas cotidianos do universo online, tais como crimes de internet, direito de imagem, comércio digital, superexposição nas redes e proteção da privacidade, tendo em vista fomentar o uso responsável da internet."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 11,
+   "cobertura": 0.958,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "idSapl": 45058,
+ "rotulo": "Lei municipal nº 13.312, de 24 de novembro de 2022",
+ "sha256Origem": "5c307c9821ff8d4d2f9f55096d2402c138d89260e586a9eb0d4980a3b7214ebb",
+ "estruturadoEm": "2026-11-26T06:29:20.222Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13312",
+  "ano": "2022",
+  "data": "2022-11-24",
+  "epigrafe": "LEI Nº 13.312, DE 24 DE NOVEMBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui §§ 1º e 2º no art. 1º da Lei nº 11.229, de 6 de março de 2012, acrescentando a hipótese de concessão de Bônus-Moradia como instrumento da política habitacional do Município de Porto Alegre, a ser concedido em casos de demanda prioritária, bem como estabelecendo como prioridade as famílias com crianças com idade igual ou inferior a 14 (quatorze) anos, com pessoas vítimas de violência ou com pessoas com autismo ou deficiências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 24 de novembro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam incluídos §§ 1º e 2º no art. 1º da Lei nº 11.229, de 6 de março de 2012, alterada pela Lei nº 12.854, de 18 de agosto de 2021, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º .....................................................................................................................\n§ 1º O Bônus-Moradia também poderá ser considerado instrumento da política habitacional do Município, sendo concedido em casos de demanda prioritária, se houver previsão orçamentária, para famílias devidamente cadastradas, nos termos da lei.\n§ 2º Para os efeitos do § 1º deste artigo, terão prioridade as famílias:\nI – com crianças com idade igual ou inferior a 14 (quatorze) anos;\nII – com pessoas vítimas de violência; ou\nIII – com pessoas com autismo ou deficiência.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.968,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

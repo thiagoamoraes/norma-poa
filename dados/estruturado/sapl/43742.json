@@ -1,0 +1,128 @@
+{
+ "idSapl": 43742,
+ "rotulo": "Lei municipal nº 13.011, de 03 de março de 2022",
+ "sha256Origem": "c4190d8d7fd68caf4e2b0fbff50c89bc5a0e3b9e7f46e5628aa9bea541e6ccd1",
+ "estruturadoEm": "2026-11-26T06:29:20.989Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13011",
+  "ano": "2022",
+  "data": "2022-03-03",
+  "epigrafe": "LEI Nº 13.011, DE 3 DE MARÇO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Orçamento Participativo Eletrônico (OPE) no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE,                  3 de março de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Orçamento Participativo Eletrônico (OPE) no Município de Porto Alegre, visando a garantir, por meio da internet, a participação efetiva da coletividade na elaboração do projeto de lei orçamentária anual (LOA)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para participar do OPE, os cidadãos deverão cadastrar-se por meio de site ou aplicativo gratuito para telefone celular ou tablet, disponibilizado nos principais sistemas operacionais, informando:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "nome;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "e-mail;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "número do telefone celular;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "número de inscrição no Cadastro de Pessoa Física (CPF); e"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "número do título de eleitor, com indicação do local de votação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Os cidadãos cadastrados serão informados, por e-mail ou Short Message Service (SMS), a respeito da data de abertura e da data de encerramento do processo de votação no OPE."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Cada cidadão cadastrado no OPE poderá, em cada 1 (uma) das temáticas do Orçamento Participativo referentes à Região na qual reside, escolher apenas 1 (uma) obra ou 1 (um) serviço público da relação de ações apresentada pelo Executivo Municipal em site e aplicativo gratuito para telefone celular ou tablet, ou sugerir 1 (uma) demanda por temática, para constar no projeto de LOA."
+  },
+  {
+   "id": "art-4/par-unico",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O processo de votação no OPE ocorrerá no período estabelecido no calendário do Orçamento Participativo."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "As reuniões das assembleias do Orçamento Participativo serão transmitidas ao vivo pela internet, por meio de site e aplicativo gratuito para telefone celular ou tablet."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Os resultados da votação no OPE estarão disponíveis em até 5 (cinco) dias úteis, contados da data de encerramento do processo de votação das ações do Orçamento Participativo."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 13,
+   "cobertura": 0.953,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

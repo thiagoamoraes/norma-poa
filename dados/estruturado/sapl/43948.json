@@ -1,0 +1,84 @@
+{
+ "idSapl": 43948,
+ "rotulo": "Lei municipal nº 13.124, de 26 de maio de 2022",
+ "sha256Origem": "8628c0a6354b4339da7a2b4288b44557c7ad6c594ca13fa4f14828a799d8bb93",
+ "estruturadoEm": "2026-11-26T06:29:20.691Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13124",
+  "ano": "2022",
+  "data": "2022-05-26",
+  "epigrafe": "LEI Nº 13.124, DE 26 DE MAIO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Desfile da Mocidade Salve Jorge no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, a ser realizado na primeira quinzena de setembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 26 de maio de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Desfile da Mocidade Salve Jorge no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O evento Desfile da Mocidade Salve Jorge tem por objetivo resgatar a autoestima na região da Grande Cruzeiro, bem como mostrar o potencial da comunidade."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O evento referido no caput deste artigo atinge todas as instituições e escolas da região da Grande Cruzeiro, com temas alusivos ao cotidiano daquela comunidade e da sociedade."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSETEMBRO\nPERÍODO                EVENTO               DESCRIÇÃO E LOCAL DO EVENTO\nPrimeira    Desfile da Mocidade Salve    Organizado pela Associação Amavtron, em\nquinzena.   Jorge                        parceria com o Poder Público, o evento\nobjetiva resgatar a autoestima na região da\nGrande Cruzeiro e mostrar o potencial da\ncomunidade.\nLocal: Rua Francisco Massena Vieira,\npróximo ao posto da Brigada Militar, seguindo\npela Avenida Cruzeiro de Sul e terminando\nna Rua Caixa Econômica, 605, em frente à\nAssociação Amavtron."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.963,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 12,
+     "caracteres": 514,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "idSapl": 44295,
+ "rotulo": "Lei municipal nº 13.241, de 13 de setembro de 2022",
+ "sha256Origem": "967593761595768ced71f72eebb9d2038a64ef3679b6f83dcccff1e5f42104d6",
+ "estruturadoEm": "2026-11-26T06:29:20.406Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13241",
+  "ano": "2022",
+  "data": "2022-09-13",
+  "epigrafe": "LEI Nº 13.241, DE 13 DE SETEMBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a ementa e o caput do art. 1º e inclui incs. I e II no caput e § 2º no art. 1º, todos na Lei nº 12.233, de 28 de março de 2017, estabelecendo que a obrigação de conceder desconto de 50% (cinquenta por cento) sobre o valor da inscrição para os atletas idosos não se aplica às promotoras de competições definidas como federações ou associações sem fins lucrativos nos casos em que as competições esportivas não estiverem recebendo recursos de leis de incentivo ao esporte.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de setembro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei nº 12.233, de 28 de março de 2017, conforme segue:",
+   "blocoDeAlteracao": "“Dispõe sobre a concessão de desconto de 50% (cinquenta por cento sobre o valor\nde inscrição a idosos e paratletas em competições esportivas.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "No art. 1º da Lei nº 12.233, de 2017, fica alterado o caput, ficam incluídos incs. I e II no caput e fica incluído § 2º, renomeando-se o parágrafo único para § 1º e mantendo-se sua redação atual, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Ficam os promotores de competições esportivas obrigados a conceder\ndesconto de 50% (cinquenta por cento) sobre o valor da inscrição a:\nI – atletas idosos; e\nII – paratletas.\n§ 1º ............................................................................................................................\n§ 2º O desconto referido no inc. I do caput deste artigo não se aplica às\npromotoras de competições definidas como federações ou associações sem fins lucrativos nos\ncasos em que as competições esportivas não estiverem recebendo recursos de leis de incentivo ao\nesporte.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

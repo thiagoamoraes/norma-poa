@@ -1,0 +1,80 @@
+{
+ "idSapl": 48227,
+ "rotulo": "Lei municipal nº 13.320, de 05 de novembro de 2022",
+ "sha256Origem": "f806605d2dbc8fde263f13cb37ad24515fbc1c6de151aae8108243e43d8405a8",
+ "estruturadoEm": "2026-11-26T06:29:20.274Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13320",
+  "ano": "2022",
+  "data": "2022-11-05",
+  "epigrafe": "PROC. Nº 0878/17",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 090/17 SEI Nº 087.00063/2019-16 LEI Nº 13.320, DE 05 DE NOVEMBRO DE 2022.",
+ "ementa": "Obriga a presença de tradutor e intérprete de Língua Brasileira de Sinais – Libras – em todos os eventos realizados pelo Município de Porto Alegre com expectativa de público superior a 100 (cem) pessoas.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 13.320, de 05 de novembro de 2022, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 23 DE FEVEREIRO DE 2023.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica obrigatória a presença de tradutor e intérprete de Língua Brasileira de Sinais – Libras – em todos os eventos realizados pelo Município de Porto Alegre com expectativa de público superior a 100 (cem) pessoas, para realizar a sua interpretação e tradução."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para fins desta Lei, entende-se por intérprete e tradutor de Libras o profissional capacitado ou habilitado em processos de interpretação de Libras, com competência para realizar interpretação das 2 (duas) línguas de maneira simultânea ou consecutiva e com proficiência em tradução e interpretação de Libras e de Língua Portuguesa."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para os fins da interpretação e da tradução em Libras nos eventos de que trata o art. 1º desta Lei, deverá ser previamente reservado local para o público com deficiência auditiva."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A quantidade de tradutores e intérpretes de Libras presentes por evento deverá ser ajustada conforme o tempo de sua realização, devendo a carga horária do profissional estar em consonância com a legislação pertinente."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 6,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "idSapl": 43749,
+ "rotulo": "Lei municipal nº 13.018, de 03 de março de 2022",
+ "sha256Origem": "cd862e41d42039321556d101d0626733ecef1f5f249170306ed6ea2965bfd126",
+ "estruturadoEm": "2026-11-26T06:29:20.973Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13018",
+  "ano": "2022",
+  "data": "2022-03-03",
+  "epigrafe": "LEI Nº 13.018, DE 3 DE MARÇO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput do art. 1º e os incs. I a VI do art. 5º e inclui incs. VII, VIII, IX e parágrafo único no art. 5º da Lei nº 12.662, de 21 de janeiro de 2020 que institui o Programa de Residência Técnico-Superior (PRTS) no âmbito do Município de Porto Alegre, modificando as áreas para as quais se destina o PRTS, ampliando o número de vagas e dispondo sobre sua distribuição.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE,                  3 de março de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o art. 1º da Lei nº 12.662, de 21 de janeiro de 2020, conforme segue:",
+   "blocoDeAlteracao": "“Art.1º Fica instituído o Programa de Residência Técnico-superior (PRTS), no\nâmbito do Município de Porto Alegre, com vista ao aperfeiçoamento profissional dos bacharéis\nem Administração, Arquitetura, Arquivologia, Contabilidade, Economia, Engenharia, Estatística,\nSociologia e Tecnologia da Informação, egressos do curso de graduação pelo período máximo de\n5 (cinco) anos, mediante prévia aprovação em processo seletivo. (NR)”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "No art. 5º da Lei nº 12.662, de 2020, ficam alterados o caput e os incs. I a VI e ficam incluídos incs. VII, VIII, IX e parágrafo único, conforme segue:",
+   "blocoDeAlteracao": "“Art. 5º Ficam criadas 120 (cento e vinte) bolsas de Residente Técnico-Superior,\npara os egressos dos cursos das seguintes habilitações:\nI – Administração;\nII – Arquitetura;\nIII – Arquivologia;\nIV – Contabilidade;\nV – Economia;\nVI – Engenharia;\nVII – Estatística;\nVIII – Sociologia;\nIX – Tecnologia da Informação.\nParágrafo único. A distribuição das bolsas nas habilitações constantes será\nregulamentada em decreto, ficando limitadas ao máximo de 20% (vinte por cento) do total de\nservidores providos em cargos efetivos na mesma área de atuação.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.975,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

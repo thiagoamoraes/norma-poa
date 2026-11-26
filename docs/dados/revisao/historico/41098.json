@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-11-24T09:30:00.081Z",
+ "geradoEm": "2026-11-26T06:29:31.995Z",
  "idSapl": 41098,
  "rotulo": "Lei Complementar municipal nº 810, de 04 de janeiro de 2017",
  "baseConferida": false,
@@ -32,6 +32,26 @@
   },
   {
    "indice": 3,
+   "id": "lc 810/2017@2022-06-01",
+   "data": "2022-06-01",
+   "fonte": {
+    "idSapl": 43967,
+    "rotulo": "Lei municipal nº 13.131, de 01 de junho de 2022"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 4,
+   "id": "lc 810/2017@2022-07-08",
+   "data": "2022-07-08",
+   "fonte": {
+    "idSapl": 44066,
+    "rotulo": "Lei municipal nº 13.179, de 08 de julho de 2022"
+   },
+   "comandosAplicados": 1
+  },
+  {
+   "indice": 5,
    "id": "lc 810/2017@2023-07-14",
    "data": "2023-07-14",
    "fonte": {
@@ -41,7 +61,7 @@
    "comandosAplicados": 1
   },
   {
-   "indice": 4,
+   "indice": 6,
    "id": "lc 810/2017@2023-09-29",
    "data": "2023-09-29",
    "fonte": {
@@ -51,7 +71,7 @@
    "comandosAplicados": 2
   },
   {
-   "indice": 5,
+   "indice": 7,
    "id": "lc 810/2017@2024-05-03",
    "data": "2024-05-03",
    "fonte": {
@@ -1952,7 +1972,7 @@
      }
     },
     {
-     "desde": 4,
+     "desde": 6,
      "texto": "(Revogado)",
      "situacao": "revogado",
      "origem": {
@@ -2496,7 +2516,7 @@
    "rotulo": "h)",
    "estados": [
     {
-     "desde": 5,
+     "desde": 7,
      "texto": "planejar, articular e coordenar os processos de trabalho inerentes à implantação e à manutenção da operação transversal da Política de Governança de Dados e Informações Municipais (PGDIM);",
      "situacao": "vigente",
      "origem": {
@@ -2632,7 +2652,7 @@
    "rotulo": "f)",
    "estados": [
     {
-     "desde": 3,
+     "desde": 5,
      "texto": "desenvolver atividades voltadas à conformidade da Administração Pública Municipal com a legislação de proteção de dados pessoais e fomentar a política de proteção de dados pessoais no âmbito do Município de Porto Alegre;",
      "situacao": "vigente",
      "origem": {
@@ -2649,7 +2669,7 @@
    "rotulo": "g)",
    "estados": [
     {
-     "desde": 4,
+     "desde": 6,
      "texto": "promover, no Município de Porto Alegre, ações de defesa e representação dos consumidores;",
      "situacao": "vigente",
      "origem": {
@@ -2757,6 +2777,32 @@
      "origem": {
       "operacao": "insert_node",
       "lei": "Lei Complementar nº 897/2021"
+     }
+    },
+    {
+     "desde": 3,
+     "texto": "desenvolver, implementar e supervisionar projetos locais e territoriais por meio das Subprefeituras;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.131/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4-A/inc-IX/ali-f",
+   "pai": "art-4-A/inc-IX",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "estados": [
+    {
+     "desde": 4,
+     "texto": "formular políticas e diretrizes para o fomento do desenvolvimento territorial rural;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.179/2022"
      }
     }
    ]
@@ -4406,6 +4452,46 @@
   },
   {
    "alteradora": {
+    "idSapl": 43967,
+    "rotulo": "Lei municipal nº 13.131, de 01 de junho de 2022"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.099, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6099\",\"ano\":\"1988\",\"chave\":\"l 6099/1988\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 897, de 15 de janeiro de 2021\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"897\",\"ano\":\"2021\",\"chave\":\"lc 897/2021\"}, versão: lc 810/2017) | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
+   "enderecos": [
+    "art-1",
+    "art-3",
+    "art-3/inc-I",
+    "art-3/inc-II",
+    "art-3/inc-IV",
+    "art-3/inc-VI",
+    "art-3/inc-VIII",
+    "art-3/inc-X",
+    "art-3/inc-XI",
+    "art-3/inc-XII",
+    "art-5",
+    "art-8",
+    "art-13",
+    "art-15",
+    "art-6",
+    "art-2"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 44066,
+    "rotulo": "Lei municipal nº 13.179, de 08 de julho de 2022"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.979, de 2015\",\"tipoAto\":\"LEI\",\"numero\":\"11979\",\"ano\":\"2015\",\"chave\":\"l 11979/2015\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.979, de 2015\",\"tipoAto\":\"LEI\",\"numero\":\"11979\",\"ano\":\"2015\",\"chave\":\"l 11979/2015\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.979, de 2015\",\"tipoAto\":\"LEI\",\"numero\":\"11979\",\"ano\":\"2015\",\"chave\":\"l 11979/2015\"}, versão: lc 810/2017) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.979, de 2015\",\"tipoAto\":\"LEI\",\"numero\":\"11979\",\"ano\":\"2015\",\"chave\":\"l 11979/2015\"}, versão: lc 810/2017) | operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": [
+    "art-16/inc-IV",
+    "art-16/inc-VIII",
+    "art-16/inc-XII",
+    "art-16/inc-XIII"
+   ]
+  },
+  {
+   "alteradora": {
     "idSapl": 47274,
     "rotulo": "Lei municipal nº 13.641, de 29 de setembro de 2023"
    },
@@ -4427,24 +4513,6 @@
     "art-10/inc-XV",
     "art-10/inc-XVI"
    ]
-  },
-  {
-   "alteradora": {
-    "idSapl": 43967,
-    "rotulo": "Lei municipal nº 13.131, de 01 de junho de 2022"
-   },
-   "motivo": "texto_indisponivel",
-   "detalhe": "o texto desta alteradora ainda não foi baixado ou extraído",
-   "enderecos": []
-  },
-  {
-   "alteradora": {
-    "idSapl": 44066,
-    "rotulo": "Lei municipal nº 13.179, de 08 de julho de 2022"
-   },
-   "motivo": "texto_indisponivel",
-   "detalhe": "o texto desta alteradora ainda não foi baixado ou extraído",
-   "enderecos": []
   }
  ],
  "aConferir": [
@@ -4665,6 +4733,10 @@
    "desde": "2017-08-30"
   },
   {
+   "id": "art-5",
+   "desde": "2022-06-01"
+  },
+  {
    "id": "art-6",
    "desde": "2017-08-30"
   },
@@ -4807,6 +4879,58 @@
   {
    "id": "art-12",
    "desde": "2021-01-15"
+  },
+  {
+   "id": "art-13",
+   "desde": "2022-06-01"
+  },
+  {
+   "id": "art-13/inc-I",
+   "desde": "2022-06-01"
+  },
+  {
+   "id": "art-13/inc-II",
+   "desde": "2022-06-01"
+  },
+  {
+   "id": "art-13/inc-III",
+   "desde": "2022-06-01"
+  },
+  {
+   "id": "art-13/inc-IV",
+   "desde": "2022-06-01"
+  },
+  {
+   "id": "art-13/inc-V",
+   "desde": "2022-06-01"
+  },
+  {
+   "id": "art-13/inc-VI",
+   "desde": "2022-06-01"
+  },
+  {
+   "id": "art-13/inc-VII",
+   "desde": "2022-06-01"
+  },
+  {
+   "id": "art-13/inc-VIII",
+   "desde": "2022-06-01"
+  },
+  {
+   "id": "art-13/inc-IX",
+   "desde": "2022-06-01"
+  },
+  {
+   "id": "art-13/inc-X",
+   "desde": "2022-06-01"
+  },
+  {
+   "id": "art-13/inc-XI",
+   "desde": "2022-06-01"
+  },
+  {
+   "id": "art-13/inc-XII",
+   "desde": "2022-06-01"
   },
   {
    "id": "art-4/inc-II/ali-e",

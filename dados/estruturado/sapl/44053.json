@@ -1,0 +1,59 @@
+{
+ "idSapl": 44053,
+ "rotulo": "Lei municipal nº 13.168, de 07 de julho de 2022",
+ "sha256Origem": "1ce9d02bb598391bc385aaadf0e5b052a9d36e79123782eac51bf4163e4cb9d3",
+ "estruturadoEm": "2026-11-26T06:29:20.589Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13168",
+  "ano": "2022",
+  "data": "2022-07-07",
+  "epigrafe": "LEI Nº 13.168, DE 7 DE JULHO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput, inclui §§ 1º e 2º e revoga os incs. I e II do caput do art. 3º da Lei nº 9.229, de 9 de outubro de 2003 – que define critérios para os serviços de transporte por lotação e seletivo, suas tarifas e inserção no sistema de transporte público da cidade de Porto Alegre – e alterações posteriores, definindo que o valor da tarifa do serviço seletivo de lotação será equivalente a, no mínimo, 1,4 (um inteiro e quatro décimos) do valor da tarifa do transporte coletivo por ônibus e dando outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de julho de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o caput e ficam incluídos §§ 1º a 3º no art. 3º da Lei nº 9.229, de 9 de outubro de 2003, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º A tarifa do serviço seletivo por lotação, fixada por decreto, apresentará\nvalor equivalente a, no mínimo, 1,4 (um inteiro e quatro décimos) do valor da tarifa do serviço\nde transporte coletivo por ônibus.\n...................................................................................................................................\n§ 1º O reajuste tarifário do serviço seletivo por lotação, mediante requisição da\nentidade representativa de seus permissionários, poderá ser concedido anualmente,\npreferencialmente de forma simultânea ao reajuste da tarifa do transporte coletivo por ônibus.\n§ 2º O pedido de reajuste tarifário deverá indicar o percentual de reajuste que os\npermissionários entendem ser devido e aplicável, a ser avaliado pelo Executivo Municipal.\n§ 3º Concedido o reajuste tarifário pelo Executivo Municipal, a tarifa será única\npara todas as lotações.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Ficam revogados os incs. I e II do caput do art. 3º da Lei nº 9.229, de 9 de outubro de 2003."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.974,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

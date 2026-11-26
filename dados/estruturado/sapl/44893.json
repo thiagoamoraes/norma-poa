@@ -1,0 +1,70 @@
+{
+ "idSapl": 44893,
+ "rotulo": "Lei municipal nº 13.292, de 11 de novembro de 2022",
+ "sha256Origem": "c3e4084343a73ac40ed03470b416ac9979c547f93d7aac1b2d3fda46047af44b",
+ "estruturadoEm": "2026-11-26T06:29:20.253Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13292",
+  "ano": "2022",
+  "data": "2022-11-11",
+  "epigrafe": "LEI Nº 13.292, DE 11 DE NOVEMBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Tenente Enfermeira Ignácia Blauth o logradouro público cadastrado conhecido como Rua Quatro Mil e Vinte e Seis – Vila Orfanotrófio I, localizado no Bairro Santa Tereza.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de novembro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Tenente Enfermeira Ignácia Blauth o logradouro público cadastrado conhecido como Rua Quatro Mil e Vinte e Seis – Vila Orfanotrófio I, localizado no Bairro Santa Tereza, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n13.292\n13.292\n11.11.2022\n11.11.2022\n22.0.000139071-0\n22.0.000139071-0\nSebastião Melo\nSebastião Melo"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.954,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 8,
+     "caracteres": 92,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

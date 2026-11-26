@@ -1,0 +1,75 @@
+{
+ "idSapl": 44108,
+ "rotulo": "Lei municipal nº 13.200, de 21 de julho de 2022",
+ "sha256Origem": "bff398f1ce1f7ee2218b00f62ae6d7055987e6751cd4c40894d680496f5959cc",
+ "estruturadoEm": "2026-11-26T06:29:20.522Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13200",
+  "ano": "2022",
+  "data": "2022-07-21",
+  "epigrafe": "LEI Nº 13.200, DE 21 DE JULHO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o art. 55 e inclui art. 3º-A e inc. VII no caput do art. 11 da Lei nº 10.605, de 29 de dezembro de 2008, e alterações posteriores, estabelecendo o comércio de livros na modalidade itinerante em veículo automotor e dispondo sobre o comércio ambulante de roupas usadas na forma de brechó.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de julho de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído art. 3º-A na Lei nº 10.605, de 29 de dezembro de 2008, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º-A Fica estabelecido o comércio de livros na modalidade itinerante em\nveículo automotor.\n§ 1º A autorização para o comércio referido no caput deste artigo permitirá o\nexercício da atividade por meio do estacionamento de veículo automotor em logradouros\npúblicos, em pontos predeterminados e em rodízio com os demais comerciantes autorizados\nnessa mesma modalidade, em dias e horários definidos pelo Executivo Municipal, observadas as\nregras de trânsito vigentes.\n§ 2º Na parte externa do veículo automotor, será permitida a veiculação da\npromoção do seu comércio, vedada a publicidade de patrocinadores, marcas ou produtos que\ncomercializa, bem como outros anúncios publicitários, observando-se, no que couber, os termos\nda Lei nº 8.279, de 20 de janeiro de 1999, e alterações posteriores.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluído inc. VII no caput do art. 11 da Lei nº 10.605, de 2008, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 11. ....................................................................................................................\n....................................................................................................................................\nVII – declaração de que não se trata de lojista, no caso de comércio ambulante de\nroupas usadas na forma de brechó.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica alterado o art. 55 da Lei nº 10.605, de 2008, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 55. Aplica-se esta Lei, no que couber, às feiras de artesanato, às feirasmodelo, às feiras de hortifrutigranjeiros e às feiras de brechós.” (NR)"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei será regulamentada no prazo de 60 (sessenta) dias, contados da data de sua publicação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.971,
+   "blocosDeAlteracao": 3,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

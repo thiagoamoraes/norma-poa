@@ -1,0 +1,728 @@
+{
+ "idSapl": 44209,
+ "rotulo": "Lei municipal nº 13.218, de 06 de setembro de 2022",
+ "sha256Origem": "f8d8a0495e588aa92c718118690929f71b04e99df48a0ee9d57a939da1b93173",
+ "estruturadoEm": "2026-11-26T06:29:20.456Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13218",
+  "ano": "2022",
+  "data": "2022-09-06",
+  "epigrafe": "LEI Nº 13.218, DE 6 DE SETEMBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Dispõe sobre o Sistema Municipal de Ensino de Porto Alegre, define suas competências e organização e revoga a Lei nº 8.198, de 18 de agosto de 1998.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 6 de setembro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Esta Lei disciplina a organização do Sistema Municipal de Ensino de Porto Alegre, com ênfase na educação escolar desenvolvida pelas instituições que o compõem.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DA EDUCAÇÃO MUNICIPAL"
+    },
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Das Disposições Preliminares"
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A educação municipal, dever do Poder Público, promovida em integração com a família e a sociedade, inspirada nos princípios da liberdade e nos ideais de solidariedade humana, tem por finalidade o pleno desenvolvimento das potencialidades do educando e o seu preparo para o exercício da cidadania."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "São objetivos da educação municipal, inspirados nos princípios e nos fins da educação nacional:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Dos Objetivos Da Educação Municipal"
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "formar cidadãos participativos, capazes de compreender a realidade social, conscientes de seus direitos e suas responsabilidades;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "garantir aos educandos condições de acesso, permanência e sucesso escolar;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "assegurar padrões de qualidade na oferta da educação escolar;"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "promover a autonomia da escola e a participação da comunidade na gestão escolar;"
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "respeitar o pluralismo de ideias e de concepções pedagógicas;"
+  },
+  {
+   "id": "art-3/inc-VI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "incentivar o respeito à liberdade e o apreço à tolerância;"
+  },
+  {
+   "id": "art-3/inc-VII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "valorizar a experiência extraescolar;"
+  },
+  {
+   "id": "art-3/inc-VIII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "valorizar os profissionais da educação escolar;"
+  },
+  {
+   "id": "art-3/inc-IX",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "garantir o acesso às instituições de ensino; e"
+  },
+  {
+   "id": "art-3/inc-X",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "texto": "garantir laicidade e pluralidade do ensino nas escolas públicas."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "A educação, instrumento da sociedade para a promoção do exercício da cidadania, fundamentada nos ideais de igualdade, liberdade, solidariedade, democracia, justiça social e felicidade humana, no trabalho como fonte de riqueza, dignidade e bem estar, tem por fim:"
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o pleno desenvolvimento do ser humano e seu aperfeiçoamento;"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a formação de cidadãos capazes de compreender a realidade social e conscientes dos seus direitos e suas responsabilidades, desenvolvendo neles os valores éticos e o aprendizado da participação;"
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "o preparo do cidadão para o exercício da cidadania, a compreensão e o exercício do trabalho, mediante o acesso à cultura, ao conhecimento humanístico, científico, tecnológico, artístico e ao desporto;"
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "a produção e a difusão do saber e do conhecimento;"
+  },
+  {
+   "id": "art-4/inc-V",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "a valorização e a promoção da vida; e"
+  },
+  {
+   "id": "art-4/inc-VI",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "a preparação do cidadão para a efetiva participação política."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "É dever do Poder Público Municipal:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "III",
+     "titulo": "Das Responsabilidades Do Poder Público Municipal"
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "garantir a oferta da educação infantil e, prioritariamente, do ensino fundamental, permitida a atuação em outras etapas de ensino somente quando plenamente atendidas as necessidades de sua área de competência;"
+  },
+  {
+   "id": "art-5/inc-II",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "oferecer atendimento educacional especializado gratuito aos estudantes com deficiência, transtornos globais do desenvolvimento e altas habilidades ou superdotação, preferencialmente na rede regular de ensino;"
+  },
+  {
+   "id": "art-5/inc-III",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "oferecer acesso público e gratuito ao ensino fundamental para todos aqueles que não concluíram seu processo de escolarização em idade obrigatória;"
+  },
+  {
+   "id": "art-5/inc-IV",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "assegurar o acesso dos estudantes com idades a partir dos 4 (quatro) anos em escolas da rede municipal ou, subsidiariamente, da rede privada;"
+  },
+  {
+   "id": "art-5/inc-V",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "cadastrar, autorizar, credenciar e supervisionar os estabelecimentos do seu sistema de ensino;"
+  },
+  {
+   "id": "art-5/inc-VI",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "exercer ação redistributiva dos estudantes em relação às suas instituições; e"
+  },
+  {
+   "id": "art-5/inc-VII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "desenvolver, em regime de colaboração com o Poder Público Estadual do Rio Grande do Sul, estratégias para a conclusão da educação básica aos estudantes que assim necessitarem."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Compõem o Sistema Municipal de Ensino de Porto Alegre:",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "II",
+     "titulo": "DO SISTEMA MUNICIPAL DE ENSINO"
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-I",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a Secretaria Municipal da Educação (SMED);"
+  },
+  {
+   "id": "art-6/inc-II",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o Conselho Municipal de Educação (CME/POA);"
+  },
+  {
+   "id": "art-6/inc-III",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "as escolas de educação infantil, ensino fundamental, educação especial e educação de jovens e adultos mantidas pelo Poder Público Municipal; e"
+  },
+  {
+   "id": "art-6/inc-IV",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "as escolas de educação infantil criadas e mantidas pela iniciativa privada."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "O Sistema Municipal de Ensino de Porto Alegre obedecerá às Diretrizes e Bases da Educação Nacional."
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "A SMED é o órgão que administra o Sistema Municipal de Ensino de Porto Alegre e que exerce as atribuições do Poder Público Municipal em matéria de educação.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Da Secretaria Municipal Da Educação"
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "texto": "A estrutura organizacional da SMED, com a relação de suas unidades e respectivas atribuições, é definida em legislação específica sobre a estrutura e organização da Administração Direta e Indireta do Município de Porto Alegre e em seu Regimento Interno."
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "texto": "À SMED compete:"
+  },
+  {
+   "id": "art-10/inc-I",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "organizar, manter e desenvolver as instituições e órgãos oficiais do Sistema, integrando-os às políticas e planos educacionais da União;"
+  },
+  {
+   "id": "art-10/inc-II",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "elaborar fluxo específico para realização de cadastro das instituições que compõem o Sistema Municipal de Ensino;"
+  },
+  {
+   "id": "art-10/inc-III",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "elaborar e executar políticas, planos e projetos educacionais, em consonância com as legislações e diretrizes nacionais;"
+  },
+  {
+   "id": "art-10/inc-IV",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "analisar e aprovar, em conjunto com o CME/POA, os regimentos das instituições de ensino que compõem o Sistema;"
+  },
+  {
+   "id": "art-10/inc-V",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "desenvolver diretrizes para a emissão de documentos oficiais da vida escolar dos estudantes das instituições públicas municipais;"
+  },
+  {
+   "id": "art-10/inc-VI",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "fixar diretrizes para a elaboração e aprovar o calendário escolar das instituições da rede pública municipal de ensino, assegurando o seu cumprimento;"
+  },
+  {
+   "id": "art-10/inc-VII",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "homologar, por meio de ato do titular da SMED, as deliberações aprovadas pelo CME/POA;"
+  },
+  {
+   "id": "art-10/inc-VIII",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "atuar de forma integrada com o Sistema Estadual de Ensino, objetivando a continuidade pedagógica entre os ensinos fundamental e médio;"
+  },
+  {
+   "id": "art-10/inc-IX",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "participar da elaboração, da execução e da avaliação do Plano Plurianual, da Lei de Diretrizes Orçamentárias e da Lei Orçamentária Anual de Porto Alegre;"
+  },
+  {
+   "id": "art-10/inc-X",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "texto": "efetivar o regime de colaboração com o Sistema Estadual de Ensino;"
+  },
+  {
+   "id": "art-10/inc-XI",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "texto": "efetuar pesquisas didático-pedagógicas para o desenvolvimento do ensino municipal;"
+  },
+  {
+   "id": "art-10/inc-XII",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "texto": "definir e administrar indicadores de desempenho para a rede municipal de ensino; e"
+  },
+  {
+   "id": "art-10/inc-XIII",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "texto": "articular-se com outros órgãos municipais e demais níveis de governo, para o desenvolvimento de ações educativas direcionadas aos estudantes da rede municipal."
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "texto": "A aprovação dos regimentos das instituições de ensino será concedida, por meio de ato específico, pelo CME/POA, com fundamento em parecer favorável da SMED."
+  },
+  {
+   "id": "art-11/par-unico",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Caso a SMED emita parecer negativo, os documentos deverão ser reelaborados pela instituição de ensino em até 30 (trinta) dias."
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "texto": "Para o credenciamento de cursos e autorização de funcionamento das instituições de ensino que integram o Sistema será exigida documentação específica que comprove e assegure os padrões de qualidade definidos pelo CME/POA, com base nas legislações nacional e estadual vigentes."
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "texto": "A SMED irá participar da elaboração do plano plurianual, das leis de diretrizes orçamentárias e das leis orçamentárias anuais, cabendo-lhe definir a destinação dos recursos vinculados e outros que forem reservados para a manutenção e desenvolvimento do ensino."
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "texto": "O CME/POA é o órgão normativo, deliberativo e consultivo do Sistema Municipal de Ensino que exerce a fiscalização do cumprimento das legislações educacionais vigentes no âmbito do Município de Porto Alegre.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Do Conselho Municipal De Educação"
+    }
+   ]
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "texto": "As competências e a composição do CME/POA serão definidas em legislação específica e seu funcionamento será definido em Regimento Interno."
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "texto": "As instituições que integram o Sistema são classificadas em:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "III",
+     "titulo": "Das Instituições De Ensino"
+    }
+   ]
+  },
+  {
+   "id": "art-16/inc-I",
+   "pai": "art-16",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "escolas públicas, assim entendidas as criadas ou incorporadas, mantidas e administradas pelo Poder Público Municipal;"
+  },
+  {
+   "id": "art-16/inc-II",
+   "pai": "art-16",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "escolas privadas, assim entendidas as de educação infantil criadas, mantidas e administradas por pessoas físicas ou jurídicas de direito privado;"
+  },
+  {
+   "id": "art-16/inc-III",
+   "pai": "art-16",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "escolas parceiras na oferta de educação infantil, assim entendidas as instituições privadas que mantêm com o Poder Público Municipal instrumento de colaboração para o desenvolvimento de suas atividades."
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "texto": "Às instituições de ensino compete:"
+  },
+  {
+   "id": "art-17/inc-I",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "elaborar seu projeto pedagógico e seu regimento escolar, com base nas diretrizes de sua respectiva mantenedora, e executá-los por meio de ações compatíveis com as normas vigentes;"
+  },
+  {
+   "id": "art-17/inc-II",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "administrar seu pessoal e os recursos materiais e financeiros a elas destinados;"
+  },
+  {
+   "id": "art-17/inc-III",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "assegurar o cumprimento dos dias letivos e horas-aula estabelecidos;"
+  },
+  {
+   "id": "art-17/inc-IV",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "prover os meios para a recuperação dos estudantes com menor rendimento;"
+  },
+  {
+   "id": "art-17/inc-V",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "articular-se com as famílias e comunidade, desenvolvendo processos de gestão participativa da unidade educacional;"
+  },
+  {
+   "id": "art-17/inc-VI",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "informar aos pais e responsáveis sobre a proposta pedagógica, a frequência e o rendimento dos estudantes; e"
+  },
+  {
+   "id": "art-17/inc-VII",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "executar outras atividades correlatas e definidas em leis específicas."
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "texto": "Compete ao Município, por meio dos órgãos responsáveis pela educação municipal, emitir normas complementares às nacionais que garantam a organicidade e unidade do Sistema Municipal de Ensino.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "IV",
+     "titulo": "Do Conjunto De Normas Complementares"
+    }
+   ]
+  },
+  {
+   "id": "art-18/par-unico",
+   "pai": "art-18",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As normas próprias do Sistema compreendem:"
+  },
+  {
+   "id": "art-18/par-unico/inc-I",
+   "pai": "art-18/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "as derivadas de atos do Poder Legislativo Municipal;"
+  },
+  {
+   "id": "art-18/par-unico/inc-II",
+   "pai": "art-18/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "as derivadas de atos do Poder Executivo Municipal;"
+  },
+  {
+   "id": "art-18/par-unico/inc-III",
+   "pai": "art-18/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "as derivadas de atos próprios da SMED; e"
+  },
+  {
+   "id": "art-18/par-unico/inc-IV",
+   "pai": "art-18/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "as originárias do CME/POA."
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "texto": "O Plano Municipal da Educação (PME) será estabelecido através de lei específica."
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "texto": "A Gestão Democrática do Ensino Público Municipal dar-se-á com a participação de todos os segmentos da comunidade escolar (estudantes, pais, professores e funcionários) da seguinte forma:",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "III",
+     "titulo": "DA GESTÃO DEMOCRÁTICA DO ENSINO PÚBLICO MUNICIPAL"
+    }
+   ]
+  },
+  {
+   "id": "art-20/inc-I",
+   "pai": "art-20",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "realização de eleição direta para o Conselho Escolar;"
+  },
+  {
+   "id": "art-20/inc-II",
+   "pai": "art-20",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "realização de eleição direta para direção de escolas, nos termos da Lei nº 12.659, de 8 de janeiro de 2020;"
+  },
+  {
+   "id": "art-20/inc-III",
+   "pai": "art-20",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "elaboração de calendário escolar, com participação de todos os segmentos da comunidade escolar; e"
+  },
+  {
+   "id": "art-20/inc-IV",
+   "pai": "art-20",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "elaboração de projeto pedagógico e de regimento escolar, com participação de todos os segmentos da comunidade escolar."
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "texto": "Integram o quadro de profissionais da educação da Rede Municipal de Ensino os membros do magistério que exercem atividades docentes nas escolas municipais ou que dão suporte pedagógico ao sistema e os que atuam na SMED, bem como os demais funcionários da Rede Municipal de Ensino.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "IV",
+     "titulo": "DOS PROFISSIONAIS DA EDUCAÇÃO DA REDE MUNICIPAL DE ENSINO"
+    }
+   ]
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "texto": "A formação exigida para os profissionais da educação será de acordo com a legislação vigente."
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "texto": "O Poder Público Municipal promoverá a valorização dos profissionais da educação, conforme regulamentação no estatuto e no plano de carreira vigentes, por meio de leis específicas."
+  },
+  {
+   "id": "art-24",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 24.",
+   "texto": "O Município de Porto Alegre aplicará os percentuais exigidos por lei da receita resultante dos impostos, compreendidas as transferências constitucionais, na manutenção e no desenvolvimento do ensino público municipal.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "V",
+     "titulo": "DAS DISPOSIÇÕES GERAIS"
+    }
+   ]
+  },
+  {
+   "id": "art-25",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 25.",
+   "texto": "É competência do chefe do Executivo Municipal definir e autorizar os repasses dos recursos financeiros a serem feitos às instituições públicas municipais e às instituições parceiras."
+  },
+  {
+   "id": "art-26",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 26.",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-27",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 27.",
+   "texto": "Fica revogada a Lei nº 8.198, de 18 de agosto de 1998."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 27,
+   "dispositivos": 87,
+   "cobertura": 0.958,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

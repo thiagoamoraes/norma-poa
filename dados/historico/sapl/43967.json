@@ -1,0 +1,646 @@
+{
+ "geradoEm": "2026-11-26T06:29:32.189Z",
+ "idSapl": 43967,
+ "rotulo": "Lei municipal nº 13.131, de 01 de junho de 2022",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 13131/2022@2022-06-01",
+   "data": "2022-06-01",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 13131/2022@2025-02-02",
+   "data": "2025-02-02",
+   "fonte": {
+    "idSapl": 49739,
+    "rotulo": "Lei Complementar municipal nº 1.037, de 02 de fevereiro de 2025"
+   },
+   "comandosAplicados": 7
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterada a denominação do Título I da Lei nº 6.099 de 3 de fevereiro de 1988, e alterações posteriores, conforme segue: “TÍTULO I DA SECRETARIA MUNICIPAL DE CULTURA E ECONOMIA CRIATIVA” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 1º da Lei nº 6.099, de 1988, e alterações posteriores, conforme segue: “Art. 1º Fica criada na Administração Centralizada do Município a Secretaria Municipal de Cultura e Economia Criativa (SMCEC), órgão central da política cultural e de promoção da economia criativa do Município de Porto Alegre.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam alterados o caput e os incs. I, II, IV, VI, VIII e ficam incluídos incs. X, XI e XII no art. 3º da Lei nº 6.099, de 1988, e alterações posteriores, conforme segue: “Art.3º A SMCEC tem por finalidade:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "garantir à população o acesso aos bens culturais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover a cultura por meio de ações de extensão e ações formativas e informativas, com vistas à promoção humana, social e econômica do cidadão; ....................................................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estimular a reconstituição, a conservação e a difusão de modos de fazer, saberes, sabores, costumes e tradições populares; ....................................................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estimular, apoiar e patrocinar manifestações culturais, tradicionais e contemporâneas, com vistas a valorizar a identidade cultural do Município; ....................................................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "promover a realização de convênios, contratos, acordos de cooperação, termos de colaboração, termos de adoção, atividade voluntária e outros instrumentos jurídicos firmados com organismos públicos, privados ou pessoas físicas atuantes na área do desenvolvimento cultural; ....................................................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-VI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "criar, produzir e elaborar projetos voltados à economia criativa;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-VII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "formular e implementar políticas públicas visando à excelência na preservação do patrimônio cultural, no estímulo à produção artística e na garantia de acesso aos bens culturais, utilizando a economia criativa; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-VIII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "elaborar e implementar a política cultural do Município de Porto Alegre, por meio da gestão eficiente e da qualificação na infraestrutura, difundindo a economia criativa e garantindo maior acesso à diversidade cultural.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 5º da Lei nº 6.099, de 1988, e alterações posteriores, conforme segue: “Art. 5º Fica criado o cargo de Secretário do Município na SMCEC.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 8º da Lei nº 6.099, de 1988, e alterações posteriores, conforme segue: “Art. 8º Fica instituído o Fundo Pró-Cultura do Município de Porto Alegre (Funcultura), de natureza contábil especial, com a finalidade de prestar apoio financeiro aos projetos e às atividades culturais desenvolvidos e apoiados pela SMCEC, bem como à realização de obras e serviços necessários à criação, à recuperação e à conservação de equipamentos culturais.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 13 da Lei nº 6.099, de 1988, e alterações posteriores, conforme segue: “Art. 13. O Conselho Municipal do Patrimônio Histórico e Cultural (Compahc), criado pela Lei nº 4.139, de 9 de julho de 1976, e regulamentado pelo Decreto nº 5.645, de 21 de setembro de 1976, passa a vincular-se diretamente, para efeitos administrativos, à SMCEC.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 15 da Lei nº 6.099, de 1988, e alterações posteriores, conforme segue: “Art. 15. A estrutura interna da SMCEC, cujo anexo integra esta Lei, poderá ser alterada por decreto do Prefeito.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterada a al. e do inc. IX do art. 4º-A da Lei Complementar nº 810, de 4 de janeiro de 2017, e alterações posteriores, conforme segue: “Art. 4º-A ................................................................................................................ ..................................................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": ".......................................................................................................................... ..................................................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/inc-I/ali-a",
+   "pai": "art-8/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "desenvolver, implementar e supervisionar projetos locais e territoriais por meio das Subprefeituras; ........................................................................................................................” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o art. 6º da Lei Complementar nº 897, de 15 de janeiro de 2021, conforme segue: “Art. 6º Os Centros Administrativos Regionais (CARs), criados pelo § 1º do art. 1º da Lei Complementar nº 273, de 18 de março de 1992, e disciplinados nos termos da Lei Complementar nº 671, de 28 de janeiro de 2011, ficam transformados em estruturas denominadas Subprefeituras” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 1.037/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica revogado o art. 2º da Lei nº 6.099, de 3 de fevereiro de 1988.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 49739,
+    "rotulo": "Lei Complementar municipal nº 1.037, de 02 de fevereiro de 2025"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.005, de 2024\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1005\",\"ano\":\"2024\",\"chave\":\"lc 1005/2024\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.005, de 2024\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1005\",\"ano\":\"2024\",\"chave\":\"lc 1005/2024\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 30 de dezembro de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 2.902, de 1965\",\"tipoAto\":\"LEI\",\"numero\":\"2902\",\"ano\":\"1965\",\"chave\":\"l 2902/1965\"}, versão: l 13131/2022) | operação \"indeterminado\" não gera alteração na árvore desta lei | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.405, de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11405\",\"ano\":\"2012\",\"chave\":\"l 11405/2012\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.405, de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11405\",\"ano\":\"2012\",\"chave\":\"l 11405/2012\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.405, de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11405\",\"ano\":\"2012\",\"chave\":\"l 11405/2012\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.979, de 22 de dezembro de 2015\",\"tipoAto\":\"LEI\",\"numero\":\"11979\",\"ano\":\"2015\",\"chave\":\"l 11979/2015\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.033, de 21 de janeiro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1033\",\"ano\":\"2025\",\"chave\":\"lc 1033/2025\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.033, de 21 de janeiro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1033\",\"ano\":\"2025\",\"chave\":\"lc 1033/2025\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.033, de 21 de janeiro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1033\",\"ano\":\"2025\",\"chave\":\"lc 1033/2025\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.033, de 21 de janeiro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1033\",\"ano\":\"2025\",\"chave\":\"lc 1033/2025\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.033, de 21 de janeiro de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1033\",\"ano\":\"2025\",\"chave\":\"lc 1033/2025\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.033, de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1033\",\"ano\":\"2025\",\"chave\":\"lc 1033/2025\"}, versão: l 13131/2022) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei Complementar nº 1.033, de 2025\",\"tipoAto\":\"LEI COMPLEMENTAR\",\"numero\":\"1033\",\"ano\":\"2025\",\"chave\":\"lc 1033/2025\"}, versão: l 13131/2022) | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | operação \"revoke_lei\" não gera alteração na árvore desta lei | operação \"revoke_lei\" não gera alteração na árvore desta lei | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | operação \"revoke_lei\" não gera alteração na árvore desta lei | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
+   "enderecos": [
+    "art-6/par-unico",
+    "art-1",
+    "art-3/inc-I",
+    "art-3/inc-III",
+    "art-3/inc-VIII",
+    "art-4/par-unico/inc-I",
+    "art-4/par-unico",
+    "art-5/par-6",
+    "art-7/inc-III",
+    "art-8/inc-II",
+    "art-2",
+    "art-6/inc-I",
+    "art-16/par-2",
+    "art-9/par-3",
+    "art-9/par-3/inc-I",
+    "art-9/par-3/inc-II",
+    "art-9/par-3/inc-III",
+    "art-9/par-4",
+    "art-18/inc-V",
+    "art-18/par-5",
+    "art-1/par-4",
+    "art-1/par-5",
+    "art-3",
+    "art-4",
+    "art-5",
+    "art-15",
+    "art-16",
+    "art-17",
+    "art-18",
+    "art-20",
+    "art-21",
+    "art-6",
+    "art-7",
+    "art-8",
+    "art-9",
+    "art-10",
+    "art-18/inc-II"
+   ]
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-1",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-2",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-3",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-3/inc-I",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-3/inc-II",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-3/inc-III",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-3/inc-V",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-3/inc-VI",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-3/inc-VII",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-3/inc-VIII",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-4",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-5",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-6",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-7",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-8",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-8/inc-I",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-8/inc-I/ali-a",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-9",
+   "desde": "2025-02-02"
+  },
+  {
+   "id": "art-10",
+   "desde": "2025-02-02"
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "idSapl": 43680,
+ "rotulo": "Lei municipal nº 13.002, de 27 de janeiro de 2022",
+ "sha256Origem": "d6c0fe1fec38e650a9175dee2e109644decaee9550cb116ac8bdc0bf423a51b0",
+ "estruturadoEm": "2026-11-26T06:29:21.007Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13002",
+  "ano": "2022",
+  "data": "2022-01-27",
+  "epigrafe": "LEI Nº 13.002, DE 27 DE JANEIRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Programa Censo de Inclusão da Pessoa com Síndrome de Down.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE,                  27 de janeiro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa Censo de Inclusão da Pessoa com Síndrome de Down, com os seguintes objetivos:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "identificar a quantidade e o perfil socioeconômico das pessoas com síndrome de Down;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "criar o mapeamento dos casos de pessoas com síndrome de Down; e"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "direcionar políticas públicas para o atendimento de pessoas com síndrome de Down."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para a consecução dos objetivos do Programa instituído por esta Lei, serão realizados censos periódicos para a obtenção de dados referentes à quantificação, à qualificação e à localização das pessoas com síndrome de Down."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os censos do Programa serão realizados com periodicidade bienal, e o primeiro deverá ser realizado no ano subsequente ao da publicação desta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Será elaborado o Cadastro de Inclusão – CI – a partir dos dados obtidos por meio dos censos do Programa instituído por esta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 8,
+   "cobertura": 0.941,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

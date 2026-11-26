@@ -1,0 +1,128 @@
+{
+ "idSapl": 44226,
+ "rotulo": "Lei municipal nº 13.230, de 08 de setembro de 2022",
+ "sha256Origem": "5d806982477370b42ad9bd06f899b17004adbc629209a52f8ac5b3584cf9616f",
+ "estruturadoEm": "2026-11-26T06:29:20.428Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13230",
+  "ano": "2022",
+  "data": "2022-09-08",
+  "epigrafe": "LEI Nº 13.230, DE 8 DE SETEMBRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria o Programa de Cadastro e Apoio a Casas de Acolhimento à População LGBTQIAP+.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de setembro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criado o Programa de Cadastro e Apoio a Casas de Acolhimento à População LGBTQIAP+."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Programa referido no caput deste artigo visa a possibilitar a visibilidade e o fomento das instituições que especifica, por meio de seu cadastramento e divulgação, bem como informar a comunidade LGBTQIAP+ acerca dos locais nos quais é possível buscar auxílio."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Integrarão o cadastro que constitui o Programa criado por esta Lei casas de acolhimento que prestem, de forma isolada ou conjunta, os seguintes serviços, exclusivamente à comunidade LGBTQIAP+ em situação de vulnerabilidade econômica:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "abrigo ou fornecimento de moradia temporária ou permanente;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "oferecimento de cursos de formação educacional, de ensino fundamental, médio, técnico ou superior, de forma gratuita; e"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "auxílio jurídico, psiquiátrico e de assistência social."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para que possam se cadastrar no Programa, as instituições deverão cumprir os requisitos de qualificação como organizações sociais constantes na Lei Federal nº 9.637, de 15 de maio de 1988."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O cadastramento será realizado pela própria instituição interessada, de forma exclusivamente virtual, em página mantida pelo Executivo Municipal, no portal oficial do Município."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Executivo Municipal será responsável pela publicização do cadastro de que trata esta Lei em seu site ou em outros meios de comunicação do Município de Porto Alegre, bem como deverá divulgá-lo nas campanhas direcionadas à comunidade LGBTQIAP+ que venham a ser realizadas."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica o Executivo Municipal autorizado a fornecer estímulos e incentivos para as empresas que apoiarem as casas de acolhimento referidas nesta Lei, seja por meio de contribuições financeiras, de prestação de serviços ou do fornecimento de vagas de emprego para a população LGBTQIAP+ em situação de vulnerabilidade."
+  },
+  {
+   "id": "art-4/par-unico",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para a execução do Programa, o Executivo Municipal poderá celebrar convênios com entidades públicas ou privadas, bem como, poderá contar com o apoio dos órgãos e secretarias municipais já existentes que atuam com a proteção dos direitos humanos e do desenvolvimento social."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias, além daquelas oriundas da verba do Fundo Municipal de Assistência Social, suplementadas se necessário."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor em 180 (cento e oitenta dias), contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 13,
+   "cobertura": 0.96,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

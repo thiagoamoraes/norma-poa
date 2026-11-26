@@ -1,0 +1,107 @@
+{
+ "idSapl": 43950,
+ "rotulo": "Lei municipal nº 13.126, de 26 de maio de 2022",
+ "sha256Origem": "9e3199fe525dc26757ac64abc8e15e289898c3312dea07c56f710d17d75c8cd2",
+ "estruturadoEm": "2026-11-26T06:29:20.686Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13126",
+  "ano": "2022",
+  "data": "2022-05-26",
+  "epigrafe": "LEI Nº 13.126, DE 26 DE MAIO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria o Selo Empresa Amiga do Trabalhador.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 26 de maio de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criado o Selo Empresa Amiga do Trabalhador."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para os efeitos desta Lei, considera-se Empresa Amiga do Trabalhador aquela que buscar diretamente o Sine Municipal de Porto Alegre para anunciar ou divulgar suas vagas de emprego, bem como aquela que incentivar a manutenção dos trabalhadores nas vagas de trabalho já preenchidas."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "São objetivos da certificação com o Selo Empresa Amiga do Trabalhador:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "distinguir e homenagear empresas que disponibilizam suas vagas diretamente no Sine Municipal de Porto Alegre;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "estimular as empresas a concederem ao trabalhador a oportunidade de acessar de maneira mais rápida e eficiente as vagas de emprego diretamente no Sine Municipal de Porto Alegre; e"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "incentivar as empresas a manterem as pessoas nas vagas de trabalho já preenchidas, criando um vínculo entre a empresa e o trabalhador, visando à diminuição do número de desempregados."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Compete ao Sine Municipal de Porto Alegre a criação e a manutenção de cadastro atualizado mensalmente das empresas certificadas com o Selo de Empresa Amiga do Trabalhador."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A inscrição das empresas no cadastro de que trata este artigo se dará de modo voluntário e dependerá de preenchimento de formulário junto ao Sine Municipal de Porto Alegre."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As empresas contempladas com o Selo Empresa Amiga do Trabalhador terão a prerrogativa de utilizá-lo em suas peças publicitárias."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 10,
+   "cobertura": 0.947,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

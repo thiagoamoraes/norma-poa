@@ -1,0 +1,58 @@
+{
+ "idSapl": 43744,
+ "rotulo": "Lei municipal nº 13.013, de 03 de março de 2022",
+ "sha256Origem": "0b7a16f5ac442d7012219ab06bad32818b06f0e7cb9efcf6f393ef547c2c59d0",
+ "estruturadoEm": "2026-11-26T06:29:20.985Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "13013",
+  "ano": "2022",
+  "data": "2022-03-03",
+  "epigrafe": "LEI Nº 13.013, DE 3 DE MARÇO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Assegura a realização dos testes para o rastreamento de doenças nos recém-nascidos por meio do Sistema Único de Saúde, no âmbito do Programa de Triagem Neonatal (PNTN), com implementação de forma escalonada.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE,                       3 de março de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica assegurada a realização dos testes para o rastreamento de doenças nos recém-nascidos por meio do Sistema Único de Saúde, no âmbito do Programa de Triagem Neonatal (PNTN), com implementação de forma escalonada."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os resultados dos testes de que trata o art. 1º desta Lei poderão ser encaminhados aos pais ou responsáveis pela criança."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor em 365 (trezentos e sessenta e cinco) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.953,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}
