@@ -1,0 +1,129 @@
+{
+ "idSapl": 43320,
+ "rotulo": "Lei municipal nº 12.862, de 31 de agosto de 2021",
+ "sha256Origem": "96d1bd7a9aa4122f08b9728ea24714ffd475492ea245e5d35605cb1f0aa199a9",
+ "estruturadoEm": "2026-11-26T09:19:29.680Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12862",
+  "ano": "2021",
+  "data": "2021-08-31",
+  "epigrafe": "PROC. Nº 0269/20",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 108/20 LEI Nº 12.862, DE 31 DE AGOSTO DE 2021.",
+ "ementa": "Institui a Campanha Divas da Alegria no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de agosto de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída a Campanha Divas da Alegria no Município de Porto Alegre, visando ao estímulo do envelhecimento mais ativo e saudável das pessoas idosas."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A Campanha instituída por esta Lei desenvolverá ações de mobilização, sensibilização e conscientização da população sobre o envelhecimento mais ativo e saudável."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "São objetivos da Campanha Divas da Alegria:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "investir na qualidade de vida das pessoas idosas;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "conscientizar os idosos acerca da importância do envelhecimento mais ativo e saudável;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "dar maior visibilidade ao tema do envelhecimento, ampliando a participação dos idosos nas ações da campanha; e"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "ampliar as ações direcionadas à pessoa idosa, por meio de atividades integradas, que envolvam a população, os órgãos públicos e organizações que atuam na área."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "São atividades da Campanha Divas da Alegria:"
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "realização de seminários, palestras, eventos, atividades educativas e culturais, festas, concursos, dentre outros, com o fim de conscientizar a população a respeito do envelhecimento ativo e saudável;"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "divulgação da importância da reflexão sobre a saúde mental, emocional e física do idoso, na busca de um envelhecimento que também signifique um ganho substancial em qualidade de vida e saúde; e"
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "ampla divulgação de material publicitário nas diversas mídias e espaços públicos para dar visibilidade ao tema, empregando recursos visuais de impacto."
+  },
+  {
+   "id": "art-4/par-unico",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As atividades de que trata o caput deste artigo serão realizadas durante todo o ano, sendo intensificadas nos meses de: a) junho, com a festa e o concurso Divas Caipiras; b) setembro, com a festa e o concurso Divas Gaúchas; e c) outubro, em comemoração ao mês do idoso."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 13,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

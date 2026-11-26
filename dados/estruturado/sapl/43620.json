@@ -1,0 +1,71 @@
+{
+ "idSapl": 43620,
+ "rotulo": "Lei municipal nº 12.975, de 10 de janeiro de 2022",
+ "sha256Origem": "cb2678c37a0d677e27d5c1ee6cd31870d97cd5e03144f4d32216e0327dec1050",
+ "estruturadoEm": "2026-11-26T09:19:29.214Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12975",
+  "ano": "2022",
+  "data": "2022-01-10",
+  "epigrafe": "LEI Nº 12.975, DE 10 DE JANEIRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Valdir Guimarães dos Santos o logradouro público não cadastrado conhecido como Rua A – Jardim Morada do Sol, localizado no Bairro Cel. Aparício Borges.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de janeiro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Valdir Guimarães dos Santos o logradouro público não cadastrado conhecido como Rua A – Jardim Morada do Sol, localizado no Bairro Cel. Aparício Borges, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n12.975\n21.0.000131125-2                10/01/2022",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.951,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 62,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

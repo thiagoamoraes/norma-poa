@@ -1,0 +1,127 @@
+{
+ "idSapl": 43287,
+ "rotulo": "Lei municipal nº 12.850, de 09 de agosto de 2021",
+ "sha256Origem": "9a49f1828c8e55f93b942875dda854bc6d96ac1904150c80d85180595087b5ec",
+ "estruturadoEm": "2026-11-26T09:19:29.716Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12850",
+  "ano": "2021",
+  "data": "2021-08-09",
+  "epigrafe": "LEI Nº 12.850, DE 9 DE AGOSTO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera os limites das Subunidades 01 e 04 da Unidade de Estruturação Urbana (UEU) 14 da Macrozona (MZ) 5 e cria e institui como Área Especial de Interesse Social (AEIS) III a Subunidade 10 na UEU 14 da MZ 5, definindo-lhe regime urbanístico.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de agosto de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam alterados os limites das Subunidades 01 e 04 na Unidade de Estruturação Urbana (UEU) 14 da Macrozona (MZ) 5, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica criada e instituída como Área Especial de Interesse Social (AEIS) III a Subunidade 10 na UEU 14 da MZ 5."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica definido o seguinte regime urbanístico para a Subunidade criada no art. 2º desta Lei:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "densidade, código 03;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "atividade, código 15.5 e código 16.5;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "índice de aproveitamento, código 04a; e"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "volumetria, código 01."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Fica dispensada a aplicação da Quota Ideal mínima de terreno por economia (QI), conforme dispõe o art. 28 da Lei Complementar nº 636, de 13 de janeiro de 2010."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Aplicam-se, em conjunto com os dispositivos desta Lei, o disposto na Lei Complementar nº 434, de 1º de dezembro de 1999, e alterações posteriores, e as legislações específicas sobre a matéria."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 11,
+   "cobertura": 0.942,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

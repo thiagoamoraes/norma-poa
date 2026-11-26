@@ -1,0 +1,60 @@
+{
+ "idSapl": 43313,
+ "rotulo": "Lei municipal nº 12.859, de 25 de agosto de 2021",
+ "sha256Origem": "8c252bbfcc72773c87ebfd09ebebe7ee432d701d333610b434bf82c6923a765f",
+ "estruturadoEm": "2026-11-26T09:19:29.691Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12859",
+  "ano": "2021",
+  "data": "2021-08-25",
+  "epigrafe": "LEI Nº 12.859, DE 25 DE AGOSTO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a ementa e o caput e os §§ 1º, 2º e 3º do art. 1º da Lei nº 7.768, de 18 de janeiro de 1996, e alterações posteriores, incluindo os veículos conduzidos por pessoas obesas ou que as transportem na reserva de, no mínimo, 2% (dois por cento) do total de vagas de estacionamento em locais de uso público ou privado.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 25 de agosto de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei nº 7.768, de 18 de janeiro de 1996, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Estabelece a reserva de, no mínimo, 2% (dois por cento) do total das vagas e\ngarante, no mínimo, 1 (uma) vaga de estacionamento em locais de uso público ou privado, como\nsupermercados, shoppings, hospitais, cemitérios, universidades, clínicas, estádios e outros locais\nsemelhantes, no Município de Porto Alegre, para veículos que transportem ou sejam conduzidos\npor pessoas com deficiência ou pessoas obesas, desde que devidamente identificados,\nposicionadas de modo a garantir-lhes maior comodidade e acesso.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam alterados o caput e os §§ 1º, 2º e 3º do art. 1º da Lei nº 7.768, de 1996, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica estabelecida a reserva de, no mínimo, 2% (dois por cento) do total\ndas vagas e garantida, no mínimo, 1 (uma) vaga de estacionamento em locais de uso público ou\nprivado, como supermercados, shoppings, hospitais, cemitérios, universidades, clínicas, estádios\ne outros locais semelhantes, no Município de Porto Alegre, para veículos que transportem ou\nsejam conduzidos por pessoas com deficiência ou pessoas obesas, desde que devidamente\nidentificados, posicionadas de modo a garantir-lhes maior comodidade e acesso.\n§ 1º As vagas reservadas para veículos que transportam pessoas com deficiência\nou obesas deverão localizar-se próximas dos acessos aos locais referidos no caput deste artigo.\n§ 2º As vagas reservadas para veículos que transportam pessoas com deficiência\nou obesas deverão ser identificadas com sinalização vertical e com placas, sinais e símbolos\nespecíficos.\n§ 3º A sinalização vertical referida no § 2º deste artigo deverá seguir o padrão\nR-6b, conforme o disposto na Resolução nº 160, de 22 de abril de 2004, do Conselho Nacional\nde Trânsito (Contran), e conter os seguintes dizeres: Vaga de uso exclusivo por pessoas com\ndeficiência ou obesas.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.98,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

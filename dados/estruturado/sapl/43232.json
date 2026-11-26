@@ -1,0 +1,100 @@
+{
+ "idSapl": 43232,
+ "rotulo": "Lei municipal nº 12.836, de 21 de junho de 2021",
+ "sha256Origem": "86dbbac6df03e3d247d9609ac73f381277628465ee228cfd6303a63961e7027e",
+ "estruturadoEm": "2026-11-26T09:19:29.760Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12836",
+  "ano": "2021",
+  "data": "2021-06-21",
+  "epigrafe": "LEI Nº 12.836, DE 21 DE JUNHO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Responsabiliza a Secretaria Municipal de Saúde pela disponibilização de medicamentos ou suplementos para tratamento de pacientes com sintomas da Covid-19.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de junho de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica a Secretaria Municipal de Saúde responsável pela disponibilização de medicamentos ou suplementos para tratamento de pacientes com sintomas da Covid-19, contanto que esses possuam prescrição médica e formalizem por escrito a sua concordância com a opção terapêutica prescrita."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O uso dos medicamentos ou suplementos de que trata o caput deste artigo fica condicionado à avaliação médica, a partir do momento da identificação de sintomas ou sinais leves da doença, por meio de exame físico e exames complementares, em Unidades de Saúde do Município."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A distribuição dos medicamentos ou suplementos referidos no caput deste artigo ocorrerá de acordo com a receita médica, conforme o protocolo regulamentado pelo Ministério da Saúde, obedecendo ao que segue:"
+  },
+  {
+   "id": "art-1/par-2/inc-I",
+   "pai": "art-1/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "os medicamentos ou suplementos deverão ser entregues em sistema organizado por etapas, preferencialmente logo após a consulta médica, de forma a evitar aglomerações de pessoas com suspeita da doença ou que tenham positivado exame para Covid- 19;"
+  },
+  {
+   "id": "art-1/par-2/inc-II",
+   "pai": "art-1/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o receituário médico deverá ser de controle especial em nome do paciente, determinando a disponibilização gratuita dos medicamentos ou suplementos para o tratamento de Covid-19 pela rede do Sistema Único de Saúde (SUS) do Município, enquanto vigorar o decreto de estado de calamidade pública em decorrência da pandemia do novo Coronavírus (Covid-19); e"
+  },
+  {
+   "id": "art-1/par-2/inc-III",
+   "pai": "art-1/par-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "quando não for possível a entrega imediata dos medicamentos ou suplementos após a consulta, o paciente, seu acompanhante ou seu responsável deverá apresentar a receita médica legível e um documento oficial com foto, ambos em nome do paciente, para retirada posterior."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A Secretaria Municipal de Saúde garantirá a disponibilização dos medicamentos ou suplementos de que trata esta Lei em consonância com a política de medicamentos da União."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei vigerá enquanto o decreto de estado de calamidade pública em decorrência da pandemia do Covid-19 vigorar, em consonância com as medidas restritivas estabelecidas pelo Município de Porto Alegre."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 9,
+   "cobertura": 0.974,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

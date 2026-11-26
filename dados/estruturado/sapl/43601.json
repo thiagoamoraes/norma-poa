@@ -1,0 +1,51 @@
+{
+ "idSapl": 43601,
+ "rotulo": "Lei municipal nº 12.957, de 07 de janeiro de 2022",
+ "sha256Origem": "5aed66bb5fee29065e899b1f378758d674ec72faa2c3d00814fc08163ae9c983",
+ "estruturadoEm": "2026-11-26T09:19:29.264Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12957",
+  "ano": "2022",
+  "data": "2022-01-07",
+  "epigrafe": "LEI Nº 12.957, DE 7 DE JANEIRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Concede o título de Cidadão de Porto Alegre ao senhor Mario Sergio Cortella.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de janeiro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica concedido o título de Cidadão de Porto Alegre ao senhor Mario Sergio Cortella, com base na Lei nº 9.659, de 22 de dezembro de 2004."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.932,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

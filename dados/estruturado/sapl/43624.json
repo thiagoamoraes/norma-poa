@@ -1,0 +1,78 @@
+{
+ "idSapl": 43624,
+ "rotulo": "Lei municipal nº 12.979, de 10 de janeiro de 2022",
+ "sha256Origem": "befafa116e39a3a8875a61fab8361f473fc9b1d471bafbf2b1c48aacc78eda58",
+ "estruturadoEm": "2026-11-26T09:19:29.195Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12979",
+  "ano": "2022",
+  "data": "2022-01-10",
+  "epigrafe": "LEI Nº 12.979, DE 10 DE JANEIRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Contabilista Jorge Luiz Machado o logradouro não cadastrado conhecido como Rua Quinhentos e Quatro, localizado no Bairro Farrapos.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de janeiro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Contabilista Jorge Luiz Machado o logradouro não cadastrado conhecido como Rua Quinhentos e Quatro, localizado no Bairro Farrapos, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Pai e contabilista exemplar dos Bairros Humaitá e Farrapos."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n12.979\n21.0.000131196-1             10.01.2022",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.941,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 59,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

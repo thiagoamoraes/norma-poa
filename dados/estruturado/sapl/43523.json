@@ -1,0 +1,51 @@
+{
+ "idSapl": 43523,
+ "rotulo": "Lei municipal nº 12.922, de 10 de dezembro de 2021",
+ "sha256Origem": "e359703ade9cff1cd022cdd5ebebd7201dec4b9470991b6b957606d56e84f861",
+ "estruturadoEm": "2026-11-26T09:19:29.444Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12922",
+  "ano": "2021",
+  "data": "2021-12-10",
+  "epigrafe": "LEI Nº 12.922, DE 10 DE DEZEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Concede o título de Cidadão de Porto Alegre ao senhor Abel Carlos da Silva Braga.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de dezembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica concedido o título de Cidadão de Porto Alegre ao senhor Abel Carlos da Silva Braga, com base na Lei nº 9.659, de 22 de dezembro de 2004."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.93,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

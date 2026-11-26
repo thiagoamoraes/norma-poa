@@ -1,0 +1,78 @@
+{
+ "idSapl": 43273,
+ "rotulo": "Lei municipal nº 12.847, de 20 de julho de 2021",
+ "sha256Origem": "827922f1383fb768dc3e443aa4ed7f1b86b230494d803086a5b127dcb57fef1a",
+ "estruturadoEm": "2026-11-26T09:19:29.737Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12847",
+  "ano": "2021",
+  "data": "2021-07-20",
+  "epigrafe": "LEI Nº 12.847, DE 20 DE JULHO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Rua Dirleia Severo Pereira o logradouro público cadastrado conhecido como Rua Sete Mil e Quinze – Loteamento Parque do Salso –, localizado no Bairro Restinga.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 20 de julho de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Dirleia Severo Pereira o logradouro público cadastrado conhecido como Rua Sete Mil e Quinze – Loteamento Parque do Salso –, localizado no Bairro Restinga, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Mãe, trabalhadora e religiosa exemplar."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n12.847\n21.0.000063061-3              20.07.2021",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.944,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 60,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

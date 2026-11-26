@@ -1,0 +1,73 @@
+{
+ "idSapl": 43322,
+ "rotulo": "Lei municipal nº 12.864, de 31 de agosto de 2021",
+ "sha256Origem": "7ffd988e6016d72de12cefc961b86e5d5f384ed3fce4369bdd3560ea36b11251",
+ "estruturadoEm": "2026-11-26T09:19:29.675Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12864",
+  "ano": "2021",
+  "data": "2021-08-31",
+  "epigrafe": "LEI Nº 12.864, DE 31 DE AGOSTO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece que o Executivo Municipal poderá ofertar 2 (duas) Farmácias Distritais com horário de atendimento até as 22h (vinte e duas horas) por Gerência Distrital de Saúde no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de agosto de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecido que o Executivo Municipal poderá ofertar 2 (duas) Farmácias Distritais com horário de atendimento até as 22h (vinte e duas horas) por Gerência Distrital de Saúde no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os locais, os recursos humanos e os recursos financeiros necessários para a aplicação desta Lei deverão ter origem, preferencialmente, no remanejo dos recursos existentes."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Executivo Municipal, por meio de suas competências, poderá firmar parcerias com farmácias da rede privada para a prestação do atendimento referido nesta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 5,
+   "cobertura": 0.94,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

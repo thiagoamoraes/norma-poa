@@ -1,0 +1,71 @@
+{
+ "idSapl": 43404,
+ "rotulo": "Lei municipal nº 12.881, de 14 de outubro de 2021",
+ "sha256Origem": "2e8d3cdc5f55412f6fcf8600a2b6c776186f90576357b9c5e368d28693987a36",
+ "estruturadoEm": "2026-11-26T09:19:29.615Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12881",
+  "ano": "2021",
+  "data": "2021-10-14",
+  "epigrafe": "LEI Nº 12.881, DE 14 DE OUTUBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Elasio Branco Rocha o logradouro público não cadastrado conhecido como Travessa E – Vila Chácara do Banco, localizado no Bairro Restinga.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 14 de outubro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEleonora Braz Serralta,\nProcuradora-Geral, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Elasio Branco Rocha o logradouro público não cadastrado conhecido como Travessa E – Vila Chácara do Banco, localizado no Bairro Restinga, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n12.881\n21.0.000096825-8                         14.10.2021",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 71,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

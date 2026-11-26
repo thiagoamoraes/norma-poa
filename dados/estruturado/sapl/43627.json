@@ -1,0 +1,68 @@
+{
+ "idSapl": 43627,
+ "rotulo": "Lei municipal nº 12.982, de 10 de janeiro de 2022",
+ "sha256Origem": "21485b38a694b744da13d761307aca9ee39189bf23fbb65b496a74bcabf085ea",
+ "estruturadoEm": "2026-11-26T09:19:29.186Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12982",
+  "ano": "2022",
+  "data": "2022-01-10",
+  "epigrafe": "LEI Nº 12.982, DE 10 DE JANEIRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui § 3º no art. 1º e arts. 1º-A e 1º-B na Lei nº 12.692, de 9 de março de 2020 – que obriga a divulgação de lista informando a relação de pacientes que aguardam pela realização de consultas com especialistas, exames ou cirurgias em estabelecimentos pertencentes à rede pública de saúde do Município de Porto Alegre ou a ela conveniados –, estabelecendo a publicação e a atualização da lista por meio de sítio eletrônico ou aplicativo e sua consulta por esses meios ou por telefone, mediante fornecimento de dados do paciente, bem como as informações que deve conter.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de janeiro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído § 3º no art. 1º da Lei nº 12.692, de 9 de março de 2020, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º .....................................................................................................................\n....................................................................................................................................\n§ 3º A publicação e a atualização da lista de que trata o caput deste artigo deverão\nser realizadas diariamente por meio de sítio eletrônico ou aplicativo, em todos os canais\ndisponibilizados, e deverão conter todas as informações de que trata esta Lei.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluído art. 1º-A na Lei nº 12.692, de 2020, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º-A A lista de que trata esta Lei deverá conter, no mínimo, as seguintes\ninformações:\nI – a posição numérica e sequencial da consulta, do exame ou da intervenção\ncirúrgica, identificados pelo número do CNS;\nII – a data de solicitação ou encaminhamento da consulta, discriminada por\nespecialidade, do exame ou da intervenção cirúrgica;\nIII – a estimativa de prazo para o atendimento da solicitação; e\nIV – a situação atualizada da solicitação.”"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica incluído art. 1º-B na Lei nº 12.692, de 2020, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º-B A lista referida no caput do art. 1º desta Lei será pública, devendo o\nExecutivo Municipal disponibilizar consulta por meio de sítio eletrônico, aplicativo ou telefone,\nmediante o fornecimento de dados do paciente.\n§ 1º A divulgação da lista por meios digitais deverá possibilitar a cópia de seus\ndados.\n§ 2º Na disponibilização da lista por meios eletrônicos, deverá ser observado o\nsigilo de informações sensíveis, sem prejuízo da identificação da posição do usuário.”"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.975,
+   "blocosDeAlteracao": 3,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "idSapl": 43537,
+ "rotulo": "Lei municipal nº 12.930, de 17 de dezembro de 2021",
+ "sha256Origem": "e9f4fd96cbde1cdffa1265fa37332a3b8ec504e4a7c9e0eb720f54d5518c65c1",
+ "estruturadoEm": "2026-11-26T09:19:29.424Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12930",
+  "ano": "2021",
+  "data": "2021-12-17",
+  "epigrafe": "LEI Nº 12.930, DE 17 DE DEZEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina José Joaquim Cesar Pimentel o logradouro público não cadastrado conhecido como Rua N – Vila São Judas Tadeu, localizado no Bairro Partenon.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de dezembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado José Joaquim Cesar Pimentel o logradouro público não cadastrado conhecido como Rua N – Vila São Judas Tadeu, localizado no Bairro Partenon, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n12.930\n21.0.000122719-7                    17.12.2021\nJM",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.949,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 4,
+     "caracteres": 68,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

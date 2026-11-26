@@ -1,0 +1,67 @@
+{
+ "idSapl": 43181,
+ "rotulo": "Lei municipal nº 12.828, de 21 de maio de 2021",
+ "sha256Origem": "877e4a9eebef7f4f8c11c608a6e3f823cbfd7a569e7a39c84cb436651857668c",
+ "estruturadoEm": "2026-11-26T09:19:29.783Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12828",
+  "ano": "2021",
+  "data": "2021-05-21",
+  "epigrafe": "LEI Nº 12.828, DE 21 DE MAIO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui art. 7º-A, altera o caput e o § 1º e inclui § 3º no art. 16 e revoga o § 2º do art. 16, todos na Lei nº 4.267, de 7 de janeiro de 1977 – que autoriza o Executivo a constituir a Companhia de Processamento de Dados do Município de Porto Alegre (Procempa) –, e alterações posteriores, criando o Comitê Municipal das Tecnologias de Informação, Comunicação e Geoprocessamento (CTIC), dispondo sobre a contratação de equipamentos ou serviços de informática e dando outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de maio de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído art. 7º-A na Lei nº 4.267, de 7 de janeiro de 1977, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 7º-A Fica criado o Comitê Municipal das Tecnologias de Informação,\nComunicação e Geoprocessamento (CTIC), órgão vinculado à Secretaria Municipal de\nPlanejamento e Assuntos Estratégicos (SMPAE) e responsável por orientar e acompanhar a\npolítica municipal relativa ao planejamento e utilização das tecnologias de informação, a ser\nregulamentado por decreto.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "No art. 16 da Lei nº 4.267, de 1977, e alterações posteriores, ficam alterados o caput e o § 1º e fica incluído § 3º, conforme segue:",
+   "blocoDeAlteracao": "“Art. 16. É permitido aos órgãos da Administração Direta e Indireta do Poder\nExecutivo Municipal a contratação de equipamentos ou serviços de informática, desde que\nmediante decisão prévia do CTIC, após parecer técnico de sua Secretaria Executiva.\n§ 1º A Procempa, quando contratada pelos órgãos da Administração Direta e\nIndireta, dará prioridade de atendimento aos serviços dos órgãos municipais.\n...............................................................................................................................\n§ 3º Após a contratação de equipamentos ou serviços de informática, a\nProcempa fará o acompanhamento técnico.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica revogado o § 2º do art. 16 da Lei nº 4.267, de 7 de janeiro de 1977."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.973,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

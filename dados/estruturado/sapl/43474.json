@@ -1,0 +1,93 @@
+{
+ "idSapl": 43474,
+ "rotulo": "Lei municipal nº 12.907, de 18 de novembro de 2021",
+ "sha256Origem": "a387cb35bda8e47298e264c862c7b8191986e52c4aa2272a3dad76921756b68a",
+ "estruturadoEm": "2026-11-26T09:19:29.522Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12907",
+  "ano": "2021",
+  "data": "2021-11-18",
+  "epigrafe": "LEI Nº 12.907, DE 18 DE NOVEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Reconhece as bengalas longas das cores branca, verde e branca com vermelho como meio de identificação de pessoas com diferentes níveis de deficiência visual e como instrumento de orientação e mobilidade no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 18 de novembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam reconhecidas as bengalas longas das cores branca, verde e branca com vermelho como meio de identificação de pessoas com diferentes níveis de deficiência visual e como instrumento de orientação e mobilidade no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As cores das bengalas referidas no caput deste artigo identificam os seguintes níveis de deficiência visual:"
+  },
+  {
+   "id": "art-1/par-unico/inc-I",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "branca para pessoas cegas;"
+  },
+  {
+   "id": "art-1/par-unico/inc-II",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "verde para pessoas com baixa visão; e"
+  },
+  {
+   "id": "art-1/par-unico/inc-III",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "branca com vermelho para pessoas surdocegas."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Executivo Municipal, por meio de seus órgãos competentes e para conhecimento da população, poderá dar a mais ampla publicidade a esta Lei, com o uso de instrumentos e mecanismos necessários à divulgação das informações sobre o uso da bengala longa e suas colorações."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As despesas decorrentes da execução desta Lei poderão correr por conta de dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 8,
+   "cobertura": 0.948,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

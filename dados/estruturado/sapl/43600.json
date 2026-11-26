@@ -1,0 +1,78 @@
+{
+ "idSapl": 43600,
+ "rotulo": "Lei municipal nº 12.956, de 07 de janeiro de 2022",
+ "sha256Origem": "ed33558c401b0252b2bc546a761cb583b62d5ef881a1cb9adee6923a68c8ffbc",
+ "estruturadoEm": "2026-11-26T09:19:29.265Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12956",
+  "ano": "2022",
+  "data": "2022-01-07",
+  "epigrafe": "LEI Nº 12.956, DE 7 DE JANEIRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Orixá Xapanã o logradouro não cadastrado conhecido como Rua B – Vila Campo da Tuca, localizado no Bairro Vila João Pessoa.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de janeiro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Orixá Xapanã o logradouro não cadastrado conhecido como Rua B – Vila Campo da Tuca, localizado no Bairro Vila João Pessoa, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Orixá Xapanã – “Abao”, “Atotô”."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n12.956\n.\n21.0.000130560-0                    07.01.2022",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.938,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 4,
+     "caracteres": 67,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

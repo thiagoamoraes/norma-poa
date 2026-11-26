@@ -1,0 +1,100 @@
+{
+ "idSapl": 43463,
+ "rotulo": "Lei municipal nº 12.904, de 17 de novembro de 2021",
+ "sha256Origem": "51cd34498bfbc5da59979b442a0838136bcad1883401d30e2d4b260d550b40c7",
+ "estruturadoEm": "2026-11-26T09:19:29.530Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12904",
+  "ano": "2021",
+  "data": "2021-11-17",
+  "epigrafe": "LEI Nº 12.904, DE 17 DE NOVEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza o Executivo Municipal a contratar operação de crédito junto ao Banco do Brasil S.A, com a garantia da União, e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de novembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o Executivo Municipal autorizado a contratar operação de crédito junto ao Banco do Brasil S.A., com a garantia da União, até o valor de R$ 60.000.000,00 (sessenta milhões de reais), observadas as disposições legais e contratuais em vigor para as operações de crédito, destinados a financiar Obras de Infraestrutura Viária – Pavimentação, nos termos da Resolução CMN nº 4.589, de 29 de junho de 2017, e alterações posteriores, e observada a legislação vigente, em especial as disposições da Lei Complementar Federal nº 101, de 4 de maio de 2000, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os recursos provenientes da operação de crédito autorizada serão obrigatoriamente aplicados na execução dos empreendimentos previstos no caput deste artigo, sendo vedada a aplicação de tais recursos em despesas correntes, em consonância com o § 1º do art. 35 da Lei Complementar Federal nº 101, de 2000, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os recursos provenientes da operação de crédito a que se refere esta Lei deverão ser consignados como receita no Orçamento ou em créditos adicionais, nos termos do inc. II do § 1º do art. 32 da Lei Complementar Federal nº 101, de 2000, e alterações posteriores, e arts. 42 e 43, inc. IV, da Lei Federal nº 4.320, de 17 de março de 1964, e alterações posteriores."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Os orçamentos ou os créditos adicionais deverão consignar, anualmente, as dotações necessárias às amortizações e aos pagamentos dos encargos relativos aos contratos de financiamento a que se refere o art. 1º desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica o Chefe do Poder Executivo autorizado a abrir créditos adicionais destinados a fazer face aos pagamentos de obrigações decorrentes da operação de crédito autorizada por esta Lei."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Para pagamento do principal, dos juros, das tarifas bancárias e dos demais encargos financeiros e despesas da operação de crédito, fica o Banco do Brasil autorizado a debitar a conta corrente de titularidade da Prefeitura Municipal de Porto Alegre, a ser indicada no contrato, em que são efetuados os créditos dos recursos do Município, ou quaisquer outras contas, salvo as de destinação específica, mantida em sua agência, os montantes necessários às amortizações e ao pagamento final da dívida, nos prazos contratualmente estipulados."
+  },
+  {
+   "id": "art-5/par-unico",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Fica dispensada a emissão da nota de empenho para a realização das despesas a que se refere este artigo, nos termos do § 1º do art. 60 da Lei Federal nº 4.320, de 1964, e alterações posteriores."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Os recursos próprios, investidos pelo Executivo Municipal, serão preferencialmente destinados à pavimentação de áreas populares e periféricas."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 9,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

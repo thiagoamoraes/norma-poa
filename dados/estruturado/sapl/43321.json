@@ -1,0 +1,73 @@
+{
+ "idSapl": 43321,
+ "rotulo": "Lei municipal nº 12.863, de 31 de agosto de 2021",
+ "sha256Origem": "19cec0bf4412f6f7d5759a3ad1029b4abf38dfd5ee0245dbf7750c2eacad1740",
+ "estruturadoEm": "2026-11-26T09:19:29.677Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12863",
+  "ano": "2021",
+  "data": "2021-08-31",
+  "epigrafe": "LEI Nº 12.863, DE 31 DE AGOSTO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza a presença de público em eventos esportivos, sociais, religiosos, feiras e congressos, treinamentos e de entretenimento no Município de Porto Alegre, nas condições que especifica, durante o período em que vigorar o estado de calamidade pública decretado em decorrência da pandemia do novo Coronavírus (Covid-19).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de agosto de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica autorizada a presença de público em eventos esportivos, sociais, religiosos, feiras e congressos, treinamentos e de entretenimento no Município de Porto Alegre durante o período em que vigorar o estado de calamidade pública decretado em decorrência da pandemia do novo Coronavírus (Covid-19)."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para a consecução do disposto no caput deste artigo, a presença de público não poderá ultrapassar o limite estipulado por decreto municipal."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para os fins desta Lei, deverão ser respeitados os protocolos obrigatórios e recomendados pelo Sistema 3As de Monitoramento – aviso, alerta e ação – do Governo do Estado do Rio Grande do Sul, bem como o Decreto Municipal nº 21.040, de 19 de maio 2021."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.962,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

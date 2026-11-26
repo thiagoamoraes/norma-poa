@@ -1,0 +1,70 @@
+{
+ "idSapl": 43216,
+ "rotulo": "Lei municipal nº 12.834, de 17 de junho de 2021",
+ "sha256Origem": "ee1b6e6dd961095aee881bdd8a60e5efbd67cb2acc5e4e7863f33c16cb2a0dda",
+ "estruturadoEm": "2026-11-26T09:19:29.766Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12834",
+  "ano": "2021",
+  "data": "2021-06-17",
+  "epigrafe": "LEI Nº 12.834, DE 17 DE JUNHO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Feira do Automóvel de Porto Alegre no Anexo I da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, a ser realizado aos domingos.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de junho de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Feira do Automóvel de Porto Alegre no Anexo I da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nPERÍODO            EVENTO                DESCRIÇÃO E LOCAL DO EVENTO\nEventos Semanais e Mensais\nAos domingos   FEIRA DO AUTOMÓVEL O evento possibilita o livre comércio de\nDE PORTO ALEGRE          veículos automotores de particulares e\nautônomos no espaço público. Ocorre aos\ndomingos, das 7h (sete horas) às 13h (treze\nhoras).\nLocal: Rua Dona Alzira, no Bairro Sarandi."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 8,
+     "caracteres": 362,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

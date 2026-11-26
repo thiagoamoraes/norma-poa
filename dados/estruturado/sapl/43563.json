@@ -1,0 +1,52 @@
+{
+ "idSapl": 43563,
+ "rotulo": "Lei municipal nº 12.937, de 23 de dezembro de 2021",
+ "sha256Origem": "f5711144f80d29e1c4f382706a13e252b4334d746dfad35289ef10bcb21915a8",
+ "estruturadoEm": "2026-11-26T09:19:29.406Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12937",
+  "ano": "2021",
+  "data": "2021-12-23",
+  "epigrafe": "LEI Nº 12.937, DE 23 DE DEZEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui art. 2º-A na Lei nº 12.904, de 17 de novembro de 2021, que autoriza o Executivo Municipal a contratar operação de crédito junto ao Banco do Brasil S.A.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 23 de dezembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído art. 2º-A na Lei nº 12.904, de 17 de novembro de 2021, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º-A Fica o Executivo Municipal autorizado a vincular, como contragarantia\nà garantia da União à operação de crédito de que trata esta Lei, em caráter irrevogável e irretratável,\na modo pro solvendo, as cotas de repartição das receitas tributárias, previstas nos arts. 158 e 159,\ninc. I, als. b, d e e, complementadas pelas receitas próprias de impostos estabelecidas no art. 156\nda Constituição Federal, nos termos do § 4º do art. 167, bem como outras garantias em direito\nadmitidas.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

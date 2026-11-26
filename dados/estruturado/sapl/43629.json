@@ -1,0 +1,72 @@
+{
+ "idSapl": 43629,
+ "rotulo": "Lei municipal nº 12.984, de 10 de janeiro de 2022",
+ "sha256Origem": "bf7bf05e4e1edca7d39800d934c7dc5bc30405d1341309c75bca0297becc1fa3",
+ "estruturadoEm": "2026-11-26T09:19:29.179Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12984",
+  "ano": "2022",
+  "data": "2022-01-10",
+  "epigrafe": "LEI Nº 12.984, DE 10 DE JANEIRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o art. 1º da Lei nº 1.044, de 28 de maio de 1953, modificando para Praça Carlos Santa Helena a denominação do logradouro público existente em Belém Novo, localizado entre a Av. Heitor Vieira, Av. Beira Rio e Rua Euclides Goularte.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de janeiro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o art. 1º da Lei nº 1.044, de 28 de maio de 1953, alterada pela Lei nº 1.321, de 29 de setembro de 1954, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica denominado Praça Carlos Santa Helena o logradouro público\nexistente em Belém Novo, localizado entre a Avenida Heitor Vieira, a Avenida Beira Rio e Rua\nEuclides Goularte, conforme Anexo desta Lei.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n12.984\n21.0.0001314110-3              10.01.2022",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.956,
+   "blocosDeAlteracao": 1,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 61,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

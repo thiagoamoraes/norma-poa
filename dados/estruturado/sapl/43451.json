@@ -1,0 +1,78 @@
+{
+ "idSapl": 43451,
+ "rotulo": "Lei municipal nº 12.900, de 10 de novembro de 2021",
+ "sha256Origem": "279423f028062f5e0dcbe67958b7b8b43e0d3020ed21bee221126f56be181f1e",
+ "estruturadoEm": "2026-11-26T09:19:29.546Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12900",
+  "ano": "2021",
+  "data": "2021-11-10",
+  "epigrafe": "LEI Nº 12.900, DE 10 DE NOVEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Orla José Augusto Corrêa Roth a faixa de terra limítrofe entre a Avenida Guaíba e o Lago Guaíba, compreendida entre o imóvel em que está instalada a Sede do Sindicato dos Servidores Públicos da Administração Tributária do Estado do Rio Grande do Sul (Sindifisco-RS) e a Avenida Copacabana, no Bairro Vila Assunção.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de novembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominada Orla José Augusto Corrêa Roth a faixa de terra limítrofe entre a Avenida Guaíba e o Lago Guaíba, compreendida entre o imóvel em que está instalada a Sede do Sindicato dos Servidores Públicos da Administração Tributária do Estado do Rio Grande do Sul (Sindifisco-RS) e a Avenida Copacabana, no Bairro Vila Assunção, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome da Orla, os seguintes dizeres: Morador do Bairro Vila Assunção, engenheiro, velejador e vice-comodoro do Clube Veleiros do Sul, atleta do basquete e dirigente do Grêmio Náutico União."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n12.900\n21.0.000107108-1             10.11.2021",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.955,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 59,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

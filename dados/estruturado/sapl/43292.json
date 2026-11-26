@@ -1,0 +1,51 @@
+{
+ "idSapl": 43292,
+ "rotulo": "Lei municipal nº 12.853, de 12 de agosto de 2021",
+ "sha256Origem": "ef92357e112d8ae6c1ffe0ce21a85a2985efffca43e6975b664d3b057534ab1b",
+ "estruturadoEm": "2026-11-26T09:19:29.703Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12853",
+  "ano": "2021",
+  "data": "2021-08-12",
+  "epigrafe": "LEI Nº 12.853, DE 12 DE AGOSTO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera as tabelas Programa de Trabalho e Natureza da Despesa constantes na Lei nº 12.797, de 29 de dezembro de 2020 – que estima a receita e fixa a despesa do Município de Porto Alegre para o exercício econômico-financeiro de 2021 – para o atendimento do disposto no inc. III do § 6º do art. 116-A da Lei Orgânica do Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de agosto de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam alteradas as tabelas Programa de Trabalho e Natureza da Despesa constantes na Lei nº 12.797, de 29 de dezembro de 2020, conforme os Anexos I e II desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.952,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "idSapl": 43623,
+ "rotulo": "Lei municipal nº 12.978, de 10 de janeiro de 2022",
+ "sha256Origem": "e5deaa858d24c0bf97436cdb954186c834ca3ea1ad4e56963410999a5adf97d0",
+ "estruturadoEm": "2026-11-26T09:19:29.198Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12978",
+  "ano": "2022",
+  "data": "2022-01-10",
+  "epigrafe": "LEI Nº 12.978, DE 10 DE JANEIRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece a instalação, a critério do Executivo Municipal, de palcos móveis na Esquina Democrática – Rua dos Andradas com Av. Borges de Medeiros –, no Largo Jornalista Glênio Peres, localizados no Bairro Centro Histórico, e nos Trechos 1 – Orla Moacyr Scliar – e 3 do Parque Urbano da Orla do Guaíba.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de janeiro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecida, a critério do Executivo Municipal, a instalação de 1 (um) palco móvel nos seguintes locais:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "Esquina Democrática – Rua dos Andradas com Av. Borges de Medeiros;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "Largo Jornalista Glênio Peres; e"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "Trecho 1 – Orla Moacyr Scliar – e Trecho 3 do Parque Urbano da Orla do Guaíba."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Mediante agendamento prévio, os palcos móveis referidos no art. 1º desta Lei poderão ser utilizados por artistas de rua, entidades culturais e manifestações populares, entre outros."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A utilização dos palcos móveis deverá respeitar as normas estabelecidas entre o Executivo Municipal e os representantes dos artistas e das entidades culturais, que deverão ser divulgadas e controladas por órgão competente, especialmente com relação ao nível de ruído."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 7,
+   "cobertura": 0.949,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

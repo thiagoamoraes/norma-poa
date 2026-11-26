@@ -1,0 +1,86 @@
+{
+ "idSapl": 43472,
+ "rotulo": "Lei municipal nº 12.905, de 18 de novembro de 2021",
+ "sha256Origem": "e4d05cb1f96ed3ec6c0a76bda54c1ec2776ce6d71ed9a85712cc43109eb63116",
+ "estruturadoEm": "2026-11-26T09:19:29.528Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12905",
+  "ano": "2021",
+  "data": "2021-11-18",
+  "epigrafe": "LEI Nº 12.905, DE 18 DE NOVEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza os estabelecimentos responsáveis pela produção,       pelo     fornecimento,      pela comercialização, pelo armazenamento e pela distribuição de gêneros alimentícios, sejam eles industrializados ou in natura, a doarem o seu excedente a pessoas físicas ou jurídicas, sem necessidade de licença prévia ou autorização do Executivo Municipal.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 18 de novembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam os estabelecimentos responsáveis pela produção, pelo fornecimento, pela comercialização, pelo armazenamento e pela distribuição de gêneros alimentícios, sejam eles industrializados ou in natura, autorizados a doar o seu excedente a pessoas físicas ou jurídicas, sem necessidade de licença prévia ou autorização do Executivo Municipal, desde que atendam aos seguintes critérios:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "os alimentos devem estar dentro do prazo de validade, em condições próprias para o consumo, e devem ser observadas as suas condições de preservação e mantidas as suas propriedades nutricionais;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "as normas sanitárias devem ser obedecidas pelo estabelecimento doador; e"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a doação deve ser livre de encargo, salvo o relativo à cobrança de custos para o transporte do produto ao seu destinatário final, se assim for acordado entre o doador e o beneficiário."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Cabe ao Executivo Municipal fiscalizar o cumprimento dos critérios estabelecidos neste artigo."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Presume-se de boa-fé a doação realizada conforme o disposto nesta Lei, devendo o Executivo Municipal, para fins de apuração da responsabilidade administrativa, demonstrar a existência de dolo específico de dano à saúde de outrem."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 7,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

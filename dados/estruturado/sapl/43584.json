@@ -1,0 +1,58 @@
+{
+ "idSapl": 43584,
+ "rotulo": "Lei municipal nº 12.945, de 03 de janeiro de 2022",
+ "sha256Origem": "d9823b4b8942fbfc56719f01a735d8acec9ece278d02edd1b7f643bb13b1691a",
+ "estruturadoEm": "2026-11-26T09:19:29.304Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12945",
+  "ano": "2022",
+  "data": "2022-01-03",
+  "epigrafe": "LEI Nº 12.945, DE 3 DE JANEIRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui a efeméride Dia Municipal do Suingue e do Samba Rock no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no dia 4 de dezembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 3 de janeiro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Dia Municipal do Suingue e do Samba Rock no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no dia 4 de dezembro."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A data da efeméride referida no caput deste artigo faz referência ao dia do nascimento de Jorge Moacir da Silva (1946-1999), o Bedeu, principal expoente do suingue e do samba rock no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.946,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

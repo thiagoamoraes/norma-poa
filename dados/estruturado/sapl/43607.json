@@ -1,0 +1,135 @@
+{
+ "idSapl": 43607,
+ "rotulo": "Lei municipal nº 12.962, de 10 de janeiro de 2022",
+ "sha256Origem": "975d1e2b4d946aeab616deb99a3a9319b52b8df63bae98ac2a0e36f894e21ac3",
+ "estruturadoEm": "2026-11-26T09:19:29.253Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12962",
+  "ano": "2022",
+  "data": "2022-01-10",
+  "epigrafe": "LEI Nº 12.962, DE 10 DE JANEIRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui a Política de Transparência nas Escolas Públicas do Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de janeiro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída a Política de Transparência nas Escolas Públicas do Município de Porto Alegre, com os seguintes objetivos:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "estabelecer maior relação e interação entre a comunidade escolar, as escolas e a Administração Pública;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "disponibilizar ao cidadão informações a respeito do repasse da Secretaria Municipal de Educação (Smed) às escolas;"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "permitir o conhecimento público da alocação dos recursos nas escolas municipais; e"
+  },
+  {
+   "id": "art-1/inc-IV",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "garantir que o cidadão possa exercer seu direito de fiscalização sobre a utilização do dinheiro público."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Executivo Municipal disponibilizará aos cidadãos, no sítio eletrônico da Prefeitura de Porto Alegre, de forma visual e didática, as seguintes informações sobre as escolas públicas municipais:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "nome da escola;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "valor dos repasses realizados pela Smed;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "número de alunos atendidos pela escola, discriminado o número de alunos em educação especial, se houver;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "número total de servidores lotados na escola, discriminados por cargos;"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "número de servidores licenciados; e"
+  },
+  {
+   "id": "art-2/inc-VI",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "relação de assiduidade dos professores."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As informações elencadas no caput deste artigo deverão ser objetivas, concisas e atualizadas mensalmente."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor em 120 (cento e vinte) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 14,
+   "cobertura": 0.948,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

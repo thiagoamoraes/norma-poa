@@ -1,0 +1,52 @@
+{
+ "idSapl": 43302,
+ "rotulo": "Lei municipal nº 12.854, de 18 de agosto de 2021",
+ "sha256Origem": "9eb043e5dd510167aa17980aeaf18a3e6780cae4c59a6f88ba4ad3fa74f4736d",
+ "estruturadoEm": "2026-11-26T09:19:29.701Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12854",
+  "ano": "2021",
+  "data": "2021-08-18",
+  "epigrafe": "LEI Nº 12.854, DE 18 DE AGOSTO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput do art. 8º da Lei nº 11.229, de 6 de março de 2012, que institui o Bônus-Moradia e dá outras providências, excluindo o limite de 2 (dois) Bônus-Moradia na unificação permitida para aquisição em conjunto de imóvel de maior valor.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 18 de agosto de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o caput do art. 8º da Lei 11.229, de 6 de março de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 8º Entre as famílias individualmente cadastradas, fica permitida a unificação\nde seus respectivos Bônus-Moradia para aquisição em conjunto de imóvel de maior valor.\n........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.952,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

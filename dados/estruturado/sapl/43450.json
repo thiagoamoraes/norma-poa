@@ -1,0 +1,58 @@
+{
+ "idSapl": 43450,
+ "rotulo": "Lei municipal nº 12.899, de 10 de novembro de 2021",
+ "sha256Origem": "d452d453202a9b74aa369aea34e3de2ac9629e4487d4c5704031cb4df87498fd",
+ "estruturadoEm": "2026-11-26T09:19:29.548Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12899",
+  "ano": "2021",
+  "data": "2021-11-10",
+  "epigrafe": "LEI Nº 12.899, DE 10 DE NOVEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Assegura a inserção de mensagens de incentivo à doação de sangue e à doação de órgãos em faturas, boletos, notificações e demais correspondências, bem como em redes sociais e anúncios em todos os tipos de mídias, eletrônicas ou não, emitidos pelas concessionárias de serviços públicos municipais, de direito público ou privado, destinados ao consumidor ou ao usuário no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de novembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica assegurada a inserção de mensagens de incentivo à doação de sangue e à doação de órgãos em faturas, boletos, notificações e demais correspondências, bem como em redes sociais e anúncios em todos os tipos de mídias, eletrônicas ou não, emitidos pelas concessionárias de serviços públicos municipais, de direito público ou privado, destinados ao consumidor ou ao usuário no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As mensagens de que trata o caput deste artigo deverão aparecer de forma clara e destacada."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor em 90 (noventa) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.954,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

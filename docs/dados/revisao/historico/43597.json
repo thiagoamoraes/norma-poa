@@ -1,0 +1,788 @@
+{
+ "geradoEm": "2026-11-26T09:19:41.579Z",
+ "idSapl": 43597,
+ "rotulo": "Lei municipal nº 12.952, de 07 de janeiro de 2022",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 12952/2022@2022-01-07",
+   "data": "2022-01-07",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 12952/2022@2022-12-28",
+   "data": "2022-12-28",
+   "fonte": {
+    "idSapl": 45424,
+    "rotulo": "Lei municipal nº 13.349, de 28 de dezembro de 2022"
+   },
+   "comandosAplicados": 5
+  },
+  {
+   "indice": 2,
+   "id": "l 12952/2022@2025-04-17",
+   "data": "2025-04-17",
+   "fonte": {
+    "idSapl": 50014,
+    "rotulo": "Lei municipal nº 14.213, de 17 de abril de 2025"
+   },
+   "comandosAplicados": 7
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica o Município de Porto Alegre autorizado a proceder à aquisição de vagas junto a instituições e escolas privadas de ensino de educação infantil com fins lucrativos, em prol de crianças na faixa etária entre 0 (zero) e 3 (três) anos e 11 (onze) meses, Educação Infantil – Etapa Creche, se não houver disponibilidade de seu atendimento pela Rede Municipal de Ensino (RME) ou pela Rede Parceirizada, oriunda da Lei Federal nº 13.019, de 31 de julho de 2014, conforme a demanda existente e a disponibilidade orçamentária da Secretaria Municipal de Educação (Smed).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "Fica o Município de Porto Alegre autorizado a proceder à aquisição de vagas junto a instituições e escolas privadas de ensino de educação infantil com fins lucrativos, em prol de crianças na faixa etária entre 0 (zero) e 5 (cinco) anos e 11 (onze) meses, caso não haja disponibilidade de seu atendimento pela Rede Municipal de Ensino (RME) ou pela Rede Parceirizada, oriunda da Lei Federal nº 13.019, de 31 de julho de 2014, conforme a demanda existente e a disponibilidade orçamentária da Secretaria Municipal de Educação (SMED).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 14.213/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Fica sob a responsabilidade do Município priorizar que as crianças da mesma família que necessitem de vaga contemplada nos termos desta Lei sejam encaminhadas para a mesma instituição ou escola privada ou, quando não for possível, para instituição ou escola privada na mesma região.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.213/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Não havendo disponibilidade de vagas na Rede Municipal de Ensino e na Rede Parceirizada, a criança matriculada na instituição ou escola de educação infantil nos termos desta Lei permanecerá nela até completar 5 (cinco) anos e 11 (onze) meses, salvo manifestação expressa dos pais ou responsáveis, que poderão solicitar sua transferência ou desligamento a qualquer tempo, conforme suas necessidades e interesses.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.213/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O objeto da parceria de que trata esta Lei é a prestação do serviço educacional referido no art. 1º desta Lei pelas instituições e escolas credenciadas com o Município de Porto Alegre por meio de Edital de Credenciamento Público a ser publicado pela Smed.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A alocação das crianças em vagas de instituições e escolas privadas de ensino de educação infantil com fins lucrativos terá caráter residual, podendo ser direcionadas crianças para o atendimento apenas após o preenchimento das vagas na RME e na Rede Parceirizada, conforme a Lei Federal nº 13.019, de 2014.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É obrigatória a observação da Portaria de Inscrição publicada pela Smed para o preenchimento das vagas, não sendo possibilitada a escolha da instituição de ensino pelos pais ou responsáveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Não será disponibilizada a vaga por meio de aquisição pelo procedimento de que trata esta Lei para as crianças:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "cujos responsáveis legais tenham recusado a vaga pública disponibilizada pela Smed;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "para as quais a Smed disponha de vagas próximas à sua residência ou ao endereço referencial do trabalho do responsável, nos termos da Portaria de Inscrição da Smed;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "que tenham sido retiradas de Unidades de Educação Infantil da RME ou da Rede Parceirizada;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/inc-IV",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "cujos responsáveis não realizarem anualmente a solicitação de vaga pública conforme Portaria de Inscrição da Smed.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei abrange somente crianças que estejam na faixa etária especificada em seu art. 1º e que estejam em situação de vulnerabilidade socioeconômica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para fins desta Lei, será considerada em situação de vulnerabilidade socioeconômica a criança cujos responsáveis comprovarem:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-I",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "renda familiar mensal igual ou inferior a 3 (três) salários mínimos nacionais, considerando-se os ganhos totais brutos da sua entidade familiar;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-II",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "não ser proprietários, possuidores ou titulares de direitos sobre móveis, imóveis, créditos, recursos financeiros em aplicações ou investimentos ou quaisquer direitos economicamente mensuráveis, em montante que ultrapasse a quantia equivalente a 300 (trezentos) salários mínimos nacionais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-2",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na aferição da renda familiar, deverão ser deduzidos:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-2/inc-I",
+   "pai": "art-5/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o valor equivalente a 25% (vinte e cinco por cento) do salário mínimo nacional por dependente;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-2/inc-II",
+   "pai": "art-5/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o valor equivalente a 50% (cinquenta por cento) do salário mínimo nacional por dependente incapacitado para o trabalho que demande gastos extraordinários;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-2/inc-III",
+   "pai": "art-5/par-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os valores recebidos por programas oficiais de transferência de renda e de benefícios assistenciais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-3",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na aferição do patrimônio, deverão ser desconsiderados:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-3/inc-I",
+   "pai": "art-5/par-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o bem imóvel destinado à moradia ou à subsistência;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-3/inc-II",
+   "pai": "art-5/par-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "dívidas e ônus reais incidentes sobre o referido bem imóvel.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Smed fará a publicação de edital destinado à convocação das instituições e escolas particulares com fins lucrativos de educação infantil no Município de Porto Alegre interessadas em participar do programa de aquisição de vagas previsto nesta Lei, desde que estejam devidamente credenciadas junto ao seu sistema de ensino.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-1",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Os interessados em participar do programa de aquisição de vagas deverão possuir infraestrutura física, administrativa e pedagógica, conforme prevê a legislação vigente, devendo cadastrar-se junto à Smed.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     },
+     "renumerado": {
+      "de": "Parágrafo único",
+      "lei": "Lei nº 14.213/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-2",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "A SMED deverá prestar informações e orientar as escolas interessadas no credenciamento para firmar contrato para a oferta de vagas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.213/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-unico",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os interessados em participar do programa de aquisição de vagas deverão possuir infraestrutura física, administrativa e pedagógica, conforme prevê a legislação vigente, devendo cadastrar-se junto à Smed.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "",
+     "situacao": "renumerado",
+     "origem": {
+      "operacao": "renumber_node",
+      "lei": "Lei nº 14.213/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os valor a ser pago por vaga disponibilizada e ocupada a título do programa de aquisição de vagas de Educação Infantil – Etapa Creche será de:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "O valor a ser pago por vaga disponibilizada e ocupada a título do programa de aquisição de vagas de Educação Infantil será definido em edital de credenciamento e limitado à capacidade orçamentária do Município.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 14.213/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-I",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 775,22 (setecentos e setenta e cinco reais e vinte e dois centavos) por aluno para escolas com até 60 (sessenta) alunos encaminhados pela Smed;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei nº 13.349/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-II",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 704,74 (setecentos e quatro reais e setenta e quatro centavos) por aluno para escolas com 61 (sessenta e um) a 72 (setenta e dois) alunos encaminhados pela Smed;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei nº 13.349/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-III",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "R$ 646,01 (seiscentos e quarenta e seis reais e um centavo) por aluno para escolas com 73 (setenta e três) ou mais alunos encaminhados pela Smed.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei nº 13.349/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-1",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "Os valores aos quais se refere o caput deste artigo poderão ser reajustados anualmente por índices estabelecidos no edital de credenciamento ou por critério de conveniência e oportunidade do Executivo Municipal por meio de decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.349/2022"
+     },
+     "renumerado": {
+      "de": "Parágrafo único",
+      "lei": "Lei nº 14.213/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-2",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "O valor pago por vaga disponibilizada e ocupada, observados os critérios do caput deste artigo, não poderá, em qualquer hipótese, superar o valor atribuído à vaga da Rede Parceirizada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.213/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-unico",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os valores estipulados nos incs. do caput deste artigo serão reajustados anualmente por índices estabelecidos por meio de decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Os valores aos quais se refere o caput deste artigo poderão ser reajustados anualmente por índices estabelecidos no edital de credenciamento ou por critério de conveniência e oportunidade do Executivo Municipal por meio de decreto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.349/2022"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "",
+     "situacao": "renumerado",
+     "origem": {
+      "operacao": "renumber_node",
+      "lei": "Lei nº 14.213/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ao final do ano letivo, será verificada a disponibilidade de vagas na RME e na Rede Parceirizada, conforme ordem disposta na Portaria de matrículas e transferências da Smed, efetuando-se a transferência da criança para a vaga pública vacante no próximo ano letivo, não havendo se falar em direito subjetivo à permanência na instituição de ensino privada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-unico",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os alunos matriculados ou rematriculados beneficiados pela aquisição de vagas poderão ser transferidos das instituições ou escolas participantes do programa instituído por esta Lei para a rede pública municipal, no início do ano letivo, caso haja disponibilidade de vagas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A matrícula da criança poderá ser cancelada a qualquer tempo se houver comprovação da residência da família em outro município ou a inobservância de algum dos critérios estabelecidos nesta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As vagas de que trata esta Lei serão concedidas dentro de cada exercício financeiro, correspondendo ao respectivo ano letivo, podendo ser renovadas para o exercício seguinte enquanto não houver vaga disponível na rede pública municipal, desde que mantidas as condições de vulnerabilidade socioeconômica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Competirá à Smed a fiscalização e o acompanhamento do programa de aquisição de vagas instituído por esta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As despesas decorrentes desta Lei correrão por conta de dotação orçamentária específica da Smed, ficando o Executivo Municipal autorizado a abrir os créditos especiais na Lei nº 12.797, de 29 de dezembro de 2020 (LOA 2021), em favor da Smed, para o cumprimento desta Lei, obedecidas as prescrições contidas nos incs. I a IV do § 1º do art. 43 da Lei Federal nº 4.320, de 17 de março de 1964, e alterações posteriores, bem como proceder as alterações necessárias na Lei nº 12.744, de 6 de novembro de 2020 (LDO 2021) e na Lei nº 12.297, de 4 de setembro de 2017 (Plano Plurianual 2018-2021).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "As despesas decorrentes desta Lei correrão por conta de dotação orçamentária específica da SMED, ficando o Executivo Municipal autorizado a abrir créditos especiais na Lei nº 13.775, de 21 de dezembro de 2023 (LOA 2024), em favor da SMED, para o cumprimento desta Lei, obedecidas as prescrições contidas nos incs. I a IV do § 1º do art. 43 da Lei Federal nº 4.320, de 17 de março de 1964, bem como realizar as alterações necessárias na Lei nº 13.700, de 3 de novembro de 2023 (LDO 2024), e na Lei nº 12.865, de 3 de setembro de 2021 (Plano Plurianual 2022-2025).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 14.213/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A compra de vagas por meio do disposto nesta Lei tem caráter suplementar e não afasta a obrigação de o Poder Público oferecer atendimento e expansão de creches na rede pública municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

@@ -1,0 +1,121 @@
+{
+ "idSapl": 43312,
+ "rotulo": "Lei municipal nº 12.858, de 24 de agosto de 2021",
+ "sha256Origem": "154b0ddb487a97a311abbed7b02ee58c0114719de9662d1d5f94b5d7455fcbfb",
+ "estruturadoEm": "2026-11-26T09:19:29.694Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12858",
+  "ano": "2021",
+  "data": "2021-08-24",
+  "epigrafe": "LEI Nº 12.858, DE 24 DE AGOSTO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Define a implementação de sistema de impressão local de senha para registro do tempo de espera de atendimento nas Unidades de Saúde (USs) do Município de Porto Alegre que atendam, exclusiva ou parcialmente, ao Sistema Único de Saúde (SUS).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 24 de agosto de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica definida a implementação de sistema de impressão local de senha para registro do tempo de espera de atendimento nas Unidades de Saúde (USs) do Município de Porto Alegre que atendam, exclusiva ou parcialmente, ao Sistema Único de Saúde (SUS)."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A senha deverá conter, no mínimo:"
+  },
+  {
+   "id": "art-1/par-1/inc-I",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "código alfanumérico único diário;"
+  },
+  {
+   "id": "art-1/par-1/inc-II",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "identificação completa da US;"
+  },
+  {
+   "id": "art-1/par-1/inc-III",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "data e horário de sua emissão; e"
+  },
+  {
+   "id": "art-1/par-1/inc-IV",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "espaço para preenchimento manual dos horários de realização da triagem e do atendimento."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O sistema deverá permitir, no momento da impressão da senha, o cumprimento das condições de atendimento preferencial estipuladas pela legislação vigente."
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Os casos de atendimento preferencial deverão ser identificados no papel impresso, no momento da impressão da senha."
+  },
+  {
+   "id": "art-1/par-4",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "A senha é pessoal e intransferível, podendo, excepcionalmente, ser retirada por acompanhantes de pacientes incapazes de fazê-lo."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O horário da triagem e do atendimento do paciente serão preenchidos pelos profissionais de saúde responsáveis."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A identificação do profissional de saúde deverá ser completa, contendo o número do registro no conselho profissional competente de forma legível, escrita a mão ou por meio de carimbo."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor em 120 (cento e vinte) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 12,
+   "cobertura": 0.955,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

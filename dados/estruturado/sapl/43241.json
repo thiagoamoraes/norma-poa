@@ -1,0 +1,52 @@
+{
+ "idSapl": 43241,
+ "rotulo": "Lei municipal nº 12.837, de 30 de junho de 2021",
+ "sha256Origem": "f6d11c6227447198bb5c97ccbe5220db5dc9626e4b8e849c538d1b701c3921e0",
+ "estruturadoEm": "2026-11-26T09:19:29.758Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12837",
+  "ano": "2021",
+  "data": "2021-06-30",
+  "epigrafe": "LEI Nº 12.837, DE 30 DE JUNHO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o parágrafo único do art. 11 da Lei nº 12.677, de 24 de janeiro de 2020, autorizando a prorrogação dos contratos de professores temporários iniciados no ano de 2019 em razão do período de calamidade pública até o fim do ano letivo de 2021.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de junho de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o parágrafo único do art. 11 da Lei nº 12.677, de 24 de janeiro de 2020, conforme segue:",
+   "blocoDeAlteracao": "“Art. 11. ....................................................................................................................\nParágrafo único. Os contratos iniciados no ano de 2019, por força da autorização\nda Lei nº 12.500, de 24 de janeiro de 2019, poderão ser prorrogados, a contar de 1º de maio de\n2021, até o fim do ano letivo de 2021.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.956,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

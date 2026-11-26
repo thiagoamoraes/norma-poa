@@ -1,0 +1,100 @@
+{
+ "idSapl": 43602,
+ "rotulo": "Lei municipal nº 12.958, de 07 de janeiro de 2022",
+ "sha256Origem": "cb614910c94ffe347ff22386d1a64cb73b34987ac9e42a134b4ee941815c739a",
+ "estruturadoEm": "2026-11-26T09:19:29.262Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12958",
+  "ano": "2022",
+  "data": "2022-01-07",
+  "epigrafe": "LEI Nº 12.958, DE 7 DE JANEIRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Caminho da Via Sacra do Morro da Cruz.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de janeiro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Caminho da Via Sacra do Morro da Cruz no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Caminho da Via Sacra do Morro da Cruz compreenderá o mesmo trajeto da Procissão do Morro da Cruz, incluindo as ruas Vidal de Negreiros, 1º de março e Santo Alfredo, localizadas no Bairro São José."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Caminho da Via Sacra do Morro da Cruz poderá receber painéis, esculturas e outras obras de arte alusivas ao evento."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Os painéis, as esculturas e as obras de arte referidas no caput deste artigo serão selecionadas por meio de comissão julgadora, formada por representantes:"
+  },
+  {
+   "id": "art-2/par-1/inc-I",
+   "pai": "art-2/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "da comunidade local;"
+  },
+  {
+   "id": "art-2/par-1/inc-II",
+   "pai": "art-2/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "dos responsáveis pela realização da Procissão do Morro da Cruz; e"
+  },
+  {
+   "id": "art-2/par-1/inc-III",
+   "pai": "art-2/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "do Poder Público Municipal."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A confecção e a fixação dos painéis, das esculturas e das obras que trata o caput deste artigo não poderão gerar custos ao Município de Porto Alegre."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 9,
+   "cobertura": 0.94,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

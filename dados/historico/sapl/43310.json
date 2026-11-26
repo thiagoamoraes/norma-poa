@@ -1,0 +1,213 @@
+{
+ "geradoEm": "2026-11-26T09:19:41.539Z",
+ "idSapl": 43310,
+ "rotulo": "Lei municipal nº 12.856, de 24 de agosto de 2021",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 12856/2021@2021-08-24",
+   "data": "2021-08-24",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 12856/2021@2025-01-20",
+   "data": "2025-01-20",
+   "fonte": {
+    "idSapl": 49710,
+    "rotulo": "Lei municipal nº 14.185, de 20 de janeiro de 2025"
+   },
+   "comandosAplicados": 7
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica estabelecida a divulgação pública e anual, a cada dia 21 de agosto, de lista com os candidatos inscritos, selecionados e suplentes a beneficiários de programas habitacionais de financiamento público do Município de Porto Alegre, em ordem de classificação, conforme os critérios de prioridade, bem como com os candidatos desistentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica estabelecida a divulgação pública e trimestral de lista com os candidatos inscritos, selecionados e suplentes a beneficiários de programas habitacionais de financiamento público e de regularização fundiária do Município de Porto Alegre, em ordem de classificação, conforme os critérios de prioridade, bem como com os candidatos desistentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 14.185/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "As informações de que trata o caput deste artigo deverão contemplar, entre outros:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.185/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-I",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "a localização que está sendo regularizada;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.185/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-II",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "o custo do programa;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.185/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-III",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "a etapa em que se encontra o processo de regularização;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.185/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-IV",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "os dados, as informações e o tempo utilizado para a finalização das etapas anteriores; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.185/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-V",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "a listagem dos beneficiados, o modo de seleção para ingresso no programa de regularização e o indicativo de eventual cadastro em algum programa social da Prefeitura Municipal de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.185/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O candidato que desistir de participar ou de ser selecionado como beneficiário de programas habitacionais de financiamento público deverá comunicar o fato à secretaria ou ao órgão responsável pelo cadastro, para que se proceda à atualização da lista referida no art. 1º desta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As despesas decorrentes da execução desta Lei correrão por conta das dotações orçamentárias próprias do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor em 1º de janeiro de 2023.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 49710,
+    "rotulo": "Lei municipal nº 14.185, de 20 de janeiro de 2025"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
+  }
+ ],
+ "aConferir": []
+}

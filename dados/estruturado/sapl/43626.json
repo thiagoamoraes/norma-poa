@@ -1,0 +1,80 @@
+{
+ "idSapl": 43626,
+ "rotulo": "Lei municipal nº 12.981, de 10 de janeiro de 2022",
+ "sha256Origem": "7e920cc982af201b40cf408e1f7c4524045dfd855555bb8ce71253520a448ca4",
+ "estruturadoEm": "2026-11-26T09:19:29.191Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12981",
+  "ano": "2022",
+  "data": "2022-01-10",
+  "epigrafe": "LEI Nº 12.981, DE 10 DE JANEIRO DE 2022.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a ementa e o caput do art. 1º da Lei nº 8.663, de 18 de dezembro de 2000, que denomina Rua Professora Maria Spinelli um logradouro público localizado no Bairro Cel. Aparício Borges, modificando o tipo de logradouro para beco de servidão.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de janeiro de 2022.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei nº 8.663, de 18 de dezembro de 2000, conforme segue:",
+   "blocoDeAlteracao": "“Denomina Beco de Servidão Professora Maria Spinelli um logradouro público\nlocalizado no Bairro Cel. Aparício Borges” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o caput do art. 1º da Lei nº 8.663, de 2000, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica denominado Beco de Servidão Professora Maria Spinelli um\nlogradouro público localizado no Bairro Cel. Aparício Borges, conforme Anexo desta Lei.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSebastião Melo\n12.981\n21.0.000131338-7              10.01.2022",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.955,
+   "blocosDeAlteracao": 2,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 60,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

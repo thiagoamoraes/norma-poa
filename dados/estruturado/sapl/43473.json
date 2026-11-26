@@ -1,0 +1,100 @@
+{
+ "idSapl": 43473,
+ "rotulo": "Lei municipal nº 12.906, de 18 de novembro de 2021",
+ "sha256Origem": "9a08a1e613630bd97eb068dd9ab0700193b4f34a13164fa219ef2646cfc18e83",
+ "estruturadoEm": "2026-11-26T09:19:29.525Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12906",
+  "ano": "2021",
+  "data": "2021-11-18",
+  "epigrafe": "LEI Nº 12.906, DE 18 DE NOVEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece que o Município de Porto Alegre garantirá salas de apoio ao aleitamento materno para suas servidoras em seus locais de trabalho.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 18 de novembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecido que o Município de Porto Alegre garantirá salas de apoio ao aleitamento materno para suas servidoras em seus locais de trabalho."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "As salas de apoio ao aleitamento materno deverão:"
+  },
+  {
+   "id": "art-1/par-1/inc-I",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "ser instaladas com a observância de garantias ao bem-estar das mães e das crianças, à segurança, à disponibilidade, ao conforto e à higiene para a adequada amamentação, assim como para a ordenha no local, o armazenamento e a conservação do leite materno; e"
+  },
+  {
+   "id": "art-1/par-1/inc-II",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "ser próprias e exclusivas para o aleitamento, garantindo a tranquilidade e a privacidade da mulher."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Para a instalação das salas de apoio ao aleitamento materno, serão utilizadas as orientações da Agência Nacional da Vigilância Sanitária (Anvisa) e serão observados os parâmetros definidos na Resolução-RDC/Anvisa nº 171, de 4 de setembro de 2006, referentes à sala para ordenha."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica vedado justificar acréscimos na jornada de trabalho das lactantes em decorrência de pausas para amamentação ou ordenhas."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Executivo Municipal realizará campanhas de conscientização e de treinamento sobre a relevância do apoio às mulheres que amamentam no trabalho."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Os procedimentos para a implementação das salas de apoio ao aleitamento materno deverão ser adotados pela gestão dos órgãos públicos no prazo de 90 (noventa) dias, contados da publicação desta Lei, e deverão ser regulamentados por ordenamento próprio."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 9,
+   "cobertura": 0.963,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

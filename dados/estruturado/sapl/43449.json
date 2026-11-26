@@ -1,0 +1,93 @@
+{
+ "idSapl": 43449,
+ "rotulo": "Lei municipal nº 12.898, de 10 de novembro de 2021",
+ "sha256Origem": "56b805d557d29bf4d28823e259375c43171f79deecd0af544924737ee2804b94",
+ "estruturadoEm": "2026-11-26T09:19:29.550Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12898",
+  "ano": "2021",
+  "data": "2021-11-10",
+  "epigrafe": "LEI Nº 12.898, DE 10 DE NOVEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Programa de Ensino e Conscientização sobre Doação e Transplante de Órgãos e Tecidos no currículo escolar das redes pública e privada de ensino no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de novembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa de Ensino e Conscientização sobre Doação e Transplante de Órgãos e Tecidos no currículo escolar das redes pública e privada de ensino no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O programa de que trata esta Lei será inserido na grade curricular dos ensinos fundamental e médio, nas escolas públicas e privadas do Município de Porto Alegre, observada a adequação do conteúdo à idade e à bagagem cultural dos alunos, obedecendo aos preceitos pedagógicos estabelecidos por especialistas."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Constituem objetivos do Programa instituído por esta Lei:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "inserir no currículo escolar do ensino fundamental, aos alunos com idade estimada entre 6 (seis) e 14 (quatorze) anos, conteúdo sobre a importância e os conceitos elementares relativos ao tema Doação e Transplante de Órgãos e Tecidos;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "inserir no currículo escolar do ensino médio, aos alunos com idade estimada entre 14 (quatorze) e 18 (dezoito) anos, conteúdo sobre a importância e os fundamentos científicos, culturais, econômicos, políticos e sociais subjacentes ao tema Doação e Transplante de Órgãos e Tecidos; e"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "disponibilizar gratuitamente aos profissionais de ensino das redes pública e privada conteúdo e material educativo de instrução sobre os princípios e a metodologia utilizada na doação e no transplante de órgãos e tecidos."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O desenvolvimento do Programa de Ensino e Conscientização sobre Doação e Transplante de Órgãos e Tecidos poderá ser realizado mediante parceria da Secretaria Municipal de Educação (Smed) com entidades ou projetos consagrados ligados ao tema, com portfólio de trabalhos publicamente reconhecido e que possuam tempo de atuação superior a 3 (três) anos de trajetória, anteriores à data de publicação desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 8,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

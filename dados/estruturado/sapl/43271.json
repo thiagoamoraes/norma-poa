@@ -1,0 +1,52 @@
+{
+ "idSapl": 43271,
+ "rotulo": "Lei municipal nº 12.845, de 20 de julho de 2021",
+ "sha256Origem": "7bca8945ce5d1feab2e26707885d7023ba4f6992bfde8cbbd5fb90d69e8b10c0",
+ "estruturadoEm": "2026-11-26T09:19:29.741Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12845",
+  "ano": "2021",
+  "data": "2021-07-20",
+  "epigrafe": "LEI Nº 12.845, DE 20 DE JULHO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput do art. 1º da Lei nº 11.235, de 27 de março de 2012, modificando o período de realização da Feira Temática de Artesanato do Mercado Público de “de abril a dezembro” para “de janeiro a dezembro”.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 20 de julho de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o caput do art. 1º da Lei nº 11.235, de 27 de março de 2012, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica incluído no Anexo II à Lei nº 10.903, de 31 de maio de 2010, e\nalterações posteriores, nos meses de janeiro a dezembro, o evento a seguir descrito:\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "idSapl": 43581,
+ "rotulo": "Lei municipal nº 12.943, de 30 de dezembro de 2021",
+ "sha256Origem": "bf46369df0218eeab95bba9da7be7253c1b449a7dbc32dd9a5c142cff1e80cf8",
+ "estruturadoEm": "2026-11-26T09:19:29.335Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12943",
+  "ano": "2021",
+  "data": "2021-12-30",
+  "epigrafe": "LEI Nº 12.943, DE 30 DE DEZEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o parágrafo único do art. 1º, o inc. IV do caput do art. 4º e o inc. V do caput do art. 5º, todos da Lei nº 12.713, de 7 de julho de 2020 – que estabelece normas para a prestação do serviço de utilidade pública de Linha Turismo no Município de Porto Alegre –, modificando o tipo de veículo utilizado na prestação do serviço por veículo automotor e aumentando a idade máxima dos veículos utilizados de 10 (dez) para 15 (quinze) anos, e inclui § 3º no art. 5º da Lei nº 12.093, de 7 de julho de 2016 – que disciplina o exercício da atividade de guia de turismo –, estabelecendo que a presença de guia de turismo poderá ser facultada quando houver inovações tecnológicas capazes de realizar a orientação do turista.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o parágrafo único do art. 1º da Lei nº 12.713, de 7 de julho de 2020, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º .....................................................................................................................\nParágrafo único. Considera-se Linha Turismo o serviço de transporte remunerado\nde passageiros executado por pessoa jurídica autorizatária mediante o emprego de veículo\nautomotor, visando ao deslocamento de grupo de pessoas em roteiros de caráter turístico, em\ncircuito fechado, com itinerário e horário pré-determinados.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o inc. IV do caput do art. 4º da Lei nº 12.713, de 2020, conforme segue:",
+   "blocoDeAlteracao": "“Art.4º ......................................................................................................................\n....................................................................................................................................\nIV – descrição do padrão dos veículos automotores a serem utilizados.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica alterado o inc. V do caput do art. 5º da Lei nº 12.713, de 2020, conforme segue: .........................................................................................................................” (NR)",
+   "blocoDeAlteracao": "“Art. 5º .....................................................................................................................\n....................................................................................................................................\nV – utilização obrigatória de veículo automotor com idade não superior a 15\n(quinze) anos.”"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica incluído § 3º no art. 5º da Lei nº 12.093, de 7 de julho de 2016, conforme segue:",
+   "blocoDeAlteracao": "“Art. 5º .....................................................................................................................\n....................................................................................................................................\n§ 3º A presença de guia de turismo poderá ser facultada quando houver inovações\ntecnológicas capazes de realizar a orientação do turista.” (NR)"
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "trecho_nao_localizado_na_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.933,
+   "blocosDeAlteracao": 4,
+   "lacunas": [],
+   "naoLocalizados": [
+    "Fica alterado o inc. V do caput do art. 5º da Lei nº 12.713, de 2020, conforme s"
+   ],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,1203 @@
+{
+ "idSapl": 43582,
+ "rotulo": "Lei municipal nº 12.944, de 30 de dezembro de 2021",
+ "sha256Origem": "e462795ba6e959a6d0b3a023e21a390867e104af50ee29652475534ffd2f8ed8",
+ "estruturadoEm": "2026-11-26T09:19:29.313Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12944",
+  "ano": "2021",
+  "data": "2021-12-30",
+  "epigrafe": "LEI Nº 12.944, DE 30 DE DEZEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Sistema de Isenções Tarifárias do Transporte Coletivo por Ônibus do Município de Porto Alegre; inclui art. 32-B na Lei nº 8.133, de 12 de janeiro de 1998 – que dispõe sobre o sistema de transporte e circulação no Município de Porto Alegre –, e alterações posteriores, e § 2º no art. 1º da Lei nº 10.996, de 7 de dezembro de 2010, que institui o Programa Vou à Escola; e revoga legislação sobre o tema.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Sistema de Isenções Tarifárias do Transporte Coletivo por Ônibus do Município de Porto Alegre, consolidando, na forma desta Lei, a legislação referente à matéria.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DAS DISPOSIÇÕES PRELIMINARES"
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os critérios de uso e os procedimentos de concessão, renovação, extinção, fiscalização e auditoria das isenções tarifárias observarão ao disposto nesta Lei, em seu decreto regulamentador e na legislação correlata."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam isentos do pagamento da tarifa social única do transporte coletivo por ônibus do Município de Porto Alegre:",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "II",
+     "titulo": "DAS NORMAS GERAIS DO SISTEMA DE ISENÇÕES DO TRANSPORTE COLETIVO POR ÔNIBUS"
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a título de isenção tarifária parcial, equivalente a 25 % (vinte e cinco por cento) da tarifa social única, o estudante hipossuficiente, regularmente inscrito no Ensino Fundamental, Médio, Técnico, Profissionalizante, Graduação ou Preparatório, observada a limitação de renda fixada na al. a do inc. II do § 1º do art. 4º desta Lei, beneficiário da Passagem Escolar;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a título de isenção tarifária parcial, equivalente a 50 % (cinquenta por cento) da tarifa social única:"
+  },
+  {
+   "id": "art-2/inc-II/ali-a",
+   "pai": "art-2/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "o estudante hipossuficiente, regularmente inscrito no Ensino Fundamental, Médio ou Técnico, observada a limitação de renda fixada na al. b do inc. II do § 1º do art. 4º desta Lei, beneficiário da Passagem Escolar;"
+  },
+  {
+   "id": "art-2/inc-II/ali-b",
+   "pai": "art-2/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "o estudante hipossuficiente, regularmente inscrito no Ensino Profissionalizante, Graduação ou Preparatório, observada a limitação de renda fixada na al. b e no item 3 da al. c, ambas do inc. II do § 1º do art. 4º desta Lei, beneficiário da Passagem Escolar;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a título de isenção tarifária parcial, equivalente até 75 % (setenta e cinco por cento) da tarifa social única, o estudante hipossuficiente, regularmente inscrito no Ensino Médio ou Técnico, beneficiário da Passagem Escolar, observada a limitação de renda fixada no item 2 da al. c do inc. II do § 1º do art. 4º desta Lei;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "a título de isenção tarifária integral, equivalente a 100 % (cem por cento) da tarifa social única:"
+  },
+  {
+   "id": "art-2/inc-IV/ali-a",
+   "pai": "art-2/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "o idoso que possua idade igual ou superior a 65 (sessenta e cinco) anos, na forma do art. 230, § 2º, da Constituição Federal, e do art. 39 da Lei Federal nº 10.741, de 1º de outubro de 2003;"
+  },
+  {
+   "id": "art-2/inc-IV/ali-b",
+   "pai": "art-2/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "a pessoa hipossuficiente com deficiência permanente física, mental, auditiva ou visual e seu eventual acompanhante, na forma desta Lei;"
+  },
+  {
+   "id": "art-2/inc-IV/ali-c",
+   "pai": "art-2/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "a pessoa que vive com HIV ou aids que seja atendida pelos serviços de saúde no âmbito do Município de Porto Alegre;"
+  },
+  {
+   "id": "art-2/inc-IV/ali-d",
+   "pai": "art-2/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "texto": "a criança ou o adolescente necessitado e matriculado ou vinculado nas entidades assistenciais Fundação de Atendimento Sócio-Educativo do Rio Grande do Sul (FASE), Fundação de Assistência Social e Cidadania (FASC) e Fundação de Proteção Especial do Rio Grande do Sul (FPE) e seu eventual acompanhante, na forma desta Lei;"
+  },
+  {
+   "id": "art-2/inc-IV/ali-e",
+   "pai": "art-2/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "texto": "o soldado da Brigada Militar ou do Corpo de Bombeiros Militar do Estado do Rio Grande do Sul, quando em serviço, na forma desta Lei;"
+  },
+  {
+   "id": "art-2/inc-IV/ali-f",
+   "pai": "art-2/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "f)",
+   "texto": "o estudante hipossuficiente:"
+  },
+  {
+   "id": "art-2/inc-IV/ali-f/item-1",
+   "pai": "art-2/inc-IV/ali-f",
+   "tipo": "item",
+   "rotulo": "1.",
+   "texto": "regularmente inscrito no Ensino Fundamental, observada a limitação de renda fixada no item 1 da al. c do inc. II do § 1º do art. 4º desta Lei, beneficiário da Passagem Escolar;"
+  },
+  {
+   "id": "art-2/inc-IV/ali-f/item-2",
+   "pai": "art-2/inc-IV/ali-f",
+   "tipo": "item",
+   "rotulo": "2.",
+   "texto": "beneficiário do Programa Vou à Escola;"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "todos os usuários do transporte coletivo por ônibus, nas datas assim fixadas como “Dia de Passe Livre”, na forma da Lei Complementar nº 362, de 28 de dezembro de 1995."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Novas hipóteses de isenção tarifária somente serão concedidas por lei e mediante expressa previsão de sua fonte de custeio, sendo vedado o custeio indireto das novas isenções mediante o repasse do custo à tarifa social única cobrada dos usuários pagantes."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "São requisitos para a isenção do pagamento da tarifa social única do transporte coletivo por ônibus do Município de Porto Alegre:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "comprovação da hipossuficiência e da carência financeira do beneficiário, caracterizadas pela percepção de renda familiar máxima, nos termos desta Lei;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "inscrição no Cadastro Único para Programas Sociais (CadÚnico), instituído pelo Decreto Federal nº 6.135, de 26 de junho de 2007; e"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "apresentação do cartão da Bilhetagem Eletrônica específico para cada isenção prevista nesta Lei."
+  },
+  {
+   "id": "art-3/par-1",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A inscrição no CadÚnico deverá ser atualizado anualmente pelo usuário."
+  },
+  {
+   "id": "art-3/par-2",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Ao usuário é concedido o prazo de 2 (dois) anos, prorrogáveis por mais 1 (um) ano, a critério do Executivo Municipal, para inscrição no CadÚnico."
+  },
+  {
+   "id": "art-3/par-3",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Ao idoso que possua idade igual ou superior a 65 (sessenta e cinco) anos fica dispensado o cumprimento dos requisitos elencados neste artigo, na forma da Seção II deste Capítulo."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "A Passagem Escolar será destinada ao estudante hipossuficiente, devidamente inscrito no CadÚnico, regularmente matriculado e efetivo nas redes de Ensino Fundamental, Médio, Técnico, Profissionalizante, Graduação ou Preparatório, em instituições de ensino público e privadas, devidamente reconhecidas pelo respectivo órgão oficial de ensino, nas proporções estabelecidas no art. 2º desta Lei.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Da Passagem Escolar"
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-1",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A concessão e a renovação da Passagem Escolar ficam condicionadas:"
+  },
+  {
+   "id": "art-4/par-1/inc-I",
+   "pai": "art-4/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "à comprovação de domicílio no Município de Porto Alegre;"
+  },
+  {
+   "id": "art-4/par-1/inc-II",
+   "pai": "art-4/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "à comprovação de hipossuficiência e carência financeira do beneficiário, caracterizadas pela percepção de renda familiar per capita máxima:"
+  },
+  {
+   "id": "art-4/par-1/inc-II/ali-a",
+   "pai": "art-4/par-1/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "entre R$ 1.925,01 (mil, novecentos e vinte e cinco reais e um centavo) e R$ 2.200,00 (dois mil e duzentos reais), na hipótese de isenção tarifária de 25% (vinte e cinco por cento) para o estudante regularmente inscrito no Ensino Fundamental, Médio, Técnico, Profissionalizante, Graduação ou Preparatório;"
+  },
+  {
+   "id": "art-4/par-1/inc-II/ali-b",
+   "pai": "art-4/par-1/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "entre R$ 1.650,01 (mil, seiscentos e cinquenta reais e um centavo) e R$ 1.925,00 (mil, novecentos e vintes e cinco reais), na hipótese de isenção tarifária de 50% (cinquenta por cento) para o estudante regularmente inscrito no Ensino Fundamental, Médio, Técnico, Profissionalizante, Graduação ou Preparatório;"
+  },
+  {
+   "id": "art-4/par-1/inc-II/ali-c",
+   "pai": "art-4/par-1/inc-II",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "até R$ 1.650,00 (mil, seiscentos e cinquenta reais), na hipótese de:"
+  },
+  {
+   "id": "art-4/par-1/inc-II/ali-c/item-1",
+   "pai": "art-4/par-1/inc-II/ali-c",
+   "tipo": "item",
+   "rotulo": "1.",
+   "texto": "isenção tarifária de 100% (cem por cento) para o estudante regularmente inscrito no Ensino Fundamental;"
+  },
+  {
+   "id": "art-4/par-1/inc-II/ali-c/item-2",
+   "pai": "art-4/par-1/inc-II/ali-c",
+   "tipo": "item",
+   "rotulo": "2.",
+   "texto": "isenção tarifária de 75% (setenta e cinco por cento) para o estudante regularmente inscrito no Ensino Médio e Técnico; e"
+  },
+  {
+   "id": "art-4/par-1/inc-II/ali-c/item-3",
+   "pai": "art-4/par-1/inc-II/ali-c",
+   "tipo": "item",
+   "rotulo": "3.",
+   "texto": "isenção tarifária de 50% (cinquenta por cento) para o estudante regularmente inscrito no ensino Profissionalizante, Superior ou Preparatório."
+  },
+  {
+   "id": "art-4/par-2",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Consideram-se cursos preparatórios, para efeitos desta Lei, aqueles que versem sobre os estudos prévios para acesso aos níveis de ensino, a saber:"
+  },
+  {
+   "id": "art-4/par-2/inc-I",
+   "pai": "art-4/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "os cursos preparatórios para seleção de acesso ao ensino médio;"
+  },
+  {
+   "id": "art-4/par-2/inc-II",
+   "pai": "art-4/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "os cursos pré-vestibulares;"
+  },
+  {
+   "id": "art-4/par-2/inc-III",
+   "pai": "art-4/par-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "os cursos preparatórios para o Exame Nacional do Ensino Médio (ENEM)."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Fica vedada a utilização da Passagem Escolar em domingos e feriados."
+  },
+  {
+   "id": "art-5/par-unico",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O disposto no caput deste artigo poderá ser excepcionalizado nas datas em que ocorrer a realização do Exame Nacional do Ensino Médio (ENEM)."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "A Passagem Escolar assegurará aos estudantes a isenção do valor da tarifa vigente do sistema de transporte coletivo por ônibus do Município de Porto Alegre, conforme os perfis de beneficiário e os percentuais de desconto estipulados no art. 2º, inc. I, inc. II, als. a e b¸ inc. III e inc. IV, al. f, desta Lei, mediante a apresentação do cartão da Bilhetagem Eletrônica, no perfil confeccionado especialmente para cada categoria."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Compete ao Município de Porto Alegre:"
+  },
+  {
+   "id": "art-7/inc-I",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o subsídio integral da isenção tarifária dos estudantes do Ensino Fundamental beneficiários da Passagem Escolar, incluída a isenção integral de eventual integração tarifária, observada a limitação de renda fixada nas als. a, b e c, item 1, do inc. II do § 1º do art. 4º desta Lei;"
+  },
+  {
+   "id": "art-7/inc-II",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o subsídio integral do benefício do Programa Vou à Escola, incluída eventual integração tarifária, no tocante à sua parcela de competência, assim definida nos arts. 8º e 9º da Lei nº 10.996, de 7 de dezembro de 2010;"
+  },
+  {
+   "id": "art-7/inc-III",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "o subsídio de 40% (quarenta por cento) da tarifa social única para os beneficiários da Passagem Escolar no Ensino Médio, incluída a isenção integral de eventual integração tarifária, observada a limitação de renda fixada nas als. a, b e c, item 2, do inc. II do § 1º do art. 4º desta Lei."
+  },
+  {
+   "id": "art-7/par-unico",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Município de Porto Alegre poderá promover medidas de captação de recursos para o subsídio da isenção tarifária de que trata este artigo, em especial por meio de fundos públicos cujos objetivos e destinações porventura guardem relação com a educação, a mobilidade ou a assistência social."
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "O Município de Porto Alegre, por intermédio da Empresa Pública de Transporte e Circulação (EPTC), manterá ações de controle com entidades e instituições representativas dos beneficiários, as quais possuem obrigação de informar imediatamente ao órgão público a ocorrência de alteração na condição do perfil do beneficiário por elas representado."
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "texto": "O benefício de isenção tarifária será concedido ao idoso que possua idade igual ou superior a 65 (sessenta e cinco) anos, na forma do § 2º do art. 230 da Constituição Federal e do art. 39 da Lei Federal nº 10.741, de 1º de outubro de 2003, e será fruído mediante:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Da isenção ao idoso"
+    }
+   ]
+  },
+  {
+   "id": "art-9/inc-I",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a apresentação de documento de identidade do beneficiário; ou"
+  },
+  {
+   "id": "art-9/inc-II",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a apresentação do cartão da Bilhetagem Eletrônica emitido pela EPTC."
+  },
+  {
+   "id": "art-9/par-1",
+   "pai": "art-9",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O Município de Porto Alegre poderá promover medidas de captação de recursos para o subsídio da isenção tarifária de que trata este artigo, por meio de fundos públicos cujos objetivos e destinações porventura guardem relação com a mobilidade ou a assistência social, em especial aqueles oriundos do Fundo Municipal do Idoso."
+  },
+  {
+   "id": "art-9/par-2",
+   "pai": "art-9",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "texto": "O benefício de isenção tarifária será concedido à pessoa com deficiência permanente física, mental, auditiva ou visual e que comprovar, ainda:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "III",
+     "titulo": "Da isenção à pessoa com deficiência permanente física, mental, auditiva ou visual"
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-I",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a manutenção de cadastro regular e atualizado junto à sua entidade representativa ou assistencial, conforme a hipótese legal de isenção;"
+  },
+  {
+   "id": "art-10/inc-II",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "sua inscrição no CadÚnico;"
+  },
+  {
+   "id": "art-10/inc-III",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "sua hipossuficiência e carência financeira, caracterizadas pela percepção de renda familiar não superior a R$ 6.600,00 (seis mil e seiscentos reais);"
+  },
+  {
+   "id": "art-10/inc-IV",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "seu domicílio no Município de Porto Alegre."
+  },
+  {
+   "id": "art-10/par-1",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O requerente da concessão ou da renovação da isenção referida neste artigo e os documentos comprobatórios de sua condição de saúde serão submetidos à avaliação de junta médica instituída para tal fim, que emitirá parecer acerca da condição de saúde autorizativa para a concessão do benefício, por ocasião:"
+  },
+  {
+   "id": "art-10/par-1/inc-I",
+   "pai": "art-10/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "do primeiro cadastramento do beneficiário;"
+  },
+  {
+   "id": "art-10/par-1/inc-II",
+   "pai": "art-10/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "da tramitação de processos de auditoria ou fiscalização de benefício, na hipótese de existir dúvida acerca do preenchimento das condições de saúde autorizativas; e"
+  },
+  {
+   "id": "art-10/par-1/inc-III",
+   "pai": "art-10/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "da solicitação pela EPTC."
+  },
+  {
+   "id": "art-10/par-2",
+   "pai": "art-10",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A junta médica referida no § 1º deste artigo será integrada por profissionais designados na forma determinada pelo Executivo Municipal, preferencialmente dentre seus servidores, ou contratados pelas concessionárias do serviço de transporte coletivo, hipótese em que seu custo configurará despesa para fins de cálculo tarifário."
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "texto": "O Município de Porto Alegre poderá promover medidas de captação de recursos para o subsídio da isenção tarifária de que trata esta Seção, por meio de fundos públicos cujos objetivos e destinações porventura guardem relação com a mobilidade ou a assistência social, em especial o Fundo Municipal de Saúde (FMS), instituído pela Lei Complementar nº 5.557 de 9 de janeiro de 1985."
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "texto": "O benefício de isenção tarifária será concedido à pessoa que vive com HIV ou aids que seja atendida pelos serviços de saúde no âmbito do Município de Porto Alegre e que apresentar:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "IV",
+     "titulo": "Da isenção à pessoa que vive com HIV ou aids"
+    }
+   ]
+  },
+  {
+   "id": "art-12/inc-I",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "atestado médico que comprove sua condição de pessoa que vive com HIV ou aids, bem como a necessidade de acompanhante;"
+  },
+  {
+   "id": "art-12/inc-II",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "ficha de notificação do caso de HIV ou aids do Ministério da Saúde, fornecida pela Vigilância em Saúde de Porto Alegre, conforme registro no Sistema de Informações de Agravos de Notificação (Sinan);"
+  },
+  {
+   "id": "art-12/inc-III",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a manutenção de cadastro atualizado junto à sua entidade representativa ou assistencial;"
+  },
+  {
+   "id": "art-12/inc-IV",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "sua inscrição no CadÚnico;"
+  },
+  {
+   "id": "art-12/inc-V",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "comprovação de suas condições de hipossuficiência e carência financeira, caracterizadas pela percepção de renda familiar não superior a R$ 6.600,00 (seis mil e seiscentos reais);"
+  },
+  {
+   "id": "art-12/inc-VI",
+   "pai": "art-12",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "comprovação de seu domicílio no Município de Porto Alegre."
+  },
+  {
+   "id": "art-12/par-unico",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Município Porto Alegre poderá promover medidas de captação de recursos para o subsídio da isenção tarifária de que trata este artigo, por meio de fundos públicos cujos objetivos e destinações porventura guardem relação com a mobilidade ou a assistência social, em especial o FMS."
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "texto": "O benefício de isenção tarifária será concedido à criança ou ao adolescente necessitado que comprovar se encontrar:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "V",
+     "titulo": "Da isenção para crianças e adolescentes assistidos"
+    }
+   ]
+  },
+  {
+   "id": "art-13/inc-I",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "matriculado ou vinculado em entidade assistencial ou socioeducativa como FASE, FASC e FPE;"
+  },
+  {
+   "id": "art-13/inc-II",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "desenvolvendo atividades em turno e contraturno nas entidades referidas no inc. I deste artigo ou em instituições públicas ou entidades a elas conveniadas;"
+  },
+  {
+   "id": "art-13/inc-III",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "inscrito no CadÚnico;"
+  },
+  {
+   "id": "art-13/inc-IV",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "em condições de hipossuficiência e carência financeira, caracterizadas pela percepção de renda familiar per capita não superior a R$ 1.650,00 (mil, seiscentos e cinquenta eais); e"
+  },
+  {
+   "id": "art-13/inc-V",
+   "pai": "art-13",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "com domicílio no Município de Porto Alegre."
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "texto": "Fica fixado em 60 (sessenta) o número máximo de utilizações ou viagens mensais permitidas aos beneficiários da isenção de que trata esta Seção, correspondente a igual número de tarifas do transporte coletivo por ônibus do Município de Porto Alegre, salvo se comprovada necessidade de maior número de passagens mensais."
+  },
+  {
+   "id": "art-14/par-unico",
+   "pai": "art-14",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O procedimento para verificação do número de viagens prevista neste artigo será regulamentado por decreto."
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "texto": "O Município de Porto Alegre poderá promover medidas de captação de recursos para o subsídio da isenção tarifária de que trata esta Seção, por meio de fundos públicos cujos objetivos e destinações porventura guardem relação com a educação, a mobilidade ou a assistência social, em especial o Fundo Municipal de Assistência Social (FMAS), instituído pela Lei Complementar nº 352, de 8 de agosto de 1995."
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "texto": "Fica autorizada a concessão de isenção tarifária a 1 (um) acompanhante por vez dos beneficiários referidos nas Seções III, IV e V deste Capítulo, mediante:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "VI",
+     "titulo": "Dos acompanhantes de beneficiários"
+    }
+   ]
+  },
+  {
+   "id": "art-16/inc-I",
+   "pai": "art-16",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "comprovação da imprescindibilidade de tal acompanhamento;"
+  },
+  {
+   "id": "art-16/inc-II",
+   "pai": "art-16",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "demonstração de inscrição no CadÚnico;"
+  },
+  {
+   "id": "art-16/inc-III",
+   "pai": "art-16",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "demonstração das condições de hipossuficiência e carência financeira, caracterizadas pela percepção de renda familiar máxima não superior àquela fixada nesta Lei; e"
+  },
+  {
+   "id": "art-16/inc-IV",
+   "pai": "art-16",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "comprovação de domicílio no Município de Porto Alegre."
+  },
+  {
+   "id": "art-16/par-1",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A isenção tarifária do acompanhante é benefício acessório da isenção principal e a esta fica vinculada, de modo que sua utilização somente poderá ser efetuada nas ocasiões em que o isento principal estiver utilizando o mesmo prefixo e viagem do transporte coletivo por ônibus."
+  },
+  {
+   "id": "art-16/par-2",
+   "pai": "art-16",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Excetua-se do disposto no § 1º deste artigo as situações em que o acompanhante justificar deslocamentos individuais efetuados em proveito do beneficiário, conforme regulamentação desta Lei."
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "texto": "Fica fixado em 60 (sessenta) o número máximo de utilizações ou viagens mensais permitidas aos acompanhantes de que trata esta Seção, correspondente a igual número de tarifas do transporte coletivo por ônibus do Município de Porto Alegre, salvo se comprovada necessidade de maior número de passagens mensais."
+  },
+  {
+   "id": "art-17/par-unico",
+   "pai": "art-17",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O procedimento para verificação do número de viagens prevista neste artigo será regulamentado por decreto."
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "texto": "O Município de Porto Alegre poderá promover medidas de captação de recursos para o subsídio da isenção tarifária de que trata esta Seção, por meio de fundos públicos cujos objetivos e destinações porventura guardem relação com a educação, a mobilidade ou a assistência social, em especial o FMAS."
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "texto": "O benefício de isenção tarifária será concedido ao soldado da Brigada Militar ou do Corpo de Bombeiros Militar do Estado do Rio Grande do Sul que:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "VII",
+     "titulo": "Das isenções pelo exercício de atividade profissional"
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "se apresentar devidamente uniformizado na ocasião de ingresso no veículo; ou"
+  },
+  {
+   "id": "art-19/inc-II",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "apresente o cartão eletrônico da Bilhetagem Eletrônica emitido pela EPTC."
+  },
+  {
+   "id": "art-19/par-unico",
+   "pai": "art-19",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A isenção tarifária referida neste artigo somente será devida aos profissionais que se encontrarem na ativa, não sendo concedida aos aposentados, reformados, da reserva ou inativos de qualquer espécie."
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "texto": "As isenções tarifárias serão necessariamente usufruídas mediante a apresentação do Cartão de Bilhetagem Eletrônica do Município de Porto Alegre, salvo nas exceções previstas nesta Lei ou em sua regulamentação e nos casos em que possam ser identificadas pela uniformização do usuário.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "VIII",
+     "titulo": "Dos procedimentos de controle, fiscalização e auditagem das isenções tarifárias"
+    }
+   ]
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "texto": "Fica autorizada a cobrança de preço público e, quando for o caso, taxa de conveniência para a confecção do Cartão de Bilhetagem Eletrônica do Sistema de Transporte Coletivo por Ônibus do Município de Porto Alegre, conforme regulamentação desta Lei."
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "texto": "Compete à EPTC, na qualidade de gestora do Sistema de Transporte Coletivo por Ônibus do Município de Porto Alegre, a fiscalização das isenções e beneficiários referidos nesta Lei."
+  },
+  {
+   "id": "art-22/par-1",
+   "pai": "art-22",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O uso excessivo, atípico e não justificado das isenções, o mau uso do benefício de isenção tarifária ou a verificação da ocorrência de fraude, falsidade de informações, desvirtuamento do objetivo do benefício ou qualquer outra irregularidade implicará a instauração de processo de apuração de responsabilidade, garantida a ampla defesa e o contraditório, ao final do qual, apurada a culpa ou o dolo dos envolvidos, serão aplicadas as penalidades administrativas de:"
+  },
+  {
+   "id": "art-22/par-1/inc-I",
+   "pai": "art-22/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "cassação do benefício;"
+  },
+  {
+   "id": "art-22/par-1/inc-II",
+   "pai": "art-22/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "vedação à obtenção de quaisquer dos benefícios, senão transcorridos 60 (sessenta) meses da aplicação da penalidade de cassação;"
+  },
+  {
+   "id": "art-22/par-1/inc-III",
+   "pai": "art-22/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "determinação de ressarcimento dos valores de tarifa que foram deixados de ser cobrados no curso do mau uso do benefício, a serem repassados à Câmara de Compensação Tarifária, para fins de modicidade tarifária."
+  },
+  {
+   "id": "art-22/par-2",
+   "pai": "art-22",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O benefício de isenção tarifária poderá ser suspenso preventivamente, no curso do processo administrativo de apuração da responsabilidade, na hipótese de a EPTC justificar tal medida de modo a evitar a prática de grave irregularidade ou evitar grave prejuízo ao sistema de isenções tarifárias, convocando-se o beneficiário para apresentar alegações preliminares em até 48 (quarenta e oito) horas, quando poderá ser reavaliada a suspensão aplicada."
+  },
+  {
+   "id": "art-22/par-3",
+   "pai": "art-22",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "A aplicação das penalidades administrativas referidas no § 1º deste artigo não isenta os envolvidos de outras sanções penais, cíveis ou administrativas que se mostrarem cabíveis."
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "texto": "A EPTC realizará recadastramentos periódicos de todos os beneficiários do Sistema de Isenções Tarifárias do Transporte Coletivo por Ônibus do Município de Porto Alegre, para fins de modicidade tarifária, controle dos benefícios concedidos, coibição de irregularidades e responsabilização dos infratores, conforme critérios, cronogramas e procedimentos fixados pelo Executivo Municipal."
+  },
+  {
+   "id": "art-24",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 24.",
+   "texto": "Compete ao beneficiário comprovar o preenchimento dos requisitos autorizativos da isenção:"
+  },
+  {
+   "id": "art-24/inc-I",
+   "pai": "art-24",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "por ocasião da primeira solicitação do benefício;"
+  },
+  {
+   "id": "art-24/inc-II",
+   "pai": "art-24",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "periodicamente, conforme cronogramas definidos pelo Executivo Municipal; e"
+  },
+  {
+   "id": "art-24/inc-III",
+   "pai": "art-24",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "sempre que assim determinado pela EPTC, em razão de procedimentos de controle, fiscalização e auditagem das isenções tarifárias."
+  },
+  {
+   "id": "art-25",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 25.",
+   "texto": "Para os fins de aferição da renda familiar exigida nesta Lei, considera-se família o núcleo de pessoas formado por, no mínimo, 1 (um) dos pais ou responsável legal, filhos ou dependentes que estejam sob sua tutela ou guarda, devidamente formalizados pelo juízo competente, bem como parentes ou outros indivíduos que residam com o grupo, sob o mesmo teto, e contribuam economicamente para sua subsistência."
+  },
+  {
+   "id": "art-26",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 26.",
+   "texto": "Os procedimentos de controle, fiscalização e auditagem referidos nesta Lei serão aplicados, ainda, em relação à utilização, ao cadastro e à emissão de cartões eletrônicos do vale transporte no Sistema de Transporte Público do Município de Porto Alegre."
+  },
+  {
+   "id": "art-27",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 27.",
+   "texto": "A validade das isenções concedidas anteriormente a esta Lei e na forma da legislação então vigente fica condicionada à revisão e consequente revalidação do benefício, a ser realizada em procedimento de recadastramento a ser efetuado no prazo de até 12 (doze) meses após a publicação desta Lei, conforme regulamentação por decreto.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "III",
+     "titulo": "DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS"
+    }
+   ]
+  },
+  {
+   "id": "art-28",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 28.",
+   "texto": "O valor das faixas de renda máxima que autorizam a concessão dos benefícios de isenção tarifária fixadas nesta Lei serão reajustadas anualmente, por decreto."
+  },
+  {
+   "id": "art-29",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 29.",
+   "texto": "Fica o Executivo Municipal autorizado a custear provisoriamente a gratuidade da passagem escolar dos estudantes de Ensino Fundamental, Médio e Técnico, nas proporções estabelecidas nesta Lei, até que seja efetuada a renovação periódica do benefício, conforme previsto no § 2º do art. 3º desta Lei, ocasião em que será verificado o preenchimento dos requisitos para a concessão do benefício de forma definitiva."
+  },
+  {
+   "id": "art-29/par-1",
+   "pai": "art-29",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O beneficiário da gratuidade da Passagem Escolar deverá preencher todos os requisitos para sua concessão em até 12 (doze) meses, contados da data de publicação desta Lei."
+  },
+  {
+   "id": "art-29/par-2",
+   "pai": "art-29",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Fica o Executivo Municipal autorizado a regulamentar, por decreto, a metodologia das isenções previstas nesta Lei durante o período previsto no caput deste artigo, guardadas as proporções estabelecidas no art. 7º desta Lei."
+  },
+  {
+   "id": "art-30",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 30.",
+   "texto": "Fica o Executivo Municipal autorizado a remanejar os créditos constantes na Lei nº 12.797, de 29 de dezembro de 2020 – Lei Orçamentária Anual (LOA) 2021 –, a fim de garantir a execução dos objetivos desta Lei, resguardada a finalidade da aplicação do recurso."
+  },
+  {
+   "id": "art-31",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 31.",
+   "texto": "Fica o Executivo Municipal autorizado a abrir crédito especial na LOA 2021, em favor, conforme o caso, da Secretaria Municipal de Desenvolvimento Social (SMDS), SMS, FASC e Secretaria Municipal de Educação (SMED), para o cumprimento desta Lei, obedecidas as prescrições contidas nos incs. I a IV do § 1º do art. 43 da Lei Federal nº 4.320, de 17 de março de 1964, e alterações posteriores, bem como proceder às alterações necessárias na Lei de Diretrizes Orçamentárias (LDO) 2021 e na Lei nº 12.297, de 4 de setembro de 2017 (Plano Plurianual 2018-2021), no limite do valor equivalente a 0,4% (zero vírgula quatro por cento) da Receita Corrente Líquida Municipal projetada na Lei de Diretrizes Orçamentárias anualmente, assim, considerada."
+  },
+  {
+   "id": "art-32",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 32.",
+   "texto": "Fica o Executivo Municipal autorizado a instituir, na SMED, a Unidade Orçamentária denominada “Custeio das Isenções Tarifárias do Transporte Coletivo Estudantes”, destinada a alocar os recursos e a permitir a execução orçamentária da despesa, tendo os Recursos-Livres do Tesouro Municipal como fonte de recursos."
+  },
+  {
+   "id": "art-33",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 33.",
+   "texto": "Fica incluído art. 32-B na Lei nº 8.133, de 12 de janeiro de 1998, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 32-B Os créditos eletrônicos da tarifa do transporte coletivo por ônibus do\nMunicípio de Porto Alegre prescrevem em 365 (trezentos e sessenta e cinco) dias, contados da\ndata de sua aquisição pelo usuário ou por terceiro.\nParágrafo único. Os créditos prescritos serão revertidos, exclusivamente, para a\nmodicidade tarifária do transporte coletivo por ônibus e compõem as receitas extratarifárias da\nCCT, de que trata o art. 32 desta Lei.”"
+  },
+  {
+   "id": "art-34",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 34.",
+   "texto": "Fica incluído § 2º, renomeando-se o parágrafo único para § 1º e mantendo-se sua redação atual, no art. 1º da Lei nº 10.996, de 7 de dezembro de 2010, alterada pela Lei nº 11.420, de 19 de fevereiro de 2013, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º .....................................................................................................................\n§ 1º .............................................................................................................................\n§ 2º O custeio do transporte dos beneficiários do Programa Vou à Escola\nobservará o valor integral da tarifa social única do Serviço de Transporte Coletivo por Ônibus do\nMunicípio de Porto Alegre.”"
+  },
+  {
+   "id": "art-35",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 35.",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-36",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 36.",
+   "texto": "O Executivo Municipal regulamentará esta Lei, no que couber, em especial no que tange aos procedimentos administrativos de solicitação das isenções, à cota máxima mensal de aquisição de créditos da Passagem Escolar, às doenças que autorizam a concessão do benefício da isenção tarifária e à forma de comprovação de carência financeira."
+  },
+  {
+   "id": "art-37",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 37.",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-38",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 38.",
+   "texto": "Ficam revogadas:"
+  },
+  {
+   "id": "art-38/inc-I",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a Lei nº 1.436, de 20 de julho de 1955;"
+  },
+  {
+   "id": "art-38/inc-II",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a Lei nº 1.775, de 20 de agosto de 1957;"
+  },
+  {
+   "id": "art-38/inc-III",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a Lei nº 1.980, de 25 de agosto de 1959;"
+  },
+  {
+   "id": "art-38/inc-IV",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "a Lei nº 4.454, de 19 de setembro de 1978;"
+  },
+  {
+   "id": "art-38/inc-V",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "a Lei nº 4.572, de 26 de junho de 1979;"
+  },
+  {
+   "id": "art-38/inc-VI",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "a Lei nº 4.683, de 20 de dezembro de 1979;"
+  },
+  {
+   "id": "art-38/inc-VII",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "a Lei nº 4.710, de 9 de janeiro de 1980;"
+  },
+  {
+   "id": "art-38/inc-VIII",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "a Lei nº 4.864, de 19 de dezembro de 1980;"
+  },
+  {
+   "id": "art-38/inc-IX",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "a Lei nº 5.288, de 4 de maio de 1983;"
+  },
+  {
+   "id": "art-38/inc-X",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "texto": "a Lei nº 5.335, de 5 de dezembro de 1983;"
+  },
+  {
+   "id": "art-38/inc-XI",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "texto": "a Lei nº 5.397, de 10 de janeiro de 1984;"
+  },
+  {
+   "id": "art-38/inc-XII",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "texto": "a Lei nº 5.415, de 25 de maio de 1984;"
+  },
+  {
+   "id": "art-38/inc-XIII",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "texto": "a Lei nº 5.548, de 28 de dezembro de 1984;"
+  },
+  {
+   "id": "art-38/inc-XIV",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XIV –",
+   "texto": "a Lei nº 6.140, de 6 de julho de 1988;"
+  },
+  {
+   "id": "art-38/inc-XV",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XV –",
+   "texto": "a Lei nº 6.431, de 3 de agosto de 1989;"
+  },
+  {
+   "id": "art-38/inc-XVI",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XVI –",
+   "texto": "a Lei nº 6.442, de 11 de setembro de 1989;"
+  },
+  {
+   "id": "art-38/inc-XVII",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XVII –",
+   "texto": "a Lei nº 6.998, de 10 de janeiro de 1992;"
+  },
+  {
+   "id": "art-38/inc-XVIII",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XVIII –",
+   "texto": "a Lei nº 7.017, de 27 de março de 1992;"
+  },
+  {
+   "id": "art-38/inc-XIX",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XIX –",
+   "texto": "a Lei nº 7.462, de 20 de julho de 1994;"
+  },
+  {
+   "id": "art-38/inc-XX",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XX –",
+   "texto": "a Lei nº 7.631, de 4 de julho de 1995;"
+  },
+  {
+   "id": "art-38/inc-XXI",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XXI –",
+   "texto": "a Lei nº 7.784, de 24 de abril de 1996;"
+  },
+  {
+   "id": "art-38/inc-XXII",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XXII –",
+   "texto": "a Lei nº 7.820, de 19 de julho de 1996;"
+  },
+  {
+   "id": "art-38/inc-XXIII",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XXIII –",
+   "texto": "a Lei nº 8.600, de 13 de setembro de 2000;"
+  },
+  {
+   "id": "art-38/inc-XXIV",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XXIV –",
+   "texto": "a Lei nº 8.633, de 3 de novembro de 2000;"
+  },
+  {
+   "id": "art-38/inc-XXV",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XXV –",
+   "texto": "a Lei nº 10.060, de 2 de outubro de 2006;"
+  },
+  {
+   "id": "art-38/inc-XXVI",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XXVI –",
+   "texto": "a Lei nº 10.999, de 7 de dezembro de 2010;"
+  },
+  {
+   "id": "art-38/inc-XXVII",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XXVII –",
+   "texto": "a Lei nº 11.768, de 5 de janeiro de 2015;"
+  },
+  {
+   "id": "art-38/inc-XXVIII",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XXVIII –",
+   "texto": "a Lei nº 12.503, de 24 de janeiro de 2019; e"
+  },
+  {
+   "id": "art-38/inc-XXIX",
+   "pai": "art-38",
+   "tipo": "inciso",
+   "rotulo": "XXIX –",
+   "texto": "a Lei nº 12.806, de 1º de março de 2021."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 38,
+   "dispositivos": 155,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

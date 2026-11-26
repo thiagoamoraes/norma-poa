@@ -1,0 +1,70 @@
+{
+ "idSapl": 43413,
+ "rotulo": "Lei municipal nº 12.885, de 15 de outubro de 2021",
+ "sha256Origem": "1d8a82c9c5ff80293c67fd1cbe84c0662cb92de6fcb4e260bf9b12b3fcfd8836",
+ "estruturadoEm": "2026-11-26T09:19:29.568Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12885",
+  "ano": "2021",
+  "data": "2021-10-15",
+  "epigrafe": "LEI Nº 12.885, DE 15 DE OUTUBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Natal Morro da Luz no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, no mês de dezembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 15 de outubro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEleonora Braz Serralta,\nProcuradora-Geral, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Natal Morro da Luz no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nDEZEMBRO\nPERÍODO         EVENTO          DESCRIÇÃO E LOCAL DO EVENTO\nNo mês    NATAL MORRO DA LUZ O Natal Morro da Luz é uma intervenção\nurbana no Morro da Cruz que tem por\nobjetivo modificar a paisagem local a partir\nda construção coletiva de evento feito por\nmoradores e em parceria com instituições,\nempresas, organizações e governos. O evento\nbusca criar um ambiente de cooperação entre\nos diferentes agentes locais, dar visibilidade e\npotencializar negócios e pessoas.\nLocal: Morro da Cruz."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 12,
+     "caracteres": 484,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "idSapl": 43344,
+ "rotulo": "Lei municipal nº 12.869, de 10 de setembro de 2021",
+ "sha256Origem": "ad6bbc549994048b7e8975b884ee730068148f64941694ffcfb4426c6742017f",
+ "estruturadoEm": "2026-11-26T09:19:29.658Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12869",
+  "ano": "2021",
+  "data": "2021-09-10",
+  "epigrafe": "LEI Nº 12.869, DE 10 DE SETEMBRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui campanha permanente de combate à pedofilia e ao abuso e à exploração sexual de crianças e adolescentes.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de setembro de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída campanha permanente de combate à pedofilia e ao abuso e à exploração sexual de crianças e adolescentes."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os órgãos municipais responsáveis pelas políticas públicas dirigidas a crianças e adolescentes, em articulação com órgãos colegiados e organizações não governamentais, implementarão a campanha de que trata esta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A campanha instituída por esta Lei consiste na divulgação, pelos meios que se mostrarem oportunos, de mensagens sobre a prevenção e o combate aos temas referidos no art. 1º desta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Executivo Municipal poderá especificar os locais que receberão os materiais da campanha instituída por esta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica facultado ao Executivo Municipal utilizar as verbas publicitárias destinadas à comunicação social na aplicação da campanha permanente de que trata esta Lei."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 6,
+   "cobertura": 0.942,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}
