@@ -30,6 +30,28 @@ import { slugDoRotulo } from './estrutura.mjs';
 const TIPO_ATO = { 5: 'LEI', 6: 'LEI COMPLEMENTAR' };
 const fonteDoRegistro = (r) => ({ tipoAto: TIPO_ATO[r.tipoSapl], numero: r.numero, ano: String(r.ano), dataPublicacao: r.data });
 
+const MESES = { janeiro: 1, fevereiro: 2, 'março': 3, marco: 3, abril: 4, maio: 5, junho: 6, julho: 7, agosto: 8, setembro: 9, outubro: 10, novembro: 11, dezembro: 12 };
+const anoDe4 = (a) => { const n = Number(a); return n >= 100 ? n : n > 30 ? 1900 + n : 2000 + n; };
+const isoData = (d, m, a) => `${a}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+/**
+ * marcoDeCompilacao(textoDaBase) → { tipo: 'EMENDA'|'LC', numero, ano?, data?, rotulo } | null
+ * O arquivo da base JÁ É uma compilação feita pela fonte, declarada no cabeçalho (decisão 57, item 2). Só reconhece os três
+ * modos reais de declarar, vistos nos textos: "Atualizada até Emenda n.º 48, de 05.05.2022" (LO 1/1990, id 25277),
+ * "(ALTERAÇÕES INSERIDAS NO TEXTO ATÉ A LC 702/12)" (LC 12/1975, id 17878) e "atualizada e compilada até a Lei Complementar nº 667,
+ * de 3 de janeiro de 2011" (LC 434/1999, id 30209). Sem marcador explícito, devolve null (nunca adivinha: a LC 170/1987 não tem).
+ */
+export function marcoDeCompilacao(texto) {
+  const t = String(texto || '').slice(0, 20000).replace(/\s+/g, ' ');
+  let m;
+  if ((m = /atualizad[ao]\s+até\s+(?:a\s+)?Emenda(?:\s+à\s+Lei\s+Org[âa]nica)?\s*n\.?\s*[º°o]?\.?\s*(\d+)\s*,?\s*de\s+(\d{2})[./](\d{2})[./](\d{4})/i.exec(t)))
+    return { tipo: 'EMENDA', numero: String(Number(m[1])), data: isoData(m[2], m[3], m[4]), rotulo: `Emenda à Lei Orgânica nº ${Number(m[1])}` };
+  if ((m = /ALTERA[ÇC][ÕO]ES\s*INSERIDAS\s*NO\s*TEXTO\s*AT[ÉE]\s*A?\s*(?:L\.?\s?C\.?|Lei\s+Complementar)\s*n?[ºo.]?\s*(\d+)\s*\/\s*(\d{2,4})/i.exec(t)))
+    return { tipo: 'LC', numero: String(Number(m[1])), ano: anoDe4(m[2]), rotulo: `Lei Complementar nº ${Number(m[1])}/${anoDe4(m[2])}` };
+  if ((m = /atualizada\s+e\s+compilada\s+até\s+a\s+Lei\s+Complementar\s*n?[ºo.]?\s*(\d+)\s*,\s*de\s+(\d{1,2})[ºo]?\s+de\s+([a-zçÇ]+)\s+de\s+(\d{4})/i.exec(t)) && MESES[m[3].toLowerCase()])
+    return { tipo: 'LC', numero: String(Number(m[1])), ano: Number(m[4]), data: isoData(m[2], MESES[m[3].toLowerCase()], m[4]), rotulo: `Lei Complementar nº ${Number(m[1])}/${m[4]}` };
+  return null;
+}
+
 /** "art. 2º" / "§ 3º do art. 2º" (chave do core) → "art-2" / "art-2/par-3". */
 export function chaveParaId(chave) {
   const partes = String(chave).split(' do ').reverse();
@@ -80,18 +102,29 @@ export function apurarHistorico(base, alteradoras) {
   const v0 = criarVersaoOriginal(parseMinuta(limpar(base.texto)), fonteDoRegistro(base.registro));
   const arvores = [v0];
   const versoes = [{ indice: 0, id: v0.id, data: base.registro.data, fonte: null }];
+  // (o marco da compilação da fonte, quando houver, é anotado na versão 0 mais abaixo)
   const naoAplicadas = [];
   const descartadas = [];
   const anexosAlterados = []; // alteradora, data e trecho de cada artigo que mexe em anexo desta lei (o motor não apura anexos)
   const aConferir = new Map(); // id → data mais antiga a partir da qual há dúvida
   const duvida = (id, data) => { if (!aConferir.has(id) || data < aConferir.get(id)) aConferir.set(id, data); };
   let v = v0;
+  // Base que já é compilação da fonte (decisão 57, item 2): as alteradoras até o marco declarado NÃO são reaplicadas (já estão no texto);
+  // reaplicá-las deslocava artigos e duplicava dispositivos. Sem data do marco, nada é pulado (e a consulta avisa).
+  const marco = marcoDeCompilacao(base.texto);
+  let marcoData = null;
+  if (marco) {
+    marcoData = marco.data || (alteradoras.find((a) => a.registro.tipoSapl === 6 && String(Number(a.registro.numero)) === marco.numero && Number(a.registro.ano) === marco.ano) || {}).registro?.data || null;
+  }
+  const incorporadas = []; // alteradoras que a compilação da fonte já inclui
+  const aplicadasARevisar = []; // alteradoras aplicadas cujo texto a estruturação ainda não aceitou (decisão 57, item 3)
 
   const emOrdem = [...alteradoras].sort((a, b) => String(a.registro.data).localeCompare(String(b.registro.data)) || a.registro.idSapl - b.registro.idSapl);
   for (const alt of emOrdem) {
     const raw = limpar(alt.texto);
     const fonte = fonteDoRegistro(alt.registro);
     const quem = { idSapl: alt.registro.idSapl, rotulo: alt.registro.rotulo };
+    if (marcoData && String(alt.registro.data) <= marcoData) { incorporadas.push({ ...quem, data: alt.registro.data }); continue; }
     const doc = parseMinuta(raw, detectNRCandidates(raw));
     const chaveBase = chaveLei(fonteDoRegistro(base.registro).tipoAto, base.registro.numero, String(base.registro.ano));
     // a lei citada é a desta base? (intervalo "arts. 43 a 61" só se expande contra a lei certa; também decide `dispositivosCitados` abaixo)
@@ -132,6 +165,12 @@ export function apurarHistorico(base, alteradoras) {
         }).filter(Boolean))];
         naoAplicadas.push({ alteradora: quem, motivo: 'aplicada_em_parte', detalhe: reais.map((l) => l.erro).join(' | '), enderecos });
         enderecos.forEach((e) => duvida(e, alt.registro.data));
+      }
+      // Alteradora aplicada, mas cuja leitura NÃO foi aceita pela estruturação ("a revisar"): os dispositivos que ela mexeu ficam "a conferir"
+      // (antes saíam como certos, com lixo de OCR ou texto incompleto, e `naoAplicadas` vazio).
+      if (alt.situacaoEstruturacao === 'revisar') {
+        efetivos.forEach((k) => { const id = k.dispositivoAlvo ? chaveParaId(k.dispositivoAlvo) : null; if (id) duvida(id, alt.registro.data); });
+        aplicadasARevisar.push({ ...quem, data: alt.registro.data });
       }
       v = r.versaoFinal;
       arvores.push(v);
@@ -184,7 +223,10 @@ export function apurarHistorico(base, alteradoras) {
     const datas = [...aConferir].filter(([e]) => id === e || id.startsWith(e + '/')).map(([, d]) => d);
     if (datas.length) conferir.push({ id, desde: datas.sort()[0] });
   }
-  return { versoes, dispositivos: ordem.map((id) => porId.get(id)), naoAplicadas, aConferir: conferir, ...(anexosAlterados.length ? { anexosAlterados } : {}), ...(descartadas.length ? { descartadas } : {}) };
+  if (marco) versoes[0].compiladoAte = { rotulo: marco.rotulo, data: marcoData };
+  return { versoes, dispositivos: ordem.map((id) => porId.get(id)), naoAplicadas, aConferir: conferir,
+    ...(marco ? { compilacaoDaFonte: { marco: { rotulo: marco.rotulo, data: marcoData }, incorporadas, ...(marcoData ? {} : { semData: true }) } } : {}),
+    ...(aplicadasARevisar.length ? { aplicadasARevisar } : {}), ...(anexosAlterados.length ? { anexosAlterados } : {}), ...(descartadas.length ? { descartadas } : {}) };
 }
 
 // ─── Quais leis têm histórico a apurar: dos vínculos da fonte ──────────────────

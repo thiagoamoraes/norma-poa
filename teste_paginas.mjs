@@ -39,6 +39,20 @@ console.log('Consulta (LC 12/1975, id 17878: histórico incompleto, 480 disposit
   ok('o link permanente com &d= abre já no dispositivo', await c2.page.evaluate(() => document.getElementById('d-art-9').classList.contains('achado')));
   ok('sem erro de página', erros.length === 0 && c2.erros.length === 0); await c2.ctx.close();
 }
+console.log('Consulta (rodada 61: base já compilada pela fonte; alteradora com leitura não aprovada)');
+{
+  const { page, erros, ctx } = await abrir('docs/index.html#n=25277');
+  await page.waitForSelector('#versao', { timeout: 8000 });
+  const corpo = await page.$eval('#detalhe', (e) => e.innerText);
+  ok('LO 1/1990: avisa "Base já compilada pela fonte" até a Emenda nº 48', /Base já compilada pela fonte/.test(corpo) && /Emenda à Lei Orgânica nº 48/.test(corpo));
+  ok('LO 1/1990: a versão 0 é "texto compilado pela fonte até…", não "texto original"', /texto compilado pela fonte até a Emenda/.test(await page.$eval('#versao', (e) => e.innerText)));
+  ok('LO 1/1990: o aviso diz que as alteradoras até o marco não foram reaplicadas', /não foram reaplicadas/.test(corpo));
+  await ctx.close();
+  const c2 = await abrir('docs/index.html#n=38523');
+  await c2.page.waitForSelector('#versao', { timeout: 8000 });
+  ok('LC 703/2012: avisa "Alteradoras com leitura ainda não aprovada" (LC 766 aplicada, mas "a revisar")', /Alteradoras? com leitura ainda não aprovada/.test(await c2.page.$eval('#detalhe', (e) => e.innerText)));
+  ok('sem erro de página', erros.length === 0 && c2.erros.length === 0); await c2.ctx.close();
+}
 console.log('Consulta (EC 51, id 49145: sem histórico)');
 {
   const { page, erros, ctx } = await abrir('docs/index.html#n=49145');

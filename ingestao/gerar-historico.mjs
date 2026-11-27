@@ -75,7 +75,7 @@ for (const [base, e] of leis) {
       const reg = catalogo.get(id);
       if (!reg) continue;
       const t = await texto(id, e.arquivos);
-      (t ? alts : semTexto).push({ registro: reg, texto: t, candidataPelaEmenta: e.soPelaEmenta.has(id) });
+      (t ? alts : semTexto).push({ registro: reg, texto: t, candidataPelaEmenta: e.soPelaEmenta.has(id), situacaoEstruturacao: estruturacao[id] || null });
     }
     const h = apurarHistorico({ registro, texto: tBase }, alts);
     for (const x of semTexto) h.naoAplicadas.push({ alteradora: { idSapl: x.registro.idSapl, rotulo: x.registro.rotulo }, motivo: 'texto_indisponivel', detalhe: 'o texto desta alteradora ainda não foi baixado ou extraído', enderecos: [] });
