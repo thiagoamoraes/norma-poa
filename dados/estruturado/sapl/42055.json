@@ -1,0 +1,65 @@
+{
+ "idSapl": 42055,
+ "rotulo": "Lei municipal nº 12.542, de 02 de maio de 2019",
+ "sha256Origem": "53bc3a72a9d17837702d0e099ee262b45c660cba8832e02a57237c6cbf36cbf7",
+ "estruturadoEm": "2026-11-27T06:29:26.606Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12542",
+  "ano": "2019",
+  "data": "2019-05-02",
+  "epigrafe": "LEI Nº 12.542, DE 2 DE MAIO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Assegura ao aluno com deficiência a matrícula na escola da rede pública municipal de ensino mais próxima de sua residência, bem como a acessibilidade e o ensino adequado, por meio de professores habilitados para seu devido acolhimento.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de maio de 2019.\nMônica Leal,\nPrefeita, em exercício.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica assegurada ao aluno com deficiência a matrícula na escola da rede pública municipal de ensino mais próxima de sua residência, bem como a acessibilidade e o ensino adequado, por meio de professores habilitados para seu devido acolhimento."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A matrícula referida no caput deste artigo será efetivada quando forem observados os critérios e a autorização da Secretaria Municipal de Educação (Smed), a fim de que ocorra a inclusão social do aluno com deficiência."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Por ocasião da solicitação da matrícula, o aluno com deficiência deverá apresentar comprovante de residência e atestado médico."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

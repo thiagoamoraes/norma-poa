@@ -1,0 +1,86 @@
+{
+ "idSapl": 41957,
+ "rotulo": "Lei municipal nº 12.503, de 24 de janeiro de 2019",
+ "sha256Origem": "39a8e9ab1999bf62b9c245b7e2e2981fc8cb98583317993fce197f1b93b183f6",
+ "estruturadoEm": "2026-11-27T06:29:26.745Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12503",
+  "ano": "2019",
+  "data": "2019-01-24",
+  "epigrafe": "LEI Nº 12.503, DE 24 DE JANEIRO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Revoga a Lei nº 5.624, de 18 de setembro de 1985 – que estabelece a isenção do pagamento de tarifas de Transporte Coletivo do Município de Porto Alegre para as pessoas de mais de 60 (sessenta) anos, e dá outras providências –, fixando disposição transitória para os atuais beneficiários de referida isenção.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 24 de janeiro de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica revogada a Lei nº 5.624, de 18 de setembro de 1985."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os usuários do transporte coletivo por ônibus que já possuam o Cartão TRI para idosos na data da publicação desta Lei, nos termos da Lei nº 5.624, de 1985, permanecerão com o direito à isenção tarifária, desde que efetuem o recadastramento na Empresa Pública de Transporte e Circulação (EPTC) e comprovem, anualmente:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "residência no Município de Porto Alegre; e"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "percepção de renda mensal não superior a 3 (três) salários mínimos regionais."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A comprovação do atendimento ao disposto neste artigo deverá ser efetuada mediante o comparecimento pessoal do beneficiário na EPTC no mês de seu aniversário."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A matéria desta Lei será objeto de avaliação a cada 5 (cinco) anos, contados da data de sua publicação, visando a analisar os impactos que produzirá na planilha tarifária do setor de transporte coletivo do Município de Porto Alegre."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 7,
+   "cobertura": 0.952,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

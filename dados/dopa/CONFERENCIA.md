@@ -1,8 +1,8 @@
 # Conferência DOPA × catálogo
 
-Gerado em 2026-11-26T01:08:02.815Z por `ingestao/conferencia-dopa.mjs`. Não editar à mão.
+Gerado em 2026-11-27T01:07:41.282Z por `ingestao/conferencia-dopa.mjs`. Não editar à mão.
 
-Edições lidas: 36 · normas no catálogo: 10 · ausentes: 0 · atos que só o DOPA traz: 2
+Edições lidas: 40 · normas no catálogo: 10 · ausentes: 3 · atos que só o DOPA traz: 2
 
 ## Publicadas há mais de 7 dias e ausentes do catálogo
 
@@ -10,7 +10,11 @@ Nenhuma.
 
 ## Publicadas há pouco e ainda não catalogadas
 
-Nenhuma.
+| Norma | Publicada em | Republicação | Link |
+|---|---|---|---|
+| LEI Nº 14.698, DE 25 DE NOVEMBRO DE 2026. | 2026-11-26 (executivo) |  | http://dopaonlineupload.procempa.com.br/dopaonlineupload/6242_ce_637676_1.pdf |
+| LEI Nº 14.699, DE 25 DE NOVEMBRO DE 2026. | 2026-11-26 (executivo) |  | http://dopaonlineupload.procempa.com.br/dopaonlineupload/6242_ce_637680_1.pdf |
+| LEI Nº 14.700, DE 25 DE NOVEMBRO DE 2026. | 2026-11-26 (executivo) |  | http://dopaonlineupload.procempa.com.br/dopaonlineupload/6242_ce_637684_1.pdf |
 
 ## Atos que só o DOPA traz (fora do catálogo do SAPL)
 

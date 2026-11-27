@@ -1,0 +1,77 @@
+{
+ "idSapl": 42348,
+ "rotulo": "Lei municipal nº 12.647, de 09 de dezembro de 2019",
+ "sha256Origem": "fe0d7b6e28b330e0aa39ff2748bb24a49a0fea039102674e490dc26d3035b57f",
+ "estruturadoEm": "2026-11-27T06:29:26.202Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12647",
+  "ano": "2019",
+  "data": "2019-12-09",
+  "epigrafe": "LEI Nº 12.647, DE 9 DE DEZEMBRO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o item I – Cargos em Comissão –, constante no Anexo III – Quadro de Cargos em Comissão e Funções Gratificadas –, da Lei nº 6.203, de 3 de outubro de 1988, que estabelece o plano classificado de cargos dos funcionários do Departamento Municipal de Água e Esgotos, e alterações posteriores; e revoga o art. 9º da Lei nº 11.245, de 4 de abril de 2012.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de dezembro de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nSimone Somensi,\nProcuradora-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o item I – Cargos em Comissão –, constante no Anexo III – Quadro de Cargos em Comissão e Funções Gratificadas –, da Lei nº 6.203, de 3 de outubro de 1988, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica revogado o art. 9º da Lei nº 11.245, de 4 de abril de 2012."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“ANEXO III\nI – CARGOS EM COMISSÃO\n1.    GRUPO DE DIREÇÃO\nDENOMINAÇÃO                  CÓDIGO        QUANTIDADE\n1.1 - Com atribuições definidas\nDiretor-Geral Adjunto                            1.2.2.8       1\nChefe de Gabinete                                1.2.2.6       1\nDiretor                                          1.2.2.8       3\nCoordenador-Geral                                1.2.2.6       2\nCoordenador                                      1.2.2.5       2\nEquipe de Apoio-Técnico Funcional                1.2.2.5       1\nEquipe de Orçamento                              1.2.2.5       1\nEquipe de Projetos III                           1.2.2.5       1\nEquipe de Projetos I                             1.2.2.5       1\nEquipe Documentação Técnica                      1.2.2.5       1\nEquipe de Obras II                               1.2.2.5       1\nSeção ETAS Centro                                1.2.2.5       1\nSc. Anal. Quim Instrumentais                     1.2.2.5       1\nSeção ETES                                       1.2.2.5       1\nSeção ETAS Sul                                   1.2.2.5       1\nSeção Manutenção Preventiva                      1.2.2.5       1\nSc. de operação                                  1.2.2.5       1\nSc. de Apoio Técnico de Água                     1.2.2.5       1\nDistrital Norte de Água                          1.2.2.5       1\nSeção de Cadastro                                1.2.2.5       1\nSc. Docum. Administrativa                        1.2.2.5       1\nChefe Serv. Adm. Patrimonial                     1.2.2.6       1\nSc. de Controle Patrimonial                      1.2.2.5       1\nSeção de Editais e Programação                   1.2.2.5       1\nEquipe de Julgamento                             1.2.2.5       1\nSeção de Gestão de Estoques                      1.2.2.5       1\nSeção de armazenamento                           1.2.2.5       1\nAssistente Técnico DVH                           1.2.2.5       1\n1.2 - Com atribuições por projetos\nGerente de Projetos II                                                                1.2.2.5                                1\nGerente de Projetos I                                                                 1.2.2.5                               34\nLíder de Projetos                                                                     1.2.2.5                               12\n2.         GRUPO DE ASSESSORAMENTO\nDENOMINAÇÃO                                                    CÓDIGO                               QUANTIDADE\nAssessor do Diretor-Geral                                                  2.2.2.6                                 1\nAssistente Técnico I – CC NS                                               2.2.2.5                                 2\n................................................................................................................................................” (NR)"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.976,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 42,
+     "caracteres": 2868,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

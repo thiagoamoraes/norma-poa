@@ -1,0 +1,114 @@
+{
+ "idSapl": 42195,
+ "rotulo": "Lei municipal nº 12.584, de 09 de agosto de 2019",
+ "sha256Origem": "98579ac91008c3fec26f55da1ccc71fe8286495bf61c41780010316534d5d1d4",
+ "estruturadoEm": "2026-11-27T06:29:26.477Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12584",
+  "ano": "2019",
+  "data": "2019-08-09",
+  "epigrafe": "LEI Nº 12.584, DE 9 DE AGOSTO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui a campanha denominada Janeiro Branco e inclui a efeméride Mês de Estímulo aos Cuidados e à Conscientização da Saúde Mental e Emocional – Janeiro Branco – no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no mês de janeiro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de agosto de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída a campanha denominada Janeiro Branco, visando ao estímulo aos cuidados e à conscientização da saúde mental e emocional das pessoas no Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "São objetivos da Campanha Janeiro Branco, dentre outros:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "investir em qualidade de vida das pessoas; e"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "combater o crescimento de casos de transtornos de ansiedade, transtornos depressivos, suicídio e uso de álcool e outras drogas."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "São atividades da Campanha Janeiro Branco, a serem realizadas mediante organização e participação voluntária de profissionais da saúde, comunicadores, artistas e de outros interessados:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "divulgação da importância da reflexão sobre a saúde mental e a saúde emocional de cada cidadão, sobre sua qualidade de vida e sobre a qualidade emocional das suas relações;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "promoção de ações e eventos de conscientização e prevenção ao adoecimento psíquico, para que o indivíduo possa identificar possíveis sofrimentos emocionais e/ou psíquicos e buscar o devido tratamento o mais breve possível; e"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "incentivo a ações que destaquem o uso simbólico da cor branca, para referenciar a campanha."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As atividades de que trata o caput deste artigo serão realizadas durante todo o ano, sendo intensificadas no mês de janeiro como forma de promover a campanha de conscientização para toda a comunidade."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica incluída a efeméride Mês de Estímulo aos Cuidados e à Conscientização da Saúde Mental e Emocional – Janeiro Branco –, no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no mês de janeiro."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 11,
+   "cobertura": 0.963,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

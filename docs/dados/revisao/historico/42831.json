@@ -1,0 +1,253 @@
+{
+ "geradoEm": "2026-11-27T06:29:38.109Z",
+ "idSapl": 42831,
+ "rotulo": "Lei municipal nº 12.742, de 06 de novembro de 2020",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 12742/2020@2020-11-06",
+   "data": "2020-11-06",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 12742/2020@2025-01-23",
+   "data": "2025-01-23",
+   "fonte": {
+    "idSapl": 49766,
+    "rotulo": "Lei municipal nº 14.191, de 23 de janeiro de 2025"
+   },
+   "comandosAplicados": 7
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica determinada a criação de repositório de julgados dos recursos apresentados às no ﬁcações de infração por meio da Junta Administra va de Recurso de Infração (JARI), da Empresa Pública de Transporte e Circulação (EPTC).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As decisões sobre os recursos, após sua publicação e a devida in mação de seu autor, serão divulgadas no repositório referido no caput deste ar go:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-I",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "por meio do sí o eletrônico da JARI e do Portal Transparência da EPTC, resguardando-se a iden dade do condutor; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-II",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "no prazo de 3 (três) dias, contados da data de publicação da decisão.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A JARI também incluirá no repositório as decisões de recurso de infração de trânsito que assumirem matérias diversas ou conﬂitantes com outras anteriormente publicadas, de modo a transparecer o corpo jurisprudencial da junta administra va.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º-A",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "A entidade ou o órgão ao qual as JARIs estiverem vinculadas deverá dar publicidade, em seu sítio eletrônico, às sessões de julgamentos dos recursos apresentados às notificações de infração.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.191/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2-A/par-1",
+   "pai": "art-2-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Para o fim do disposto no caput, a entidade ou o órgão publicará as seguintes informações:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.191/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2-A/par-1/inc-I",
+   "pai": "art-2-A/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "nome completo, cargo e função dos integrantes do colegiado, com designação do relator do recurso;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.191/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2-A/par-1/inc-II",
+   "pai": "art-2-A/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "data, horário e local das sessões de julgamento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.191/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2-A/par-1/inc-III",
+   "pai": "art-2-A/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "pauta ou pregão dos recursos a serem julgados; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.191/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2-A/par-1/inc-IV",
+   "pai": "art-2-A/par-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "inteiro teor das decisões e suas respectivas atas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.191/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2-A/par-2",
+   "pai": "art-2-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "As sessões de julgamento das JARIs serão gravadas em áudio e vídeo e disponibilizadas na rede mundial de computadores no sítio eletrônico do órgão, com Uniform Resource Locator (URL) específica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.191/2025"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 49766,
+    "rotulo": "Lei municipal nº 14.191, de 23 de janeiro de 2025"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
+  }
+ ],
+ "aConferir": []
+}

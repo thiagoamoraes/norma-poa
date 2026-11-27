@@ -1,0 +1,65 @@
+{
+ "idSapl": 42860,
+ "rotulo": "Lei municipal nº 12.770, de 09 de novembro de 2020",
+ "sha256Origem": "f51d1f4fd1cc01ffce977b4eaef5c37622bda5f5729975b5b57bb093c2fab7c6",
+ "estruturadoEm": "2026-11-27T06:29:25.691Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12770",
+  "ano": "2020",
+  "data": "2020-11-09",
+  "epigrafe": "LEI Nº    12.770, DE 9 DE NOVEMBRO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza a Companhia Carris Porto-Alegrense (Carris) a contratar operação de crédito junto a instituição financeira, com a garantia do Executivo Municipal, até o valor de R$ 21.000.000,00 (vinte e um milhões de reais).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de novembro de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nCarlos Eduardo da Silveira,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica a Companhia Carris Porto Alegrense (Carris) autorizada a contratar operação de crédito junto a instituição financeira, com a garantia do Executivo Municipal, até o valor de R$ 21.000.000,00 (vinte e um milhões de reais), destinados à renovação de frota, com a substituição de 42 (quarenta e dois) ônibus, observada a legislação vigente, em especial as disposições da Lei Complementar Federal nº 101, de 4 de maio de 2000, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Município de Porto Alegre dará, como garantia ao valor referido no art. 1º desta Lei, o Fundo de Participação dos Municípios (FPM) ou o Imposto sobre Operações Relativas à Circulação de Mercadorias e sobre Prestações de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação (ICMS)."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica o Executivo Municipal autorizado a abrir créditos suplementares na Lei Orçamentária Anual (LOA) para atender às despesas decorrentes de necessidade excepcional de execução das garantias previstas no art. 2º desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

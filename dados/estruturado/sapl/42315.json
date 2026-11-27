@@ -1,0 +1,52 @@
+{
+ "idSapl": 42315,
+ "rotulo": "Lei municipal nº 12.634, de 26 de novembro de 2019",
+ "sha256Origem": "96d45b7342eed34e4108b96e208fcddaff12775ac496e2fbef17a7755335e75a",
+ "estruturadoEm": "2026-11-27T06:29:26.231Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12634",
+  "ano": "2019",
+  "data": "2019-11-26",
+  "epigrafe": "LEI Nº 12.634, DE 26 DE NOVEMBRO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui § 5º no art. 2º da Lei nº 9.970, de 30 de maio de 2006, incluindo no rol de competências da Corregedoria da Guarda Municipal a apresentação de relatório de suas atividades e a prestação de contas de sua atuação à Secretaria Municipal de Transparência e Controladoria.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 26 de novembro de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído § 5º no art. 2º da Lei nº 9.970, de 30 de maio de 2006, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º .....................................................................................................................\n....................................................................................................................................\n§ 5º A Corregedoria da Guarda Municipal deverá apresentar relatórios de suas\natividades, bem como prestar contas de sua atuação à Secretaria Municipal de Transparência e\nControladoria.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.953,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

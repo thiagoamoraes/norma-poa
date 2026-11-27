@@ -1,0 +1,100 @@
+{
+ "idSapl": 43090,
+ "rotulo": "Lei municipal nº 12.822, de 12 de março de 2021",
+ "sha256Origem": "f48b5a5550c882e80b57407d9848432ade6b5cf34353dde6d59f505b087b6b28",
+ "estruturadoEm": "2026-11-27T06:29:25.469Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12822",
+  "ano": "2021",
+  "data": "2021-03-12",
+  "epigrafe": "LEI Nº 12.822, DE 12 DE MARÇO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Determina a doação de alimentos e produtos apreendidos pelo serviço de vigilância sanitária municipal e pelo Serviço de Inspeção Industrial e Sanitária a instituições públicas ou privadas que detenham a guarda temporária ou permanente de animais nativos, exóticos ou de estimação.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de março de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica determinada a doação de alimentos e produtos apreendidos pelo serviço de vigilância sanitária municipal e pelo Serviço de Inspeção Industrial e Sanitária a instituições públicas ou privadas que detenham a guarda temporária ou permanente de animais nativos, exóticos ou de estimação."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A doação de que trata o caput deste artigo será realizada sempre que for técnica e estruturalmente possível e no caso em que os produtos apreendidos não sejam passíveis de recuperação pelo proprietário."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os alimentos objetos de doação serão analisados por técnico responsável indicado pela instituição interessada, que atestará as condições próprias para o consumo animal."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Constatado que o grau de deterioração é superior ao considerado próprio para o consumo animal, os alimentos serão descartados."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As instituições interessadas em receber a doação de que trata o art. 1º desta Lei deverão:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "estar cadastradas junto ao Executivo Municipal;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "indicar, no cadastro, responsável técnico encarregado de avaliar as doações e, desde o momento da recepção dos alimentos, sua destinação; e"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "providenciar o transporte dos alimentos em tempo hábil."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 9,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

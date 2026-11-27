@@ -1,0 +1,124 @@
+{
+ "idSapl": 43082,
+ "rotulo": "Lei municipal nº 12.817, de 11 de março de 2021",
+ "sha256Origem": "6552cbe1186324911a152499f5f8133e21e0f4cda22ace03a8140295c7aec376",
+ "estruturadoEm": "2026-11-27T06:29:25.496Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12817",
+  "ano": "2021",
+  "data": "2021-03-11",
+  "epigrafe": "LEI Nº 12.817, DE 11 DE MARÇO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Revoga as Leis que especifica, por revogação tácita ou por desuso no tempo.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de março de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam revogadas:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a Lei nº 354, de 26 de maio de 1937;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a Lei nº 370, de 21 de dezembro de 1949;"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a Lei nº 595, de 25 de maio de 1951;"
+  },
+  {
+   "id": "art-1/inc-IV",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "a Lei nº 668, de 22 de setembro de 1951;"
+  },
+  {
+   "id": "art-1/inc-V",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "a Lei nº 746, 29 de novembro de 1951;"
+  },
+  {
+   "id": "art-1/inc-VI",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "a Lei nº 838, de 26 de junho de 1952;"
+  },
+  {
+   "id": "art-1/inc-VII",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "a Lei nº 877, de 28 de agosto de 1952;"
+  },
+  {
+   "id": "art-1/inc-VIII",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "a Lei nº 1.933, de 31 de dezembro de 1958;"
+  },
+  {
+   "id": "art-1/inc-IX",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "a Lei nº 2.331, de 29 de dezembro de 1961; e"
+  },
+  {
+   "id": "art-1/inc-X",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "texto": "a Lei nº 2.613, de 26 de novembro de 1963."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 12,
+   "cobertura": 0.924,
+   "blocosDeAlteracao": 0,
+   "revogacoesNaoLidas": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

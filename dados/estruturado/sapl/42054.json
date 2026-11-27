@@ -1,0 +1,51 @@
+{
+ "idSapl": 42054,
+ "rotulo": "Lei municipal nº 12.541, de 02 de maio de 2019",
+ "sha256Origem": "514be5374e07be75888c563c9f9c5e18121b77bec06bc1b0845da377e334d1a6",
+ "estruturadoEm": "2026-11-27T06:29:26.608Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12541",
+  "ano": "2019",
+  "data": "2019-05-02",
+  "epigrafe": "LEI Nº 12.541, DE 2 DE MAIO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Revoga a Lei nº 8.797, de 25 de outubro de 2001 – que dispõe sobre a obrigatoriedade de confecção e distribuição de material explicativo dos efeitos das radiações emitidas pelos aparelhos celulares e sobre a sua correta utilização, e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de maio de 2019.\nMônica Leal,\nPrefeita, em exercício.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica revogada a Lei nº 8.797, de 25 de outubro de 2001."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.944,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

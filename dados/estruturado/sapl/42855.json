@@ -1,0 +1,51 @@
+{
+ "idSapl": 42855,
+ "rotulo": "Lei municipal nº 12.765, de 09 de novembro de 2020",
+ "sha256Origem": "6565189ea19406f27d1d0ee3b7c692f7db8944ad46b6993c11a8ff9e289bc2a6",
+ "estruturadoEm": "2026-11-27T06:29:25.697Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12765",
+  "ano": "2020",
+  "data": "2020-11-09",
+  "epigrafe": "LEI Nº 12.765, DE 9 DE NOVEMBRO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui as efemérides Mês, Dia e Semana do Teste do Pezinho no Anexo da Lei nº l0.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no mês de junho, no dia 6 de junho e na semana que incluir o dia 6 de junho, respectivamente.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de novembro de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nCarlos Eduardo da Silveira,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam incluídas as efemérides Mês, Dia e Semana do Teste do Pezinho no Anexo da Lei nº l0.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no mês de junho, no dia 6 de junho e na semana que incluir o dia 6 de junho, respectivamente."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.957,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

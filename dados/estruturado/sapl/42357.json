@@ -1,0 +1,79 @@
+{
+ "idSapl": 42357,
+ "rotulo": "Lei municipal nº 12.652, de 13 de dezembro de 2019",
+ "sha256Origem": "6690f163f966fad945cfc032a095701ad4a73a9fb42e35c5c04df403725f27ca",
+ "estruturadoEm": "2026-11-27T06:29:26.188Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12652",
+  "ano": "2019",
+  "data": "2019-12-13",
+  "epigrafe": "LEI Nº 12.652, DE 13 DE DEZEMBRO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza o Executivo Municipal a indenizar os servidores públicos municipais ativos e inativos, vinculados a estatutos próprios, pensionistas e agentes políticos do Município de Porto Alegre em caso de não pagamento da obrigação pecuniária relativa à gratificação natalina de 2019 (13º salário) até a data estabelecida no § 4º do art. 98 da Lei Complementar nº 133, de 31 de dezembro de 1985, que estabelece o Estatuto dos Funcionários Públicos do Município de Porto Alegre, e alterações posteriores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de dezembro de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nSimone Somensi,\nProcuradora-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o Executivo Municipal autorizado a indenizar os servidores públicos municipais ativos e inativos, vinculados a estatutos próprios, pensionistas e agentes políticos do Município de Porto Alegre em caso de não pagamento da obrigação pecuniária relativa à gratificação natalina (13º salário) de 2019 até a data estabelecida na Lei Complementar nº 133, de 31 de dezembro de 1985, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A indenização estabelecida no caput deste artigo dar-se-á em relação à gratificação natalina (13º salário) do exercício de 2019, à qual serão acrescidos juros e eventuais despesas equivalentes aos custos inerentes a possíveis contratos bancários, até a taxa de 2,1927% (dois inteiros e um mil, novecentos e vinte e sete décimos de milésimo por cento) ao mês, pro-rata-die."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Observado o disposto no art. 1º desta Lei, o Executivo Municipal realizará o pagamento do valor referente à gratificação natalina de 2019, acrescido da correção monetária pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA) e de juros legais de 1% (um por cento) ao mês, pro-rata-die, aos servidores públicos municipais ativos e inativos, vinculados a estatutos próprios, pensionistas e agentes políticos do Município de Porto Alegre que optarem por não contratar a operação de antecipação da gratificação natalina."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O pagamento referido no caput deste artigo dar-se-á em parcela única, até 31 de março de 2020, sendo facultado ao Executivo Municipal a antecipação do pagamento."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As despesas decorrentes desta Lei serão correrão por conta de dotações orçamentárias próprias, suplementadas se necessário."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 6,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

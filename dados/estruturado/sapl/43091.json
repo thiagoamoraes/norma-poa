@@ -1,0 +1,101 @@
+{
+ "idSapl": 43091,
+ "rotulo": "Lei municipal nº 12.823, de 12 de março de 2021",
+ "sha256Origem": "c6623840e065d43daba861ae36ee48a1e403495465458c29ac05166efe183100",
+ "estruturadoEm": "2026-11-27T06:29:25.466Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12823",
+  "ano": "2021",
+  "data": "2021-03-12",
+  "epigrafe": "LEI Nº 12.823, DE 12 DE MARÇO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Determina a prioridade de atendimento no Município de Porto Alegre e garante acesso aos assentos prioritários no transporte coletivo às pessoas que declararem estar em tratamento por meio de quimioterapia, radioterapia ou hemodiálise, utilizar bolsa de colostomia ou estar em tratamento de outras enfermidades prejudiciais a suas motricidades.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de março de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica determinada, no Município de Porto Alegre, a prioridade de atendimento às pessoas que declararem:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "estar em tratamento por meio de quimioterapia, radioterapia ou hemodiálise;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "utilizar bolsa de colostomia; ou"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "estar em tratamento de outras enfermidades prejudiciais a suas motricidades."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As empresas de transporte coletivo deverão disponibilizar às pessoas as quais se refere o art. 1º desta Lei o acesso aos assentos prioritários dos veículos."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O benefício de que trata esta Lei valerá para o período em que o paciente estiver realizando um ou mais dos tratamentos referidos no art. 1º desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O Executivo Municipal regulamentará esta Lei, estabelecendo normas e critérios para concessão de documento comprobatório das condições elencadas no art. 1º desta Lei."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 9,
+   "cobertura": 0.947,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

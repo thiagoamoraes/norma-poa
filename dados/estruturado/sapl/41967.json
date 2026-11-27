@@ -1,0 +1,93 @@
+{
+ "idSapl": 41967,
+ "rotulo": "Lei municipal nº 12.514, de 31 de janeiro de 2019",
+ "sha256Origem": "2e93cb0133f1c68fc88a38a5e8f7f385fa614f77e560b3f869fed3b9d09402d7",
+ "estruturadoEm": "2026-11-27T06:29:26.712Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12514",
+  "ano": "2019",
+  "data": "2019-01-31",
+  "epigrafe": "LEI Nº 12.514, DE 31 DE JANEIRO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Proíbe a distribuição e a venda de canudos flexíveis plásticos descartáveis em restaurantes, bares, lanchonetes, quiosques e estabelecimentos similares, ou por ambulantes, no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de janeiro de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica proibida a distribuição e a venda de canudos flexíveis plásticos descartáveis em restaurantes, bares, lanchonetes, quiosques e estabelecimentos similares, ou por ambulantes, no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A proibição de que trata o caput deste artigo não se aplica:"
+  },
+  {
+   "id": "art-1/par-unico/inc-I",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a canudos de papel ou de material biodegradável; e"
+  },
+  {
+   "id": "art-1/par-unico/inc-II",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "aos casos de atendimento de pessoas com deficiência ou que estejam impossibilitadas temporariamente de sorver líquido sem a utilização de canudos."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os estabelecimentos comerciais e os ambulantes que descumprirem o disposto nesta Lei estarão sujeitos a multa, aplicada em dobro em caso de reincidência."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os valores arrecadados com a aplicação das multas serão destinados a programas ambientais municipais."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Os estabelecimentos comerciais e os ambulantes terão o prazo de 1 (um) ano, contado da data de publicação desta Lei, para se adequarem à proibição."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 8,
+   "cobertura": 0.94,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

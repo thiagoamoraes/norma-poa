@@ -1,0 +1,77 @@
+{
+ "idSapl": 42160,
+ "rotulo": "Lei municipal nº 12.569, de 19 de julho de 2019",
+ "sha256Origem": "ce5eb7926ce61855bd07a87f3f402cad270dced11310ef97e5ccf951ae915a75",
+ "estruturadoEm": "2026-11-27T06:29:26.512Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12569",
+  "ano": "2019",
+  "data": "2019-07-19",
+  "epigrafe": "LEI Nº 12.569, DE 19 DE JULHO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Caminho de Porto Alegre no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, a ser realizado no quarto domingo do mês de abril.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 19 de julho de 2019.\nGustavo Bohrer Paim,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nRicardo Hoffmann Muñoz,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Caminho de Porto Alegre no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O percurso e a inscrição dos participantes do Caminho de Porto Alegre serão definidos pela organização do evento, devendo o Município contribuir com a liberação das vias públicas necessárias à sua realização."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nABRIL\nPERÍODO          EVENTO         DESCRIÇÃO E LOCAL DO EVENTO\nQuarto     CAMINHO DE PORTO O evento propõe uma caminhada contemplativa\ndomingo    ALEGRE           de 21 km, com a participação de esportistas e\naberta ao público.\nLocal: Orla de Porto Alegre, com saída da\nCatedral Metropolitana, no Bairro Centro\nHistórico, e chegada no Santuário Santa Rita de\nCássia, no Bairro Guarujá."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 9,
+     "caracteres": 380,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

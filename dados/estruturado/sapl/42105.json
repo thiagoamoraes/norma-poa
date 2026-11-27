@@ -1,0 +1,51 @@
+{
+ "idSapl": 42105,
+ "rotulo": "Lei municipal nº 12.556, de 25 de junho de 2019",
+ "sha256Origem": "893f73d124bf2dbe6b6a83c2ac4c74705a803461479479fd85b429e840538265",
+ "estruturadoEm": "2026-11-27T06:29:26.544Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12556",
+  "ano": "2019",
+  "data": "2019-06-25",
+  "epigrafe": "LEI Nº 12.556, DE 25 DE JUNHO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Concede o título de Cidadão Emérito de Porto Alegre ao senhor Marcelo Feijó de Medeiros.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE, Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 25 de junho de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica concedido o título de Cidadão Emérito de Porto Alegre ao senhor Marcelo Feijó de Medeiros, com base na Lei nº 9.659, de 22 de dezembro de 2004."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.936,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

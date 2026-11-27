@@ -1,0 +1,51 @@
+{
+ "idSapl": 42181,
+ "rotulo": "Lei municipal nº 12.578, de 01 de agosto de 2019",
+ "sha256Origem": "09f8a3f82aa4d854c74d22523e5ab5492e48592537aa12ab575f68c2100cd3bf",
+ "estruturadoEm": "2026-11-27T06:29:26.500Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12578",
+  "ano": "2019",
+  "data": "2019-08-01",
+  "epigrafe": "LEI Nº 12.578, DE 1º DE AGOSTO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Revoga a Lei nº 7.644, de 19 de julho de 1995 – que torna obrigatória a divulgação de telefones essenciais de utilidade pública em painéis e equipamentos publicitários de locação, e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 1º de agosto de 2019.\nGustavo Bohrer Paim,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nRicardo Hoffmann Muñoz,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica revogada a Lei nº 7.644, de 19 de julho de 1995."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.938,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

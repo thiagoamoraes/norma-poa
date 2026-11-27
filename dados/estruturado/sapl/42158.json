@@ -1,0 +1,66 @@
+{
+ "idSapl": 42158,
+ "rotulo": "Lei municipal nº 12.568, de 15 de julho de 2019",
+ "sha256Origem": "430d3b7460a57e1ce01305df416f3118740e40a01da07725fdc94c44f3cef561",
+ "estruturadoEm": "2026-11-27T06:29:26.514Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12568",
+  "ano": "2019",
+  "data": "2019-07-15",
+  "epigrafe": "PROC. Nº 0800/17",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 076/17 LEI Nº 12.568, DE 15 DE JULHO DE 2019.",
+ "ementa": "Obriga os hipermercados, os supermercados, os atacados e os estabelecimentos similares a higienizar os carrinhos e os cestos de compras disponibilizados aos clientes e proíbe o transporte de crianças nos carrinhos de compras não equipados com assento específico. A PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 12.568, de 15 de julho de 2019, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 16 DE JULHO DE 2019.\nVerª Mônica Leal,\nPresidente.\nRegistre-se e publique-se:\nVer. Alvoni Medina,\n1º Secretário.\nCCC/JPCP",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam os hipermercados, os supermercados, os atacados e os estabelecimentos similares obrigados a higienizar os carrinhos e os cestos de compras disponibilizados aos clientes."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica proibido o transporte de crianças nos carrinhos de compras de hipermercados, supermercados, atacados e estabelecimentos similares não equipados com assento específico."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O descumprimento ao disposto nesta Lei sujeitará o infrator às sanções previstas na Lei Complementar nº 395, de 26 de dezembro de 1996 – Código Municipal de Saúde do Município de Porto Alegre –, e alterações posteriores."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.972,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

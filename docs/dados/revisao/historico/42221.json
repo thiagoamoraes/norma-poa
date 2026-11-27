@@ -1,0 +1,195 @@
+{
+ "geradoEm": "2026-11-27T06:29:38.001Z",
+ "idSapl": 42221,
+ "rotulo": "Lei municipal nº 12.593, de 10 de setembro de 2019",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 12593/2019@2019-09-10",
+   "data": "2019-09-10",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 12593/2019@2024-04-12",
+   "data": "2024-04-12",
+   "fonte": {
+    "idSapl": 48297,
+    "rotulo": "Lei municipal nº 13.899, de 12 de abril de 2024"
+   },
+   "comandosAplicados": 2
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam os estabelecimentos da rede municipal de ensino, inclusive as creches conveniadas, encarregados de divulgar lista informando a ordem de espera para vagas em todos os níveis de ensino.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na lista referida no caput deste artigo, deverá constar, no mínimo:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1/inc-I",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "número de protocolo; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1/inc-II",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "unidade pretendida.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Sempre que houver alteração na disponibilidade das vagas, deverá ocorrer a atualização da lista referida no caput deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As informações divulgadas na lista referida no art. 1º desta Lei serão de inteira responsabilidade do Executivo Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "As informações divulgadas na lista referida no art. 1º desta Lei serão de inteira responsabilidade do Executivo Municipal e seu conteúdo deverá ser publicado no site da Prefeitura de Porto Alegre e demais meios eletrônicos disponíveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.899/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "O Executivo Municipal aplicará técnicas de anonimização, conforme disposto na Lei Federal nº 13.709, de 14 de agosto de 2018, de forma a preservar dados pessoais sensíveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.899/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Em caso de desistência da vaga pretendida, o solicitante deverá comunicá-la imediatamente à secretaria do estabelecimento da rede municipal de ensino ou da creche conveniada em que a solicitou.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 48297,
+    "rotulo": "Lei municipal nº 13.899, de 12 de abril de 2024"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 10.728, de 15 de julho de 2009\",\"tipoAto\":\"LEI\",\"numero\":\"10728\",\"ano\":\"2009\",\"chave\":\"l 10728/2009\"}, versão: l 12593/2019) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.858, de 25 de junho de 2015\",\"tipoAto\":\"LEI\",\"numero\":\"11858\",\"ano\":\"2015\",\"chave\":\"l 11858/2015\"}, versão: l 12593/2019)",
+   "enderecos": [
+    "art-2-B",
+    "art-2-A"
+   ]
+  }
+ ],
+ "aConferir": []
+}

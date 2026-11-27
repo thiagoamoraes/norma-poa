@@ -1,0 +1,80 @@
+{
+ "idSapl": 42225,
+ "rotulo": "Lei municipal nº 12.598, de 10 de setembro de 2019",
+ "sha256Origem": "5d551d759d88dac867b80a1240db80fff3161c6e1fc599b1e771e104968e8ec7",
+ "estruturadoEm": "2026-11-27T06:29:26.428Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12598",
+  "ano": "2019",
+  "data": "2019-09-10",
+  "epigrafe": "LEI Nº 12.598, DE 10 DE SETEMBRO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui homenagem às mulheres vítimas de feminicídio no Município de Porto Alegre, constituída por um monumento com memorial.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de setembro de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída homenagem às mulheres vítimas de feminicídio no Município de Porto Alegre, constituída por um monumento com memorial."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A definição do formato e a execução do monumento em homenagem às mulheres vítimas de feminicídio ficarão a cargo das entidades representativas de parentes das vítimas e entidades de proteção e apoio às mulheres vítimas de violência doméstica e familiar, sob coordenação do órgão responsável pelas políticas públicas para mulheres do Executivo Municipal, que poderão contar com patrocínio da iniciativa privada."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O disposto no caput deste artigo dar-se-á sem ônus para as entidades representativas das categorias homenageadas e para o Executivo Municipal."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "No espaço destinado ao monumento referido no caput deste artigo deverão ser divulgados os nomes, telefones e endereços dos órgãos de denúncia acerca de abusos e violência contra a mulher, bem como da rede de acolhimento à mulher vítima de violência."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 6,
+   "cobertura": 0.953,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

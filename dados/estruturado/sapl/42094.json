@@ -1,0 +1,58 @@
+{
+ "idSapl": 42094,
+ "rotulo": "Lei municipal nº 12.553, de 12 de junho de 2019",
+ "sha256Origem": "35ff6eec2556f99f11b6dcf6482af161586724764675ccd714a577ff38dea37b",
+ "estruturadoEm": "2026-11-27T06:29:26.547Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12553",
+  "ano": "2019",
+  "data": "2019-06-12",
+  "epigrafe": "LEI Nº 12.553, DE 12 DE JUNHO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Campo de Futebol Paulo Alberto D´Alascio o próprio municipal localizado na Praça Tamandaré, no Bairro Petrópolis.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de junho de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Campo de Futebol Paulo Alberto D´Alascio o próprio municipal localizado na Praça Tamandaré, delimitada pelas avenidas Montenegro, Caçapava, Taquara e Rua Carazinho, no Bairro Petrópolis."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do próprio municipal, os seguintes dizeres: Exemplo de trabalho e dedicação ao esporte amador."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.936,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,342 @@
+{
+ "geradoEm": "2026-11-27T06:29:38.080Z",
+ "idSapl": 42470,
+ "rotulo": "Lei municipal nº 12.692, de 09 de março de 2020",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 12692/2020@2020-03-09",
+   "data": "2020-03-09",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 12692/2020@2022-01-10",
+   "data": "2022-01-10",
+   "fonte": {
+    "idSapl": 43627,
+    "rotulo": "Lei municipal nº 12.982, de 10 de janeiro de 2022"
+   },
+   "comandosAplicados": 9
+  },
+  {
+   "indice": 2,
+   "id": "l 12692/2020@2024-07-23",
+   "data": "2024-07-23",
+   "fonte": {
+    "idSapl": 48934,
+    "rotulo": "Lei municipal nº 14.002, de 23 de julho de 2024"
+   },
+   "comandosAplicados": 5
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica obrigatória a divulgação de lista informando a relação de pacientes que aguardam pela realização de consultas com especialistas, exames ou cirurgias em estabelecimentos pertencentes à rede pública de saúde do Município de Porto Alegre ou a ela conveniados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "Fica obrigatória a divulgação de lista informando a posição de espera para o atendimento de pacientes que aguardam pela realização de consultas com especialistas, exames ou cirurgias em estabelecimentos pertencentes à rede pública de saúde do Município de Porto Alegre ou a ela conveniados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 14.002/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na lista referida no caput deste artigo, deverão constar a data de solicitação do procedimento e a identificação dos pacientes exclusivamente pelo número do seu Cartão Nacional de Saúde.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As informações referidas no § 1º deste artigo deverão ser especificadas por tipo de procedimento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "A publicação e a atualização da lista de que trata o caput deste artigo deverão ser realizadas diariamente por meio de sítio eletrônico ou aplicativo, em todos os canais disponibilizados, e deverão conter todas as informações de que trata esta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.982/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-4",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "O Executivo Municipal aplicará técnicas de anonimização, conforme disposto na Lei Federal nº 13.709, de 14 de agosto de 2018, de forma a preservar dados pessoais sensíveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.002/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º-A",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "A lista de que trata esta Lei deverá conter, no mínimo, as seguintes informações:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.982/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/inc-I",
+   "pai": "art-1-A",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "a posição numérica e sequencial da consulta, do exame ou da intervenção cirúrgica, identificados pelo número do CNS;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.982/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/inc-II",
+   "pai": "art-1-A",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "a data de solicitação ou encaminhamento da consulta, discriminada por especialidade, do exame ou da intervenção cirúrgica;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.982/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/inc-III",
+   "pai": "art-1-A",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "a estimativa de prazo para o atendimento da solicitação; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.982/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/inc-IV",
+   "pai": "art-1-A",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "a situação atualizada da solicitação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.982/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/inc-V",
+   "pai": "art-1-A",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "aviso do tempo médio previsto para atendimento aos inscritos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.002/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/inc-VI",
+   "pai": "art-1-A",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "relação dos inscritos habilitados para o respectivo exame, a respectiva consulta ou procedimento cirúrgico.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.002/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-unico",
+   "pai": "art-1-A",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "As informações disponibilizadas deverão ser especificadas para o tipo de exame aguardado e abranger todos os candidatos inscritos nas Unidades de Saúde do Município, nas entidades conveniadas ou em qualquer outro prestador de serviço que receba recursos públicos municipais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.002/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-B",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º-B",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "A lista referida no caput do art. 1º desta Lei será pública, devendo o Executivo Municipal disponibilizar consulta por meio de sítio eletrônico, aplicativo ou telefone, mediante o fornecimento de dados do paciente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.982/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-B/par-1",
+   "pai": "art-1-B",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "A divulgação da lista por meios digitais deverá possibilitar a cópia de seus dados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.982/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-B/par-2",
+   "pai": "art-1-B",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Na disponibilização da lista por meios eletrônicos, deverá ser observado o sigilo de informações sensíveis, sem prejuízo da identificação da posição do usuário.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.982/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor em 120 (cento e vinte) dias, contados da data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 48934,
+    "rotulo": "Lei municipal nº 14.002, de 23 de julho de 2024"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
+  }
+ ],
+ "aConferir": []
+}

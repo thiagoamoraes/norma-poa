@@ -1,0 +1,60 @@
+{
+ "idSapl": 42453,
+ "rotulo": "Lei municipal nº 12.686, de 03 de março de 2020",
+ "sha256Origem": "287573d2fabfec79594b59e11d397e76f62380b6ab60fdb3d158e31bdfd901e9",
+ "estruturadoEm": "2026-11-27T06:29:25.972Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12686",
+  "ano": "2020",
+  "data": "2020-03-03",
+  "epigrafe": "LEI Nº 12.686, DE 3 DE MARÇO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a ementa e o caput do art. 1º da Lei nº 7.768, de 18 de janeiro de 1996, e alterações posteriores, estabelecendo a reserva de, no mínimo, 2% (dois por cento) do total das vagas e garantindo, no mínimo, 1 (uma) vaga de estacionamentos em locais de uso público ou privado, no Município de Porto Alegre, para veículos conduzidos por pessoas com deficiência ou que as transportem.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 3 de março de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a ementa da Lei nº 7.768, de 18 de janeiro de 1996, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Estabelece a reserva de, no mínimo, 2% (dois por cento) do total das vagas e\ngarante, no mínimo, 1 (uma) vaga de estacionamento em locais de uso público ou privado, como\nsupermercados, shoppings, hospitais, cemitérios, universidades, clínicas, estádios e outros locais\nsemelhantes, no Município de Porto Alegre, para veículos conduzidos por pessoas com\ndeficiência ou que as transportem, desde que devidamente identificados, posicionadas de modo a\ngarantir-lhes maior comodidade e acesso.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o caput do art. 1º da Lei nº 7.768, de 1996, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º Fica estabelecida a reserva de, no mínimo, 2% (dois por cento) do total\ndas vagas e garantida, no mínimo, 1 (uma) vaga de estacionamento em locais de uso público ou\nprivado, como supermercados, shoppings, hospitais, cemitérios, universidades, clínicas, estádios\ne outros locais semelhantes, no Município de Porto Alegre, para veículos conduzidos por pessoas\ncom deficiência ou que as transportem, desde que devidamente identificados, posicionadas de\nmodo a garantir-lhes maior comodidade e acesso.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.976,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

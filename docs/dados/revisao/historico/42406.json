@@ -1,0 +1,981 @@
+{
+ "geradoEm": "2026-11-27T06:29:38.049Z",
+ "idSapl": 42406,
+ "rotulo": "Lei municipal nº 12.662, de 21 de janeiro de 2020",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 12662/2020@2020-01-21",
+   "data": "2020-01-21",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 12662/2020@2022-03-03",
+   "data": "2022-03-03",
+   "fonte": {
+    "idSapl": 43749,
+    "rotulo": "Lei municipal nº 13.018, de 03 de março de 2022"
+   },
+   "comandosAplicados": 12
+  },
+  {
+   "indice": 2,
+   "id": "l 12662/2020@2023-12-27",
+   "data": "2023-12-27",
+   "fonte": {
+    "idSapl": 47826,
+    "rotulo": "Lei municipal nº 13.785, de 27 de dezembro de 2023"
+   },
+   "comandosAplicados": 1
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica instituído o Programa de Residência Técnico-superior (PRTS), no âmbito do Município de Porto Alegre, com vista ao aperfeiçoamento profissional dos bacharéis em Engenharia, Arquitetura, Economia, Administração, Biologia e Contabilidade, egressos do curso de graduação pelo período máximo de 5 (cinco) anos, mediante prévia aprovação em processo seletivo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica instituído o Programa de Residência Técnico-superior (PRTS), no âmbito do Município de Porto Alegre, com vista ao aperfeiçoamento profissional dos bacharéis em Administração, Arquitetura, Arquivologia, Contabilidade, Economia, Engenharia, Estatística, Sociologia e Tecnologia da Informação, egressos do curso de graduação pelo período máximo de 5 (cinco) anos, mediante prévia aprovação em processo seletivo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.018/2022"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DO PROGRAMA DE RESIDÊNCIA TÉCNICO-SUPERIOR"
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "São objetivos do PRTS:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estimular a formação, a qualificação e a atuação profissional voltadas à Administração Pública Municipal, proporcionando conhecimentos teóricos e práticos;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "sensibilizar e preparar profissionais para o desenvolvimento de políticas públicas municipais e para a solução de conflitos de interesse do Município;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "aprimorar o conhecimento adquirido no curso de graduação;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estimular a realização de estudos e pesquisas que resultem em sugestões e respostas às ações das políticas públicas municipais; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "articular a Política de Educação Permanente no Município aos programas de formação de especialistas em áreas afetas ao Poder Público.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A Residência Técnico-superior envolve atividades teóricas e práticas, compreendendo ensino, pesquisa e extensão, e o auxílio aos servidores com formação técnico-superior no desempenho de suas atribuições institucionais, com acompanhamento realizado pela Escola de Gestão Pública (EGP), em conjunto com a Secretaria à qual o residente esteja vinculado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para a admissão no PRTS, o candidato deverá ser bacharel pelo período máximo de 5 (cinco) anos e ser previamente aprovado em processo de seleção pública promovido pelo Município de Porto Alegre, conforme edital e com ampla divulgação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-1",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As provas do processo de seleção terão caráter eliminatório e classificatório e avaliarão conhecimentos nas áreas de formação, conforme regulamento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-2",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A admissão à Residência Técnico-superior obedecerá rigorosamente à ordem de classificação obtida no processo de seleção.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam criadas 60 (sessenta) bolsas de Residente Técnico-superior, distribuídas da seguinte forma:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Ficam criadas 120 (cento e vinte) bolsas de Residente Técnico-Superior, para os egressos dos cursos das seguintes habilitações:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.018/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "21 (vinte e uma) bolsas para egressos do curso de Engenharia;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Administração;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.018/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-II",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "17 (dezessete) bolsas para egressos do curso de Arquitetura;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Arquitetura;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.018/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-III",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1 (uma) bolsa para egressos do curso de Economia;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Arquivologia;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.018/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-IV",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "13 (treze) bolsas para egressos do curso de Administração;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Contabilidade;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.018/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-V",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "2 (duas) bolsas para egressos do curso de Biologia; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Economia;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.018/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-VI",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "6 (seis) bolsas para egressos do curso de Contabilidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Engenharia;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.018/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-VII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Estatística;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.018/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-VIII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Sociologia;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.018/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-IX",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Tecnologia da Informação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.018/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-unico",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "A distribuição das bolsas nas habilitações constantes será regulamentada em decreto, ficando limitadas ao máximo de 20% (vinte por cento) do total de servidores providos em cargos efetivos na mesma área de atuação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.018/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Compete à EGP regulamentar o PRTS, especialmente quanto ao procedimento de seleção, à distribuição das bolsas, às sanções disciplinares, às hipóteses de desligamento do Programa e aos critérios para obtenção do Certificado de Residência Técnico-superior.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "II",
+     "titulo": "DO ACOMPANHAMENTO E DA FISCALIZAÇÃO"
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Competirá à EGP a fiscalização e o acompanhamento do PRTS, bem como:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-I",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "coordenar o processo de seleção dos residentes, nos termos do regulamento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-II",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "identificar as instituições de ensino com potencialidade para a formalização de parcerias;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-III",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "organizar e supervisionar as aulas teóricas, os cursos e os treinamentos no âmbito do PRTS;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-IV",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "elaborar os contratos de residência; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/inc-V",
+   "pai": "art-7",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "exercer outras atividades correlatas inerentes à sua finalidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As atividades práticas do residente no PRTS serão executadas sob orientação, supervisão e condução direta de servidores com formação superior vinculada à respectiva área de bacharelado e presentes no cenário de prática.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-1",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para cada residente ou grupo de residentes haverá 2 (dois) servidores municipais preceptores designados, sendo um titular e um substituto.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-2",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O titular da Secretaria a qual o residente estiver vinculado designará os preceptores, os quais deverão fazer parte do quadro efetivo, possuir a mesma formação profissional do residente e estar vinculados com a unidade na qual o residente desenvolverá suas atividades práticas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "O titular da Secretaria a qual o residente estiver vinculado designará os preceptores, nos termos do caput deste artigo, os quais deverão possuir a mesma formação profissional do residente e estar vinculados com suas atividades práticas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.785/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os residentes e os preceptores, além de possuir compromisso com as ações e com os serviços públicos, deverão atender às obrigações profissionais e curriculares e às normas que instituem as diretrizes do PRTS.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/par-1",
+   "pai": "art-9",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A preceptoria será exercida sem prejuízo do desempenho do cargo do servidor designado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/par-2",
+   "pai": "art-9",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O exercício da preceptoria será computado para fins de progressão funcional, vedando-se o pagamento de gratificação ou qualquer adicional.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O residente poderá auxiliar os servidores com formação superior no desempenho de suas atribuições, sendo vedado atuar isolada e diretamente nas atividades finalísticas do órgão em que estiver lotado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ao concluir o PRTS, o residente receberá um certificado, em conformidade com o regulamento definido pela EGP.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica instituída a bolsa-auxílio Residente Técnico-Superior, no valor de R$ 2.500,00 (dois mil e quinhentos reais), a ser concedida mensalmente ao residente técnico-superior pelo cumprimento de 30 (trinta) horas semanais dedicadas às atividades do PRTS, que terá duração de até 12 (doze) meses, prorrogável uma vez por igual período.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "III",
+     "titulo": "DA BOLSA-AUXÍLIO"
+    }
+   ]
+  },
+  {
+   "id": "art-12/par-1",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Além da bolsa-auxílio, o residente perceberá auxílio-transporte.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/par-2",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O valor da bolsa-auxílio poderá ser reajustado por decreto do Executivo Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12/par-3",
+   "pai": "art-12",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Considera-se cumprimento da carga horária a participação em atividades acadêmicas, como aulas, cursos e palestras, conforme condições previstas em regulamento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O residente não poderá se afastar sem prévia autorização, sob pena de cancelamento da bolsa-auxílio.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "IV",
+     "titulo": "DOS AFASTAMENTOS"
+    }
+   ]
+  },
+  {
+   "id": "art-13/par-unico",
+   "pai": "art-13",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Excetuam-se do disposto no caput deste artigo os afastamentos por motivo de saúde devidamente justificados, nos termos do regulamento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Considerar-se-á, para fins de desconto da bolsa-auxílio por dia de ausência não justificada nas atividades do PRTS, a proporcionalidade de 30 (trinta) dias, independentemente da quantidade de dias no mês.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É assegurado ao residente período de repouso de 30 (trinta) dias por ano de atividade, sem prejuízo da bolsa recebida nos termos desta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O regime disciplinar do PRTS obedecerá, no que couber, aos dispositivos da Lei Complementar nº 133, de 31 de dezembro de 1985 – Estatuto dos Servidores Públicos do Município de Porto Alegre –, e alterações posteriores, e aos regulamentos específicos de cada área.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "V",
+     "titulo": "DO REGIME DISCIPLINAR E DAS PENALIDADES"
+    }
+   ]
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A admissão no PRTS não constitui qualquer forma de vínculo de trabalho, efetivo ou comissionado, estatutário ou empregatício.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "VI",
+     "titulo": "DAS DISPOSIÇÕES FINAIS"
+    }
+   ]
+  },
+  {
+   "id": "art-17/par-unico",
+   "pai": "art-17",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O residente deverá ser filiado como contribuinte facultativo ou comprovar que já possui filiação obrigatória ao Regime Geral de Previdência Social (RGPS).",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para vinculação ao PRTS, o residente e o preceptor deverão firmar termo de compromisso.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As despesas decorrentes da aplicação desta Lei correrão à conta de dotações próprias, ficando o Executivo Municipal autorizado a remanejar ou transformar as unidades orçamentárias em função das disposições desta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

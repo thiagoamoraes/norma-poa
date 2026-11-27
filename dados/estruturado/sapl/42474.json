@@ -1,0 +1,71 @@
+{
+ "idSapl": 42474,
+ "rotulo": "Lei municipal nº 12.695, de 11 de março de 2020",
+ "sha256Origem": "7d6fe7c7a0f668ffec1def1a5a1e9571cdf1e306c02759b49b401358a0c1a632",
+ "estruturadoEm": "2026-11-27T06:29:25.936Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12695",
+  "ano": "2020",
+  "data": "2020-03-11",
+  "epigrafe": "LEI Nº 12.695, DE 11 DE MARÇO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Parque Pontal o logradouro público que se estende entre o Lago Guaíba e a Diretriz 4.906, limitado a leste pela Avenida Padre Cacique, a norte e a oeste pelo Lago Guaíba e a sul pelo Arroio Sanga da Morte, com acesso pela Avenida Padre Cacique, 2.893, localizado no Bairro Cristal.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de março de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRicardo Hoffmann Muñoz,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Parque Pontal o logradouro público que se estende entre o Lago Guaíba e a Diretriz 4.906, limitado a leste pela Avenida Padre Cacique, a norte e a oeste pelo Lago Guaíba e a sul pelo Arroio Sanga da Morte, com acesso pela Avenida Padre Cacique, 2.893, localizado no Bairro Cristal, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nPREFEITO MUNICIPAL: Nelson Marchezan Júnior.\nEsta planta é parte integrante da Lei nº 12.695\nProcesso nº 20.0.000021797-3                      Data: 11.03.2020.",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 3,
+     "caracteres": 158,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

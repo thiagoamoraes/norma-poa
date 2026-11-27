@@ -1,0 +1,51 @@
+{
+ "idSapl": 42990,
+ "rotulo": "Lei municipal nº 12.798, de 11 de janeiro de 2021",
+ "sha256Origem": "c8bc1c03aa84f71cf61def77cfbba18f8783da4dc35e66061c433b6c25d721d7",
+ "estruturadoEm": "2026-11-27T06:29:25.576Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12798",
+  "ano": "2021",
+  "data": "2021-01-11",
+  "epigrafe": "LEI Nº 12.798, DE 11 DE JANEIRO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Declara de utilidade pública o CTG Porteira da Restinga.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de janeiro de 2021.\nSebastião de Araújo Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica declarada de utilidade pública o CTG Porteira da Restinga, com sede e foro nesta Capital, nos termos da Lei nº 2.926, de 12 de julho de 1966, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.933,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

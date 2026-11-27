@@ -1,0 +1,78 @@
+{
+ "idSapl": 41959,
+ "rotulo": "Lei municipal nº 12.505, de 24 de janeiro de 2019",
+ "sha256Origem": "957fff5cbd0fdae79950985304806a92ba28fa2091490012d9b05a067201e393",
+ "estruturadoEm": "2026-11-27T06:29:26.736Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12505",
+  "ano": "2019",
+  "data": "2019-01-24",
+  "epigrafe": "LEI Nº 12.505, DE 24 DE JANEIRO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "ementa": "Estabelece o pictograma que deverá ser utilizado em placas que sinalizam atendimento prioritário ou espaço reservado para pessoas idosas em espaços públicos ou privados no Município de Porto Alegre. A PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 12.505, de 24 de janeiro de 2019, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 28 DE JANEIRO DE 2019.\nVerª Mônica Leal,\nPresidente.\nRegistre-se e publique-se:\nVer. Alvoni Medina,\n1º Secretário.\nCCC/JPCP",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica determinada a utilização do pictograma referido no Anexo desta Lei em placas que sinalizam atendimento prioritário ou espaço reservado para pessoas idosas em espaços públicos ou privados no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas já instaladas deverão ser adequadas ao disposto no caput deste artigo."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.938,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

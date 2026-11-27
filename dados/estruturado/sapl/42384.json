@@ -1,0 +1,107 @@
+{
+ "idSapl": 42384,
+ "rotulo": "Lei municipal nº 12.658, de 27 de dezembro de 2019",
+ "sha256Origem": "b44667046eb7122d5a7ee3dc26a02a82c0b1553f7247476302e9cbb13e867a83",
+ "estruturadoEm": "2026-11-27T06:29:26.152Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12658",
+  "ano": "2019",
+  "data": "2019-12-27",
+  "epigrafe": "LEI Nº 12.658, DE 27 DE DEZEMBRO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza o Executivo Municipal a contratar operação de crédito por meio da Caixa Econômica Federal (CAIXA) até o valor de R$ 10.000.000,00 (dez milhões de reais) para as operações de crédito do Programa Avançar Cidades – Mobilidade Urbana do Ministério de Desenvolvimento Regional.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de dezembro de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o Executivo Municipal autorizado a contratar financiamento junto à Caixa Econômica Federal (CAIXA) até o valor de R$ 10.000.000,00 (dez milhões de reais), observadas as disposições legais e contratuais em vigor para as operações de crédito do Programa Avançar Cidades – Mobilidade Urbana do Ministério de Desenvolvimento Regional, nos termos da Instrução Normativa nº 16/2018, que regulamenta o processo seletivo para contratação de operações de crédito para a execução de ações de mobilidade urbana."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Os recursos provenientes da operação de crédito autorizada no caput deste artigo serão aplicados em investimentos de mobilidade:"
+  },
+  {
+   "id": "art-1/par-1/inc-I",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "na modalidade Transporte não Motorizado – Projeto Transporte Ativo; e"
+  },
+  {
+   "id": "art-1/par-1/inc-II",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "na modalidade Plano de Mobilidade – Projeto Pesquisa Origem e Destino (EDOM)."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O Município de Porto Alegre dará como garantia ao valor referido no art. 1º desta Lei, o Fundo de Participação dos Municípios (FPM) ou o Imposto sobre Operações Relativas à Circulação de Mercadorias e sobre Prestações de Serviços de Transporte Interestadual e Intermunicipal e de Comunicações (ICMS)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica o Executivo Municipal autorizado, se necessário, a abrir créditos adicionais na Lei Orçamentária Anual (LOA), obedecidas as prescrições contidas nos incs. I a IV do § 1º do art. 43 da Lei Federal nº 4.320, de 17 de março de 1964, e alterações posteriores, encaminhando, se necessário, projetos de lei para alteração da Lei de Diretrizes Orçamentárias (LDO) e do Plano Plurianual (PPA) para atender as despesas decorrentes da operação de crédito autorizada por esta Lei e as despesas relativas à amortização de principal, juros e demais encargos."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A LOA consignará os recursos necessários ao atendimento da contrapartida e das despesas relativas ao serviço da dívida."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Os prazos de amortização e carência, os encargos financeiros e outras condições de vencimento e liquidação da dívida a serem contratados obedecerão às normas pertinentes estabelecidas pelas autoridades monetárias federais e notadamente ao que dispõe a Resolução nº 43, de 21 de dezembro 2001, do Senado Federal."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O Executivo Municipal encaminhará à Câmara Municipal de Porto Alegre (CMPA), dentro de 60 (sessenta) dias, contados da data de contratação da operação de crédito autorizada por esta Lei, cópia dos respectivos instrumentos contratuais."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 10,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

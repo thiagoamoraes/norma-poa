@@ -1,0 +1,94 @@
+{
+ "idSapl": 42221,
+ "rotulo": "Lei municipal nº 12.593, de 10 de setembro de 2019",
+ "sha256Origem": "0e24bf771db032df0191db60c7374294c860e502bc0def3e2ce13dabd988ea78",
+ "estruturadoEm": "2026-11-27T06:29:26.437Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12593",
+  "ano": "2019",
+  "data": "2019-09-10",
+  "epigrafe": "PROC. Nº 1076/17",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 122/17 LEI Nº 12.593, DE 10 DE SETEMBRO DE 2019.",
+ "ementa": "Dispõe sobre a divulgação de lista informando a ordem de espera para vagas em todos os níveis de ensino pelos estabelecimentos da rede municipal de ensino, inclusive as creches conveniadas. A PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 12.593, de 10 de setembro de 2019, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 12 DE SETEMBRO DE 2019.\nVerª Mônica Leal,\nPresidente.\nRegistre-se e publique-se:\nVer. Alvoni Medina,\n1º Secretário.\nCCC",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam os estabelecimentos da rede municipal de ensino, inclusive as creches conveniadas, encarregados de divulgar lista informando a ordem de espera para vagas em todos os níveis de ensino."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Na lista referida no caput deste artigo, deverá constar, no mínimo:"
+  },
+  {
+   "id": "art-1/par-1/inc-I",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "número de protocolo; e"
+  },
+  {
+   "id": "art-1/par-1/inc-II",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "unidade pretendida."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Sempre que houver alteração na disponibilidade das vagas, deverá ocorrer a atualização da lista referida no caput deste artigo."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As informações divulgadas na lista referida no art. 1º desta Lei serão de inteira responsabilidade do Executivo Municipal."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Em caso de desistência da vaga pretendida, o solicitante deverá comunicá-la imediatamente à secretaria do estabelecimento da rede municipal de ensino ou da creche conveniada em que a solicitou."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 8,
+   "cobertura": 0.968,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

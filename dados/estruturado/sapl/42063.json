@@ -1,0 +1,93 @@
+{
+ "idSapl": 42063,
+ "rotulo": "Lei municipal nº 12.543, de 15 de maio de 2019",
+ "sha256Origem": "277963bc0d5b55afa8d31a673f28196ab24e3610f133ccd8815d9946224b8b17",
+ "estruturadoEm": "2026-11-27T06:29:26.603Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12543",
+  "ano": "2019",
+  "data": "2019-05-15",
+  "epigrafe": "LEI Nº 12.543, DE 15 DE MAIO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Desafeta e autoriza a alienação do próprio municipal localizado na Rua Ararás, destinado a leito viário da Rua Ney Galvão, ao Condomínio Edifício Villa Andaluzia e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 15 de maio de 2019.\nGustavo Bohrer Paim,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o Executivo Municipal autorizado a desafetar e alienar ao Condomínio Edifício Villa Andaluzia, inscrito no CNPJ sob o nº 05.765.104/0001-00, conforme processo administrativo nº 001.020584.03.2, o próprio municipal localizado na Rua Ararás, destinado ao leito viário da Rua Ney Galvão, proveniente do Loteamento Parque Residencial Malcon, assim descrito: “Uma área com 832,00m², com formato irregular, proveniente do Loteamento Parque Residencial Malcon, registrado sob o n° 46.102 do Cartório de Registro de Imóveis da 4ª Zona desta Capital, distando aproximadamente 43,20m da Av. Sertório, com as seguintes medidas e confrontações: a noroeste mede 12,00m limitando-se com o alinhamento da R. Ararás; a nordeste mede 64,00m em três segmentos: o primeiro partindo da divisa sudeste, mede 20,00m; o segundo mede 8,00m; e o terceiro mede 36,00m; os segmentos limitam-se com o imóvel nº 9200 da Av. Sertório; a sudoeste mede 55,00m limitando-se com o imóvel nº 9200 da Av. Sertório; e a sudeste mede 20,00m limitando-se com o imóvel nº 9200 da Av. Sertório, no quarteirão formado pelas Ruas Ney Galvão, Ararás, pela Av. Sertório, pela Al. Três de Outubro e pela R. Tapirapes, no Bairro Sarandi”."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica fixado o valor total da área descrita no art. 1º desta Lei em R$ 254.750,00 (duzentos e cinquenta e quatro mil, setecentos e cinquenta reais), conforme avaliação na data-base de setembro de 2013."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O valor de alienação será atualizado pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA), do Instituto Brasileiro de Geografia e Estatística (IBGE) até a data do primeiro pagamento, sendo de R$ 262.299,96 (duzentos e sessenta e dois mil, duzentos e noventa e nove reais e noventa e seis centavos) o valor total atualizado até fevereiro de 2014."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "o O pagamento será efetuado com entrada de R$ 30.000,00 (trinta mil reais) e o saldo em 36 (trinta e seis) parcelas mensais, de acordo com a Lei nº 10.544, de 25 de setembro de 2008, acrescido de juros simples de 1% a.m. (um por cento ao mês) e atualização mensal das parcelas pelo IPCA até a data da assinatura da escritura de promessa de compra e venda."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As parcelas são vencíveis a cada 30 (trinta) dias, vinculando-se o negócio à cláusula resolutiva, nos termos do art. 475 do Código Civil Brasileiro."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Em caso de atraso nos pagamentos, incidirá multa de 10% a.m. (dez por cento ao mês), além dos juros moratórios à razão de 1% a.m. (um por cento ao mês)."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "As despesas decorrentes da alienação de que trata esta Lei correrão às expensas da adquirente."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 6,
+   "dispositivos": 8,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

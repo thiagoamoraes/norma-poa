@@ -1,0 +1,100 @@
+{
+ "idSapl": 41965,
+ "rotulo": "Lei municipal nº 12.512, de 31 de janeiro de 2019",
+ "sha256Origem": "b86fe582995d620ca01e14fd0041257a03e20fb574977f759a728e044256c1e3",
+ "estruturadoEm": "2026-11-27T06:29:26.716Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12512",
+  "ano": "2019",
+  "data": "2019-01-31",
+  "epigrafe": "LEI Nº 12.512, DE 31 DE JANEIRO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Assegura à criança e ao adolescente cujos pais ou responsáveis sejam pessoas com deficiência ou com idade igual ou superior a 60 (sessenta) anos a prioridade de vaga em unidade da rede pública municipal de ensino mais próxima de sua residência.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de janeiro de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica assegurada à criança e ao adolescente cujos pais ou responsáveis sejam pessoas com deficiência ou com idade igual ou superior a 60 (sessenta) anos a prioridade de vaga em unidade da rede pública municipal de ensino mais próxima de sua residência."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para o fim do disposto no caput deste artigo, a pessoa com deficiência ou com idade igual ou superior a 60 (sessenta) anos deverá solicitar o cadastramento diretamente nas unidades da rede pública municipal de ensino que sejam de interesse da família, mediante apresentação dos seguintes documentos:"
+  },
+  {
+   "id": "art-1/par-1/inc-I",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "da criança ou do adolescente, identificação; e"
+  },
+  {
+   "id": "art-1/par-1/inc-II",
+   "pai": "art-1/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "dos pais ou responsáveis:"
+  },
+  {
+   "id": "art-1/par-1/inc-II/ali-a",
+   "pai": "art-1/par-1/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "documento que ateste a condição de pessoa com deficiência e comprovante de residência; ou"
+  },
+  {
+   "id": "art-1/par-1/inc-II/ali-b",
+   "pai": "art-1/par-1/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "documento de identificação que ateste ser pessoa com idade igual ou superior a 60 (sessenta) anos e comprovante de residência."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "No caso de o responsável não ser um dos pais da criança ou do adolescente, será necessário apresentar certidão que comprove sua guarda."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As despesas decorrentes da implantação desta Lei correrão por conta de dotações orçamentárias próprias, suplementadas, se necessário."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 9,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

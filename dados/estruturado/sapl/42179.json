@@ -1,0 +1,51 @@
+{
+ "idSapl": 42179,
+ "rotulo": "Lei municipal nº 12.576, de 01 de agosto de 2019",
+ "sha256Origem": "b5386f0f79e5d945af5c723f5547d7748ac833b8a5bbed12c43442a4940d6e35",
+ "estruturadoEm": "2026-11-27T06:29:26.503Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12576",
+  "ano": "2019",
+  "data": "2019-08-01",
+  "epigrafe": "LEI Nº 12.576, DE 1º DE AGOSTO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Revoga a Lei nº 7.236, de 20 de janeiro de 1993 – que estipula obrigação na comercialização e entrega de gás liquefeito de petróleo (GLP) – e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 1º de agosto de 2019.\nGustavo Bohrer Paim,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nRicardo Hoffmann Muñoz,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica revogada a Lei nº 7.236, de 20 de janeiro de 1993."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.934,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

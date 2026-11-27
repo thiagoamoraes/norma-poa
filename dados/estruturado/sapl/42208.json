@@ -1,0 +1,58 @@
+{
+ "idSapl": 42208,
+ "rotulo": "Lei municipal nº 12.588, de 26 de agosto de 2019",
+ "sha256Origem": "f43a7878a04b979fd9fe341b961d1dafdd354d124da294b8378e637542b0d7ef",
+ "estruturadoEm": "2026-11-27T06:29:26.444Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12588",
+  "ano": "2019",
+  "data": "2019-08-26",
+  "epigrafe": "LEI Nº 12.588, DE 26 DE AGOSTO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Campo de Futebol Rui Larrossa o próprio municipal existente dentro do Parque Ramiro Souto.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 26 de agosto de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Campo de Futebol Rui Larrossa o próprio municipal existente dentro do Parque Ramiro Souto, localizado no Bairro Bom Fim e delimitado pelas avenidas Setembrina, Osvaldo Aranha e José Bonifácio e o Parque Redenção."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do próprio municipal, os seguintes dizeres: Exemplo de trabalho e dedicação ao esporte amador."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.936,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

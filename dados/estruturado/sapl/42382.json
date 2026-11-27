@@ -1,0 +1,97 @@
+{
+ "idSapl": 42382,
+ "rotulo": "Lei municipal nº 12.656, de 27 de dezembro de 2019",
+ "sha256Origem": "9748385e9b3d33f38d24d9c4183c59c8b501f7032536069b6d6d49846a2d6ae3",
+ "estruturadoEm": "2026-11-27T06:29:26.159Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12656",
+  "ano": "2019",
+  "data": "2019-12-27",
+  "epigrafe": "PROC. Nº 0553/19",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "veto_derrubado",
+   "baseLegal": null
+  }
+ },
+ "cabecalhoTexto": "PLE Nº 027/19 LEI Nº 12.656, DE 27 DE DEZEMBRO DE 2019.",
+ "ementa": "Regulamenta o serviço de u lidade pública de Transporte Escolar no Município de Porto Alegre e revoga a Lei nº 6.091, de 14 de janeiro de 1988, a Lei nº 6.393, de 12 de maio de 1989, e a Lei nº 8.206, de 16 de setembro de 1998.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 5º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal manteve e eu promulgo disposi vos da Lei nº 12.656, de 27 de dezembro de 2019, como segue: ..............................................................................................................................................",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 13 DE JULHO DE 2020.\nVer. Reginaldo Pujol,\nPresidente.\nRegistre-se e publique-se:\nVer. João Carlos Nedel,\n1º Secretário.\nDocumento assinado eletronicamente por João Carlos Cavalheiro Nedel, Vereador, em 15/07/2020,\nàs 12:34, conforme horário oﬁcial de Brasília, com fundamento no Art. 10, § 2º da Medida Provisória\nnº 2200-2/2001 e nas Resoluções de Mesa nºs 491/15, 495/15 e 504/15 da Câmara Municipal de\nPorto Alegre.\nDocumento assinado eletronicamente por Reginaldo da Luz Pujol, Presidente, em 15/07/2020, às\n18:08, conforme horário oﬁcial de Brasília, com fundamento no Art. 10, § 2º da Medida Provisória nº\n2200-2/2001 e nas Resoluções de Mesa nºs 491/15, 495/15 e 504/15 da Câmara Municipal de Porto\nAlegre.\nA auten cidade deste documento pode ser conferida no site h ps://sei.camarapoa.rs.gov.br,\ninformando o código veriﬁcador 0152417 e o código CRC EE269360.\nReferência: Processo nº 203.00002/2020-10                                                               SEI nº 0152417",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "................................................................................................................................. .............................................................................................................................................."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": ""
+  },
+  {
+   "id": "art-1/par-unico/inc-I",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o disposto no § 5º do art. 5º;"
+  },
+  {
+   "id": "art-1/par-unico/inc-II",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "........................................................................................................................................."
+  },
+  {
+   "id": "art-1/par-unico/inc-III",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "o disposto no caput e no inc. I do caput do art. 7º com relação à perda da capacidade para exercer a função de condutor; e"
+  },
+  {
+   "id": "art-1/par-unico/inc-IV",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "a necessidade de apresentação do requerimento referido no § 2º do art. 7º. ................................................................................................................................................"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "promulgacao_parcial",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 1,
+   "dispositivos": 6,
+   "cobertura": 0.981,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": ""
+    },
+    {
+     "rotulo": "Parágrafo único.",
+     "naOrigem": ""
+    },
+    {
+     "rotulo": "II –",
+     "naOrigem": ""
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "idSapl": 42409,
+ "rotulo": "Lei municipal nº 12.664, de 22 de janeiro de 2020",
+ "sha256Origem": "6f3825e8c1b1fc059f19a06ef57ac77749739f7a9408efcba864d99488ce7344",
+ "estruturadoEm": "2026-11-27T06:29:26.107Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12664",
+  "ano": "2020",
+  "data": "2020-01-22",
+  "epigrafe": "LEI Nº 12.664, DE 22 DE JANEIRO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Maio Laranja – Mês de Combate ao Abuso e à Exploração Sexual de Crianças e Adolescentes – no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no mês de maio.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de janeiro de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Maio Laranja – Mês de Combate ao Abuso e à Exploração Sexual de Crianças e Adolescentes – no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no mês de maio."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O evento Maio Laranja – Mês de Combate ao Abuso e à Exploração Sexual de Crianças e Adolescentes – tem por objetivo a realização de atividades que visem à conscientização, à prevenção, à orientação e ao combate ao abuso e à exploração sexual no âmbito de atuação do Poder Púbico Municipal."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "São diretrizes do evento Maio Laranja – Mês de Combate ao Abuso e à Exploração Sexual de Crianças e Adolescentes:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "promoção de encontros de profissionais de saúde e educação para debater e sensibilizar quanto aos temas ligados à exploração sexual de crianças e adolescentes, com a finalidade de identificar os sinais e as consequências da violência sexual, bem como combatê-la; e"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "confecção e distribuição de material didático sobre o tema, alertando os cidadãos a respeito da prevenção e do combate ao abuso e à exploração sexual de crianças e adolescentes."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 6,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "idSapl": 42452,
+ "rotulo": "Lei municipal nº 12.685, de 03 de março de 2020",
+ "sha256Origem": "2745af4e386a52380b06ea00e9edc4ca25c816ed54b7d567fd60943a563b62a7",
+ "estruturadoEm": "2026-11-27T06:29:25.974Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12685",
+  "ano": "2020",
+  "data": "2020-03-03",
+  "epigrafe": "LEI Nº 12.685, DE 3 DE MARÇO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece que pessoas que necessitarem de atendimento emergencial das equipes do Serviço de Atendimento Móvel de Urgência (SAMU) possam optar pelo encaminhamento diretamente a hospitais privados localizados no Município de Porto Alegre e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 3 de março de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecido que pessoas que necessitarem de atendimento emergencial das equipes do Serviço de Atendimento Móvel de Urgência (SAMU) possam optar pelo encaminhamento diretamente a hospitais privados localizados no Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para o cumprimento do disposto no caput deste artigo, o paciente deverá estar consciente e em condições de manifestar sua opção."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Nos casos em que o paciente não esteja em condições de manifestar-se, a família ou o representante legal poderão realizar a opção pela possibilidade estabelecida por esta Lei."
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "O encaminhamento diretamente a hospitais privados deverá ser registrado no boletim de ocorrência da equipe do SAMU."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para o cumprimento do disposto no art. 1º desta Lei, caberá à equipe do SAMU avaliar a viabilidade técnica quanto às necessidades do paciente, bem como levar em consideração a proximidade do hospital escolhido e a gravidade do caso."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Município de Porto Alegre não terá responsabilidade quanto a quaisquer ônus decorrentes do encaminhamento do paciente ao hospital privado."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Para fins dos procedimentos a serem adotados pelo SAMU, serão observadas, além das determinações desta Lei, as diretrizes da Portaria Federal nº 1.010, de 21 de maio de 2012, do Ministério da Saúde, ou outra que vier a substituí-la."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 8,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

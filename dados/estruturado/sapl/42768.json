@@ -1,0 +1,51 @@
+{
+ "idSapl": 42768,
+ "rotulo": "Lei municipal nº 12.726, de 25 de setembro de 2020",
+ "sha256Origem": "7db109c6ec5b7709b6e598ea14c82c887cfef955fa9336ea5bc6b8e45d22e992",
+ "estruturadoEm": "2026-11-27T06:29:25.818Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12726",
+  "ano": "2020",
+  "data": "2020-09-25",
+  "epigrafe": "LEI Nº 12.726, DE 25 DE SETEMBRO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Declara de utilidade pública a Sociedade Bíblica do Brasil.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE,                   25 de setembro de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nCarlos Eduardo da Silveira,\nProcurador-Geral do Município",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica declarada de utilidade pública a Sociedade Bíblica do Brasil, com sede nesta Capital, nos termos da Lei nº 2.926, de 12 de julho de 1966, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.932,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

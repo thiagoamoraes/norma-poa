@@ -1,10 +1,10 @@
 {
- "geradoEm": "2026-11-26T09:19:53.868Z",
+ "geradoEm": "2026-11-27T06:29:50.854Z",
  "estado": "em_carga",
  "alertas": [],
  "proximas": [
-  "404 norma(s) aguardam revisão da leitura automática (motivo mais frequente: `rotulo_nao_confere_com_a_origem`, 235): ROTEIRO.md, tarefa 1.",
-  "186 histórico(s) incompleto(s) e 0 com erro: ROTEIRO.md, tarefa 4.",
+  "417 norma(s) aguardam revisão da leitura automática (motivo mais frequente: `rotulo_nao_confere_com_a_origem`, 241): ROTEIRO.md, tarefa 1.",
+  "203 histórico(s) incompleto(s) e 0 com erro: ROTEIRO.md, tarefa 4.",
   "17 arquivo(s) baixado(s) sem extração de texto (formato não suportado ou falha): conferir `dados/textos/sapl/_indice.jsonl`."
  ],
  "criterios": [
@@ -21,7 +21,7 @@
   {
    "nome": "Fila de textos vazia",
    "ok": false,
-   "detalhe": "5558 arquivo(s) a baixar"
+   "detalhe": "5239 arquivo(s) a baixar"
   },
   {
    "nome": "Últimas 3 execuções sem erro",
@@ -35,8 +35,8 @@
   }
  ],
  "ritmo": {
-  "baixados7": 2262,
-  "mediaDia": 323,
-  "previsaoDias": 18
+  "baixados7": 2329,
+  "mediaDia": 333,
+  "previsaoDias": 16
  }
 }

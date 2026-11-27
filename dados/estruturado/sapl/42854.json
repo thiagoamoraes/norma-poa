@@ -1,0 +1,70 @@
+{
+ "idSapl": 42854,
+ "rotulo": "Lei municipal nº 12.764, de 09 de novembro de 2020",
+ "sha256Origem": "85b961020dce0d539e8b2440f8c3ee47164a962e14e9f72d106c1caa03cb5016",
+ "estruturadoEm": "2026-11-27T06:29:25.699Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12764",
+  "ano": "2020",
+  "data": "2020-11-09",
+  "epigrafe": "LEI Nº 12.764, DE 9 DE NOVEMBRO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Comida di Buteco – Etapa Porto Alegre – no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, entre os meses de abril e maio.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de novembro de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nCarlos Eduardo da Silveira,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Comida di Buteco – Etapa Porto Alegre – no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, entre os meses de abril e maio, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nABRIL\nPERÍODO              EVENTO                DESCRIÇÃO E LOCAL DO EVENTO\nEvento de nível nacional, com uma das etapas\nEntre os meses COMIDA DI BUTECO – sediadas em Porto Alegre, que avalia a\nde abril e ETAPA PORTO ALEGRE     melhor comida de boteco, com o objetivo de\nmaio.                             valorizar a culinária, a cultura e os serviços\noferecidos aos turistas e aos cidadãos locais.\nAcontece em toda a Cidade e seleciona o\nvencedor para participar da eleição nacional\nda melhor comida “di buteco” do Brasil.\nLocal: definido pelos organizadores."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.969,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 11,
+     "caracteres": 551,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

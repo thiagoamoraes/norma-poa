@@ -1,0 +1,100 @@
+{
+ "idSapl": 41943,
+ "rotulo": "Lei municipal nº 12.499, de 17 de janeiro de 2019",
+ "sha256Origem": "1fcb0858b03970935dfe1dcf614175df9ca292db3eae19f747ca0820fed7dd32",
+ "estruturadoEm": "2026-11-27T06:29:26.770Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12499",
+  "ano": "2019",
+  "data": "2019-01-17",
+  "epigrafe": "LEI Nº 12.499, DE 17 DE JANEIRO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "ementa": "Determina que os hospitais públicos e privados, as Unidades Básicas de Saúde e as Unidades de Pronto Atendimento localizados no Município de Porto Alegre devem comunicar aos órgãos municipais da Administração Direta e Indireta responsáveis pelo planejamento e execução da política de assistência social as ocorrências de atendimento às pessoas idosas vítimas de violência. A PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 12.499, de 17 de janeiro de 2019, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 18 DE JANEIRO DE 2019.\nVerª Mônica Leal,\nPresidente.\nRegistre-se e publique-se:\nVer. Alvoni Medina,\n1º Secretário.\nCCC",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica determinado que os hospitais públicos e privados, as Unidades Básicas de Saúde e as Unidades de Pronto Atendimento localizados no Município de Porto Alegre devem comunicar aos órgãos municipais da Administração Direta e Indireta responsáveis pelo planejamento e execução da política de assistência social as ocorrências de atendimento às pessoas idosas vítimas de violência."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para os efeitos desta Lei, considera-se violência contra a pessoa idosa qualquer ação ou omissão praticada em local público ou privado que lhe cause morte, dano ou sofrimento físico ou psicológico."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O disposto no caput deste artigo não exclui a obrigatoriedade de comunicação aos órgãos referidos no art. 19 da Lei Federal nº 10.741, de 1º de outubro de 2003."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Na comunicação formal deverão constar, no mínimo, as seguintes informações:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "motivo do atendimento;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "diagnóstico;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "descrição detalhada dos sintomas e das lesões; e"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "conduta adotada, incluindo tratamento ministrado e encaminhamentos realizados."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 9,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

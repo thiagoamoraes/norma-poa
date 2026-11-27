@@ -1,0 +1,616 @@
+{
+ "idSapl": 42473,
+ "rotulo": "Lei municipal nº 12.694, de 11 de março de 2020",
+ "sha256Origem": "ed80ea0df8ca5447f944fd8f0988c7e83c612aafb9598274ac93d5e15eef2e15",
+ "estruturadoEm": "2026-11-27T06:29:25.941Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12694",
+  "ano": "2020",
+  "data": "2020-03-11",
+  "epigrafe": "LEI Nº 12.694, DE 11 DE MARÇO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria o Fundo Municipal do Trabalho (FMT), institui o Conselho Municipal do Trabalho, Emprego e Renda (CMTER) e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de março de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRicardo Hoffmann Muñoz,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criado, no âmbito da Administração Pública Municipal, o Fundo Municipal do Trabalho (FMT), instrumento de natureza contábil, para atendimento ao disposto na Lei Federal nº 13.667, de 17 de maio de 2018, e com a finalidade de prover recursos para execução das ações e serviços e para o apoio técnico relacionado à política municipal de trabalho, emprego e renda, em regime de financiamento compartilhado no âmbito do Sistema Nacional de Emprego (Sine).",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DO FUNDO MUNICIPAL DO TRABALHO"
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Sem prejuízo de sua natureza contábil, o FMT constitui-se em instrumento de gestão orçamentária e financeira, no qual devem ser alocadas as receitas e executadas as despesas afetas à política municipal de trabalho, emprego e renda e para o qual serão destinadas as transferências automáticas de recursos no âmbito do Sine."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O FMT será vinculado à Secretaria Municipal de Desenvolvimento Social e Esporte (SMDSE), a qual deverá prestar o apoio técnico e administrativo necessário à sua gestão."
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "O FMT será orientado e controlado pelo Conselho Municipal do Trabalho, Emprego e Renda (CMTER)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Constituem recursos do FMT:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "os provenientes do Fundo de Amparo ao Trabalhador (FAT), conforme o art. 11 da Lei Federal nº 13.667, de 2018;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "os saldos de aplicações financeiras dos recursos alocados no FMT;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "os repasses provenientes de convênios firmados com órgãos estaduais, federais e entidades financiadoras nacionais e estrangeiras;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "os repasses financeiros provenientes de convênios e afins, firmados com órgãos e entidades públicas ou privadas, nacionais ou estrangeiras, bem como as transferências automáticas fundo a fundo do FAT, nos termos da Lei Federal nº 13.667, de 2018;"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "as receitas provenientes da alienação de bens móveis e imóveis do Município de Porto Alegre patrimoniados à SMDSE;"
+  },
+  {
+   "id": "art-2/inc-VI",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "as doações, os auxílios, as contribuições e os legados que lhe venham a ser destinados;"
+  },
+  {
+   "id": "art-2/inc-VII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "o produto da arrecadação de multas provenientes de sentenças judiciais, juros de mora e amortizações, conforme destinação própria;"
+  },
+  {
+   "id": "art-2/inc-VIII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "os valores retidos em instituições financeiras sem destinação própria ou repasse; e"
+  },
+  {
+   "id": "art-2/inc-IX",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "outros valores que lhe forem destinados."
+  },
+  {
+   "id": "art-2/par-1",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Os recursos financeiros destinados ao FMT serão depositados obrigatoriamente em conta especial de sua titularidade, mantida em agência de estabelecimento bancário oficial, e serão movimentados pela SMDSE, com a devida fiscalização do CMTER."
+  },
+  {
+   "id": "art-2/par-2",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Os recursos de responsabilidade do Município de Porto Alegre destinados ao FMT serão repassados automaticamente, à medida que as receitas forem constituídas, e serão depositados obrigatoriamente em conta especial mantida em agência de instituição bancária oficial."
+  },
+  {
+   "id": "art-2/par-3",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "O orçamento do FMT integrará o Orçamento Geral do Município de Porto Alegre na esfera da Seguridade Social, em unidade orçamentária própria do FMT, nos termos da legislação vigente."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A aplicação dos recursos do FMT obedecerá à finalidade a que se destina e contemplará:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o financiamento, a organização, a implementação, a manutenção, a modernização e a gestão da rede de atendimento do Sine no Município de Porto Alegre;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o financiamento total ou parcial de programas, projetos, ações e atividades previstas no Plano Municipal de Ações e Serviços, pactuado no âmbito do Sine;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "o fomento ao trabalho, emprego e renda, por meio das ações previstas no art. 9º da Lei nº 13.667, de 2018, sem prejuízo de outras que lhes sejam atribuídas pelo Conselho Deliberativo do Fundo de Amparo ao Trabalhador (Codefat);"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "o pagamento das despesas com o funcionamento do CMTER envolvendo custeio, manutenção e pagamento das despesas conexas aos objetivos do FMT, exceto as de pessoal, observadas as deliberações do Codefat;"
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "o pagamento de prestação de serviços às entidades conveniadas, públicas ou privadas, para a execução de programas e projetos específicos na área do trabalho;"
+  },
+  {
+   "id": "art-3/inc-VI",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "o pagamento de subsídios à pessoa física beneficiária de programa ou projeto da política pública de trabalho, emprego e renda;"
+  },
+  {
+   "id": "art-3/inc-VII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "a aquisição de material permanente e de consumo e de outros insumos e serviços necessários ao desenvolvimento de programas e projetos;"
+  },
+  {
+   "id": "art-3/inc-VIII",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "a construção, a reforma, a ampliação, a aquisição ou a locação de imóveis para prestação de serviços de atendimento ao trabalhador;"
+  },
+  {
+   "id": "art-3/inc-IX",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "o desenvolvimento e o aperfeiçoamento dos instrumentos de gestão, planejamento, administração e controle das ações e serviços no âmbito da política municipal de trabalho, emprego e renda; e"
+  },
+  {
+   "id": "art-3/inc-X",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "texto": "o custeio, a manutenção e o pagamento das despesas conexas aos objetivos do FMT no desenvolvimento de ações, serviços e programas afetos ao Sine."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A aplicação dos recursos do FMT depende de prévia aprovação do CMTER, respeitada a sua destinação para as finalidades estabelecidas nos incs. I a X do caput deste artigo."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Por meio do FMT, o Município de Porto Alegre poderá receber repasses financeiros do Fundo de Trabalho do Estado do Rio Grande do Sul, mediante transferências automáticas fundo a fundo, bem como de outras instituições, por meio de convênios ou instrumentos similares, atendendo a condições e critérios aprovados pelo FMT."
+  },
+  {
+   "id": "art-4/par-unico",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para receber transferência de recursos do Fundo de Trabalho do Estado do Rio Grande do Sul, o Município de Porto Alegre deverá comprovar a destinação orçamentária de recursos próprios para a área do trabalho, por meio de dotações consignadas no FMT."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "O FMT será administrado pelo órgão responsável pela execução da Política Municipal de Trabalho, Emprego e Renda, sob fiscalização do CMTER."
+  },
+  {
+   "id": "art-5/par-1",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O ordenador de despesas do FMT será o Secretário Municipal de Desenvolvimento Social e Esporte, com competência para:"
+  },
+  {
+   "id": "art-5/par-1/inc-I",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "submeter à apreciação do CMTER as contas e relatórios de gestão que comprovem a execução das ações; e"
+  },
+  {
+   "id": "art-5/par-1/inc-II",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "estimular a efetivação das receitas a que se refere o art. 2º desta Lei."
+  },
+  {
+   "id": "art-5/par-2",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "As atribuições previstas nos incs. I e II do § 1º deste artigo poderão ser delegadas por motivo de ausência ou impedimento."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "O órgão municipal responsável pela execução das ações e dos serviços da política de trabalho, emprego e renda prestará contas trimestral e anualmente ao CMTER, sem prejuízo da demonstração da execução dessas ações ao Codefat."
+  },
+  {
+   "id": "art-6/par-1",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Sem prejuízo do acompanhamento, do controle e da fiscalização exercidos pelo CMTER, caberá ao órgão responsável pela administração do FMT acompanhar a conformidade da aplicação dos recursos transferidos automaticamente à esfera municipal, podendo requisitar informações referentes à aplicação dos recursos transferidos, para fins de análise e acompanhamento de sua utilização."
+  },
+  {
+   "id": "art-6/par-2",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A contabilidade do fundo deve ser realizada utilizando a identificação individualizada dos recursos na escrituração das contas públicas."
+  },
+  {
+   "id": "art-6/par-3",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "A forma de comprovação da devida execução dos recursos transferidos pela sistemática fundo a fundo poderá utilizar sistemas informatizados, sendo que sua metodologia e seu formato deverão ser estabelecidos em regulamento."
+  },
+  {
+   "id": "art-6/par-4",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "Caberá ao Município de Porto Alegre zelar pela correta utilização dos recursos do FMT, bem como pelo controle e pelo acompanhamento dos programas, projetos, benefícios, ações e serviços vinculados ao Sine, independentemente das ações do órgão repassador dos recursos, e pela declaração anual ao ente responsável pela transferência automática, conforme estabelecido no § 3º deste artigo."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Fica instituído o Conselho Municipal do Trabalho, Emprego e Renda (CMTER) na forma estabelecida nesta Lei e nos termos da Lei Federal nº 13.667, de 2018.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "II",
+     "titulo": "DO CONSELHO MUNICIPAL DO TRABALHO, EMPREGO E RENDA"
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "Compete ao CMTER gerir o FMT e exercer as seguintes atribuições:"
+  },
+  {
+   "id": "art-8/inc-I",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "definir e deliberar acerca da Política Municipal do Trabalho, Emprego e Renda, em consonância com a Política Nacional do Trabalho, Emprego e Renda;"
+  },
+  {
+   "id": "art-8/inc-II",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "apreciar e aprovar o plano de ações e serviços do Sine na forma estabelecida pelo FAT, bem como a proposta orçamentária da política pública do trabalho, emprego e renda, e suas alterações, a ser encaminhada pelo órgão da Administração Pública Municipal responsável pela coordenação da Política Municipal do Trabalho, Emprego e Renda;"
+  },
+  {
+   "id": "art-8/inc-III",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "acompanhar, controlar e fiscalizar a execução da Política Municipal do Trabalho, Emprego e Renda conforme normas e regulamentos estabelecidos pelo FAT e pelo Ministério do Trabalho, coordenador nacional do Sine;"
+  },
+  {
+   "id": "art-8/inc-IV",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "orientar e controlar o FMT e sua gestão patrimonial, bem como a recuperação de créditos e a alienação de bens e direitos;"
+  },
+  {
+   "id": "art-8/inc-V",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "aprovar seu Regimento, observando-se os critérios da Resolução Codefat que trata do funcionamento dos conselhos;"
+  },
+  {
+   "id": "art-8/inc-VI",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "exercer a fiscalização dos recursos financeiros destinados ao Sine depositados em conta especial de titularidade do FMT;"
+  },
+  {
+   "id": "art-8/inc-VII",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "apreciar e aprovar relatório de gestão anual que comprove a execução das ações relativas à utilização dos recursos federais descentralizados para os fundos do trabalho das esferas de governo que aderirem ao Sine;"
+  },
+  {
+   "id": "art-8/inc-VIII",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "aprovar a prestação de contas anual do FMT;"
+  },
+  {
+   "id": "art-8/inc-IX",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "decidir sobre sua própria organização, elaborando seu Regimento;"
+  },
+  {
+   "id": "art-8/inc-X",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "texto": "baixar normas complementares necessárias à gestão do FMT;"
+  },
+  {
+   "id": "art-8/inc-XI",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "texto": "deliberar sobre outros assuntos de interesse do FMT;"
+  },
+  {
+   "id": "art-8/inc-XII",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "texto": "buscar alternativas para a superação do problema do desemprego no Município de Porto Alegre; e"
+  },
+  {
+   "id": "art-8/inc-XIII",
+   "pai": "art-8",
+   "tipo": "inciso",
+   "rotulo": "XIII –",
+   "texto": "identificar e sugerir, no âmbito do Município de Porto Alegre, as áreas e os setores nos quais serão realizados prioritariamente cursos de qualificação profissional e outras ações que visem à geração de emprego e renda com recursos oriundos do FAT, bem como acompanhar e avaliar essas ações."
+  },
+  {
+   "id": "art-8/par-unico",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Ao Município de Porto Alegre incumbe a seleção e a contratação das executoras dos cursos de qualificação profissional e outras ações possíveis de serem financiadas pelo FMT."
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "texto": "O CMTER será composto por membros titulares e suplentes, renovados a cada 2 (dois) anos, de forma tripartite e paritária, com representação em igual número do governo, dos trabalhadores e dos empregadores, da seguinte forma:"
+  },
+  {
+   "id": "art-9/inc-I",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "representação governamental:"
+  },
+  {
+   "id": "art-9/inc-I/ali-a",
+   "pai": "art-9/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "2 (dois) titulares e 2 (dois) suplentes da Diretoria-Geral de Trabalho, Emprego e Renda (DGTER-SMDSE); e"
+  },
+  {
+   "id": "art-9/inc-I/ali-b",
+   "pai": "art-9/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "2 (dois) titulares e 2 (dois) suplentes a serem indicados pelo Município de Porto Alegre;"
+  },
+  {
+   "id": "art-9/inc-II",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "representação dos trabalhadores:"
+  },
+  {
+   "id": "art-9/inc-II/ali-a",
+   "pai": "art-9/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "1 (um) titular e 1 (um) suplente do Sindicato dos Empregados do Comércio de Porto Alegre (Sindec);"
+  },
+  {
+   "id": "art-9/inc-II/ali-b",
+   "pai": "art-9/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "1 (um) titular e 1 (um) suplente do Sindicato dos Empregados de Empresas de Assessoramento, Perícias, Informações e Pesquisas e de Fundações Estaduais do Rio Grande do Sul (Semapi);"
+  },
+  {
+   "id": "art-9/inc-II/ali-c",
+   "pai": "art-9/inc-II",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "1 (um) titular e 1 (um) suplente do Sindicato dos Técnicos-Científicos do Rio Grande do Sul (Sintergs); e"
+  },
+  {
+   "id": "art-9/inc-II/ali-d",
+   "pai": "art-9/inc-II",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "texto": "1 (um) titular e 1 (um) suplente do Sindicato dos Trabalhadores nas Indústrias do Vestuário de Porto Alegre e Grande Porto Alegre (STIV/POA); e"
+  },
+  {
+   "id": "art-9/inc-III",
+   "pai": "art-9",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "representação dos empresários:"
+  },
+  {
+   "id": "art-9/inc-III/ali-a",
+   "pai": "art-9/inc-III",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "1 (um) titular e 1 (um) suplente do Sindicato da Indústria da Construção Civil no Estado do Rio Grande do Sul (Sinduscon/RS);"
+  },
+  {
+   "id": "art-9/inc-III/ali-b",
+   "pai": "art-9/inc-III",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "1 (um) titular e 1 (um) suplente do Sindicato do Comércio Atacadista do Rio Grande do Sul (Sindicatacadista);"
+  },
+  {
+   "id": "art-9/inc-III/ali-c",
+   "pai": "art-9/inc-III",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "1 (um) titular e 1 (um) suplente da Câmara de Dirigentes Lojistas de Porto Alegre (CDL); e"
+  },
+  {
+   "id": "art-9/inc-III/ali-d",
+   "pai": "art-9/inc-III",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "texto": "1 (um) titular e 1 (um) suplente do Sindicato dos Lojistas do Comércio de Porto Alegre (Sindilojas/POA)."
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "texto": "Fica o Executivo Municipal autorizado a:",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "III",
+     "titulo": "DAS DISPOSIÇÕES FINAIS"
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-I",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "abrir créditos adicionais na Lei Orçamentária Anual (LOA), obedecidas as prescrições contidas nos incs. I a IV do § 1º do art. 43 da Lei Federal nº 4.320, de 17 de março de 1964, e alterações posteriores; e"
+  },
+  {
+   "id": "art-10/inc-II",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "incluir, no Plano Plurianual (PPA) e na Lei de Diretrizes Orçamentárias (LDO), a ação constante no Anexo desta Lei, nos termos do art. 6º da Lei nº 12.297, de 4 de setembro de 2017."
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "texto": "A Comissão Municipal de Emprego (CME), criada pelo Decreto nº 17.390, de 18 de outubro de 2011, e alterações posteriores, permanecerá exercendo suas funções até que os dispositivos desta Lei sejam regulamentados pelo Executivo Municipal e o CMTER seja formalmente constituído."
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "texto": "O Executivo Municipal regulamentará esta Lei em até 90 (noventa) dias, contados da data de sua publicação."
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nAÇÕES E ATRIBUTOS INCLUÍDOS NO PLANO PLURIANUAL 2018-2021\nE NA LEI DE DIRETRIZES ORÇAMENTÁRIAS 2019\nI – Programa Estratégico: PORTO ALEGRE PARA TODOS\n1) Nome da Ação: FUNDO MUNICIPAL DO TRABALHO (FMT)\nDescrição:\nO Fundo Municipal do Trabalho (FMT) constitui-se em instrumento de gestão\norçamentária e financeira, no qual devem ser alocadas as receitas e executadas as despesas afetas\nà política municipal de trabalho, emprego e renda e para o qual serão destinadas as transferências\nautomáticas de recursos no âmbito do Sine.\nFinalidade:\nAplicar os recursos em programas, projetos, ações, serviços, instrumentos de\ngestão e atividades referentes à política pública de trabalho, emprego e renda, bem como em\nconstrução, reforma, ampliação, aquisição ou locação de imóveis para prestação de serviços de\natendimento ao trabalhador e custeio, manutenção e pagamento das despesas conexas aos\nobjetivos do FMT.\nÓrgão Executor: SMDSE\nProduto 1: AÇÃO ADMINISTRATIVA"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 13,
+   "dispositivos": 78,
+   "cobertura": 0.975,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 17,
+     "caracteres": 941,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

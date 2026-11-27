@@ -1,0 +1,68 @@
+{
+ "idSapl": 41962,
+ "rotulo": "Lei municipal nº 12.508, de 24 de janeiro de 2019",
+ "sha256Origem": "966062ffc665ea6a91ae342cbe9cf5670207bfc2ee498517d2f4e1e1d53dadb6",
+ "estruturadoEm": "2026-11-27T06:29:26.727Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12508",
+  "ano": "2019",
+  "data": "2019-01-24",
+  "epigrafe": "LEI Nº 12.508, DE 24 DE JANEIRO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "ementa": "Inclui § 5º no art. 47 e altera o caput do § 2º do art. 50, todos na Lei nº 5.811, de 8 de dezembro de 1986, e alterações posteriores; e inclui § 6º no art. 1º da Lei nº 3.961, de 16 de dezembro de 1974. A PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 12.508, de 24 de janeiro de 2019, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 28 DE JANEIRO DE 2019.\nVerª Mônica Leal,\nPresidente.\nRegistre-se e publique-se:\nVer. Alvoni Medina,\n1º Secretário.\nCCC/JPCP",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "No art. 47 da Lei nº 5.811, de 8 de dezembro de 1986, e alterações posteriores, fica incluído § 5º, conforme segue:",
+   "blocoDeAlteracao": "“Art. 47. ....................................................................................................................\n....................................................................................................................................\n§ 5º Se o servidor estiver percebendo a vantagem prevista na Lei nº 3.961, de\n1974, o percentual fixado pelo § 1º deste artigo aumentará 0,1875 (zero vírgula um mil\noitocentos e setenta e cinco) pontos percentuais, a cada 3 (três) anos de serviço público\nmunicipal.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "No art. 50 da Lei nº 5.811, de 1986, e alterações posteriores, fica alterado o caput do § 2º, conforme segue:",
+   "blocoDeAlteracao": "“Art. 50. ..................................................................................................................\n..................................................................................................................................\n§ 2º O valor estabelecido no inc. I do caput deste artigo equivale ao valor\nmáximo de 1 (um) adiantamento e será reajustado nos mesmos índices e nas mesmas datas do\nreajuste dos vencimentos dos servidores da Câmara Municipal de Porto Alegre.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "No art. 1º da Lei nº 3.961, de 16 de dezembro de 1974, e alterações posteriores, fica incluído § 6º, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º .....................................................................................................................\n....................................................................................................................................\n§ 6º Os valores dos percentuais previstos nos §§ 1º, 3º e 4º deste artigo serão\naumentados em:\nI – 0,5 (zero vírgula cinco) vez, se o servidor estiver convocado para o regime\nespecial de trabalho de tempo integral; e\nII – 1 (uma) vez, se o servidor estiver convocado para o regime especial de\ntrabalho de dedicação exclusiva.” (NR)"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação, retroagindo seus efeitos a 1º de outubro de 2015."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.968,
+   "blocosDeAlteracao": 3,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

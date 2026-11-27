@@ -1,0 +1,76 @@
+{
+ "idSapl": 43062,
+ "rotulo": "Lei municipal nº 12.806, de 01 de março de 2021",
+ "sha256Origem": "fe7078797cf5c700906fdf322bf5876a5b3597a58d28bf888ddaca929a76cd6c",
+ "estruturadoEm": "2026-11-27T06:29:25.547Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12806",
+  "ano": "2021",
+  "data": "2021-03-01",
+  "epigrafe": "LEI Nº 12.806, DE 1º DE MARÇO DE 2021.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui os arts. 3º-A, 3º-B e 3º-C e revoga o art. 3º na Lei nº 5.548, de 28 de dezembro de 1984 – que consolida dispositivos relativos à instituição da Passagem Escolar no Município de Porto Alegre – e    alterações    posteriores,    instituindo    os procedimentos para a concessão e a renovação da Carteira de Passagem Escolar do transporte coletivo por ônibus do Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 1º de março de 2021.\nSebastião Melo,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nRoberto Silva da Rocha,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluído art. 3º-B na Lei nº 5.548, de 1984, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º-B A renovação da Carteira de Passagem Escolar será efetuada de forma\ndigital.”"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica incluído art. 3º-C na Lei nº 5.548, de 1984, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º-C As instituições de ensino deverão manter atualizada, junto à Empresa\nPública de Transporte e Circulação (EPTC), a relação de alunos matriculados.”"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "VETADO.",
+   "vetado": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.951,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

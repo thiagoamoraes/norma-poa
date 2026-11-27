@@ -1,0 +1,52 @@
+{
+ "idSapl": 42447,
+ "rotulo": "Lei municipal nº 12.678, de 03 de março de 2020",
+ "sha256Origem": "218d598d8b5217e2c90351fb7398660f0488285cd89c8044702a54163898f139",
+ "estruturadoEm": "2026-11-27T06:29:26.054Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12678",
+  "ano": "2020",
+  "data": "2020-03-03",
+  "epigrafe": "LEI Nº 12.678, DE 3 DE MARÇO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o inc. III do art. 1º da Lei nº 10.743, de 1º de setembro de 2009, incluindo o Parque 1946 no rol de equipamentos urbanos e logradouros públicos que o Município de Porto Alegre fica autorizado a desafetar da destinação de uso comum do povo, para fins de regularização do registro do loteamento Porto Seco.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 3 de março de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o inc. III do art. 1º da Lei nº 10.743, de 1º de setembro de 2009, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º .....................................................................................................................\n....................................................................................................................................\nIII – Parques 1946 e 1947;\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.952,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

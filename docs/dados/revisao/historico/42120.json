@@ -1,0 +1,127 @@
+{
+ "geradoEm": "2026-11-27T06:29:37.968Z",
+ "idSapl": 42120,
+ "rotulo": "Lei municipal nº 12.560, de 02 de julho de 2019",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 12560/2019@2019-07-02",
+   "data": "2019-07-02",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 12560/2019@2023-09-05",
+   "data": "2023-09-05",
+   "fonte": {
+    "idSapl": 47151,
+    "rotulo": "Lei municipal nº 13.624, de 05 de setembro de 2023"
+   },
+   "comandosAplicados": 1
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica estabelecida a reserva de assentos preferenciais para idosos, gestantes, obesos, lactantes e pessoas com deficiência ou com mobilidade reduzida em terminais e pontos de parada de ônibus municipais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica estabelecida a reserva de assentos preferenciais para idosos, gestantes, obesos, lactantes, pessoas com deficiência ou com mobilidade reduzida e pessoas com Transtorno do Espectro Autista (TEA) em terminais e pontos de parada de ônibus municipais.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.624/2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os assentos de terminais e pontos de parada de ônibus municipais deverão estar identificados como reservados para uso preferencial pelas pessoas referidas no caput deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O disposto no art. 1º desta Lei fica condicionado à reforma dos já existentes ou à criação de novos assentos, por parte do Executivo Municipal, em terminais e pontos de parada de ônibus do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 47151,
+    "rotulo": "Lei municipal nº 13.624, de 05 de setembro de 2023"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
+  }
+ ],
+ "aConferir": []
+}

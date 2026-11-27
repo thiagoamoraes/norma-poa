@@ -1,0 +1,114 @@
+{
+ "idSapl": 42193,
+ "rotulo": "Lei municipal nº 12.582, de 07 de agosto de 2019",
+ "sha256Origem": "29f24c90c31e5297e4460f2fd78109333e1bc15d7c40a7d47f0d4f058014b0cc",
+ "estruturadoEm": "2026-11-27T06:29:26.493Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12582",
+  "ano": "2019",
+  "data": "2019-08-07",
+  "epigrafe": "LEI Nº 12.582, DE 7 DE AGOSTO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "ementa": "Obriga as instituições financeiras e os serviços notariais e de registros a disponibilizar contratos, boletos e documentos públicos em português e em braile para as pessoas com deficiência visual. A PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 12.582, de 7 de agosto de 2019, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 9 DE AGOSTO DE 2019.\nVerª Mônica Leal,\nPresidente.\nRegistre-se e publique-se:\nVer. Alvoni Medina,\n1º Secretário.\nCCC/JPCP",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam as instituições financeiras e os serviços notariais ou de registros obrigados a disponibilizar contratos, boletos e documentos públicos em português e em braile para as pessoas com deficiência visual."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para os fins desta Lei, consideram-se instituições financeiras os bancos públicos e privados, os agentes financeiros e as instituições semelhantes participantes do Sistema Financeiro Nacional."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O conteúdo de contratos, boletos e documentos públicos disponibilizados em braile pelas instituições referidas no art. 1º desta Lei deverá ser igual ao daqueles disponibilizados em português."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Havendo divergência de conteúdo, prevalecerá o daqueles disponibilizados em braile."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A pessoa com deficiência visual poderá solicitar o cumprimento ao disposto no caput do art. 1º desta Lei:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a qualquer momento ou no momento da contratação de quaisquer serviços nas instituições financeiras; e"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "no momento da prestação do serviço público nos serviços notariais ou de registros."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Os custos para a implementação do disposto nesta Lei caberão às instituições financeiras e aos serviços notariais ou de registros."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Fica estabelecido o prazo de 60 (sessenta) dias, contados da data de publicação desta Lei, para adequação às suas disposições."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "O descumprimento ao disposto nesta Lei sujeitará o infrator às sanções previstas na Lei Federal nº 8.078, de 11 de setembro de 1990 – Código de Defesa do Consumidor – , e nas demais legislações vigentes pertinentes à exclusão social e à discriminação."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 11,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

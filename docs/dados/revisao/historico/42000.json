@@ -1,0 +1,141 @@
+{
+ "geradoEm": "2026-11-27T06:29:37.953Z",
+ "idSapl": 42000,
+ "rotulo": "Lei municipal nº 12.519, de 19 de março de 2019",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 12519/2019@2019-03-19",
+   "data": "2019-03-19",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 12519/2019@2024-04-10",
+   "data": "2024-04-10",
+   "fonte": {
+    "idSapl": 48276,
+    "rotulo": "Lei municipal nº 13.887, de 10 de abril de 2024"
+   },
+   "comandosAplicados": 1
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica estabelecida a divulgação da relação e do estoque de medicamentos distribuídos gratuitamente pelo Sistema Único de Saúde (SUS) nos seguintes locais:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "murais de locais públicos de distribuição;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "murais de farmácias populares da rede própria do Programa Farmácia Popular do Brasil;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "murais de farmácias e drogarias da rede privada que funcionem em parceria com o Programa Farmácia Popular do Brasil; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-IV",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "na internet, por meio do site da Prefeitura Municipal de Porto Alegre ou por outros meios criados especificamente para esse fim.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-V",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Código de Barras Bidimensional Quick Response (QR Code) em cartazes na área externa de Unidades de Saúde de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.887/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

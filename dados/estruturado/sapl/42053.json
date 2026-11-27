@@ -1,0 +1,51 @@
+{
+ "idSapl": 42053,
+ "rotulo": "Lei municipal nº 12.540, de 02 de maio de 2019",
+ "sha256Origem": "f1d7a48f5a950176e213b571a415cdce5c956251543c3a28b3f3b04d0721fa9f",
+ "estruturadoEm": "2026-11-27T06:29:26.609Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12540",
+  "ano": "2019",
+  "data": "2019-05-02",
+  "epigrafe": "LEI Nº 12.540, DE 2 DE MAIO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Revoga a Lei nº 7.973, de 18 de março de 1997 – que proíbe a instalação de bombas de autosserviço nos postos de abastecimento de combustíveis e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 2 de maio de 2019.\nMônica Leal,\nPrefeita, em exercício.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica revogada a Lei nº 7.973, de 18 de março de 1997."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.936,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "idSapl": 42455,
+ "rotulo": "Lei municipal nº 12.687, de 03 de março de 2020",
+ "sha256Origem": "3e59e499db204d1a9e6f84e714809ca55dd6e735d7d2296a3ad052d40f32bfb1",
+ "estruturadoEm": "2026-11-27T06:29:25.966Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12687",
+  "ano": "2020",
+  "data": "2020-03-03",
+  "epigrafe": "LEI Nº 12.687, DE 3 DE MARÇO DE 2020.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui a campanha Dezembro Verde – Combate ao Crime de Abandono de Animais Domésticos – e inclui a efeméride Mês de Combate ao Crime de Abandono de Animais Domésticos – Dezembro Verde – no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no mês de dezembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 3 de março de 2020.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nNelson Nemo Franchini Marisco,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída a campanha Dezembro Verde – Combate ao Crime de Abandono de Animais Domésticos –, que visa à conscientização da população acerca do fato de o abandono de animais domésticos ser um crime, considerando o aumento do número de abandonos de animais domésticos no período de dezembro a fevereiro."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "São objetivos da campanha Dezembro Verde:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "conscientizar a população acerca do fato de o abandono de animais domésticos ser um crime, além de ser um ato cruel que pode condenar o animal doméstico abandonado à morte;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "dar maior visibilidade ao tema, estimulando a prevenção do abandono de animais domésticos, por meio do emprego de recursos visuais de impacto;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "contribuir para a melhoria dos indicadores relativos ao abandono de animais domésticos; e"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "ampliar o nível de resolução das ações direcionadas ao abandono de animais domésticos por meio de ações integradas envolvendo a população, os órgãos públicos e as organizações que atuam na área."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica incluída a efeméride Mês de Combate ao Crime de Abandono de Animais Domésticos – Dezembro Verde –, no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no mês de dezembro."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 9,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "idSapl": 41966,
+ "rotulo": "Lei municipal nº 12.513, de 31 de janeiro de 2019",
+ "sha256Origem": "af554219e50015ba3ba47a03d76956773e9933ceb4f2a12ceeee0b506d3bbd46",
+ "estruturadoEm": "2026-11-27T06:29:26.714Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12513",
+  "ano": "2019",
+  "data": "2019-01-31",
+  "epigrafe": "LEI Nº 12.513, DE 31 DE JANEIRO DE 2019.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Campo de Futebol Luiz Carlos Oliveira (Bolinha) o próprio municipal existente dentro do Parque Araribóia.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de janeiro de 2019.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Campo de Futebol Luiz Carlos Oliveira (Bolinha) o próprio municipal existente dentro do Parque Araribóia, localizado no Bairro Jardim Botânico e delimitado pelas ruas Saicã, Felizardo Furtado, Mariz e Barros e Lavradio."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do próprio municipal, os seguintes dizeres: Exemplo de trabalho e dedicação ao esporte amador."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.935,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}
