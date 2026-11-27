@@ -24,3 +24,27 @@ Regras: o relatório é insumo, não autoridade (regra 12c): as afirmações que
 - (b) **coleta manual assistida pelo mantenedor** (ele abre e salva as compilações no navegador dele, no ritmo humano e conforme os termos do contrato), e o sistema **só ingere os arquivos que ele coloca numa pasta**;
 - (c) lado do sistema (construível agora): ingestão em lote de compilações fornecidas, leitura por dispositivo, **análise independente do histórico** do Norma × compilação e **lista de divergências com as duas versões lado a lado** (estende `compara.html`/`revisao-compilacao.mjs`).
 - **Os textos compilados não vão para o git** (repositório público; direitos do provedor): ficam em pasta local ignorada; só o relatório de divergências (ids, dispositivos, trechos curtos) pode ser versionado.
+
+
+---
+## Resultado do levantamento (27/11/2026) — seis agentes, relatórios em `PLANO-REVISOES-<A..F>-*.md`
+Insumo, não autoridade. Conferido por mim de forma independente: os 2 falsos aceites recentes (42533 "Vll"; 45738 sem "II/III"), o `reArtX` com `/i` (norma-core.js:1014), o histórico da LO 1/1990 deslocado (`art-20` com o texto do Art. 19-A) e o texto truncado da LO art-116-A § 2º.
+
+### Fila humana de recentes (132) por classe (aproximado; há normas com mais de um motivo)
+| Recorte | Normas | 1 regra, sem humano | 2 IA propõe, humano amostra | 3 humano ponto a ponto | 4 defeito da fonte |
+|---|---|---|---|---|---|
+| A rótulo não confere | 49 | ~7 (+4 com a regra "a lei pula") | 12 | ~17 | ~9 |
+| B data/número do catálogo | 33 | 15 | 15 | 0 | 3 |
+| C parcial/fecho/cabeçalho | 35 | 9 (7 saem) | 1 | 9 | 16 |
+| D blocos/tabela/fecho longo | 42 | 8 (+3) | 12 | 9 | 10 |
+Leitura: das 132, cerca de **35–40 saem por regra determinística**, cerca de **40 podem ser propostas por IA com amostragem humana**, cerca de **35 pedem humano ponto a ponto** e cerca de **35–40 são defeito da fonte** (arquivo errado, vazio, OCR, só anexo). Contagem exata só depois de implementar e medir (sobreposição entre recortes).
+Fila de **antigas (295)**: 216 defeito da fonte (136 autógrafo datilografado com OCR antigo, 44 OCR nosso, 23 só título), 79 humano; ~150–175 não merecem revisão para o texto vigente (69 revogadas por inteiro, 65 sem relação com outras leis). 12 leis de peso para cotejo com a compilação (LO 1/1990, LC 12/1975, 133/1985, 434/1999, 284/1992, 170/1987, 478/2002, 395/1996, 113/1984, 420/1998, 352/1995, 320/1994; fora do recorte, LC 7/1973).
+**Histórico** (leis recentes, 100 com histórico incompleto, 144 pares): metade (72) não é pendência real; correções determinísticas deixariam 46 leis completas, até 75–81 com ementa/agrupador/revogações; ~19 para humano.
+
+### Defeitos que PUBLICAM texto vigente errado (independem da fila; candidatos a correção imediata)
+1. **`reArtX` com flag `/i`** (core): linha de bloco que começa por "art. N" minúsculo abre falso artigo. Truncou histórico da LO art-116-A § 2º (EC 46/2019), LC 703 art. 11, 36316 art. 24-A, 38249 art. 69-A.
+2. **Histórico de base que já é compilação da fonte** (LO 1/1990, LC 12/1975, LC 434/1999, LC 170/1987): alteradoras reaplicadas sobre texto que já as inclui; artigos deslocados na LO.
+3. **Histórico aplica alteradora "a revisar" sem aviso** (LO art. 61 com lixo de OCR; LC 332; LC 434 art. 1º; Lei 13.219; Lei 13.396).
+4. **Falsos aceites** (dispositivo engolido no fim da sequência): 42533, 45738 (recentes); 30360, 35123 (antigas, não conferidos). O aviso `possivel_dispositivo_embutido` não procura romanos nem "Art,".
+5. **Ruído de impressão do SEI dentro de dispositivos aceitos** (D: 35 normas; conferência rápida minha achou 7 por outro padrão).
+6. **~573 endereços "a conferir" falsos** no histórico (laço de `aplicada_em_parte` grava endereço de outra lei).
