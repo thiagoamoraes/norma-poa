@@ -55,7 +55,7 @@ export function introsDeAlteracaoSemBloco(artigos) {
 }
 
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
-export const VERSAO_ESTRUTURADOR = 30;
+export const VERSAO_ESTRUTURADOR = 31;
 
 export const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');

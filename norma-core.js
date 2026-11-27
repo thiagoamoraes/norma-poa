@@ -1011,7 +1011,10 @@ export function extrairRedacaoAlterada(blockLines) {
   // reticência de omissão ("Art. 2º ...") antes de o corpo ser avaliado, deixando
   // sobrar só 1 ou 2 pontos e escondendo a marcação de "caput inalterado" do
   // reOmissaoBody abaixo. Achado com dado real (LC 384/1996, art. 1º).
-  const reArtX = /^Art(?:igo)?\.?\s*(\d+\s*[º°]?(?:-[A-Z])?)\s*(.*)$/i;
+  // Sem a flag /i (decisão 57, rodada 61): "art. 198 da Constituição…" em minúscula, no começo de uma linha de
+  // bloco, é continuação de frase (citação) e não abre artigo. Mesmo critério do `reArt` ("A" maiúsculo).
+  // Real: Emenda à Lei Orgânica 46/2019 (id 44301), art. 116-A § 2º.
+  const reArtX = /^(?:Art|ART)(?:igo|IGO)?\.?\s*(\d+\s*[º°]?(?:-[A-Za-z])?)\s*(.*)$/;
   const rePUnX = /^Par[áa]grafo\s+[úu]nico\s*(.*)$/i;
   const rePX   = /^§\s*(\d+\s*[º°]?(?:-[A-Z])?)\s*(.*)$/;
   const reIncX = /^([IVXLCDM]{1,9}(?:-[A-Z])?)\s*[-–—]\s*(.*)$/;
