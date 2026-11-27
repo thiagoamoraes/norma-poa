@@ -1,0 +1,70 @@
+{
+ "idSapl": 41659,
+ "rotulo": "Lei municipal nº 12.412, de 24 de maio de 2018",
+ "sha256Origem": "2f1564ce95a1db3cdcfd866cc9c3b49cbef79a8ad1dfad232590a861220a6773",
+ "estruturadoEm": "2026-11-27T09:18:47.349Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12412",
+  "ano": "2018",
+  "data": "2018-05-24",
+  "epigrafe": "LEI Nº 12.412, DE 24 DE MAIO DE 2018.",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "Inclui o evento Feira Brasileira do Varejo – Febravar – no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, no mês de julho.",
+ "preambulo": null,
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 24 de maio de 2018.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Feira Brasileira do Varejo – Febravar – no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nJULHO\nPERÍODO       EVENTO                  DESCRIÇÃO E LOCAL DO EVENTO\nNo mês  FEIRA BRASILEIRA DO   O evento reúne, em um só local, lojistas e\nVAREJO – FEBRAVAR     fornecedores do varejo. Os expositores apresentam\nsoluções e inovações para o comércio, nas áreas de\ntecnologia, vitrinismo, comunicação, serviços visuais,\ncapacitações, mobiliários, entre outras. São oferecidas\npalestras com especialistas, visando ao crescimento e\nao fortalecimento do varejo.\nLocal: *"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.963,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 10,
+     "caracteres": 461,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "idSapl": 41788,
+ "rotulo": "Lei municipal nº 12.456, de 10 de outubro de 2018",
+ "sha256Origem": "edceea91de04a4a1380784435ee061e2dfd91ea55564d0abbe99f63419345f0b",
+ "estruturadoEm": "2026-11-27T09:18:47.255Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12456",
+  "ano": "2018",
+  "data": "2018-10-10",
+  "epigrafe": "LEI Nº 12.456, DE 10 DE OUTUBRO DE 2018.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o Anexo da Lei nº 11.395, de 27 de dezembro de 2012, que autoriza o Executivo Municipal a contratar, com instituições bancárias mantidas pelo Governo Federal – Caixa Econômica Federal (CEF) ou Banco do Brasil –, com recursos transferidos pelo Banco Nacional de Desenvolvimento Econômico e Social, operações de crédito até o limite de R$ 461.923.415,52 (quatrocentos e sessenta e um milhões, novecentos e vinte e três mil, quatrocentos e quinze reais e cinquenta e dois centavos), destinados à execução dos projetos de mobilidade urbana associados à Copa do Mundo de 2014, e alterações posteriores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de outubro de 2018.\nGustavo Bohrer Paim,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nNelson Marisco,\nProcurador-Geral do Município, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o Anexo da Lei nº 11.395, de 27 de dezembro de 2012, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nProjetos de mobilidade urbana associados à Copa do Mundo de 2014:\nPROJETO                     VALOR DO INVESTIMENTO (em R$)\nCorredor Terceira Perimetral                                R$ 102.732.926,83\nCorredor Avenida Tronco                                      R$ 91.094.286,27\nCorredor Voluntários da Pátria                               R$ 95.505.405,41\nAvenida Severo Dullius                                       R$ 76.970.000,00\nCorredor Padre Cacique                                       R$ 23.067.100,31\nCorredor Bento Gonçalves                                      R$ 6.565.714,56\nCorredor Protásio Alves                                       R$ 5.503.456,08\nCorredor João Pessoa                                          R$ 2.568.907,06\nComplexo da Rodoviária                                        R$ 6.589.452,58\nErnesto Neugebauer                                           R$ 50.605.113,79\nTOTAL                                                       R$ 461.202.362,89"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.972,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 13,
+     "caracteres": 969,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,381 @@
+{
+ "geradoEm": "2026-11-27T09:18:54.419Z",
+ "idSapl": 47945,
+ "rotulo": "Lei municipal nº 12.477, de 10 de dezembro de 2018",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 12477/2018@2018-12-10",
+   "data": "2018-12-10",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 12477/2018@2024-01-18",
+   "data": "2024-01-18",
+   "fonte": {
+    "idSapl": 47944,
+    "rotulo": "Lei municipal nº 13.840, de 18 de janeiro de 2024"
+   },
+   "comandosAplicados": 9
+  },
+  {
+   "indice": 2,
+   "id": "l 12477/2018@2026-07-17",
+   "data": "2026-07-17",
+   "fonte": {
+    "idSapl": 51500,
+    "rotulo": "Lei municipal nº 14.586, de 17 de julho de 2026"
+   },
+   "comandosAplicados": 3
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica obrigatória a divulgação dos serviços e dos profissionais especializados disponibilizados para atendimento nas unidades de saúde da rede de atenção básica do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica obrigatória a divulgação das seguintes informações nas unidades de saúde da rede de atenção básica do Município de Porto Alegre:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.840/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A divulgação referida no caput deste artigo deverá ocorrer diariamente nos murais das unidades de saúde e no site da Secretaria Municipal de Saúde.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "serviços e escalas semanais;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.840/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "nome do profissionais especializados e seus horários de expediente;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.840/2024"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "nome dos profissionais e seus horários de expediente;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 14.586/2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "QR Code indicando ao usuário a divulgação da relação e do estoque de medicamentos distribuídos gratuitamente à população pelo Sistema Único de Saúde (SUS); e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.840/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-IV",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "horário de funcionamento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.840/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "A divulgação das informações descritas nos incisos deste artigo deverá constar no site da Secretaria Municipal de Saúde e em placa na área externa da unidade de saúde, que conterá também os contatos telefônicos dos serviços de ouvidoria do Sistema Único de Saúde, do Ministério da Saúde e do Município de Porto Alegre, bem como outros canais existentes para a formalização de reclamações envolvendo os serviços prestados na unidade de saúde.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.840/2024"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "A divulgação das informações descritas nos incisos deste artigo deverá constar no site da SMS e em placa exposta na unidade de saúde, em local visível, contendo também os contatos telefônicos dos serviços de ouvidoria do SUS, do Ministério da Saúde e do Município de Porto Alegre, bem como outros canais existentes para a formalização de reclamações relativas aos serviços prestados na unidade de saúde.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 14.586/2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Deverão também constar nas placas de que trata o § 1º deste artigo os horários vagos dos profissionais de saúde, atualizados diariamente.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.840/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-3",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "A atualização dos serviços referidos no artigo 1º desta Lei deverá ocorrer diariamente e com a inclusão do horário em que foram atualizados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.840/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-4",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "O disposto neste artigo aplica-se também ao Serviço de Ambulatório Médico da Câmara Municipal de Porto Alegre, no que couber.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.840/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-V",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 2,
+     "texto": "QR Code, em local visível, indicando ao usuário o canal de acesso da Secretaria Municipal de Saúde (SMS) para o encaminhamento de sugestões e reclamações sobre a qualidade do serviço prestado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.586/2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para os fins desta Lei, consideram-se unidades de saúde da rede atenção básica do Município de Porto Alegre:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "as Unidades Básicas de Saúde;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "as Estratégias de Saúde da Família;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os centros de saúde municipais; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "os centros de saúde conveniados.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam os gestores de cada unidade de saúde da rede de atenção básica do Município de Porto Alegre responsáveis pelas informações referidas no art. 1º desta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 47944,
+    "rotulo": "Lei municipal nº 13.840, de 18 de janeiro de 2024"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
+  },
+  {
+   "alteradora": {
+    "idSapl": 51500,
+    "rotulo": "Lei municipal nº 14.586, de 17 de julho de 2026"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
+  }
+ ],
+ "aConferir": []
+}

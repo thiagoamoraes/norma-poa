@@ -1,0 +1,84 @@
+{
+ "idSapl": 41720,
+ "rotulo": "Lei municipal nº 12.442, de 25 de julho de 2018",
+ "sha256Origem": "ec67f607556706a1a8c1486f48069a57bfad0df00fece9a82fd91e0d2b0a028e",
+ "estruturadoEm": "2026-11-27T09:18:47.292Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12442",
+  "ano": "2018",
+  "data": "2018-07-25",
+  "epigrafe": "LEI Nº 12.442, DE 25 DE JULHO DE 2018.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Extingue 2 (duas) funções gratificadas de Subchefe de Setor e cria a função gratificada de Subchefe do Serviço de Ambulatório no Quadro dos Cargos em Comissão e Funções Gratificadas da Câmara Municipal de Porto Alegre, constante do art. 20 da Lei nº 5.811, de 8 de dezembro de 1986, e alterações posteriores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 25 de julho de 2018.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam extintas, no Quadro dos Cargos em Comissão e Funções Gratificadas da Câmara Municipal de Porto Alegre, constante do art. 20 da Lei nº 5.811, de 8 de dezembro de 1986, e alterações posteriores, 2 (duas) funções gratificadas de Subchefe de Setor, código 2.2.1.2, no item Função Geral."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica criada, no Quadro dos Cargos em Comissão e Funções Gratificadas da Câmara Municipal de Porto Alegre, constante do art. 20 da Lei nº 5.811, de 1986, e alterações posteriores, a função gratificada de Subchefe do Serviço de Ambulatório, código 2.2.1.4, no item Função Específica."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As especificações da função gratificada referida no caput deste artigo ficam incluídas no Anexo I da Lei nº 5.811, de 1986, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n“QUADRO: DE CARGOS EM COMISSÃO E FUNÇÕES GRATIFICADAS\nFUNÇÃO GRATIFICADA: SUBCHEFE DO SERVIÇO DE AMBULATÓRIO\nFUNÇÃO: ESPECÍFICA\nCÓDIGO: 2.2.1.4\nDESCRIÇÃO SINTÉTICA DAS ATRIBUIÇÕES: observar e fazer observar as disposições\nreferentes ao Serviço de Ambulatório, dentro de áreas que lhe forem atribuídas pela respectiva\nchefia, auxiliar a chefia no cumprimento das atribuições que lhe são conferidas por Resolução.\nREQUISITOS PARA PROVIMENTO: ser servidor público estável, detentor de cargo efetivo\ndas classes de Médico, Médico Clínico Geral ou de Médico Especialista do Município de Porto\nAlegre.\nFORMA DE RECRUTAMENTO: livre escolha do presidente da Câmara Municipal dentre\nservidores públicos municipais que preencham os requisitos para provimento.”"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 12,
+     "caracteres": 739,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

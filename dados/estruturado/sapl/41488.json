@@ -1,0 +1,87 @@
+{
+ "idSapl": 41488,
+ "rotulo": "Lei municipal nº 12.362, de 21 de dezembro de 2017",
+ "sha256Origem": "c0859d3b8ca5366e29381a53d783ea9790e8e7a38c04bff79505f3fb4664ec2d",
+ "estruturadoEm": "2026-11-27T09:18:47.425Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12362",
+  "ano": "2017",
+  "data": "2017-12-21",
+  "epigrafe": "LEI Nº 12.362, DE 21 DE DEZEMBRO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria o Programa de Combate ao Assédio Sexual no Transporte Coletivo.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de dezembro de 2017.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criado o Programa de Combate ao Assédio Sexual no Transporte Coletivo, com os seguintes objetivos:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "chamar a atenção para o alto número de casos de assédio sexual nos veículos do transporte coletivo;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "coibir o assédio sexual nos veículos do transporte coletivo; e"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "criar campanhas educativas para estimular denúncias de assédio sexual por parte da vítima e conscientizar a população e a tripulação dos veículos do transporte coletivo sobre a importância do tema."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para os fins desta Lei, considera-se assédio sexual todo o comportamento indesejado de caráter sexual, sob forma verbal, não verbal ou física, com o objetivo ou o efeito de perturbar ou constranger a pessoa, afetar a sua dignidade ou lhe criar um ambiente intimidativo, hostil, degradante, humilhante ou desestabilizador."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 7,
+   "cobertura": 0.95,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

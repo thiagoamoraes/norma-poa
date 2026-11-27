@@ -1,0 +1,78 @@
+{
+ "idSapl": 41466,
+ "rotulo": "Lei municipal nº 12.350, de 13 de dezembro de 2017",
+ "sha256Origem": "0105efe6ea57f942be41843fd8ffffe736f86a505bedc45956d9ef32c3df72a5",
+ "estruturadoEm": "2026-11-27T09:18:47.442Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12350",
+  "ano": "2017",
+  "data": "2017-12-13",
+  "epigrafe": "LEI Nº 12.350, DE 13 DE DEZEMBRO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Rua Cláudio Rodrigues Nunes o logradouro não cadastrado conhecido como Rua A – Rua Antonio Avila Nunes –, localizado no Bairro Vila Nova.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de dezembro de 2017.\nCassio Trogildo,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.\n2",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Cláudio Rodrigues Nunes o logradouro não cadastrado conhecido como Rua A – Rua Antonio Avila Nunes –, localizado no Bairro Vila Nova, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme anexo único desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Comerciante e produtor rural da região."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo-unico",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO ÚNICO",
+   "texto": "ANEXO ÚNICO\nCassio Trogildo. Prefeito, em exercício.\nnº 12.350\n17.0.000098825-1                       13.12.2017\n3",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.941,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO ÚNICO",
+     "linhas": 4,
+     "caracteres": 99,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

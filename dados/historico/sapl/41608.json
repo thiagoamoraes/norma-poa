@@ -1,0 +1,327 @@
+{
+ "geradoEm": "2026-11-27T09:18:54.028Z",
+ "idSapl": 41608,
+ "rotulo": "Lei municipal nº 12.395, de 09 de abril de 2018",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 12395/2018@2018-04-09",
+   "data": "2018-04-09",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 12395/2018@2026-03-09",
+   "data": "2026-03-09",
+   "fonte": {
+    "idSapl": 51110,
+    "rotulo": "Lei municipal nº 14.502, de 09 de março de 2026"
+   },
+   "comandosAplicados": 3
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica instituído o Sistema Colaborativo de Segurança e Monitoramento no Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Sistema Colaborativo de Segurança e Monitoramento tem o objetivo de colaborar com a elucidação de delitos praticados contra o patrimônio público municipal, bem como com os processos de investigação e de captura de criminosos dos órgãos estaduais de segurança pública.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para a consecução dos objetivos do Sistema Colaborativo de Segurança e Monitoramento, o Município de Porto Alegre poderá estabelecer parcerias com condomínios, entidades da sociedade civil organizada, estabelecimentos comerciais, agências bancárias e demais pessoas jurídicas, com sede neste Município, para:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Para a consecução dos objetivos do Sistema Colaborativo de Segurança e Monitoramento, o Município de Porto Alegre poderá estabelecer parcerias com proprietários, usufrutuários e possuidores de imóveis residenciais, condomínios, entidades da sociedade civil organizada, estabelecimentos comerciais, agências bancárias e demais pessoas jurídicas, com sede neste Município, para:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 14.502/2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o fornecimento de imagens de suas câmeras de vigilância ou monitoramento; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a instalação de câmeras de vigilância ou monitoramento ou a ampliação do Centro Integrado de Comando (Ceic), com a observância da legislação correlata e do interesse público.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As parcerias referidas no caput deste artigo serão estabelecidas mediante a celebração de termo de compromisso voluntário e não oneroso para o Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-2",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "As parcerias firmadas com condomínios poderão prever o compartilhamento das imagens de suas áreas comuns, desde que aprovado em assembleia geral.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.502/2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As instituições parceiras deverão disponibilizar as imagens de suas câmeras de vigilância ou monitoramento para análise do Ceic.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-unico",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "A utilização das imagens de câmeras privadas fica condicionada à compatibilidade técnica destas com os equipamentos do Município.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.502/2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam vedados:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o direcionamento ou a utilização de câmera de vigilância ou monitoramento para captação de imagens em locais onde há reserva de privacidade, tais como no interior de residências, clubes recreativos, espaços de lazer de uso privado e ambientes de trabalho alheios; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-II",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "a exibição a terceiros das imagens captadas pelas câmeras de vigilância ou monitoramento do Ceic ou das instituições parceiras.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-unico",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Excetua-se ao disposto no inc. II do caput deste artigo a cessão das imagens para instruir inquéritos policiais ou processos administrativos e judiciais, em caso de expressa determinação judicial ou requisição formal de autoridades policiais ou do Ministério Público dirigida ao Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O termo de compromisso celebrado com as instituições parceiras deverá dispor sobre a confidencialidade e o sigilo das imagens, inclusive por aqueles que acessá-las por razões funcionais, sob pena de responsabilidade administrativa, civil e criminal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para fins de controle e atribuição de responsabilidade, sistema informatizado registrará o local, a hora, a data e a senha do operador de quaisquer acessos a imagens, dados e informações do Ceic.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Município de Porto Alegre não se responsabilizará por eventuais ocorrências não inibidas pelas câmeras de vigilância ou monitoramento instaladas por entidades públicas ou privadas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As despesas decorrentes da aquisição, da instalação e da manutenção de câmeras de vigilância ou monitoramento em vias públicas com base nesta Lei correrão por conta das instituições parceiras.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

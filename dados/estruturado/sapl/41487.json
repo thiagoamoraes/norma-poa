@@ -1,0 +1,65 @@
+{
+ "idSapl": 41487,
+ "rotulo": "Lei municipal nº 12.361, de 21 de dezembro de 2017",
+ "sha256Origem": "c29354b442633fc8523a9d5052ff078bf8e265ed332724c05ecae3d828bb1f00",
+ "estruturadoEm": "2026-11-27T09:18:47.427Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12361",
+  "ano": "2017",
+  "data": "2017-12-21",
+  "epigrafe": "LEI Nº 12.361, DE 21 DE DEZEMBRO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria e extingue cargos de provimento efetivo no Quadro dos Cargos de Provimento Efetivo da Administração Centralizada do Município de Porto Alegre, constante na letra a do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de dezembro de 2017.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam criados 75 (setenta e cinco) cargos de provimento efetivo de Técnico em Enfermagem, código TP-1.07.07, referências A, B, C, D, E e F, no Grupo Técnico Profissional, no Quadro dos Cargos de Provimento Efetivo da Administração Centralizada do Município de Poro Alegre, constante na letra a do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam extintos 75 (setenta e cinco) cargos de provimento efetivo de Auxiliar de Enfermagem, código SA-1.01.06, referências A, B, C e D, no Grupo Saúde e Assistência, no Quadro dos Cargos de Provimento Efetivo da Administração Centralizada do Município de Porto Alegre, constante na letra a do Anexo I da Lei nº 6.309, de 1988, e alterações posteriores."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As despesas decorrentes da aplicação desta Lei correrão à conta das dotações orçamentárias próprias."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

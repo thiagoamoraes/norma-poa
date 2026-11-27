@@ -1,0 +1,66 @@
+{
+ "idSapl": 41460,
+ "rotulo": "Lei municipal nº 12.346, de 06 de dezembro de 2017",
+ "sha256Origem": "fc4fc2a0ec5da1f34f9352c82fb65053686acf537b64e7381068272c3ab5a507",
+ "estruturadoEm": "2026-11-27T09:18:47.445Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12346",
+  "ano": "2017",
+  "data": "2017-12-06",
+  "epigrafe": "PROC. Nº 2445/13",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 277/13 LEI Nº 12.346, DE 6 DE DEZEMBRO DE 2017.",
+ "ementa": "Determina a utilização do cartão do Sistema de Bilhetagem Eletrônica (SBE) do Município de Porto Alegre – Sistema de Transporte Integrado (TRI) –, na modalidade passagem antecipada, para aquisição de passe do serviço de aluguel de bicicletas públicas, bem como determina que a operadora      desse     serviço     disponibilize atendimento telefônico gratuito aos usuários.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 5º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 12.346, de 6 de dezembro de 2017, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 6 DE DEZEMBRO DE 2017.\nVer. Cassio Trogildo,\nPresidente.\nRegistre-se e publique-se:\nVer. Mauro Pinheiro,\n1º Secretário.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica determinada a utilização do cartão do Sistema de Bilhetagem Eletrônica (SBE) do Município de Porto Alegre – Sistema de Transporte Integrado (TRI) –, na modalidade passagem antecipada, para aquisição de passe do serviço de aluguel de bicicletas públicas."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para que a aquisição do passe seja debitada dos créditos do cartão do TRI, este deverá ser integrado ao serviço de aluguel de bicicletas públicas."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica a operadora do serviço de aluguel de bicicletas públicas obrigada a disponibilizar atendimento telefônico gratuito aos usuários por meio de linha 0800."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "idSapl": 41467,
+ "rotulo": "Lei municipal nº 12.351, de 13 de dezembro de 2017",
+ "sha256Origem": "68e0d9a516fe70cc6b09d8034a878ee95e9873065132961b21c54ddf44948e94",
+ "estruturadoEm": "2026-11-27T09:18:47.441Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12351",
+  "ano": "2017",
+  "data": "2017-12-13",
+  "epigrafe": "LEI Nº 12.351, DE 13 DE DEZEMBRO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Rua Marcos Stoffels Kaefer o logradouro público cadastrado conhecido como Rua Quatro – Loteamento Ello Dourado –, localizado no Bairro Lomba do Pinheiro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de dezembro de 2017.\nCassio Trogildo,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Marcos Stoffels Kaefer o logradouro público cadastrado conhecido como Rua Quatro – Loteamento Ello Dourado –, localizado no Bairro Lomba do Pinheiro, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme anexo único desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Policial civil."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo-unico",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO ÚNICO",
+   "texto": "ANEXO ÚNICO\nCássio\nCassio   Trogildo.\nTrogildo.   Prefeito,\nPrefeito, emem exercício.\nexercício.\nnº 12.351\nn º 12.351\n17.0.000101603-2                       13.12.2017"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.944,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO ÚNICO",
+     "linhas": 8,
+     "caracteres": 148,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

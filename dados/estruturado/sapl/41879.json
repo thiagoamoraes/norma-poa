@@ -1,0 +1,93 @@
+{
+ "idSapl": 41879,
+ "rotulo": "Lei municipal nº 12.487, de 19 de dezembro de 2018",
+ "sha256Origem": "d1657bccfb5e6afa7dbbd6b72837d0d146235f9b13ec00c00f1ba62dac576ee7",
+ "estruturadoEm": "2026-11-27T09:18:47.140Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12487",
+  "ano": "2018",
+  "data": "2018-12-19",
+  "epigrafe": "LEI Nº 12.487, DE 19 DE DEZEMBRO DE 2018.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece que as pessoas a partir de 60 (sessenta) anos de idade e aquelas com deficiência poderão escolher o local de atendimento nos serviços de saúde do Município conforme critérios que especifica e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 19 de dezembro de 2018.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecido que as pessoas a partir de 60 (sessenta) anos de idade e aquelas com deficiência poderão escolher, mediante critérios e autorização da Secretaria Municipal da Saúde, o local de atendimento nos serviços de saúde do Município, observado o que segue:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "maior proximidade com sua residência;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "maior facilidade de acesso; e"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "excepcionalmente, maior facilidade de acesso ou maior proximidade com a residência de seus familiares ou daqueles com quem residirem, temporariamente ou em definitivo."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para os fins desta Lei, os serviços de saúde referidos no caput deste artigo compreendem Unidades de Saúde, Centros de Saúde, Unidades Básicas de Saúde ou Unidades de Saúde da Família."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Aplica-se o disposto no art. 1º desta Lei também às pessoas obesas e àquelas com mobilidade reduzida, ainda que temporariamente."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica revogada a Lei nº 11.980, de 23 de dezembro de 2015."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 8,
+   "cobertura": 0.947,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "idSapl": 41862,
+ "rotulo": "Lei municipal nº 12.482, de 11 de dezembro de 2018",
+ "sha256Origem": "e596a8fc5822ab267cc32205eaf4747d72e98554d91446152e408a85a5d78a1b",
+ "estruturadoEm": "2026-11-27T09:18:47.150Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12482",
+  "ano": "2018",
+  "data": "2018-12-11",
+  "epigrafe": "PROC. Nº 0207/18",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "veto_derrubado",
+   "baseLegal": null
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 013/18 LEI Nº 12.482, DE 11 DE DEZEMBRO DE 2018.",
+ "ementa": "Estabelece que o Executivo Municipal prestará contas das receitas originárias das multas de trânsito e de sua destinação, por meio da divulgação das informações em seu sítio oficial, em local de fácil acesso ao público, e também utilizando outros meios e instrumentos legítimos. A PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 5º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal manteve e eu promulgo dispositivo da Lei nº 12.482, de 11 de dezembro de 2018, como segue: ....................................................................................................................................",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 6 DE MARÇO DE 2019.\nVerª Mônica Leal,\nPresidente.\nRegistre-se e publique-se:\nVer. Alvoni Medina,\n1º Secretário.\n/JPCP",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "...................................................................................................................................."
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "os registros sintéticos e analíticos dos valores empenhados, liquidados e pagos, detalhando o nível de subelemento de despesa e dos gastos com recursos provenientes das multas de trânsito; e"
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "promulgacao_parcial",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 1,
+   "dispositivos": 2,
+   "cobertura": 0.975,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": ""
+    },
+    {
+     "rotulo": "I –",
+     "naOrigem": "Art2ºIII"
+    }
+   ]
+  }
+ }
+}

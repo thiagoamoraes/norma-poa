@@ -1,0 +1,78 @@
+{
+ "idSapl": 41436,
+ "rotulo": "Lei municipal nº 12.335, de 21 de novembro de 2017",
+ "sha256Origem": "dcbfe40f343a8229555746cea6c5c3a2287906d1101398ccdd82e2ee078c8ac4",
+ "estruturadoEm": "2026-11-27T09:18:47.459Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12335",
+  "ano": "2017",
+  "data": "2017-11-21",
+  "epigrafe": "LEI Nº 12.335, DE 21 DE NOVEMBRO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Rua Aldo Alves da Silva o logradouro público parcialmente cadastrado conhecido como Beco Ponta Grossa, localizado no Bairro Ponta Grossa.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de novembro 2017.\nGustavo Bohrer Paim,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Aldo Alves da Silva o logradouro público parcialmente cadastrado conhecido como Beco Ponta Grossa, localizado no Bairro Ponta Grossa, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme anexo único desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Liderança comunitária."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo-unico",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO ÚNICO",
+   "texto": "ANEXO ÚNICO\nGustavo Bohrer Paim. Prefeito, em exercício.\n12.335\n17.0.000095984-7                       21.11.2017",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.941,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO ÚNICO",
+     "linhas": 3,
+     "caracteres": 99,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

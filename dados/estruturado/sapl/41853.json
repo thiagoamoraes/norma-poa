@@ -1,0 +1,89 @@
+{
+ "idSapl": 41853,
+ "rotulo": "Lei municipal nº 12.476, de 07 de dezembro de 2018",
+ "sha256Origem": "27f38758114fe121859cc70b72bb3efe88aa4f53cb3084a495e750a39f33b7b7",
+ "estruturadoEm": "2026-11-27T09:18:47.160Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12476",
+  "ano": "2018",
+  "data": "2018-12-07",
+  "epigrafe": "LEI Nº 12.476, DE 7 DE DEZEMBRO 2018.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Autoriza o Executivo Municipal a indenizar servidores públicos municipais ativos e inativos, vinculados a estatutos próprios, pensionistas e agentes políticos do Município de Porto Alegre em caso de não pagamento da obrigação pecuniária relativa à gratificação natalina (13º salário) de 2018 até a data estabelecida no § 4º do art. 98 da Lei Complementar nº 133, de 31 de dezembro de 1985 – que estabelece o Estatuto dos Funcionários Públicos do Município de Porto Alegre –, e alterações posteriores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de dezembro de 2018.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o Executivo Municipal autorizado a indenizar servidores públicos municipais ativos e inativos, vinculados a estatutos próprios, pensionistas e agentes políticos do Município de Porto Alegre em caso de não pagamento da obrigação pecuniária relativa à gratificação natalina (13º salário) de 2018 até a data estabelecida no § 4º do art. 98 da Lei Complementar nº 133, de 31 de dezembro de 1985, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A indenização referida no caput deste artigo dar-se-á em relação à gratificação natalina (13º salário) de 2018, à qual serão acrescidos juros e eventuais despesas equivalentes aos custos inerentes a possíveis contratos bancários, até a taxa de 2,1927% (dois inteiros e um mil, novecentos e vinte e sete décimos de milésimo por cento) ao mês, prorata-die."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Observado o disposto no art. 1º desta Lei, o Executivo Municipal realizará o pagamento parcelado do valor referente à gratificação natalina de 2018, acrescido da correção monetária pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA) e de juros legais de 1% (um por cento) ao mês, pro-rata-die, a servidores públicos municipais ativos e inativos, vinculados a estatutos próprios, pensionistas e agentes políticos do Município de Porto Alegre que optarem por não contratar a operação de antecipação da gratificação natalina."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O pagamento referido no caput deste artigo dar-se-á em até 10 (dez) parcelas, sendo facultada ao Executivo Municipal a antecipação das parcelas vincendas."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As despesas decorrentes da aplicação do disposto nesta Lei correrão por conta de dotação orçamentária própria."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O Executivo Municipal regulamentará por decreto esta Lei, no que couber."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 7,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

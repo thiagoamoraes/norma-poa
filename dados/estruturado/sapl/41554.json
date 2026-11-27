@@ -1,0 +1,100 @@
+{
+ "idSapl": 41554,
+ "rotulo": "Lei municipal nº 12.371, de 06 de março de 2018",
+ "sha256Origem": "1a37dbcf731563c1032d1b22a7339ebab241d277d008dd5c9d26ad87935fe311",
+ "estruturadoEm": "2026-11-27T09:18:47.403Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12371",
+  "ano": "2018",
+  "data": "2018-03-06",
+  "epigrafe": "LEI Nº 12.371, DE 6 DE MARÇO DE 2018.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza o reparcelamento de débitos do Município de Porto Alegre com o Departamento Municipal de Previdência dos Servidores Públicos do Município de Porto Alegre (Previmpa).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 6 de março de 2018.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica autorizado o reparcelamento dos débitos do Município de Porto Alegre com seu Regime Próprio de Previdência Social (RPPS), gerido pelo Departamento Municipal de Previdência dos Servidores Públicos do Município de Porto Alegre (Previmpa), em até 200 (duzentas) prestações mensais, iguais e sucessivas, de contribuições devidas pelo ente federativo, relativos a competências até março de 2017, observado o disposto no art. 5º-A da Portaria MPS nº 402/2008, com as alterações da Portaria MF nº 333/2017."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para apuração do montante devido a ser reparcelado, os valores originais serão atualizados pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA), do Instituto Brasileiro de Geografia e Estatística (IBGE), acrescido de juros compostos de 0,49% (zero vírgula quarenta e nove por cento) ao mês, não incidindo multa sobre o montante apurado até a data da assinatura do termo de acordo de reparcelamento."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Para apuração do novo saldo devedor, os valores consolidados do parcelamento anterior e das suas respectivas prestações pagas serão atualizados pelo IPCA, do IBGE, acrescido de juros compostos de 0,49% (zero vírgula quarenta e nove por cento ao mês), não incidindo multa, acumulados desde a data da consolidação do parcelamento anterior e das datas das suas respectivas prestações pagas até a data da nova consolidação do termo de reparcelamento."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Ocorrendo atraso na quitação das prestações dos parcelamentos anteriores, incidirá multa de 2% (dois por cento) sobre o montante das parcelas não pagas, cujo valor será incluído no somatório do reparcelamento."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As prestações vincendas serão atualizadas mensalmente pelo IPCA, do IBGE, acrescido de juros compostos de 0,49% (zero vírgula quarenta e nove por cento) ao mês, acumulados desde a data de consolidação do montante devido no termo de acordo de reparcelamento até o mês do pagamento."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "As prestações vencidas serão atualizadas mensalmente pelo IPCA, do IBGE, acrescido de juros compostos de 0,49% (zero vírgula quarenta e nove por cento) ao mês e multa de 2% (dois por cento), acumulados desde a data do vencimento da prestação até o mês do efetivo pagamento."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Fica autorizada a vinculação do Fundo de Participação dos Municípios (FPM) como garantia das prestações acordadas no termo de reparcelamento não pagas no seu vencimento."
+  },
+  {
+   "id": "art-6/par-unico",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A garantia de vinculação do FPM deverá constar de cláusula do termo de reparcelamento e de autorização fornecida ao agente financeiro responsável pelo repasse das cotas e vigorará até a quitação do termo."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 9,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

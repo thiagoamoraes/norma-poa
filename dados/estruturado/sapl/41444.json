@@ -1,0 +1,65 @@
+{
+ "idSapl": 41444,
+ "rotulo": "Lei municipal nº 12.342, de 22 de novembro de 2017",
+ "sha256Origem": "b8e67f8eb01ddecfc54d4786a28f252cd5ff8d62128e1c8b147598ff9432c67d",
+ "estruturadoEm": "2026-11-27T09:18:47.453Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12342",
+  "ano": "2017",
+  "data": "2017-11-22",
+  "epigrafe": "LEI Nº 12.342, DE 22 DE NOVEMBRO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui a efeméride Semana Municipal da Cerveja Artesanal – Festa da Cerveja Artesanal no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, na semana que incluir o dia 15 de novembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de novembro de 2017.\nGustavo Bohrer Paim,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Semana Municipal da Cerveja Artesanal – Festa da Cerveja Artesanal no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, na semana que incluir o dia 15 de novembro."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As atividades a serem desenvolvidas durante a Semana Municipal da Cerveja Artesanal – Festa da Cerveja Artesanal serão de responsabilidade das empresas produtoras ou fabricantes de cervejas e chopes artesanais, ou dos estabelecimentos que comercializarem seus produtos, diretamente ou por meio de entidades locais que os representem."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Entre as atividades referidas no caput deste artigo, serão realizados eventos para a comercialização, de forma coletiva, de cervejas e chopes artesanais produzidos ou fabricados por empresas legalmente registradas, mediante autorização do Executivo Municipal, em áreas públicas ou privadas."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.958,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

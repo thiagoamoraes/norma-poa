@@ -1,0 +1,70 @@
+{
+ "idSapl": 41744,
+ "rotulo": "Lei municipal nº 12.449, de 31 de agosto de 2018",
+ "sha256Origem": "477ad3b666e320380bbf36fad8fce7c99fea8af60fd89426ea148b58c9bc50c9",
+ "estruturadoEm": "2026-11-27T09:18:47.276Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12449",
+  "ano": "2018",
+  "data": "2018-08-31",
+  "epigrafe": "LEI Nº 12.449, DE 31 DE AGOSTO DE 2018.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Festival de Canoagem de Porto Alegre e América Latina no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, entre o primeiro e o segundo domingos do mês de dezembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de agosto de 2018.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Festival de Canoagem de Porto Alegre e América Latina no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nDEZEMBRO\nPERÍODO            EVENTO                DESCRIÇÃO E LOCAL DO EVENTO\nEntre o      FESTIVAL DE         O evento esportivo terá lugar na orla do Bairro\nprimeiro e   CANOAGEM DE PORTO   Ipanema, em percurso a ser determinado de acordo\no segundo    ALEGRE E AMÉRICA    com as condições climáticas apropriadas e\ndomingos     LATINA              dimensionado para distância de raia específica de 9\ndo mês                           mil metros no total, que poderá se desenvolver em\nsentido único ou em circuito de voltas.\nLocal: Da orla da praia do Bairro Ipanema até a orla\nda Usina do Gasômetro."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 10,
+     "caracteres": 590,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

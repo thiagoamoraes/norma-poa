@@ -1,0 +1,67 @@
+{
+ "idSapl": 41571,
+ "rotulo": "Lei municipal nº 12.380, de 09 de março de 2018",
+ "sha256Origem": "2e595ae81da6f073687996792cb44e46d3ee7c6b70b3a46b9012e7af11e0d8c7",
+ "estruturadoEm": "2026-11-27T09:18:47.393Z",
+ "versaoEstruturador": 30,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12380",
+  "ano": "2018",
+  "data": "2018-03-09",
+  "epigrafe": "LEI Nº 12.380, DE 9 DE MARÇO DE 2018.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui art. 1º-A, altera o caput do art. 2º e revoga o parágrafo único do art. 3º na Lei nº 11.870, de 7 de julho de 2015 – que obriga as empresas e as concessionárias que fornecem energia elétrica, telefonia fixa, banda larga, televisão a cabo ou outro serviço, por meio de rede aérea, a retirar de postes a fiação excedente e sem uso que tenham instalado e dá outras providências –, estabelecendo sanções para o descumprimento dessa Lei e alterando o prazo para a adequação às suas disposições.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de março de 2018.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído art. 1º-A na Lei nº 11.870, de 7 de julho de 2015, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º-A     O descumprimento ao disposto nesta Lei sujeitará o infrator às\nseguintes sanções:\nI – notificação para sanar a irregularidade no prazo de 30 (trinta) dias, prorrogável\npor igual período a critério da autoridade competente;\nII – multa de 1.000 (mil) Unidades Financeiras Municipais (UFMs), recolhida ao\nórgão autuador ou a outro designado pelo Executivo Municipal; e\nIII – proibição temporária de funcionamento, em caso de apresentar iminente risco\nà população, até que efetivamente se comprove a adequação a esta Lei.\n§ 1º Em caso de reincidência, a autoridade competente poderá aplicar em dobro a\nmulta referida no inc. II do caput deste artigo.\n§ 2º Em caso de ser aplicada multa, seu pagamento não desobriga o infrator de\nsanar as irregularidades existentes.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o caput do art. 2º da Lei nº 11.870, de 2015, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º As empresas e as concessionárias referidas no art. 1º desta Lei deverão se\nadequar às suas disposições até 31 de dezembro de 2018.” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica revogado o parágrafo único do art. 3º da Lei nº 11.870, de 7 de julho de 2015."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.973,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}
