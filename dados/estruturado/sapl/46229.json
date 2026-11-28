@@ -2,8 +2,8 @@
  "idSapl": 46229,
  "rotulo": "Lei municipal nº 13.473, de 19 de maio de 2023",
  "sha256Origem": "67ef763e44b391e333da9c2c09243a8c368f476b603851e85f7880d857825a40",
- "estruturadoEm": "2026-11-25T09:26:16.717Z",
- "versaoEstruturador": 30,
+ "estruturadoEm": "2026-11-28T06:29:50.329Z",
+ "versaoEstruturador": 32,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "13473",
@@ -219,6 +219,7 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
+   "rotulo_embutido_no_texto",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [],

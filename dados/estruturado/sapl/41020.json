@@ -1,0 +1,58 @@
+{
+ "idSapl": 41020,
+ "rotulo": "Lei municipal nº 12.186, de 30 de dezembro de 2016",
+ "sha256Origem": "85d8a63aca6395e80e7132034fe77362a24304cbc4ff1348ad0722646f7dc86a",
+ "estruturadoEm": "2026-11-28T06:29:53.936Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12186",
+  "ano": "2016",
+  "data": "2016-12-30",
+  "epigrafe": "LEI Nº 12.186, DE 30 DE DEZEMBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui a efeméride Dia Municipal em Memória dos Desaparecidos Políticos no anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no dia 30 de agosto.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2016.\nJosé Fortunati,\nPrefeito.\nLuiz Fernando Moraes,\nSecretário Municipal de Turismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Dia Municipal em Memória dos Desaparecidos Políticos no anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no dia 30 de agosto."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para os fins desta Lei, desaparecidos políticos são aqueles definidos na Lei Federal nº 9.140, de 4 de dezembro de 1995, e alterações posteriores, que reconhece como mortas pessoas desaparecidas em razão de participação, ou acusação de participação, em atividades políticas, no período de 2 de setembro de 1961 a 15 de agosto de 1979."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.952,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

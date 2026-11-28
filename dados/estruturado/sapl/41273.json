@@ -1,0 +1,52 @@
+{
+ "idSapl": 41273,
+ "rotulo": "Lei municipal nº 12.272, de 04 de julho de 2017",
+ "sha256Origem": "27399113eca06b5eba81f4847eb453706d8a6658e29825fa83a8f34ad42854b2",
+ "estruturadoEm": "2026-11-28T06:29:53.796Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "Câmara Municipal                                                           PROC. N° 1711/15",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "dc Porto                                                        PLL   N° 156/15 Alegre L E I N° 12.272, DE 4 DE J U L H O DE 2017. Libera a circulação de automóvel, utilitário, caminhonete e camioneta, com peso bruto total de, no máximo, 3.500kg (três mil e quinhentos quilogramas), nas faixas exclusivas para ônibus, nos dias em que ocorrer greve ou paralisação    do    transporte    público    no Município de Porto Alegre com a efetiva interrupção, total ou parcial, desse serviço. O P R E S I D E N T E DA CÂMARA MUNICIPAL DE PORTO A L E G R E o    o",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 5 e 7 do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei n° 12.272, de 4 de julho de 2017, como segue: o Art. I Fica liberada a circulação de automóvel, utilitário, caminhonete e camioneta, com peso bruto total de, no máximo, 3.500kg (três mil e quinhentos quilogramas). nas faixas exclusivas para ônibus, nos dias em que ocorrer greve ou paralisação do transporte público no Município de Porto Alegre com a efetiva interrupção, parcial ou total, desse serviço. o",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 5 DE JULHO DE 2017.\nRegistre-se e publique-se:\nVer. Mauro Pinheiro,\no\nI Secretário.\nRPD/JPCT",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 1,
+   "dispositivos": 1,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art2"
+    }
+   ]
+  }
+ }
+}

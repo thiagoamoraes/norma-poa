@@ -1,0 +1,70 @@
+{
+ "geradoEm": "2026-11-28T06:30:05.949Z",
+ "idSapl": 40785,
+ "rotulo": "Lei municipal nº 12.109, de 15 de agosto de 2016",
+ "baseConferida": true,
+ "anexosNoOriginal": [
+  {
+   "rotulo": "ANEXO ÚNICO",
+   "grafico": false
+  }
+ ],
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 12109/2016@2016-08-15",
+   "data": "2016-08-15",
+   "fonte": null
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam estabelecidas as atribuições dos cargos em comissão criados pelo art. 10 da Lei nº 11.245, de 4 de abril de 2012, alterada pela Lei nº 12.088, de 30 de junho de 2016, no âmbito do Departamento Municipal de Água e Esgotos (DMAE), conforme o anexo único desta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 50703,
+    "rotulo": "Lei municipal nº 14.390, de 03 de dezembro de 2025"
+   },
+   "motivo": "comando_recusado",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.203, de 3 de outubro de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6203\",\"ano\":\"1988\",\"chave\":\"l 6203/1988\"}, versão: l 12109/2016) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.203, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6203\",\"ano\":\"1988\",\"chave\":\"l 6203/1988\"}, versão: l 12109/2016) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 6.203, de 1988\",\"tipoAto\":\"LEI\",\"numero\":\"6203\",\"ano\":\"1988\",\"chave\":\"l 6203/1988\"}, versão: l 12109/2016) | operação \"revoke_lei\" não gera alteração na árvore desta lei",
+   "enderecos": [
+    "art-15",
+    "art-16/par-1",
+    "art-16-A"
+   ]
+  }
+ ],
+ "aConferir": []
+}

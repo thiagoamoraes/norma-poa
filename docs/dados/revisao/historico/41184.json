@@ -1,0 +1,242 @@
+{
+ "geradoEm": "2026-11-28T06:30:05.203Z",
+ "idSapl": 41184,
+ "rotulo": "Lei municipal nº 12.233, de 28 de março de 2017",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 12233/2017@2017-03-28",
+   "data": "2017-03-28",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 12233/2017@2022-09-13",
+   "data": "2022-09-13",
+   "fonte": {
+    "idSapl": 44295,
+    "rotulo": "Lei municipal nº 13.241, de 13 de setembro de 2022"
+   },
+   "comandosAplicados": 4
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam os promotores de competições esportivas obrigados a conceder desconto de 50% (cinqüenta por cento) sobre o valor da inscrição a atletas idosos e a para-atletas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Ficam os promotores de competições esportivas obrigados a conceder desconto de 50% (cinquenta por cento) sobre o valor da inscrição a:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.241/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para o fim do disposto no caput deste artigo, consideram-se: 1 - atleta idoso a pessoa com idade igual ou superior a 60 (sessenta) anos. comprovada mediante a apresentação de documento com foto; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico/inc-I",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "para-atleta a pessoa com deficiência verificável que impacte o seu desempenho atlético, comprovada mediante a apresentação de documento que possua fé pública, sendo dispensável no caso de deficiência evidente. o",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "atletas idosos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.241/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "paratletas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.241/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "O desconto referido no inc. I do caput deste artigo não se aplica às promotoras de competições definidas como federações ou associações sem fins lucrativos nos casos em que as competições esportivas não estiverem recebendo recursos de leis de incentivo ao esporte.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 13.241/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Por ocasião da divulgação e da promoção de competições esportivas, seus promotores deverão informar o direito assegurado por esta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O descumprimento ao disposto nesta Lei sujeitará os promotores de competições esportivas às seguintes sanções:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "multa de 3.000 (três mil) Unidades Financeiras Municipais (UFMs). aplicada na primeira incidência; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "multa de 6.000 (seis mil) UFMs. aplicada na reincidência.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os valores arrecadados com a aplicação das sanções serão depositados no Fundo Municipal de Desenvolvimento Desportivo. Câmara Municipal                                                        PROC. N° 0629/16 dcPorto                                                              PLL   N° 054/16 Alegre o",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 44295,
+    "rotulo": "Lei municipal nº 13.241, de 13 de setembro de 2022"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "operação \"indeterminado\" não gera alteração na árvore desta lei",
+   "enderecos": []
+  }
+ ],
+ "aConferir": []
+}

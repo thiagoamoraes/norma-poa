@@ -1,0 +1,78 @@
+{
+ "idSapl": 41383,
+ "rotulo": "Lei municipal nº 12.315, de 05 de outubro de 2017",
+ "sha256Origem": "289ca792e593941c838fef924be20634d0b6be1a3baa8f3a24295057ae53d8f0",
+ "estruturadoEm": "2026-11-28T06:29:53.457Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12315",
+  "ano": "2017",
+  "data": "2017-10-05",
+  "epigrafe": "LEI Nº 12.315, DE 5 DE OUTUBRO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Beco João Fuhr o logradouro não cadastrado conhecido como Beco Dois – Rua Chrispim Antônio Amado –, localizado no Bairro Boa Vista do Sul.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 5 de outubro de 2017.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Beco João Fuhr o logradouro não cadastrado conhecido como Beco Dois – Rua Chrispim Antônio Amado –, localizado no Bairro Boa Vista do Sul, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme Anexo único desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Pioneiro da agricultura familiar sustentável na região."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo-unico",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO ÚNICO",
+   "texto": "ANEXO ÚNICO\nNelson Marchezan Júnior\nnº 12.315\n17.0.000074854-4                     05.10.2017",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.943,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO ÚNICO",
+     "linhas": 3,
+     "caracteres": 79,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

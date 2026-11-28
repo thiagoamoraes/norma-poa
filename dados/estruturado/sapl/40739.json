@@ -1,0 +1,72 @@
+{
+ "idSapl": 40739,
+ "rotulo": "Lei municipal nº 12.094, de 07 de julho de 2016",
+ "sha256Origem": "f78b2983e33a494863c6a81492573f975e380f4e6ce95bb559177b1bca1b7335",
+ "estruturadoEm": "2026-11-28T06:29:55.282Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12094",
+  "ano": "2016",
+  "data": "2016-07-07",
+  "epigrafe": "LEI Nº 12.094, DE 7 DE JULHO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza o Executivo Municipal a desafetar área verde do Parque Chico Mendes para a implantação de equipamentos públicos.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de julho de 2016.\nJosé Fortunati,\nPrefeito.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o Executivo Municipal autorizado a desafetar área verde do Parque Chico Mendes, para fins de construção da sede do Centro Administrativo Regional Nordeste, da sede do Conselho Tutelar da Microrregião 10 e de posto de saúde da Secretaria Municipal de Saúde."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A área verde do Parque Chico Mendes a ser desafetada mede 92,21m (noventa e dois vírgula vinte e um metros) por 46,03m (quarenta e seis vírgula zero três metros) por 93,01m (noventa e três vírgula zero um metros) por 47,52m (quarenta e sete vírgula cinquenta e dois metros), totalizando 4.024,16m² (quatro mil e vinte e quatro vírgula dezesseis metros quadrados), e localiza-se na Rua Alceri Garcia Flores com Martim Félix Berta, na Quadra 153, no Bairro Mário Quintana."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os limites do Parque Chico Mendes resultantes da desafetação referida nesta Lei já estão definidos pelo Executivo Municipal."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Fica o Município de Porto Alegre obrigado a realizar a compensação ambiental e a mitigação dos impactos ambientais gerados pelas construções referidas no art. 1º desta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 5,
+   "cobertura": 0.955,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

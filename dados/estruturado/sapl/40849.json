@@ -1,0 +1,70 @@
+{
+ "idSapl": 40849,
+ "rotulo": "Lei municipal nº 12.127, de 26 de setembro de 2016",
+ "sha256Origem": "328bffe0568587e84da93a3593bb157a8ed8721eda8c7849adbfb365125ea347",
+ "estruturadoEm": "2026-11-28T06:29:55.198Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12127",
+  "ano": "2016",
+  "data": "2016-09-26",
+  "epigrafe": "LEI Nº 12.127, DE 26 DE SETEMBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui os eventos Procissão, Novena e Festa em Louvor a São Vicente de Paulo no anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, realizados no mês de setembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 26 de setembro de 2016.\nJosé Fortunati,\nPrefeito.\nJosé Olmiro Péres,\nSecretário Municipal de Turismo, em exercício.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam incluídos os eventos Procissão, Novena e Festa em Louvor a São Vicente de Paulo no anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSETEMBRO\nPERÍODO          EVENTO              DESCRIÇÃO E LOCAL DO EVENTO\nNo mês  PROCISSÃO EM LOUVOR A     Os fiéis caminham pelas ruas do bairro,\nSÃO VICENTE DE PAULO      carregando a imagem de São Vicente de\nPaulo. (1)\nNOVENA EM LOUVOR A SÃO       Nove dias de orações que antecedem a Festa\nVICENTE DE PAULO             em Louvor a São Vicente de Paulo. (2)\nFESTA EM LOUVOR A SÃO        São realizados almoços comemorativos e\nVICENTE DE PAULO             missas, dentre outras atividades, em honra a\nSão Vicente de Paulo. (3)\nLocal: (1) Praça São Vicente de Paulo e ruas\ndo entorno da Paróquia São Vicente de Paulo.\n(*)\n(2 e 3) Paróquia São Vicente de Paulo\n(Rua Paula Soares, 380). (*)"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.971,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 15,
+     "caracteres": 676,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

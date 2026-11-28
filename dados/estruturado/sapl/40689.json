@@ -1,0 +1,52 @@
+{
+ "idSapl": 40689,
+ "rotulo": "Lei municipal nº 12.069, de 06 de junho de 2016",
+ "sha256Origem": "4af1eb462ffd9e7e6fc1962ef947d637746bef701fc380b26bb9fbb13c0a0251",
+ "estruturadoEm": "2026-11-28T06:29:55.331Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12069",
+  "ano": "2016",
+  "data": "2016-06-06",
+  "epigrafe": "LEI Nº 12.069, DE 6 DE JUNHO DE 2016",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui §§ 5º e 6º no art. 2º da Lei nº 11.582, de 21 de fevereiro de 2014, estabelecendo mínimo de 20% (vinte por cento) de cada sexo dentre os condutores de táxi do Serviço Público de Transporte Individual por Táxi no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 6 de junho de 2016.\nJosé Fortunati,\nPrefeito.\nVanderlei Cappellari,\nSecretário Municipal de Transporte.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam incluídos §§ 5º e 6º no art. 2º da Lei nº 11.582, de 21 de fevereiro de 2014, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º .....................................................................................................................\n....................................................................................................................................\n§ 5º VETADO.\n§ 6º Nos processos licitatórios para novos prefixos realizados posteriormente à\ndata de publicação desta Lei, deverá haver reserva de, no mínimo, 20% (vinte por cento) para\ncada sexo.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.957,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "idSapl": 40903,
+ "rotulo": "Lei municipal nº 12.151, de 28 de outubro de 2016",
+ "sha256Origem": "ab63a2513f8669bd4124c54cd0c81a457895ba15fda7bc1b725da2bfa1d5d32c",
+ "estruturadoEm": "2026-11-28T06:29:55.042Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12151",
+  "ano": "2016",
+  "data": "2016-10-28",
+  "epigrafe": "LEI Nº 12.151, DE 28 DE OUTUBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza a desafetação de áreas com ocupação consolidada, denominada Vila Arachanes, situadas no Bairro Espírito Santo, para posterior doação ao Departamento Municipal de Habitação (Demhab), para fins de regularização fundiária.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de outubro de 2016.\nJosé Fortunati,\nPrefeito.\nEroni Numer,\nSecretário Municipal da Fazenda, em exercício.\n.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o Executivo Municipal autorizado a desafetar, para posterior doação ao Departamento Municipal de Habitação (Demhab), para fins de regularização fundiária, as seguintes áreas com ocupação consolidada, denominada Vila Arachanes, situadas no Bairro Espírito Santo, conforme o Anexo desta Lei:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "área da Praça Iracema, bem como das ruas projetadas para seu contorno, oriunda do Loteamento Balneário Espírito Santo I;"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "área da rua projetada entre as quadras 14 e 15 e da rua projetada entre as quadras 09 e 15, do Loteamento Balneário Espírito Santo I; e"
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "parte da área verde do Loteamento Residencial Bahamas, descrita como “Uma área de situação interna sendo parte da área verde do Loteamento Bahamas, bairro Espírito Santo, no quarteirão aberto formado pela Rua Arachanes, e Rua Caiguais, Rua Olécio Cavedini e Estrada Serraria, com área de 1.339,29m2 (um mil trezentos e trinta e nove vírgula vinte e nove metros quadrados) e a seguinte descrição: a Oeste, mede 50,53m (cinquenta vírgula cinquenta e três metros); a Sul, mede 45,00m (quarenta e cinco metros), nestes dois segmentos faz divisa com lotes da quadra 14 do Loteamento Balneário Espírito Santo I; a Nordeste, faz divisa com área verde do Loteamento Bahamas por uma linha quebrada de 8 (oito) segmentos a saber: o primeiro, a partir da divisa sul, mede 8,14m (oito vírgula quatorze metros) rumo Norte; o segundo mede 9,80m (nove vírgula oitenta metros) rumo Oeste; o terceiro mede 7,87m (sete vírgula oitenta e sete metros) rumo Norte; o quarto mede 11,46m (onze vírgula quarenta e seis metros) rumo Noroeste; o quinto mede 6,00m (seis metros) rumo Nordeste; o sexto mede 36,52m (trinta e seis vírgula cinquenta e dois metros) rumo Noroeste; o sétimo mede 12,57m (doze vírgula cinquenta e sete metros) rumo Nordeste; e o oitavo mede 11,73m (onze vírgula setenta e três metros) rumo Noroeste”."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As custas da doação referida no art. 1º desta Lei correrão por conta do donatário."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 7,
+   "cobertura": 0.977,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

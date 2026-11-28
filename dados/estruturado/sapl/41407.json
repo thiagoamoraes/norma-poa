@@ -1,0 +1,72 @@
+{
+ "idSapl": 41407,
+ "rotulo": "Lei municipal nº 12.321, de 25 de outubro de 2017",
+ "sha256Origem": "b68e90598316e4de3280c830193e265e99d3bed9633981f5b834db6f66f6c3c0",
+ "estruturadoEm": "2026-11-28T06:29:53.447Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12321",
+  "ano": "2017",
+  "data": "2017-10-25",
+  "epigrafe": "LEI Nº 12.321, DE 25 DE OUTUBRO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui homenagem aos policiais civis, militares e federais mortos em serviço, constituída por um monumento.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 25 de outubro de 2017.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída homenagem aos policiais civis, militares e federais mortos em serviço, constituída por um monumento."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O monumento referido no caput deste artigo será erigido na Esplanada Hely Lopes Meirelles."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A escolha e a execução do monumento referido no art. 1º desta Lei ficarão a cargo das entidades representativas das categorias homenageadas, que poderão contar com patrocínio da iniciativa privada."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O disposto no caput deste artigo dar-se-á sem ônus para as entidades representativas das categorias homenageadas e para o Executivo Municipal."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.926,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

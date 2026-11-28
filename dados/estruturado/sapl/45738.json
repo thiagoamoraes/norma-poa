@@ -2,8 +2,8 @@
  "idSapl": 45738,
  "rotulo": "Lei municipal nº 13.396, de 20 de março de 2023",
  "sha256Origem": "8c747bf13f16712dc1fa20687a6a7117ff93a274a0b4535c9506dc6ee09cc6d2",
- "estruturadoEm": "2026-11-25T09:26:16.856Z",
- "versaoEstruturador": 30,
+ "estruturadoEm": "2026-11-28T06:29:50.499Z",
+ "versaoEstruturador": 32,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "13396",
@@ -57,8 +57,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "rotulo_embutido_no_texto"
+  ],
   "avisos": [],
   "metricas": {
    "artigos": 5,

@@ -306,6 +306,7 @@ export const TITULOS_DE_MOTIVO = {
   sem_artigos: 'Nenhum artigo reconhecido',
   dispositivo_sem_rotulo: 'Dispositivo sem rótulo reconhecível',
   endereco_repetido: 'Dois dispositivos com o mesmo endereço',
+  rotulo_embutido_no_texto: 'Inciso engolido: há rótulo de inciso dentro do texto de outro dispositivo',
   promulgacao_parcial: 'Promulgação parcial (só alguns dispositivos)',
   data_diverge_do_catalogo: 'A data do arquivo difere da do catálogo',
   numero_diverge_do_catalogo: 'O número do arquivo difere do do catálogo',

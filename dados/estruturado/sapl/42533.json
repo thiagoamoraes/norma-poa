@@ -2,8 +2,8 @@
  "idSapl": 42533,
  "rotulo": "Lei municipal nº 12.707, de 07 de abril de 2020",
  "sha256Origem": "f59700a84791e2cba0f5e70fa8f03de3084aba498daee6d6bb7bdb5df3bd76c1",
- "estruturadoEm": "2026-11-27T06:29:25.896Z",
- "versaoEstruturador": 30,
+ "estruturadoEm": "2026-11-28T06:29:52.238Z",
+ "versaoEstruturador": 32,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "12707",
@@ -232,8 +232,10 @@
   }
  ],
  "verificacao": {
-  "situacao": "aceita",
-  "motivos": [],
+  "situacao": "revisar",
+  "motivos": [
+   "rotulo_embutido_no_texto"
+  ],
   "avisos": [],
   "metricas": {
    "artigos": 8,

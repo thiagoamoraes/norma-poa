@@ -1,0 +1,52 @@
+{
+ "idSapl": 41154,
+ "rotulo": "Lei municipal nº 12.227, de 15 de fevereiro de 2017",
+ "sha256Origem": "96e9b33bbbd9d928ac67ca98275df667f45ab97b02807bea2839e07baaa0d265",
+ "estruturadoEm": "2026-11-28T06:29:53.867Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "Câmara Municipal                                                              PROC. N\" 1042/13",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "dePorto                                                           PLL   N° 085/13 Alegre L E I N° 12.227, DE 15 D E F E V E R E I R O DE 2017. Inclui a efeméride Dia de Combate ao Aumento de Mensalidades em Universidades e Escolas Privadas no Anexo da Lei n° 10.904, de 31 de maio de 2010 - Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre - , e alterações posteriores, na primeira quarta-feira de junho. O P R E S I D E N T E DA CÂMARA MUNICIPAL DE PORTO A L E G R E o   o",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 3 e 7 do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei n° 12.227. de 15 de fevereiro de 2017, como segue: o Art. I     Fica incluída a efeméride Dia de Combate ao Aumento de Mensalidades em Universidades e Escolas Privadas no Anexo da Lei n° 10.904. de 31 de maio de 2010 - Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre - . e alterações posteriores, na primeira quarta-feira de junho. o",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 15 DE FEVEREIRO DE 2017.\nèr. Cassio l rpgi\nPresident\nRegistre-se e publique-se:\nMauro Pinheiro,\no\nI Secretário.\nRIM)/",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 1,
+   "dispositivos": 1,
+   "cobertura": 0.968,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art2"
+    }
+   ]
+  }
+ }
+}

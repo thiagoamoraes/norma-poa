@@ -1,0 +1,70 @@
+{
+ "idSapl": 40881,
+ "rotulo": "Lei municipal nº 12.139, de 14 de outubro de 2016",
+ "sha256Origem": "94126a9a02b713f189019900d716ca01192b03db7a28a32ce162fa2d55260626",
+ "estruturadoEm": "2026-11-28T06:29:55.059Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12139",
+  "ano": "2016",
+  "data": "2016-10-14",
+  "epigrafe": "LEI Nº 12.139, DE 14 DE OUTUBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Maratona Aquática Cidade de Porto Alegre no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, na primeira quinzena do mês de dezembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 14 de outubro de 2016.\nJosé Fortunati,\nPrefeito.\nLuiz Fernando Moraes,\nSecretário Municipal de Turismo.\nJosé Edgar Meurer,\nSecretário Municipal de Esportes.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Maratona Aquática Cidade de Porto Alegre no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nDEZEMBRO\nPERÍODO               EVENTO          DESCRIÇÃO E LOCAL DO EVENTO\nPrimeira quinzena MARATONA AQUÁTICA O evento reunirá competidores de natação de\ndo mês            CIDADE   DE   PORTO águas abertas de âmbito regional, nacional e\nALEGRE              internacional.\nLocal: Orla balneável do Guaíba."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 6,
+     "caracteres": 300,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

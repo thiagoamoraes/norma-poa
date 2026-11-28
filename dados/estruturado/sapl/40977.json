@@ -1,0 +1,52 @@
+{
+ "idSapl": 40977,
+ "rotulo": "Lei municipal nº 12.175, de 21 de dezembro de 2016",
+ "sha256Origem": "778e108281cc4ee43cd322e6a5d5454494d32e87d110d0ecb31a98bab2257a07",
+ "estruturadoEm": "2026-11-28T06:29:54.967Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12175",
+  "ano": "2016",
+  "data": "2016-12-21",
+  "epigrafe": "LEI N° 12.175, DE 21 DE DEZEMBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui art. 7º-A na Lei nº 9.725, de 1º de fevereiro de 2005 – que dispõe sobre o funcionamento e regulamentação dos Centros de Entretenimento e Inclusão Digital (CEIDs) e dá outras providências –, alterada pela Lei nº 10.195, de 5 de junho de 2007, obrigando os CEIDs a implantar banco de dados contendo informações que especifica.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de dezembro de 2016.\nJosé Fortunati,\nPrefeito.\nWilson Abascal Pastorini,\nSecretário Municipal de Direitos Humanos.\nAntonio Kleber de Paula,\nSecretário Municipal da Produção, Indústria e Comércio.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído art. 7º-A na Lei nº 9.725, de 1º de fevereiro de 2005, alterada pela Lei nº 10.195, de 5 de junho de 2007, conforme segue:",
+   "blocoDeAlteracao": "“Art. 7º-A Ficam os CEIDs obrigados a implantar banco de dados contendo as\nseguintes informações:\nI – nome, número de inscrição no Cadastro de Pessoa Física e endereço do usuário; e\nII – data e hora de utilização do serviço pelo usuário e identificação do microcomputador utilizado.\nParágrafo único. As informações referidas no caput deste artigo deverão ser mantidas por, no mínimo, 24 (vinte e quatro) meses, contados da data de sua inclusão no banco de\ndados, ficando sua exibição e sua disponibilização restritas à polícia, ao Ministério Público e ao\nPoder Judiciário.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.971,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

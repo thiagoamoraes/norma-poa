@@ -1,8 +1,8 @@
 # Conferência DOPA × catálogo
 
-Gerado em 2026-11-27T01:07:41.282Z por `ingestao/conferencia-dopa.mjs`. Não editar à mão.
+Gerado em 2026-11-28T01:09:19.498Z por `ingestao/conferencia-dopa.mjs`. Não editar à mão.
 
-Edições lidas: 40 · normas no catálogo: 10 · ausentes: 3 · atos que só o DOPA traz: 2
+Edições lidas: 43 · normas no catálogo: 13 · ausentes: 4 · atos que só o DOPA traz: 2
 
 ## Publicadas há mais de 7 dias e ausentes do catálogo
 
@@ -12,9 +12,10 @@ Nenhuma.
 
 | Norma | Publicada em | Republicação | Link |
 |---|---|---|---|
-| LEI Nº 14.698, DE 25 DE NOVEMBRO DE 2026. | 2026-11-26 (executivo) |  | http://dopaonlineupload.procempa.com.br/dopaonlineupload/6242_ce_637676_1.pdf |
-| LEI Nº 14.699, DE 25 DE NOVEMBRO DE 2026. | 2026-11-26 (executivo) |  | http://dopaonlineupload.procempa.com.br/dopaonlineupload/6242_ce_637680_1.pdf |
-| LEI Nº 14.700, DE 25 DE NOVEMBRO DE 2026. | 2026-11-26 (executivo) |  | http://dopaonlineupload.procempa.com.br/dopaonlineupload/6242_ce_637684_1.pdf |
+| LEI Nº 14.701, DE 26 DE NOVEMBRO DE 2026. | 2026-11-27 (executivo) |  | http://dopaonlineupload.procempa.com.br/dopaonlineupload/6243_ce_637960_1.pdf |
+| LEI Nº 14.702, DE 26 DE NOVEMBRO DE 2026. | 2026-11-27 (executivo) |  | http://dopaonlineupload.procempa.com.br/dopaonlineupload/6243_ce_637965_1.pdf |
+| LEI Nº 14.703, DE 25 DE NOVEMBRO DE 2026. | 2026-11-27 (executivo) |  | http://dopaonlineupload.procempa.com.br/dopaonlineupload/6243_ce_637967_1.pdf |
+| LEI COMPLEMENTAR Nº 1.082, DE 26 DE NOVEMBRO DE 2026. | 2026-11-27 (executivo) |  | http://dopaonlineupload.procempa.com.br/dopaonlineupload/6243_ce_637947_1.pdf |
 
 ## Atos que só o DOPA traz (fora do catálogo do SAPL)
 

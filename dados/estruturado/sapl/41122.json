@@ -1,0 +1,84 @@
+{
+ "idSapl": 41122,
+ "rotulo": "Lei municipal nº 12.206, de 25 de janeiro de 2017",
+ "sha256Origem": "a3349a858e1539eace01b0338c9c1ce1335a45ada7c96b7a210d2f306a019110",
+ "estruturadoEm": "2026-11-28T06:29:53.887Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12206",
+  "ano": "2017",
+  "data": "2017-01-25",
+  "epigrafe": "LEI Nº 12.206, DE 25 DE JANEIRO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui a efeméride Dia da Vaneira no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, e o evento Passeata Musical – Caminho da Vaneira no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, no dia 1º de setembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 25 de janeiro de 2017.\nNelson Marchezan Júnior,\nPrefeito.\nRegistre-se e publique-se.\nBruno Nubens Barbosa Miragem,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Dia da Vaneira no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, no dia 1º de setembro."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluído o evento Passeata Musical – Caminho da Vaneira no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para a realização do evento referido no caput deste artigo, deverão ser respeitadas as leis de trânsito, bem como deverá haver prévia autorização da autoridade de trânsito competente para o trajeto a ser percorrido."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSETEMBRO\nPERÍODO          EVENTO        DESCRIÇÃO E LOCAL DO EVENTO\nDia 1º        PASSEATA MUSICAL – A Passeata Musical – Caminho da Vaneira\nCAMINHO DA VANEIRA   é o evento idealizado para prestar o\nreconhecimento a um dos ritmos de\nmúsica e de dança mais apreciados nos\nbailes gaúchos: a vaneira. A passeata\nreunirá renomados artistas, compositores e\nintérpretes     da     música     gaúcha,\ntradicionalistas ligados aos Centros de\nTradições Gaúchas (CTGs) e o público\nsimpatizante em geral, que percorrerão um\ntrajeto cujo ponto de concentração e\npartida é em frente ao Mercado Público\nCentral de Porto Alegre e cujo ponto de\nchegada é o Parque da Harmonia.\nLocais: Largo Jornalista Glênio Peres,\nAvenida Borges de Medeiros, Rua\nJerônimo Coelho, Praça Marechal\nDeodoro – Praça da Matriz –, Rua Espírito\nSanto, Rua Washington Luiz, Avenida\nAugusto de Carvalho e Parque Maurício\nSirotsky Sobrinho – Parque da Harmonia."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.972,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 23,
+     "caracteres": 897,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

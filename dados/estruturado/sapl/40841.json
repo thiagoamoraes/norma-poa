@@ -1,0 +1,70 @@
+{
+ "idSapl": 40841,
+ "rotulo": "Lei municipal nº 12.124, de 21 de setembro de 2016",
+ "sha256Origem": "d7a3428b028a077b05b68513a21056a25430e07c89e2aed1344f96abc6184c42",
+ "estruturadoEm": "2026-11-28T06:29:55.204Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12124",
+  "ano": "2016",
+  "data": "2016-09-21",
+  "epigrafe": "LEI Nº 12.124, DE 21 DE SETEMBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Porto Alegre Salsa Congress no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, no mês de setembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de setembro de 2016.\nJosé Fortunati,\nPrefeito.\nJosé Olmiro Péres,\nSecretário Municipal de Turismo, em exercício.\nRoque Jacoby,\nSecretário Municipal da Cultura.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Porto Alegre Salsa Congress no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSETEMBRO\nPERÍODO         EVENTO       DESCRIÇÃO E LOCAL DO EVENTO\nNo mês       PORTO ALEGRE SALSA O Porto Alegre Salsa Congress é o\nCONGRESS           único evento exclusivo de salsa do\nBrasil, do qual participam profissionais\nconsiderados top do mundo da salsa e\nda bachata, acorrendo-lhe gente do\nBrasil inteiro.\nLocal: *"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 9,
+     "caracteres": 315,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

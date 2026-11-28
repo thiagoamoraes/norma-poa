@@ -55,7 +55,8 @@ export function introsDeAlteracaoSemBloco(artigos) {
 }
 
 /** Mudar este número faz o estruturar.mjs reprocessar tudo. */
-export const VERSAO_ESTRUTURADOR = 30;
+export const VERSAO_ESTRUTURADOR = 32;
+const RE_ROTULO_EMBUTIDO = /[:;]\s*(?:e\s+|ou\s+)?(?:[IVXLCDM]{1,9}|(?=[IVXLCDM]*l)[IVXLCDMl]{1,9})\s*[–—-]\s+\S/;
 
 export const alnum = (s) => (s || '').normalize('NFC').replace(/[^\p{L}\p{N}]/gu, '');
 const soDigitos = (s) => String(s ?? '').replace(/\D/g, '');
@@ -369,6 +370,11 @@ export function estruturarNorma(texto, registro, opcoes = {}) {
   }
   if (semRotulo) motivos.push('dispositivo_sem_rotulo');
   if ([...vistos.values()].some((v) => v > 1)) motivos.push('endereco_repetido');
+  // Rótulo de inciso EMBUTIDO no texto de outro dispositivo (decisão 57, item 4): depois de ":" ou ";" aparece um rótulo romano com
+  // travessão ("; e Vll – …", ": I – …"). O inciso foi engolido (rótulo mal lido, como "Vll", ou número perdido pela extração) e a norma
+  // saía "aceita" com o dispositivo incompleto: a conferência de rótulos não vê o que some no fim da sequência. Medido nas 2.880 aceitas
+  // de 27/11/2026: 3 normas, as 3 falsos aceites reais (ids 42533, 45738, 35123).
+  if (dispositivos.filter((d) => d.tipo !== 'anexo').some((d) => RE_ROTULO_EMBUTIDO.test(d.texto || ''))) motivos.push('rotulo_embutido_no_texto');
 
   // numeração dos artigos: começa em 1 e anda de 1 em 1 (ou repete o número com letra)
   let saltos = 0;

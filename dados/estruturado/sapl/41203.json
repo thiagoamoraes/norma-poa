@@ -1,0 +1,78 @@
+{
+ "idSapl": 41203,
+ "rotulo": "Lei municipal nº 12.237, de 27 de abril de 2017",
+ "sha256Origem": "496d9e81d09108ed6167918f58be3421c0cfb4f3fd9554bb591f5fa41385b73f",
+ "estruturadoEm": "2026-11-28T06:29:53.852Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12237",
+  "ano": "2017",
+  "data": "2017-04-27",
+  "epigrafe": "LEI Nº 12.237, DE 27 DE ABRIL DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "Denomina Rua Selaimen o logradouro público cadastrado conhecido como Rua 2084 – Loteamento Parque Empresarial Condor –, localizado no Bairro São João.",
+ "preambulo": null,
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de abril de 2017.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nBruno Nubens Barbosa Miragem,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Selaimen o logradouro público cadastrado conhecido como Rua 2084 – Loteamento Parque Empresarial Condor –, localizado no Bairro São João, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme anexo desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Artesãos da cutelaria tradicional gaúcha."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.928,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

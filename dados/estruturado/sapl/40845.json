@@ -1,0 +1,114 @@
+{
+ "idSapl": 40845,
+ "rotulo": "Lei municipal nº 12.125, de 22 de setembro de 2016",
+ "sha256Origem": "655f0a089a57191ca4fae27ba4ad1efdeeabcf16b3977f679722ac5838f54ccd",
+ "estruturadoEm": "2026-11-28T06:29:55.202Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12125",
+  "ano": "2016",
+  "data": "2016-09-22",
+  "epigrafe": "LEI Nº 12.125, DE 22 DE SETEMBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Obriga o Executivo Municipal a adquirir produtos orgânicos para serem incluídos no cardápio da merenda escolar dos estabelecimentos da rede municipal de ensino.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 22 de setembro de 2016.\nJosé Fortunati,\nPrefeito.\nCleci Maria Jurach,\nSecretária Municipal de Educação.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o Executivo Municipal obrigado a adquirir produtos orgânicos para serem incluídos no cardápio da merenda escolar dos estabelecimentos da rede municipal de ensino."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para os fins desta Lei, consideram-se produtos orgânicos, in natura ou processados, aqueles obtidos em sistema orgânico de produção agropecuária ou oriundos de processo extrativista sustentável e não prejudicial ao ecossistema local."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O cardápio da merenda escolar dos estabelecimentos da rede municipal de ensino deverá ser composto, no mínimo, pelos seguintes percentuais de produtos orgânicos, conforme o ano de implementação desta Lei:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "10% (dez por cento), no primeiro ano;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "20% (vinte por cento), no segundo ano;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "30% (trinta por cento), no terceiro ano;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "40% (quarenta por cento), no quarto ano; e"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "50% (cinquenta por cento), no quinto ano e nos anos seguintes."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A lista de produtos orgânicos possíveis de serem adquiridos e incluídos no cardápio da merenda escolar dos estabelecimentos da rede municipal de ensino será elaborada por órgão competente do Executivo Municipal."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O Executivo Municipal regulamentará esta Lei em até 60 (sessenta) dias, contados da data de sua publicação, devendo ser observadas as disposições nacionais da alimentação escolar."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 11,
+   "cobertura": 0.951,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

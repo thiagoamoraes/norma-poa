@@ -1,0 +1,108 @@
+{
+ "idSapl": 41319,
+ "rotulo": "Lei municipal nº 12.291, de 31 de julho de 2017",
+ "sha256Origem": "1516fa6a6ee90b70e00e491a50b03cad2f984ba97b3508ee18af1fe1af1e5f28",
+ "estruturadoEm": "2026-11-28T06:29:53.769Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12291",
+  "ano": "2017",
+  "data": "2017-07-31",
+  "epigrafe": "LEI Nº 12.291, DE 31 DE JULHO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza o Executivo Municipal a contratar operação de crédito até o limite de R$ 120.000.000,00 (cento e vinte milhões de reais) c om instituições bancárias mantidas pelos Governos Estadual e Federal.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 31 de julho de 2017.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica o Executivo Municipal autorizado a contratar com instituições bancárias mantidas pelos Governos Estadual e Federal, por meio de linha de financiamento, operação de crédito até o limite de R$ 120.000.000,00 (cento e vinte milhões de reais), destinados ao financiamento da contrapartida das obras de mobilidade urbana, com vistas à continuidade da execução dos projetos Corredor da 3ª Perimetral, Corredor Avenida Tronco, Corredor Voluntários da Pátria, Prolongamento Avenida Severo Dullius, Corredor Avenida Padre Cacique, BRT João Pessoa, BRT Bento Gonçalves, BRT Protásio Alves e Complexo da Rodoviária, entre outros."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Município de Porto Alegre dará como garantia ao valor referido no caput desde artigo o Fundo de Participação dos Municípios (FPM) ou o Imposto sobre Operações Relativas à Circulação de Mercadorias e sobre Prestações de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação (ICMS)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica o Executivo Municipal autorizado a abrir créditos adicionais até o limite previsto no art. 1º desta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Os prazos de amortização e carência, os encargos financeiros e outras condições de vencimento e liquidação da dívida a serem contratados obedecerão às normas pertinentes estabelecidas pelas autoridades monetárias federais e notadamente ao que dispõe a Resolução nº 43, de 21 de dezembro de 2001, do Senado Federal, bem como as normas específicas do Manual para Instrução de Pleitos da Secretaria do Tesouro Nacional – 2017."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O Executivo Municipal encaminhará à Câmara Municipal de Porto Alegre:"
+  },
+  {
+   "id": "art-4/inc-I",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "no prazo de 60 (sessenta) dias, contados da data de contratação da operação de crédito autorizada por esta Lei, cópia dos respectivos instrumentos contratuais;"
+  },
+  {
+   "id": "art-4/inc-II",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "no prazo de 90 (noventa) dias, contados da data de contratação da operação de crédito autorizada por esta Lei, o cronograma de desembolso dos recursos destinados ao financiamento da contrapartida previsto para cada uma das obras de mobilidade urbana referidas no caput do art. 1º desta Lei; e"
+  },
+  {
+   "id": "art-4/inc-III",
+   "pai": "art-4",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "trimestralmente, a contar do início de cada uma das obras de mobilidade urbana referidas no caput do art. 1º desta Lei, demonstrativo dos recursos efetivamente desembolsados."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 10,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "idSapl": 41026,
+ "rotulo": "Lei municipal nº 12.192, de 30 de dezembro de 2016",
+ "sha256Origem": "b1fe5a684aa805692093af81248049437f58299e99a33141e34de5fd6eac5eaa",
+ "estruturadoEm": "2026-11-28T06:29:53.906Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12192",
+  "ano": "2016",
+  "data": "2016-12-30",
+  "epigrafe": "LEI Nº 12.192, DE 30 DE DEZEMBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Cria, no Município de Porto Alegre, o Programa Municipal de Segurança das Comunidades.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2016.\nJosé Fortunati,\nPrefeito.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criado, no Município de Porto Alegre, o Programa Municipal de Segurança das Comunidades, destinado a fomentar as inciativas de segurança por parte das comunidades."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para os fins desta Lei, consideram-se comunidades os núcleos urbanos, como bairros, vilas, ruas, avenidas, loteamentos residenciais e assemelhados."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para atingir os objetivos do Programa criado nesta Lei, as comunidades poderão, por meio de entidades representativas legalmente constituídas, firmar convênio com o Município de Porto Alegre, para atuar, de forma conjunta e regulamentada, no exercício de inciativas que visem à segurança local."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As empresas que prestarem o serviço de vigilância referido nesta Lei deverão ser autorizadas pelo Grupamento de Supervisão de Vigilância e Guardas – GSVG – da Brigada Militar do Rio Grande do Sul, bem como ficarão sob sua fiscalização."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Visando a garantir a sua segurança, as comunidades poderão dispor de serviços de vigilância por meio de pessoal devidamente registrado, de equipamentos eletrônicos, como câmeras ou outros recursos tecnológicos de segurança, e de elementos físicos."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "No caso de comunidades que possuam acessos exclusivos de entrada e saída, poderão ser instalados equipamentos e alocado pessoal para manter a vigilância acerca da segurança local, nos termos a serem definidos no convênio referido no art. 2º desta Lei."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "As despesas com serviços de vigilância e equipamentos correrão por conta das comunidades que aderirem ao Programa criado nesta Lei."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 8,
+   "cobertura": 0.954,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

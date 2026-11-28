@@ -1,0 +1,52 @@
+{
+ "idSapl": 40951,
+ "rotulo": "Lei municipal nº 12.163, de 09 de dezembro de 2016",
+ "sha256Origem": "743c186f7cd8f93906a2e31f12415d04fc7fdbde58d5a50e7a14887b595506ae",
+ "estruturadoEm": "2026-11-28T06:29:54.998Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12163",
+  "ano": "2016",
+  "data": "2016-12-09",
+  "epigrafe": "LEI N° 12.163, DE 9 DE DEZEMBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o art. 42 da Lei nº 12.002, de 21 de janeiro 2016 – que estabelece normas para a instalação, a conservação e o uso de elevadores, escadas rolantes e outros equipamentos de transporte instalados, de forma permanente, em edificações no Município de Porto Alegre e revoga as Leis nos 1.827, de 27 de dezembro de 1957, 2.134, de 19 de novembro de 1960, 2.864, de 9 de dezembro de 1965, 7.787, de 24 de maio de 1996, e 8.497, de 22 de maio de 2000 –, prorrogando o prazo para as empresas de manutenção cadastrarem, no Sistema Informatizado de Dados, os equipamentos de transporte de sua responsabilidade.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de dezembro de 2016.\nJosé Fortunati,\nPrefeito.\nJosé Luiz Fernandes Cogo,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o art. 42 da Lei nº 12.002, de 21 de janeiro 2016, conforme segue:",
+   "blocoDeAlteracao": "“Art. 42. As empresas de manutenção deverão, no prazo de 180 (cento e oitenta)\ndias, contados do início da vigência desta Lei, cadastrar, no Sistema Informatizado de Dados, os\nequipamentos de transporte de sua responsabilidade.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.967,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "idSapl": 40663,
+ "rotulo": "Lei municipal nº 12.056, de 16 de maio de 2016",
+ "sha256Origem": "98a99b1c410f4893cad60cc392754b2eeba91ea632c0e74d6acd4f48e0f8982a",
+ "estruturadoEm": "2026-11-28T06:29:55.352Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12056",
+  "ano": "2016",
+  "data": "2016-05-16",
+  "epigrafe": "LEI Nº 12.056, DE 16 DE MAIO 2016",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Estabelece normas para a instalação de placas indicativas de obras públicas no Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 16 de maio de 2016.\nJosé Fortunati,\nPrefeito.\nRafael Leandro Fleck,\nSecretário Municipal de Obras e Viação.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam estabelecidas, nos termos desta Lei, normas para a instalação de placas indicativas de obras públicas executadas pela Administração Pública Municipal ou por terceiros e iniciadas a partir da data de publicação desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As placas indicativas de obras públicas deverão conter as seguintes informações:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "descrição da natureza e da finalidade da obra;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "datas de início, de término e de entrega da obra, conforme estabelecido em contrato;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "nome completo e número de registro de classe do profissional técnico responsável pela obra;"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "razão social e número de registro no Cadastro Nacional da Pessoa Jurídica (CNPJ) do executante da obra, se terceirizada; e"
+  },
+  {
+   "id": "art-2/inc-VI",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "telefone, endereço e correio eletrônico de contatos, para fins de obtenção de informações detalhadas sobre a obra, bem como de seus órgãos fiscalizadores."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas indicativas não poderão divulgar outras realizações da Administração Pública Municipal, devendo conter, exclusivamente, informações de interesse público, em conformidade com os princípios da legalidade, da impessoalidade, da moralidade, da publicidade e da eficiência previstos no caput do art. 37 da Constituição Federal."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 12,
+   "cobertura": 0.951,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

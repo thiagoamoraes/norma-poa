@@ -1,0 +1,58 @@
+{
+ "idSapl": 41349,
+ "rotulo": "Lei municipal nº 12.299, de 12 de setembro de 2017",
+ "sha256Origem": "4d93394461512b61685444b99809efad940a560076cea99bf865ac7f07a5fb6e",
+ "estruturadoEm": "2026-11-28T06:29:53.486Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12299",
+  "ano": "2017",
+  "data": "2017-09-12",
+  "epigrafe": "LEI Nº 12.299, DE 12 DE SETEMBRO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Extingue, quando vagarem, 10 (dez) cargos efetivos de Vigilante II, código 1.1.1.4.6, do Quadro dos Cargos Efetivos constante no art. 9º da Lei nº 5.811, de 8 de dezembro de 1986 – que estabelece o Sistema de Classificação de Cargos e Funções da Câmara Municipal de Porto Alegre e dá outras providências –, e alterações posteriores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de setembro de 2017.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam extintos, quando vagarem, 10 (dez) cargos efetivos de Vigilante II, código 1.1.1.4.6, do Quadro dos Cargos Efetivos da Câmara Municipal de Porto Alegre, constante no art. 9º da Lei nº 5.811, de 8 de dezembro de 1986, e alterações posteriores, conforme Anexo único desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Por ocasião da extinção do cargo referido no caput deste artigo, ficam excluídas suas especificações do Anexo I da Lei nº 5.811, de 1986, e alterações posteriores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data da sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.947,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

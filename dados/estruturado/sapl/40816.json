@@ -1,0 +1,52 @@
+{
+ "idSapl": 40816,
+ "rotulo": "Lei municipal nº 12.117, de 06 de setembro de 2016",
+ "sha256Origem": "04c71b33b6904286d13731eb50c223ba94687db47568d96df1dff819b4a1a4b6",
+ "estruturadoEm": "2026-11-28T06:29:55.215Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12117",
+  "ano": "2016",
+  "data": "2016-09-06",
+  "epigrafe": "LEI N° 12.117, DE 6 DE SETEMBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "Altera o caput e inclui incs. I e II no caput do art. 3º da Lei nº 10.531, de 10 de setembro de 2008 – que institui, no Município de Porto Alegre, o Programa de Redução Gradativa do Número de Veículos de Tração Animal e de Veículos de Tração Humana e dá outras providências –, estendendo o prazo para a proibição, em definitivo, da circulação de Veículos de Tração Humana no trânsito do Município de Porto Alegre.",
+ "preambulo": null,
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 6 de setembro de 2016.\nJosé Fortunati,\nPrefeito.\nCláudia Remião Franciosi,\nSecretária Municipal de Governança Local, em exercício.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "No art. 3º da Lei nº 10.531, de 10 de setembro de 2008, fica alterado o caput, e ficam incluídos incs. I e II no caput, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º Ficam estabelecidos os seguintes prazos para a proibição, em definitivo,\nda circulação no trânsito do Município de Porto Alegre:\nI – 8 (oito) anos, no caso de VTAs; e\nII – 8 (oito) anos e 6 (seis) meses, no caso de VTHs.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.957,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

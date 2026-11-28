@@ -1,0 +1,66 @@
+{
+ "idSapl": 40876,
+ "rotulo": "Lei municipal nº 12.137, de 10 de outubro de 2016",
+ "sha256Origem": "f7bb50e667867d751f96419635d82bf612d2b2d04750a7e6841c5560c0f73c76",
+ "estruturadoEm": "2026-11-28T06:29:55.178Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12137",
+  "ano": "2016",
+  "data": "2016-10-10",
+  "epigrafe": "LEI Nº 12.137, DE 10 DE OUTUBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui homenagem ao engenheiro e empresário Pedro Mello, constituída por um busto.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 10 de outubro de 2016.\nJosé Fortunati,\nPrefeito.\nJosé Luiz Fernandes Cogo,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída homenagem ao engenheiro e empresário Pedro Mello, constituída por um busto."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A confecção, a instalação e a cerimônia de inauguração do busto de que trata o caput deste artigo ficarão a cargo de pessoas físicas ou jurídicas que se habilitarem, com a anuência do Executivo Municipal."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.943,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "idSapl": 40993,
+ "rotulo": "Lei municipal nº 12.183, de 27 de dezembro de 2016",
+ "sha256Origem": "878c4a276edaac506a0f5b01e7eabd1e1f6d1a40366fda7adb2a427e84848684",
+ "estruturadoEm": "2026-11-28T06:29:53.942Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12183",
+  "ano": "2016",
+  "data": "2016-12-27",
+  "epigrafe": "LEI Nº 12.183, DE 27 DE DEZEMBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece, em estacionamentos de prédios em que são prestados serviços públicos no Município de Porto Alegre, a reserva de, no mínimo, 5% (cinco por cento) de suas vagas para visitantes.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de dezembro de 2016.\nJosé Fortunati,\nPrefeito.\nVanderlei Luis Cappellari\nSecretário Municipal de Transporte\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecida, em estacionamentos de prédios em que são prestados serviços públicos no Município de Porto Alegre, a reserva de, no mínimo, 5% (cinco por cento) de suas vagas para visitantes."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O disposto no caput deste artigo dar-se-á sem prejuízo às vagas reservadas em lei para idosos e para pessoas com deficiência."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Excetuam-se ao disposto no caput deste artigo os prédios em que são prestados serviços públicos no Município de Porto Alegre que não possuírem área exclusiva para estacionamento."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.956,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

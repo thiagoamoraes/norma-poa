@@ -1,0 +1,51 @@
+{
+ "idSapl": 41108,
+ "rotulo": "Lei municipal nº 12.200, de 13 de janeiro de 2017",
+ "sha256Origem": "74e3def934e58def6c62c91d867f4155a753948ac642bfdff5afed895e6c5dc6",
+ "estruturadoEm": "2026-11-28T06:29:53.897Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12200",
+  "ano": "2017",
+  "data": "2017-01-13",
+  "epigrafe": "LEI Nº 12.200, DE 13 DE JANEIRO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Concede o título de Cidadã de Porto Alegre à senhora Hellene Vardaramatos.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de janeiro de 2017.\nNelson Marchezan Júnior,\nPrefeito.\nRegistre-se e publique-se.\nBruno Nubens Barbosa Miragem,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica concedido o título de Cidadã de Porto Alegre à senhora Hellene Vardaramatos, com base na Lei nº 9.659, de 22 de dezembro de 2004."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.93,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

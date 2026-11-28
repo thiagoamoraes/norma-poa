@@ -1,0 +1,81 @@
+{
+ "idSapl": 41165,
+ "rotulo": "Lei municipal nº 12.231, de 23 de fevereiro de 2017",
+ "sha256Origem": "5a28db1f9bf914c6b67baba5ccea6806edfa992028ecc8857299aa12def01b05",
+ "estruturadoEm": "2026-11-28T06:29:53.861Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "PREFEITURA MUNICIPAL DE PORTO ALEGRE",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "E LEI Nº 12.231, DE 23 DE FEVEREIRO DE 2017.",
+ "ementa": "fal Denomina Rótula Lászlo Gyôzo Bôhm o logradouro não cadastrado conhecido como Rótula Cinco Mil Cento e Sessenta e Nove, localizado no Bairro Cristal.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 23 de fevereiro de 2017.\nE\nA\nNelson e ia Júnior,\nPrefeito.\nRegistre-se e publique-se.\nNubens Barbosa Miragem,\nProcurador-Gera//do Município.\na PUBLICAÇÃO REPUBLICAÇÃO —\nPROCESSO\nFONTE DATA FONTE DATA\npoPA- je o» AM [1+ 2. 000004602 -2 |\n(210 x 297mm - FI.) A-CMA, MOD. GM-29\nPREFEITURA MUNICIPAL DE PORTO ALEGRE",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rótula Lászlo Gyôzo Bôhm o logradouro não cadastrado conhecido como Rótula Cinco Mil Cento e Sessenta e Nove, localizado no Bairro Cristal, conforme anexo desta Lei, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Ex-comodoro do clube Veleiros do Sul."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\n£o Gyozo Bor”\nW\ns R\nY\nTAMANDARE\nPREFEITO MUNICIPAL; Nelson Marchezan Junior\nEsta planta é parte integrante da Lei nº 12.241\nProcesso: 17.0.000009603-2 Data: -*\n23.02.2017\nA-CMA, MOD. GM-30\nE."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido"
+  ],
+  "avisos": [
+   "texto_de_ocr",
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.951,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 11,
+     "caracteres": 181,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

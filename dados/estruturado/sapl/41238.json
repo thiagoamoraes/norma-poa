@@ -1,0 +1,70 @@
+{
+ "idSapl": 41238,
+ "rotulo": "Lei municipal nº 12.252, de 08 de junho de 2017",
+ "sha256Origem": "35be318a18d6541be32a4bdc57410c0af62a94c0807fa06d6034e61a39779f5e",
+ "estruturadoEm": "2026-11-28T06:29:53.832Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12252",
+  "ano": "2017",
+  "data": "2017-06-08",
+  "epigrafe": "LEI Nº 12.252, DE 8 DE JUNHO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Festival Internacional de Teatro de Rua de Porto Alegre no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, no mês de abril.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de junho de 2017.\nGustavo Bohrer Paim,\nPrefeito, em exercício.\nRegistre-se e publique-se.\nBruno Nubens Barbosa Miragem,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Festival Internacional de Teatro de Rua de Porto Alegre no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nABRIL\nPERÍODO           EVENTO          DESCRIÇÃO E LOCAL DO EVENTO\nNo mês      FESTIVAL INTERNACIONAL Apresentação de grupos de teatro.\nDE TEATRO DE RUA DE\nPORTO ALEGRE           Local: Ruas, praças e parques de mais\nde 30 (trinta) bairros, em 17 (dezessete)\nregiões de Porto Alegre."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 7,
+     "caracteres": 278,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

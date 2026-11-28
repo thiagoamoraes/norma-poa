@@ -1,0 +1,73 @@
+{
+ "idSapl": 40607,
+ "rotulo": "Lei municipal nº 12.028, de 13 de abril de 2016",
+ "sha256Origem": "b1050c403c05fe2900a9fb08d9f026e8ca231275a6e035b57747d8a9122c5110",
+ "estruturadoEm": "2026-11-28T06:29:55.394Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12028",
+  "ano": "2016",
+  "data": "2016-04-13",
+  "epigrafe": "PROC. Nº 1598/15",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 145/15 LEI Nº 12.028, DE 13 DE ABRIL DE 2016.",
+ "ementa": "Proíbe o transporte remunerado de passageiros em veículos particulares cadastrados por aplicativos,  ou    plataformas   semelhantes, intermediado por empresas sem regulamentação específica do Executivo Municipal e dá outras providências.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 12.028, de 13 de abril de 2016, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 13 DE ABRIL DE 2016.\nVer. Cassio Trogildo,\nPresidente.\nRegistre-se e publique-se:\nVer. Paulo Brum,\n1º Secretário.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica proibido o transporte remunerado de passageiros em veículos particulares cadastrados por aplicativos, ou plataformas semelhantes, intermediado por empresas sem regulamentação específica do Executivo Municipal."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica proibida a associação de empresas administradoras de aplicativos, ou plataformas semelhantes, com estabelecimentos comerciais, para o fim de transporte remunerado de passageiros em veículos que não atendam às exigências da Lei nº 11.582, de 21 de fevereiro de 2014, ou legislação municipal específica."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A não observância ao disposto nesta Lei sujeitará o condutor do veículo e as empresas solidárias às sanções previstas no art. 22 da Lei Municipal nº 8.133, de 12 de janeiro de 1998, e alterações posteriores."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-4/par-unico",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O disposto nos arts. 1º e 2º desta Lei produzirá efeitos até 31 de julho de 2017."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 5,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

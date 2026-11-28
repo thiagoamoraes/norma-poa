@@ -1,0 +1,66 @@
+{
+ "idSapl": 41360,
+ "rotulo": "Lei municipal nº 12.306, de 19 de setembro de 2017",
+ "sha256Origem": "105db6ed4a17afc41a5b4856384295af00b5b007be78afddacb402f378a86984",
+ "estruturadoEm": "2026-11-28T06:29:53.474Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12306",
+  "ano": "2017",
+  "data": "2017-09-19",
+  "epigrafe": "PROC. Nº 1745/15",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 162/15 LEI Nº 12.306, DE 19 DE SETEMBRO DE 2017.",
+ "ementa": "Cria o Wi-Fi Livre POA.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 5º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 12.306, de 19 de setembro de 2017, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 21 DE SETEMBRO DE 2017.\nVer. Cassio Trogildo,\nPresidente.\nRegistre-se e publique-se:\nVer. Mauro Pinheiro,\n1º Secretário.\nRPD/JPCP",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica criado o Wi-Fi Livre POA, programa de disponibilização do serviço de internet wi-fi gratuito em parques, pontos turísticos, praças de grande circulação, escolas municipais, unidades de saúde e centros de saúde, visando à valorização desses locais pelos munícipes."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Wi-Fi Livre POA será implementado gradualmente, conforme o interesse do Município de Porto Alegre, devendo suas despesas observar os limites e as diretrizes orçamentárias municipais ou correr por conta de parcerias público-privadas."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "No caso de realização de parcerias público-privadas para a implementação do Wi-Fi Livre POA, ficam as empresas autorizadas a utilizar, para publicidade, parte do espaço em que será disponibilizado o serviço de internet wi-fi gratuito, observados os limites fixados em lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.963,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

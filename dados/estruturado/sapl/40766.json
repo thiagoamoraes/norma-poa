@@ -1,0 +1,93 @@
+{
+ "idSapl": 40766,
+ "rotulo": "Lei municipal nº 12.102, de 27 de julho de 2016",
+ "sha256Origem": "7afb88c707f12af037a864e723a4f46072d08edb6ccf5338219b603bcb69238f",
+ "estruturadoEm": "2026-11-28T06:29:55.270Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12102",
+  "ano": "2016",
+  "data": "2016-07-27",
+  "epigrafe": "LEI Nº 12.102, DE 27 DE JULHO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Dispõe sobre a inclusão de atividades e conteúdos relativos à educação financeira no plano curricular das escolas de ensino fundamental e médio da rede pública municipal de ensino.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de julho de 2016.\nJosé Fortunati,\nPrefeito.\nCleci Maria Jurach,\nSecretária Municipal de Educação.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica obrigatória a inclusão de atividades e conteúdos relativos à educação financeira no plano curricular das escolas de ensino fundamental e médio da rede pública municipal de ensino."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "As atividades e os conteúdos relativos à educação financeira constituirão matéria da base diversificada do currículo escolar, devendo ser contemplados como tema transversal, estar presentes nas diferentes disciplinas do contexto escolar e ser desenvolvidos de forma interdisciplinar."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Poderão ser abordados os seguintes temas relativos à educação financeira:"
+  },
+  {
+   "id": "art-1/par-2/inc-I",
+   "pai": "art-1/par-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "noções de economia monetária, fiscal e de capitais;"
+  },
+  {
+   "id": "art-1/par-2/inc-II",
+   "pai": "art-1/par-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "noções de planejamento financeiro; e"
+  },
+  {
+   "id": "art-1/par-2/inc-III",
+   "pai": "art-1/par-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "princípios contábeis, especialmente débito e crédito."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O Conselho Municipal de Educação e a Secretaria Municipal de Educação (Smed) disponibilizarão, nas Conferências Municipais de Educação, espaço para debate, análise e articulação das atividades e dos conteúdos relativos à educação financeira, a fim de inseri-los no documento-referência que será debatido na Conferência Nacional de Educação – Conae."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor no ano letivo seguinte ao ano de sua publicação"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 8,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

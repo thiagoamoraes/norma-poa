@@ -2,8 +2,8 @@
  "idSapl": 37041,
  "rotulo": "Lei Complementar municipal nº 660, de 07 de dezembro de 2010",
  "sha256Origem": "1b07d6232449eae1eed3134a3a17a54426366f33b7c367c792b4595fc84e59f5",
- "estruturadoEm": "2026-11-21T18:42:51.730Z",
- "versaoEstruturador": 30,
+ "estruturadoEm": "2026-11-28T06:29:32.497Z",
+ "versaoEstruturador": 32,
  "cabecalho": {
   "tipoAto": "LEI COMPLEMENTAR",
   "numero": "660",
@@ -359,6 +359,7 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
+   "rotulo_embutido_no_texto",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [

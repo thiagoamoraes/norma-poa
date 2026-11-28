@@ -1,0 +1,79 @@
+{
+ "idSapl": 40769,
+ "rotulo": "Lei municipal nº 12.105, de 29 de julho de 2016",
+ "sha256Origem": "ff9c9b7df11a7dd92f0d7116db98d2c1adf3e5306fa851153537217e8eccd691",
+ "estruturadoEm": "2026-11-28T06:29:55.266Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12105",
+  "ano": "2016",
+  "data": "2016-07-29",
+  "epigrafe": "LEI Nº 12.105, DE 29 DE JULHO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Determina a divulgação dos números dos telefones gratuitos para denúncias referentes à violência contra a mulher na área interna dos veículos automotores do serviço de transporte público de passageiros do Município de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 29 de julho de 2016.\nJosé Fortunati,\nPrefeito.\nVanderlei Luis Cappellari,\nSecretário Municipal dos Transportes.\nWilson Abascal Pastorini,\nSecretaria Municipal de Direitos Humanos.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica determinada a divulgação dos números dos telefones gratuitos para denúncias referentes à violência contra a mulher na área interna dos veículos automotores do serviço de transporte público de passageiros do Município de Porto Alegre."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A divulgação referida no caput deste artigo dar-se-á por meio de fixação de cartaz ou placa, em local de fácil visualização e leitura pela população, com os seguintes dizeres:"
+  },
+  {
+   "id": "art-1/par-unico/inc-I",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "A violência contra a mulher é crime. Denuncie! Ligue 180;"
+  },
+  {
+   "id": "art-1/par-unico/inc-II",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "Disque 0800 541 0803 – Escuta Lilás; ou"
+  },
+  {
+   "id": "art-1/par-unico/inc-III",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "Disque-Violência contra a Mulher POA 0800 6420100."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 6,
+   "cobertura": 0.951,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

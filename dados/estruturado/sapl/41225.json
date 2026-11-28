@@ -1,0 +1,76 @@
+{
+ "idSapl": 41225,
+ "rotulo": "Lei municipal nº 12.248, de 23 de maio de 2017",
+ "sha256Origem": "685a41d76b11e79de0283bca08b7f5b4bcfc1f5f05a88560b9803e7a5bb3aab2",
+ "estruturadoEm": "2026-11-28T06:29:53.837Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12248",
+  "ano": "2017",
+  "data": "2017-05-23",
+  "epigrafe": "LEI Nº 12.248, DE 23 DE MAIO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Dispõe sobre a remuneração de servidor público investido no cargo de Secretário Municipal e revoga o art. 67 da Lei nº 6.203, de 3 de outubro de 1988, e o art. 77 da Lei nº 6.309, de 28 de dezembro de 1988.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 23 de maio de 2017.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nBruno Nubens Barbosa Miragem,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O servidor público ocupante de cargo efetivo ou de emprego em quaisquer dos Poderes do Município de Porto Alegre, do Estado do Rio Grande do Sul, da União, de outros estados, do Distrito Federal ou de outros municípios, investido em cargo de Secretário Municipal, poderá optar pela remuneração do seu cargo efetivo ou emprego, acrescida do valor correspondente a 70% (setenta por cento) do subsídio do cargo de Secretário Municipal, previsto no inc. III do art. 1º da Lei nº 12.135, de 7 de outubro de 2016."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O valor de que trata o caput não será incorporável nem computado ou acumulado para fins de concessão de acréscimos ulteriores."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "VETADO",
+   "vetado": true
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Ficam revogados o art. 67 da Lei nº 6.203, de 3 de outubro de 1988, e o art. 77 da Lei nº 6.309, de 28 de dezembro de 1988."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "revogacao_nao_interpretada"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.961,
+   "blocosDeAlteracao": 0,
+   "revogacoesNaoLidas": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

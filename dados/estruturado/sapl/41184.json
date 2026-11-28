@@ -1,0 +1,108 @@
+{
+ "idSapl": 41184,
+ "rotulo": "Lei municipal nº 12.233, de 28 de março de 2017",
+ "sha256Origem": "afcb902c9dea00475d160f1639338aebc49fd24dd4ac22b57d71826d5b128c0b",
+ "estruturadoEm": "2026-11-28T06:29:53.858Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "Câmara Municipal                                                         PROC. N\" 0629/16",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "PLL   N° 054/16 de Porto Alegre L E I N° 12.233, DE 28 DE MARÇO DE 2017. Obriga os promotores de competições esportivas a conceder desconto de 50% (cinqüenta por cento) sobre o valor da inscrição a atletas idosos e a para-atletas. 0 P R E S I D E N T E DA CÂMARA MUNICIPAL DE PORTO A L E G R E o    o",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 3 e 7 do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei n° 12.233. de 28 de março de 2017. como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 28 DE MARÇO DE 2017.\nVer. Cassio TSrogiíaoy\nPresidente.\nRegistre-se e publique-se:\nVer. Mauro Pinheiro,\no\nI Secretário.\nJPCP/",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam os promotores de competições esportivas obrigados a conceder desconto de 50% (cinqüenta por cento) sobre o valor da inscrição a atletas idosos e a para-atletas."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para o fim do disposto no caput deste artigo, consideram-se: 1 - atleta idoso a pessoa com idade igual ou superior a 60 (sessenta) anos. comprovada mediante a apresentação de documento com foto; e"
+  },
+  {
+   "id": "art-1/par-unico/inc-I",
+   "pai": "art-1/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "para-atleta a pessoa com deficiência verificável que impacte o seu desempenho atlético, comprovada mediante a apresentação de documento que possua fé pública, sendo dispensável no caso de deficiência evidente. o"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Por ocasião da divulgação e da promoção de competições esportivas, seus promotores deverão informar o direito assegurado por esta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O descumprimento ao disposto nesta Lei sujeitará os promotores de competições esportivas às seguintes sanções:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "multa de 3.000 (três mil) Unidades Financeiras Municipais (UFMs). aplicada na primeira incidência; e"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "multa de 6.000 (seis mil) UFMs. aplicada na reincidência."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os valores arrecadados com a aplicação das sanções serão depositados no Fundo Municipal de Desenvolvimento Desportivo. Câmara Municipal                                                        PROC. N° 0629/16 dcPorto                                                              PLL   N° 054/16 Alegre o"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 9,
+   "cobertura": 0.952,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "I –",
+     "naOrigem": "II"
+    }
+   ]
+  }
+ }
+}

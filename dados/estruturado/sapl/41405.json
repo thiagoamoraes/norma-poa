@@ -1,0 +1,70 @@
+{
+ "idSapl": 41405,
+ "rotulo": "Lei municipal nº 12.319, de 25 de outubro de 2017",
+ "sha256Origem": "1a1cfd6c716b66b46786399be8095ffbaee76cc178e7c9f08c647eedd4e907f1",
+ "estruturadoEm": "2026-11-28T06:29:53.449Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12319",
+  "ano": "2017",
+  "data": "2017-10-25",
+  "epigrafe": "LEI Nº 12.319, DE 25 DE OUTUBRO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Natal Luz, Paz e Solidariedade no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, no terceiro final de semana do mês de dezembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 25 de outubro de 2017.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nEunice Nequete,\nProcuradora-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Natal Luz, Paz e Solidariedade no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nDEZEMBRO\nPERÍODO               EVENTO          DESCRIÇÃO E LOCAL DO EVENTO\nTerceiro final de NATAL LUZ, PAZ E Evento organizado por moradores e\nsemana            SOLIDARIEDADE       empresários do Bairro Sarandi, em que são\ndistribuídos brinquedos e alimentos para\nfamílias carentes e realizadas atividades de\nrecreação, shows e encenações teatrais\nalusivas ao Natal.\nLocal: Bairro Sarandi."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 9,
+     "caracteres": 382,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

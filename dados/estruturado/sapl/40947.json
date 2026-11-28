@@ -1,0 +1,58 @@
+{
+ "idSapl": 40947,
+ "rotulo": "Lei municipal nº 12.159, de 07 de dezembro de 2016",
+ "sha256Origem": "49a575086c0aa11a53b64b9bef868320911378bfba1048b9cbdc4af620f3e9b9",
+ "estruturadoEm": "2026-11-28T06:29:55.027Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12159",
+  "ano": "2016",
+  "data": "2016-12-07",
+  "epigrafe": "LEI Nº 12.159, DE 7 DE DEZEMBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Rua Desembargador Sebastião Adroaldo Pereira o logradouro público cadastrado conhecido como Rua Cinco Mil e Seis, localizado no Bairro Campo Novo.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de dezembro de 2016.\nJosé Fortunati,\nPrefeito.\nJosé Luiz Fernandes Cogo,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.\nAnexo\nPrefeito Municipal: José Fortunati\nSecretário Municipal de Urbanismo: José Luiz Fernandes Cogo\nEsta planta é parte integral da lei: Nº 12.159\nProcesso: 16.0.000070358.7           Data: 7/12/2016",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Desembargador Sebastião Adroaldo Pereira o logradouro público cadastrado conhecido como Rua Cinco Mil e Seis, localizado no Bairro Campo Novo, conforme anexo desta Lei, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Presidente da Associação dos Juízes do Rio Grande do Sul –Ajuris – e do Tribunal de Alçada."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.951,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

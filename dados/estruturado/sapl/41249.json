@@ -1,0 +1,84 @@
+{
+ "idSapl": 41249,
+ "rotulo": "Lei municipal nº 12.262, de 13 de junho de 2017",
+ "sha256Origem": "b2eb24450ae50c5c5ef9499e107f03c24c4e5f704e65d136ed558a23fec308ad",
+ "estruturadoEm": "2026-11-28T06:29:53.815Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12262",
+  "ano": "2017",
+  "data": "2017-06-13",
+  "epigrafe": "LEI Nº 12.262, DE 13 DE JUNHO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Feira Afroempreendedora no Anexo I da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, a ser realizado no primeiro domingo de cada mês, exceto no mês de novembro, quando será realizado durante a Semana da Consciência Negra.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de junho de 2017.\nNelson Marchezan Júnior,\nPrefeito de Porto Alegre.\nRegistre-se e publique-se.\nBruno Nubens Barbosa Miragem,\nProcurador-Geral do Município.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Feira Afroempreendedora no Anexo I da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "No mês de novembro, a Feira Afroempreendedora ocorrerá durante a Semana da Consciência Negra, concomitantemente com as demais celebrações e eventos."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Regulamentação desta Lei deverá dispor sobre o horário de funcionamento da Feira Afroempreendedora."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nPERÍODO                EVENTO               DESCRIÇÃO E LOCAL DO\nEVENTO\nPrimeiro domingo de FEIRA AFROEMPREENDEDORA   Espaço para que o povo negro\ncada mês, exceto no                           tenha a oportunidade de realizar\nmês de novembro,                              atividades empreendedoras e\nquando será realizado                         exposições culturais, comerciais,\ndurante a Semana da                           tecnológicas e recreativas, que\nConsciência Negra.                            aumentem sua fonte de renda e\nlhe deem visibilidade.\nLocal: Largo       Zumbi     dos\nPalmares."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 5,
+   "cobertura": 0.962,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 11,
+     "caracteres": 589,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

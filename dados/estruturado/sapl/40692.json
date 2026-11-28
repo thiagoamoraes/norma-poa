@@ -1,0 +1,70 @@
+{
+ "idSapl": 40692,
+ "rotulo": "Lei municipal nº 12.071, de 07 de junho de 2016",
+ "sha256Origem": "dc7440626478243156a62f673ca6bd9b71129c3a01b37452fae0d3ed5e538adb",
+ "estruturadoEm": "2026-11-28T06:29:55.328Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12071",
+  "ano": "2016",
+  "data": "2016-06-07",
+  "epigrafe": "LEI Nº 12.071, DE 7 DE JUNHO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Fórum Internacional Software Livre – FISL – no Anexo I da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de junho de 2016.\nJosé Fortunati,\nPrefeito.\nLuiz Fernando Moraes,\nSecretário Municipal de Turismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Fórum Internacional Software Livre – FISL – no Anexo I da Lei nº 10.903, de 31 de maio de 2010, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nPERÍODO         EVENTO                DESCRIÇÃO, LOCAL E HORÁRIO DO EVENTO\nEventos Anuais sem data fixa\nSem data fixa, FÓRUM               Evento       promovido pela   organização    não\ndependendo de INTERNACIONAL        governamental Associação Software Livre, com a\ncalendário anual SOFTWARE LIVRE missão de promover o uso e a filosofia de softwares\nespecífico.      – FISL            livres.\nLocal: ( * )"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 7,
+     "caracteres": 403,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

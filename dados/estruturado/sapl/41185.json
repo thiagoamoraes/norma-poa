@@ -1,0 +1,85 @@
+{
+ "idSapl": 41185,
+ "rotulo": "Lei municipal nº 12.234, de 28 de março de 2017",
+ "sha256Origem": "9150df6e246911ffd282494d579a3f4fba94caadee31208178d0252660472994",
+ "estruturadoEm": "2026-11-28T06:29:53.856Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "Câmara Municipal                                                                                   H",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "P R O C . N 1399/14 de Porto                                                                         PLL       N° 136/14 Alegre L E I N° 12.234, D E 28 D E M A R Ç O D E 2017. o Altera a ementa e o art. 1\" e inclui art. I - A na Lei n° 11.417, de 15 de fevereiro de 2013, permitindo        aos     proprietários         de estabelecimentos comerciais a instalação de paraciclos e bicicletários nesses locais, bem como sobre a parcela de calçada e via pública que lhes seja fronteira. O P R E S I D E N T E DA CÂMARA M U N I C I P A L D E P O R T O A L E G R E o   o",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 3 e 7 do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei n° 12.234. de 28 de março de 2017, como segue: o Art. I                     Fica alterada a ementa da Lei n° 11.417, de 15 de fevereiro de 2013. conforme segue: o                                  o",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 28 DE MARÇO DE 2017.\ner. Cassio Trogildo,\nPresidente\nRegistre-se e publique-se:\nVer. Mauro Pinheiro,\no\nI Secretário.\nJPCP/",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o art. I da Lei n° 11.417, de 2013. conforme segue: o o",
+   "blocoDeAlteracao": "\"Permite aos proprietários de estabelecimentos comerciais a instalação de\nparaciclos e bicicletários nesses locais, bem como sobre a parcela de calçada e via pública que\nlhes seja fronteira.\" (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluído art. 1°-Ana Lei n° 11.417, de 2013, conforme segue: o S|   Câmara Municipal                                                                 P R O C . N° 1399/14 PLL       N° 136/14 de Porto Alegre o",
+   "blocoDeAlteracao": "\"Art. I    Fica permitida aos proprietários de estabelecimentos comerciais a\ninstalação de paraciclos e bicicletários nesses locais, bem como sobre a parcela de calçada e\nvia pública que lhes seja fronteira, resguardado o espaço destinado à circulação de pedestres.\nParágrafo único. A instalação de paraciclos e bicicletários referida no caput\ndeste artigo ficará condicionada à aprovação da Empresa Pública de Transporte e Circulação -\nEPTC.\" (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "promulgacao_parcial",
+   "cabecalho_nao_reconhecido",
+   "texto_fora_da_arvore",
+   "trecho_nao_localizado_na_origem",
+   "rotulo_nao_confere_com_a_origem",
+   "bloco_de_alteracao_sem_dono"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.659,
+   "blocosDeAlteracao": 3,
+   "lacunas": [
+    {
+     "tamanho": 54,
+     "amostra": "ooArt2FicaalteradooartIdaLein11417de2013conformesegueoArtIFicapermitidaaospropri"
+    },
+    {
+     "tamanho": 229,
+     "amostra": "oArt3Ficaincluídoart1AnaLein11417de2013conformesegueoArtIARegulamentaçãodestaLei"
+    }
+   ],
+   "naoLocalizados": [
+    "Faço saber, no uso das atribuições que me obrigam os §§ 3 e 7 do art. 77 da Lei ",
+    "Fica alterado o art. I da Lei n° 11.417, de 2013. conforme segue: o o",
+    "Fica incluído art. 1°-Ana Lei n° 11.417, de 2013, conforme segue: o S|   Câmara "
+   ],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "14dePortoAlegreoArt4"
+    }
+   ]
+  }
+ }
+}

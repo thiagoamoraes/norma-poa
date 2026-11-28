@@ -1,0 +1,85 @@
+{
+ "idSapl": 41219,
+ "rotulo": "Lei municipal nº 12.246, de 17 de maio de 2017",
+ "sha256Origem": "b02acefaee4af071dc94502a073e54273421568de6a5cdc23de2fe5347d471ae",
+ "estruturadoEm": "2026-11-28T06:29:53.841Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "Câmara Municipal                                                                    P R O C . N° 1728/16",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "de Porto                                                                 PLL       N° 170/16 Alegre L E I N\" 12.246, D E 17 D E M A I O D E 2017. Estabelece a criação de bolsões de proteção para motocicletas e bicicletas nas vias providas de semáforo no Município de Porto Alegre. O P R E S I D E N T E DA CÂMARA M U N I C I P A L D E P O R T O A L E G R E o    o",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 5 e 7 do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei n° 12.246, de 17 de maio de 2017, como segue: o Art. I Fica estabelecida a criação de bolsões de proteção para motocicletas e bicicletas nas vias providas de semáforo no Município de Porto Alegre. o",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 17 DE MAIO DE 2017.\nRegistre-se e publique-se:\nVer. Mauro Pinheiro,\no\nI Secretário.\nRPD/JPCT",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Para o fim do disposto nesta Lei, considera-se bolsão de proteção o espaço livre demarcado antes da faixa de retenção, exclusivo para que motocicletas e bicicletas se posicionem à frente dos demais veículos automotores enquanto aguardam a liberação do semáforo para transitar. o"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os bolsões de proteção referidos nesta Lei serão implantados basicamente em vias com circulação considerável de motocicletas e conflito veicular, devendo ser observadas a segurança viária e a análise técnica do órgão responsável. o"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias. o"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.965,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art2"
+    },
+    {
+     "rotulo": "Art. 2º",
+     "naOrigem": "Art3"
+    },
+    {
+     "rotulo": "Art. 3º",
+     "naOrigem": "Art4"
+    },
+    {
+     "rotulo": "Art. 4º",
+     "naOrigem": "Art5"
+    }
+   ]
+  }
+ }
+}

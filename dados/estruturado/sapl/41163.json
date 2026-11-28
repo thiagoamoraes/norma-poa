@@ -1,0 +1,71 @@
+{
+ "idSapl": 41163,
+ "rotulo": "Lei municipal nº 12.230, de 22 de fevereiro de 2017",
+ "sha256Origem": "e5ade2dfba8f9c7567d0d3a00d7b52b3f5e262c3951cc0206f45c6c53977b94c",
+ "estruturadoEm": "2026-11-28T06:29:53.863Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "Câmara Municipal                                                            PROC. N° 1248/16",
+  "proveniencia": {
+   "promulgadoPor": null,
+   "motivoProvavel": "indeterminado"
+  }
+ },
+ "ementa": "de Porto                                                         PLL   N° 119/16 Alegre L E I N° 12.230, DE 22 DE F E V E R E I R O DE 2017. Inclui os eventos Dia de Iemanjá, Dia do índio e de Ogum, Dia de Obaluaê e Dia de Oxum no Mercado Público Central no Anexo II da Lei n° 10.903, de 31 de maio de 2010 - Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre - , e alterações posteriores. O P R E S I D E N T E DA CÂMARA MUNICIPAL DE PORTO A L E G R E o   o",
+ "preambulo": "Faço saber, no uso das atribuições que me obrigam os §§ 3 e 7 do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei n° 12.227. de 15 de fevereiro de 2017. como segue: o Art. I Ficam incluídos os eventos Dia de Iemanjá. Dia do índio e de Ogum, Dia de Obaluaê e Dia de Oxum no Mercado Público Central no Anexo II da Lei n° 10.903, de 31 de maio de 2010 - Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre - , e alterações posteriores, conforme Anexo desta Lei. o",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 22 DE FEVEREIRO DE 2017.\nRegistre-se e publique-se:\nVer. Mauro Pinheiro,\no\nI Secretário.\nRIM)\nmft Câmara Municipal                                                                 PROC. N° 1248/16\nP L L   N    1,9/16\nAl     de Porto                                                                               °\n~^      Alegre",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nFEVEREIRO\nPERÍODO                             EVENTO                    DESCRIÇÃO E LOCAL DO EVENTO\nDia 1° ou no dia anterior   D I A DE I E M A N J Á N O   Solenidade formal em homenagem à Iemanjá.\nMERCADO         PÚBLICO      com a realização de práticas típicas dos rituais da\nCENTRAL                      religião afro-brasileira, como uso de incensos,\ntoques de atabaques, cantigas - cantos de orixás\n- e oferecimento de axés para os visitantes, que\nt a m b é m podem fazer seus pedidos e suas\noferendas.\nLocal: Área central do térreo         do   Mercado\nPúblico Central de Porto Alegre.\nABRIL\nPERÍODO                             EVENTO                    DESCRIÇÃO E LOCAL DO EVENTO\nDia 19 ou no dia anterior   D I A D O Í N D I O E DE     Solenidade formal em homenagem ao Dia do\nOGUM NO MERCADO              índio e de Ogum, com a realização de práticas\nPÚBLICO CENTRAL              típicas dos rituais da religião afro-brasileira,\ncomo uso de incensos, toques de atabaques,\ncantigas - cantos de orixás - e oferecimento de\naxés para os visitantes, que t a m b é m podem fazer\nseus pedidos e suas oferendas.\nLocal: Área central do térreo do Mercado\nPúblico Central de Porto Alegre.\nAGOSTO\nPERÍODO                             EVENTO                    DESCRIÇÃO E LOCAL DO EVENTO\nDia 16 ou no dia anterior   D I A DE O B A L U A Ê N O   Solenidade formal em homenagem a Obaluaê.\nMERCADO         PÚBLICO      com a realização de práticas típicas dos rituais da\nCENTRAL                      religião afro-brasileira como uso de incensos.\ntoques de atabaques, cantigas - cantos de orixás\n- e oferecimento de axés para os visitantes, que\nt a m b é m podem fazer seus pedidos e suas\noferendas.\nLocal: Área central do térreo do Mercado\nPúblico Central de Porto Alegre.\nDEZEMBRO\nPERÍODO                             EVENTO                    DESCRIÇÃO E LOCAL DO EVENTO\nDia 8 ou no dia anterior    D I A DE O X U M N O         Solenidade formal em homenagem a O x u m , com\nMERCADO     PÚBLICO          a realização de práticas típicas dos rituais da\nCENTRAL                      religião afro-brasileira, como uso de incensos,\ntoques de atabaques, cantigas - cantos de orixás\n- e oferecimento de axés para os visitantes, que\nt a m b é m podem fazer seus pedidos e suas\noferendas.\nLocal: Área central do térreo do Mercado\nPúblico Central de Porto Alegre."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido",
+   "rotulo_nao_confere_com_a_origem"
+  ],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 1,
+   "dispositivos": 2,
+   "cobertura": 0.988,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 44,
+     "caracteres": 2310,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": [
+    {
+     "rotulo": "Art. 1º",
+     "naOrigem": "Art2"
+    }
+   ]
+  }
+ }
+}

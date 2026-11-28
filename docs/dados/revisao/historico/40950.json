@@ -1,0 +1,3786 @@
+{
+ "geradoEm": "2026-11-28T06:30:05.160Z",
+ "idSapl": 40950,
+ "rotulo": "Lei municipal nº 12.162, de 09 de dezembro de 2016",
+ "baseConferida": false,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 12162/2016@2016-12-09",
+   "data": "2016-12-09",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 12162/2016@2018-06-14",
+   "data": "2018-06-14",
+   "fonte": {
+    "idSapl": 41680,
+    "rotulo": "Lei municipal nº 12.423, de 14 de junho de 2018"
+   },
+   "comandosAplicados": 51
+  },
+  {
+   "indice": 2,
+   "id": "l 12162/2016@2020-03-27",
+   "data": "2020-03-27",
+   "fonte": {
+    "idSapl": 42518,
+    "rotulo": "Lei Complementar municipal nº 879, de 27 de março de 2020"
+   },
+   "comandosAplicados": 2
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam estabelecidas, nos termos desta Lei, normas para a prestação do serviço de transporte motorizado privado e remunerado de passageiros no Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Ficam estabelecidas, nos termos desta Lei, as normas para a execução, no Município de Porto Alegre, do transporte motorizado privado e remunerado de passageiros, na categoria de Aplicações de Internet, previsto no art. 4º, inc. X, da Lei nº 12.587, de 3 de janeiro de 2012.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DISPOSIÇÕES PRELIMINARES"
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Considera-se serviço de transporte motorizado privado e remunerado de passageiros aquele realizado em viagem individualizada, executado por automóvel particular com capacidade para até 6 (seis) pessoas, exclusive o condutor, e solicitado exclusivamente por meio de plataforma tecnológica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Constitui atividade classificada como transporte de interesse público e inserida na categoria Aplicações de Internet do modal transporte motorizado privado e remunerado de passageiros a realização de viagem individualizada, por automóvel particular com capacidade para até 6 (seis) pessoas, exclusive o condutor, solicitada exclusivamente por meio de aplicações de internet.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A exploração do serviço de transporte motorizado privado e remunerado de passageiros dependerá de autorização do Município de Porto Alegre, concedida por intermédio da Empresa Pública de Transporte e Circulação (EPTC) a pessoas jurídicas operadoras de plataforma tecnológica, conforme critérios de credenciamento fixados nesta Lei e em seu regulamento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "A exploração do serviço de transporte motorizado privado e remunerado de passageiros dependerá de autorização do Município de Porto Alegre, concedida por intermédio da Empresa Pública de Transporte e Circulação (EPTC) a pessoas jurídicas operadoras de aplicações de internet, conforme critérios de credenciamento fixados nesta Lei e em seu regulamento.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "II",
+     "titulo": "DISPOSIÇÕES GERAIS"
+    },
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Da Autorização e da Operação"
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A autorização do serviço de transporte motorizado privado e remunerado de passageiros é restrita às operadoras de tecnologia responsáveis pela sua disponibilização.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros ficam obrigadas a abrir e compartilhar com o Município de Porto Alegre, em tempo real e por intermédio da EPTC, os dados necessários ao controle e à regulação de políticas públicas de mobilidade urbana, garantida a privacidade e a confidencialidade dos dados pessoais dos usuários.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "As autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros ficam obrigadas a abrir e compartilhar com o Município de Porto Alegre, por intermédio da EPTC, os dados operacionais necessários ao controle e regulação de políticas públicas de mobilidade urbana, garantindo a privacidade e confidencialidade dos dados pessoais dos usuários.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os dados referidos no caput deste artigo devem conter, no mínimo:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico/inc-I",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "origem e destino da viagem;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico/inc-II",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "tempo e distância da viagem;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico/inc-III",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "mapa do trajeto da viagem;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico/inc-IV",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "identificação do condutor que prestou o serviço;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico/inc-V",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "composição do valor pago pelo serviço prestado;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico/inc-VI",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "avaliação, pelo usuário, do serviço prestado; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico/inc-VII",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "outros dados solicitados pelo EPTC, em harmonia com o disposto no caput deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Os dados referidos no caput deste artigo devem conter, de maneira agregada, preservando a privacidade dos usuários, no mínimo:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1/inc-I",
+   "pai": "art-3/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "origem e destino da viagem;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1/inc-II",
+   "pai": "art-3/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "tempo e distância da viagem;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1/inc-III",
+   "pai": "art-3/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "mapa do trajeto da viagem;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1/inc-IV",
+   "pai": "art-3/par-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "identificação do condutor;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1/inc-V",
+   "pai": "art-3/par-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "composição da quantia paga pelo serviço prestado; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-1/inc-VI",
+   "pai": "art-3/par-1",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "outros dados solicitados pela EPTC, em harmonia com o disposto no caput deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-2",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Os dados operacionais referidos neste artigo deverão ser disponibilizados pelas operadoras credenciadas ao órgão gestor, na forma e periodicidade a ser definida no decreto regulamentador da presente Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica instituída a Taxa de Gerenciamento Operacional (TGO), contrapartida obrigatória da pessoa jurídica autorizatária do serviço de transporte motorizado privado e remunerado de passageiros, no valor mensal equivalente a 20 (vinte) Unidades Financeiras Municipais (UFMs) por veículo cadastrado para operar no Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica instituída a Taxa de Gerenciamento Operacional (TGO), fixada em 0,025 (zero vírgula zero vinte e cinco) Unidade Financeira Municipal (UFM) por viagem realizada por intermédio da autorizatária de transporte motorizado privado e remunerado de passageiros, até o limite mensal equivalente a 20 (vinte) UFMs por veículo cadastrado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-1",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Constitui fato gerador da TGO o exercício do poder de polícia administrativo pela EPTC, relacionado à autorização e à fiscalização operacional do serviço de transporte motorizado privado e remunerado de passageiros.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-2",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Considera-se sujeito passivo da TGO a pessoa jurídica autorizatária do serviço de transporte motorizado privado e remunerado de passageiros.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-3",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A TGO deverá ser recolhida mensalmente, em favor da EPTC, na condição de gestora da mobilidade urbana do Município de Porto Alegre e fiscal do serviço de transporte motorizado privado e remunerado de passageiros.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-4",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O prazo para o recolhimento da TGO é até o décimo dia do mês imediatamente posterior ao mês de referência.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4/par-5",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Do montante recolhido com a TGO, 25% (vinte e cinco por cento) será revertido para fundo de educação no trânsito a ser criado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Compete às autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "organizar a atividade e o serviço prestado pelos condutores dos veículos cadastrados;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-II",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "intermediar a conexão entre os usuários e os condutores, mediante adoção de plataforma tecnológica;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "intermediar a conexão entre os usuários e os condutores, mediante adoção de aplicações de internet;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-III",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "cadastrar os veículos e seus condutores para a prestação do serviço, atendidos os requisitos mínimos de segurança, conforto, higiene e qualidade;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-IV",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "fixar o valor correspondente ao serviço prestado ao usuário;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-V",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "disponibilizar meios eletrônicos para o pagamento, pelos usuários, do serviço prestado;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-VI",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "disponibilizar ao usuário, antes do início da viagem, informações sobre a forma de cálculo do valor final do serviço que lhe permitam estimar esse valor;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-VII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "manter canal de atendimento ao usuário e ao Serviço de Proteção e Defesa dos Direitos do Consumidor (Procon/PMPA), com funcionamento 24 (vinte e quatro) horas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-VIII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "possuir sede ou filial no Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-IX",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "exigir, como requisito para a prestação do serviço, que os condutores apresentem, previamente ao seu cadastramento, documentação comprobatória de seu histórico pessoal e profissional e do cumprimento dos requisitos legais para o exercício da função; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-X",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "apresentar, na forma, periodicidade e prazo definidos pela Receita Municipal, a relação de veículos e seus proprietários e de condutores cadastrados para prestar o serviço.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Além do disposto no caput deste artigo, são requisitos mínimos para a prestação do serviço de transporte motorizado privado e remunerado de passageiros:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-I",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "utilização de mapas digitais para acompanhamento do trajeto e do tráfego em tempo real;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-II",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "avaliação da qualidade do serviço, efetuada pelo usuário por meio da plataforma tecnológica;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "avaliação da qualidade do serviço, efetuada pelo usuário por meio de aplicações de internet;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-III",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "disponibilização tecnológica ao usuário da identificação do condutor, por meio de foto, e do veículo, por meio do modelo e do número da placa; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "VETADO.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-IV",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-V",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-VI",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "disponibilização de veículos com condições para transporte de usuário cadeirante; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-VII",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "emissão de recibo eletrônico para o usuário, contendo as seguintes informações:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-VII/ali-a",
+   "pai": "art-5/par-1/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "origem e destino da viagem;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-VII/ali-b",
+   "pai": "art-5/par-1/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "tempo total e distância da viagem;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-VII/ali-c",
+   "pai": "art-5/par-1/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "mapa do trajeto percorrido conforme sistema de georreferenciamento; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-VII/ali-d",
+   "pai": "art-5/par-1/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "composição do valor pago pelo serviço.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-VIII",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "VETADO.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-IX",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "VETADO.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-X",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "VETADO.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-1/inc-XI",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "uso de veículo emplacado no Estado do Rio Grande do Sul.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-2",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A emissão de recibo eletrônico prevista no inc. VII do § 1º deste artigo não elide outras obrigações acessórias de natureza tributária previstas em legislação própria.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/par-3",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Não sendo possível a acomodação de cadeira de rodas no porta-malas, o condutor de veículo cadastrado para prestar o serviço de transporte motorizado privado e remunerado de passageiros deverá acomodá-la no banco traseiro do veículo, ficando proibido de recusar a viagem.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-XI",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "XI –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "VETADO.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-5/inc-XII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "XII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "VETADO.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica facultada às autorizatárias do serviços de transporte motorizado privado e remunerado de passageiros a instalação de sistema de áudio e vídeo nos veículos cadastrados, para gravação durante todo o percurso da viagem, com armazenamento das informações a distância, permitindo a sua disponibilização aos órgãos policiais e fiscalizadores, se necessário.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-1",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O custo da instalação referida no caput deste artigo não poderá ser repassado aos usuários ou ao Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-6/par-2",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Na solicitação do serviço de transporte motorizado privado e remunerado de passageiros, os usuários devem ser informados sobre a existência da instalação referida no caput deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As solicitações e as demandas do serviço de transporte motorizado privado e remunerado de passageiros deverão ser realizadas, exclusivamente, por meio de plataforma tecnológica registrada na EPTC.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "As solicitações e as demandas do serviço de transporte motorizado privado e remunerado de passageiros deverão ser realizadas, exclusivamente, por meio de aplicações de internet registrada na EPTC.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-7/par-unico",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Poderá ser disponibilizado pelas autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros sistema de divisão de viagens entre chamadas de usuários distintos, cujos destinos possuam trajetos compatíveis, dentro da capacidade permitida de ocupação dos veículos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica vedado o embarque de usuários, diretamente em vias públicas, em veículo cadastrado para prestar o serviço de transporte motorizado privado e remunerado de passageiros que não tenha sido requisitado previamente por meio de plataforma tecnológica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "Fica vedado o embarque de usuários, diretamente em vias públicas, em veículo cadastrado para prestar o serviço de transporte motorizado privado e remunerado de passageiros que não tenha sido requisitado previamente por meio de aplicações de internet.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-unico",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Caberá ao Executivo Municipal, mediante análise de conveniência administrativa e de acordo com disponibilidade de espaço no local, definir pontos de embarque e desembarque em locais de grande circulação, tais como órgãos públicos, universidades, shoppings, hospitais, universidades, entre outros.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O pagamento, pelo usuário, do valor correspondente ao serviço de transporte motorizado privado e remunerado de passageiros prestado deverá ser executado exclusivamente por meio dos provedores da plataforma tecnológica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "O pagamento, pelo usuário, da quantia correspondente ao serviço de transporte motorizado privado e remunerado de passageiros prestado deverá ser executado por meio dos provedores de aplicação de internet ou em dinheiro.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-9/par-unico",
+   "pai": "art-9",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros deverão disponibilizar aos usuários um mecanismo claro e transparente de processamento de pagamentos, possibilitando-lhes o acesso posterior a todas as informações referentes à transação econômica e ao serviço prestado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A EPTC efetuará o acompanhamento, o desenvolvimento e a deliberação de normas e políticas públicas estabelecidas desta Lei, competindo-lhe, sem prejuízo de outras obrigações ora não referidas:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-I",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "manter atualizados os parâmetros de exigência para a concessão de autorização do serviço de transporte motorizado privado e remunerado de passageiros e para o credenciamento de veículos e seus condutores;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-II",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "receber representações de casos de abuso de poder de mercado e encaminhá- -las aos órgãos competentes; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-III",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "acompanhar, monitorar, medir e avaliar a eficiência da política regulatória estabelecida nesta Lei, mediante indicadores de desempenho operacionais, financeiros, ambientais e tecnológicos tecnicamente definidos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para o cadastramento nas autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros, deverão ser cumpridos os seguintes requisitos:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Do Cadastramento de Veículos e de Seus Condutores"
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-I",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pelos condutores de veículos:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-I/ali-a",
+   "pai": "art-11/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "possuir Carteira Nacional de Habilitação (CNH) válida, na categoria correspondente ao veículo a ser cadastrado e com a observação de que exerce atividade remunerada (EAR);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-I/ali-b",
+   "pai": "art-11/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "comprovar a aprovação em curso de formação, com conteúdo mínimo a ser definido pelo Município de Porto Alegre;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-I/ali-c",
+   "pai": "art-11/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "apresentar certidões negativas criminais, conforme o disposto no § 1º deste artigo; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-I/ali-d",
+   "pai": "art-11/inc-I",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "assumir compromisso de prestação do serviço única e exclusivamente por meio de plataformas tecnológicas;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-II",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "pelos veículos:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-II/ali-a",
+   "pai": "art-11/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "possuir, comprovadamente, seguro que cubra acidentes de passageiros (APP) e danos a terceiros (RCF-V);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-II/ali-b",
+   "pai": "art-11/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "possuir, no máximo, 6 (seis) anos de utilização, contados da data de seu emplacamento;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-II/ali-c",
+   "pai": "art-11/inc-II",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "estar emplacado no Município de Porto Alegre; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-II/ali-d",
+   "pai": "art-11/inc-II",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "ser aprovado em vistoria realizada pela EPTC.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/par-1",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A função de condutor de veículo cadastrado para prestar o serviço de transporte motorizado privado e remunerado de passageiros fica condicionada à inexistência de condenação ou antecedente por crimes, consumados ou tentados, contra a vida, contra a fé pública, contra a administração, contra a dignidade sexual, hediondos, de roubo, de furto, de estelionato, de receptação, de quadrilha ou bando, de sequestro, de extorsão, de trânsito ou pelos previstos na legislação alusiva à repressão à produção não autorizada ou ao tráfico ilícito de drogas, ao registro, à posse e à comercialização de armas de fogo e munição ou à coibição da violência doméstica e familiar contra a mulher.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/par-2",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É vedado o exercício da função de condutor de veículo cadastrado para prestar o serviço de transporte motorizado privado e remunerado de passageiros àqueles que mantenham vínculo com a EPTC ou que possuam, na Administração Pública Direta ou Indireta de quaisquer dos entes federativos, cargos ou funções incompatíveis com o referido serviço.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/par-3",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É vedado aos condutores e aos proprietários dos veículos cadastrados para prestar o serviço de transporte motorizado privado e remunerado de passageiros, bem como às suas autorizatárias e aos sócios dessas, deter autorização, permissão ou concessão de serviço público de quaisquer dos entes federativos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/par-4",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "É vedada a condução de veículo cadastrado para prestar o serviço de transporte motorizado privado e remunerado de passageiros por pessoa diferente daquela que cadastrá-lo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "É permitida a condução de veículo cadastrado para prestar o serviço de transporte motorizado privado e remunerado de passageiros por 2 (duas) pessoas, além do condutor cadastrado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/par-5",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-11/par-6",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 6º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A inobservância de quaisquer dos requisitos para o cadastramento de condutores e de veículos para prestar o serviço de transporte motorizado privado e remunerado de passageiros acarretará às suas autorizatárias e aos condutores dos veículos a aplicação, isolada ou conjuntamente, das penalidades previstas nesta Lei e especificadas em decreto, conforme o caso, sem prejuízo de outras previstas na Lei Federal nº 9.503, de 23 de setembro de 1997 – Código de Trânsito Brasileiro (CTB) –, e alterações posteriores, e da aplicação de sanções por outros órgãos do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Para fins de validação, o cadastramento de veículos e de seus condutores efetuado pelas autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros na forma do art. 11 desta Lei deverá ser submetido à EPTC.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/par-1",
+   "pai": "art-13",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Por ocasião da validação referida no caput deste artigo, a EPTC avaliará o cumprimento do disposto nos §§ 1º, 2º e 3º do art. 11 desta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-13/par-2",
+   "pai": "art-13",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Constatado, a qualquer tempo, o não preenchimento de requisito por veículo ou condutor para prestar o serviço de transporte motorizado privado e remunerado de passageiros, a sua autorizatária será comunicada para adoção das medidas cabíveis à imediata cessação da prestação do serviço pelo condutor ou veículo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Havendo descredenciamento de condutores de veículos, ficam as autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros obrigadas a indicar o que o motivou.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A identidade visual dos veículos cadastrados para prestar o serviço de transporte motorizado privado e remunerado de passageiros consistirá de elementos discretos de reconhecimento do serviço, nos termos da regulamentação desta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Compete às autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros, no âmbito do cadastramento de veículos e de seus condutores, sem prejuízo de outras obrigações ora não referidas:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/inc-I",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "registrar e gerir as informações prestadas pelos condutores, bem como assegurar a sua veracidade e a conformidade com os requisitos estabelecidos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-17/inc-II",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "credenciar-se no Município de Porto Alegre e com esse compartilhar seus dados, conforme regulamentação expedida nos termos desta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As ações ou as omissões ocorridas no curso da autorização, bem como a prestação do serviço de transporte motorizado privado e remunerado de passageiros em desacordo com a legislação vigente ou os princípios que norteiam os serviços públicos, acarretam a aplicação, isolada ou conjuntamente, das penalidades previstas nesta Lei e especificadas em decreto, sem prejuízo de outras previstas no CTB e na legislação em vigor.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "III",
+     "titulo": "Das Penalidades e das Medidas Administrativas"
+    }
+   ]
+  },
+  {
+   "id": "art-18/par-1",
+   "pai": "art-18",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O poder de polícia administrativa em matéria do serviço de transporte motorizado privado e remunerado de passageiros será exercido pela EPTC, que terá competência para apurar infrações e responsabilidades, bem como impor as penalidades e as medidas administrativas previstas nesta Lei, sem prejuízo da competência originária do prefeito municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18/par-2",
+   "pai": "art-18",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Constatada a infração, será lavrado o respectivo auto de infração, que originará a notificação a ser enviada à autorizatária do serviço de transporte motorizado privado e remunerado de passageiros, com as penalidades e as medidas administrativas previstas na legislação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-18/par-3",
+   "pai": "art-18",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As autuações homologadas serão transformadas em penalidades pelo diretor- -presidente da EPTC, que ordenará a expedição da notificação à autorizatária do serviço de transporte motorizado privado e remunerado de passageiros e, conforme o caso, ao condutor, oportunizando-lhes o exercício da defesa administrativa.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A não observância aos preceitos que regem o serviço de transporte motorizado privado e remunerado de passageiros acarretará a aplicação dos seguintes procedimentos:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "penalidades:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I/ali-a",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "multa;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I/ali-b",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "suspensão da autorização;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I/ali-c",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "revogação da autorização;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I/ali-d",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "descadastramento do condutor; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-I/ali-e",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "descadastramento do veículo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-II",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "medidas administrativas:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-II/ali-a",
+   "pai": "art-19/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "notificação para regularização;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-II/ali-b",
+   "pai": "art-19/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "retenção, recolhimento ou remoção do veículo;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-II/ali-c",
+   "pai": "art-19/inc-II",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "recolhimento e apreensão de documentos ou equipamentos; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/inc-II/ali-d",
+   "pai": "art-19/inc-II",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "outras que se fizerem necessárias para assegurar a observância aos direitos dos usuários ou a correta prestação do serviço.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/par-1",
+   "pai": "art-19",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A revogação da autorização implicará sua devolução compulsória e de eventuais documentos correlatos, impondo à penalizada o afastamento do serviço de transporte motorizado privado e remunerado de passageiros do Município de Porto Alegre pelo prazo de 60 (sessenta) meses.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-19/par-2",
+   "pai": "art-19",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A aplicação da penalidade de descadastramento da função de condutor ensejará o afastamento do serviço de transporte motorizado privado e remunerado de passageiros do Município de Porto Alegre pelo prazo de 60 (sessenta) meses.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A defesa da autuação poderá ser efetuada no prazo de 30 (trinta) dias, contados da data de notificação de autuação por infração de transporte expedida à autorizatária do serviço de transporte motorizado privado e remunerado de passageiros, mediante requerimento escrito dirigido ao diretor-presidente da EPTC.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/par-1",
+   "pai": "art-20",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A notificação ao infrator suspende o curso da prescrição e os efeitos da autuação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/par-2",
+   "pai": "art-20",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O deferimento do pedido ensejará o cancelamento da autuação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/par-3",
+   "pai": "art-20",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esgotado o prazo sem a apresentação da defesa, ou, se apresentada, tenha o processo sido julgado improcedente, será aplicada a penalidade correspondente à autuação, mediante notificação ao penalizado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-20/par-4",
+   "pai": "art-20",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Da aplicação da penalidade, caberá recurso escrito para decisão final do diretor-presidente da EPTC, no prazo de 15 (quinze) dias, contados da data de notificação de imposição de penalidade.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 2,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei Complementar nº 879/2020"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Às infrações punidas com multa, independentemente da incidência de outros procedimentos, serão atribuídos os seguintes valores:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/inc-I",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "500 (quinhentas) UFMs, em caso de infração leve;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/inc-II",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "750 (setecentas e cinquenta) UFMs, em caso de infração média;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "1.000 (um mil) UFMs, em caso de infração média;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/inc-III",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "1000 (um mil) UFMs, em caso de infração grave; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "5.000 (cinco mil) UFMs, em caso de infração grave; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21/inc-IV",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "3000 (três mil) UFMs, em caso de infração gravíssima.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "20.000 (vinte mil) UFMs, em caso de infração gravíssima.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21-A",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "As autorizatárias da categoria Aplicações de Internet do transporte motorizado privado e remunerado de passageiros estão sujeitas às seguintes sanções, de acordo com as condutas às quais correspondem:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-I",
+   "pai": "art-21-A",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "em caso de não observância da identidade visual no veículo cadastrado (infração leve):",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-I/ali-a",
+   "pai": "art-21-A/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "recolhimento do veículo, como medida administrativa; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-I/ali-b",
+   "pai": "art-21-A/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "multa de 500 (quinhentas) UFMs;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-II",
+   "pai": "art-21-A",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "em caso de não observância de outras obrigações fixadas na legislação (infração média), multa de 1.000 (um mil) UFMs;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-III",
+   "pai": "art-21-A",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "em caso de deixar de encaminhar veículo cadastrado à vistoria periódica (infração grave), multa de 5.000 (cinco mil) UFMs;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-IV",
+   "pai": "art-21-A",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "em caso de execução do serviço sem a utilização de aplicações de internet (infração grave):",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-IV/ali-a",
+   "pai": "art-21-A/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "recolhimento do veículo, como medida administrativa; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-IV/ali-b",
+   "pai": "art-21-A/inc-IV",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "multa de 5.000 (cinco mil) UFMs:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-V",
+   "pai": "art-21-A",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "em caso de deixar de remeter ao Município de Porto Alegre ou à EPTC, na forma ou prazo devido, informações ou dados exigidos pela legislação (infração gravíssima), multa de 20.000 (vinte mil) UFMs;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-VI",
+   "pai": "art-21-A",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "em caso de execução do serviço de transporte remunerado mediante a utilização de veículo reprovado ou não submetido à vistoria periódica (infração gravíssima):",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-VI/ali-a",
+   "pai": "art-21-A/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "recolhimento do veículo, como medida administrativa; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-VI/ali-b",
+   "pai": "art-21-A/inc-VI",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "multa de 20.000 (vinte mil) UFMs:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-VII",
+   "pai": "art-21-A",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "em caso de praticar ato não condizente com os princípios que regem a administração pública ou a prestação dos serviços de interesse público (infração gravíssima);",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-VII/ali-a",
+   "pai": "art-21-A/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "recolhimento do veículo, conforme o caso, como medida administrativa; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/inc-VII/ali-b",
+   "pai": "art-21-A/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "multa de 20.000 (vinte mil) UFMs e cassação da autorização.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-21-A/par-unico",
+   "pai": "art-21-A",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Em caso de reincidência no período de 12 (doze) meses da última autuação, as sanções de que tratam os incs. I, III, IV e VI serão aplicadas em dobro e aquela descrita no inc. V será aplicada em triplo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A execução do serviço de transporte motorizado privado e remunerado de passageiros por pessoas físicas, isoladamente, ou por pessoa jurídica que não possua o respectivo termo de autorização emitido pelo Município de Porto Alegre ensejará a autuação do infrator por transporte clandestino, nos termos do art. 22 da Lei nº 8.133, de 12 de janeiro de 1998, e alterações posteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o caput do art. 15 da Lei nº 8.133, de 1998, e alterações posteriores, conforme segue: “Art. 15. Considera-se transporte público coletivo o serviço público essencial de transporte remunerado de passageiros executado dentro do Município de Porto Alegre por ônibus, metrô, embarcações, trem de subúrbio ou outro meio em uso ou que vier a ser utilizado, inclusive por via fluvial ou sobre trilhos, acessível permanentemente a toda a população mediante pagamento individualizado, com itinerários e tarifa fixados pelo Município de Porto Alegre, conforme especificações e requisitos a serem estabelecidos na legislação específica do modal. .........................................................................................................................” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "III",
+     "titulo": "ALTERAÇÕES LEGISLATIVAS"
+    }
+   ]
+  },
+  {
+   "id": "art-24",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 24.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No art. 16 da Lei nº 8.133, de 1998, e alterações posteriores, fica alterado o caput, e fica incluído parágrafo único, conforme segue: “Art. 16. É seletivo direto o transporte de passageiros sentados, conforme especificações e requisitos a serem estabelecidos na legislação específica do modal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-24/par-unico",
+   "pai": "art-24",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A tarifa do transporte seletivo direto será superior à dos modais coletivo por ônibus e seletivo por lotação.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 25.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica incluído art. 16-A na Lei nº 8.133, de 1998, e alterações posteriores, conforme segue: “Art. 16-A. Fica instituída a Taxa de Gerenciamento Operacional (TGO), contrapartida obrigatória das delegatárias do serviço público de transporte seletivo hidroviário, no valor mensal correspondente a 3% (três por cento) do total de sua receita tarifária.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/par-1",
+   "pai": "art-25",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Constitui fato gerador da TGO o exercício do poder de polícia administrativo, relacionado à autorização e à fiscalização operacional do transporte seletivo hidroviário.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/par-2",
+   "pai": "art-25",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Considera-se sujeito passivo da TGO a delegatária do transporte seletivo hidroviário.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/par-3",
+   "pai": "art-25",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O prazo para o recolhimento da TGO é até o décimo dia do mês imediatamente posterior ao mês de referência.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-25/par-4",
+   "pai": "art-25",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A TGO deverá ser recolhida mensalmente, em favor da EPTC, na condição de gestora da mobilidade urbana do Município de Porto Alegre e fiscal do serviço de transporte seletivo hidroviário.”",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-26",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 26.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o caput do art. 17 da Lei nº 8.133, de 1998, conforme segue: “Art. 17. Considera-se seletivo por lotação o transporte de passageiros exclusivamente sentados, executado por veículos de apenas 1 (uma) porta, dotados de poltronas do tipo rodoviário, com capacidade máxima para 25 (vinte e cinco) lugares, a ser definida pelo órgão gestor, prestado mediante pagamento individualizado, com itinerários e tarifa fixados pelo Município de Porto Alegre, conforme especificações e requisitos a serem estabelecidos na legislação específica do modal. .........................................................................................................................” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-27",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 27.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica alterado o caput do art. 18 da Lei nº 8.133, de 1998, e alterações posteriores, conforme segue: “Art. 18. Considera-se serviço de táxi o transporte remunerado de passageiros aberto ao público, executado por veículos de aluguel, para a realização de viagens individualizadas e com contraprestação paga pelos passageiros na forma de tarifa fixada pelo Município de Porto Alegre, conforme especificações e requisitos a serem estabelecidos na legislação específica do modal.” (NR) .........................................................................................................................” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 28.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam incluídos incs. III e IV no caput do art. 18-A da Lei nº 8.133, de 1998, e alterações posteriores, conforme segue: “Art. 18-A. ............................................................................................................... ....................................................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/inc-I",
+   "pai": "art-28",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "transporte motorizado privado; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-28/inc-II",
+   "pai": "art-28",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "compartilhamento de veículos.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-29",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 29.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No art. 19 da Lei nº 8.133, de 1998, e alterações posteriores, fica alterado o caput, e fica incluído parágrafo único, conforme segue: “Art. 19. Considera-se transporte escolar o serviço de utilidade pública executado mediante contrato entre as partes e com período de duração regular, destinado ao transporte de estudantes e professores no deslocamento entre quaisquer estabelecimentos de ensino e para suas residências, outro estabelecimento de ensino ou destino relacionado às atividades do estabelecimento de origem, no qual os pontos de origem e destino se situem dentro da área do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-29/par-unico",
+   "pai": "art-29",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O serviço de utilidade pública de transporte escolar será autorizado pelo Município de Porto Alegre, desde que atendidas as especificações e os requisitos a serem estabelecidos na legislação específica do modal.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-30",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 30.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No art. 20 da Lei nº 8.133, de 1998, e alterações posteriores, fica alterado o caput, e fica incluído parágrafo único, conforme segue: “Art. 20. Considera-se transporte fretado ou por fretamento o serviço de utilidade pública que implique o transporte remunerado de passageiros executado por veículo que apresen-te capacidade superior a 4 (quatro) passageiros sentados, com itinerários pré-estabelecidos e cujos pontos de origem e destino se situem dentro da área do Município de Porto Alegre, mediante preço estabelecido entre as partes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-30/par-unico",
+   "pai": "art-30",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O serviço de utilidade pública de transporte fretado será autorizado pelo Município de Porto Alegre, desde que atendidas as especificações e os requisitos a serem estabelecidos na legislação específica do modal.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-31",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 31.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica incluído art. 20-A na Lei nº 8.133, de 1998, e alterações posteriores, conforme segue: “Art. 20-A. São turísticos os serviços de transporte fretado para fins de passeios, excursões, translados e outras programações turísticas, executados por meios de transporte rodoviário, ferroviário, aquaviário ou aeroviário, podendo ser disponibilizados à população por ente público ou privado.”",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 32.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam alterados o caput e o parágrafo único do art. 21 da Lei nº 8.133, e alterações posteriores, conforme segue: “Art. 21. Considera-se transporte motorizado privado de passageiros o serviço de utilidade pública realizado em viagens individualizadas, por veículos particulares, e solicitados exclusivamente por meio de plataforma tecnológica, com destino e itinerários pré-estabelecidos, preço pactuado entre prestador e usuário e pagamento realizado exclusivamente por meio dos provedores da plataforma tecnológica.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-32/par-unico",
+   "pai": "art-32",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O serviço de utilidade pública referido no caput deste artigo será autorizado pelo Município de Porto Alegre, desde que atendidas as especificações e os requisitos a serem estabelecidos na legislação específica do modal.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 33.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica incluído art. 21-A na Lei nº 8.133, de 1998, e alterações posteriores, conforme segue: “Art. 21-A. Considera-se compartilhamento de veículos o serviço de utilidade pública de transporte efetuado mediante a locação por tempo de disponibilidade e com condução efetuada pelo próprio usuário, com a retirada e a devolução do bem locado em pontos pré- -definidos.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-1",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O serviço de utilidade pública de compartilhamento de veículos será autorizado pelo Município de Porto Alegre, desde que atendidas as especificações e os requisitos a serem estabelecidos na legislação específica do modal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-33/par-2",
+   "pai": "art-33",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Outras formas de compartilhamento de veículos poderão ser autorizadas pelo Município de Porto Alegre, observada a conveniência administrativa, mediante regulamentação da matéria.”",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-34",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 34.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica incluído inc. VII no caput do art. 3º da Lei nº 11.182, de 28 de dezembro de 2011, conforme segue: “Art. 3º ...................................................................................................................... ....................................................................................................................................",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-34/inc-I",
+   "pai": "art-34",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "transporte motorizado privado e remunerado de passageiros: 23 (vinte e três) tarifas do transporte coletivo por ônibus.” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-35",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 35.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros poderão disponibilizar ao Município de Porto Alegre, sem ônus, equipamentos, programas, sistemas, serviços ou qualquer outro mecanismo físico ou informatizado que viabilize, facilite, agilize e dê segurança à fiscalização de suas operações pelos órgãos competentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ],
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "IV",
+     "titulo": "DISPOSIÇÕES FINAIS"
+    }
+   ]
+  },
+  {
+   "id": "art-35/par-unico",
+   "pai": "art-35",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O disposto neste artigo abrange a manutenção de todas as condições necessárias à fiscalização da atividade durante o período de vigência do credenciamento, sendo encargo exclusivo das autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros que voluntariamente optarem por proporcionar esses meios de fiscalização, independentemente dos instrumentos e das competências próprias do Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-36",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 36.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As secretarias, os órgãos e as entidades municipais intervenientes na matéria de que trata esta Lei ficam autorizadas a receber bens e serviços em doação para o cumprimento das finalidades relacionadas às suas respectivas esferas de atuação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-36/par-unico",
+   "pai": "art-36",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Os interessados poderão indicar a destinação específica dos bens e serviços e encaminhar suas propostas diretamente às secretarias, aos órgãos e às entidades municipais destinatárias, aos quais competirá a análise jurídica da proposta e o seu atendimento ao interesse público.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-37",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 37.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Com o objetivo de reduzir custos e utilizar a inovação em favor de melhorias dos processos da mobilidade urbana, a EPTC poderá celebrar convênios com as autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros para a utilização das ferramentas digitais na avaliação da qualidade dos veículos e do serviço.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-37/par-unico",
+   "pai": "art-37",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A EPTC poderá utilizar como base as avaliações já realizadas pelos usuários do Município de Porto Alegre por meio das plataformas tecnológicas.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "A EPTC poderá utilizar como base as avaliações já realizadas pelos usuários do Município de Porto Alegre por meio de aplicações de internet.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.423/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-38",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 38.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O serviço de transporte motorizado privado e remunerado de passageiros sujeitar-se-á ao Imposto Sobre Serviços de Qualquer Natureza (ISS), nos termos da legislação aplicável, sem prejuízo da incidência de outros tributos aplicáveis.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-38/par-unico",
+   "pai": "art-38",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros ficam obrigadas a entregar à Receita Municipal, mensalmente e nos termos de regulamentação, as informações sobre os valores recebidos pela prestação do serviço no Município de Porto Alegre.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-39",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 39.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A autorização para a exploração do serviço de transporte motorizado privado e remunerado de passageiros será válida, inicialmente, pelo prazo de até 18 (dezoito) meses.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-39/par-1",
+   "pai": "art-39",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Transcorridos 12 (doze) meses da vigência desta Lei, o Município de Porto Alegre promoverá a análise e a reavaliação do serviço de transporte motorizado privado e remunerado de passageiros, bem como eventuais adequações na legislação que se fizerem necessárias.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-39/par-2",
+   "pai": "art-39",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A renovação da autorização para a exploração do serviço dependerá da reavaliação referida no § 1º deste artigo e, se aprovada, deverá ser efetuada a cada 12 (doze) meses.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-40",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 40.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Executivo Municipal regulamentará esta Lei no prazo de 90 (noventa) dias, contados da data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-41",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 41.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-42",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 42.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam revogados os seguintes dispositivos da Lei nº 8.133, de 12 de janeiro de 1998:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-42/inc-I",
+   "pai": "art-42",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o inc. V do caput e o § 5º do art. 14;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-42/inc-II",
+   "pai": "art-42",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o parágrafo único do art. 17; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-42/inc-III",
+   "pai": "art-42",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "o parágrafo único do art. 18.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 41680,
+    "rotulo": "Lei municipal nº 12.423, de 14 de junho de 2018"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 8.133, de 12 de janeiro de 1998\",\"tipoAto\":\"LEI\",\"numero\":\"8133\",\"ano\":\"1998\",\"chave\":\"l 8133/1998\"}, versão: l 12162/2016) | operação \"indeterminado\" não gera alteração na árvore desta lei | endereço-pai \"inc. i do § 4º do art. 11\" não encontrado — não é possível inserir \"al. d) do inc. i do § 4º do art. 11\" | endereço-pai \"inc. ii do § 4º do art. 11\" não encontrado — não é possível inserir \"al. b) do inc. ii do § 4º do art. 11\" | endereço-pai \"inc. ii do § 4º do art. 11\" não encontrado — não é possível inserir \"al. d) do inc. ii do § 4º do art. 11\"",
+   "enderecos": [
+    "art-21",
+    "art-11/par-4/inc-I/ali-d",
+    "art-11/par-4/inc-II/ali-b",
+    "art-11/par-4/inc-II/ali-d"
+   ]
+  },
+  {
+   "alteradora": {
+    "idSapl": 42518,
+    "rotulo": "Lei Complementar municipal nº 879, de 27 de março de 2020"
+   },
+   "motivo": "aplicada_em_parte",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 12.420, de 8 de julho de 2018\",\"tipoAto\":\"LEI\",\"numero\":\"12420\",\"ano\":\"2018\",\"chave\":\"l 12420/2018\"}, versão: l 12162/2016) | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch | comando de revogação aponta pra lei-alvo diferente da versão recebendo o patch",
+   "enderecos": [
+    "art-29",
+    "art-57",
+    "art-58",
+    "art-59",
+    "art-60",
+    "art-61",
+    "art-64",
+    "art-65"
+   ]
+  }
+ ],
+ "aConferir": [
+  {
+   "id": "art-1",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-1/par-unico",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-2",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-2/par-unico",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-unico",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-unico/inc-I",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-unico/inc-II",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-unico/inc-III",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-unico/inc-IV",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-unico/inc-V",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-unico/inc-VI",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-unico/inc-VII",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-4",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-4/par-1",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-4/par-2",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-4/par-3",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-4/par-4",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-4/par-5",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-5/inc-II",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-5/par-1/inc-I",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-5/par-1/inc-II",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-5/par-1/inc-III",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-7",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-7/par-unico",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-8",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-9",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-9/par-unico",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-11/inc-II/ali-c",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-11/par-4",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-13",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-13/par-1",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-13/par-2",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21/inc-I",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21/inc-II",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21/inc-III",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21/inc-IV",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-29",
+   "desde": "2020-03-27"
+  },
+  {
+   "id": "art-29/par-unico",
+   "desde": "2020-03-27"
+  },
+  {
+   "id": "art-37/par-unico",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-1",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-1/inc-I",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-1/inc-II",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-1/inc-III",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-1/inc-IV",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-1/inc-V",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-1/inc-VI",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-3/par-2",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-5/par-1/inc-VIII",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-5/par-1/inc-IX",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-5/par-1/inc-X",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-5/par-1/inc-XI",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-5/inc-XI",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-5/inc-XII",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-8/par-unico",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-I",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-I/ali-a",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-I/ali-b",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-II",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-III",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-IV",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-IV/ali-a",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-IV/ali-b",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-V",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-VI",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-VI/ali-a",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-VI/ali-b",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-VII",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-VII/ali-a",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/inc-VII/ali-b",
+   "desde": "2018-06-14"
+  },
+  {
+   "id": "art-21-A/par-unico",
+   "desde": "2018-06-14"
+  }
+ ],
+ "aplicadasARevisar": [
+  {
+   "idSapl": 41680,
+   "rotulo": "Lei municipal nº 12.423, de 14 de junho de 2018",
+   "data": "2018-06-14"
+  }
+ ]
+}

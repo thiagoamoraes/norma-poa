@@ -2,8 +2,8 @@
  "idSapl": 50214,
  "rotulo": "Lei municipal nº 14.211, de 11 de abril de 2025",
  "sha256Origem": "97c8372e6455fc30ea788ea6d31e128cfadc79b23e604c73d29a4acde22b5a4a",
- "estruturadoEm": "2026-11-23T09:26:29.479Z",
- "versaoEstruturador": 30,
+ "estruturadoEm": "2026-11-28T06:29:48.798Z",
+ "versaoEstruturador": 32,
  "cabecalho": {
   "tipoAto": "LEI",
   "numero": "14211",
@@ -129,6 +129,7 @@
  "verificacao": {
   "situacao": "revisar",
   "motivos": [
+   "rotulo_embutido_no_texto",
    "rotulo_nao_confere_com_a_origem"
   ],
   "avisos": [

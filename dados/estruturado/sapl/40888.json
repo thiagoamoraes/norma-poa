@@ -1,0 +1,51 @@
+{
+ "idSapl": 40888,
+ "rotulo": "Lei municipal nº 12.145, de 17 de outubro de 2016",
+ "sha256Origem": "7311b420579f767b50169281ae1a2a106d3b40387c867311aea0562286a6a724",
+ "estruturadoEm": "2026-11-28T06:29:55.052Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12145",
+  "ano": "2016",
+  "data": "2016-10-17",
+  "epigrafe": "LEI Nº 12.145, DE 17 DE OUTUBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Concede o título de Cidadã de Porto Alegre à professora Aracy Maria da Silva Lêdo. PREFEITO MUNICIPAL DE PORTO ALEGRE",
+ "preambulo": "Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 17 de outubro de 2016.\nJosé Fortunati,\nPrefeito.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica concedido o título de Cidadã de Porto Alegre à professora Aracy Maria da Silva Lêdo, com base na Lei nº 9.659, de 22 de dezembro de 2004."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.929,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

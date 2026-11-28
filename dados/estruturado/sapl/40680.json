@@ -1,0 +1,77 @@
+{
+ "idSapl": 40680,
+ "rotulo": "Lei municipal nº 12.066, de 30 de maio de 2016",
+ "sha256Origem": "bc377988fe7f1204c577191af3350caf44930ca3d2ad6cf6c0f6c8a50e81d020",
+ "estruturadoEm": "2026-11-28T06:29:55.339Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12066",
+  "ano": "2016",
+  "data": "2016-05-30",
+  "epigrafe": "LEI Nº 12.066, DE 30 DE MAIO DE 2016",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Brechocão no Anexo I da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, no segundo ou no terceiro domingo de cada mês.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de maio de 2016.\nJosé Fortunati,\nPrefeito.\nMaurício Silveira de Oliveira,\nSecretário Especial dos Direitos Animais.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Brechocão no Anexo I da Lei nº 10.903, de 31 de maio de 2010, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica o Executivo Municipal, por meio da Secretaria Especial dos Direitos Animais (SEDA), responsável pela elaboração do regulamento, pela coordenação e pela realização do evento Brechocão."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nPERÍODO            EVENTO       DESCRIÇÃO E LOCAL DO EVENTO\nSegundo ou terceiro    BRECHOCÃO   O Brechocão é um evento destinado a\ndomingo de cada mês.               protetores cadastrados na Secretaria Especial\ndos Direitos Animais (SEDA), organizações\nnão governamentais, entidades e associações\ndo Município de Porto Alegre, com\nreconhecida atuação na causa animal, que\nterão um espaço para comercializar produtos\nusados e produtos institucionais, cuja renda\nauferida será revertida, em sua totalidade,\npara custear tratamento, albergagem e\nalimentação de animais de rua.\nLocal: Parque Farroupilha – Redenção –, no\npasseio da Av. Osvaldo Aranha, na área\ncompreendida entre o portão do parque de\ndiversões e o Auditório Araújo Vianna."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.972,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 16,
+     "caracteres": 721,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

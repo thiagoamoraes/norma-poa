@@ -1,0 +1,1092 @@
+{
+ "idSapl": 40950,
+ "rotulo": "Lei municipal nº 12.162, de 09 de dezembro de 2016",
+ "sha256Origem": "542789dd8a9ab4297ada6b4f070c4476581aeb18527ea80e80afe087d0ffb117",
+ "estruturadoEm": "2026-11-28T06:29:55.007Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12162",
+  "ano": "2016",
+  "data": "2016-12-09",
+  "epigrafe": "LEI Nº 12.162 DE 9 DE DEZEMBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Dispõe sobre o serviço de transporte motorizado privado e remunerado de passageiros; altera o caput dos arts. 15, 16, 17, 18, 19, 20 e 21 e o parágrafo único do art. 21, inclui parágrafo único nos arts. 16, 19 e 20, arts. 16-A, 20-A e 21-A e incs. III e V no caput do art. 18-A e revoga o inc. V do caput e o § 5º do art. 14, o parágrafo único dos arts. 17 e 18, todos na Lei nº 8.133, de 12 de janeiro de 1998, e alterações posteriores; e inclui inc. VII no caput do art. 3º da Lei nº 11.182, de 28 de dezembro de 2011.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 9 de dezembro de 2016.\nJosé Fortunati,\nPrefeito.\nVanderlei Luis Cappellari,\nSecretário Municipal dos Transportes.\nCezar Busatto,\nSecretario Municipal de Governança Local.\nEroni Izaias Numer,\nSecretário Municipal da Fazenda.\nCristiane da Costa Nery,\nProcuradora-Geral do Município.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam estabelecidas, nos termos desta Lei, normas para a prestação do serviço de transporte motorizado privado e remunerado de passageiros no Município de Porto Alegre.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "I",
+     "titulo": "DISPOSIÇÕES PRELIMINARES"
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Considera-se serviço de transporte motorizado privado e remunerado de passageiros aquele realizado em viagem individualizada, executado por automóvel particular com capacidade para até 6 (seis) pessoas, exclusive o condutor, e solicitado exclusivamente por meio de plataforma tecnológica."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "A exploração do serviço de transporte motorizado privado e remunerado de passageiros dependerá de autorização do Município de Porto Alegre, concedida por intermédio da Empresa Pública de Transporte e Circulação (EPTC) a pessoas jurídicas operadoras de plataforma tecnológica, conforme critérios de credenciamento fixados nesta Lei e em seu regulamento.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "II",
+     "titulo": "DISPOSIÇÕES GERAIS"
+    },
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Da Autorização e da Operação"
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A autorização do serviço de transporte motorizado privado e remunerado de passageiros é restrita às operadoras de tecnologia responsáveis pela sua disponibilização."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros ficam obrigadas a abrir e compartilhar com o Município de Porto Alegre, em tempo real e por intermédio da EPTC, os dados necessários ao controle e à regulação de políticas públicas de mobilidade urbana, garantida a privacidade e a confidencialidade dos dados pessoais dos usuários."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os dados referidos no caput deste artigo devem conter, no mínimo:"
+  },
+  {
+   "id": "art-3/par-unico/inc-I",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "origem e destino da viagem;"
+  },
+  {
+   "id": "art-3/par-unico/inc-II",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "tempo e distância da viagem;"
+  },
+  {
+   "id": "art-3/par-unico/inc-III",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "mapa do trajeto da viagem;"
+  },
+  {
+   "id": "art-3/par-unico/inc-IV",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "identificação do condutor que prestou o serviço;"
+  },
+  {
+   "id": "art-3/par-unico/inc-V",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "composição do valor pago pelo serviço prestado;"
+  },
+  {
+   "id": "art-3/par-unico/inc-VI",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "avaliação, pelo usuário, do serviço prestado; e"
+  },
+  {
+   "id": "art-3/par-unico/inc-VII",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "outros dados solicitados pelo EPTC, em harmonia com o disposto no caput deste artigo."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica instituída a Taxa de Gerenciamento Operacional (TGO), contrapartida obrigatória da pessoa jurídica autorizatária do serviço de transporte motorizado privado e remunerado de passageiros, no valor mensal equivalente a 20 (vinte) Unidades Financeiras Municipais (UFMs) por veículo cadastrado para operar no Município de Porto Alegre."
+  },
+  {
+   "id": "art-4/par-1",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Constitui fato gerador da TGO o exercício do poder de polícia administrativo pela EPTC, relacionado à autorização e à fiscalização operacional do serviço de transporte motorizado privado e remunerado de passageiros."
+  },
+  {
+   "id": "art-4/par-2",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Considera-se sujeito passivo da TGO a pessoa jurídica autorizatária do serviço de transporte motorizado privado e remunerado de passageiros."
+  },
+  {
+   "id": "art-4/par-3",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "A TGO deverá ser recolhida mensalmente, em favor da EPTC, na condição de gestora da mobilidade urbana do Município de Porto Alegre e fiscal do serviço de transporte motorizado privado e remunerado de passageiros."
+  },
+  {
+   "id": "art-4/par-4",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "O prazo para o recolhimento da TGO é até o décimo dia do mês imediatamente posterior ao mês de referência."
+  },
+  {
+   "id": "art-4/par-5",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "texto": "Do montante recolhido com a TGO, 25% (vinte e cinco por cento) será revertido para fundo de educação no trânsito a ser criado."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Compete às autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros:"
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "organizar a atividade e o serviço prestado pelos condutores dos veículos cadastrados;"
+  },
+  {
+   "id": "art-5/inc-II",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "intermediar a conexão entre os usuários e os condutores, mediante adoção de plataforma tecnológica;"
+  },
+  {
+   "id": "art-5/inc-III",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "cadastrar os veículos e seus condutores para a prestação do serviço, atendidos os requisitos mínimos de segurança, conforto, higiene e qualidade;"
+  },
+  {
+   "id": "art-5/inc-IV",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "fixar o valor correspondente ao serviço prestado ao usuário;"
+  },
+  {
+   "id": "art-5/inc-V",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "disponibilizar meios eletrônicos para o pagamento, pelos usuários, do serviço prestado;"
+  },
+  {
+   "id": "art-5/inc-VI",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "disponibilizar ao usuário, antes do início da viagem, informações sobre a forma de cálculo do valor final do serviço que lhe permitam estimar esse valor;"
+  },
+  {
+   "id": "art-5/inc-VII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "manter canal de atendimento ao usuário e ao Serviço de Proteção e Defesa dos Direitos do Consumidor (Procon/PMPA), com funcionamento 24 (vinte e quatro) horas;"
+  },
+  {
+   "id": "art-5/inc-VIII",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VIII –",
+   "texto": "possuir sede ou filial no Município de Porto Alegre;"
+  },
+  {
+   "id": "art-5/inc-IX",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IX –",
+   "texto": "exigir, como requisito para a prestação do serviço, que os condutores apresentem, previamente ao seu cadastramento, documentação comprobatória de seu histórico pessoal e profissional e do cumprimento dos requisitos legais para o exercício da função; e"
+  },
+  {
+   "id": "art-5/inc-X",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "X –",
+   "texto": "apresentar, na forma, periodicidade e prazo definidos pela Receita Municipal, a relação de veículos e seus proprietários e de condutores cadastrados para prestar o serviço."
+  },
+  {
+   "id": "art-5/par-1",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Além do disposto no caput deste artigo, são requisitos mínimos para a prestação do serviço de transporte motorizado privado e remunerado de passageiros:"
+  },
+  {
+   "id": "art-5/par-1/inc-I",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "utilização de mapas digitais para acompanhamento do trajeto e do tráfego em tempo real;"
+  },
+  {
+   "id": "art-5/par-1/inc-II",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "avaliação da qualidade do serviço, efetuada pelo usuário por meio da plataforma tecnológica;"
+  },
+  {
+   "id": "art-5/par-1/inc-III",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "disponibilização tecnológica ao usuário da identificação do condutor, por meio de foto, e do veículo, por meio do modelo e do número da placa; e"
+  },
+  {
+   "id": "art-5/par-1/inc-IV",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-5/par-1/inc-V",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-5/par-1/inc-VI",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "disponibilização de veículos com condições para transporte de usuário cadeirante; e"
+  },
+  {
+   "id": "art-5/par-1/inc-VII",
+   "pai": "art-5/par-1",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "emissão de recibo eletrônico para o usuário, contendo as seguintes informações:"
+  },
+  {
+   "id": "art-5/par-1/inc-VII/ali-a",
+   "pai": "art-5/par-1/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "origem e destino da viagem;"
+  },
+  {
+   "id": "art-5/par-1/inc-VII/ali-b",
+   "pai": "art-5/par-1/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "tempo total e distância da viagem;"
+  },
+  {
+   "id": "art-5/par-1/inc-VII/ali-c",
+   "pai": "art-5/par-1/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "mapa do trajeto percorrido conforme sistema de georreferenciamento; e"
+  },
+  {
+   "id": "art-5/par-1/inc-VII/ali-d",
+   "pai": "art-5/par-1/inc-VII",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "texto": "composição do valor pago pelo serviço."
+  },
+  {
+   "id": "art-5/par-2",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A emissão de recibo eletrônico prevista no inc. VII do § 1º deste artigo não elide outras obrigações acessórias de natureza tributária previstas em legislação própria."
+  },
+  {
+   "id": "art-5/par-3",
+   "pai": "art-5",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Não sendo possível a acomodação de cadeira de rodas no porta-malas, o condutor de veículo cadastrado para prestar o serviço de transporte motorizado privado e remunerado de passageiros deverá acomodá-la no banco traseiro do veículo, ficando proibido de recusar a viagem."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "Fica facultada às autorizatárias do serviços de transporte motorizado privado e remunerado de passageiros a instalação de sistema de áudio e vídeo nos veículos cadastrados, para gravação durante todo o percurso da viagem, com armazenamento das informações a distância, permitindo a sua disponibilização aos órgãos policiais e fiscalizadores, se necessário."
+  },
+  {
+   "id": "art-6/par-1",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O custo da instalação referida no caput deste artigo não poderá ser repassado aos usuários ou ao Município de Porto Alegre."
+  },
+  {
+   "id": "art-6/par-2",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Na solicitação do serviço de transporte motorizado privado e remunerado de passageiros, os usuários devem ser informados sobre a existência da instalação referida no caput deste artigo."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "As solicitações e as demandas do serviço de transporte motorizado privado e remunerado de passageiros deverão ser realizadas, exclusivamente, por meio de plataforma tecnológica registrada na EPTC."
+  },
+  {
+   "id": "art-7/par-unico",
+   "pai": "art-7",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Poderá ser disponibilizado pelas autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros sistema de divisão de viagens entre chamadas de usuários distintos, cujos destinos possuam trajetos compatíveis, dentro da capacidade permitida de ocupação dos veículos."
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "Fica vedado o embarque de usuários, diretamente em vias públicas, em veículo cadastrado para prestar o serviço de transporte motorizado privado e remunerado de passageiros que não tenha sido requisitado previamente por meio de plataforma tecnológica."
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "texto": "O pagamento, pelo usuário, do valor correspondente ao serviço de transporte motorizado privado e remunerado de passageiros prestado deverá ser executado exclusivamente por meio dos provedores da plataforma tecnológica."
+  },
+  {
+   "id": "art-9/par-unico",
+   "pai": "art-9",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros deverão disponibilizar aos usuários um mecanismo claro e transparente de processamento de pagamentos, possibilitando-lhes o acesso posterior a todas as informações referentes à transação econômica e ao serviço prestado."
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "texto": "A EPTC efetuará o acompanhamento, o desenvolvimento e a deliberação de normas e políticas públicas estabelecidas desta Lei, competindo-lhe, sem prejuízo de outras obrigações ora não referidas:"
+  },
+  {
+   "id": "art-10/inc-I",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "manter atualizados os parâmetros de exigência para a concessão de autorização do serviço de transporte motorizado privado e remunerado de passageiros e para o credenciamento de veículos e seus condutores;"
+  },
+  {
+   "id": "art-10/inc-II",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "receber representações de casos de abuso de poder de mercado e encaminhá- -las aos órgãos competentes; e"
+  },
+  {
+   "id": "art-10/inc-III",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "acompanhar, monitorar, medir e avaliar a eficiência da política regulatória estabelecida nesta Lei, mediante indicadores de desempenho operacionais, financeiros, ambientais e tecnológicos tecnicamente definidos."
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "texto": "Para o cadastramento nas autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros, deverão ser cumpridos os seguintes requisitos:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Do Cadastramento de Veículos e de Seus Condutores"
+    }
+   ]
+  },
+  {
+   "id": "art-11/inc-I",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "pelos condutores de veículos:"
+  },
+  {
+   "id": "art-11/inc-I/ali-a",
+   "pai": "art-11/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "possuir Carteira Nacional de Habilitação (CNH) válida, na categoria correspondente ao veículo a ser cadastrado e com a observação de que exerce atividade remunerada (EAR);"
+  },
+  {
+   "id": "art-11/inc-I/ali-b",
+   "pai": "art-11/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "comprovar a aprovação em curso de formação, com conteúdo mínimo a ser definido pelo Município de Porto Alegre;"
+  },
+  {
+   "id": "art-11/inc-I/ali-c",
+   "pai": "art-11/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "apresentar certidões negativas criminais, conforme o disposto no § 1º deste artigo; e"
+  },
+  {
+   "id": "art-11/inc-I/ali-d",
+   "pai": "art-11/inc-I",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "texto": "assumir compromisso de prestação do serviço única e exclusivamente por meio de plataformas tecnológicas;"
+  },
+  {
+   "id": "art-11/inc-II",
+   "pai": "art-11",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "pelos veículos:"
+  },
+  {
+   "id": "art-11/inc-II/ali-a",
+   "pai": "art-11/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "possuir, comprovadamente, seguro que cubra acidentes de passageiros (APP) e danos a terceiros (RCF-V);"
+  },
+  {
+   "id": "art-11/inc-II/ali-b",
+   "pai": "art-11/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "possuir, no máximo, 6 (seis) anos de utilização, contados da data de seu emplacamento;"
+  },
+  {
+   "id": "art-11/inc-II/ali-c",
+   "pai": "art-11/inc-II",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "estar emplacado no Município de Porto Alegre; e"
+  },
+  {
+   "id": "art-11/inc-II/ali-d",
+   "pai": "art-11/inc-II",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "texto": "ser aprovado em vistoria realizada pela EPTC."
+  },
+  {
+   "id": "art-11/par-1",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A função de condutor de veículo cadastrado para prestar o serviço de transporte motorizado privado e remunerado de passageiros fica condicionada à inexistência de condenação ou antecedente por crimes, consumados ou tentados, contra a vida, contra a fé pública, contra a administração, contra a dignidade sexual, hediondos, de roubo, de furto, de estelionato, de receptação, de quadrilha ou bando, de sequestro, de extorsão, de trânsito ou pelos previstos na legislação alusiva à repressão à produção não autorizada ou ao tráfico ilícito de drogas, ao registro, à posse e à comercialização de armas de fogo e munição ou à coibição da violência doméstica e familiar contra a mulher."
+  },
+  {
+   "id": "art-11/par-2",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "É vedado o exercício da função de condutor de veículo cadastrado para prestar o serviço de transporte motorizado privado e remunerado de passageiros àqueles que mantenham vínculo com a EPTC ou que possuam, na Administração Pública Direta ou Indireta de quaisquer dos entes federativos, cargos ou funções incompatíveis com o referido serviço."
+  },
+  {
+   "id": "art-11/par-3",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "É vedado aos condutores e aos proprietários dos veículos cadastrados para prestar o serviço de transporte motorizado privado e remunerado de passageiros, bem como às suas autorizatárias e aos sócios dessas, deter autorização, permissão ou concessão de serviço público de quaisquer dos entes federativos."
+  },
+  {
+   "id": "art-11/par-4",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "É vedada a condução de veículo cadastrado para prestar o serviço de transporte motorizado privado e remunerado de passageiros por pessoa diferente daquela que cadastrá-lo."
+  },
+  {
+   "id": "art-11/par-5",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-11/par-6",
+   "pai": "art-11",
+   "tipo": "paragrafo",
+   "rotulo": "§ 6º",
+   "texto": "A inobservância de quaisquer dos requisitos para o cadastramento de condutores e de veículos para prestar o serviço de transporte motorizado privado e remunerado de passageiros acarretará às suas autorizatárias e aos condutores dos veículos a aplicação, isolada ou conjuntamente, das penalidades previstas nesta Lei e especificadas em decreto, conforme o caso, sem prejuízo de outras previstas na Lei Federal nº 9.503, de 23 de setembro de 1997 – Código de Trânsito Brasileiro (CTB) –, e alterações posteriores, e da aplicação de sanções por outros órgãos do Município de Porto Alegre."
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "texto": "Para fins de validação, o cadastramento de veículos e de seus condutores efetuado pelas autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros na forma do art. 11 desta Lei deverá ser submetido à EPTC."
+  },
+  {
+   "id": "art-13/par-1",
+   "pai": "art-13",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Por ocasião da validação referida no caput deste artigo, a EPTC avaliará o cumprimento do disposto nos §§ 1º, 2º e 3º do art. 11 desta Lei."
+  },
+  {
+   "id": "art-13/par-2",
+   "pai": "art-13",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Constatado, a qualquer tempo, o não preenchimento de requisito por veículo ou condutor para prestar o serviço de transporte motorizado privado e remunerado de passageiros, a sua autorizatária será comunicada para adoção das medidas cabíveis à imediata cessação da prestação do serviço pelo condutor ou veículo."
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "texto": "Havendo descredenciamento de condutores de veículos, ficam as autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros obrigadas a indicar o que o motivou."
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "texto": "A identidade visual dos veículos cadastrados para prestar o serviço de transporte motorizado privado e remunerado de passageiros consistirá de elementos discretos de reconhecimento do serviço, nos termos da regulamentação desta Lei."
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "texto": "Compete às autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros, no âmbito do cadastramento de veículos e de seus condutores, sem prejuízo de outras obrigações ora não referidas:"
+  },
+  {
+   "id": "art-17/inc-I",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "registrar e gerir as informações prestadas pelos condutores, bem como assegurar a sua veracidade e a conformidade com os requisitos estabelecidos; e"
+  },
+  {
+   "id": "art-17/inc-II",
+   "pai": "art-17",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "credenciar-se no Município de Porto Alegre e com esse compartilhar seus dados, conforme regulamentação expedida nos termos desta Lei."
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "texto": "As ações ou as omissões ocorridas no curso da autorização, bem como a prestação do serviço de transporte motorizado privado e remunerado de passageiros em desacordo com a legislação vigente ou os princípios que norteiam os serviços públicos, acarretam a aplicação, isolada ou conjuntamente, das penalidades previstas nesta Lei e especificadas em decreto, sem prejuízo de outras previstas no CTB e na legislação em vigor.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "III",
+     "titulo": "Das Penalidades e das Medidas Administrativas"
+    }
+   ]
+  },
+  {
+   "id": "art-18/par-1",
+   "pai": "art-18",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O poder de polícia administrativa em matéria do serviço de transporte motorizado privado e remunerado de passageiros será exercido pela EPTC, que terá competência para apurar infrações e responsabilidades, bem como impor as penalidades e as medidas administrativas previstas nesta Lei, sem prejuízo da competência originária do prefeito municipal."
+  },
+  {
+   "id": "art-18/par-2",
+   "pai": "art-18",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Constatada a infração, será lavrado o respectivo auto de infração, que originará a notificação a ser enviada à autorizatária do serviço de transporte motorizado privado e remunerado de passageiros, com as penalidades e as medidas administrativas previstas na legislação."
+  },
+  {
+   "id": "art-18/par-3",
+   "pai": "art-18",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "As autuações homologadas serão transformadas em penalidades pelo diretor- -presidente da EPTC, que ordenará a expedição da notificação à autorizatária do serviço de transporte motorizado privado e remunerado de passageiros e, conforme o caso, ao condutor, oportunizando-lhes o exercício da defesa administrativa."
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "texto": "A não observância aos preceitos que regem o serviço de transporte motorizado privado e remunerado de passageiros acarretará a aplicação dos seguintes procedimentos:"
+  },
+  {
+   "id": "art-19/inc-I",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "penalidades:"
+  },
+  {
+   "id": "art-19/inc-I/ali-a",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "multa;"
+  },
+  {
+   "id": "art-19/inc-I/ali-b",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "suspensão da autorização;"
+  },
+  {
+   "id": "art-19/inc-I/ali-c",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "revogação da autorização;"
+  },
+  {
+   "id": "art-19/inc-I/ali-d",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "texto": "descadastramento do condutor; e"
+  },
+  {
+   "id": "art-19/inc-I/ali-e",
+   "pai": "art-19/inc-I",
+   "tipo": "alinea",
+   "rotulo": "e)",
+   "texto": "descadastramento do veículo;"
+  },
+  {
+   "id": "art-19/inc-II",
+   "pai": "art-19",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "medidas administrativas:"
+  },
+  {
+   "id": "art-19/inc-II/ali-a",
+   "pai": "art-19/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "notificação para regularização;"
+  },
+  {
+   "id": "art-19/inc-II/ali-b",
+   "pai": "art-19/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "retenção, recolhimento ou remoção do veículo;"
+  },
+  {
+   "id": "art-19/inc-II/ali-c",
+   "pai": "art-19/inc-II",
+   "tipo": "alinea",
+   "rotulo": "c)",
+   "texto": "recolhimento e apreensão de documentos ou equipamentos; e"
+  },
+  {
+   "id": "art-19/inc-II/ali-d",
+   "pai": "art-19/inc-II",
+   "tipo": "alinea",
+   "rotulo": "d)",
+   "texto": "outras que se fizerem necessárias para assegurar a observância aos direitos dos usuários ou a correta prestação do serviço."
+  },
+  {
+   "id": "art-19/par-1",
+   "pai": "art-19",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A revogação da autorização implicará sua devolução compulsória e de eventuais documentos correlatos, impondo à penalizada o afastamento do serviço de transporte motorizado privado e remunerado de passageiros do Município de Porto Alegre pelo prazo de 60 (sessenta) meses."
+  },
+  {
+   "id": "art-19/par-2",
+   "pai": "art-19",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A aplicação da penalidade de descadastramento da função de condutor ensejará o afastamento do serviço de transporte motorizado privado e remunerado de passageiros do Município de Porto Alegre pelo prazo de 60 (sessenta) meses."
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "texto": "A defesa da autuação poderá ser efetuada no prazo de 30 (trinta) dias, contados da data de notificação de autuação por infração de transporte expedida à autorizatária do serviço de transporte motorizado privado e remunerado de passageiros, mediante requerimento escrito dirigido ao diretor-presidente da EPTC."
+  },
+  {
+   "id": "art-20/par-1",
+   "pai": "art-20",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "A notificação ao infrator suspende o curso da prescrição e os efeitos da autuação."
+  },
+  {
+   "id": "art-20/par-2",
+   "pai": "art-20",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O deferimento do pedido ensejará o cancelamento da autuação."
+  },
+  {
+   "id": "art-20/par-3",
+   "pai": "art-20",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Esgotado o prazo sem a apresentação da defesa, ou, se apresentada, tenha o processo sido julgado improcedente, será aplicada a penalidade correspondente à autuação, mediante notificação ao penalizado."
+  },
+  {
+   "id": "art-20/par-4",
+   "pai": "art-20",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "Da aplicação da penalidade, caberá recurso escrito para decisão final do diretor-presidente da EPTC, no prazo de 15 (quinze) dias, contados da data de notificação de imposição de penalidade."
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "texto": "Às infrações punidas com multa, independentemente da incidência de outros procedimentos, serão atribuídos os seguintes valores:"
+  },
+  {
+   "id": "art-21/inc-I",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "500 (quinhentas) UFMs, em caso de infração leve;"
+  },
+  {
+   "id": "art-21/inc-II",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "750 (setecentas e cinquenta) UFMs, em caso de infração média;"
+  },
+  {
+   "id": "art-21/inc-III",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "1000 (um mil) UFMs, em caso de infração grave; e"
+  },
+  {
+   "id": "art-21/inc-IV",
+   "pai": "art-21",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "3000 (três mil) UFMs, em caso de infração gravíssima."
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "texto": "A execução do serviço de transporte motorizado privado e remunerado de passageiros por pessoas físicas, isoladamente, ou por pessoa jurídica que não possua o respectivo termo de autorização emitido pelo Município de Porto Alegre ensejará a autuação do infrator por transporte clandestino, nos termos do art. 22 da Lei nº 8.133, de 12 de janeiro de 1998, e alterações posteriores."
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "texto": "Fica alterado o caput do art. 15 da Lei nº 8.133, de 1998, e alterações posteriores, conforme segue:",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "III",
+     "titulo": "ALTERAÇÕES LEGISLATIVAS"
+    }
+   ],
+   "blocoDeAlteracao": "“Art. 15. Considera-se transporte público coletivo o serviço público essencial de\ntransporte remunerado de passageiros executado dentro do Município de Porto Alegre por ônibus, metrô, embarcações, trem de subúrbio ou outro meio em uso ou que vier a ser utilizado, inclusive por via fluvial ou sobre trilhos, acessível permanentemente a toda a população mediante\npagamento individualizado, com itinerários e tarifa fixados pelo Município de Porto Alegre, conforme especificações e requisitos a serem estabelecidos na legislação específica do modal.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-24",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 24.",
+   "texto": "No art. 16 da Lei nº 8.133, de 1998, e alterações posteriores, fica alterado o caput, e fica incluído parágrafo único, conforme segue:",
+   "blocoDeAlteracao": "“Art. 16. É seletivo direto o transporte de passageiros sentados, conforme especificações e requisitos a serem estabelecidos na legislação específica do modal.\nParágrafo único. A tarifa do transporte seletivo direto será superior à dos modais\ncoletivo por ônibus e seletivo por lotação.” (NR)"
+  },
+  {
+   "id": "art-25",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 25.",
+   "texto": "Fica incluído art. 16-A na Lei nº 8.133, de 1998, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 16-A. Fica instituída a Taxa de Gerenciamento Operacional (TGO), contrapartida obrigatória das delegatárias do serviço público de transporte seletivo hidroviário, no valor\nmensal correspondente a 3% (três por cento) do total de sua receita tarifária.\n§ 1º Constitui fato gerador da TGO o exercício do poder de polícia administrativo, relacionado à autorização e à fiscalização operacional do transporte seletivo hidroviário.\n§ 2º Considera-se sujeito passivo da TGO a delegatária do transporte seletivo hidroviário.\n§ 3º O prazo para o recolhimento da TGO é até o décimo dia do mês imediatamente posterior ao mês de referência.\n§ 4º A TGO deverá ser recolhida mensalmente, em favor da EPTC, na condição\nde gestora da mobilidade urbana do Município de Porto Alegre e fiscal do serviço de transporte\nseletivo hidroviário.”"
+  },
+  {
+   "id": "art-26",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 26.",
+   "texto": "Fica alterado o caput do art. 17 da Lei nº 8.133, de 1998, conforme segue:",
+   "blocoDeAlteracao": "“Art. 17. Considera-se seletivo por lotação o transporte de passageiros exclusivamente sentados, executado por veículos de apenas 1 (uma) porta, dotados de poltronas do tipo\nrodoviário, com capacidade máxima para 25 (vinte e cinco) lugares, a ser definida pelo órgão\ngestor, prestado mediante pagamento individualizado, com itinerários e tarifa fixados pelo Município de Porto Alegre, conforme especificações e requisitos a serem estabelecidos na legislação\nespecífica do modal.\n.........................................................................................................................” (NR)"
+  },
+  {
+   "id": "art-27",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 27.",
+   "texto": "Fica alterado o caput do art. 18 da Lei nº 8.133, de 1998, e alterações posteriores, conforme segue: .........................................................................................................................” (NR)",
+   "blocoDeAlteracao": "“Art. 18. Considera-se serviço de táxi o transporte remunerado de passageiros\naberto ao público, executado por veículos de aluguel, para a realização de viagens individualizadas e com contraprestação paga pelos passageiros na forma de tarifa fixada pelo Município de\nPorto Alegre, conforme especificações e requisitos a serem estabelecidos na legislação específica\ndo modal.” (NR)"
+  },
+  {
+   "id": "art-28",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 28.",
+   "texto": "Ficam incluídos incs. III e IV no caput do art. 18-A da Lei nº 8.133, de 1998, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 18-A. ...............................................................................................................\n....................................................................................................................................\nIII – transporte motorizado privado; e\nIV – compartilhamento de veículos.” (NR)"
+  },
+  {
+   "id": "art-29",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 29.",
+   "texto": "No art. 19 da Lei nº 8.133, de 1998, e alterações posteriores, fica alterado o caput, e fica incluído parágrafo único, conforme segue:",
+   "blocoDeAlteracao": "“Art. 19. Considera-se transporte escolar o serviço de utilidade pública executado\nmediante contrato entre as partes e com período de duração regular, destinado ao transporte de\nestudantes e professores no deslocamento entre quaisquer estabelecimentos de ensino e para suas\nresidências, outro estabelecimento de ensino ou destino relacionado às atividades do estabelecimento de origem, no qual os pontos de origem e destino se situem dentro da área do Município\nde Porto Alegre.\nParágrafo único. O serviço de utilidade pública de transporte escolar será autorizado pelo Município de Porto Alegre, desde que atendidas as especificações e os requisitos a serem estabelecidos na legislação específica do modal.” (NR)"
+  },
+  {
+   "id": "art-30",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 30.",
+   "texto": "No art. 20 da Lei nº 8.133, de 1998, e alterações posteriores, fica alterado o caput, e fica incluído parágrafo único, conforme segue:",
+   "blocoDeAlteracao": "“Art. 20. Considera-se transporte fretado ou por fretamento o serviço de utilidade\npública que implique o transporte remunerado de passageiros executado por veículo que apresen-te capacidade superior a 4 (quatro) passageiros sentados, com itinerários pré-estabelecidos e cujos\npontos de origem e destino se situem dentro da área do Município de Porto Alegre, mediante\npreço estabelecido entre as partes.\nParágrafo único. O serviço de utilidade pública de transporte fretado será autorizado pelo Município de Porto Alegre, desde que atendidas as especificações e os requisitos a serem estabelecidos na legislação específica do modal.” (NR)"
+  },
+  {
+   "id": "art-31",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 31.",
+   "texto": "Fica incluído art. 20-A na Lei nº 8.133, de 1998, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 20-A. São turísticos os serviços de transporte fretado para fins de passeios,\nexcursões, translados e outras programações turísticas, executados por meios de transporte rodoviário, ferroviário, aquaviário ou aeroviário, podendo ser disponibilizados à população por ente\npúblico ou privado.”"
+  },
+  {
+   "id": "art-32",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 32.",
+   "texto": "Ficam alterados o caput e o parágrafo único do art. 21 da Lei nº 8.133, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 21. Considera-se transporte motorizado privado de passageiros o serviço de\nutilidade pública realizado em viagens individualizadas, por veículos particulares, e solicitados\nexclusivamente por meio de plataforma tecnológica, com destino e itinerários pré-estabelecidos,\npreço pactuado entre prestador e usuário e pagamento realizado exclusivamente por meio dos\nprovedores da plataforma tecnológica.\nParágrafo único. O serviço de utilidade pública referido no caput deste artigo será\nautorizado pelo Município de Porto Alegre, desde que atendidas as especificações e os requisitos\na serem estabelecidos na legislação específica do modal.” (NR)"
+  },
+  {
+   "id": "art-33",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 33.",
+   "texto": "Fica incluído art. 21-A na Lei nº 8.133, de 1998, e alterações posteriores, conforme segue:",
+   "blocoDeAlteracao": "“Art. 21-A. Considera-se compartilhamento de veículos o serviço de utilidade\npública de transporte efetuado mediante a locação por tempo de disponibilidade e com condução\nefetuada pelo próprio usuário, com a retirada e a devolução do bem locado em pontos pré-\n-definidos.\n§ 1º O serviço de utilidade pública de compartilhamento de veículos será autorizado pelo Município de Porto Alegre, desde que atendidas as especificações e os requisitos a serem estabelecidos na legislação específica do modal.\n§ 2º Outras formas de compartilhamento de veículos poderão ser autorizadas pelo\nMunicípio de Porto Alegre, observada a conveniência administrativa, mediante regulamentação\nda matéria.”"
+  },
+  {
+   "id": "art-34",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 34.",
+   "texto": "Fica incluído inc. VII no caput do art. 3º da Lei nº 11.182, de 28 de dezembro de 2011, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º ......................................................................................................................\n....................................................................................................................................\nVII – transporte motorizado privado e remunerado de passageiros: 23 (vinte e\ntrês) tarifas do transporte coletivo por ônibus.” (NR)"
+  },
+  {
+   "id": "art-35",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 35.",
+   "texto": "As autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros poderão disponibilizar ao Município de Porto Alegre, sem ônus, equipamentos, programas, sistemas, serviços ou qualquer outro mecanismo físico ou informatizado que viabilize, facilite, agilize e dê segurança à fiscalização de suas operações pelos órgãos competentes.",
+   "agrupadores": [
+    {
+     "tipo": "capitulo",
+     "numero": "IV",
+     "titulo": "DISPOSIÇÕES FINAIS"
+    }
+   ]
+  },
+  {
+   "id": "art-35/par-unico",
+   "pai": "art-35",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O disposto neste artigo abrange a manutenção de todas as condições necessárias à fiscalização da atividade durante o período de vigência do credenciamento, sendo encargo exclusivo das autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros que voluntariamente optarem por proporcionar esses meios de fiscalização, independentemente dos instrumentos e das competências próprias do Município de Porto Alegre."
+  },
+  {
+   "id": "art-36",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 36.",
+   "texto": "As secretarias, os órgãos e as entidades municipais intervenientes na matéria de que trata esta Lei ficam autorizadas a receber bens e serviços em doação para o cumprimento das finalidades relacionadas às suas respectivas esferas de atuação."
+  },
+  {
+   "id": "art-36/par-unico",
+   "pai": "art-36",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Os interessados poderão indicar a destinação específica dos bens e serviços e encaminhar suas propostas diretamente às secretarias, aos órgãos e às entidades municipais destinatárias, aos quais competirá a análise jurídica da proposta e o seu atendimento ao interesse público."
+  },
+  {
+   "id": "art-37",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 37.",
+   "texto": "Com o objetivo de reduzir custos e utilizar a inovação em favor de melhorias dos processos da mobilidade urbana, a EPTC poderá celebrar convênios com as autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros para a utilização das ferramentas digitais na avaliação da qualidade dos veículos e do serviço."
+  },
+  {
+   "id": "art-37/par-unico",
+   "pai": "art-37",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A EPTC poderá utilizar como base as avaliações já realizadas pelos usuários do Município de Porto Alegre por meio das plataformas tecnológicas."
+  },
+  {
+   "id": "art-38",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 38.",
+   "texto": "O serviço de transporte motorizado privado e remunerado de passageiros sujeitar-se-á ao Imposto Sobre Serviços de Qualquer Natureza (ISS), nos termos da legislação aplicável, sem prejuízo da incidência de outros tributos aplicáveis."
+  },
+  {
+   "id": "art-38/par-unico",
+   "pai": "art-38",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As autorizatárias do serviço de transporte motorizado privado e remunerado de passageiros ficam obrigadas a entregar à Receita Municipal, mensalmente e nos termos de regulamentação, as informações sobre os valores recebidos pela prestação do serviço no Município de Porto Alegre."
+  },
+  {
+   "id": "art-39",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 39.",
+   "texto": "A autorização para a exploração do serviço de transporte motorizado privado e remunerado de passageiros será válida, inicialmente, pelo prazo de até 18 (dezoito) meses."
+  },
+  {
+   "id": "art-39/par-1",
+   "pai": "art-39",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Transcorridos 12 (doze) meses da vigência desta Lei, o Município de Porto Alegre promoverá a análise e a reavaliação do serviço de transporte motorizado privado e remunerado de passageiros, bem como eventuais adequações na legislação que se fizerem necessárias."
+  },
+  {
+   "id": "art-39/par-2",
+   "pai": "art-39",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A renovação da autorização para a exploração do serviço dependerá da reavaliação referida no § 1º deste artigo e, se aprovada, deverá ser efetuada a cada 12 (doze) meses."
+  },
+  {
+   "id": "art-40",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 40.",
+   "texto": "O Executivo Municipal regulamentará esta Lei no prazo de 90 (noventa) dias, contados da data de sua publicação."
+  },
+  {
+   "id": "art-41",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 41.",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "art-42",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 42.",
+   "texto": "Ficam revogados os seguintes dispositivos da Lei nº 8.133, de 12 de janeiro de 1998:"
+  },
+  {
+   "id": "art-42/inc-I",
+   "pai": "art-42",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "o inc. V do caput e o § 5º do art. 14;"
+  },
+  {
+   "id": "art-42/inc-II",
+   "pai": "art-42",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o parágrafo único do art. 17; e"
+  },
+  {
+   "id": "art-42/inc-III",
+   "pai": "art-42",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "o parágrafo único do art. 18."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "trecho_nao_localizado_na_origem"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 42,
+   "dispositivos": 141,
+   "cobertura": 0.973,
+   "blocosDeAlteracao": 12,
+   "lacunas": [],
+   "naoLocalizados": [
+    "Fica alterado o caput do art. 18 da Lei nº 8.133, de 1998, e alterações posterio"
+   ],
+   "rotulosDivergentes": []
+  }
+ }
+}

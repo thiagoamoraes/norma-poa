@@ -1,0 +1,92 @@
+{
+ "idSapl": 40664,
+ "rotulo": "Lei municipal nº 12.057, de 16 de maio de 2016",
+ "sha256Origem": "9bf88779ecbe4d20a07d01350d6d776581f7a0896f83c54bbff345d0c2391b9b",
+ "estruturadoEm": "2026-11-28T06:29:55.351Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12057",
+  "ano": "2016",
+  "data": "2016-05-16",
+  "epigrafe": "LEI N º 12.057, DE 16 DE MAIO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Garante à parturiente o direito à presença de acompanhante no processo de parto, em hospitais públicos ou conveniados com o Sistema Único de Saúde (SUS), e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 16 de maio de 2016.\nJosé Fortunati,\nPrefeito.\nFernando Ritter,\nSecretário Municipal de Saúde.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica garantido à parturiente o direito à presença de acompanhante no processo de parto, em hospitais públicos ou conveniados com o Sistema Único de Saúde (SUS)."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para o fim do disposto no caput deste artigo, entendem-se por processo do parto os períodos de admissão, pré-parto, parto e pós-parto imediato."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "A cada gestante será garantido o direito à escolha do respectivo acompanhante."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 7,
+   "cobertura": 0.939,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "idSapl": 40794,
+ "rotulo": "Lei municipal nº 12.110, de 18 de agosto de 2016",
+ "sha256Origem": "c188131b0e9925fa4ec6a421a699c4df5246aa8ab8beff036c60b042b1dea8a0",
+ "estruturadoEm": "2026-11-28T06:29:55.223Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12110",
+  "ano": "2016",
+  "data": "2016-08-18",
+  "epigrafe": "LEI Nº 12.110, DE 18 DE AGOSTO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Rua Lídio Ferreira de Ávila o logradouro não cadastrado conhecido como Beco Oito Mil e Vinte e Três.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 18 de agosto de 2016.\nJosé Fortunati,\nPrefeito.\nJosé Luiz Fernandes Cogo,\nSecretário Municipal de Urbanismo.\n.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão\nAnexo",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Lídio Ferreira de Ávila o logradouro não cadastrado conhecido como Beco Oito Mil e Vinte e Três, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Homem honrado."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.933,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

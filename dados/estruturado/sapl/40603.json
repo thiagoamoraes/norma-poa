@@ -1,0 +1,58 @@
+{
+ "idSapl": 40603,
+ "rotulo": "Lei municipal nº 12.027, de 08 de abril de 2016",
+ "sha256Origem": "c2b973be7c621d08dec4a5989eaed4d5960f026461c8abaacf9eaa0011f4094d",
+ "estruturadoEm": "2026-11-28T06:29:55.396Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12027",
+  "ano": "2016",
+  "data": "2016-04-08",
+  "epigrafe": "LEI Nº 12.027, DE 8 DE ABRIL DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Rua Jorge Babot Miranda o logradouro público cadastrado conhecido como Rua Seis Mil, Trezentos e Dezesseis, localizado no Bairro Hípica.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de abril de 2016.\nJosé Fortunati,\nPrefeito.\nJosé Luiz Fernandes Cogo,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.\nCROQUI",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Jorge Babot Miranda o logradouro público cadastrado conhecido como Rua Seis Mil, Trezentos e Dezesseis, localizado no Bairro Hípica, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Economista e administrador público."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.942,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

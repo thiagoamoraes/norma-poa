@@ -1,0 +1,82 @@
+{
+ "idSapl": 41174,
+ "rotulo": "Lei municipal nº 12.232, de 13 de março de 2017",
+ "sha256Origem": "d87c278874b0ca8be69eac4d16182673eef34c3278a24d456e329064cabc2925",
+ "estruturadoEm": "2026-11-28T06:29:53.860Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": null,
+  "numero": null,
+  "ano": null,
+  "data": null,
+  "epigrafe": "PREFEITURA MUNICIPAL DE PORTO ALEGRE",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "E LEI Nº 12.232, DE 13 DE MARÇO DE 2017.",
+ "ementa": "vil ' Denomina Rua Abraham Isdra o logradouro público cadastrado conhecido como Rua 2085 — Loteamento Parque Empresarial Condor -— localizado no Bairro São João. 9",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 13 de março de 2017.\ncid\nPrefeito.\nNelson arohezan Júnior,\nEd\nRegistre-se e publique-se.\nNite aM;\nProcurador-Gera/do Município.\nPUBLICAÇÃO REPUBLICAÇÃO\nPROCESSO\nFONTE DATA FONTE DATA\nDora [24.02.2947 .0Wco NOGI =\nPREFEITURA MUNICIPAL DE PORTO ALEGRE",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Abraham Isdra o logradouro público cadastrado conhecido como Rua 2085 — Loteamento Parque Empresarial Condor —, localizado no Bairro São João, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores, conforme anexo desta Lei."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Destacado líder empresarial."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nN\nPREFEITO MUNICIPAL: Nelson Marchezan Júnior\nEsta planta é parte integrante da Lei nº 12.232\nProcesso: 17.0.000014041-4 Data: 13.03.2017\nA-CMA, MOD. GM-30",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "cabecalho_nao_reconhecido"
+  ],
+  "avisos": [
+   "texto_de_ocr",
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.949,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 5,
+     "caracteres": 151,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

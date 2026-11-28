@@ -1,0 +1,51 @@
+{
+ "idSapl": 40711,
+ "rotulo": "Lei municipal nº 12.079, de 16 de junho de 2016",
+ "sha256Origem": "028affeb17fb2770323a3c425ad5ceeb799ddc9975c8d8a30abdd7c96938bd5d",
+ "estruturadoEm": "2026-11-28T06:29:55.315Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12079",
+  "ano": "2016",
+  "data": "2016-06-16",
+  "epigrafe": "LEI Nº 12.079, DE 16 DE JUNHO DE 2016",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Obriga empresas fornecedoras de bens e serviços executados de forma contínua a estenderem aos consumidores cujos contratos estejam em vigor as condições oferecidas para adesão de novos consumidores.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 16 de junho de 2016.\nJosé Fortunati,\nPrefeito.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam as empresas fornecedoras de bens e serviços executados de forma contínua obrigadas a estender aos consumidores cujos contratos estejam em vigor, a critério desses, as condições oferecidas para adesão de novos consumidores."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor em 30 (trinta) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.951,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

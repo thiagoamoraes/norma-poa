@@ -1,0 +1,51 @@
+{
+ "idSapl": 40840,
+ "rotulo": "Lei municipal nº 12.123, de 21 de setembro de 2016",
+ "sha256Origem": "2caa540c1ef6052a252f55169122cf6fa0ccdfc3a7b8c190877b4827725e4fd9",
+ "estruturadoEm": "2026-11-28T06:29:55.205Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12123",
+  "ano": "2016",
+  "data": "2016-09-21",
+  "epigrafe": "LEI Nº 12.123, DE 21 DE SETEMBRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui a efeméride Semana Municipal do Garçom no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, na semana que compreender o dia 11 de agosto.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de setembro de 2016.\nJosé Fortunati,\nPrefeito.\n.\nJosé Olmiro Péres,\nSecretário Municipal de Turismo, em exercício.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluída a efeméride Semana Municipal do Garçom no Anexo da Lei nº 10.904, de 31 de maio de 2010 – Calendário de Datas Comemorativas e de Conscientização do Município de Porto Alegre –, e alterações posteriores, na semana que compreender o dia 11 de agosto."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.953,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

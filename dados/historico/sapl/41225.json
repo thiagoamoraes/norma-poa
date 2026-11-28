@@ -1,0 +1,117 @@
+{
+ "geradoEm": "2026-11-28T06:30:05.204Z",
+ "idSapl": 41225,
+ "rotulo": "Lei municipal nº 12.248, de 23 de maio de 2017",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 12248/2017@2017-05-23",
+   "data": "2017-05-23",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 12248/2017@2022-10-10",
+   "data": "2022-10-10",
+   "fonte": {
+    "idSapl": 44434,
+    "rotulo": "Lei municipal nº 13.267, de 10 de outubro de 2022"
+   },
+   "comandosAplicados": 1
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O servidor público ocupante de cargo efetivo ou de emprego em quaisquer dos Poderes do Município de Porto Alegre, do Estado do Rio Grande do Sul, da União, de outros estados, do Distrito Federal ou de outros municípios, investido em cargo de Secretário Municipal, poderá optar pela remuneração do seu cargo efetivo ou emprego, acrescida do valor correspondente a 70% (setenta por cento) do subsídio do cargo de Secretário Municipal, previsto no inc. III do art. 1º da Lei nº 12.135, de 7 de outubro de 2016.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "O servidor público ocupante de cargo efetivo ou de emprego em quaisquer dos Poderes do Município de Porto Alegre, do Estado do Rio Grande do Sul, da União, de outros estados, do Distrito Federal ou de outros municípios, investido em cargo de Secretário Municipal, de diretor-geral de autarquia municipal, de presidente de fundação municipal de direito público ou de Procurador-Geral do Município não alcançado pela Lei Municipal nº 11.979, de 22 de dezembro de 2015, poderá optar pela remuneração do seu cargo efetivo ou emprego, acrescida do valor correspondente a 70% (setenta por cento) do subsídio do cargo de Secretário Municipal.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 13.267/2022"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O valor de que trata o caput não será incorporável nem computado ou acumulado para fins de concessão de acréscimos ulteriores.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam revogados o art. 67 da Lei nº 6.203, de 3 de outubro de 1988, e o art. 77 da Lei nº 6.309, de 28 de dezembro de 1988.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

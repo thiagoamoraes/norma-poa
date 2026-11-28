@@ -1,0 +1,67 @@
+{
+ "idSapl": 40813,
+ "rotulo": "Lei municipal nº 12.116, de 02 de setembro de 2016",
+ "sha256Origem": "e7bb307f971e804ff49226d394e60f70062915dfedec2cd081e5811324090dd1",
+ "estruturadoEm": "2026-11-28T06:29:55.217Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12116",
+  "ano": "2016",
+  "data": "2016-09-02",
+  "epigrafe": "PROC. Nº 0205/16",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "cabecalhoTexto": "PLL Nº 014/16 LEI Nº 12.116, DE 2 DE SETEMBRO DE 2016.",
+ "ementa": "Estabelece a utilização de lâmpadas LED (light emitting diode, ou diodo emissor de luz) na iluminação de prédios públicos municipais, bem como de espaços públicos e vias públicas sob administração municipal.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 3º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 12.116, de 2 de setembro de 2016, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 2 DE SETEMBRO DE 2016.\nVer. Cassio Trogildo,\nPresidente.\nRegistre-se e publique-se:\nVer. Paulo Brum,\n1º Secretário.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica estabelecida a utilização de lâmpadas LED (light emitting diode, ou diodo emissor de luz) na iluminação de prédios públicos municipais, bem como de espaços públicos e vias públicas sob administração municipal."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para o fim desta Lei, consideram-se espaços públicos as praças, os centros de convivência, os centros esportivos e outros similares."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "VETADO.",
+   "vetado": true
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor no prazo de 90 (noventa) dias, contados da data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.972,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

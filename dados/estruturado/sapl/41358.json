@@ -1,0 +1,100 @@
+{
+ "idSapl": 41358,
+ "rotulo": "Lei municipal nº 12.304, de 19 de setembro de 2017",
+ "sha256Origem": "c150b335962828b47899308cbe9f5243b6fc17658a359e4b42a2532f493c6c63",
+ "estruturadoEm": "2026-11-28T06:29:53.478Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12304",
+  "ano": "2017",
+  "data": "2017-09-19",
+  "epigrafe": "LEI Nº 12.304, DE 19 DE SETEMBRO DE 2017.",
+  "proveniencia": {
+   "promulgadoPor": "PRESIDENTE_CAMARA",
+   "motivoProvavel": "promulgacao_propria"
+  }
+ },
+ "ementa": "Posterga a data de vencimento de contas relativas ao serviço de abastecimento de água e de Imposto Predial e Territorial Urbano – IPTU – de servidores públicos municipais ativos e inativos e de pensionistas cujos rendimentos sejam pagos parcelados ou atrasados, bem como proíbe a suspensão do serviço de abastecimento de água desses servidores e pensionistas.",
+ "preambulo": "O PRESIDENTE DA CÂMARA MUNICIPAL DE PORTO ALEGRE Faço saber, no uso das atribuições que me obrigam os §§ 5º e 7° do art. 77 da Lei Orgânica do Município de Porto Alegre, que a Câmara Municipal aprovou e eu promulgo a Lei nº 12.306, de 19 de setembro de 2017, como segue:",
+ "fecho": "CÂMARA MUNICIPAL DE PORTO ALEGRE, 21 DE SETEMBRO DE 2017.\nVer. Cassio Trogildo,\nPresidente.\nRegistre-se e publique-se:\nVer. Mauro Pinheiro,\n1º Secretário.\nRPD/JPCP",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica postergada a data de vencimento de contas relativas ao serviço de abastecimento de água e de Imposto Predial e Territorial Urbano – IPTU – de servidores públicos municipais ativos e inativos e de pensionistas cujos rendimentos sejam pagos parcelados ou atrasados."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O disposto no caput deste artigo se refere a contas com data de vencimento no período em que os rendimentos de servidores públicos municipais e de pensionistas estejam parcelados ou atrasados."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Os juros legais e a multa moratória devidos pelo inadimplemento do IPTU ou das contas relativas ao serviço de abastecimento de água terão incidência e passarão a ser exigíveis no prazo de 5 (cinco) dias úteis, contados da quitação integral dos rendimentos parcelados ou atrasados de servidores públicos municipais ativos e inativos e de pensionistas."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Perdurando o inadimplemento das contas relativas ao serviço de abastecimento de água, esse poderá ser suspenso, respeitados os prazos legais."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Quando do pagamento das contas relativas ao serviço de abastecimento de contas de água e de IPTU, os beneficiários desta Lei deverão se identificar por meio de seu contracheque e de documento oficial com fotografia."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Fica proibida a suspensão do serviço de abastecimento de água de servidores públicos municipais ativos e inativos e de pensionistas cujos rendimentos estejam parcelados ou atrasados."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Para os fins desta Lei, são considerados seus beneficiários somente os servidores públicos municipais ativos e inativos e os pensionistas residentes no Município de Porto Alegre."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "O Executivo Municipal regulamentará esta Lei no prazo de 30 (trinta) dias, devendo dispor, inclusive, sobre o art. 1º desta Lei."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação, produzindo efeitos até o dia 31 de dezembro de 2020."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 7,
+   "dispositivos": 9,
+   "cobertura": 0.958,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}
