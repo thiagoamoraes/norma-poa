@@ -1,0 +1,65 @@
+{
+ "idSapl": 40340,
+ "rotulo": "Lei municipal nº 11.951, de 16 de novembro de 2015",
+ "sha256Origem": "32cb7129290c6a35e1db9298c00b2043e9031e6c363c2412d1b70c2dabc7ffe0",
+ "estruturadoEm": "2026-11-28T09:19:10.781Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11951",
+  "ano": "2015",
+  "data": "2015-11-16",
+  "epigrafe": "LEI Nº 11.951, DE 16 DE NOVEMBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Programa Zeladoria Comunitária e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 16 de novembro de 2015.\nSebastião Melo,\nPrefeito, em exercício.\nMauro Gomes de Moura,\nSecretário Municipal do Meio Ambiente.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa Zeladoria Comunitária, visando à realização de ações para a manutenção e a melhoria das condições das praças do Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Serão realizados convênios entre o Executivo Municipal e as associações de moradores do Município de Porto Alegre legalmente constituídas, com o fim específico de realizar as ações do Programa Zeladoria Comunitária, que serão definidas conjuntamente por ambos."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Executivo Municipal envidará esforços para destinar recursos humanos e materiais necessários à implementação do disposto nesta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.949,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,6 +1,6 @@
 # Cobertura do catálogo (fonte: SAPL da PGM)
 
-Gerado em 2026-11-28T06:29:27.831Z por `ingestao/relatorio-cobertura.mjs`. Não editar à mão.
+Gerado em 2026-11-28T09:18:59.332Z por `ingestao/relatorio-cobertura.mjs`. Não editar à mão.
 
 ## Integridade da coleta
 

@@ -1,0 +1,52 @@
+{
+ "idSapl": 40560,
+ "rotulo": "Lei municipal nº 12.015, de 11 de março de 2016",
+ "sha256Origem": "9b63c2d636b0a6c3a089b0619160184fc573db3113fff626ec238beb3ebd7d53",
+ "estruturadoEm": "2026-11-28T09:19:10.523Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12015",
+  "ano": "2016",
+  "data": "2016-03-11",
+  "epigrafe": "LEI Nº 12.015, DE 11 DE MARÇO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui art. 30-A na Lei nº 11.582, de 21 de fevereiro de 2014, determinando que os veículos utilizados no Serviço Público de Transporte Individual por Táxi contenham material impresso informando, em braile, os números de seu prefixo e de sua placa, bem como o nome de seu permissionário.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de março de 2016.\nJosé Fortunati,\nPrefeito.\nRaul Fernando Cohen,\nSecretário Municipal de Acessibilidade e Inclusão Social.\nVanderlei Cappellari,\nSecretário Municipal de Transportes.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído art. 30-A na Lei nº 11.582, de 21 de fevereiro de 2014, conforme segue:",
+   "blocoDeAlteracao": "“Art. 30-A. Os veículos utilizados no Serviço Público de Transporte Individual\npor Táxi deverão conter material impresso informando, em braile, os números de seu prefixo e\nde sua placa, bem como o nome de seu permissionário.\n§ 1º O material impresso referido no caput deste artigo deverá medir 4cm (quatro\ncentímetros) por 7cm (sete centímetros) e ser afixado nos seguintes locais do interior do veículo,\nde forma acessível ao toque do passageiro com deficiência visual:\nI – painel, em frente ao banco do carona; e\nII – porta direita traseira.\n§ 2º A adequação dos veículos ao disposto neste artigo dar-se-á de acordo com as\nregras de sua vistoria e será fator condicionante para a emissão e a renovação do alvará de\ntrafego.”"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.973,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

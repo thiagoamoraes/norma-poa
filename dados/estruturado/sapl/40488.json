@@ -1,0 +1,52 @@
+{
+ "idSapl": 40488,
+ "rotulo": "Lei municipal nº 11.997, de 14 de janeiro de 2016",
+ "sha256Origem": "08a10d3a8bc5dcbee9e6aeacb9c2ff9a91b50df79419446a8340df1c366fddbb",
+ "estruturadoEm": "2026-11-28T09:19:10.619Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11997",
+  "ano": "2016",
+  "data": "2016-01-14",
+  "epigrafe": "LEI Nº 11.997, DE 14 DE JANEIRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Renomeia o parágrafo único para § 1º, mantendo-se sua redação atual, e inclui § 2º no art. 3º da Lei nº 10.165, de 23 de janeiro de 2007, dispondo sobre a identificação de placas denominativas de logradouros denominados por meios legais ou de costume.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE,14 de janeiro de 2016.\nJosé Fortunati,\nPrefeito.\nVanderlei Cappellari,\nSecretário Municipal dos Transportes.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "No art. 3º da Lei nº 10.165, de 23 de janeiro de 2007, fica renomeado o parágrafo único para § 1º, mantendo-se sua redação atual, e fica incluído § 2º, conforme segue:",
+   "blocoDeAlteracao": "“Art. 3º .....................................................................................................................\n§ 1º ............................................................................................................................\n§ 2º    Fica facultada ao Executivo Municipal a identificação de placas\ndenominativas de logradouros denominados por meios legais ou de costume, destacando os seus\nnomes consagrados pelo uso em locais que sirvam de referência tanto aos moradores do\nMunicípio de Porto Alegre como aos turistas, mantendo, logo abaixo, o nome original do\nlogradouro.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.963,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

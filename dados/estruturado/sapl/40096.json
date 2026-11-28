@@ -1,0 +1,51 @@
+{
+ "idSapl": 40096,
+ "rotulo": "Lei municipal nº 11.865, de 30 de junho de 2015",
+ "sha256Origem": "04bc3b3169fb0ff7dba31cd48aa51389128d570b94c6a7846bb0dde0f891bd71",
+ "estruturadoEm": "2026-11-28T09:19:11.105Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11865",
+  "ano": "2015",
+  "data": "2015-06-30",
+  "epigrafe": "LEI Nº 11.865, DE 30 DE JUNHO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Concede o título de Cidadão de Porto Alegre ao senhor Solimar dos Santos Amaro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 30 de junho de 2015.\nJosé Fortunati,\nPrefeito.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica concedido o título de Cidadão de Porto Alegre ao senhor Solimar dos Santos Amaro, com base na Lei nº 9.659, de 22 de dezembro de 2004."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.932,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

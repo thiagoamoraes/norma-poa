@@ -1,0 +1,77 @@
+{
+ "idSapl": 40432,
+ "rotulo": "Lei municipal nº 11.985, de 29 de dezembro de 2015",
+ "sha256Origem": "7246eae4c8418f7308c33c72416e4647eae79de3e426071722310cf8b25e9ef1",
+ "estruturadoEm": "2026-11-28T09:19:10.666Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11985",
+  "ano": "2015",
+  "data": "2015-12-29",
+  "epigrafe": "LEI Nº 11.985, DE 29 DE DEZEMBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Feira de Arte Antiga e Contemporânea do Mercado Público Central no Anexo I da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, em 1 (uma) semana de cada mês, e determina que seus expositores se adequem ao Regulamento de Feiras do Mercado Público Central.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 29 de dezembro de 2015.\nSebastião Melo,\nPrefeito, em exercício.\nLuiz Fernando Moraes,\nSecretário Municipal de Turismo.\nAntonio Kleber de Paula,\nSecretário Municipal de Produção Indústria e Comério.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Feira de Arte Antiga e Contemporânea do Mercado Público Central no Anexo I da Lei nº 10.903, de 31 de maio de 2010, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para participar da Feira de Arte Antiga e Contemporânea do Mercado Público Central, seus expositores deverão adequar-se ao Regulamento de Feiras do Mercado Público Central."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nPERÍODO           EVENTO          DESCRIÇÃO, LOCAL E HORÁRIO DO EVENTO\nEventos Semanais e Mensais\n1 (uma) se- FEIRA DE ARTE AN- Na Feira de Arte Antiga e Contemporânea do Mermana de cada TIGA E CONTEMPO- cado Público Central são expostas peças de arte ramês          RÂNEA DO MERCADO ras, permitindo à população o contato com obras de\nPÚBLICO CENTRAL       coleções novas e antigas e fomentando a cultura entre os participantes.\nOcorre de segunda-feira a sexta-feira, das 8h às 19h,\ne aos sábados, das 8h às 16h.\nLocal: Mercado Público Central de Porto Alegre."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.971,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 7,
+     "caracteres": 554,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

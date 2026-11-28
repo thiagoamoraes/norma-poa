@@ -1,0 +1,60 @@
+{
+ "idSapl": 40476,
+ "rotulo": "Lei municipal nº 11.765, de 02 de janeiro de 2016",
+ "sha256Origem": "0ab2ff345bd302420f47b3ce5cd97a688e2e222f0cc18c5d4f25cc85339d9a19",
+ "estruturadoEm": "2026-11-28T09:19:10.631Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11765",
+  "ano": "2015",
+  "data": "2015-01-02",
+  "epigrafe": "LEI Nº 11.765, DE 2 DE JANEIRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Rua Martim Aranha Filho o logradouro público cadastrado conhecido como Rua 6563 – Loteamento Ecoville Leste –, localizado no Bairro Lomba do Pinheiro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 2 de janeiro de 2015.\nJosé Fortunati,\nPrefeito.\nJosé Aquiles Susin,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.\nCROQUI\nJosé Fortunati.\nJosé Aquiles Susin.\nnº 11.765.\n001.042114.14.4                        02.01.2015",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Martim Aranha Filho o logradouro público cadastrado conhecido como Rua 6563 – Loteamento Ecoville Leste –, localizado no Bairro Lomba do Pinheiro, nos termos da Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Vereador de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "revisar",
+  "motivos": [
+   "data_diverge_do_catalogo"
+  ],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.944,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

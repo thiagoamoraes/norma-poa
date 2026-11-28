@@ -1,0 +1,121 @@
+{
+ "idSapl": 40444,
+ "rotulo": "Lei municipal nº 11.992, de 30 de dezembro de 2015",
+ "sha256Origem": "25d1297b3efa54f4810033d8675e6f8a725acdc310ee540d7b58d3cf7293efc6",
+ "estruturadoEm": "2026-11-28T09:19:10.639Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11992",
+  "ano": "2015",
+  "data": "2015-12-30",
+  "epigrafe": "LEI Nº 11.992, DE 30 DE DEZEMBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui o Programa de Saúde do Homem (PSH) no âmbito do Município de Porto Alegre e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 30 de dezembro de 2015.\nSebastião Melo,\nPrefeito, em exercício.\nFernando Ritter,\nSecretário Municipal de Saúde.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído o Programa de Saúde do Homem (PSH) no âmbito do Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Estão entre os objetivos do PSH:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "sensibilizar a população masculina sobre o autocuidado em saúde;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "divulgar os dados relativos à morbidade e à comorbidade da população masculina, de acordo com as faixas etárias;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "esclarecer sobre os fatores de risco e as medidas de prevenção, proteção e atenção à saúde do homem;"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "incentivar a população masculina à realização de exames preventivos, especialmente de pressão arterial, urológicos, teste de exercício, diabetes, hiper e hipotireoidismo, doenças degenerativas, mama e outras a serem recomendadas pela Secretaria Municipal de Saúde (SMS);"
+  },
+  {
+   "id": "art-2/inc-V",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "orientar a população jovem masculina para uma vida sexual saudável e responsável, para a prevenção de acidentes de trânsito e contra o uso indevido de drogas;"
+  },
+  {
+   "id": "art-2/inc-VI",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "divulgar as atividades e os programas acessíveis à população masculina; e"
+  },
+  {
+   "id": "art-2/inc-VII",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "VII –",
+   "texto": "ampliar a participação dos homens em grupos de apoio e programas da rede de saúde."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Para a execução e a manutenção do PSH, o Executivo Municipal, por meio de seu órgão competente, viabilizará o remanejamento dos profissionais das áreas necessárias, disponibilizando área física dentro dos recursos já existentes."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "O Executivo Municipal envidará esforços para firmar parcerias com entidades públicas e privadas, com vista à implantação e ao desenvolvimento do PSH."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 12,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

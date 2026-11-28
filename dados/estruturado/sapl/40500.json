@@ -1,0 +1,651 @@
+{
+ "idSapl": 40500,
+ "rotulo": "Lei municipal nº 12.003, de 27 de janeiro de 2016",
+ "sha256Origem": "8871fa2e60749fe19e7b7cafd3a0b2a1f94af9b36e96b2f2f35dca53e7edb39e",
+ "estruturadoEm": "2026-11-28T09:19:10.565Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12003",
+  "ano": "2016",
+  "data": "2016-01-27",
+  "epigrafe": "LEI Nº 12.003, DE 27 DE JANEIRO DE 2016",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui a Central de Conciliação e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 27 de janeiro de 2016.\nJosé Fortunati,\nPrefeito.\nCristiane da Costa Nery,\nProcuradora-Geral do Município.\nRegistre-se e publique-se.\nRonaldo Lopes Garcia,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituída, nos termos desta Lei, a Central de Conciliação, que visa a estabelecer a conciliação e a mediação como meios para a solução de controvérsias administrativas ou judiciais que envolvam a Administração Municipal, nos termos do inc. III do caput do art. 5º da Lei Complementar nº 701, de 18 de julho de 2012, da Lei Orgânica do Município de Porto Alegre, do art. 32 da Lei Federal nº 13.140, de 26 de junho de 2015, e dos arts. 3º e 174 da Lei Federal nº 13.105, de 16 de março de 2015.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "I",
+     "titulo": "Disposições Preliminares"
+    }
+   ]
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A Central de Conciliação ficará vinculada à Procuradoria-Geral do Município (PGM)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Para fins desta Lei, consideram-se:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "mediação a atividade técnica exercida por terceiro imparcial sem poder decisório que, escolhido ou aceito pelas partes, as auxilia e estimula a identificar ou a desenvolver soluções consensuais para a controvérsia;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "conciliação a possibilidade da autorresolução do conflito, assistido por um terceiro neutro e imparcial, avaliador das possíveis soluções na busca de consenso, por meio de um diálogo baseado em interesses e necessidades, num processo informal e estruturado;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "transação administrativa o ato de reconhecimento de direitos e estabelecimento de obrigações, resultantes da composição da controvérsia posta a exame da Central de Conciliação; e"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "termo de transação o instrumento jurídico que encerra a controvérsia administrativa, possibilitando a produção dos efeitos jurídicos da transação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "A conciliação e a mediação serão regidas pelos seguintes princípios:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "impessoalidade;"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "imparcialidade;"
+  },
+  {
+   "id": "art-3/inc-III",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "isonomia;"
+  },
+  {
+   "id": "art-3/inc-IV",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "ampla defesa; e"
+  },
+  {
+   "id": "art-3/inc-V",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "boa-fé."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A mediação referida no caput deste artigo será orientada pelos seguintes princípios, com base na Lei Federal nº 13.140, de 26 de junho de 2015 (Lei da Mediação):"
+  },
+  {
+   "id": "art-3/par-unico/inc-I",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "oralidade;"
+  },
+  {
+   "id": "art-3/par-unico/inc-II",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "informalidade;"
+  },
+  {
+   "id": "art-3/par-unico/inc-III",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "autonomia da vontade das partes;"
+  },
+  {
+   "id": "art-3/par-unico/inc-IV",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "busca do consenso; e"
+  },
+  {
+   "id": "art-3/par-unico/inc-V",
+   "pai": "art-3/par-unico",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "confidencialidade."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "A eficácia dos termos de transação administrativa, dos termos de mediação e de indenização administrativa resultantes dos processos submetidos à Central de Conciliação dependerá de homologação do procurador-geral do Município."
+  },
+  {
+   "id": "art-4/par-unico",
+   "pai": "art-4",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A transação administrativa homologada implicará coisa julgada administrativa e importará renúncia a todo e qualquer direito no qual possa fundar uma ação judicial, assim como extinção daquela que estiver em tramitação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "A Central de Conciliação terá como diretrizes:"
+  },
+  {
+   "id": "art-5/inc-I",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a instituição de valores e de meios jurídicos que aprofundem o relacionamento de pessoas físicas e jurídicas com a Administração Municipal;"
+  },
+  {
+   "id": "art-5/inc-II",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "a prevenção e a solução de controvérsias administrativas e judiciais entre pessoas físicas e jurídicas e a Administração Municipal;"
+  },
+  {
+   "id": "art-5/inc-III",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a garantia da juridicidade, da eficácia, da estabilidade, da segurança e da boa- -fé das relações jurídicas e administrativas;"
+  },
+  {
+   "id": "art-5/inc-IV",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "a agilização e a efetividade dos procedimentos de prevenção e de solução de controvérsias;"
+  },
+  {
+   "id": "art-5/inc-V",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "a racionalização da judicialização de litígios envolvendo a Administração Municipal; e"
+  },
+  {
+   "id": "art-5/inc-VI",
+   "pai": "art-5",
+   "tipo": "inciso",
+   "rotulo": "VI –",
+   "texto": "a redução de passivos financeiros decorrentes de controvérsias de repercussão coletiva."
+  },
+  {
+   "id": "art-6",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 6º",
+   "texto": "A Central de Conciliação será composta por:",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "II",
+     "titulo": "Disposições Gerais"
+    },
+    {
+     "tipo": "subsecao",
+     "numero": "I",
+     "titulo": "Da Competência e da Estrutura da Central de Conciliação"
+    }
+   ]
+  },
+  {
+   "id": "art-6/inc-I",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "Câmara de Indenizações Administrativas;"
+  },
+  {
+   "id": "art-6/inc-II",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "Câmara de Mediação e Conciliação; e"
+  },
+  {
+   "id": "art-6/inc-III",
+   "pai": "art-6",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "Câmara de Conciliação de Precatórios."
+  },
+  {
+   "id": "art-6/par-unico",
+   "pai": "art-6",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As Câmaras referidas no caput deste artigo serão coordenadas por procuradores municipais designados pelo procurador-geral do Município."
+  },
+  {
+   "id": "art-7",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 7º",
+   "texto": "Os limites, os critérios, a estrutura e o funcionamento da Central de Conciliação serão regulamentados por decreto."
+  },
+  {
+   "id": "art-8",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 8º",
+   "texto": "Compete à Câmara de Indenizações Administrativas o exame, na forma de seu regimento, dos pedidos administrativos de indenização decorrentes de danos causados pelos órgãos da Administração Municipal a terceiros, segundo preceito previsto no § 6º do art. 37 da Constituição Federal.",
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "II",
+     "titulo": "Da Câmara de Indenizações Administrativas"
+    }
+   ]
+  },
+  {
+   "id": "art-8/par-unico",
+   "pai": "art-8",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A Câmara de Indenizações Administrativas terá competência para diligenciar nos demais órgãos municipais, podendo, inclusive, requisitar a oitiva e o auxílio técnico de servidores municipais, a fim de instruir o procedimento administrativo de indenização."
+  },
+  {
+   "id": "art-9",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 9º",
+   "texto": "A Câmara de Indenizações Administrativas será composta por 6 (seis) membros, os quais atuarão em 2 (duas) turmas, de 3 (três) membros cada, devendo, no mínimo, ⅔ (dois terços) serem de procuradores municipais."
+  },
+  {
+   "id": "art-10",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 10.",
+   "texto": "Compete à Câmara de Mediação e Conciliação, nos termos do disposto no art. 32 da Lei nº 13.140, de 2015, e no art. 174 da Lei Federal nº 13.105, de 2015:",
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "III",
+     "titulo": "Da Câmara de Mediação e Conciliação"
+    }
+   ]
+  },
+  {
+   "id": "art-10/inc-I",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "prevenir e solucionar, de forma consensual, os conflitos no âmbito administrativo;"
+  },
+  {
+   "id": "art-10/inc-II",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "dirimir conflitos envolvendo órgãos e entidades da Administração Municipal;"
+  },
+  {
+   "id": "art-10/inc-III",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "avaliar a admissibilidade dos pedidos de resolução de conflitos, por meio de conciliação, no âmbito da Administração Municipal; e"
+  },
+  {
+   "id": "art-10/inc-IV",
+   "pai": "art-10",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "promover, quando couber, a celebração de termo de ajustamento de conduta para as hipóteses previstas nesta Lei."
+  },
+  {
+   "id": "art-11",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 11.",
+   "texto": "A composição e a estrutura de funcionamento da Câmara de Mediação e Conciliação serão estabelecidas na regulamentação desta Lei."
+  },
+  {
+   "id": "art-12",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 12.",
+   "texto": "O Município de Porto Alegre adotará práticas que incentivem a formação de uma cultura de mediação e conciliação, observada a legislação existente."
+  },
+  {
+   "id": "art-13",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 13.",
+   "texto": "Compete à Câmara de Conciliação de Precatórios, prevista no art. 97, § 8º, inc. III, do Ato das Disposições Constitucionais Transitórias (ADCT), da Constituição Federal, compor, mediante acordo direto com os credores, o pagamento de precatórios devidos pelo Município de Porto Alegre, suas autarquias e suas fundações inseridas no regime especial de pagamento de precatórios.",
+   "agrupadores": [
+    {
+     "tipo": "subsecao",
+     "numero": "IV",
+     "titulo": "Da Câmara de Conciliação de Precatórios"
+    }
+   ]
+  },
+  {
+   "id": "art-13/par-1",
+   "pai": "art-13",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "À conciliação serão destinados 50% (cinquenta por cento) dos recursos de que tratam os §§ 1º e 2º do art. 97 do ADCT."
+  },
+  {
+   "id": "art-13/par-2",
+   "pai": "art-13",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Na hipótese de saldo dos recursos previstos para o acordo direto, após o procedimento anual de conciliação, será reservado para pagamento, pela mesma modalidade, para o exercício seguinte, cumulando-se com os depósitos das parcelas futuras previstas no art. 97 do ADCT."
+  },
+  {
+   "id": "art-14",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 14.",
+   "texto": "A Câmara de Conciliação de Precatórios será composta por 3 (três) membros e seus respectivos suplentes, representantes dos seguintes órgãos, indicados por seus respectivos titulares:"
+  },
+  {
+   "id": "art-14/inc-I",
+   "pai": "art-14",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "PGM;"
+  },
+  {
+   "id": "art-14/inc-II",
+   "pai": "art-14",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "Secretaria Municipal da Fazenda (SMF); e"
+  },
+  {
+   "id": "art-14/inc-III",
+   "pai": "art-14",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "Secretaria Municipal de Planejamento Estratégico e Orçamento (SMPEO)."
+  },
+  {
+   "id": "art-15",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 15.",
+   "texto": "A conciliação, mediante edital de convocação do credor do precatório, devidamente publicado no Diário Oficial Eletrônico de Porto Alegre (DOPA-e), será provocada pela PGM e observará os seguintes parâmetros:"
+  },
+  {
+   "id": "art-15/inc-I",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "a obediência à ordem cronológica de inscrição do precatório;"
+  },
+  {
+   "id": "art-15/inc-II",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "o pagamento, observados os critérios definidos na regulamentação desta Lei:"
+  },
+  {
+   "id": "art-15/inc-II/ali-a",
+   "pai": "art-15/inc-II",
+   "tipo": "alinea",
+   "rotulo": "a)",
+   "texto": "com redução de 30% (trinta por cento) do valor total para os precatórios inscritos até o Orçamento de 2010; e"
+  },
+  {
+   "id": "art-15/inc-II/ali-b",
+   "pai": "art-15/inc-II",
+   "tipo": "alinea",
+   "rotulo": "b)",
+   "texto": "com redução de 40% (quarenta por cento) do valor total para os precatórios inscritos a partir do Orçamento de 2011;"
+  },
+  {
+   "id": "art-15/inc-III",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "a possibilidade de pagamento parcelado, em prazo não superior a 2 (dois) anos, para precatório cujo valor obtido após a redução prevista no inc. II do caput deste artigo exceda a ⅓ (um terço) dos recursos repassados ao Poder Judiciário previstos no art. 97, §§ 2º e 8º, inc. III, do ADCT;"
+  },
+  {
+   "id": "art-15/inc-IV",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "a incidência dos descontos legais sobre o valor conciliado; e"
+  },
+  {
+   "id": "art-15/inc-V",
+   "pai": "art-15",
+   "tipo": "inciso",
+   "rotulo": "V –",
+   "texto": "a quitação integral da dívida objeto da conciliação e a renúncia a qualquer discussão acerca dos critérios de cálculo do percentual apurado e do valor devido."
+  },
+  {
+   "id": "art-15/par-unico",
+   "pai": "art-15",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O Município de Porto Alegre poderá firmar convênio com o Poder Judiciário para a realização dos atos que se fizerem necessários para o cumprimento do que dispõe esta Lei."
+  },
+  {
+   "id": "art-16",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 16.",
+   "texto": "Será publicado 1 (um) edital convocatório por ano, prevendo prazo preclusivo para manifestação de interesse dos credores."
+  },
+  {
+   "id": "art-17",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 17.",
+   "texto": "O credor interessado em realizar acordo, pessoalmente ou por intermédio de advogado com procuração pública específica, deverá apresentar proposta por escrito, em requerimento padrão disponibilizado no endereço eletrônico da PGM, contendo todos os dados atualizados e individualizados para a correta identificação da situação de seu precatório, além de outros documentos necessários previstos no edital de convocação."
+  },
+  {
+   "id": "art-17/par-1",
+   "pai": "art-17",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O acordo poderá ser celebrado com o titular original do precatório ou seus sucessores causa mortis, bem como com os cessionários, desde que devidamente habilitados no requisitório em processamento nos Tribunais, com a participação obrigatória do advogado constituído nos autos do processo judicial respectivo."
+  },
+  {
+   "id": "art-17/par-2",
+   "pai": "art-17",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Com expressa anuência do advogado constituído, os honorários de sucumbência poderão integrar o acordo a ser celebrado."
+  },
+  {
+   "id": "art-17/par-3",
+   "pai": "art-17",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "Nos casos de precatórios cedidos parcial ou integralmente pelo credor originário, o acordo deverá ser feito com todos os cessionários, de forma a abranger a integralidade do crédito."
+  },
+  {
+   "id": "art-18",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 18.",
+   "texto": "Será preservada a ordem cronológica do precatório não conciliado."
+  },
+  {
+   "id": "art-19",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 19.",
+   "texto": "Uma vez formalizado, o instrumento de conciliação será levado à chancela do procurador-geral do Município e à homologação do Juízo responsável pelo pagamento do precatório do respectivo tribunal."
+  },
+  {
+   "id": "art-19/par-unico",
+   "pai": "art-19",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A homologação é condição para o cumprimento das condições estabelecidas no acordo."
+  },
+  {
+   "id": "art-20",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 20.",
+   "texto": "A PGM providenciará a publicação, no DOPA-e, do extrato dos acordos celebrados."
+  },
+  {
+   "id": "art-21",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 21.",
+   "texto": "É facultado ao Município de Porto Alegre aderir a juizados ou câmaras de conciliação para pagamento de precatórios, na hipótese de serem instituídas pelo Tribunal de Justiça do Estado do Rio Grande do Sul ou pelo Tribunal Regional do Trabalho da 4ª Região, observando-se as disposições desta Lei e de seu decreto regulamentador."
+  },
+  {
+   "id": "art-22",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 22.",
+   "texto": "Fica autorizada a compensação de débitos tributários e não tributários, líquidos e certos, inscritos em dívida ativa até 25 de março de 2015 pela Fazenda Pública Municipal, incluindo a Administração Direta e a Administração Indireta, com respectivos créditos provenientes de precatórios, a requerimento do credor originário ou de seus sucessores causa mortis, nos termos de decreto regulamentador."
+  },
+  {
+   "id": "art-22/par-1",
+   "pai": "art-22",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Somente poderão ser objeto da compensação de que trata o caput deste artigo os créditos e os débitos de titularidade da mesma pessoa jurídica da Administração Municipal devedora do precatório."
+  },
+  {
+   "id": "art-22/par-2",
+   "pai": "art-22",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Não serão admitidas compensações de precatórios cujos créditos tenham sido cedidos, a qualquer título, pelo credor original a terceiros."
+  },
+  {
+   "id": "art-22/par-3",
+   "pai": "art-22",
+   "tipo": "paragrafo",
+   "rotulo": "§ 3º",
+   "texto": "As compensações dependerão da desistência por parte do credor do precatório das discussões administrativas ou judiciais eventualmente em curso quanto à dívida ativa, com a expressa renúncia aos direitos em que se fundam as ações, defesas ou recursos."
+  },
+  {
+   "id": "art-22/par-4",
+   "pai": "art-22",
+   "tipo": "paragrafo",
+   "rotulo": "§ 4º",
+   "texto": "As compensações serão perfectibilizadas e produzirão efeitos após a homologação judicial pelo Juízo do processo de execução que deu origem ao precatório e serão formalizadas nos termos do decreto regulamentador desta Lei, com a participação do advogado constituído no precatório e no respectivo processo judicial."
+  },
+  {
+   "id": "art-22/par-5",
+   "pai": "art-22",
+   "tipo": "paragrafo",
+   "rotulo": "§ 5º",
+   "texto": "As compensações serão implementadas dentro dos limites previstos no Orçamento Municipal, nos termos da Lei regente."
+  },
+  {
+   "id": "art-23",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 23.",
+   "texto": "A organização e os procedimentos relacionados à atuação da Câmara de Conciliação de Precatórios serão regulamentados por decreto."
+  },
+  {
+   "id": "art-24",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 24.",
+   "texto": "A Junta Administrativa de Indenizações, instituída pelo Decreto nº 12.619, de 28 de dezembro de 1999, permanecerá em funcionamento até a regulamentação desta Lei.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "III",
+     "titulo": "Disposição Transitória"
+    }
+   ]
+  },
+  {
+   "id": "art-25",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 25.",
+   "texto": "A Central de Conciliação elaborará seu regimento por meio de decreto.",
+   "agrupadores": [
+    {
+     "tipo": "secao",
+     "numero": "IV",
+     "titulo": "Disposições Finais"
+    }
+   ]
+  },
+  {
+   "id": "art-26",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 26.",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 26,
+   "dispositivos": 80,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

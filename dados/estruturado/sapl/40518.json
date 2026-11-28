@@ -1,0 +1,96 @@
+{
+ "idSapl": 40518,
+ "rotulo": "Lei municipal nº 12.007, de 11 de fevereiro de 2016",
+ "sha256Origem": "339d9074466c07d8b1ac9fe8c2cc238ca40a6272df51b9c29d31360667d56b23",
+ "estruturadoEm": "2026-11-28T09:19:10.538Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12007",
+  "ano": "2016",
+  "data": "2016-02-11",
+  "epigrafe": "LEI Nº 12.007, DE 11 DE FEVEREIRO 2016",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  },
+  "fonte": "catalogo"
+ },
+ "ementa": "Obriga as empresas que tiverem mais de 20 (vinte) empregados e que efetuarem a entrega domiciliar de produtos comercializados, inclusive por meio de terceiros, ou a prestação de serviços a domicílio a agendar, com seus clientes, um horário correspondente ao intervalo de 1h (uma hora) para a entrega do produto ou o início da prestação do serviço e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de fevereiro de 2016.\nSebastião Melo,\nPrefeito, em exercício.\nAntonio Kleber de Paula,\nSecretário Municipal da Produção, Indústria e Comércio.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "As empresas que tiverem mais de 20 (vinte) empregados e que efetuarem a entrega domiciliar de produtos comercializados, inclusive por meio de terceiros, ou a prestação de serviços a domicílio ficam obrigadas a agendar com seus clientes um horário correspondente ao intervalo de 1h (uma hora) para a entrega do produto ou o início da prestação do serviço."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "O horário previsto para a entrega deverá constar na nota fiscal do produto comercializado."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "Se necessário, o horário agendado poderá atrasar, no máximo, 60min (sessenta minutos), devendo haver justificativa por escrito, a fim de que a empresa se isente de qualquer sanção."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam as empresas de que trata esta Lei obrigadas a afixar, em local visível ao público, material que divulgue esta Lei, inclusive os prazos mencionados."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O descumprimento ao disposto nesta Lei sujeitará o infrator às seguintes sanções:"
+  },
+  {
+   "id": "art-3/inc-I",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "multa de 5.000 (cinco mil) Unidades Financeiras Municipais (UFMs); e"
+  },
+  {
+   "id": "art-3/inc-II",
+   "pai": "art-3",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "multa de 10.000 (dez mil) UFMs e, por 90 (noventa) dias, suspensão do Alvará de Localização e Funcionamento, em caso de reincidência."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "cabecalho_fora_do_padrao"
+  ],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 8,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

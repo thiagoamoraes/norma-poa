@@ -1,0 +1,72 @@
+{
+ "idSapl": 40107,
+ "rotulo": "Lei municipal nº 11.870, de 07 de julho de 2015",
+ "sha256Origem": "997858e2a388050e98c060883b2bffe0cd2b197cf4722070ff78b58489e7b5af",
+ "estruturadoEm": "2026-11-28T09:19:11.091Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11870",
+  "ano": "2015",
+  "data": "2015-07-07",
+  "epigrafe": "LEI Nº 11.870, DE 7 DE JULHO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Obriga as empresas e as concessionárias que fornecem energia elétrica, telefonia fixa, banda larga, televisão a cabo ou outro serviço, por meio de rede aérea, a retirar de postes a fiação excedente e sem uso que tenham instalado e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 7 de julho de 2015.\nJosé Fortunati,\nPrefeito.\nMauro Zacher,\nSecretário Municipal de Obras e Viação.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam as empresas e as concessionárias que fornecem energia elétrica, telefonia fixa, banda larga, televisão a cabo ou outro serviço, por meio de rede aérea, obrigadas a retirar de postes a fiação excedente e sem uso que tenham instalado."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "As empresas e as concessionárias referidas no art. 1º desta Lei têm o prazo de 2 (dois) anos, contados da data de sua publicação, para se adequar às suas disposições."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Executivo Municipal regulamentará esta Lei no prazo de 180 (cento e oitenta) dias, contados da data de sua publicação."
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "A regulamentação definirá a multa pelo não cumprimento ao disposto nesta Lei."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 5,
+   "cobertura": 0.947,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

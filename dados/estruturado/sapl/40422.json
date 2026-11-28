@@ -1,0 +1,58 @@
+{
+ "idSapl": 40422,
+ "rotulo": "Lei municipal nº 11.980, de 23 de dezembro de 2015",
+ "sha256Origem": "d882a708bdef209d256999a12858b8412d5e703d422f9439aeb8fb346a342a0d",
+ "estruturadoEm": "2026-11-28T09:19:10.699Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11980",
+  "ano": "2015",
+  "data": "2015-12-23",
+  "epigrafe": "LEI Nº 11.980, DE 23 DE DEZEMBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Assegura às pessoas com deficiência o atendimento, bem como a devida acessibilidade, em centro de saúde, unidade básica de saúde ou unidade de saúde da família mais próximos de sua residência.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 23 de dezembro de 2015.\nJosé Fortunati,\nPrefeito.\nRaul Fernando Cohen,\nSecretário Municipal de Acessibilidade e Inclusão Social\nFernando Ritter,\nSecretário Municipal da Saúde.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica assegurado às pessoas com deficiência o atendimento, bem como a devida acessibilidade, em centro de saúde, unidade básica de saúde ou unidade de saúde da família mais próximos de sua residência."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Para o fim do disposto no caput deste artigo, a pessoa com deficiência deverá solicitar seu cadastramento, mediante apresentação de comprovante de residência e atestado médico."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.944,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "idSapl": 40354,
+ "rotulo": "Lei municipal nº 11.956, de 24 de novembro de 2015",
+ "sha256Origem": "c2ccff7a2cef5234bed147eab6108b5007b3871e046e868a308a52da152268f4",
+ "estruturadoEm": "2026-11-28T09:19:10.772Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11956",
+  "ano": "2015",
+  "data": "2015-11-24",
+  "epigrafe": "LEI Nº 11.956, DE 24 DE NOVEMBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento POA Jazz Festival no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, no segundo final de semana do mês de outubro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 24 de novembro de 2015.\nJosé Fortunati,\nPrefeito.\nLuiz Fernando Moraes,\nSecretário Municipal de Turismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento POA Jazz Festival no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nOUTUBRO\nPERÍODO          EVENTO           DESCRIÇÃO E LOCAL DO EVENTO\nSegundo final de   POA JAZZ   Evento que promove a cena artística local e a conssemana do mês.     FESTIVAL   trução de um legado educacional e pedagógico.\nLocal: *"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.959,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 4,
+     "caracteres": 231,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

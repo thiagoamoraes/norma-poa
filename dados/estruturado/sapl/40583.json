@@ -1,0 +1,78 @@
+{
+ "idSapl": 40583,
+ "rotulo": "Lei municipal nº 12.019, de 28 de março de 2016",
+ "sha256Origem": "7d031478556c653d885a1613099dd486bf4cf1722501d7768a4858e047c7c663",
+ "estruturadoEm": "2026-11-28T09:19:10.516Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12019",
+  "ano": "2016",
+  "data": "2016-03-28",
+  "epigrafe": "LEI Nº 12.019, DE 28 DE MARÇO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Rua Werno Finkler o logradouro público cadastrado conhecido como Rua Cinco Mil e Dezesseis, localizado no Bairro Hípica",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 28 de março de 2016.\nJosé Fortunati,\nPrefeito.\nValter Nagelstein,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nRonaldo Lopes Garcia,\nSecretário Municipal de Gestão, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Werno Finkler o logradouro público cadastrado conhecido como Rua Cinco Mil e Dezesseis, localizado no Bairro Hípica, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Contador emérito."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO",
+   "semTexto": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_grafico_nao_lido"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 4,
+   "cobertura": 0.938,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 0,
+     "caracteres": 0,
+     "graficoOuTitulo": true
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

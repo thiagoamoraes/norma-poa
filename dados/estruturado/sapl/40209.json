@@ -1,0 +1,58 @@
+{
+ "idSapl": 40209,
+ "rotulo": "Lei municipal nº 11.907, de 11 de setembro de 2015",
+ "sha256Origem": "7d85615ede7c6aeb98f8da9529720e4ebfc98e0ba76f94b29a4821c589721329",
+ "estruturadoEm": "2026-11-28T09:19:11.038Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11907",
+  "ano": "2015",
+  "data": "2015-09-11",
+  "epigrafe": "LEI Nº 11.907, DE 11 DE SETEMBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Rua Maria Feoli Guaragna o logradouro não cadastrado conhecido como Rua Três Mil e Sessenta e Um – Jardim Safira –, localizado no Bairro Mário Quintana.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 11 de setembro de 2015.\nSebastião Melo,\nPrefeito, em exercício.\nValter Nagelstein,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão\nCROQUI",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Maria Feoli Guaragna o logradouro não cadastrado conhecido como Rua Três Mil e Sessenta e Um – Jardim Safira –, localizado no Bairro Mário Quintana, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Escritora e professora."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.938,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

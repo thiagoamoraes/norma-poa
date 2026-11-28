@@ -1,0 +1,58 @@
+{
+ "idSapl": 40231,
+ "rotulo": "Lei municipal nº 11.920, de 21 de setembro de 2015",
+ "sha256Origem": "424ce2336ecd87d2713379b4bd6be9b78f519e5c159f58b47795452827263af9",
+ "estruturadoEm": "2026-11-28T09:19:11.006Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11920",
+  "ano": "2015",
+  "data": "2015-09-21",
+  "epigrafe": "LEI Nº 11.920, DE 21 DE SETEMBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Rua Celso Dias Dihl o logradouro público cadastrado conhecido como Rua 8830 – Loteamento Residencial Parque do Rincão –, localizado no Bairro Restinga, no trecho que inicia no limite sudoeste do Loteamento Parque do Rincão e termina 20m (vinte metros) após a Rua Diretriz 7124.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de setembro de 2015.\nJosé Fortunati,\nPrefeito.\nValter Nagelstein,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.\nCROQUI",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Celso Dias Dihl o logradouro público cadastrado conhecido como Rua 8830 – Loteamento Residencial Parque do Rincão –, localizado no Bairro Restinga, no trecho que inicia no limite sudoeste do Loteamento Parque do Rincão e termina 20m (vinte metros) após a Rua Diretriz 7124, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Bancário exemplar."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.949,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

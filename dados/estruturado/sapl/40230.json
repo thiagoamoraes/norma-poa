@@ -1,0 +1,58 @@
+{
+ "idSapl": 40230,
+ "rotulo": "Lei municipal nº 11.919, de 19 de setembro de 2015",
+ "sha256Origem": "9856cf6f415ae08f3be8ae71b3d78a42c8b98fcfcbfc850cd5b9a94ea76e98e9",
+ "estruturadoEm": "2026-11-28T09:19:11.009Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11919",
+  "ano": "2015",
+  "data": "2015-09-19",
+  "epigrafe": "LEI Nº 11.919, DE 19 DE SETEMBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Rua Nestor Ludwig o logradouro não cadastrado conhecido como Rua A – Sport Club Internacional –, localizado no Bairro Praia de Belas.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 19 de setembro de 2015.\nJosé Fortunati,\nPrefeito.\nValter Nagelstein,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.\nCROQUI",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Rua Nestor Ludwig o logradouro não cadastrado conhecido como Rua A – Sport Club Internacional –, localizado no Bairro Praia de Belas, com base na Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do logradouro, os seguintes dizeres: Desportista dedicado."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.935,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

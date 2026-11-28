@@ -1,0 +1,228 @@
+{
+ "geradoEm": "2026-11-28T09:19:20.998Z",
+ "idSapl": 40107,
+ "rotulo": "Lei municipal nº 11.870, de 07 de julho de 2015",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 11870/2015@2015-07-07",
+   "data": "2015-07-07",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 11870/2015@2018-03-09",
+   "data": "2018-03-09",
+   "fonte": {
+    "idSapl": 41571,
+    "rotulo": "Lei municipal nº 12.380, de 09 de março de 2018"
+   },
+   "comandosAplicados": 8
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Ficam as empresas e as concessionárias que fornecem energia elétrica, telefonia fixa, banda larga, televisão a cabo ou outro serviço, por meio de rede aérea, obrigadas a retirar de postes a fiação excedente e sem uso que tenham instalado.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º-A",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "O descumprimento ao disposto nesta Lei sujeitará o infrator às seguintes sanções:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.380/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/inc-I",
+   "pai": "art-1-A",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "notificação para sanar a irregularidade no prazo de 30 (trinta) dias, prorrogável por igual período a critério da autoridade competente;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.380/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/inc-II",
+   "pai": "art-1-A",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "multa de 1.000 (mil) Unidades Financeiras Municipais (UFMs), recolhida ao órgão autuador ou a outro designado pelo Executivo Municipal; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.380/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/inc-III",
+   "pai": "art-1-A",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "proibição temporária de funcionamento, em caso de apresentar iminente risco à população, até que efetivamente se comprove a adequação a esta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.380/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-1",
+   "pai": "art-1-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Em caso de reincidência, a autoridade competente poderá aplicar em dobro a multa referida no inc. II do caput deste artigo.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.380/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1-A/par-2",
+   "pai": "art-1-A",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Em caso de ser aplicada multa, seu pagamento não desobriga o infrator de sanar as irregularidades existentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 12.380/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "As empresas e as concessionárias referidas no art. 1º desta Lei têm o prazo de 2 (dois) anos, contados da data de sua publicação, para se adequar às suas disposições.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "As empresas e as concessionárias referidas no art. 1º desta Lei deverão se adequar às suas disposições até 31 de dezembro de 2018.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "replace_text",
+      "lei": "Lei nº 12.380/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "O Executivo Municipal regulamentará esta Lei no prazo de 180 (cento e oitenta) dias, contados da data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3/par-unico",
+   "pai": "art-3",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "A regulamentação definirá a multa pelo não cumprimento ao disposto nesta Lei.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    },
+    {
+     "desde": 1,
+     "texto": "(Revogado)",
+     "situacao": "revogado",
+     "origem": {
+      "operacao": "revoke_node",
+      "lei": "Lei nº 12.380/2018"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

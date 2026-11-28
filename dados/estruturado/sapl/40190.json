@@ -1,0 +1,58 @@
+{
+ "idSapl": 40190,
+ "rotulo": "Lei municipal nº 11.901, de 01 de setembro de 2015",
+ "sha256Origem": "104dbf6b5b8f79a3d0317dd841c2ba0ebcdc9a37e5d4107b2a1ddeb9844bf21b",
+ "estruturadoEm": "2026-11-28T09:19:11.046Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11901",
+  "ano": "2015",
+  "data": "2015-09-01",
+  "epigrafe": "LEI Nº 11.901, DE 1º DE SETEMBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Denomina Complexo Viário Telmo Thompson Flores o conjunto de equipamentos públicos integrado pela elevada de ingresso na Avenida da Legalidade e da Democracia, a partir da Avenida Júlio de Castilhos, e pelas elevadas de saída da Avenida da Legalidade e da Democracia, no sentido do Túnel da Conceição e da Avenida Mauá, localizado no Bairro Centro Histórico.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 1º de setembro de 2015.\nJosé Fortunati,\nPrefeito.\nValter Nagelstein,\nSecretário Municipal de Urbanismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.\nCROQUI",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica denominado Complexo Viário Telmo Thompson Flores o conjunto de equipamentos públicos integrado pela elevada de ingresso na Avenida da Legalidade e da Democracia, a partir da Avenida Júlio de Castilhos, e pelas elevadas de saída da Avenida da Legalidade e da Democracia, no sentido do Túnel da Conceição e da Avenida Mauá, localizado no Bairro Centro Histórico, nos termos da Lei Complementar nº 320, de 2 de maio de 1994, e alterações posteriores."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "As placas denominativas conterão, abaixo do nome do conjunto de equipamentos públicos, os seguintes dizeres: Ex-prefeito do Município de Porto Alegre."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.956,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

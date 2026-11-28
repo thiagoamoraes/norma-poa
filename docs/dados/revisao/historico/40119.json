@@ -1,0 +1,127 @@
+{
+ "geradoEm": "2026-11-28T09:19:21.024Z",
+ "idSapl": 40119,
+ "rotulo": "Lei municipal nº 11.874, de 16 de julho de 2015",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 11874/2015@2015-07-16",
+   "data": "2015-07-16",
+   "fonte": null
+  },
+  {
+   "indice": 1,
+   "id": "l 11874/2015@2024-08-09",
+   "data": "2024-08-09",
+   "fonte": {
+    "idSapl": 49048,
+    "rotulo": "Lei municipal nº 14.018, de 09 de agosto de 2024"
+   },
+   "comandosAplicados": 3
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Fica assegurado aos travestis e aos transexuais, ao serem atendidos em estabelecimentos privados, em órgãos da Administração Direta e em entidades da Administração Indireta do Município de Porto Alegre, o direito à utilização de seu nome social constante na Carteira de Nome Social para Travestis e Transexuais, instituída pelo Decreto Estadual nº 49.122, de 17 de maio de 2012.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2-A",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º-A",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Fica assegurado o uso do nome social em solenidades do Município de Porto Alegre, sem a obrigatoriedade de apresentação da Carteira de Nome Social, quando a identificação precisa da pessoa não for necessidade intrínseca à solenidade, ou quando não houver a atribuição de direitos subjetivos decorrentes.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2-B",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º-B",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Quando a apresentação de documento de identificação for necessária devido a normas legais, ficará assegurado que durante as solenidades o cerimonial apresentará a pessoa pelo nome social.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2-B/par-unico",
+   "pai": "art-2-B",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 1,
+     "texto": "Caberá à organização da solenidade, no momento de entrada ou credenciamento, registrar o nome social pelo qual a pessoa deseja ser identificada.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "insert_node",
+      "lei": "Lei nº 14.018/2024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação.",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [],
+ "aConferir": []
+}

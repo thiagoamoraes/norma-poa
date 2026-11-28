@@ -1,0 +1,51 @@
+{
+ "idSapl": 40387,
+ "rotulo": "Lei municipal nº 11.966, de 07 de dezembro de 2015",
+ "sha256Origem": "0328f53a292c93eeb9cef56f7f272aeaacbc7f13e607f770c27bf467241e8f88",
+ "estruturadoEm": "2026-11-28T09:19:10.747Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11966",
+  "ano": "2015",
+  "data": "2015-12-07",
+  "epigrafe": "LEI Nº 11.966, DE 7 DE DEZEMBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Concede o título de Cidadão de Porto Alegre ao senhor Romildo Bolzan Júnior.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de dezembro de 2015.\nJosé Fortunati,\nPrefeito.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica concedido o título de Cidadão de Porto Alegre ao senhor Romildo Bolzan Júnior, com base na Lei nº 9.659, de 22 de dezembro de 2004."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.928,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

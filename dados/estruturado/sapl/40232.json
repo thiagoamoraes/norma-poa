@@ -1,0 +1,58 @@
+{
+ "idSapl": 40232,
+ "rotulo": "Lei municipal nº 11.921, de 21 de setembro de 2015",
+ "sha256Origem": "c5839db1f7860cf4adb0c1a178f3a078e21634675bbbdbc99062e001c72c49dc",
+ "estruturadoEm": "2026-11-28T09:19:11.004Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11921",
+  "ano": "2015",
+  "data": "2015-09-21",
+  "epigrafe": "LEI Nº 11.921, DE 21 DE SETEMBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Institui monumento com memorial em homenagem às vítimas de acidentes ocorridos com motocicletas no Estado do Rio Grande do Sul.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 21 de setembro de 2015.\nJosé Fortunati,\nPrefeito.\nVanderlei Cappellari,\nSecretário Municipal de Transporte\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica instituído monumento com memorial em homenagem às vítimas de acidentes ocorridos com motocicletas no Estado do Rio Grande do Sul."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O monumento de que trata esta Lei terá a forma da Cruz das Missões e conterá uma placa com os seguintes dizeres: Memorial às vítimas de acidentes ocorridos com motocicletas no Estado do Rio Grande do Sul."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.945,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

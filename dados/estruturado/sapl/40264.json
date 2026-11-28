@@ -1,0 +1,51 @@
+{
+ "idSapl": 40264,
+ "rotulo": "Lei municipal nº 11.931, de 06 de outubro de 2015",
+ "sha256Origem": "e60f724098352e3315558271f51da42fb01b440e625e19ccb255c80a6d26dbd8",
+ "estruturadoEm": "2026-11-28T09:19:10.930Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11931",
+  "ano": "2015",
+  "data": "2015-10-06",
+  "epigrafe": "LEI Nº 11.931, DE 6 DE OUTUBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Concede o título de Cidadão Emérito de Porto Alegre ao senhor Guacir de Llano Bueno.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 6 de outubro de 2015.\nJosé Fortunati,\nPrefeito.\nRegistre-se e publique-se.\nRonaldo Lopes Garcia,\nSecretário Municipal de Gestão, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica concedido o título de Cidadão Emérito de Porto Alegre ao senhor Guacir de Llano Bueno, com base na Lei nº 9.659, de 22 de dezembro de 2004."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.933,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

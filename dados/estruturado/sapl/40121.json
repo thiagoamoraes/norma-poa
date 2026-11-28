@@ -1,0 +1,51 @@
+{
+ "idSapl": 40121,
+ "rotulo": "Lei municipal nº 11.876, de 16 de julho de 2015",
+ "sha256Origem": "c24d0ad28451b8adbb20dd801eee543d09441c83fd12cd76e01833b292ae6ece",
+ "estruturadoEm": "2026-11-28T09:19:11.082Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11876",
+  "ano": "2015",
+  "data": "2015-07-16",
+  "epigrafe": "LEI Nº 11.876, DE 16 DE JULHO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Declara de utilidade pública o Instituto Pró-Saúde (IPS).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 16 de julho de 2015.\nSebastião Melo,\nPrefeito, em exercício.\nCleci Maria Jurach,\nSecretária Municipal de Educação.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica declarado de utilidade pública, nos termos da Lei nº 2.926, de 12 de julho de 1966, e alterações posteriores, o Instituto Pró-Saúde (IPS), com sede e foro nesta Capital."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.939,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "idSapl": 40270,
+ "rotulo": "Lei municipal nº 11.936, de 07 de outubro de 2015",
+ "sha256Origem": "afdd146b03e33e04d49f82893d4e06a1e8527ea4ec667be7968629bf3efd4b9d",
+ "estruturadoEm": "2026-11-28T09:19:10.910Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11936",
+  "ano": "2015",
+  "data": "2015-10-07",
+  "epigrafe": "LEI Nº 11.936, DE 7 DE OUTUBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a letra “c” do Anexo I da Lei nº 6.309, de 28 de dezembro de 1988 – que estabelece o Plano de Carreira dos Funcionários da Administração Centralizada do Município; dispõe sobre o Plano de Pagamento e dá outras providências –, e alterações posteriores, extinguindo 3 (três) e criando 4 (quatro) Funções Gratificadas na Secretaria Municipal da Fazenda (SMF) e determinando prazo para regulamentação de alterações estruturais decorrentes desta Lei.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 7 de outubro de 2015.\nJosé Fortunati,\nPrefeito.\nJorge Luis Tonetto,\nSecretário Municipal da Fazenda.\nElói Guimarães,\nSecretário Municipal de Administração.\nRegistre-se e publique-se.\nRonaldo Lopes Garcia,\nSecretário Municipal de Gestão, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam extintas 3 (três) Funções Gratificadas (FGs) de Assistente, código 2.1.1.5, integrantes da letra “c”, do Anexo I, da Lei nº 6.309, de 28 de dezembro de 1988, e alterações posteriores, lotadas na Secretaria Municipal da Fazenda (SMF)."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Ficam criadas 1 (uma) FG de Assistente Técnico, código 2.1.1.6, e 3 (três) FGs de Auxiliar Técnico, código 2.1.1.3, que passam a integrar a letra “c”, do Anexo I, da Lei nº 6.309, de 1988, e alterações posteriores, a serem lotadas em unidades de trabalho da SMF."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "As despesas decorrentes da aplicação desta Lei correrão à conta de dotações próprias do Executivo Municipal."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "As alterações estruturais da SMF decorrentes desta Lei serão regulamentadas por meio de Decreto, no prazo de 60 (sessenta) dias, contados da data de sua publicação."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 5,
+   "cobertura": 0.964,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

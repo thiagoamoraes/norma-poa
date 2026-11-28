@@ -1,0 +1,65 @@
+{
+ "idSapl": 40260,
+ "rotulo": "Lei municipal nº 11.928, de 05 de outubro de 2015",
+ "sha256Origem": "211718c611b1cd024f78b92f6a8cdc87d0d34c5a2b79a124ae11ca9231b8ec18",
+ "estruturadoEm": "2026-11-28T09:19:10.948Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11928",
+  "ano": "2015",
+  "data": "2015-10-05",
+  "epigrafe": "LEI Nº 11.928, DE 5 DE OUTUBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Autoriza o ingresso do Município de Porto Alegre no Consórcio de Informática na Gestão Pública Municipal (CIGA), para utilização do sistema de Gestão do Simples Nacional (GSN).",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 5 de outubro de 2015.\nJosé Fortunati,\nPrefeito.\nJorge Luís Tonetto,\nSecretário Municipal da Fazenda.\nRegistre-se e publique-se.\nRonaldo Lopes Garcia,\nSecretário Municipal de Gestão, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica autorizado o ingresso do Município de Porto Alegre no Consórcio de Informática na Gestão Pública Municipal (CIGA), nos termos do Contrato de Consórcio Público."
+  },
+  {
+   "id": "art-1/par-unico",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "O ingresso no Consórcio referido no caput objetiva a utilização do sistema de Gestão do Simples Nacional (GSN) desenvolvido pelo CIGA."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica autorizada a abertura de créditos adicionais para as despesas da contratação prevista no art. 1º desta Lei."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entrará em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 4,
+   "cobertura": 0.939,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

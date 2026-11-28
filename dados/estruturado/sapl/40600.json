@@ -1,0 +1,79 @@
+{
+ "idSapl": 40600,
+ "rotulo": "Lei municipal nº 12.024, de 08 de abril de 2016",
+ "sha256Origem": "652a95a01cbb9db6df13b43722f1cd82ff6229aef93ee91eff70a2e136e58390",
+ "estruturadoEm": "2026-11-28T09:19:10.493Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12024",
+  "ano": "2016",
+  "data": "2016-04-08",
+  "epigrafe": "LEI Nº 12.024, DE 8 DE ABRIL DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Estabelece multa ao estabelecimento localizado no Município de Porto Alegre que proibir ou constranger o aleitamento materno em suas instalações.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 8 de abril de 2016.\nJosé Fortunati,\nPrefeito.\nFernando Ritter,\nSecretário Municipal de Saúde.\nAntônio Kleber de Paula,\nSecretário Municipal da Produção, Indústria e Comércio.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "O estabelecimento localizado no Município de Porto Alegre que proibir ou constranger o aleitamento materno em suas instalações fica sujeito à multa de:"
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "150 (cento e cinquenta) Unidades Financeiras Municipais (UFMs), na primeira incidência; e"
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "250 (duzentos e cinquenta) UFMs, em caso de reincidência."
+  },
+  {
+   "id": "art-1/par-1",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 1º",
+   "texto": "Para fins desta Lei, considera-se estabelecimento o local, aberto ou fechado, destinado ao comércio, à cultura, à recreação ou à prestação de serviço público ou privado."
+  },
+  {
+   "id": "art-1/par-2",
+   "pai": "art-1",
+   "tipo": "paragrafo",
+   "rotulo": "§ 2º",
+   "texto": "O disposto no caput deste artigo independe de o estabelecimento conter área segregada para o aleitamento materno."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 6,
+   "cobertura": 0.96,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

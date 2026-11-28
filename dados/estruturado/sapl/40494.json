@@ -1,0 +1,51 @@
+{
+ "idSapl": 40494,
+ "rotulo": "Lei municipal nº 12.001, de 19 de janeiro de 2016",
+ "sha256Origem": "4744d4cbe6513c2cd8003ea0ef0aa6a06428bffe3cb260dd57bd28e7ff66e831",
+ "estruturadoEm": "2026-11-28T09:19:10.592Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12001",
+  "ano": "2016",
+  "data": "2016-01-19",
+  "epigrafe": "LEI Nº 12.001, DE 19 DE JANEIRO DE 2016.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Concede o título de Cidadão de Porto Alegre ao jornalista Milton Batista Cardoso.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 19 de janeiro de 2016.\nJosé Fortunati,\nPrefeito.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica concedido o título de Cidadão de Porto Alegre ao jornalista Milton Batista Cardoso, com base na Lei nº 9.659, de 22 de dezembro de 2004."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.929,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

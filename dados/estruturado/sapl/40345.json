@@ -1,0 +1,70 @@
+{
+ "idSapl": 40345,
+ "rotulo": "Lei municipal nº 11.953, de 18 de novembro de 2015",
+ "sha256Origem": "614f08e9a95330500bf6d61f15a9d4be6ede93b6243aa4148ab490672fd8327a",
+ "estruturadoEm": "2026-11-28T09:19:10.778Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11953",
+  "ano": "2015",
+  "data": "2015-11-18",
+  "epigrafe": "LEI Nº 11.953, DE 18 DE NOVEMBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Setenário e Festa de Nossa Senhora das Dores no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, na semana que inclua o dia 15 de setembro.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 18 de novembro de 2015.\nJosé Fortunati,\nPrefeito.\nLuiz Fernando Moraes,\nSecretário Municipal de Turismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Setenário e Festa de Nossa Senhora das Dores no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme o Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nSETEMBRO\nPERÍODO             EVENTO         DESCRIÇÃO E LOCAL DO EVENTO\nSemana que inclua SETENÁRIO E FESTA DE O evento Festa e Setenário de Nossa\no dia 15.         NOSSA SENHORA DAS Senhora das Dores acontece desde 1801\nDORES                e consiste na realização de missa e\nprocissão pelas ruas do Bairro Centro\nHistórico, durante 7 (sete) dias, sendo\nrealizadas, à noite, atividades culturais\nque são abrilhantadas por meio de\napresentações de corais, bandas,\norquestras e demais manifestações da\ncultura popular de nossa Cidade,\nmobilizando um público de mais de 600\n(seiscentas) pessoas.\nLocal: Paróquia Nossa Senhora das\nDores."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.97,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 16,
+     "caracteres": 620,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

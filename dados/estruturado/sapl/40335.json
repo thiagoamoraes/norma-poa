@@ -1,0 +1,86 @@
+{
+ "idSapl": 40335,
+ "rotulo": "Lei municipal nº 11.949, de 12 de novembro de 2015",
+ "sha256Origem": "cd52161c040e09d49cd5c4e00aa30eb9d4cb04112e637ad7ca3a8c66d7dbf9cf",
+ "estruturadoEm": "2026-11-28T09:19:10.786Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11949",
+  "ano": "2015",
+  "data": "2015-11-12",
+  "epigrafe": "LEI Nº 11.949, DE 12 DE NOVEMBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Obriga os estabelecimentos que comercializem gêneros alimentícios e tenham mais de 3 (três) caixas registradoras para atendimento aos consumidores e mais de 500m2 (quinhentos metros quadrados) de área de vendas a acomodar os produtos recomendados para pessoas com diabetes em espaço reservado e identificado de forma destacada e estabelece sanções por descumprimento a essa obrigação.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 12 de novembro de 2015.\nJosé Fortunati,\nPrefeito.\nAntônio Kleber de Paula,\nSecretário Municipal da Produção, Indústria e Comércio.\nFernando Ritter,\nSecretário Municipal da Saúde.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam os estabelecimentos que comercializem gêneros alimentícios e tenham mais de 3 (três) caixas registradoras para atendimento aos consumidores e mais de 500m2 (quinhentos metros quadrados) de área de vendas obrigados a acomodar os produtos recomendados para pessoas com diabetes em espaço reservado e identificado de forma destacada."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O descumprimento ao disposto nesta Lei sujeitará o estabelecimento infrator às seguintes sanções:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "advertência por escrito;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "multa de 500 (quinhentas) Unidades Financeiras Municipais – UFMs –, em caso de reincidência;"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "multa correspondente ao dobro do valor referido no inciso II do caput deste artigo, em caso de segunda reincidência; e"
+  },
+  {
+   "id": "art-2/inc-IV",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "IV –",
+   "texto": "cassação do Alvará de Localização e Funcionamento, em caso de terceira reincidência."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 7,
+   "cobertura": 0.963,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

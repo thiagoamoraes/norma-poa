@@ -1,0 +1,60 @@
+{
+ "idSapl": 40144,
+ "rotulo": "Lei municipal nº 11.890, de 24 de julho de 2015",
+ "sha256Origem": "8e5f37c93ee9e41589a443facd17cdb665bee3f9195fdef86134379d4c2fd3e2",
+ "estruturadoEm": "2026-11-28T09:19:11.063Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11890",
+  "ano": "2015",
+  "data": "2015-07-24",
+  "epigrafe": "LEI Nº 11.890, DE 24 DE JULHO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o caput do art. 14 e inclui incs. I, II e III no caput do art. 14 da Lei nº 11.400, de 27 de dezembro de 2012 – que altera a ementa, os arts. 1º, 2º, caput e incs. II e III, 3º, 5º, 8º, 9º, caput e incs. II, III e IV, 10 e 14, inclui incs. IV a VII no art. 2º e revoga o parágrafo único do art. 2º e o inc. I do art. 9º, todos na Lei nº 9.693, de 29 de dezembro de 2004, e alterações posteriores, alterando a denominação da Secretaria Municipal de Gestão e       Acompanhamento           Estratégicos (SMGAE) para Secretaria Municipal de Gestão (SMGes) e da Secretaria Municipal de Coordenação Política e Governança Local (SMCPGL) para Secretaria Municipal de Governança Local (SMGL) e estabelecendo-lhes finalidades básicas; altera o Anexo I e inclui Anexo III-B na Lei nº 6. 309, de 28 de dezembro de 1988, e alterações posteriores, excluindo e criando cargos em comissão e funções gratificadas; e dá outras providências –, estendendo gratificação especial aos servidores que especifica.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 24 de julho de 2015.\nSebastião Melo,\nPrefeito, em exercício.\nElói Guimarães,\nSecretário Municipal de Administração.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "No art. 14 da Lei nº 11.400, de 27 de dezembro de 2012, fica alterado o caput, e ficam incluídos incs. I, II e III no caput, conforme segue:",
+   "blocoDeAlteracao": "“Art. 14. Fica atribuída gratificação especial, com base no § 4º do\nart. 68 da Lei Complementar nº 133, de 31 de dezembro de 1985, e alterações\nposteriores, no valor correspondente a 100% (cem por cento) do cargo em comissão de nível 8 (oito), aos servidores designados para função gratificada ou\nnomeados para cargo em comissão:\nI – de nível 8 (oito) que estejam lotados na SMGes;\nII – de nível 8 (oito) que exerçam os cargos de secretários-adjuntos\nda Administração Municipal Centralizada, diretores-adjuntos ou vicepresidentes de autarquias, fundações e empresas públicas do Município de Porto\nAlegre ou coordenador-geral da assessoria operacional do gabinete do prefeito e\nque não possuam formação em nível superior; e\nIII – de nível 7 (sete) que estejam lotados no Serviço de Proteção e\nDefesa dos Direitos do Consumidor, na Secretaria Municipal de Indústria e Comércio (SMIC).” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação"
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "VETADO.",
+   "vetado": true
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.975,
+   "blocosDeAlteracao": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

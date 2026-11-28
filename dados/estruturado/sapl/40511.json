@@ -1,0 +1,60 @@
+{
+ "idSapl": 40511,
+ "rotulo": "Lei municipal nº 12.004, de 05 de fevereiro de 2016",
+ "sha256Origem": "a71c73e3428324ab459fcc00f0f2c3564626623ebb402f7124de10094c29a26f",
+ "estruturadoEm": "2026-11-28T09:19:10.560Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "12004",
+  "ano": "2016",
+  "data": "2016-02-05",
+  "epigrafe": "LEI Nº 12.004, DE 5 DE FEVEREIRO DE 2016",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera o art. 2º e inclui art. 2º-A na Lei nº 8.138, de 20 de março de 1998 – que proíbe as lutas de vale-tudo, em todas as suas modalidades, no Município de Porto Alegre e dá outras providências –, permitindo, no Município de Porto Alegre, eventos de esporte olímpico boxe, esgrima, judô, lutas ou taekwondo, bem como de esporte de combate ou arte marcial, nas condições que estabelece.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 5 de fevereiro de 2016.\nSebastião Melo,\nPrefeito, em exercício.\nJosé Edgar Meurer,\nSecretário Municipal de Esportes, Recreação e Lazer.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterado o art. 2º da Lei nº 8.138, de 20 de março de 1998, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º À pessoa física ou jurídica não será concedido pelo Executivo Municipal\nAlvará de Localização para exibição, apresentação ou programação da prática da modalidade de\nluta de que trata o art. 1º desta Lei.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica incluído art. 2º-A na Lei nº 8.138, de 1998, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º-A São permitidos, no Município de Porto Alegre, observado o disposto\nnos arts. 1º e 2º desta Lei, eventos de esporte olímpico boxe, esgrima, judô, lutas ou taekwondo,\nbem como de esporte de combate ou arte marcial, desde que praticados em consonância com as\nregras esportivas de suas respectivas confederações, federações, associações e entidades\nnacionais e internacionais reconhecidas e que seus promotores tomem as seguintes providências\npara a sua realização:\nI – fornecer e exigir o uso de equipamentos de proteção durante a competição;\nII – disponibilizar, durante a competição, ambulância com equipe médica\ndevidamente habilitada para o atendimento dos presentes;\nIII – observar, rigorosamente, ao determinar os enfrentamentos, o nível de aptidão\ndos competidores, levando em conta o tempo de treinamento, a faixa, o peso e a idade;\nIV – exigir do atleta, no ato da inscrição, atestado médico que declare a aptidão\npara competir;\nV – exigir, no ato da inscrição, além dos documentos de identificação do\ncompetidor, que esse declare a instituição, a academia, a equipe ou o técnico que está\nrepresentando, os quais deverão, por sua vez, ter registro ou filiação na respectiva federação ou\nconfederação;\nVI – exigir autorização dos pais ou do responsável, com a devida comprovação,\nem caso de competidor menor de 18 (dezoito) anos; e\nVII – garantir que os locais das competições tenham condições de habitabilidade,\nbem como possuam Plano de Proteção Contra Incêndio (PPCI).”"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 3,
+   "dispositivos": 3,
+   "cobertura": 0.98,
+   "blocosDeAlteracao": 2,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

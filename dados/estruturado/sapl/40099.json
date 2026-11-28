@@ -1,0 +1,70 @@
+{
+ "idSapl": 40099,
+ "rotulo": "Lei municipal nº 11.867, de 01 de julho de 2015",
+ "sha256Origem": "1c15c19a55485c28dad0812b8796d3940097e99f7185853c708e6bc68bda60f4",
+ "estruturadoEm": "2026-11-28T09:19:11.102Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11867",
+  "ano": "2015",
+  "data": "2015-07-01",
+  "epigrafe": "LEI Nº 11.867, DE 1º DE JULHO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Inclui o evento Jogos do Grupo Canela Preta no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, no mês de novembro, no sábado em que findarem a Semana da Consciência Negra da Cidade de Porto Alegre e a Semana da Consciência Negra e de Ação Antirracismo da Câmara Municipal de Porto Alegre.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 1º de julho de 2015.\nJosé Fortunati,\nPrefeito.\nLuiz Fernando Moraes,\nSecretário Municipal de Turismo.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica incluído o evento Jogos do Grupo Canela Preta no Anexo II da Lei nº 10.903, de 31 de maio de 2010 – Calendário de Eventos de Porto Alegre e Calendário Mensal de Atividades de Porto Alegre –, e alterações posteriores, conforme Anexo desta Lei."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  },
+  {
+   "id": "anexo",
+   "pai": null,
+   "tipo": "anexo",
+   "rotulo": "ANEXO",
+   "texto": "ANEXO\nNOVEMBRO\nDESCR IÇÃO E LOCAL DO EVEN-PERÍODO       EVENTO\nTO\nSábado em que                     Evento realizado com a finalidade\nfindarem a Se-                    de comemorar os jogos do grupo\nmana da Consci-                   Canela Preta.\nência Negra da                    Local: Campo do Periquito, na Ave-Cidade de Porto                   nida Vicente Monteggia, 2709, Bair-Alegre e a Se- JOGOS DO GRUPO CA- ro Vila Nova.\nmana da Consci- NELA PRETA\nência Negra e de\nAção     Antirracismo da Câmara\nMunicipal      de\nPorto Alegre"
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [
+   "tem_anexo",
+   "anexo_preservado_nao_interpretado"
+  ],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 3,
+   "cobertura": 0.971,
+   "blocosDeAlteracao": 0,
+   "anexos": [
+    {
+     "cabecalho": "ANEXO",
+     "linhas": 12,
+     "caracteres": 521,
+     "graficoOuTitulo": false
+    }
+   ],
+   "totalDeAnexos": 1,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

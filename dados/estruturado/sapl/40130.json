@@ -1,0 +1,68 @@
+{
+ "idSapl": 40130,
+ "rotulo": "Lei municipal nº 11.882, de 21 de julho de 2015",
+ "sha256Origem": "4895b0f362a7949e1a63b7a8ae242848db59b7f5395540d530b6f2f3096cbc3a",
+ "estruturadoEm": "2026-11-28T09:19:11.075Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11882",
+  "ano": "2015",
+  "data": "2015-07-21",
+  "epigrafe": "LEI Nº 11.882, DE 21 DE JULHO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Altera a ementa, o caput do art. 1º e o caput e os §§ 1º e 2º do art. 2º da Lei nº 11.693, de 1º de outubro de 2014 – que autoriza o Executivo Municipal a contratar financiamento junto ao Banco do Brasil S.A. e dá outras providências –, redefinindo como instituição financeira oficial pública a instituição com que o Executivo Municipal está autorizado a contratar o financiamento que estabelece e dando outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 21 de julho de 2015.\nSebastião Melo,\nPrefeito, em exercício.\nEroni Izaias Numer,\nSecretário Municipal da Fazenda, em exercício.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica alterada a Ementa da Lei nº 11.693, de 1º de outubro de 2014, conforme segue:",
+   "blocoDeAlteracao": "“Autoriza o Executivo Municipal a contratar financiamento com instituição financeira oficial pública, até o valor de R$ 20.000.000,00 (vinte milhões de reais), a serem consignados como receita no orçamento do Município\nde Porto Alegre ou como créditos adicionais, e dá outras providências.” (NR)"
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Fica alterado o caput do art. 1º da Lei nº 11.693, de 2014, conforme segue:",
+   "blocoDeAlteracao": "“Art. 1º   Fica o Executivo Municipal autorizado a contratar\nfinanciamento com instituição financeira oficial pública, até o valor de R$\n20.000.000,00 (vinte milhões de reais), observadas as disposições legais e\ncontratuais em vigor para as operações de crédito do Programa BNDES de\nModernização da Administração Tributária e da Gestão dos Setores Sociais\nBásicos Automático – BNDES PMAT Automático –, nos termos do inc. III do §\n1º do art. 9º da Resolução nº 2.827, de 30 de março de 2001, do Conselho\nMonetário Nacional (CMN), com redação dada pela Resolução nº 2.920, de 26\nde dezembro de 2001, do CMN.\n.........................................................................................” (NR)"
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "Ficam alterados o caput e os §§ 1º e 2º do art. 2º da Lei nº 11.693, de 2014, conforme segue:",
+   "blocoDeAlteracao": "“Art. 2º Para pagamento do principal, dos juros, das tarifas bancárias e de outros encargos da operação de crédito, fica a instituição financeira\noficial pública de que trata esta Lei autorizada a debitar na conta corrente em\nque são efetuados os créditos dos recursos do Município de Porto Alegre, a ser\nindicada no contrato, os montantes necessários à amortização e ao pagamento\nfinal da dívida e das tarifas bancárias, nos prazos contratualmente estipulados.\n§ 1º O valor correspondente às tarifas bancárias aplicáveis à operação será o vigente à época da cobrança, constante da Tabela de Tarifas de Serviços Bancários – Pessoa Jurídica – da instituição financeira oficial pública de\nque trata esta Lei.\n§ 2º No caso de os recursos do Município de Porto Alegre não serem depositados na instituição financeira oficial pública de que trata esta Lei,\nfica a instituição financeira depositária autorizada a debitar esses recursos e,\nposteriormente, a transferi-los a crédito da instituição financeira oficial pública,\nnos montantes necessários à amortização e ao pagamento final da dívida, nos\nprazos contratualmente estipulados, na forma estabelecida no caput deste artigo.\n.........................................................................................” (NR)"
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 4,
+   "dispositivos": 4,
+   "cobertura": 0.982,
+   "blocosDeAlteracao": 3,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

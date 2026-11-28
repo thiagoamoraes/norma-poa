@@ -1,0 +1,127 @@
+{
+ "geradoEm": "2026-11-28T09:19:21.027Z",
+ "idSapl": 40144,
+ "rotulo": "Lei municipal nº 11.890, de 24 de julho de 2015",
+ "baseConferida": true,
+ "versoes": [
+  {
+   "indice": 0,
+   "id": "l 11890/2015@2015-07-24",
+   "data": "2015-07-24",
+   "fonte": null
+  }
+ ],
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "No art. 14 da Lei nº 11.400, de 27 de dezembro de 2012, fica alterado o caput, e ficam incluídos incs. I, II e III no caput, conforme segue: “Art. 14. Fica atribuída gratificação especial, com base no § 4º do art. 68 da Lei Complementar nº 133, de 31 de dezembro de 1985, e alterações posteriores, no valor correspondente a 100% (cem por cento) do cargo em comissão de nível 8 (oito), aos servidores designados para função gratificada ou nomeados para cargo em comissão:",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-I",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "de nível 8 (oito) que estejam lotados na SMGes;",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-II",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "de nível 8 (oito) que exerçam os cargos de secretários-adjuntos da Administração Municipal Centralizada, diretores-adjuntos ou vicepresidentes de autarquias, fundações e empresas públicas do Município de Porto Alegre ou coordenador-geral da assessoria operacional do gabinete do prefeito e que não possuam formação em nível superior; e",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-1/inc-III",
+   "pai": "art-1",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "de nível 7 (sete) que estejam lotados no Serviço de Proteção e Defesa dos Direitos do Consumidor, na Secretaria Municipal de Indústria e Comércio (SMIC).” (NR)",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "Esta Lei entra em vigor na data de sua publicação",
+     "situacao": "vigente",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "estados": [
+    {
+     "desde": 0,
+     "texto": "VETADO.",
+     "situacao": "vetado",
+     "origem": {
+      "operacao": "promulgacao_original"
+     }
+    }
+   ]
+  }
+ ],
+ "naoAplicadas": [
+  {
+   "alteradora": {
+    "idSapl": 40703,
+    "rotulo": "Lei municipal nº 12.076, de 10 de junho de 2016"
+   },
+   "motivo": "comando_recusado",
+   "detalhe": "comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.400, de 27 de dezembro de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11400\",\"ano\":\"2012\",\"chave\":\"l 11400/2012\"}, versão: l 11890/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.400, de 27 de dezembro de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11400\",\"ano\":\"2012\",\"chave\":\"l 11400/2012\"}, versão: l 11890/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.400, de 27 de dezembro de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11400\",\"ano\":\"2012\",\"chave\":\"l 11400/2012\"}, versão: l 11890/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.400, de 27 de dezembro de 2012\",\"tipoAto\":\"LEI\",\"numero\":\"11400\",\"ano\":\"2012\",\"chave\":\"l 11400/2012\"}, versão: l 11890/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.964, de 30 de novembro de 2015\",\"tipoAto\":\"LEI\",\"numero\":\"11964\",\"ano\":\"2015\",\"chave\":\"l 11964/2015\"}, versão: l 11890/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.964, de 30 de novembro de 2015\",\"tipoAto\":\"LEI\",\"numero\":\"11964\",\"ano\":\"2015\",\"chave\":\"l 11964/2015\"}, versão: l 11890/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.964, de 30 de novembro de 2015\",\"tipoAto\":\"LEI\",\"numero\":\"11964\",\"ano\":\"2015\",\"chave\":\"l 11964/2015\"}, versão: l 11890/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.964, de 30 de novembro de 2015\",\"tipoAto\":\"LEI\",\"numero\":\"11964\",\"ano\":\"2015\",\"chave\":\"l 11964/2015\"}, versão: l 11890/2015) | comando aponta pra lei-alvo diferente da versão recebendo o patch (comando: {\"raw\":\"Lei nº 11.964, de 30 de novembro de 2015\",\"tipoAto\":\"LEI\",\"numero\":\"11964\",\"ano\":\"2015\",\"chave\":\"l 11964/2015\"}, versão: l 11890/2015)",
+   "enderecos": [
+    "art-14",
+    "art-3"
+   ]
+  }
+ ],
+ "aConferir": []
+}

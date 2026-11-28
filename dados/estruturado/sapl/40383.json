@@ -1,0 +1,100 @@
+{
+ "idSapl": 40383,
+ "rotulo": "Lei municipal nº 11.965, de 03 de dezembro de 2015",
+ "sha256Origem": "4ff5782792b2a369e49b84ca82a12c270a5bab32e16fa9a3fb8f6d92fc3c3b10",
+ "estruturadoEm": "2026-11-28T09:19:10.748Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11965",
+  "ano": "2015",
+  "data": "2015-12-03",
+  "epigrafe": "LEI Nº 11.965, DE 3 DE DEZEMBRO DE 2015.",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "ementa": "Ficam os mercados, os supermercados, os hipermercados e os estabelecimentos congêneres cuja área de vendas seja superior a 500m2 (quinhentos metros quadrados), ou que possuam mais de 3 (três) caixas registradoras, obrigados acomodar, em espaço único e de destaque – gôndolas ou prateleiras –, os produtos alimentícios especialmente preparados sem a adição de glúten ou lactose e dá outras providências.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNICIPAL DE PORTO ALEGRE, 3 de dezembro de 2015.\nJosé Fortunati,\nPrefeito.\nAntônio Kleber de Paula,\nSecretário Municipal da Produção, Indústria e Comércio.\nRegistre-se e publique-se.\nUrbano Schmitt,\nSecretário Municipal de Gestão.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Ficam os mercados, os supermercados, os hipermercados e os estabelecimentos congêneres cuja área de vendas seja superior a 500m2 (quinhentos metros quadrados), ou que possuam mais de 3 (três) caixas registradoras, obrigados acomodar, em espaço único e de destaque – gôndolas ou prateleiras –, os produtos alimentícios especialmente preparados sem a adição de glúten ou lactose."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "O não cumprimento ao disposto nesta Lei sujeitará o estabelecimento infrator às seguintes penalidades:"
+  },
+  {
+   "id": "art-2/inc-I",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "I –",
+   "texto": "na primeira autuação, multa de 300 (trezentas) Unidades Financeiras Municipais (UFMs) diárias, enquanto persistir a situação, a qual, caso não seja regularizada dentro do prazo estabelecido pelo órgão fiscalizador, será aumentada para 500 (quinhentas) UFMs diárias;"
+  },
+  {
+   "id": "art-2/inc-II",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "II –",
+   "texto": "na primeira reincidência ou segunda autuação, multa de 500 (quinhentas) UFMs diárias, enquanto persistir a situação, a qual, caso não seja regularizada dentro do prazo estabelecido pelo órgão fiscalizador, passará à cassação do Alvará de Localização e Funcionamento; e"
+  },
+  {
+   "id": "art-2/inc-III",
+   "pai": "art-2",
+   "tipo": "inciso",
+   "rotulo": "III –",
+   "texto": "na segunda reincidência ou terceira autuação, cassação do Alvará de Localização e Funcionamento."
+  },
+  {
+   "id": "art-2/par-unico",
+   "pai": "art-2",
+   "tipo": "paragrafo",
+   "rotulo": "Parágrafo único.",
+   "texto": "Ocorrendo a cassação do Alvará de Localização e Funcionamento prevista nos incs. II e III do caput deste artigo, fica o infrator impedido de recebê-lo novamente pelo prazo de 5 (cinco) anos, contados da data de sua aplicação."
+  },
+  {
+   "id": "art-3",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 3º",
+   "texto": "O Executivo Municipal, por meio de seu órgão competente, fiscalizará a aplicação desta Lei, bem como receberá e apurará as denúncias de consumidores devidamente comprovadas."
+  },
+  {
+   "id": "art-4",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 4º",
+   "texto": "Os estabelecimentos referidos no caput do art. 1º desta Lei terão o prazo de 60 (sessenta) dias, contados da data de sua publicação, para se adaptarem às suas disposições."
+  },
+  {
+   "id": "art-5",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 5º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 5,
+   "dispositivos": 9,
+   "cobertura": 0.966,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}

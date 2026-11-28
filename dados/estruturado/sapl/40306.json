@@ -1,0 +1,52 @@
+{
+ "idSapl": 40306,
+ "rotulo": "Lei municipal nº 11.942, de 27 de outubro de 2015",
+ "sha256Origem": "a44fe90cf9d4bc344aa50ba9015ba00c48c43e55777d7d7e8d5d4ec2144f8866",
+ "estruturadoEm": "2026-11-28T09:19:10.795Z",
+ "versaoEstruturador": 32,
+ "cabecalho": {
+  "tipoAto": "LEI",
+  "numero": "11942",
+  "ano": "2015",
+  "data": "2015-10-27",
+  "epigrafe": "REPUBLICAÇÃO",
+  "proveniencia": {
+   "promulgadoPor": "PREFEITO",
+   "motivoProvavel": "sancao_normal"
+  }
+ },
+ "cabecalhoTexto": "LEI Nº 11.942, DE 27 DE OUTUBRO DE 2015.",
+ "ementa": "Concede o título de Cidadão de Porto Alegre ao senhor Neory Müller.",
+ "preambulo": "O PREFEITO MUNICIPAL DE PORTO ALEGRE Faço saber que a Câmara Municipal aprovou e eu, no uso das atribuições que me confere o inciso II do artigo 94 da Lei Orgânica do Município, sanciono a seguinte Lei:",
+ "fecho": "PREFEITURA MUNIC IPAL DE PORTO ALEGRE, 27 de outubro de 2015.\nJosé Fortunati,\nPrefeito.\nRegistre-se e publique-se.\nRonaldo Lopes Garcia,\nSecretário Municipal de Gestão, em exercício.",
+ "dispositivos": [
+  {
+   "id": "art-1",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 1º",
+   "texto": "Fica concedido o título de Cidadão de Porto Alegre ao senhor Neory Müller, com base na Lei nº 9.659, de 22 de dezembro de 2004."
+  },
+  {
+   "id": "art-2",
+   "pai": null,
+   "tipo": "artigo",
+   "rotulo": "Art. 2º",
+   "texto": "Esta Lei entra em vigor na data de sua publicação."
+  }
+ ],
+ "verificacao": {
+  "situacao": "aceita",
+  "motivos": [],
+  "avisos": [],
+  "metricas": {
+   "artigos": 2,
+   "dispositivos": 2,
+   "cobertura": 0.96,
+   "blocosDeAlteracao": 0,
+   "lacunas": [],
+   "naoLocalizados": [],
+   "rotulosDivergentes": []
+  }
+ }
+}
